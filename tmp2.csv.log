@@ -1,0 +1,70 @@
++ directory-metadata
++ '[' -x /usr/lib/command-not-found ']'
++ /usr/lib/command-not-found -- directory-metadata
+directory-metadata: command not found
++ return 127
++ head spacegroups.csv
++ cut -d , -f 1
++ IFS=
++ read -r row_item
++ awk 'NR == 1 || NR % 2 == 0' tmp.csv
++ curl --silent http://crystallography.net/cod/1000002.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000003.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000007.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000008.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000009.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000010.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000011.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000012.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000013.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
++ curl --silent http://crystallography.net/cod/1000014.cif
++ cif2xyz tmp-36483.cif
++ xyz2dmatrix
++ rm tmp-36483.cif
++ IFS=
++ read -r row_item
