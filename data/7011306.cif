@@ -1,0 +1,350 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/13/7011306.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7011306
+loop_
+_publ_author_name
+'Devi, M. Suseela'
+'Vidyasagar, K.'
+_publ_section_title
+;
+ First examples of sulfides in the quaternary A/Cd/Sn/S (A = Li, Na)
+ systems: molten flux synthesis and single crystal X-ray structures of
+ Li2CdSnS4, Na2CdSnS4 and Na6CdSn4S12
+;
+_journal_issue                   9
+_journal_name_full
+'Journal of the Chemical Society, Dalton Transactions'
+_journal_page_first              2092
+_journal_paper_doi               10.1039/b110254k
+_journal_year                    2002
+_chemical_formula_sum            'Cd Li2 S4 Sn'
+_chemical_formula_weight         378.266
+_chemical_name_systematic
+; 
+? 
+;
+_space_group_IT_number           59
+_symmetry_space_group_name_Hall  '-P 2ab 2a'
+_symmetry_space_group_name_H-M   'P m m n :2'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.9654(15)
+_cell_length_b                   6.4917(15)
+_cell_length_c                   6.9685(12)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      15.23
+_cell_measurement_theta_min      5.11
+_cell_volume                     360.33(12)
+_computing_cell_refinement       'CAD$ programs'
+_computing_data_collection       'CAD4 programs'
+_computing_data_reduction        MOLEN
+_computing_molecular_graphics    ORTEP92
+_computing_publication_material  SHELXL-93
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Enraf Nonius CAD4'
+_diffrn_measurement_method       2theta-omega
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK/a
+_diffrn_radiation_wavelength     0.70730
+_diffrn_reflns_av_R_equivalents  0.0216
+_diffrn_reflns_av_sigmaI/netI    0.0195
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            689
+_diffrn_reflns_theta_max         24.84
+_diffrn_reflns_theta_min         2.91
+_diffrn_standards_decay_%        0%
+_diffrn_standards_interval_time  '1 hour'
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    7.450
+_exptl_absorpt_correction_T_max  0.9985
+_exptl_absorpt_correction_T_min  0.6963
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            'orange colour'
+_exptl_crystal_density_diffrn    3.440
+_exptl_crystal_description       'needle shaped'
+_exptl_crystal_F_000             336
+_exptl_crystal_size_max          0.1
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         4.987
+_refine_diff_density_min         -2.623
+_refine_diff_density_rms         0.372
+_refine_ls_extinction_coef       0.0110(32)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.302
+_refine_ls_goodness_of_fit_obs   1.348
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     33
+_refine_ls_number_reflns         378
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.302
+_refine_ls_restrained_S_obs      1.348
+_refine_ls_R_factor_all          0.0525
+_refine_ls_R_factor_obs          0.0495
+_refine_ls_shift/esd_max         -0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0694P)^2^+6.1594P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1476
+_refine_ls_wR_factor_obs         0.1449
+_reflns_number_observed          343
+_reflns_number_total             378
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            b110254k.txt
+_cod_data_source_block           sus1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0694P)^2^+6.1594P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0694P)^2^+6.1594P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        Li2CdSnS4
+_cod_database_code               7011306
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y, z'
+'x, -y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x, -y, -z'
+'x-1/2, -y, -z'
+'-x, y-1/2, -z'
+'x-1/2, y-1/2, -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cd 0.0222(10) 0.0222(11) 0.0219(10) 0.000 0.000 0.000
+Sn 0.0111(9) 0.0110(10) 0.0166(9) 0.000 0.000 0.000
+S(1) 0.029(4) 0.023(4) 0.024(3) -0.001(3) 0.000 0.000
+S(2) 0.019(3) 0.001(4) 0.023(3) 0.001(2) 0.000 0.000
+S(3) 0.019(3) 0.015(3) 0.021(3) 0.000(2) 0.001(2) 0.000(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Cd Cd 0.2500 0.2500 0.6567(2) 0.0221(7) Uani 1 d S .
+Sn Sn 0.2500 0.7500 0.3298(2) 0.0129(7) Uani 1 d S .
+S(1) S 0.2500 0.1190(14) 0.3152(10) 0.025(2) Uani 0.50 d SP .
+S(2) S 0.2500 0.6355(10) 0.6571(8) 0.014(2) Uani 0.50 d SP .
+S(3) S 0.5068(5) 0.1234(10) 0.8375(6) 0.0184(13) Uani 0.50 d P .
+Li Li 0.4930(27) 0.2500 0.1675(33) 0.020 Uiso 1 d S .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cd Cd -0.8075 1.2024 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sn Sn -0.6537 1.4246 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+S(2) Cd S(2) 179.9(3) 3 . ?
+S(2) Cd S(1) 70.4(2) 3 . ?
+S(2) Cd S(1) 109.7(2) . . ?
+S(2) Cd S(1) 109.7(2) 3 3 ?
+S(2) Cd S(1) 70.4(2) . 3 ?
+S(1) Cd S(1) 39.3(4) . 3 ?
+S(2) Cd S(3) 108.9(2) 3 3 ?
+S(2) Cd S(3) 71.1(2) . 3 ?
+S(1) Cd S(3) 125.19(11) . 3 ?
+S(1) Cd S(3) 111.0(2) 3 3 ?
+S(2) Cd S(3) 71.1(2) 3 . ?
+S(2) Cd S(3) 108.9(2) . . ?
+S(1) Cd S(3) 111.0(2) . . ?
+S(1) Cd S(3) 125.19(11) 3 . ?
+S(3) Cd S(3) 37.8(3) 3 . ?
+S(2) Cd S(3) 71.1(2) 3 2 ?
+S(2) Cd S(3) 108.9(2) . 2 ?
+S(1) Cd S(3) 111.0(2) . 2 ?
+S(1) Cd S(3) 125.19(11) 3 2 ?
+S(3) Cd S(3) 120.5(2) 3 2 ?
+S(3) Cd S(3) 107.3(2) . 2 ?
+S(2) Cd S(3) 108.9(2) 3 4 ?
+S(2) Cd S(3) 71.1(2) . 4 ?
+S(1) Cd S(3) 125.19(11) . 4 ?
+S(1) Cd S(3) 111.0(2) 3 4 ?
+S(3) Cd S(3) 107.3(2) 3 4 ?
+S(3) Cd S(3) 120.5(2) . 4 ?
+S(3) Cd S(3) 37.8(3) 2 4 ?
+S(1) Sn S(1) 175.1(3) 3 1_565 ?
+S(1) Sn S(2) 110.5(2) 3 3_565 ?
+S(1) Sn S(2) 74.4(2) 1_565 3_565 ?
+S(1) Sn S(2) 74.4(2) 3 . ?
+S(1) Sn S(2) 110.5(2) 1_565 . ?
+S(2) Sn S(2) 36.1(3) 3_565 . ?
+S(1) Sn S(3) 68.8(2) 3 8_566 ?
+S(1) Sn S(3) 108.7(2) 1_565 8_566 ?
+S(2) Sn S(3) 124.51(12) 3_565 8_566 ?
+S(2) Sn S(3) 110.8(2) . 8_566 ?
+S(1) Sn S(3) 108.7(2) 3 6_566 ?
+S(1) Sn S(3) 68.8(2) 1_565 6_566 ?
+S(2) Sn S(3) 110.79(15) 3_565 6_566 ?
+S(2) Sn S(3) 124.51(12) . 6_566 ?
+S(3) Sn S(3) 40.0(3) 8_566 6_566 ?
+S(1) Sn S(3) 68.8(2) 3 7_666 ?
+S(1) Sn S(3) 108.7(2) 1_565 7_666 ?
+S(2) Sn S(3) 124.51(12) 3_565 7_666 ?
+S(2) Sn S(3) 110.79(15) . 7_666 ?
+S(3) Sn S(3) 107.3(2) 8_566 7_666 ?
+S(3) Sn S(3) 122.0(2) 6_566 7_666 ?
+S(1) Sn S(3) 108.7(2) 3 5_666 ?
+S(1) Sn S(3) 68.8(2) 1_565 5_666 ?
+S(2) Sn S(3) 110.8(2) 3_565 5_666 ?
+S(2) Sn S(3) 124.51(12) . 5_666 ?
+S(3) Sn S(3) 122.0(2) 8_566 5_666 ?
+S(3) Sn S(3) 107.3(2) 6_566 5_666 ?
+S(3) Sn S(3) 40.0(3) 7_666 5_666 ?
+S(1) S(1) Li 68.8(3) 3 2 ?
+S(1) S(1) Li 68.8(3) 3 . ?
+Li S(1) Li 110.8(10) 2 . ?
+S(1) S(1) Sn 177.6(2) 3 1_545 ?
+Li S(1) Sn 112.3(3) 2 1_545 ?
+Li S(1) Sn 112.3(3) . 1_545 ?
+S(1) S(1) Cd 70.3(2) 3 . ?
+Li S(1) Cd 106.9(6) 2 . ?
+Li S(1) Cd 106.9(6) . . ?
+Sn S(1) Cd 107.2(3) 1_545 . ?
+S(2) S(2) Sn 72.0(2) 3_565 . ?
+S(2) S(2) Li 72.7(2) 3_565 5_666 ?
+Sn S(2) Li 111.9(5) . 5_666 ?
+S(2) S(2) Li 72.7(2) 3_565 6_566 ?
+Sn S(2) Li 111.9(5) . 6_566 ?
+Li S(2) Li 110.1(9) 5_666 6_566 ?
+S(2) S(2) Cd 179.93(14) 3_565 . ?
+Sn S(2) Cd 108.0(2) . . ?
+Li S(2) Cd 107.3(2) 5_666 . ?
+Li S(2) Cd 107.3(2) 6_566 . ?
+S(3) S(3) Sn 70.0(2) 3 5_666 ?
+S(3) S(3) Li 179.2(5) 3 5_656 ?
+Sn S(3) Li 109.5(6) 5_666 5_656 ?
+S(3) S(3) Li 70.4(2) 3 1_556 ?
+Sn S(3) Li 112.2(5) 5_666 1_556 ?
+Li S(3) Li 110.5(4) 5_656 1_556 ?
+S(3) S(3) Cd 71.11(15) 3 . ?
+Sn S(3) Cd 107.3(2) 5_666 . ?
+Li S(3) Cd 108.5(6) 5_656 . ?
+Li S(3) Cd 108.8(5) 1_556 . ?
+S(1) Li S(1) 42.4(6) . 3 ?
+S(1) Li S(3) 69.2(4) . 5_656 ?
+S(1) Li S(3) 111.6(7) 3 5_656 ?
+S(1) Li S(3) 111.6(7) . 7_666 ?
+S(1) Li S(3) 69.2(4) 3 7_666 ?
+S(3) Li S(3) 178.3(11) 5_656 7_666 ?
+S(1) Li S(3) 109.1(7) . 1_554 ?
+S(1) Li S(3) 124.8(9) 3 1_554 ?
+S(3) Li S(3) 69.5(4) 5_656 1_554 ?
+S(3) Li S(3) 108.8(7) 7_666 1_554 ?
+S(1) Li S(3) 124.8(9) . 3_554 ?
+S(1) Li S(3) 109.1(7) 3 3_554 ?
+S(3) Li S(3) 108.8(7) 5_656 3_554 ?
+S(3) Li S(3) 69.5(4) 7_666 3_554 ?
+S(3) Li S(3) 39.3(5) 1_554 3_554 ?
+S(1) Li S(2) 124.6(10) . 5_666 ?
+S(1) Li S(2) 110.7(8) 3 5_666 ?
+S(3) Li S(2) 107.7(7) 5_656 5_666 ?
+S(3) Li S(2) 73.1(4) 7_666 5_666 ?
+S(3) Li S(2) 121.6(9) 1_554 5_666 ?
+S(3) Li S(2) 108.9(7) 3_554 5_666 ?
+S(1) Li S(2) 110.7(8) . 7_656 ?
+S(1) Li S(2) 124.6(10) 3 7_656 ?
+S(3) Li S(2) 73.1(4) 5_656 7_656 ?
+S(3) Li S(2) 107.7(7) 7_666 7_656 ?
+S(3) Li S(2) 108.9(7) 1_554 7_656 ?
+S(3) Li S(2) 121.6(9) 3_554 7_656 ?
+S(2) Li S(2) 34.6(4) 5_666 7_656 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cd S(2) 2.503(7) 3 ?
+Cd S(2) 2.503(7) . ?
+Cd S(1) 2.527(8) . ?
+Cd S(1) 2.527(8) 3 ?
+Cd S(3) 2.539(5) 3 ?
+Cd S(3) 2.539(5) . ?
+Cd S(3) 2.539(5) 2 ?
+Cd S(3) 2.539(5) 4 ?
+Sn S(1) 2.397(9) 3 ?
+Sn S(1) 2.397(9) 1_565 ?
+Sn S(2) 2.399(6) 3_565 ?
+Sn S(2) 2.399(6) . ?
+Sn S(3) 2.406(5) 8_566 ?
+Sn S(3) 2.406(5) 6_566 ?
+Sn S(3) 2.406(5) 7_666 ?
+Sn S(3) 2.406(5) 5_666 ?
+S(1) S(1) 1.70(2) 3 ?
+S(1) Li 2.35(2) 2 ?
+S(1) Li 2.35(2) . ?
+S(1) Sn 2.397(9) 1_545 ?
+S(2) S(2) 1.486(13) 3_565 ?
+S(2) Li 2.50(2) 5_666 ?
+S(2) Li 2.50(2) 6_566 ?
+S(3) S(3) 1.644(14) 3 ?
+S(3) Sn 2.406(5) 5_666 ?
+S(3) Li 2.424(7) 5_656 ?
+S(3) Li 2.45(2) 1_556 ?
+Li S(1) 2.35(2) 3 ?
+Li S(3) 2.424(7) 5_656 ?
+Li S(3) 2.424(7) 7_666 ?
+Li S(3) 2.45(2) 1_554 ?
+Li S(3) 2.45(2) 3_554 ?
+Li S(2) 2.50(2) 5_666 ?
+Li S(2) 2.50(2) 7_656 ?

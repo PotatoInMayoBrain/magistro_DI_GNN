@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/56/2105678.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105678
+loop_
+_publ_author_name
+'Ehrenberg, H.'
+'Hasse, B.'
+'Schwarz, K.'
+'Epple, M.'
+_publ_section_title
+;
+ Structure determination of lithium chloroacetate, lithium bromoacetate
+ and lithium iodoacetate by powder diffraction
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              517
+_journal_page_last               524
+_journal_paper_doi               10.1107/S0108768199003614
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_structural     Br-CH2-COOLi
+_chemical_formula_sum            'C2 H2 Br Li O2'
+_chemical_formula_weight         144.88
+_chemical_melting_point          478.5
+_chemical_name_common            'lithium bromoacetat'
+_chemical_name_systematic        'bromoacetic acid, lithium salt'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source
+'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.946(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.7165(11)
+_cell_length_b                   4.8610(6)
+_cell_length_c                   9.0228(11)
+_cell_measurement_temperature    298
+_cell_volume                     425.15(9)
+_computing_cell_refinement       FULLPROF
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      298
+_diffrn_radiation_monochromator  Germanium
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     1.2841
+_refine_ls_goodness_of_fit_all   2.24
+_cod_data_source_file            hr0041.cif
+_cod_data_source_block           br
+_cod_depositor_comments
+;
+Adding '_diffrn_ambient_temperature      298', assuming 'YES' to be
+indication of room temperature S.G.
+
+The following automatic conversions were performed:
+
+'_diffrn_ambient_temperature' value 'YES' was changed to '?' - the
+value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2105678
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y+1/2, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Br(1) .0090(10) .0510(10) .0160(10) .0090(10) -.0090(10) -.0090(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Br(1) .3679(3) .1644(7) .1544(5) .058 1.0
+O(1) .1020(10) .305(4) .969(2) .004 1.0
+O(2) .089(2) -.067(3) .824(2) .004 1.0
+C(1) .140(3) .070(5) .921(3) .004 1.0
+C(2) .269(2) -.083(5) .010(3) .004 1.0
+Li(1) .000(5) .600(10) .858(6) .004 1.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Br(1) C(2) C(1) 1_556 1_556 . 111.9 yes
+O(1) C(1) O(2) . . . 129.7 yes
+C(2) C(1) O(1) 1_556 . . 117.8 yes
+C(2) C(1) O(2) 1_556 . . 112.3 yes
+O(1) Li(1) O(1) . . 3_567 91.4 yes
+O(2) Li(1) O(2) 2_556 . 1_565 114.1 yes
+O(1) Li(1) O(2) . . 2_556 119.6 yes
+O(1) Li(1) O(2) . . 1_565 106.5 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Br(1) C(2) . 1.97 yes
+C(1) C(2) 1_556 1.62 yes
+C(1) O(1) . 1.29 yes
+C(1) O(2) . 1.18 yes
+Li(1) O(1) . 1.99 yes
+Li(1) O(1) 3_567 1.97 yes
+Li(1) O(2) 2_556 1.99 yes
+Li(1) O(2) 1_565 1.85 yes

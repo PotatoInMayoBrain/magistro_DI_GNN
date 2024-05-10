@@ -1,0 +1,233 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-26 09:43:25 +0200 (Fri, 26 Jan 2018) $
+#$Revision: 205692 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/81/2108171.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2108171
+loop_
+_publ_author_name
+'Bull, Craig L.'
+'Funnell, Nicholas P.'
+'Pulham, Colin R.'
+'Marshall, William G.'
+'Allan, David R.'
+_publ_section_title
+;
+ A new high-pressure polymorph of phosphoric acid
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1068
+_journal_page_last               1074
+_journal_paper_doi               10.1107/S205252061701441X
+_journal_volume                  73
+_journal_year                    2017
+_chemical_compound_source        'Sigma Aldrich'
+_chemical_formula_moiety         'D3 O4 P'
+_chemical_formula_sum            'D3 O4 P'
+_chemical_formula_weight         101.01
+_chemical_melting_point          315.5
+_chemical_name_common            'Phosphoric acid'
+_chemical_name_systematic
+;
+Phosphoric acid
+;
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      19
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   4.6332(6)
+_cell_length_b                   8.5169(10)
+_cell_length_c                   14.4323(15)
+_cell_measurement_pressure       1.65
+_cell_measurement_temperature    295
+_cell_volume                     569.51(12)
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'ZnS scintillator'
+_diffrn_detector_type            custom
+_diffrn_measurement_device_type  'PEARL diffractometer'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_type           Neutron
+_diffrn_source                   'Pulsed neutron source'
+_diffrn_source_target            W
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using custom ISIS routines.
+;
+_exptl_crystal_density_diffrn    2.356
+_pd_char_colour                  white
+_pd_instr_dist_spec/detc         800
+_pd_instr_dist_src/spec          12800
+_pd_instr_location
+'ISIS Neutron Facility, Rutherford Appleton Laboratory'
+_pd_meas_2theta_fixed            90
+_pd_meas_scan_method             Time-of-flight
+_pd_proc_info_data_reduction
+;
+Custom ISIS software
+;
+_pd_proc_info_excluded_regions
+;
+?
+
+;
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr
+;
+No requirement for preferred orientation correction
+;
+_pd_proc_ls_profile_function
+;
+Voigt function convoluted with a back-to-back double exponential.
+;
+_pd_proc_ls_prof_wR_factor       0.0447
+_pd_spec_mounting                'TiZr Capsule'
+_pd_spec_mount_mode              transmission
+_refine_ls_goodness_of_fit_all   1.31
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     84
+_refine_ls_number_restraints     55
+_refine_ls_R_Fsqd_factor         0.0979
+_refine_ls_shift/su_max          0.04
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            xk5045sup1.cif
+_cod_data_source_block           Phosphoric_acid_II_1.65_GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '315.5 K' was changed to '315.5' -
+the value should be numeric and without a unit designator.
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+;
+_cod_original_cell_volume        569.51(7)
+_cod_database_code               2108171
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'x+1/2, -y+1/2, -z '
+'-x, y+1/2, -z+1/2 '
+'-x+1/2, -y, z+1/2 '
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+P P11 0.8886(26) 0.2897(13) -0.2295(8) 1.0 Uiso 0.0032(8) 4
+O O11 0.675(4) 0.1586(18) -0.2011(11) 1.0 Uiso 0.0032(8) 4
+D D11 0.729(4) 0.0871(22) -0.1558(13) 1.0 Uiso 0.0280(23) 4
+O O12 1.0715(35) 0.3340(19) -0.1452(10) 1.0 Uiso 0.0032(8) 4
+O O13 0.7227(34) 0.4356(15) -0.2665(11) 1.0 Uiso 0.0032(8) 4
+D D13 0.651(4) 0.5129(25) -0.2217(13) 1.0 Uiso 0.0280(23) 4
+O O14 1.0799(33) 0.2254(19) -0.3089(10) 1.0 Uiso 0.0032(8) 4
+D D14 1.141(5) 0.3000(25) -0.3551(12) 1.0 Uiso 0.0280(23) 4
+P P22 0.5562(23) 0.5122(12) 0.0009(8) 1.0 Uiso 0.0032(8) 4
+O O21 0.7846(29) 0.6428(15) 0.0149(11) 1.0 Uiso 0.0032(8) 4
+D D21 0.976(4) 0.6071(24) 0.0319(16) 1.0 Uiso 0.0280(23) 4
+O O22 0.4582(34) 0.5229(21) -0.1014(9) 1.0 Uiso 0.0032(8) 4
+D D22 0.296(4) 0.4570(29) -0.1191(14) 1.0 Uiso 0.0280(23) 4
+O O23 0.6961(33) 0.3489(14) 0.0136(12) 1.0 Uiso 0.0032(8) 4
+D D23 0.635(5) 0.2809(23) 0.0644(13) 1.0 Uiso 0.0280(23) 4
+O O24 0.3018(31) 0.5306(17) 0.0685(9) 1.0 Uiso 0.0032(8) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+P 8.0
+O 32.0
+D 24.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O11 P11 O12 108.8(11) no
+O11 P11 O13 110.5(12) no
+O11 P11 O14 107.9(11) no
+O12 P11 O13 110.5(11) no
+O12 P11 O14 111.0(12) no
+O13 P11 O14 108.1(11) no
+P11 O11 D11 119(2) no
+P11 O13 D13 118.6(17) no
+P11 O14 D14 116.5(18) no
+O21 P22 O22 106.4(10) no
+O21 P22 O23 110.1(9) no
+O21 P22 O24 111.6(10) no
+O22 P22 O23 106.9(11) no
+O22 P22 O24 112.0(9) no
+O23 P22 O24 109.8(10) no
+P22 O21 D21 115.7(15) no
+P22 O22 D22 116.3(18) no
+P22 O23 D23 120.1(18) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P11 O11 1.55(2) no
+P11 O12 1.53(2) no
+P11 O13 1.556(18) no
+P11 O14 1.548(19) no
+O11 D11 0.93(2) no
+O13 D13 0.98(2) no
+O14 D14 0.96(2) no
+P22 O21 1.550(17) no
+P22 O22 1.547(17) no
+P22 O23 1.546(16) no
+P22 O24 1.537(17) no
+O21 D21 0.97(2) no
+O22 D22 0.97(3) no
+O23 D23 0.98(2) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+O12 P11 O11 D11 -32(2) no
+O13 P11 O11 D11 -153(2) no
+O14 P11 O11 D11 89(2) no
+O11 P11 O13 D13 84.8(19) no
+O12 P11 O13 D13 -36(2) no
+O14 P11 O13 D13 -157.4(17) no
+O11 P11 O14 D14 146(2) no
+O12 P11 O14 D14 -94(2) no
+O13 P11 O14 D14 27(2) no
+O22 P22 O21 D21 -118(2) no
+O23 P22 O21 D21 -3(2) no
+O24 P22 O21 D21 120(2) no
+O21 P22 O22 D22 -172(2) no
+O23 P22 O22 D22 70(2) no
+O24 P22 O22 D22 -50(2) no
+O21 P22 O23 D23 116(2) no
+O22 P22 O23 D23 -129(2) no
+O24 P22 O23 D23 -7(2) no

@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/35/9013579.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013579
+loop_
+_publ_author_name
+'Kyono, A.'
+_publ_section_title
+;Molecular conformation and anion configuration variations for As4S4 and
+ As4Se4 in an anion-substituted solid solution Locality: synthetic Note:
+ S1Se1-14
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              451
+_journal_page_last               460
+_journal_paper_doi               10.2138/am.2009.3075
+_journal_volume                  94
+_journal_year                    2009
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'As S0.84 Se0.16'
+_chemical_name_mineral           Realgar
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.444
+_cell_angle_gamma                90
+_cell_formula_units_Z            16
+_cell_length_a                   9.3874
+_cell_length_b                   13.6002
+_cell_length_c                   6.6233
+_cell_volume                     811.012
+_database_code_amcsd             0004869
+_exptl_crystal_density_diffrn    3.751
+_cod_original_formula_sum        'As (S.84 Se.16)'
+_cod_database_code               9013579
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As1 0.02910 0.02110 0.02680 -0.00390 0.00690 -0.00400
+As2 0.02420 0.02230 0.02980 -0.00050 0.01070 0.00110
+As3 0.02570 0.02850 0.02210 -0.00250 0.00640 -0.00280
+As4 0.02540 0.02550 0.02930 0.00490 0.00360 0.00310
+SX1 0.03700 0.02790 0.03300 0.00290 0.01540 -0.00110
+SeX1 0.03700 0.02790 0.03300 0.00290 0.01540 -0.00110
+SX2 0.03300 0.02680 0.03170 -0.00310 0.01180 0.00230
+SeX2 0.03300 0.02680 0.03170 -0.00310 0.01180 0.00230
+SX3 0.03600 0.02800 0.03610 0.00670 0.01130 0.00860
+SeX3 0.03600 0.02800 0.03610 0.00670 0.01130 0.00860
+SX4 0.03300 0.03230 0.03060 0.00950 0.01160 -0.00380
+SeX4 0.03300 0.03230 0.03060 0.00950 0.01160 -0.00380
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As1 0.12090 -0.02041 0.76250 1.00000 0.02580 As 0
+As2 0.42429 0.13968 0.85740 1.00000 0.02480 As 0
+As3 0.32160 0.12759 0.17750 1.00000 0.02550 As 0
+As4 0.04054 0.16105 0.71310 1.00000 0.02760 As 0
+SX1 0.34493 -0.00749 0.69874 0.81200 0.03150 S 0
+SeX1 0.34493 -0.00749 0.69874 0.18800 0.03150 Se 0
+SX2 0.21445 -0.02433 0.11905 0.80700 0.03000 S 0
+SeX2 0.21445 -0.02433 0.11905 0.19300 0.03000 Se 0
+SX3 0.23941 0.22734 0.63880 0.88900 0.03330 S 0
+SeX3 0.23941 0.22734 0.63880 0.11100 0.03330 Se 0
+SX4 0.10719 0.21272 0.05311 0.85200 0.03140 S 0
+SeX4 0.10719 0.21272 0.05311 0.14800 0.03140 Se 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:24:53+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004869

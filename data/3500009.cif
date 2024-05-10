@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 10:40:55 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176722 $
+#$URL: svn://www.crystallography.net/cod/cif/3/50/00/3500009.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_3500009
+loop_
+_publ_author_name
+'Armel Le Bail'
+_publ_section_comment
+;
+Solved in direct space by the ESPOIR software (Le Bail, A. (2001). Mater 
+Sci. Forum, 378, 65-70) to Rp = 13.6 percent.
+
+Unrefined due to dataset limited to 54(2-theta degrees).
+
+Original data are from Table 2 in :
+Pawley, G.S. (1981). J. Appl. Cryst. 14, 357-361.
+Powder pattern rebuilt in P2/m from these Pawley extracted intensity data.
+|Fhkl| then re-extracted in P21/n by the Le Bail method...
+
+Study given as an example into the chapter 'Data reduction to Fhkl',
+International Tables for Crystallography, Volume H - Powder Diffraction,
+to be published in 2012(?).
+;
+_publ_section_title
+;
+ Data reduction to |Fhkl|
+;
+_journal_name_full               'Personal communication to COD'
+_journal_year                    2012
+_chemical_formula_sum            'C6 F10'
+_chemical_formula_weight         262.06
+_chemical_name_systematic
+; 
+decafluorocyclohexene
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_audit_update_record
+;
+2012-02-27
+;
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 113.34(1)
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   11.915(3)
+_cell_length_b                   7.247(2)
+_cell_length_c                   9.663(2)
+_cell_measurement_temperature    4.2
+_cell_volume                     766.1(3)
+_computing_structure_solution    ESPOIR
+_diffrn_ambient_temperature      4.2
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.90900
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type              'D1A - ILL - Grenoble - France'
+_cod_data_source_file            C6F10-ESPOIR.cif
+_cod_data_source_block           C6F10
+_cod_depositor_comments          'Added detail on structure solution'
+_cod_database_code               3500009
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+1/2,y+1/2,-z+1/2
+-x,-y,-z
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1 C 0.72845 0.67937 -0.03636
+C2 C 0.79459 0.50981 0.04909
+C3 C 0.64935 0.63124 -0.19967
+C4 C 0.70362 0.36222 0.04943
+C5 C 0.57698 0.45780 -0.21471
+C6 C 0.60203 0.33546 -0.10224
+F1 F 0.65730 0.74970 0.03118
+F2 F 0.80947 0.81257 -0.03165
+F3 F 0.86815 0.55450 0.19251
+F4 F 0.86787 0.44193 -0.01641
+F5 F 0.72372 0.60968 -0.27536
+F6 F 0.57586 0.77712 -0.26519
+F7 F 0.76495 0.20232 0.10331
+F8 F 0.65484 0.41324 0.14964
+F9 F 0.48321 0.42257 -0.34763
+F10 F 0.53213 0.18233 -0.12617
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+F 0.56540 V.F._Sears_Neutron_News_3_26_(1992)
+C 0.66460 V.F._Sears_Neutron_News_3_26_(1992)

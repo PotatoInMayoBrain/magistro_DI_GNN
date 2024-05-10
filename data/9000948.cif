@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/09/9000948.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000948
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Shen, J.'
+'Araki, T.'
+_publ_section_title
+;Crystal chemistry of the (M2)3+ phi2 sheet: Structural principles and crystal
+ structures of ruizite, macfallite and orientite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              171
+_journal_page_last               181
+_journal_volume                  70
+_journal_year                    1985
+_chemical_compound_source
+'Nchwaning mine, Kalahari manganese field, South Africa'
+_chemical_formula_sum            'Ca2 H6 Mn2 O17 Si4'
+_chemical_name_mineral           Ruizite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.4
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.064
+_cell_length_b                   6.171
+_cell_length_c                   11.976
+_cell_volume                     669.665
+_database_code_amcsd             0000967
+_exptl_crystal_density_diffrn    2.878
+_cod_original_formula_sum        'Mn2 Ca2 Si4 O17 H6'
+_cod_database_code               9000948
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.25000 0.25000 0.00000 1.00000 Mn 0
+Ca 0.20540 0.50000 0.25990 1.00000 Ca 0
+Si1 0.03550 0.00000 0.15130 1.00000 Si 0
+O1 0.13280 0.21650 0.12910 1.00000 O 0
+O2 0.37480 0.50000 0.09210 1.00000 O 0
+O3 -0.00630 0.00000 0.28570 1.00000 O 0
+Si2 0.10420 0.00000 0.39510 1.00000 Si 0
+O4 0.20560 0.21500 0.39540 0.50000 O 0
+O-H5 0.20560 0.21500 0.39540 0.50000 O 1
+O6 0.00000 0.00000 0.50000 1.00000 O 0
+O-H7 0.36740 0.00000 0.04590 1.00000 O 1
+O-H8 0.44370 0.00000 0.27810 1.00000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:55+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000967

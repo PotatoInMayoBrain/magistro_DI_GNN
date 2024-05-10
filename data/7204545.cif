@@ -1,0 +1,224 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:07:59 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180376 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/45/7204545.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204545
+loop_
+_publ_author_name
+'Edwards, Dennis A.'
+'Mahon, Mary F.'
+'Molloy, Kieran C.'
+'Ogrodnik, Virginie'
+_publ_section_title
+;
+ Aerosol-assisted chemical vapour deposition of silver films from
+ adducts of functionalised silver carboxylates
+;
+_journal_issue                   3
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              563
+_journal_paper_doi               10.1039/b210085c
+_journal_volume                  13
+_journal_year                    2003
+_chemical_formula_sum            'C5 H7 Ag O2'
+_chemical_formula_weight         206.98
+_chemical_name_systematic
+; 
+? 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.51(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.9650(10)
+_cell_length_b                   8.956(2)
+_cell_length_c                   10.292(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     549.63(19)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_wavelength     0.70930
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0138
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            676
+_diffrn_reflns_theta_max         21.97
+_diffrn_reflns_theta_min         3.01
+_exptl_absorpt_coefficient_mu    3.556
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  0.228
+_exptl_absorpt_correction_type   DIFABS
+_exptl_crystal_density_diffrn    2.501
+_exptl_crystal_F_000             400
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.3
+_exptl_crystal_size_min          0.3
+_refine_diff_density_max         0.812
+_refine_diff_density_min         -0.788
+_refine_diff_density_rms         0.178
+_refine_ls_extinction_coef       0.0047(20)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.154
+_refine_ls_goodness_of_fit_obs   1.159
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     69
+_refine_ls_number_reflns         674
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.186
+_refine_ls_restrained_S_obs      1.158
+_refine_ls_R_factor_all          0.0400
+_refine_ls_R_factor_obs          0.0357
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0721P)^2^+1.0654P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1024
+_refine_ls_wR_factor_obs         0.0947
+_reflns_number_observed          613
+_reflns_number_total             676
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            b210085c.txt
+_cod_data_source_block           96dae2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0721P)^2^+1.0654P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0721P)^2^+1.0654P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        549.6(2)
+_cod_original_sg_symbol_H-M      P21/a
+_cod_database_code               7204545
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ag1 0.0227(5) 0.0240(5) 0.0233(6) 0.0069(2) -0.0007(3) -0.0039(2)
+O1 0.019(3) 0.019(3) 0.013(3) -0.003(2) 0.004(2) 0.003(2)
+O2 0.017(2) 0.025(2) 0.011(2) -0.002(2) 0.007(2) 0.005(2)
+C3 0.028(4) 0.014(3) 0.009(4) 0.002(3) 0.012(3) 0.006(3)
+C4 0.017(3) 0.023(3) 0.019(4) 0.000(3) 0.006(3) -0.002(3)
+C5 0.021(4) 0.021(4) 0.013(4) -0.001(2) 0.009(3) 0.000(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Ag1 Ag 0.08128(9) 0.63239(5) 0.44021(5) 0.0233(4) Uani 1 d . .
+O1 O -0.2630(8) 0.6291(4) 0.3571(4) 0.0171(11) Uani 1 d . .
+O2 O -0.3542(8) 0.3961(5) 0.4129(5) 0.0178(10) Uani 1 d . .
+C1 C -0.3882(9) 0.5135(6) 0.3505(6) 0.0137(14) Uiso 1 d . .
+C2 C -0.5748(9) 0.5191(6) 0.2508(6) 0.0143(14) Uiso 1 d . .
+C3 C -0.7433(11) 0.4211(7) 0.2596(6) 0.0168(14) Uani 1 d D .
+H3 H -0.7622(130) 0.3577(61) 0.3247(52) 0.020 Uiso 1 d D .
+C4 C -0.9362(11) 0.3998(8) 0.1654(7) 0.0196(15) Uani 1 d . .
+H4A H -1.0649(21) 0.3661(43) 0.2112(8) 0.029 Uiso 1 calc R .
+H4B H -0.8971(26) 0.3267(33) 0.1017(23) 0.029 Uiso 1 calc R .
+H4C H -0.9703(44) 0.4928(12) 0.1230(29) 0.029 Uiso 1 calc R .
+C5 C -0.5548(12) 0.6296(6) 0.1421(7) 0.018(2) Uani 1 d . .
+H5A H -0.4193(34) 0.6108(27) 0.0965(23) 0.027 Uiso 1 calc R .
+H5B H -0.5508(64) 0.7290(6) 0.1771(8) 0.027 Uiso 1 calc R .
+H5C H -0.6814(34) 0.6198(29) 0.0832(21) 0.027 Uiso 1 calc R .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ag Ag -0.8971 1.1015 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Ag1 O2 158.0(2) . 3_566 ?
+O1 Ag1 O1 103.33(14) . 4_675 ?
+O2 Ag1 O1 93.4(2) 3_566 4_675 ?
+O1 Ag1 Ag1 80.35(11) . 3_566 ?
+O2 Ag1 Ag1 82.03(13) 3_566 3_566 ?
+O1 Ag1 Ag1 174.44(11) 4_675 3_566 ?
+C1 O1 Ag1 124.7(4) . . ?
+C1 O1 Ag1 119.4(4) . 4_575 ?
+Ag1 O1 Ag1 102.0(2) . 4_575 ?
+C1 O2 Ag1 123.9(4) . 3_566 ?
+O2 C1 O1 124.7(6) . . ?
+O2 C1 C2 119.4(5) . . ?
+O1 C1 C2 115.7(5) . . ?
+C3 C2 C1 118.6(6) . . ?
+C3 C2 C5 123.9(6) . . ?
+C1 C2 C5 117.5(5) . . ?
+C2 C3 C4 127.3(6) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ag1 O1 2.204(5) . ?
+Ag1 O2 2.207(5) 3_566 ?
+Ag1 O1 2.490(4) 4_675 ?
+Ag1 Ag1 2.8532(10) 3_566 ?
+O1 C1 1.277(7) . ?
+O1 Ag1 2.490(4) 4_575 ?
+O2 C1 1.246(8) . ?
+O2 Ag1 2.207(5) 3_566 ?
+C1 C2 1.495(9) . ?
+C2 C3 1.339(9) . ?
+C2 C5 1.501(9) . ?
+C3 C4 1.497(10) . ?

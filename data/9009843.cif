@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/98/9009843.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009843
+loop_
+_publ_author_name
+'Pertlik, F.'
+'Schnorrer, G.'
+_publ_section_title
+;
+ A re-appraisal of the chemical formula of nealite, Pb4Fe(AsO3)2Cl4*2H2O,
+ on the basis of a crystal structure determination
+;
+_journal_name_full               'Mineralogy and Petrology'
+_journal_page_first              193
+_journal_page_last               200
+_journal_paper_doi               10.1007/BF01163097
+_journal_volume                  48
+_journal_year                    1993
+_chemical_compound_source        'Laurion, Greece'
+_chemical_formula_sum            'As2 Cl4 Fe H4 O8 Pb4'
+_chemical_name_mineral           Nealite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                96.2
+_cell_angle_beta                 89.6
+_cell_angle_gamma                97.7
+_cell_formula_units_Z            1
+_cell_length_a                   6.548
+_cell_length_b                   10.243
+_cell_length_c                   5.587
+_cell_volume                     369.165
+_database_code_amcsd             0014634
+_exptl_crystal_density_diffrn    5.885
+_cod_original_formula_sum        'Pb4 Fe As2 O8 Cl4 H4'
+_cod_database_code               9009843
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.01850 0.03430 0.01740 0.00140 -0.00460 0.00190
+Pb2 0.01800 0.03430 0.15270 -0.00060 0.02310 -0.00130
+Fe 0.01330 0.02230 0.03470 -0.00340 -0.00100 0.00350
+As 0.01780 0.03100 0.02320 -0.00080 -0.00130 0.00050
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb1 0.20140 0.45190 0.24500 ? Pb 0
+Pb2 0.06890 0.82040 0.28420 ? Pb 0
+Fe 0.50000 0.00000 0.00000 ? Fe 0
+As 0.30590 0.68490 0.78920 ? As 0
+O1 0.13100 0.63400 0.53300 0.02700 O 0
+O2 0.12200 0.64300 0.03900 0.03100 O 0
+O3 0.27600 0.85600 0.83600 0.04800 O 0
+Cl1 0.35200 0.36800 0.72300 0.03000 Cl 0
+Cl2 0.20300 0.12800 0.17100 0.03400 Cl 0
+Wat4 0.46000 0.90200 0.31400 0.04300 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014634

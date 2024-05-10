@@ -1,0 +1,735 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:52:50 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179267 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/87/4318705.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4318705
+loop_
+_publ_author_name
+'S. E. Latturner'
+'M. G. Kanatzidis'
+_publ_section_title
+;
+ Gd1.33Pt3(Al,Si)8 and Gd0.67Pt2(Al,Si)5: Two Structures Containing a
+ Disordered Gd/Al Layer Grown in Liquid Aluminum
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5479
+_journal_page_last               5486
+_journal_paper_doi               10.1021/ic025623n
+_journal_volume                  41
+_journal_year                    2002
+_chemical_formula_sum            'Al7 Gd Pt3 Si'
+_chemical_formula_weight         932.49
+_chemical_name_systematic
+;
+
+  ?
+
+;
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.3280(8)
+_cell_length_b                   4.3280(8)
+_cell_length_c                   38.621(10)
+_cell_measurement_temperature    293(2)
+_cell_volume                     626.5(2)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.988
+_diffrn_measured_fraction_theta_max 0.988
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0613
+_diffrn_reflns_av_sigmaI/netI    0.0315
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       50
+_diffrn_reflns_limit_l_min       -51
+_diffrn_reflns_number            2083
+_diffrn_reflns_theta_full        28.23
+_diffrn_reflns_theta_max         28.23
+_diffrn_reflns_theta_min         1.58
+_exptl_absorpt_coefficient_mu    19.534
+_exptl_crystal_density_diffrn    8.042
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             390
+_refine_diff_density_max         5.230
+_refine_diff_density_min         -2.239
+_refine_diff_density_rms         0.693
+_refine_ls_extinction_coef       0.0020(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.170
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     27
+_refine_ls_number_reflns         240
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.170
+_refine_ls_R_factor_all          0.0377
+_refine_ls_R_factor_gt           0.0351
+_refine_ls_shift/su_max          0.002
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0536P)^2^+32.2292P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0903
+_refine_ls_wR_factor_ref         0.0913
+_reflns_number_gt                217
+_reflns_number_total             240
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic025623n_2.cif
+_cod_data_source_block           sl154c
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               4318705
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+1/3'
+'x-y+2/3, -y+1/3, -z+1/3'
+'-x+2/3, -x+y+1/3, -z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+2/3'
+'x-y+1/3, -y+2/3, -z+2/3'
+'-x+1/3, -x+y+2/3, -z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z+1/3'
+'-x+y+2/3, y+1/3, z+1/3'
+'x+2/3, x-y+1/3, z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+2/3'
+'-x+y+1/3, y+2/3, z+2/3'
+'x+1/3, x-y+2/3, z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pt1 Pt 0.0000 0.0000 0.0000 0.0077(5) Uani 1 12 d S . .
+Pt2 Pt 0.0000 0.0000 0.12077(2) 0.0087(5) Uani 1 6 d S . .
+Gd3 Gd 0.0000 0.0000 0.26938(5) 0.0054(8) Uani 0.624(7) 6 d SP . .
+Al1 Al 0.0000 0.0000 0.4438(2) 0.0109(18) Uani 1 6 d S . .
+Al2 Al 0.0000 0.0000 0.3511(2) 0.0088(16) Uani 1 6 d S . .
+Al3 Al 0.0000 0.0000 0.1864(2) 0.0114(18) Uani 1 6 d S . .
+Si4 Si 0.540(2) 0.460(2) 0.3947(3) 0.008(5) Uani 0.29(2) 2 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pt1 0.0094(6) 0.0094(6) 0.0042(7) 0.000 0.000 0.0047(3)
+Pt2 0.0107(5) 0.0107(5) 0.0046(6) 0.000 0.000 0.0054(3)
+Gd3 0.0072(9) 0.0072(9) 0.0017(11) 0.000 0.000 0.0036(5)
+Al1 0.010(3) 0.010(3) 0.013(4) 0.000 0.000 0.0049(14)
+Al2 0.010(3) 0.010(3) 0.007(4) 0.000 0.000 0.0048(13)
+Al3 0.015(3) 0.015(3) 0.004(4) 0.000 0.000 0.0075(14)
+Si4 0.009(6) 0.009(6) 0.005(7) -0.002(3) 0.002(3) 0.003(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Gd Gd -0.1653 3.9035 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pt Pt -1.7033 8.3905 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si4 Pt1 Si4 180.0(2) 25 13_444 ?
+Si4 Pt1 Si4 37.5(6) 25 27_445 ?
+Si4 Pt1 Si4 142.5(6) 13_444 27_445 ?
+Si4 Pt1 Si4 142.5(6) 25 15_554 ?
+Si4 Pt1 Si4 37.5(6) 13_444 15_554 ?
+Si4 Pt1 Si4 180.0(11) 27_445 15_554 ?
+Si4 Pt1 Si4 37.5(6) 25 26_455 ?
+Si4 Pt1 Si4 142.5(6) 13_444 26_455 ?
+Si4 Pt1 Si4 37.5(6) 27_445 26_455 ?
+Si4 Pt1 Si4 142.5(6) 15_554 26_455 ?
+Si4 Pt1 Si4 142.5(6) 25 14_544 ?
+Si4 Pt1 Si4 37.5(6) 13_444 14_544 ?
+Si4 Pt1 Si4 142.5(6) 27_445 14_544 ?
+Si4 Pt1 Si4 37.5(6) 15_554 14_544 ?
+Si4 Pt1 Si4 180.0(11) 26_455 14_544 ?
+Si4 Pt1 Al2 64.9(2) 25 25_445 ?
+Si4 Pt1 Al2 115.1(2) 13_444 25_445 ?
+Si4 Pt1 Al2 64.9(2) 27_445 25_445 ?
+Si4 Pt1 Al2 115.1(2) 15_554 25_445 ?
+Si4 Pt1 Al2 96.5(4) 26_455 25_445 ?
+Si4 Pt1 Al2 83.5(4) 14_544 25_445 ?
+Si4 Pt1 Al2 115.1(2) 25 13_554 ?
+Si4 Pt1 Al2 64.9(2) 13_444 13_554 ?
+Si4 Pt1 Al2 115.1(2) 27_445 13_554 ?
+Si4 Pt1 Al2 64.9(2) 15_554 13_554 ?
+Si4 Pt1 Al2 83.5(4) 26_455 13_554 ?
+Si4 Pt1 Al2 96.5(4) 14_544 13_554 ?
+Al2 Pt1 Al2 180.0(4) 25_445 13_554 ?
+Si4 Pt1 Al2 64.9(2) 25 25 ?
+Si4 Pt1 Al2 115.1(2) 13_444 25 ?
+Si4 Pt1 Al2 96.5(4) 27_445 25 ?
+Si4 Pt1 Al2 83.5(4) 15_554 25 ?
+Si4 Pt1 Al2 64.9(2) 26_455 25 ?
+Si4 Pt1 Al2 115.1(2) 14_544 25 ?
+Al2 Pt1 Al2 113.29(15) 25_445 25 ?
+Al2 Pt1 Al2 66.71(15) 13_554 25 ?
+Si4 Pt1 Al2 115.1(2) 25 13_444 ?
+Si4 Pt1 Al2 64.9(2) 13_444 13_444 ?
+Si4 Pt1 Al2 83.5(4) 27_445 13_444 ?
+Si4 Pt1 Al2 96.5(4) 15_554 13_444 ?
+Si4 Pt1 Al2 115.1(2) 26_455 13_444 ?
+Si4 Pt1 Al2 64.9(2) 14_544 13_444 ?
+Al2 Pt1 Al2 66.71(15) 25_445 13_444 ?
+Al2 Pt1 Al2 113.29(15) 13_554 13_444 ?
+Al2 Pt1 Al2 180.0(4) 25 13_444 ?
+Si4 Pt1 Al2 83.5(4) 25 13_544 ?
+Si4 Pt1 Al2 96.5(4) 13_444 13_544 ?
+Si4 Pt1 Al2 115.1(2) 27_445 13_544 ?
+Si4 Pt1 Al2 64.9(2) 15_554 13_544 ?
+Si4 Pt1 Al2 115.1(2) 26_455 13_544 ?
+Si4 Pt1 Al2 64.9(2) 14_544 13_544 ?
+Al2 Pt1 Al2 66.71(15) 25_445 13_544 ?
+Al2 Pt1 Al2 113.29(15) 13_554 13_544 ?
+Al2 Pt1 Al2 66.71(15) 25 13_544 ?
+Al2 Pt1 Al2 113.29(15) 13_444 13_544 ?
+Si4 Pt1 Al2 96.5(4) 25 25_455 ?
+Si4 Pt1 Al2 83.5(4) 13_444 25_455 ?
+Si4 Pt1 Al2 64.9(2) 27_445 25_455 ?
+Si4 Pt1 Al2 115.1(2) 15_554 25_455 ?
+Si4 Pt1 Al2 64.9(2) 26_455 25_455 ?
+Si4 Pt1 Al2 115.1(2) 14_544 25_455 ?
+Al2 Pt1 Al2 113.29(15) 25_445 25_455 ?
+Al2 Pt1 Al2 66.71(15) 13_554 25_455 ?
+Al2 Pt1 Al2 113.29(15) 25 25_455 ?
+Al2 Pt1 Al2 66.71(15) 13_444 25_455 ?
+Al2 Pt1 Al2 180.0(4) 13_544 25_455 ?
+Si4 Pt2 Si4 38.6(6) 13_444 14_544 ?
+Si4 Pt2 Si4 38.6(6) 13_444 15_554 ?
+Si4 Pt2 Si4 38.6(6) 14_544 15_554 ?
+Si4 Pt2 Al1 70.5(2) 13_444 13_444 ?
+Si4 Pt2 Al1 70.5(2) 14_544 13_444 ?
+Si4 Pt2 Al1 103.4(4) 15_554 13_444 ?
+Si4 Pt2 Al1 70.5(2) 13_444 13_554 ?
+Si4 Pt2 Al1 103.4(4) 14_544 13_554 ?
+Si4 Pt2 Al1 70.5(2) 15_554 13_554 ?
+Al1 Pt2 Al1 117.56(10) 13_444 13_554 ?
+Si4 Pt2 Al1 103.4(4) 13_444 13_544 ?
+Si4 Pt2 Al1 70.5(2) 14_544 13_544 ?
+Si4 Pt2 Al1 70.5(2) 15_554 13_544 ?
+Al1 Pt2 Al1 117.56(10) 13_444 13_544 ?
+Al1 Pt2 Al1 117.56(10) 13_554 13_544 ?
+Si4 Pt2 Al3 157.6(3) 13_444 . ?
+Si4 Pt2 Al3 157.6(3) 14_544 . ?
+Si4 Pt2 Al3 157.6(3) 15_554 . ?
+Al1 Pt2 Al3 99.1(2) 13_444 . ?
+Al1 Pt2 Al3 99.1(2) 13_554 . ?
+Al1 Pt2 Al3 99.1(2) 13_544 . ?
+Si4 Pt2 Al3 121.59(18) 13_444 25 ?
+Si4 Pt2 Al3 121.59(18) 14_544 25 ?
+Si4 Pt2 Al3 89.6(4) 15_554 25 ?
+Al1 Pt2 Al3 167.0(3) 13_444 25 ?
+Al1 Pt2 Al3 66.52(11) 13_554 25 ?
+Al1 Pt2 Al3 66.52(11) 13_544 25 ?
+Al3 Pt2 Al3 67.95(16) . 25 ?
+Si4 Pt2 Al3 121.59(18) 13_444 25_445 ?
+Si4 Pt2 Al3 89.6(4) 14_544 25_445 ?
+Si4 Pt2 Al3 121.59(18) 15_554 25_445 ?
+Al1 Pt2 Al3 66.52(11) 13_444 25_445 ?
+Al1 Pt2 Al3 167.0(3) 13_554 25_445 ?
+Al1 Pt2 Al3 66.52(11) 13_544 25_445 ?
+Al3 Pt2 Al3 67.95(16) . 25_445 ?
+Al3 Pt2 Al3 106.77(18) 25 25_445 ?
+Si4 Pt2 Al3 89.6(4) 13_444 25_455 ?
+Si4 Pt2 Al3 121.59(18) 14_544 25_455 ?
+Si4 Pt2 Al3 121.59(18) 15_554 25_455 ?
+Al1 Pt2 Al3 66.52(11) 13_444 25_455 ?
+Al1 Pt2 Al3 66.52(11) 13_554 25_455 ?
+Al1 Pt2 Al3 167.0(3) 13_544 25_455 ?
+Al3 Pt2 Al3 67.95(16) . 25_455 ?
+Al3 Pt2 Al3 106.77(18) 25 25_455 ?
+Al3 Pt2 Al3 106.77(18) 25_445 25_455 ?
+Si4 Pt2 Gd3 62.2(2) 13_444 25_445 ?
+Si4 Pt2 Gd3 26.3(3) 14_544 25_445 ?
+Si4 Pt2 Gd3 62.2(2) 15_554 25_445 ?
+Al1 Pt2 Gd3 61.63(13) 13_444 25_445 ?
+Al1 Pt2 Gd3 129.6(2) 13_554 25_445 ?
+Al1 Pt2 Gd3 61.63(13) 13_544 25_445 ?
+Al3 Pt2 Gd3 131.28(3) . 25_445 ?
+Al3 Pt2 Gd3 126.58(10) 25 25_445 ?
+Al3 Pt2 Gd3 63.34(16) 25_445 25_445 ?
+Al3 Pt2 Gd3 126.58(10) 25_455 25_445 ?
+Si4 Pt2 Gd3 62.2(2) 13_444 25 ?
+Si4 Pt2 Gd3 62.2(2) 14_544 25 ?
+Si4 Pt2 Gd3 26.3(3) 15_554 25 ?
+Al1 Pt2 Gd3 129.6(2) 13_444 25 ?
+Al1 Pt2 Gd3 61.63(13) 13_554 25 ?
+Al1 Pt2 Gd3 61.63(13) 13_544 25 ?
+Al3 Pt2 Gd3 131.28(3) . 25 ?
+Al3 Pt2 Gd3 63.34(16) 25 25 ?
+Al3 Pt2 Gd3 126.58(10) 25_445 25 ?
+Al3 Pt2 Gd3 126.58(10) 25_455 25 ?
+Gd3 Pt2 Gd3 81.20(4) 25_445 25 ?
+Si4 Gd3 Si4 119.58(11) 31 33_545 ?
+Si4 Gd3 Si4 119.58(11) 31 32_445 ?
+Si4 Gd3 Si4 119.58(11) 33_545 32_445 ?
+Si4 Gd3 Al2 63.7(3) 31 31 ?
+Si4 Gd3 Al2 63.7(3) 33_545 31 ?
+Si4 Gd3 Al2 140.7(5) 32_445 31 ?
+Si4 Gd3 Al2 63.7(3) 31 31_445 ?
+Si4 Gd3 Al2 140.7(5) 33_545 31_445 ?
+Si4 Gd3 Al2 63.7(3) 32_445 31_445 ?
+Al2 Gd3 Al2 89.60(18) 31 31_445 ?
+Si4 Gd3 Al2 140.7(5) 31 31_545 ?
+Si4 Gd3 Al2 63.7(3) 33_545 31_545 ?
+Si4 Gd3 Al2 63.7(3) 32_445 31_545 ?
+Al2 Gd3 Al2 89.60(18) 31 31_545 ?
+Al2 Gd3 Al2 89.60(18) 31_445 31_545 ?
+Si4 Gd3 Al1 68.4(3) 31 31_445 ?
+Si4 Gd3 Al1 148.0(5) 33_545 31_445 ?
+Si4 Gd3 Al1 68.4(3) 32_445 31_445 ?
+Al2 Gd3 Al1 132.04(6) 31 31_445 ?
+Al2 Gd3 Al1 71.24(18) 31_445 31_445 ?
+Al2 Gd3 Al1 132.04(6) 31_545 31_445 ?
+Si4 Gd3 Al1 68.4(3) 31 31 ?
+Si4 Gd3 Al1 68.4(3) 33_545 31 ?
+Si4 Gd3 Al1 148.0(5) 32_445 31 ?
+Al2 Gd3 Al1 71.24(18) 31 31 ?
+Al2 Gd3 Al1 132.04(6) 31_445 31 ?
+Al2 Gd3 Al1 132.04(6) 31_545 31 ?
+Al1 Gd3 Al1 89.39(19) 31_445 31 ?
+Si4 Gd3 Al1 148.0(5) 31 31_545 ?
+Si4 Gd3 Al1 68.4(3) 33_545 31_545 ?
+Si4 Gd3 Al1 68.4(3) 32_445 31_545 ?
+Al2 Gd3 Al1 132.04(6) 31 31_545 ?
+Al2 Gd3 Al1 132.04(6) 31_445 31_545 ?
+Al2 Gd3 Al1 71.24(18) 31_545 31_545 ?
+Al1 Gd3 Al1 89.4(2) 31_445 31_545 ?
+Al1 Gd3 Al1 89.39(19) 31 31_545 ?
+Si4 Gd3 Si4 15.5(2) 31 32_455 ?
+Si4 Gd3 Si4 104.4(2) 33_545 32_455 ?
+Si4 Gd3 Si4 135.1(2) 32_445 32_455 ?
+Al2 Gd3 Si4 53.2(2) 31 32_455 ?
+Al2 Gd3 Si4 77.1(2) 31_445 32_455 ?
+Al2 Gd3 Si4 139.9(3) 31_545 32_455 ?
+Al1 Gd3 Si4 79.3(2) 31_445 32_455 ?
+Al1 Gd3 Si4 56.0(2) 31 32_455 ?
+Al1 Gd3 Si4 143.3(3) 31_545 32_455 ?
+Si4 Gd3 Si4 15.5(2) 31 33_445 ?
+Si4 Gd3 Si4 135.1(2) 33_545 33_445 ?
+Si4 Gd3 Si4 104.4(2) 32_445 33_445 ?
+Al2 Gd3 Si4 77.1(2) 31 33_445 ?
+Al2 Gd3 Si4 53.2(2) 31_445 33_445 ?
+Al2 Gd3 Si4 139.9(3) 31_545 33_445 ?
+Al1 Gd3 Si4 56.0(2) 31_445 33_445 ?
+Al1 Gd3 Si4 79.3(2) 31 33_445 ?
+Al1 Gd3 Si4 143.3(3) 31_545 33_445 ?
+Si4 Gd3 Si4 30.9(4) 32_455 33_445 ?
+Si4 Gd3 Si4 104.4(2) 31 33_435 ?
+Si4 Gd3 Si4 135.1(2) 33_545 33_435 ?
+Si4 Gd3 Si4 15.5(2) 32_445 33_435 ?
+Al2 Gd3 Si4 139.9(3) 31 33_435 ?
+Al2 Gd3 Si4 53.2(2) 31_445 33_435 ?
+Al2 Gd3 Si4 77.1(2) 31_545 33_435 ?
+Al1 Gd3 Si4 56.0(2) 31_445 33_435 ?
+Al1 Gd3 Si4 143.3(3) 31 33_435 ?
+Al1 Gd3 Si4 79.3(2) 31_545 33_435 ?
+Si4 Gd3 Si4 119.89(3) 32_455 33_435 ?
+Si4 Gd3 Si4 89.1(4) 33_445 33_435 ?
+Pt2 Al1 Pt2 117.56(11) 7 7_445 ?
+Pt2 Al1 Pt2 117.56(11) 7 7_455 ?
+Pt2 Al1 Pt2 117.56(11) 7_445 7_455 ?
+Pt2 Al1 Al3 59.50(8) 7 31 ?
+Pt2 Al1 Al3 141.5(4) 7_445 31 ?
+Pt2 Al1 Al3 59.50(8) 7_455 31 ?
+Pt2 Al1 Al3 141.5(4) 7 31_445 ?
+Pt2 Al1 Al3 59.50(8) 7_445 31_445 ?
+Pt2 Al1 Al3 59.50(8) 7_455 31_445 ?
+Al3 Al1 Al3 97.9(3) 31 31_445 ?
+Pt2 Al1 Al3 59.50(8) 7 31_545 ?
+Pt2 Al1 Al3 59.50(8) 7_445 31_545 ?
+Pt2 Al1 Al3 141.5(4) 7_455 31_545 ?
+Al3 Al1 Al3 97.9(3) 31 31_545 ?
+Al3 Al1 Al3 97.9(3) 31_445 31_545 ?
+Pt2 Al1 Si4 133.8(3) 7 1_445 ?
+Pt2 Al1 Si4 54.0(3) 7_445 1_445 ?
+Pt2 Al1 Si4 101.9(3) 7_455 1_445 ?
+Al3 Al1 Si4 158.7(3) 31 1_445 ?
+Al3 Al1 Si4 78.7(3) 31_445 1_445 ?
+Al3 Al1 Si4 103.4(3) 31_545 1_445 ?
+Pt2 Al1 Si4 101.9(3) 7 3 ?
+Pt2 Al1 Si4 54.0(3) 7_445 3 ?
+Pt2 Al1 Si4 133.8(3) 7_455 3 ?
+Al3 Al1 Si4 158.7(4) 31 3 ?
+Al3 Al1 Si4 103.4(3) 31_445 3 ?
+Al3 Al1 Si4 78.7(2) 31_545 3 ?
+Si4 Al1 Si4 33.0(6) 1_445 3 ?
+Pt2 Al1 Si4 133.8(3) 7 2 ?
+Pt2 Al1 Si4 101.9(3) 7_445 2 ?
+Pt2 Al1 Si4 54.0(3) 7_455 2 ?
+Al3 Al1 Si4 103.4(3) 31 2 ?
+Al3 Al1 Si4 78.7(3) 31_445 2 ?
+Al3 Al1 Si4 158.7(3) 31_545 2 ?
+Si4 Al1 Si4 55.3(6) 1_445 2 ?
+Si4 Al1 Si4 81.7(4) 3 2 ?
+Pt2 Al1 Si4 101.9(3) 7 3_565 ?
+Pt2 Al1 Si4 133.8(3) 7_445 3_565 ?
+Pt2 Al1 Si4 54.0(3) 7_455 3_565 ?
+Al3 Al1 Si4 78.7(3) 31 3_565 ?
+Al3 Al1 Si4 103.4(3) 31_445 3_565 ?
+Al3 Al1 Si4 158.7(3) 31_545 3_565 ?
+Si4 Al1 Si4 81.7(4) 1_445 3_565 ?
+Si4 Al1 Si4 96.8(5) 3 3_565 ?
+Si4 Al1 Si4 33.0(6) 2 3_565 ?
+Pt2 Al1 Si4 54.0(3) 7 2_655 ?
+Pt2 Al1 Si4 101.9(3) 7_445 2_655 ?
+Pt2 Al1 Si4 133.8(3) 7_455 2_655 ?
+Al3 Al1 Si4 103.4(3) 31 2_655 ?
+Al3 Al1 Si4 158.7(4) 31_445 2_655 ?
+Al3 Al1 Si4 78.7(2) 31_545 2_655 ?
+Si4 Al1 Si4 81.7(4) 1_445 2_655 ?
+Si4 Al1 Si4 55.3(6) 3 2_655 ?
+Si4 Al1 Si4 96.8(5) 2 2_655 ?
+Si4 Al1 Si4 81.7(4) 3_565 2_655 ?
+Pt2 Al1 Si4 54.0(3) 7 . ?
+Pt2 Al1 Si4 133.8(3) 7_445 . ?
+Pt2 Al1 Si4 101.9(3) 7_455 . ?
+Al3 Al1 Si4 78.7(3) 31 . ?
+Al3 Al1 Si4 158.7(3) 31_445 . ?
+Al3 Al1 Si4 103.4(3) 31_545 . ?
+Si4 Al1 Si4 96.8(5) 1_445 . ?
+Si4 Al1 Si4 81.7(4) 3 . ?
+Si4 Al1 Si4 81.7(4) 2 . ?
+Si4 Al1 Si4 55.3(6) 3_565 . ?
+Si4 Al1 Si4 33.0(6) 2_655 . ?
+Pt1 Al2 Pt1 113.29(15) 7_445 7 ?
+Pt1 Al2 Pt1 113.29(15) 7_445 7_455 ?
+Pt1 Al2 Pt1 113.29(15) 7 7_455 ?
+Pt1 Al2 Si4 139.8(3) 7_445 . ?
+Pt1 Al2 Si4 56.9(2) 7 . ?
+Pt1 Al2 Si4 105.5(3) 7_455 . ?
+Pt1 Al2 Si4 105.5(3) 7_445 2_655 ?
+Pt1 Al2 Si4 56.9(2) 7 2_655 ?
+Pt1 Al2 Si4 139.8(3) 7_455 2_655 ?
+Si4 Al2 Si4 34.6(6) . 2_655 ?
+Pt1 Al2 Si4 139.8(3) 7_445 3_565 ?
+Pt1 Al2 Si4 105.5(3) 7 3_565 ?
+Pt1 Al2 Si4 56.9(2) 7_455 3_565 ?
+Si4 Al2 Si4 58.3(6) . 3_565 ?
+Si4 Al2 Si4 86.6(4) 2_655 3_565 ?
+Pt1 Al2 Si4 56.9(2) 7_445 1_445 ?
+Pt1 Al2 Si4 139.8(3) 7 1_445 ?
+Pt1 Al2 Si4 105.5(3) 7_455 1_445 ?
+Si4 Al2 Si4 103.3(5) . 1_445 ?
+Si4 Al2 Si4 86.6(4) 2_655 1_445 ?
+Si4 Al2 Si4 86.6(4) 3_565 1_445 ?
+Pt1 Al2 Si4 105.5(3) 7_445 2 ?
+Pt1 Al2 Si4 139.8(3) 7 2 ?
+Pt1 Al2 Si4 56.9(2) 7_455 2 ?
+Si4 Al2 Si4 86.6(4) . 2 ?
+Si4 Al2 Si4 103.3(5) 2_655 2 ?
+Si4 Al2 Si4 34.6(6) 3_565 2 ?
+Si4 Al2 Si4 58.3(6) 1_445 2 ?
+Pt1 Al2 Si4 56.9(2) 7_445 3 ?
+Pt1 Al2 Si4 105.5(3) 7 3 ?
+Pt1 Al2 Si4 139.8(3) 7_455 3 ?
+Si4 Al2 Si4 86.6(4) . 3 ?
+Si4 Al2 Si4 58.3(6) 2_655 3 ?
+Si4 Al2 Si4 103.3(5) 3_565 3 ?
+Si4 Al2 Si4 34.6(6) 1_445 3 ?
+Si4 Al2 Si4 86.6(4) 2 3 ?
+Pt1 Al2 Al2 56.64(7) 7_445 31_445 ?
+Pt1 Al2 Al2 136.0(5) 7 31_445 ?
+Pt1 Al2 Al2 56.65(7) 7_455 31_445 ?
+Si4 Al2 Al2 159.6(4) . 31_445 ?
+Si4 Al2 Al2 159.6(4) 2_655 31_445 ?
+Si4 Al2 Al2 101.4(3) 3_565 31_445 ?
+Si4 Al2 Al2 75.3(3) 1_445 31_445 ?
+Si4 Al2 Al2 75.3(3) 2 31_445 ?
+Si4 Al2 Al2 101.4(3) 3 31_445 ?
+Pt1 Al2 Al2 136.0(5) 7_445 31 ?
+Pt1 Al2 Al2 56.64(7) 7 31 ?
+Pt1 Al2 Al2 56.65(7) 7_455 31 ?
+Si4 Al2 Al2 75.3(3) . 31 ?
+Si4 Al2 Al2 101.4(3) 2_655 31 ?
+Si4 Al2 Al2 75.3(3) 3_565 31 ?
+Si4 Al2 Al2 159.6(4) 1_445 31 ?
+Si4 Al2 Al2 101.4(3) 2 31 ?
+Si4 Al2 Al2 159.6(4) 3 31 ?
+Al2 Al2 Al2 98.8(4) 31_445 31 ?
+Pt1 Al2 Al2 56.65(7) 7_445 31_545 ?
+Pt1 Al2 Al2 56.65(7) 7 31_545 ?
+Pt1 Al2 Al2 136.0(5) 7_455 31_545 ?
+Si4 Al2 Al2 101.4(3) . 31_545 ?
+Si4 Al2 Al2 75.3(3) 2_655 31_545 ?
+Si4 Al2 Al2 159.6(4) 3_565 31_545 ?
+Si4 Al2 Al2 101.4(3) 1_445 31_545 ?
+Si4 Al2 Al2 159.6(4) 2 31_545 ?
+Si4 Al2 Al2 75.3(3) 3 31_545 ?
+Al2 Al2 Al2 98.8(4) 31_445 31_545 ?
+Al2 Al2 Al2 98.8(4) 31 31_545 ?
+Pt2 Al3 Pt2 112.05(16) . 25 ?
+Pt2 Al3 Pt2 112.05(16) . 25_445 ?
+Pt2 Al3 Pt2 106.78(18) 25 25_445 ?
+Pt2 Al3 Pt2 112.05(16) . 25_455 ?
+Pt2 Al3 Pt2 106.78(18) 25 25_455 ?
+Pt2 Al3 Pt2 106.78(18) 25_445 25_455 ?
+Pt2 Al3 Al1 119.5(2) . 31 ?
+Pt2 Al3 Al1 53.98(8) 25 31 ?
+Pt2 Al3 Al1 128.5(3) 25_445 31 ?
+Pt2 Al3 Al1 53.98(8) 25_455 31 ?
+Pt2 Al3 Al1 119.5(2) . 31_445 ?
+Pt2 Al3 Al1 128.5(3) 25 31_445 ?
+Pt2 Al3 Al1 53.98(8) 25_445 31_445 ?
+Pt2 Al3 Al1 53.98(8) 25_455 31_445 ?
+Al1 Al3 Al1 97.9(3) 31 31_445 ?
+Pt2 Al3 Al1 119.5(2) . 31_545 ?
+Pt2 Al3 Al1 53.98(8) 25 31_545 ?
+Pt2 Al3 Al1 53.98(8) 25_445 31_545 ?
+Pt2 Al3 Al1 128.5(3) 25_455 31_545 ?
+Al1 Al3 Al1 97.9(3) 31 31_545 ?
+Al1 Al3 Al1 97.9(3) 31_445 31_545 ?
+Pt2 Al3 Al3 58.7(3) . 25_445 ?
+Pt2 Al3 Al3 126.23(4) 25 25_445 ?
+Pt2 Al3 Al3 53.38(11) 25_445 25_445 ?
+Pt2 Al3 Al3 126.23(4) 25_455 25_445 ?
+Al1 Al3 Al3 178.1(4) 31 25_445 ?
+Al1 Al3 Al3 83.33(13) 31_445 25_445 ?
+Al1 Al3 Al3 83.33(13) 31_545 25_445 ?
+Pt2 Al3 Al3 58.7(3) . 25 ?
+Pt2 Al3 Al3 53.38(11) 25 25 ?
+Pt2 Al3 Al3 126.23(4) 25_445 25 ?
+Pt2 Al3 Al3 126.23(4) 25_455 25 ?
+Al1 Al3 Al3 83.33(14) 31 25 ?
+Al1 Al3 Al3 178.1(4) 31_445 25 ?
+Al1 Al3 Al3 83.33(14) 31_545 25 ?
+Al3 Al3 Al3 95.4(4) 25_445 25 ?
+Pt2 Al3 Al3 58.7(3) . 25_455 ?
+Pt2 Al3 Al3 126.23(4) 25 25_455 ?
+Pt2 Al3 Al3 126.23(4) 25_445 25_455 ?
+Pt2 Al3 Al3 53.38(11) 25_455 25_455 ?
+Al1 Al3 Al3 83.33(13) 31 25_455 ?
+Al1 Al3 Al3 83.33(13) 31_445 25_455 ?
+Al1 Al3 Al3 178.1(4) 31_545 25_455 ?
+Al3 Al3 Al3 95.4(4) 25_445 25_455 ?
+Al3 Al3 Al3 95.4(4) 25 25_455 ?
+Pt2 Al3 Gd3 180.0 . . ?
+Pt2 Al3 Gd3 67.95(16) 25 . ?
+Pt2 Al3 Gd3 67.95(16) 25_445 . ?
+Pt2 Al3 Gd3 67.95(16) 25_455 . ?
+Al1 Al3 Gd3 60.5(2) 31 . ?
+Al1 Al3 Gd3 60.5(2) 31_445 . ?
+Al1 Al3 Gd3 60.5(2) 31_545 . ?
+Al3 Al3 Gd3 121.3(3) 25_445 . ?
+Al3 Al3 Gd3 121.3(3) 25 . ?
+Al3 Al3 Gd3 121.3(3) 25_455 . ?
+Gd3 Si4 Si4 149.79(8) 31 3_665 ?
+Gd3 Si4 Si4 149.79(8) 31 2_655 ?
+Si4 Si4 Si4 60.000(18) 3_665 2_655 ?
+Gd3 Si4 Pt2 108.7(6) 31 7 ?
+Si4 Si4 Pt2 70.7(3) 3_665 7 ?
+Si4 Si4 Pt2 70.7(3) 2_655 7 ?
+Gd3 Si4 Pt1 115.5(7) 31 7 ?
+Si4 Si4 Pt1 71.2(3) 3_665 7 ?
+Si4 Si4 Pt1 71.2(3) 2_655 7 ?
+Pt2 Si4 Pt1 135.8(6) 7 7 ?
+Gd3 Si4 Si4 30.21(6) 31 3_565 ?
+Si4 Si4 Si4 179.998(9) 3_665 3_565 ?
+Si4 Si4 Si4 120.000(13) 2_655 3_565 ?
+Pt2 Si4 Si4 109.3(3) 7 3_565 ?
+Pt1 Si4 Si4 108.8(3) 7 3_565 ?
+Gd3 Si4 Si4 30.21(6) 31 2_665 ?
+Si4 Si4 Si4 120.000(14) 3_665 2_665 ?
+Si4 Si4 Si4 179.998(12) 2_655 2_665 ?
+Pt2 Si4 Si4 109.3(3) 7 2_665 ?
+Pt1 Si4 Si4 108.8(3) 7 2_665 ?
+Si4 Si4 Si4 60.000(14) 3_565 2_665 ?
+Gd3 Si4 Al2 86.0(4) 31 1_665 ?
+Si4 Si4 Al2 72.7(3) 3_665 1_665 ?
+Si4 Si4 Al2 119.1(3) 2_655 1_665 ?
+Pt2 Si4 Al2 127.3(3) 7 1_665 ?
+Pt1 Si4 Al2 58.2(3) 7 1_665 ?
+Si4 Si4 Al2 107.3(3) 3_565 1_665 ?
+Si4 Si4 Al2 60.9(3) 2_665 1_665 ?
+Gd3 Si4 Al2 86.0(4) 31 . ?
+Si4 Si4 Al2 119.1(3) 3_665 . ?
+Si4 Si4 Al2 72.7(3) 2_655 . ?
+Pt2 Si4 Al2 127.3(3) 7 . ?
+Pt1 Si4 Al2 58.2(3) 7 . ?
+Si4 Si4 Al2 60.9(3) 3_565 . ?
+Si4 Si4 Al2 107.3(3) 2_665 . ?
+Al2 Si4 Al2 103.3(5) 1_665 . ?
+Gd3 Si4 Al1 81.6(4) 31 . ?
+Si4 Si4 Al1 117.7(3) 3_665 . ?
+Si4 Si4 Al1 73.5(3) 2_655 . ?
+Pt2 Si4 Al1 55.5(3) 7 . ?
+Pt1 Si4 Al1 130.3(3) 7 . ?
+Si4 Si4 Al1 62.3(3) 3_565 . ?
+Si4 Si4 Al1 106.5(3) 2_665 . ?
+Al2 Si4 Al1 167.3(6) 1_665 . ?
+Al2 Si4 Al1 78.6(2) . . ?
+Gd3 Si4 Al1 81.6(4) 31 1_665 ?
+Si4 Si4 Al1 73.5(3) 3_665 1_665 ?
+Si4 Si4 Al1 117.7(3) 2_655 1_665 ?
+Pt2 Si4 Al1 55.5(3) 7 1_665 ?
+Pt1 Si4 Al1 130.3(3) 7 1_665 ?
+Si4 Si4 Al1 106.5(3) 3_565 1_665 ?
+Si4 Si4 Al1 62.3(3) 2_665 1_665 ?
+Al2 Si4 Al1 78.6(2) 1_665 1_665 ?
+Al2 Si4 Al1 167.3(6) . 1_665 ?
+Al1 Si4 Al1 96.8(5) . 1_665 ?
+Gd3 Si4 Gd3 135.1(2) 31 31_655 ?
+Si4 Si4 Gd3 14.7(2) 3_665 31_655 ?
+Si4 Si4 Gd3 74.57(17) 2_655 31_655 ?
+Pt2 Si4 Gd3 72.4(3) 7 31_655 ?
+Pt1 Si4 Gd3 76.5(3) 7 31_655 ?
+Si4 Si4 Gd3 165.32(18) 3_565 31_655 ?
+Si4 Si4 Gd3 105.4(2) 2_665 31_655 ?
+Al2 Si4 Gd3 63.11(16) 1_665 31_655 ?
+Al2 Si4 Gd3 130.4(5) . 31_655 ?
+Al1 Si4 Gd3 125.3(5) . 31_655 ?
+Al1 Si4 Gd3 61.85(17) 1_665 31_655 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pt1 Si4 2.552(13) 25 ?
+Pt1 Si4 2.552(13) 13_444 ?
+Pt1 Si4 2.552(13) 27_445 ?
+Pt1 Si4 2.552(13) 15_554 ?
+Pt1 Si4 2.552(13) 26_455 ?
+Pt1 Si4 2.552(13) 14_544 ?
+Pt1 Al2 2.591(2) 25_445 ?
+Pt1 Al2 2.591(2) 13_554 ?
+Pt1 Al2 2.591(2) 25 ?
+Pt1 Al2 2.591(2) 13_444 ?
+Pt1 Al2 2.591(2) 13_544 ?
+Pt1 Al2 2.591(2) 25_455 ?
+Pt2 Si4 2.483(14) 13_444 ?
+Pt2 Si4 2.483(14) 14_544 ?
+Pt2 Si4 2.483(14) 15_554 ?
+Pt2 Al1 2.5305(15) 13_444 ?
+Pt2 Al1 2.5305(15) 13_554 ?
+Pt2 Al1 2.5305(15) 13_544 ?
+Pt2 Al3 2.534(8) . ?
+Pt2 Al3 2.696(3) 25 ?
+Pt2 Al3 2.696(3) 25_445 ?
+Pt2 Al3 2.696(3) 25_455 ?
+Pt2 Gd3 3.3253(14) 25_445 ?
+Pt2 Gd3 3.3253(14) 25 ?
+Gd3 Si4 1.554(15) 31 ?
+Gd3 Si4 1.554(15) 33_545 ?
+Gd3 Si4 1.554(15) 32_445 ?
+Gd3 Al2 3.071(5) 31 ?
+Gd3 Al2 3.071(5) 31_445 ?
+Gd3 Al2 3.071(5) 31_545 ?
+Gd3 Al1 3.077(5) 31_445 ?
+Gd3 Al1 3.077(5) 31 ?
+Gd3 Al1 3.077(5) 31_545 ?
+Gd3 Si4 3.085(11) 32_455 ?
+Gd3 Si4 3.085(11) 33_445 ?
+Gd3 Si4 3.085(11) 33_435 ?
+Al1 Pt2 2.5305(15) 7 ?
+Al1 Pt2 2.5305(15) 7_445 ?
+Al1 Pt2 2.5305(15) 7_455 ?
+Al1 Al3 2.870(6) 31 ?
+Al1 Al3 2.870(6) 31_445 ?
+Al1 Al3 2.870(6) 31_545 ?
+Al1 Si4 2.893(10) 1_445 ?
+Al1 Si4 2.893(10) 3 ?
+Al1 Si4 2.893(10) 2 ?
+Al1 Si4 2.893(10) 3_565 ?
+Al1 Si4 2.893(10) 2_655 ?
+Al1 Si4 2.893(10) . ?
+Al2 Pt1 2.591(2) 7_445 ?
+Al2 Pt1 2.591(2) 7 ?
+Al2 Pt1 2.591(2) 7_455 ?
+Al2 Si4 2.759(10) . ?
+Al2 Si4 2.759(10) 2_655 ?
+Al2 Si4 2.759(10) 3_565 ?
+Al2 Si4 2.759(10) 1_445 ?
+Al2 Si4 2.759(10) 2 ?
+Al2 Si4 2.759(10) 3 ?
+Al2 Al2 2.849(8) 31_445 ?
+Al2 Al2 2.849(8) 31 ?
+Al2 Al2 2.849(8) 31_545 ?
+Al3 Pt2 2.696(3) 25 ?
+Al3 Pt2 2.696(3) 25_445 ?
+Al3 Pt2 2.696(3) 25_455 ?
+Al3 Al1 2.870(6) 31 ?
+Al3 Al1 2.870(6) 31_445 ?
+Al3 Al1 2.870(6) 31_545 ?
+Al3 Al3 2.926(8) 25_445 ?
+Al3 Al3 2.926(8) 25 ?
+Al3 Al3 2.926(8) 25_455 ?
+Si4 Gd3 1.554(15) 31 ?
+Si4 Si4 1.64(3) 3_665 ?
+Si4 Si4 1.64(3) 2_655 ?
+Si4 Pt2 2.483(14) 7 ?
+Si4 Pt1 2.551(13) 7 ?
+Si4 Si4 2.69(3) 3_565 ?
+Si4 Si4 2.69(3) 2_665 ?
+Si4 Al2 2.759(10) 1_665 ?
+Si4 Al1 2.893(10) 1_665 ?
+Si4 Gd3 3.086(11) 31_655 ?

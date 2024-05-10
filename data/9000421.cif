@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/04/9000421.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000421
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+_publ_section_title
+;
+ Stewartite, MnFe2(OH)2(H2O)6[PO4]2.2H2O: Its atomic arrangement
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1272
+_journal_page_last               1276
+_journal_volume                  59
+_journal_year                    1974
+_chemical_formula_sum            'Fe2 H18 Mn O18 P2'
+_chemical_name_mineral           Stewartite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                90.10
+_cell_angle_beta                 109.10
+_cell_angle_gamma                71.83
+_cell_formula_units_Z            2
+_cell_length_a                   10.398
+_cell_length_b                   10.672
+_cell_length_c                   7.223
+_cell_volume                     715.122
+_database_code_amcsd             0000432
+_exptl_crystal_density_diffrn    2.483
+_cod_original_formula_sum        'Mn Fe2 P2 O18 H18'
+_cod_database_code               9000421
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.27273 0.48931 0.64620 0.01545 Mn 0
+Fe1 0.00000 0.00000 0.00000 0.00925 Fe 0
+Fe2 0.50000 0.00000 0.00000 0.00988 Fe 0
+Fe3 0.24996 0.99745 0.50902 0.00785 Fe 0
+P1 0.90510 0.18642 0.33970 0.00760 P 0
+P2 0.45901 0.17736 0.59600 0.00760 P 0
+O1 0.05880 0.12580 0.48880 0.01165 O 0
+O2 0.88700 0.12100 0.14450 0.01216 O 0
+O3 0.86980 0.33560 0.29410 0.01330 O 0
+O4 0.80020 0.16170 0.43360 0.01153 O 0
+O5 0.31180 0.15790 0.49470 0.01013 O 0
+O6 0.43720 0.32600 0.60720 0.01444 O 0
+O7 0.55450 0.12650 0.46950 0.01039 O 0
+O8 0.53660 0.10080 0.80420 0.01317 O 0
+O-H1 0.17980 0.99100 0.21560 0.01279 O 1
+O-H2 0.31790 0.00060 0.80400 0.01254 O 1
+Wat1 0.01760 0.16060 0.85870 0.01786 O 2
+Wat2 0.38930 0.17500 0.08940 0.02102 O 2
+Wat3 0.14270 0.36410 0.65920 0.02685 O 2
+Wat4 0.15160 0.54280 0.32820 0.02292 O 2
+Wat5 0.41150 0.60990 0.63460 0.02026 O 2
+Wat6 0.37320 0.44080 0.96680 0.02812 O 2
+Wat7 0.09690 0.32580 0.15340 0.02647 O 2
+Wat8 0.29540 0.65540 0.15270 0.02495 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:18+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000432

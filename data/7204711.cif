@@ -1,0 +1,1766 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/47/7204711.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7204711
+loop_
+_publ_author_name
+'Zhiyun Wu'
+'Rolf-Dieter Hoffmann'
+'Dirk Johrendt'
+'Bernd D. Mosel'
+'Hellmut Eckert'
+'Rainer P\"ottgen'
+_publ_section_title
+;
+ Electronic structure, physical properties and ionic mobility of
+ LiAg2Sn
+;
+_journal_issue                   10
+_journal_name_full               'J. Mater. Chem.'
+_journal_page_first              2561
+_journal_page_last               2565
+_journal_paper_doi               10.1039/b306855m
+_journal_volume                  13
+_journal_year                    2003
+_chemical_formula_sum            'Ag2 Li Sn'
+_chemical_formula_weight         341.37
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.592(2)
+_cell_length_b                   6.592(2)
+_cell_length_c                   6.592(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     286.45(15)
+_computing_cell_refinement       'ENRAF-NONIUS EXPRESS'
+_computing_data_collection       'ENRAF-NONIUS EXPRESS'
+_computing_data_reduction        'ENRAF-NONIUS MOLEN'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1996)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Enraf-Nonius CAD4'
+_diffrn_measurement_method       Omega-2Theta-Scans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0449
+_diffrn_reflns_av_sigmaI/netI    0.0155
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            957
+_diffrn_reflns_theta_full        39.63
+_diffrn_reflns_theta_max         39.63
+_diffrn_reflns_theta_min         5.36
+_diffrn_standards_interval_time  7200s
+_exptl_absorpt_coefficient_mu    21.8
+_exptl_absorpt_correction_T_max  0.305
+_exptl_absorpt_correction_T_min  0.224
+_exptl_absorpt_correction_type   'semiempirical-psi scans'
+_exptl_crystal_colour            silvery
+_exptl_crystal_density_diffrn    7.92
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             588
+_exptl_crystal_size_max          0.030
+_exptl_crystal_size_mid          0.020
+_exptl_crystal_size_min          0.020
+_refine_diff_density_max         2.492
+_refine_diff_density_min         -1.004
+_refine_diff_density_rms         0.219
+_refine_ls_extinction_coef       0.0007(4)
+_refine_ls_extinction_expression Fc^*^==kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.203
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     5
+_refine_ls_number_reflns         69
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.203
+_refine_ls_R_factor_all          0.0158
+_refine_ls_R_factor_gt           0.0154
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w==1/[\s^2^(Fo^2^)+(0.0300P)^2^+0.0000P] where P==(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0445
+_refine_ls_wR_factor_ref         0.0450
+_reflns_number_gt                68
+_reflns_number_total             69
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b306855m.txt
+_cod_data_source_block           225
+_cod_original_sg_symbol_H-M      Fm-3m
+_cod_original_formula_sum        LiAg2Sn
+_cod_database_code               7204711
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, x+1/2, -z+1/2'
+'-y, -x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-y, x+1/2, z+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-z, y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, x, -z+1/2'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-y+1/2, x, z+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-z+1/2, y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, x+1/2, -z'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, z'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'-y, -x+1/2, z+1/2'
+'y, x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'y, -x+1/2, -z+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'z, -y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'y+1/2, -x, -z+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'z+1/2, -y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, -z'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, -x'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ag Ag 0.2500 0.2500 0.2500 0.0190(2) Uani 1 24 d S . .
+Sn Sn 0.5000 0.5000 0.5000 0.01339(19) Uani 1 48 d S . .
+Li Li 0.0000 0.0000 0.0000 0.032(7) Uani 1 48 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ag 0.0190(2) 0.0190(2) 0.0190(2) 0.000 0.000 0.000
+Sn 0.01339(19) 0.01339(19) 0.01339(19) 0.000 0.000 0.000
+Li 0.032(7) 0.032(7) 0.032(7) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ag Ag -0.8971 1.1015 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sn Sn -0.6537 1.4246 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Li Ag Sn 180.0 . . ?
+Li Ag Li 109.5 . 73 ?
+Sn Ag Li 70.5 . 73 ?
+Li Ag Li 109.5 . 49 ?
+Sn Ag Li 70.5 . 49 ?
+Li Ag Li 109.5 73 49 ?
+Li Ag Li 109.5 . 25 ?
+Sn Ag Li 70.5 . 25 ?
+Li Ag Li 109.5 73 25 ?
+Li Ag Li 109.5 49 25 ?
+Li Ag Sn 70.5 . 73_445 ?
+Sn Ag Sn 109.5 . 73_445 ?
+Li Ag Sn 180.0 73 73_445 ?
+Li Ag Sn 70.5 49 73_445 ?
+Li Ag Sn 70.5 25 73_445 ?
+Li Ag Sn 70.5 . 49_454 ?
+Sn Ag Sn 109.5 . 49_454 ?
+Li Ag Sn 70.5 73 49_454 ?
+Li Ag Sn 180.0 49 49_454 ?
+Li Ag Sn 70.5 25 49_454 ?
+Sn Ag Sn 109.5 73_445 49_454 ?
+Li Ag Sn 70.5 . 25_544 ?
+Sn Ag Sn 109.5 . 25_544 ?
+Li Ag Sn 70.5 73 25_544 ?
+Li Ag Sn 70.5 49 25_544 ?
+Li Ag Sn 180.0 25 25_544 ?
+Sn Ag Sn 109.5 73_445 25_544 ?
+Sn Ag Sn 109.5 49_454 25_544 ?
+Li Ag Ag 125.3 . 169_556 ?
+Sn Ag Ag 54.7 . 169_556 ?
+Li Ag Ag 125.3 73 169_556 ?
+Li Ag Ag 54.7 49 169_556 ?
+Li Ag Ag 54.7 25 169_556 ?
+Sn Ag Ag 54.7 73_445 169_556 ?
+Sn Ag Ag 125.3 49_454 169_556 ?
+Sn Ag Ag 125.3 25_544 169_556 ?
+Li Ag Ag 54.7 . 169 ?
+Sn Ag Ag 125.3 . 169 ?
+Li Ag Ag 54.736(1) 73 169 ?
+Li Ag Ag 125.3 49 169 ?
+Li Ag Ag 125.3 25 169 ?
+Sn Ag Ag 125.3 73_445 169 ?
+Sn Ag Ag 54.7 49_454 169 ?
+Sn Ag Ag 54.7 25_544 169 ?
+Ag Ag Ag 180.0 169_556 169 ?
+Li Ag Ag 125.3 . 145_565 ?
+Sn Ag Ag 54.7 . 145_565 ?
+Li Ag Ag 54.7 73 145_565 ?
+Li Ag Ag 125.3 49 145_565 ?
+Li Ag Ag 54.7 25 145_565 ?
+Sn Ag Ag 125.3 73_445 145_565 ?
+Sn Ag Ag 54.736(1) 49_454 145_565 ?
+Sn Ag Ag 125.3 25_544 145_565 ?
+Ag Ag Ag 90.0 169_556 145_565 ?
+Ag Ag Ag 90.0 169 145_565 ?
+Li Ag Ag 54.7 . 145 ?
+Sn Ag Ag 125.3 . 145 ?
+Li Ag Ag 125.3 73 145 ?
+Li Ag Ag 54.7 49 145 ?
+Li Ag Ag 125.3 25 145 ?
+Sn Ag Ag 54.7 73_445 145 ?
+Sn Ag Ag 125.3 49_454 145 ?
+Sn Ag Ag 54.7 25_544 145 ?
+Ag Ag Ag 90.0 169_556 145 ?
+Ag Ag Ag 90.0 169 145 ?
+Ag Ag Ag 180.0 145_565 145 ?
+Li Ag Ag 125.3 . 121_655 ?
+Sn Ag Ag 54.7 . 121_655 ?
+Li Ag Ag 54.7 73 121_655 ?
+Li Ag Ag 54.7 49 121_655 ?
+Li Ag Ag 125.3 25 121_655 ?
+Sn Ag Ag 125.3 73_445 121_655 ?
+Sn Ag Ag 125.3 49_454 121_655 ?
+Sn Ag Ag 54.7 25_544 121_655 ?
+Ag Ag Ag 90.0 169_556 121_655 ?
+Ag Ag Ag 90.0 169 121_655 ?
+Ag Ag Ag 90.0 145_565 121_655 ?
+Ag Ag Ag 90.0 145 121_655 ?
+Li Ag Ag 54.7 . 121 ?
+Sn Ag Ag 125.3 . 121 ?
+Li Ag Ag 125.3 73 121 ?
+Li Ag Ag 125.3 49 121 ?
+Li Ag Ag 54.736(1) 25 121 ?
+Sn Ag Ag 54.7 73_445 121 ?
+Sn Ag Ag 54.7 49_454 121 ?
+Sn Ag Ag 125.264(1) 25_544 121 ?
+Ag Ag Ag 90.0 169_556 121 ?
+Ag Ag Ag 90.0 169 121 ?
+Ag Ag Ag 90.0 145_565 121 ?
+Ag Ag Ag 90.0 145 121 ?
+Ag Ag Ag 180.0 121_655 121 ?
+Li Ag Ag 144.7 . 73 ?
+Sn Ag Ag 35.3 . 73 ?
+Li Ag Ag 35.3 73 73 ?
+Li Ag Ag 90.0 49 73 ?
+Li Ag Ag 90.0 25 73 ?
+Sn Ag Ag 144.7 73_445 73 ?
+Sn Ag Ag 90.0 49_454 73 ?
+Sn Ag Ag 90.0 25_544 73 ?
+Ag Ag Ag 90.0 169_556 73 ?
+Ag Ag Ag 90.0 169 73 ?
+Ag Ag Ag 45.0 145_565 73 ?
+Ag Ag Ag 135.0 145 73 ?
+Ag Ag Ag 45.0 121_655 73 ?
+Ag Ag Ag 135.0 121 73 ?
+Li Ag Ag 35.3 . 73_445 ?
+Sn Ag Ag 144.7 . 73_445 ?
+Li Ag Ag 144.7 73 73_445 ?
+Li Ag Ag 90.0 49 73_445 ?
+Li Ag Ag 90.0 25 73_445 ?
+Sn Ag Ag 35.3 73_445 73_445 ?
+Sn Ag Ag 90.0 49_454 73_445 ?
+Sn Ag Ag 90.0 25_544 73_445 ?
+Ag Ag Ag 90.0 169_556 73_445 ?
+Ag Ag Ag 90.0 169 73_445 ?
+Ag Ag Ag 135.0 145_565 73_445 ?
+Ag Ag Ag 45.0 145 73_445 ?
+Ag Ag Ag 135.0 121_655 73_445 ?
+Ag Ag Ag 45.0 121 73_445 ?
+Ag Ag Ag 180.0 73 73_445 ?
+Li Ag Ag 144.7 . 49 ?
+Sn Ag Ag 35.3 . 49 ?
+Li Ag Ag 90.0 73 49 ?
+Li Ag Ag 35.3 49 49 ?
+Li Ag Ag 90.0 25 49 ?
+Sn Ag Ag 90.0 73_445 49 ?
+Sn Ag Ag 144.7 49_454 49 ?
+Sn Ag Ag 90.0 25_544 49 ?
+Ag Ag Ag 45.0 169_556 49 ?
+Ag Ag Ag 135.0 169 49 ?
+Ag Ag Ag 90.0 145_565 49 ?
+Ag Ag Ag 90.0 145 49 ?
+Ag Ag Ag 45.0 121_655 49 ?
+Ag Ag Ag 135.0 121 49 ?
+Ag Ag Ag 60.0 73 49 ?
+Ag Ag Ag 120.0 73_445 49 ?
+Li Ag Ag 35.3 . 49_454 ?
+Sn Ag Ag 144.7 . 49_454 ?
+Li Ag Ag 90.0 73 49_454 ?
+Li Ag Ag 144.7 49 49_454 ?
+Li Ag Ag 90.0 25 49_454 ?
+Sn Ag Ag 90.0 73_445 49_454 ?
+Sn Ag Ag 35.3 49_454 49_454 ?
+Sn Ag Ag 90.0 25_544 49_454 ?
+Ag Ag Ag 135.0 169_556 49_454 ?
+Ag Ag Ag 45.0 169 49_454 ?
+Ag Ag Ag 90.0 145_565 49_454 ?
+Ag Ag Ag 90.0 145 49_454 ?
+Ag Ag Ag 135.0 121_655 49_454 ?
+Ag Ag Ag 45.0 121 49_454 ?
+Ag Ag Ag 120.0 73 49_454 ?
+Ag Ag Ag 60.0 73_445 49_454 ?
+Ag Ag Ag 180.0 49 49_454 ?
+Li Ag Ag 144.7 . 25 ?
+Sn Ag Ag 35.3 . 25 ?
+Li Ag Ag 90.0 73 25 ?
+Li Ag Ag 90.0 49 25 ?
+Li Ag Ag 35.3 25 25 ?
+Sn Ag Ag 90.0 73_445 25 ?
+Sn Ag Ag 90.0 49_454 25 ?
+Sn Ag Ag 144.7 25_544 25 ?
+Ag Ag Ag 45.0 169_556 25 ?
+Ag Ag Ag 135.0 169 25 ?
+Ag Ag Ag 45.0 145_565 25 ?
+Ag Ag Ag 135.0 145 25 ?
+Ag Ag Ag 90.0 121_655 25 ?
+Ag Ag Ag 90.0 121 25 ?
+Ag Ag Ag 60.0 73 25 ?
+Ag Ag Ag 120.0 73_445 25 ?
+Ag Ag Ag 60.0 49 25 ?
+Ag Ag Ag 120.0 49_454 25 ?
+Li Ag Ag 35.3 . 25_544 ?
+Sn Ag Ag 144.7 . 25_544 ?
+Li Ag Ag 90.0 73 25_544 ?
+Li Ag Ag 90.0 49 25_544 ?
+Li Ag Ag 144.7 25 25_544 ?
+Sn Ag Ag 90.0 73_445 25_544 ?
+Sn Ag Ag 90.0 49_454 25_544 ?
+Sn Ag Ag 35.3 25_544 25_544 ?
+Ag Ag Ag 135.0 169_556 25_544 ?
+Ag Ag Ag 45.0 169 25_544 ?
+Ag Ag Ag 135.0 145_565 25_544 ?
+Ag Ag Ag 45.0 145 25_544 ?
+Ag Ag Ag 90.0 121_655 25_544 ?
+Ag Ag Ag 90.0 121 25_544 ?
+Ag Ag Ag 120.0 73 25_544 ?
+Ag Ag Ag 60.0 73_445 25_544 ?
+Ag Ag Ag 120.0 49 25_544 ?
+Ag Ag Ag 60.0 49_454 25_544 ?
+Ag Ag Ag 180.0 25 25_544 ?
+Li Ag Ag 90.0 . 73_455 ?
+Sn Ag Ag 90.0 . 73_455 ?
+Li Ag Ag 90.0 73 73_455 ?
+Li Ag Ag 144.7 49 73_455 ?
+Li Ag Ag 35.3 25 73_455 ?
+Sn Ag Ag 90.0 73_445 73_455 ?
+Sn Ag Ag 35.3 49_454 73_455 ?
+Sn Ag Ag 144.7 25_544 73_455 ?
+Ag Ag Ag 90.0 169_556 73_455 ?
+Ag Ag Ag 90.0 169 73_455 ?
+Ag Ag Ag 45.0 145_565 73_455 ?
+Ag Ag Ag 135.0 145 73_455 ?
+Ag Ag Ag 135.0 121_655 73_455 ?
+Ag Ag Ag 45.0 121 73_455 ?
+Ag Ag Ag 90.0 73 73_455 ?
+Ag Ag Ag 90.0 73_445 73_455 ?
+Ag Ag Ag 120.0 49 73_455 ?
+Ag Ag Ag 60.0 49_454 73_455 ?
+Ag Ag Ag 60.0 25 73_455 ?
+Ag Ag Ag 120.0 25_544 73_455 ?
+Li Ag Ag 90.0 . 73_545 ?
+Sn Ag Ag 90.0 . 73_545 ?
+Li Ag Ag 90.0 73 73_545 ?
+Li Ag Ag 35.3 49 73_545 ?
+Li Ag Ag 144.7 25 73_545 ?
+Sn Ag Ag 90.0 73_445 73_545 ?
+Sn Ag Ag 144.7 49_454 73_545 ?
+Sn Ag Ag 35.3 25_544 73_545 ?
+Ag Ag Ag 90.0 169_556 73_545 ?
+Ag Ag Ag 90.0 169 73_545 ?
+Ag Ag Ag 135.0 145_565 73_545 ?
+Ag Ag Ag 45.0 145 73_545 ?
+Ag Ag Ag 45.0 121_655 73_545 ?
+Ag Ag Ag 135.0 121 73_545 ?
+Ag Ag Ag 90.0 73 73_545 ?
+Ag Ag Ag 90.0 73_445 73_545 ?
+Ag Ag Ag 60.0 49 73_545 ?
+Ag Ag Ag 120.0 49_454 73_545 ?
+Ag Ag Ag 120.0 25 73_545 ?
+Ag Ag Ag 60.0 25_544 73_545 ?
+Ag Ag Ag 180.0 73_455 73_545 ?
+Li Ag Ag 90.0 . 49_455 ?
+Sn Ag Ag 90.0 . 49_455 ?
+Li Ag Ag 144.7 73 49_455 ?
+Li Ag Ag 90.0 49 49_455 ?
+Li Ag Ag 35.3 25 49_455 ?
+Sn Ag Ag 35.3 73_445 49_455 ?
+Sn Ag Ag 90.0 49_454 49_455 ?
+Sn Ag Ag 144.7 25_544 49_455 ?
+Ag Ag Ag 45.0 169_556 49_455 ?
+Ag Ag Ag 135.0 169 49_455 ?
+Ag Ag Ag 90.0 145_565 49_455 ?
+Ag Ag Ag 90.0 145 49_455 ?
+Ag Ag Ag 135.0 121_655 49_455 ?
+Ag Ag Ag 45.0 121 49_455 ?
+Ag Ag Ag 120.0 73 49_455 ?
+Ag Ag Ag 60.0 73_445 49_455 ?
+Ag Ag Ag 90.0 49 49_455 ?
+Ag Ag Ag 90.0 49_454 49_455 ?
+Ag Ag Ag 60.0 25 49_455 ?
+Ag Ag Ag 120.0 25_544 49_455 ?
+Ag Ag Ag 60.0 73_455 49_455 ?
+Ag Ag Ag 120.0 73_545 49_455 ?
+Li Ag Ag 90.0 . 49_554 ?
+Sn Ag Ag 90.0 . 49_554 ?
+Li Ag Ag 35.3 73 49_554 ?
+Li Ag Ag 90.0 49 49_554 ?
+Li Ag Ag 144.7 25 49_554 ?
+Sn Ag Ag 144.7 73_445 49_554 ?
+Sn Ag Ag 90.0 49_454 49_554 ?
+Sn Ag Ag 35.3 25_544 49_554 ?
+Ag Ag Ag 135.0 169_556 49_554 ?
+Ag Ag Ag 45.0 169 49_554 ?
+Ag Ag Ag 90.0 145_565 49_554 ?
+Ag Ag Ag 90.0 145 49_554 ?
+Ag Ag Ag 45.0 121_655 49_554 ?
+Ag Ag Ag 135.0 121 49_554 ?
+Ag Ag Ag 60.0 73 49_554 ?
+Ag Ag Ag 120.0 73_445 49_554 ?
+Ag Ag Ag 90.0 49 49_554 ?
+Ag Ag Ag 90.0 49_454 49_554 ?
+Ag Ag Ag 120.0 25 49_554 ?
+Ag Ag Ag 60.0 25_544 49_554 ?
+Ag Ag Ag 120.0 73_455 49_554 ?
+Ag Ag Ag 60.0 73_545 49_554 ?
+Ag Ag Ag 180.0 49_455 49_554 ?
+Li Ag Ag 90.0 . 25_545 ?
+Sn Ag Ag 90.0 . 25_545 ?
+Li Ag Ag 144.7 73 25_545 ?
+Li Ag Ag 35.3 49 25_545 ?
+Li Ag Ag 90.0 25 25_545 ?
+Sn Ag Ag 35.3 73_445 25_545 ?
+Sn Ag Ag 144.7 49_454 25_545 ?
+Sn Ag Ag 90.0 25_544 25_545 ?
+Ag Ag Ag 45.0 169_556 25_545 ?
+Ag Ag Ag 135.0 169 25_545 ?
+Ag Ag Ag 135.0 145_565 25_545 ?
+Ag Ag Ag 45.0 145 25_545 ?
+Ag Ag Ag 90.0 121_655 25_545 ?
+Ag Ag Ag 90.0 121 25_545 ?
+Ag Ag Ag 120.0 73 25_545 ?
+Ag Ag Ag 60.0 73_445 25_545 ?
+Ag Ag Ag 60.0 49 25_545 ?
+Ag Ag Ag 120.0 49_454 25_545 ?
+Ag Ag Ag 90.0 25 25_545 ?
+Ag Ag Ag 90.0 25_544 25_545 ?
+Ag Ag Ag 120.0 73_455 25_545 ?
+Ag Ag Ag 60.0 73_545 25_545 ?
+Ag Ag Ag 60.0 49_455 25_545 ?
+Ag Ag Ag 120.0 49_554 25_545 ?
+Li Ag Ag 90.0 . 25_554 ?
+Sn Ag Ag 90.0 . 25_554 ?
+Li Ag Ag 35.3 73 25_554 ?
+Li Ag Ag 144.7 49 25_554 ?
+Li Ag Ag 90.0 25 25_554 ?
+Sn Ag Ag 144.7 73_445 25_554 ?
+Sn Ag Ag 35.3 49_454 25_554 ?
+Sn Ag Ag 90.0 25_544 25_554 ?
+Ag Ag Ag 135.0 169_556 25_554 ?
+Ag Ag Ag 45.0 169 25_554 ?
+Ag Ag Ag 45.0 145_565 25_554 ?
+Ag Ag Ag 135.0 145 25_554 ?
+Ag Ag Ag 90.0 121_655 25_554 ?
+Ag Ag Ag 90.0 121 25_554 ?
+Ag Ag Ag 60.0 73 25_554 ?
+Ag Ag Ag 120.0 73_445 25_554 ?
+Ag Ag Ag 120.0 49 25_554 ?
+Ag Ag Ag 60.0 49_454 25_554 ?
+Ag Ag Ag 90.0 25 25_554 ?
+Ag Ag Ag 90.0 25_544 25_554 ?
+Ag Ag Ag 60.0 73_455 25_554 ?
+Ag Ag Ag 120.0 73_545 25_554 ?
+Ag Ag Ag 120.0 49_455 25_554 ?
+Ag Ag Ag 60.0 49_554 25_554 ?
+Ag Ag Ag 180.0 25_545 25_554 ?
+Li Ag Li 150.5 . 73_556 ?
+Sn Ag Li 29.5 . 73_556 ?
+Li Ag Li 100.0 73 73_556 ?
+Li Ag Li 58.5 49 73_556 ?
+Li Ag Li 58.5 25 73_556 ?
+Sn Ag Li 80.0 73_445 73_556 ?
+Sn Ag Li 121.5 49_454 73_556 ?
+Sn Ag Li 121.5 25_544 73_556 ?
+Ag Ag Li 25.2 169_556 73_556 ?
+Ag Ag Li 154.8 169 73_556 ?
+Ag Ag Li 72.5 145_565 73_556 ?
+Ag Ag Li 107.5 145 73_556 ?
+Ag Ag Li 72.5 121_655 73_556 ?
+Ag Ag Li 107.5 121 73_556 ?
+Ag Ag Li 64.761(1) 73 73_556 ?
+Ag Ag Li 115.2 73_445 73_556 ?
+Ag Ag Li 31.482(1) 49 73_556 ?
+Ag Ag Li 148.5 49_454 73_556 ?
+Ag Ag Li 31.482(1) 25 73_556 ?
+Ag Ag Li 148.5 25_544 73_556 ?
+Ag Ag Li 90.0 73_455 73_556 ?
+Ag Ag Li 90.0 73_545 73_556 ?
+Ag Ag Li 64.8 49_455 73_556 ?
+Ag Ag Li 115.2 49_554 73_556 ?
+Ag Ag Li 64.8 25_545 73_556 ?
+Ag Ag Li 115.2 25_554 73_556 ?
+Li Ag Li 150.5 . 49_565 ?
+Sn Ag Li 29.5 . 49_565 ?
+Li Ag Li 58.5 73 49_565 ?
+Li Ag Li 100.0 49 49_565 ?
+Li Ag Li 58.5 25 49_565 ?
+Sn Ag Li 121.5 73_445 49_565 ?
+Sn Ag Li 80.0 49_454 49_565 ?
+Sn Ag Li 121.5 25_544 49_565 ?
+Ag Ag Li 72.5 169_556 49_565 ?
+Ag Ag Li 107.5 169 49_565 ?
+Ag Ag Li 25.2 145_565 49_565 ?
+Ag Ag Li 154.8 145 49_565 ?
+Ag Ag Li 72.5 121_655 49_565 ?
+Ag Ag Li 107.5 121 49_565 ?
+Ag Ag Li 31.5 73 49_565 ?
+Ag Ag Li 148.518(1) 73_445 49_565 ?
+Ag Ag Li 64.8 49 49_565 ?
+Ag Ag Li 115.2 49_454 49_565 ?
+Ag Ag Li 31.482(1) 25 49_565 ?
+Ag Ag Li 148.518(1) 25_544 49_565 ?
+Ag Ag Li 64.8 73_455 49_565 ?
+Ag Ag Li 115.2 73_545 49_565 ?
+Ag Ag Li 90.0 49_455 49_565 ?
+Ag Ag Li 90.0 49_554 49_565 ?
+Ag Ag Li 115.2 25_545 49_565 ?
+Ag Ag Li 64.8 25_554 49_565 ?
+Li Ag Li 50.5 73_556 49_565 ?
+Li Ag Li 150.5 . 25_655 ?
+Sn Ag Li 29.5 . 25_655 ?
+Li Ag Li 58.5 73 25_655 ?
+Li Ag Li 58.5 49 25_655 ?
+Li Ag Li 100.0 25 25_655 ?
+Sn Ag Li 121.5 73_445 25_655 ?
+Sn Ag Li 121.5 49_454 25_655 ?
+Sn Ag Li 80.0 25_544 25_655 ?
+Ag Ag Li 72.5 169_556 25_655 ?
+Ag Ag Li 107.5 169 25_655 ?
+Ag Ag Li 72.5 145_565 25_655 ?
+Ag Ag Li 107.5 145 25_655 ?
+Ag Ag Li 25.2 121_655 25_655 ?
+Ag Ag Li 154.8 121 25_655 ?
+Ag Ag Li 31.482(1) 73 25_655 ?
+Ag Ag Li 148.5 73_445 25_655 ?
+Ag Ag Li 31.5 49 25_655 ?
+Ag Ag Li 148.5 49_454 25_655 ?
+Ag Ag Li 64.8 25 25_655 ?
+Ag Ag Li 115.2 25_544 25_655 ?
+Ag Ag Li 115.2 73_455 25_655 ?
+Ag Ag Li 64.8 73_545 25_655 ?
+Ag Ag Li 115.2 49_455 25_655 ?
+Ag Ag Li 64.8 49_554 25_655 ?
+Ag Ag Li 90.0 25_545 25_655 ?
+Ag Ag Li 90.0 25_554 25_655 ?
+Li Ag Li 50.5 73_556 25_655 ?
+Li Ag Li 50.5 49_565 25_655 ?
+Li Ag Sn 29.5 . 73_444 ?
+Sn Ag Sn 150.5 . 73_444 ?
+Li Ag Sn 80.0 73 73_444 ?
+Li Ag Sn 121.5 49 73_444 ?
+Li Ag Sn 121.5 25 73_444 ?
+Sn Ag Sn 100.0 73_445 73_444 ?
+Sn Ag Sn 58.5 49_454 73_444 ?
+Sn Ag Sn 58.5 25_544 73_444 ?
+Ag Ag Sn 154.8 169_556 73_444 ?
+Ag Ag Sn 25.2 169 73_444 ?
+Ag Ag Sn 107.5 145_565 73_444 ?
+Ag Ag Sn 72.5 145 73_444 ?
+Ag Ag Sn 107.5 121_655 73_444 ?
+Ag Ag Sn 72.5 121 73_444 ?
+Ag Ag Sn 115.2 73 73_444 ?
+Ag Ag Sn 64.761(1) 73_445 73_444 ?
+Ag Ag Sn 148.518(1) 49 73_444 ?
+Ag Ag Sn 31.5 49_454 73_444 ?
+Ag Ag Sn 148.518(1) 25 73_444 ?
+Ag Ag Sn 31.5 25_544 73_444 ?
+Ag Ag Sn 90.0 73_455 73_444 ?
+Ag Ag Sn 90.0 73_545 73_444 ?
+Ag Ag Sn 115.2 49_455 73_444 ?
+Ag Ag Sn 64.8 49_554 73_444 ?
+Ag Ag Sn 115.2 25_545 73_444 ?
+Ag Ag Sn 64.8 25_554 73_444 ?
+Li Ag Sn 180.0 73_556 73_444 ?
+Li Ag Sn 129.5 49_565 73_444 ?
+Li Ag Sn 129.5 25_655 73_444 ?
+Ag Sn Ag 180.0 97_666 . ?
+Ag Sn Ag 109.5 97_666 169_556 ?
+Ag Sn Ag 70.529(1) . 169_556 ?
+Ag Sn Ag 109.5 97_666 145_565 ?
+Ag Sn Ag 70.529(1) . 145_565 ?
+Ag Sn Ag 109.5 169_556 145_565 ?
+Ag Sn Ag 109.471(1) 97_666 121_655 ?
+Ag Sn Ag 70.5 . 121_655 ?
+Ag Sn Ag 109.5 169_556 121_655 ?
+Ag Sn Ag 109.5 145_565 121_655 ?
+Ag Sn Ag 70.5 97_666 73 ?
+Ag Sn Ag 109.5 . 73 ?
+Ag Sn Ag 180.0 169_556 73 ?
+Ag Sn Ag 70.5 145_565 73 ?
+Ag Sn Ag 70.5 121_655 73 ?
+Ag Sn Ag 70.5 97_666 49 ?
+Ag Sn Ag 109.5 . 49 ?
+Ag Sn Ag 70.5 169_556 49 ?
+Ag Sn Ag 180.0 145_565 49 ?
+Ag Sn Ag 70.5 121_655 49 ?
+Ag Sn Ag 109.5 73 49 ?
+Ag Sn Ag 70.5 97_666 25 ?
+Ag Sn Ag 109.5 . 25 ?
+Ag Sn Ag 70.5 169_556 25 ?
+Ag Sn Ag 70.5 145_565 25 ?
+Ag Sn Ag 180.0 121_655 25 ?
+Ag Sn Ag 109.5 73 25 ?
+Ag Sn Ag 109.5 49 25 ?
+Ag Sn Li 54.7 97_666 73_556 ?
+Ag Sn Li 125.3 . 73_556 ?
+Ag Sn Li 54.7 169_556 73_556 ?
+Ag Sn Li 125.3 145_565 73_556 ?
+Ag Sn Li 125.3 121_655 73_556 ?
+Ag Sn Li 125.264(1) 73 73_556 ?
+Ag Sn Li 54.7 49 73_556 ?
+Ag Sn Li 54.7 25 73_556 ?
+Ag Sn Li 125.3 97_666 73 ?
+Ag Sn Li 54.7 . 73 ?
+Ag Sn Li 125.3 169_556 73 ?
+Ag Sn Li 54.7 145_565 73 ?
+Ag Sn Li 54.7 121_655 73 ?
+Ag Sn Li 54.7 73 73 ?
+Ag Sn Li 125.3 49 73 ?
+Ag Sn Li 125.3 25 73 ?
+Li Sn Li 180.0 73_556 73 ?
+Ag Sn Li 54.7 97_666 49_565 ?
+Ag Sn Li 125.3 . 49_565 ?
+Ag Sn Li 125.3 169_556 49_565 ?
+Ag Sn Li 54.736(1) 145_565 49_565 ?
+Ag Sn Li 125.3 121_655 49_565 ?
+Ag Sn Li 54.7 73 49_565 ?
+Ag Sn Li 125.3 49 49_565 ?
+Ag Sn Li 54.7 25 49_565 ?
+Li Sn Li 90.0 73_556 49_565 ?
+Li Sn Li 90.0 73 49_565 ?
+Ag Sn Li 125.3 97_666 49 ?
+Ag Sn Li 54.7 . 49 ?
+Ag Sn Li 54.7 169_556 49 ?
+Ag Sn Li 125.264(1) 145_565 49 ?
+Ag Sn Li 54.7 121_655 49 ?
+Ag Sn Li 125.3 73 49 ?
+Ag Sn Li 54.7 49 49 ?
+Ag Sn Li 125.3 25 49 ?
+Li Sn Li 90.0 73_556 49 ?
+Li Sn Li 90.0 73 49 ?
+Li Sn Li 180.0 49_565 49 ?
+Ag Sn Li 54.7 97_666 25_655 ?
+Ag Sn Li 125.3 . 25_655 ?
+Ag Sn Li 125.3 169_556 25_655 ?
+Ag Sn Li 125.3 145_565 25_655 ?
+Ag Sn Li 54.7 121_655 25_655 ?
+Ag Sn Li 54.7 73 25_655 ?
+Ag Sn Li 54.7 49 25_655 ?
+Ag Sn Li 125.3 25 25_655 ?
+Li Sn Li 90.0 73_556 25_655 ?
+Li Sn Li 90.0 73 25_655 ?
+Li Sn Li 90.0 49_565 25_655 ?
+Li Sn Li 90.0 49 25_655 ?
+Ag Sn Li 125.3 97_666 25 ?
+Ag Sn Li 54.7 . 25 ?
+Ag Sn Li 54.7 169_556 25 ?
+Ag Sn Li 54.7 145_565 25 ?
+Ag Sn Li 125.264(1) 121_655 25 ?
+Ag Sn Li 125.3 73 25 ?
+Ag Sn Li 125.3 49 25 ?
+Ag Sn Li 54.736(1) 25 25 ?
+Li Sn Li 90.0 73_556 25 ?
+Li Sn Li 90.0 73 25 ?
+Li Sn Li 90.0 49_565 25 ?
+Li Sn Li 90.0 49 25 ?
+Li Sn Li 180.0 25_655 25 ?
+Ag Sn Sn 35.3 97_666 73 ?
+Ag Sn Sn 144.7 . 73 ?
+Ag Sn Sn 144.7 169_556 73 ?
+Ag Sn Sn 90.0 145_565 73 ?
+Ag Sn Sn 90.0 121_655 73 ?
+Ag Sn Sn 35.3 73 73 ?
+Ag Sn Sn 90.0 49 73 ?
+Ag Sn Sn 90.0 25 73 ?
+Li Sn Sn 90.0 73_556 73 ?
+Li Sn Sn 90.0 73 73 ?
+Li Sn Sn 45.0 49_565 73 ?
+Li Sn Sn 135.0 49 73 ?
+Li Sn Sn 45.0 25_655 73 ?
+Li Sn Sn 135.0 25 73 ?
+Ag Sn Sn 144.7 97_666 73_445 ?
+Ag Sn Sn 35.3 . 73_445 ?
+Ag Sn Sn 35.3 169_556 73_445 ?
+Ag Sn Sn 90.0 145_565 73_445 ?
+Ag Sn Sn 90.0 121_655 73_445 ?
+Ag Sn Sn 144.7 73 73_445 ?
+Ag Sn Sn 90.0 49 73_445 ?
+Ag Sn Sn 90.0 25 73_445 ?
+Li Sn Sn 90.0 73_556 73_445 ?
+Li Sn Sn 90.0 73 73_445 ?
+Li Sn Sn 135.0 49_565 73_445 ?
+Li Sn Sn 45.0 49 73_445 ?
+Li Sn Sn 135.0 25_655 73_445 ?
+Li Sn Sn 45.0 25 73_445 ?
+Sn Sn Sn 180.0 73 73_445 ?
+Ag Sn Sn 35.3 97_666 49 ?
+Ag Sn Sn 144.7 . 49 ?
+Ag Sn Sn 90.0 169_556 49 ?
+Ag Sn Sn 144.7 145_565 49 ?
+Ag Sn Sn 90.0 121_655 49 ?
+Ag Sn Sn 90.0 73 49 ?
+Ag Sn Sn 35.3 49 49 ?
+Ag Sn Sn 90.0 25 49 ?
+Li Sn Sn 45.0 73_556 49 ?
+Li Sn Sn 135.0 73 49 ?
+Li Sn Sn 90.0 49_565 49 ?
+Li Sn Sn 90.0 49 49 ?
+Li Sn Sn 45.0 25_655 49 ?
+Li Sn Sn 135.0 25 49 ?
+Sn Sn Sn 60.0 73 49 ?
+Sn Sn Sn 120.0 73_445 49 ?
+Ag Sn Sn 144.7 97_666 49_454 ?
+Ag Sn Sn 35.3 . 49_454 ?
+Ag Sn Sn 90.0 169_556 49_454 ?
+Ag Sn Sn 35.3 145_565 49_454 ?
+Ag Sn Sn 90.0 121_655 49_454 ?
+Ag Sn Sn 90.0 73 49_454 ?
+Ag Sn Sn 144.7 49 49_454 ?
+Ag Sn Sn 90.0 25 49_454 ?
+Li Sn Sn 135.0 73_556 49_454 ?
+Li Sn Sn 45.0 73 49_454 ?
+Li Sn Sn 90.0 49_565 49_454 ?
+Li Sn Sn 90.0 49 49_454 ?
+Li Sn Sn 135.0 25_655 49_454 ?
+Li Sn Sn 45.0 25 49_454 ?
+Sn Sn Sn 120.0 73 49_454 ?
+Sn Sn Sn 60.0 73_445 49_454 ?
+Sn Sn Sn 180.0 49 49_454 ?
+Ag Sn Sn 35.3 97_666 25 ?
+Ag Sn Sn 144.736(1) . 25 ?
+Ag Sn Sn 90.0 169_556 25 ?
+Ag Sn Sn 90.0 145_565 25 ?
+Ag Sn Sn 144.7 121_655 25 ?
+Ag Sn Sn 90.0 73 25 ?
+Ag Sn Sn 90.0 49 25 ?
+Ag Sn Sn 35.3 25 25 ?
+Li Sn Sn 45.0 73_556 25 ?
+Li Sn Sn 135.0 73 25 ?
+Li Sn Sn 45.0 49_565 25 ?
+Li Sn Sn 135.0 49 25 ?
+Li Sn Sn 90.0 25_655 25 ?
+Li Sn Sn 90.0 25 25 ?
+Sn Sn Sn 60.0 73 25 ?
+Sn Sn Sn 120.0 73_445 25 ?
+Sn Sn Sn 60.0 49 25 ?
+Sn Sn Sn 120.0 49_454 25 ?
+Ag Sn Sn 144.7 97_666 25_544 ?
+Ag Sn Sn 35.3 . 25_544 ?
+Ag Sn Sn 90.0 169_556 25_544 ?
+Ag Sn Sn 90.0 145_565 25_544 ?
+Ag Sn Sn 35.3 121_655 25_544 ?
+Ag Sn Sn 90.0 73 25_544 ?
+Ag Sn Sn 90.0 49 25_544 ?
+Ag Sn Sn 144.7 25 25_544 ?
+Li Sn Sn 135.0 73_556 25_544 ?
+Li Sn Sn 45.0 73 25_544 ?
+Li Sn Sn 135.0 49_565 25_544 ?
+Li Sn Sn 45.0 49 25_544 ?
+Li Sn Sn 90.0 25_655 25_544 ?
+Li Sn Sn 90.0 25 25_544 ?
+Sn Sn Sn 120.0 73 25_544 ?
+Sn Sn Sn 60.0 73_445 25_544 ?
+Sn Sn Sn 120.0 49 25_544 ?
+Sn Sn Sn 60.0 49_454 25_544 ?
+Sn Sn Sn 180.0 25 25_544 ?
+Ag Sn Sn 90.0 97_666 73_455 ?
+Ag Sn Sn 90.0 . 73_455 ?
+Ag Sn Sn 90.0 169_556 73_455 ?
+Ag Sn Sn 35.3 145_565 73_455 ?
+Ag Sn Sn 144.7 121_655 73_455 ?
+Ag Sn Sn 90.0 73 73_455 ?
+Ag Sn Sn 144.7 49 73_455 ?
+Ag Sn Sn 35.3 25 73_455 ?
+Li Sn Sn 90.0 73_556 73_455 ?
+Li Sn Sn 90.0 73 73_455 ?
+Li Sn Sn 45.0 49_565 73_455 ?
+Li Sn Sn 135.0 49 73_455 ?
+Li Sn Sn 135.0 25_655 73_455 ?
+Li Sn Sn 45.0 25 73_455 ?
+Sn Sn Sn 90.0 73 73_455 ?
+Sn Sn Sn 90.0 73_445 73_455 ?
+Sn Sn Sn 120.0 49 73_455 ?
+Sn Sn Sn 60.0 49_454 73_455 ?
+Sn Sn Sn 60.0 25 73_455 ?
+Sn Sn Sn 120.0 25_544 73_455 ?
+Ag Sn Sn 90.0 97_666 73_545 ?
+Ag Sn Sn 90.0 . 73_545 ?
+Ag Sn Sn 90.0 169_556 73_545 ?
+Ag Sn Sn 144.7 145_565 73_545 ?
+Ag Sn Sn 35.3 121_655 73_545 ?
+Ag Sn Sn 90.0 73 73_545 ?
+Ag Sn Sn 35.3 49 73_545 ?
+Ag Sn Sn 144.7 25 73_545 ?
+Li Sn Sn 90.0 73_556 73_545 ?
+Li Sn Sn 90.0 73 73_545 ?
+Li Sn Sn 135.0 49_565 73_545 ?
+Li Sn Sn 45.0 49 73_545 ?
+Li Sn Sn 45.0 25_655 73_545 ?
+Li Sn Sn 135.0 25 73_545 ?
+Sn Sn Sn 90.0 73 73_545 ?
+Sn Sn Sn 90.0 73_445 73_545 ?
+Sn Sn Sn 60.0 49 73_545 ?
+Sn Sn Sn 120.0 49_454 73_545 ?
+Sn Sn Sn 120.0 25 73_545 ?
+Sn Sn Sn 60.0 25_544 73_545 ?
+Sn Sn Sn 180.0 73_455 73_545 ?
+Ag Sn Sn 90.0 97_666 49_455 ?
+Ag Sn Sn 90.0 . 49_455 ?
+Ag Sn Sn 35.3 169_556 49_455 ?
+Ag Sn Sn 90.0 145_565 49_455 ?
+Ag Sn Sn 144.7 121_655 49_455 ?
+Ag Sn Sn 144.7 73 49_455 ?
+Ag Sn Sn 90.0 49 49_455 ?
+Ag Sn Sn 35.3 25 49_455 ?
+Li Sn Sn 45.0 73_556 49_455 ?
+Li Sn Sn 135.0 73 49_455 ?
+Li Sn Sn 90.0 49_565 49_455 ?
+Li Sn Sn 90.0 49 49_455 ?
+Li Sn Sn 135.0 25_655 49_455 ?
+Li Sn Sn 45.0 25 49_455 ?
+Sn Sn Sn 120.0 73 49_455 ?
+Sn Sn Sn 60.0 73_445 49_455 ?
+Sn Sn Sn 90.0 49 49_455 ?
+Sn Sn Sn 90.0 49_454 49_455 ?
+Sn Sn Sn 60.0 25 49_455 ?
+Sn Sn Sn 120.0 25_544 49_455 ?
+Sn Sn Sn 60.0 73_455 49_455 ?
+Sn Sn Sn 120.0 73_545 49_455 ?
+Ag Sn Sn 90.0 97_666 49_554 ?
+Ag Sn Sn 90.0 . 49_554 ?
+Ag Sn Sn 144.7 169_556 49_554 ?
+Ag Sn Sn 90.0 145_565 49_554 ?
+Ag Sn Sn 35.3 121_655 49_554 ?
+Ag Sn Sn 35.3 73 49_554 ?
+Ag Sn Sn 90.0 49 49_554 ?
+Ag Sn Sn 144.7 25 49_554 ?
+Li Sn Sn 135.0 73_556 49_554 ?
+Li Sn Sn 45.0 73 49_554 ?
+Li Sn Sn 90.0 49_565 49_554 ?
+Li Sn Sn 90.0 49 49_554 ?
+Li Sn Sn 45.0 25_655 49_554 ?
+Li Sn Sn 135.0 25 49_554 ?
+Sn Sn Sn 60.0 73 49_554 ?
+Sn Sn Sn 120.0 73_445 49_554 ?
+Sn Sn Sn 90.0 49 49_554 ?
+Sn Sn Sn 90.0 49_454 49_554 ?
+Sn Sn Sn 120.0 25 49_554 ?
+Sn Sn Sn 60.0 25_544 49_554 ?
+Sn Sn Sn 120.0 73_455 49_554 ?
+Sn Sn Sn 60.0 73_545 49_554 ?
+Sn Sn Sn 180.0 49_455 49_554 ?
+Ag Sn Sn 90.0 97_666 25_545 ?
+Ag Sn Sn 90.0 . 25_545 ?
+Ag Sn Sn 35.3 169_556 25_545 ?
+Ag Sn Sn 144.7 145_565 25_545 ?
+Ag Sn Sn 90.0 121_655 25_545 ?
+Ag Sn Sn 144.7 73 25_545 ?
+Ag Sn Sn 35.3 49 25_545 ?
+Ag Sn Sn 90.0 25 25_545 ?
+Li Sn Sn 45.0 73_556 25_545 ?
+Li Sn Sn 135.0 73 25_545 ?
+Li Sn Sn 135.0 49_565 25_545 ?
+Li Sn Sn 45.0 49 25_545 ?
+Li Sn Sn 90.0 25_655 25_545 ?
+Li Sn Sn 90.0 25 25_545 ?
+Sn Sn Sn 120.0 73 25_545 ?
+Sn Sn Sn 60.0 73_445 25_545 ?
+Sn Sn Sn 60.0 49 25_545 ?
+Sn Sn Sn 120.0 49_454 25_545 ?
+Sn Sn Sn 90.0 25 25_545 ?
+Sn Sn Sn 90.0 25_544 25_545 ?
+Sn Sn Sn 120.0 73_455 25_545 ?
+Sn Sn Sn 60.0 73_545 25_545 ?
+Sn Sn Sn 60.0 49_455 25_545 ?
+Sn Sn Sn 120.0 49_554 25_545 ?
+Ag Sn Sn 90.0 97_666 25_554 ?
+Ag Sn Sn 90.0 . 25_554 ?
+Ag Sn Sn 144.7 169_556 25_554 ?
+Ag Sn Sn 35.3 145_565 25_554 ?
+Ag Sn Sn 90.0 121_655 25_554 ?
+Ag Sn Sn 35.3 73 25_554 ?
+Ag Sn Sn 144.7 49 25_554 ?
+Ag Sn Sn 90.0 25 25_554 ?
+Li Sn Sn 135.0 73_556 25_554 ?
+Li Sn Sn 45.0 73 25_554 ?
+Li Sn Sn 45.0 49_565 25_554 ?
+Li Sn Sn 135.0 49 25_554 ?
+Li Sn Sn 90.0 25_655 25_554 ?
+Li Sn Sn 90.0 25 25_554 ?
+Sn Sn Sn 60.0 73 25_554 ?
+Sn Sn Sn 120.0 73_445 25_554 ?
+Sn Sn Sn 120.0 49 25_554 ?
+Sn Sn Sn 60.0 49_454 25_554 ?
+Sn Sn Sn 90.0 25 25_554 ?
+Sn Sn Sn 90.0 25_544 25_554 ?
+Sn Sn Sn 60.0 73_455 25_554 ?
+Sn Sn Sn 120.0 73_545 25_554 ?
+Sn Sn Sn 120.0 49_455 25_554 ?
+Sn Sn Sn 60.0 49_554 25_554 ?
+Sn Sn Sn 180.0 25_545 25_554 ?
+Ag Sn Ag 150.5 97_666 169 ?
+Ag Sn Ag 29.5 . 169 ?
+Ag Sn Ag 100.0 169_556 169 ?
+Ag Sn Ag 58.5 145_565 169 ?
+Ag Sn Ag 58.5 121_655 169 ?
+Ag Sn Ag 80.0 73 169 ?
+Ag Sn Ag 121.5 49 169 ?
+Ag Sn Ag 121.5 25 169 ?
+Li Sn Ag 154.8 73_556 169 ?
+Li Sn Ag 25.2 73 169 ?
+Li Sn Ag 107.5 49_565 169 ?
+Li Sn Ag 72.5 49 169 ?
+Li Sn Ag 107.5 25_655 169 ?
+Li Sn Ag 72.5 25 169 ?
+Sn Sn Ag 115.2 73 169 ?
+Sn Sn Ag 64.8 73_445 169 ?
+Sn Sn Ag 148.5 49 169 ?
+Sn Sn Ag 31.5 49_454 169 ?
+Sn Sn Ag 148.5 25 169 ?
+Sn Sn Ag 31.5 25_544 169 ?
+Sn Sn Ag 90.0 73_455 169 ?
+Sn Sn Ag 90.0 73_545 169 ?
+Sn Sn Ag 115.2 49_455 169 ?
+Sn Sn Ag 64.8 49_554 169 ?
+Sn Sn Ag 115.2 25_545 169 ?
+Sn Sn Ag 64.8 25_554 169 ?
+Ag Sn Ag 150.5 97_666 145 ?
+Ag Sn Ag 29.5 . 145 ?
+Ag Sn Ag 58.5 169_556 145 ?
+Ag Sn Ag 100.0 145_565 145 ?
+Ag Sn Ag 58.5 121_655 145 ?
+Ag Sn Ag 121.5 73 145 ?
+Ag Sn Ag 80.0 49 145 ?
+Ag Sn Ag 121.5 25 145 ?
+Li Sn Ag 107.5 73_556 145 ?
+Li Sn Ag 72.5 73 145 ?
+Li Sn Ag 154.8 49_565 145 ?
+Li Sn Ag 25.2 49 145 ?
+Li Sn Ag 107.5 25_655 145 ?
+Li Sn Ag 72.5 25 145 ?
+Sn Sn Ag 148.5 73 145 ?
+Sn Sn Ag 31.5 73_445 145 ?
+Sn Sn Ag 115.2 49 145 ?
+Sn Sn Ag 64.8 49_454 145 ?
+Sn Sn Ag 148.5 25 145 ?
+Sn Sn Ag 31.482(1) 25_544 145 ?
+Sn Sn Ag 115.2 73_455 145 ?
+Sn Sn Ag 64.8 73_545 145 ?
+Sn Sn Ag 90.0 49_455 145 ?
+Sn Sn Ag 90.0 49_554 145 ?
+Sn Sn Ag 64.8 25_545 145 ?
+Sn Sn Ag 115.2 25_554 145 ?
+Ag Sn Ag 50.5 169 145 ?
+Ag Sn Ag 150.5 97_666 121 ?
+Ag Sn Ag 29.5 . 121 ?
+Ag Sn Ag 58.5 169_556 121 ?
+Ag Sn Ag 58.5 145_565 121 ?
+Ag Sn Ag 100.0 121_655 121 ?
+Ag Sn Ag 121.5 73 121 ?
+Ag Sn Ag 121.5 49 121 ?
+Ag Sn Ag 80.0 25 121 ?
+Li Sn Ag 107.5 73_556 121 ?
+Li Sn Ag 72.5 73 121 ?
+Li Sn Ag 107.5 49_565 121 ?
+Li Sn Ag 72.5 49 121 ?
+Li Sn Ag 154.8 25_655 121 ?
+Li Sn Ag 25.2 25 121 ?
+Sn Sn Ag 148.5 73 121 ?
+Sn Sn Ag 31.5 73_445 121 ?
+Sn Sn Ag 148.5 49 121 ?
+Sn Sn Ag 31.5 49_454 121 ?
+Sn Sn Ag 115.2 25 121 ?
+Sn Sn Ag 64.8 25_544 121 ?
+Sn Sn Ag 64.8 73_455 121 ?
+Sn Sn Ag 115.2 73_545 121 ?
+Sn Sn Ag 64.8 49_455 121 ?
+Sn Sn Ag 115.2 49_554 121 ?
+Sn Sn Ag 90.0 25_545 121 ?
+Sn Sn Ag 90.0 25_554 121 ?
+Ag Sn Ag 50.479(1) 169 121 ?
+Ag Sn Ag 50.5 145 121 ?
+Ag Sn Ag 29.5 97_666 25_655 ?
+Ag Sn Ag 150.5 . 25_655 ?
+Ag Sn Ag 121.5 169_556 25_655 ?
+Ag Sn Ag 121.5 145_565 25_655 ?
+Ag Sn Ag 80.0 121_655 25_655 ?
+Ag Sn Ag 58.5 73 25_655 ?
+Ag Sn Ag 58.5 49 25_655 ?
+Ag Sn Ag 100.0 25 25_655 ?
+Li Sn Ag 72.5 73_556 25_655 ?
+Li Sn Ag 107.5 73 25_655 ?
+Li Sn Ag 72.5 49_565 25_655 ?
+Li Sn Ag 107.5 49 25_655 ?
+Li Sn Ag 25.2 25_655 25_655 ?
+Li Sn Ag 154.8 25 25_655 ?
+Sn Sn Ag 31.5 73 25_655 ?
+Sn Sn Ag 148.5 73_445 25_655 ?
+Sn Sn Ag 31.5 49 25_655 ?
+Sn Sn Ag 148.518(1) 49_454 25_655 ?
+Sn Sn Ag 64.761(1) 25 25_655 ?
+Sn Sn Ag 115.2 25_544 25_655 ?
+Sn Sn Ag 115.2 73_455 25_655 ?
+Sn Sn Ag 64.8 73_545 25_655 ?
+Sn Sn Ag 115.2 49_455 25_655 ?
+Sn Sn Ag 64.8 49_554 25_655 ?
+Sn Sn Ag 90.0 25_545 25_655 ?
+Sn Sn Ag 90.0 25_554 25_655 ?
+Ag Sn Ag 129.521(1) 169 25_655 ?
+Ag Sn Ag 129.5 145 25_655 ?
+Ag Sn Ag 180.0 121 25_655 ?
+Ag Li Ag 180.0 97 . ?
+Ag Li Ag 109.5 97 169 ?
+Ag Li Ag 70.5 . 169 ?
+Ag Li Ag 109.5 97 145 ?
+Ag Li Ag 70.5 . 145 ?
+Ag Li Ag 109.5 169 145 ?
+Ag Li Ag 109.5 97 121 ?
+Ag Li Ag 70.5 . 121 ?
+Ag Li Ag 109.5 169 121 ?
+Ag Li Ag 109.5 145 121 ?
+Ag Li Ag 70.5 97 73_445 ?
+Ag Li Ag 109.5 . 73_445 ?
+Ag Li Ag 180.0 169 73_445 ?
+Ag Li Ag 70.5 145 73_445 ?
+Ag Li Ag 70.5 121 73_445 ?
+Ag Li Ag 70.5 97 49_454 ?
+Ag Li Ag 109.5 . 49_454 ?
+Ag Li Ag 70.5 169 49_454 ?
+Ag Li Ag 180.0 145 49_454 ?
+Ag Li Ag 70.5 121 49_454 ?
+Ag Li Ag 109.5 73_445 49_454 ?
+Ag Li Ag 70.5 97 25_544 ?
+Ag Li Ag 109.5 . 25_544 ?
+Ag Li Ag 70.5 169 25_544 ?
+Ag Li Ag 70.5 145 25_544 ?
+Ag Li Ag 180.0 121 25_544 ?
+Ag Li Ag 109.5 73_445 25_544 ?
+Ag Li Ag 109.5 49_454 25_544 ?
+Ag Li Sn 125.3 97 73_445 ?
+Ag Li Sn 54.7 . 73_445 ?
+Ag Li Sn 125.3 169 73_445 ?
+Ag Li Sn 54.7 145 73_445 ?
+Ag Li Sn 54.7 121 73_445 ?
+Ag Li Sn 54.7 73_445 73_445 ?
+Ag Li Sn 125.3 49_454 73_445 ?
+Ag Li Sn 125.3 25_544 73_445 ?
+Ag Li Sn 54.7 97 73_444 ?
+Ag Li Sn 125.3 . 73_444 ?
+Ag Li Sn 54.7 169 73_444 ?
+Ag Li Sn 125.3 145 73_444 ?
+Ag Li Sn 125.3 121 73_444 ?
+Ag Li Sn 125.3 73_445 73_444 ?
+Ag Li Sn 54.7 49_454 73_444 ?
+Ag Li Sn 54.7 25_544 73_444 ?
+Sn Li Sn 180.0 73_445 73_444 ?
+Ag Li Sn 125.3 97 49_454 ?
+Ag Li Sn 54.7 . 49_454 ?
+Ag Li Sn 54.7 169 49_454 ?
+Ag Li Sn 125.3 145 49_454 ?
+Ag Li Sn 54.7 121 49_454 ?
+Ag Li Sn 125.3 73_445 49_454 ?
+Ag Li Sn 54.736(1) 49_454 49_454 ?
+Ag Li Sn 125.3 25_544 49_454 ?
+Sn Li Sn 90.0 73_445 49_454 ?
+Sn Li Sn 90.0 73_444 49_454 ?
+Ag Li Sn 54.7 97 49_444 ?
+Ag Li Sn 125.3 . 49_444 ?
+Ag Li Sn 125.3 169 49_444 ?
+Ag Li Sn 54.736(1) 145 49_444 ?
+Ag Li Sn 125.3 121 49_444 ?
+Ag Li Sn 54.7 73_445 49_444 ?
+Ag Li Sn 125.3 49_454 49_444 ?
+Ag Li Sn 54.7 25_544 49_444 ?
+Sn Li Sn 90.0 73_445 49_444 ?
+Sn Li Sn 90.0 73_444 49_444 ?
+Sn Li Sn 180.0 49_454 49_444 ?
+Ag Li Sn 125.3 97 25_544 ?
+Ag Li Sn 54.7 . 25_544 ?
+Ag Li Sn 54.7 169 25_544 ?
+Ag Li Sn 54.7 145 25_544 ?
+Ag Li Sn 125.264(1) 121 25_544 ?
+Ag Li Sn 125.3 73_445 25_544 ?
+Ag Li Sn 125.3 49_454 25_544 ?
+Ag Li Sn 54.7 25_544 25_544 ?
+Sn Li Sn 90.0 73_445 25_544 ?
+Sn Li Sn 90.0 73_444 25_544 ?
+Sn Li Sn 90.0 49_454 25_544 ?
+Sn Li Sn 90.0 49_444 25_544 ?
+Ag Li Sn 54.7 97 25_444 ?
+Ag Li Sn 125.3 . 25_444 ?
+Ag Li Sn 125.3 169 25_444 ?
+Ag Li Sn 125.3 145 25_444 ?
+Ag Li Sn 54.7 121 25_444 ?
+Ag Li Sn 54.7 73_445 25_444 ?
+Ag Li Sn 54.7 49_454 25_444 ?
+Ag Li Sn 125.264(1) 25_544 25_444 ?
+Sn Li Sn 90.0 73_445 25_444 ?
+Sn Li Sn 90.0 73_444 25_444 ?
+Sn Li Sn 90.0 49_454 25_444 ?
+Sn Li Sn 90.0 49_444 25_444 ?
+Sn Li Sn 180.0 25_544 25_444 ?
+Ag Li Li 144.7 97 73 ?
+Ag Li Li 35.3 . 73 ?
+Ag Li Li 35.3 169 73 ?
+Ag Li Li 90.0 145 73 ?
+Ag Li Li 90.0 121 73 ?
+Ag Li Li 144.7 73_445 73 ?
+Ag Li Li 90.0 49_454 73 ?
+Ag Li Li 90.0 25_544 73 ?
+Sn Li Li 90.0 73_445 73 ?
+Sn Li Li 90.0 73_444 73 ?
+Sn Li Li 45.0 49_454 73 ?
+Sn Li Li 135.0 49_444 73 ?
+Sn Li Li 45.0 25_544 73 ?
+Sn Li Li 135.0 25_444 73 ?
+Ag Li Li 35.3 97 73_445 ?
+Ag Li Li 144.7 . 73_445 ?
+Ag Li Li 144.7 169 73_445 ?
+Ag Li Li 90.0 145 73_445 ?
+Ag Li Li 90.0 121 73_445 ?
+Ag Li Li 35.3 73_445 73_445 ?
+Ag Li Li 90.0 49_454 73_445 ?
+Ag Li Li 90.0 25_544 73_445 ?
+Sn Li Li 90.0 73_445 73_445 ?
+Sn Li Li 90.0 73_444 73_445 ?
+Sn Li Li 135.0 49_454 73_445 ?
+Sn Li Li 45.0 49_444 73_445 ?
+Sn Li Li 135.0 25_544 73_445 ?
+Sn Li Li 45.0 25_444 73_445 ?
+Li Li Li 180.0 73 73_445 ?
+Ag Li Li 144.7 97 49 ?
+Ag Li Li 35.3 . 49 ?
+Ag Li Li 90.0 169 49 ?
+Ag Li Li 35.3 145 49 ?
+Ag Li Li 90.0 121 49 ?
+Ag Li Li 90.0 73_445 49 ?
+Ag Li Li 144.7 49_454 49 ?
+Ag Li Li 90.0 25_544 49 ?
+Sn Li Li 45.0 73_445 49 ?
+Sn Li Li 135.0 73_444 49 ?
+Sn Li Li 90.0 49_454 49 ?
+Sn Li Li 90.0 49_444 49 ?
+Sn Li Li 45.0 25_544 49 ?
+Sn Li Li 135.0 25_444 49 ?
+Li Li Li 60.0 73 49 ?
+Li Li Li 120.0 73_445 49 ?
+Ag Li Li 35.3 97 49_454 ?
+Ag Li Li 144.7 . 49_454 ?
+Ag Li Li 90.0 169 49_454 ?
+Ag Li Li 144.7 145 49_454 ?
+Ag Li Li 90.0 121 49_454 ?
+Ag Li Li 90.0 73_445 49_454 ?
+Ag Li Li 35.3 49_454 49_454 ?
+Ag Li Li 90.0 25_544 49_454 ?
+Sn Li Li 135.0 73_445 49_454 ?
+Sn Li Li 45.0 73_444 49_454 ?
+Sn Li Li 90.0 49_454 49_454 ?
+Sn Li Li 90.0 49_444 49_454 ?
+Sn Li Li 135.0 25_544 49_454 ?
+Sn Li Li 45.0 25_444 49_454 ?
+Li Li Li 120.0 73 49_454 ?
+Li Li Li 60.0 73_445 49_454 ?
+Li Li Li 180.0 49 49_454 ?
+Ag Li Li 144.7 97 25 ?
+Ag Li Li 35.3 . 25 ?
+Ag Li Li 90.0 169 25 ?
+Ag Li Li 90.0 145 25 ?
+Ag Li Li 35.3 121 25 ?
+Ag Li Li 90.0 73_445 25 ?
+Ag Li Li 90.0 49_454 25 ?
+Ag Li Li 144.7 25_544 25 ?
+Sn Li Li 45.0 73_445 25 ?
+Sn Li Li 135.0 73_444 25 ?
+Sn Li Li 45.0 49_454 25 ?
+Sn Li Li 135.0 49_444 25 ?
+Sn Li Li 90.0 25_544 25 ?
+Sn Li Li 90.0 25_444 25 ?
+Li Li Li 60.0 73 25 ?
+Li Li Li 120.0 73_445 25 ?
+Li Li Li 60.0 49 25 ?
+Li Li Li 120.0 49_454 25 ?
+Ag Li Li 35.3 97 25_544 ?
+Ag Li Li 144.7 . 25_544 ?
+Ag Li Li 90.0 169 25_544 ?
+Ag Li Li 90.0 145 25_544 ?
+Ag Li Li 144.7 121 25_544 ?
+Ag Li Li 90.0 73_445 25_544 ?
+Ag Li Li 90.0 49_454 25_544 ?
+Ag Li Li 35.3 25_544 25_544 ?
+Sn Li Li 135.0 73_445 25_544 ?
+Sn Li Li 45.0 73_444 25_544 ?
+Sn Li Li 135.0 49_454 25_544 ?
+Sn Li Li 45.0 49_444 25_544 ?
+Sn Li Li 90.0 25_544 25_544 ?
+Sn Li Li 90.0 25_444 25_544 ?
+Li Li Li 120.0 73 25_544 ?
+Li Li Li 60.0 73_445 25_544 ?
+Li Li Li 120.0 49 25_544 ?
+Li Li Li 60.0 49_454 25_544 ?
+Li Li Li 180.0 25 25_544 ?
+Ag Li Li 90.0 97 73_455 ?
+Ag Li Li 90.0 . 73_455 ?
+Ag Li Li 90.0 169 73_455 ?
+Ag Li Li 144.7 145 73_455 ?
+Ag Li Li 35.3 121 73_455 ?
+Ag Li Li 90.0 73_445 73_455 ?
+Ag Li Li 35.3 49_454 73_455 ?
+Ag Li Li 144.7 25_544 73_455 ?
+Sn Li Li 90.0 73_445 73_455 ?
+Sn Li Li 90.0 73_444 73_455 ?
+Sn Li Li 45.0 49_454 73_455 ?
+Sn Li Li 135.0 49_444 73_455 ?
+Sn Li Li 135.0 25_544 73_455 ?
+Sn Li Li 45.0 25_444 73_455 ?
+Li Li Li 90.0 73 73_455 ?
+Li Li Li 90.0 73_445 73_455 ?
+Li Li Li 120.0 49 73_455 ?
+Li Li Li 60.0 49_454 73_455 ?
+Li Li Li 60.0 25 73_455 ?
+Li Li Li 120.0 25_544 73_455 ?
+Ag Li Li 90.0 97 73_545 ?
+Ag Li Li 90.0 . 73_545 ?
+Ag Li Li 90.0 169 73_545 ?
+Ag Li Li 35.3 145 73_545 ?
+Ag Li Li 144.7 121 73_545 ?
+Ag Li Li 90.0 73_445 73_545 ?
+Ag Li Li 144.7 49_454 73_545 ?
+Ag Li Li 35.3 25_544 73_545 ?
+Sn Li Li 90.0 73_445 73_545 ?
+Sn Li Li 90.0 73_444 73_545 ?
+Sn Li Li 135.0 49_454 73_545 ?
+Sn Li Li 45.0 49_444 73_545 ?
+Sn Li Li 45.0 25_544 73_545 ?
+Sn Li Li 135.0 25_444 73_545 ?
+Li Li Li 90.0 73 73_545 ?
+Li Li Li 90.0 73_445 73_545 ?
+Li Li Li 60.0 49 73_545 ?
+Li Li Li 120.0 49_454 73_545 ?
+Li Li Li 120.0 25 73_545 ?
+Li Li Li 60.0 25_544 73_545 ?
+Li Li Li 180.0 73_455 73_545 ?
+Ag Li Li 90.0 97 49_455 ?
+Ag Li Li 90.0 . 49_455 ?
+Ag Li Li 144.7 169 49_455 ?
+Ag Li Li 90.0 145 49_455 ?
+Ag Li Li 35.3 121 49_455 ?
+Ag Li Li 35.3 73_445 49_455 ?
+Ag Li Li 90.0 49_454 49_455 ?
+Ag Li Li 144.7 25_544 49_455 ?
+Sn Li Li 45.0 73_445 49_455 ?
+Sn Li Li 135.0 73_444 49_455 ?
+Sn Li Li 90.0 49_454 49_455 ?
+Sn Li Li 90.0 49_444 49_455 ?
+Sn Li Li 135.0 25_544 49_455 ?
+Sn Li Li 45.0 25_444 49_455 ?
+Li Li Li 120.0 73 49_455 ?
+Li Li Li 60.0 73_445 49_455 ?
+Li Li Li 90.0 49 49_455 ?
+Li Li Li 90.0 49_454 49_455 ?
+Li Li Li 60.0 25 49_455 ?
+Li Li Li 120.0 25_544 49_455 ?
+Li Li Li 60.0 73_455 49_455 ?
+Li Li Li 120.0 73_545 49_455 ?
+Ag Li Li 90.0 97 49_554 ?
+Ag Li Li 90.0 . 49_554 ?
+Ag Li Li 35.3 169 49_554 ?
+Ag Li Li 90.0 145 49_554 ?
+Ag Li Li 144.7 121 49_554 ?
+Ag Li Li 144.7 73_445 49_554 ?
+Ag Li Li 90.0 49_454 49_554 ?
+Ag Li Li 35.3 25_544 49_554 ?
+Sn Li Li 135.0 73_445 49_554 ?
+Sn Li Li 45.0 73_444 49_554 ?
+Sn Li Li 90.0 49_454 49_554 ?
+Sn Li Li 90.0 49_444 49_554 ?
+Sn Li Li 45.0 25_544 49_554 ?
+Sn Li Li 135.0 25_444 49_554 ?
+Li Li Li 60.0 73 49_554 ?
+Li Li Li 120.0 73_445 49_554 ?
+Li Li Li 90.0 49 49_554 ?
+Li Li Li 90.0 49_454 49_554 ?
+Li Li Li 120.0 25 49_554 ?
+Li Li Li 60.0 25_544 49_554 ?
+Li Li Li 120.0 73_455 49_554 ?
+Li Li Li 60.0 73_545 49_554 ?
+Li Li Li 180.0 49_455 49_554 ?
+Ag Li Li 90.0 97 25_545 ?
+Ag Li Li 90.0 . 25_545 ?
+Ag Li Li 144.7 169 25_545 ?
+Ag Li Li 35.3 145 25_545 ?
+Ag Li Li 90.0 121 25_545 ?
+Ag Li Li 35.3 73_445 25_545 ?
+Ag Li Li 144.7 49_454 25_545 ?
+Ag Li Li 90.0 25_544 25_545 ?
+Sn Li Li 45.0 73_445 25_545 ?
+Sn Li Li 135.0 73_444 25_545 ?
+Sn Li Li 135.0 49_454 25_545 ?
+Sn Li Li 45.0 49_444 25_545 ?
+Sn Li Li 90.0 25_544 25_545 ?
+Sn Li Li 90.0 25_444 25_545 ?
+Li Li Li 120.0 73 25_545 ?
+Li Li Li 60.0 73_445 25_545 ?
+Li Li Li 60.0 49 25_545 ?
+Li Li Li 120.0 49_454 25_545 ?
+Li Li Li 90.0 25 25_545 ?
+Li Li Li 90.0 25_544 25_545 ?
+Li Li Li 120.0 73_455 25_545 ?
+Li Li Li 60.0 73_545 25_545 ?
+Li Li Li 60.0 49_455 25_545 ?
+Li Li Li 120.0 49_554 25_545 ?
+Ag Li Li 90.0 97 25_554 ?
+Ag Li Li 90.0 . 25_554 ?
+Ag Li Li 35.3 169 25_554 ?
+Ag Li Li 144.7 145 25_554 ?
+Ag Li Li 90.0 121 25_554 ?
+Ag Li Li 144.7 73_445 25_554 ?
+Ag Li Li 35.3 49_454 25_554 ?
+Ag Li Li 90.0 25_544 25_554 ?
+Sn Li Li 135.0 73_445 25_554 ?
+Sn Li Li 45.0 73_444 25_554 ?
+Sn Li Li 45.0 49_454 25_554 ?
+Sn Li Li 135.0 49_444 25_554 ?
+Sn Li Li 90.0 25_544 25_554 ?
+Sn Li Li 90.0 25_444 25_554 ?
+Li Li Li 60.0 73 25_554 ?
+Li Li Li 120.0 73_445 25_554 ?
+Li Li Li 120.0 49 25_554 ?
+Li Li Li 60.0 49_454 25_554 ?
+Li Li Li 90.0 25 25_554 ?
+Li Li Li 90.0 25_544 25_554 ?
+Li Li Li 60.0 73_455 25_554 ?
+Li Li Li 120.0 73_545 25_554 ?
+Li Li Li 120.0 49_455 25_554 ?
+Li Li Li 60.0 49_554 25_554 ?
+Li Li Li 180.0 25_545 25_554 ?
+Ag Li Ag 29.5 97 25_444 ?
+Ag Li Ag 150.5 . 25_444 ?
+Ag Li Ag 121.5 169 25_444 ?
+Ag Li Ag 121.5 145 25_444 ?
+Ag Li Ag 80.0 121 25_444 ?
+Ag Li Ag 58.5 73_445 25_444 ?
+Ag Li Ag 58.5 49_454 25_444 ?
+Ag Li Ag 100.0 25_544 25_444 ?
+Sn Li Ag 107.5 73_445 25_444 ?
+Sn Li Ag 72.5 73_444 25_444 ?
+Sn Li Ag 107.5 49_454 25_444 ?
+Sn Li Ag 72.5 49_444 25_444 ?
+Sn Li Ag 154.8 25_544 25_444 ?
+Sn Li Ag 25.2 25_444 25_444 ?
+Li Li Ag 148.518(1) 73 25_444 ?
+Li Li Ag 31.482(1) 73_445 25_444 ?
+Li Li Ag 148.5 49 25_444 ?
+Li Li Ag 31.5 49_454 25_444 ?
+Li Li Ag 115.2 25 25_444 ?
+Li Li Ag 64.8 25_544 25_444 ?
+Li Li Ag 64.8 73_455 25_444 ?
+Li Li Ag 115.2 73_545 25_444 ?
+Li Li Ag 64.8 49_455 25_444 ?
+Li Li Ag 115.2 49_554 25_444 ?
+Li Li Ag 90.0 25_545 25_444 ?
+Li Li Ag 90.0 25_554 25_444 ?
+Ag Li Ag 150.5 97 169_556 ?
+Ag Li Ag 29.5 . 169_556 ?
+Ag Li Ag 100.0 169 169_556 ?
+Ag Li Ag 58.5 145 169_556 ?
+Ag Li Ag 58.5 121 169_556 ?
+Ag Li Ag 80.0 73_445 169_556 ?
+Ag Li Ag 121.5 49_454 169_556 ?
+Ag Li Ag 121.5 25_544 169_556 ?
+Sn Li Ag 25.2 73_445 169_556 ?
+Sn Li Ag 154.8 73_444 169_556 ?
+Sn Li Ag 72.5 49_454 169_556 ?
+Sn Li Ag 107.5 49_444 169_556 ?
+Sn Li Ag 72.5 25_544 169_556 ?
+Sn Li Ag 107.5 25_444 169_556 ?
+Li Li Ag 64.8 73 169_556 ?
+Li Li Ag 115.2 73_445 169_556 ?
+Li Li Ag 31.5 49 169_556 ?
+Li Li Ag 148.5 49_454 169_556 ?
+Li Li Ag 31.5 25 169_556 ?
+Li Li Ag 148.5 25_544 169_556 ?
+Li Li Ag 90.0 73_455 169_556 ?
+Li Li Ag 90.0 73_545 169_556 ?
+Li Li Ag 64.8 49_455 169_556 ?
+Li Li Ag 115.2 49_554 169_556 ?
+Li Li Ag 64.8 25_545 169_556 ?
+Li Li Ag 115.2 25_554 169_556 ?
+Ag Li Ag 129.5 25_444 169_556 ?
+Ag Li Ag 150.5 97 145_565 ?
+Ag Li Ag 29.5 . 145_565 ?
+Ag Li Ag 58.5 169 145_565 ?
+Ag Li Ag 100.0 145 145_565 ?
+Ag Li Ag 58.5 121 145_565 ?
+Ag Li Ag 121.5 73_445 145_565 ?
+Ag Li Ag 80.0 49_454 145_565 ?
+Ag Li Ag 121.5 25_544 145_565 ?
+Sn Li Ag 72.5 73_445 145_565 ?
+Sn Li Ag 107.5 73_444 145_565 ?
+Sn Li Ag 25.2 49_454 145_565 ?
+Sn Li Ag 154.8 49_444 145_565 ?
+Sn Li Ag 72.5 25_544 145_565 ?
+Sn Li Ag 107.5 25_444 145_565 ?
+Li Li Ag 31.5 73 145_565 ?
+Li Li Ag 148.5 73_445 145_565 ?
+Li Li Ag 64.8 49 145_565 ?
+Li Li Ag 115.2 49_454 145_565 ?
+Li Li Ag 31.482(1) 25 145_565 ?
+Li Li Ag 148.518(1) 25_544 145_565 ?
+Li Li Ag 64.8 73_455 145_565 ?
+Li Li Ag 115.2 73_545 145_565 ?
+Li Li Ag 90.0 49_455 145_565 ?
+Li Li Ag 90.0 49_554 145_565 ?
+Li Li Ag 115.2 25_545 145_565 ?
+Li Li Ag 64.8 25_554 145_565 ?
+Ag Li Ag 129.5 25_444 145_565 ?
+Ag Li Ag 50.5 169_556 145_565 ?
+Ag Li Ag 150.5 97 121_655 ?
+Ag Li Ag 29.5 . 121_655 ?
+Ag Li Ag 58.5 169 121_655 ?
+Ag Li Ag 58.5 145 121_655 ?
+Ag Li Ag 100.0 121 121_655 ?
+Ag Li Ag 121.5 73_445 121_655 ?
+Ag Li Ag 121.5 49_454 121_655 ?
+Ag Li Ag 80.0 25_544 121_655 ?
+Sn Li Ag 72.5 73_445 121_655 ?
+Sn Li Ag 107.5 73_444 121_655 ?
+Sn Li Ag 72.5 49_454 121_655 ?
+Sn Li Ag 107.5 49_444 121_655 ?
+Sn Li Ag 25.2 25_544 121_655 ?
+Sn Li Ag 154.8 25_444 121_655 ?
+Li Li Ag 31.482(1) 73 121_655 ?
+Li Li Ag 148.518(1) 73_445 121_655 ?
+Li Li Ag 31.5 49 121_655 ?
+Li Li Ag 148.5 49_454 121_655 ?
+Li Li Ag 64.8 25 121_655 ?
+Li Li Ag 115.2 25_544 121_655 ?
+Li Li Ag 115.2 73_455 121_655 ?
+Li Li Ag 64.8 73_545 121_655 ?
+Li Li Ag 115.2 49_455 121_655 ?
+Li Li Ag 64.8 49_554 121_655 ?
+Li Li Ag 90.0 25_545 121_655 ?
+Li Li Ag 90.0 25_554 121_655 ?
+Ag Li Ag 180.0 25_444 121_655 ?
+Ag Li Ag 50.5 169_556 121_655 ?
+Ag Li Ag 50.5 145_565 121_655 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ag Li 2.8544(9) . ?
+Ag Sn 2.8544(9) . ?
+Ag Li 2.8544(9) 73 ?
+Ag Li 2.8544(9) 49 ?
+Ag Li 2.8544(9) 25 ?
+Ag Sn 2.8544(9) 73_445 ?
+Ag Sn 2.8544(9) 49_454 ?
+Ag Sn 2.8544(9) 25_544 ?
+Ag Ag 3.2960(10) 169_556 ?
+Ag Ag 3.2960(10) 169 ?
+Ag Ag 3.2960(10) 145_565 ?
+Ag Ag 3.2960(10) 145 ?
+Ag Ag 3.2960(10) 121_655 ?
+Ag Ag 3.2960(10) 121 ?
+Ag Ag 4.6612(14) 73 ?
+Ag Ag 4.6612(14) 73_445 ?
+Ag Ag 4.6612(14) 49 ?
+Ag Ag 4.6612(14) 49_454 ?
+Ag Ag 4.6612(14) 25 ?
+Ag Ag 4.6612(14) 25_544 ?
+Ag Ag 4.6612(14) 73_455 ?
+Ag Ag 4.6612(14) 73_545 ?
+Ag Ag 4.6612(14) 49_455 ?
+Ag Ag 4.6612(14) 49_554 ?
+Ag Ag 4.6612(14) 25_545 ?
+Ag Ag 4.6612(14) 25_554 ?
+Ag Li 5.4658(17) 73_556 ?
+Ag Li 5.4658(17) 49_565 ?
+Ag Li 5.4658(17) 25_655 ?
+Ag Sn 5.4658(17) 73_444 ?
+Sn Ag 2.8544(9) 97_666 ?
+Sn Ag 2.8544(9) 169_556 ?
+Sn Ag 2.8544(9) 145_565 ?
+Sn Ag 2.8544(9) 121_655 ?
+Sn Ag 2.8544(9) 73 ?
+Sn Ag 2.8544(9) 49 ?
+Sn Ag 2.8544(9) 25 ?
+Sn Li 3.2960(10) 73_556 ?
+Sn Li 3.2960(10) 73 ?
+Sn Li 3.2960(10) 49_565 ?
+Sn Li 3.2960(10) 49 ?
+Sn Li 3.2960(10) 25_655 ?
+Sn Li 3.2960(10) 25 ?
+Sn Sn 4.6612(14) 73 ?
+Sn Sn 4.6612(14) 73_445 ?
+Sn Sn 4.6612(14) 49 ?
+Sn Sn 4.6612(14) 49_454 ?
+Sn Sn 4.6612(14) 25 ?
+Sn Sn 4.6612(14) 25_544 ?
+Sn Sn 4.6612(14) 73_455 ?
+Sn Sn 4.6612(14) 73_545 ?
+Sn Sn 4.6612(14) 49_455 ?
+Sn Sn 4.6612(14) 49_554 ?
+Sn Sn 4.6612(14) 25_545 ?
+Sn Sn 4.6612(14) 25_554 ?
+Sn Ag 5.4658(17) 169 ?
+Sn Ag 5.4658(17) 145 ?
+Sn Ag 5.4658(17) 121 ?
+Sn Ag 5.4658(17) 25_655 ?
+Li Ag 2.8544(9) 97 ?
+Li Ag 2.8544(9) 169 ?
+Li Ag 2.8544(9) 145 ?
+Li Ag 2.8544(9) 121 ?
+Li Ag 2.8544(9) 73_445 ?
+Li Ag 2.8544(9) 49_454 ?
+Li Ag 2.8544(9) 25_544 ?
+Li Sn 3.2960(10) 73_445 ?
+Li Sn 3.2960(10) 73_444 ?
+Li Sn 3.2960(10) 49_454 ?
+Li Sn 3.2960(10) 49_444 ?
+Li Sn 3.2960(10) 25_544 ?
+Li Sn 3.2960(10) 25_444 ?
+Li Li 4.6612(14) 73 ?
+Li Li 4.6612(14) 73_445 ?
+Li Li 4.6612(14) 49 ?
+Li Li 4.6612(14) 49_454 ?
+Li Li 4.6612(14) 25 ?
+Li Li 4.6612(14) 25_544 ?
+Li Li 4.6612(14) 73_455 ?
+Li Li 4.6612(14) 73_545 ?
+Li Li 4.6612(14) 49_455 ?
+Li Li 4.6612(14) 49_554 ?
+Li Li 4.6612(14) 25_545 ?
+Li Li 4.6612(14) 25_554 ?
+Li Ag 5.4658(17) 25_444 ?
+Li Ag 5.4658(17) 169_556 ?
+Li Ag 5.4658(17) 145_565 ?
+Li Ag 5.4658(17) 121_655 ?

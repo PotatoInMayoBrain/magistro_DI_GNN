@@ -1,0 +1,334 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/20/4322011.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4322011
+loop_
+_publ_author_name
+'Andrew M. Dattelbaum'
+'James D. Martin'
+_publ_contact_author
+;
+James D. Martin 
+    Department of Chemistry
+    North Carolina State University
+    Box 8204
+    Raleigh, NC 27895-8204
+;
+_publ_contact_author_email       jdmartin@ncsu.edu
+_publ_contact_author_fax         (919)-515-5079
+_publ_contact_author_phone       (919)-515-3402
+_publ_section_title
+;
+ [H2NMe2]CuZrCl6: Hydrogen-Bond Induced Distortions in a Copper Zirconium
+ Chloride Analogue of a Thiophosphate
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2369
+_journal_page_last               2374
+_journal_paper_doi               10.1021/ic9811906
+_journal_volume                  38
+_journal_year                    1999
+_chemical_formula_moiety         'Zr Cu Cl6 N C2 '
+_chemical_formula_sum            'C2 Cl6 Cu N Zr'
+_chemical_formula_weight         405.51
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 110.287(5)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   10.1105(6)
+_cell_length_b                   9.9463(5)
+_cell_length_c                   12.7254(8)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      20.00
+_cell_measurement_theta_min      18.50
+_cell_volume                     1200.31(13)
+_computing_data_reduction        'NRCVAX DATRD2'
+_computing_molecular_graphics    NRCVAX
+_computing_publication_material  'NRCVAX TABLES Jan 94 Version'
+_computing_structure_refinement  'NRCVAX LSTSQ'
+_computing_structure_solution    'NRCVAX SOLVER'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Nonius CAD-4    '
+_diffrn_measurement_method       'Theta/2theta scan b/P/b '
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'xray tube'
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .018
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            3541
+_diffrn_reflns_theta_max         29.90
+_diffrn_reflns_theta_min         0.00
+_exptl_absorpt_coefficient_mu    3.93
+_exptl_absorpt_correction_T_max  .9978
+_exptl_absorpt_correction_T_min  .7686
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_density_diffrn    2.244
+_exptl_crystal_F_000             752.54
+_exptl_crystal_size_max          .42
+_exptl_crystal_size_mid          .22
+_exptl_crystal_size_min          .12
+_refine_diff_density_max         .94
+_refine_diff_density_min         -.84
+_refine_ls_goodness_of_fit_obs   1.48
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_reflns         1378
+_refine_ls_R_factor_all          .028
+_refine_ls_R_factor_obs          .028
+_refine_ls_shift/esd_max         .000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/(\s^2^(F)+ .0004F^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .041
+_refine_ls_wR_factor_obs         .040
+_reflns_number_observed          1379
+_reflns_number_total             1735
+_reflns_observed_criterion       'Inet > 2.5\s(Inet)'
+_cod_data_source_file            ic9811906_1.cif
+_cod_data_source_block           global
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/(\s^2^(F)+ .0004F^2^)' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/(\s^2^(F)+
+.0004F^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1200.31(12)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Zr Cu Cl6 N C2 '
+_cod_database_code               4322011
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+-x,y,1/2-z
+x,-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Zr .03205(19) .03668(20) .02229(17) -.00686(16) .00886(13) -.00009(15) Zr
+Cu .0922(11) .0824(6) .0541(14) -.0373(13) .0451(10) -.0251(12) Cu
+Cl(1) .0474(4) .0605(5) .0377(4) -.0158(4) .0225(3) .0000(3) Cl
+Cl(2) .0631(5) .0492(4) .0371(4) -.0236(4) .0205(4) -.0125(3) Cl
+Cl(3) .0488(5) .0618(6) .0544(5) .0120(4) .0120(4) .0164(4) Cl
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_refinement_flags
+_atom_site_type_symbol
+Zr .00000 .00000 .00000 .03049(19) Uij S Zr
+Cu -.0080(5) .06049(12) .2409(4) .0711(13) Uij . Cu
+Cl(1) -.14980(9) -.08332(9) .10606(7) .0465(4) Uij . Cl
+Cl(2) .10317(10) .17811(9) .14397(6) .0490(4) Uij . Cl
+Cl(3) .18643(9) -.15222(10) .10434(8) .0565(5) Uij . Cl
+C(1) .5188(19) .0523(17) .1807(14) .102(5) Uiso . C
+C(2) .4953(14) .0524(14) .3649(10) .082(3) Uiso . C
+N(a) .4578(14) .1201(11) .2506(16) .135(5) Uiso . N
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zr ? -2.965 .560 'International Tables Vol. IV Table 2.2B'
+Cu ? .263 1.266 'International Tables Vol. IV Table 2.2B'
+Cl ? .132 .159 'International Tables Vol. IV Table 2.2B'
+N ? .004 .003 'International Tables Vol. IV Table 2.2B'
+C ? .002 .002 'International Tables Vol. IV Table 2.2B'
+H ? .000 .000 'International Tables Vol. IV Table 2.2B'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Cl(1) Zr Cl(1)a 180.0 ? ? ? ?
+Cl(1) Zr Cl(2) 90.93(3) ? ? ? ?
+Cl(1) Zr Cl(2)a 89.07(3) ? ? ? ?
+Cl(1) Zr Cl(3) 89.93(3) ? ? ? ?
+Cl(1) Zr Cl(3)a 90.07(3) ? ? ? ?
+Cl(1)a Zr Cl(2) 89.07(3) ? ? ? ?
+Cl(1)a Zr Cl(2)a 90.93(3) ? ? ? ?
+Cl(1)a Zr Cl(3) 90.07(3) ? ? ? ?
+Cl(1)a Zr Cl(3)a 89.93(3) ? ? ? ?
+Cl(2) Zr Cl(2)a 180.0 ? ? ? ?
+Cl(2) Zr Cl(3) 89.63(3) ? ? ? ?
+Cl(2) Zr Cl(3)a 90.37(3) ? ? ? ?
+Cl(2)a Zr Cl(3) 90.37(3) ? ? ? ?
+Cl(2)a Zr Cl(3)a 89.63(3) ? ? ? ?
+Cl(3) Zr Cl(3)a 180.0 ? ? ? ?
+Cub Cu Cl(1) 141.2(5) ? ? ? ?
+Cub Cu Cl(1)b 35.4(5) ? ? ? ?
+Cub Cu Cl(2) 103.8(14) ? ? ? ?
+Cub Cu Cl(2)b 70.6(14) ? ? ? ?
+Cl(1) Cu Cl(1)b 106.79(6) ? ? ? ?
+Cl(1) Cu Cl(2) 102.31(19) ? ? ? ?
+Cl(1) Cu Cl(2)b 119.54(19) ? ? ? ?
+Cl(1)b Cu Cl(2) 114.70(18) ? ? ? ?
+Cl(1)b Cu Cl(2)b 95.09(17) ? ? ? ?
+Cl(2) Cu Cl(2)b 118.38(6) ? ? ? ?
+Zr Cl(1) Cu 81.91(12) ? ? ? ?
+Zr Cl(1) Cub 83.57(11) ? ? ? ?
+Cu Cl(1) Cub 3.35(10) ? ? ? ?
+Zr Cl(2) Cu 82.71(9) ? ? ? ?
+Zr Cl(2) Cub 86.95(9) ? ? ? ?
+Cu Cl(2) Cub 5.57(16) ? ? ? ?
+C(2)l C(1) N(a) 130(3) ? ? ? ?
+C(2)l C(1) N(a)l 140(3) ? ? ? ?
+N(a) C(1) N(a)l 37.2(11) ? ? ? ?
+C(1)l C(2) N(a) 26.3(21) ? ? ? ?
+C(1) N(a) C(1)l 101.1(14) ? ? ? ?
+C(1) N(a) C(2) 111.7(12) ? ? ? ?
+C(1) N(a) N(a)l 48.5(15) ? ? ? ?
+C(1)l N(a) C(2) 13.2(11) ? ? ? ?
+C(1)l N(a) N(a)l 94.4(19) ? ? ? ?
+C(2) N(a) N(a)l 95.6(18) ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Zr Cu 3.152(5) ? ? ?
+Zr Cua 3.152(5) ? ? ?
+Zr Cub 3.325(5) ? ? ?
+Zr Cuc 3.325(5) ? ? ?
+Zr Cl(1) 2.4939(7) ? ? ?
+Zr Cl(1)a 2.4939(7) ? ? ?
+Zr Cl(1)b 4.7798(9) ? ? ?
+Zr Cl(1)c 4.7798(9) ? ? ?
+Zr Cl(2) 2.5016(7) ? ? ?
+Zr Cl(2)a 2.5016(7) ? ? ?
+Zr Cl(3) 2.4233(8) ? ? ?
+Zr Cl(3)a 2.4233(8) ? ? ?
+Cu Zrb 3.325(5) ? ? ?
+Cu Cub .233(9) ? ? ?
+Cu Cl(1) 2.311(3) ? ? ?
+Cu Cl(1)b 2.496(4) ? ? ?
+Cu Cl(2) 2.261(4) ? ? ?
+Cu Cl(2)b 2.328(4) ? ? ?
+Cu Cl(3) 3.705(4) ? ? ?
+Cu Cl(3)d 4.124(4) ? ? ?
+Cu Cl(3)a 4.230(5) ? ? ?
+Cu Cl(3)b 3.752(4) ? ? ?
+Cu Cl(3)e 4.263(3) ? ? ?
+Cu Cl(3)f 4.448(5) ? ? ?
+Cl(1) Zrb 4.7798(9) ? ? ?
+Cl(1) Cub 2.496(4) ? ? ?
+Cl(1) Cl(1)g 4.3119(17) ? ? ?
+Cl(1) Cl(1)b 3.8602(17) ? ? ?
+Cl(1) Cl(2) 3.5609(11) ? ? ?
+Cl(1) Cl(2)h 3.5968(11) ? ? ?
+Cl(1) Cl(2)a 3.5036(11) ? ? ?
+Cl(1) Cl(2)b 4.0078(12) ? ? ?
+Cl(1) Cl(3) 3.4753(13) ? ? ?
+Cl(1) Cl(3)d 4.5938(14) ? ? ?
+Cl(1) Cl(3)a 3.4794(12) ? ? ?
+Cl(1) Cl(3)b 3.8904(13) ? ? ?
+Cl(1) C(1)h 3.978(17) ? ? ?
+Cl(1) C(2)b 3.880(13) ? ? ?
+Cl(1) C(2)i 3.912(14) ? ? ?
+Cl(1) C(2)j 3.841(12) ? ? ?
+Cl(1) N(a)h 3.447(14) ? ? ?
+Cl(1) N(a)i 3.653(12) ? ? ?
+Cl(2) Cub 2.328(4) ? ? ?
+Cl(2) Cl(1)k 3.5968(11) ? ? ?
+Cl(2) Cl(1)a 3.5036(11) ? ? ?
+Cl(2) Cl(1)b 4.0078(12) ? ? ?
+Cl(2) Cl(2)b 3.9418(17) ? ? ?
+Cl(2) Cl(3) 3.4717(13) ? ? ?
+Cl(2) Cl(3)d 4.4025(14) ? ? ?
+Cl(2) Cl(3)a 3.4940(12) ? ? ?
+Cl(2) Cl(3)e 3.5926(11) ? ? ?
+Cl(2) C(1)d 3.882(17) ? ? ?
+Cl(2) C(1)l 3.904(18) ? ? ?
+Cl(2) C(2)e 3.845(14) ? ? ?
+Cl(2) N(a) 3.414(14) ? ? ?
+Cl(3) Cum 4.124(4) ? ? ?
+Cl(3) Cua 4.230(5) ? ? ?
+Cl(3) Cub 3.752(4) ? ? ?
+Cl(3) Cui 4.263(3) ? ? ?
+Cl(3) Cuc 4.448(5) ? ? ?
+Cl(3) Cl(1)m 4.5938(14) ? ? ?
+Cl(3) Cl(1)a 3.4794(12) ? ? ?
+Cl(3) Cl(1)b 3.8904(13) ? ? ?
+Cl(3) Cl(2)m 4.4025(14) ? ? ?
+Cl(3) Cl(2)a 3.4940(12) ? ? ?
+Cl(3) Cl(2)i 3.5926(11) ? ? ?
+Cl(3) Cl(3)a 4.8467(17) ? ? ?
+Cl(3) Cl(3)n 3.8541(21) ? ? ?
+Cl(3) C(1) 3.756(18) ? ? ?
+Cl(3) C(1)h 3.688(17) ? ? ?
+Cl(3) C(1)l 3.853(17) ? ? ?
+Cl(3) C(2)l 3.711(13) ? ? ?
+Cl(3) C(2)i 3.558(14) ? ? ?
+Cl(3) N(a) 3.846(13) ? ? ?
+C(1) Cl(1)k 3.978(17) ? ? ?
+C(1) Cl(2)m 3.882(17) ? ? ?
+C(1) Cl(2)l 3.904(18) ? ? ?
+C(1) Cl(3)k 3.688(17) ? ? ?
+C(1) Cl(3)l 3.853(17) ? ? ?
+C(1) C(1)l 1.93(3) ? ? ?
+C(1) C(2) 2.437(21) ? ? ?
+C(1) C(2)l .548(20) ? ? ?
+C(1) N(a) 1.416(23) ? ? ?
+C(1) N(a)l 1.063(24) ? ? ?
+C(2) Cl(1)b 3.880(13) ? ? ?
+C(2) Cl(1)e 3.912(14) ? ? ?
+C(2) Cl(1)o 3.841(12) ? ? ?
+C(2) Cl(2)i 3.845(14) ? ? ?
+C(2) Cl(3)l 3.711(13) ? ? ?
+C(2) Cl(3)e 3.558(14) ? ? ?
+C(2) C(1)l .548(20) ? ? ?
+C(2) C(2)l 2.959(25) ? ? ?
+C(2) N(a) 1.526(22) ? ? ?
+C(2) N(a)l 1.823(22) ? ? ?
+N(a) Cl(1)k 3.447(14) ? ? ?
+N(a) Cl(1)e 3.653(12) ? ? ?
+N(a) Cl(3)e 3.540(15) ? ? ?
+N(a) C(1)l 1.063(24) ? ? ?
+N(a) C(2)l 1.823(22) ? ? ?
+N(a) N(a)l .86(3) ? ? ?

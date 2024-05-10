@@ -1,0 +1,125 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 15:59:31 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179946 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/41/7024192.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7024192
+loop_
+_publ_author_name
+'Alfonso, Bel\'en F'
+'Blanco, Jes\'us A'
+'Fern\'andez-D\'iaz, Maria Teresa'
+'Trobajo, Camino'
+'Khainakov, Sergei A.'
+'Garc\'ia, Jos\'e R'
+_publ_section_title
+;
+ On the crystal structure and thermal decomposition of ammonium-iron(III)
+ bis(hydrogenphosphate).
+;
+_journal_issue                   7
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              1791
+_journal_page_last               1796
+_journal_paper_doi               10.1039/b912427f
+_journal_volume                  39
+_journal_year                    2010
+_chemical_formula_moiety         'Fe O7 P2, N'
+_chemical_formula_sum            'Fe N O7 P2'
+_chemical_formula_weight         243.80
+_chemical_name_systematic        'ammonium-iron(III) diphosphate'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 105.887(3)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.5219(2)
+_cell_length_b                   10.0018(3)
+_cell_length_c                   8.2729(2)
+_cell_measurement_temperature    300(2)
+_cell_measurement_theta_max      140.0
+_cell_measurement_theta_min      10.0
+_cell_volume                     598.62(3)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      300(2)
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.5418
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_exptl_absorpt_coefficient_mu    25.432
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    2.705
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             476.0
+_refine_ls_goodness_of_fit_all   2.78
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_shift/su_max          0.19
+_refine_ls_shift/su_mean         0.03
+_reflns_number_total             2422
+_cod_data_source_file            b912427f.txt
+_cod_data_source_block           NH4FeP2O7
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_database_code               7024192
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Fe Fe1 0.2442(9) 0.5958(6) 0.7585(8) 1.0 Uiso 0.0087(12) 4
+P P1 0.4541(14) 0.6323(10) 0.1871(11) 1.0 Uiso 0.014(3) 4
+P P2 0.1335(14) 0.6113(10) 0.3384(10) 1.0 Uiso 0.014(3) 4
+O O1 0.3121(22) 0.5651(15) 0.2787(28) 1.0 Uiso 0.019(3) 4
+O O2 0.3623(16) 0.4253(12) 0.7268(24) 1.0 Uiso 0.019(3) 4
+O O3 0.1230(21) 0.7403(11) 0.8597(20) 1.0 Uiso 0.019(3) 4
+O O4 0.1712(30) 0.5619(14) 0.5136(11) 1.0 Uiso 0.019(3) 4
+O O5 0.0144(21) 0.4932(19) 0.7498(24) 1.0 Uiso 0.019(3) 4
+O O6 0.4473(16) 0.7166(12) 0.7252(20) 1.0 Uiso 0.019(3) 4
+O O7 0.3345(25) 0.6192(18) 1.0040(11) 1.0 Uiso 0.019(3) 4
+N N1 0.2000(19) 0.1960(21) 0.5210(24) 1.0 Uiso 0.038(5) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Fe 4.0
+P 8.0
+O 28.0
+N 4.0

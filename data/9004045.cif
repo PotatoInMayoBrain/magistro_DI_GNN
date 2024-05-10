@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/40/9004045.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004045
+loop_
+_publ_author_name
+'Hassan, I.'
+'Antao, S. M.'
+'Parise, J. B.'
+_publ_section_title
+;
+ Cancrinite: Crystal structure, phase transitions, and
+ dehydration behaviour with temperature
+ Sample: T = 405 C
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1117
+_journal_page_last               1124
+_journal_paper_doi               10.2138/am.2006.2013
+_journal_volume                  91
+_journal_year                    2006
+_chemical_compound_source        'Dungannon Township, Bancroft, Ontario, Canada'
+_chemical_formula_sum            'C0.76 H1.78 Al3 Ca0.75 Na3.01 O14.776 Si3'
+_chemical_name_mineral           Cancrinite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   12.6414
+_cell_length_b                   12.6414
+_cell_length_c                   5.1580
+_cell_volume                     713.842
+_database_code_amcsd             0004169
+_diffrn_ambient_temperature      678.15
+_exptl_crystal_density_diffrn    2.381
+_cod_original_formula_sum        'Na3.01 Ca.75 Al3 Si3 C.76 O14.776 H1.78'
+_cod_database_code               9004045
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na1 0.66667 0.33333 0.11670 1.00000 0.04690 Na 0
+Na2 0.12370 0.25220 0.29930 0.67000 0.04690 Na 0
+Ca2 0.12370 0.25220 0.29930 0.25000 0.04690 Ca 0
+Al 0.07560 0.41720 0.75400 1.00000 0.00510 Al 0
+Si 0.32540 0.40370 0.75000 1.00000 0.00510 Si 0
+C1 0.00000 0.00000 0.69600 0.38000 0.02800 C 0
+C2 0.00000 0.00000 0.91300 0.38000 0.02800 C 0
+O1 0.20490 0.40790 0.67600 1.00000 0.02250 O 0
+O2 0.10730 0.56020 0.74800 1.00000 0.02250 O 0
+O3 0.01560 0.34070 0.05800 1.00000 0.02250 O 0
+O4 0.31710 0.35570 0.04100 1.00000 0.02250 O 0
+OC1 0.07230 0.11470 0.69600 0.38000 0.02800 O 0
+OC2 0.09530 0.11360 0.91300 0.38000 0.02800 O 0
+Wat 0.66667 0.33333 0.76800 0.49600 0.02500 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:37:52+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004169

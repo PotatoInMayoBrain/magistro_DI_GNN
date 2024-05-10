@@ -1,0 +1,416 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:09:16 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179364 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/61/4326190.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4326190
+loop_
+_publ_author_name
+'Jeongho Yeon'
+'Sang-Hwan Kim'
+'Michael A. Hayward'
+'P. Shiv Halasyamani'
+_publ_contact_author_address
+;
+Department of Chemistry
+University of Houston
+Houston, Texas
+77204-5003
+USA
+;
+_publ_contact_author_email       psh@uh.edu
+_publ_contact_author_fax         1-713-743-0796
+_publ_contact_author_name        'P. Shiv Halasyamani'
+_publ_contact_author_phone       1-713-743-3278
+_publ_section_title
+;
+ "A" Cation Polarity Control in ACuTe2O7 (A = Sr2+, Ba2+, or Pb2+)
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              8663
+_journal_page_last               8670
+_journal_paper_doi               10.1021/ic2012217
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'Cu O7 Pb Te2'
+_chemical_formula_weight         637.93
+_chemical_name_systematic
+;
+
+ ?
+
+;
+_space_group_IT_number           57
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2c 2b'
+_symmetry_space_group_name_H-M   'P b c m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.2033(5)
+_cell_length_b                   15.0468(10)
+_cell_length_c                   5.4691(4)
+_cell_measurement_reflns_used    3528
+_cell_measurement_temperature    296(2)
+_cell_measurement_theta_max      28.97
+_cell_measurement_theta_min      2.71
+_cell_volume                     592.78(7)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 0.946
+_diffrn_measurement_device_type  'Siemens area detector diffractometer'
+_diffrn_measurement_method       omega_scans
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.044
+_diffrn_reflns_av_unetI/netI     0.0237
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            3528
+_diffrn_reflns_theta_full        25
+_diffrn_reflns_theta_max         28.97
+_diffrn_reflns_theta_min         2.71
+_exptl_absorpt_coefficient_mu    41.586
+_exptl_absorpt_correction_T_max  0.4901
+_exptl_absorpt_correction_T_min  0.2303
+_exptl_absorpt_correction_type   psi-scan
+_exptl_absorpt_process_details   'north et al., 1968'
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    7.148
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1084
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.175
+_refine_diff_density_min         -1.687
+_refine_diff_density_rms         0.406
+_refine_ls_extinction_coef       0.0197(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.176
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     61
+_refine_ls_number_reflns         820
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.176
+_refine_ls_R_factor_all          0.0216
+_refine_ls_R_factor_gt           0.0211
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0282P)^2^+1.6018P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0519
+_refine_ls_wR_factor_ref         0.0522
+_reflns_number_gt                798
+_reflns_number_total             820
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic2012217_si_002_2.cif
+_cod_data_source_block           PbCuTe2O7
+_cod_database_code               4326190
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x, y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Pb1 Pb 0.78408(4) 0.039264(17) 0.25 0.01585(13) Uani 1 2 d S
+Te1 Te 0.99421(5) 0.82829(2) 0.25 0.00658(14) Uani 1 2 d S
+Te2 Te 0.48391(6) 0.82581(2) 0.25 0.00908(14) Uani 1 2 d S
+Cu1 Cu 0.73683(11) 0.88593(6) 0.75 0.00976(19) Uani 1 2 d S
+O1 O 0.2315(6) 0.8895(3) 0.25 0.0115(10) Uani 1 2 d S
+O2 O 0.5435(6) 0.8991(3) 0.5059(9) 0.0496(15) Uani 1 1 d .
+O3 O 0.7650(6) 0.7678(3) 0.25 0.0099(9) Uani 1 2 d S
+O4 O 0.9221(5) 0.91116(19) 0.4976(6) 0.0120(6) Uani 1 1 d .
+O5 O 0.1050(6) 0.75 0 0.0117(8) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pb1 0.01503(19) 0.01250(17) 0.02001(19) 0 0 0.00161(9)
+Te1 0.0050(2) 0.0065(2) 0.0083(2) 0 0 0.00009(13)
+Te2 0.0071(2) 0.0088(2) 0.0113(2) 0 0 -0.00034(14)
+Cu1 0.0056(4) 0.0130(4) 0.0107(4) 0 0 -0.0002(3)
+O1 0.010(2) 0.006(2) 0.019(3) 0 0 -0.0018(15)
+O2 0.027(2) 0.076(3) 0.046(3) -0.048(3) -0.028(2) 0.037(2)
+O3 0.005(2) 0.010(2) 0.015(2) 0 0 -0.0022(15)
+O4 0.0122(15) 0.0107(12) 0.0132(15) -0.0024(11) 0.0050(13) -0.0018(12)
+O5 0.007(2) 0.0132(18) 0.015(2) -0.0066(16) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pb Pb -3.3944 10.1111 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O4 Pb1 O4 63.96(14) 6_546 1_545
+O4 Pb1 O4 100.28(6) 6_546 5_766
+O4 Pb1 O4 67.88(10) 1_545 5_766
+O4 Pb1 O4 67.88(10) 6_546 2_764
+O4 Pb1 O4 100.28(6) 1_545 2_764
+O4 Pb1 O4 63.20(14) 5_766 2_764
+O4 Pb1 O2 108.50(13) 6_546 2_664
+O4 Pb1 O2 144.18(12) 1_545 2_664
+O4 Pb1 O2 144.50(15) 5_766 2_664
+O4 Pb1 O2 109.01(12) 2_764 2_664
+O4 Pb1 O2 144.18(12) 6_546 5_666
+O4 Pb1 O2 108.50(13) 1_545 5_666
+O4 Pb1 O2 109.01(12) 5_766 5_666
+O4 Pb1 O2 144.50(15) 2_764 5_666
+O2 Pb1 O2 55.55(18) 2_664 5_666
+O4 Pb1 O1 141.48(11) 6_546 5_666
+O4 Pb1 O1 78.29(11) 1_545 5_666
+O4 Pb1 O1 55.94(11) 5_766 5_666
+O4 Pb1 O1 114.52(11) 2_764 5_666
+O2 Pb1 O1 106.51(14) 2_664 5_666
+O2 Pb1 O1 54.34(12) 5_666 5_666
+O4 Pb1 O1 78.29(11) 6_546 5_665
+O4 Pb1 O1 141.48(11) 1_545 5_665
+O4 Pb1 O1 114.52(11) 5_766 5_665
+O4 Pb1 O1 55.94(11) 2_764 5_665
+O2 Pb1 O1 54.34(12) 2_664 5_665
+O2 Pb1 O1 106.51(14) 5_666 5_665
+O1 Pb1 O1 136.99(17) 5_666 5_665
+O4 Pb1 O2 57.31(11) 6_546 6_546
+O4 Pb1 O2 86.74(11) 1_545 6_546
+O4 Pb1 O2 152.57(9) 5_766 6_546
+O4 Pb1 O2 114.17(9) 2_764 6_546
+O2 Pb1 O2 62.90(16) 2_664 6_546
+O2 Pb1 O2 88.26(10) 5_666 6_546
+O1 Pb1 O2 130.81(12) 5_666 6_546
+O1 Pb1 O2 78.73(12) 5_665 6_546
+O4 Pb1 O2 86.74(11) 6_546 1_545
+O4 Pb1 O2 57.31(11) 1_545 1_545
+O4 Pb1 O2 114.17(9) 5_766 1_545
+O4 Pb1 O2 152.57(9) 2_764 1_545
+O2 Pb1 O2 88.26(10) 2_664 1_545
+O2 Pb1 O2 62.90(16) 5_666 1_545
+O1 Pb1 O2 78.73(12) 5_666 1_545
+O1 Pb1 O2 130.81(12) 5_665 1_545
+O2 Pb1 O2 54.29(15) 6_546 1_545
+O4 Pb1 Te1 32.02(7) 6_546 1_545
+O4 Pb1 Te1 32.02(7) 1_545 1_545
+O4 Pb1 Te1 84.83(6) 5_766 1_545
+O4 Pb1 Te1 84.83(6) 2_764 1_545
+O2 Pb1 Te1 130.27(12) 2_664 1_545
+O2 Pb1 Te1 130.27(12) 5_666 1_545
+O1 Pb1 Te1 110.22(9) 5_666 1_545
+O1 Pb1 Te1 110.22(9) 5_665 1_545
+O2 Pb1 Te1 67.83(7) 6_546 1_545
+O2 Pb1 Te1 67.83(7) 1_545 1_545
+O4 Pb1 O5 142.28(10) 6_546 2_665
+O4 Pb1 O5 112.48(8) 1_545 2_665
+O4 Pb1 O5 50.46(9) 5_766 2_665
+O4 Pb1 O5 76.57(8) 2_764 2_665
+O2 Pb1 O5 94.37(13) 2_664 2_665
+O2 Pb1 O5 73.54(12) 5_666 2_665
+O1 Pb1 O5 47.43(9) 5_666 2_665
+O1 Pb1 O5 92.37(9) 5_665 2_665
+O2 Pb1 O5 156.69(10) 6_546 2_665
+O2 Pb1 O5 124.50(8) 1_545 2_665
+Te1 Pb1 O5 135.27(6) 1_545 2_665
+O3 Te1 O4 94.41(14) . 6_556
+O3 Te1 O4 94.41(14) . .
+O4 Te1 O4 90.14(19) 6_556 .
+O3 Te1 O1 179.5(2) . 1_655
+O4 Te1 O1 85.96(14) 6_556 1_655
+O4 Te1 O1 85.96(14) . 1_655
+O3 Te1 O5 93.79(15) . 1_655
+O4 Te1 O5 90.48(10) 6_556 1_655
+O4 Te1 O5 171.71(15) . 1_655
+O1 Te1 O5 85.83(15) 1_655 1_655
+O3 Te1 O5 93.79(15) . 6_656
+O4 Te1 O5 171.71(15) 6_556 6_656
+O4 Te1 O5 90.48(10) . 6_656
+O1 Te1 O5 85.83(15) 1_655 6_656
+O5 Te1 O5 87.72(10) 1_655 6_656
+O3 Te1 Pb1 93.35(14) . 1_565
+O4 Te1 Pb1 45.15(10) 6_556 1_565
+O4 Te1 Pb1 45.15(10) . 1_565
+O1 Te1 Pb1 87.17(14) 1_655 1_565
+O5 Te1 Pb1 135.47(3) 1_655 1_565
+O5 Te1 Pb1 135.47(3) 6_656 1_565
+O3 Te1 Pb1 129.11(5) . 5_766
+O4 Te1 Pb1 106.62(9) 6_556 5_766
+O1 Te1 Pb1 51.07(5) 1_655 5_766
+O5 Te1 Pb1 130.68(12) 1_655 5_766
+O5 Te1 Pb1 68.84(4) 6_656 5_766
+Pb1 Te1 Pb1 72.718(9) 1_565 5_766
+O3 Te1 Pb1 129.11(5) . 5_765
+O4 Te1 Pb1 106.62(9) . 5_765
+O1 Te1 Pb1 51.07(5) 1_655 5_765
+O5 Te1 Pb1 68.84(4) 1_655 5_765
+O5 Te1 Pb1 130.68(12) 6_656 5_765
+Pb1 Te1 Pb1 72.718(9) 1_565 5_765
+Pb1 Te1 Pb1 93.913(12) 5_766 5_765
+O2 Te2 O2 99.5(4) . 6_556
+O2 Te2 O1 85.78(15) . .
+O2 Te2 O1 85.78(15) 6_556 .
+O2 Te2 O3 91.32(15) . .
+O2 Te2 O3 91.32(15) 6_556 .
+O1 Te2 O3 175.51(18) . .
+O2 Te2 Pb1 50.9(2) . 1_565
+O2 Te2 Pb1 50.9(2) 6_556 1_565
+O1 Te2 Pb1 96.15(13) . 1_565
+O3 Te2 Pb1 79.35(12) . 1_565
+O2 Te2 Pb1 109.66(15) . 5_665
+O1 Te2 Pb1 47.31(4) . 5_665
+O3 Te2 Pb1 131.15(5) . 5_665
+Pb1 Te2 Pb1 81.093(9) 1_565 5_665
+O2 Te2 Pb1 109.66(15) 6_556 5_666
+O1 Te2 Pb1 47.31(4) . 5_666
+O3 Te2 Pb1 131.15(5) . 5_666
+Pb1 Te2 Pb1 81.093(9) 1_565 5_666
+Pb1 Te2 Pb1 88.615(11) 5_665 5_666
+O2 Cu1 O2 87.0(3) . 6_557
+O2 Cu1 O4 162.79(19) . 6_557
+O2 Cu1 O4 89.1(2) 6_557 6_557
+O2 Cu1 O4 89.1(2) . .
+O2 Cu1 O4 162.79(19) 6_557 .
+O4 Cu1 O4 89.7(2) 6_557 .
+O2 Cu1 O3 99.49(17) . 7_576
+O2 Cu1 O3 99.49(17) 6_557 7_576
+O4 Cu1 O3 97.68(12) 6_557 7_576
+O4 Cu1 O3 97.68(12) . 7_576
+O2 Cu1 Pb1 121.73(12) . 1_566
+O2 Cu1 Pb1 58.56(19) 6_557 1_566
+O4 Cu1 Pb1 43.48(9) 6_557 1_566
+O4 Cu1 Pb1 110.33(9) . 1_566
+O3 Cu1 Pb1 129.14(3) 7_576 1_566
+O2 Cu1 Pb1 58.56(19) . 1_565
+O2 Cu1 Pb1 121.73(12) 6_557 1_565
+O4 Cu1 Pb1 110.33(9) 6_557 1_565
+O4 Cu1 Pb1 43.48(9) . 1_565
+O3 Cu1 Pb1 129.14(3) 7_576 1_565
+Pb1 Cu1 Pb1 99.08(2) 1_566 1_565
+O2 Cu1 Pb1 130.60(19) . 5_766
+O2 Cu1 Pb1 130.60(19) 6_557 5_766
+O4 Cu1 Pb1 44.89(10) 6_557 5_766
+O4 Cu1 Pb1 44.89(10) . 5_766
+O3 Cu1 Pb1 103.05(12) 7_576 5_766
+Pb1 Cu1 Pb1 73.196(16) 1_566 5_766
+Pb1 Cu1 Pb1 73.196(16) 1_565 5_766
+O2 Cu1 Pb1 44.18(14) . 5_666
+O2 Cu1 Pb1 44.18(14) 6_557 5_666
+O4 Cu1 Pb1 126.69(10) 6_557 5_666
+O4 Cu1 Pb1 126.69(10) . 5_666
+O3 Cu1 Pb1 111.71(12) 7_576 5_666
+Pb1 Cu1 Pb1 84.621(17) 1_566 5_666
+Pb1 Cu1 Pb1 84.621(17) 1_565 5_666
+Pb1 Cu1 Pb1 145.24(3) 5_766 5_666
+Te1 O1 Te2 123.9(2) 1_455 .
+Te1 O1 Pb1 98.01(10) 1_455 5_666
+Te2 O1 Pb1 101.76(10) . 5_666
+Te1 O1 Pb1 98.01(10) 1_455 5_665
+Te2 O1 Pb1 101.76(10) . 5_665
+Pb1 O1 Pb1 136.99(17) 5_666 5_665
+Te2 O2 Cu1 129.2(2) . .
+Te2 O2 Pb1 111.0(2) . 5_666
+Cu1 O2 Pb1 107.68(19) . 5_666
+Te2 O2 Pb1 101.4(2) . 1_565
+Cu1 O2 Pb1 88.8(2) . 1_565
+Pb1 O2 Pb1 117.10(16) 5_666 1_565
+Te1 O3 Te2 127.9(2) . .
+Te1 O3 Cu1 123.9(2) . 7_575
+Te2 O3 Cu1 108.29(19) . 7_575
+Te1 O4 Cu1 123.91(15) . .
+Te1 O4 Pb1 102.83(14) . 1_565
+Cu1 O4 Pb1 104.74(13) . 1_565
+Te1 O4 Pb1 109.73(14) . 5_766
+Cu1 O4 Pb1 103.49(14) . 5_766
+Pb1 O4 Pb1 112.12(10) 1_565 5_766
+Te1 O5 Te1 132.3(2) 7_475 1_455
+Te1 O5 Pb1 110.974(16) 7_475 5_665
+Te1 O5 Pb1 79.887(12) 1_455 5_665
+Te1 O5 Pb1 79.887(12) 7_475 3_655
+Te1 O5 Pb1 110.974(16) 1_455 3_655
+Pb1 O5 Pb1 153.94(14) 5_665 3_655
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Pb1 O4 2.557(3) 6_546
+Pb1 O4 2.557(3) 1_545
+Pb1 O4 2.634(3) 5_766
+Pb1 O4 2.634(3) 2_764
+Pb1 O2 2.865(4) 2_664
+Pb1 O2 2.865(4) 5_666
+Pb1 O1 2.9392(18) 5_666
+Pb1 O1 2.9392(18) 5_665
+Pb1 O2 3.067(6) 6_546
+Pb1 O2 3.067(6) 1_545
+Te1 O3 1.885(5) .
+Te1 O4 1.913(3) 6_556
+Te1 O4 1.913(3) .
+Te1 O1 1.942(5) 1_655
+Te1 O5 1.9732(18) 1_655
+Te1 O5 1.9732(18) 6_656
+Te2 O2 1.833(4) .
+Te2 O2 1.833(4) 6_556
+Te2 O1 2.055(5) .
+Te2 O3 2.205(5) .
+Cu1 O2 1.939(4) .
+Cu1 O2 1.939(4) 6_557
+Cu1 O4 1.957(3) 6_557
+Cu1 O4 1.957(3) .
+Cu1 O3 2.323(5) 7_576
+O1 Te1 1.942(5) 1_455
+O1 Pb1 2.9392(18) 5_666
+O1 Pb1 2.9392(18) 5_665
+O2 Pb1 2.865(4) 5_666
+O2 Pb1 3.067(6) 1_565
+O3 Cu1 2.323(5) 7_575
+O4 Pb1 2.557(3) 1_565
+O4 Pb1 2.634(3) 5_766
+O5 Te1 1.9732(18) 7_475
+O5 Te1 1.9732(18) 1_455

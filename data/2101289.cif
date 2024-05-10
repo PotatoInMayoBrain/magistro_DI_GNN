@@ -1,0 +1,143 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-27 03:27:33 +0300 (Tue, 27 Sep 2022) $
+#$Revision: 278201 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/12/2101289.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101289
+loop_
+_publ_author_name
+'Luzny, W.'
+_publ_section_title
+;
+ X-ray diffraction and computer modelling study of the structure and
+ conformation of poly(3-decylthiophene)
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              255
+_journal_page_last               260
+_journal_paper_doi               10.1107/S0108768194007986
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_sum            'C56 H88 S4'
+_space_group_IT_number           1
+_space_group_name_Hall           'P 1'
+_space_group_name_H-M_alt        'P 1'
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  'P 1'
+_symmetry_space_group_name_H-M   'P 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   23.9
+_cell_length_b                   15.6
+_cell_length_c                   3.8
+_cell_volume                     1416.792
+_diffrn_radiation_type           Cu
+_diffrn_radiation_wavelength     1.54184
+_cod_data_source_file            se0143.cif
+_cod_data_source_block           se0143a
+_cod_database_code               2101289
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1(1) .500 .705 .000
+C2(1) .512 .544 -.024
+C3(1) .456 .571 .084
+C4(1) .451 .661 .094
+C5(1) .504 .794 .027
+C6(1) .508 .956 .060
+C7(1) .545 .913 .307
+C8(1) .543 .825 .294
+C9(1) .400 .712 .195
+C10(1) .353 .651 .288
+C11(1) .301 .703 .389
+C12(1) .254 .642 .482
+C13(1) .202 .693 .584
+C14(1) .155 .632 .677
+C15(1) .104 .684 .778
+C16(1) .056 .623 .871
+C17(1) .005 .674 .972
+C18(1) -.042 .614 1.065
+C19(1) .579 .973 .538
+C20(1) .615 .920 .784
+C21(1) .649 .979 1.014
+C22(1) .685 .927 1.260
+C23(1) .719 .986 1.491
+C24(1) .755 .934 1.737
+C25(1) .789 .993 1.967
+C26(1) .825 .940 2.213
+C27(1) .859 1.005 2.444
+C28(1) .895 .947 2.690
+C1(2) .500 .205 .000
+C2(2) .508 .044 -.059
+C3(2) .469 .071 .207
+C4(2) .465 .161 .231
+C5(2) .505 .294 .011
+C6(2) .512 .456 .024
+C7(2) .563 .413 .125
+C8(2) .561 .325 .120
+C9(2) .429 .212 .480
+C10(2) .395 .151 .707
+C11(2) .359 .203 .956
+C12(2) .325 .142 1.184
+C13(2) .289 .193 1.432
+C14(2) .255 .132 1.660
+C15(2) .29 .184 1.908
+C16(2) .185 .123 2.136
+C17(2) .149 .174 2.384
+C18(2) .115 .114 2.612
+C19(2) .611 .473 .219
+C20(2) .662 .420 .319
+C21(2) .710 .479 .413
+C22(2) .761 .427 .514
+C23(2) .809 .486 .608
+C24(2) .860 .434 .708
+C25(2) .908 .493 .802
+C26(2) .959 .440 .902
+C27(2) 1.007 .500 .996
+C28(2) 1.058 .447 1.097
+S1(1) .547 .632 -.087
+S2(1) .473 .882 -.207
+S1(2) .535 .132 -.246
+S2(2) .462 .382 -.084
+loop_
+_cod_entry_issue_id
+_cod_entry_issue_origin
+_cod_entry_issue_severity
+_cod_entry_issue_description
+_cod_entry_issue_author
+_cod_entry_issue_date
+1 original warning
+;
+The coordinates (at least the x component) for the atom C15(2) seem to be
+incorrect, as this atom is "lifted" above the plane of the polymer's side
+chain. The original publication does not address any discrepancies in the
+side chains. However, by changing the coordinates from
+
+C15(2) .29 .184 1.908
+
+to
+
+C15(2) .219 .184 1.908
+
+one can obtain structure with well-formed side chains -- possibly a typo
+in the coordinates?
+;
+'Andrius Merkys' 2015-09-15

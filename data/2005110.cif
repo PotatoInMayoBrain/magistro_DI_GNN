@@ -1,0 +1,246 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-11 15:51:15 +0200 (Wed, 11 Jan 2017) $
+#$Revision: 190398 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/51/2005110.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005110
+loop_
+_publ_author_name
+'King, Jnr, J. A.'
+'Bryant, Jnr, G. L.'
+_publ_section_title
+;
+ <i>p</i>-Nitrobenzaldehyde
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1691
+_journal_page_last               1693
+_journal_paper_doi               10.1107/S0108270196001254
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'C7 H5 N O3'
+_chemical_formula_sum            'C7 H5 N O3'
+_chemical_formula_weight         151.1
+_chemical_name_systematic        p-nitrobenzaldehyde
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.35(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.209(2)
+_cell_length_b                   5.023(1)
+_cell_length_c                   10.457(3)
+_cell_measurement_reflns_used    17
+_cell_measurement_temperature    160.95
+_cell_measurement_theta_max      14.02
+_cell_measurement_theta_min      3.915
+_cell_volume                     324.71(16)
+_computing_cell_refinement       'SHELXTL-Plus (Sheldrick, 1990)'
+_computing_data_collection       'Siemens R3m/V software'
+_computing_data_reduction        SHELXTL-Plus
+_computing_molecular_graphics    SHELXTL-Plus
+_computing_publication_material  manual
+_computing_structure_refinement  SHELXTL-Plus
+_computing_structure_solution    SHELXTL-Plus
+_diffrn_ambient_temperature      160.95
+_diffrn_measurement_device       'Siemens R3mV upgrade of Nicolet P3F'
+_diffrn_measurement_method       Wycoff
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  1.16
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            908
+_diffrn_reflns_theta_max         27.5
+_diffrn_reflns_theta_min         1.75
+_diffrn_standards_decay_%        7
+_diffrn_standards_interval_count 47
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.116
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.546
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             156
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.39
+_refine_diff_density_min         -0.33
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   4.39
+_refine_ls_hydrogen_treatment    'H atoms refined isotropically'
+_refine_ls_matrix_type           full-matrix
+_refine_ls_number_parameters     103
+_refine_ls_number_reflns         763
+_refine_ls_R_factor_all          .0619
+_refine_ls_R_factor_obs          .0589
+_refine_ls_shift/esd_max         0.114
+_refine_ls_shift/esd_mean        0.038
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0001F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .0755
+_refine_ls_wR_factor_obs         .0755
+_reflns_number_observed          763
+_reflns_number_total             832
+_reflns_observed_criterion       F>2.0\s(F)
+_cod_data_source_file            cr1179.cif
+_cod_data_source_block           paraC7H5NO3
+_cod_depositor_comments
+;
+ Adding the _atom_type_symbol data item to the _atom_type loop.
+ The values of the _atom_type_symbol data item were inferred from
+ the _atom_site_type_symbol and _atom_site_label data items.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F)+0.0001F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0001F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        324.7(2)
+_cod_original_sg_symbol_Hall     'P 2y1'
+_cod_original_sg_symbol_H-M      'P 21'
+_cod_database_code               2005110
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+C(1) .023(2) .017(3) .020(2) -.001(2) .007(2) -.003(2) C
+C(2) .021(2) .013(2) .021(2) -.001(2) .003(2) -.004(2) C
+C(3) .014(2) .024(3) .024(2) -.002(2) -.001(2) -.007(3) C
+C(4) .019(2) .014(2) .017(2) -.001(2) .004(2) -.002(2) C
+C(5) .017(2) .030(3) .022(2) -.004(2) .001(2) 0(2) C
+C(6) .028(2) .019(3) .013(2) .003(3) .003(2) .005(2) C
+N(1) .026(2) .025(3) .029(2) .002(2) -.001(2) -.007(2) N
+O(2) .051(2) .048(3) .064(2) -.018(2) .005(2) .003(2) O
+O(3) .041(2) .026(2) .030(2) .001(2) .0(10) .001(2) O
+C(7) .021(2) .010(2) .018(2) -.005(2) .012(2) .001(2) C
+O(1) .010(2) .023(2) .014(2) -.003(2) .0030(10) .008(2) O
+O(1B) .010 .010 .010 0 .001 0 O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_type_symbol
+C(1) -.1557(7) .0 -.8147(4) .020(1) Uij ? ? C
+C(2) -.0333(6) -.1163(15) -.7133(4) .018(1) Uij ? ? C
+C(3) -.1249(7) -.3210(16) -.6474(4) .021(1) Uij ? ? C
+C(4) -.3361(7) -.3982(9) -.6818(4) .017(1) Uij ? ? C
+C(5) -.4572(6) -.2809(17) -.7881(4) .023(1) Uij ? ? C
+C(6) -.3653(7) -.0821(15) -.8557(4) .020(1) Uij ? ? C
+N(1) -.0595(6) .2095(15) -.8852(4) .027(1) Uij ? ? N
+O(2) .1283(7) .2823(18) -.8485(4) .054(1) Uij ? ? O
+O(3) -.1645(5) .3286(15) -.9738(3) .032(1) Uij ? ? O
+C(7) -.4374(7) -.6224(15) -.6101(4) .016(1) Uij ? ? C
+O(1) -.3346(5) -.7241(16) -.5207(3) .015(1) Uij ? ? O
+O(1B) -.6294(19) -.6813(36) -.6482(11) .010(0) Uij ? ? O
+H(2A) .1123 -.0585 -.6896 .080 Uiso calc C(2) H
+H(3A) -.0459 -.4073 -.5757 .080 Uiso calc C(3) H
+H(5A) -.6018 -.3408 -.8132 .080 Uiso calc C(5) H
+H(6A) -.4476 -.0010 -.9277 .080 Uiso calc C(6) H
+H(7A) -.5863 -.6547 -.6392 .080 Uiso calc C(7) H
+H(7B) -.3631 -.7121 -.5379 .080 Uiso calc C(7) H
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+C International_Tables_Vol_IV_Table_2.3.1
+H International_Tables_Vol_IV_Table_2.3.1
+N International_Tables_Vol_IV_Table_2.3.1
+O International_Tables_Vol_IV_Table_2.3.1
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 -2
+1 -1 -1
+0 -1 -2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C(2) C(1) C(6) 123.0(4) y
+C(2) C(1) N(1) 118.5(4) y
+C(6) C(1) N(1) 118.4(4) y
+C(1) C(2) C(3) 118.3(4) y
+C(2) C(3) C(4) 120.0(4) y
+C(3) C(4) C(5) 120.7(5) y
+C(3) C(4) C(7) 120.3(4) y
+C(5) C(4) C(7) 118.8(4) y
+C(4) C(5) C(6) 119.4(4) y
+C(1) C(6) C(5) 118.4(4) y
+C(1) N(1) O(2) 118.3(5) y
+C(1) N(1) O(3) 121.4(4) y
+O(2) N(1) O(3) 120.0(7) y
+C(4) C(7) O(1) 119.1(4) y
+C(4) C(7) O(1B) 116.3(8) y
+O(1) C(7) O(1B) 124.6(9) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(1) C(2) 1.375(6) y
+C(1) C(6) 1.395(6) y
+C(1) N(1) 1.446(7) y
+C(2) C(3) 1.389(9) y
+C(3) C(4) 1.382(6) y
+C(4) C(5) 1.412(6) y
+C(4) C(7) 1.521(8) y
+C(5) C(6) 1.377(9) y
+N(1) O(2) 1.248(6) y
+N(1) O(3) 1.236(7) y
+C(7) O(1) 1.197(6) y
+C(7) O(1B) 1.256(13) y

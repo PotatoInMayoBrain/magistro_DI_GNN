@@ -1,0 +1,255 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-12-04 03:42:21 +0200 (Fri, 04 Dec 2015) $
+#$Revision: 170702 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/72/2107283.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2107283
+loop_
+_publ_author_name
+'Akselrud, L.'
+'Cardoso Gil, R.'
+'Wagner-Reetz, M.'
+'Grin, Yu.'
+_publ_section_title
+;
+ Disorder in the composite crystal structure of the manganese `disilicide'
+ MnSi~1.73~ from powder X-ray diffraction data
+;
+_journal_coeditor_code           KC5025
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              707
+_journal_page_last               712
+_journal_paper_doi               10.1107/S2052520615019757
+_journal_volume                  71
+_journal_year                    2015
+_chemical_formula_sum            'Mn2 Si3.5'
+_space_group_IT_number           141
+_space_group_ssg_name            'I 41/a m d(00p)00ss'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.5235(3)
+_cell_length_b                   5.5235(3)
+_cell_length_c                   4.3634(3)
+_cell_measurement_temperature    295.0
+_cell_modulation_dimension       1
+_cell_subsystems_number          2
+_cell_volume                     133.123(14)
+_computing_cell_refinement       WinCSD
+_computing_data_reduction        WinCSD
+_computing_publication_material  'WinCSD (Akselrud et al, 1993)'
+_computing_structure_refinement  WinCSD
+_computing_structure_solution    WinCSD
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'imaging plate'
+_diffrn_measurement_device_type  'Huber Guinier G670'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.54061
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       3
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_theta_max         50.4
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_current           30
+_diffrn_source_target            Cu
+_diffrn_source_type              'GE ID-3003'
+_diffrn_source_voltage           40
+_exptl_absorpt_coefficient_mu    89.62
+_exptl_crystal_colour            'Grey metallic'
+_exptl_crystal_density_diffrn    5.2130
+_exptl_crystal_F_000             198.7
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        100.3
+_pd_meas_2theta_range_min        15.0
+_pd_meas_scan_method             step
+_pd_proc_ls_profile_function     pseudo-Voit
+_pd_proc_ls_prof_R_factor        0.1123
+_pd_proc_ls_prof_wR_factor       0.0870
+_pd_spec_mounting                'packed powder pellet'
+_pd_spec_size_axial              25
+_pd_spec_size_equat              25
+_pd_spec_size_thick              1
+_refine_ls_goodness_of_fit_all   1.02
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     0
+_refine_ls_number_reflns         52
+_refine_ls_shift/su_max          0.032
+_refine_ls_weighting_details     1/sqrt[Y~i~]
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            kc5025sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'Calc' changed to 'calc'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4268 2015-11-12 08:31:59Z antanas 
+;
+_cod_original_cell_volume        133.13(2)
+_cod_database_code               2107283
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,z
+3 y+0.75,-x+0.75,z+0.25
+4 -y+0.25,-x+0.75,z+0.25
+5 -x+0.5,-y,z+0.5
+6 x+0.5,-y,z+0.5
+7 -y+0.75,x+0.25,z+0.75
+8 y+0.25,x+0.25,z+0.75
+9 x+0.5,y+0.5,z+0.5
+10 -x+0.5,y+0.5,z+0.5
+11 y+0.25,-x+0.25,z+0.75
+12 -y+0.75,-x+0.25,z+0.75
+13 -x,-y+0.5,z
+14 x,-y+0.5,z
+15 -y+0.25,x+0.75,z+0.25
+16 y+0.75,x+0.75,z+0.25
+17 -x,-y,-z
+18 x,-y,-z
+19 -y+0.75,x+0.75,-z+0.25
+20 y+0.25,x+0.75,-z+0.25
+21 x+0.5,y,-z+0.5
+22 -x+0.5,y,-z+0.5
+23 y+0.75,-x+0.25,-z+0.75
+24 -y+0.25,-x+0.25,-z+0.75
+25 -x+0.5,-y+0.5,-z+0.5
+26 x+0.5,-y+0.5,-z+0.5
+27 -y+0.25,x+0.25,-z+0.75
+28 y+0.75,x+0.25,-z+0.75
+29 x,y+0.5,-z
+30 -x,y+0.5,-z
+31 y+0.25,-x+0.75,-z+0.25
+32 -y+0.75,-x+0.75,-z+0.25
+loop_
+_space_group_symop_ssg_id
+_space_group_symop_ssg_operation_algebraic
+1 +x1,+x2,+x3,+x4
+2 -x1,+x2,+x3,1/2+x4
+3 3/4+x2,3/4-x1,1/4+x3,+x4
+4 1/2+x1,-x2,1/2+x3,1/2+x4
+5 1/4-x2,3/4-x1,1/4+x3,1/2+x4
+6 1/2-x1,-x2,1/2+x3,+x4
+7 1/4+x2,1/4+x1,3/4+x3,1/2+x4
+8 3/4-x2,1/4+x1,3/4+x3,+x4
+9 -x1,-x2,-x3,-x4
+10 +x1,-x2,-x3,-1/2-x4
+11 -3/4-x2,-3/4+x1,-1/4-x3,-x4
+12 -1/2-x1,+x2,-1/2-x3,-1/2-x4
+13 -1/4+x2,-3/4+x1,-1/4-x3,-1/2-x4
+14 -1/2+x1,+x2,-1/2-x3,-x4
+15 -1/4-x2,-1/4-x1,-3/4-x3,-1/2-x4
+16 -3/4+x2,-1/4-x1,-3/4-x3,-x4
+17 1/2+x1,1/2+x2,1/2+x3,+x4
+18 1/2-x1,1/2+x2,1/2+x3,1/2+x4
+19 1/4+x2,1/4-x1,3/4+x3,+x4
+20 +x1,1/2-x2,+x3,1/2+x4
+21 3/4-x2,1/4-x1,3/4+x3,1/2+x4
+22 -x1,1/2-x2,+x3,+x4
+23 3/4+x2,3/4+x1,1/4+x3,1/2+x4
+24 1/4-x2,3/4+x1,1/4+x3,+x4
+25 -1/2-x1,-1/2-x2,-1/2-x3,-x4
+26 -1/2+x1,-1/2-x2,-1/2-x3,-1/2-x4
+27 -1/4-x2,-1/4+x1,-3/4-x3,-x4
+28 -x1,-1/2+x2,-x3,-1/2-x4
+29 -3/4+x2,-1/4+x1,-3/4-x3,-1/2-x4
+30 +x1,-1/2+x2,-x3,-x4
+31 -3/4-x2,-3/4-x1,-1/4-x3,-1/2-x4
+32 -1/4+x2,-3/4-x1,-1/4-x3,-x4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_B_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_subsystem_code
+Mn Mn 0 0.25 0.375 Biso 0.70(6) 4 0.850(4) 1
+Si1 Si 0.181(2) 0.379(2) 0.825(3) Biso 0.8(2) 32 0.106(3) 1
+Mn1 Mn 0.181(2) 0.379(2) 0.825(3) Biso 0.8(2) 32 0.019(3) 1
+Si2 Si 0.25 0 0.75 Biso 0.9(6) 4 0.52(5) 2
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+Si1 x 1 -0.031(3) -0.009(4)
+Si1 y 1 0.001(4) 0.000(4)
+Si1 z 1 0.026(5) -0.010(8)
+Si2 x 2 -0.091(2) 0.0
+Si2 y 2 0.0 -0.091(2)
+loop_
+_atom_site_Fourier_wave_vector_seq_id
+_atom_site_Fourier_wave_vector_x
+_atom_site_Fourier_wave_vector_y
+_atom_site_Fourier_wave_vector_z
+1 0.00000 0.00000 1.73750
+2 0.00000 0.00000 0.57554
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mn Mn 4.00 -.587 2.769 International_Tables_Vol_IV_Table_2.3.1
+Si Si 7.06 .255 .330 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_cell_subsystem_matrix_W_1_1
+_cell_subsystem_matrix_W_1_2
+_cell_subsystem_matrix_W_1_3
+_cell_subsystem_matrix_W_1_4
+_cell_subsystem_matrix_W_2_1
+_cell_subsystem_matrix_W_2_2
+_cell_subsystem_matrix_W_2_3
+_cell_subsystem_matrix_W_2_4
+_cell_subsystem_matrix_W_3_1
+_cell_subsystem_matrix_W_3_2
+_cell_subsystem_matrix_W_3_3
+_cell_subsystem_matrix_W_3_4
+_cell_subsystem_matrix_W_4_1
+_cell_subsystem_matrix_W_4_2
+_cell_subsystem_matrix_W_4_3
+_cell_subsystem_matrix_W_4_4
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+1 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.0 0.0 1.7374
+2 0.0 0.0 0.5756
+loop_
+_diffrn_reflns_class_code
+_diffrn_reflns_class_description
+Main 'Main reflections'
+Sat1 '1st-order satellites'

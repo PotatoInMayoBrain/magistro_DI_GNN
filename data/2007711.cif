@@ -1,0 +1,261 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/77/2007711.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007711
+loop_
+_publ_author_name
+'Emirdag, Mehtap'
+'Schimek, George L.'
+'Kolis, Joseph W.'
+_publ_section_title
+;
+ KAg~5~S~3~
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1376
+_journal_page_last               1378
+_journal_paper_doi               10.1107/S0108270198003680
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'K Ag5 S3'
+_chemical_formula_sum            'Ag5 K S3'
+_chemical_formula_weight         674.62
+_chemical_name_systematic        'Potassium pentasilver trisulfide'
+_space_group_IT_number           190
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6c -2c'
+_symmetry_space_group_name_H-M   'P -6 2 c'
+_atom_type_scat_source           'International Tables Vol IV'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   13.196(2)
+_cell_length_b                   13.196(2)
+_cell_length_c                   7.943(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    183
+_cell_measurement_theta_max      26.4
+_cell_measurement_theta_min      23.6
+_cell_volume                     1197.8(5)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1988)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1993)'
+_computing_molecular_graphics    'SHELXTL-Plus (Sheldrick, 1991)'
+_computing_structure_refinement  TEXSAN
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      183
+_diffrn_measurement_device       'Rigaku AFC-7 diffractometer'
+_diffrn_measurement_method       \w--2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.080
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            3393
+_diffrn_reflns_theta_max         28.47
+_diffrn_reflns_theta_min         1.75
+_diffrn_standards_decay_%        -0.85
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.247
+_exptl_absorpt_correction_T_max  0.12
+_exptl_absorpt_correction_T_min  0.05
+_exptl_absorpt_correction_type   'empirical via \y scans (Sheldrick, 1991)'
+_exptl_crystal_colour            dark-red
+_exptl_crystal_density_diffrn    5.611
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             1812
+_exptl_crystal_size_max          0.224
+_exptl_crystal_size_mid          0.192
+_exptl_crystal_size_min          0.160
+_refine_diff_density_max         4.1
+_refine_diff_density_min         -7.6
+_refine_ls_extinction_coef       '4.6(1) \\times 10^-7^'
+_refine_ls_extinction_method
+'Zachariasen (1963) type 2 Gaussian isotropic'
+_refine_ls_goodness_of_fit_obs   2.71
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     51
+_refine_ls_number_reflns         894
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.084
+_refine_ls_R_factor_obs          0.062
+_refine_ls_shift/esd_max         0.002
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0005F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.069
+_refine_ls_wR_factor_obs         0.040
+_reflns_number_observed          894
+_reflns_number_total             1095
+_reflns_observed_criterion       'F > 4\s(F)'
+_cod_data_source_file            br1202.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F)+0.0005F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0005F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'K Ag5 S3'
+_cod_database_code               2007711
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x, +y, +z'
+'  -y, +x-y, +z'
+'  -x+y, -x, +z'
+'  +x, +y, 1/2-z'
+'  -y, +x-y, 1/2-z'
+'  -x+y, -x, 1/2-z'
+'  +y, +x, -z'
+'  x -y, -y, -z'
+'  -x, -x+y, -z'
+'  +y, +x, 1/2+z'
+'  +x-y, -y, 1/2+z'
+'  -x, -x+y, 1/2+z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ag1 0.0150(10) 0.0240(10) 0.023(2) 0.0040(10) 0.0000 0.0000 Ag
+Ag2 0.0230(10) 0.0220(10) 0.0160(10) 0.0090(10) -0.0030(10) -0.0070(10) Ag
+Ag3 0.0220(10) 0.0220(10) 0.0130(10) 0.0120(10) -0.0030(10) 0.0030(10) Ag
+Ag4 0.0210(10) 0.0170(10) 0.0200(10) 0.0060(10) 0.0000 0.0000 Ag
+K1 0.014(2) 0.014(2) 0.019(4) 0.007(2) 0.0000 0.0000 K
+K2 0.0160(10) 0.0160(10) 0.015(2) 0.0080(10) 0.0000 0.0000 K
+S1 0.009(2) 0.013(2) 0.016(3) 0.003(2) 0.0000 0.0000 S
+S2 0.014(2) 0.016(2) 0.009(3) 0.010(2) 0.0000 0.0000 S
+S3 0.020(2) 0.007(2) 0.007(2) 0.004(2) 0.0000 0.0000 S
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ag1 0.63380(10) 0.63120(10) 0.7500 0.0230(10) Uani d .
+Ag2 0.81590(10) 0.66560(10) 1.0014(2) 0.0210(10) Uani d .
+Ag3 0.46510(10) 0.46510(10) 0 0.0190(10) Uani d .
+Ag4 -0.00410(10) 0.70340(10) 0.7500 0.0210(10) Uani d .
+K1 1 1 0 0.016(2) Uani d .
+K2 0.6667 0.3333 0.0018(10) 0.0160(10) Uani d .
+S1 0.7838(4) 0.8634(4) 0.7500 0.014(2) Uani d .
+S2 0.4150(4) 0.5329(4) 0.7500 0.012(2) Uani d .
+S3 0.7783(4) 0.5509(3) 0.7500 0.013(2) Uani d .
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-2 -2 0
+-4 2 0
+0 -3 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+S1 Ag1 S2 . . 126.2(2) yes
+S1 Ag1 S3 . . 101.1(2) yes
+S2 Ag1 S3 . . 132.7(2) yes
+S3 Ag2 S1 . 7_557 177.2(2) yes
+S2 Ag3 S2 1_554 7_556 174.4(2) yes
+S1 Ag4 S2 2_665 3_565 109.8(2) yes
+S1 Ag4 S3 2_665 1_455 142.8(2) yes
+S2 Ag4 S3 3_565 1_455 107.4(2) yes
+S1 K1 S1 2_764 3_674 85.4(1)x6 no
+S1 K1 S1 3_674 8_676 86.4(1)x3 no
+S1 K1 S1 2_764 7_556 104.6(2)x3 no
+S1 K1 S1 3_674 7_556 166.5(1)x3 no
+S2 K2 S2 8_666 9_656 85.5(2)x3 no
+S2 K2 S3 9_656 2_654 99.7(1)x3 no
+S2 K2 S3 9_656 1_554 173.1(1)x3 no
+S3 K2 S3 2_654 3_664 84.9(2)x3 no
+S2 K2 S3 8_666 1_554 90.4(1)x3 no
+Ag1 S1 Ag2 . 7_557 72.0(1)x2 yes
+Ag2 S1 Ag2 7_557 10_554 110.9(2) yes
+Ag1 S1 Ag4 . 3_565 120.2(2) yes
+Ag2 S1 Ag4 10_554 3_565 75.2(2)x2 yes
+Ag1 S2 Ag3 . 1_556 74.5(1)x2 yes
+Ag3 S2 Ag3 1_556 4_555 111.5(2) yes
+Ag1 S2 Ag4 . 2_665 116.2(2) yes
+Ag3 S2 Ag4 4_555 2_665 70.9(1)x2 yes
+Ag1 S3 Ag2 . . 72.9(1)x2 yes
+Ag2 S3 Ag2 . 4_556 112.4(2) yes
+Ag1 S3 Ag4 . 1_655 116.3(2) yes
+Ag2 S3 Ag4 . 1_655 72.9(1)x2 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ag1 Ag2 . . 2.980(2)x2 no
+Ag1 Ag2 . 7_557 2.999(2)x2 no
+Ag1 Ag3 . 1_556 2.971(2)x2 no
+Ag2 Ag4 . 9_657 3.000(2) no
+Ag2 Ag4 . 1_655 2.948(2) no
+Ag3 Ag4 . 2_664 3.001(2)x2 no
+Ag1 S1 . . 2.691(4) yes
+Ag1 S2 . . 2.505(5) yes
+Ag1 S3 . . 2.604(6) yes
+Ag2 S1 . 7_557 2.397(3) yes
+Ag2 S3 . . 2.403(3) yes
+Ag3 S2 . 1_554 2.402(3)x2 yes
+Ag4 S1 . 2_665 2.516(4) yes
+Ag4 S2 . 3_565 2.747(2) yes
+Ag4 S3 . 1_455 2.552(4) yes
+K1 S1 . 1_554 3.192(3)x6 yes
+K2 S2 . 7_556 3.173(7)x3 yes
+K2 S3 . 1_554 3.191(5)x3 yes

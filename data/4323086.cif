@@ -1,0 +1,597 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:32:23 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179333 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/30/4323086.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4323086
+loop_
+_publ_author_name
+'Robert Lam'
+'Arthur Mar'
+_publ_section_title
+;
+ Ternary Arsenide Ba0.8Hf12As17.7, a Variant of the Cr12P7 Structure Type
+ with Inserted Arsenic Ribbons
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5364
+_journal_page_last               5368
+_journal_paper_doi               10.1021/ic980545i
+_journal_volume                  37
+_journal_year                    1998
+_chemical_formula_sum            'As17.7 Ba0.8 Hf12'
+_chemical_formula_weight         3577.85
+_chemical_name_common            'barium hafnium arsenide'
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   14.9969(11)
+_cell_length_b                   14.9969(11)
+_cell_length_c                   3.5526(4)
+_cell_measurement_reflns_used    38
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      14.2
+_cell_measurement_theta_min      9.2
+_cell_volume                     691.96(11)
+_computing_cell_refinement       'Siemens XSCANS'
+_computing_data_collection       'Siemens XSCANS'
+_computing_data_reduction        'Siemens SHELXTL'
+_computing_molecular_graphics    'Siemens SHELXTL'
+_computing_publication_material  'Siemens SHELXTL'
+_computing_structure_refinement  'Siemens SHELXTL'
+_computing_structure_solution    'Siemens SHELXTL'
+_diffrn_ambient_temperature      295(2)
+_diffrn_measurement_device       'Siemens P4RA'
+_diffrn_measurement_method       'theta-two theta'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'rotating anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1577
+_diffrn_reflns_av_sigmaI/netI    0.1252
+_diffrn_reflns_limit_h_max       23
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -24
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            7115
+_diffrn_reflns_theta_max         34.98
+_diffrn_reflns_theta_min         1.57
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    67.059
+_exptl_absorpt_correction_T_max  0.849
+_exptl_absorpt_correction_T_min  0.763
+_exptl_absorpt_correction_type   'face-indexed Gaussian-type'
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    8.617
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             1498
+_exptl_crystal_size_max          0.265
+_exptl_crystal_size_mid          0.003
+_exptl_crystal_size_min          0.003
+_refine_diff_density_max         5.581
+_refine_diff_density_min         -5.361
+_refine_diff_density_rms         1.221
+_refine_ls_extinction_coef       0.00131(13)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.060
+_refine_ls_goodness_of_fit_obs   1.187
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_number_reflns         1148
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.060
+_refine_ls_restrained_S_obs      1.187
+_refine_ls_R_factor_all          0.1376
+_refine_ls_R_factor_obs          0.0630
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0356P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1175
+_refine_ls_wR_factor_obs         0.0980
+_reflns_number_observed          654
+_reflns_number_total             1148
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic980545i.cif
+_cod_data_source_block           Ba0.8Hf12As17.7
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0356P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0356P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4323086
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba 0.015(3) 0.015(3) 0.070(17) 0.000 0.000 0.008(2)
+Hf1 0.0042(4) 0.0033(4) 0.0052(4) 0.000 0.000 0.0020(4)
+Hf2 0.0039(4) 0.0038(4) 0.0051(4) 0.000 0.000 0.0020(4)
+As1 0.004(2) 0.004(2) 0.011(2) 0.000 0.000 0.002(2)
+As2 0.0024(10) 0.0055(11) 0.0067(11) 0.000 0.000 0.0009(9)
+As3 0.0018(10) 0.0028(11) 0.0030(9) 0.000 0.000 0.0007(9)
+As4 0.007(3) 0.008(3) 0.006(3) 0.000 0.000 0.005(3)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Ba Ba 0.0000 0.0000 0.1368(33) 0.033(6) Uani 0.209(6) d SP .
+Hf1 Hf 0.35495(7) 0.11892(7) 0.2500 0.0042(2) Uani 1 d S .
+Hf2 Hf 0.61802(8) 0.17720(8) 0.2500 0.0042(2) Uani 1 d S .
+As1 As 0.0142(3) 0.4500(3) 0.2500 0.0063(13) Uani 0.563(10) d SP .
+As2 As 0.0718(2) 0.2384(2) 0.2500 0.0053(5) Uani 1 d S .
+As3 As 0.2850(2) 0.5099(2) 0.2500 0.0027(4) Uani 1 d S .
+As4 As 0.3422(5) 0.2965(5) 0.2500 0.007(2) Uani 0.392(10) d SP .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+As As 0.0499 2.0058 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Hf Hf -0.5830 6.1852 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Ba Ba Ba 180.000(3) 10_556 7 ?
+Ba Ba Ba 0.000(2) 10_556 4 ?
+Ba Ba Ba 180.0 7 4 ?
+Ba Ba Ba 180.000(1) 10_556 4_554 ?
+Ba Ba Ba 0.0 7 4_554 ?
+Ba Ba Ba 180.000(2) 4 4_554 ?
+Ba Ba Ba 0.000(3) 10_556 7_556 ?
+Ba Ba Ba 180.000(1) 7 7_556 ?
+Ba Ba Ba 0.000(2) 4 7_556 ?
+Ba Ba Ba 180.0 4_554 7_556 ?
+Ba Ba Ba 180.000(3) 10_556 10 ?
+Ba Ba Ba 0.000(1) 7 10 ?
+Ba Ba Ba 180.000(1) 4 10 ?
+Ba Ba Ba 0.0 4_554 10 ?
+Ba Ba Ba 180.000(2) 7_556 10 ?
+Ba Ba As2 82.8(2) 10_556 . ?
+Ba Ba As2 97.2(2) 7 . ?
+Ba Ba As2 82.8(2) 4 . ?
+Ba Ba As2 97.2(2) 4_554 . ?
+Ba Ba As2 82.8(2) 7_556 . ?
+Ba Ba As2 97.2(2) 10 . ?
+Ba Ba As2 82.8(2) 10_556 2 ?
+Ba Ba As2 97.2(2) 7 2 ?
+Ba Ba As2 82.8(2) 4 2 ?
+Ba Ba As2 97.2(2) 4_554 2 ?
+Ba Ba As2 82.8(2) 7_556 2 ?
+Ba Ba As2 97.2(2) 10 2 ?
+As2 Ba As2 118.45(9) . 2 ?
+Ba Ba As2 82.8(2) 10_556 3 ?
+Ba Ba As2 97.2(2) 7 3 ?
+Ba Ba As2 82.8(2) 4 3 ?
+Ba Ba As2 97.2(2) 4_554 3 ?
+Ba Ba As2 82.8(2) 7_556 3 ?
+Ba Ba As2 97.2(2) 10 3 ?
+As2 Ba As2 118.45(9) . 3 ?
+As2 Ba As2 118.45(9) 2 3 ?
+Ba Ba As2 113.4(2) 10_556 7 ?
+Ba Ba As2 66.6(2) 7 7 ?
+Ba Ba As2 113.4(2) 4 7 ?
+Ba Ba As2 66.6(2) 4_554 7 ?
+Ba Ba As2 113.4(2) 7_556 7 ?
+Ba Ba As2 66.6(2) 10 7 ?
+As2 Ba As2 163.8(4) . 7 ?
+As2 Ba As2 66.08(4) 2 7 ?
+As2 Ba As2 66.08(4) 3 7 ?
+Ba Ba As2 113.4(2) 10_556 8 ?
+Ba Ba As2 66.6(2) 7 8 ?
+Ba Ba As2 113.4(2) 4 8 ?
+Ba Ba As2 66.6(2) 4_554 8 ?
+Ba Ba As2 113.4(2) 7_556 8 ?
+Ba Ba As2 66.6(2) 10 8 ?
+As2 Ba As2 66.08(4) . 8 ?
+As2 Ba As2 163.8(4) 2 8 ?
+As2 Ba As2 66.08(4) 3 8 ?
+As2 Ba As2 105.3(2) 7 8 ?
+Ba Ba As2 113.4(2) 10_556 9 ?
+Ba Ba As2 66.6(2) 7 9 ?
+Ba Ba As2 113.4(2) 4 9 ?
+Ba Ba As2 66.6(2) 4_554 9 ?
+Ba Ba As2 113.4(2) 7_556 9 ?
+Ba Ba As2 66.6(2) 10 9 ?
+As2 Ba As2 66.08(4) . 9 ?
+As2 Ba As2 66.08(4) 2 9 ?
+As2 Ba As2 163.8(4) 3 9 ?
+As2 Ba As2 105.3(2) 7 9 ?
+As2 Ba As2 105.3(2) 8 9 ?
+As3 Hf1 As3 81.61(7) 8_556 8 ?
+As3 Hf1 As4 83.53(12) 8_556 . ?
+As3 Hf1 As4 83.53(12) 8 . ?
+As3 Hf1 As4 136.77(14) 8_556 8 ?
+As3 Hf1 As4 84.29(12) 8 8 ?
+As4 Hf1 As4 135.0(2) . 8 ?
+As3 Hf1 As4 84.29(12) 8_556 8_556 ?
+As3 Hf1 As4 136.77(14) 8 8_556 ?
+As4 Hf1 As4 135.0(2) . 8_556 ?
+As4 Hf1 As4 78.6(2) 8 8_556 ?
+As3 Hf1 As1 82.46(9) 8_556 3 ?
+As3 Hf1 As1 82.46(9) 8 3 ?
+As4 Hf1 As1 161.5(2) . 3 ?
+As4 Hf1 As1 55.20(14) 8 3 ?
+As4 Hf1 As1 55.20(14) 8_556 3 ?
+As3 Hf1 As2 136.02(8) 8_556 8 ?
+As3 Hf1 As2 84.11(6) 8 8 ?
+As4 Hf1 As2 53.57(9) . 8 ?
+As4 Hf1 As2 82.18(12) 8 8 ?
+As4 Hf1 As2 131.39(14) 8_556 8 ?
+As1 Hf1 As2 136.26(5) 3 8 ?
+As3 Hf1 As2 84.11(6) 8_556 8_556 ?
+As3 Hf1 As2 136.02(8) 8 8_556 ?
+As4 Hf1 As2 53.57(9) . 8_556 ?
+As4 Hf1 As2 131.39(14) 8 8_556 ?
+As4 Hf1 As2 82.18(12) 8_556 8_556 ?
+As1 Hf1 As2 136.26(5) 3 8_556 ?
+As2 Hf1 As2 77.97(7) 8 8_556 ?
+As3 Hf1 As2 135.83(5) 8_556 3 ?
+As3 Hf1 As2 135.83(5) 8 3 ?
+As4 Hf1 As2 117.20(15) . 3 ?
+As4 Hf1 As2 52.97(12) 8 3 ?
+As4 Hf1 As2 52.97(12) 8_556 3 ?
+As1 Hf1 As2 81.34(11) 3 3 ?
+As2 Hf1 As2 79.95(9) 8 3 ?
+As2 Hf1 As2 79.95(9) 8_556 3 ?
+As3 Hf1 Hf1 49.19(4) 8_556 1_556 ?
+As3 Hf1 Hf1 130.81(4) 8 1_556 ?
+As4 Hf1 Hf1 90.0 . 1_556 ?
+As4 Hf1 Hf1 129.32(8) 8 1_556 ?
+As4 Hf1 Hf1 50.68(8) 8_556 1_556 ?
+As1 Hf1 Hf1 90.0 3 1_556 ?
+As2 Hf1 Hf1 128.99(3) 8 1_556 ?
+As2 Hf1 Hf1 51.01(3) 8_556 1_556 ?
+As2 Hf1 Hf1 90.0 3 1_556 ?
+As3 Hf1 Hf1 130.81(4) 8_556 1_554 ?
+As3 Hf1 Hf1 49.19(4) 8 1_554 ?
+As4 Hf1 Hf1 90.0 . 1_554 ?
+As4 Hf1 Hf1 50.68(8) 8 1_554 ?
+As4 Hf1 Hf1 129.32(8) 8_556 1_554 ?
+As1 Hf1 Hf1 90.0 3 1_554 ?
+As2 Hf1 Hf1 51.01(3) 8 1_554 ?
+As2 Hf1 Hf1 128.99(3) 8_556 1_554 ?
+As2 Hf1 Hf1 90.0 3 1_554 ?
+Hf1 Hf1 Hf1 180.00(13) 1_556 1_554 ?
+As3 Hf1 Hf2 49.20(5) 8_556 3_665 ?
+As3 Hf1 Hf2 49.20(5) 8 3_665 ?
+As4 Hf1 Hf2 51.13(14) . 3_665 ?
+As4 Hf1 Hf2 133.48(11) 8 3_665 ?
+As4 Hf1 Hf2 133.48(11) 8_556 3_665 ?
+As1 Hf1 Hf2 110.34(10) 3 3_665 ?
+As2 Hf1 Hf2 91.01(5) 8 3_665 ?
+As2 Hf1 Hf2 91.01(5) 8_556 3_665 ?
+As2 Hf1 Hf2 168.32(6) 3 3_665 ?
+Hf1 Hf1 Hf2 90.0 1_556 3_665 ?
+Hf1 Hf1 Hf2 90.0 1_554 3_665 ?
+As3 Hf2 As3 81.17(7) 8 8_556 ?
+As3 Hf2 As3 135.64(8) 8 9_656 ?
+As3 Hf2 As3 82.62(8) 8_556 9_656 ?
+As3 Hf2 As3 82.62(8) 8 9_655 ?
+As3 Hf2 As3 135.64(8) 8_556 9_655 ?
+As3 Hf2 As3 80.81(7) 9_656 9_655 ?
+As3 Hf2 As1 82.30(9) 8 9_655 ?
+As3 Hf2 As1 133.88(11) 8_556 9_655 ?
+As3 Hf2 As1 135.66(11) 9_656 9_655 ?
+As3 Hf2 As1 83.75(9) 9_655 9_655 ?
+As3 Hf2 As1 133.88(11) 8 9_656 ?
+As3 Hf2 As1 82.30(9) 8_556 9_656 ?
+As3 Hf2 As1 83.75(9) 9_656 9_656 ?
+As3 Hf2 As1 135.66(11) 9_655 9_656 ?
+As1 Hf2 As1 78.94(12) 9_655 9_656 ?
+As3 Hf2 As1 82.28(8) 8 3 ?
+As3 Hf2 As1 82.28(8) 8_556 3 ?
+As3 Hf2 As1 135.58(5) 9_656 3 ?
+As3 Hf2 As1 135.58(5) 9_655 3 ?
+As1 Hf2 As1 52.93(11) 9_655 3 ?
+As1 Hf2 As1 52.93(11) 9_656 3 ?
+As3 Hf2 As4 135.68(7) 8 2_655 ?
+As3 Hf2 As4 135.68(7) 8_556 2_655 ?
+As3 Hf2 As4 81.73(11) 9_656 2_655 ?
+As3 Hf2 As4 81.73(11) 9_655 2_655 ?
+As1 Hf2 As4 54.95(11) 9_655 2_655 ?
+As1 Hf2 As4 54.95(11) 9_656 2_655 ?
+As1 Hf2 As4 80.6(2) 3 2_655 ?
+As3 Hf2 Hf2 49.42(4) 8 1_554 ?
+As3 Hf2 Hf2 130.58(4) 8_556 1_554 ?
+As3 Hf2 Hf2 130.40(4) 9_656 1_554 ?
+As3 Hf2 Hf2 49.60(4) 9_655 1_554 ?
+As1 Hf2 Hf2 50.53(6) 9_655 1_554 ?
+As1 Hf2 Hf2 129.47(6) 9_656 1_554 ?
+As1 Hf2 Hf2 90.0 3 1_554 ?
+As4 Hf2 Hf2 90.0 2_655 1_554 ?
+As3 Hf2 Hf2 130.58(4) 8 1_556 ?
+As3 Hf2 Hf2 49.42(4) 8_556 1_556 ?
+As3 Hf2 Hf2 49.60(4) 9_656 1_556 ?
+As3 Hf2 Hf2 130.40(4) 9_655 1_556 ?
+As1 Hf2 Hf2 129.47(6) 9_655 1_556 ?
+As1 Hf2 Hf2 50.53(6) 9_656 1_556 ?
+As1 Hf2 Hf2 90.0 3 1_556 ?
+As4 Hf2 Hf2 90.0 2_655 1_556 ?
+Hf2 Hf2 Hf2 180.00(13) 1_554 1_556 ?
+As3 Hf2 Hf1 131.29(5) 8 2_655 ?
+As3 Hf2 Hf1 131.29(5) 8_556 2_655 ?
+As3 Hf2 Hf1 48.66(5) 9_656 2_655 ?
+As3 Hf2 Hf1 48.66(5) 9_655 2_655 ?
+As1 Hf2 Hf1 90.93(9) 9_655 2_655 ?
+As1 Hf2 Hf1 90.93(9) 9_656 2_655 ?
+As1 Hf2 Hf1 129.87(10) 3 2_655 ?
+As4 Hf2 Hf1 49.27(13) 2_655 2_655 ?
+Hf2 Hf2 Hf1 90.0 1_554 2_655 ?
+Hf2 Hf2 Hf1 90.0 1_556 2_655 ?
+As3 Hf2 Hf1 48.65(5) 8 . ?
+As3 Hf2 Hf1 48.65(5) 8_556 . ?
+As3 Hf2 Hf1 131.28(5) 9_656 . ?
+As3 Hf2 Hf1 131.28(5) 9_655 . ?
+As1 Hf2 Hf1 89.17(9) 9_655 . ?
+As1 Hf2 Hf1 89.17(9) 9_656 . ?
+As1 Hf2 Hf1 50.26(9) 3 . ?
+As4 Hf2 Hf1 130.86(14) 2_655 . ?
+Hf2 Hf2 Hf1 90.0 1_554 . ?
+Hf2 Hf2 Hf1 90.0 1_556 . ?
+Hf1 Hf2 Hf1 179.88(4) 2_655 . ?
+As1 As1 As1 90.8(3) 7_566 7_565 ?
+As1 As1 As4 177.7(2) 7_566 9 ?
+As1 As1 As4 91.50(13) 7_565 9 ?
+As1 As1 As4 91.50(13) 7_566 9_556 ?
+As1 As1 As4 177.7(2) 7_565 9_556 ?
+As4 As1 As4 86.2(2) 9 9_556 ?
+As1 As1 Hf2 63.74(14) 7_566 8_566 ?
+As1 As1 Hf2 117.6(3) 7_565 8_566 ?
+As4 As1 Hf2 114.9(2) 9 8_566 ?
+As4 As1 Hf2 63.39(14) 9_556 8_566 ?
+As1 As1 Hf2 117.6(3) 7_566 8_565 ?
+As1 As1 Hf2 63.74(14) 7_565 8_565 ?
+As4 As1 Hf2 63.39(14) 9 8_565 ?
+As4 As1 Hf2 114.9(2) 9_556 8_565 ?
+Hf2 As1 Hf2 78.94(12) 8_566 8_565 ?
+As1 As1 Hf2 63.3(2) 7_566 2 ?
+As1 As1 Hf2 63.3(2) 7_565 2 ?
+As4 As1 Hf2 118.0(2) 9 2 ?
+As4 As1 Hf2 118.0(2) 9_556 2 ?
+Hf2 As1 Hf2 127.07(11) 8_566 2 ?
+Hf2 As1 Hf2 127.07(11) 8_565 2 ?
+As1 As1 Hf1 116.7(2) 7_566 2 ?
+As1 As1 Hf1 116.7(2) 7_565 2 ?
+As4 As1 Hf1 62.3(2) 9 2 ?
+As4 As1 Hf1 62.3(2) 9_556 2 ?
+Hf2 As1 Hf1 125.72(12) 8_566 2 ?
+Hf2 As1 Hf1 125.72(12) 8_565 2 ?
+Hf2 As1 Hf1 79.53(12) 2 2 ?
+As4 As2 As4 89.7(2) 9_556 9 ?
+As4 As2 Hf1 61.99(14) 9_556 9_556 ?
+As4 As2 Hf1 114.7(2) 9 9_556 ?
+As4 As2 Hf1 114.7(2) 9_556 9 ?
+As4 As2 Hf1 61.99(14) 9 9 ?
+Hf1 As2 Hf1 77.97(7) 9_556 9 ?
+As4 As2 Hf1 62.72(15) 9_556 2 ?
+As4 As2 Hf1 62.72(15) 9 2 ?
+Hf1 As2 Hf1 124.66(6) 9_556 2 ?
+Hf1 As2 Hf1 124.66(6) 9 2 ?
+As4 As2 Ba 135.2(2) 9_556 . ?
+As4 As2 Ba 122.2(2) 9 . ?
+Hf1 As2 Ba 118.2(2) 9_556 . ?
+Hf1 As2 Ba 108.3(2) 9 . ?
+Hf1 As2 Ba 102.21(7) 2 . ?
+As4 As2 Ba 122.2(2) 9_556 10_556 ?
+As4 As2 Ba 135.2(2) 9 10_556 ?
+Hf1 As2 Ba 108.3(2) 9_556 10_556 ?
+Hf1 As2 Ba 118.2(2) 9 10_556 ?
+Hf1 As2 Ba 102.21(7) 2 10_556 ?
+Ba As2 Ba 14.4(4) . 10_556 ?
+As4 As2 Ba 148.7(2) 9_556 7 ?
+As4 As2 Ba 107.1(2) 9 7 ?
+Hf1 As2 Ba 127.86(12) 9_556 7 ?
+Hf1 As2 Ba 96.55(14) 9 7 ?
+Hf1 As2 Ba 101.28(7) 2 7 ?
+Ba As2 Ba 16.2(4) . 7 ?
+Ba As2 Ba 30.60(4) 10_556 7 ?
+As4 As2 Ba 107.1(2) 9_556 4 ?
+As4 As2 Ba 148.7(2) 9 4 ?
+Hf1 As2 Ba 96.55(14) 9_556 4 ?
+Hf1 As2 Ba 127.86(12) 9 4 ?
+Hf1 As2 Ba 101.28(7) 2 4 ?
+Ba As2 Ba 30.60(4) . 4 ?
+Ba As2 Ba 16.2(4) 10_556 4 ?
+Ba As2 Ba 46.8(4) 7 4 ?
+As4 As2 Ba 156.2(2) 9_556 4_554 ?
+As4 As2 Ba 96.7(2) 9 4_554 ?
+Hf1 As2 Ba 133.06(10) 9_556 4_554 ?
+Hf1 As2 Ba 88.35(11) 9 4_554 ?
+Hf1 As2 Ba 100.13(6) 2 4_554 ?
+Ba As2 Ba 27.22(7) . 4_554 ?
+Ba As2 Ba 41.7(3) 10_556 4_554 ?
+Ba As2 Ba 11.0(3) 7 4_554 ?
+Ba As2 Ba 57.83(5) 4 4_554 ?
+As4 As2 Ba 96.7(2) 9_556 7_556 ?
+As4 As2 Ba 156.2(2) 9 7_556 ?
+Hf1 As2 Ba 88.35(11) 9_556 7_556 ?
+Hf1 As2 Ba 133.06(10) 9 7_556 ?
+Hf1 As2 Ba 100.13(6) 2 7_556 ?
+Ba As2 Ba 41.7(4) . 7_556 ?
+Ba As2 Ba 27.22(7) 10_556 7_556 ?
+Ba As2 Ba 57.83(5) 7 7_556 ?
+Ba As2 Ba 11.0(3) 4 7_556 ?
+Ba As2 Ba 68.9(3) 4_554 7_556 ?
+Hf1 As3 Hf1 81.61(7) 9 9_556 ?
+Hf1 As3 Hf2 135.89(10) 9 9_556 ?
+Hf1 As3 Hf2 82.40(4) 9_556 9_556 ?
+Hf1 As3 Hf2 82.40(4) 9 9 ?
+Hf1 As3 Hf2 135.89(10) 9_556 9 ?
+Hf2 As3 Hf2 81.17(7) 9_556 9 ?
+Hf1 As3 Hf2 82.14(4) 9 8_565 ?
+Hf1 As3 Hf2 135.27(10) 9_556 8_565 ?
+Hf2 As3 Hf2 134.96(10) 9_556 8_565 ?
+Hf2 As3 Hf2 82.14(5) 9 8_565 ?
+Hf1 As3 Hf2 135.27(10) 9 8_566 ?
+Hf1 As3 Hf2 82.14(4) 9_556 8_566 ?
+Hf2 As3 Hf2 82.14(5) 9_556 8_566 ?
+Hf2 As3 Hf2 134.96(10) 9 8_566 ?
+Hf2 As3 Hf2 80.81(7) 8_565 8_566 ?
+As2 As4 As2 89.7(2) 8 8_556 ?
+As2 As4 As1 177.9(2) 8 8_556 ?
+As2 As4 As1 92.01(8) 8_556 8_556 ?
+As2 As4 As1 92.01(8) 8 8 ?
+As2 As4 As1 177.9(2) 8_556 8 ?
+As1 As4 As1 86.2(2) 8_556 8 ?
+As2 As4 Hf1 64.45(15) 8 . ?
+As2 As4 Hf1 64.45(15) 8_556 . ?
+As1 As4 Hf1 117.4(2) 8_556 . ?
+As1 As4 Hf1 117.4(2) 8 . ?
+As2 As4 Hf1 64.31(11) 8 9 ?
+As2 As4 Hf1 117.4(2) 8_556 9 ?
+As1 As4 Hf1 113.8(2) 8_556 9 ?
+As1 As4 Hf1 62.46(13) 8 9 ?
+Hf1 As4 Hf1 128.7(2) . 9 ?
+As2 As4 Hf1 117.4(2) 8 9_556 ?
+As2 As4 Hf1 64.31(11) 8_556 9_556 ?
+As1 As4 Hf1 62.46(13) 8_556 9_556 ?
+As1 As4 Hf1 113.8(2) 8 9_556 ?
+Hf1 As4 Hf1 128.7(2) . 9_556 ?
+Hf1 As4 Hf1 78.6(2) 9 9_556 ?
+As2 As4 Hf2 118.4(2) 8 3_665 ?
+As2 As4 Hf2 118.4(2) 8_556 3_665 ?
+As1 As4 Hf2 61.66(15) 8_556 3_665 ?
+As1 As4 Hf2 61.66(15) 8 3_665 ?
+Hf1 As4 Hf2 79.6(2) . 3_665 ?
+Hf1 As4 Hf2 124.1(2) 9 3_665 ?
+Hf1 As4 Hf2 124.1(2) 9_556 3_665 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ba Ba 0.80(2) 10_556 ?
+Ba Ba 0.97(2) 7 ?
+Ba Ba 1.7763(2) 4 ?
+Ba Ba 1.7763(2) 4_554 ?
+Ba Ba 2.58(2) 7_556 ?
+Ba Ba 2.75(2) 10 ?
+Ba As2 3.202(3) . ?
+Ba As2 3.202(3) 2 ?
+Ba As2 3.202(3) 3 ?
+Ba As2 3.461(5) 7 ?
+Ba As2 3.461(5) 8 ?
+Ba As2 3.461(5) 9 ?
+Hf1 As3 2.718(2) 8_556 ?
+Hf1 As3 2.718(2) 8 ?
+Hf1 As4 2.763(7) . ?
+Hf1 As4 2.803(5) 8 ?
+Hf1 As4 2.803(5) 8_556 ?
+Hf1 As1 2.806(4) 3 ?
+Hf1 As2 2.823(2) 8 ?
+Hf1 As2 2.823(2) 8_556 ?
+Hf1 As2 2.842(3) 3 ?
+Hf1 Hf1 3.5526(4) 1_556 ?
+Hf1 Hf1 3.5526(4) 1_554 ?
+Hf1 Hf2 3.5863(15) 3_665 ?
+Hf2 As3 2.730(2) 8 ?
+Hf2 As3 2.730(2) 8_556 ?
+Hf2 As3 2.740(2) 9_656 ?
+Hf2 As3 2.740(2) 9_655 ?
+Hf2 As1 2.794(3) 9_655 ?
+Hf2 As1 2.794(3) 9_656 ?
+Hf2 As1 2.805(4) 3 ?
+Hf2 As4 2.839(7) 2_655 ?
+Hf2 Hf2 3.5526(4) 1_554 ?
+Hf2 Hf2 3.5526(4) 1_556 ?
+Hf2 Hf1 3.5863(15) 2_655 ?
+As1 As1 2.495(6) 7_566 ?
+As1 As1 2.495(6) 7_565 ?
+As1 As4 2.599(5) 9 ?
+As1 As4 2.599(5) 9_556 ?
+As1 Hf2 2.794(3) 8_566 ?
+As1 Hf2 2.794(3) 8_565 ?
+As1 Hf2 2.805(4) 2 ?
+As1 Hf1 2.806(4) 2 ?
+As2 As4 2.518(5) 9_556 ?
+As2 As4 2.518(5) 9 ?
+As2 Hf1 2.823(2) 9_556 ?
+As2 Hf1 2.823(2) 9 ?
+As2 Hf1 2.842(3) 2 ?
+As2 Ba 3.202(3) 10_556 ?
+As2 Ba 3.461(5) 7 ?
+As2 Ba 3.461(5) 4 ?
+As2 Ba 3.852(7) 4_554 ?
+As2 Ba 3.852(7) 7_556 ?
+As3 Hf1 2.718(2) 9 ?
+As3 Hf1 2.718(2) 9_556 ?
+As3 Hf2 2.730(2) 9_556 ?
+As3 Hf2 2.730(2) 9 ?
+As3 Hf2 2.740(2) 8_565 ?
+As3 Hf2 2.740(2) 8_566 ?
+As4 As2 2.518(5) 8 ?
+As4 As2 2.518(5) 8_556 ?
+As4 As1 2.599(5) 8_556 ?
+As4 As1 2.599(5) 8 ?
+As4 Hf1 2.803(5) 9 ?
+As4 Hf1 2.803(5) 9_556 ?
+As4 Hf2 2.839(7) 3_665 ?

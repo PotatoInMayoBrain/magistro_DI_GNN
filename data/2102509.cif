@@ -1,0 +1,250 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/25/2102509.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102509
+loop_
+_publ_author_name
+'Prof. Clemente Dore Augusto'
+'Prof. Marzotto Armando'
+_publ_section_title
+;
+ 30 Space-group corrections: two examples of false polymorphism and one
+ of incorrect interpretation of the fine details of an IR spectrum
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              287
+_journal_page_last               292
+_journal_paper_doi               10.1107/S0108768104006391
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_moiety         'C10 H12 Cu N2 O6 S'
+_chemical_formula_sum            'C10 H12 Cu N2 O6 S'
+_chemical_formula_weight         351.84
+_chemical_name_systematic
+;
+cis-Diaqua-(2,2-bipyridyl-N,N')-copper sulfate
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-I 2ya'
+_symmetry_space_group_name_H-M   'I 1 2/a 1'
+_atom_sites_solution_hydrogens   ' ?               '
+_atom_sites_solution_primary     ' ?               '
+_atom_sites_solution_secondary   ' ?               '
+_cell_angle_alpha                90
+_cell_angle_beta                 101.010(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.9630(10)
+_cell_length_b                   12.4686(16)
+_cell_length_c                   14.8540(15)
+_cell_measurement_temperature    0
+_cell_volume                     1265.9(3)
+_computing_publication_material  'PLATON (Spek, 1990)'
+_diffrn_radiation_type           MoK\\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_reduction_process
+;
+ ?
+;
+_exptl_absorpt_coefficient_mu    1.915
+_exptl_absorpt_correction_type   ' ?               '
+_exptl_crystal_colour            ' ?               '
+_exptl_crystal_density_diffrn    1.783
+_exptl_crystal_density_method    'nt Measured'
+_exptl_crystal_description       ' ?               '
+_exptl_crystal_F_000             668
+_refine_ls_abs_structure_Flack   nne
+_refine_ls_extinction_method     ' ?               '
+_refine_ls_hydrogen_treatment    'see text         '
+_refine_ls_number_restraints     0
+_refine_ls_weighting_scheme      ?
+_cod_data_source_file            bs0022.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' tag value 'Monclinic' was replaced with
+'monoclinic' value.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      'I 2/a'
+_cod_database_code               2102509
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,y,-z
+-x,-y,-z
+1/2+x,-y,z
+1/2+x,1/2+y,1/2+z
+-x,1/2+y,1/2-z
+1/2-x,1/2-y,1/2-z
+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Cu1 0.75 0.27434 0.5 0.02 Uiso 1 Cu
+S1 0.25 0.3461 0.5 0.02 Uiso 1 S
+O1 0.42125 0.28015 0.5348 0.02 Uiso 1 O
+O2 0.20633 0.41637 0.57487 0.02 Uiso 1 O
+O5 0.653 0.38345 0.40585 0.02 Uiso 1 O
+N1 0.68405 0.1524 0.4118 0.02 Uiso 1 N
+C1 0.61755 0.16135 0.32125 0.02 Uiso 1 C
+C2 0.57847 0.07333 0.26497 0.02 Uiso 1 C
+C3 0.6068 -0.02790 0.30380 0.02 Uiso 1 C
+C4 0.67475 -0.03815 0.3973 0.02 Uiso 1 C
+C5 0.71223 0.05418 0.44967 0.02 Uiso 1 C
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Cu1 O5 . . 85.52 y
+O1 Cu1 N1 . . 93.09 y
+O1 Cu1 O1 . 2_656 176.6 y
+O1 Cu1 O5 . 2_656 92.14 y
+O1 Cu1 N1 . 2_656 89.49 y
+O5 Cu1 N1 . . 93.16 y
+O1 Cu1 O5 2_656 . 92.14 y
+O5 Cu1 O5 . 2_656 92.94 y
+O5 Cu1 N1 . 2_656 172.26 y
+O1 Cu1 N1 2_656 . 89.49 y
+O5 Cu1 N1 2_656 . 172.26 y
+N1 Cu1 N1 . 2_656 81.19 y
+O1 Cu1 O5 2_656 2_656 85.52 y
+O1 Cu1 N1 2_656 2_656 93.09 y
+O5 Cu1 N1 2_656 2_656 93.16 y
+O1 S1 O2 . . 109.63 y
+O1 S1 O1 . 2_556 111.41 y
+O1 S1 O2 . 2_556 109.02 y
+O1 S1 O2 2_556 . 109.02 y
+O2 S1 O2 . 2_556 108.08 y
+O1 S1 O2 2_556 2_556 109.63 y
+Cu1 O1 S1 . . 132.63 y
+Cu1 N1 C1 . . 125.82 y
+Cu1 N1 C5 . . 114.86 y
+C1 N1 C5 . . 119.32 y
+N1 C1 C2 . . 122.26 y
+C1 C2 C3 . . 118.55 n
+C2 C3 C4 . . 119.7 n
+C3 C4 C5 . . 118.54 n
+N1 C5 C4 . . 121.62 y
+N1 C5 C5 . 2_656 114.54 y
+C4 C5 C5 . 2_656 123.83 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu1 O1 . 2.4422 y
+Cu1 O5 . 1.9754 y
+Cu1 N1 . 2.0023 y
+S1 O1 . 1.4594 y
+S1 O2 . 1.492 y
+N1 C1 . 1.3409 y
+N1 C5 . 1.3463 y
+C1 C2 . 1.375 n
+C2 C3 . 1.3861 n
+C3 C4 . 1.385 n
+C4 C5 . 1.386 n
+C5 C5 2_656 1.4872 n
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Cu1 S1 3.5946(5) 1_655 n
+Cu1 O2 3.6221 1_655 n
+Cu1 O2 3.6221 2_556 n
+S1 Cu1 3.5946(5) 1_455 n
+O1 C4 3.2903 3_656 n
+O2 Cu1 3.6221 1_455 n
+O2 Cu1 3.6221 2_556 n
+O2 O5 2.6047 2_556 n
+O2 O5 2.6766 3_666 n
+O5 O2 2.6047 2_556 n
+O5 O2 2.6766 3_666 n
+C2 C3 3.4876 4_455 n
+C3 C2 3.4876 4_555 n
+C3 C3 3.5503 4_455 n
+C3 C3 3.5503 4_555 n
+C4 O1 3.2903 3_656 n
+C4 C5 3.4603 4_455 n
+C5 C4 3.4603 4_555 n
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+O5 Cu1 O1 S1 . . . -4.09 n
+N1 Cu1 O1 S1 . . . -97.02 n
+O5 Cu1 O1 S1 2_656 . . 88.69 n
+N1 Cu1 O1 S1 2_656 . . -178.17 n
+O1 Cu1 N1 C1 . . . 91.43 n
+O1 Cu1 N1 C5 . . . -88.96 n
+O5 Cu1 N1 C1 . . . 5.76 n
+O5 Cu1 N1 C5 . . . -174.64 n
+O1 Cu1 N1 C1 2_656 . . -86.36 n
+O1 Cu1 N1 C5 2_656 . . 93.25 n
+N1 Cu1 N1 C1 2_656 . . -179.56 n
+N1 Cu1 N1 C5 2_656 . . 0.04 n
+O2 S1 O1 Cu1 . . . -113.87 n
+O1 S1 O1 Cu1 2_556 . . 125.38 n
+O2 S1 O1 Cu1 2_556 . . 4.26 n
+Cu1 N1 C1 C2 . . . 178.95 n
+C5 N1 C1 C2 . . . -0.64 n
+Cu1 N1 C5 C5 . . 2_656 -0.12 n
+C1 N1 C5 C5 . . 2_656 179.52 n
+Cu1 N1 C5 C4 . . . -179.43 n
+C1 N1 C5 C4 . . . 0.2 n
+N1 C1 C2 C3 . . . 0.82 n
+C1 C2 C3 C4 . . . -0.56 n
+C2 C3 C4 C5 . . . 0.15 n
+C3 C4 C5 N1 . . . 0.03 n
+C3 C4 C5 C5 . . 2_656 -179.22 n
+N1 C5 C5 N1 . 2_656 2_656 0.15 n
+N1 C5 C5 C4 . 2_656 2_656 179.45 n
+C4 C5 C5 N1 . 2_656 2_656 179.45 n
+C4 C5 C5 C4 . 2_656 2_656 -1.25 n

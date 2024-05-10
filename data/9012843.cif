@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/28/9012843.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012843
+loop_
+_publ_author_name
+'Lulu, X. M.'
+'Zhi-Zhong P'
+_publ_section_title
+;
+ Crystal structure of xinganite
+;
+_journal_name_full               Geochemistry
+_journal_page_first              280
+_journal_page_last               285
+_journal_volume                  5
+_journal_year                    1986
+_chemical_compound_source        'Daxinganling, China'
+_chemical_formula_sum            'Be0.96 Ce0.92 H O5 Si0.98'
+_chemical_name_mineral           Hingganite-(Ce)
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.171
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.7681
+_cell_length_b                   7.6757
+_cell_length_c                   9.9301
+_cell_volume                     363.425
+_database_code_amcsd             0012659
+_exptl_crystal_density_diffrn    4.498
+_cod_original_formula_sum        'Ce.92 Be.96 Si.98 O5 H'
+_cod_database_code               9012843
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ce 0.00540 0.01260 0.01340 0.00050 0.00580 0.00140
+Be 0.00010 0.00010 0.00630 0.00170 0.01360 0.00170
+Si 0.00940 0.00860 0.01580 0.00190 0.00730 0.00180
+O1 0.01380 0.01740 0.02240 0.00230 0.01110 0.00540
+O2 0.00750 0.01740 0.02310 0.00400 0.01160 0.00360
+O3 0.00620 0.01120 0.02210 0.02210 -0.01400 0.00120
+O4 0.01890 0.00740 0.02000 0.00020 0.01090 -0.00010
+Oh5 0.00340 0.02510 0.02030 -0.00760 0.00670 0.00960
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ce 0.00100 0.11080 0.33120 0.92000 ? Ce 0
+Be 0.44690 0.41470 0.33530 0.96000 ? Be 0
+Si 0.51520 0.27420 0.08060 0.98000 ? Si 0
+O1 0.75920 0.41250 0.03600 1.00000 ? O 0
+O2 0.32680 0.28780 0.45170 1.00000 ? O 0
+O3 0.30840 0.35030 0.19370 1.00000 ? O 0
+O4 0.68360 0.10800 0.14780 1.00000 ? O 0
+O-h5 0.78790 0.41280 0.32960 1.00000 ? O 0
+H 0.80330 0.48170 0.43150 1.00000 0.05870 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:44:48+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012659

@@ -1,0 +1,171 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-30 16:30:45 +0200 (Tue, 30 Jan 2018) $
+#$Revision: 205898 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/17/2001702.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001702
+loop_
+_publ_author_name
+'F\'abry, J.'
+'Breczewski, T.'
+'Z\'u\~niga, F. J.'
+'Arnaiz, A. R.'
+_publ_section_title
+;
+ Structure determination of K~2~ZnBr~4~ at 291 and 144 K
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              946
+_journal_page_last               950
+_journal_paper_doi               10.1107/S0108270192009508
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'Br4 K2 Zn'
+_chemical_formula_weight         463.19
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           4
+_space_group_name_Hall           'P 2yb'
+_space_group_name_H-M_alt        'P 1 21 1'
+_atom_type_scat_source           'Cromer & Mann (1968) and IntTabIV'
+_cell_angle_alpha                90.
+_cell_angle_beta                 108.67(3)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            2
+_cell_length_a                   7.204(3)
+_cell_length_b                   7.413(4)
+_cell_length_c                   9.028(5)
+_cell_measurement_reflns_used    'Not usual given for pow diff'
+_cell_measurement_temperature    144(3)
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      5
+_cell_volume                     456.8(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w
+_diffrn_reflns_av_R_equivalents  0.039
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1696
+_diffrn_reflns_theta_max         25
+_diffrn_standards_decay_%        '-5--7 ?'
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         4
+_exptl_absorpt_coefficient_mu    2.092
+_exptl_absorpt_correction_T_max  0.0549
+_exptl_absorpt_correction_T_min  0.0360
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    3.367
+_exptl_crystal_size_rad          0.128(8)
+_refine_diff_density_max         4.06
+_refine_diff_density_min         -4.16
+_refine_ls_goodness_of_fit_obs   1.318
+_refine_ls_number_parameters     64
+_refine_ls_number_reflns         1141
+_refine_ls_R_factor_obs          0.0493
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = [\s^2^(F~o~)+(0.03|F~o~|^2^]^-1^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0597
+_reflns_number_observed          1141
+_reflns_number_total             1594
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            al9484.cif
+_cod_data_source_block           structure_2_of_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '
+[\s^2^(F~o~)+(0.03|F~o~|^2^]^-1^' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = [\s^2^(F~o~)+(0.03|F~o~|^2^]^-1^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        456.7(6)
+_cod_original_formula_sum        'Br4 K2 Zn1'
+_cod_database_code               2001702
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y+1/2,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+K(1) .7748(5) .2450(10) .5726(4) ?
+K(2) .7087(5) .2450(10) .0467(4) ?
+Zn .2804(2) .2573(6) .2050(2) ?
+Br(1) .1029(2) .2691(6) -.0693(2) ?
+Br(2) .0769(2) .2656(7) .3676(2) ?
+Br(3) .4929(4) -.001786 .2618(3) ?
+Br(3A) .5093(4) .5046(3) .2681(3) ?
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+'Cu K\a radiation for powder diffraction' 1.54056
+'Mo K\a radiation for single crystal' 0.71073
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Br(1) Zn Br(2) 113.91(8) no
+Br(1) Zn Br(3) 110.0(2) no
+Br(1) Zn Br(3A) 108.3(2) no
+Br(2) Zn Br(3) 111.3(2) no
+Br(2) Zn Br(3A) 110.1(2) no
+Br(3) Zn Br(3A) 102.49(9) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn Br(1) 2.398(2) no
+Zn Br(2) 2.385(3) no
+Zn Br(3) 2.407(4) no
+Zn Br(3A) 2.410(4) no
+K(1) Br(1)xi 3.343(3) no
+K(1) Br(2)ii 3.281(4) no
+K(1) Br(2)iv 3.703(10) no
+K(1) Br(2)iii 3.992(10) no
+K(1) Br(3A)iv 3.366(6) no
+K(1) Br(3)iii 3.364(6) no
+K(1) Br(3A) 3.398(6) no
+K(1) Br(3) 3.421(6) no
+K(2) Br(1)ii 3.332(4) no
+K(2) Br(1)vi 3.765(9) no
+K(2) Br(1)vii 4.096(9) no
+K(2) Br(1) 4.153(4) no
+K(2) Br(2)ii 3.245(3) no
+K(2) Br(3) 3.388(6) no
+K(2) Br(3A) 3.404(6) no
+K(2) Br(3)vii 3.285(6) no
+K(2) Br(3A)vi 3.298(6) no
+Br(1) Br(2) 4.009(2) no
+Br(1) Br(3) 3.935(3) no
+Br(1) Br(3A) 3.897(3) no
+Br(2) Br(3) 3.957(4) no
+Br(2) Br(3A) 3.930(4) no
+Br(3) Br(3A)x 3.661(2) no
+Br(3) Br(3A) 3.756(2) no

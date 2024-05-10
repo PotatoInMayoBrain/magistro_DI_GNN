@@ -1,0 +1,349 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/08/2010890.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010890
+loop_
+_publ_author_name
+'Ben Smail, Ridha'
+'Jouini, Tahar'
+_publ_section_title
+;
+ KNi~3~(AsO~4~)(As~2~O~7~)
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              513
+_journal_page_last               514
+_journal_paper_doi               10.1107/S0108270100000792
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         'K Ni3 (As O4) (As2 O7)'
+_chemical_formula_structural     'K Ni3 (As O4) (As2 O7)'
+_chemical_formula_sum            'As3 K Ni3 O11'
+_chemical_formula_weight         615.99
+_chemical_name_systematic
+;
+potassium trinickel arsenate diarsenate
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 119.7800(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.0660(10)
+_cell_length_b                   9.681(2)
+_cell_length_c                   10.2340(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      16.96
+_cell_measurement_theta_min      11.49
+_cell_volume                     865.6(2)
+_computing_cell_refinement       'CAD4 EXPRESS'
+_computing_data_collection       'CAD4 EXPRESS (Enraf-Nonius, 1994)'
+_computing_data_reduction        'MolEN (Fair, 1990)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1997)'
+_computing_publication_material  SHELXL93
+_computing_structure_refinement  'SHELXL93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Enraf-Nonius CAD4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71069
+_diffrn_reflns_av_R_equivalents  .023
+_diffrn_reflns_av_sigmaI/netI    .046
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            2653
+_diffrn_reflns_theta_max         29.96
+_diffrn_reflns_theta_min         2.33
+_diffrn_standards_decay_%        .6
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    18.383
+_exptl_absorpt_correction_T_max  .371
+_exptl_absorpt_correction_T_min  .217
+_exptl_absorpt_correction_type   \y-scan
+_exptl_absorpt_process_details   '(North et al., 1968)'
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    4.727
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_F_000             1160
+_exptl_crystal_size_max          .14
+_exptl_crystal_size_mid          .07
+_exptl_crystal_size_min          .05
+_refine_diff_density_max         1.078
+_refine_diff_density_min         -1.207
+_refine_ls_extinction_coef       .00219(14)
+_refine_ls_extinction_method     'SHELXL93 (Sheldrick, 1993)'
+_refine_ls_goodness_of_fit_all   1.098
+_refine_ls_goodness_of_fit_ref   1.144
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     164
+_refine_ls_number_reflns         2526
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.098
+_refine_ls_restrained_S_obs      1.144
+_refine_ls_R_factor_all          .059
+_refine_ls_R_factor_gt           .032
+_refine_ls_shift/esd_mean        .000
+_refine_ls_shift/su_max          -.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0225P)^2^+1.2839P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .066
+_refine_ls_wR_factor_ref         .059
+_reflns_number_gt                1851
+_reflns_number_total             2526
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br1273.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'none' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0225P)^2^+1.2839P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0225P)^2^+1.2839P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2010890
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y+1/2, z+1/2'
+'-x, -y, -z'
+'-x, y-1/2, -z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ni1 .0062(3) .0050(3) .0054(3) .0000(2) .0021(2) .0002(2)
+Ni2 .0056(3) .0054(3) .0055(3) .0000(2) .0025(2) .0005(2)
+Ni3 .0055(3) .0059(3) .0056(3) .0002(2) .0020(2) -.0002(2)
+K .0115(5) .0140(5) .0188(6) .0000(4) .0061(5) .0002(4)
+As1 .0046(2) .0044(2) .0047(2) .0002(2) .0017(2) -.0002(2)
+As2 .0040(2) .0050(2) .0046(2) .0000(2) .0016(2) -.0002(2)
+As3 .0035(2) .0060(2) .0051(2) -.0001(2) .0011(2) -.0005(2)
+O1 .010(2) .005(2) .007(2) .0000(10) .0050(10) .0000(10)
+O2 .005(2) .006(2) .012(2) .0010(10) .0020(10) .0000(10)
+O3 .010(2) .0030(10) .008(2) .0020(10) .0050(10) .0000(10)
+O4 .015(2) .008(2) .010(2) -.0020(10) .009(2) .0000(10)
+O5 .006(2) .014(2) .006(2) -.0060(10) .0030(10) -.0040(10)
+O6 .004(2) .008(2) .007(2) .0020(10) .0020(10) .0010(10)
+O7 .005(2) .006(2) .008(2) -.0010(10) .0030(10) .0010(10)
+O8 .004(2) .009(2) .008(2) -.0010(10) .0000(10) -.0040(10)
+O9 .009(2) .011(2) .004(2) -.0040(10) .0010(10) .0010(10)
+O10 .010(2) .008(2) .008(2) .0020(10) .0060(10) .0010(10)
+O11 .005(2) .008(2) .008(2) .0000(10) .0040(10) -.0010(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Ni1 .91265(7) .13238(6) .73634(7) .00590(10) Uani d . 1 . Ni
+Ni2 .09243(7) .12885(6) .10055(7) .00560(10) Uani d . 1 . Ni
+Ni3 .73818(7) .13548(6) .38145(7) .00600(10) Uani d . 1 . Ni
+K .41010(10) .23330(10) .91090(10) .0154(2) Uani d . 1 . K
+As1 .09995(6) .15740(5) .43237(5) .00480(10) Uani d . 1 . As
+As2 .77020(6) .07247(5) .08381(5) .00480(10) Uani d . 1 . As
+As3 .59179(6) .05737(5) .73943(5) .00530(10) Uani d . 1 . As
+O1 .7641(4) .2450(3) .0640(4) .0068(6) Uani d . 1 . O
+O2 .5818(4) .2279(4) .7291(4) .0090(7) Uani d . 1 . O
+O3 .8965(4) .0149(3) .5653(4) .0070(6) Uani d . 1 . O
+O4 .7446(4) .0151(4) .2205(4) .0101(7) Uani d . 1 . O
+O5 .5576(4) .0315(4) .3831(4) .0087(7) Uani d . 1 . O
+O6 .7562(4) .0031(4) .7487(4) .0069(6) Uani d . 1 . O
+O7 .0753(4) .0027(3) .9153(4) .0065(6) Uani d . 1 . O
+O8 .2371(4) .2360(4) .5841(4) .0081(7) Uani d . 1 . O
+O9 .6135(4) .0128(4) .9186(4) .0086(7) Uani d . 1 . O
+O10 .0871(4) .2268(3) .2731(4) .0080(7) Uani d . 1 . O
+O11 .9383(4) .2388(3) .4152(4) .0070(7) Uani d . 1 . O
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K .2009 .2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni .3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+As As .0499 2.0058 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O3 Ni1 O1 . 2 82.48(13) n
+O3 Ni1 O6 . . 88.63(14) n
+O1 Ni1 O6 2 . 98.75(14) n
+O3 Ni1 O10 . 2_655 102.71(13) n
+O1 Ni1 O10 2 2_655 88.03(14) n
+O6 Ni1 O10 . 2_655 167.51(13) n
+O3 Ni1 O11 . 2 177.16(14) n
+O1 Ni1 O11 2 2 97.30(13) n
+O6 Ni1 O11 . 2 94.19(13) n
+O10 Ni1 O11 2_655 2 74.45(13) n
+O3 Ni1 O7 . 1_655 96.25(13) n
+O1 Ni1 O7 2 1_655 177.92(13) n
+O6 Ni1 O7 . 1_655 82.84(13) n
+O10 Ni1 O7 2_655 1_655 90.64(13) n
+O11 Ni1 O7 2 1_655 83.88(13) n
+O6 Ni2 O8 3_656 2_554 99.97(14) n
+O6 Ni2 O10 3_656 . 88.06(14) n
+O8 Ni2 O10 2_554 . 95.83(14) n
+O6 Ni2 O7 3_656 3_556 86.91(14) n
+O8 Ni2 O7 2_554 3_556 171.69(14) n
+O10 Ni2 O7 . 3_556 89.00(14) n
+O6 Ni2 O11 3_656 2_454 171.94(13) n
+O8 Ni2 O11 2_554 2_454 77.17(13) n
+O10 Ni2 O11 . 2_454 99.68(13) n
+O7 Ni2 O11 3_556 2_454 95.39(13) n
+O6 Ni2 O7 3_656 1_554 90.81(14) n
+O8 Ni2 O7 2_554 1_554 92.22(13) n
+O10 Ni2 O7 . 1_554 171.94(13) n
+O7 Ni2 O7 3_556 1_554 82.97(14) n
+O11 Ni2 O7 2_454 1_554 81.84(13) n
+O4 Ni3 O2 . 2_554 94.27(14) n
+O4 Ni3 O5 . . 96.18(14) n
+O2 Ni3 O5 2_554 . 88.54(14) n
+O4 Ni3 O1 . 2 172.16(14) n
+O2 Ni3 O1 2_554 2 91.74(14) n
+O5 Ni3 O1 . 2 89.00(13) n
+O4 Ni3 O3 . . 95.23(14) n
+O2 Ni3 O3 2_554 . 170.49(14) n
+O5 Ni3 O3 . . 90.04(14) n
+O1 Ni3 O3 2 . 78.83(13) n
+O4 Ni3 O11 . . 89.58(13) n
+O2 Ni3 O11 2_554 . 97.36(13) n
+O5 Ni3 O11 . . 171.45(13) n
+O1 Ni3 O11 2 . 84.65(13) n
+O3 Ni3 O11 . . 83.12(13) n
+O8 As1 O3 . 3_656 116.2(2) n
+O8 As1 O10 . . 110.2(2) n
+O3 As1 O10 3_656 . 113.4(2) n
+O8 As1 O11 . 1_455 100.9(2) n
+O3 As1 O11 3_656 1_455 117.9(2) n
+O10 As1 O11 . 1_455 95.9(2) n
+O4 As2 O1 . . 115.3(2) n
+O4 As2 O7 . 3_656 112.2(2) n
+O1 As2 O7 . 3_656 113.7(2) n
+O4 As2 O9 . 1_554 105.4(2) n
+O1 As2 O9 . 1_554 104.6(2) n
+O7 As2 O9 3_656 1_554 104.3(2) n
+O5 As3 O2 3_656 . 118.0(2) n
+O5 As3 O6 3_656 . 112.3(2) n
+O2 As3 O6 . . 109.9(2) n
+O5 As3 O9 3_656 . 104.8(2) n
+O2 As3 O9 . . 106.2(2) n
+O6 As3 O9 . . 104.4(2) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ni1 O3 . 2.025(3) y
+Ni1 O1 2 2.033(3) y
+Ni1 O6 . 2.064(3) y
+Ni1 O10 2_655 2.104(3) y
+Ni1 O11 2 2.122(3) y
+Ni1 O7 1_655 2.152(3) y
+Ni1 As1 2_655 2.8220(8) n
+Ni2 O6 3_656 2.000(3) y
+Ni2 O8 2_554 2.026(3) y
+Ni2 O10 . 2.028(3) y
+Ni2 O7 3_556 2.056(3) y
+Ni2 O11 2_454 2.173(3) y
+Ni2 O7 1_554 2.188(3) y
+Ni2 As1 2_554 2.7165(9) n
+Ni2 K 2_554 3.4649(13) n
+Ni3 O4 . 2.045(4) y
+Ni3 O2 2_554 2.054(3) y
+Ni3 O5 . 2.085(3) y
+Ni3 O1 2 2.101(3) y
+Ni3 O3 . 2.112(3) y
+Ni3 O11 . 2.118(3) y
+Ni3 K 2_554 3.6875(14) n
+K O5 2 2.809(4) n
+K O4 3_656 2.817(4) n
+K O2 2 2.854(4) n
+K O10 2 2.856(4) n
+K O8 . 2.904(4) n
+K O9 . 2.931(4) n
+K O9 3_657 3.032(4) n
+K O8 2 3.055(4) n
+K O6 4_667 3.095(4) n
+K O1 1_556 3.102(4) n
+K O2 . 3.105(4) n
+K As1 2 3.4056(13) n
+As1 O8 . 1.663(3) y
+As1 O3 3_656 1.669(3) y
+As1 O10 . 1.707(3) y
+As1 O11 1_455 1.737(3) y
+As1 Ni2 2 2.7165(9) n
+As1 Ni1 2_454 2.8220(8) n
+As1 K 2_554 3.4055(13) n
+As2 O4 . 1.640(3) y
+As2 O1 . 1.680(3) y
+As2 O7 3_656 1.713(3) y
+As2 O9 1_554 1.741(3) y
+As2 K 3_656 3.4867(14) n
+As2 K 1_554 3.5102(13) n
+As3 O5 3_656 1.643(3) y
+As3 O2 . 1.654(3) y
+As3 O6 . 1.694(3) y
+As3 O9 . 1.788(3) y
+As3 K 4_657 3.4900(14) n
+As3 K 2_554 3.5565(13) n

@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-08-04 10:53:58 +0300 (Fri, 04 Aug 2017) $
+#$Revision: 199516 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/31/2103199.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103199
+loop_
+_publ_author_name
+'Marsh, Richard E.'
+'Kapon, Moshe'
+'Hu, Shengzhi'
+'Herbstein, Frank H.'
+_publ_section_title
+;
+ Some 60 new space-group corrections
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              62
+_journal_page_last               77
+_journal_paper_doi               10.1107/S0108768101017128
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_structural     '[C (N H2)3]2 Ti F6'
+_chemical_formula_sum            'C2 H12 F6 N6 Ti'
+_chemical_name_systematic        'Bis-guanidinium  hexafluorotitanium'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 114.45
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   12.869
+_cell_length_b                   7.378
+_cell_length_c                   6.243
+_cell_volume                     539.600
+_cod_data_source_file            bm0047.cif
+_cod_data_source_block           CSD_CIF_Table_38S
+_cod_depositor_comments
+;
+ Adding the _cell_formula_units_Z data item after consulting the original
+ publication.
+
+ Antanas Vaitkus,
+ 2017-08-04
+
+ Marking attached hydrogen atoms.
+
+ Antanas Vaitkus,
+ 2017-03-27
+;
+_cod_original_sg_symbol_H-M      'C2/m   '
+_cod_original_formula_sum        C(NH2)3]2TiF6
+_cod_database_code               2103199
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_attached_hydrogens
+Ti1 .0 .5 .0 0
+F1 .1572 .5 .1721 0
+F3 .0160 .3218 -.1938 0
+N1 .2230 .3442 -.2762 2
+N2 .3784 .5 -.2709 2
+C2 .2748 .5 -.2728 0
+loop_
+_atom_type_symbol
+C
+Ti
+F
+N

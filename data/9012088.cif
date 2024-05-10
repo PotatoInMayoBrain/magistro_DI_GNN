@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/20/9012088.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012088
+loop_
+_publ_author_name
+'Piret, P.'
+'Deliens, M.'
+'Piret-Meunier J'
+'Germain, G.'
+_publ_section_title
+;La sayrite, Pb2[(UO2)5O6(OH)2]*4H2O, nouveau mineral; proprietes et structure
+ cristalline Locality: Shinkolobwe, Shaba, Zaire
+;
+_journal_name_full               'Bulletin de Mineralogie'
+_journal_page_first              299
+_journal_page_last               304
+_journal_volume                  106
+_journal_year                    1983
+_chemical_compound_source        'Shinkolobwe, Shaba, Zaire'
+_chemical_formula_sum            'H10 O22 Pb2 U5'
+_chemical_name_mineral           Sayrite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 116.81
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.704
+_cell_length_b                   6.960
+_cell_length_c                   14.533
+_cell_volume                     966.323
+_database_code_amcsd             0012080
+_exptl_crystal_density_diffrn    6.759
+_cod_original_formula_sum        'Pb2 U5 O22 H10'
+_cod_database_code               9012088
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb 0.28170 0.14730 0.89580 0.00410 Pb 0
+U1 0.17910 0.04780 0.60420 0.00050 U 0
+U2 0.42270 0.04160 0.21740 0.00130 U 0
+U3 0.00000 0.00000 0.00000 0.00010 U 0
+O5 0.13000 0.99900 0.70900 0.00440 O 0
+O6 0.23800 0.09600 0.50900 0.00260 O 0
+O7 0.40900 0.99700 0.33400 0.00920 O 0
+O8 0.44500 0.08500 0.10100 0.00120 O 0
+O9 0.09100 0.03100 0.91800 0.00070 O 0
+O10 0.18700 0.10800 0.12300 0.00100 O 0
+O11 0.38600 0.35600 0.23000 0.00010 O 0
+O-H12 0.65600 0.22000 0.34700 0.00430 O 1
+O13 0.96400 0.18200 0.49500 0.00830 O 0
+Wat14 0.12100 0.42700 0.79500 0.02220 O 2
+Wat15 0.69500 0.26400 0.56500 0.00270 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012080

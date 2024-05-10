@@ -1,0 +1,220 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/26/7102657.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7102657
+loop_
+_publ_author_name
+'Li, Man-Rong'
+'Liu, Wei'
+'Ge, Ming-Hui'
+'Chen, Hao-Hong'
+'Yang, Xin-Xin'
+'Zhao, Jing-Tai'
+_publ_section_title
+;
+ NH4[BPO4F]: a novel open-framework ammonium fluorinated borophosphate
+ with a zeolite-like structure related to gismondine topology.
+;
+_journal_issue                   11
+_journal_name_full
+'Chemical communications (Cambridge, England)'
+_journal_page_first              1272
+_journal_page_last               1273
+_journal_paper_doi               10.1039/b402966f
+_journal_year                    2004
+_chemical_formula_moiety         'B2 F2 O8 P2,2(H4 N)'
+_chemical_formula_sum            'B2 F2 H8 N2 O8 P2'
+_chemical_formula_weight         285.64
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           198
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P 21 3'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.5913(9)
+_cell_length_b                   7.5913(9)
+_cell_length_c                   7.5913(9)
+_cell_measurement_reflns_used    244
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      26.99
+_cell_measurement_theta_min      3.80
+_cell_volume                     437.47(9)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0598
+_diffrn_reflns_av_sigmaI/netI    0.0922
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            2207
+_diffrn_reflns_theta_full        26.99
+_diffrn_reflns_theta_max         26.99
+_diffrn_reflns_theta_min         3.80
+_exptl_absorpt_coefficient_mu    0.567
+_exptl_absorpt_correction_T_max  0.9794
+_exptl_absorpt_correction_T_min  0.9794
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   sadabs
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    2.168
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'truncated cube'
+_exptl_crystal_F_000             288
+_exptl_crystal_size_max          0.02
+_exptl_crystal_size_mid          0.02
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         0.169
+_refine_diff_density_min         -0.184
+_refine_diff_density_rms         0.051
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   1.0(3)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.854
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     25
+_refine_ls_number_reflns         330
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.854
+_refine_ls_R_factor_all          0.0539
+_refine_ls_R_factor_gt           0.0343
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0251P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0644
+_refine_ls_wR_factor_ref         0.0656
+_reflns_number_gt                224
+_reflns_number_total             330
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b402966f.txt
+_cod_data_source_block           nd
+_cod_original_sg_symbol_H-M      P213
+_cod_original_formula_sum        'H8 B2 F2 N2 O8 P2'
+_cod_database_code               7102657
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+P1 P 0.10009(11) 0.39991(11) 0.60009(11) 0.0284(4) Uani 1 3 d S
+F1 F 0.2610(3) 0.2610(3) 0.2610(3) 0.0494(10) Uani 1 3 d S
+O1 O 0.2948(3) 0.3905(3) 0.5433(2) 0.0326(6) Uani 1 1 d .
+O2 O -0.0126(3) 0.5126(3) 0.4874(3) 0.0406(11) Uani 1 3 d S
+B1 B 0.3665(5) 0.3665(5) 0.3665(5) 0.0348(19) Uani 1 3 d S
+N1 N 0.1300(3) 0.8700(3) 0.3700(3) 0.0419(13) Uani 1 3 d S
+H1 H 0.2476 0.8959 0.4211 0.050 Uiso 1 1 d .
+H2 H 0.0422 0.9578 0.4578 0.050 Uiso 1 3 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+P1 0.0284(4) 0.0284(4) 0.0284(4) 0.0006(5) -0.0006(5) 0.0006(5)
+F1 0.0494(10) 0.0494(10) 0.0494(10) -0.0094(12) -0.0094(12) -0.0094(12)
+O1 0.0271(12) 0.0427(13) 0.0280(13) -0.0010(14) 0.0013(10) -0.0015(14)
+O2 0.0406(11) 0.0406(11) 0.0406(11) 0.0065(12) -0.0065(12) 0.0065(12)
+B1 0.0348(19) 0.0348(19) 0.0348(19) -0.004(2) -0.004(2) -0.004(2)
+N1 0.0419(13) 0.0419(13) 0.0419(13) -0.0018(15) 0.0018(15) 0.0018(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 P1 O1 114.78(9) . 12_565
+O2 P1 O1 114.78(9) . 6_456
+O1 P1 O1 103.69(10) 12_565 6_456
+O2 P1 O1 114.78(9) . .
+O1 P1 O1 103.69(10) 12_565 .
+O1 P1 O1 103.69(10) 6_456 .
+B1 O1 P1 128.3(3) . .
+F1 B1 O1 112.8(3) . .
+F1 B1 O1 112.8(3) . 5
+O1 B1 O1 105.9(3) . 5
+F1 B1 O1 112.8(3) . 9
+O1 B1 O1 105.9(3) . 9
+O1 B1 O1 105.9(3) 5 9
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+P1 O2 1.482(3) .
+P1 O1 1.541(2) 12_565
+P1 O1 1.541(2) 6_456
+P1 O1 1.541(2) .
+F1 B1 1.387(7) .
+O1 B1 1.460(3) .
+B1 O1 1.460(3) 5
+B1 O1 1.460(3) 9

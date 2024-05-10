@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/47/9014779.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014779
+loop_
+_publ_author_name
+'Pekov, I. V.'
+'Levitskiy, V. V.'
+'Krivovichev, S. V.'
+'Zolotarev, A. A.'
+'Bryzgalov, I. A.'
+'Zadov, A. E.'
+'Chukanov, N. V.'
+_publ_section_title
+;
+ New nickel-uranium-arsenic mineral species from the oxidation zone of
+ the Belorechenskoye deposit, Northern Caucasus, Russia: I.
+ Rauchite, Ni(UO2)2(AsO4)2*10H2O, a member of the autunite group
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              913
+_journal_page_last               922
+_journal_paper_doi               10.1127/0935-1221/2012/0024-2217
+_journal_volume                  24
+_journal_year                    2012
+_chemical_compound_source
+'Belorechenskoye deposit, Northern Caucasus, Russia'
+_chemical_formula_sum            'As1.78 H20 Mg0.31 Ni0.69 O22 P0.22 U2'
+_chemical_name_mineral           Rauchite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall
+'-P 1 (-1/2*x+1/2*y+1/2*z,1/2*x-1/2*y+1/2*z,1/2*x+1/2*y-1/2*z)'
+_symmetry_space_group_name_H-M   'I -1'
+_cell_angle_alpha                92.406
+_cell_angle_beta                 94.924
+_cell_angle_gamma                90.420
+_cell_formula_units_Z            2
+_cell_length_a                   7.100
+_cell_length_b                   7.125
+_cell_length_c                   19.955
+_cell_volume                     1004.801
+_database_code_amcsd             0019394
+_exptl_crystal_density_diffrn    3.426
+_cod_original_formula_sum        'U2 (As1.78 P.22) (Ni.69 Mg.31) O22 H20'
+_cod_database_code               9014779
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+U 0.00250 0.00800 0.02940 0.00110 0.00060 0.00270
+As 0.00290 0.00760 0.02660 0.00150 0.00160 0.00360
+P 0.00290 0.00760 0.02660 0.00150 0.00160 0.00360
+Ni 0.03400 0.03300 0.01800 0.00700 0.00300 -0.00200
+Mg 0.03400 0.03300 0.01800 0.00700 0.00300 -0.00200
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+U 0.76232 0.75189 0.54532 1.00000 0.01330 U 0
+As 0.74940 0.24780 0.50112 0.89000 0.01220 As 0
+P 0.74940 0.24780 0.50112 0.11000 0.01220 P 0
+Ni 0.25000 -0.25000 0.25000 0.69000 0.02800 Ni 0
+Mg 0.25000 -0.25000 0.25000 0.31000 0.02800 Mg 0
+O1 0.71700 0.07200 0.55010 1.00000 0.02000 O 0
+O2 0.73700 0.73400 0.45750 1.00000 0.01700 O 0
+O3 0.80800 0.43200 0.55300 1.00000 0.01700 O 0
+O4 0.78500 0.76400 0.63370 1.00000 0.01200 O 0
+O5 0.55000 0.29300 0.45070 1.00000 0.02200 O 0
+O6 0.08000 0.80100 0.54900 1.00000 0.01800 O 0
+Wat1 0.33700 -0.52200 0.25550 1.00000 0.04500 O 2
+Wat2 0.46100 -0.18600 0.18300 1.00000 0.04300 O 2
+Wat3 0.05900 -0.31800 0.17000 1.00000 0.04800 O 2
+Wat4 0.79400 -0.01000 0.33010 1.00000 0.04800 O 2
+Wat5 -0.17900 0.08700 0.17500 1.00000 0.09400 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:30+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019394

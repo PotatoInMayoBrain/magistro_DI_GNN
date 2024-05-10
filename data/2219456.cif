@@ -1,0 +1,166 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/21/94/2219456.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2219456
+loop_
+_publ_author_name
+'Bell, Anthony M. T.'
+'Henderson, C. Michael B.'
+'Wendlandt, Richard F.'
+'Harrison, Wendy J.'
+_publ_section_title
+;
+ Rietveld refinement of Ba~5~(AsO~4~)~3~Cl from high-resolution
+ synchrotron data
+;
+_journal_coeditor_code           WM2188
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i63
+_journal_page_last               i64
+_journal_paper_doi               10.1107/S1600536808026901
+_journal_volume                  64
+_journal_year                    2008
+_chemical_formula_structural     'Ba5 (As O4)3 Cl'
+_chemical_formula_sum            'As3 Ba5 Cl O12'
+_chemical_formula_weight         1138.846
+_chemical_name_common            'Barium As-apatite'
+_chemical_name_systematic
+;
+pentabarium tris(arsenate(V)) chloride
+;
+_space_group_crystal_system      hexagonal
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   10.55700(10)
+_cell_length_b                   10.55700(10)
+_cell_length_c                   7.73912(8)
+_cell_measurement_temperature    298
+_cell_volume                     746.980(10)
+_computing_cell_refinement       'Celref (Laugier & Bochu, 2003)'
+_computing_data_collection       'local software'
+_computing_data_reduction        'local software'
+_computing_molecular_graphics    'Balls and Sticks (Kang & Ozawa, 2003)'
+_computing_publication_material  'publCIF (Westrip, 2008)'
+_computing_structure_refinement  'TOPAS (Coelho, 2000)'
+_computing_structure_solution    'coordinates taken from a related compound'
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'In-house design'
+_diffrn_radiation_monochromator  'Si(111) channel-cut crystal'
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     0.998043
+_exptl_absorpt_coefficient_mu    56.0740(10)
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    5.06330(10)
+_exptl_crystal_density_method    'not measured'
+_refine_ls_goodness_of_fit_all   1.227
+_refine_ls_number_constraints    3
+_refine_ls_number_parameters     21
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0898
+_refine_ls_shift/su_max          0.001
+_cod_data_source_file            wm2188.cif
+_cod_data_source_block           I
+_cod_original_formula_sum        'As3 Ba5 Cl1 O12'
+_cod_database_code               2219456
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Ba Ba1 0.3333 0.6667 0.0061(9) 0.0590(10) Uani d S 1
+Ba Ba2 0.2445(4) 0.9874(6) 0.2500 0.0650(10) Uani d S 1
+As As1 0.4047(7) 0.3716(7) 0.2500 0.059(2) Uani d S 1
+O O1 0.347(7) 0.495(6) 0.2500 0.13(2) Uani d S 1
+O O2 0.591(4) 0.473(4) 0.2500 0.080(10) Uani d S 1
+O O3 0.354(2) 0.280(3) 0.068(3) 0.065(8) Uani d . 1
+Cl Cl1 0.0000 0.0000 0.0000 0.070(6) Uani d S 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba 56.201 4.374 http://henke.lbl.gov/optical_constants/asf.html
+As As 30.659 3.637 http://henke.lbl.gov/optical_constants/asf.html
+O O 8.024 0.013 http://henke.lbl.gov/optical_constants/asf.html
+Cl Cl 17.239 0.310 http://henke.lbl.gov/optical_constants/asf.html
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O3 As1 O3 . 10_556 118(2) y
+O3 As1 O1 . . 108.0(10) y
+O3 As1 O1 10_556 . 108.0(10) ?
+O3 As1 O2 . . 108(2) y
+O3 As1 O2 10_556 . 108(2) ?
+O1 As1 O2 . . 106(2) y
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba1 O1 2_665 2.67(5) ?
+Ba1 O1 3_565 2.67(5) ?
+Ba1 O1 . 2.67(5) y
+Ba1 O2 9 2.81(4) y
+Ba1 O2 8_565 2.81(4) ?
+Ba1 O2 7_665 2.81(4) ?
+Ba1 O3 8_565 3.12(3) ?
+Ba1 O3 9 3.12(3) y
+Ba1 O3 7_665 3.12(3) ?
+Ba2 O2 2_665 2.59(4) y
+Ba2 O3 8_565 2.62(4) y
+Ba2 O3 5_565 2.62(4) ?
+Ba2 O3 10_566 3.05(4) ?
+Ba2 O3 1_565 3.05(4) y
+Ba2 O1 3_565 3.14(4) y
+Ba2 Cl1 1_565 3.281(5) y
+Ba2 Cl1 4_565 3.281(5) ?
+As1 O3 . 1.64(2) y
+As1 O3 10_556 1.64(2) ?
+As1 O1 . 1.70(8) y
+As1 O2 . 1.70(4) y

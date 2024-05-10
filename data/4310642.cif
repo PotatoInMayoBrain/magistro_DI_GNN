@@ -1,0 +1,246 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/06/4310642.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4310642
+loop_
+_publ_author_name
+'Masahiro Shikano'
+'Claude Delmas'
+'Jacques Darriet'
+_publ_contact_author_address
+;
+ICMCB-CNRS, 87 AV. Dr. Schweitzer
+33608 PESSAC cedex FRANCE
+;
+_publ_contact_author_email       darriet@icmcb.u-bordeaux.fr
+_publ_contact_author_fax         '33 (0)5 40 00 27 61'
+_publ_contact_author_name        'J. Darriet'
+_publ_contact_author_phone       '33 (0)5 40 00 62 59'
+_publ_section_title
+;
+ NaRuO2 and NaxRuO2.yH2O: New Oxide and Oxyhydrate with Two Dimensional
+ RuO2Layers
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1214
+_journal_page_last               1216
+_journal_paper_doi               10.1021/ic035324d
+_journal_volume                  43
+_journal_year                    2004
+_chemical_formula_sum            'H0.9 Na0.22 O2.45 Ru'
+_chemical_formula_weight         146.3
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_audit_creation_method           'Jana2000 Version : 30/01/2003'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   2.9298
+_cell_length_b                   2.9298
+_cell_length_c                   21.9127
+_cell_volume                     162.893
+_computing_publication_material  '(Jana2000; Petricek and Dusek, 2000)'
+_computing_structure_refinement  '(Jana2000; Petricek and Dusek, 2000)'
+_diffrn_measurement_device_type  'Nonius CCD'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0905
+_diffrn_reflns_av_sigmaI/netI    0.0628
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       38
+_diffrn_reflns_limit_l_min       -39
+_diffrn_reflns_number            1125
+_diffrn_reflns_theta_max         39.93
+_diffrn_reflns_theta_min         2.79
+_exptl_absorpt_coefficient_mu    6.898
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  1.000
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    4.4718
+_exptl_crystal_F_000             202
+_refine_diff_density_max         1.92
+_refine_diff_density_min         -1.60
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    1.58
+_refine_ls_goodness_of_fit_ref   1.58
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         88
+_refine_ls_R_factor_all          0.0417
+_refine_ls_R_factor_gt           0.0417
+_refine_ls_shift/su_max          0.0000
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0009I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0774
+_refine_ls_wR_factor_ref         0.0774
+_reflns_number_gt                88
+_reflns_number_total             161
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            ic035324dsi20031117_043412.cif
+_cod_data_source_block           (I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'None' changed to 'none' according
+to '/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'H0.9 Na0.22 O2.45 Ru1'
+_cod_database_code               4310642
+_cod_database_fobs_code          4310642
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -y,-x,z
+4 -x+y,-x,z
+5 x,x-y,z
+6 -x+y,y,z
+7 -x,-y,-z
+8 y,-x+y,-z
+9 y,x,-z
+10 x-y,x,-z
+11 -x,-x+y,-z
+12 x-y,-y,-z
+13 2/3+x,1/3+y,1/3+z
+14 2/3-y,1/3+x-y,1/3+z
+15 2/3-y,1/3-x,1/3+z
+16 2/3-x+y,1/3-x,1/3+z
+17 2/3+x,1/3+x-y,1/3+z
+18 2/3-x+y,1/3+y,1/3+z
+19 2/3-x,1/3-y,1/3-z
+20 2/3+y,1/3-x+y,1/3-z
+21 2/3+y,1/3+x,1/3-z
+22 2/3+x-y,1/3+x,1/3-z
+23 2/3-x,1/3-x+y,1/3-z
+24 2/3+x-y,1/3-y,1/3-z
+25 1/3+x,2/3+y,2/3+z
+26 1/3-y,2/3+x-y,2/3+z
+27 1/3-y,2/3-x,2/3+z
+28 1/3-x+y,2/3-x,2/3+z
+29 1/3+x,2/3+x-y,2/3+z
+30 1/3-x+y,2/3+y,2/3+z
+31 1/3-x,2/3-y,2/3-z
+32 1/3+y,2/3-x+y,2/3-z
+33 1/3+y,2/3+x,2/3-z
+34 1/3+x-y,2/3+x,2/3-z
+35 1/3-x,2/3-x+y,2/3-z
+36 1/3+x-y,2/3-y,2/3-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_adp_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+global Ru Uani 0 0 0.5 0.0432(6) 3 1 d . . .
+(I) O Uani 0 0 0.1172(3) 0.0307(19) 6 1 d . . .
+Na Na Uiso 0 0 0 0.045(8) 3 0.22 d . . .
+O2h Na Uiso 0.155(6) 0.310(13) -0.0002(16) 0.033(7) 18 0.075 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+global Ru 0.0578(8) 0.0578(8) 0.0140(4) 0.0289(4) 0 0
+(I) O 0.035(3) 0.035(3) 0.022(2) 0.0175(13) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na 0.036 0.025 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ru -1.259 0.836 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+H 0.000 0.000 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ru O1 . 13_445 2.009(4) yes
+Ru O1 . 13_455 2.009(4) yes
+Ru O1 . 13_555 2.009(4) yes
+Ru O1 . 31_445 2.009(4) yes
+Ru O1 . 31_545 2.009(4) yes
+Ru O1 . 31_555 2.009(4) yes
+O1 O1 . 19_445 2.750(7) yes
+O1 O1 . 19_455 2.750(7) yes
+O1 O1 . 19_555 2.750(7) yes
+O1 Na . . 2.568(7) yes
+O1 O2h . . 2.69(4) yes
+O1 O2h . 7_555 2.69(4) yes
+O1 O2h . 2_555 2.69(4) yes
+O1 O2h . 8_555 2.69(4) yes
+O1 O2h . 4_555 2.69(4) yes
+O1 O2h . 10_555 2.69(4) yes
+Na O2h . 1_445 2.283(15) yes
+Na O2h . 1_545 2.28(3) yes
+Na O2h . . 0.79(3) yes
+Na O2h . 7_555 0.79(3) yes
+Na O2h . 7_565 2.28(3) yes
+Na O2h . 7_665 2.283(15) yes
+Na O2h . 2_555 0.79(3) yes
+Na O2h . 2_655 2.28(4) yes
+Na O2h . 2_665 2.28(2) yes
+Na O2h . 8_445 2.28(2) yes
+Na O2h . 8_455 2.28(4) yes
+Na O2h . 8_555 0.79(3) yes
+Na O2h . 4_455 2.28(3) yes
+Na O2h . 4_555 0.79(3) yes
+Na O2h . 4_565 2.28(2) yes
+Na O2h . 10_545 2.28(2) yes
+Na O2h . 10_555 0.79(3) yes
+Na O2h . 10_655 2.28(3) yes
+O2h O2h . 7_555 1.57(4) yes
+O2h O2h . 7_565 1.75(4) yes
+O2h O2h . 7_665 1.75(2) yes
+O2h O2h . 2_555 1.36(3) yes
+O2h O2h . 2_565 2.54(5) yes
+O2h O2h . 2_655 2.54(5) yes
+O2h O2h . 2_665 1.57(3) yes
+O2h O2h . 8_455 2.28(4) yes
+O2h O2h . 8_555 0.79(5) yes
+O2h O2h . 8_565 2.28(5) yes
+O2h O2h . 4_455 2.54(3) yes
+O2h O2h . 4_555 1.36(4) yes
+O2h O2h . 4_565 1.57(4) yes
+O2h O2h . 4_665 2.54(3) yes
+O2h O2h . 10_555 0.79(3) yes
+O2h O2h . 10_655 2.28(4) yes
+O2h O2h . 10_665 2.28(3) yes

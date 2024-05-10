@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/07/9010736.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010736
+loop_
+_publ_author_name
+'Gualtieri, A. F.'
+'Passaglia, E.'
+_publ_section_title
+;
+ Rietveld structure refinement of NH4-exchanged natural chabazite
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              351
+_journal_page_last               359
+_journal_paper_doi               10.1127/0935-1221/2006/0018-0351
+_journal_volume                  18
+_journal_year                    2006
+_chemical_compound_source
+'Wasson's Bluff, Two Islands, Nova Scotia, Canada'
+_chemical_formula_sum            'Al3.48 Ca0.05 H74 K0.05 N2 O33.66 Si8.52'
+_chemical_name_mineral           NH4-Chabazite-K
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                94.678
+_cell_angle_beta                 94.678
+_cell_angle_gamma                94.678
+_cell_formula_units_Z            1
+_cell_length_a                   9.41709
+_cell_length_b                   9.41709
+_cell_length_c                   9.41709
+_cell_volume                     826.291
+_database_code_amcsd             0007150
+_exptl_crystal_density_diffrn    1.966
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'N2 H74 K.05 Ca.05 (Si8.52 Al3.48) O33.66'
+_cod_database_code               9010736
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-z,-y
+-z,-x,-y
+y,x,z
+y,z,x
+-z,-y,-x
+-x,-y,-z
+x,z,y
+z,x,y
+-y,-x,-z
+-y,-z,-x
+z,y,x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NC2a 0.24970 0.24970 0.24970 1.00000 0.07000 N 0
+H1 0.18400 0.18400 0.18400 1.00000 0.08800 H 0
+H2 0.30500 0.30500 0.19200 1.00000 0.08800 H 0
+KC1 0.00000 0.00000 0.00000 0.05000 0.07000 K 0
+CaC1 0.00000 0.00000 0.00000 0.05000 0.07000 Ca 0
+SiT 0.10260 0.32990 0.87920 0.71000 0.01900 Si 0
+AlT 0.10260 0.32990 0.87920 0.29000 0.01900 Al 0
+O1 0.26250 -0.26250 0.00000 1.00000 0.02700 O 0
+O2 0.14770 -0.14770 0.50000 1.00000 0.01500 O 0
+O3 0.25330 0.25330 0.89560 1.00000 0.01200 O 0
+O4 0.02760 0.02760 0.31280 1.00000 0.02500 O 0
+Wat1 0.50000 0.50000 0.00000 0.48000 0.04700 O 2
+Wat2a 0.27640 0.27640 0.53050 0.32000 0.05300 O 2
+Wat3 0.20170 0.34520 0.51460 0.27000 0.04200 O 2
+Wat4 0.36360 -0.36360 0.50000 0.18000 0.09400 O 2
+Wat5a 0.53760 0.53760 0.27890 0.33000 0.05000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:20+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007150

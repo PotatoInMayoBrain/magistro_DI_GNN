@@ -1,0 +1,519 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/34/13/4341306.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4341306
+loop_
+_publ_author_name
+'L\"udtke, Tobias'
+'Schmidt, Alexander'
+'G\"obel, Caren'
+'Fischer, Anna'
+'Becker, Nils'
+'Reimann, Christoph'
+'Bredow, Thomas'
+'Dronskowski, Richard'
+'Lerch, Martin'
+_publ_section_title
+;
+ Synthesis and Crystal Structure of \d-TaON, a Metastable Polymorph of
+ Tantalum Oxide Nitride.
+;
+_journal_issue                   21
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              11691
+_journal_page_last               11698
+_journal_paper_doi               10.1021/ic501726m
+_journal_volume                  53
+_journal_year                    2014
+_chemical_compound_source        synthetic
+_chemical_formula_iupac          'Ta N O (tI12)'
+_chemical_formula_sum            'N O Ta'
+_chemical_formula_weight         210.96
+_chemical_name_common            'delta tantalum oxide nitride'
+_chemical_name_systematic        'tantalum oxide nitride (anatase type)'
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_atom_sites_solution_hydrogens   notdet
+_atom_sites_solution_primary     other
+_atom_sites_solution_secondary   notdet
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   3.91954(16)
+_cell_length_b                   3.91954(16)
+_cell_length_c                   10.1132(5)
+_cell_measurement_temperature    293
+_cell_volume                     155.367(12)
+_computing_data_collection       'X'Pert Data Collector (PANalytical, 2008)'
+_computing_molecular_graphics    'Diamond (Brandenburg, 2013)'
+_computing_publication_material  'WinPLOTR (Roisnel, 2001)'
+_computing_structure_refinement  'FULLPROF (Rodr\'iguez-Carvajal, 1993)'
+_computing_structure_solution    'ICSD (Bergerhoff, 1987)'
+_diffrn_ambient_temperature      293
+_diffrn_detector                 'solid-state RTMS detector'
+_diffrn_detector_type            'PANalytical PIXcel'
+_diffrn_measurement_device       '\q-\q geometry diffractometer'
+_diffrn_measurement_device_type  'PANalytical X'Pert Pro'
+_diffrn_measurement_method       'profile data from \q/2\q scans'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.541874
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_current           40
+_diffrn_source_target            Cu
+_diffrn_source_type              'Philips PW3373-10'
+_diffrn_source_voltage           40
+_exptl_absorpt_coefficient_mu    126.094
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    9.019
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             352
+_pd_block_id
+2014-05-08T15:55|dalta-TaON|D.Wiedemann|PanXPertPro#11054622
+_pd_char_colour                  'dark red'
+_pd_instr_geometry               Bragg-Brentano
+_pd_meas_2theta_range_inc        0.013002
+_pd_meas_2theta_range_max        119.98400
+_pd_meas_2theta_range_min        5.09000
+_pd_meas_number_of_points        8839
+_pd_meas_scan_method             step
+_pd_prep_conditions
+; ammonolysis of amourphous tantalum oxide, kept at temperature for one hour,
+unmonitored cooling to ambient temperature
+;
+_pd_prep_pressure                101
+_pd_prep_temperature             1033
+_pd_proc_2theta_range_inc        0.013002
+_pd_proc_2theta_range_max        119.8996
+_pd_proc_2theta_range_min        5.0056
+_pd_proc_info_data_reduction
+; As data had been measured using an automatic divergence slit, they have been
+converted to a fixed divergence slit using PANalytical X'Pert HighScore Plus
+2.2d (PANalytical B. V., Netherlands, 2008).
+;
+_pd_proc_info_excluded_regions   ' from 0.00 to 10.00: inclined inset'
+_pd_proc_ls_background_function
+; manual background (visual estimation, refined heights) with linear
+interpolation
+;
+_pd_proc_ls_profile_function
+; pseudo-Voigt profile:
+U = -0.05(4), V = 0.50(3), W = -0.014(4), \h~0~ = 0.59(3), X = 0.0076(6),
+asymmetry correction (whole profile):
+A~S~(z) = 1+[P~1~F~a~(z)+P~2~F~b~(z)]/tanh(\q~h~)
+with P~1~ = -0.015(6), P~2~ = 0.0190(9)
+;
+_pd_proc_ls_prof_R_factor        0.015575
+_pd_proc_ls_prof_wR_expected     0.011543
+_pd_proc_ls_prof_wR_factor       0.020203
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                'drifted powder on off-cut Si'
+_pd_spec_mount_mode              reflection
+_pd_spec_size_axial              10
+_pd_spec_size_thick              0.2
+_refine_ls_goodness_of_fit_all   1.75
+_refine_ls_number_parameters     98
+_refine_ls_number_reflns         92
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0073
+_refine_ls_R_I_factor            0.0141
+_cod_data_source_file            ic501726m_si_002.cif
+_cod_data_source_block           delta-TaON
+_cod_depositor_comments          'Adding full bibliography for 4341306.cif.'
+_cod_original_cell_volume        155.367(15)
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_original_formula_sum        'N1 O1 Ta1'
+_cod_database_code               4341306
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       0.059394
+_pd_proc_ls_prof_cwr_factor      0.061841
+_pd_proc_ls_prof_cwr_expected    0.035333
+_pd_proc_ls_prof_chi2            3.0633
+_pd_proc_ls_prof_echi2           3.0698
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y+1/4,x+3/4,z+1/4
+-x+1/2,-y,z+1/2
+y+1/4,-x+1/4,z+3/4
+-x,y,z
+y+3/4,x+3/4,z+1/4
+x+1/2,-y,z+1/2
+-y+3/4,-x+1/4,z+3/4
+-x,-y,-z
+y+3/4,-x+1/4,-z+3/4
+x+1/2,y,-z+1/2
+-y+3/4,x+3/4,-z+1/4
+x,-y,-z
+-y+1/4,-x+1/4,-z+3/4
+-x+1/2,y,-z+1/2
+y+1/4,x+3/4,-z+1/4
+x+1/2,y+1/2,z+1/2
+-y+3/4,x+1/4,z+3/4
+-x,-y+1/2,z
+y+3/4,-x+3/4,z+1/4
+-x+1/2,y+1/2,z+1/2
+y+1/4,x+1/4,z+3/4
+x,-y+1/2,z
+-y+1/4,-x+3/4,z+1/4
+-x+1/2,-y+1/2,-z+1/2
+y+1/4,-x+3/4,-z+1/4
+x,y+1/2,-z
+-y+1/4,x+1/4,-z+3/4
+x+1/2,-y+1/2,-z+1/2
+-y+3/4,-x+3/4,-z+1/4
+-x,y+1/2,-z
+y+3/4,x+1/4,-z+3/4
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ta1 0.00000 0.25000 0.37500 0.01684 1.00000 Uiso Ta
+N1 0.00000 0.25000 0.5789(7) 0.01817 0.50000 Uiso N
+O1 0.00000 0.25000 0.5789(7) 0.01817 0.50000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ta 29.20240 1.77333 15.22930 9.37046 14.51350 0.29598 4.76492 63.36440 9.24354
+-6.35100 5.27100
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+N 12.21260 0.00570 3.13220 9.89330 2.01250 28.99750 1.16630 0.58260 -11.52900
+0.02900 0.01800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+O 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+N1 Ta1 N1 103.4(4) 1_555 4_454
+N1 Ta1 N1 103.4(4) 1_555 4_554
+N1 Ta1 N1 76.6(3) 1_555 9_556
+N1 Ta1 N1 76.6(3) 1_555 9_566
+N1 Ta1 N1 180.0(6) 1_555 10_455
+N1 Ta1 O1 103.4(4) 1_555 4_454
+N1 Ta1 O1 103.4(4) 1_555 4_554
+N1 Ta1 O1 76.6(3) 1_555 9_556
+N1 Ta1 O1 76.6(3) 1_555 9_566
+N1 Ta1 O1 180.0(6) 1_555 10_455
+N1 Ta1 N1 153.24(7) 4_454 4_554
+N1 Ta1 N1 93.07(15) 4_454 9_556
+N1 Ta1 N1 93.07(15) 4_454 9_566
+N1 Ta1 N1 76.6(3) 4_454 10_455
+N1 Ta1 O1 103.4(4) 4_454 1_555
+N1 Ta1 O1 153.24(7) 4_454 4_554
+N1 Ta1 O1 93.07(15) 4_454 9_556
+N1 Ta1 O1 93.07(15) 4_454 9_566
+N1 Ta1 O1 76.6(3) 4_454 10_455
+N1 Ta1 N1 93.07(15) 4_554 9_556
+N1 Ta1 N1 93.07(15) 4_554 9_566
+N1 Ta1 N1 76.6(3) 4_554 10_455
+N1 Ta1 O1 103.4(4) 4_554 1_555
+N1 Ta1 O1 153.24(7) 4_554 4_454
+N1 Ta1 O1 93.07(15) 4_554 9_556
+N1 Ta1 O1 93.07(15) 4_554 9_566
+N1 Ta1 O1 76.6(3) 4_554 10_455
+N1 Ta1 N1 153.24(7) 9_556 9_566
+N1 Ta1 N1 103.4(4) 9_556 10_455
+N1 Ta1 O1 76.6(3) 9_556 1_555
+N1 Ta1 O1 93.07(15) 9_556 4_454
+N1 Ta1 O1 93.07(15) 9_556 4_554
+N1 Ta1 O1 153.24(7) 9_556 9_566
+N1 Ta1 O1 103.4(4) 9_556 10_455
+N1 Ta1 N1 103.4(4) 9_566 10_455
+N1 Ta1 O1 76.6(3) 9_566 1_555
+N1 Ta1 O1 93.07(15) 9_566 4_454
+N1 Ta1 O1 93.07(15) 9_566 4_554
+N1 Ta1 O1 153.24(7) 9_566 9_556
+N1 Ta1 O1 103.4(4) 9_566 10_455
+N1 Ta1 O1 180.0(6) 10_455 1_555
+N1 Ta1 O1 76.6(3) 10_455 4_454
+N1 Ta1 O1 76.6(3) 10_455 4_554
+N1 Ta1 O1 103.4(4) 10_455 9_556
+N1 Ta1 O1 103.4(4) 10_455 9_566
+O1 Ta1 O1 103.4(4) 1_555 4_454
+O1 Ta1 O1 103.4(4) 1_555 4_554
+O1 Ta1 O1 76.6(3) 1_555 9_556
+O1 Ta1 O1 76.6(3) 1_555 9_566
+O1 Ta1 O1 180.0(6) 1_555 10_455
+O1 Ta1 O1 153.24(7) 4_454 4_554
+O1 Ta1 O1 93.07(15) 4_454 9_556
+O1 Ta1 O1 93.07(15) 4_454 9_566
+O1 Ta1 O1 76.6(3) 4_454 10_455
+O1 Ta1 O1 93.07(15) 4_554 9_556
+O1 Ta1 O1 93.07(15) 4_554 9_566
+O1 Ta1 O1 76.6(3) 4_554 10_455
+O1 Ta1 O1 153.24(7) 9_556 9_566
+O1 Ta1 O1 103.4(4) 9_556 10_455
+O1 Ta1 O1 103.4(4) 9_566 10_455
+Ta1 N1 Ta1 103.4(2) 1_555 2_545
+Ta1 N1 Ta1 103.4(2) 1_555 2_555
+Ta1 N1 N1 50.8(2) 1_555 9_556
+Ta1 N1 N1 50.8(2) 1_555 9_566
+Ta1 N1 N1 108.6(3) 1_555 12_446
+Ta1 N1 N1 108.6(3) 1_555 12_456
+Ta1 N1 N1 108.6(3) 1_555 12_546
+Ta1 N1 N1 108.6(3) 1_555 12_556
+Ta1 N1 O1 50.8(2) 1_555 9_556
+Ta1 N1 O1 50.8(2) 1_555 9_566
+Ta1 N1 O1 108.6(3) 1_555 12_446
+Ta1 N1 O1 108.6(3) 1_555 12_456
+Ta1 N1 O1 108.6(3) 1_555 12_546
+Ta1 N1 O1 108.6(3) 1_555 12_556
+Ta1 N1 Ta1 153.24(7) 2_545 2_555
+Ta1 N1 N1 52.5(2) 2_545 9_556
+Ta1 N1 N1 154.2(2) 2_545 9_566
+Ta1 N1 N1 125.32(8) 2_545 12_456
+Ta1 N1 N1 125.32(8) 2_545 12_556
+Ta1 N1 O1 52.5(2) 2_545 9_556
+Ta1 N1 O1 154.2(2) 2_545 9_566
+Ta1 N1 O1 125.32(8) 2_545 12_456
+Ta1 N1 O1 125.32(8) 2_545 12_556
+Ta1 N1 N1 154.2(2) 2_555 9_556
+Ta1 N1 N1 52.5(2) 2_555 9_566
+Ta1 N1 N1 125.32(8) 2_555 12_446
+Ta1 N1 N1 125.32(8) 2_555 12_546
+Ta1 N1 O1 154.2(2) 2_555 9_556
+Ta1 N1 O1 52.5(2) 2_555 9_566
+Ta1 N1 O1 125.32(8) 2_555 12_446
+Ta1 N1 O1 125.32(8) 2_555 12_546
+N1 N1 N1 101.7(2) 9_556 9_566
+N1 N1 N1 71.4(3) 9_556 12_446
+N1 N1 N1 136.1(3) 9_556 12_456
+N1 N1 N1 71.4(3) 9_556 12_546
+N1 N1 N1 136.1(3) 9_556 12_556
+N1 N1 O1 101.7(2) 9_556 9_566
+N1 N1 O1 71.4(3) 9_556 12_446
+N1 N1 O1 136.1(3) 9_556 12_456
+N1 N1 O1 71.4(3) 9_556 12_546
+N1 N1 O1 136.1(3) 9_556 12_556
+N1 N1 N1 136.1(3) 9_566 12_446
+N1 N1 N1 71.4(3) 9_566 12_456
+N1 N1 N1 136.1(3) 9_566 12_546
+N1 N1 N1 71.4(3) 9_566 12_556
+N1 N1 O1 101.7(2) 9_566 9_556
+N1 N1 O1 136.1(3) 9_566 12_446
+N1 N1 O1 71.4(3) 9_566 12_456
+N1 N1 O1 136.1(3) 9_566 12_546
+N1 N1 O1 71.4(3) 9_566 12_556
+N1 N1 N1 84.16(9) 12_446 12_456
+N1 N1 N1 84.16(9) 12_446 12_546
+N1 N1 N1 142.81(9) 12_446 12_556
+N1 N1 O1 71.4(3) 12_446 9_556
+N1 N1 O1 136.1(3) 12_446 9_566
+N1 N1 O1 84.16(9) 12_446 12_456
+N1 N1 O1 84.16(9) 12_446 12_546
+N1 N1 O1 142.81(9) 12_446 12_556
+N1 N1 N1 142.81(9) 12_456 12_546
+N1 N1 N1 84.16(9) 12_456 12_556
+N1 N1 O1 136.1(3) 12_456 9_556
+N1 N1 O1 71.4(3) 12_456 9_566
+N1 N1 O1 84.16(9) 12_456 12_446
+N1 N1 O1 142.81(9) 12_456 12_546
+N1 N1 O1 84.16(9) 12_456 12_556
+N1 N1 N1 84.16(9) 12_546 12_556
+N1 N1 O1 71.4(3) 12_546 9_556
+N1 N1 O1 136.1(3) 12_546 9_566
+N1 N1 O1 84.16(9) 12_546 12_446
+N1 N1 O1 142.81(9) 12_546 12_456
+N1 N1 O1 84.16(9) 12_546 12_556
+N1 N1 O1 136.1(3) 12_556 9_556
+N1 N1 O1 71.4(3) 12_556 9_566
+N1 N1 O1 142.81(9) 12_556 12_446
+N1 N1 O1 84.16(9) 12_556 12_456
+N1 N1 O1 84.16(9) 12_556 12_546
+O1 N1 O1 101.7(2) 9_556 9_566
+O1 N1 O1 71.4(3) 9_556 12_446
+O1 N1 O1 136.1(3) 9_556 12_456
+O1 N1 O1 71.4(3) 9_556 12_546
+O1 N1 O1 136.1(3) 9_556 12_556
+O1 N1 O1 136.1(3) 9_566 12_446
+O1 N1 O1 71.4(3) 9_566 12_456
+O1 N1 O1 136.1(3) 9_566 12_546
+O1 N1 O1 71.4(3) 9_566 12_556
+O1 N1 O1 84.16(9) 12_446 12_456
+O1 N1 O1 84.16(9) 12_446 12_546
+O1 N1 O1 142.81(9) 12_446 12_556
+O1 N1 O1 142.81(9) 12_456 12_546
+O1 N1 O1 84.16(9) 12_456 12_556
+O1 N1 O1 84.16(9) 12_546 12_556
+Ta1 O1 Ta1 103.4(2) 1_555 2_545
+Ta1 O1 Ta1 103.4(2) 1_555 2_555
+Ta1 O1 N1 50.8(2) 1_555 9_556
+Ta1 O1 N1 50.8(2) 1_555 9_566
+Ta1 O1 N1 108.6(3) 1_555 12_446
+Ta1 O1 N1 108.6(3) 1_555 12_456
+Ta1 O1 N1 108.6(3) 1_555 12_546
+Ta1 O1 N1 108.6(3) 1_555 12_556
+Ta1 O1 O1 50.8(2) 1_555 9_556
+Ta1 O1 O1 50.8(2) 1_555 9_566
+Ta1 O1 O1 108.6(3) 1_555 12_446
+Ta1 O1 O1 108.6(3) 1_555 12_456
+Ta1 O1 O1 108.6(3) 1_555 12_546
+Ta1 O1 O1 108.6(3) 1_555 12_556
+Ta1 O1 Ta1 153.24(7) 2_545 2_555
+Ta1 O1 N1 52.5(2) 2_545 9_556
+Ta1 O1 N1 154.2(2) 2_545 9_566
+Ta1 O1 N1 125.32(8) 2_545 12_456
+Ta1 O1 N1 125.32(8) 2_545 12_556
+Ta1 O1 O1 52.5(2) 2_545 9_556
+Ta1 O1 O1 154.2(2) 2_545 9_566
+Ta1 O1 O1 125.32(8) 2_545 12_456
+Ta1 O1 O1 125.32(8) 2_545 12_556
+Ta1 O1 N1 154.2(2) 2_555 9_556
+Ta1 O1 N1 52.5(2) 2_555 9_566
+Ta1 O1 N1 125.32(8) 2_555 12_446
+Ta1 O1 N1 125.32(8) 2_555 12_546
+Ta1 O1 O1 154.2(2) 2_555 9_556
+Ta1 O1 O1 52.5(2) 2_555 9_566
+Ta1 O1 O1 125.32(8) 2_555 12_446
+Ta1 O1 O1 125.32(8) 2_555 12_546
+N1 O1 N1 101.7(2) 9_556 9_566
+N1 O1 N1 71.4(3) 9_556 12_446
+N1 O1 N1 136.1(3) 9_556 12_456
+N1 O1 N1 71.4(3) 9_556 12_546
+N1 O1 N1 136.1(3) 9_556 12_556
+N1 O1 O1 101.7(2) 9_556 9_566
+N1 O1 O1 71.4(3) 9_556 12_446
+N1 O1 O1 136.1(3) 9_556 12_456
+N1 O1 O1 71.4(3) 9_556 12_546
+N1 O1 O1 136.1(3) 9_556 12_556
+N1 O1 N1 136.1(3) 9_566 12_446
+N1 O1 N1 71.4(3) 9_566 12_456
+N1 O1 N1 136.1(3) 9_566 12_546
+N1 O1 N1 71.4(3) 9_566 12_556
+N1 O1 O1 101.7(2) 9_566 9_556
+N1 O1 O1 136.1(3) 9_566 12_446
+N1 O1 O1 71.4(3) 9_566 12_456
+N1 O1 O1 136.1(3) 9_566 12_546
+N1 O1 O1 71.4(3) 9_566 12_556
+N1 O1 N1 84.16(9) 12_446 12_456
+N1 O1 N1 84.16(9) 12_446 12_546
+N1 O1 N1 142.81(9) 12_446 12_556
+N1 O1 O1 71.4(3) 12_446 9_556
+N1 O1 O1 136.1(3) 12_446 9_566
+N1 O1 O1 84.16(9) 12_446 12_456
+N1 O1 O1 84.16(9) 12_446 12_546
+N1 O1 O1 142.81(9) 12_446 12_556
+N1 O1 N1 142.81(9) 12_456 12_546
+N1 O1 N1 84.16(9) 12_456 12_556
+N1 O1 O1 136.1(3) 12_456 9_556
+N1 O1 O1 71.4(3) 12_456 9_566
+N1 O1 O1 84.16(9) 12_456 12_446
+N1 O1 O1 142.81(9) 12_456 12_546
+N1 O1 O1 84.16(9) 12_456 12_556
+N1 O1 N1 84.16(9) 12_546 12_556
+N1 O1 O1 71.4(3) 12_546 9_556
+N1 O1 O1 136.1(3) 12_546 9_566
+N1 O1 O1 84.16(9) 12_546 12_446
+N1 O1 O1 142.81(9) 12_546 12_456
+N1 O1 O1 84.16(9) 12_546 12_556
+N1 O1 O1 136.1(3) 12_556 9_556
+N1 O1 O1 71.4(3) 12_556 9_566
+N1 O1 O1 142.81(9) 12_556 12_446
+N1 O1 O1 84.16(9) 12_556 12_456
+N1 O1 O1 84.16(9) 12_556 12_546
+O1 O1 O1 101.7(2) 9_556 9_566
+O1 O1 O1 71.4(3) 9_556 12_446
+O1 O1 O1 136.1(3) 9_556 12_456
+O1 O1 O1 71.4(3) 9_556 12_546
+O1 O1 O1 136.1(3) 9_556 12_556
+O1 O1 O1 136.1(3) 9_566 12_446
+O1 O1 O1 71.4(3) 9_566 12_456
+O1 O1 O1 136.1(3) 9_566 12_546
+O1 O1 O1 71.4(3) 9_566 12_556
+O1 O1 O1 84.16(9) 12_446 12_456
+O1 O1 O1 84.16(9) 12_446 12_546
+O1 O1 O1 142.81(9) 12_446 12_556
+O1 O1 O1 142.81(9) 12_456 12_546
+O1 O1 O1 84.16(9) 12_456 12_556
+O1 O1 O1 84.16(9) 12_546 12_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ta1 N1 2.062(7) 1_555
+Ta1 N1 2.0145(16) 4_454
+Ta1 N1 2.0145(16) 4_554
+Ta1 N1 2.0145(16) 9_556
+Ta1 N1 2.0145(16) 9_566
+Ta1 N1 2.062(7) 10_455
+Ta1 O1 2.062(7) 1_555
+Ta1 O1 2.0145(16) 4_454
+Ta1 O1 2.0145(16) 4_554
+Ta1 O1 2.0145(16) 9_556
+Ta1 O1 2.0145(16) 9_566
+Ta1 O1 2.062(7) 10_455
+N1 Ta1 2.062(7) 1_555
+N1 Ta1 2.0145(16) 2_545
+N1 Ta1 2.0145(16) 2_555
+N1 N1 2.527(6) 9_556
+N1 N1 2.527(6) 9_566
+N1 N1 2.924(3) 12_446
+N1 N1 2.924(3) 12_456
+N1 N1 2.924(3) 12_546
+N1 N1 2.924(3) 12_556
+N1 O1 2.527(6) 9_556
+N1 O1 2.527(6) 9_566
+N1 O1 2.924(3) 12_446
+N1 O1 2.924(3) 12_456
+N1 O1 2.924(3) 12_546
+N1 O1 2.924(3) 12_556
+O1 Ta1 2.062(7) 1_555
+O1 Ta1 2.0145(16) 2_545
+O1 Ta1 2.0145(16) 2_555
+O1 N1 2.527(6) 9_556
+O1 N1 2.527(6) 9_566
+O1 N1 2.924(3) 12_446
+O1 N1 2.924(3) 12_456
+O1 N1 2.924(3) 12_546
+O1 N1 2.924(3) 12_556
+O1 O1 2.527(6) 9_556
+O1 O1 2.527(6) 9_566
+O1 O1 2.924(3) 12_446
+O1 O1 2.924(3) 12_456
+O1 O1 2.924(3) 12_546
+O1 O1 2.924(3) 12_556
+loop_
+_pd_phase_id
+_pd_phase_mass_%
+_pd_phase_name
+_pd_phase_block_id
+1 35 \d-TaON 2014-05-08T15:55|delta-TaON|D.Wiedemann|PanXPertPro#11054622
+2 45 Ta~3~N~5~ .
+3 20 \b-TaON .

@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:45:23 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179261 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/81/4318187.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4318187
+loop_
+_publ_author_name
+'P. Norby'
+'R. Dinnebier'
+'A. N. Fitch'
+_publ_section_title
+;
+ Decomposition of Silver Carbonate; the Crystal Structure of Two
+ High-Temperature Modifications of Ag2CO3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3628
+_journal_page_last               3637
+_journal_paper_doi               10.1021/ic0111177
+_journal_volume                  41
+_journal_year                    2002
+_chemical_formula_sum            'C Ag2 O3'
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_audit_creation_date             'Oct 23 13:47:26'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' Oct 23 13:47:26 2001  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 91.97130(30)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   4.852090(22)
+_cell_length_b                   9.54888(4)
+_cell_length_c                   3.253628(15)
+_cell_volume                     150.6580(12)
+_computing_structure_refinement  GSAS
+_pd_block_id                     'Oct 23 13:47:26 |PHASE_1||'
+_pd_phase_name                   lt-Ag2CO3
+_refine_ls_goodness_of_fit_all   1.04
+_refine_ls_number_parameters     38
+_refine_ls_number_restraints     0
+_refine_ls_shift/esd_max         6.62
+_refine_ls_shift/esd_mean        1.50
+_cod_data_source_file            ic0111177_1.cif
+_cod_data_source_block           A_R_phase_1
+_cod_original_sg_symbol_H-M      'P 21/m'
+_cod_database_code               4318187
+_cod_database_fobs_code          4318187
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,+y+1/2,-z
+-x,-y,-z
++x,-y+1/2,+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+AG 0.02415 0.02232 0.03783 0.00192 -0.00609 0.00419
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+AG 0.21142 0.07801 0.21877 1.0 Uani 0.02826 4
+O1 -0.02189 0.25 0.89 1.0 Uiso 0.00278 2
+O2 0.38895 0.63624 0.33011 1.0 Uiso -0.0011 4
+C 0.26655 0.75 0.26433 1.0 Uiso 0.00053 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+C 2.0
+AG 4.0
+O 6.0

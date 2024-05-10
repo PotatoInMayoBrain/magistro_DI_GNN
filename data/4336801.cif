@@ -1,0 +1,131 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:12:22 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179471 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/68/4336801.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4336801
+loop_
+_publ_author_name
+'S. Pagola'
+'K. T. Trowell'
+'K. C. Havas'
+'Z. D. Reed'
+'D. G. Chan'
+'M. J. Van Dongen'
+'G. C. DeFotis'
+_publ_section_title
+;
+ Crystal Structures of Manganese and Cobalt Dichloride Monohydrate and
+ Deuteration Effects on Magnetic Behavior
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              13341
+_journal_page_last               13350
+_journal_paper_doi               10.1021/ic4013075
+_journal_volume                  52
+_journal_year                    2013
+_chemical_formula_moiety         'Cl2 D2 Mn O'
+_chemical_formula_sum            'Cl2 D2 Mn O'
+_chemical_formula_weight         145.86
+_chemical_name_systematic
+'Manganese(II) chloride deuterated monohydrate'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   9.0345(2)
+_cell_length_b                   3.68721(8)
+_cell_length_c                   11.5356(3)
+_cell_volume                     384.275(16)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    EXPO2004
+_diffrn_ambient_pressure         101
+_diffrn_ambient_temperature      298
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.700095
+_exptl_crystal_density_diffrn    2.521
+_exptl_crystal_F_000             276.0
+_pd_char_colour                  pink
+_refine_ls_goodness_of_fit_all   1.10
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_restraints     0
+_cod_data_source_file            ic4013075_si_003.cif
+_cod_data_source_block           MnCl2.D2O
+_cod_database_code               4336801
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z+1/2
+3 +x,-y+1/2,+z
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z+1/2
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn 0.18315(79) 0.25 0.48155(61) 1.0 Uiso 0.0174(30) 4
+Cl ClA 0.3106(12) -0.25 0.5885(10) 1.0 Uiso 0.0250(46) 4
+Cl ClB 0.0345(12) -0.25 0.3745(10) 1.0 Uiso 0.0180(41) 4
+O O 0.3377(28) 0.25 0.3474(20) 1.0 Uiso 0.063(10) 4
+D D1 0.3152 0.25 0.2662 1.0 Uiso 0.076 4
+D D2 0.4437 0.25 0.3507 1.0 Uiso 0.076 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mn 4.0
+Cl 8.0
+O 4.0
+D 8.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+ClA Mn ClA 95.06(17) 1_555 1_565 n
+ClA Mn ClB 87.1(3) 1_555 1_555 n
+ClA Mn ClB 176.25(20) 1_555 1_565 n
+ClA Mn ClB 91.91(15) 1_555 -1_556 n
+ClA Mn O 93.4(6) 1_555 1_555 n
+ClB Mn ClB 90.60(17) 1_555 1_565 n
+ClB Mn ClB 84.94(16) 1_555 -1_556 n
+ClB Mn O 89.6(6) 1_555 1_555 n
+ClB Mn O 172.24(31) -1_556 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn ClA 2.499(9) 1_555 n
+Mn ClA 2.499(9) 1_565 n
+Mn ClB 2.594(9) 1_555 n
+Mn ClB 2.594(9) 1_565 n
+Mn ClB 2.574(13) -1_556 n
+Mn O 2.09(3) 1_555 n

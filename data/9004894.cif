@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/48/9004894.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004894
+loop_
+_publ_author_name
+'Locock, A. J.'
+'Burns, P. C.'
+'Flynn, M.'
+_publ_section_title
+;
+ Divalent transition metals and magnesium in structures
+ that contain the autunite-type sheet
+ Sample: MgUAs10
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1699
+_journal_page_last               1718
+_journal_paper_doi               10.2113/gscanmin.42.6.1699
+_journal_volume                  42
+_journal_year                    2004
+_chemical_formula_sum            'As2 H20 Mg O22 U2'
+_chemical_name_mineral           'Novacekite II'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.585
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.1328
+_cell_length_b                   20.085
+_cell_length_c                   7.1569
+_cell_volume                     1025.260
+_database_code_amcsd             0005990
+_exptl_crystal_density_diffrn    3.312
+_cod_original_formula_sum        'Mg U2 As2 O22 H20'
+_cod_database_code               9004894
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg -0.50000 0.50000 0.00000 0.03300 Mg 0
+U 0.05920 0.20440 0.02270 0.01500 U 0
+As -0.43950 0.25110 0.02630 0.01600 As 0
+O1 -0.25850 0.20000 -0.02140 0.01800 O 0
+O2 0.05610 0.29220 0.01680 0.02600 O 0
+O3 -0.48440 0.30080 -0.15840 0.02000 O 0
+O4 -0.62800 0.20200 0.07800 0.03400 O 0
+O5 -0.39400 0.30400 0.20650 0.02100 O 0
+O6 0.06140 0.11610 0.02610 0.01500 O 0
+Wat1 -0.33200 0.57980 0.07000 0.03500 O 2
+Wat2 -0.41000 0.50390 -0.27000 0.04100 O 2
+Wat3 -0.72180 0.56770 -0.07200 0.04000 O 2
+Wat4 -0.52400 0.08160 0.26700 0.04500 O 2
+Wat5 -0.41900 0.07390 -0.15700 0.09900 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005990

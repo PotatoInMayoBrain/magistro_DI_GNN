@@ -1,0 +1,299 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-28 17:58:53 +0200 (Thu, 28 Nov 2019) $
+#$Revision: 244221 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/23/85/7238533.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7238533
+loop_
+_publ_author_name
+'Donnadio, Anna'
+'Pica, Monica'
+'Taddei, Marco'
+'Vivani, Riccardo'
+_publ_section_title
+;
+ Design and synthesis of plasticizing fillers based on zirconium
+ phosphonates for glycerol-free composite starch films
+;
+_journal_issue                   11
+_journal_name_full               'Journal of Materials Chemistry'
+_journal_page_first              5098
+_journal_paper_doi               10.1039/c2jm15201k
+_journal_volume                  22
+_journal_year                    2012
+_chemical_formula_moiety         ZrF(O3PCH2)2NH(CH2)3OH
+_chemical_formula_sum            'C5 F N O7 P2 Zr'
+_chemical_formula_weight         358.22
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 97.544(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   12.3979(3)
+_cell_length_b                   8.9255(4)
+_cell_length_c                   10.8594(5)
+_cell_measurement_temperature    298
+_cell_volume                     1191.27(8)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    FOX
+_diffrn_ambient_temperature      298
+_diffrn_radiation_polarisn_ratio 0.8
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+; GSAS Absorption/surface roughness correction: function number 0
+No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   ZC3
+_pd_proc_ls_background_function
+; GSAS Background function number 1 with 18 terms.
+Shifted Chebyshev function of 1st kind
+1: 3078.01 2: -2095.17 3: 1328.31 4: -505.079
+5: 307.189 6: -282.370 7: 252.687 8: -238.062
+9: 201.821 10: -161.016 11: 109.570 12: -20.5889
+13: -47.4678 14: 37.8592 15: -40.4037 16: 6.57947
+17: 5.08856 18: -4.06374
+;
+_pd_proc_ls_pref_orient_corr
+; March-Dollase
+AXIS 1 Ratio= 0.87955 h= 1.000 k= 0.000 l= 0.000
+Prefered orientation correction range: Min= 0.82490, Max= 1.46960
+;
+_pd_proc_ls_profile_function
+;
+CW Profile function number 3 with 19 terms
+Pseudovoigt profile coefficients as parameterized in
+P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+J. Appl. Cryst.,27,892-900.
+#1(GU) = 182.314 #2(GV) = 0.000 #3(GW) = 2.794
+#4(GP) = 0.100 #5(LX) = 3.691 #6(LY) = 12.734
+#7(S/L) = 0.0285 #8(H/L) = 0.0177
+#9(trns) = 0.00 #10(shft)= -0.3726
+#11(stec)= 8.14 #12(ptec)= -1.35 #13(sfec)= 0.00
+#14(L11) = 0.000 #15(L22) = 0.000 #16(L33) = 0.000
+#17(L12) = 0.000 #18(L13) = 0.000 #19(L23) = 0.000
+Peak tails are ignored where the intensity is below 0.0010 times the peak
+Aniso. broadening axis 1.0 0.0 0.0
+;
+_pd_proc_ls_prof_R_factor        0.0492
+_pd_proc_ls_prof_wR_expected     0.0156
+_pd_proc_ls_prof_wR_factor       0.0705
+_refine_ls_goodness_of_fit_all   4.93
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     76
+_refine_ls_number_restraints     55
+_refine_ls_R_Fsqd_factor         0.08795
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            c2jm15201k.txt
+_cod_data_source_block           compound_ZC3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/RSC/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (40 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/RSC/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (51 times).
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_database_code               7238533
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+O O7 0.4116(13) 0.7061(21) 0.7528(15) 1.0 Uiso 0.0151(7) 4
+C C5 0.4341(15) 0.7269(34) 0.6236(14) 1.0 Uiso 0.0151(7) 4
+C C4 0.5479(15) 0.8053(24) 0.6340(20) 1.0 Uiso 0.0151(7) 4
+C C3 0.6176(13) 0.7246(30) 0.7442(16) 1.0 Uiso 0.0151(7) 4
+N N 0.7368(11) 0.7048(18) 0.7280(12) 1.0 Uiso 0.0151(7) 4
+C C1 0.7915(14) 0.8575(21) 0.7396(14) 1.0 Uiso 0.0151(7) 4
+C C2 0.7789(13) 0.6062(19) 0.8315(15) 1.0 Uiso 0.0151(7) 4
+P P1 0.8304(5) 0.9137(9) 0.9079(8) 1.0 Uiso 0.0151(7) 4
+P P2 0.9114(7) 0.5030(8) 0.8078(8) 1.0 Uiso 0.0151(7) 4
+O O1 0.7438(11) 0.8508(17) 0.9963(16) 1.0 Uiso 0.0151(7) 4
+O O2 0.8555(11) 1.0851(14) 0.9149(12) 1.0 Uiso 0.0151(7) 4
+O O3 0.9374(9) 0.8460(16) 0.9572(14) 1.0 Uiso 0.0151(7) 4
+O O4 1.0236(11) 0.6088(15) 0.8222(13) 1.0 Uiso 0.0151(7) 4
+O O5 0.9070(11) 0.4195(15) 0.6800(12) 1.0 Uiso 0.0151(7) 4
+Zr Zr 0.08724(28) 0.7389(5) 0.45332(30) 1.0 Uiso 0.0151(7) 4
+O O6 0.9217(11) 0.3802(15) 0.9125(12) 1.0 Uiso 0.0151(7) 4
+F F 0.2243(9) 0.8241(15) 0.4136(14) 1.0 Uiso 0.0151(7) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+O 28.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+C 20.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+N 4.0 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+P 8.0 0.000 0.000 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+Zr 4.0 0.000 0.000 17.8765 1.27618 10.9480 11.9160 5.41732 0.11762 3.65721
+87.6627 2.06929 International_Tables_Vol_C
+F 4.0 0.000 0.000 3.53920 10.2825 2.64120 4.29440 1.51700 0.26150 1.02430
+26.1476 0.27760 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540500 1.000 K\a~1~ 1
+1.544300 0.500 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O7 C5 C4 105.5(8) 1_555 1_555 n
+C5 C4 C3 104.7(8) 1_555 1_555 n
+C4 C3 N 114.5(8) 1_555 1_555 n
+C3 N C1 108.4(9) 1_555 1_555 n
+C3 N C2 103.5(8) 1_555 1_555 n
+C1 N C2 111.3(8) 1_555 1_555 n
+N C1 P1 111.8(7) 1_555 1_555 n
+N C2 P2 114.0(8) 1_555 1_555 n
+C1 P1 O1 111.9(7) 1_555 1_555 n
+C1 P1 O2 109.3(7) 1_555 1_555 n
+C1 P1 O3 109.9(7) 1_555 1_555 n
+O1 P1 O2 116.8(7) 1_555 1_555 n
+O1 P1 O3 105.8(7) 1_555 1_555 n
+O2 P1 O3 102.6(7) 1_555 1_555 n
+C2 P2 O4 115.5(7) 1_555 1_555 n
+C2 P2 O5 114.4(7) 1_555 1_555 n
+C2 P2 O6 103.0(7) 1_555 1_555 n
+O4 P2 O5 106.4(7) 1_555 1_555 n
+O4 P2 O6 109.8(7) 1_555 1_555 n
+O5 P2 O6 107.4(7) 1_555 1_555 n
+P1 O2 Zr 137.9(9) 1_555 2_656 n
+P1 O3 Zr 157.7(10) 1_555 -2_665 n
+P2 O4 Zr 132.8(9) 1_555 -2_665 n
+P2 O5 Zr 163.7(10) 1_555 -1_666 n
+O2 Zr O3 88.2(5) 2_646 -2_464 n
+O2 Zr O4 177.7(7) 2_646 -2_464 n
+O2 Zr O5 89.4(6) 2_646 -1_666 n
+O2 Zr O6 87.7(6) 2_646 2_656 n
+O2 Zr F 100.6(6) 2_646 1_555 n
+O3 Zr O4 89.5(6) -2_464 -2_464 n
+O3 Zr O5 82.6(6) -2_464 -1_666 n
+O3 Zr O6 94.9(6) -2_464 2_656 n
+O3 Zr F 168.5(7) -2_464 1_555 n
+O4 Zr O5 90.7(7) -2_464 -1_666 n
+O4 Zr O6 92.1(5) -2_464 2_656 n
+O4 Zr F 81.7(6) -2_464 1_555 n
+O5 Zr O6 176.3(8) -1_666 2_656 n
+O5 Zr F 90.0(6) -1_666 1_555 n
+O6 Zr F 92.9(6) 2_656 1_555 n
+P2 O6 Zr 171.3(9) 1_555 2_646 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O7 C5 1.478(14) 1_555 n
+O7 F 3.094(15) -2_565 n
+C5 O7 1.478(14) 1_555 n
+C5 C4 1.56(3) 1_555 n
+C4 C5 1.56(3) 1_555 n
+C4 C3 1.56(3) 1_555 n
+C3 C4 1.56(3) 1_555 n
+C3 N 1.521(13) 1_555 n
+N C3 1.521(13) 1_555 n
+N C1 1.520(14) 1_555 n
+N C2 1.469(14) 1_555 n
+N O1 2.577(16) -2_564 n
+C1 N 1.520(14) 1_555 n
+C1 P1 1.896(13) 1_555 n
+C2 N 1.469(14) 1_555 n
+C2 P2 1.930(13) 1_555 n
+P1 C1 1.896(13) 1_555 n
+P1 O1 1.631(13) 1_555 n
+P1 O2 1.560(12) 1_555 n
+P1 O3 1.492(10) 1_555 n
+P2 C2 1.930(13) 1_555 n
+P2 O4 1.672(11) 1_555 n
+P2 O5 1.570(11) 1_555 n
+P2 O6 1.572(11) 1_555 n
+O1 P1 1.631(13) 1_555 n
+O2 P1 1.560(12) 1_555 n
+O2 Zr 2.042(11) 2_656 n
+O2 F 3.080(15) 2_656 n
+O3 P1 1.492(10) 1_555 n
+O3 Zr 2.012(10) -2_665 n
+O4 P2 1.672(11) 1_555 n
+O4 Zr 2.050(11) -2_665 n
+O4 F 2.624(16) -2_665 n
+O5 P2 1.570(11) 1_555 n
+O5 Zr 2.032(11) -1_666 n
+O5 F 2.824(16) -1_666 n
+Zr O2 2.042(11) 2_646 n
+Zr O3 2.012(10) -2_464 n
+Zr O4 2.050(11) -2_464 n
+Zr O5 2.032(11) -1_666 n
+Zr O6 1.941(10) 2_656 n
+Zr F 1.961(10) 1_555 n
+O6 P2 1.572(11) 1_555 n
+O6 Zr 1.941(10) 2_646 n
+O6 F 2.827(15) 2_646 n
+F O7 3.094(15) -2_564 n
+F O2 3.080(15) 2_646 n
+F O4 2.624(16) -2_464 n
+F O5 2.824(16) -1_666 n
+F Zr 1.961(10) 1_555 n
+F O6 2.827(15) 2_656 n

@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-11 16:25:09 +0300 (Mon, 11 Sep 2017) $
+#$Revision: 200452 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/00/70/1007009.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1007009
+loop_
+_publ_author_name
+'Averbuch-Pouchot, M T'
+'Durif, A'
+'Coing-Boyat, J'
+'Guitel, J C'
+_publ_section_title              'Phosphoberyllate d'ammonium'
+_journal_coden_ASTM              ACBCAR
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              203
+_journal_page_last               205
+_journal_paper_doi               10.1107/S0567740877003070
+_journal_volume                  33
+_journal_year                    1977
+_chemical_formula_structural     'N H4 P3 BE2 O10'
+_chemical_formula_sum            'Be2 H4 N O10 P3'
+_chemical_name_systematic        'Ammonium diberyllium triphosphate'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 117.41(5)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.202(8)
+_cell_length_b                   8.645(3)
+_cell_length_c                   8.949(3)
+_cell_volume                     838.0
+_refine_ls_R_factor_all          0.02
+_cod_original_formula_sum        'H4 Be2 N O10 P3'
+_cod_database_code               1007009
+_cod_depositor_comments
+;
+ Removing dummy H atoms since the hydrogen atoms they represent are already
+ marked using the _atom_site_attached_hydrogens data item.
+
+ Antanas Vaitkus,
+ 2017-09-11
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+-x,-y,-z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+P1 P5+ 8 f 0.18242(2) 0.18581(2) 0.24572(3) 1. 0 d
+P2 P5+ 4 e 0. 0.38353(3) 0.25 1. 0 d
+O1 O2- 8 f 0.19488(7) 0.11733(7) 0.10003(8) 1. 0 d
+O2 O2- 8 f 0.27552(6) 0.31104(7) 0.33844(9) 1. 0 d
+O3 O2- 8 f 0.17066(6) 0.06620(3) 0.36050(8) 1. 0 d
+O4 O2- 8 f 0.04893(6) 0.27255(8) 0.15290(8) 1. 0 d
+O5 O2- 8 f 0.10564(6) 0.47539(8) 0.37725(9) 1. 0 d
+N1 N3- 4 e 0. 0.8026(2) 0.25 1. 4 d
+Be1 Be2+ 8 f 0.2561(1) 0.4580(1) 0.4390(1) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+P5+ 5.000
+O2- -2.000
+N3- -3.000
+Be2+ 2.000

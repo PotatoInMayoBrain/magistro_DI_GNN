@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/65/9006529.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9006529
+loop_
+_publ_author_name
+'Yang, H.'
+'Hazen, R. M.'
+'Finger, L. W.'
+'Prewitt, C. T.'
+'Downs, R. T.'
+_publ_section_title
+;Compressibility and crystal structure of sillimanite, Al2SiO5, at high
+ pressure Sample: P = 5.29 GPa
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              39
+_journal_page_last               47
+_journal_paper_doi               10.1007/s002690050084
+_journal_volume                  25
+_journal_year                    1997
+_chemical_formula_sum            'Al2 O5 Si'
+_chemical_name_mineral           Sillimanite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.4146
+_cell_length_b                   7.5739
+_cell_length_c                   5.7450
+_cell_volume                     322.624
+_database_code_amcsd             0008111
+_diffrn_ambient_pressure         5.29e+06
+_exptl_crystal_density_diffrn    3.336
+_cod_original_formula_sum        'Al2 Si O5'
+_cod_database_code               9006529
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al1 0.00000 0.00000 0.00000 0.00405 Al 0
+Al2 0.14050 0.34270 0.25000 0.00519 Al 0
+Si 0.15480 0.33860 0.75000 0.00595 Si 0
+OA 0.36330 0.40550 0.75000 0.00671 O 0
+OB 0.35510 0.43300 0.25000 0.00760 O 0
+OC 0.47280 0.00310 0.75000 0.00963 O 0
+OD 0.12690 0.22040 0.51460 0.00671 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:14:52+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0008111

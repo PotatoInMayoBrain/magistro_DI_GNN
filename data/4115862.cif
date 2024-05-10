@@ -1,0 +1,509 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:00:53 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178929 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/58/4115862.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4115862
+loop_
+_publ_author_name
+'Fu Qiang Huang'
+'Paul Brazis'
+'Carl R. Kannewurf'
+'James A. Ibers'
+_publ_section_title
+;
+ Syntheses, Structures, Physical Properties, and Theoretical Study of
+ LaCu0.40Te2, NdCu0.37Te2, SmCu0.34Te2, GdCu0.33Te2, and DyCu0.32Te2
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              80
+_journal_page_last               86
+_journal_paper_doi               10.1021/ja9919635
+_journal_volume                  122
+_journal_year                    2000
+_chemical_formula_sum            'Cu0.33 Gd Te2'
+_chemical_formula_weight         433.42
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           57
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2c 2b'
+_symmetry_space_group_name_H-M   'P b c m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.5670(15)
+_cell_length_b                   8.2110(16)
+_cell_length_c                   6.0893(12)
+_cell_measurement_temperature    107(2)
+_cell_volume                     378.34(13)
+_computing_molecular_graphics    'SHELXTL-97 (Sheldrick, 1997)'
+_computing_publication_material  'SHELXTL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      107(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  Picker
+_diffrn_measurement_method       /theta
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0567
+_diffrn_reflns_av_sigmaI/netI    0.0271
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            4709
+_diffrn_reflns_theta_full        31.55
+_diffrn_reflns_theta_max         31.55
+_diffrn_reflns_theta_min         2.69
+_diffrn_standards_decay_%        <2
+_exptl_absorpt_coefficient_mu    34.180
+_exptl_absorpt_correction_T_max  0.408
+_exptl_absorpt_correction_T_min  0.378
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'face indexed (Sheldrick, 1997)'
+_exptl_crystal_colour            balck
+_exptl_crystal_density_diffrn    7.609
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             710
+_exptl_crystal_size_max          0.277
+_exptl_crystal_size_mid          0.030
+_exptl_crystal_size_min          0.026
+_refine_diff_density_max         1.430
+_refine_diff_density_min         -2.148
+_refine_diff_density_rms         0.432
+_refine_ls_extinction_coef       0.0020(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.950
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     29
+_refine_ls_number_reflns         687
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.950
+_refine_ls_R_factor_all          0.0330
+_refine_ls_R_factor_gt           0.0230
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+; calc 
+ [1.00000+0.00000exp(0.00(sin\q/\l)^2^)]/ 
+   [\s^2^(Fo^2^)+0.0000+0.0000*P+(0.0300P)^2^+0.0000sin\q/\l] 
+ where P = 1.00000Fo^2^ + 0.00000Fc^2^ 
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0451
+_refine_ls_wR_factor_ref         0.0487
+_reflns_number_gt                594
+_reflns_number_total             687
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja9919635_2.cif
+_cod_data_source_block           gd
+_cod_database_code               4115862
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x, y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Gd1 Gd 0.24352(5) 0.56011(5) 0.2500 0.00692(11) Uani 1 2 d S
+Cu1 Cu 0.4053(6) 0.2012(6) 0.0759(8) 0.0123(14) Uani 0.164(4) 1 d P
+Te1 Te 0.61576(7) 0.40935(6) 0.2500 0.00605(12) Uani 1 2 d S
+Te2 Te 0.07511(7) 0.2500 0.0000 0.00652(12) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Gd1 0.00760(18) 0.00624(17) 0.00690(19) 0.000 0.000 0.00083(13)
+Cu1 0.010(2) 0.011(2) 0.016(2) -0.0002(18) -0.0020(17) 0.0009(15)
+Te1 0.0063(2) 0.0058(2) 0.0061(2) 0.000 0.000 0.00133(17)
+Te2 0.0051(2) 0.0068(2) 0.0076(2) -0.00207(17) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Gd Gd -0.1653 3.9035 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Te1 Gd1 Te1 93.353(17) 3_655 .
+Te1 Gd1 Cu1 49.34(9) 3_655 3_655
+Te1 Gd1 Cu1 50.42(9) . 3_655
+Te1 Gd1 Cu1 49.34(9) 3_655 8_665
+Te1 Gd1 Cu1 50.42(9) . 8_665
+Cu1 Gd1 Cu1 40.18(19) 3_655 8_665
+Te1 Gd1 Cu1 120.02(8) 3_655 4
+Te1 Gd1 Cu1 51.23(9) . 4
+Cu1 Gd1 Cu1 97.86(9) 3_655 4
+Cu1 Gd1 Cu1 72.93(14) 8_665 4
+Te1 Gd1 Cu1 120.02(8) 3_655 7_566
+Te1 Gd1 Cu1 51.23(9) . 7_566
+Cu1 Gd1 Cu1 72.93(14) 3_655 7_566
+Cu1 Gd1 Cu1 97.86(9) 8_665 7_566
+Cu1 Gd1 Cu1 77.55(18) 4 7_566
+Te1 Gd1 Te2 151.246(7) 3_655 .
+Te1 Gd1 Te2 92.525(18) . .
+Cu1 Gd1 Te2 142.91(9) 3_655 .
+Cu1 Gd1 Te2 118.28(9) 8_665 .
+Cu1 Gd1 Te2 47.41(8) 4 .
+Cu1 Gd1 Te2 85.05(9) 7_566 .
+Te1 Gd1 Te2 151.246(7) 3_655 6_556
+Te1 Gd1 Te2 92.525(18) . 6_556
+Cu1 Gd1 Te2 118.28(9) 3_655 6_556
+Cu1 Gd1 Te2 142.91(9) 8_665 6_556
+Cu1 Gd1 Te2 85.05(9) 4 6_556
+Cu1 Gd1 Te2 47.41(8) 7_566 6_556
+Te2 Gd1 Te2 56.261(14) . 6_556
+Te1 Gd1 Te1 79.209(13) 3_655 5_666
+Te1 Gd1 Te1 74.327(12) . 5_666
+Cu1 Gd1 Te1 50.53(10) 3_655 5_666
+Cu1 Gd1 Te1 90.62(10) 8_665 5_666
+Cu1 Gd1 Te1 120.98(9) 4 5_666
+Cu1 Gd1 Te1 48.39(9) 7_566 5_666
+Te2 Gd1 Te1 129.400(14) . 5_666
+Te2 Gd1 Te1 75.363(13) 6_556 5_666
+Te1 Gd1 Te1 79.209(13) 3_655 5_665
+Te1 Gd1 Te1 74.327(12) . 5_665
+Cu1 Gd1 Te1 90.62(10) 3_655 5_665
+Cu1 Gd1 Te1 50.53(9) 8_665 5_665
+Cu1 Gd1 Te1 48.39(9) 4 5_665
+Cu1 Gd1 Te1 120.98(9) 7_566 5_665
+Te2 Gd1 Te1 75.363(13) . 5_665
+Te2 Gd1 Te1 129.400(14) 6_556 5_665
+Te1 Gd1 Te1 140.47(2) 5_666 5_665
+Te1 Gd1 Te2 78.959(17) 3_655 5_565
+Te1 Gd1 Te2 150.718(10) . 5_565
+Cu1 Gd1 Te2 128.28(9) 3_655 5_565
+Cu1 Gd1 Te2 107.32(9) 8_665 5_565
+Cu1 Gd1 Te2 108.55(9) 4 5_565
+Cu1 Gd1 Te2 154.80(8) 7_566 5_565
+Te2 Gd1 Te2 82.223(14) . 5_565
+Te2 Gd1 Te2 107.842(16) 6_556 5_565
+Te1 Gd1 Te2 130.378(14) 5_666 5_565
+Te1 Gd1 Te2 76.478(15) 5_665 5_565
+Te1 Gd1 Te2 78.959(17) 3_655 2_565
+Te1 Gd1 Te2 150.718(10) . 2_565
+Cu1 Gd1 Te2 107.32(9) 3_655 2_565
+Cu1 Gd1 Te2 128.28(9) 8_665 2_565
+Cu1 Gd1 Te2 154.80(8) 4 2_565
+Cu1 Gd1 Te2 108.55(9) 7_566 2_565
+Te2 Gd1 Te2 107.842(16) . 2_565
+Te2 Gd1 Te2 82.223(14) 6_556 2_565
+Te1 Gd1 Te2 76.478(15) 5_666 2_565
+Te1 Gd1 Te2 130.378(14) 5_665 2_565
+Te2 Gd1 Te2 55.864(15) 5_565 2_565
+Cu1 Cu1 Cu1 139.1(5) 4 6_556
+Cu1 Cu1 Te1 82.9(3) 4 .
+Cu1 Cu1 Te1 65.59(11) 6_556 .
+Cu1 Cu1 Te2 76.25(11) 4 .
+Cu1 Cu1 Te2 100.34(11) 6_556 .
+Te1 Cu1 Te2 124.99(18) . .
+Cu1 Cu1 Te1 154.6(5) 4 3_645
+Cu1 Cu1 Te1 66.18(11) 6_556 3_645
+Te1 Cu1 Te1 118.61(18) . 3_645
+Te2 Cu1 Te1 98.96(16) . 3_645
+Cu1 Cu1 Te1 70.4(4) 4 7_565
+Cu1 Cu1 Te1 137.27(10) 6_556 7_565
+Te1 Cu1 Te1 99.30(15) . 7_565
+Te2 Cu1 Te1 119.54(19) . 7_565
+Te1 Cu1 Te1 91.47(14) 3_645 7_565
+Cu1 Cu1 Gd1 120.36(10) 4 3_645
+Cu1 Cu1 Gd1 69.91(10) 6_556 3_645
+Te1 Cu1 Gd1 64.76(10) . 3_645
+Te2 Cu1 Gd1 163.01(19) . 3_645
+Te1 Cu1 Gd1 64.59(10) 3_645 3_645
+Te1 Cu1 Gd1 67.59(10) 7_565 3_645
+Cu1 Cu1 Cu1 124.3(6) 4 7_566
+Cu1 Cu1 Cu1 14.75(16) 6_556 7_566
+Te1 Cu1 Cu1 55.30(14) . 7_566
+Te2 Cu1 Cu1 97.70(13) . 7_566
+Te1 Cu1 Cu1 80.89(16) 3_645 7_566
+Te1 Cu1 Cu1 142.74(11) 7_565 7_566
+Gd1 Cu1 Cu1 76.31(10) 3_645 7_566
+Cu1 Cu1 Cu1 26.2(4) 4 7_565
+Cu1 Cu1 Cu1 165.25(16) 6_556 7_565
+Te1 Cu1 Cu1 103.3(2) . 7_565
+Te2 Cu1 Cu1 77.68(12) . 7_565
+Te1 Cu1 Cu1 128.5(2) 3_645 7_565
+Te1 Cu1 Cu1 51.33(10) 7_565 7_565
+Gd1 Cu1 Cu1 115.32(10) 3_645 7_565
+Cu1 Cu1 Cu1 150.5(3) 7_566 7_565
+Cu1 Cu1 Gd1 88.3(4) 4 7_565
+Cu1 Cu1 Gd1 128.77(9) 6_556 7_565
+Te1 Cu1 Gd1 161.8(2) . 7_565
+Te2 Cu1 Gd1 67.53(11) . 7_565
+Te1 Cu1 Gd1 67.13(10) 3_645 7_565
+Te1 Cu1 Gd1 62.63(10) 7_565 7_565
+Gd1 Cu1 Gd1 107.07(14) 3_645 7_565
+Cu1 Cu1 Gd1 141.07(18) 7_566 7_565
+Cu1 Cu1 Gd1 64.33(12) 7_565 7_565
+Cu1 Cu1 Gd1 70.4(4) 4 .
+Cu1 Cu1 Gd1 71.62(9) 6_556 .
+Te1 Cu1 Gd1 60.78(10) . .
+Te2 Cu1 Gd1 64.31(10) . .
+Te1 Cu1 Gd1 130.58(18) 3_645 .
+Te1 Cu1 Gd1 137.80(17) 7_565 .
+Gd1 Cu1 Gd1 122.27(15) 3_645 .
+Cu1 Cu1 Gd1 58.13(15) 7_566 .
+Cu1 Cu1 Gd1 94.70(19) 7_565 .
+Gd1 Cu1 Gd1 130.56(14) 7_565 .
+Cu1 Cu1 Te2 117.8(3) 4 6_556
+Cu1 Cu1 Te2 44.41(7) 6_556 6_556
+Te1 Cu1 Te2 93.43(14) . 6_556
+Te2 Cu1 Te2 55.93(9) . 6_556
+Te1 Cu1 Te2 76.74(12) 3_645 6_556
+Te1 Cu1 Te2 165.76(17) 7_565 6_556
+Gd1 Cu1 Te2 113.02(15) 3_645 6_556
+Cu1 Cu1 Te2 44.03(7) 7_566 6_556
+Cu1 Cu1 Te2 131.50(12) 7_565 6_556
+Gd1 Cu1 Te2 104.80(12) 7_565 6_556
+Gd1 Cu1 Te2 54.98(7) . 6_556
+Cu1 Cu1 Cu1 113.2(5) 4 5_655
+Cu1 Cu1 Cu1 104.39(16) 6_556 5_655
+Te1 Cu1 Cu1 117.1(2) . 5_655
+Te2 Cu1 Cu1 117.9(2) . 5_655
+Te1 Cu1 Cu1 46.58(11) 3_645 5_655
+Te1 Cu1 Cu1 44.90(11) 7_565 5_655
+Gd1 Cu1 Cu1 54.55(11) 3_645 5_655
+Cu1 Cu1 Cu1 117.8(2) 7_566 5_655
+Cu1 Cu1 Cu1 89.19(19) 7_565 5_655
+Gd1 Cu1 Cu1 52.52(12) 7_565 5_655
+Gd1 Cu1 Cu1 175.9(2) . 5_655
+Te2 Cu1 Cu1 122.8(2) 6_556 5_655
+Cu1 Cu1 Te1 17.4(4) 4 5_665
+Cu1 Cu1 Te1 121.79(8) 6_556 5_665
+Te1 Cu1 Te1 71.24(11) . 5_665
+Te2 Cu1 Te1 74.46(11) . 5_665
+Te1 Cu1 Te1 170.10(18) 3_645 5_665
+Te1 Cu1 Te1 85.60(13) 7_565 5_665
+Gd1 Cu1 Te1 122.41(14) 3_645 5_665
+Cu1 Cu1 Te1 107.1(2) 7_566 5_665
+Cu1 Cu1 Te1 43.49(14) 7_565 5_665
+Gd1 Cu1 Te1 103.22(13) 7_565 5_665
+Gd1 Cu1 Te1 53.61(7) . 5_665
+Te2 Cu1 Te1 104.65(11) 6_556 5_665
+Cu1 Cu1 Te1 129.8(2) 5_655 5_665
+Cu1 Cu1 Gd1 43.74(7) 4 5_665
+Cu1 Cu1 Gd1 121.00(7) 6_556 5_665
+Te1 Cu1 Gd1 56.34(9) . 5_665
+Te2 Cu1 Gd1 119.89(16) . 5_665
+Te1 Cu1 Gd1 135.59(16) 3_645 5_665
+Te1 Cu1 Gd1 52.12(8) 7_565 5_665
+Gd1 Cu1 Gd1 76.94(10) 3_645 5_665
+Cu1 Cu1 Gd1 111.63(16) 7_566 5_665
+Cu1 Cu1 Gd1 51.13(10) 7_565 5_665
+Gd1 Cu1 Gd1 106.77(14) 7_565 5_665
+Gd1 Cu1 Gd1 88.15(10) . 5_665
+Te2 Cu1 Gd1 142.02(14) 6_556 5_665
+Cu1 Cu1 Gd1 93.34(17) 5_655 5_665
+Te1 Cu1 Gd1 47.62(6) 5_665 5_665
+Cu1 Te1 Cu1 48.8(2) . 6_556
+Cu1 Te1 Cu1 137.51(8) . 3_655
+Cu1 Te1 Cu1 113.79(15) 6_556 3_655
+Cu1 Te1 Cu1 113.79(15) . 8_665
+Cu1 Te1 Cu1 137.51(8) 6_556 8_665
+Cu1 Te1 Cu1 47.6(2) 3_655 8_665
+Cu1 Te1 Cu1 26.7(2) . 4
+Cu1 Te1 Cu1 73.37(10) 6_556 4
+Cu1 Te1 Cu1 124.59(10) 3_655 4
+Cu1 Te1 Cu1 88.53(14) 8_665 4
+Cu1 Te1 Cu1 73.37(10) . 7_566
+Cu1 Te1 Cu1 26.7(2) 6_556 7_566
+Cu1 Te1 Cu1 88.53(14) 3_655 7_566
+Cu1 Te1 Cu1 124.59(10) 8_665 7_566
+Cu1 Te1 Cu1 94.5(2) 4 7_566
+Cu1 Te1 Gd1 65.89(10) . 3_645
+Cu1 Te1 Gd1 65.89(10) 6_556 3_645
+Cu1 Te1 Gd1 151.26(11) 3_655 3_645
+Cu1 Te1 Gd1 151.26(11) 8_665 3_645
+Cu1 Te1 Gd1 83.70(10) 4 3_645
+Cu1 Te1 Gd1 83.70(10) 7_566 3_645
+Cu1 Te1 Gd1 72.53(10) . .
+Cu1 Te1 Gd1 72.53(10) 6_556 .
+Cu1 Te1 Gd1 64.99(10) 3_655 .
+Cu1 Te1 Gd1 64.99(10) 8_665 .
+Cu1 Te1 Gd1 66.14(10) 4 .
+Cu1 Te1 Gd1 66.14(10) 7_566 .
+Gd1 Te1 Gd1 134.09(2) 3_645 .
+Cu1 Te1 Gd1 130.16(11) . 5_666
+Cu1 Te1 Gd1 82.35(11) 6_556 5_666
+Cu1 Te1 Gd1 64.48(11) 3_655 5_666
+Cu1 Te1 Gd1 109.23(11) 8_665 5_666
+Cu1 Te1 Gd1 155.69(10) 4 5_666
+Cu1 Te1 Gd1 61.89(10) 7_566 5_666
+Gd1 Te1 Gd1 87.598(13) 3_645 5_666
+Gd1 Te1 Gd1 105.673(12) . 5_666
+Cu1 Te1 Gd1 82.35(11) . 5_665
+Cu1 Te1 Gd1 130.16(11) 6_556 5_665
+Cu1 Te1 Gd1 109.23(11) 3_655 5_665
+Cu1 Te1 Gd1 64.48(11) 8_665 5_665
+Cu1 Te1 Gd1 61.89(10) 4 5_665
+Cu1 Te1 Gd1 155.69(10) 7_566 5_665
+Gd1 Te1 Gd1 87.598(13) 3_645 5_665
+Gd1 Te1 Gd1 105.673(12) . 5_665
+Gd1 Te1 Gd1 140.47(2) 5_666 5_665
+Cu1 Te1 Cu1 139.20(7) . 2_665
+Cu1 Te1 Cu1 108.76(11) 6_556 2_665
+Cu1 Te1 Cu1 8.01(18) 3_655 2_665
+Cu1 Te1 Cu1 55.62(4) 8_665 2_665
+Cu1 Te1 Cu1 130.34(11) 4 2_665
+Cu1 Te1 Cu1 82.73(12) 7_566 2_665
+Gd1 Te1 Cu1 144.15(8) 3_645 2_665
+Gd1 Te1 Cu1 67.65(7) . 2_665
+Gd1 Te1 Cu1 56.80(8) 5_666 2_665
+Gd1 Te1 Cu1 116.35(8) 5_665 2_665
+Cu1 Te1 Cu1 108.76(11) . 5_665
+Cu1 Te1 Cu1 139.20(7) 6_556 5_665
+Cu1 Te1 Cu1 55.62(4) 3_655 5_665
+Cu1 Te1 Cu1 8.01(18) 8_665 5_665
+Cu1 Te1 Cu1 82.73(12) 4 5_665
+Cu1 Te1 Cu1 130.34(11) 7_566 5_665
+Gd1 Te1 Cu1 144.15(8) 3_645 5_665
+Gd1 Te1 Cu1 67.65(7) . 5_665
+Gd1 Te1 Cu1 116.35(8) 5_666 5_665
+Gd1 Te1 Cu1 56.80(8) 5_665 5_665
+Cu1 Te1 Cu1 63.58(15) 2_665 5_665
+Cu1 Te2 Cu1 27.5(2) . 4
+Cu1 Te2 Te2 79.66(11) . 6_556
+Cu1 Te2 Te2 100.34(11) 4 6_556
+Cu1 Te2 Te2 100.34(11) . 6
+Cu1 Te2 Te2 79.66(11) 4 6
+Te2 Te2 Te2 180.0 6_556 6
+Cu1 Te2 Gd1 69.81(11) . .
+Cu1 Te2 Gd1 65.07(11) 4 .
+Te2 Te2 Gd1 61.869(7) 6_556 .
+Te2 Te2 Gd1 118.131(7) 6 .
+Cu1 Te2 Gd1 65.07(11) . 7_565
+Cu1 Te2 Gd1 69.81(11) 4 7_565
+Te2 Te2 Gd1 118.131(7) 6_556 7_565
+Te2 Te2 Gd1 61.869(7) 6 7_565
+Gd1 Te2 Gd1 133.51(2) . 7_565
+Cu1 Te2 Gd1 124.18(11) . 3_545
+Cu1 Te2 Gd1 151.58(11) 4 3_545
+Te2 Te2 Gd1 62.068(8) 6_556 3_545
+Te2 Te2 Gd1 117.932(8) 6 3_545
+Gd1 Te2 Gd1 116.764(12) . 3_545
+Gd1 Te2 Gd1 97.777(14) 7_565 3_545
+Cu1 Te2 Gd1 151.58(11) . 5_565
+Cu1 Te2 Gd1 124.18(11) 4 5_565
+Te2 Te2 Gd1 117.932(8) 6_556 5_565
+Te2 Te2 Gd1 62.068(8) 6 5_565
+Gd1 Te2 Gd1 97.777(14) . 5_565
+Gd1 Te2 Gd1 116.764(12) 7_565 5_565
+Gd1 Te2 Gd1 84.21(2) 3_545 5_565
+Cu1 Te2 Cu1 35.24(17) . 6_556
+Cu1 Te2 Cu1 58.29(10) 4 6_556
+Te2 Te2 Cu1 44.41(7) 6_556 6_556
+Te2 Te2 Cu1 135.59(7) 6 6_556
+Gd1 Te2 Cu1 58.53(7) . 6_556
+Gd1 Te2 Cu1 88.66(8) 7_565 6_556
+Gd1 Te2 Cu1 97.17(8) 3_545 6_556
+Gd1 Te2 Cu1 154.21(7) 5_565 6_556
+Cu1 Te2 Cu1 58.29(10) . 7_565
+Cu1 Te2 Cu1 35.24(17) 4 7_565
+Te2 Te2 Cu1 135.59(8) 6_556 7_565
+Te2 Te2 Cu1 44.41(7) 6 7_565
+Gd1 Te2 Cu1 88.66(7) . 7_565
+Gd1 Te2 Cu1 58.53(7) 7_565 7_565
+Gd1 Te2 Cu1 154.21(7) 3_545 7_565
+Gd1 Te2 Cu1 97.17(8) 5_565 7_565
+Cu1 Te2 Cu1 92.58(15) 6_556 7_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Gd1 Te1 3.0590(8) 3_655
+Gd1 Te1 3.0767(8) .
+Gd1 Cu1 3.087(5) 3_655
+Gd1 Cu1 3.087(5) 8_665
+Gd1 Cu1 3.169(5) 4
+Gd1 Cu1 3.169(5) 7_566
+Gd1 Te2 3.2288(6) .
+Gd1 Te2 3.2288(6) 6_556
+Gd1 Te1 3.2352(6) 5_666
+Gd1 Te1 3.2352(6) 5_665
+Gd1 Te2 3.2499(7) 5_565
+Gd1 Te2 3.2499(7) 2_565
+Cu1 Cu1 1.223(10) 4
+Cu1 Cu1 2.121(10) 6_556
+Cu1 Te1 2.566(5) .
+Cu1 Te2 2.572(4) .
+Cu1 Te1 2.625(5) 3_645
+Cu1 Te1 2.701(5) 7_565
+Cu1 Gd1 3.087(5) 3_645
+Cu1 Cu1 3.148(2) 7_566
+Cu1 Cu1 3.148(2) 7_565
+Cu1 Gd1 3.169(5) 7_565
+Cu1 Te2 3.616(5) 6_556
+Cu1 Cu1 3.718(9) 5_655
+Cu1 Te1 3.767(5) 5_665
+Cu1 Gd1 3.852(5) 5_665
+Te1 Cu1 2.566(5) 6_556
+Te1 Cu1 2.625(5) 3_655
+Te1 Cu1 2.625(5) 8_665
+Te1 Cu1 2.701(5) 4
+Te1 Cu1 2.701(5) 7_566
+Te1 Gd1 3.0590(8) 3_645
+Te1 Gd1 3.2352(6) 5_666
+Te1 Gd1 3.2352(6) 5_665
+Te1 Cu1 3.767(5) 2_665
+Te1 Cu1 3.767(5) 5_665
+Te2 Cu1 2.572(5) 4
+Te2 Te2 3.0446(6) 6_556
+Te2 Te2 3.0446(6) 6
+Te2 Gd1 3.2288(6) 7_565
+Te2 Gd1 3.2499(7) 3_545
+Te2 Gd1 3.2499(7) 5_565
+Te2 Cu1 3.616(5) 6_556
+Te2 Cu1 3.616(5) 7_565

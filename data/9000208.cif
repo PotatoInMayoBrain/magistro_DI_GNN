@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/02/9000208.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000208
+loop_
+_publ_author_name
+'Kanamaru, F.'
+'Vand, V.'
+_publ_section_title
+;
+ The crystal structure of a clay-organic complex of 6-amino hexanoic acid and
+ vermiculite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1550
+_journal_page_last               1561
+_journal_volume                  55
+_journal_year                    1970
+_chemical_formula_sum            'C12 H2 Al1.43 Fe0.48 Mg2.37 N2 O16 Si2.72'
+_chemical_name_mineral           Vermiculite
+_space_group_IT_number           5
+_symmetry_space_group_name_Hall  'C 2y'
+_symmetry_space_group_name_H-M   'C 1 2 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.0
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.33
+_cell_length_b                   9.18
+_cell_length_c                   17.45
+_cell_volume                     847.454
+_database_code_amcsd             0000213
+_exptl_crystal_density_diffrn    2.467
+_cod_original_formula_sum        'Mg2.37 Fe.48 Al1.43 Si2.72 O16 C12 N2 H2'
+_cod_database_code               9000208
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg1 0.00000 0.00000 0.00000 0.79000 Mg 0
+Fe1 0.00000 0.00000 0.00000 0.16000 Fe 0
+Al1 0.00000 0.00000 0.00000 0.05000 Al 0
+Mg2 0.00000 0.33300 0.00000 0.79000 Mg 0
+Fe2 0.00000 0.33300 0.00000 0.16000 Fe 0
+Al2 0.00000 0.33300 0.00000 0.05000 Al 0
+Mg3 0.00000 0.66700 0.00000 0.79000 Mg 0
+Fe3 0.00000 0.66700 0.00000 0.16000 Fe 0
+Al3 0.00000 0.66700 0.00000 0.05000 Al 0
+Si1 0.39300 0.00000 0.16000 0.68000 Si 0
+Al1 0.39300 0.00000 0.16000 0.32000 Al 0
+Si2 0.39300 0.33300 0.16000 0.68000 Si 0
+Al2 0.39300 0.33300 0.16000 0.32000 Al 0
+O1 0.35200 0.00000 0.06100 1.00000 O 0
+O2 0.35200 0.33300 0.06100 1.00000 O 0
+O3 0.35200 0.66700 0.06100 1.00000 O 0
+O4 0.13600 0.46400 0.18900 1.00000 O 0
+O5 0.13600 0.92900 0.18900 1.00000 O 0
+O6 0.41200 0.16700 0.21800 1.00000 O 0
+O-H 0.71500 0.33200 0.33000 1.00000 O 1
+O 0.46500 0.29800 0.43200 1.00000 O 0
+C0 0.60000 0.36600 0.39200 1.00000 C 0
+C1 0.48000 0.50500 0.42200 1.00000 C 0
+C2 0.59500 0.63300 0.38300 1.00000 C 0
+C3 0.47500 0.76300 0.41300 1.00000 C 0
+C4 0.59000 0.90000 0.37500 1.00000 C 0
+C5 0.47000 0.03800 0.40500 1.00000 C 0
+N 0.58500 0.16700 0.36700 1.00000 N 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:45:58+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000213

@@ -1,0 +1,295 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 17:23:40 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180391 $
+#$URL: svn://www.crystallography.net/cod/cif/7/20/60/7206072.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7206072
+loop_
+_publ_author_name
+'M\'inguez Espallargas, Guillermo'
+'Florence, Alastair J.'
+'van de Streek, Jacco'
+'Brammer, Lee'
+_publ_section_title
+;
+ Different structural destinations: comparing reactions of
+ [CuBr2(3-Brpy)2] crystals with HBr and HCl gas
+;
+_journal_issue                   13
+_journal_name_full               CrystEngComm
+_journal_page_first              4400
+_journal_paper_doi               10.1039/c1ce05222e
+_journal_volume                  13
+_journal_year                    2011
+_chemical_compound_source        'see text'
+_chemical_formula_moiety         'C10 H8 Br4 Cu N2'
+_chemical_formula_sum            'C10 H8 Br4 Cu N2'
+_chemical_formula_weight         539.33
+_chemical_name_systematic        ?
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.526(1)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.01653(10)
+_cell_length_b                   13.9440(2)
+_cell_length_c                   12.3686(2)
+_cell_measurement_temperature    298
+_cell_volume                     692.69(2)
+_computing_data_collection
+'DIFFRAC plus XRD Commander (Kienle & Jacob, 2003)'
+_computing_data_reduction        'DASH (David et al., 2001)'
+_computing_publication_material
+'enCifer (Cambridge Crystallographic Data Centre, 2004)'
+_computing_structure_refinement  'Topas (Coelho, 2003)'
+_computing_structure_solution    'DASH (David et al., 2001)'
+_diffrn_ambient_temperature      298
+_diffrn_detector                 '1D linear PSD'
+_diffrn_detector_type            'Bruker Vantec, microgap linear PSD'
+_diffrn_measurement_device_type  'Bruker AXS D8 Advance'
+_diffrn_radiation_monochromator  'primary focussing, Ge 111'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a~1~'
+_diffrn_radiation_wavelength     1.54056
+_diffrn_reflns_limit_h_max       3
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            296
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_target            Cu
+_diffrn_source_type              'Bruker-AXS D8'
+_exptl_absorpt_coefficient_mu    15.568
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    2.586
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_F_000             502
+_pd_char_colour                  green
+_pd_char_particle_morphology     'visual estimate, prisms'
+_pd_instr_location
+'Solid-State Research Group, University of Strathclyde, Glasgow, U.K.'
+_pd_meas_2theta_range_inc        0.017
+_pd_meas_2theta_range_max        70.0
+_pd_meas_2theta_range_min        4.0
+_pd_meas_number_of_points        3883
+_pd_meas_scan_method             step
+_pd_prep_temperature             298
+_pd_proc_ls_background_function
+;
+Chebyshev polynomial
+;
+_pd_proc_ls_pref_orient_corr
+; 
+A spherical harmonics-based preferred orientation correction 
+was applied with Topas during the Rietveld refinement.
+;
+_pd_proc_ls_profile_function
+;   
+Fundamental parameters with axial divergence correction
+;
+_pd_proc_ls_prof_R_factor        0.03355
+_pd_proc_ls_prof_wR_expected     0.02323
+_pd_proc_ls_prof_wR_factor       0.04352
+_pd_spec_mounting                '0.7 mm borosilicate capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              12
+_pd_spec_size_equat              0.7
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.873
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           sparse
+_refine_ls_number_constraints    3
+_refine_ls_number_parameters     75
+_refine_ls_number_restraints     47
+_refine_ls_shift/su_max          0.005
+_refine_ls_weighting_details     1/\s(Y~obs~)^2^
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            1_structure-determination.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7206072
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Br1 Br Uiso 0.36969(43) 0.46367(12) 0.65119(13) 1.000 0.0174(6) . .
+Br3 Br Uiso -0.29861(43) 0.10990(11) 0.59932(13) 1.000 0.0035(6) . .
+Cu1 Cu Uiso 0.00000 0.50000 0.50000 1.000 0.032(1) . .
+N1 N Uiso -0.01157(69) 0.36099(22) 0.46145(23) 1.000 0.013(2) . .
+C2 C Uiso -0.13100(10) 0.29468(25) 0.52991(29) 1.000 0.013(2) . .
+C3 C Uiso -0.13870(1) 0.19503(25) 0.50452(28) 1.000 0.013(2) . .
+C4 C Uiso -0.01661(91) 0.16869(22) 0.40319(27) 1.000 0.013(2) . .
+C5 C Uiso 0.10690(11) 0.23695(24) 0.33281(33) 1.000 0.013(2) . .
+C6 C Uiso 0.10700(10) 0.33471(25) 0.36472(29) 1.000 0.013(2) . .
+H2 H Uiso -0.21310(75) 0.31820(17) 0.59980(22) 1.000 0.016(2) . .
+H4 H Uiso -0.01840(70) 0.10170(17) 0.38130(20) 1.000 0.016(2) . .
+H5 H Uiso 0.18870(82) 0.21520(21) 0.26320(21) 1.000 0.016(2) . .
+H6 H Uiso 0.19290(80) 0.38660(18) 0.31640(18) 1.000 0.016(2) . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Br1 Cu1 N1 89.65(8) . . . yes
+Br1 Cu1 Br1 180.00 . . 3_566 yes
+Br1 Cu1 N1 90.34 . . 3_566 yes
+Br1 Cu1 N1 90.34 3_566 . . yes
+N1 Cu1 N1 180.00 . . 3_566 yes
+Br1 Cu1 N1 89.66 3_566 . 3_566 yes
+Cu1 N1 C2 121.7(2) . . . yes
+Cu1 N1 C6 118.0(2) . . . yes
+C2 N1 C6 120.3(3) . . . yes
+N1 C2 C3 122.6(3) . . . yes
+Br3 C3 C2 120.6(3) . . . yes
+Br3 C3 C4 122.9(3) . . . yes
+C2 C3 C4 116.5(3) . . . no
+C3 C4 C5 120.9(3) . . . no
+C4 C5 C6 119.0(3) . . . no
+N1 C6 C5 120.7(3) . . . yes
+N1 C2 H2 116.6(4) . . . no
+C3 C2 H2 120.8(4) . . . no
+C3 C4 H4 120.0(4) . . . no
+C5 C4 H4 119.2(4) . . . no
+C4 C5 H5 117.9(3) . . . no
+C6 C5 H5 123.2(3) . . . no
+N1 C6 H6 117.5(4) . . . no
+C5 C6 H6 121.8(4) . . . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Br1 Cu1 2.4305(16) . . yes
+Br3 C3 1.792(4) . . yes
+Cu1 N1 1.996(3) . . yes
+Cu1 N1 1.996(3) . 3_566 yes
+N1 C2 1.345(5) . . yes
+N1 C6 1.344(4) . . yes
+C2 C3 1.426(6) . . no
+C3 C4 1.399(5) . . no
+C4 C5 1.385(4) . . no
+C5 C6 1.418(5) . . no
+C2 H2 0.984(4) . . no
+C4 H4 0.973(4) . . no
+C5 H5 0.973(4) . . no
+C6 H6 1.002(5) . . no
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Br1 Cu1 3.2015(16) . 1_655 no
+Br1 N1 3.136(3) . . no
+Br1 C2 3.434(4) . . no
+Br1 C2 3.447(4) . 1_655 no
+Br1 Cu1 3.2015(16) . 3_666 no
+Br1 N1 3.155(3) . 3_566 no
+Br1 Br3 3.712(2) . 2_556 no
+Br1 C6 3.517(4) . 3_666 no
+Br1 C6 3.406(4) . 3_566 no
+Br1 C5 3.746(3) . 4_555 no
+Br3 C6 3.732(4) . 4_555 no
+Br3 Br1 3.712(2) . 2_546 no
+Br1 H2 2.710(3) . 1_655 no
+Br1 H2 3.158(3) . . no
+Br1 H6 3.105(3) . 3_566 no
+Br1 H6 2.756(3) . 3_666 no
+Br1 H5 2.947(3) . 4_555 no
+Br3 H4 3.222(3) . 3_556 no
+Cu1 Br1 3.2015(16) . 1_455 no
+Cu1 Br1 3.2015(16) . 3_666 no
+N1 Br1 3.136(3) . . no
+N1 Br1 3.155(3) . 3_566 no
+C2 Br1 3.447(4) . 1_455 no
+C5 Br1 3.746(3) . 4_554 no
+C6 Br1 3.517(4) . 3_666 no
+C6 Br3 3.732(4) . 4_554 no
+H2 Br1 2.710(3) . 1_455 no
+H2 Br1 3.158(3) . . no
+H4 Br3 3.222(3) . 3_556 no
+H5 Br1 2.947(3) . 4_554 no
+H6 Br1 3.105(3) . 3_566 no
+H6 Br1 2.756(3) . 3_666 no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Br1 Cu1 N1 C2 61.6(2) . . . . no
+Br1 Cu1 N1 C2 -118.4(2) 3_566 . . . no
+Br1 Cu1 N1 C6 -117.9(2) . . . . no
+Br1 Cu1 N1 C6 62.1(2) 3_566 . . . no
+Cu1 N1 C2 C3 -179.39(14) . . . . no
+C6 N1 C2 C3 0.00 . . . . no
+Cu1 N1 C6 C5 179.63(18) . . . . no
+C2 N1 C6 C5 0.3(3) . . . . no
+N1 C2 C3 Br3 179.63(18) . . . . no
+N1 C2 C3 C4 -0.4(3) . . . . no
+Br3 C3 C4 C5 -179.5(2) . . . . no
+C2 C3 C4 C5 0.5(4) . . . . no
+C3 C4 C5 C6 -0.2(4) . . . . no
+C4 C5 C6 N1 -0.2(3) . . . . no

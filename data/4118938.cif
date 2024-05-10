@@ -1,0 +1,115 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:43:07 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178960 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/89/4118938.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4118938
+loop_
+_publ_author_name
+'Hailong Chen'
+'Geoffroy Hautier'
+'Gerbrand Ceder'
+_publ_section_title
+;
+ Synthesis, Computed Stability, and Crystal Structure of a New Family of
+ Inorganic Compounds: Carbonophosphates
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              19619
+_journal_page_last               19627
+_journal_paper_doi               10.1021/ja3040834
+_journal_volume                  134
+_journal_year                    2012
+_chemical_compound_source        synthetic
+_chemical_formula_moiety         'C Mn O7 P, 3(Na)'
+_chemical_formula_structural     'Na3 Mn (P O4) (C O3)'
+_chemical_formula_sum            'C Mn Na3 O7 P'
+_chemical_formula_weight         278.89
+_chemical_name_common            sidorenkite
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_audit_author_name               'Chen, HL'
+_audit_creation_date             2012-08-31T16:30
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2012-08-31T16:30  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.1225(12)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   8.98593(11)
+_cell_length_b                   6.73577(5)
+_cell_length_c                   5.15998(4)
+_cell_measurement_radiation      Synchrotron
+_cell_measurement_temperature    300
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      2
+_cell_measurement_wavelength     0.775192
+_cell_volume                     312.318(5)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      300
+_diffrn_radiation_wavelength     0.775192
+_exptl_absorpt_coefficient_mu    2.55
+_exptl_crystal_density_diffrn    2.966
+_pd_block_id                     2012-08-31T16:30|TEST2|mpc|Overall
+_pd_char_atten_coef_mu_calc      2.561
+_pd_phase_name
+;
+;
+_pd_prep_temperature             400
+_refine_ls_goodness_of_fit_all   2.40
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     54
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.02
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            ja3040834_si_005.cif
+_cod_data_source_block           TEST2_phase_1
+_cod_original_cell_volume        312.318(7)
+_cod_database_code               4118938
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mn Mn1 0.36374(19) 0.75 0.77456(35) 1.0 Uiso 0.00757 2
+P P1 0.41224(30) 0.25 0.7064(6) 1.0 Uiso 0.01714 2
+Na Na1 0.74339(20) 0.99822(29) 0.7495(7) 1.0 Uiso 0.00931 4
+Na Na2 0.08374(35) 0.25 0.7636(9) 1.0 Uiso 0.01147 2
+C C1 0.0660(9) 0.75 0.7471(23) 1.0 Uiso 0.0076 2
+O O1 0.1091(6) 0.75 0.9618(11) 1.0 Uiso 0.00815 2
+O O2 0.1436(6) 0.75 0.5413(11) 1.0 Uiso 0.0012 2
+O O3 0.9257(6) 0.75 0.7184(12) 1.0 Uiso 0.0176 2
+O O4 0.31927(31) 0.4273(5) 0.7848(9) 1.0 Uiso 0.02955 4
+O O5 0.5764(6) 0.25 0.8126(11) 1.0 Uiso 0.02888 2
+O O6 0.5683(6) 0.75 0.6070(9) 1.0 Uiso 0.01413 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mn 2.0
+P 2.0
+Na 6.0
+C 2.0
+O 14.0

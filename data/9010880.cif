@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/08/9010880.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010880
+loop_
+_publ_author_name
+'Zanazzi, P. F.'
+'Comodi, P.'
+'Nazzareni, S.'
+'Rotiroti, N.'
+'van Smaalen, S.'
+_publ_section_title
+;
+ Behavior of 10-A phase at low temperatures
+ Sample: T = 293 K
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              23
+_journal_page_last               29
+_journal_paper_doi               10.1007/s00269-006-0123-9
+_journal_volume                  34
+_journal_year                    2007
+_chemical_formula_structural     Mg3Si4O10(OH)2*H2O
+_chemical_formula_sum            'H5.92 Mg3 O13 Si4'
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.97
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.3007
+_cell_length_b                   9.186
+_cell_length_c                   10.185
+_cell_volume                     488.441
+_database_code_amcsd             0009050
+_diffrn_ambient_temperature      293
+_exptl_crystal_density_diffrn    2.714
+_cod_original_formula_sum        'Si4 Mg3 O13 H5.92'
+_cod_database_code               9010880
+_amcsd_formula_title             Mg3Si4O10(OH)2*H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Si 0.57670 0.16680 0.23050 1.00000 0.01290 Si 0
+Mg1 0.00000 0.50000 0.50000 1.00000 0.01310 Mg 0
+Mg2 0.00000 0.83380 0.50000 1.00000 0.01320 Mg 0
+O1 0.80980 0.24850 0.17570 1.00000 0.01690 O 0
+O2 0.55550 0.00000 0.17560 1.00000 0.01680 O 0
+O3 0.63030 0.16690 0.39160 1.00000 0.01170 O 0
+O-H4 0.13220 0.00000 0.39500 1.00000 0.01270 O 1
+Wat5 0.01400 0.00000 0.02600 0.50000 0.03000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:25+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009050

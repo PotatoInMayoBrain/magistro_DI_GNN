@@ -1,0 +1,109 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/83/9008365.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9008365
+loop_
+_publ_author_name
+'McCusker, L. B.'
+'Baerlocher, C.'
+_publ_section_title
+;Rietveld refinement of the crystal structure of the new zeolite mineral
+ gobbinsite Locality: County Antrim, Northern Ireland
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              281
+_journal_page_last               289
+_journal_volume                  171
+_journal_year                    1985
+_chemical_compound_source        'County Antrim, Northern Ireland'
+_chemical_formula_sum            'Al3 Ca0.3 H12 K1.125 Na1.3 O21.325 Si5'
+_chemical_name_mineral           Gobbinsite
+_space_group_IT_number           31
+_symmetry_space_group_name_Hall  'P 2ac -2'
+_symmetry_space_group_name_H-M   'P m n 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.108
+_cell_length_b                   9.766
+_cell_length_c                   10.171
+_cell_volume                     1004.027
+_database_code_amcsd             0010927
+_exptl_crystal_density_diffrn    2.185
+_cod_original_formula_sum        'Na1.3 K1.125 (Al3 Si5) O21.325 Ca.3 H12'
+_cod_database_code               9008365
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,-y,1/2+z
+-x,y,z
+1/2-x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.24700 0.22800 0.28400 0.65000 0.11600 Na 0
+K1 0.50000 -0.07100 0.61500 0.85000 0.11600 K 0
+Al1 0.15600 0.43200 -0.19100 0.37500 0.02600 Al 0
+Si1 0.15600 0.43200 -0.19100 0.62500 0.02600 Si 0
+Al2 0.15400 0.11000 -0.24200 0.37500 0.02600 Al 0
+Si2 0.15400 0.11000 -0.24200 0.62500 0.02600 Si 0
+Al3 0.34500 0.07300 0.00000 0.37500 0.02600 Al 0
+Si3 0.34500 0.07300 0.00000 0.62500 0.02600 Si 0
+Al4 0.34800 0.38900 0.04800 0.37500 0.02600 Al 0
+Si4 0.34800 0.38900 0.04800 0.62500 0.02600 Si 0
+O1 0.18600 0.27500 -0.24100 1.00000 0.02300 O 0
+O2 0.00000 0.44100 -0.16200 1.00000 0.02300 O 0
+O3 0.20000 0.53800 -0.30900 1.00000 0.02300 O 0
+O4 0.25400 0.45900 -0.06100 1.00000 0.02300 O 0
+O5 0.00000 0.07400 -0.19700 1.00000 0.02300 O 0
+O6 0.19800 0.04800 -0.39400 1.00000 0.02300 O 0
+O7 0.25400 0.04600 -0.13800 1.00000 0.02300 O 0
+O8 0.31200 0.22600 0.05900 1.00000 0.02300 O 0
+O9 0.50000 0.07300 -0.02600 1.00000 0.02300 O 0
+O10 0.50000 0.41400 0.00900 1.00000 0.02300 O 0
+Wat1 0.50000 0.24300 0.32100 1.00000 0.11600 O 2
+Wat2 0.00000 0.39500 0.14600 0.87500 0.11600 O 2
+K2 0.00000 0.39500 0.14600 0.12500 0.11600 K 0
+Wat3 0.00000 0.31400 0.30600 0.90000 0.11600 O 2
+Wat4 0.34100 0.27100 0.55900 0.85000 0.11600 O 2
+Ca4 0.34100 0.27100 0.55900 0.15000 0.11600 Ca 0
+Wat5 0.50000 0.33800 0.60000 0.85000 0.11600 O 2
+K5 0.50000 0.33800 0.60000 0.15000 0.11600 K 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010927

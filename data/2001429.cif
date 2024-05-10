@@ -1,0 +1,163 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/14/2001429.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001429
+loop_
+_publ_author_name
+'van der Lee, A.'
+'de Boer, J. L.'
+_publ_section_title
+;
+ Redetermination of the structure of hessite, Ag~2~Te-III
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1444
+_journal_page_last               1446
+_journal_paper_doi               10.1107/S0108270193003294
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'Ag2 Te'
+_chemical_formula_weight         343.34
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 124.160(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.1640(10)
+_cell_length_b                   4.4680(10)
+_cell_length_c                   8.9770(10)
+_cell_measurement_reflns_used    22
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      33.19
+_cell_measurement_theta_min      30.50
+_cell_volume                     270.96(8)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4F'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           Mo
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.061
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            6332
+_diffrn_reflns_theta_max         49.99
+_diffrn_standards_decay_%        '0.25, 0.20, 0.29'
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    24.56
+_exptl_absorpt_correction_T_max  7.95
+_exptl_absorpt_correction_T_min  4.95
+_exptl_absorpt_correction_type   'integration (Spek, 1983)'
+_exptl_crystal_colour            grey
+_exptl_crystal_density_diffrn    8.395
+_exptl_crystal_description       cylinder
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_rad          0.05
+_refine_diff_density_max         5.7
+_refine_diff_density_min         -5.8
+_refine_ls_extinction_coef       370.E1(10)
+_refine_ls_extinction_method     'Zachariasen (gaussian)'
+_refine_ls_goodness_of_fit_obs   6.979
+_refine_ls_number_parameters     29
+_refine_ls_number_reflns         2266
+_refine_ls_R_factor_obs          0.057
+_refine_ls_shift/esd_max         <10^-5^
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.042
+_reflns_number_observed          2266
+_reflns_number_total             3060
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            ha1058.cif
+_cod_data_source_block           ha1058_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        271.00(10)
+_cod_original_formula_sum        'Ag2 Te1'
+_cod_database_code               2001429
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x,1/2-y,1/2+z
+-x,-1/2+y,-1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ag(1) .01880(9) .1507(2) .37099(7)
+Ag(2) .33270(10) .8383(2) .99566(9)
+Te .27179(6) .15840(10) .24247(5)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+Te Ag(1) Te . . 4_556 119.17(3)
+Te Ag(1) Te . . 4_566 117.47(3)
+Te Ag(1) Te . . 3 104.48(2)
+Te Ag(1) Te 4_556 . 4_566 96.66(2)
+Te Ag(1) Te 4_556 . 3 122.01(2)
+Te Ag(1) Te 4_566 . 3 94.85(2)
+Te Ag(2) Te 3 . 1_566 155.79(3)
+Te Ag(2) Te 3 . 4_667 92.60(2)
+Te Ag(2) Te 3 . 3_565 95.32(2)
+Te Ag(2) Te 1_566 . 4_667 96.31(2)
+Te Ag(2) Te 1_566 . 3_565 100.38(2)
+Te Ag(2) Te 4_667 . 3_565 117.49(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ag(1) Te . . 2.8765(7)
+Ag(1) Te . 3 2.8947(7)
+Ag(1) Te . 4_556 2.9648(8)
+Ag(1) Te . 4_566 3.0163(8)
+Ag(1) Ag(1) . 2_556 2.8410(10)
+Ag(1) Ag(1) . 4_556 3.0091(7)
+Ag(1) Ag(2) . 2_566 2.9093(8)
+Ag(1) Ag(2) . 3_554 3.0610(10)
+Ag(1) Ag(2) . 3_564 3.1330(10)
+Ag(2) Ag(2) . 2_677 3.053(2)
+Ag(2) Te . 4_667 2.8415(7)
+Ag(2) Te . 1_566 2.9050(8)
+Ag(2) Te . 3 3.0114(9)
+Ag(2) Te . 3_565 3.0340(10)
+Ag(2) Te . 1_556 3.9523(9)
+Te Te . 2_656 4.2331(8)
+Te Te . 4_656 4.2811(7)
+Te Te . 2 4.3534(8)

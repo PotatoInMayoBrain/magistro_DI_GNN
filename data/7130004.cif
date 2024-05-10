@@ -1,0 +1,801 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-04-22 00:56:13 +0300 (Fri, 22 Apr 2022) $
+#$Revision: 274624 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/13/00/7130004.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7130004
+loop_
+_publ_author_name
+'Petrosova, Hanna R.'
+'Kucheriv, Olesia I.'
+'Shova, Sergiu'
+'Gural'skiy, Il'ya A.'
+_publ_section_title
+;
+ Aziridinium cation templating 3D lead halide hybrid perovskites
+;
+_journal_name_full               'Chemical Communications'
+_journal_paper_doi               10.1039/D2CC01364A
+_journal_year                    2022
+_chemical_formula_moiety         'I3 Pb1, 0.167(C12), 0.083(N12)'
+_chemical_formula_sum            'C2 I3 N Pb'
+_chemical_formula_weight         625.92
+_space_group_crystal_system      cubic
+_space_group_IT_number           221
+_space_group_name_Hall           '-P 4 2 3'
+_space_group_name_H-M_alt        'P m -3 m'
+_audit_creation_date             2022-02-08
+_audit_creation_method
+;
+Olex2 1.5
+(compiled 2021.12.09 svn.r5202d8cf for OlexSys, GUI svn.r6439)
+;
+_audit_update_record
+;
+2022-02-18 deposited with the CCDC.	2022-03-30 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   6.3640(4)
+_cell_length_b                   6.3640(4)
+_cell_length_c                   6.3640(4)
+_cell_measurement_reflns_used    116
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      21.9450
+_cell_measurement_theta_min      3.1930
+_cell_volume                     257.75(3)
+_computing_cell_refinement       'CrysAlisPro 1.171.41.122a (Rigaku OD, 2021)'
+_computing_data_collection       'CrysAlisPro 1.171.41.122a (Rigaku OD, 2021)'
+_computing_data_reduction        'CrysAlisPro 1.171.41.122a (Rigaku OD, 2021)'
+_computing_molecular_graphics    'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'SHELXL 2018/3 (Sheldrick, 2015)'
+_computing_structure_solution    'SHELXT 2018/2 (Sheldrick, 2018)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector                 'CCD plate'
+_diffrn_detector_area_resol_mean 16.1593
+_diffrn_detector_type            Eos
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 0.939
+_diffrn_measurement_details
+;
+List of Runs (angles in degrees, time in seconds):
+
+  # Type    Start    End  Width  t~exp~   \w     \q     \k     \f   Frames
+#--------------------------------------------------------------------------
+  1  \w    -17.00  33.00   1.00   50.00    --   17.71 -78.00-137.00   50
+;
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Xcalibur, Eos'
+_diffrn_measurement_method       '\w scans'
+_diffrn_orient_matrix_type
+'CrysAlisPro convention (1999,Acta A55,543-557)'
+_diffrn_orient_matrix_UB_11      0.0118689000
+_diffrn_orient_matrix_UB_12      -0.0455532000
+_diffrn_orient_matrix_UB_13      -0.1009856000
+_diffrn_orient_matrix_UB_21      0.1053868000
+_diffrn_orient_matrix_UB_22      -0.0269896000
+_diffrn_orient_matrix_UB_23      0.0245061000
+_diffrn_orient_matrix_UB_31      -0.0344125000
+_diffrn_orient_matrix_UB_32      -0.0980162000
+_diffrn_orient_matrix_UB_33      0.0403224000
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0371
+_diffrn_reflns_av_unetI/netI     0.0423
+_diffrn_reflns_Laue_measured_fraction_full 1.000
+_diffrn_reflns_Laue_measured_fraction_max 0.939
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -3
+_diffrn_reflns_number            298
+_diffrn_reflns_point_group_measured_fraction_full 1.000
+_diffrn_reflns_point_group_measured_fraction_max 0.939
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         28.708
+_diffrn_reflns_theta_min         3.201
+_diffrn_source                   'fine-focus sealed X-ray tube'
+_diffrn_source_type              'Enhance (Mo) X-ray Source'
+_exptl_absorpt_coefficient_mu    25.270
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  0.96692
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.41.122a (Rigaku Oxford Diffraction, 2021)
+Empirical absorption correction using spherical harmonics,
+implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_crystal_colour            'clear dark brown'
+_exptl_crystal_density_diffrn    4.033
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             260
+_exptl_crystal_size_max          0.01
+_exptl_crystal_size_mid          0.01
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         1.141
+_refine_diff_density_min         -0.701
+_refine_diff_density_rms         0.166
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.066
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     6
+_refine_ls_number_reflns         92
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.066
+_refine_ls_R_factor_all          0.0344
+_refine_ls_R_factor_gt           0.0318
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0111P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0470
+_refine_ls_wR_factor_ref         0.0476
+_reflns_Friedel_coverage         0.000
+_reflns_number_gt                84
+_reflns_number_total             92
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            d2cc01364a2.cif
+_cod_data_source_block           shi_5652_ilgu_autored
+_cod_original_cell_volume        257.75(5)
+_cod_database_code               7130004
+_shelx_shelxl_version_number     2018/3
+_chemical_oxdiff_formula         C2N1H5Pb1I3
+_chemical_oxdiff_usercomment     AP_37
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_estimated_absorpt_t_max   0.786
+_shelx_estimated_absorpt_t_min   0.786
+_olex2_refinement_description
+;
+1. Shared sites
+{C2, N1}
+2. Uiso/Uaniso restraints and constraints
+Uiso(C2) = Uiso(N1)
+3. Others
+ Fixed Sof: C2(0.04167) N1(0.02083)
+;
+_shelx_res_file
+;
+TITL shi_5652_ilgu_autored_a.res in Pm-3m
+    shi_5652_ilgu_autored.res
+    created by SHELXL-2018/3 at 09:56:48 on 08-Feb-2022
+REM Old TITL shI_5652_IlGu_autored in P-43m #215
+REM SHELXT solution in Pm-3m: R1 0.134, Rweak 0.033, Alpha 0.021
+REM <I/s> 0.000 for 0 systematic absences, Orientation as input
+REM Formula found by SHELXT: C Pb I3
+CELL 0.71073 6.364001 6.364001 6.364001 90 90 90
+ZERR 1 0.000382 0.000382 0.000382 0 0 0
+LATT 1
+SYMM -X,-Y,+Z
+SYMM -X,+Y,-Z
+SYMM +X,-Y,-Z
+SYMM +Z,+X,+Y
+SYMM +Z,-X,-Y
+SYMM -Z,-X,+Y
+SYMM -Z,+X,-Y
+SYMM +Y,+Z,+X
+SYMM -Y,+Z,-X
+SYMM +Y,-Z,-X
+SYMM -Y,-Z,+X
+SYMM +Y,+X,-Z
+SYMM -Y,-X,-Z
+SYMM +Y,-X,+Z
+SYMM -Y,+X,+Z
+SYMM +X,+Z,-Y
+SYMM -X,+Z,+Y
+SYMM -X,-Z,-Y
+SYMM +X,-Z,+Y
+SYMM +Z,+Y,-X
+SYMM +Z,-Y,+X
+SYMM -Z,+Y,+X
+SYMM -Z,-Y,-X
+SFAC C I N Pb
+UNIT 2 3 1 1
+EQIV $1 2-Y,+Z,2-X
+EQIV $2 +Y,1-X,+Z
+EADP C2 N1
+EXYZ C2 N1
+
+L.S. 10
+PLAN  5
+SIZE 0.01 0.01 0.01
+CONF
+BIND I002 Pb01_$1
+BIND I002 Pb01_$2
+LIST 4
+MORE -1
+fmap 2
+acta
+REM <olex2.extras>
+REM <HklSrc "%.\\shI_5652_IlGu_autored.hkl">
+REM </olex2.extras>
+
+WGHT    0.011100
+FVAR       0.53482
+PB01  4    1.000000    1.000000    1.000000    10.02083    0.02750    0.02750 =
+         0.02750    0.00000    0.00000    0.00000
+I002  2    1.000000    0.500000    1.000000    10.06250    0.10018    0.02216 =
+         0.10018    0.00000    0.00000    0.00000
+PART 3
+C2    1    1.409651    0.500000    1.409651    10.04167    0.06541
+PART 4
+N1    3    1.409651    0.500000    1.409651    10.02083    0.06541
+HKLF 4
+
+
+
+
+REM  shi_5652_ilgu_autored_a.res in Pm-3m
+REM wR2 = 0.0476, GooF = S = 1.066, Restrained GooF = 1.066 for all data
+REM R1 = 0.0318 for 84 Fo > 4sig(Fo) and 0.0344 for all 92 data
+REM 6 parameters refined using 0 restraints
+
+END
+
+WGHT      0.0114      0.0000
+
+REM Highest difference peak  1.141,  deepest hole -0.701,  1-sigma level  0.166
+Q1    1   1.2788  0.5000  1.5000  10.12500  0.05    1.14
+Q2    1   1.0000  1.0000  1.1452  10.12500  0.05    0.77
+Q3    1   1.2620  0.3266  1.2620  10.50000  0.05    0.48
+Q4    1   1.3503  0.5000  1.3137  10.50000  0.05    0.43
+Q5    1   1.1422  0.5000  1.0000  10.25000  0.05    0.41
+;
+_shelx_res_checksum              83961
+_shelx_hkl_file
+;
+  -1   0   0 2986.38   85.18
+   1   0   0 3110.86   85.35
+   1   1  -1 1270.10   47.15
+   0   1  -1  429.10   18.03
+   0  -1   1  445.61   18.58
+   1   1   0  442.17   22.36
+  -1  -1   1 1283.44   47.75
+   2   0   0 9999.00  268.14
+  -2   0   0 9923.24  268.38
+   1   2  -1  455.43   27.07
+   2   1  -1  395.57   27.04
+   0   2  -1 2686.76   82.39
+   2   0   1 2697.41   82.45
+  -2  -1   0 2690.61   89.70
+   2   1   0 2738.96   89.58
+  -2   0   1 2728.70   89.35
+  -1  -2   1  397.91   25.79
+  -1  -1   2  390.27   25.24
+  -2   1  -1  427.99   17.42
+  -2  -1   1  398.59   27.30
+   1   2  -2 2295.03   80.45
+   2  -1   2 2214.58   64.22
+   2   2  -1 2579.16   88.14
+   0  -2   2 6558.09  183.10
+   2   2   0 6761.65  196.19
+   0   2  -2 6550.34  183.62
+  -1  -2   2 2252.81   79.88
+  -2  -1   2 2143.73   82.93
+  -2  -2   1 2288.94   84.75
+  -2  -2   2 4258.99  140.57
+   3   0   0 1490.07   58.20
+  -3   0   0 1350.39   56.81
+   1   3  -1  221.67   20.32
+  -3   1   1  226.43   21.63
+   3   1   0  123.73   16.89
+  -3  -1   0  132.55   17.64
+   0   3  -1  120.26   14.20
+  -3   0   1  170.99   19.98
+   3   0   1  156.14   15.37
+  -3   1   0  167.40   15.91
+  -1  -1   3  213.31   20.97
+   3   1   1  211.00   20.93
+  -3   1  -1  193.41   15.05
+  -3  -1   1  231.60   23.51
+   3  -1   2  188.99   13.09
+   1   3  -2  195.22   19.54
+   1  -2   3  211.19   13.59
+  -3   0   2 1251.05   60.18
+   0  -2   3 1260.86   50.50
+   3   0   2 1265.78   50.49
+   0   3  -2 1241.22   50.37
+  -1  -2   3  189.89   20.21
+  -3   2  -1  210.41   13.81
+  -2  -1   3  163.14   20.83
+  -1  -3   2  194.62   20.19
+  -3  -1   2  193.06   23.55
+  -1   3  -2  179.50   12.78
+  -3  -2   1  178.61   22.94
+  -3  -2   2 1072.63   58.05
+  -2  -3   2 1107.82   56.94
+  -2  -2   3 1015.80   55.20
+   3  -1   3   28.19    5.73
+  -3   0   3  106.62   19.34
+   0  -3   3  107.61   13.62
+  -3  -1   3   25.89   13.65
+  -1  -3   3   17.57    9.96
+  -3  -3   2  107.75   20.03
+  -2  -3   3  119.54   20.13
+  -3  -2   3  119.73   21.14
+  -3  -3   3   13.70   12.40
+  -4   0   0 3320.58  116.01
+  -4   1   1  468.29   34.41
+  -4   1   0 1529.76   65.08
+   4   0   1 1561.46   64.77
+   0   4  -1 1575.16   65.01
+  -4   0   1 1550.17   71.21
+  -4  -1   0 1445.33   69.34
+  -4  -1   1  455.84   37.01
+  -4   1  -1  482.88   29.11
+   2  -2   4 1800.05   55.98
+   4  -1   2 1260.89   49.18
+   1  -2   4 1201.12   48.33
+  -4   2   1 1241.48   61.19
+  -4   1   2 1207.15   64.54
+   0   4  -2 2528.26   90.36
+  -4   2   0 2519.33   89.98
+   0  -2   4 2537.04   89.84
+   4   0   2 2531.69   90.53
+  -4   0   2 2406.10  101.90
+  -1  -2   4 1156.05   58.52
+  -1   4  -2 1238.34   49.01
+  -4  -1   2 1213.88   66.43
+  -2  -1   4 1225.91   64.54
+  -4   2  -1 1256.24   48.96
+  -4  -2   1 1182.21   66.44
+  -2  -2   4 1807.23   82.16
+  -4  -2   2 1851.81   87.46
+  -2   4  -2 1713.63   54.57
+  -4   1   3  316.48   34.90
+   1  -3   4  297.37   19.62
+   4  -1   3  260.67   18.34
+   0  -3   4  843.19   42.36
+  -4   0   3  739.97   52.00
+   0   4  -3  759.06   41.01
+  -4   3   0  701.57   40.01
+   4   0   3  717.37   40.28
+  -3  -1   4  245.47   29.08
+  -1  -3   4  291.90   27.76
+  -4   3  -1  272.71   18.81
+  -4  -1   3  338.25   35.95
+  -4  -2   3  624.69   49.52
+  -3  -2   4  594.77   46.81
+  -2  -4   3  581.86   44.31
+  -4  -3   2  583.83   48.67
+  -2  -3   4  565.52   43.20
+  -3  -3   4  195.30   29.22
+  -4  -3   3  175.72   28.85
+  -3  -4   3  200.45   29.09
+  -4   0   4 1039.57   66.47
+  -4  -1   4  634.18   51.86
+  -4   4  -1  617.22   30.51
+  -1  -4   4  637.77   44.28
+  -4  -2   4  844.00   61.21
+  -2  -4   4  755.79   53.24
+  -4  -3   4  334.75   40.03
+  -4  -4   3  376.76   41.72
+  -3  -4   4  303.90   37.81
+  -4  -4   4  379.27   44.73
+  -5   0   0  296.57   29.32
+  -5   1   1    3.95   11.79
+  -5   1   0   75.30   16.10
+  -5   0   1   23.64   11.50
+  -5  -1   0   38.98   14.36
+  -5  -1   1   11.02   13.27
+  -5   1  -1   15.59    9.78
+  -5   2   2  277.52   33.41
+   1  -2   5   74.48   12.12
+  -5   1   2   78.79   18.81
+  -5   2   1   82.63   17.30
+  -5   2   0  272.48   27.05
+   0  -2   5  284.36   25.87
+  -5   0   2  309.78   34.38
+  -1   5  -2   61.41   11.46
+  -5  -1   2   58.74   18.36
+  -2  -1   5   73.64   18.91
+  -1  -2   5  100.01   18.47
+  -5  -2   1   87.37   20.97
+  -5   2  -1   90.46   14.05
+  -2  -2   5  251.75   30.03
+  -5  -2   2  260.12   33.62
+  -5   2   3  101.09   23.49
+  -5   3   1   18.13   12.03
+  -5   1   3   -9.27   13.38
+  -5   0   3   71.96   20.84
+  -5   3   0   24.00   10.50
+   0  -3   5   52.49   11.50
+  -5   3  -1   20.11    7.88
+  -1  -3   5   22.36   13.76
+  -5  -1   3   21.02   16.90
+  -3  -1   5   24.93   17.36
+  -5  -2   3   40.64   20.35
+  -2  -3   5   74.00   18.63
+  -5  -3   2   39.51   17.18
+  -3  -2   5   42.11   16.58
+  -3  -3   5   34.20   17.50
+  -5  -3   3   43.47   20.38
+  -5   2   4  184.42   31.60
+  -5   1   4   77.10   22.29
+  -5   4   0  213.13   23.46
+  -5   0   4  231.82   34.29
+  -4   0   5  202.63   32.29
+  -4  -1   5  128.98   26.89
+  -5  -1   4  162.22   30.77
+  -1  -4   5  115.87   21.08
+  -5  -2   4  206.39   32.59
+  -4  -2   5  208.23   34.31
+  -2  -4   5  203.14   28.64
+  -4  -3   5   56.82   20.49
+  -5  -4   3  176.91   32.86
+  -3  -4   5   79.69   21.69
+  -5  -3   4   59.02   19.97
+  -4  -4   5  133.70   30.31
+  -5  -4   4  109.69   30.05
+  -5   1   5   29.54   18.90
+  -5   0   5   55.80   21.90
+  -5  -1   5   19.78   18.79
+  -5  -2   5   41.47   19.89
+  -5  -3   5   30.15   20.44
+  -3  -5   5   29.00   18.93
+  -4  -5   5   41.53   19.66
+  -5  -4   5   72.62   25.92
+  -6   0   0  996.32   62.28
+  -6   1   1  301.42   34.62
+  -6  -1   0  633.20   50.82
+  -6   1   0  666.79   47.07
+  -6   0   1  571.92   48.53
+  -6  -1   1  395.90   41.74
+  -6   2   2  558.24   49.33
+  -6   2   1  479.80   42.51
+  -6   1   2  566.28   49.49
+  -6   0   2  773.44   59.09
+   0  -2   6  759.30   48.49
+  -6   2   0  752.82   49.31
+  -1  -2   6  507.22   43.53
+  -2  -1   6  569.35   49.66
+  -6  -2   1  563.96   51.72
+  -6   2  -1  587.86   39.12
+  -6  -1   2  508.91   49.35
+  -2  -2   6  521.34   46.72
+  -6  -2   2  620.73   57.02
+  -6   3   3  123.35   27.72
+  -6   2   3  266.84   36.74
+  -6   3   2  315.80   37.01
+  -6   1   3  257.48   37.02
+  -6   3   1  214.62   27.46
+  -6   3   0  404.02   34.76
+  -6   0   3  364.73   43.16
+  -3   0   6  417.22   46.67
+  -3  -1   6  182.60   31.21
+  -6  -1   3  247.69   36.98
+  -1  -3   6  213.49   27.61
+  -6  -2   3  286.83   41.17
+  -2  -3   6  232.35   32.36
+  -6  -3   2  328.31   42.35
+  -3  -2   6  281.99   37.92
+  -3  -3   6  125.02   27.34
+  -6  -3   3  127.51   30.36
+  -6   4   3  182.68   33.31
+  -6   3   4  142.16   31.49
+  -6   2   4  221.82   37.50
+  -6   4   2  254.29   34.30
+  -6   1   4  315.54   40.86
+  -6   4   1  229.95   29.37
+  -4   0   6  406.05   47.64
+  -6   0   4  404.21   47.25
+  -4  -1   6  229.86   36.32
+  -6  -1   4  319.49   45.57
+  -6  -2   4  284.94   41.21
+  -4  -2   6  241.27   37.20
+  -2  -4   6  230.25   33.05
+  -4  -3   6  204.93   35.58
+  -6  -3   4  134.85   30.91
+  -3  -4   6  177.37   32.29
+  -4  -4   6  192.14   36.75
+  -6   2   5  114.61   29.86
+  -6   1   5  143.63   31.97
+  -5   1   6  122.56   31.45
+  -6   0   5  110.84   30.53
+  -5   0   6  176.22   34.48
+  -6  -1   5   78.82   25.50
+  -5  -1   6   68.97   25.65
+  -5  -2   6  117.65   30.35
+  -3  -5   6  122.64   29.09
+  -7   0   0   29.29   18.42
+  -7   1   1   49.54   17.74
+  -7   1   0   59.97   18.65
+  -7   0   1   58.87   21.84
+  -1  -1   7   -6.26   16.25
+  -7  -1   1  -12.21   16.39
+  -7   2   2   33.86   16.18
+  -7   2   1    9.12   12.97
+  -7   1   2   25.39   15.86
+  -7   0   2   22.62   19.00
+  -7   2   0   55.69   17.39
+  -1  -2   7   53.18   18.06
+  -7  -1   2   45.43   20.07
+  -2  -1   7   38.03   16.96
+  -2  -2   7  130.30   25.84
+  -7  -2   2   60.18   25.15
+  -7   3   3   27.10   21.35
+  -7   2   3   47.10   23.40
+  -7   3   2   66.22   23.87
+  -7   3   1   27.75   16.29
+  -7   1   3    4.86   18.33
+  -7   0   3   61.27   23.35
+  -3   0   7   21.41   15.39
+  -7  -1   3   40.98   21.45
+  -3  -1   7   17.26   18.81
+  -2  -3   7    8.63   13.31
+  -7  -2   3  -18.86   21.85
+  -3  -2   7   14.62   15.66
+  -3  -3   7   26.04   19.05
+  -7   4   3   18.80   17.66
+  -7   1   4   60.76   26.29
+  -4   0   7   57.01   22.69
+  -7   0   4   69.43   25.92
+  -4  -1   7   50.02   24.63
+  -4  -2   7   79.05   27.12
+  -3  -4   7   38.18   20.31
+  -8   1   1  152.12   31.00
+  -8   0   1  204.78   35.37
+  -1  -1   8  246.43   35.79
+  -8  -1   1  153.99   35.64
+  -8   2   2  106.00   27.69
+  -8   1   2  160.96   35.41
+  -8   0   2  239.62   39.06
+  -2  -1   8  238.72   38.55
+  -2  -2   8  234.85   37.22
+   0   0   0    0.00    0.00
+
+
+TITL shI_5652_IlGu_autored in P-43m
+REM P-43m (#215 in standard setting)
+CELL 0.71073   6.364001   6.364001   6.364001  90.0000  90.0000  90.0000
+ZERR    2.00   0.000382   0.000382   0.000382   0.0000   0.0000   0.0000
+LATT -1
+SYMM -x,-y, z
+SYMM -x, y,-z
+SYMM  x,-y,-z
+SYMM  z, x, y
+SYMM  z,-x,-y
+SYMM -z,-x, y
+SYMM -z, x,-y
+SYMM  y, z, x
+SYMM -y, z,-x
+SYMM  y,-z,-x
+SYMM -y,-z, x
+SYMM  y, x, z
+SYMM -y,-x, z
+SYMM  y,-x,-z
+SYMM -y, x,-z
+SYMM  x, z, y
+SYMM -x, z,-y
+SYMM -x,-z, y
+SYMM  x,-z,-y
+SYMM  z, y, x
+SYMM  z,-y,-x
+SYMM -z, y,-x
+SYMM -z,-y, x
+SFAC C H N I Pb
+UNIT 4.00 10.00 2.00 6.00 2.00
+TREF
+HKLF 4
+END
+_computing_structure_solution     'SHELXT 2018/2 (Sheldrick, 2018)'
+;
+_shelx_hkl_checksum              49690
+_olex2_submission_special_instructions 'No special instructions were received'
+_oxdiff_exptl_absorpt_empirical_details
+;
+Empirical correction (ABSPACK) includes:
+- Absorption correction using spherical harmonics
+- Frame scaling
+;
+_oxdiff_exptl_absorpt_empirical_full_max 1.037
+_oxdiff_exptl_absorpt_empirical_full_min 0.965
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pb01 Pb 1.000000 1.000000 1.000000 0.0275(4) Uani 1 48 d S T P . .
+I002 I 1.000000 0.500000 1.000000 0.0742(7) Uani 1 16 d S T P . .
+C2 C 1.410(3) 0.500000 1.410(3) 0.07(2) Uiso 0.1667 4 d S . P . 3
+N1 N 1.410(3) 0.500000 1.410(3) 0.07(2) Uiso 0.0833 4 d S . P A 4
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pb01 0.0275(4) 0.0275(4) 0.0275(4) 0.000 0.000 0.000
+I002 0.1002(11) 0.0222(9) 0.1002(11) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+I I -0.4742 1.8119 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pb Pb -3.3944 10.1111 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Pb01 Pb01 I002 0.0 10_757 9_655 ?
+Pb01 Pb01 I002 0.0 10_757 1_565 ?
+Pb01 Pb01 I002 0.0 10_757 . ?
+Pb01 Pb01 I002 0.0 10_757 5_556 ?
+Pb01 Pb01 I002 0.0 10_757 9 ?
+Pb01 Pb01 I002 0.0 10_757 5 ?
+I002 Pb01 I002 90.0 5 9 ?
+I002 Pb01 I002 90.0 . 5_556 ?
+I002 Pb01 I002 90.0 1_565 5 ?
+I002 Pb01 I002 90.0 9_655 5 ?
+I002 Pb01 I002 180.0 . 1_565 ?
+I002 Pb01 I002 90.0 . 5 ?
+I002 Pb01 I002 180.0 9_655 9 ?
+I002 Pb01 I002 180.0 5 5_556 ?
+I002 Pb01 I002 90.0 1_565 9 ?
+I002 Pb01 I002 90.0 9_655 1_565 ?
+I002 Pb01 I002 90.0 5_556 9 ?
+I002 Pb01 I002 90.0 1_565 5_556 ?
+I002 Pb01 I002 90.0 9_655 5_556 ?
+I002 Pb01 I002 90.0 9_655 . ?
+I002 Pb01 I002 90.0 . 9 ?
+Pb01 I002 Pb01 180.0 15_565 . ?
+Pb01 I002 Pb01 180.0 15_565 10_757 ?
+Pb01 I002 Pb01 0.0 . 10_757 ?
+C2 C2 C2 54.7 9_645 10_748 ?
+C2 C2 C2 54.737(1) 6_577 29_877 ?
+C2 C2 C2 73.223(17) 5_546 33_778 ?
+C2 C2 C2 35.265(1) 26_558 10_748 ?
+C2 C2 C2 35.265(1) 2_865 29_877 ?
+C2 C2 C2 48.190(1) 33_778 10_748 ?
+C2 C2 C2 65.906(12) 2_865 33_778 ?
+C2 C2 C2 73.223(1) 34_675 30_846 ?
+C2 C2 C2 90.00(2) 5_546 29_877 ?
+C2 C2 C2 30.001(5) 9_645 30_846 ?
+C2 C2 C2 90.002(1) 34_675 10_748 ?
+C2 C2 C2 65.906(5) 26_558 30_846 ?
+C2 C2 C2 35.265(6) 2_865 30_846 ?
+C2 C2 C2 60.001(1) 33_778 30_846 ?
+C2 C2 C2 48.190(1) 29_877 30_846 ?
+C2 C2 C2 33.558(2) 10_748 30_846 ?
+C2 C2 C2 90.002(1) 9_645 26_558 ?
+C2 C2 C2 73.22(2) 9_645 29_877 ?
+C2 C2 C2 45.001(9) 5_546 26_558 ?
+C2 C2 C2 90.002(9) 6_577 30_846 ?
+C2 C2 C2 54.737(3) 34_675 33_778 ?
+C2 C2 C2 33.558(2) 33_778 29_877 ?
+C2 C2 C2 30.001(2) 6_577 33_778 ?
+C2 C2 C2 54.737(17) 5_546 30_846 ?
+C2 C2 C2 60.001(2) 34_675 6_577 ?
+C2 C2 C2 73.2 6_577 10_748 ?
+C2 C2 C2 90.00(3) 34_675 9_645 ?
+C2 C2 C2 30.001(8) 34_675 29_877 ?
+C2 C2 C2 120.00(3) 6_577 9_645 ?
+C2 C2 C2 90.002(10) 9_645 33_778 ?
+C2 C2 C2 120.00(2) 34_675 5_546 ?
+C2 C2 C2 30.001(16) 5_546 10_748 ?
+C2 C2 C2 90.002(1) 6_577 5_546 ?
+C2 C2 C2 65.906(11) 26_558 29_877 ?
+C2 C2 C2 60.001(5) 9_645 5_546 ?
+C2 C2 C2 65.906(12) 2_865 10_748 ?
+C2 C2 C2 90.002(1) 34_675 26_558 ?
+C2 C2 C2 35.3 26_558 33_778 ?
+C2 C2 C2 45.001(5) 6_577 26_558 ?
+C2 C2 C2 60.001(7) 29_877 10_748 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb01 Pb01 0.0000 10_757 ?
+Pb01 I002 3.1820(2) 5_556 ?
+Pb01 I002 3.1820(2) 9_655 ?
+Pb01 I002 3.18200(19) 5 ?
+Pb01 I002 3.18200(19) . ?
+Pb01 I002 3.1820(2) 1_565 ?
+Pb01 I002 3.18200(19) 9 ?
+C2 C2 1.41(5) 10_748 ?
+C2 C2 1.15(4) 2_865 ?
+C2 C2 0.81(3) 5_546 ?
+C2 C2 1.63(6) 25_868 ?
+C2 C2 0.81(3) 9_645 ?
+C2 C2 1.41(5) 33_778 ?
+C2 C2 1.41(5) 30_846 ?
+C2 C2 0.81(3) 34_675 ?
+C2 C2 1.41(5) 29_877 ?
+C2 C2 0.81(3) 6_577 ?
+C2 C2 1.15(4) 26_558 ?

@@ -1,0 +1,126 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/50/9015034.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015034
+loop_
+_publ_author_name
+'Lozano, R. P.'
+'Rossi, C.'
+'La Iglesia, A.'
+'Matesanz, E.'
+_publ_section_title
+;
+ Zaccagnaite-3R, a new Zn-Al hydrotalcite polytype
+ from El Soplao cave (Cantabria, Spain)
+ Note: polytype zaccagnaite-3R
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              513
+_journal_page_last               523
+_journal_paper_doi               10.2138/am.2012.3908
+_journal_volume                  97
+_journal_year                    2012
+_chemical_compound_source        'El Soplao cave, Cantabria, Spain'
+_chemical_formula_sum            'C0.2 H2.912 Al0.4 O3.056 Zn0.6'
+_chemical_name_mineral           Zaccagnaite
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   3.06616
+_cell_length_b                   3.06616
+_cell_length_c                   22.6164
+_cell_volume                     184.138
+_database_code_amcsd             0018810
+_exptl_crystal_density_diffrn    2.821
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        '(Zn.6 Al.4) O3.056 H2.912 C.2'
+_cod_database_code               9015034
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+y,x,-z
+2/3+y,1/3+x,1/3-z
+1/3+y,2/3+x,2/3-z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-x,-x+y,-z
+2/3-x,1/3-x+y,1/3-z
+1/3-x,2/3-x+y,2/3-z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+x-y,-y,-z
+2/3+x-y,1/3-y,1/3-z
+1/3+x-y,2/3-y,2/3-z
+y,-x+y,-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+-x,-y,-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+x-y,x,-z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn 0.00000 0.00000 0.00000 0.60000 0.01798 Zn 0
+Al 0.00000 0.00000 0.00000 0.40000 0.01798 Al 0
+O1 0.00000 0.00000 0.37720 1.00000 0.02128 O 0
+H 0.00000 0.00000 0.42700 1.00000 0.02128 H 0
+C 0.33333 0.66667 0.50200 0.10000 0.03166 C 0
+O2 0.11400 -0.11400 0.49900 0.10000 0.03166 O 0
+Wat 0.11400 -0.11400 0.49900 0.07600 0.03166 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018810

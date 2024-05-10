@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/04/9010479.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010479
+loop_
+_publ_author_name
+'Swainson, I. P.'
+_publ_section_title
+;
+ The structure of monohydrocalcite and the phase composition of the
+ beachrock deposits of Lake Butler and Lake Fellmongery, South Australia
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1014
+_journal_page_last               1018
+_journal_paper_doi               10.2138/am.2008.2825
+_journal_volume                  93
+_journal_year                    2008
+_chemical_compound_source
+'Lakes Butler and Fellmongery, Robe, South Australia'
+_chemical_formula_sum            'C H2 Ca O4'
+_chemical_name_mineral           Monohydrocalcite
+_space_group_IT_number           144
+_symmetry_space_group_name_Hall  'P 31'
+_symmetry_space_group_name_H-M   'P 31'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            9
+_cell_length_a                   10.5547
+_cell_length_b                   10.5547
+_cell_length_c                   7.5644
+_cell_volume                     729.788
+_database_code_amcsd             0004611
+_exptl_crystal_density_diffrn    2.419
+_cod_original_formula_sum        'Ca C O4 H2'
+_cod_database_code               9010479
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,x-y,1/3+z
+-x+y,-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.18110 0.09580 0.33333 0.01130 Ca 0
+Ca2 0.85060 0.42570 0.34020 0.01130 Ca 0
+Ca3 0.51740 0.75510 0.35710 0.01130 Ca 0
+C1 0.10030 0.18350 0.96900 0.00970 C 0
+C2 0.74630 0.51620 0.04910 0.00970 C 0
+C3 0.41770 0.84850 0.06080 0.00970 C 0
+O1 0.20200 0.24500 0.08600 0.01230 O 0
+O2 0.06800 0.05730 0.90500 0.01230 O 0
+O3 0.03100 0.24850 0.91500 0.01230 O 0
+O4 0.88480 0.58900 0.08300 0.01230 O 0
+O5 0.66390 0.39240 0.12700 0.01230 O 0
+O6 0.69000 0.56700 -0.06300 0.01230 O 0
+O7 0.55860 0.91700 0.07600 0.01230 O 0
+O8 0.33860 0.73060 0.15100 0.01230 O 0
+O9 0.35600 0.89800 0.95600 0.01230 O 0
+Ow1 0.40100 0.19500 0.84100 0.00920 O 0
+Ow2 0.06900 0.54200 0.84900 0.01030 O 0
+Ow3 0.73000 0.85800 0.83700 0.01030 O 0
+H1 0.35000 0.22500 0.92200 0.03200 H 0
+H2 0.32700 0.13000 0.76000 0.03200 H 0
+H3 0.00400 0.46400 0.77100 0.03200 H 0
+H4 0.00900 0.57800 0.89900 0.03200 H 0
+H5 0.66300 0.79300 0.75000 0.03200 H 0
+H6 0.67200 0.88500 0.90900 0.03200 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:23+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004611

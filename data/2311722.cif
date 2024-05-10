@@ -1,0 +1,302 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-12-26 21:19:10 +0200 (Thu, 26 Dec 2019) $
+#$Revision: 246094 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/31/17/2311722.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2311722
+loop_
+_publ_author_name
+'Binns, Jack'
+'McIntyre, Garry J.'
+'Barreda-Arg\"ueso, Jos\'e A'
+'Gonz\'alez, Jes\'us'
+'Aguado, Fernando'
+'Rodr\'iguez, Fernando'
+'Valiente, Rafael'
+'Parsons, Simon'
+_publ_section_title
+;
+ Phase transition sequences in tetramethylammonium tetrachlorometallates
+ by X-ray diffraction and spectroscopic measurements.
+;
+_journal_issue                   'Pt 5'
+_journal_name_full
+'Acta crystallographica Section B, Structural science, crystal engineering and materials'
+_journal_page_first              844
+_journal_page_last               855
+_journal_paper_doi               10.1107/S2052520617006412
+_journal_volume                  73
+_journal_year                    2017
+_chemical_formula_moiety         'C4 H12 N1, Cl4 Fe1'
+_chemical_formula_sum            'C4 H12 Cl4 Fe N'
+_chemical_formula_weight         271.8045
+_chemical_name_systematic        'tetramethylammonium tetrachloroferrate(III)'
+_space_group_IT_number           11
+_space_group_name_Hall           '-P 2yb'
+_space_group_name_H-M_alt        'P 1 21/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_audit_creation_date             15-09-23
+_audit_creation_method           CRYSTALS_ver_14.40
+_cell_angle_alpha                90
+_cell_angle_beta                 93.87(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.574(3)
+_cell_length_b                   14.156(7)
+_cell_length_c                   6.595(3)
+_cell_measurement_reflns_used    0
+_cell_measurement_temperature    365
+_cell_measurement_theta_max      0
+_cell_measurement_theta_min      0
+_cell_volume                     612.3(5)
+_computing_cell_refinement       'CrysAlis, (Oxford Diffraction, 2002)'
+_computing_data_collection       'SuperNova, (Oxford Diffraction, 2010)'
+_computing_data_reduction        'CrysAlis, (Oxford Diffraction, 2002)'
+_computing_molecular_graphics    'CAMERON (Watkin et al., 1996)'
+_computing_publication_material  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_refinement  'CRYSTALS (Betteridge et al., 2003)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_ambient_temperature      365
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.990
+_diffrn_measurement_device       Area
+_diffrn_measurement_device_type  'Oxford Diffraction SuperNova'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.065
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            5173
+_diffrn_reflns_theta_full        19.861
+_diffrn_reflns_theta_max         20.907
+_diffrn_reflns_theta_min         3.106
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    2.047
+_exptl_absorpt_correction_T_max  0.90
+_exptl_absorpt_correction_T_min  0.49
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'CrysAlis, (Oxford Diffraction, 2002)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.474
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             250
+_exptl_crystal_size_max          0.100
+_exptl_crystal_size_mid          0.050
+_exptl_crystal_size_min          0.050
+_refine_diff_density_max         0.59
+_refine_diff_density_min         -0.62
+_refine_ls_extinction_method     None
+_refine_ls_goodness_of_fit_ref   1.0450
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         665
+_refine_ls_number_restraints     17
+_refine_ls_R_factor_all          0.1330
+_refine_ls_R_factor_gt           0.1190
+_refine_ls_shift/su_max          0.0000089
+_refine_ls_shift/su_mean         0.0000021
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+ Method, part 1, Chebychev polynomial, (Watkin, 1994, Prince, 1982) 
+ [weight] = 1.0/[A~0~*T~0~(x)+A~1~*T~1~(x) ... +A~n-1~]*T~n-1~(x)] 
+ where A~i~ are the Chebychev coefficients listed below and x= Fcalc/Fmax 
+ Method = Robust Weighting (Prince, 1982) 
+ W = [weight] * [1-(deltaF/6*sigmaF)^2^]^2^ 
+ A~i~ are: 
+ 48.0 59.4 18.0 
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.2057
+_refine_ls_wR_factor_gt          0.2006
+_refine_ls_wR_factor_ref         0.2055
+_reflns_limit_h_max              6
+_reflns_limit_h_min              -6
+_reflns_limit_k_max              14
+_reflns_limit_k_min              0
+_reflns_limit_l_max              6
+_reflns_limit_l_min              0
+_reflns_number_gt                576
+_reflns_number_total             675
+_reflns_threshold_expression     I>2.0\s(I)
+_oxford_diffrn_Wilson_B_factor   0.00
+_oxford_diffrn_Wilson_scale      0.00
+_oxford_refine_ls_r_factor_ref   0.1328
+_oxford_refine_ls_scale          1.06(2)
+_oxford_reflns_number_all        666
+_oxford_reflns_threshold_expression_ref I>0.0\s(I)
+_oxford_structure_analysis_title 'JB15_P21m in P2(1)/m'
+_cod_data_source_file            fx5008sup1.cif
+_cod_data_source_block           TCF_mP44_365
+_cod_original_sg_symbol_H-M      'P 1 21/m 1 '
+_cod_original_formula_sum        'C4 H12 Cl4 Fe1 N1'
+_cod_database_code               2311722
+_iucr_refine_instructions_details_constraints
+;
+#
+# Punched on 23/09/15 at 11:27:05
+#
+#LIST     12                                                                    
+BLOCK 
+CONT SCALE 
+CONT FE   (    1 ,X'S,U'S)  UNTIL CL   (    3 ) 
+CONT N    (    1 ,X'S,U[ISO]) 
+CONT C    (    100 ,U[ISO],SIZE) 
+SUMFIX ELEMENT SCALES 
+END                                                                             
+;
+_iucr_refine_instructions_details_restraints
+;
+#
+# Punched on 23/09/15 at 11:27:05
+#
+#LIST     16                                                                    
+NO 
+REM   HREST   START (DO NOT REMOVE THIS LINE) 
+REM   HREST   END (DO NOT REMOVE THIS LINE) 
+DISTANCE 1.450000 , 0.050000 = N(1) TO C(10) 
+DISTANCE 1.450000 , 0.050000 = N(1) TO C(3) 
+REM   DELU   START (DO NOT REMOVE THIS LINE) 
+VIBR .0, 0.00200 = FE(1) TO CL(2,-2,1,0,1) 
+VIBR .0, 0.00200 = FE(1) TO CL(2) 
+VIBR .0, 0.00200 = FE(1) TO CL(3) 
+VIBR .0, 0.00200 = FE(1) TO CL(4) 
+VIBR .0, 0.00500 = CL(2) TO CL(2,-2,1,0,1) 
+VIBR .0, 0.00500 = CL(3) TO CL(2,-2,1,0,1) 
+VIBR .0, 0.00500 = CL(3) TO CL(2) 
+VIBR .0, 0.00500 = CL(4) TO CL(2,-2,1,0,1) 
+VIBR .0, 0.00500 = CL(4) TO CL(2) 
+VIBR .0, 0.00500 = CL(4) TO CL(3) 
+REM   DELU   END (DO NOT REMOVE THIS LINE) 
+REM   THERMSIM   START (DO NOT REMOVE THIS LINE) 
+U(IJ) .0, 0.04000 = FE(1) TO CL(2,-2,1,0,1) 
+U(IJ) .0, 0.04000 = FE(1) TO CL(2) 
+U(IJ) .0, 0.08000 = FE(1) TO CL(3) 
+U(IJ) .0, 0.08000 = FE(1) TO CL(4) 
+REM   THERMSIM   END (DO NOT REMOVE THIS LINE) 
+END                                                                             
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+-x,y+1/2,-z
+x,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+Fe1 Fe -0.0676(10) 0.2500 0.0686(9) 0.0980 1.0000 Uani S TU
+Cl1 Cl 0.0464(18) 0.1232(5) -0.0569(15) 0.1608 1.0000 Uani . .
+Cl2 Cl -0.032(3) 0.2500 0.3879(19) 0.1317 1.0000 Uani S TU
+Cl3 Cl -0.405(3) 0.2500 -0.023(3) 0.1727 1.0000 Uani S TU
+N1 N 0.5000 0.0000 0.5000 0.103(7) 1.0000 Uiso DS .
+C100 C 0.5000 0.0000 0.5000 0.103(19) 4.0000 Uiso . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Fe1 0.101(7) 0.109(3) 0.084(5) 0.0000 0.003(2) 0.0000
+Cl1 0.226(19) 0.096(4) 0.158(14) -0.003(6) -0.005(5) 0.067(7)
+Cl2 0.195(12) 0.115(3) 0.084(5) 0.0000 0.004(6) 0.0000
+Cl3 0.119(9) 0.139(5) 0.251(18) 0.0000 -0.056(10) 0.0000
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+C 0.0033 0.0016 2.3100 20.8439 1.0200 10.2075 1.5886 0.5687 0.8650 51.6512
+0.2156 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+H 0.0000 0.0000 0.4930 10.5109 0.3229 26.1257 0.1402 3.1424 0.0408 57.7998
+0.0030 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+N 0.0061 0.0033 12.2126 0.0057 3.1322 9.8933 2.0125 28.9975 1.1663 0.5826
+-11.5290 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+Cl 0.1484 0.1585 11.4604 0.0104 7.1964 1.1662 6.2556 18.5194 1.6455 47.7784
+-9.5574 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+Fe 0.3463 0.8444 11.7695 4.7611 7.3573 0.3072 3.5222 15.3535 2.3045 76.8805
+1.0369 'International Tables Vol C 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_site_symmetry_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Cl1 4_555 Fe1 Cl1 114.5(5) yes
+Cl1 4_555 Fe1 Cl2 111.7(4) yes
+Cl1 . Fe1 Cl2 111.7(4) yes
+Cl1 4_555 Fe1 Cl3 105.1(5) yes
+Cl1 . Fe1 Cl3 105.1(5) yes
+Cl2 . Fe1 Cl3 108.0(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Fe1 Cl1 4_555 2.133(6) yes
+Fe1 Cl1 . 2.133(6) yes
+Fe1 Cl2 . 2.103(13) yes
+Fe1 Cl3 . 2.259(17) yes
+loop_
+_oxford_atom_site_label
+_oxford_atom_site_special_uiso
+_oxford_atom_site_special_size
+_oxford_atom_site_special_shape
+C100 0.103(19) 1.55(2) Sphere
+loop_
+_oxford_twin_element_scale_factors
+0.508(18)
+0.496(18)
+loop_
+_oxford_refln_omitted_index_h
+_oxford_refln_omitted_index_k
+_oxford_refln_omitted_index_l
+_oxford_refln_omitted_flag
+-1 0 1 x
+0 2 1 x
+1 2 0 x
+1 0 1 x
+1 5 1 x
+-1 8 1 x

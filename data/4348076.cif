@@ -1,0 +1,297 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-23 09:32:10 +0200 (Sat, 23 Nov 2019) $
+#$Revision: 232727 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/34/80/4348076.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4348076
+loop_
+_publ_author_name
+'Taddei, Marco'
+'Sassi, Paola'
+'Costantino, Ferdinando'
+'Vivani, Riccardo'
+_publ_section_title
+;
+ Amino-Functionalized Layered Crystalline Zirconium Phosphonates:
+ Synthesis, Crystal Structure, and Spectroscopic Characterization.
+;
+_journal_issue                   12
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              6278
+_journal_page_last               6285
+_journal_paper_doi               10.1021/acs.inorgchem.6b00943
+_journal_volume                  55
+_journal_year                    2016
+_chemical_formula_moiety         Zr(O3PC2N)2Cl2
+_chemical_formula_sum            'C4 Cl2 N2 O6 P2 Zr'
+_chemical_formula_weight         396.18
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 102.988(7)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   9.3484(8)
+_cell_length_b                   5.3938(4)
+_cell_length_c                   29.5926(12)
+_cell_measurement_reflns_used    2619
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      140
+_cell_measurement_theta_min      3
+_cell_volume                     1453.99(18)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    FOX
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'PANAlytical XPert Pro'
+_diffrn_radiation_polarisn_ratio 0.5
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   ZAEPACl
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 26 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    2703.19     2:   -2358.14     3:    1397.40     4:   -586.925    
+      5:    360.150     6:   -262.499     7:    228.958     8:   -223.534    
+      9:    169.744    10:   -94.8090    11:   -57.9405    12:    177.230    
+     13:   -230.525    14:    160.448    15:   -74.2826    16:   -16.5452    
+     17:    36.4435    18:   -19.4521    19:   -29.4338    20:    51.0654    
+     21:   -68.5510    22:    26.6759    23:    27.3875    24:   -128.986    
+     25:    142.232    26:   -118.014    
+;
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=   0.93822  h= 0.000  k= 0.000  l= 1.000
+ Prefered orientation correction range: Min=   0.90860, Max=   1.21131
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ #1(GU)   =    0.000 #2(GV)   =    0.000 #3(GW)   =    8.911
+ #4(GP)   =    0.000 #5(LX)   =    9.967 #6(LY)   =    0.000
+ #7(S/L)  =   0.0214 #8(H/L)  =   0.0200
+ #9(trns) =     0.00 #10(shft)=  -1.6973
+ #11(stec)=    93.79 #12(ptec)=    -9.34 #13(sfec)=     0.00
+ #14(L11) =    0.309 #15(L22) =    0.673 #16(L33) =   -0.041
+ #17(L12) =   -0.117 #18(L13) =   -0.081 #19(L23) =    0.088
+ Peak tails are ignored  where the intensity is below 0.0050 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0608
+_pd_proc_ls_prof_wR_expected     0.0174
+_pd_proc_ls_prof_wR_factor       0.0862
+_refine_ls_goodness_of_fit_all   5.25
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     84
+_refine_ls_number_restraints     66
+_refine_ls_R_Fsqd_factor         0.12327
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            ic6b00943_si_002.cif
+_cod_data_source_block           compound_ZAEPACl
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/ACS/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (38 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the
+/home/saulius/struct/COD-crude-data/automatic-downloads/DataCite-retrospective/ACS/depositions/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26 (42 times).
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_cell_volume        1454.00(13)
+_cod_database_code               4348076
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+Zr Zr1 0.7551(13) 0.2524(33) 0.50174(34) 1.0 Uiso 0.00559 4
+P P2 0.9611(20) 0.730(4) 0.5553(6) 1.0 Uiso 0.00559 4
+P P3 0.5325(19) 0.765(5) 0.4489(6) 1.0 Uiso 0.00559 4
+O O4 0.9011(24) 0.966(4) 0.5281(9) 1.0 Uiso 0.00559 4
+O O5 0.6004(23) 0.533(4) 0.4741(9) 1.0 Uiso 0.00559 4
+O O6 0.8630(25) 0.509(4) 0.5450(8) 1.0 Uiso 0.00559 4
+O O7 0.6395(24) 0.992(4) 0.4572(8) 1.0 Uiso 0.00559 4
+O O8 1.1232(20) 0.685(4) 0.5448(8) 1.0 Uiso 0.00559 4
+O O9 0.3746(19) 0.824(4) 0.4557(7) 1.0 Uiso 0.00559 4
+C C10 0.9988(34) 0.781(8) 0.6201(6) 1.0 Uiso 0.00559 4
+C C11 0.4828(32) 0.750(7) 0.3838(6) 1.0 Uiso 0.00559 4
+C C12 0.8584(30) 0.681(6) 0.6356(6) 1.0 Uiso 0.00559 4
+C C13 0.608(4) 0.910(5) 0.3723(6) 1.0 Uiso 0.00559 4
+N N14 0.8537(16) 0.734(6) 0.6839(6) 1.0 Uiso 0.00559 4
+N N15 0.6335(17) 0.790(5) 0.3320(5) 1.0 Uiso 0.00559 4
+Cl Cl16 0.9445(13) 0.765(6) 0.2995(5) 1.0 Uiso 0.00559 4
+Cl Cl17 0.5430(13) 0.789(5) 0.2140(4) 1.0 Uiso 0.00559 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Zr 4.0 0.000 0.000 17.8765 1.27618 10.9480 11.9160 5.41732 0.11762 3.65721
+87.6627 2.06929 International_Tables_Vol_C
+P 8.0 0.000 0.000 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+O 24.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+C 16.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+N 8.0 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+Cl 8.0 0.000 0.000 11.4604 0.01040 7.19640 1.16620 6.25560 18.5194 1.64550
+47.7784 -9.5574 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540500 1.000 Cu_K\a~1~ 1
+1.544300 0.500 Cu_K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O4 Zr1 O5 177.8(11) 1_545 1_555 n
+O4 Zr1 O6 94.5(8) 1_545 1_555 n
+O4 Zr1 O7 86.5(10) 1_545 1_545 n
+O4 Zr1 O8 87.6(8) 1_545 -1_766 n
+O4 Zr1 O9 93.0(10) 1_545 -1_666 n
+O5 Zr1 O6 87.5(10) 1_555 1_555 n
+O5 Zr1 O7 91.5(8) 1_555 1_545 n
+O5 Zr1 O8 93.3(9) 1_555 -1_766 n
+O5 Zr1 O9 86.0(8) 1_555 -1_666 n
+O6 Zr1 O7 178.8(11) 1_555 1_545 n
+O6 Zr1 O8 92.3(8) 1_555 -1_766 n
+O6 Zr1 O9 91.6(9) 1_555 -1_666 n
+O7 Zr1 O8 88.4(9) 1_545 -1_766 n
+O7 Zr1 O9 87.6(8) 1_545 -1_666 n
+O8 Zr1 O9 176.0(11) -1_766 -1_666 n
+O4 P2 O6 114.8(14) 1_555 1_555 n
+O4 P2 O8 105.6(14) 1_555 1_555 n
+O4 P2 C10 111.8(16) 1_555 1_555 n
+O6 P2 O8 113.3(16) 1_555 1_555 n
+O6 P2 C10 106.7(14) 1_555 1_555 n
+O8 P2 C10 104.2(12) 1_555 1_555 n
+O5 P3 O7 112.6(14) 1_555 1_555 n
+O5 P3 O9 113.9(15) 1_555 1_555 n
+O5 P3 C11 116.6(17) 1_555 1_555 n
+O7 P3 O9 114.2(17) 1_555 1_555 n
+O7 P3 C11 101.3(13) 1_555 1_555 n
+O9 P3 C11 96.7(12) 1_555 1_555 n
+Zr1 O4 P2 159.0(16) 1_565 1_555 n
+Zr1 O5 P3 161.3(17) 1_555 1_555 n
+Zr1 O6 P2 151.8(17) 1_555 1_555 n
+Zr1 O7 P3 149.2(16) 1_565 1_555 n
+Zr1 O8 P2 143.2(15) -1_766 1_555 n
+Zr1 O9 P3 140.3(15) -1_666 1_555 n
+P2 C10 C12 105.6(13) 1_555 1_555 n
+P3 C11 C13 100.1(12) 1_555 1_555 n
+P3 C11 N15 128.9(13) 1_555 1_555 n
+C10 C12 N14 115.3(15) 1_555 1_555 n
+C11 C13 N15 102.0(14) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Zr1 O4 2.092(17) 1_545 n
+Zr1 O5 2.124(17) 1_555 n
+Zr1 O6 1.996(17) 1_555 n
+Zr1 O7 2.060(17) 1_545 n
+Zr1 O8 2.002(16) -1_766 n
+Zr1 O9 1.978(16) -1_666 n
+P2 O4 1.543(19) 1_555 n
+P2 O6 1.495(19) 1_555 n
+P2 O8 1.632(19) 1_555 n
+P2 C10 1.890(17) 1_555 n
+P3 O5 1.521(19) 1_555 n
+P3 O7 1.565(20) 1_555 n
+P3 O9 1.566(18) 1_555 n
+P3 C11 1.880(18) 1_555 n
+P3 C13 2.639(23) 1_555 n
+O4 Zr1 2.092(17) 1_565 n
+O4 P2 1.543(19) 1_555 n
+O5 Zr1 2.124(17) 1_555 n
+O5 P3 1.521(19) 1_555 n
+O6 Zr1 1.996(17) 1_555 n
+O6 P2 1.495(19) 1_555 n
+O7 Zr1 2.060(17) 1_565 n
+O7 P3 1.565(20) 1_555 n
+O8 Zr1 2.002(16) -1_766 n
+O8 P2 1.632(19) 1_555 n
+O9 Zr1 1.978(16) -1_666 n
+O9 P3 1.566(18) 1_555 n
+C10 P2 1.890(17) 1_555 n
+C10 C12 1.581(15) 1_555 n
+C10 N14 2.574(23) 1_555 n
+C11 P3 1.880(18) 1_555 n
+C11 C13 1.551(15) 1_555 n
+C11 N15 2.313(23) 1_555 n
+C12 C10 1.581(15) 1_555 n
+C12 N14 1.466(14) 1_555 n
+C13 P3 2.639(23) 1_555 n
+C13 C11 1.551(15) 1_555 n
+C13 N15 1.425(14) 1_555 n
+N14 C10 2.574(23) 1_555 n
+N14 C12 1.466(14) 1_555 n
+N15 C11 2.313(23) 1_555 n
+N15 C13 1.425(14) 1_555 n

@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-13 17:46:56 +0200 (Mon, 13 Feb 2017) $
+#$Revision: 192027 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/98/2009846.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009846
+loop_
+_publ_author_name
+'Attfield, Martin P.'
+'Morris, Russell E.'
+'Cheetham, Anthony K.'
+_publ_section_title
+;
+ Synthesis and structures of two isostructural phosphites,
+ Fe~11~(HPO~3~)~8~(OH)~6~ and Mn~11~(HPO~3~)~8~(OH)~6~
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              981
+_journal_page_last               984
+_journal_paper_doi               10.1107/S0108270194001368
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         '11Mn 2+ , 8H P O3 2- , 6OH 1-'
+_chemical_formula_structural     'Mn11 (H P O3)8 (O H)6'
+_chemical_formula_sum            'H14 Mn11 O30 P8'
+_chemical_formula_weight         1346.2
+_chemical_name_systematic        'Manganese Hydroxyphosphite'
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   13.1957(6)
+_cell_length_b                   13.1957(6)
+_cell_length_c                   5.1770(3)
+_cell_volume                     780.68(7)
+_cod_data_source_file            br1071.cif
+_cod_data_source_block           II
+_cod_depositor_comments
+;
+ Changing the _atom_site_occupancy data item value from '?' to '1'
+ for all fully occupied atom sites.
+
+ Antanas Vaitkus,
+ 2017-02-13
+
+ Adding the _atom_type_symbol data item to the _atom_type loop.
+ The values of the _atom_type_symbol data item were inferred from
+ the _atom_site_type_symbol and _atom_site_label data items.
+
+ Antanas Vaitkus,
+ 2017-01-11
+
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        780.68(8)
+_cod_database_code               2009846
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-x+y,y,z
+y,x,z+1/2
+x,x-y,z
+x-y,-y,z+1/2
+-y,-x,z
+-x,-x+y,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_type_symbol
+Mn(1) 0.5730(3) 0.6529(3) 0.0700 0.0098(7) Uiso ? ? T 0.909(8) ? Mn
+P(1) 0.8391(3) 0.1609 0.050(3) 0.0094(7) Uiso ? ? ST 1 ? P
+P(2) 0.3333 0.6666 0.826(3) 0.0086(7) Uiso ? ? ST 1 ? P
+O(1) 0.8050(7) 0.1950 0.809(4) 0.0175(7) Uiso ? ? ST 1 ? O
+O(2) 0.6540(10) 0.9200(9) 0.714(2) 0.0144(7) Uiso ? ? T 1 ? O
+O(3) 0.6043(7) 0.3957 0.425(3) 0.0162(7) Uiso ? ? ST 1 ? O
+O(4) 0.5255(8) 0.4745 0.891(3) 0.0145(7) Uiso ? ? ST 1 ? O
+H(1) 0.8958 0.1042 0.9769 0.025 Uiso calc P(1) ? 1 ? H
+H(2) 0.3333 0.6666 0.5760 0.025 Uiso calc P(2) ? 1 ? H
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+H IntTabIV
+Mn IntTabIV
+O IntTabIV
+P IntTabIV
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(2) Mn(1) O(1) 2_654 2_554 91.7(5) yes
+O(2) Mn(1) O(1) 9_564 2_554 101.6(5) yes
+O(3) Mn(1) O(1) 4_664 2_554 100.1(5) yes
+O(4) Mn(1) O(1) 1_554 2_554 169.4(5) yes
+O(4) Mn(1) O(1) 4_664 2_554 92.8(5) yes
+O(2) Mn(1) O(2) 9_564 2_654 92.7(4) yes
+O(3) Mn(1) O(2) 4_664 2_654 165.8(4) yes
+O(4) Mn(1) O(2) 1_554 2_654 85.0(4) yes
+O(4) Mn(1) O(2) 4_664 2_654 87.2(5) yes
+O(3) Mn(1) O(2) 4_664 9_564 92.6(5) yes
+O(4) Mn(1) O(2) 1_554 9_564 88.6(5) yes
+O(4) Mn(1) O(2) 4_664 9_564 165.5(5) yes
+O(4) Mn(1) O(3) 1_554 4_664 81.9(6) yes
+O(4) Mn(1) O(3) 4_664 4_664 84.4(5) yes
+O(4) Mn(1) O(4) 4_664 1_554 76.9(4) yes
+O(2) P(1) O(1) 6_554 1_554 112.1(7) yes
+O(2) P(1) O(1) 10_664 1_554 112.1(7) yes
+H(1) P(1) O(1) 1_554 1_554 103.3 yes
+O(2) P(1) O(2) 10_664 6_554 108.1(11) yes
+H(1) P(1) O(2) 1_554 6_554 110.5 yes
+H(1) P(1) O(2) 1_554 10_664 110.5 yes
+O(3) P(2) O(3) 4_665 2_555 109.1(9) yes
+O(3) P(2) O(3) 6_565 2_555 109.1(9) yes
+H(2) P(2) O(3) 1_555 2_555 109.8 yes
+O(3) P(2) O(3) 6_565 4_665 109.1(8) yes
+H(2) P(2) O(3) 1_555 4_665 109.8 yes
+H(2) P(2) O(3) 1_555 6_565 109.8 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mn(1) Mn(1) . 11_665 2.981(7) yes
+Mn(1) O(1) . 2_554 2.190(10) yes
+Mn(1) O(2) . 2_654 2.250(10) yes
+Mn(1) O(2) . 9_564 2.133(9) yes
+Mn(1) O(3) . 4_664 2.220(10) yes
+Mn(1) O(4) . 1_554 2.31(2) yes
+Mn(1) O(4) . 4_664 2.260(10) yes
+P(1) O(1) . 1_554 1.47(2) yes
+P(1) O(2) . 6_554 1.520(10) yes
+P(1) O(2) . 10_664 1.520(10) yes
+P(1) H(1) . 1_554 1.30 yes
+P(2) O(3) . 2_555 1.52(2) yes
+P(2) O(3) . 4_665 1.52(2) yes
+P(2) O(3) . 6_565 1.52(2) yes
+P(2) H(2) . 1_555 1.29 yes

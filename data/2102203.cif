@@ -1,0 +1,2782 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/22/2102203.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102203
+loop_
+_publ_author_name
+'Norberg, Stefan T.'
+'Streltsov, Victor A.'
+'Svensson, G\"oran'
+'Albertsson, J\"orgen'
+_publ_section_title
+;
+ Dopant positions in strontium/chromium- and barium-doped KTP,
+ determined with synchrotron X-radiation
+;
+_journal_coeditor_code           OS0060
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              980
+_journal_page_last               987
+_journal_paper_doi               10.1107/S0108768100012866
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         'Sr0.06 K0.87 Cr0.05 Ti0.95 O P O4'
+_chemical_formula_sum            'Cr0.05 K0.87 O5 P Sr0.06 Ti0.95'
+_chemical_formula_weight         198.13
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   12.786(2)
+_cell_length_b                   6.3927(8)
+_cell_length_c                   10.5585(9)
+_cell_measurement_reflns_used    12
+_cell_measurement_temperature    293(1)
+_cell_measurement_theta_max      44.8
+_cell_measurement_theta_min      35.9
+_cell_volume                     863.02(19)
+_computing_cell_refinement       'BL14A (Tsukuba, Japan)'
+_computing_data_collection       'BL14A (Tsukuba, Japan)'
+_computing_data_reduction
+'Xtal3.6 (Hall et al., 1999) DIFDAT ADDREF ABSORB SORTRF'
+_computing_molecular_graphics
+;ORTEPIII (Burnett & Johnson, 1996) and Xtal3.6 (Hall et al., 1999) FOURR
+ SLANT
+CONTRS
+;
+_computing_publication_material
+'Xtal3.6 (Hall et al., 1999) BONDLA ATABLE CIFIO'
+_computing_structure_refinement  'Xtal3.6 (Hall et al., 1999) CRYLSQ'
+_diffrn_ambient_temperature      293(1)
+_diffrn_measurement_device_type  'bl14a 4-circle'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_detector       'avalanche photo diode'
+_diffrn_radiation_monochromator  si(111)
+_diffrn_radiation_source         'photon factory bl14a'
+_diffrn_radiation_type           'synchrotron x-ray vertical wiggler'
+_diffrn_radiation_wavelength     .75000(9)
+_diffrn_reflns_av_R_equivalents  .060
+_diffrn_reflns_av_unetI/netI     .022
+_diffrn_reflns_limit_h_max       28
+_diffrn_reflns_limit_h_min       -28
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       -25
+_diffrn_reflns_number            40331
+_diffrn_reflns_reduction_process 'equatorial monochr Lp'
+_diffrn_reflns_theta_max         64.91
+_diffrn_reflns_theta_min         3.36
+_diffrn_standards_decay_%        23
+_diffrn_standards_interval_count 200
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    4.107
+_exptl_absorpt_correction_T_max  .8577
+_exptl_absorpt_correction_T_min  .8054
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+;
+Alcock, N. W. 1974. Absorption and Extinction Corrections: Calculation
+Methods and Standard Tests. Acta Cryst. A30, 332-335
+;
+_exptl_crystal_colour            'light brown'
+_exptl_crystal_density_diffrn    3.050
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       Rectangular
+_exptl_crystal_F_000             766.57
+_exptl_crystal_size_max          0.058
+_exptl_crystal_size_mid          0.054
+_exptl_crystal_size_min          0.040
+_refine_diff_density_max         1.199
+_refine_diff_density_min         -1.454
+_refine_ls_abs_structure_details 'Flack xabs refined'
+_refine_ls_abs_structure_Flack   0.465(10)
+_refine_ls_extinction_coef       .000
+_refine_ls_extinction_expression 'Eq22 p292 "Cryst. Comp." Munksgaard 1970'
+_refine_ls_extinction_method     'Gaussian (Zachariasen, 1967)'
+_refine_ls_goodness_of_fit_all   2.493
+_refine_ls_goodness_of_fit_ref   2.493
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    2
+_refine_ls_number_parameters     194
+_refine_ls_number_reflns         10124
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          .028
+_refine_ls_R_factor_gt           .028
+_refine_ls_shift/su_max          .019
+_refine_ls_shift/su_mean         .001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .032
+_refine_ls_wR_factor_ref         .032
+_reflns_d_resolution_high        .414
+_reflns_d_resolution_low         6.385
+_reflns_Friedel_coverage         1.012
+_reflns_limit_h_max              28
+_reflns_limit_h_min              0
+_reflns_limit_k_max              14
+_reflns_limit_k_min              0
+_reflns_limit_l_max              23
+_reflns_limit_l_min              -25
+_reflns_number_gt                10124
+_reflns_number_total             10124
+_reflns_threshold_expression     F>2\s(F)
+_cod_data_source_file            os0060.cif
+_cod_data_source_block           SrCrKTP
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        863.03(19)
+_cod_original_sg_symbol_Hall     'p 2c -2n'
+_cod_database_code               2102203
+_cod_database_fobs_code          2102203
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+K1 .37755(5) .22053(9) .30331(8) .01901(18) Uani .857(2)
+Sr1a .3898(6) .2116(9) .3398(8) .019(2) Uani .040(1)
+Sr1b .3945(9) .2022(17) .4372(12) .026(4) Uani .023(1)
+K2 .10548(4) .30046(11) .05796(8) .0204(2) Uani .882(2)
+Sr2a .1047(6) .3032(11) .0968(8) .016(2) Uani .033(1)
+Sr2b .1219(10) .2783(13) .1953(11) .025(4) Uani .020(1)
+Ti1 .372899(17) .49998(3) -.00666(6) .00705(6) Uani .955(1)
+Cr1 .3874(5) .5069(7) .0214(6) .0096(7) Uiso .045(1)
+Ti2 .246829(14) .73301(4) .24415(7) .00664(6) Uani .948(1)
+Cr2 .2450(3) .7862(6) .2666(5) .0096(13) Uani .052(1)
+P1 .498123(18) .66508(4) .25210(9) .00661(7) Uani 1.000
+P2 .18034(2) .49796(4) .50376(6) .00665(9) Uani 1.000
+O1 .48594(9) .51487(18) .14126(12) .0111(3) Uani 1.000
+O2 .50963(8) .5347(2) .37442(11) .0110(3) Uani 1.000
+O3 .40048(6) .80241(15) .27093(10) .0098(3) Uani 1.000
+O4 .59383(6) .80702(15) .23196(10) .0101(3) Uani 1.000
+O11 .27536(8) .53370(16) .13381(11) .0105(3) Uani 1.000
+O12 .22366(8) .9591(2) .38055(12) .0113(3) Uani 1.000
+O5 .11202(9) .68890(17) .53274(11) .0097(3) Uani 1.000
+O6 .11110(9) .30816(16) .47780(11) .0109(3) Uani 1.000
+O7 .25287(8) .4608(2) .61869(12) .0111(3) Uani 1.000
+O8 .25264(8) .53903(18) .390(2) .0111(3) Uani 1.000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K1 .0233(2) .01156(13) .0222(2) -.00414(12) .00637(16) -.00103(15)
+Sr1a .022(2) .0080(14) .028(3) -.0070(12) -.002(2) .0035(18)
+Sr1b .019(3) .015(3) .042(7) -.007(3) -.001(4) .003(4)
+K2 .01290(14) .0231(2) .0251(2) -.00521(12) .0003(2) .0010(2)
+Sr2a .014(2) .0110(18) .024(3) -.0076(13) .003(2) -.003(2)
+Sr2b .038(5) .007(2) .030(5) -.012(3) .014(4) -.007(3)
+Ti1 .00728(6) .00626(6) .00761(7) .00012(4) -.00117(6) -.00040(5)
+Ti2 .00527(5) .00827(7) .00637(7) .00019(5) .00071(6) .00141(7)
+Cr2 .0118(12) .0044(10) .0128(16) .0012(9) .0004(9) -.0019(10)
+P1 .00533(6) .00733(7) .00717(7) -.00011(5) -.00123(9) -.00016(11)
+P2 .00756(9) .00617(8) .00620(9) .00036(6) .00024(7) .00086(6)
+O1 .0099(3) .0125(3) .0108(3) .0021(3) -.0026(3) -.0040(2)
+O2 .0090(3) .0138(3) .0102(3) -.0016(3) -.0027(2) .0038(3)
+O3 .0059(2) .0109(3) .0126(3) .00121(18) .00016(17) -.0015(2)
+O4 .0056(2) .0113(3) .0133(4) -.00129(17) .00043(18) .0009(2)
+O11 .0093(3) .0113(3) .0109(3) -.0010(2) .0024(2) -.0025(3)
+O12 .0092(3) .0123(3) .0124(3) -.0008(3) .0028(3) -.0022(3)
+O5 .0112(3) .0065(2) .0116(3) .0010(2) .0022(2) -.0002(2)
+O6 .0128(3) .0066(3) .0134(3) -.0015(2) -.0025(3) -.0004(2)
+O7 .0112(4) .0124(3) .0096(3) -.0022(3) -.0030(2) .0039(3)
+O8 .0120(3) .0123(3) .0089(3) .0029(3) .0036(2) .0031(3)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0 6.956 .1958 .2781 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+Sr 0 0.464 -2.8958 3.5793 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+Ti 0 7.612 .2647 .4951 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+Cr 0 0.388 .2983 .6914 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+P 0 8 .1003 .1055 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+O 0 40 .0093 .0689 'Int Tables Vol IV Tables 2.2B and 2.3.1'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+12 0 0
+-12 0 0
+4 10 0
+-4 -10 0
+0 0 16
+0 0 -16
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Sr1a K1 Sr1b . . . 13.7(11) no
+Sr1a K1 K2 . . . 149.0(10) no
+Sr1a K1 Sr2a . . . 144.4(10) no
+Sr1a K1 Sr2b . . . 131.7(10) no
+Sr1a K1 Ti1 . . . 151.3(9) no
+Sr1a K1 Cr1 . . . 147.1(9) no
+Sr1a K1 Ti2 . . '1 545' 102.4(8) no
+Sr1a K1 Cr2 . . '1 545' 100.7(8) no
+Sr1a K1 P1 . . . 95.4(8) no
+Sr1a K1 P2 . . '3 544' 147.3(8) no
+Sr1a K1 O1 . . . 116.9(9) no
+Sr1a K1 O2 . . . 67.5(8) no
+Sr1a K1 O3 . . '1 545' 86.6(8) no
+Sr1a K1 O11 . . . 143.6(8) no
+Sr1a K1 O12 . . '1 545' 84.8(9) no
+Sr1a K1 O5 . . '3 544' 152.6(10) no
+Sr1a K1 O7 . . '3 544' 135.6(8) no
+Sr1a K1 O8 . . . 90.6(10) no
+Sr1a K1 Ti2 . . . 116.1(8) no
+Sr1a K1 K2 . . '3 545' 40.0(8) no
+Sr1a K1 Sr2a . . '3 545' 36.5(8) no
+Sr1a K1 K2 . . 3 63.5(8) no
+Sr1a K1 K2 . . 4 109.1(10) no
+Sr1a K1 Sr2a . . 4 104.3(10) no
+Sr1a K1 Sr2b . . 4 88.0(10) no
+Sr1b K1 K2 . . . 135.6(4) no
+Sr1b K1 Sr2a . . . 130.9(5) no
+Sr1b K1 Sr2b . . . 118.2(5) no
+Sr1b K1 Ti1 . . . 155.0(4) no
+Sr1b K1 Cr1 . . . 151.1(4) no
+Sr1b K1 Ti2 . . '1 545' 99.8(4) no
+Sr1b K1 Cr2 . . '1 545' 97.2(4) no
+Sr1b K1 P1 . . . 99.3(4) no
+Sr1b K1 P2 . . '3 544' 151.3(4) no
+Sr1b K1 O1 . . . 124.2(4) no
+Sr1b K1 O2 . . . 72.3(4) no
+Sr1b K1 O3 . . '1 545' 91.6(4) no
+Sr1b K1 O11 . . . 135.3(4) no
+Sr1b K1 O12 . . '1 545' 76.3(4) no
+Sr1b K1 O5 . . '3 544' 165.7(4) no
+Sr1b K1 O7 . . '3 544' 131.8(4) no
+Sr1b K1 O8 . . . 79.6(6) no
+Sr1b K1 Ti2 . . . 107.7(4) no
+Sr1b K1 K2 . . '3 545' 40.4(4) no
+Sr1b K1 Sr2a . . '3 545' 36.2(4) no
+Sr1b K1 K2 . . 3 58.7(4) no
+Sr1b K1 K2 . . 4 122.6(4) no
+Sr1b K1 Sr2a . . 4 117.8(5) no
+Sr1b K1 Sr2b . . 4 101.3(5) no
+K2 K1 Sr2a . . . 4.67(11) no
+K2 K1 Sr2b . . . 17.34(19) no
+K2 K1 Ti1 . . . 53.891(15) no
+K2 K1 Cr1 . . . 57.50(10) no
+K2 K1 Ti2 . . '1 545' 68.138(18) no
+K2 K1 Cr2 . . '1 545' 67.46(8) no
+K2 K1 P1 . . . 100.10(2) no
+K2 K1 P2 . . '3 544' 49.584(15) no
+K2 K1 O1 . . . 87.41(3) no
+K2 K1 O2 . . . 124.75(3) no
+K2 K1 O3 . . '1 545' 97.28(3) no
+K2 K1 O11 . . . 38.52(2) no
+K2 K1 O12 . . '1 545' 70.85(3) no
+K2 K1 O5 . . '3 544' 56.93(3) no
+K2 K1 O7 . . '3 544' 41.45(3) no
+K2 K1 O8 . . . 69.4(4) no
+K2 K1 Ti2 . . . 56.017(16) no
+K2 K1 K2 . . '3 545' 123.16(2) no
+K2 K1 Sr2a . . '3 545' 124.70(10) no
+K2 K1 K2 . . 3 106.916(18) no
+K2 K1 K2 . . 4 101.84(3) no
+K2 K1 Sr2a . . 4 106.59(13) no
+K2 K1 Sr2b . . 4 123.0(2) no
+Sr2a K1 Sr2b . . . 12.7(2) no
+Sr2a K1 Ti1 . . . 57.60(11) no
+Sr2a K1 Cr1 . . . 61.07(15) no
+Sr2a K1 Ti2 . . '1 545' 68.14(10) no
+Sr2a K1 Cr2 . . '1 545' 67.08(12) no
+Sr2a K1 P1 . . . 101.44(10) no
+Sr2a K1 P2 . . '3 544' 53.61(11) no
+Sr2a K1 O1 . . . 90.52(11) no
+Sr2a K1 O2 . . . 124.84(10) no
+Sr2a K1 O3 . . '1 545' 98.65(10) no
+Sr2a K1 O11 . . . 39.78(10) no
+Sr2a K1 O12 . . '1 545' 68.02(11) no
+Sr2a K1 O5 . . '3 544' 61.60(12) no
+Sr2a K1 O7 . . '3 544' 43.52(10) no
+Sr2a K1 O8 . . . 65.9(4) no
+Sr2a K1 Ti2 . . . 54.77(10) no
+Sr2a K1 K2 . . '3 545' 120.61(11) no
+Sr2a K1 Sr2a . . '3 545' 121.84(15) no
+Sr2a K1 K2 . . 3 104.18(10) no
+Sr2a K1 K2 . . 4 106.47(12) no
+Sr2a K1 Sr2a . . 4 111.22(17) no
+Sr2a K1 Sr2b . . 4 127.6(2) no
+Sr2b K1 Ti1 . . . 69.31(18) no
+Sr2b K1 Cr1 . . . 72.5(2) no
+Sr2b K1 Ti2 . . '1 545' 66.30(14) no
+Sr2b K1 Cr2 . . '1 545' 64.23(16) no
+Sr2b K1 P1 . . . 107.19(14) no
+Sr2b K1 P2 . . '3 544' 63.54(18) no
+Sr2b K1 O1 . . . 100.77(17) no
+Sr2b K1 O2 . . . 126.37(14) no
+Sr2b K1 O3 . . '1 545' 99.49(14) no
+Sr2b K1 O11 . . . 47.30(16) no
+Sr2b K1 O12 . . '1 545' 58.79(16) no
+Sr2b K1 O5 . . '3 544' 74.0(2) no
+Sr2b K1 O7 . . '3 544' 48.42(16) no
+Sr2b K1 O8 . . . 59.0(3) no
+Sr2b K1 Ti2 . . . 55.34(14) no
+Sr2b K1 K2 . . '3 545' 111.09(17) no
+Sr2b K1 Sr2a . . '3 545' 111.7(2) no
+Sr2b K1 K2 . . 3 98.68(15) no
+Sr2b K1 K2 . . 4 119.2(2) no
+Sr2b K1 Sr2a . . 4 123.9(2) no
+Sr2b K1 Sr2b . . 4 140.3(3) no
+Ti1 K1 Cr1 . . . 4.21(10) no
+Ti1 K1 Ti2 . . '1 545' 104.81(2) no
+Ti1 K1 Cr2 . . '1 545' 107.09(9) no
+Ti1 K1 P1 . . . 56.46(2) no
+Ti1 K1 P2 . . '3 544' 53.566(16) no
+Ti1 K1 O1 . . . 34.71(3) no
+Ti1 K1 O2 . . . 84.19(3) no
+Ti1 K1 O3 . . '1 545' 111.31(3) no
+Ti1 K1 O11 . . . 31.34(2) no
+Ti1 K1 O12 . . '1 545' 123.26(4) no
+Ti1 K1 O5 . . '3 544' 32.86(2) no
+Ti1 K1 O7 . . '3 544' 72.04(3) no
+Ti1 K1 O8 . . . 85.9(4) no
+Ti1 K1 Ti2 . . . 54.915(16) no
+Ti1 K1 K2 . . '3 545' 163.50(2) no
+Ti1 K1 Sr2a . . '3 545' 167.70(11) no
+Ti1 K1 K2 . . 3 97.359(19) no
+Ti1 K1 K2 . . 4 56.333(17) no
+Ti1 K1 Sr2a . . 4 60.41(12) no
+Ti1 K1 Sr2b . . 4 73.32(19) no
+Cr1 K1 Ti2 . . '1 545' 108.85(9) no
+Cr1 K1 Cr2 . . '1 545' 111.20(13) no
+Cr1 K1 P1 . . . 52.32(9) no
+Cr1 K1 P2 . . '3 544' 57.20(9) no
+Cr1 K1 O1 . . . 30.65(10) no
+Cr1 K1 O2 . . . 80.01(10) no
+Cr1 K1 O3 . . '1 545' 113.89(9) no
+Cr1 K1 O11 . . . 32.30(10) no
+Cr1 K1 O12 . . '1 545' 127.29(11) no
+Cr1 K1 O5 . . '3 544' 35.61(9) no
+Cr1 K1 O7 . . '3 544' 76.18(10) no
+Cr1 K1 O8 . . . 85.3(4) no
+Cr1 K1 Ti2 . . . 54.12(9) no
+Cr1 K1 K2 . . '3 545' 165.60(9) no
+Cr1 K1 Sr2a . . '3 545' 169.46(14) no
+Cr1 K1 K2 . . 3 94.26(9) no
+Cr1 K1 K2 . . 4 54.95(10) no
+Cr1 K1 Sr2a . . 4 58.82(16) no
+Cr1 K1 Sr2b . . 4 70.9(2) no
+Ti2 K1 Cr2 '1 545' . '1 545' 4.52(8) no
+Ti2 K1 P1 '1 545' . . 160.49(3) no
+Ti2 K1 P2 '1 545' . '3 544' 53.097(18) no
+Ti2 K1 O1 '1 545' . . 133.14(4) no
+Ti2 K1 O2 '1 545' . . 167.01(4) no
+Ti2 K1 O3 '1 545' . '1 545' 34.17(2) no
+Ti2 K1 O11 '1 545' . . 105.90(3) no
+Ti2 K1 O12 '1 545' . '1 545' 34.76(3) no
+Ti2 K1 O5 '1 545' . '3 544' 77.71(3) no
+Ti2 K1 O7 '1 545' . '3 544' 33.23(3) no
+Ti2 K1 O8 '1 545' . . 115.53(4) no
+Ti2 K1 Ti2 '1 545' . . 121.63(2) no
+Ti2 K1 K2 '1 545' . '3 545' 62.43(2) no
+Ti2 K1 Sr2a '1 545' . '3 545' 65.93(11) no
+Ti2 K1 K2 '1 545' . 3 145.67(2) no
+Ti2 K1 K2 '1 545' . 4 101.67(2) no
+Ti2 K1 Sr2a '1 545' . 4 103.37(12) no
+Ti2 K1 Sr2b '1 545' . 4 112.30(15) no
+Cr2 K1 P1 '1 545' . . 163.45(9) no
+Cr2 K1 P2 '1 545' . '3 544' 56.38(8) no
+Cr2 K1 O1 '1 545' . . 136.74(9) no
+Cr2 K1 O2 '1 545' . . 167.52(9) no
+Cr2 K1 O3 '1 545' . '1 545' 37.38(8) no
+Cr2 K1 O11 '1 545' . . 105.71(8) no
+Cr2 K1 O12 '1 545' . '1 545' 30.28(8) no
+Cr2 K1 O5 '1 545' . '3 544' 81.16(9) no
+Cr2 K1 O7 '1 545' . '3 544' 35.07(9) no
+Cr2 K1 O8 '1 545' . . 111.53(8) no
+Cr2 K1 Ti2 '1 545' . . 119.51(8) no
+Cr2 K1 K2 '1 545' . '3 545' 61.00(8) no
+Cr2 K1 Sr2a '1 545' . '3 545' 64.29(13) no
+Cr2 K1 K2 '1 545' . 3 141.19(8) no
+Cr2 K1 K2 '1 545' . 4 106.19(8) no
+Cr2 K1 Sr2a '1 545' . 4 107.88(14) no
+Cr2 K1 Sr2b '1 545' . 4 116.58(17) no
+P1 K1 P2 . . '3 544' 107.39(3) no
+P1 K1 O1 . . . 27.66(3) no
+P1 K1 O2 . . . 27.92(3) no
+P1 K1 O3 . . '1 545' 141.55(3) no
+P1 K1 O11 . . . 61.69(3) no
+P1 K1 O12 . . '1 545' 157.92(4) no
+P1 K1 O5 . . '3 544' 82.81(3) no
+P1 K1 O7 . . '3 544' 128.50(4) no
+P1 K1 O8 . . . 71.69(14) no
+P1 K1 Ti2 . . . 54.673(14) no
+P1 K1 K2 . . '3 545' 134.54(3) no
+P1 K1 Sr2a . . '3 545' 131.57(11) no
+P1 K1 K2 . . 3 51.20(2) no
+P1 K1 K2 . . 4 64.47(2) no
+P1 K1 Sr2a . . 4 63.99(11) no
+P1 K1 Sr2b . . 4 59.98(14) no
+P2 K1 O1 '3 544' . . 80.42(3) no
+P2 K1 O2 '3 544' . . 132.04(4) no
+P2 K1 O3 '3 544' . '1 545' 60.95(3) no
+P2 K1 O11 '3 544' . . 69.09(3) no
+P2 K1 O12 '3 544' . '1 545' 82.49(3) no
+P2 K1 O5 '3 544' . '3 544' 24.87(2) no
+P2 K1 O7 '3 544' . '3 544' 25.73(2) no
+P2 K1 O8 '3 544' . . 118.3(4) no
+P2 K1 Ti2 '3 544' . . 96.29(2) no
+P2 K1 K2 '3 544' . '3 545' 111.03(2) no
+P2 K1 Sr2a '3 544' . '3 545' 115.16(11) no
+P2 K1 K2 '3 544' . 3 149.02(2) no
+P2 K1 K2 '3 544' . 4 63.25(2) no
+P2 K1 Sr2a '3 544' . 4 67.35(13) no
+P2 K1 Sr2b '3 544' . 4 83.7(2) no
+O1 K1 O2 . . . 52.29(4) no
+O1 K1 O3 . . '1 545' 120.95(4) no
+O1 K1 O11 . . . 54.54(3) no
+O1 K1 O12 . . '1 545' 157.93(5) no
+O1 K1 O5 . . '3 544' 55.59(4) no
+O1 K1 O7 . . '3 544' 103.73(4) no
+O1 K1 O8 . . . 89.7(3) no
+O1 K1 Ti2 . . . 62.93(3) no
+O1 K1 K2 . . '3 545' 148.03(3) no
+O1 K1 Sr2a . . '3 545' 147.53(11) no
+O1 K1 K2 . . 3 78.37(3) no
+O1 K1 K2 . . 4 43.34(3) no
+O1 K1 Sr2a . . 4 44.80(12) no
+O1 K1 Sr2b . . 4 49.19(16) no
+O2 K1 O3 . . '1 545' 133.90(4) no
+O2 K1 O11 . . . 86.69(4) no
+O2 K1 O12 . . '1 545' 145.19(5) no
+O2 K1 O5 . . '3 544' 107.29(4) no
+O2 K1 O7 . . '3 544' 155.92(5) no
+O2 K1 O8 . . . 73.88(10) no
+O2 K1 Ti2 . . . 71.16(3) no
+O2 K1 K2 . . '3 545' 106.83(4) no
+O2 K1 Sr2a . . '3 545' 103.70(11) no
+O2 K1 K2 . . 3 38.22(3) no
+O2 K1 K2 . . 4 75.27(3) no
+O2 K1 Sr2a . . 4 72.63(12) no
+O2 K1 Sr2b . . 4 60.75(16) no
+O3 K1 O11 '1 545' . . 129.26(4) no
+O3 K1 O12 '1 545' . '1 545' 60.52(3) no
+O3 K1 O5 '1 545' . '3 544' 78.45(4) no
+O3 K1 O7 '1 545' . '3 544' 56.14(3) no
+O3 K1 O8 '1 545' . . 146.75(14) no
+O3 K1 Ti2 '1 545' . . 153.29(3) no
+O3 K1 K2 '1 545' . '3 545' 52.21(3) no
+O3 K1 Sr2a '1 545' . '3 545' 56.43(11) no
+O3 K1 K2 '1 545' . 3 150.02(4) no
+O3 K1 K2 '1 545' . 4 78.55(3) no
+O3 K1 Sr2a '1 545' . 4 78.27(11) no
+O3 K1 Sr2b '1 545' . 4 81.80(14) no
+O11 K1 O12 . . '1 545' 106.04(4) no
+O11 K1 O5 . . '3 544' 58.03(3) no
+O11 K1 O7 . . '3 544' 75.12(4) no
+O11 K1 O8 . . . 56.6(4) no
+O11 K1 Ti2 . . . 27.73(2) no
+O11 K1 K2 . . '3 545' 157.11(3) no
+O11 K1 Sr2a . . '3 545' 156.13(11) no
+O11 K1 K2 . . 3 80.22(3) no
+O11 K1 K2 . . 4 87.25(3) no
+O11 K1 Sr2a . . 4 91.04(12) no
+O11 K1 Sr2b . . 4 101.77(18) no
+O12 K1 O5 '1 545' . '3 544' 106.88(4) no
+O12 K1 O7 '1 545' . '3 544' 57.32(4) no
+O12 K1 O8 '1 545' . . 86.23(14) no
+O12 K1 Ti2 '1 545' . . 105.48(3) no
+O12 K1 K2 '1 545' . '3 545' 52.64(3) no
+O12 K1 Sr2a '1 545' . '3 545' 53.86(11) no
+O12 K1 K2 '1 545' . 3 110.91(4) no
+O12 K1 K2 '1 545' . 4 136.19(4) no
+O12 K1 Sr2a '1 545' . 4 137.35(12) no
+O12 K1 Sr2b '1 545' . 4 141.94(15) no
+O5 K1 O7 '3 544' . '3 544' 49.57(3) no
+O5 K1 O8 '3 544' . . 114.4(4) no
+O5 K1 Ti2 '3 544' . . 85.18(3) no
+O5 K1 K2 '3 544' . '3 545' 130.65(3) no
+O5 K1 Sr2a '3 544' . '3 545' 134.86(11) no
+O5 K1 K2 '3 544' . 3 129.73(3) no
+O5 K1 K2 '3 544' . 4 45.67(3) no
+O5 K1 Sr2a '3 544' . 4 50.36(13) no
+O5 K1 Sr2b '3 544' . 4 67.3(2) no
+O7 K1 O8 '3 544' . . 107.4(3) no
+O7 K1 Ti2 '3 544' . . 97.23(3) no
+O7 K1 K2 '3 544' . '3 545' 95.65(3) no
+O7 K1 Sr2a '3 544' . '3 545' 99.15(11) no
+O7 K1 K2 '3 544' . 3 147.07(3) no
+O7 K1 K2 '3 544' . 4 88.01(3) no
+O7 K1 Sr2a '3 544' . 4 91.75(13) no
+O7 K1 Sr2b '3 544' . 4 107.16(19) no
+O8 K1 Ti2 . . . 31.2(4) no
+O8 K1 K2 . . '3 545' 108.7(4) no
+O8 K1 Sr2a . . '3 545' 105.2(4) no
+O8 K1 K2 . . 3 39.8(2) no
+O8 K1 K2 . . 4 133.0(3) no
+O8 K1 Sr2a . . 4 134.1(3) no
+O8 K1 Sr2b . . 4 131.25(17) no
+Ti2 K1 K2 . . '3 545' 139.77(3) no
+Ti2 K1 Sr2a . . '3 545' 136.36(11) no
+Ti2 K1 K2 . . 3 53.794(17) no
+Ti2 K1 K2 . . 4 104.70(2) no
+Ti2 K1 Sr2a . . 4 107.11(12) no
+Ti2 K1 Sr2b . . 4 111.19(15) no
+K2 K1 Sr2a '3 545' . '3 545' 4.23(11) no
+K2 K1 K2 '3 545' . 3 98.83(2) no
+K2 K1 K2 '3 545' . 4 113.71(2) no
+K2 K1 Sr2a '3 545' . 4 110.41(12) no
+K2 K1 Sr2b '3 545' . 4 100.97(17) no
+Sr2a K1 K2 '3 545' . 3 94.61(11) no
+Sr2a K1 K2 '3 545' . 4 116.01(11) no
+Sr2a K1 Sr2a '3 545' . 4 112.48(16) no
+Sr2a K1 Sr2b '3 545' . 4 102.1(2) no
+K2 K1 K2 3 . 4 112.45(2) no
+K2 K1 Sr2a 3 . 4 110.35(12) no
+K2 K1 Sr2b 3 . 4 98.91(16) no
+K2 K1 Sr2a 4 . 4 4.75(13) no
+K2 K1 Sr2b 4 . 4 21.7(2) no
+Sr2a K1 Sr2b 4 . 4 17.0(2) no
+K1 Sr1a Sr1b . . . 160.8(15) no
+K1 Sr1a K2 . . . 28.4(9) no
+K1 Sr1a Sr2a . . . 32.5(9) no
+K1 Sr1a Sr2b . . . 43.6(9) no
+K1 Sr1a Ti2 . . '1 545' 71.3(8) no
+K1 Sr1a Cr2 . . '1 545' 72.3(8) no
+K1 Sr1a P1 . . . 77.4(8) no
+K1 Sr1a O1 . . . 56.2(9) no
+K1 Sr1a O2 . . . 103.9(9) no
+K1 Sr1a O3 . . '1 545' 84.5(8) no
+K1 Sr1a O12 . . '1 545' 86.3(9) no
+K1 Sr1a O6 . . 4 139.1(11) no
+K1 Sr1a O8 . . . 80.7(10) no
+K1 Sr1a K2 . . '3 545' 135.6(9) no
+K1 Sr1a Sr2a . . '3 545' 139.7(9) no
+K1 Sr1a Sr2b . . '3 545' 143.8(9) no
+K1 Sr1a K2 . . 3 111.6(8) no
+K1 Sr1a Sr2a . . 3 115.5(9) no
+K1 Sr1a K2 . . 4 65.3(10) no
+K1 Sr1a Sr2a . . 4 69.5(10) no
+K1 Sr1a Sr2b . . 4 84.8(10) no
+Sr1b Sr1a K2 . . . 132.7(8) no
+Sr1b Sr1a Sr2a . . . 128.6(8) no
+Sr1b Sr1a Sr2b . . . 117.6(8) no
+Sr1b Sr1a Ti2 . . '1 545' 104.6(7) no
+Sr1b Sr1a Cr2 . . '1 545' 102.3(7) no
+Sr1b Sr1a P1 . . . 107.6(7) no
+Sr1b Sr1a O1 . . . 133.2(7) no
+Sr1b Sr1a O2 . . . 82.6(7) no
+Sr1b Sr1a O3 . . '1 545' 102.0(7) no
+Sr1b Sr1a O12 . . '1 545' 81.5(7) no
+Sr1b Sr1a O6 . . 4 59.3(7) no
+Sr1b Sr1a O8 . . . 83.7(9) no
+Sr1b Sr1a K2 . . '3 545' 45.5(7) no
+Sr1b Sr1a Sr2a . . '3 545' 40.6(7) no
+Sr1b Sr1a Sr2b . . '3 545' 33.5(7) no
+Sr1b Sr1a K2 . . 3 61.9(7) no
+Sr1b Sr1a Sr2a . . 3 57.7(7) no
+Sr1b Sr1a K2 . . 4 133.6(8) no
+Sr1b Sr1a Sr2a . . 4 129.5(8) no
+Sr1b Sr1a Sr2b . . 4 113.9(8) no
+K2 Sr1a Sr2a . . . 4.17(11) no
+K2 Sr1a Sr2b . . . 15.19(18) no
+K2 Sr1a Ti2 . . '1 545' 63.17(11) no
+K2 Sr1a Cr2 . . '1 545' 62.08(14) no
+K2 Sr1a P1 . . . 92.29(16) no
+K2 Sr1a O1 . . . 78.74(16) no
+K2 Sr1a O2 . . . 116.5(2) no
+K2 Sr1a O3 . . '1 545' 89.19(18) no
+K2 Sr1a O12 . . '1 545' 64.40(15) no
+K2 Sr1a O6 . . 4 167.1(2) no
+K2 Sr1a O8 . . . 63.0(4) no
+K2 Sr1a K2 . . '3 545' 121.20(16) no
+K2 Sr1a Sr2a . . '3 545' 123.4(2) no
+K2 Sr1a Sr2b . . '3 545' 123.5(2) no
+K2 Sr1a K2 . . 3 103.67(13) no
+K2 Sr1a Sr2a . . 3 106.30(16) no
+K2 Sr1a K2 . . 4 93.62(16) no
+K2 Sr1a Sr2a . . 4 97.8(2) no
+K2 Sr1a Sr2b . . 4 113.2(3) no
+Sr2a Sr1a Sr2b . . . 11.1(2) no
+Sr2a Sr1a Ti2 . . '1 545' 63.38(14) no
+Sr2a Sr1a Cr2 . . '1 545' 61.97(16) no
+Sr2a Sr1a P1 . . . 93.71(18) no
+Sr2a Sr1a O1 . . . 81.63(19) no
+Sr2a Sr1a O2 . . . 117.1(2) no
+Sr2a Sr1a O3 . . '1 545' 90.8(2) no
+Sr2a Sr1a O12 . . '1 545' 62.06(17) no
+Sr2a Sr1a O6 . . 4 170.6(2) no
+Sr2a Sr1a O8 . . . 60.0(4) no
+Sr2a Sr1a K2 . . '3 545' 119.2(2) no
+Sr2a Sr1a Sr2a . . '3 545' 121.1(2) no
+Sr2a Sr1a Sr2b . . '3 545' 120.7(2) no
+Sr2a Sr1a K2 . . 3 101.41(16) no
+Sr2a Sr1a Sr2a . . 3 103.83(18) no
+Sr2a Sr1a K2 . . 4 97.8(2) no
+Sr2a Sr1a Sr2a . . 4 101.9(2) no
+Sr2a Sr1a Sr2b . . 4 117.2(3) no
+Sr2b Sr1a Ti2 . . '1 545' 62.30(17) no
+Sr2b Sr1a Cr2 . . '1 545' 60.07(18) no
+Sr2b Sr1a P1 . . . 99.6(2) no
+Sr2b Sr1a O1 . . . 90.9(2) no
+Sr2b Sr1a O2 . . . 120.2(2) no
+Sr2b Sr1a O3 . . '1 545' 92.6(2) no
+Sr2b Sr1a O12 . . '1 545' 54.4(2) no
+Sr2b Sr1a O6 . . 4 174.7(3) no
+Sr2b Sr1a O8 . . . 54.6(4) no
+Sr2b Sr1a K2 . . '3 545' 111.5(2) no
+Sr2b Sr1a Sr2a . . '3 545' 112.8(3) no
+Sr2b Sr1a Sr2b . . '3 545' 111.3(3) no
+Sr2b Sr1a K2 . . 3 97.3(2) no
+Sr2b Sr1a Sr2a . . 3 99.1(2) no
+Sr2b Sr1a K2 . . 4 108.8(3) no
+Sr2b Sr1a Sr2a . . 4 113.0(3) no
+Sr2b Sr1a Sr2b . . 4 128.3(4) no
+Ti2 Sr1a Cr2 '1 545' . '1 545' 4.19(8) no
+Ti2 Sr1a P1 '1 545' . . 147.7(3) no
+Ti2 Sr1a O1 '1 545' . . 121.8(2) no
+Ti2 Sr1a O2 '1 545' . . 170.5(3) no
+Ti2 Sr1a O3 '1 545' . '1 545' 32.56(8) no
+Ti2 Sr1a O12 '1 545' . '1 545' 33.09(8) no
+Ti2 Sr1a O6 '1 545' . 4 122.03(18) no
+Ti2 Sr1a O8 '1 545' . . 111.3(2) no
+Ti2 Sr1a K2 '1 545' . '3 545' 64.36(10) no
+Ti2 Sr1a Sr2a '1 545' . '3 545' 68.48(16) no
+Ti2 Sr1a Sr2b '1 545' . '3 545' 73.34(17) no
+Ti2 Sr1a K2 '1 545' . 3 148.6(2) no
+Ti2 Sr1a Sr2a '1 545' . 3 146.9(2) no
+Ti2 Sr1a K2 '1 545' . 4 96.87(16) no
+Ti2 Sr1a Sr2a '1 545' . 4 98.8(2) no
+Ti2 Sr1a Sr2b '1 545' . 4 109.3(2) no
+Cr2 Sr1a P1 '1 545' . . 149.4(3) no
+Cr2 Sr1a O1 '1 545' . . 124.3(3) no
+Cr2 Sr1a O2 '1 545' . . 174.4(3) no
+Cr2 Sr1a O3 '1 545' . '1 545' 36.11(11) no
+Cr2 Sr1a O12 '1 545' . '1 545' 28.97(10) no
+Cr2 Sr1a O6 '1 545' . 4 124.0(2) no
+Cr2 Sr1a O8 '1 545' . . 107.7(2) no
+Cr2 Sr1a K2 '1 545' . '3 545' 63.60(13) no
+Cr2 Sr1a Sr2a '1 545' . '3 545' 67.51(18) no
+Cr2 Sr1a Sr2b '1 545' . '3 545' 71.9(2) no
+Cr2 Sr1a K2 '1 545' . 3 144.4(2) no
+Cr2 Sr1a Sr2a '1 545' . 3 142.7(2) no
+Cr2 Sr1a K2 '1 545' . 4 100.9(2) no
+Cr2 Sr1a Sr2a '1 545' . 4 102.9(2) no
+Cr2 Sr1a Sr2b '1 545' . 4 113.5(3) no
+P1 Sr1a O1 . . . 26.96(6) no
+P1 Sr1a O2 . . . 26.52(7) no
+P1 Sr1a O3 . . '1 545' 137.7(3) no
+P1 Sr1a O12 . . '1 545' 152.6(3) no
+P1 Sr1a O6 . . 4 78.05(15) no
+P1 Sr1a O8 . . . 70.2(2) no
+P1 Sr1a K2 . . '3 545' 145.8(2) no
+P1 Sr1a Sr2a . . '3 545' 142.4(3) no
+P1 Sr1a Sr2b . . '3 545' 138.6(3) no
+P1 Sr1a K2 . . 3 53.09(9) no
+P1 Sr1a Sr2a . . 3 56.68(14) no
+P1 Sr1a K2 . . 4 62.08(12) no
+P1 Sr1a Sr2a . . 4 61.98(16) no
+P1 Sr1a Sr2b . . 4 59.21(18) no
+O1 Sr1a O2 . . . 50.63(12) no
+O1 Sr1a O3 . . '1 545' 113.6(3) no
+O1 Sr1a O12 . . '1 545' 142.2(3) no
+O1 Sr1a O6 . . 4 88.96(18) no
+O1 Sr1a O8 . . . 84.8(4) no
+O1 Sr1a K2 . . '3 545' 155.0(2) no
+O1 Sr1a Sr2a . . '3 545' 155.6(3) no
+O1 Sr1a Sr2b . . '3 545' 157.7(3) no
+O1 Sr1a K2 . . 3 79.31(12) no
+O1 Sr1a Sr2a . . 3 83.12(16) no
+O1 Sr1a K2 . . 4 41.28(10) no
+O1 Sr1a Sr2a . . 4 42.83(15) no
+O1 Sr1a Sr2b . . 4 47.8(2) no
+O2 Sr1a O3 . . '1 545' 140.6(3) no
+O2 Sr1a O12 . . '1 545' 156.4(3) no
+O2 Sr1a O6 . . 4 56.16(14) no
+O2 Sr1a O8 . . . 75.32(17) no
+O2 Sr1a K2 . . '3 545' 119.7(3) no
+O2 Sr1a Sr2a . . '3 545' 116.0(3) no
+O2 Sr1a Sr2b . . '3 545' 112.2(3) no
+O2 Sr1a K2 . . 3 40.56(11) no
+O2 Sr1a Sr2a . . 3 42.53(15) no
+O2 Sr1a K2 . . 4 73.58(17) no
+O2 Sr1a Sr2a . . 4 71.6(2) no
+O2 Sr1a Sr2b . . 4 61.6(2) no
+O3 Sr1a O12 '1 545' . '1 545' 60.49(13) no
+O3 Sr1a O6 '1 545' . 4 92.27(19) no
+O3 Sr1a O8 '1 545' . . 143.8(3) no
+O3 Sr1a K2 '1 545' . '3 545' 56.76(12) no
+O3 Sr1a Sr2a '1 545' . '3 545' 61.63(17) no
+O3 Sr1a Sr2b '1 545' . '3 545' 69.25(18) no
+O3 Sr1a K2 '1 545' . 3 163.7(3) no
+O3 Sr1a Sr2a '1 545' . 3 159.5(3) no
+O3 Sr1a K2 '1 545' . 4 75.60(17) no
+O3 Sr1a Sr2a '1 545' . 4 75.9(2) no
+O3 Sr1a Sr2b '1 545' . 4 81.5(2) no
+O12 Sr1a O6 '1 545' . 4 127.0(3) no
+O12 Sr1a O8 '1 545' . . 85.6(2) no
+O12 Sr1a K2 '1 545' . '3 545' 57.29(13) no
+O12 Sr1a Sr2a '1 545' . '3 545' 59.08(17) no
+O12 Sr1a Sr2b '1 545' . '3 545' 59.5(2) no
+O12 Sr1a K2 '1 545' . 3 115.9(2) no
+O12 Sr1a Sr2a '1 545' . 3 113.9(2) no
+O12 Sr1a K2 '1 545' . 4 129.8(2) no
+O12 Sr1a Sr2a '1 545' . 4 131.9(3) no
+O12 Sr1a Sr2b '1 545' . 4 141.6(3) no
+O6 Sr1a O8 4 . . 120.1(4) no
+O6 Sr1a K2 4 . '3 545' 69.72(15) no
+O6 Sr1a Sr2a 4 . '3 545' 68.06(18) no
+O6 Sr1a Sr2b 4 . '3 545' 68.7(2) no
+O6 Sr1a K2 4 . 3 77.46(14) no
+O6 Sr1a Sr2a 4 . 3 75.65(17) no
+O6 Sr1a K2 4 . 4 74.39(14) no
+O6 Sr1a Sr2a 4 . 4 70.24(19) no
+O6 Sr1a Sr2b 4 . 4 54.5(2) no
+O8 Sr1a K2 . . '3 545' 116.8(5) no
+O8 Sr1a Sr2a . . '3 545' 113.3(5) no
+O8 Sr1a Sr2b . . '3 545' 105.8(5) no
+O8 Sr1a K2 . . 3 42.9(3) no
+O8 Sr1a Sr2a . . 3 44.5(3) no
+O8 Sr1a K2 . . 4 125.7(4) no
+O8 Sr1a Sr2a . . 4 127.6(4) no
+O8 Sr1a Sr2b . . 4 129.3(3) no
+K2 Sr1a Sr2a '3 545' . '3 545' 4.88(12) no
+K2 Sr1a Sr2b '3 545' . '3 545' 12.66(13) no
+K2 Sr1a K2 '3 545' . 3 107.3(2) no
+K2 Sr1a Sr2a '3 545' . 3 103.1(2) no
+K2 Sr1a K2 '3 545' . 4 117.21(17) no
+K2 Sr1a Sr2a '3 545' . 4 114.7(2) no
+K2 Sr1a Sr2b '3 545' . 4 107.5(2) no
+Sr2a Sr1a Sr2b '3 545' . '3 545' 8.01(17) no
+Sr2a Sr1a K2 '3 545' . 3 102.4(2) no
+Sr2a Sr1a Sr2a '3 545' . 3 98.2(2) no
+Sr2a Sr1a K2 '3 545' . 4 120.2(2) no
+Sr2a Sr1a Sr2a '3 545' . 4 117.4(2) no
+Sr2a Sr1a Sr2b '3 545' . 4 109.0(3) no
+Sr2b Sr1a K2 '3 545' . 3 95.0(2) no
+Sr2b Sr1a Sr2a '3 545' . 3 90.8(2) no
+Sr2b Sr1a K2 '3 545' . 4 126.9(2) no
+Sr2b Sr1a Sr2a '3 545' . 4 123.9(2) no
+Sr2b Sr1a Sr2b '3 545' . 4 114.1(3) no
+K2 Sr1a Sr2a 3 . 3 4.19(10) no
+K2 Sr1a K2 3 . 4 112.92(15) no
+K2 Sr1a Sr2a 3 . 4 111.56(19) no
+K2 Sr1a Sr2b 3 . 4 102.1(2) no
+Sr2a Sr1a K2 3 . 4 115.62(17) no
+Sr2a Sr1a Sr2a 3 . 4 114.0(2) no
+Sr2a Sr1a Sr2b 3 . 4 103.7(2) no
+K2 Sr1a Sr2a 4 . 4 4.15(12) no
+K2 Sr1a Sr2b 4 . 4 20.1(2) no
+Sr2a Sr1a Sr2b 4 . 4 16.0(2) no
+K1 Sr1b Sr1a . . . 5.5(4) no
+K1 Sr1b Sr2b . . . 44.9(4) no
+K1 Sr1b O2 . . . 76.9(5) no
+K1 Sr1b O3 . . '1 545' 60.9(4) no
+K1 Sr1b O4 . . '2 665' 173.0(6) no
+K1 Sr1b O12 . . '1 545' 73.2(4) no
+K1 Sr1b O6 . . 4 107.6(6) no
+K1 Sr1b O8 . . . 70.9(6) no
+K1 Sr1b Ti1 . . '2 665' 104.2(5) no
+K1 Sr1b Cr1 . . '2 665' 109.3(5) no
+K1 Sr1b O1 . . '2 665' 133.6(6) no
+K1 Sr1b K2 . . '3 545' 120.7(6) no
+K1 Sr1b Sr2a . . '3 545' 127.7(6) no
+K1 Sr1b Sr2b . . '3 545' 138.3(6) no
+K1 Sr1b Ti1 . . '3 545' 92.7(5) no
+K1 Sr1b O11 . . '3 545' 124.4(6) no
+K1 Sr1b K2 . . 3 103.6(5) no
+K1 Sr1b Sr2a . . 3 108.7(5) no
+K1 Sr1b Sr2b . . 3 120.9(5) no
+K1 Sr1b Ti2 . . '3 545' 141.4(6) no
+K1 Sr1b P2 . . . 92.1(5) no
+K1 Sr1b O7 . . . 118.4(6) no
+K1 Sr1b Sr2a . . 4 45.7(4) no
+K1 Sr1b Sr2b . . 4 57.4(4) no
+Sr1a Sr1b Sr2b . . . 50.3(7) no
+Sr1a Sr1b O2 . . . 74.9(7) no
+Sr1a Sr1b O3 . . '1 545' 59.0(6) no
+Sr1a Sr1b O4 . . '2 665' 177.7(9) no
+Sr1a Sr1b O12 . . '1 545' 76.7(7) no
+Sr1a Sr1b O6 . . 4 102.2(8) no
+Sr1a Sr1b O8 . . . 75.3(8) no
+Sr1a Sr1b Ti1 . . '2 665' 100.5(8) no
+Sr1a Sr1b Cr1 . . '2 665' 105.7(8) no
+Sr1a Sr1b O1 . . '2 665' 131.8(8) no
+Sr1a Sr1b K2 . . '3 545' 119.7(8) no
+Sr1a Sr1b Sr2a . . '3 545' 126.7(8) no
+Sr1a Sr1b Sr2b . . '3 545' 138.0(8) no
+Sr1a Sr1b Ti1 . . '3 545' 97.2(8) no
+Sr1a Sr1b O11 . . '3 545' 128.9(8) no
+Sr1a Sr1b K2 . . 3 105.1(7) no
+Sr1a Sr1b Sr2a . . 3 110.3(7) no
+Sr1a Sr1b Sr2b . . 3 122.9(8) no
+Sr1a Sr1b Ti2 . . '3 545' 146.9(9) no
+Sr1a Sr1b P2 . . . 97.3(8) no
+Sr1a Sr1b O7 . . . 123.3(8) no
+Sr1a Sr1b Sr2a . . 4 40.3(7) no
+Sr1a Sr1b Sr2b . . 4 52.0(7) no
+Sr2b Sr1b O2 . . . 102.0(3) no
+Sr2b Sr1b O3 . . '1 545' 77.3(3) no
+Sr2b Sr1b O4 . . '2 665' 128.8(4) no
+Sr2b Sr1b O12 . . '1 545' 45.4(2) no
+Sr2b Sr1b O6 . . 4 152.2(4) no
+Sr2b Sr1b O8 . . . 46.0(4) no
+Sr2b Sr1b Ti1 . . '2 665' 134.7(3) no
+Sr2b Sr1b Cr1 . . '2 665' 137.3(3) no
+Sr2b Sr1b O1 . . '2 665' 135.6(3) no
+Sr2b Sr1b K2 . . '3 545' 111.2(3) no
+Sr2b Sr1b Sr2a . . '3 545' 114.8(3) no
+Sr2b Sr1b Sr2b . . '3 545' 116.8(3) no
+Sr2b Sr1b Ti1 . . '3 545' 52.6(2) no
+Sr2b Sr1b O11 . . '3 545' 82.8(3) no
+Sr2b Sr1b K2 . . 3 94.6(2) no
+Sr2b Sr1b Sr2a . . 3 97.8(3) no
+Sr2b Sr1b Sr2b . . 3 102.9(3) no
+Sr2b Sr1b Ti2 . . '3 545' 96.7(3) no
+Sr2b Sr1b P2 . . . 54.1(2) no
+Sr2b Sr1b O7 . . . 80.6(3) no
+Sr2b Sr1b Sr2a . . 4 90.6(3) no
+Sr2b Sr1b Sr2b . . 4 102.2(4) no
+O2 Sr1b O3 . . '1 545' 120.1(4) no
+O2 Sr1b O4 . . '2 665' 103.7(4) no
+O2 Sr1b O12 . . '1 545' 146.6(5) no
+O2 Sr1b O6 . . 4 60.8(2) no
+O2 Sr1b O8 . . . 73.0(3) no
+O2 Sr1b Ti1 . . '2 665' 32.82(13) no
+O2 Sr1b Cr1 . . '2 665' 36.20(17) no
+O2 Sr1b O1 . . '2 665' 56.9(2) no
+O2 Sr1b K2 . . '3 545' 145.4(4) no
+O2 Sr1b Sr2a . . '3 545' 143.1(5) no
+O2 Sr1b Sr2b . . '3 545' 140.0(4) no
+O2 Sr1b Ti1 . . '3 545' 145.8(4) no
+O2 Sr1b O11 . . '3 545' 143.7(4) no
+O2 Sr1b K2 . . 3 47.40(17) no
+O2 Sr1b Sr2a . . 3 50.9(2) no
+O2 Sr1b Sr2b . . 3 62.2(3) no
+O2 Sr1b Ti2 . . '3 545' 116.3(4) no
+O2 Sr1b P2 . . . 93.0(3) no
+O2 Sr1b O7 . . . 92.9(3) no
+O2 Sr1b Sr2a . . 4 58.5(2) no
+O2 Sr1b Sr2b . . 4 52.9(2) no
+O3 Sr1b O4 '1 545' . '2 665' 123.3(4) no
+O3 Sr1b O12 '1 545' . '1 545' 55.3(2) no
+O3 Sr1b O6 '1 545' . 4 92.4(3) no
+O3 Sr1b O8 '1 545' . . 122.6(5) no
+O3 Sr1b Ti1 '1 545' . '2 665' 120.7(3) no
+O3 Sr1b Cr1 '1 545' . '2 665' 124.6(4) no
+O3 Sr1b O1 '1 545' . '2 665' 146.6(4) no
+O3 Sr1b K2 '1 545' . '3 545' 60.9(2) no
+O3 Sr1b Sr2a '1 545' . '3 545' 67.9(3) no
+O3 Sr1b Sr2b '1 545' . '3 545' 79.7(3) no
+O3 Sr1b Ti1 '1 545' . '3 545' 80.0(2) no
+O3 Sr1b O11 '1 545' . '3 545' 96.1(3) no
+O3 Sr1b K2 '1 545' . 3 163.9(4) no
+O3 Sr1b Sr2a '1 545' . 3 169.1(4) no
+O3 Sr1b Sr2b '1 545' . 3 177.6(4) no
+O3 Sr1b Ti2 '1 545' . '3 545' 123.3(3) no
+O3 Sr1b P2 '1 545' . . 126.5(4) no
+O3 Sr1b O7 '1 545' . . 143.2(4) no
+O3 Sr1b Sr2a '1 545' . 4 61.7(2) no
+O3 Sr1b Sr2b '1 545' . 4 68.6(3) no
+O4 Sr1b O12 '2 665' . '1 545' 104.2(4) no
+O4 Sr1b O6 '2 665' . 4 78.4(3) no
+O4 Sr1b O8 '2 665' . . 102.6(6) no
+O4 Sr1b Ti1 '2 665' . '2 665' 78.8(3) no
+O4 Sr1b Cr1 '2 665' . '2 665' 73.5(3) no
+O4 Sr1b O1 '2 665' . '2 665' 46.82(18) no
+O4 Sr1b K2 '2 665' . '3 545' 62.5(2) no
+O4 Sr1b Sr2a '2 665' . '3 545' 55.5(3) no
+O4 Sr1b Sr2b '2 665' . '3 545' 44.1(2) no
+O4 Sr1b Ti1 '2 665' . '3 545' 83.0(3) no
+O4 Sr1b O11 '2 665' . '3 545' 51.4(2) no
+O4 Sr1b K2 '2 665' . 3 72.7(2) no
+O4 Sr1b Sr2a '2 665' . 3 67.4(2) no
+O4 Sr1b Sr2b '2 665' . 3 54.8(2) no
+O4 Sr1b Ti2 '2 665' . '3 545' 32.14(12) no
+O4 Sr1b P2 '2 665' . . 81.0(3) no
+O4 Sr1b O7 '2 665' . . 54.8(2) no
+O4 Sr1b Sr2a '2 665' . 4 140.4(3) no
+O4 Sr1b Sr2b '2 665' . 4 128.6(4) no
+O12 Sr1b O6 '1 545' . 4 143.7(4) no
+O12 Sr1b O8 '1 545' . . 83.3(3) no
+O12 Sr1b Ti1 '1 545' . '2 665' 175.9(4) no
+O12 Sr1b Cr1 '1 545' . '2 665' 177.2(5) no
+O12 Sr1b O1 '1 545' . '2 665' 147.8(5) no
+O12 Sr1b K2 '1 545' . '3 545' 65.8(2) no
+O12 Sr1b Sr2a '1 545' . '3 545' 69.6(3) no
+O12 Sr1b Sr2b '1 545' . '3 545' 73.3(3) no
+O12 Sr1b Ti1 '1 545' . '3 545' 26.24(11) no
+O12 Sr1b O11 '1 545' . '3 545' 53.8(2) no
+O12 Sr1b K2 '1 545' . 3 127.3(3) no
+O12 Sr1b Sr2a '1 545' . 3 127.4(4) no
+O12 Sr1b Sr2b '1 545' . 3 123.2(4) no
+O12 Sr1b Ti2 '1 545' . '3 545' 80.4(3) no
+O12 Sr1b P2 '1 545' . . 73.7(3) no
+O12 Sr1b O7 '1 545' . . 88.4(3) no
+O12 Sr1b Sr2a '1 545' . 4 107.3(4) no
+O12 Sr1b Sr2b '1 545' . 4 118.1(4) no
+O6 Sr1b O8 4 . . 132.2(4) no
+O6 Sr1b Ti1 4 . '2 665' 33.56(13) no
+O6 Sr1b Cr1 4 . '2 665' 34.82(16) no
+O6 Sr1b O1 4 . '2 665' 55.9(2) no
+O6 Sr1b K2 4 . '3 545' 84.9(3) no
+O6 Sr1b Sr2a 4 . '3 545' 83.8(3) no
+O6 Sr1b Sr2b 4 . '3 545' 85.9(3) no
+O6 Sr1b Ti1 4 . '3 545' 151.6(4) no
+O6 Sr1b O11 4 . '3 545' 124.4(4) no
+O6 Sr1b K2 4 . 3 88.5(3) no
+O6 Sr1b Sr2a 4 . 3 87.6(3) no
+O6 Sr1b Sr2b 4 . 3 88.5(3) no
+O6 Sr1b Ti2 4 . '3 545' 110.4(4) no
+O6 Sr1b P2 4 . . 141.0(4) no
+O6 Sr1b O7 4 . . 119.6(4) no
+O6 Sr1b Sr2a 4 . 4 62.0(2) no
+O6 Sr1b Sr2b 4 . 4 50.2(3) no
+O8 Sr1b Ti1 . . '2 665' 98.9(3) no
+O8 Sr1b Cr1 . . '2 665' 98.7(3) no
+O8 Sr1b O1 . . '2 665' 89.7(4) no
+O8 Sr1b K2 . . '3 545' 138.7(5) no
+O8 Sr1b Sr2a . . '3 545' 136.6(5) no
+O8 Sr1b Sr2b . . '3 545' 128.2(5) no
+O8 Sr1b Ti1 . . '3 545' 72.8(3) no
+O8 Sr1b O11 . . '3 545' 86.3(4) no
+O8 Sr1b K2 . . 3 48.7(3) no
+O8 Sr1b Sr2a . . 3 51.8(4) no
+O8 Sr1b Sr2b . . 3 57.9(4) no
+O8 Sr1b Ti2 . . '3 545' 78.6(5) no
+O8 Sr1b P2 . . . 26.6(4) no
+O8 Sr1b O7 . . . 48.5(5) no
+O8 Sr1b Sr2a . . 4 104.3(5) no
+O8 Sr1b Sr2b . . 4 109.8(5) no
+Ti1 Sr1b Cr1 '2 665' . '2 665' 5.43(11) no
+Ti1 Sr1b O1 '2 665' . '2 665' 36.06(12) no
+Ti1 Sr1b K2 '2 665' . '3 545' 113.7(3) no
+Ti1 Sr1b Sr2a '2 665' . '3 545' 110.5(4) no
+Ti1 Sr1b Sr2b '2 665' . '3 545' 107.6(4) no
+Ti1 Sr1b Ti1 '2 665' . '3 545' 157.8(4) no
+Ti1 Sr1b O11 '2 665' . '3 545' 129.6(4) no
+Ti1 Sr1b K2 '2 665' . 3 56.16(16) no
+Ti1 Sr1b Sr2a '2 665' . 3 56.26(19) no
+Ti1 Sr1b Sr2b '2 665' . 3 60.8(2) no
+Ti1 Sr1b Ti2 '2 665' . '3 545' 103.4(3) no
+Ti1 Sr1b P2 '2 665' . . 109.8(3) no
+Ti1 Sr1b O7 '2 665' . . 95.7(3) no
+Ti1 Sr1b Sr2a '2 665' . 4 68.9(2) no
+Ti1 Sr1b Sr2b '2 665' . 4 57.9(2) no
+Cr1 Sr1b O1 '2 665' . '2 665' 30.74(15) no
+Cr1 Sr1b K2 '2 665' . '3 545' 111.5(4) no
+Cr1 Sr1b Sr2a '2 665' . '3 545' 107.7(4) no
+Cr1 Sr1b Sr2b '2 665' . '3 545' 103.9(4) no
+Cr1 Sr1b Ti1 '2 665' . '3 545' 152.7(4) no
+Cr1 Sr1b O11 '2 665' . '3 545' 124.2(4) no
+Cr1 Sr1b K2 '2 665' . 3 53.85(18) no
+Cr1 Sr1b Sr2a '2 665' . 3 53.4(2) no
+Cr1 Sr1b Sr2b '2 665' . 3 56.9(2) no
+Cr1 Sr1b Ti2 '2 665' . '3 545' 98.0(3) no
+Cr1 Sr1b P2 '2 665' . . 107.2(3) no
+Cr1 Sr1b O7 '2 665' . . 91.4(3) no
+Cr1 Sr1b Sr2a '2 665' . 4 74.2(3) no
+Cr1 Sr1b Sr2b '2 665' . 4 63.1(3) no
+O1 Sr1b K2 '2 665' . '3 545' 101.9(4) no
+O1 Sr1b Sr2a '2 665' . '3 545' 95.7(4) no
+O1 Sr1b Sr2b '2 665' . '3 545' 87.0(3) no
+O1 Sr1b Ti1 '2 665' . '3 545' 122.0(4) no
+O1 Sr1b O11 '2 665' . '3 545' 94.5(3) no
+O1 Sr1b K2 '2 665' . 3 41.52(13) no
+O1 Sr1b Sr2a '2 665' . 3 37.93(16) no
+O1 Sr1b Sr2b '2 665' . 3 33.7(2) no
+O1 Sr1b Ti2 '2 665' . '3 545' 67.4(2) no
+O1 Sr1b P2 '2 665' . . 86.1(3) no
+O1 Sr1b O7 '2 665' . . 64.1(2) no
+O1 Sr1b Sr2a '2 665' . 4 104.9(3) no
+O1 Sr1b Sr2b '2 665' . 4 93.8(3) no
+K2 Sr1b Sr2a '3 545' . '3 545' 7.05(16) no
+K2 Sr1b Sr2b '3 545' . '3 545' 19.00(18) no
+K2 Sr1b Ti1 '3 545' . '3 545' 67.4(2) no
+K2 Sr1b O11 '3 545' . '3 545' 53.7(2) no
+K2 Sr1b K2 '3 545' . 3 135.2(4) no
+K2 Sr1b Sr2a '3 545' . 3 129.9(4) no
+K2 Sr1b Sr2b '3 545' . 3 117.1(4) no
+K2 Sr1b Ti2 '3 545' . '3 545' 70.1(3) no
+K2 Sr1b P2 '3 545' . . 114.0(4) no
+K2 Sr1b O7 '3 545' . . 101.7(4) no
+K2 Sr1b Sr2a '3 545' . 4 110.4(3) no
+K2 Sr1b Sr2b '3 545' . 4 108.8(3) no
+Sr2a Sr1b Sr2b '3 545' . '3 545' 12.2(2) no
+Sr2a Sr1b Ti1 '3 545' . '3 545' 67.9(3) no
+Sr2a Sr1b O11 '3 545' . '3 545' 50.4(2) no
+Sr2a Sr1b K2 '3 545' . 3 128.1(4) no
+Sr2a Sr1b Sr2a '3 545' . 3 122.9(4) no
+Sr2a Sr1b Sr2b '3 545' . 3 110.0(4) no
+Sr2a Sr1b Ti2 '3 545' . '3 545' 64.2(3) no
+Sr2a Sr1b P2 '3 545' . . 110.7(4) no
+Sr2a Sr1b O7 '3 545' . . 96.1(4) no
+Sr2a Sr1b Sr2a '3 545' . 4 115.6(3) no
+Sr2a Sr1b Sr2b '3 545' . 4 112.8(4) no
+Sr2b Sr1b Ti1 '3 545' . '3 545' 65.8(3) no
+Sr2b Sr1b O11 '3 545' . '3 545' 42.7(2) no
+Sr2b Sr1b K2 '3 545' . 3 116.4(3) no
+Sr2b Sr1b Sr2a '3 545' . 3 111.1(4) no
+Sr2b Sr1b Sr2b '3 545' . 3 98.2(3) no
+Sr2b Sr1b Ti2 '3 545' . '3 545' 52.6(2) no
+Sr2b Sr1b P2 '3 545' . . 101.6(3) no
+Sr2b Sr1b O7 '3 545' . . 84.6(3) no
+Sr2b Sr1b Sr2a '3 545' . 4 126.5(3) no
+Sr2b Sr1b Sr2b '3 545' . 4 122.0(4) no
+Ti1 Sr1b O11 '3 545' . '3 545' 31.76(11) no
+Ti1 Sr1b K2 '3 545' . 3 106.3(3) no
+Ti1 Sr1b Sr2a '3 545' . 3 104.9(3) no
+Ti1 Sr1b Sr2b '3 545' . 3 98.2(3) no
+Ti1 Sr1b Ti2 '3 545' . '3 545' 55.24(17) no
+Ti1 Sr1b P2 '3 545' . . 54.38(17) no
+Ti1 Sr1b O7 '3 545' . . 63.2(2) no
+Ti1 Sr1b Sr2a '3 545' . 4 132.7(3) no
+Ti1 Sr1b Sr2b '3 545' . 4 144.1(4) no
+O11 Sr1b K2 '3 545' . 3 96.6(3) no
+O11 Sr1b Sr2a '3 545' . 3 92.8(3) no
+O11 Sr1b Sr2b '3 545' . 3 81.6(3) no
+O11 Sr1b Ti2 '3 545' . '3 545' 28.32(11) no
+O11 Sr1b P2 '3 545' . . 60.4(2) no
+O11 Sr1b O7 '3 545' . . 51.9(2) no
+O11 Sr1b Sr2a '3 545' . 4 157.8(3) no
+O11 Sr1b Sr2b '3 545' . 4 162.0(4) no
+K2 Sr1b Sr2a 3 . 3 5.24(12) no
+K2 Sr1b Sr2b 3 . 3 18.25(14) no
+K2 Sr1b Ti2 3 . '3 545' 71.0(2) no
+K2 Sr1b P2 3 . . 53.66(16) no
+K2 Sr1b O7 3 . . 45.68(15) no
+K2 Sr1b Sr2a 3 . 4 105.1(3) no
+K2 Sr1b Sr2b 3 . 4 100.3(3) no
+Sr2a Sr1b Sr2b 3 . 3 13.11(18) no
+Sr2a Sr1b Ti2 3 . '3 545' 66.6(2) no
+Sr2a Sr1b P2 3 . . 53.84(18) no
+Sr2a Sr1b O7 3 . . 42.92(17) no
+Sr2a Sr1b Sr2a 3 . 4 109.1(3) no
+Sr2a Sr1b Sr2b 3 . 4 103.5(3) no
+Sr2b Sr1b Ti2 3 . '3 545' 54.3(2) no
+Sr2b Sr1b P2 3 . . 52.7(2) no
+Sr2b Sr1b O7 3 . . 35.0(2) no
+Sr2b Sr1b Sr2a 3 . 4 120.6(3) no
+Sr2b Sr1b Sr2b 3 . 4 113.6(3) no
+Ti2 Sr1b P2 '3 545' . . 53.04(17) no
+Ti2 Sr1b O7 '3 545' . . 31.98(12) no
+Ti2 Sr1b Sr2a '3 545' . 4 171.9(3) no
+Ti2 Sr1b Sr2b '3 545' . 4 159.8(4) no
+P2 Sr1b O7 . . . 26.99(10) no
+P2 Sr1b Sr2a . . 4 130.7(3) no
+P2 Sr1b Sr2b . . 4 136.3(4) no
+O7 Sr1b Sr2a . . 4 147.8(3) no
+O7 Sr1b Sr2b . . 4 145.7(4) no
+Sr2a Sr1b Sr2b 4 . 4 12.1(2) no
+K1 K2 Sr1a . . . 2.62(10) no
+K1 K2 Sr2a . . . 55.4(10) no
+K1 K2 Sr2b . . . 44.8(5) no
+K1 K2 Ti1 . . . 54.240(16) no
+K1 K2 P2 . . '3 544' 52.548(18) no
+K1 K2 O11 . . . 42.48(3) no
+K1 K2 O7 . . '3 544' 44.24(3) no
+K1 K2 Ti2 . . . 53.581(14) no
+K1 K2 K1 . . '3 544' 102.448(18) no
+K1 K2 Sr1a . . '3 544' 101.47(10) no
+K1 K2 Sr1b . . '3 544' 94.39(17) no
+K1 K2 P1 . . '3 544' 142.93(2) no
+K1 K2 O2 . . '3 544' 135.67(3) no
+K1 K2 O8 . . '3 544' 78.8(3) no
+K1 K2 K1 . . '3 554' 117.14(2) no
+K1 K2 Sr1a . . '3 554' 117.71(12) no
+K1 K2 Sr1b . . '3 554' 111.6(2) no
+K1 K2 Ti2 . . '3 544' 96.14(2) no
+K1 K2 Cr2 . . '3 544' 94.61(7) no
+K1 K2 O3 . . '3 544' 127.84(3) no
+K1 K2 O4 . . '4 465' 77.43(2) no
+K1 K2 O12 . . '3 544' 80.37(3) no
+K1 K2 K1 . . '4 455' 101.37(3) no
+K1 K2 Sr1a . . '4 455' 95.98(11) no
+K1 K2 Ti1 . . '4 455' 134.99(2) no
+K1 K2 Cr1 . . '4 455' 130.30(10) no
+K1 K2 O1 . . '4 455' 99.89(3) no
+K1 K2 O5 . . '2 564' 148.43(4) no
+Sr1a K2 Sr2a . . . 52.8(10) no
+Sr1a K2 Sr2b . . . 42.2(5) no
+Sr1a K2 Ti1 . . . 56.59(9) no
+Sr1a K2 P2 . . '3 544' 54.48(9) no
+Sr1a K2 O11 . . . 43.63(8) no
+Sr1a K2 O7 . . '3 544' 44.86(8) no
+Sr1a K2 Ti2 . . . 53.39(7) no
+Sr1a K2 K1 . . '3 544' 103.61(8) no
+Sr1a K2 Sr1a . . '3 544' 102.43(12) no
+Sr1a K2 Sr1b . . '3 544' 94.87(18) no
+Sr1a K2 P1 . . '3 544' 144.96(9) no
+Sr1a K2 O2 . . '3 544' 136.29(8) no
+Sr1a K2 O8 . . '3 544' 80.9(3) no
+Sr1a K2 K1 . . '3 554' 119.02(8) no
+Sr1a K2 Sr1a . . '3 554' 119.43(14) no
+Sr1a K2 Sr1b . . '3 554' 112.8(2) no
+Sr1a K2 Ti2 . . '3 544' 98.71(10) no
+Sr1a K2 Cr2 . . '3 544' 97.21(12) no
+Sr1a K2 O3 . . '3 544' 130.43(10) no
+Sr1a K2 O4 . . '4 465' 76.26(8) no
+Sr1a K2 O12 . . '3 544' 82.88(10) no
+Sr1a K2 K1 . . '4 455' 98.75(10) no
+Sr1a K2 Sr1a . . '4 455' 93.36(14) no
+Sr1a K2 Ti1 . . '4 455' 133.52(8) no
+Sr1a K2 Cr1 . . '4 455' 128.75(13) no
+Sr1a K2 O1 . . '4 455' 98.13(9) no
+Sr1a K2 O5 . . '2 564' 145.82(10) no
+Sr2a K2 Sr2b . . . 12.6(11) no
+Sr2a K2 Ti1 . . . 101.0(10) no
+Sr2a K2 P2 . . '3 544' 102.3(10) no
+Sr2a K2 O11 . . . 72.9(10) no
+Sr2a K2 O7 . . '3 544' 80.0(10) no
+Sr2a K2 Ti2 . . . 58.0(10) no
+Sr2a K2 K1 . . '3 544' 128.5(10) no
+Sr2a K2 Sr1a . . '3 544' 124.0(10) no
+Sr2a K2 Sr1b . . '3 544' 110.9(10) no
+Sr2a K2 P1 . . '3 544' 153.9(10) no
+Sr2a K2 O2 . . '3 544' 131.7(10) no
+Sr2a K2 O8 . . '3 544' 128.4(11) no
+Sr2a K2 K1 . . '3 554' 132.6(10) no
+Sr2a K2 Sr1a . . '3 554' 128.8(10) no
+Sr2a K2 Sr1b . . '3 554' 113.9(10) no
+Sr2a K2 Ti2 . . '3 544' 151.6(10) no
+Sr2a K2 Cr2 . . '3 544' 149.6(10) no
+Sr2a K2 O3 . . '3 544' 176.1(10) no
+Sr2a K2 O4 . . '4 465' 51.3(10) no
+Sr2a K2 O12 . . '3 544' 128.1(10) no
+Sr2a K2 K1 . . '4 455' 47.1(10) no
+Sr2a K2 Sr1a . . '4 455' 41.5(10) no
+Sr2a K2 Ti1 . . '4 455' 101.1(10) no
+Sr2a K2 Cr1 . . '4 455' 96.7(10) no
+Sr2a K2 O1 . . '4 455' 72.0(10) no
+Sr2a K2 O5 . . '2 564' 94.0(10) no
+Sr2b K2 Ti1 . . . 94.7(5) no
+Sr2b K2 P2 . . '3 544' 89.8(4) no
+Sr2b K2 O11 . . . 69.7(4) no
+Sr2b K2 O7 . . '3 544' 67.7(4) no
+Sr2b K2 Ti2 . . . 59.9(4) no
+Sr2b K2 K1 . . '3 544' 119.5(3) no
+Sr2b K2 Sr1a . . '3 544' 115.5(3) no
+Sr2b K2 Sr1b . . '3 544' 102.7(4) no
+Sr2b K2 P1 . . '3 544' 156.1(4) no
+Sr2b K2 O2 . . '3 544' 131.2(4) no
+Sr2b K2 O8 . . '3 544' 115.9(6) no
+Sr2b K2 K1 . . '3 554' 139.1(3) no
+Sr2b K2 Sr1a . . '3 554' 136.0(4) no
+Sr2b K2 Sr1b . . '3 554' 121.6(4) no
+Sr2b K2 Ti2 . . '3 544' 140.3(5) no
+Sr2b K2 Cr2 . . '3 544' 139.3(5) no
+Sr2b K2 O3 . . '3 544' 171.4(4) no
+Sr2b K2 O4 . . '4 465' 60.2(3) no
+Sr2b K2 O12 . . '3 544' 122.3(5) no
+Sr2b K2 K1 . . '4 455' 56.6(5) no
+Sr2b K2 Sr1a . . '4 455' 51.2(5) no
+Sr2b K2 Ti1 . . '4 455' 104.7(4) no
+Sr2b K2 Cr1 . . '4 455' 99.9(5) no
+Sr2b K2 O1 . . '4 455' 71.7(4) no
+Sr2b K2 O5 . . '2 564' 103.8(5) no
+Ti1 K2 P2 . . '3 544' 54.746(14) no
+Ti1 K2 O11 . . . 30.79(3) no
+Ti1 K2 O7 . . '3 544' 73.89(3) no
+Ti1 K2 Ti2 . . . 54.117(14) no
+Ti1 K2 K1 . . '3 544' 97.26(2) no
+Ti1 K2 Sr1a . . '3 544' 100.63(9) no
+Ti1 K2 Sr1b . . '3 544' 105.52(16) no
+Ti1 K2 P1 . . '3 544' 104.89(2) no
+Ti1 K2 O2 . . '3 544' 122.23(3) no
+Ti1 K2 O8 . . '3 544' 62.07(5) no
+Ti1 K2 K1 . . '3 554' 64.868(17) no
+Ti1 K2 Sr1a . . '3 554' 66.71(12) no
+Ti1 K2 Sr1b . . '3 554' 67.1(2) no
+Ti1 K2 Ti2 . . '3 544' 55.025(15) no
+Ti1 K2 Cr2 . . '3 544' 50.70(7) no
+Ti1 K2 O3 . . '3 544' 80.68(3) no
+Ti1 K2 O4 . . '4 465' 82.86(2) no
+Ti1 K2 O12 . . '3 544' 27.57(2) no
+Ti1 K2 K1 . . '4 455' 145.26(3) no
+Ti1 K2 Sr1a . . '4 455' 140.10(10) no
+Ti1 K2 Ti1 . . '4 455' 155.22(3) no
+Ti1 K2 Cr1 . . '4 455' 157.52(11) no
+Ti1 K2 O1 . . '4 455' 147.62(3) no
+Ti1 K2 O5 . . '2 564' 152.95(4) no
+P2 K2 O11 '3 544' . . 73.84(3) no
+P2 K2 O7 '3 544' . '3 544' 26.92(3) no
+P2 K2 Ti2 '3 544' . . 96.688(18) no
+P2 K2 K1 '3 544' . '3 544' 53.376(16) no
+P2 K2 Sr1a '3 544' . '3 544' 54.28(9) no
+P2 K2 Sr1b '3 544' . '3 544' 53.65(16) no
+P2 K2 P1 '3 544' . '3 544' 90.50(2) no
+P2 K2 O2 '3 544' . '3 544' 87.93(3) no
+P2 K2 O8 '3 544' . '3 544' 26.8(3) no
+P2 K2 K1 '3 544' . '3 554' 103.67(2) no
+P2 K2 Sr1a '3 544' . '3 554' 107.62(12) no
+P2 K2 Sr1b '3 544' . '3 554' 115.7(2) no
+P2 K2 Ti2 '3 544' . '3 544' 52.745(17) no
+P2 K2 Cr2 '3 544' . '3 544' 54.40(7) no
+P2 K2 O3 '3 544' . '3 544' 81.63(3) no
+P2 K2 O4 '3 544' . '4 465' 126.59(3) no
+P2 K2 O12 '3 544' . '3 544' 60.60(3) no
+P2 K2 K1 '3 544' . '4 455' 133.92(3) no
+P2 K2 Sr1a '3 544' . '4 455' 131.29(10) no
+P2 K2 Ti1 '3 544' . '4 455' 109.24(2) no
+P2 K2 Cr1 '3 544' . '4 455' 108.04(9) no
+P2 K2 O1 '3 544' . '4 455' 94.98(3) no
+P2 K2 O5 '3 544' . '2 564' 143.05(3) no
+O11 K2 O7 . . '3 544' 81.28(4) no
+O11 K2 Ti2 . . . 24.62(2) no
+O11 K2 K1 . . '3 544' 124.82(3) no
+O11 K2 Sr1a . . '3 544' 127.07(10) no
+O11 K2 Sr1b . . '3 544' 127.27(16) no
+O11 K2 P1 . . '3 544' 133.00(4) no
+O11 K2 O2 . . '3 544' 153.01(4) no
+O11 K2 O8 . . '3 544' 89.79(13) no
+O11 K2 K1 . . '3 554' 77.20(3) no
+O11 K2 Sr1a . . '3 554' 76.75(12) no
+O11 K2 Sr1b . . '3 554' 69.2(2) no
+O11 K2 Ti2 . . '3 544' 85.63(3) no
+O11 K2 Cr2 . . '3 544' 81.04(7) no
+O11 K2 O3 . . '3 544' 107.96(4) no
+O11 K2 O4 . . '4 465' 55.23(3) no
+O11 K2 O12 . . '3 544' 55.51(4) no
+O11 K2 K1 . . '4 455' 114.50(4) no
+O11 K2 Sr1a . . '4 455' 109.45(11) no
+O11 K2 Ti1 . . '4 455' 173.80(4) no
+O11 K2 Cr1 . . '4 455' 169.53(12) no
+O11 K2 O1 . . '4 455' 139.66(5) no
+O11 K2 O5 . . '2 564' 143.08(4) no
+O7 K2 Ti2 '3 544' . . 97.58(3) no
+O7 K2 K1 '3 544' . '3 544' 59.64(3) no
+O7 K2 Sr1a '3 544' . '3 544' 57.86(10) no
+O7 K2 Sr1b '3 544' . '3 544' 50.17(17) no
+O7 K2 P1 '3 544' . '3 544' 104.39(3) no
+O7 K2 O2 '3 544' . '3 544' 91.46(4) no
+O7 K2 O8 '3 544' . '3 544' 49.0(3) no
+O7 K2 K1 '3 544' . '3 554' 130.46(3) no
+O7 K2 Sr1a '3 544' . '3 554' 134.27(12) no
+O7 K2 Sr1b '3 544' . '3 554' 140.3(2) no
+O7 K2 Ti2 '3 544' . '3 544' 78.43(3) no
+O7 K2 Cr2 '3 544' . '3 544' 80.75(7) no
+O7 K2 O3 '3 544' . '3 544' 103.88(4) no
+O7 K2 O4 '3 544' . '4 465' 120.20(4) no
+O7 K2 O12 '3 544' . '3 544' 86.41(4) no
+O7 K2 K1 '3 544' . '4 455' 107.10(3) no
+O7 K2 Sr1a '3 544' . '4 455' 104.37(10) no
+O7 K2 Ti1 '3 544' . '4 455' 99.10(3) no
+O7 K2 Cr1 '3 544' . '4 455' 95.95(9) no
+O7 K2 O1 '3 544' . '4 455' 73.75(4) no
+O7 K2 O5 '3 544' . '2 564' 131.37(4) no
+Ti2 K2 K1 . . '3 544' 149.238(18) no
+Ti2 K2 Sr1a . . '3 544' 150.92(9) no
+Ti2 K2 Sr1b . . '3 544' 147.58(16) no
+Ti2 K2 P1 . . '3 544' 143.66(3) no
+Ti2 K2 O2 . . '3 544' 168.20(4) no
+Ti2 K2 O8 . . '3 544' 114.41(13) no
+Ti2 K2 K1 . . '3 554' 80.03(2) no
+Ti2 K2 Sr1a . . '3 554' 77.76(12) no
+Ti2 K2 Sr1b . . '3 554' 65.4(2) no
+Ti2 K2 Ti2 . . '3 544' 106.92(2) no
+Ti2 K2 Cr2 . . '3 544' 101.78(7) no
+Ti2 K2 O3 . . '3 544' 121.34(3) no
+Ti2 K2 O4 . . '4 465' 30.796(17) no
+Ti2 K2 O12 . . '3 544' 74.83(3) no
+Ti2 K2 K1 . . '4 455' 92.08(2) no
+Ti2 K2 Sr1a . . '4 455' 87.60(10) no
+Ti2 K2 Ti1 . . '4 455' 150.20(2) no
+Ti2 K2 Cr1 . . '4 455' 148.34(11) no
+Ti2 K2 O1 . . '4 455' 129.92(4) no
+Ti2 K2 O5 . . '2 564' 119.94(3) no
+K1 K2 Sr1a '3 544' . '3 544' 4.89(10) no
+K1 K2 Sr1b '3 544' . '3 544' 17.71(18) no
+K1 K2 P1 '3 544' . '3 544' 45.269(14) no
+K1 K2 O2 '3 544' . '3 544' 34.68(3) no
+K1 K2 O8 '3 544' . '3 544' 35.38(9) no
+K1 K2 K1 '3 544' . '3 554' 98.83(2) no
+K1 K2 Sr1a '3 544' . '3 554' 102.75(12) no
+K1 K2 Sr1b '3 544' . '3 554' 117.6(2) no
+K1 K2 Ti2 '3 544' . '3 544' 51.654(14) no
+K1 K2 Cr2 '3 544' . '3 544' 57.10(6) no
+K1 K2 O3 '3 544' . '3 544' 54.43(2) no
+K1 K2 O4 '3 544' . '4 465' 179.74(7) no
+K1 K2 O12 '3 544' . '3 544' 82.81(3) no
+K1 K2 K1 '3 544' . '4 455' 113.39(2) no
+K1 K2 Sr1a '3 544' . '4 455' 116.55(9) no
+K1 K2 Ti1 '3 544' . '4 455' 59.821(16) no
+K1 K2 Cr1 '3 544' . '4 455' 60.63(10) no
+K1 K2 O1 '3 544' . '4 455' 67.11(3) no
+K1 K2 O5 '3 544' . '2 564' 90.63(3) no
+Sr1a K2 Sr1b '3 544' . '3 544' 13.0(2) no
+Sr1a K2 P1 '3 544' . '3 544' 48.03(10) no
+Sr1a K2 O2 '3 544' . '3 544' 34.70(10) no
+Sr1a K2 O8 '3 544' . '3 544' 38.56(11) no
+Sr1a K2 K1 '3 544' . '3 554' 103.44(10) no
+Sr1a K2 Sr1a '3 544' . '3 554' 107.29(16) no
+Sr1a K2 Sr1b '3 544' . '3 554' 122.1(3) no
+Sr1a K2 Ti2 '3 544' . '3 544' 56.42(10) no
+Sr1a K2 Cr2 '3 544' . '3 544' 61.86(12) no
+Sr1a K2 O3 '3 544' . '3 544' 58.82(10) no
+Sr1a K2 O4 '3 544' . '4 465' 174.86(10) no
+Sr1a K2 O12 '3 544' . '3 544' 87.32(10) no
+Sr1a K2 K1 '3 544' . '4 455' 109.11(10) no
+Sr1a K2 Sr1a '3 544' . '4 455' 112.08(13) no
+Sr1a K2 Ti1 '3 544' . '4 455' 57.19(9) no
+Sr1a K2 Cr1 '3 544' . '4 455' 57.60(13) no
+Sr1a K2 O1 '3 544' . '4 455' 62.44(10) no
+Sr1a K2 O5 '3 544' . '2 564' 89.13(10) no
+Sr1b K2 P1 '3 544' . '3 544' 59.18(18) no
+Sr1b K2 O2 '3 544' . '3 544' 41.45(17) no
+Sr1b K2 O8 '3 544' . '3 544' 45.03(18) no
+Sr1b K2 K1 '3 544' . '3 554' 116.48(18) no
+Sr1b K2 Sr1a '3 544' . '3 554' 120.3(2) no
+Sr1b K2 Sr1b '3 544' . '3 554' 135.2(3) no
+Sr1b K2 Ti2 '3 544' . '3 544' 67.68(17) no
+Sr1b K2 Cr2 '3 544' . '3 544' 73.00(18) no
+Sr1b K2 O3 '3 544' . '3 544' 71.80(18) no
+Sr1b K2 O4 '3 544' . '4 465' 162.03(18) no
+Sr1b K2 O12 '3 544' . '3 544' 96.95(17) no
+Sr1b K2 K1 '3 544' . '4 455' 100.22(17) no
+Sr1b K2 Sr1a '3 544' . '4 455' 102.36(19) no
+Sr1b K2 Ti1 '3 544' . '4 455' 55.59(16) no
+Sr1b K2 Cr1 '3 544' . '4 455' 54.65(18) no
+Sr1b K2 O1 '3 544' . '4 455' 52.41(17) no
+Sr1b K2 O5 '3 544' . '2 564' 89.60(16) no
+P1 K2 O2 '3 544' . '3 544' 24.93(3) no
+P1 K2 O8 '3 544' . '3 544' 64.1(3) no
+P1 K2 K1 '3 544' . '3 554' 63.67(2) no
+P1 K2 Sr1a '3 544' . '3 554' 66.15(12) no
+P1 K2 Sr1b '3 544' . '3 554' 79.4(2) no
+P1 K2 Ti2 '3 544' . '3 544' 51.608(16) no
+P1 K2 Cr2 '3 544' . '3 544' 54.96(7) no
+P1 K2 O3 '3 544' . '3 544' 25.04(2) no
+P1 K2 O4 '3 544' . '4 465' 134.93(3) no
+P1 K2 O12 '3 544' . '3 544' 78.02(3) no
+P1 K2 K1 '3 544' . '4 455' 108.23(2) no
+P1 K2 Sr1a '3 544' . '4 455' 113.81(11) no
+P1 K2 Ti1 '3 544' . '4 455' 52.988(16) no
+P1 K2 Cr1 '3 544' . '4 455' 57.45(11) no
+P1 K2 O1 '3 544' . '4 455' 84.47(3) no
+P1 K2 O5 '3 544' . '2 564' 63.50(3) no
+O2 K2 O8 '3 544' . '3 544' 66.4(2) no
+O2 K2 K1 '3 544' . '3 554' 88.33(3) no
+O2 K2 Sr1a '3 544' . '3 554' 90.50(12) no
+O2 K2 Sr1b '3 544' . '3 554' 102.9(2) no
+O2 K2 Ti2 '3 544' . '3 544' 67.42(3) no
+O2 K2 Cr2 '3 544' . '3 544' 72.12(7) no
+O2 K2 O3 '3 544' . '3 544' 48.48(3) no
+O2 K2 O4 '3 544' . '4 465' 145.38(3) no
+O2 K2 O12 '3 544' . '3 544' 98.31(4) no
+O2 K2 K1 '3 544' . '4 455' 92.49(3) no
+O2 K2 Sr1a '3 544' . '4 455' 97.53(10) no
+O2 K2 Ti1 '3 544' . '4 455' 33.11(2) no
+O2 K2 Cr1 '3 544' . '4 455' 36.49(11) no
+O2 K2 O1 '3 544' . '4 455' 60.04(4) no
+O2 K2 O5 '3 544' . '2 564' 57.20(3) no
+O8 K2 K1 '3 544' . '3 554' 86.7(3) no
+O8 K2 Sr1a '3 544' . '3 554' 91.1(3) no
+O8 K2 Sr1b '3 544' . '3 554' 103.5(4) no
+O8 K2 Ti2 '3 544' . '3 544' 30.8(3) no
+O8 K2 Cr2 '3 544' . '3 544' 34.5(3) no
+O8 K2 O3 '3 544' . '3 544' 55.6(3) no
+O8 K2 O4 '3 544' . '4 465' 144.71(9) no
+O8 K2 O12 '3 544' . '3 544' 52.93(14) no
+O8 K2 K1 '3 544' . '4 455' 144.54(14) no
+O8 K2 Sr1a '3 544' . '4 455' 145.4(2) no
+O8 K2 Ti1 '3 544' . '4 455' 95.12(11) no
+O8 K2 Cr1 '3 544' . '4 455' 96.00(13) no
+O8 K2 O1 '3 544' . '4 455' 96.79(12) no
+O8 K2 O5 '3 544' . '2 564' 123.5(2) no
+K1 K2 Sr1a '3 554' . '3 554' 4.43(12) no
+K1 K2 Sr1b '3 554' . '3 554' 18.9(2) no
+K1 K2 Ti2 '3 554' . '3 544' 56.040(17) no
+K1 K2 Cr2 '3 554' . '3 544' 52.26(6) no
+K1 K2 O3 '3 554' . '3 544' 44.96(2) no
+K1 K2 O4 '3 554' . '4 465' 81.43(3) no
+K1 K2 O12 '3 554' . '3 544' 44.85(3) no
+K1 K2 K1 '3 554' . '4 455' 122.40(2) no
+K1 K2 Sr1a '3 554' . '4 455' 124.76(9) no
+K1 K2 Ti1 '3 554' . '4 455' 106.81(2) no
+K1 K2 Cr1 '3 554' . '4 455' 111.76(11) no
+K1 K2 O1 '3 554' . '4 455' 142.71(4) no
+K1 K2 O5 '3 554' . '2 564' 88.41(3) no
+Sr1a K2 Sr1b '3 554' . '3 554' 14.9(3) no
+Sr1a K2 Ti2 '3 554' . '3 544' 60.46(12) no
+Sr1a K2 Cr2 '3 554' . '3 544' 56.65(13) no
+Sr1a K2 O3 '3 554' . '3 544' 48.59(12) no
+Sr1a K2 O4 '3 554' . '4 465' 77.50(12) no
+Sr1a K2 O12 '3 554' . '3 544' 48.17(12) no
+Sr1a K2 K1 '3 554' . '4 455' 118.45(12) no
+Sr1a K2 Sr1a '3 554' . '4 455' 120.62(15) no
+Sr1a K2 Ti1 '3 554' . '4 455' 106.87(12) no
+Sr1a K2 Cr1 '3 554' . '4 455' 111.74(16) no
+Sr1a K2 O1 '3 554' . '4 455' 142.40(12) no
+Sr1a K2 O5 '3 554' . '2 564' 86.34(12) no
+Sr1b K2 Ti2 '3 554' . '3 544' 73.5(2) no
+Sr1b K2 Cr2 '3 554' . '3 544' 69.2(2) no
+Sr1b K2 O3 '3 554' . '3 544' 63.4(2) no
+Sr1b K2 O4 '3 554' . '4 465' 62.6(2) no
+Sr1b K2 O12 '3 554' . '3 544' 55.2(2) no
+Sr1b K2 K1 '3 554' . '4 455' 109.0(2) no
+Sr1b K2 Sr1a '3 554' . '4 455' 110.1(2) no
+Sr1b K2 Ti1 '3 554' . '4 455' 113.2(2) no
+Sr1b K2 Cr1 '3 554' . '4 455' 117.6(2) no
+Sr1b K2 O1 '3 554' . '4 455' 145.1(2) no
+Sr1b K2 O5 '3 554' . '2 564' 86.3(2) no
+Ti2 K2 Cr2 '3 544' . '3 544' 5.47(6) no
+Ti2 K2 O3 '3 544' . '3 544' 31.768(19) no
+Ti2 K2 O4 '3 544' . '4 465' 128.57(3) no
+Ti2 K2 O12 '3 544' . '3 544' 32.33(3) no
+Ti2 K2 K1 '3 544' . '4 455' 159.53(2) no
+Ti2 K2 Sr1a '3 544' . '4 455' 164.87(10) no
+Ti2 K2 Ti1 '3 544' . '4 455' 100.52(2) no
+Ti2 K2 Cr1 '3 544' . '4 455' 103.78(11) no
+Ti2 K2 O1 '3 544' . '4 455' 118.67(3) no
+Ti2 K2 O5 '3 544' . '2 564' 114.21(4) no
+Cr2 K2 O3 '3 544' . '3 544' 33.34(7) no
+Cr2 K2 O4 '3 544' . '4 465' 123.12(7) no
+Cr2 K2 O12 '3 544' . '3 544' 27.03(7) no
+Cr2 K2 K1 '3 544' . '4 455' 163.15(7) no
+Cr2 K2 Sr1a '3 544' . '4 455' 168.76(13) no
+Cr2 K2 Ti1 '3 544' . '4 455' 105.14(7) no
+Cr2 K2 Cr1 '3 544' . '4 455' 108.59(13) no
+Cr2 K2 O1 '3 544' . '4 455' 124.13(7) no
+Cr2 K2 O5 '3 544' . '2 564' 116.42(8) no
+O3 K2 O4 '3 544' . '4 465' 125.83(3) no
+O3 K2 O12 '3 544' . '3 544' 53.34(3) no
+O3 K2 K1 '3 544' . '4 455' 130.18(3) no
+O3 K2 Sr1a '3 544' . '4 455' 135.73(11) no
+O3 K2 Ti1 '3 544' . '4 455' 78.01(3) no
+O3 K2 Cr1 '3 544' . '4 455' 82.50(11) no
+O3 K2 O1 '3 544' . '4 455' 108.49(4) no
+O3 K2 O5 '3 544' . '2 564' 83.09(3) no
+O4 K2 O12 '4 465' . '3 544' 97.39(3) no
+O4 K2 K1 '4 465' . '4 455' 66.43(2) no
+O4 K2 Sr1a '4 465' . '4 455' 63.26(9) no
+O4 K2 Ti1 '4 465' . '4 455' 120.10(2) no
+O4 K2 Cr1 '4 465' . '4 455' 119.27(10) no
+O4 K2 O1 '4 465' . '4 455' 112.67(4) no
+O4 K2 O5 '4 465' . '2 564' 89.37(3) no
+O12 K2 K1 '3 544' . '4 455' 162.53(3) no
+O12 K2 Sr1a '3 544' . '4 455' 160.58(9) no
+O12 K2 Ti1 '3 544' . '4 455' 130.65(4) no
+O12 K2 Cr1 '3 544' . '4 455' 134.64(12) no
+O12 K2 O1 '3 544' . '4 455' 149.36(4) no
+O12 K2 O5 '3 544' . '2 564' 130.24(4) no
+K1 K2 Sr1a '4 455' . '4 455' 5.61(11) no
+K1 K2 Ti1 '4 455' . '4 455' 59.416(18) no
+K1 K2 Cr1 '4 455' . '4 455' 56.52(11) no
+K1 K2 O1 '4 455' . '4 455' 47.92(3) no
+K1 K2 O5 '4 455' . '2 564' 47.22(3) no
+Sr1a K2 Ti1 '4 455' . '4 455' 64.41(10) no
+Sr1a K2 Cr1 '4 455' . '4 455' 61.30(15) no
+Sr1a K2 O1 '4 455' . '4 455' 49.99(9) no
+Sr1a K2 O5 '4 455' . '2 564' 52.70(11) no
+Ti1 K2 Cr1 '4 455' . '4 455' 5.00(11) no
+Ti1 K2 O1 '4 455' . '4 455' 35.95(3) no
+Ti1 K2 O5 '4 455' . '2 564' 34.32(2) no
+Cr1 K2 O1 '4 455' . '4 455' 30.98(11) no
+Cr1 K2 O5 '4 455' . '2 564' 36.39(9) no
+O1 K2 O5 '4 455' . '2 564' 58.78(4) no
+K1 Sr2a Sr1a . . . 3.12(10) no
+K1 Sr2a K2 . . . 119.9(11) no
+K1 Sr2a Sr2b . . . 45.6(7) no
+K1 Sr2a Ti1 . . . 55.67(10) no
+K1 Sr2a P2 . . '3 544' 54.39(10) no
+K1 Sr2a O11 . . . 45.88(12) no
+K1 Sr2a O7 . . '3 544' 47.44(12) no
+K1 Sr2a Ti2 . . . 56.77(11) no
+K1 Sr2a Sr1a . . '3 544' 100.95(17) no
+K1 Sr2a Sr1b . . '3 544' 95.3(2) no
+K1 Sr2a K1 . . '3 554' 115.73(17) no
+K1 Sr2a Sr1a . . '3 554' 116.8(2) no
+K1 Sr2a Sr1b . . '3 554' 113.2(3) no
+K1 Sr2a O4 . . '4 465' 83.69(18) no
+K1 Sr2a K1 . . '4 455' 110.6(2) no
+K1 Sr2a Sr1a . . '4 455' 104.6(2) no
+K1 Sr2a Sr1b . . '4 455' 94.7(2) no
+K1 Sr2a Ti1 . . '4 455' 139.5(2) no
+K1 Sr2a Cr1 . . '4 455' 135.6(2) no
+K1 Sr2a O1 . . '4 455' 107.4(2) no
+K1 Sr2a O5 . . '2 564' 160.7(3) no
+Sr1a Sr2a K2 . . . 123.0(11) no
+Sr1a Sr2a Sr2b . . . 42.5(8) no
+Sr1a Sr2a Ti1 . . . 58.48(14) no
+Sr1a Sr2a P2 . . '3 544' 56.81(14) no
+Sr1a Sr2a O11 . . . 47.44(15) no
+Sr1a Sr2a O7 . . '3 544' 48.48(14) no
+Sr1a Sr2a Ti2 . . . 56.64(13) no
+Sr1a Sr2a Sr1a . . '3 544' 102.38(19) no
+Sr1a Sr2a Sr1b . . '3 544' 96.2(2) no
+Sr1a Sr2a K1 . . '3 554' 118.15(19) no
+Sr1a Sr2a Sr1a . . '3 554' 119.1(2) no
+Sr1a Sr2a Sr1b . . '3 554' 114.9(3) no
+Sr1a Sr2a O4 . . '4 465' 82.5(2) no
+Sr1a Sr2a K1 . . '4 455' 107.5(2) no
+Sr1a Sr2a Sr1a . . '4 455' 101.5(2) no
+Sr1a Sr2a Sr1b . . '4 455' 91.6(2) no
+Sr1a Sr2a Ti1 . . '4 455' 138.4(2) no
+Sr1a Sr2a Cr1 . . '4 455' 134.3(2) no
+Sr1a Sr2a O1 . . '4 455' 105.7(2) no
+Sr1a Sr2a O5 . . '2 564' 157.7(3) no
+K2 Sr2a Sr2b . . . 162.7(15) no
+K2 Sr2a Ti1 . . . 72.9(10) no
+K2 Sr2a P2 . . '3 544' 71.2(10) no
+K2 Sr2a O11 . . . 98.7(11) no
+K2 Sr2a O7 . . '3 544' 91.8(10) no
+K2 Sr2a Ti2 . . . 116.5(11) no
+K2 Sr2a Sr1a . . '3 544' 51.9(9) no
+K2 Sr2a Sr1b . . '3 544' 63.8(10) no
+K2 Sr2a K1 . . '3 554' 43.2(9) no
+K2 Sr2a Sr1a . . '3 554' 46.4(9) no
+K2 Sr2a Sr1b . . '3 554' 59.0(10) no
+K2 Sr2a O4 . . '4 465' 122.3(11) no
+K2 Sr2a K1 . . '4 455' 128.1(11) no
+K2 Sr2a Sr1a . . '4 455' 134.3(11) no
+K2 Sr2a Sr1b . . '4 455' 144.5(11) no
+K2 Sr2a Ti1 . . '4 455' 72.7(10) no
+K2 Sr2a Cr1 . . '4 455' 76.6(10) no
+K2 Sr2a O1 . . '4 455' 99.3(10) no
+K2 Sr2a O5 . . '2 564' 77.8(10) no
+Sr2b Sr2a Ti1 . . . 98.1(8) no
+Sr2b Sr2a P2 . . '3 544' 91.6(7) no
+Sr2b Sr2a O11 . . . 76.8(7) no
+Sr2b Sr2a O7 . . '3 544' 71.2(7) no
+Sr2b Sr2a Ti2 . . . 66.2(6) no
+Sr2b Sr2a Sr1a . . '3 544' 116.1(6) no
+Sr2b Sr2a Sr1b . . '3 544' 104.6(6) no
+Sr2b Sr2a K1 . . '3 554' 144.8(7) no
+Sr2b Sr2a Sr1a . . '3 554' 142.8(7) no
+Sr2b Sr2a Sr1b . . '3 554' 131.0(7) no
+Sr2b Sr2a O4 . . '4 465' 70.0(6) no
+Sr2b Sr2a K1 . . '4 455' 65.0(8) no
+Sr2b Sr2a Sr1a . . '4 455' 59.1(8) no
+Sr2b Sr2a Sr1b . . '4 455' 49.2(8) no
+Sr2b Sr2a Ti1 . . '4 455' 111.8(7) no
+Sr2b Sr2a Cr1 . . '4 455' 107.4(7) no
+Sr2b Sr2a O1 . . '4 455' 80.1(7) no
+Sr2b Sr2a O5 . . '2 564' 115.5(8) no
+Ti1 Sr2a P2 . . '3 544' 53.06(10) no
+Ti1 Sr2a O11 . . . 28.61(9) no
+Ti1 Sr2a O7 . . '3 544' 72.69(16) no
+Ti1 Sr2a Ti2 . . . 54.89(10) no
+Ti1 Sr2a Sr1a . . '3 544' 95.01(18) no
+Ti1 Sr2a Sr1b . . '3 544' 100.6(2) no
+Ti1 Sr2a K1 . . '3 554' 61.21(12) no
+Ti1 Sr2a Sr1a . . '3 554' 63.13(16) no
+Ti1 Sr2a Sr1b . . '3 554' 64.1(2) no
+Ti1 Sr2a O4 . . '4 465' 84.25(17) no
+Ti1 Sr2a K1 . . '4 455' 154.7(2) no
+Ti1 Sr2a Sr1a . . '4 455' 149.4(3) no
+Ti1 Sr2a Sr1b . . '4 455' 140.4(3) no
+Ti1 Sr2a Ti1 . . '4 455' 143.8(2) no
+Ti1 Sr2a Cr1 . . '4 455' 146.6(3) no
+Ti1 Sr2a O1 . . '4 455' 147.3(3) no
+Ti1 Sr2a O5 . . '2 564' 143.1(3) no
+P2 Sr2a O11 '3 544' . . 72.96(17) no
+P2 Sr2a O7 '3 544' . '3 544' 25.54(7) no
+P2 Sr2a Ti2 '3 544' . . 98.52(18) no
+P2 Sr2a Sr1a '3 544' . '3 544' 51.21(13) no
+P2 Sr2a Sr1b '3 544' . '3 544' 51.44(18) no
+P2 Sr2a K1 '3 544' . '3 554' 96.14(18) no
+P2 Sr2a Sr1a '3 544' . '3 554' 99.7(2) no
+P2 Sr2a Sr1b '3 544' . '3 554' 107.9(3) no
+P2 Sr2a O4 '3 544' . '4 465' 131.2(2) no
+P2 Sr2a K1 '3 544' . '4 455' 140.4(2) no
+P2 Sr2a Sr1a '3 544' . '4 455' 138.5(2) no
+P2 Sr2a Sr1b '3 544' . '4 455' 133.5(3) no
+P2 Sr2a Ti1 '3 544' . '4 455' 104.65(19) no
+P2 Sr2a Cr1 '3 544' . '4 455' 104.0(2) no
+P2 Sr2a O1 '3 544' . '4 455' 94.2(2) no
+P2 Sr2a O5 '3 544' . '2 564' 134.7(3) no
+O11 Sr2a O7 . . '3 544' 83.7(2) no
+O11 Sr2a Ti2 . . . 27.24(8) no
+O11 Sr2a Sr1a . . '3 544' 121.5(2) no
+O11 Sr2a Sr1b . . '3 544' 124.3(3) no
+O11 Sr2a K1 . . '3 554' 72.85(17) no
+O11 Sr2a Sr1a . . '3 554' 72.9(2) no
+O11 Sr2a Sr1b . . '3 554' 67.4(3) no
+O11 Sr2a O4 . . '4 465' 59.14(15) no
+O11 Sr2a K1 . . '4 455' 126.2(3) no
+O11 Sr2a Sr1a . . '4 455' 120.8(3) no
+O11 Sr2a Sr1b . . '4 455' 112.2(3) no
+O11 Sr2a Ti1 . . '4 455' 171.3(3) no
+O11 Sr2a Cr1 . . '4 455' 175.1(3) no
+O11 Sr2a O1 . . '4 455' 153.1(3) no
+O11 Sr2a O5 . . '2 564' 145.2(3) no
+O7 Sr2a Ti2 '3 544' . . 103.0(2) no
+O7 Sr2a Sr1a '3 544' . '3 544' 54.19(15) no
+O7 Sr2a Sr1b '3 544' . '3 544' 47.9(2) no
+O7 Sr2a K1 '3 544' . '3 554' 121.7(2) no
+O7 Sr2a Sr1a '3 544' . '3 554' 125.3(3) no
+O7 Sr2a Sr1b '3 544' . '3 554' 133.0(4) no
+O7 Sr2a O4 '3 544' . '4 465' 130.9(3) no
+O7 Sr2a K1 '3 544' . '4 455' 115.4(2) no
+O7 Sr2a Sr1a '3 544' . '4 455' 113.0(3) no
+O7 Sr2a Sr1b '3 544' . '4 455' 108.1(3) no
+O7 Sr2a Ti1 '3 544' . '4 455' 97.6(2) no
+O7 Sr2a Cr1 '3 544' . '4 455' 95.2(2) no
+O7 Sr2a O1 '3 544' . '4 455' 75.91(19) no
+O7 Sr2a O5 '3 544' . '2 564' 130.7(3) no
+Ti2 Sr2a Sr1a . . '3 544' 148.7(2) no
+Ti2 Sr2a Sr1b . . '3 544' 149.4(3) no
+Ti2 Sr2a K1 . . '3 554' 78.71(14) no
+Ti2 Sr2a Sr1a . . '3 554' 77.03(18) no
+Ti2 Sr2a Sr1b . . '3 554' 66.7(3) no
+Ti2 Sr2a O4 . . '4 465' 32.69(8) no
+Ti2 Sr2a K1 . . '4 455' 100.0(2) no
+Ti2 Sr2a Sr1a . . '4 455' 95.3(2) no
+Ti2 Sr2a Sr1b . . '4 455' 87.9(2) no
+Ti2 Sr2a Ti1 . . '4 455' 156.8(2) no
+Ti2 Sr2a Cr1 . . '4 455' 156.8(3) no
+Ti2 Sr2a O1 . . '4 455' 144.1(3) no
+Ti2 Sr2a O5 . . '2 564' 124.9(2) no
+Sr1a Sr2a Sr1b '3 544' . '3 544' 12.0(2) no
+Sr1a Sr2a K1 '3 544' . '3 554' 95.02(19) no
+Sr1a Sr2a Sr1a '3 544' . '3 554' 98.2(2) no
+Sr1a Sr2a Sr1b '3 544' . '3 554' 110.9(3) no
+Sr1a Sr2a O4 '3 544' . '4 465' 173.9(3) no
+Sr1a Sr2a K1 '3 544' . '4 455' 109.14(19) no
+Sr1a Sr2a Sr1a '3 544' . '4 455' 112.8(2) no
+Sr1a Sr2a Sr1b '3 544' . '4 455' 118.0(2) no
+Sr1a Sr2a Ti1 '3 544' . '4 455' 54.23(13) no
+Sr1a Sr2a Cr1 '3 544' . '4 455' 54.55(17) no
+Sr1a Sr2a O1 '3 544' . '4 455' 58.32(17) no
+Sr1a Sr2a O5 '3 544' . '2 564' 83.7(2) no
+Sr1b Sr2a K1 '3 544' . '3 554' 107.0(3) no
+Sr1b Sr2a Sr1a '3 544' . '3 554' 110.2(3) no
+Sr1b Sr2a Sr1b '3 544' . '3 554' 122.9(4) no
+Sr1b Sr2a O4 '3 544' . '4 465' 173.3(3) no
+Sr1b Sr2a K1 '3 544' . '4 455' 101.8(2) no
+Sr1b Sr2a Sr1a '3 544' . '4 455' 104.6(2) no
+Sr1b Sr2a Sr1b '3 544' . '4 455' 108.4(3) no
+Sr1b Sr2a Ti1 '3 544' . '4 455' 53.46(18) no
+Sr1b Sr2a Cr1 '3 544' . '4 455' 52.6(2) no
+Sr1b Sr2a O1 '3 544' . '4 455' 49.7(2) no
+Sr1b Sr2a O5 '3 544' . '2 564' 85.6(2) no
+K1 Sr2a Sr1a '3 554' . '3 554' 3.80(11) no
+K1 Sr2a Sr1b '3 554' . '3 554' 16.1(2) no
+K1 Sr2a O4 '3 554' . '4 465' 79.27(16) no
+K1 Sr2a K1 '3 554' . '4 455' 121.70(19) no
+K1 Sr2a Sr1a '3 554' . '4 455' 125.0(2) no
+K1 Sr2a Sr1b '3 554' . '4 455' 130.1(2) no
+K1 Sr2a Ti1 '3 554' . '4 455' 99.33(18) no
+K1 Sr2a Cr1 '3 554' . '4 455' 103.9(2) no
+K1 Sr2a O1 '3 554' . '4 455' 133.1(3) no
+K1 Sr2a O5 '3 554' . '2 564' 82.13(18) no
+Sr1a Sr2a Sr1b '3 554' . '3 554' 12.7(3) no
+Sr1a Sr2a O4 '3 554' . '4 465' 76.0(2) no
+Sr1a Sr2a K1 '3 554' . '4 455' 118.4(2) no
+Sr1a Sr2a Sr1a '3 554' . '4 455' 121.5(2) no
+Sr1a Sr2a Sr1b '3 554' . '4 455' 126.4(3) no
+Sr1a Sr2a Ti1 '3 554' . '4 455' 99.5(2) no
+Sr1a Sr2a Cr1 '3 554' . '4 455' 104.1(2) no
+Sr1a Sr2a O1 '3 554' . '4 455' 133.5(3) no
+Sr1a Sr2a O5 '3 554' . '2 564' 80.5(2) no
+Sr1b Sr2a O4 '3 554' . '4 465' 63.3(3) no
+Sr1b Sr2a K1 '3 554' . '4 455' 111.6(3) no
+Sr1b Sr2a Sr1a '3 554' . '4 455' 113.6(3) no
+Sr1b Sr2a Sr1b '3 554' . '4 455' 116.7(3) no
+Sr1b Sr2a Ti1 '3 554' . '4 455' 106.1(3) no
+Sr1b Sr2a Cr1 '3 554' . '4 455' 110.5(3) no
+Sr1b Sr2a O1 '3 554' . '4 455' 139.4(4) no
+Sr1b Sr2a O5 '3 554' . '2 564' 81.8(3) no
+O4 Sr2a K1 '4 465' . '4 455' 72.53(17) no
+O4 Sr2a Sr1a '4 465' . '4 455' 69.38(19) no
+O4 Sr2a Sr1b '4 465' . '4 455' 65.2(2) no
+O4 Sr2a Ti1 '4 465' . '4 455' 124.1(2) no
+O4 Sr2a Cr1 '4 465' . '4 455' 124.4(3) no
+O4 Sr2a O1 '4 465' . '4 455' 124.3(3) no
+O4 Sr2a O5 '4 465' . '2 564' 93.2(2) no
+K1 Sr2a Sr1a '4 455' . '4 455' 6.21(12) no
+K1 Sr2a Sr1b '4 455' . '4 455' 16.42(16) no
+K1 Sr2a Ti1 '4 455' . '4 455' 61.05(12) no
+K1 Sr2a Cr1 '4 455' . '4 455' 58.62(16) no
+K1 Sr2a O1 '4 455' . '4 455' 52.26(14) no
+K1 Sr2a O5 '4 455' . '2 564' 50.72(12) no
+Sr1a Sr2a Sr1b '4 455' . '4 455' 10.2(2) no
+Sr1a Sr2a Ti1 '4 455' . '4 455' 66.65(17) no
+Sr1a Sr2a Cr1 '4 455' . '4 455' 64.0(2) no
+Sr1a Sr2a O1 '4 455' . '4 455' 54.98(17) no
+Sr1a Sr2a O5 '4 455' . '2 564' 56.80(18) no
+Sr1b Sr2a Ti1 '4 455' . '4 455' 75.7(2) no
+Sr1b Sr2a Cr1 '4 455' . '4 455' 72.7(2) no
+Sr1b Sr2a O1 '4 455' . '4 455' 59.7(2) no
+Sr1b Sr2a O5 '4 455' . '2 564' 66.9(2) no
+Ti1 Sr2a Cr1 '4 455' . '4 455' 4.60(10) no
+Ti1 Sr2a O1 '4 455' . '4 455' 34.01(10) no
+Ti1 Sr2a O5 '4 455' . '2 564' 33.13(8) no
+Cr1 Sr2a O1 '4 455' . '4 455' 29.46(13) no
+Cr1 Sr2a O5 '4 455' . '2 564' 35.53(12) no
+O1 Sr2a O5 '4 455' . '2 564' 59.04(16) no
+K1 Sr2b Sr1a . . . 4.77(13) no
+K1 Sr2b Sr1b . . . 16.90(17) no
+K1 Sr2b K2 . . . 117.8(6) no
+K1 Sr2b Sr2a . . . 121.7(9) no
+K1 Sr2b Cr2 . . '1 545' 55.11(18) no
+K1 Sr2b O11 . . . 56.4(2) no
+K1 Sr2b O12 . . '1 545' 48.09(17) no
+K1 Sr2b O7 . . '3 544' 57.6(2) no
+K1 Sr2b O8 . . . 48.71(19) no
+K1 Sr2b Ti2 . . . 66.1(2) no
+K1 Sr2b Sr1b . . '3 544' 98.8(3) no
+K1 Sr2b Ti1 . . '3 545' 69.2(2) no
+K1 Sr2b Sr1a . . '3 554' 110.9(3) no
+K1 Sr2b Sr1b . . '3 554' 111.0(3) no
+K1 Sr2b O4 . . '4 465' 100.5(3) no
+K1 Sr2b K1 . . '4 455' 140.3(4) no
+K1 Sr2b Sr1a . . '4 455' 133.4(4) no
+K1 Sr2b Sr1b . . '4 455' 119.5(4) no
+K1 Sr2b P1 . . '4 455' 107.4(3) no
+K1 Sr2b O1 . . '4 455' 128.2(3) no
+K1 Sr2b O2 . . '4 455' 99.6(3) no
+K1 Sr2b O6 . . . 74.0(3) no
+Sr1a Sr2b Sr1b . . . 12.1(2) no
+Sr1a Sr2b K2 . . . 122.6(6) no
+Sr1a Sr2b Sr2a . . . 126.5(9) no
+Sr1a Sr2b Cr2 . . '1 545' 54.5(2) no
+Sr1a Sr2b O11 . . . 59.6(3) no
+Sr1a Sr2b O12 . . '1 545' 44.9(2) no
+Sr1a Sr2b O7 . . '3 544' 60.0(3) no
+Sr1a Sr2b O8 . . . 46.4(2) no
+Sr1a Sr2b Ti2 . . . 66.7(2) no
+Sr1a Sr2b Sr1b . . '3 544' 101.0(3) no
+Sr1a Sr2b Ti1 . . '3 545' 64.9(2) no
+Sr1a Sr2b Sr1a . . '3 554' 114.9(3) no
+Sr1a Sr2b Sr1b . . '3 554' 114.5(3) no
+Sr1a Sr2b O4 . . '4 465' 100.0(3) no
+Sr1a Sr2b K1 . . '4 455' 135.6(4) no
+Sr1a Sr2b Sr1a . . '4 455' 128.6(4) no
+Sr1a Sr2b Sr1b . . '4 455' 114.7(4) no
+Sr1a Sr2b P1 . . '4 455' 105.3(3) no
+Sr1a Sr2b O1 . . '4 455' 127.6(3) no
+Sr1a Sr2b O2 . . '4 455' 95.8(3) no
+Sr1a Sr2b O6 . . . 69.3(3) no
+Sr1b Sr2b K2 . . . 134.7(6) no
+Sr1b Sr2b Sr2a . . . 138.5(9) no
+Sr1b Sr2b Cr2 . . '1 545' 55.2(2) no
+Sr1b Sr2b O11 . . . 67.5(3) no
+Sr1b Sr2b O12 . . '1 545' 38.9(2) no
+Sr1b Sr2b O7 . . '3 544' 67.5(3) no
+Sr1b Sr2b O8 . . . 41.0(2) no
+Sr1b Sr2b Ti2 . . . 68.0(3) no
+Sr1b Sr2b Sr1b . . '3 544' 107.2(3) no
+Sr1b Sr2b Ti1 . . '3 545' 54.5(2) no
+Sr1b Sr2b Sr1a . . '3 554' 124.4(3) no
+Sr1b Sr2b Sr1b . . '3 554' 122.6(4) no
+Sr1b Sr2b O4 . . '4 465' 97.6(3) no
+Sr1b Sr2b K1 . . '4 455' 123.5(3) no
+Sr1b Sr2b Sr1a . . '4 455' 116.5(4) no
+Sr1b Sr2b Sr1b . . '4 455' 102.6(3) no
+Sr1b Sr2b P1 . . '4 455' 100.5(3) no
+Sr1b Sr2b O1 . . '4 455' 125.4(3) no
+Sr1b Sr2b O2 . . '4 455' 86.6(3) no
+Sr1b Sr2b O6 . . . 57.2(3) no
+K2 Sr2b Sr2a . . . 4.8(4) no
+K2 Sr2b Cr2 . . '1 545' 110.7(5) no
+K2 Sr2b O11 . . . 78.7(4) no
+K2 Sr2b O12 . . '1 545' 137.9(5) no
+K2 Sr2b O7 . . '3 544' 82.1(4) no
+K2 Sr2b O8 . . . 132.3(6) no
+K2 Sr2b Ti2 . . . 97.8(4) no
+K2 Sr2b Sr1b . . '3 544' 59.0(3) no
+K2 Sr2b Ti1 . . '3 545' 155.1(5) no
+K2 Sr2b Sr1a . . '3 554' 31.4(3) no
+K2 Sr2b Sr1b . . '3 554' 39.4(3) no
+K2 Sr2b O4 . . '4 465' 91.6(4) no
+K2 Sr2b K1 . . '4 455' 101.7(6) no
+K2 Sr2b Sr1a . . '4 455' 108.7(6) no
+K2 Sr2b Sr1b . . '4 455' 122.6(6) no
+K2 Sr2b P1 . . '4 455' 101.1(5) no
+K2 Sr2b O1 . . '4 455' 76.1(4) no
+K2 Sr2b O2 . . '4 455' 126.6(6) no
+K2 Sr2b O6 . . . 165.7(6) no
+Sr2a Sr2b Cr2 . . '1 545' 115.0(7) no
+Sr2a Sr2b O11 . . . 79.8(7) no
+Sr2a Sr2b O12 . . '1 545' 142.3(8) no
+Sr2a Sr2b O7 . . '3 544' 86.8(7) no
+Sr2a Sr2b O8 . . . 131.8(8) no
+Sr2a Sr2b Ti2 . . . 96.8(7) no
+Sr2a Sr2b Sr1b . . '3 544' 62.3(6) no
+Sr2a Sr2b Ti1 . . '3 545' 156.8(7) no
+Sr2a Sr2b Sr1a . . '3 554' 29.2(5) no
+Sr2a Sr2b Sr1b . . '3 554' 36.8(5) no
+Sr2a Sr2b O4 . . '4 465' 88.0(6) no
+Sr2a Sr2b K1 . . '4 455' 98.0(8) no
+Sr2a Sr2b Sr1a . . '4 455' 104.9(9) no
+Sr2a Sr2b Sr1b . . '4 455' 118.6(9) no
+Sr2a Sr2b P1 . . '4 455' 101.8(7) no
+Sr2a Sr2b O1 . . '4 455' 76.1(7) no
+Sr2a Sr2b O2 . . '4 455' 126.2(8) no
+Sr2a Sr2b O6 . . . 161.0(9) no
+Cr2 Sr2b O11 '1 545' . . 105.5(4) no
+Cr2 Sr2b O12 '1 545' . '1 545' 27.38(11) no
+Cr2 Sr2b O7 '1 545' . '3 544' 31.64(13) no
+Cr2 Sr2b O8 '1 545' . . 95.4(3) no
+Cr2 Sr2b Ti2 '1 545' . . 121.1(4) no
+Cr2 Sr2b Sr1b '1 545' . '3 544' 56.1(2) no
+Cr2 Sr2b Ti1 '1 545' . '3 545' 51.65(15) no
+Cr2 Sr2b Sr1a '1 545' . '3 554' 134.5(3) no
+Cr2 Sr2b Sr1b '1 545' . '3 554' 142.0(4) no
+Cr2 Sr2b O4 '1 545' . '4 465' 152.4(4) no
+Cr2 Sr2b K1 '1 545' . '4 455' 109.9(3) no
+Cr2 Sr2b Sr1a '1 545' . '4 455' 108.1(3) no
+Cr2 Sr2b Sr1b '1 545' . '4 455' 102.6(3) no
+Cr2 Sr2b P1 '1 545' . '4 455' 54.61(15) no
+Cr2 Sr2b O1 '1 545' . '4 455' 73.2(2) no
+Cr2 Sr2b O2 '1 545' . '4 455' 60.74(17) no
+Cr2 Sr2b O6 '1 545' . . 82.4(3) no
+O11 Sr2b O12 . . '1 545' 104.5(4) no
+O11 Sr2b O7 . . '3 544' 87.2(4) no
+O11 Sr2b O8 . . . 55.6(4) no
+O11 Sr2b Ti2 . . . 31.41(11) no
+O11 Sr2b Sr1b . . '3 544' 112.7(4) no
+O11 Sr2b Ti1 . . '3 545' 120.4(4) no
+O11 Sr2b Sr1a . . '3 554' 57.2(2) no
+O11 Sr2b Sr1b . . '3 554' 55.2(2) no
+O11 Sr2b O4 . . '4 465' 61.7(2) no
+O11 Sr2b K1 . . '4 455' 141.5(3) no
+O11 Sr2b Sr1a . . '4 455' 139.7(3) no
+O11 Sr2b Sr1b . . '4 455' 134.6(4) no
+O11 Sr2b P1 . . '4 455' 159.1(4) no
+O11 Sr2b O1 . . '4 455' 152.2(5) no
+O11 Sr2b O2 . . '4 455' 153.4(5) no
+O11 Sr2b O6 . . . 103.9(4) no
+O12 Sr2b O7 '1 545' . '3 544' 56.6(2) no
+O12 Sr2b O8 '1 545' . . 73.3(3) no
+O12 Sr2b Ti2 '1 545' . . 105.8(3) no
+O12 Sr2b Sr1b '1 545' . '3 544' 82.3(2) no
+O12 Sr2b Ti1 '1 545' . '3 545' 28.66(10) no
+O12 Sr2b Sr1a '1 545' . '3 554' 155.3(4) no
+O12 Sr2b Sr1b '1 545' . '3 554' 158.4(4) no
+O12 Sr2b O4 '1 545' . '4 465' 127.5(4) no
+O12 Sr2b K1 '1 545' . '4 455' 100.3(3) no
+O12 Sr2b Sr1a '1 545' . '4 455' 95.6(3) no
+O12 Sr2b Sr1b '1 545' . '4 455' 85.4(3) no
+O12 Sr2b P1 '1 545' . '4 455' 61.53(17) no
+O12 Sr2b O1 '1 545' . '4 455' 86.9(2) no
+O12 Sr2b O2 '1 545' . '4 455' 52.26(16) no
+O12 Sr2b O6 '1 545' . . 55.6(2) no
+O7 Sr2b O8 '3 544' . . 106.2(4) no
+O7 Sr2b Ti2 '3 544' . . 114.4(4) no
+O7 Sr2b Sr1b '3 544' . '3 544' 41.2(2) no
+O7 Sr2b Ti1 '3 544' . '3 545' 83.1(2) no
+O7 Sr2b Sr1a '3 544' . '3 554' 102.9(3) no
+O7 Sr2b Sr1b '3 544' . '3 554' 110.4(4) no
+O7 Sr2b O4 '3 544' . '4 465' 148.9(5) no
+O7 Sr2b K1 '3 544' . '4 455' 131.2(3) no
+O7 Sr2b Sr1a '3 544' . '4 455' 132.6(3) no
+O7 Sr2b Sr1b '3 544' . '4 455' 131.7(3) no
+O7 Sr2b P1 '3 544' . '4 455' 72.20(19) no
+O7 Sr2b O1 '3 544' . '4 455' 77.9(2) no
+O7 Sr2b O2 '3 544' . '4 455' 88.4(2) no
+O7 Sr2b O6 '3 544' . . 111.9(4) no
+O8 Sr2b Ti2 . . . 35.3(3) no
+O8 Sr2b Sr1b . . '3 544' 147.4(4) no
+O8 Sr2b Ti1 . . '3 545' 71.3(4) no
+O8 Sr2b Sr1a . . '3 554' 103.3(4) no
+O8 Sr2b Sr1b . . '3 554' 96.9(4) no
+O8 Sr2b O4 . . '4 465' 57.0(2) no
+O8 Sr2b K1 . . '4 455' 105.9(4) no
+O8 Sr2b Sr1a . . '4 455' 99.4(4) no
+O8 Sr2b Sr1b . . '4 455' 87.1(4) no
+O8 Sr2b P1 . . '4 455' 126.4(5) no
+O8 Sr2b O1 . . '4 455' 151.4(5) no
+O8 Sr2b O2 . . '4 455' 100.9(4) no
+O8 Sr2b O6 . . . 48.4(4) no
+Ti2 Sr2b Sr1b . . '3 544' 144.0(4) no
+Ti2 Sr2b Ti1 . . '3 545' 106.5(3) no
+Ti2 Sr2b Sr1a . . '3 554' 67.97(18) no
+Ti2 Sr2b Sr1b . . '3 554' 61.6(2) no
+Ti2 Sr2b O4 . . '4 465' 36.09(12) no
+Ti2 Sr2b K1 . . '4 455' 113.1(3) no
+Ti2 Sr2b Sr1a . . '4 455' 109.6(3) no
+Ti2 Sr2b Sr1b . . '4 455' 103.2(3) no
+Ti2 Sr2b P1 . . '4 455' 160.7(4) no
+Ti2 Sr2b O1 . . '4 455' 165.7(4) no
+Ti2 Sr2b O2 . . '4 455' 133.2(4) no
+Ti2 Sr2b O6 . . . 79.3(2) no
+Sr1b Sr2b Ti1 '3 544' . '3 545' 97.1(2) no
+Sr1b Sr2b Sr1a '3 544' . '3 554' 89.8(3) no
+Sr1b Sr2b Sr1b '3 544' . '3 554' 98.2(3) no
+Sr1b Sr2b O4 '3 544' . '4 465' 150.1(4) no
+Sr1b Sr2b K1 '3 544' . '4 455' 99.4(3) no
+Sr1b Sr2b Sr1a '3 544' . '4 455' 104.3(3) no
+Sr1b Sr2b Sr1b '3 544' . '4 455' 112.5(3) no
+Sr1b Sr2b P1 '3 544' . '4 455' 52.9(2) no
+Sr1b Sr2b O1 '3 544' . '4 455' 42.8(2) no
+Sr1b Sr2b O2 '3 544' . '4 455' 79.8(2) no
+Sr1b Sr2b O6 '3 544' . . 129.9(3) no
+Ti1 Sr2b Sr1a '3 545' . '3 554' 173.0(3) no
+Ti1 Sr2b Sr1b '3 545' . '3 554' 164.5(3) no
+Ti1 Sr2b O4 '3 545' . '4 465' 111.1(3) no
+Ti1 Sr2b K1 '3 545' . '4 455' 73.7(2) no
+Ti1 Sr2b Sr1a '3 545' . '4 455' 68.2(2) no
+Ti1 Sr2b Sr1b '3 545' . '4 455' 57.0(2) no
+Ti1 Sr2b P1 '3 545' . '4 455' 55.12(15) no
+Ti1 Sr2b O1 '3 545' . '4 455' 81.3(2) no
+Ti1 Sr2b O2 '3 545' . '4 455' 32.99(11) no
+Ti1 Sr2b O6 '3 545' . . 33.34(11) no
+Sr1a Sr2b Sr1b '3 554' . '3 554' 8.5(2) no
+Sr1a Sr2b O4 '3 554' . '4 465' 61.9(2) no
+Sr1a Sr2b K1 '3 554' . '4 455' 104.1(3) no
+Sr1a Sr2b Sr1a '3 554' . '4 455' 109.1(3) no
+Sr1a Sr2b Sr1b '3 554' . '4 455' 119.2(3) no
+Sr1a Sr2b P1 '3 554' . '4 455' 129.8(3) no
+Sr1a Sr2b O1 '3 554' . '4 455' 103.2(3) no
+Sr1a Sr2b O2 '3 554' . '4 455' 149.0(4) no
+Sr1a Sr2b O6 '3 554' . . 139.7(3) no
+Sr1b Sr2b O4 '3 554' . '4 465' 53.4(2) no
+Sr1b Sr2b K1 '3 554' . '4 455' 101.0(3) no
+Sr1b Sr2b Sr1a '3 554' . '4 455' 105.2(3) no
+Sr1b Sr2b Sr1b '3 554' . '4 455' 113.8(4) no
+Sr1b Sr2b P1 '3 554' . '4 455' 135.0(4) no
+Sr1b Sr2b O1 '3 554' . '4 455' 108.3(4) no
+Sr1b Sr2b O2 '3 554' . '4 455' 149.3(4) no
+Sr1b Sr2b O6 '3 554' . . 131.2(3) no
+O4 Sr2b K1 '4 465' . '4 455' 79.9(3) no
+O4 Sr2b Sr1a '4 465' . '4 455' 78.3(3) no
+O4 Sr2b Sr1b '4 465' . '4 455' 76.9(3) no
+O4 Sr2b P1 '4 465' . '4 455' 138.8(4) no
+O4 Sr2b O1 '4 465' . '4 455' 130.1(5) no
+O4 Sr2b O2 '4 465' . '4 455' 118.9(4) no
+O4 Sr2b O6 '4 465' . . 77.8(3) no
+K1 Sr2b Sr1a '4 455' . '4 455' 7.22(14) no
+K1 Sr2b Sr1b '4 455' . '4 455' 21.3(2) no
+K1 Sr2b P1 '4 455' . '4 455' 59.3(2) no
+K1 Sr2b O1 '4 455' . '4 455' 56.8(2) no
+K1 Sr2b O2 '4 455' . '4 455' 50.08(18) no
+K1 Sr2b O6 '4 455' . . 67.3(2) no
+Sr1a Sr2b Sr1b '4 455' . '4 455' 14.1(2) no
+Sr1a Sr2b P1 '4 455' . '4 455' 60.5(2) no
+Sr1a Sr2b O1 '4 455' . '4 455' 61.5(3) no
+Sr1a Sr2b O2 '4 455' . '4 455' 47.4(2) no
+Sr1a Sr2b O6 '4 455' . . 60.1(3) no
+Sr1b Sr2b P1 '4 455' . '4 455' 63.1(3) no
+Sr1b Sr2b O1 '4 455' . '4 455' 70.6(3) no
+Sr1b Sr2b O2 '4 455' . '4 455' 43.3(2) no
+Sr1b Sr2b O6 '4 455' . . 46.0(2) no
+P1 Sr2b O1 '4 455' . '4 455' 26.75(10) no
+P1 Sr2b O2 '4 455' . '4 455' 27.68(9) no
+P1 Sr2b O6 '4 455' . . 81.5(3) no
+O1 Sr2b O2 '4 455' . '4 455' 50.55(18) no
+O1 Sr2b O6 '4 455' . . 103.4(4) no
+O2 Sr2b O6 '4 455' . . 54.0(2) no
+K1 Ti1 K2 . . . 71.869(19) no
+K1 Ti1 Sr2a . . . 66.73(12) no
+K1 Ti1 Cr1 . . . 46.7(9) no
+K1 Ti1 O1 . . . 50.73(4) no
+K1 Ti1 O11 . . . 52.81(4) no
+K1 Ti1 O5 . . '3 544' 49.67(4) no
+K1 Ti1 Sr1b . . '2 664' 112.8(2) no
+K1 Ti1 O2 . . '2 664' 119.56(4) no
+K1 Ti1 O6 . . '3 554' 123.07(4) no
+K1 Ti1 Sr1b . . '3 554' 108.8(2) no
+K1 Ti1 Sr2b . . '3 554' 177.9(2) no
+K1 Ti1 O12 . . '3 544' 122.79(4) no
+K1 Ti1 K2 . . 4 64.250(19) no
+K1 Ti1 Sr2a . . 4 58.54(13) no
+K2 Ti1 Sr2a . . . 6.06(13) no
+K2 Ti1 Cr1 . . . 112.0(10) no
+K2 Ti1 O1 . . . 120.36(4) no
+K2 Ti1 O11 . . . 46.30(3) no
+K2 Ti1 O5 . . '3 544' 73.43(4) no
+K2 Ti1 Sr1b . . '2 664' 167.98(17) no
+K2 Ti1 O2 . . '2 664' 141.31(4) no
+K2 Ti1 O6 . . '3 554' 116.78(4) no
+K2 Ti1 Sr1b . . '3 554' 45.50(17) no
+K2 Ti1 Sr2b . . '3 554' 110.2(2) no
+K2 Ti1 O12 . . '3 544' 54.48(4) no
+K2 Ti1 K2 . . 4 122.812(18) no
+K2 Ti1 Sr2a . . 4 120.18(12) no
+Sr2a Ti1 Cr1 . . . 106.0(10) no
+Sr2a Ti1 O1 . . . 114.52(13) no
+Sr2a Ti1 O11 . . . 40.82(13) no
+Sr2a Ti1 O5 . . '3 544' 72.85(11) no
+Sr2a Ti1 Sr1b . . '2 664' 165.9(2) no
+Sr2a Ti1 O2 . . '2 664' 146.22(12) no
+Sr2a Ti1 O6 . . '3 554' 116.31(11) no
+Sr2a Ti1 Sr1b . . '3 554' 48.0(2) no
+Sr2a Ti1 Sr2b . . '3 554' 115.3(2) no
+Sr2a Ti1 O12 . . '3 544' 60.45(13) no
+Sr2a Ti1 K2 . . 4 120.80(11) no
+Sr2a Ti1 Sr2a . . 4 117.54(16) no
+Cr1 Ti1 O1 . . . 11.6(10) no
+Cr1 Ti1 O11 . . . 71.6(10) no
+Cr1 Ti1 O5 . . '3 544' 84.3(8) no
+Cr1 Ti1 Sr1b . . '2 664' 68.5(10) no
+Cr1 Ti1 O2 . . '2 664' 98.5(10) no
+Cr1 Ti1 O6 . . '3 554' 83.7(8) no
+Cr1 Ti1 Sr1b . . '3 554' 125.3(10) no
+Cr1 Ti1 Sr2b . . '3 554' 131.3(9) no
+Cr1 Ti1 O12 . . '3 544' 166.2(10) no
+Cr1 Ti1 K2 . . 4 58.2(9) no
+Cr1 Ti1 Sr2a . . 4 52.8(9) no
+O1 Ti1 O11 . . . 82.61(5) no
+O1 Ti1 O5 . . '3 544' 80.21(5) no
+O1 Ti1 Sr1b . . '2 664' 62.2(2) no
+O1 Ti1 O2 . . '2 664' 87.42(5) no
+O1 Ti1 O6 . . '3 554' 86.93(5) no
+O1 Ti1 Sr1b . . '3 554' 136.7(2) no
+O1 Ti1 Sr2b . . '3 554' 127.1(2) no
+O1 Ti1 O12 . . '3 544' 173.10(5) no
+O1 Ti1 K2 . . 4 47.57(3) no
+O1 Ti1 Sr2a . . 4 42.67(13) no
+O11 Ti1 O5 . . '3 544' 90.75(5) no
+O11 Ti1 Sr1b . . '2 664' 126.8(2) no
+O11 Ti1 O2 . . '2 664' 170.02(5) no
+O11 Ti1 O6 . . '3 554' 91.09(5) no
+O11 Ti1 Sr1b . . '3 554' 59.5(2) no
+O11 Ti1 Sr2b . . '3 554' 128.27(19) no
+O11 Ti1 O12 . . '3 544' 94.79(5) no
+O11 Ti1 K2 . . 4 116.27(4) no
+O11 Ti1 Sr2a . . 4 110.19(13) no
+O5 Ti1 Sr1b '3 544' . '2 664' 118.25(18) no
+O5 Ti1 O2 '3 544' . '2 664' 87.03(5) no
+O5 Ti1 O6 '3 544' . '3 554' 166.66(5) no
+O5 Ti1 Sr1b '3 544' . '3 554' 117.40(17) no
+O5 Ti1 Sr2b '3 544' . '3 554' 130.93(15) no
+O5 Ti1 O12 '3 544' . '3 544' 93.47(5) no
+O5 Ti1 K2 '3 544' . 4 50.53(3) no
+O5 Ti1 Sr2a '3 544' . 4 49.81(12) no
+Sr1b Ti1 O2 '2 664' . '2 664' 47.2(2) no
+Sr1b Ti1 O6 '2 664' . '3 554' 51.23(18) no
+Sr1b Ti1 Sr1b '2 664' . '3 554' 123.7(2) no
+Sr1b Ti1 Sr2b '2 664' . '3 554' 65.1(3) no
+Sr1b Ti1 O12 '2 664' . '3 544' 123.9(2) no
+Sr1b Ti1 K2 '2 664' . 4 68.25(18) no
+Sr1b Ti1 Sr2a '2 664' . 4 70.3(2) no
+O2 Ti1 O6 '2 664' . '3 554' 88.88(5) no
+O2 Ti1 Sr1b '2 664' . '3 554' 129.9(2) no
+O2 Ti1 Sr2b '2 664' . '3 554' 59.1(2) no
+O2 Ti1 O12 '2 664' . '3 544' 95.06(6) no
+O2 Ti1 K2 '2 664' . 4 55.38(4) no
+O2 Ti1 Sr2a '2 664' . 4 61.27(13) no
+O6 Ti1 Sr1b '3 554' . '3 554' 74.67(17) no
+O6 Ti1 Sr2b '3 554' . '3 554' 55.84(15) no
+O6 Ti1 O12 '3 554' . '3 544' 99.55(6) no
+O6 Ti1 K2 '3 554' . 4 117.31(4) no
+O6 Ti1 Sr2a '3 554' . 4 117.42(12) no
+Sr1b Ti1 Sr2b '3 554' . '3 554' 72.9(3) no
+Sr1b Ti1 O12 '3 554' . '3 544' 44.4(2) no
+Sr1b Ti1 K2 '3 554' . 4 167.93(17) no
+Sr1b Ti1 Sr2a '3 554' . 4 165.5(2) no
+Sr2b Ti1 O12 '3 554' . '3 544' 59.3(2) no
+Sr2b Ti1 K2 '3 554' . 4 114.3(2) no
+Sr2b Ti1 Sr2a '3 554' . 4 120.0(2) no
+O12 Ti1 K2 '3 544' . 4 129.54(4) no
+O12 Ti1 Sr2a '3 544' . 4 133.83(13) no
+K2 Ti1 Sr2a 4 . 4 6.24(13) no
+K1 Cr1 Ti1 . . . 129.1(9) no
+K1 Cr1 O1 . . . 55.75(17) no
+K1 Cr1 O11 . . . 58.63(17) no
+K1 Cr1 O5 . . '3 544' 55.07(15) no
+K1 Cr1 Sr1b . . '2 664' 121.9(3) no
+K1 Cr1 O2 . . '2 664' 126.8(2) no
+K1 Cr1 O6 . . '3 554' 135.0(3) no
+K1 Cr1 O12 . . '3 544' 120.5(2) no
+K1 Cr1 K2 . . 4 68.53(11) no
+K1 Cr1 Sr2a . . 4 62.56(17) no
+Ti1 Cr1 O1 . . . 166.2(12) no
+Ti1 Cr1 O11 . . . 98.1(11) no
+Ti1 Cr1 O5 . . '3 544' 85.8(8) no
+Ti1 Cr1 Sr1b . . '2 664' 106.0(10) no
+Ti1 Cr1 O2 . . '2 664' 71.8(10) no
+Ti1 Cr1 O6 . . '3 554' 86.1(8) no
+Ti1 Cr1 O12 . . '3 544' 11.5(9) no
+Ti1 Cr1 K2 . . 4 116.8(10) no
+Ti1 Cr1 Sr2a . . 4 122.6(9) no
+O1 Cr1 O11 . . . 95.0(3) no
+O1 Cr1 O5 . . '3 544' 89.1(2) no
+O1 Cr1 Sr1b . . '2 664' 66.4(3) no
+O1 Cr1 O2 . . '2 664' 95.0(3) no
+O1 Cr1 O6 . . '3 554' 97.5(3) no
+O1 Cr1 O12 . . '3 544' 173.1(3) no
+O1 Cr1 K2 . . 4 50.51(15) no
+O1 Cr1 Sr2a . . 4 45.28(19) no
+O11 Cr1 O5 . . '3 544' 93.3(2) no
+O11 Cr1 Sr1b . . '2 664' 136.9(3) no
+O11 Cr1 O2 . . '2 664' 169.8(4) no
+O11 Cr1 O6 . . '3 554' 93.8(2) no
+O11 Cr1 O12 . . '3 544' 86.8(3) no
+O11 Cr1 K2 . . 4 127.1(3) no
+O11 Cr1 Sr2a . . 4 121.0(3) no
+O5 Cr1 Sr1b '3 544' . '2 664' 123.2(3) no
+O5 Cr1 O2 '3 544' . '2 664' 85.0(2) no
+O5 Cr1 O6 '3 544' . '3 554' 169.9(4) no
+O5 Cr1 O12 '3 544' . '3 544' 84.1(2) no
+O5 Cr1 K2 '3 544' . 4 54.49(14) no
+O5 Cr1 Sr2a '3 544' . 4 54.49(18) no
+Sr1b Cr1 O2 '2 664' . '2 664' 50.2(2) no
+Sr1b Cr1 O6 '2 664' . '3 554' 53.9(2) no
+Sr1b Cr1 O12 '2 664' . '3 544' 116.4(3) no
+Sr1b Cr1 K2 '2 664' . 4 71.5(2) no
+Sr1b Cr1 Sr2a '2 664' . 4 74.0(3) no
+O2 Cr1 O6 '2 664' . '3 554' 86.8(2) no
+O2 Cr1 O12 '2 664' . '3 544' 83.0(2) no
+O2 Cr1 K2 '2 664' . 4 59.34(15) no
+O2 Cr1 Sr2a '2 664' . 4 65.8(2) no
+O6 Cr1 O12 '3 554' . '3 544' 89.0(2) no
+O6 Cr1 K2 '3 554' . 4 125.1(3) no
+O6 Cr1 Sr2a '3 554' . 4 126.6(3) no
+O12 Cr1 K2 '3 544' . 4 123.5(2) no
+O12 Cr1 Sr2a '3 544' . 4 128.4(2) no
+K2 Cr1 Sr2a 4 . 4 6.68(14) no
+K1 Ti2 Sr1a . '1 545' . 6.36(12) no
+K1 Ti2 Cr2 . '1 545' '1 545' 38.4(6) no
+K1 Ti2 O3 . '1 545' '1 545' 48.47(3) no
+K1 Ti2 O12 . '1 545' '1 545' 48.47(3) no
+K1 Ti2 O7 . '1 545' '3 544' 58.28(4) no
+K1 Ti2 K1 . '1 545' '1 545' 121.63(2) no
+K1 Ti2 K2 . '1 545' '1 545' 158.75(3) no
+K1 Ti2 Sr2a . '1 545' '1 545' 163.93(13) no
+K1 Ti2 Sr2b . '1 545' '1 545' 178.7(2) no
+K1 Ti2 O11 . '1 545' '1 545' 130.18(4) no
+K1 Ti2 O8 . '1 545' '1 545' 113.0(3) no
+K1 Ti2 Sr1b . '1 545' '3 544' 115.09(17) no
+K1 Ti2 O4 . '1 545' '4 455' 125.74(3) no
+K1 Ti2 K2 . '1 545' '3 545' 61.532(19) no
+Sr1a Ti2 Cr2 . '1 545' '1 545' 36.5(6) no
+Sr1a Ti2 O3 . '1 545' '1 545' 45.99(11) no
+Sr1a Ti2 O12 . '1 545' '1 545' 45.68(12) no
+Sr1a Ti2 O7 . '1 545' '3 544' 64.63(13) no
+Sr1a Ti2 K1 . '1 545' '1 545' 117.29(11) no
+Sr1a Ti2 K2 . '1 545' '1 545' 164.92(13) no
+Sr1a Ti2 Sr2a . '1 545' '1 545' 170.23(18) no
+Sr1a Ti2 Sr2b . '1 545' '1 545' 172.7(2) no
+Sr1a Ti2 O11 . '1 545' '1 545' 132.41(12) no
+Sr1a Ti2 O8 . '1 545' '1 545' 106.6(4) no
+Sr1a Ti2 Sr1b . '1 545' '3 544' 121.4(2) no
+Sr1a Ti2 O4 . '1 545' '4 455' 127.80(11) no
+Sr1a Ti2 K2 . '1 545' '3 545' 55.18(12) no
+Cr2 Ti2 O3 '1 545' '1 545' '1 545' 78.3(6) no
+Cr2 Ti2 O12 '1 545' '1 545' '1 545' 11.2(6) no
+Cr2 Ti2 O7 '1 545' '1 545' '3 544' 77.2(6) no
+Cr2 Ti2 K1 '1 545' '1 545' '1 545' 130.5(6) no
+Cr2 Ti2 K2 '1 545' '1 545' '1 545' 148.7(6) no
+Cr2 Ti2 Sr2a '1 545' '1 545' '1 545' 146.4(6) no
+Cr2 Ti2 Sr2b '1 545' '1 545' '1 545' 140.4(6) no
+Cr2 Ti2 O11 '1 545' '1 545' '1 545' 168.5(6) no
+Cr2 Ti2 O8 '1 545' '1 545' '1 545' 94.1(8) no
+Cr2 Ti2 Sr1b '1 545' '1 545' '3 544' 120.9(6) no
+Cr2 Ti2 O4 '1 545' '1 545' '4 455' 95.0(6) no
+Cr2 Ti2 K2 '1 545' '1 545' '3 545' 56.2(6) no
+O3 Ti2 O12 '1 545' '1 545' '1 545' 83.61(5) no
+O3 Ti2 O7 '1 545' '1 545' '3 544' 86.00(4) no
+O3 Ti2 K1 '1 545' '1 545' '1 545' 74.66(3) no
+O3 Ti2 K2 '1 545' '1 545' '1 545' 133.01(3) no
+O3 Ti2 Sr2a '1 545' '1 545' '1 545' 134.89(12) no
+O3 Ti2 Sr2b '1 545' '1 545' '1 545' 132.1(2) no
+O3 Ti2 O11 '1 545' '1 545' '1 545' 92.84(5) no
+O3 Ti2 O8 '1 545' '1 545' '1 545' 89.54(10) no
+O3 Ti2 Sr1b '1 545' '1 545' '3 544' 127.05(18) no
+O3 Ti2 O4 '1 545' '1 545' '4 455' 173.24(5) no
+O3 Ti2 K2 '1 545' '1 545' '3 545' 51.70(4) no
+O12 Ti2 O7 '1 545' '1 545' '3 544' 87.23(5) no
+O12 Ti2 K1 '1 545' '1 545' '1 545' 124.27(5) no
+O12 Ti2 K2 '1 545' '1 545' '1 545' 142.56(3) no
+O12 Ti2 Sr2a '1 545' '1 545' '1 545' 139.06(13) no
+O12 Ti2 Sr2b '1 545' '1 545' '1 545' 130.3(2) no
+O12 Ti2 O11 '1 545' '1 545' '1 545' 175.60(5) no
+O12 Ti2 O8 '1 545' '1 545' '1 545' 84.3(4) no
+O12 Ti2 Sr1b '1 545' '1 545' '3 544' 125.21(17) no
+O12 Ti2 O4 '1 545' '1 545' '4 455' 89.66(4) no
+O12 Ti2 K2 '1 545' '1 545' '3 545' 52.33(4) no
+O7 Ti2 K1 '3 544' '1 545' '1 545' 139.59(4) no
+O7 Ti2 K2 '3 544' '1 545' '1 545' 100.89(4) no
+O7 Ti2 Sr2a '3 544' '1 545' '1 545' 105.75(14) no
+O7 Ti2 Sr2b '3 544' '1 545' '1 545' 122.6(2) no
+O7 Ti2 O11 '3 544' '1 545' '1 545' 95.13(6) no
+O7 Ti2 O8 '3 544' '1 545' '1 545' 170.8(4) no
+O7 Ti2 Sr1b '3 544' '1 545' '3 544' 56.85(17) no
+O7 Ti2 O4 '3 544' '1 545' '4 455' 93.09(5) no
+O7 Ti2 K2 '3 544' '1 545' '3 545' 119.79(4) no
+K1 Ti2 K2 '1 545' '1 545' '1 545' 70.402(18) no
+K1 Ti2 Sr2a '1 545' '1 545' '1 545' 68.46(12) no
+K1 Ti2 Sr2b '1 545' '1 545' '1 545' 58.6(2) no
+K1 Ti2 O11 '1 545' '1 545' '1 545' 51.96(4) no
+K1 Ti2 O8 '1 545' '1 545' '1 545' 45.8(3) no
+K1 Ti2 Sr1b '1 545' '1 545' '3 544' 108.51(17) no
+K1 Ti2 O4 '1 545' '1 545' '4 455' 109.91(3) no
+K1 Ti2 K2 '1 545' '1 545' '3 545' 74.552(19) no
+K2 Ti2 Sr2a '1 545' '1 545' '1 545' 5.48(13) no
+K2 Ti2 Sr2b '1 545' '1 545' '1 545' 22.3(2) no
+K2 Ti2 O11 '1 545' '1 545' '1 545' 40.55(4) no
+K2 Ti2 O8 '1 545' '1 545' '1 545' 88.0(4) no
+K2 Ti2 Sr1b '1 545' '1 545' '3 544' 44.54(17) no
+K2 Ti2 O4 '1 545' '1 545' '4 455' 53.73(3) no
+K2 Ti2 K2 '1 545' '1 545' '3 545' 138.91(2) no
+Sr2a Ti2 Sr2b '1 545' '1 545' '1 545' 17.0(2) no
+Sr2a Ti2 O11 '1 545' '1 545' '1 545' 43.67(12) no
+Sr2a Ti2 O8 '1 545' '1 545' '1 545' 83.1(4) no
+Sr2a Ti2 Sr1b '1 545' '1 545' '3 544' 49.1(2) no
+Sr2a Ti2 O4 '1 545' '1 545' '4 455' 51.75(12) no
+Sr2a Ti2 K2 '1 545' '1 545' '3 545' 134.34(13) no
+Sr2b Ti2 O11 '1 545' '1 545' '1 545' 51.1(2) no
+Sr2b Ti2 O8 '1 545' '1 545' '1 545' 66.1(4) no
+Sr2b Ti2 Sr1b '1 545' '1 545' '3 544' 65.7(3) no
+Sr2b Ti2 O4 '1 545' '1 545' '4 455' 53.6(2) no
+Sr2b Ti2 K2 '1 545' '1 545' '3 545' 117.7(2) no
+O11 Ti2 O8 '1 545' '1 545' '1 545' 93.1(4) no
+O11 Ti2 Sr1b '1 545' '1 545' '3 544' 59.10(17) no
+O11 Ti2 O4 '1 545' '1 545' '4 455' 93.91(5) no
+O11 Ti2 K2 '1 545' '1 545' '3 545' 123.32(4) no
+O8 Ti2 Sr1b '1 545' '1 545' '3 544' 131.6(4) no
+O8 Ti2 O4 '1 545' '1 545' '4 455' 90.39(6) no
+O8 Ti2 K2 '1 545' '1 545' '3 545' 51.6(3) no
+Sr1b Ti2 O4 '3 544' '1 545' '4 455' 56.99(18) no
+Sr1b Ti2 K2 '3 544' '1 545' '3 545' 176.54(16) no
+O4 Ti2 K2 '4 455' '1 545' '3 545' 123.89(4) no
+K1 Cr2 Sr1a . '1 545' . 7.01(13) no
+K1 Cr2 Sr2b . '1 545' . 60.7(2) no
+K1 Cr2 Ti2 . '1 545' '1 545' 137.1(7) no
+K1 Cr2 O3 . '1 545' '1 545' 55.71(10) no
+K1 Cr2 O12 . '1 545' '1 545' 55.50(12) no
+K1 Cr2 O7 . '1 545' '3 544' 66.18(12) no
+K1 Cr2 O8 . '1 545' '1 545' 123.5(4) no
+K1 Cr2 O4 . '1 545' '4 455' 138.89(17) no
+K1 Cr2 K2 . '1 545' '3 545' 66.74(8) no
+Sr1a Cr2 Sr2b . '1 545' . 65.4(2) no
+Sr1a Cr2 Ti2 . '1 545' '1 545' 139.3(7) no
+Sr1a Cr2 O3 . '1 545' '1 545' 53.55(15) no
+Sr1a Cr2 O12 . '1 545' '1 545' 52.19(18) no
+Sr1a Cr2 O7 . '1 545' '3 544' 73.17(18) no
+Sr1a Cr2 O8 . '1 545' '1 545' 116.6(4) no
+Sr1a Cr2 O4 . '1 545' '4 455' 142.1(2) no
+Sr1a Cr2 K2 . '1 545' '3 545' 59.76(15) no
+Sr2b Cr2 Ti2 . '1 545' '1 545' 128.5(7) no
+Sr2b Cr2 O3 . '1 545' '1 545' 113.3(2) no
+Sr2b Cr2 O12 . '1 545' '1 545' 59.8(2) no
+Sr2b Cr2 O7 . '1 545' '3 544' 47.7(2) no
+Sr2b Cr2 O8 . '1 545' '1 545' 145.8(4) no
+Sr2b Cr2 O4 . '1 545' '4 455' 78.8(2) no
+Sr2b Cr2 K2 . '1 545' '3 545' 112.7(2) no
+Ti2 Cr2 O3 '1 545' '1 545' '1 545' 89.9(6) no
+Ti2 Cr2 O12 '1 545' '1 545' '1 545' 166.0(8) no
+Ti2 Cr2 O7 '1 545' '1 545' '3 544' 90.7(7) no
+Ti2 Cr2 O8 '1 545' '1 545' '1 545' 74.3(8) no
+Ti2 Cr2 O4 '1 545' '1 545' '4 455' 73.4(6) no
+Ti2 Cr2 K2 '1 545' '1 545' '3 545' 118.3(6) no
+O3 Cr2 O12 '1 545' '1 545' '1 545' 96.5(2) no
+O3 Cr2 O7 '1 545' '1 545' '3 544' 88.52(18) no
+O3 Cr2 O8 '1 545' '1 545' '1 545' 88.71(17) no
+O3 Cr2 O4 '1 545' '1 545' '4 455' 163.3(2) no
+O3 Cr2 K2 '1 545' '1 545' '3 545' 56.78(12) no
+O12 Cr2 O7 '1 545' '1 545' '3 544' 101.9(2) no
+O12 Cr2 O8 '1 545' '1 545' '1 545' 93.4(5) no
+O12 Cr2 O4 '1 545' '1 545' '4 455' 99.7(2) no
+O12 Cr2 K2 '1 545' '1 545' '3 545' 56.85(14) no
+O7 Cr2 O8 '3 544' '1 545' '1 545' 164.7(5) no
+O7 Cr2 O4 '3 544' '1 545' '4 455' 92.2(2) no
+O7 Cr2 K2 '3 544' '1 545' '3 545' 131.95(18) no
+O8 Cr2 O4 '1 545' '1 545' '4 455' 86.3(2) no
+O8 Cr2 K2 '1 545' '1 545' '3 545' 56.9(4) no
+O4 Cr2 K2 '4 455' '1 545' '3 545' 130.88(19) no
+K1 P1 Sr1a . . . 7.18(14) no
+K1 P1 O1 . . . 62.07(5) no
+K1 P1 O2 . . . 55.87(5) no
+K1 P1 O3 . . . 95.26(4) no
+K1 P1 O4 . . . 155.28(4) no
+K1 P1 K2 . . 3 83.53(3) no
+K1 P1 Sr2b . . 4 60.7(2) no
+Sr1a P1 O1 . . . 67.89(14) no
+Sr1a P1 O2 . . . 48.69(14) no
+Sr1a P1 O3 . . . 97.05(12) no
+Sr1a P1 O4 . . . 151.56(13) no
+Sr1a P1 K2 . . 3 78.89(13) no
+Sr1a P1 Sr2b . . 4 60.3(2) no
+O1 P1 O2 . . . 108.20(7) no
+O1 P1 O3 . . . 112.10(7) no
+O1 P1 O4 . . . 110.33(8) no
+O1 P1 K2 . . 3 143.58(5) no
+O1 P1 Sr2b . . 4 50.8(2) no
+O2 P1 O3 . . . 106.09(7) no
+O2 P1 O4 . . . 110.99(7) no
+O2 P1 K2 . . 3 54.12(5) no
+O2 P1 Sr2b . . 4 69.1(2) no
+O3 P1 O4 . . . 109.07(5) no
+O3 P1 K2 . . 3 56.49(5) no
+O3 P1 Sr2b . . 4 154.4(2) no
+O4 P1 K2 . . 3 105.97(5) no
+O4 P1 Sr2b . . 4 95.7(2) no
+K2 P1 Sr2b 3 . 4 123.1(2) no
+K1 P2 K2 . '3 544' . 77.87(2) no
+K1 P2 Sr2a . '3 544' . 71.99(14) no
+K1 P2 O5 . '3 544' '3 544' 51.91(5) no
+K1 P2 O7 . '3 544' '3 544' 59.11(5) no
+K1 P2 O6 . '3 544' '3 544' 110.97(5) no
+K1 P2 Sr1b . '3 544' '3 544' 125.1(2) no
+K1 P2 O8 . '3 544' '3 544' 138.8(4) no
+K2 P2 Sr2a . '3 544' . 6.56(14) no
+K2 P2 O5 . '3 544' '3 544' 88.43(5) no
+K2 P2 O7 . '3 544' '3 544' 58.14(5) no
+K2 P2 O6 . '3 544' '3 544' 161.62(5) no
+K2 P2 Sr1b . '3 544' '3 544' 72.69(19) no
+K2 P2 O8 . '3 544' '3 544' 63.2(5) no
+Sr2a P2 O5 . '3 544' '3 544' 87.00(13) no
+Sr2a P2 O7 . '3 544' '3 544' 52.85(14) no
+Sr2a P2 O6 . '3 544' '3 544' 161.05(13) no
+Sr2a P2 Sr1b . '3 544' '3 544' 74.7(2) no
+Sr2a P2 O8 . '3 544' '3 544' 69.6(5) no
+O5 P2 O7 '3 544' '3 544' '3 544' 107.92(7) no
+O5 P2 O6 '3 544' '3 544' '3 544' 109.78(6) no
+O5 P2 Sr1b '3 544' '3 544' '3 544' 160.63(19) no
+O5 P2 O8 '3 544' '3 544' '3 544' 111.28(10) no
+O7 P2 O6 '3 544' '3 544' '3 544' 111.51(7) no
+O7 P2 Sr1b '3 544' '3 544' '3 544' 66.0(2) no
+O7 P2 O8 '3 544' '3 544' '3 544' 106.1(5) no
+O6 P2 Sr1b '3 544' '3 544' '3 544' 89.31(19) no
+O6 P2 O8 '3 544' '3 544' '3 544' 110.2(4) no
+Sr1b P2 O8 '3 544' '3 544' '3 544' 56.6(3) no
+K1 O1 Sr1a . . . 6.92(14) no
+K1 O1 Ti1 . . . 94.56(4) no
+K1 O1 Cr1 . . . 93.6(2) no
+K1 O1 P1 . . . 90.27(6) no
+K1 O1 Sr1b . . '2 664' 173.2(2) no
+K1 O1 K2 . . 4 88.75(4) no
+K1 O1 Sr2a . . 4 82.94(18) no
+K1 O1 Sr2b . . 4 74.0(3) no
+Sr1a O1 Ti1 . . . 101.43(14) no
+Sr1a O1 Cr1 . . . 100.4(2) no
+Sr1a O1 P1 . . . 85.15(14) no
+Sr1a O1 Sr1b . . '2 664' 174.2(2) no
+Sr1a O1 K2 . . 4 88.73(13) no
+Sr1a O1 Sr2a . . 4 82.2(2) no
+Sr1a O1 Sr2b . . 4 70.7(3) no
+Ti1 O1 Cr1 . . . 2.3(2) no
+Ti1 O1 P1 . . . 131.42(7) no
+Ti1 O1 Sr1b . . '2 664' 81.7(2) no
+Ti1 O1 K2 . . 4 96.47(5) no
+Ti1 O1 Sr2a . . 4 103.33(19) no
+Ti1 O1 Sr2b . . 4 125.3(2) no
+Cr1 O1 P1 . . . 129.43(19) no
+Cr1 O1 Sr1b . . '2 664' 82.9(3) no
+Cr1 O1 K2 . . 4 98.52(18) no
+Cr1 O1 Sr2a . . 4 105.3(3) no
+Cr1 O1 Sr2b . . 4 127.0(3) no
+P1 O1 Sr1b . . '2 664' 96.4(2) no
+P1 O1 K2 . . 4 131.99(7) no
+P1 O1 Sr2a . . 4 125.2(2) no
+P1 O1 Sr2b . . 4 102.5(2) no
+Sr1b O1 K2 '2 664' . 4 86.1(2) no
+Sr1b O1 Sr2a '2 664' . 4 92.4(3) no
+Sr1b O1 Sr2b '2 664' . 4 103.5(3) no
+K2 O1 Sr2a 4 . 4 8.7(2) no
+K2 O1 Sr2b 4 . 4 32.2(2) no
+Sr2a O1 Sr2b 4 . 4 23.8(3) no
+K1 O2 Sr1a . . . 8.59(18) no
+K1 O2 Sr1b . . . 30.8(3) no
+K1 O2 P1 . . . 96.21(6) no
+K1 O2 Ti1 . . '2 665' 124.35(6) no
+K1 O2 Cr1 . . '2 665' 120.63(15) no
+K1 O2 K2 . . 3 107.10(4) no
+K1 O2 Sr2b . . 4 69.2(2) no
+Sr1a O2 Sr1b . . . 22.5(3) no
+Sr1a O2 P1 . . . 104.80(18) no
+Sr1a O2 Ti1 . . '2 665' 116.73(17) no
+Sr1a O2 Cr1 . . '2 665' 112.4(2) no
+Sr1a O2 K2 . . 3 104.74(17) no
+Sr1a O2 Sr2b . . 4 71.0(3) no
+Sr1b O2 P1 . . . 125.8(3) no
+Sr1b O2 Ti1 . . '2 665' 99.9(3) no
+Sr1b O2 Cr1 . . '2 665' 93.6(3) no
+Sr1b O2 K2 . . 3 91.2(3) no
+Sr1b O2 Sr2b . . 4 83.9(3) no
+P1 O2 Ti1 . . '2 665' 131.79(7) no
+P1 O2 Cr1 . . '2 665' 139.78(17) no
+P1 O2 K2 . . 3 100.95(6) no
+P1 O2 Sr2b . . 4 83.2(2) no
+Ti1 O2 Cr1 '2 665' . '2 665' 9.78(18) no
+Ti1 O2 K2 '2 665' . 3 91.51(5) no
+Ti1 O2 Sr2b '2 665' . 4 87.9(2) no
+Cr1 O2 K2 '2 665' . 3 84.17(17) no
+Cr1 O2 Sr2b '2 665' . 4 94.6(3) no
+K2 O2 Sr2b 3 . 4 174.80(19) no
+K1 O3 Sr1a . '1 545' . 8.87(17) no
+K1 O3 Sr1b . '1 545' . 27.5(2) no
+K1 O3 Ti2 . '1 545' '1 545' 97.36(4) no
+K1 O3 Cr2 . '1 545' '1 545' 86.91(12) no
+K1 O3 P1 . '1 545' '1 545' 131.80(5) no
+K1 O3 K2 . '1 545' '3 545' 82.83(4) no
+Sr1a O3 Sr1b . '1 545' . 19.0(3) no
+Sr1a O3 Ti2 . '1 545' '1 545' 101.45(15) no
+Sr1a O3 Cr2 . '1 545' '1 545' 90.3(2) no
+Sr1a O3 P1 . '1 545' '1 545' 128.63(16) no
+Sr1a O3 K2 . '1 545' '3 545' 74.64(17) no
+Sr1b O3 Ti2 . '1 545' '1 545' 103.6(2) no
+Sr1b O3 Cr2 . '1 545' '1 545' 91.8(2) no
+Sr1b O3 P1 . '1 545' '1 545' 124.3(2) no
+Sr1b O3 K2 . '1 545' '3 545' 55.7(2) no
+Ti2 O3 Cr2 '1 545' '1 545' '1 545' 11.78(12) no
+Ti2 O3 P1 '1 545' '1 545' '1 545' 129.88(6) no
+Ti2 O3 K2 '1 545' '1 545' '3 545' 96.54(4) no
+Cr2 O3 P1 '1 545' '1 545' '1 545' 141.01(13) no
+Cr2 O3 K2 '1 545' '1 545' '3 545' 89.87(14) no
+P1 O3 K2 '1 545' '1 545' '3 545' 98.47(6) no
+Sr1b O4 P1 . '2 665' '2 665' 99.5(2) no
+Sr1b O4 K2 . '2 665' '3 545' 54.8(2) no
+Sr1b O4 Sr2a . '2 665' '3 545' 61.2(3) no
+Sr1b O4 Sr2b . '2 665' '3 545' 82.5(3) no
+Sr1b O4 Ti2 . '2 665' '3 545' 90.9(2) no
+Sr1b O4 Cr2 . '2 665' '3 545' 97.3(2) no
+P1 O4 K2 '2 665' '2 665' '3 545' 126.52(5) no
+P1 O4 Sr2a '2 665' '2 665' '3 545' 128.20(16) no
+P1 O4 Sr2b '2 665' '2 665' '3 545' 134.8(3) no
+P1 O4 Ti2 '2 665' '2 665' '3 545' 134.57(6) no
+P1 O4 Cr2 '2 665' '2 665' '3 545' 123.53(13) no
+K2 O4 Sr2a '3 545' '2 665' '3 545' 6.40(16) no
+K2 O4 Sr2b '3 545' '2 665' '3 545' 28.2(2) no
+K2 O4 Ti2 '3 545' '2 665' '3 545' 95.47(4) no
+K2 O4 Cr2 '3 545' '2 665' '3 545' 107.08(12) no
+Sr2a O4 Sr2b '3 545' '2 665' '3 545' 21.9(3) no
+Sr2a O4 Ti2 '3 545' '2 665' '3 545' 95.55(15) no
+Sr2a O4 Cr2 '3 545' '2 665' '3 545' 107.12(19) no
+Sr2b O4 Ti2 '3 545' '2 665' '3 545' 90.3(3) no
+Sr2b O4 Cr2 '3 545' '2 665' '3 545' 100.7(3) no
+Ti2 O4 Cr2 '3 545' '2 665' '3 545' 11.61(12) no
+K1 O11 K2 . . . 99.00(4) no
+K1 O11 Sr2a . . . 94.34(17) no
+K1 O11 Sr2b . . . 76.3(2) no
+K1 O11 Ti1 . . . 95.85(4) no
+K1 O11 Cr1 . . . 89.07(18) no
+K1 O11 Ti2 . . . 100.30(5) no
+K1 O11 Sr1b . . '3 554' 156.0(2) no
+K2 O11 Sr2a . . . 8.47(18) no
+K2 O11 Sr2b . . . 31.6(3) no
+K2 O11 Ti1 . . . 102.91(5) no
+K2 O11 Cr1 . . . 111.75(19) no
+K2 O11 Ti2 . . . 114.83(5) no
+K2 O11 Sr1b . . '3 554' 57.1(2) no
+Sr2a O11 Sr2b . . . 23.4(3) no
+Sr2a O11 Ti1 . . . 110.58(18) no
+Sr2a O11 Cr1 . . . 119.0(3) no
+Sr2a O11 Ti2 . . . 109.09(17) no
+Sr2a O11 Sr1b . . '3 554' 62.2(3) no
+Sr2b O11 Ti1 . . . 126.5(2) no
+Sr2b O11 Cr1 . . . 132.1(3) no
+Sr2b O11 Ti2 . . . 97.5(2) no
+Sr2b O11 Sr1b . . '3 554' 82.1(3) no
+Ti1 O11 Cr1 . . . 10.3(2) no
+Ti1 O11 Ti2 . . . 135.59(6) no
+Ti1 O11 Sr1b . . '3 554' 88.7(2) no
+Cr1 O11 Ti2 . . . 130.10(17) no
+Cr1 O11 Sr1b . . '3 554' 98.0(3) no
+Ti2 O11 Sr1b . . '3 554' 92.6(2) no
+K1 O12 Sr1a . '1 545' . 8.90(17) no
+K1 O12 Sr1b . '1 545' . 30.5(3) no
+K1 O12 Sr2b . '1 545' . 73.1(2) no
+K1 O12 Ti2 . '1 545' '1 545' 96.77(5) no
+K1 O12 Cr2 . '1 545' '1 545' 94.22(15) no
+K1 O12 K2 . '1 545' '3 545' 82.52(4) no
+K1 O12 Ti1 . '1 545' '3 545' 129.12(6) no
+K1 O12 Cr1 . '1 545' '3 545' 128.41(15) no
+Sr1a O12 Sr1b . '1 545' . 21.8(3) no
+Sr1a O12 Sr2b . '1 545' . 80.6(3) no
+Sr1a O12 Ti2 . '1 545' '1 545' 101.23(16) no
+Sr1a O12 Cr2 . '1 545' '1 545' 98.8(2) no
+Sr1a O12 K2 . '1 545' '3 545' 74.54(16) no
+Sr1a O12 Ti1 . '1 545' '3 545' 125.35(17) no
+Sr1a O12 Cr1 . '1 545' '3 545' 124.3(2) no
+Sr1b O12 Sr2b . '1 545' . 95.6(3) no
+Sr1b O12 Ti2 . '1 545' '1 545' 115.8(3) no
+Sr1b O12 Cr2 . '1 545' '1 545' 113.9(3) no
+Sr1b O12 K2 . '1 545' '3 545' 59.0(2) no
+Sr1b O12 Ti1 . '1 545' '3 545' 109.3(3) no
+Sr1b O12 Cr1 . '1 545' '3 545' 107.7(3) no
+Sr2b O12 Ti2 . '1 545' '1 545' 94.6(2) no
+Sr2b O12 Cr2 . '1 545' '1 545' 92.8(2) no
+Sr2b O12 K2 . '1 545' '3 545' 154.6(2) no
+Sr2b O12 Ti1 . '1 545' '3 545' 92.0(2) no
+Sr2b O12 Cr1 . '1 545' '3 545' 93.9(3) no
+Ti2 O12 Cr2 '1 545' '1 545' '1 545' 2.78(15) no
+Ti2 O12 K2 '1 545' '1 545' '3 545' 95.33(5) no
+Ti2 O12 Ti1 '1 545' '1 545' '3 545' 133.41(7) no
+Ti2 O12 Cr1 '1 545' '1 545' '3 545' 134.49(16) no
+Cr2 O12 K2 '1 545' '1 545' '3 545' 96.11(16) no
+Cr2 O12 Ti1 '1 545' '1 545' '3 545' 135.73(16) no
+Cr2 O12 Cr1 '1 545' '1 545' '3 545' 136.9(2) no
+K2 O12 Ti1 '3 545' '1 545' '3 545' 97.94(6) no
+K2 O12 Cr1 '3 545' '1 545' '3 545' 95.68(18) no
+Ti1 O12 Cr1 '3 545' '1 545' '3 545' 2.32(18) no
+K1 O5 Ti1 . '3 544' . 97.47(5) no
+K1 O5 Cr1 . '3 544' . 89.3(2) no
+K1 O5 P2 . '3 544' '3 544' 103.23(6) no
+K1 O5 K2 . '3 544' 4 87.12(4) no
+K1 O5 Sr2a . '3 544' 4 78.92(17) no
+Ti1 O5 Cr1 . '3 544' . 9.91(18) no
+Ti1 O5 P2 . '3 544' '3 544' 132.98(7) no
+Ti1 O5 K2 . '3 544' 4 95.15(4) no
+Ti1 O5 Sr2a . '3 544' 4 97.06(15) no
+Cr1 O5 P2 . '3 544' '3 544' 141.4(2) no
+Cr1 O5 K2 . '3 544' 4 89.12(18) no
+Cr1 O5 Sr2a . '3 544' 4 90.0(2) no
+P2 O5 K2 '3 544' '3 544' 4 127.30(6) no
+P2 O5 Sr2a '3 544' '3 544' 4 127.97(15) no
+K2 O5 Sr2a 4 '3 544' 4 8.25(17) no
+Sr1a O6 Sr1b . 4 . 18.5(3) no
+Sr1a O6 P2 . 4 4 128.95(12) no
+Sr1a O6 Ti1 . 4 '2 665' 95.16(11) no
+Sr1a O6 Cr1 . 4 '2 665' 94.4(2) no
+Sr1a O6 Sr2b . 4 4 65.3(3) no
+Sr1b O6 P2 . 4 4 128.3(2) no
+Sr1b O6 Ti1 . 4 '2 665' 95.2(2) no
+Sr1b O6 Cr1 . 4 '2 665' 91.2(3) no
+Sr1b O6 Sr2b . 4 4 83.8(4) no
+P2 O6 Ti1 4 4 '2 665' 135.50(8) no
+P2 O6 Cr1 4 4 '2 665' 136.5(2) no
+P2 O6 Sr2b 4 4 4 101.7(2) no
+Ti1 O6 Cr1 '2 665' 4 '2 665' 10.19(19) no
+Ti1 O6 Sr2b '2 665' 4 4 90.82(16) no
+Cr1 O6 Sr2b '2 665' 4 4 99.7(3) no
+K1 O7 K2 . '3 544' . 94.31(4) no
+K1 O7 Sr2a . '3 544' . 89.04(16) no
+K1 O7 Sr2b . '3 544' . 74.0(3) no
+K1 O7 Ti2 . '3 544' '1 545' 88.50(5) no
+K1 O7 Cr2 . '3 544' '1 545' 78.75(13) no
+K1 O7 P2 . '3 544' '3 544' 95.16(5) no
+K1 O7 Sr1b . '3 544' '3 544' 177.5(2) no
+K2 O7 Sr2a . '3 544' . 8.13(17) no
+K2 O7 Sr2b . '3 544' . 30.2(2) no
+K2 O7 Ti2 . '3 544' '1 545' 134.55(5) no
+K2 O7 Cr2 . '3 544' '1 545' 127.32(14) no
+K2 O7 P2 . '3 544' '3 544' 94.94(6) no
+K2 O7 Sr1b . '3 544' '3 544' 84.2(2) no
+Sr2a O7 Sr2b . '3 544' . 22.1(3) no
+Sr2a O7 Ti2 . '3 544' '1 545' 128.32(17) no
+Sr2a O7 Cr2 . '3 544' '1 545' 120.1(2) no
+Sr2a O7 P2 . '3 544' '3 544' 101.61(17) no
+Sr2a O7 Sr1b . '3 544' '3 544' 89.2(3) no
+Sr2b O7 Ti2 . '3 544' '1 545' 110.6(2) no
+Sr2b O7 Cr2 . '3 544' '1 545' 100.6(3) no
+Sr2b O7 P2 . '3 544' '3 544' 118.3(2) no
+Sr2b O7 Sr1b . '3 544' '3 544' 103.8(3) no
+Ti2 O7 Cr2 '1 545' '3 544' '1 545' 12.18(13) no
+Ti2 O7 P2 '1 545' '3 544' '3 544' 130.03(7) no
+Ti2 O7 Sr1b '1 545' '3 544' '3 544' 91.2(2) no
+Cr2 O7 P2 '1 545' '3 544' '3 544' 137.45(15) no
+Cr2 O7 Sr1b '1 545' '3 544' '3 544' 100.6(3) no
+P2 O7 Sr1b '3 544' '3 544' '3 544' 87.0(2) no
+K1 O8 Sr1a . . . 8.68(17) no
+K1 O8 Sr1b . . . 29.6(3) no
+K1 O8 Sr2b . . . 72.3(4) no
+K1 O8 Ti2 . . . 103.0(8) no
+K1 O8 Cr2 . . . 112.7(8) no
+K1 O8 K2 . . 3 104.81(17) no
+K1 O8 P2 . . . 119.0(4) no
+Sr1a O8 Sr1b . . . 21.0(3) no
+Sr1a O8 Sr2b . . . 79.1(4) no
+Sr1a O8 Ti2 . . . 110.2(8) no
+Sr1a O8 Cr2 . . . 119.2(8) no
+Sr1a O8 K2 . . 3 98.6(3) no
+Sr1a O8 P2 . . . 113.6(5) no
+Sr1b O8 Sr2b . . . 93.0(4) no
+Sr1b O8 Ti2 . . . 129.1(7) no
+Sr1b O8 Cr2 . . . 136.1(7) no
+Sr1b O8 K2 . . 3 86.2(4) no
+Sr1b O8 P2 . . . 96.8(6) no
+Sr2b O8 Ti2 . . . 78.5(6) no
+Sr2b O8 Cr2 . . . 88.0(7) no
+Sr2b O8 K2 . . 3 174.3(7) no
+Sr2b O8 P2 . . . 95.8(3) no
+Ti2 O8 Cr2 . . . 11.64(15) no
+Ti2 O8 K2 . . 3 97.59(5) no
+Ti2 O8 P2 . . . 133.79(9) no
+Cr2 O8 K2 . . 3 88.61(16) no
+Cr2 O8 P2 . . . 126.8(2) no
+K2 O8 P2 3 . . 89.9(8) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K1 Sr1a . . .420(8) no
+K1 Sr1b . . 1.435(13) no
+K1 K2 . . 4.3674(11) no
+K1 Sr2a . . 4.148(8) no
+K1 Sr2b . . 3.481(13) no
+K1 Ti1 . . 3.7291(10) no
+K1 Cr1 . . 3.497(6) no
+K1 Ti2 . '1 545' 3.5913(7) no
+K1 Cr2 . '1 545' 3.276(4) no
+K1 P1 . . 3.2780(7) no
+K1 P2 . '3 544' 3.5463(10) no
+K1 O1 . . 2.8963(14) no
+K1 O2 . . 2.7294(13) no
+K1 O3 . '1 545' 2.7106(12) no
+K1 O11 . . 2.9863(13) no
+K1 O12 . '1 545' 2.7073(13) no
+K1 O5 . '3 544' 2.8671(14) no
+K1 O7 . '3 544' 3.0557(14) no
+K1 O8 . . 2.746(8) no
+K1 Ti2 . . 3.7305(8) no
+K1 K2 . '3 545' 3.8063(11) no
+K1 Sr2a . '3 545' 4.095(8) no
+K1 K2 . 3 4.5848(11) no
+K1 K2 . 4 3.9016(11) no
+K1 Sr2a . 4 3.635(8) no
+K1 Sr2b . 4 3.326(13) no
+Sr1a Sr1b . . 1.031(15) no
+Sr1a K2 . . 4.732(8) no
+Sr1a Sr2a . . 4.496(11) no
+Sr1a Sr2b . . 3.774(14) no
+Sr1a Ti2 . '1 545' 3.704(6) no
+Sr1a Cr2 . '1 545' 3.379(8) no
+Sr1a P1 . . 3.344(6) no
+Sr1a O1 . . 3.109(7) no
+Sr1a O2 . . 2.598(6) no
+Sr1a O3 . '1 545' 2.718(6) no
+Sr1a O12 . '1 545' 2.702(7) no
+Sr1a O6 . 4 3.185(7) no
+Sr1a O8 . . 2.782(8) no
+Sr1a K2 . '3 545' 3.495(7) no
+Sr1a Sr2a . '3 545' 3.766(11) no
+Sr1a Sr2b . '3 545' 4.667(13) no
+Sr1a K2 . 3 4.414(7) no
+Sr1a Sr2a . 3 4.655(10) no
+Sr1a K2 . 4 4.058(8) no
+Sr1a Sr2a . 4 3.761(11) no
+Sr1a Sr2b . 4 3.338(14) no
+Sr1b Sr2b . . 4.348(17) no
+Sr1b O2 . . 2.669(11) no
+Sr1b O3 . '1 545' 3.102(11) no
+Sr1b O4 . '2 665' 3.116(13) no
+Sr1b O12 . '1 545' 2.747(11) no
+Sr1b O6 . 4 2.803(11) no
+Sr1b O8 . . 2.858(12) no
+Sr1b Ti1 . '2 665' 3.581(11) no
+Sr1b Cr1 . '2 665' 3.467(13) no
+Sr1b O1 . '2 665' 3.202(12) no
+Sr1b K2 . '3 545' 2.868(11) no
+Sr1b Sr2a . '3 545' 3.057(14) no
+Sr1b Sr2b . '3 545' 3.849(15) no
+Sr1b Ti1 . '3 545' 3.703(11) no
+Sr1b O11 . '3 545' 3.192(12) no
+Sr1b K2 . 3 4.031(11) no
+Sr1b Sr2a . 3 4.195(13) no
+Sr1b Sr2b . 3 4.586(15) no
+Sr1b Ti2 . '3 545' 3.716(12) no
+Sr1b P2 . . 3.401(11) no
+Sr1b O7 . . 3.112(12) no
+Sr1b Sr2a . 4 4.488(15) no
+Sr1b Sr2b . 4 3.872(17) no
+K2 Sr2a . . .410(9) no
+K2 Sr2b . . 1.472(11) no
+K2 Ti1 . . 3.7127(8) no
+K2 P2 . '3 544' 3.4011(8) no
+K2 O11 . . 2.7537(12) no
+K2 O7 . '3 544' 2.8994(14) no
+K2 Ti2 . . 3.8441(9) no
+K2 P1 . '3 544' 3.5963(12) no
+K2 O2 . '3 544' 2.9678(14) no
+K2 O8 . '3 544' 3.036(13) no
+K2 Ti2 . '3 544' 3.8381(11) no
+K2 Cr2 . '3 544' 3.624(5) no
+K2 O3 . '3 544' 3.0315(14) no
+K2 O4 . '4 465' 3.1134(13) no
+K2 O12 . '3 544' 3.0513(14) no
+K2 Ti1 . '4 455' 3.6052(7) no
+K2 Cr1 . '4 455' 3.432(6) no
+K2 O1 . '4 455' 2.6783(13) no
+K2 O5 . '2 564' 2.7944(13) no
+Sr2a Sr2b . . 1.075(14) no
+Sr2a Ti1 . . 3.813(7) no
+Sr2a P2 . '3 544' 3.511(7) no
+Sr2a O11 . . 2.662(7) no
+Sr2a O7 . '3 544' 2.857(7) no
+Sr2a Ti2 . . 3.643(7) no
+Sr2a O4 . '4 465' 2.875(8) no
+Sr2a Ti1 . '4 455' 3.706(7) no
+Sr2a Cr1 . '4 455' 3.504(9) no
+Sr2a O1 . '4 455' 2.581(7) no
+Sr2a O5 . '2 564' 2.852(7) no
+Sr2b Cr2 . '1 545' 3.597(10) no
+Sr2b O11 . . 2.634(11) no
+Sr2b O12 . '1 545' 3.112(10) no
+Sr2b O7 . '3 544' 2.709(10) no
+Sr2b O8 . . 3.132(19) no
+Sr2b Ti2 . . 3.357(10) no
+Sr2b Ti1 . '3 545' 3.616(11) no
+Sr2b O4 . '4 465' 2.703(8) no
+Sr2b P1 . '4 455' 3.301(10) no
+Sr2b O1 . '4 455' 2.619(11) no
+Sr2b O2 . '4 455' 3.105(11) no
+Sr2b O6 . . 2.992(11) no
+Ti1 Cr1 . . .352(7) no
+Ti1 O1 . . 2.1301(13) no
+Ti1 O11 . . 1.9498(12) no
+Ti1 O5 . '3 544' 2.0408(11) no
+Ti1 O2 . '2 664' 1.9702(12) no
+Ti1 O6 . '3 554' 1.9875(11) no
+Ti1 O12 . '3 544' 1.7352(13) no
+Cr1 O1 . . 1.786(7) no
+Cr1 O11 . . 1.869(7) no
+Cr1 O5 . '3 544' 2.036(5) no
+Cr1 O2 . '2 664' 2.052(7) no
+Cr1 O6 . '3 554' 1.980(5) no
+Cr1 O12 . '3 544' 2.079(7) no
+Ti2 Cr2 '1 545' '1 545' .415(4) no
+Ti2 O3 '1 545' '1 545' 2.0339(9) no
+Ti2 O12 '1 545' '1 545' 2.0618(14) no
+Ti2 O7 '1 545' '3 544' 1.9686(14) no
+Ti2 O11 '1 545' '1 545' 1.7646(12) no
+Ti2 O8 '1 545' '1 545' 1.981(18) no
+Ti2 O4 '1 545' '4 455' 1.9771(9) no
+Cr2 O3 '1 545' '1 545' 1.992(4) no
+Cr2 O12 '1 545' '1 545' 1.656(5) no
+Cr2 O7 '1 545' '3 544' 1.919(5) no
+Cr2 O8 '1 545' '1 545' 2.053(15) no
+Cr2 O4 '1 545' '4 455' 2.055(4) no
+P1 O1 . . 1.5218(14) no
+P1 O2 . . 1.5441(15) no
+P1 O3 . . 1.5392(9) no
+P1 O4 . . 1.5382(9) no
+P2 O5 '3 544' '3 544' 1.5319(11) no
+P2 O7 '3 544' '3 544' 1.5457(13) no
+P2 O6 '3 544' '3 544' 1.5268(11) no
+P2 O8 '3 544' '3 544' 1.536(18) no

@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/20/9012072.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012072
+loop_
+_publ_author_name
+'Effenberger, E.'
+_publ_section_title
+;
+ Kristallstruktur und infrarot-absorptionsspektrum von synthetischem
+ monohydrocalcit, CaCO3*H2O
+ Substructure
+;
+_journal_name_full               'Monatshefte fur Chemie'
+_journal_page_first              899
+_journal_page_last               909
+_journal_paper_doi               10.1007/BF00905061
+_journal_volume                  112
+_journal_year                    1981
+_chemical_formula_sum            'C H2 Ca O4'
+_chemical_name_mineral           Monohydrocalcite
+_space_group_IT_number           152
+_symmetry_space_group_name_Hall  'P 31 2"'
+_symmetry_space_group_name_H-M   'P 31 2 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   6.0931
+_cell_length_b                   6.0931
+_cell_length_c                   7.5446
+_cell_volume                     242.574
+_database_code_amcsd             0014665
+_exptl_crystal_density_diffrn    2.425
+_cod_original_formula_sum        'Ca C O4 H2'
+_cod_database_code               9012072
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+y,x,-z
+-y,x-y,1/3+z
+-x,-x+y,1/3-z
+-x+y,-x,2/3+z
+x-y,-y,2/3-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca 0.01721 0.01270 0.02393 0.01270 -0.00020 -0.00040
+O1 0.01411 0.01693 0.02884 0.00846 0.00403 0.00403
+O2 0.00846 0.03950 0.02884 0.01270 -0.00807 -0.01613
+Ow 0.02962 0.01834 0.02884 0.01834 0.00807 0.01613
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.27690 0.00000 0.33333 1.00000 0.01558 Ca 0
+C 0.71880 -0.02610 0.36360 0.50000 0.01431 C 0
+O1 0.45600 0.27440 0.06960 1.00000 0.02026 O 0
+O2 0.06910 -0.05040 0.78560 0.50000 0.02482 O 0
+Ow 0.60270 0.00000 0.83333 1.00000 0.02229 O 0
+H 0.55200 0.09500 0.91600 1.00000 ? H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:44:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014665

@@ -1,0 +1,119 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/46/9004649.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004649
+loop_
+_publ_author_name
+'Yakubovich, O. V.'
+'Massa, W.'
+'Liferovich, R. P.'
+'McCammon, C. A.'
+_publ_section_title
+;
+ The crystal structure of baricite, (Mg1.70Fe1.30)(PO4)2.8H2O
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1317
+_journal_page_last               1324
+_journal_paper_doi               10.2113/gscanmin.39.5.1317
+_journal_volume                  39
+_journal_year                    2001
+_chemical_formula_sum            'Fe1.3 H16 Mg1.7 O16 P2'
+_chemical_name_mineral           Baricite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 104.96
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.085
+_cell_length_b                   13.390
+_cell_length_c                   4.6713
+_cell_volume                     609.423
+_database_code_amcsd             0005742
+_exptl_crystal_density_diffrn    2.441
+_cod_original_formula_sum        '(Fe1.3 Mg1.7) P2 O16 H16'
+_cod_database_code               9004649
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe(1) 0.00810 0.01380 0.01030 0.00000 0.00050 0.00000
+Mg(1) 0.00810 0.01380 0.01030 0.00000 0.00050 0.00000
+Fe(2) 0.00940 0.01220 0.01050 0.00000 0.00180 0.00000
+Mg(2) 0.00940 0.01220 0.01050 0.00000 0.00180 0.00000
+P 0.00840 0.01300 0.01010 0.00000 0.00140 0.00000
+O(1) 0.01070 0.01580 0.01250 0.00000 0.00120 0.00000
+O(2) 0.00970 0.01770 0.01310 0.00000 0.00200 0.00000
+O(3) 0.01260 0.01410 0.01320 0.00080 0.00250 0.00120
+OW(4) 0.01270 0.01880 0.01520 0.00010 0.00210 -0.00030
+OW(5) 0.02110 0.01710 0.01700 0.00080 0.00490 0.00030
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe(1) 0.00000 0.00000 0.50000 0.63000 0.01110 Fe 0
+Mg(1) 0.00000 0.00000 0.50000 0.37000 0.01110 Mg 0
+Fe(2) 0.50000 0.11050 0.50000 0.33500 0.01090 Fe 0
+Mg(2) 0.50000 0.11050 0.50000 0.66500 0.01090 Mg 0
+P 0.68507 0.00000 0.11955 1.00000 0.01070 P 0
+O(1) -0.39460 0.00000 -0.20840 1.00000 0.01330 O 0
+O(2) -0.15820 0.00000 0.13070 1.00000 0.01370 O 0
+O(3) -0.65471 0.09621 -0.27430 1.00000 0.01350 O 0
+OW(4) 0.10049 0.11636 0.30370 1.00000 0.01580 O 0
+OW(5) -0.60123 0.22338 -0.78280 1.00000 0.01840 O 0
+H(1) 0.13400 0.09400 0.15200 1.00000 0.02200 H 0
+H(2) -0.55400 0.28000 -0.79400 1.00000 0.03000 H 0
+H(3) 0.18000 0.12200 0.43900 1.00000 0.03100 H 0
+H(4) -0.62300 0.20300 -0.95800 1.00000 0.03400 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:18:57+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005742

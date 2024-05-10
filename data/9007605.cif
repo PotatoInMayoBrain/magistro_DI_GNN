@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/76/9007605.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007605
+loop_
+_publ_author_name
+'Kitahama, K.'
+'Kiriyama, R.'
+'Yoshihisa, B.'
+_publ_section_title
+;
+ Refinement of the crystal structure of scorodite
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              322
+_journal_page_last               324
+_journal_paper_doi               10.1107/S056774087500266X
+_journal_volume                  31
+_journal_year                    1975
+_chemical_formula_sum            'As Fe H4 O6'
+_chemical_name_mineral           Scorodite
+_space_group_IT_number           61
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   10.325
+_cell_length_b                   8.953
+_cell_length_c                   10.038
+_cell_volume                     927.910
+_database_code_amcsd             0009529
+_exptl_crystal_density_diffrn    3.304
+_cod_original_formula_sum        'As Fe O6 H4'
+_cod_database_code               9007605
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+1/2+x,y,1/2-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As 0.00544 0.00532 0.00532 -0.00025 -0.00013 -0.00038
+Fe 0.00456 0.00608 0.00519 0.00013 -0.00025 0.00000
+O1 0.00773 0.01064 0.01064 0.00038 -0.00253 -0.00849
+O2 0.01355 0.00735 0.00570 -0.00063 -0.00038 0.00025
+O3 0.01406 0.00671 0.01330 -0.00443 0.00215 0.00329
+O4 0.01115 0.01001 0.00899 0.00266 -0.00038 -0.00355
+Wat1 0.00937 0.01228 0.01798 0.00392 -0.00317 0.00177
+Wat2 0.01583 0.01494 0.00950 -0.00469 -0.00177 0.00152
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As 0.34799 0.03556 -0.13618 As 0
+Fe 0.37359 0.14651 0.18278 Fe 0
+O1 0.19917 0.00327 -0.19453 O 0
+O2 0.35791 0.00678 0.02939 O 0
+O3 0.39294 0.21230 -0.16644 O 0
+O4 0.44796 -0.08264 -0.21656 O 0
+Wat1 0.19851 0.23012 0.11835 O 2
+Wat2 0.44653 0.32843 0.06932 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:55+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009529

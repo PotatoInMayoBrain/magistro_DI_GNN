@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-07-08 10:42:25 +0300 (Sat, 08 Jul 2023) $
+#$Revision: 285095 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/35/9013589.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013589
+loop_
+_publ_author_name
+'Kyono, A.'
+_publ_section_title
+;Molecular conformation and anion configuration variations for As4S4 and
+ As4Se4 in an anion-substituted solid solution Locality: synthetic Note:
+ S1Se2-7
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              451
+_journal_page_last               460
+_journal_paper_doi               10.2138/am.2009.3075
+_journal_volume                  94
+_journal_year                    2009
+_chemical_formula_structural     As4Se4
+_chemical_formula_sum            'As S0.395 Se0.605'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.5078
+_cell_angle_gamma                90
+_cell_length_a                   9.5056
+_cell_length_b                   13.6975
+_cell_length_c                   6.6851
+_cell_volume                     834.542
+_exptl_crystal_density_diffrn    4.309
+_cod_original_formula_sum        'As (S.395 Se.605)'
+_cod_database_code               9013589
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As1 0.02930 0.01800 0.02930 -0.00270 0.00790 -0.00400
+As2 0.02240 0.02360 0.03090 -0.00080 0.00990 -0.00030
+As3 0.02670 0.02800 0.02170 -0.00050 0.00750 -0.00420
+As4 0.02390 0.02530 0.03110 0.00510 0.00480 0.00380
+SX1 0.03380 0.02280 0.03030 0.00310 0.01180 0.00010
+SeX1 0.03380 0.02280 0.03030 0.00310 0.01180 0.00010
+SX2 0.02500 0.02650 0.02830 -0.00190 0.01150 0.00330
+SeX2 0.02500 0.02650 0.02830 -0.00190 0.01150 0.00330
+SX3 0.02790 0.02290 0.03360 0.00210 0.00900 0.00610
+SeX3 0.02790 0.02290 0.03360 0.00210 0.00900 0.00610
+SX4 0.03340 0.03060 0.03230 0.00410 0.01610 -0.00410
+SeX4 0.03340 0.03060 0.03230 0.00410 0.01610 -0.00410
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As1 0.11704 -0.01946 0.75890 1.00000 0.02560 As 0
+As2 0.42480 0.14047 0.86070 1.00000 0.02510 As 0
+As3 0.32340 0.12956 0.17580 1.00000 0.02530 As 0
+As4 0.03951 0.16078 0.70730 1.00000 0.02740 As 0
+SX1 0.34315 -0.00927 0.69696 0.34300 0.02840 S 0
+SeX1 0.34315 -0.00927 0.69696 0.65700 0.02840 Se 0
+SX2 0.21404 -0.02474 0.11864 0.31200 0.02570 S 0
+SeX2 0.21404 -0.02474 0.11864 0.68800 0.02570 Se 0
+SX3 0.24096 0.22889 0.64035 0.53100 0.02810 S 0
+SeX3 0.24096 0.22889 0.64035 0.46900 0.02810 Se 0
+SX4 0.10915 0.21468 0.05507 0.39500 0.03060 S 0
+SeX4 0.10915 0.21468 0.05507 0.60500 0.03060 Se 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:24:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+_cell_formula_units_Z 16

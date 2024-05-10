@@ -1,0 +1,234 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 14:55:39 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179906 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/02/7020296.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7020296
+loop_
+_publ_author_name
+'Hu, Shichao'
+'Johnsson, Mats'
+_publ_section_title
+;
+ Synthesis and crystal structure of two synthetic oxofluoride framework
+ compounds - Co(2)TeO(3)F(2) and Co(2)SeO(3)F(2).
+;
+_journal_issue                   41
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              12786
+_journal_page_last               12789
+_journal_paper_doi               10.1039/c2dt31188g
+_journal_volume                  41
+_journal_year                    2012
+_chemical_formula_sum            'Co2 F2 O3 Te'
+_chemical_formula_weight         331.46
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.3810(5)
+_cell_length_b                   10.1936(7)
+_cell_length_c                   5.3013(3)
+_cell_measurement_reflns_used    1263
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      29.0998
+_cell_measurement_theta_min      4.3171
+_cell_volume                     398.86(4)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.901
+_diffrn_measurement_device_type  'Oxford diffraction'
+_diffrn_measurement_method       CCD_Profile_fitting
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0283
+_diffrn_reflns_av_sigmaI/netI    0.0305
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            1908
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         29.16
+_diffrn_reflns_theta_min         4.33
+_exptl_absorpt_coefficient_mu    15.424
+_exptl_absorpt_correction_T_max  0.4657
+_exptl_absorpt_correction_T_min  0.4554
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'X-Red, X-Shape'
+_exptl_crystal_colour            Purple
+_exptl_crystal_density_diffrn    5.520
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Co2TeF2O3
+_exptl_crystal_F_000             592
+_exptl_crystal_size_max          0.04
+_exptl_crystal_size_mid          0.04
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         1.408
+_refine_diff_density_min         -1.742
+_refine_diff_density_rms         0.304
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.134
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_refine_ls_number_reflns         511
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.134
+_refine_ls_R_factor_all          0.0307
+_refine_ls_R_factor_gt           0.0254
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0313P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0584
+_refine_ls_wR_factor_ref         0.0592
+_reflns_number_gt                456
+_reflns_number_total             511
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c2dt31188g.cif
+_cod_data_source_block           cotfo
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_database_code               7020296
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Te1 Te 0.69889(7) 0.2500 0.18293(9) 0.00634(16) Uani 1 2 d S
+Co1 Co 0.58538(10) 0.56678(7) 0.24427(13) 0.0070(2) Uani 1 1 d .
+F1 F 0.6619(4) 0.4566(3) 0.5749(6) 0.0119(7) Uani 1 1 d .
+O1 O 0.6487(7) 0.7500 0.3931(11) 0.0108(12) Uani 1 2 d S
+O2 O 0.5410(5) 0.3830(4) 0.0861(7) 0.0082(8) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Te1 0.0063(3) 0.0056(3) 0.0071(3) 0.000 -0.00041(18) 0.000
+Co1 0.0073(4) 0.0071(4) 0.0067(4) -0.0005(3) 0.0006(3) 0.0002(3)
+F1 0.0082(16) 0.0173(17) 0.0104(17) 0.0035(14) -0.0001(12) 0.0002(13)
+O1 0.013(3) 0.005(3) 0.015(3) 0.000 -0.005(2) 0.000
+O2 0.0103(18) 0.0049(18) 0.0092(17) -0.0027(16) -0.0025(15) 0.0026(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Te1 O2 93.6(2) 7_565 .
+O2 Te1 O1 98.47(16) 7_565 2_664
+O2 Te1 O1 98.47(16) . 2_664
+O2 Co1 F1 91.32(13) 5_665 5_666
+O2 Co1 O2 78.95(16) 5_665 .
+F1 Co1 O2 86.81(14) 5_666 .
+O2 Co1 O1 101.66(17) 5_665 .
+F1 Co1 O1 97.21(18) 5_666 .
+O2 Co1 O1 175.91(18) . .
+O2 Co1 F1 93.89(13) 5_665 2_664
+F1 Co1 F1 166.68(18) 5_666 2_664
+O2 Co1 F1 82.18(13) . 2_664
+O1 Co1 F1 93.73(18) . 2_664
+O2 Co1 F1 160.68(14) 5_665 .
+F1 Co1 F1 78.18(12) 5_666 .
+O2 Co1 F1 84.26(13) . .
+O1 Co1 F1 95.76(17) . .
+F1 Co1 F1 93.22(7) 2_664 .
+Co1 F1 Co1 125.11(16) 5_666 2_665
+Co1 F1 Co1 101.82(12) 5_666 .
+Co1 F1 Co1 130.10(15) 2_665 .
+Te1 O1 Co1 116.01(14) 2_665 .
+Te1 O1 Co1 116.01(14) 2_665 7_575
+Co1 O1 Co1 127.7(3) . 7_575
+Te1 O2 Co1 134.68(19) . 5_665
+Te1 O2 Co1 116.55(17) . .
+Co1 O2 Co1 101.05(16) 5_665 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Te1 O2 1.860(3) 7_565
+Te1 O2 1.860(3) .
+Te1 O1 1.904(5) 2_664
+Co1 O2 2.049(4) 5_665
+Co1 F1 2.075(3) 5_666
+Co1 O2 2.078(4) .
+Co1 O1 2.081(3) .
+Co1 F1 2.084(3) 2_664
+Co1 F1 2.157(3) .
+F1 Co1 2.075(3) 5_666
+F1 Co1 2.084(3) 2_665
+O1 Te1 1.904(5) 2_665
+O1 Co1 2.081(3) 7_575
+O2 Co1 2.049(4) 5_665

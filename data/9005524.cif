@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/55/9005524.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005524
+loop_
+_publ_author_name
+'Ivaldi, G.'
+'Ferraris, G.'
+'Curetti, N.'
+'Compagnoni, R.'
+_publ_section_title
+;Coexisting 3T and 2M_1 polytypes of phengite from Cima Pal (Val Savenca,
+ western Alps): Chemical and polytypic zoning and structural characterisation
+ Sample: 3TY Locality: Cima Pal, Val Savenca, western Alps
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              1025
+_journal_page_last               1034
+_journal_paper_doi               10.1127/0935-1221/2001/0013-1025
+_journal_volume                  13
+_journal_year                    2001
+_chemical_compound_source        'Cima Pal, Val Savenca, western Alps'
+_chemical_formula_sum
+'Al2.11 Fe0.18 H2 K0.9 Mg0.32 Na0.05 O12 Si3.4 Ti0.03'
+_chemical_name_mineral           Phengite-3T
+_space_group_IT_number           151
+_symmetry_space_group_name_Hall  'P 31 2 (0 0 4)'
+_symmetry_space_group_name_H-M   'P 31 1 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   5.220
+_cell_length_b                   5.220
+_cell_length_c                   29.762
+_cell_volume                     702.318
+_database_code_amcsd             0006912
+_exptl_crystal_density_diffrn    2.852
+_cod_original_formula_sum
+'K.9 Na.05 Al2.11 Mg.32 Fe.18 Ti.03 Si3.4 O12 H2'
+_cod_database_code               9005524
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x+y,y,1/3-z
+-y,x-y,1/3+z
+-y,-x,2/3-z
+-x+y,-x,2/3+z
+x,x-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+KI 0.12810 0.25620 0.16667 0.90000 0.02540 K 0
+NaI 0.12810 0.25620 0.16667 0.05000 0.02540 Na 0
+AlM2 0.79690 0.89840 0.00000 0.75500 0.01010 Al 0
+MgM2 0.79690 0.89840 0.00000 0.16000 0.01010 Mg 0
+FeM2 0.79690 0.89840 0.00000 0.09000 0.01010 Fe 0
+TiM2 0.79690 0.89840 0.00000 0.01500 0.01010 Ti 0
+AlM3 0.45590 0.22800 0.00000 0.75500 0.01080 Al 0
+MgM3 0.45590 0.22800 0.00000 0.16000 0.01080 Mg 0
+FeM3 0.45590 0.22800 0.00000 0.09000 0.01080 Fe 0
+TiM3 0.45590 0.22800 0.00000 0.01500 0.01080 Ti 0
+SiT1 0.78630 0.58130 0.09037 0.85000 0.00860 Si 0
+AlT1 0.78630 0.58130 0.09037 0.15000 0.00860 Al 0
+SiT2 0.46810 0.92160 0.09037 0.85000 0.00940 Si 0
+AlT2 0.46810 0.92160 0.09037 0.15000 0.00940 Al 0
+O1 0.65700 0.77970 0.11310 1.00000 0.01670 O 0
+O2 0.12740 0.71330 0.10710 1.00000 0.01860 O 0
+O3 0.59670 0.25030 0.11270 1.00000 0.01680 O 0
+O4 0.75120 0.56740 0.03600 1.00000 0.01370 O 0
+O5 0.50330 0.94120 0.03610 1.00000 0.01370 O 0
+O6 0.12450 0.19080 0.03480 1.00000 0.01460 O 0
+H 0.14000 0.32000 0.03800 1.00000 0.07000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:19:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006912

@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/50/9015003.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015003
+loop_
+_publ_author_name
+'Bindi, L.'
+'Carbone, C.'
+'Cabella, R.'
+'Lucchetti, G.'
+_publ_section_title
+;
+ Bassoite, SrV3O7*4H2O, a new mineral from Molinello mine, Val Graveglia,
+ eastern Liguria, Italy
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              2677
+_journal_page_last               2686
+_journal_paper_doi               10.1180/minmag.2011.075.5.2677
+_journal_volume                  75
+_journal_year                    2011
+_chemical_compound_source        'Molinello mine, Val Graveglia, Liguria, Italy'
+_chemical_formula_sum            'H8 O11 Sr V3'
+_chemical_name_mineral           Bassoite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 91.14
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.313
+_cell_length_b                   10.495
+_cell_length_c                   8.568
+_cell_volume                     477.657
+_database_code_amcsd             0018516
+_exptl_crystal_density_diffrn    2.951
+_cod_original_formula_sum        'Sr V3 O11 H8'
+_cod_database_code               9015003
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sr 0.03700 0.03750 0.03700 0.00000 0.00050 0.00000
+V1 0.03110 0.03140 0.03030 0.00000 0.00100 0.00000
+V2 0.02670 0.02770 0.02610 0.00030 0.00100 0.00010
+O1 0.02890 0.02940 0.02860 -0.00240 -0.00180 -0.00140
+O2 0.02980 0.02990 0.02890 -0.00060 -0.00090 -0.00010
+O3 0.02660 0.02710 0.02290 -0.00110 0.00180 0.00130
+O4 0.02820 0.02800 0.02400 0.00000 -0.00120 0.00000
+Wat5 0.03950 0.04420 0.03260 0.00120 0.00040 -0.00130
+Wat6 0.07300 0.06800 0.11300 0.00000 0.00200 0.00000
+Wat7 0.07600 0.07800 0.06700 0.00000 0.00200 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Sr 0.25846 0.25000 0.23638 0.03720 Sr 0
+V1 0.74697 0.25000 -0.04422 0.03090 V 0
+V2 0.24763 0.01931 -0.07309 0.02680 V 0
+O1 -0.01000 0.11550 0.02880 0.02900 O 0
+O2 0.51710 0.11690 0.03150 0.02960 O 0
+O3 0.76700 -0.04780 0.25670 0.02550 O 0
+O4 0.73790 0.25000 0.77200 0.02680 O 0
+Wat5 0.26150 0.01690 0.35260 0.03880 O 2
+Wat6 0.20580 0.25000 0.53720 0.08500 O 2
+Wat7 0.74610 0.25000 0.35060 0.07370 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:43+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018516

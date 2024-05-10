@@ -1,0 +1,141 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-29 23:22:55 +0200 (Sun, 29 Jan 2017) $
+#$Revision: 191079 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/47/2104755.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104755
+loop_
+_publ_author_name
+'Elliot, Alexander Dean'
+_publ_section_title
+;
+ Structure of pyrrhotite 5<i>C</i> (Fe~9~S~10~)
+;
+_journal_coeditor_code           KD5037
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              271
+_journal_page_last               279
+_journal_paper_doi               10.1107/S0108768110011845
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_structural     Ca5(PO4)3F
+_chemical_formula_sum            'Ca5 F O12 P3'
+_chemical_formula_weight         504.302
+_chemical_name_mineral           Fluorapatite
+_space_group_crystal_system      hexagonal
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.37243(49)
+_cell_length_b                   9.37243(49)
+_cell_length_c                   6.88313(63)
+_cell_volume                     523.63(6)
+_exptl_absorpt_coefficient_mu    4.75692(66)
+_exptl_crystal_density_diffrn    3.19851(44)
+_pd_block_id                     2010-05-13T01:17|Fluorapatite|A.Elliot|5Ca3
+_pd_proc_ls_profile_function
+;
+Crystallite size and strain modelled with Lorentzian and Gaussian 
+component convolutions
+Fluorapatite Phase
+    CS_L(csfluorapatite, 127.42550`_8.59005_LIMIT_MIN_100 
+    min =100; max =2000;)
+;
+_refine_ls_R_I_factor            0.01657
+_cod_data_source_file            kd5037.cif
+_cod_data_source_block           (5Ca3)_Fluorapatite
+_cod_depositor_comments
+;
+ Moving _atom_site_aniso_U_* data items from the _atom_site loop to the
+ _atom_site_aniso loop and adding the _atom_site_aniso_label data item.
+
+ Antanas Vaitkus,
+ 2017-01-29
+;
+_cod_original_cell_volume        523.626(73)
+_cod_database_code               2104755
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, -y, z+1/2'
+'-x+y, -x, -z+1/2'
+'-x+y, -x, z'
+'-y, x-y, -z+1/2'
+'-y, x-y, z'
+'y, -x+y, -z'
+'y, -x+y, z+1/2'
+'x-y, x, -z'
+'x-y, x, z+1/2'
+'x, y, -z+1/2'
+'x, y, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.01369 0.01369 0.0078 0.00685 0 0
+Ca2 0.01311 0.01032 0.00923 0.00560 0 0
+P 0.0085 0.00751 0.0072 0.0045 0 0
+O1 0.0166 0.0129 0.0131 0.0109 0 0
+O2 0.009 0.0123 0.0211 0.0044 0 0
+O3 0.0281 0.0152 0.0107 0.0136 -0.0074 -0.0048
+F 0.0119 0.0119 0.043 0.00595 0 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca1 Ca+2 4 0.3333333 0.6666667 0.00112 1
+Ca2 Ca+2 6 0.24186 0.99288 0.25 1
+P P 6 0.39845 0.36896 0.25 1
+O1 O-2 6 0.32694 0.48444 0.25 1
+O2 O-2 6 0.5876 0.4665 0.25 1
+O3 O-2 12 0.3411 0.2571 0.07076 1
+F F-1 2 0 0 0.25 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca Ca2+ 20.279 0.420 'Default dataset used by TOPAS R3'
+F F- 9.025 0.014 'Default dataset used by TOPAS R3'
+O O2- 8.016 0.0086 'Default dataset used by TOPAS R3'
+P P 15.133 0.130 'Default dataset used by TOPAS R3'
+loop_
+_citation_title
+_citation_page_first
+_citation_page_last
+_citation_year
+_citation_journal_abbrev
+_citation_journal_volume
+_citation_journal_id_ISSN
+' Structural disorder in hydoxyapatite' 123 148 1992
+;
+;
+;
+;
+;
+;

@@ -1,0 +1,663 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/19/4001971.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001971
+loop_
+_publ_author_name
+'Yao, Jinlei'
+'Wang, Peng'
+'Mozharivskyj, Yurij'
+_publ_section_title
+;
+ Tuning Magnetic and Structural Transitions through Valence Electron
+ Concentration in the Giant Magnetocaloric Gd5--xEuxGe4Phases
+;
+_journal_issue                   3
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              552
+_journal_paper_doi               10.1021/cm203148e
+_journal_volume                  24
+_journal_year                    2012
+_chemical_formula_sum            'Eu0.25 Gd4.75 Ge4'
+_chemical_formula_weight         1075.29
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.6781(6)
+_cell_length_b                   14.8416(14)
+_cell_length_c                   7.7797(7)
+_cell_measurement_reflns_used    1230
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      29.14
+_cell_measurement_theta_min      2.74
+_cell_volume                     886.54(13)
+_computing_cell_refinement       X-Area
+_computing_data_collection       X-Area
+_computing_data_reduction        X-Red32
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.994
+_diffrn_measured_fraction_theta_max 0.994
+_diffrn_measurement_device_type  'STOE IPDSII'
+_diffrn_measurement_method       'omega scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0813
+_diffrn_reflns_av_sigmaI/netI    0.0621
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -20
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            8524
+_diffrn_reflns_theta_full        29.14
+_diffrn_reflns_theta_max         29.14
+_diffrn_reflns_theta_min         2.74
+_exptl_absorpt_coefficient_mu    49.990
+_exptl_absorpt_correction_T_max  0.0997
+_exptl_absorpt_correction_T_min  0.0441
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   X-Red
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    8.056
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1791
+_exptl_crystal_size_max          0.150
+_exptl_crystal_size_mid          0.131
+_exptl_crystal_size_min          0.117
+_refine_diff_density_max         1.954
+_refine_diff_density_min         -2.406
+_refine_diff_density_rms         0.467
+_refine_ls_extinction_coef       0.00108(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.960
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     47
+_refine_ls_number_reflns         1230
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.960
+_refine_ls_R_factor_all          0.0649
+_refine_ls_R_factor_gt           0.0386
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0182P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0515
+_refine_ls_wR_factor_ref         0.0555
+_reflns_number_gt                952
+_reflns_number_total             1230
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            Gd4.75Eu0.25Ge4.cif
+_cod_data_source_block           pnma
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/usr/data/users/saulius/automatic-downloads/retrospective/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      Pnma
+_cod_database_code               4001971
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Gd1 Gd -0.01897(7) 0.59865(4) 0.17917(7) 0.01012(14) Uani 0.95 1 d P
+Eu1 Eu -0.01897(7) 0.59865(4) 0.17917(7) 0.01012(14) Uani 0.05 1 d P
+Gd2 Gd 0.37123(7) 0.11734(4) 0.16155(7) 0.00897(14) Uani 0.95 1 d P
+Eu2 Eu 0.37123(7) 0.11734(4) 0.16155(7) 0.00897(14) Uani 0.05 1 d P
+Gd3 Gd 0.20542(12) 0.2500 0.50067(11) 0.00885(17) Uani 0.95 2 d SP
+Eu3 Eu 0.20542(12) 0.2500 0.50067(11) 0.00885(17) Uani 0.05 2 d SP
+Ge1 Ge 0.21292(18) 0.04372(9) 0.46476(16) 0.0118(3) Uani 1 1 d .
+Ge2 Ge 0.0767(2) 0.2500 0.1134(2) 0.0108(4) Uani 1 2 d S
+Ge3 Ge 0.3209(2) 0.2500 0.8666(2) 0.0099(4) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Gd1 0.0114(3) 0.0096(3) 0.0093(2) -0.0005(2) 0.0007(2) -0.0019(2)
+Eu1 0.0114(3) 0.0096(3) 0.0093(2) -0.0005(2) 0.0007(2) -0.0019(2)
+Gd2 0.0114(3) 0.0075(3) 0.0081(2) 0.0011(2) 0.0001(2) -0.00049(19)
+Eu2 0.0114(3) 0.0075(3) 0.0081(2) 0.0011(2) 0.0001(2) -0.00049(19)
+Gd3 0.0095(3) 0.0084(4) 0.0086(3) 0.000 -0.0004(3) 0.000
+Eu3 0.0095(3) 0.0084(4) 0.0086(3) 0.000 -0.0004(3) 0.000
+Ge1 0.0131(6) 0.0115(7) 0.0108(6) 0.0026(5) 0.0014(5) 0.0011(5)
+Ge2 0.0115(8) 0.0111(9) 0.0097(8) 0.000 0.0003(7) 0.000
+Ge3 0.0114(9) 0.0090(9) 0.0093(8) 0.000 -0.0011(7) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Gd Gd -0.1653 3.9035 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Ge1 Gd1 Ge3 94.29(4) 8_665 2_564
+Ge1 Gd1 Ge1 97.58(4) 8_665 4_455
+Ge3 Gd1 Ge1 168.13(5) 2_564 4_455
+Ge1 Gd1 Ge2 84.51(4) 8_665 5_565
+Ge3 Gd1 Ge2 83.93(4) 2_564 5_565
+Ge1 Gd1 Ge2 97.25(4) 4_455 5_565
+Ge1 Gd1 Ge3 133.41(4) 8_665 5_566
+Ge3 Gd1 Ge3 84.26(3) 2_564 5_566
+Ge1 Gd1 Ge3 87.63(4) 4_455 5_566
+Ge2 Gd1 Ge3 48.96(4) 5_565 5_566
+Ge1 Gd1 Ge1 140.02(5) 8_665 3_556
+Ge3 Gd1 Ge1 90.32(4) 2_564 3_556
+Ge1 Gd1 Ge1 80.53(2) 4_455 3_556
+Ge2 Gd1 Ge1 135.47(4) 5_565 3_556
+Ge3 Gd1 Ge1 86.56(4) 5_566 3_556
+Ge1 Gd1 Eu2 97.78(3) 8_665 4_455
+Ge3 Gd1 Eu2 127.77(3) 2_564 4_455
+Ge1 Gd1 Eu2 50.37(3) 4_455 4_455
+Ge2 Gd1 Eu2 147.61(3) 5_565 4_455
+Ge3 Gd1 Eu2 119.67(3) 5_566 4_455
+Ge1 Gd1 Eu2 50.57(3) 3_556 4_455
+Ge1 Gd1 Gd2 97.78(3) 8_665 4_455
+Ge3 Gd1 Gd2 127.77(3) 2_564 4_455
+Ge1 Gd1 Gd2 50.37(3) 4_455 4_455
+Ge2 Gd1 Gd2 147.61(3) 5_565 4_455
+Ge3 Gd1 Gd2 119.67(3) 5_566 4_455
+Ge1 Gd1 Gd2 50.57(3) 3_556 4_455
+Eu2 Gd1 Gd2 0.00(3) 4_455 4_455
+Ge1 Gd1 Ge1 78.039(19) 8_665 7_565
+Ge3 Gd1 Ge1 83.68(4) 2_564 7_565
+Ge1 Gd1 Ge1 98.68(4) 4_455 7_565
+Ge2 Gd1 Ge1 157.72(4) 5_565 7_565
+Ge3 Gd1 Ge1 147.08(4) 5_566 7_565
+Ge1 Gd1 Ge1 63.02(4) 3_556 7_565
+Eu2 Gd1 Ge1 50.23(3) 4_455 7_565
+Gd2 Gd1 Ge1 50.23(3) 4_455 7_565
+Ge1 Gd1 Eu3 54.97(3) 8_665 2_564
+Ge3 Gd1 Eu3 52.62(4) 2_564 2_564
+Ge1 Gd1 Eu3 136.27(3) 4_455 2_564
+Ge2 Gd1 Eu3 51.77(4) 5_565 2_564
+Ge3 Gd1 Eu3 90.20(3) 5_566 2_564
+Ge1 Gd1 Eu3 142.93(3) 3_556 2_564
+Eu2 Gd1 Eu3 150.00(2) 4_455 2_564
+Gd2 Gd1 Eu3 150.00(2) 4_455 2_564
+Ge1 Gd1 Eu3 106.25(3) 7_565 2_564
+Ge1 Gd1 Gd3 54.97(3) 8_665 2_564
+Ge3 Gd1 Gd3 52.62(4) 2_564 2_564
+Ge1 Gd1 Gd3 136.27(3) 4_455 2_564
+Ge2 Gd1 Gd3 51.77(4) 5_565 2_564
+Ge3 Gd1 Gd3 90.20(3) 5_566 2_564
+Ge1 Gd1 Gd3 142.93(3) 3_556 2_564
+Eu2 Gd1 Gd3 150.00(2) 4_455 2_564
+Gd2 Gd1 Gd3 150.00(2) 4_455 2_564
+Ge1 Gd1 Gd3 106.25(3) 7_565 2_564
+Eu3 Gd1 Gd3 0.00(3) 2_564 2_564
+Ge1 Gd1 Eu3 148.88(3) 8_665 5_566
+Ge3 Gd1 Eu3 54.64(4) 2_564 5_566
+Ge1 Gd1 Eu3 113.50(3) 4_455 5_566
+Ge2 Gd1 Eu3 89.95(3) 5_565 5_566
+Ge3 Gd1 Eu3 50.85(3) 5_566 5_566
+Ge1 Gd1 Eu3 52.58(3) 3_556 5_566
+Eu2 Gd1 Eu3 103.020(19) 4_455 5_566
+Gd2 Gd1 Eu3 103.020(19) 4_455 5_566
+Ge1 Gd1 Eu3 97.83(3) 7_565 5_566
+Eu3 Gd1 Eu3 98.21(2) 2_564 5_566
+Gd3 Gd1 Eu3 98.21(2) 2_564 5_566
+Ge1 Gd2 Ge1 91.47(2) . 2_554
+Ge1 Gd2 Ge1 119.99(5) . 6_656
+Ge1 Gd2 Ge1 73.94(4) 2_554 6_656
+Ge1 Gd2 Ge2 91.88(5) . .
+Ge1 Gd2 Ge2 107.68(4) 2_554 .
+Ge1 Gd2 Ge2 148.13(5) 6_656 .
+Ge1 Gd2 Ge3 144.19(5) . 1_554
+Ge1 Gd2 Ge3 96.11(4) 2_554 1_554
+Ge1 Gd2 Ge3 95.71(4) 6_656 1_554
+Ge2 Gd2 Ge3 52.48(5) . 1_554
+Ge1 Gd2 Ge2 89.60(4) . 6_656
+Ge1 Gd2 Ge2 160.10(4) 2_554 6_656
+Ge1 Gd2 Ge2 88.34(4) 6_656 6_656
+Ge2 Gd2 Ge2 92.14(3) . 6_656
+Ge3 Gd2 Ge2 94.60(4) 1_554 6_656
+Ge1 Gd2 Eu3 145.87(4) . 6_656
+Ge1 Gd2 Eu3 116.01(3) 2_554 6_656
+Ge1 Gd2 Eu3 56.11(3) 6_656 6_656
+Ge2 Gd2 Eu3 97.97(3) . 6_656
+Ge3 Gd2 Eu3 56.89(4) 1_554 6_656
+Ge2 Gd2 Eu3 57.59(4) 6_656 6_656
+Ge1 Gd2 Gd3 145.87(4) . 6_656
+Ge1 Gd2 Gd3 116.01(3) 2_554 6_656
+Ge1 Gd2 Gd3 56.11(3) 6_656 6_656
+Ge2 Gd2 Gd3 97.97(3) . 6_656
+Ge3 Gd2 Gd3 56.89(4) 1_554 6_656
+Ge2 Gd2 Gd3 57.59(4) 6_656 6_656
+Eu3 Gd2 Gd3 0.00(3) 6_656 6_656
+Ge1 Gd2 Gd3 56.30(3) . .
+Ge1 Gd2 Gd3 140.45(4) 2_554 .
+Ge1 Gd2 Gd3 139.61(3) 6_656 .
+Ge2 Gd2 Gd3 57.26(4) . .
+Ge3 Gd2 Gd3 99.01(3) 1_554 .
+Ge2 Gd2 Gd3 53.24(4) 6_656 .
+Eu3 Gd2 Gd3 102.82(2) 6_656 .
+Gd3 Gd2 Gd3 102.82(2) 6_656 .
+Ge1 Gd2 Gd1 57.87(3) . 4
+Ge1 Gd2 Gd1 59.55(3) 2_554 4
+Ge1 Gd2 Gd1 65.00(3) 6_656 4
+Ge2 Gd2 Gd1 144.28(4) . 4
+Ge3 Gd2 Gd1 151.52(3) 1_554 4
+Ge2 Gd2 Gd1 105.00(3) 6_656 4
+Eu3 Gd2 Gd1 117.71(2) 6_656 4
+Gd3 Gd2 Gd1 117.71(2) 6_656 4
+Gd3 Gd2 Gd1 109.24(2) . 4
+Ge1 Gd2 Eu1 57.87(3) . 4
+Ge1 Gd2 Eu1 59.55(3) 2_554 4
+Ge1 Gd2 Eu1 65.00(3) 6_656 4
+Ge2 Gd2 Eu1 144.28(4) . 4
+Ge3 Gd2 Eu1 151.52(3) 1_554 4
+Ge2 Gd2 Eu1 105.00(3) 6_656 4
+Eu3 Gd2 Eu1 117.71(2) 6_656 4
+Gd3 Gd2 Eu1 117.71(2) 6_656 4
+Gd3 Gd2 Eu1 109.24(2) . 4
+Gd1 Gd2 Eu1 0.00(3) 4 4
+Ge3 Gd3 Ge2 90.00(6) . 6_656
+Ge3 Gd3 Ge1 94.66(3) . 7_565
+Ge2 Gd3 Ge1 87.43(3) 6_656 7_565
+Ge3 Gd3 Ge1 94.66(3) . .
+Ge2 Gd3 Ge1 87.43(3) 6_656 .
+Ge1 Gd3 Ge1 169.35(5) 7_565 .
+Ge3 Gd3 Ge3 88.02(4) . 6_557
+Ge2 Gd3 Ge3 178.03(6) 6_656 6_557
+Ge1 Gd3 Ge3 92.73(3) 7_565 6_557
+Ge1 Gd3 Ge3 92.73(3) . 6_557
+Ge3 Gd3 Ge2 179.13(6) . .
+Ge2 Gd3 Ge2 90.87(4) 6_656 .
+Ge1 Gd3 Ge2 85.38(3) 7_565 .
+Ge1 Gd3 Ge2 85.38(3) . .
+Ge3 Gd3 Ge2 91.10(5) 6_557 .
+Ge3 Gd3 Eu2 124.53(3) . 6_556
+Ge2 Gd3 Eu2 126.70(3) 6_656 6_556
+Ge1 Gd3 Eu2 123.06(4) 7_565 6_556
+Ge1 Gd3 Eu2 54.28(3) . 6_556
+Ge3 Gd3 Eu2 54.71(3) 6_557 6_556
+Ge2 Gd3 Eu2 54.84(3) . 6_556
+Ge3 Gd3 Gd2 124.53(3) . 6_556
+Ge2 Gd3 Gd2 126.70(3) 6_656 6_556
+Ge1 Gd3 Gd2 123.06(4) 7_565 6_556
+Ge1 Gd3 Gd2 54.28(3) . 6_556
+Ge3 Gd3 Gd2 54.71(3) 6_557 6_556
+Ge2 Gd3 Gd2 54.84(3) . 6_556
+Eu2 Gd3 Gd2 0.000(19) 6_556 6_556
+Ge3 Gd3 Eu2 124.53(3) . 4_455
+Ge2 Gd3 Eu2 126.70(3) 6_656 4_455
+Ge1 Gd3 Eu2 54.28(3) 7_565 4_455
+Ge1 Gd3 Eu2 123.06(4) . 4_455
+Ge3 Gd3 Eu2 54.71(3) 6_557 4_455
+Ge2 Gd3 Eu2 54.84(3) . 4_455
+Eu2 Gd3 Eu2 69.10(3) 6_556 4_455
+Gd2 Gd3 Eu2 69.10(3) 6_556 4_455
+Ge3 Gd3 Gd2 124.53(3) . 4_455
+Ge2 Gd3 Gd2 126.70(3) 6_656 4_455
+Ge1 Gd3 Gd2 54.28(3) 7_565 4_455
+Ge1 Gd3 Gd2 123.06(4) . 4_455
+Ge3 Gd3 Gd2 54.71(3) 6_557 4_455
+Ge2 Gd3 Gd2 54.84(3) . 4_455
+Eu2 Gd3 Gd2 69.10(3) 6_556 4_455
+Gd2 Gd3 Gd2 69.10(3) 6_556 4_455
+Eu2 Gd3 Gd2 0.000(12) 4_455 4_455
+Ge3 Gd3 Eu2 127.33(4) . 7_565
+Ge2 Gd3 Eu2 55.48(3) 6_656 7_565
+Ge1 Gd3 Eu2 50.94(3) 7_565 7_565
+Ge1 Gd3 Eu2 118.74(4) . 7_565
+Ge3 Gd3 Eu2 125.96(3) 6_557 7_565
+Ge2 Gd3 Eu2 53.29(3) . 7_565
+Eu2 Gd3 Eu2 108.13(3) 6_556 7_565
+Gd2 Gd3 Eu2 108.13(3) 6_556 7_565
+Eu2 Gd3 Eu2 71.248(16) 4_455 7_565
+Gd2 Gd3 Eu2 71.248(16) 4_455 7_565
+Ge3 Gd3 Gd2 127.33(4) . 7_565
+Ge2 Gd3 Gd2 55.48(3) 6_656 7_565
+Ge1 Gd3 Gd2 50.94(3) 7_565 7_565
+Ge1 Gd3 Gd2 118.74(4) . 7_565
+Ge3 Gd3 Gd2 125.96(3) 6_557 7_565
+Ge2 Gd3 Gd2 53.29(3) . 7_565
+Eu2 Gd3 Gd2 108.13(3) 6_556 7_565
+Gd2 Gd3 Gd2 108.13(3) 6_556 7_565
+Eu2 Gd3 Gd2 71.248(16) 4_455 7_565
+Gd2 Gd3 Gd2 71.248(16) 4_455 7_565
+Eu2 Gd3 Gd2 0.00(3) 7_565 7_565
+Gd2 Ge1 Eu2 147.02(5) . 2
+Gd2 Ge1 Gd2 147.02(5) . 2
+Eu2 Ge1 Gd2 0.00(3) 2 2
+Gd2 Ge1 Eu1 91.25(4) . 8_656
+Eu2 Ge1 Eu1 96.01(4) 2 8_656
+Gd2 Ge1 Eu1 96.01(4) 2 8_656
+Gd2 Ge1 Gd1 91.25(4) . 8_656
+Eu2 Ge1 Gd1 96.01(4) 2 8_656
+Gd2 Ge1 Gd1 96.01(4) 2 8_656
+Eu1 Ge1 Gd1 0.00(3) 8_656 8_656
+Gd2 Ge1 Eu2 87.85(4) . 6_556
+Eu2 Ge1 Eu2 106.06(4) 2 6_556
+Gd2 Ge1 Eu2 106.06(4) 2 6_556
+Eu1 Ge1 Eu2 140.14(5) 8_656 6_556
+Gd1 Ge1 Eu2 140.14(5) 8_656 6_556
+Gd2 Ge1 Gd2 87.85(4) . 6_556
+Eu2 Ge1 Gd2 106.06(4) 2 6_556
+Gd2 Ge1 Gd2 106.06(4) 2 6_556
+Eu1 Ge1 Gd2 140.14(5) 8_656 6_556
+Gd1 Ge1 Gd2 140.14(5) 8_656 6_556
+Eu2 Ge1 Gd2 0.00(2) 6_556 6_556
+Gd2 Ge1 Gd3 72.75(4) . .
+Eu2 Ge1 Gd3 139.96(5) 2 .
+Gd2 Ge1 Gd3 139.96(5) 2 .
+Eu1 Ge1 Gd3 72.12(4) 8_656 .
+Gd1 Ge1 Gd3 72.12(4) 8_656 .
+Eu2 Ge1 Gd3 69.61(4) 6_556 .
+Gd2 Ge1 Gd3 69.61(4) 6_556 .
+Gd2 Ge1 Gd1 71.76(3) . 4
+Eu2 Ge1 Gd1 77.38(4) 2 4
+Gd2 Ge1 Gd1 77.38(4) 2 4
+Eu1 Ge1 Gd1 82.42(4) 8_656 4
+Gd1 Ge1 Gd1 82.42(4) 8_656 4
+Eu2 Ge1 Gd1 134.15(5) 6_556 4
+Gd2 Ge1 Gd1 134.15(5) 6_556 4
+Gd3 Ge1 Gd1 135.34(5) . 4
+Gd2 Ge1 Eu1 71.76(3) . 4
+Eu2 Ge1 Eu1 77.38(4) 2 4
+Gd2 Ge1 Eu1 77.38(4) 2 4
+Eu1 Ge1 Eu1 82.42(4) 8_656 4
+Gd1 Ge1 Eu1 82.42(4) 8_656 4
+Eu2 Ge1 Eu1 134.15(5) 6_556 4
+Gd2 Ge1 Eu1 134.15(5) 6_556 4
+Gd3 Ge1 Eu1 135.34(5) . 4
+Gd1 Ge1 Eu1 0.00(2) 4 4
+Gd2 Ge1 Gd1 143.07(5) . 3_546
+Eu2 Ge1 Gd1 69.88(3) 2 3_546
+Gd2 Ge1 Gd1 69.88(3) 2 3_546
+Eu1 Ge1 Gd1 79.42(3) 8_656 3_546
+Gd1 Ge1 Gd1 79.42(3) 8_656 3_546
+Eu2 Ge1 Gd1 77.73(3) 6_556 3_546
+Gd2 Ge1 Gd1 77.73(3) 6_556 3_546
+Gd3 Ge1 Gd1 70.37(3) . 3_546
+Gd1 Ge1 Gd1 140.32(5) 4 3_546
+Eu1 Ge1 Gd1 140.32(5) 4 3_546
+Gd2 Ge1 Eu1 143.07(5) . 3_546
+Eu2 Ge1 Eu1 69.88(3) 2 3_546
+Gd2 Ge1 Eu1 69.88(3) 2 3_546
+Eu1 Ge1 Eu1 79.42(3) 8_656 3_546
+Gd1 Ge1 Eu1 79.42(3) 8_656 3_546
+Eu2 Ge1 Eu1 77.73(3) 6_556 3_546
+Gd2 Ge1 Eu1 77.73(3) 6_556 3_546
+Gd3 Ge1 Eu1 70.37(3) . 3_546
+Gd1 Ge1 Eu1 140.32(5) 4 3_546
+Eu1 Ge1 Eu1 140.32(5) 4 3_546
+Gd1 Ge1 Eu1 0.00(2) 3_546 3_546
+Gd2 Ge1 Eu1 85.67(3) . 7_565
+Eu2 Ge1 Eu1 74.26(3) 2 7_565
+Gd2 Ge1 Eu1 74.26(3) 2 7_565
+Eu1 Ge1 Eu1 154.86(5) 8_656 7_565
+Gd1 Ge1 Eu1 154.86(5) 8_656 7_565
+Eu2 Ge1 Eu1 64.77(3) 6_556 7_565
+Gd2 Ge1 Eu1 64.77(3) 6_556 7_565
+Gd3 Ge1 Eu1 129.86(5) . 7_565
+Gd1 Ge1 Eu1 72.91(3) 4 7_565
+Eu1 Ge1 Eu1 72.91(3) 4 7_565
+Gd1 Ge1 Eu1 116.98(4) 3_546 7_565
+Eu1 Ge1 Eu1 116.98(4) 3_546 7_565
+Gd2 Ge1 Gd1 85.67(3) . 7_565
+Eu2 Ge1 Gd1 74.26(3) 2 7_565
+Gd2 Ge1 Gd1 74.26(3) 2 7_565
+Eu1 Ge1 Gd1 154.86(5) 8_656 7_565
+Gd1 Ge1 Gd1 154.86(5) 8_656 7_565
+Eu2 Ge1 Gd1 64.77(3) 6_556 7_565
+Gd2 Ge1 Gd1 64.77(3) 6_556 7_565
+Gd3 Ge1 Gd1 129.86(5) . 7_565
+Gd1 Ge1 Gd1 72.91(3) 4 7_565
+Eu1 Ge1 Gd1 72.91(3) 4 7_565
+Gd1 Ge1 Gd1 116.98(4) 3_546 7_565
+Eu1 Ge1 Gd1 116.98(4) 3_546 7_565
+Eu1 Ge1 Gd1 0.00(3) 7_565 7_565
+Gd2 Ge1 Ge1 130.87(6) . 5_556
+Eu2 Ge1 Ge1 54.26(4) 2 5_556
+Gd2 Ge1 Ge1 54.26(4) 2 5_556
+Eu1 Ge1 Ge1 137.23(6) 8_656 5_556
+Gd1 Ge1 Ge1 137.23(6) 8_656 5_556
+Eu2 Ge1 Ge1 51.80(4) 6_556 5_556
+Gd2 Ge1 Ge1 51.80(4) 6_556 5_556
+Gd3 Ge1 Ge1 109.38(6) . 5_556
+Gd1 Ge1 Ge1 114.18(6) 4 5_556
+Eu1 Ge1 Ge1 114.18(6) 4 5_556
+Gd1 Ge1 Ge1 62.56(4) 3_546 5_556
+Eu1 Ge1 Ge1 62.56(4) 3_546 5_556
+Eu1 Ge1 Ge1 54.41(4) 7_565 5_556
+Gd1 Ge1 Ge1 54.41(4) 7_565 5_556
+Ge3 Ge2 Eu3 117.02(7) 1_554 6_556
+Ge3 Ge2 Gd3 117.02(7) 1_554 6_556
+Eu3 Ge2 Gd3 0.00(3) 6_556 6_556
+Ge3 Ge2 Gd2 64.26(4) 1_554 .
+Eu3 Ge2 Gd2 138.71(3) 6_556 .
+Gd3 Ge2 Gd2 138.71(3) 6_556 .
+Ge3 Ge2 Eu2 64.26(5) 1_554 7_565
+Eu3 Ge2 Eu2 138.71(3) 6_556 7_565
+Gd3 Ge2 Eu2 138.71(3) 6_556 7_565
+Gd2 Ge2 Eu2 81.31(5) . 7_565
+Ge3 Ge2 Gd2 64.26(5) 1_554 7_565
+Eu3 Ge2 Gd2 138.71(3) 6_556 7_565
+Gd3 Ge2 Gd2 138.71(3) 6_556 7_565
+Gd2 Ge2 Gd2 81.31(5) . 7_565
+Eu2 Ge2 Gd2 0.00(3) 7_565 7_565
+Ge3 Ge2 Eu2 140.06(3) 1_554 6_556
+Eu3 Ge2 Eu2 71.28(4) 6_556 6_556
+Gd3 Ge2 Eu2 71.28(4) 6_556 6_556
+Gd2 Ge2 Eu2 84.04(3) . 6_556
+Eu2 Ge2 Eu2 137.02(7) 7_565 6_556
+Gd2 Ge2 Eu2 137.02(7) 7_565 6_556
+Ge3 Ge2 Gd2 140.06(3) 1_554 6_556
+Eu3 Ge2 Gd2 71.28(4) 6_556 6_556
+Gd3 Ge2 Gd2 71.28(4) 6_556 6_556
+Gd2 Ge2 Gd2 84.04(3) . 6_556
+Eu2 Ge2 Gd2 137.02(7) 7_565 6_556
+Gd2 Ge2 Gd2 137.02(7) 7_565 6_556
+Eu2 Ge2 Gd2 0.00(3) 6_556 6_556
+Ge3 Ge2 Eu2 140.06(2) 1_554 4_455
+Eu3 Ge2 Eu2 71.28(4) 6_556 4_455
+Gd3 Ge2 Eu2 71.28(4) 6_556 4_455
+Gd2 Ge2 Eu2 137.02(7) . 4_455
+Eu2 Ge2 Eu2 84.04(3) 7_565 4_455
+Gd2 Ge2 Eu2 84.04(3) 7_565 4_455
+Eu2 Ge2 Eu2 79.76(5) 6_556 4_455
+Gd2 Ge2 Eu2 79.76(5) 6_556 4_455
+Ge3 Ge2 Gd2 140.06(2) 1_554 4_455
+Eu3 Ge2 Gd2 71.28(4) 6_556 4_455
+Gd3 Ge2 Gd2 71.28(4) 6_556 4_455
+Gd2 Ge2 Gd2 137.02(7) . 4_455
+Eu2 Ge2 Gd2 84.04(3) 7_565 4_455
+Gd2 Ge2 Gd2 84.04(3) 7_565 4_455
+Eu2 Ge2 Gd2 79.76(5) 6_556 4_455
+Gd2 Ge2 Gd2 79.76(5) 6_556 4_455
+Eu2 Ge2 Gd2 0.00(2) 4_455 4_455
+Ge2 Ge3 Gd3 118.39(7) 1_556 .
+Ge2 Ge3 Eu2 63.26(4) 1_556 1_556
+Gd3 Ge3 Eu2 139.15(3) . 1_556
+Ge2 Ge3 Gd2 63.26(4) 1_556 1_556
+Gd3 Ge3 Gd2 139.15(3) . 1_556
+Eu2 Ge3 Gd2 0.00(3) 1_556 1_556
+Ge2 Ge3 Eu2 63.26(4) 1_556 7_566
+Gd3 Ge3 Eu2 139.15(3) . 7_566
+Eu2 Ge3 Eu2 80.48(5) 1_556 7_566
+Gd2 Ge3 Eu2 80.48(5) 1_556 7_566
+Ge2 Ge3 Gd2 63.26(4) 1_556 7_566
+Gd3 Ge3 Gd2 139.15(3) . 7_566
+Eu2 Ge3 Gd2 80.48(5) 1_556 7_566
+Gd2 Ge3 Gd2 80.48(5) 1_556 7_566
+Eu2 Ge3 Gd2 0.00(2) 7_566 7_566
+Ge2 Ge3 Gd1 133.14(3) 1_556 2_565
+Gd3 Ge3 Gd1 72.22(4) . 2_565
+Eu2 Ge3 Gd1 139.90(6) 1_556 2_565
+Gd2 Ge3 Gd1 139.90(6) 1_556 2_565
+Eu2 Ge3 Gd1 79.79(3) 7_566 2_565
+Gd2 Ge3 Gd1 79.79(3) 7_566 2_565
+Ge2 Ge3 Eu1 133.14(3) 1_556 2_565
+Gd3 Ge3 Eu1 72.22(4) . 2_565
+Eu2 Ge3 Eu1 139.90(6) 1_556 2_565
+Gd2 Ge3 Eu1 139.90(6) 1_556 2_565
+Eu2 Ge3 Eu1 79.79(3) 7_566 2_565
+Gd2 Ge3 Eu1 79.79(3) 7_566 2_565
+Gd1 Ge3 Eu1 0.00(3) 2_565 2_565
+Ge2 Ge3 Gd1 133.14(3) 1_556 8_656
+Gd3 Ge3 Gd1 72.22(4) . 8_656
+Eu2 Ge3 Gd1 79.79(3) 1_556 8_656
+Gd2 Ge3 Gd1 79.79(3) 1_556 8_656
+Eu2 Ge3 Gd1 139.90(6) 7_566 8_656
+Gd2 Ge3 Gd1 139.90(6) 7_566 8_656
+Gd1 Ge3 Gd1 93.65(5) 2_565 8_656
+Eu1 Ge3 Gd1 93.65(5) 2_565 8_656
+Ge2 Ge3 Eu1 133.14(3) 1_556 8_656
+Gd3 Ge3 Eu1 72.22(4) . 8_656
+Eu2 Ge3 Eu1 79.79(3) 1_556 8_656
+Gd2 Ge3 Eu1 79.79(3) 1_556 8_656
+Eu2 Ge3 Eu1 139.90(6) 7_566 8_656
+Gd2 Ge3 Eu1 139.90(6) 7_566 8_656
+Gd1 Ge3 Eu1 93.65(5) 2_565 8_656
+Eu1 Ge3 Eu1 93.65(5) 2_565 8_656
+Gd1 Ge3 Eu1 0.00(3) 8_656 8_656
+Ge2 Ge3 Eu3 115.05(7) 1_556 6_657
+Gd3 Ge3 Eu3 126.56(6) . 6_657
+Eu2 Ge3 Eu3 68.40(4) 1_556 6_657
+Gd2 Ge3 Eu3 68.40(4) 1_556 6_657
+Eu2 Ge3 Eu3 68.40(4) 7_566 6_657
+Gd2 Ge3 Eu3 68.40(4) 7_566 6_657
+Gd1 Ge3 Eu3 71.95(4) 2_565 6_657
+Eu1 Ge3 Eu3 71.95(4) 2_565 6_657
+Gd1 Ge3 Eu3 71.95(4) 8_656 6_657
+Eu1 Ge3 Eu3 71.95(4) 8_656 6_657
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Gd1 Ge1 2.9948(15) 8_665
+Gd1 Ge3 3.0799(13) 2_564
+Gd1 Ge1 3.1555(15) 4_455
+Gd1 Ge2 3.2285(15) 5_565
+Gd1 Ge3 3.2474(14) 5_566
+Gd1 Ge1 3.2490(14) 3_556
+Gd1 Eu2 3.5388(9) 4_455
+Gd1 Gd2 3.5388(9) 4_455
+Gd1 Ge1 3.5457(15) 7_565
+Gd1 Eu3 3.5735(9) 2_564
+Gd1 Gd3 3.5735(9) 2_564
+Gd1 Eu3 3.6467(9) 5_566
+Gd2 Ge1 2.8698(14) .
+Gd2 Ge1 2.9113(14) 2_554
+Gd2 Ge1 3.0071(15) 6_656
+Gd2 Ge2 3.0219(16) .
+Gd2 Ge3 3.0479(15) 1_554
+Gd2 Ge2 3.0706(15) 6_656
+Gd2 Eu3 3.4718(10) 6_656
+Gd2 Gd3 3.4718(10) 6_656
+Gd2 Gd3 3.5295(10) .
+Gd2 Gd1 3.5388(9) 4
+Gd2 Eu1 3.5388(9) 4
+Gd3 Ge3 2.982(2) .
+Gd3 Ge2 2.985(2) 6_656
+Gd3 Ge1 3.0747(14) 7_565
+Gd3 Ge1 3.0748(14) .
+Gd3 Ge3 3.128(2) 6_557
+Gd3 Ge2 3.171(2) .
+Gd3 Eu2 3.4717(10) 6_556
+Gd3 Gd2 3.4717(10) 6_556
+Gd3 Eu2 3.4718(10) 4_455
+Gd3 Gd2 3.4718(10) 4_455
+Gd3 Eu2 3.5295(10) 7_565
+Gd3 Gd2 3.5295(10) 7_565
+Ge1 Eu2 2.9113(14) 2
+Ge1 Gd2 2.9113(14) 2
+Ge1 Eu1 2.9948(15) 8_656
+Ge1 Gd1 2.9948(15) 8_656
+Ge1 Eu2 3.0071(15) 6_556
+Ge1 Gd2 3.0071(15) 6_556
+Ge1 Gd1 3.1554(15) 4
+Ge1 Eu1 3.1554(15) 4
+Ge1 Gd1 3.2490(14) 3_546
+Ge1 Eu1 3.2490(14) 3_546
+Ge1 Eu1 3.5457(15) 7_565
+Ge1 Gd1 3.5457(15) 7_565
+Ge1 Ge1 3.560(3) 5_556
+Ge2 Ge3 2.684(2) 1_554
+Ge2 Eu3 2.985(2) 6_556
+Ge2 Gd3 2.985(2) 6_556
+Ge2 Eu2 3.0219(16) 7_565
+Ge2 Gd2 3.0219(16) 7_565
+Ge2 Eu2 3.0706(15) 6_556
+Ge2 Gd2 3.0706(15) 6_556
+Ge2 Eu2 3.0706(15) 4_455
+Ge2 Gd2 3.0706(15) 4_455
+Ge3 Ge2 2.684(2) 1_556
+Ge3 Eu2 3.0479(14) 1_556
+Ge3 Gd2 3.0479(14) 1_556
+Ge3 Eu2 3.0479(15) 7_566
+Ge3 Gd2 3.0479(15) 7_566
+Ge3 Gd1 3.0799(13) 2_565
+Ge3 Eu1 3.0799(13) 2_565
+Ge3 Gd1 3.0800(13) 8_656
+Ge3 Eu1 3.0800(13) 8_656
+Ge3 Eu3 3.128(2) 6_657

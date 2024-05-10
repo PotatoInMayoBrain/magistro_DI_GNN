@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/03/9000382.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000382
+loop_
+_publ_author_name
+'Pluth, J. J.'
+'Smith, J. V.'
+_publ_section_title
+;
+ The crystal structure of scawtite
+ Note sample is from Crestmore, California, USA
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1097
+_journal_page_last               1097
+_journal_volume                  58
+_journal_year                    1973
+_chemical_formula_sum            'C H4 Ca7 O23 Si6'
+_chemical_name_mineral           Scawtite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.67
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.118
+_cell_length_b                   15.187
+_cell_length_c                   6.626
+_cell_volume                     1000.561
+_database_code_amcsd             0000391
+_exptl_crystal_density_diffrn    2.765
+_cod_original_formula_sum        'Ca7 Si6 C O23 H4'
+_cod_database_code               9000382
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+x,-y,z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.21210 0.14020 0.19970 1.00000 0.01267 Ca 0
+Ca2 0.50000 0.24950 0.00000 1.00000 0.00836 Ca 0
+Ca3 0.50000 0.50000 0.00000 1.00000 0.01760 Ca 0
+Si1 0.77290 0.39590 0.20570 1.00000 0.00570 Si 0
+Si2 0.00000 0.32320 0.00000 1.00000 0.00583 Si 0
+C 0.00000 0.00000 0.00000 1.00000 0.01849 C 0
+O1 0.90250 0.39320 0.08930 1.00000 0.01431 O 0
+O2 0.08800 0.26860 0.18380 1.00000 0.01127 O 0
+O3 0.64440 0.37560 0.03220 1.00000 0.01064 O 0
+O4 0.69750 0.16200 0.09110 1.00000 0.00937 O 0
+O5 0.74130 0.00000 0.22770 1.00000 0.01051 O 0
+Wat6 0.34400 0.00000 0.20150 1.00000 0.02102 O 2
+O7 0.01140 0.07360 0.09610 0.50000 0.05117 O 0
+O8 0.06480 0.00000 0.17830 0.50000 0.01862 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000391

@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/78/9007846.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007846
+loop_
+_publ_author_name
+'Kamenar, B.'
+'Kaitner, B.'
+'Strukan, N.'
+_publ_section_title
+;
+ Structure of potassium difluorooctamolybdate hexahydrate
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              2249
+_journal_page_last               2251
+_journal_paper_doi               10.1107/S0108270190005467
+_journal_volume                  46
+_journal_year                    1990
+_chemical_formula_structural     K6[Mo8O26F2].6H2O
+_chemical_formula_sum            'F H6 K3 Mo4 O16'
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                107.16
+_cell_angle_beta                 95.77
+_cell_angle_gamma                105.53
+_cell_formula_units_Z            2
+_cell_length_a                   10.497
+_cell_length_b                   10.403
+_cell_length_c                   8.001
+_cell_volume                     788.896
+_database_code_amcsd             0010209
+_exptl_crystal_density_diffrn    3.292
+_cod_original_formula_sum        'Mo4 F O16 K3 H6'
+_cod_database_code               9007846
+_amcsd_formula_title             K6[Mo8O26F2].6H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mo1 0.48951 0.47980 0.27535 0.12060 Mo 0
+Mo2 0.17756 0.24346 0.14397 0.17990 Mo 0
+Mo3 0.50144 0.79143 0.60542 0.17920 Mo 0
+Mo4 0.20806 0.56085 0.40707 0.19820 Mo 0
+F 0.26980 0.19190 -0.05660 0.03510 F 0
+O1 0.55570 0.41150 0.09490 0.02040 O 0
+O2 0.05020 0.25910 0.00530 0.02910 O 0
+O3 0.11570 0.08160 0.16600 0.03230 O 0
+O4 0.44080 0.86280 0.79160 0.03160 O 0
+O5 0.60310 0.93530 0.56770 0.02920 O 0
+O6 0.15470 0.60900 0.60410 0.03710 O 0
+O7 0.09270 0.57410 0.24950 0.03350 O 0
+O8 0.56870 0.66340 0.34410 0.02220 O 0
+O9 0.15010 0.35800 0.36340 0.01920 O 0
+O10 0.34270 0.73810 0.42660 0.02300 O 0
+O11 0.37370 0.27870 0.28620 0.01660 O 0
+O12 0.31130 0.46430 0.18540 0.01610 O 0
+O13 0.40330 0.55980 0.54020 0.01840 O 0
+K1 0.48910 0.14830 0.82560 0.03470 K 0
+K2 0.86460 0.11580 0.66260 0.03830 K 0
+K3 0.17050 0.50600 0.89900 0.03670 K 0
+Wat1 0.75780 0.19260 0.99390 0.04930 O 2
+Wat2 0.12980 0.22630 0.62540 0.06410 O 2
+Wat3 0.85060 0.08820 0.31090 0.06580 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:03+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010209

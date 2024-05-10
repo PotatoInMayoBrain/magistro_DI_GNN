@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/09/9010965.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010965
+loop_
+_publ_author_name
+'Mori, H.'
+'Ito, T.'
+_publ_section_title
+;
+ The structure of vivianite and symplesite
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              1
+_journal_page_last               6
+_journal_paper_doi               10.1107/S0365110X5000001X
+_journal_volume                  3
+_journal_year                    1950
+_chemical_compound_source        'Kiura, Japan'
+_chemical_formula_sum            'As2 Fe3 H16 O16'
+_chemical_name_mineral           Parasymplesite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 103.83
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.25
+_cell_length_b                   13.48
+_cell_length_c                   4.71
+_cell_volume                     631.914
+_database_code_amcsd             0009137
+_exptl_crystal_density_diffrn    3.098
+_cod_original_formula_sum        'Fe3 As2 O16 H16'
+_cod_database_code               9010965
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+FeI 0.00000 0.00000 0.00000 Fe 0
+FeII 0.00000 0.39000 0.00000 Fe 0
+As 0.31500 0.00000 0.41000 As 0
+OI 0.15500 0.00000 0.35000 O 0
+OII 0.40000 0.00000 0.75000 O 0
+OIII 0.36500 0.10000 0.24500 O 0
+WatI 0.08500 0.11000 0.82000 O 2
+WatII 0.40000 0.22000 0.75000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:20:29+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009137

@@ -1,0 +1,111 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/66/9016613.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016613
+loop_
+_publ_author_name
+'Pekov, I. V.'
+'Olysych, L. V.'
+'Chukanov, N. V.'
+'Zubkova, N. V.'
+'Pushcharovsky D Yu'
+'Van, K. V.'
+'Giester, G.'
+'Tillmanns, E.'
+_publ_section_title
+;
+ Crystal chemistry of cancrinite-group minerals with an AB-type framework:
+ A review and new data. I. Chemical and structural variations
+ Note: Sample# mmf62633/2
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1129
+_journal_page_last               1150
+_journal_paper_doi               10.3749/canmin.49.5.1129
+_journal_volume                  49
+_journal_year                    2012
+_chemical_compound_source        Dakhuunur
+_chemical_formula_sum
+'C0.805 H1.998 Al2.91 Ca0.81 Na2.915 O15.414 Si3.09'
+_chemical_name_mineral           Cancrinite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   12.613
+_cell_length_b                   12.613
+_cell_length_c                   5.124
+_cell_volume                     705.954
+_database_code_amcsd             0018875
+_exptl_crystal_density_diffrn    2.461
+_cod_original_formula_sum
+'Si3.09 Al2.91 O15.414 Na2.915 Ca.81 C.805 H1.998'
+_cod_database_code               9016613
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Si1 0.32770 0.41029 0.75000 1.00000 0.00911 Si 0
+Al2 0.07504 0.41252 0.75110 0.97000 0.00991 Al 0
+Si2 0.07504 0.41252 0.75110 0.03000 0.00991 Si 0
+O1 0.20285 0.40426 0.65820 1.00000 0.01560 O 0
+O2 0.11270 0.56339 0.72810 1.00000 0.02040 O 0
+O3 0.02932 0.34870 0.06080 1.00000 0.01620 O 0
+O4 0.31292 0.35650 0.04300 1.00000 0.01610 O 0
+Na 0.66667 0.33333 0.13800 0.81500 0.03820 Na 0
+Wat 0.69100 0.37410 0.67900 0.33300 0.06100 O 2
+NaA 0.12252 0.24759 0.29590 0.64000 0.02220 Na 0
+CaA 0.12252 0.24759 0.29590 0.25000 0.02220 Ca 0
+NaA* 0.14240 0.28660 0.28800 0.06000 0.02220 Na 0
+CaA* 0.14240 0.28660 0.28800 0.02000 0.02220 Ca 0
+C1 0.00000 0.00000 0.67510 0.43200 0.04400 C 0
+OC1 0.05780 0.11860 0.67510 0.43200 0.04600 O 0
+C2 0.00000 0.00000 0.91200 0.37300 0.03800 C 0
+OC2 0.05900 0.11850 0.91200 0.37300 0.04400 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:57:12+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018875

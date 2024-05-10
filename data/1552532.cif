@@ -1,0 +1,759 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-10-30 04:13:45 +0200 (Wed, 30 Oct 2019) $
+#$Revision: 220521 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/25/1552532.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1552532
+loop_
+_publ_author_name
+'Stegemann, Frank'
+'Stahl, Juliane'
+'Bartsch, Manfred'
+'Zacharias, Helmut'
+'Johrendt, Dirk'
+'Janka, Oliver'
+_publ_section_title
+;
+ Temperature induced valence phase transition in intermediate-valent
+ YbPd2Al3
+;
+_journal_name_full               'Chemical Science'
+_journal_paper_doi               10.1039/C9SC04437J
+_journal_year                    2019
+_chemical_formula_sum            'Al3 Pd2 Yb'
+_chemical_formula_weight         466.8
+_space_group_IT_number           191
+_space_group_name_Hall           '-P 6 2'
+_space_group_name_H-M_alt        'P 6/m m m'
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      191
+_symmetry_space_group_name_Hall  '-P 6 2'
+_symmetry_space_group_name_H-M   'P 6/m m m'
+_audit_update_record
+;
+2019-04-17 deposited with the CCDC.    2019-10-14 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   9.2956(7)
+_cell_length_b                   9.2956(7)
+_cell_length_c                   4.2016(3)
+_cell_measurement_reflns_used    9042
+_cell_measurement_temperature    300
+_cell_measurement_theta_max      36.51
+_cell_measurement_theta_min      2.54
+_cell_volume                     314.41(4)
+_diffrn_ambient_temperature      300
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'Stoe StadiVari'
+_diffrn_measurement_method       '??integration method??'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0282
+_diffrn_reflns_av_unetI/netI     0.0042
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            4478
+_diffrn_reflns_theta_full        35.69
+_diffrn_reflns_theta_max         35.69
+_diffrn_reflns_theta_min         2.53
+_exptl_absorpt_coefficient_mu    31.0
+_exptl_absorpt_correction_T_max  0.4913
+_exptl_absorpt_correction_T_min  0.1130
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    7.40
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             603
+_exptl_crystal_size_max          0.120
+_exptl_crystal_size_mid          0.075
+_exptl_crystal_size_min          0.025
+_refine_diff_density_max         1.48
+_refine_diff_density_min         -2.55
+_refine_ls_extinction_coef       890(40)
+_refine_ls_extinction_method
+'B-C type 1 Lorentzian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.62
+_refine_ls_goodness_of_fit_ref   1.61
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         332
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0176
+_refine_ls_R_factor_gt           0.0166
+_refine_ls_shift/su_max          0.0002
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0383
+_refine_ls_wR_factor_ref         0.0388
+_reflns_number_gt                324
+_reflns_number_total             332
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            c9sc04437j2.cif
+_cod_data_source_block           I_CCDC11
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+;
+_cod_original_sg_symbol_Hall     '-P 6;-2'
+_cod_original_formula_sum        'Al3 Pd2 Yb1'
+_cod_database_code               1552532
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -x,-y,z
+5 y,-x+y,z
+6 x-y,x,z
+7 y,x,-z
+8 x-y,-y,-z
+9 -x,-x+y,-z
+10 -y,-x,-z
+11 -x+y,y,-z
+12 x,x-y,-z
+13 -x,-y,-z
+14 y,-x+y,-z
+15 x-y,x,-z
+16 x,y,-z
+17 -y,x-y,-z
+18 -x+y,-x,-z
+19 -y,-x,z
+20 -x+y,y,z
+21 x,x-y,z
+22 y,x,z
+23 x-y,-y,z
+24 -x,-x+y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Yb1 Yb 0.333333 0.666667 0.5 Uani 0.01574(8) 2 1 d
+Yb2 Yb 0 0 0 Uani 0.01849(11) 1 1 d
+Pd Pd 0.185995(19) 0.37199(4) 0 Uani 0.01457(10) 6 1 d
+Al1 Al 0.30440(15) 0 0.5 Uani 0.0161(3) 6 1 d
+Al2 Al 0.5 0 0 Uani 0.0160(5) 3 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Yb1 Yb 0.01465(11) 0.01465(11) 0.01791(14) 0.00733(5) 0 0
+Yb2 Yb 0.01569(13) 0.01569(13) 0.02410(20) 0.00785(6) 0 0
+Pd Pd 0.01398(12) 0.01599(14) 0.01440(13) 0.00799(7) 0 0
+Al1 Al 0.0182(4) 0.0147(5) 0.0141(4) 0.0073(2) 0 0
+Al2 Al 0.0140(5) 0.0173(7) 0.0177(6) 0.0086(4) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al 0.0645 0.0514 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Pd -0.9988 1.0072 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Yb -0.3850 5.5486 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Pd Yb1 Pd . 1_556 83.055(9)
+Pd Yb1 Pd . 2_665 80.833(9)
+Pd Yb1 Pd . 2_666 136.036(10)
+Pd Yb1 Pd . 3_565 80.833(8)
+Pd Yb1 Pd . 3_566 136.036(8)
+Pd Yb1 Al1 . 1_565 128.299(13)
+Pd Yb1 Al1 . 2_555 47.658(10)
+Pd Yb1 Al1 . 3_665 93.083(17)
+Pd Yb1 Al1 . 4_665 128.299(12)
+Pd Yb1 Al1 . 5_565 93.083(16)
+Pd Yb1 Al1 . 6_555 47.658(12)
+Pd Yb1 Al2 . 1_565 100.415(8)
+Pd Yb1 Al2 . 1_566 176.529(4)
+Pd Yb1 Al2 . 2_555 45.297(6)
+Pd Yb1 Al2 . 2_556 96.543(7)
+Pd Yb1 Al2 . 3_665 45.297(6)
+Pd Yb1 Al2 . 3_666 96.543(8)
+Pd Yb1 Pd 1_556 2_665 136.036(10)
+Pd Yb1 Pd 1_556 2_666 80.833(9)
+Pd Yb1 Pd 1_556 3_565 136.036(8)
+Pd Yb1 Pd 1_556 3_566 80.833(8)
+Pd Yb1 Al1 1_556 1_565 128.299(13)
+Pd Yb1 Al1 1_556 2_555 47.658(10)
+Pd Yb1 Al1 1_556 3_665 93.083(17)
+Pd Yb1 Al1 1_556 4_665 128.299(12)
+Pd Yb1 Al1 1_556 5_565 93.083(16)
+Pd Yb1 Al1 1_556 6_555 47.658(12)
+Pd Yb1 Al2 1_556 1_565 176.529(4)
+Pd Yb1 Al2 1_556 1_566 100.415(8)
+Pd Yb1 Al2 1_556 2_555 96.543(7)
+Pd Yb1 Al2 1_556 2_556 45.297(6)
+Pd Yb1 Al2 1_556 3_665 96.543(8)
+Pd Yb1 Al2 1_556 3_666 45.297(6)
+Pd Yb1 Pd 2_665 2_666 83.055(9)
+Pd Yb1 Pd 2_665 3_565 80.833(10)
+Pd Yb1 Pd 2_665 3_566 136.036(9)
+Pd Yb1 Al1 2_665 1_565 93.083(17)
+Pd Yb1 Al1 2_665 2_555 128.299(12)
+Pd Yb1 Al1 2_665 3_665 47.658(12)
+Pd Yb1 Al1 2_665 4_665 47.658(11)
+Pd Yb1 Al1 2_665 5_565 128.299(13)
+Pd Yb1 Al1 2_665 6_555 93.083(18)
+Pd Yb1 Al2 2_665 1_565 45.297(8)
+Pd Yb1 Al2 2_665 1_566 96.543(8)
+Pd Yb1 Al2 2_665 2_555 100.415(8)
+Pd Yb1 Al2 2_665 2_556 176.529(4)
+Pd Yb1 Al2 2_665 3_665 45.297(9)
+Pd Yb1 Al2 2_665 3_666 96.543(9)
+Pd Yb1 Pd 2_666 3_565 136.036(9)
+Pd Yb1 Pd 2_666 3_566 80.833(10)
+Pd Yb1 Al1 2_666 1_565 93.083(17)
+Pd Yb1 Al1 2_666 2_555 128.299(12)
+Pd Yb1 Al1 2_666 3_665 47.658(12)
+Pd Yb1 Al1 2_666 4_665 47.658(11)
+Pd Yb1 Al1 2_666 5_565 128.299(13)
+Pd Yb1 Al1 2_666 6_555 93.083(18)
+Pd Yb1 Al2 2_666 1_565 96.543(8)
+Pd Yb1 Al2 2_666 1_566 45.297(8)
+Pd Yb1 Al2 2_666 2_555 176.529(4)
+Pd Yb1 Al2 2_666 2_556 100.415(8)
+Pd Yb1 Al2 2_666 3_665 96.543(9)
+Pd Yb1 Al2 2_666 3_666 45.297(9)
+Pd Yb1 Pd 3_565 3_566 83.055(8)
+Pd Yb1 Al1 3_565 1_565 47.658(9)
+Pd Yb1 Al1 3_565 2_555 93.083(16)
+Pd Yb1 Al1 3_565 3_665 128.299(13)
+Pd Yb1 Al1 3_565 4_665 93.083(16)
+Pd Yb1 Al1 3_565 5_565 47.658(11)
+Pd Yb1 Al1 3_565 6_555 128.299(12)
+Pd Yb1 Al2 3_565 1_565 45.297(7)
+Pd Yb1 Al2 3_565 1_566 96.543(6)
+Pd Yb1 Al2 3_565 2_555 45.297(6)
+Pd Yb1 Al2 3_565 2_556 96.543(8)
+Pd Yb1 Al2 3_565 3_665 100.415(6)
+Pd Yb1 Al2 3_565 3_666 176.529(4)
+Pd Yb1 Al1 3_566 1_565 47.658(9)
+Pd Yb1 Al1 3_566 2_555 93.083(16)
+Pd Yb1 Al1 3_566 3_665 128.299(13)
+Pd Yb1 Al1 3_566 4_665 93.083(16)
+Pd Yb1 Al1 3_566 5_565 47.658(11)
+Pd Yb1 Al1 3_566 6_555 128.299(12)
+Pd Yb1 Al2 3_566 1_565 96.543(6)
+Pd Yb1 Al2 3_566 1_566 45.297(7)
+Pd Yb1 Al2 3_566 2_555 96.543(8)
+Pd Yb1 Al2 3_566 2_556 45.297(6)
+Pd Yb1 Al2 3_566 3_665 176.529(4)
+Pd Yb1 Al2 3_566 3_666 100.415(6)
+Al1 Yb1 Al1 1_565 2_555 120.00(3)
+Al1 Yb1 Al1 1_565 3_665 120.00(3)
+Al1 Yb1 Al1 1_565 4_665 68.24(3)
+Al1 Yb1 Al1 1_565 5_565 51.76(3)
+Al1 Yb1 Al1 1_565 6_555 171.76(3)
+Al1 Yb1 Al2 1_565 1_565 49.318(12)
+Al1 Yb1 Al2 1_565 1_566 49.318(12)
+Al1 Yb1 Al2 1_565 2_555 86.757(16)
+Al1 Yb1 Al2 1_565 2_556 86.757(16)
+Al1 Yb1 Al2 1_565 3_665 135.108(10)
+Al1 Yb1 Al2 1_565 3_666 135.108(10)
+Al1 Yb1 Al1 2_555 3_665 120.00(3)
+Al1 Yb1 Al1 2_555 4_665 171.76(3)
+Al1 Yb1 Al1 2_555 5_565 68.24(3)
+Al1 Yb1 Al1 2_555 6_555 51.76(3)
+Al1 Yb1 Al2 2_555 1_565 135.108(10)
+Al1 Yb1 Al2 2_555 1_566 135.108(10)
+Al1 Yb1 Al2 2_555 2_555 49.318(12)
+Al1 Yb1 Al2 2_555 2_556 49.318(12)
+Al1 Yb1 Al2 2_555 3_665 86.757(17)
+Al1 Yb1 Al2 2_555 3_666 86.757(17)
+Al1 Yb1 Al1 3_665 4_665 51.76(3)
+Al1 Yb1 Al1 3_665 5_565 171.76(3)
+Al1 Yb1 Al1 3_665 6_555 68.24(3)
+Al1 Yb1 Al2 3_665 1_565 86.757(18)
+Al1 Yb1 Al2 3_665 1_566 86.757(18)
+Al1 Yb1 Al2 3_665 2_555 135.107(11)
+Al1 Yb1 Al2 3_665 2_556 135.107(11)
+Al1 Yb1 Al2 3_665 3_665 49.318(13)
+Al1 Yb1 Al2 3_665 3_666 49.318(13)
+Al1 Yb1 Al1 4_665 5_565 120.00(3)
+Al1 Yb1 Al1 4_665 6_555 120.00(3)
+Al1 Yb1 Al2 4_665 1_565 49.318(12)
+Al1 Yb1 Al2 4_665 1_566 49.318(12)
+Al1 Yb1 Al2 4_665 2_555 135.108(10)
+Al1 Yb1 Al2 4_665 2_556 135.108(10)
+Al1 Yb1 Al2 4_665 3_665 86.757(17)
+Al1 Yb1 Al2 4_665 3_666 86.757(17)
+Al1 Yb1 Al1 5_565 6_555 120.00(3)
+Al1 Yb1 Al2 5_565 1_565 86.757(16)
+Al1 Yb1 Al2 5_565 1_566 86.757(16)
+Al1 Yb1 Al2 5_565 2_555 49.318(12)
+Al1 Yb1 Al2 5_565 2_556 49.318(12)
+Al1 Yb1 Al2 5_565 3_665 135.108(10)
+Al1 Yb1 Al2 5_565 3_666 135.108(10)
+Al1 Yb1 Al2 6_555 1_565 135.107(11)
+Al1 Yb1 Al2 6_555 1_566 135.107(11)
+Al1 Yb1 Al2 6_555 2_555 86.757(18)
+Al1 Yb1 Al2 6_555 2_556 86.757(18)
+Al1 Yb1 Al2 6_555 3_665 49.318(13)
+Al1 Yb1 Al2 6_555 3_666 49.318(13)
+Al2 Yb1 Al2 1_565 1_566 76.114(7)
+Al2 Yb1 Al2 1_565 2_555 85.986(7)
+Al2 Yb1 Al2 1_565 2_556 133.630(3)
+Al2 Yb1 Al2 1_565 3_665 85.986(5)
+Al2 Yb1 Al2 1_565 3_666 133.630(5)
+Al2 Yb1 Al2 1_566 2_555 133.630(3)
+Al2 Yb1 Al2 1_566 2_556 85.986(7)
+Al2 Yb1 Al2 1_566 3_665 133.630(5)
+Al2 Yb1 Al2 1_566 3_666 85.986(5)
+Al2 Yb1 Al2 2_555 2_556 76.114(7)
+Al2 Yb1 Al2 2_555 3_665 85.986(5)
+Al2 Yb1 Al2 2_555 3_666 133.630(5)
+Al2 Yb1 Al2 2_556 3_665 133.630(5)
+Al2 Yb1 Al2 2_556 3_666 85.986(5)
+Al2 Yb1 Al2 3_665 3_666 76.114(4)
+Pd Yb2 Pd . 2_555 120.000(11)
+Pd Yb2 Pd . 3_555 120.000(9)
+Pd Yb2 Pd . 4_555 180.0(5)
+Pd Yb2 Pd . 5_555 60.000(11)
+Pd Yb2 Pd . 6_555 60.000(9)
+Pd Yb2 Al1 . 1_554 90.000(6)
+Pd Yb2 Al1 . . 90.000(6)
+Pd Yb2 Al1 . 2_554 45.946(10)
+Pd Yb2 Al1 . 2_555 45.946(10)
+Pd Yb2 Al1 . 3_554 134.05(2)
+Pd Yb2 Al1 . 3_555 134.05(2)
+Pd Yb2 Al1 . 4_554 90.000(6)
+Pd Yb2 Al1 . 4_555 90.000(6)
+Pd Yb2 Al1 . 5_554 134.054(10)
+Pd Yb2 Al1 . 5_555 134.054(10)
+Pd Yb2 Al1 . 6_554 45.95(2)
+Pd Yb2 Al1 . 6_555 45.95(2)
+Pd Yb2 Pd 2_555 3_555 120.000(11)
+Pd Yb2 Pd 2_555 4_555 60.000(11)
+Pd Yb2 Pd 2_555 5_555 180.0(5)
+Pd Yb2 Pd 2_555 6_555 60.000(11)
+Pd Yb2 Al1 2_555 1_554 134.054(11)
+Pd Yb2 Al1 2_555 . 134.054(11)
+Pd Yb2 Al1 2_555 2_554 90.000(8)
+Pd Yb2 Al1 2_555 2_555 90.000(8)
+Pd Yb2 Al1 2_555 3_554 45.95(2)
+Pd Yb2 Al1 2_555 3_555 45.95(2)
+Pd Yb2 Al1 2_555 4_554 45.946(11)
+Pd Yb2 Al1 2_555 4_555 45.946(11)
+Pd Yb2 Al1 2_555 5_554 90.000(8)
+Pd Yb2 Al1 2_555 5_555 90.000(8)
+Pd Yb2 Al1 2_555 6_554 134.05(2)
+Pd Yb2 Al1 2_555 6_555 134.05(2)
+Pd Yb2 Pd 3_555 4_555 60.000(9)
+Pd Yb2 Pd 3_555 5_555 60.000(11)
+Pd Yb2 Pd 3_555 6_555 180.0(5)
+Pd Yb2 Al1 3_555 1_554 45.946(10)
+Pd Yb2 Al1 3_555 . 45.946(10)
+Pd Yb2 Al1 3_555 2_554 134.054(10)
+Pd Yb2 Al1 3_555 2_555 134.054(10)
+Pd Yb2 Al1 3_555 3_554 90.00(3)
+Pd Yb2 Al1 3_555 3_555 90.00(3)
+Pd Yb2 Al1 3_555 4_554 134.054(10)
+Pd Yb2 Al1 3_555 4_555 134.054(10)
+Pd Yb2 Al1 3_555 5_554 45.946(10)
+Pd Yb2 Al1 3_555 5_555 45.946(10)
+Pd Yb2 Al1 3_555 6_554 90.00(3)
+Pd Yb2 Al1 3_555 6_555 90.00(3)
+Pd Yb2 Pd 4_555 5_555 120.000(11)
+Pd Yb2 Pd 4_555 6_555 120.000(9)
+Pd Yb2 Al1 4_555 1_554 90.000(6)
+Pd Yb2 Al1 4_555 . 90.000(6)
+Pd Yb2 Al1 4_555 2_554 134.054(10)
+Pd Yb2 Al1 4_555 2_555 134.054(10)
+Pd Yb2 Al1 4_555 3_554 45.95(2)
+Pd Yb2 Al1 4_555 3_555 45.95(2)
+Pd Yb2 Al1 4_555 4_554 90.000(6)
+Pd Yb2 Al1 4_555 4_555 90.000(6)
+Pd Yb2 Al1 4_555 5_554 45.946(10)
+Pd Yb2 Al1 4_555 5_555 45.946(10)
+Pd Yb2 Al1 4_555 6_554 134.05(2)
+Pd Yb2 Al1 4_555 6_555 134.05(2)
+Pd Yb2 Pd 5_555 6_555 120.000(11)
+Pd Yb2 Al1 5_555 1_554 45.946(11)
+Pd Yb2 Al1 5_555 . 45.946(11)
+Pd Yb2 Al1 5_555 2_554 90.000(8)
+Pd Yb2 Al1 5_555 2_555 90.000(8)
+Pd Yb2 Al1 5_555 3_554 134.05(2)
+Pd Yb2 Al1 5_555 3_555 134.05(2)
+Pd Yb2 Al1 5_555 4_554 134.054(11)
+Pd Yb2 Al1 5_555 4_555 134.054(11)
+Pd Yb2 Al1 5_555 5_554 90.000(8)
+Pd Yb2 Al1 5_555 5_555 90.000(8)
+Pd Yb2 Al1 5_555 6_554 45.95(2)
+Pd Yb2 Al1 5_555 6_555 45.95(2)
+Pd Yb2 Al1 6_555 1_554 134.054(10)
+Pd Yb2 Al1 6_555 . 134.054(10)
+Pd Yb2 Al1 6_555 2_554 45.946(10)
+Pd Yb2 Al1 6_555 2_555 45.946(10)
+Pd Yb2 Al1 6_555 3_554 90.00(3)
+Pd Yb2 Al1 6_555 3_555 90.00(3)
+Pd Yb2 Al1 6_555 4_554 45.946(10)
+Pd Yb2 Al1 6_555 4_555 45.946(10)
+Pd Yb2 Al1 6_555 5_554 134.054(10)
+Pd Yb2 Al1 6_555 5_555 134.054(10)
+Pd Yb2 Al1 6_555 6_554 90.00(3)
+Pd Yb2 Al1 6_555 6_555 90.00(3)
+Al1 Yb2 Al1 1_554 . 73.183(19)
+Al1 Yb2 Al1 1_554 2_554 88.108(14)
+Al1 Yb2 Al1 1_554 2_555 132.662(8)
+Al1 Yb2 Al1 1_554 3_554 88.11(2)
+Al1 Yb2 Al1 1_554 3_555 132.66(3)
+Al1 Yb2 Al1 1_554 4_554 106.817(19)
+Al1 Yb2 Al1 1_554 4_555 180.0(5)
+Al1 Yb2 Al1 1_554 5_554 47.338(8)
+Al1 Yb2 Al1 1_554 5_555 91.892(14)
+Al1 Yb2 Al1 1_554 6_554 47.34(3)
+Al1 Yb2 Al1 1_554 6_555 91.89(2)
+Al1 Yb2 Al1 . 2_554 132.662(8)
+Al1 Yb2 Al1 . 2_555 88.108(14)
+Al1 Yb2 Al1 . 3_554 132.66(3)
+Al1 Yb2 Al1 . 3_555 88.11(2)
+Al1 Yb2 Al1 . 4_554 180.0(5)
+Al1 Yb2 Al1 . 4_555 106.817(19)
+Al1 Yb2 Al1 . 5_554 91.892(14)
+Al1 Yb2 Al1 . 5_555 47.338(8)
+Al1 Yb2 Al1 . 6_554 91.89(2)
+Al1 Yb2 Al1 . 6_555 47.34(3)
+Al1 Yb2 Al1 2_554 2_555 73.183(19)
+Al1 Yb2 Al1 2_554 3_554 88.11(2)
+Al1 Yb2 Al1 2_554 3_555 132.66(3)
+Al1 Yb2 Al1 2_554 4_554 47.338(8)
+Al1 Yb2 Al1 2_554 4_555 91.892(14)
+Al1 Yb2 Al1 2_554 5_554 106.817(19)
+Al1 Yb2 Al1 2_554 5_555 180.0(5)
+Al1 Yb2 Al1 2_554 6_554 47.34(3)
+Al1 Yb2 Al1 2_554 6_555 91.89(2)
+Al1 Yb2 Al1 2_555 3_554 132.66(3)
+Al1 Yb2 Al1 2_555 3_555 88.11(2)
+Al1 Yb2 Al1 2_555 4_554 91.892(14)
+Al1 Yb2 Al1 2_555 4_555 47.338(8)
+Al1 Yb2 Al1 2_555 5_554 180.0(5)
+Al1 Yb2 Al1 2_555 5_555 106.817(19)
+Al1 Yb2 Al1 2_555 6_554 91.89(2)
+Al1 Yb2 Al1 2_555 6_555 47.34(3)
+Al1 Yb2 Al1 3_554 3_555 73.183(15)
+Al1 Yb2 Al1 3_554 4_554 47.34(3)
+Al1 Yb2 Al1 3_554 4_555 91.89(2)
+Al1 Yb2 Al1 3_554 5_554 47.34(3)
+Al1 Yb2 Al1 3_554 5_555 91.89(2)
+Al1 Yb2 Al1 3_554 6_554 106.817(15)
+Al1 Yb2 Al1 3_554 6_555 180.0(5)
+Al1 Yb2 Al1 3_555 4_554 91.89(2)
+Al1 Yb2 Al1 3_555 4_555 47.34(3)
+Al1 Yb2 Al1 3_555 5_554 91.89(2)
+Al1 Yb2 Al1 3_555 5_555 47.34(3)
+Al1 Yb2 Al1 3_555 6_554 180.0(5)
+Al1 Yb2 Al1 3_555 6_555 106.817(15)
+Al1 Yb2 Al1 4_554 4_555 73.183(19)
+Al1 Yb2 Al1 4_554 5_554 88.108(14)
+Al1 Yb2 Al1 4_554 5_555 132.662(8)
+Al1 Yb2 Al1 4_554 6_554 88.11(2)
+Al1 Yb2 Al1 4_554 6_555 132.66(3)
+Al1 Yb2 Al1 4_555 5_554 132.662(8)
+Al1 Yb2 Al1 4_555 5_555 88.108(14)
+Al1 Yb2 Al1 4_555 6_554 132.66(3)
+Al1 Yb2 Al1 4_555 6_555 88.11(2)
+Al1 Yb2 Al1 5_554 5_555 73.183(19)
+Al1 Yb2 Al1 5_554 6_554 88.11(2)
+Al1 Yb2 Al1 5_554 6_555 132.66(3)
+Al1 Yb2 Al1 5_555 6_554 132.66(3)
+Al1 Yb2 Al1 5_555 6_555 88.11(2)
+Al1 Yb2 Al1 6_554 6_555 73.183(15)
+Yb1 Pd Yb1 1_554 . 83.055(10)
+Yb1 Pd Yb2 1_554 . 138.472(5)
+Yb1 Pd Pd 1_554 5_555 111.982(7)
+Yb1 Pd Pd 1_554 6_555 111.982(9)
+Yb1 Pd Al1 1_554 2_554 67.64(2)
+Yb1 Pd Al1 1_554 2_555 134.02(3)
+Yb1 Pd Al1 1_554 6_554 67.64(3)
+Yb1 Pd Al1 1_554 6_555 134.02(2)
+Yb1 Pd Al2 1_554 2_555 72.333(9)
+Yb1 Pd Al2 1_554 3_665 72.334(6)
+Yb1 Pd Yb2 . . 138.472(5)
+Yb1 Pd Pd . 5_555 111.982(7)
+Yb1 Pd Pd . 6_555 111.982(9)
+Yb1 Pd Al1 . 2_554 134.02(3)
+Yb1 Pd Al1 . 2_555 67.64(2)
+Yb1 Pd Al1 . 6_554 134.02(2)
+Yb1 Pd Al1 . 6_555 67.64(3)
+Yb1 Pd Al2 . 2_555 72.333(9)
+Yb1 Pd Al2 . 3_665 72.334(6)
+Yb2 Pd Pd . 5_555 60.000(11)
+Yb2 Pd Pd . 6_555 60.000(8)
+Yb2 Pd Al1 . 2_554 77.88(3)
+Yb2 Pd Al1 . 2_555 77.88(3)
+Yb2 Pd Al1 . 6_554 77.88(3)
+Yb2 Pd Al1 . 6_555 77.88(3)
+Yb2 Pd Al2 . 2_555 113.914(8)
+Yb2 Pd Al2 . 3_665 113.914(13)
+Pd Pd Pd 5_555 6_555 120.000(14)
+Pd Pd Al1 5_555 2_554 111.59(3)
+Pd Pd Al1 5_555 2_555 111.59(3)
+Pd Pd Al1 5_555 6_554 54.69(3)
+Pd Pd Al1 5_555 6_555 54.69(3)
+Pd Pd Al2 5_555 2_555 173.914(10)
+Pd Pd Al2 5_555 3_665 53.914(9)
+Pd Pd Al1 6_555 2_554 54.691(5)
+Pd Pd Al1 6_555 2_555 54.691(5)
+Pd Pd Al1 6_555 6_554 111.59(2)
+Pd Pd Al1 6_555 6_555 111.59(2)
+Pd Pd Al2 6_555 2_555 53.914(9)
+Pd Pd Al2 6_555 3_665 173.914(16)
+Al1 Pd Al1 2_554 2_555 108.376(11)
+Al1 Pd Al1 2_554 6_554 66.20(3)
+Al1 Pd Al1 2_554 6_555 155.75(4)
+Al1 Pd Al2 2_554 2_555 65.54(3)
+Al1 Pd Al2 2_554 3_665 125.760(5)
+Al1 Pd Al1 2_555 6_554 155.75(4)
+Al1 Pd Al1 2_555 6_555 66.20(3)
+Al1 Pd Al2 2_555 2_555 65.54(3)
+Al1 Pd Al2 2_555 3_665 125.760(5)
+Al1 Pd Al1 6_554 6_555 108.38(4)
+Al1 Pd Al2 6_554 2_555 125.76(3)
+Al1 Pd Al2 6_554 3_665 65.54(2)
+Al1 Pd Al2 6_555 2_555 125.76(3)
+Al1 Pd Al2 6_555 3_665 65.54(2)
+Al2 Pd Al2 2_555 3_665 132.171(14)
+Yb1 Al1 Yb1 1_545 4_665 111.76(4)
+Yb1 Al1 Yb2 1_545 . 116.768(10)
+Yb1 Al1 Yb2 1_545 1_556 116.768(10)
+Yb1 Al1 Pd 1_545 3_555 64.701(14)
+Yb1 Al1 Pd 1_545 3_556 64.701(14)
+Yb1 Al1 Pd 1_545 5_555 121.98(3)
+Yb1 Al1 Pd 1_545 5_556 121.98(3)
+Yb1 Al1 Al1 1_545 4_655 55.88(2)
+Yb1 Al1 Al1 1_545 5_555 64.12(2)
+Yb1 Al1 Al1 1_545 6_555 175.88(5)
+Yb1 Al1 Al2 1_545 . 68.46(2)
+Yb1 Al1 Al2 1_545 1_556 68.46(2)
+Yb1 Al1 Yb2 4_665 . 116.768(11)
+Yb1 Al1 Yb2 4_665 1_556 116.768(11)
+Yb1 Al1 Pd 4_665 3_555 121.98(2)
+Yb1 Al1 Pd 4_665 3_556 121.98(2)
+Yb1 Al1 Pd 4_665 5_555 64.701(13)
+Yb1 Al1 Pd 4_665 5_556 64.701(13)
+Yb1 Al1 Al1 4_665 4_655 55.88(2)
+Yb1 Al1 Al1 4_665 5_555 175.88(5)
+Yb1 Al1 Al1 4_665 6_555 64.12(2)
+Yb1 Al1 Al2 4_665 . 68.46(2)
+Yb1 Al1 Al2 4_665 1_556 68.46(2)
+Yb2 Al1 Yb2 . 1_556 73.18(3)
+Yb2 Al1 Pd . 3_555 56.18(2)
+Yb2 Al1 Pd . 3_556 114.22(4)
+Yb2 Al1 Pd . 5_555 56.18(2)
+Yb2 Al1 Pd . 5_556 114.22(4)
+Yb2 Al1 Al1 . 4_655 143.409(13)
+Yb2 Al1 Al1 . 5_555 66.33(3)
+Yb2 Al1 Al1 . 6_555 66.33(3)
+Yb2 Al1 Al2 . . 94.284(10)
+Yb2 Al1 Al2 . 1_556 167.47(3)
+Yb2 Al1 Pd 1_556 3_555 114.22(4)
+Yb2 Al1 Pd 1_556 3_556 56.18(2)
+Yb2 Al1 Pd 1_556 5_555 114.22(4)
+Yb2 Al1 Pd 1_556 5_556 56.18(2)
+Yb2 Al1 Al1 1_556 4_655 143.409(13)
+Yb2 Al1 Al1 1_556 5_555 66.33(3)
+Yb2 Al1 Al1 1_556 6_555 66.33(3)
+Yb2 Al1 Al2 1_556 . 167.47(3)
+Yb2 Al1 Al2 1_556 1_556 94.284(10)
+Pd Al1 Pd 3_555 3_556 108.376(11)
+Pd Al1 Pd 3_555 5_555 70.617(10)
+Pd Al1 Pd 3_555 5_556 169.54(6)
+Pd Al1 Al1 3_555 4_655 95.23(3)
+Pd Al1 Al1 3_555 5_555 56.898(13)
+Pd Al1 Al1 3_555 6_555 117.06(3)
+Pd Al1 Al2 3_555 . 56.392(14)
+Pd Al1 Al2 3_555 1_556 132.29(4)
+Pd Al1 Pd 3_556 5_555 169.54(6)
+Pd Al1 Pd 3_556 5_556 70.617(10)
+Pd Al1 Al1 3_556 4_655 95.23(3)
+Pd Al1 Al1 3_556 5_555 56.898(13)
+Pd Al1 Al1 3_556 6_555 117.06(3)
+Pd Al1 Al2 3_556 . 132.29(4)
+Pd Al1 Al2 3_556 1_556 56.392(14)
+Pd Al1 Pd 5_555 5_556 108.376(14)
+Pd Al1 Al1 5_555 4_655 95.23(3)
+Pd Al1 Al1 5_555 5_555 117.06(3)
+Pd Al1 Al1 5_555 6_555 56.898(15)
+Pd Al1 Al2 5_555 . 56.392(14)
+Pd Al1 Al2 5_555 1_556 132.29(4)
+Pd Al1 Al1 5_556 4_655 95.23(3)
+Pd Al1 Al1 5_556 5_555 117.06(3)
+Pd Al1 Al1 5_556 6_555 56.898(15)
+Pd Al1 Al2 5_556 . 132.29(4)
+Pd Al1 Al2 5_556 1_556 56.392(14)
+Al1 Al1 Al1 4_655 5_555 120.00(3)
+Al1 Al1 Al1 4_655 6_555 120.00(3)
+Al1 Al1 Al2 4_655 . 49.12(2)
+Al1 Al1 Al2 4_655 1_556 49.12(2)
+Al1 Al1 Al1 5_555 6_555 120.00(6)
+Al1 Al1 Al2 5_555 . 109.099(16)
+Al1 Al1 Al2 5_555 1_556 109.099(16)
+Al1 Al1 Al2 6_555 . 109.099(16)
+Al1 Al1 Al2 6_555 1_556 109.099(16)
+Al2 Al1 Al2 . 1_556 98.25(4)
+Yb1 Al2 Yb1 1_544 1_545 76.114(7)
+Yb1 Al2 Yb1 1_544 4_664 103.886(7)
+Yb1 Al2 Yb1 1_544 4_665 180.0(5)
+Yb1 Al2 Pd 1_544 2_655 62.369(6)
+Yb1 Al2 Pd 1_544 3_555 62.369(7)
+Yb1 Al2 Pd 1_544 5_555 117.631(6)
+Yb1 Al2 Pd 1_544 6_655 117.631(7)
+Yb1 Al2 Al1 1_544 1_554 62.218(10)
+Yb1 Al2 Al1 1_544 . 117.782(11)
+Yb1 Al2 Al1 1_544 4_654 62.218(11)
+Yb1 Al2 Al1 1_544 4_655 117.782(10)
+Yb1 Al2 Yb1 1_545 4_664 180.0(5)
+Yb1 Al2 Yb1 1_545 4_665 103.886(7)
+Yb1 Al2 Pd 1_545 2_655 62.369(6)
+Yb1 Al2 Pd 1_545 3_555 62.369(7)
+Yb1 Al2 Pd 1_545 5_555 117.631(6)
+Yb1 Al2 Pd 1_545 6_655 117.631(7)
+Yb1 Al2 Al1 1_545 1_554 117.782(11)
+Yb1 Al2 Al1 1_545 . 62.218(10)
+Yb1 Al2 Al1 1_545 4_654 117.782(10)
+Yb1 Al2 Al1 1_545 4_655 62.218(11)
+Yb1 Al2 Yb1 4_664 4_665 76.114(7)
+Yb1 Al2 Pd 4_664 2_655 117.631(6)
+Yb1 Al2 Pd 4_664 3_555 117.631(7)
+Yb1 Al2 Pd 4_664 5_555 62.369(6)
+Yb1 Al2 Pd 4_664 6_655 62.369(7)
+Yb1 Al2 Al1 4_664 1_554 62.218(11)
+Yb1 Al2 Al1 4_664 . 117.782(10)
+Yb1 Al2 Al1 4_664 4_654 62.218(10)
+Yb1 Al2 Al1 4_664 4_655 117.782(11)
+Yb1 Al2 Pd 4_665 2_655 117.631(6)
+Yb1 Al2 Pd 4_665 3_555 117.631(7)
+Yb1 Al2 Pd 4_665 5_555 62.369(6)
+Yb1 Al2 Pd 4_665 6_655 62.369(7)
+Yb1 Al2 Al1 4_665 1_554 117.782(10)
+Yb1 Al2 Al1 4_665 . 62.218(11)
+Yb1 Al2 Al1 4_665 4_654 117.782(11)
+Yb1 Al2 Al1 4_665 4_655 62.218(10)
+Pd Al2 Pd 2_655 3_555 107.829(11)
+Pd Al2 Pd 2_655 5_555 180.0(5)
+Pd Al2 Pd 2_655 6_655 72.171(11)
+Pd Al2 Al1 2_655 1_554 121.928(16)
+Pd Al2 Al1 2_655 . 121.928(16)
+Pd Al2 Al1 2_655 4_654 58.072(16)
+Pd Al2 Al1 2_655 4_655 58.072(16)
+Pd Al2 Pd 3_555 5_555 72.171(11)
+Pd Al2 Pd 3_555 6_655 180.0(5)
+Pd Al2 Al1 3_555 1_554 58.072(16)
+Pd Al2 Al1 3_555 . 58.072(16)
+Pd Al2 Al1 3_555 4_654 121.928(16)
+Pd Al2 Al1 3_555 4_655 121.928(16)
+Pd Al2 Pd 5_555 6_655 107.829(11)
+Pd Al2 Al1 5_555 1_554 58.072(16)
+Pd Al2 Al1 5_555 . 58.072(16)
+Pd Al2 Al1 5_555 4_654 121.928(16)
+Pd Al2 Al1 5_555 4_655 121.928(16)
+Pd Al2 Al1 6_655 1_554 121.928(16)
+Pd Al2 Al1 6_655 . 121.928(16)
+Pd Al2 Al1 6_655 4_654 58.072(16)
+Pd Al2 Al1 6_655 4_655 58.072(16)
+Al1 Al2 Al1 1_554 . 98.25(3)
+Al1 Al2 Al1 1_554 4_654 81.75(3)
+Al1 Al2 Al1 1_554 4_655 180.0(5)
+Al1 Al2 Al1 . 4_654 180.0(5)
+Al1 Al2 Al1 . 4_655 81.75(3)
+Al1 Al2 Al1 4_654 4_655 98.25(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Yb1 Pd . 3.1687(5)
+Yb1 Pd 1_556 3.1687(5)
+Yb1 Pd 2_665 3.1687(5)
+Yb1 Pd 2_666 3.1687(5)
+Yb1 Pd 3_565 3.1687(4)
+Yb1 Pd 3_566 3.1687(4)
+Yb1 Al1 1_565 3.2414(9)
+Yb1 Al1 2_555 3.2414(11)
+Yb1 Al1 3_665 3.2414(16)
+Yb1 Al1 4_665 3.2414(11)
+Yb1 Al1 5_565 3.2414(9)
+Yb1 Al1 6_555 3.2414(16)
+Yb1 Al2 1_565 3.4079(5)
+Yb1 Al2 1_566 3.4079(5)
+Yb1 Al2 2_555 3.4079(5)
+Yb1 Al2 2_556 3.4079(5)
+Yb1 Al2 3_665 3.4079(2)
+Yb1 Al2 3_666 3.4079(2)
+Yb2 Pd . 2.9946(7)
+Yb2 Pd 2_555 2.9946(7)
+Yb2 Pd 3_555 2.9946(4)
+Yb2 Pd 4_555 2.9946(7)
+Yb2 Pd 5_555 2.9946(7)
+Yb2 Pd 6_555 2.9946(4)
+Yb2 Al1 1_554 3.5242(11)
+Yb2 Al1 . 3.5242(11)
+Yb2 Al1 2_554 3.5242(11)
+Yb2 Al1 2_555 3.5242(11)
+Yb2 Al1 3_554 3.5242(9)
+Yb2 Al1 3_555 3.5242(9)
+Yb2 Al1 4_554 3.5242(11)
+Yb2 Al1 4_555 3.5242(11)
+Yb2 Al1 5_554 3.5242(11)
+Yb2 Al1 5_555 3.5242(11)
+Yb2 Al1 6_554 3.5242(9)
+Yb2 Al1 6_555 3.5242(9)
+Pd Pd 5_555 2.9946(6)
+Pd Pd 6_555 2.9946(7)
+Pd Al1 2_554 2.5906(3)
+Pd Al1 2_555 2.5906(3)
+Pd Al1 6_554 2.5906(10)
+Pd Al1 6_555 2.5906(10)
+Pd Al2 2_555 2.5421(4)
+Pd Al2 3_665 2.5421(5)
+Al1 Al1 4_655 3.636(2)
+Al1 Al1 5_555 2.8296(11)
+Al1 Al1 6_555 2.8296(17)
+Al1 Al2 . 2.7783(9)
+Al1 Al2 1_556 2.7783(9)

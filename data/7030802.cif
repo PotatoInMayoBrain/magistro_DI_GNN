@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 22:31:57 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 180014 $
+#$URL: svn://www.crystallography.net/cod/cif/7/03/08/7030802.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7030802
+loop_
+_publ_author_name
+'Bhardwaj, Neha'
+'Gupta, Akanksha'
+'Uma, S.'
+_publ_section_title
+;
+ Evidence of cationic mixing and ordering in the honeycomb layer of
+ Li4MSbO6 (M(iii) = Cr, Mn, Al, Ga) (S.G. C2/c) oxides.
+;
+_journal_issue                   31
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              12050
+_journal_page_last               12057
+_journal_paper_doi               10.1039/c4dt00887a
+_journal_volume                  43
+_journal_year                    2014
+_chemical_formula_sum            'Cr0.5 Li2 O3 Sb0.5'
+_chemical_formula_weight         147.6
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_date             2013-09-25T12:58
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2013-09-25T12:58  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 100.0080(11)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   5.12864(8)
+_cell_length_b                   8.88640(19)
+_cell_length_c                   9.83017(21)
+_cell_volume                     441.194(15)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2013-09-25T12:58|NB508CR850_phase1|y||
+_pd_phase_name                   Monoclinic
+_refine_ls_goodness_of_fit_all   2.84
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     28
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.10
+_refine_ls_shift/su_mean         0.02
+_cod_data_source_file            c4dt00887a1.cif
+_cod_data_source_block           NB508CR850_phase_1
+_cod_depositor_comments
+'Adding full bibliography for 7030801--7030804.cif.'
+_cod_original_cell_volume        441.195(15)
+_cod_database_code               7030802
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sb Sb1 0.0 0.74958(16) 0.25 0.76 Uiso 0.025 4
+Sb Sb3 0.0 0.41418 0.25 0.22 Uiso 0.025 4
+Li Li5 0.0 0.41418 0.25 0.17 Uiso 0.025 4
+Li Li4 0.0 0.0888(4) 0.25 0.61 Uiso 0.025 4
+O O1 0.1260(6) 0.2784(8) 0.1155(9) 1.0 Uiso 0.025 8
+O O2 0.1064(7) 0.6021(5) 0.1400(8) 1.0 Uiso 0.025 8
+O O3 0.1182(7) 0.8885(6) 0.1337(7) 1.0 Uiso 0.025 8
+Li Li1 0.244 0.07682 0.004 1.0 Uiso 0.025 8
+Li Li2 0.25 0.25 0.5 1.0 Uiso 0.025 4
+Cr Cr2 0.0 0.41481 0.25 0.61 Uiso 0.025 4
+Cr Cr1 0.0 0.0888(4) 0.25 0.39 Uiso 0.025 4
+Li Li3 0.0 0.74958(16) 0.25 0.24 Uiso 0.025 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Sb 3.92
+Li 16.08
+O 24.0
+Cr 4.0

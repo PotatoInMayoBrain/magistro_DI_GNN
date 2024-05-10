@@ -1,0 +1,2608 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-12-01 19:36:44 +0200 (Fri, 01 Dec 2023) $
+#$Revision: 287942 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/20/50/7205029.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7205029
+loop_
+_publ_author_name
+'Nilges, Tom'
+'Reiser, Sara'
+'Hong, Jung Hoon'
+'Gaudin, Etienne'
+'Pfitzner, Arno'
+_publ_section_exptl_refinement   373K
+_publ_section_title
+;
+ Preparation, structural, Raman and impedance spectroscopic
+ characterisation of the silver ion conductor (AgI)2Ag3SbS3
+;
+_journal_coden_ASTM              PPCPFQ
+_journal_issue                   23
+_journal_name_full               'Physical Chemistry Chemical Physics'
+_journal_page_first              5888
+_journal_page_last               5894
+_journal_paper_doi               10.1039/b203556a
+_journal_volume                  4
+_journal_year                    2002
+_chemical_formula_sum            'Ag5 I2 S3 Sb'
+_chemical_formula_weight         1011.1
+_space_group_IT_number           58
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   11.0602(9)
+_cell_length_b                   13.656(1)
+_cell_length_c                   7.7527(5)
+_cell_measurement_radiation      'Mo K\a'
+_cell_measurement_reflns_used    8000
+_cell_measurement_temperature    523
+_cell_measurement_theta_max      30.50
+_cell_measurement_theta_min      2.98
+_cell_measurement_wavelength     0.71073
+_cell_volume                     1170.95(15)
+_computing_cell_refinement       'Stoe CELL using 8000 reflections'
+_computing_data_collection       'Stoe IPDS'
+_computing_data_reduction        'Stoe DISPLAY'
+_computing_molecular_graphics    'DIAMOND and SCIAN'
+_computing_publication_material  'Word 2000'
+_computing_structure_refinement  JANA98
+_computing_structure_solution    SHELXS
+_diffrn_measured_fraction_theta_full 0.949
+_diffrn_measured_fraction_theta_max 0.949
+_diffrn_measurement_device       'imaging plate system'
+_diffrn_measurement_device_type  'IPDS Stoe'
+_diffrn_measurement_method       '??integration method??'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0629
+_diffrn_reflns_av_sigmaI/netI    0.0319
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -19
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            24253
+_diffrn_reflns_theta_full        30.50
+_diffrn_reflns_theta_max         30.50
+_diffrn_reflns_theta_min         2.98
+_exptl_absorpt_coefficient_mu    16.2185
+_exptl_absorpt_correction_T_max  0.1678
+_exptl_absorpt_correction_T_min  0.1141
+_exptl_absorpt_correction_type   gaussian
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_meas      5.734
+_exptl_crystal_density_meas_temp 523
+_exptl_crystal_description       isometric
+_exptl_crystal_F_000             1760
+_exptl_crystal_size_max          0.31
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.16
+_refine_diff_density_max         1.00
+_refine_diff_density_min         -0.89
+_refine_ls_extinction_coef       0.11(1)
+_refine_ls_extinction_method     'B-C type 1 Lorentzian isotropic'
+_refine_ls_goodness_of_fit_all   1.56
+_refine_ls_goodness_of_fit_obs   1.23
+_refine_ls_number_parameters     161
+_refine_ls_number_reflns         1814
+_refine_ls_R_factor_all          0.0676
+_refine_ls_R_factor_gt           0.0329
+_refine_ls_shift/esd_max         0.0022
+_refine_ls_shift/esd_mean        0.0002
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.000484I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0678
+_refine_ls_wR_factor_gt          0.0633
+_reflns_limit_h_max              15
+_reflns_limit_h_min              0
+_reflns_limit_k_max              19
+_reflns_limit_k_min              0
+_reflns_limit_l_max              10
+_reflns_limit_l_min              0
+_reflns_number_observed          1052
+_reflns_number_total             1814
+_reflns_observed_criterion       2
+_cod_data_source_file            b203556a.cif
+_cod_data_source_block           523K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+ Updated bibliographic information.
+
+ Antanas Vaitkus,
+ 2019-10-03
+;
+_cod_original_cell_volume        1170.9(2)
+_cod_original_formula_sum        'Ag5 I2 Sb1 S3'
+_cod_database_code               7205029
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x,y,-z
+3 1/2-x,1/2+y,1/2+z
+4 1/2-x,1/2+y,1/2-z
+5 -x,-y,-z
+6 -x,-y,z
+7 1/2+x,1/2-y,1/2-z
+8 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ag1 0.243(3) 0.117(2) 0.155(2) -0.042(2) -0.014(2) -0.048(1)
+Ag2 0.32(2) 0.35(2) 0.072(2) 0.24(2) 0 0
+Ag2' 0.28(2) 0.088(5) 0.153(9) 0.008(7) 0 0
+Ag2'' 0.060(4) 0.31(2) 0.110(8) -0.017(6) 0 0
+Ag3 0.092(4) 0.21(1) 0.27(2) -0.028(4) -0.079(6) -0.009(8)
+Ag3' 0.034(7) 0.08(1) 0.28(9) -0.016(5) 0 0
+Ag4 0.089(6) 0.27(2) 0.34(2) -0.036(8) -0.039(6) -0.15(2)
+Ag4' 0.057(7) 0.20(4) 0.16(1) -0.01(1) 0 0
+I1 0.0626(3) 0.1056(5) 0.0662(5) 0.0052(3) 0 0
+I2 0.0706(4) 0.0599(3) 0.1138(6) 0.0029(3) 0 0
+Sb 0.0328(2) 0.0516(2) 0.0620(3) -0.0012(2) 0 0
+S1 0.0548(9) 0.0401(8) 0.064(1) -0.0003(7) 0 0
+S2 0.0580(7) 0.0516(6) 0.0514(9) 0.0030(6) -0.0011(6) -0.0063(5)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ag1 Ag 1 0.987(2) 0.2725(2) 0.2473(2) 0.2539(3) 0.171(1)
+Ag2 Ag 2 0.69(2) 0.218(2) 0.485(2) 0 0.244(9)
+Ag2' Ag 2 0.28(1) 0.311(3) 0.552(1) 0 0.172(6)
+Ag2'' Ag 2 0.19(2) 0.174(1) 0.396(3) 0 0.158(7)
+Ag3 Ag 1 0.44(2) -0.002(1) 0.132(1) -0.116(4) 0.188(7)
+Ag3' Ag 2 0.13(4) 0.013(2) 0.862(2) 0 0.13(3)
+Ag4 Ag 1 0.34(1) 0.538(1) 0.444(3) 0.225(4) 0.232(9)
+Ag4' Ag 2 0.17(7) 0.5 0.5 0.254(4) 0.14(1)
+I1 I 2 1 0.54805(5) 0.27864(5) 0 0.0781(3)
+I2 I 2 1 0.05640(6) 0.64298(4) 0 0.0814(3)
+Sb Sb 2 1 0.31196(4) 1.00113(4) 0 0.0488(2)
+S1 S 2 1 0.2019(2) 0.1548(1) 0 0.0528(6)
+S2 S 1 1 0.3057(1) 0.4286(1) 0.2680(2) 0.0537(4)
+Ag1d Ag 1 1 0.2702 0.243 0.2712 0.037995
+Ag2d Ag 2 1 0.2071 0.4835 0 0.037995
+Ag2`d Ag 2 1 0.3001 0.5484 0 0.037995
+Ag2``d Ag 2 1 0.1722 0.4096 0 0.037995
+Ag3d Ag 1 1 0.0012 0.1315 -0.1305 0.037995
+Ag4d Ag 1 1 0.5308 0.44 0.2569 0.037995
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+Ag 0 40 -0.897 1.102 International_Tables_Vol_C 19.2808 0.6446 16.688499 7.4726
+4.8045 24.6605 1.0463 99.815598 5.179
+I 0 16 -0.474 1.812 International_Tables_Vol_C 20.1472 4.347 18.9949 0.3814
+7.5138 27.766001 2.2735 66.877602 4.0712
+Sb 0 8 -0.587 1.546 International_Tables_Vol_C 19.6418 5.3034 19.0455 0.4607
+5.0371 27.9074 2.6827 75.282501 4.5909
+S 0 24 0.125 0.123 International_Tables_Vol_C 6.9053 1.4679 5.2034 22.215099
+1.4379 0.2536 1.5863 56.172001 0.8669
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+Ag2' Ag1 Ag2'' 142.1(6) 3_545 . .
+Ag2' Ag1 Ag3 116.4(6) 3_545 . 8_555
+Ag2' Ag1 Ag3' 103.5(4) 3_545 . 3_545
+Ag2' Ag1 I1 50.1(4) 3_545 . 7_455
+Ag2' Ag1 I2 56.8(5) 3_545 . 3_545
+Ag2' Ag1 S1 87.7(2) 3_545 . .
+Ag2' Ag1 S2 142.1(2) 3_545 . .
+Ag2' Ag1 Ag1d 30.4(9) 3_545 . .
+Ag2' Ag1 Ag2`d 2.3(5) 3_545 . 3_545
+Ag2' Ag1 Ag2``d 143.2(5) 3_545 . .
+Ag2' Ag1 Ag3d 118.1(4) 3_545 . 8_555
+Ag2'' Ag1 Ag3 98.3(6) . . 8_555
+Ag2'' Ag1 Ag3' 107.9(6) . . 3_545
+Ag2'' Ag1 I1 100.6(2) . . 7_455
+Ag2'' Ag1 I2 161.0(4) . . 3_545
+Ag2'' Ag1 S1 73.1(6) . . .
+Ag2'' Ag1 S2 54.6(6) . . .
+Ag2'' Ag1 Ag1d 142(1) . . .
+Ag2'' Ag1 Ag2`d 144.1(4) . . 3_545
+Ag2'' Ag1 Ag2``d 2.5(5) . . .
+Ag2'' Ag1 Ag3d 97.1(5) . . 8_555
+Ag3 Ag1 Ag3' 15.2(6) 8_555 . 3_545
+Ag3 Ag1 I1 119.2(5) 8_555 . 7_455
+Ag3 Ag1 I2 63.3(4) 8_555 . 3_545
+Ag3 Ag1 S1 140.7(5) 8_555 . .
+Ag3 Ag1 S2 49.8(3) 8_555 . .
+Ag3 Ag1 Ag1d 93(1) 8_555 . .
+Ag3 Ag1 Ag2`d 114.9(4) 8_555 . 3_545
+Ag3 Ag1 Ag2``d 96.4(4) 8_555 . .
+Ag3 Ag1 Ag3d 2.2(5) 8_555 . 8_555
+Ag3' Ag1 I1 105.0(2) 3_545 . 7_455
+Ag3' Ag1 I2 55.4(3) 3_545 . 3_545
+Ag3' Ag1 S1 154.0(3) 3_545 . .
+Ag3' Ag1 S2 54.7(3) 3_545 . .
+Ag3' Ag1 Ag1d 78(1) 3_545 . .
+Ag3' Ag1 Ag2`d 102.4(3) 3_545 . 3_545
+Ag3' Ag1 Ag2``d 105.7(3) 3_545 . .
+Ag3' Ag1 Ag3d 17.4(2) 3_545 . 8_555
+I1 Ag1 I2 93.30(7) 7_455 . 3_545
+I1 Ag1 S1 100.12(9) 7_455 . .
+I1 Ag1 S2 101.56(8) 7_455 . .
+I1 Ag1 Ag1d 43(1) 7_455 . .
+I1 Ag1 Ag2`d 52.19(4) 7_455 . 3_545
+I1 Ag1 Ag2``d 100.32(7) 7_455 . .
+I1 Ag1 Ag3d 121.27(8) 7_455 . 8_555
+I2 Ag1 S1 117.24(9) 3_545 . .
+I2 Ag1 S2 110.15(9) 3_545 . .
+I2 Ag1 Ag1d 50(1) 3_545 . .
+I2 Ag1 Ag2`d 54.78(4) 3_545 . 3_545
+I2 Ag1 Ag2``d 159.45(9) 3_545 . .
+I2 Ag1 Ag3d 64.44(5) 3_545 . 8_555
+S1 Ag1 S2 126.0(1) . . .
+S1 Ag1 Ag1d 117.4(9) . . .
+S1 Ag1 Ag2`d 87.92(7) . . 3_545
+S1 Ag1 Ag2``d 75.59(7) . . .
+S1 Ag1 Ag3d 138.6(1) . . 8_555
+S2 Ag1 Ag1d 112.3(9) . . .
+S2 Ag1 Ag2`d 142.8(1) . . 3_545
+S2 Ag1 Ag2``d 52.17(5) . . .
+S2 Ag1 Ag3d 49.55(5) . . 8_555
+Ag1d Ag1 Ag2`d 30.6(9) . . 3_545
+Ag1d Ag1 Ag2``d 141(1) . . .
+Ag1d Ag1 Ag3d 95(1) . . 8_555
+Ag2`d Ag1 Ag2``d 145.27(9) 3_545 . .
+Ag2`d Ag1 Ag3d 116.58(7) 3_545 . 8_555
+Ag2``d Ag1 Ag3d 95.20(6) . . 8_555
+Ag2' Ag2 Ag2'' 153(2) . . .
+Ag2' Ag2 Ag4 37.4(8) . . 5_665
+Ag2' Ag2 Ag4 37.4(8) . . 6_665
+Ag2' Ag2 I2 88(2) . . .
+Ag2' Ag2 S2 84.8(8) . . .
+Ag2' Ag2 S2 84.8(8) . . 2_555
+Ag2' Ag2 Ag2d 151(*) . . .
+Ag2' Ag2 Ag2`d 2.1(9) . . .
+Ag2' Ag2 Ag2``d 157(2) . . .
+Ag2'' Ag2 Ag4 124(1) . . 5_665
+Ag2'' Ag2 Ag4 124(1) . . 6_665
+Ag2'' Ag2 I2 119(1) . . .
+Ag2'' Ag2 S2 81.4(9) . . .
+Ag2'' Ag2 S2 81.4(9) . . 2_555
+Ag2'' Ag2 Ag2d 56(*) . . .
+Ag2'' Ag2 Ag2`d 155(2) . . .
+Ag2'' Ag2 Ag2``d 4.2(8) . . .
+Ag4 Ag2 Ag4 62.7(7) 5_665 . 6_665
+Ag4 Ag2 I2 106.9(9) 5_665 . .
+Ag4 Ag2 S2 102.4(8) 5_665 . .
+Ag4 Ag2 S2 47.4(6) 5_665 . 2_555
+Ag4 Ag2 Ag2d 148(3) 5_665 . .
+Ag4 Ag2 Ag2`d 38.5(7) 5_665 . .
+Ag4 Ag2 Ag2``d 128(1) 5_665 . .
+Ag4 Ag2 Ag4 62.7(7) 6_665 . 5_665
+Ag4 Ag2 I2 106.9(9) 6_665 . .
+Ag4 Ag2 S2 47.4(6) 6_665 . .
+Ag4 Ag2 S2 102.4(8) 6_665 . 2_555
+Ag4 Ag2 Ag2d 148(3) 6_665 . .
+Ag4 Ag2 Ag2`d 38.5(7) 6_665 . .
+Ag4 Ag2 Ag2``d 128(1) 6_665 . .
+I2 Ag2 S2 120.2(6) . . .
+I2 Ag2 S2 120.2(6) . . 2_555
+I2 Ag2 Ag2d 63(*) . . .
+I2 Ag2 Ag2`d 86(1) . . .
+I2 Ag2 Ag2``d 114(1) . . .
+S2 Ag2 S2 118(1) . . 2_555
+S2 Ag2 Ag2d 109(6) . . .
+S2 Ag2 Ag2`d 85.9(7) . . .
+S2 Ag2 Ag2``d 83.6(9) . . .
+S2 Ag2 S2 118(1) 2_555 . .
+S2 Ag2 Ag2d 109(6) 2_555 . .
+S2 Ag2 Ag2`d 85.9(7) 2_555 . .
+S2 Ag2 Ag2``d 83.6(9) 2_555 . .
+Ag2d Ag2 Ag2`d 149(*) . . .
+Ag2d Ag2 Ag2``d 52(*) . . .
+Ag2`d Ag2 Ag2``d 159(2) . . .
+Ag1 Ag2' Ag1 68.1(3) 3_554 . 4_555
+Ag1 Ag2' Ag2 108(1) 3_554 . .
+Ag1 Ag2' Ag2'' 118.6(9) 3_554 . .
+Ag1 Ag2' Ag4 146(1) 3_554 . .
+Ag1 Ag2' Ag4 76.3(8) 3_554 . 5_665
+Ag1 Ag2' Ag4 104.7(6) 3_554 . 2_555
+Ag1 Ag2' Ag4 125(1) 3_554 . 6_665
+Ag1 Ag2' Ag4' 138.9(7) 3_554 . .
+Ag1 Ag2' Ag4' 90.4(4) 3_554 . 5_665
+Ag1 Ag2' I1 60.1(3) 3_554 . 5_665
+Ag1 Ag2' I2 55.6(3) 3_554 . .
+Ag1 Ag2' S2 157.1(9) 3_554 . .
+Ag1 Ag2' S2 93.0(2) 3_554 . 2_555
+Ag1 Ag2' Ag1d 1.31(4) 3_554 . 3_554
+Ag1 Ag2' Ag1d 66.7(3) 3_554 . 4_555
+Ag1 Ag2' Ag2d 106(1) 3_554 . .
+Ag1 Ag2' Ag2`d 91(6) 3_554 . .
+Ag1 Ag2' Ag2``d 116.4(9) 3_554 . .
+Ag1 Ag2' Ag4d 148.4(8) 3_554 . .
+Ag1 Ag2' Ag4d 74.1(2) 3_554 . 5_665
+Ag1 Ag2' Ag4d 102.3(3) 3_554 . 2_555
+Ag1 Ag2' Ag4d 124.6(6) 3_554 . 6_665
+Ag1 Ag2' Ag1 68.1(3) 4_555 . 3_554
+Ag1 Ag2' Ag2 108(1) 4_555 . .
+Ag1 Ag2' Ag2'' 118.6(9) 4_555 . .
+Ag1 Ag2' Ag4 104.7(6) 4_555 . .
+Ag1 Ag2' Ag4 125(1) 4_555 . 5_665
+Ag1 Ag2' Ag4 146(1) 4_555 . 2_555
+Ag1 Ag2' Ag4 76.3(8) 4_555 . 6_665
+Ag1 Ag2' Ag4' 90.4(4) 4_555 . .
+Ag1 Ag2' Ag4' 138.9(7) 4_555 . 5_665
+Ag1 Ag2' I1 60.1(3) 4_555 . 5_665
+Ag1 Ag2' I2 55.6(3) 4_555 . .
+Ag1 Ag2' S2 93.0(2) 4_555 . .
+Ag1 Ag2' S2 157.1(9) 4_555 . 2_555
+Ag1 Ag2' Ag1d 66.7(3) 4_555 . 3_554
+Ag1 Ag2' Ag1d 1.31(4) 4_555 . 4_555
+Ag1 Ag2' Ag2d 106(1) 4_555 . .
+Ag1 Ag2' Ag2`d 91(6) 4_555 . .
+Ag1 Ag2' Ag2``d 116.4(9) 4_555 . .
+Ag1 Ag2' Ag4d 102.3(3) 4_555 . .
+Ag1 Ag2' Ag4d 124.6(6) 4_555 . 5_665
+Ag1 Ag2' Ag4d 148.4(8) 4_555 . 2_555
+Ag1 Ag2' Ag4d 74.1(2) 4_555 . 6_665
+Ag2 Ag2' Ag2'' 13(1) . . .
+Ag2 Ag2' Ag4 106(1) . . .
+Ag2 Ag2' Ag4 122(1) . . 5_665
+Ag2 Ag2' Ag4 106(1) . . 2_555
+Ag2 Ag2' Ag4 122(1) . . 6_665
+Ag2 Ag2' Ag4' 112(1) . . .
+Ag2 Ag2' Ag4' 112(1) . . 5_665
+Ag2 Ag2' I1 165(2) . . 5_665
+Ag2 Ag2' I2 65(2) . . .
+Ag2 Ag2' S2 64.4(7) . . .
+Ag2 Ag2' S2 64.4(7) . . 2_555
+Ag2 Ag2' Ag1d 108(1) . . 3_554
+Ag2 Ag2' Ag1d 108(1) . . 4_555
+Ag2 Ag2' Ag2d 2(1) . . .
+Ag2 Ag2' Ag2`d 20(7) . . .
+Ag2 Ag2' Ag2``d 10(1) . . .
+Ag2 Ag2' Ag4d 104(1) . . .
+Ag2 Ag2' Ag4d 121.5(7) . . 5_665
+Ag2 Ag2' Ag4d 104(1) . . 2_555
+Ag2 Ag2' Ag4d 121.5(7) . . 6_665
+Ag2'' Ag2' Ag4 94.3(8) . . .
+Ag2'' Ag2' Ag4 114.9(9) . . 5_665
+Ag2'' Ag2' Ag4 94.3(8) . . 2_555
+Ag2'' Ag2' Ag4 114.9(9) . . 6_665
+Ag2'' Ag2' Ag4' 102.4(6) . . .
+Ag2'' Ag2' Ag4' 102.4(6) . . 5_665
+Ag2'' Ag2' I1 178(1) . . 5_665
+Ag2'' Ag2' I2 78.2(9) . . .
+Ag2'' Ag2' S2 58.3(4) . . .
+Ag2'' Ag2' S2 58.3(4) . . 2_555
+Ag2'' Ag2' Ag1d 119.1(9) . . 3_554
+Ag2'' Ag2' Ag1d 119.1(9) . . 4_555
+Ag2'' Ag2' Ag2d 15.4(6) . . .
+Ag2'' Ag2' Ag2`d 33(7) . . .
+Ag2'' Ag2' Ag2``d 2.8(5) . . .
+Ag2'' Ag2' Ag4d 92.8(6) . . .
+Ag2'' Ag2' Ag4d 114.6(5) . . 5_665
+Ag2'' Ag2' Ag4d 92.8(6) . . 2_555
+Ag2'' Ag2' Ag4d 114.6(5) . . 6_665
+Ag4 Ag2' Ag4 83(1) . . 5_665
+Ag4 Ag2' Ag4 61.9(8) . . 2_555
+Ag4 Ag2' Ag4 29(1) . . 6_665
+Ag4 Ag2' Ag4' 14.4(6) . . .
+Ag4 Ag2' Ag4' 73.5(9) . . 5_665
+Ag4 Ag2' I1 87.1(9) . . 5_665
+Ag4 Ag2' I2 148.4(5) . . .
+Ag4 Ag2' S2 49.0(5) . . .
+Ag4 Ag2' S2 98.2(8) . . 2_555
+Ag4 Ag2' Ag1d 146(1) . . 3_554
+Ag4 Ag2' Ag1d 105.8(6) . . 4_555
+Ag4 Ag2' Ag2d 107.5(8) . . .
+Ag4 Ag2' Ag2`d 122(6) . . .
+Ag4 Ag2' Ag2``d 96.8(7) . . .
+Ag4 Ag2' Ag4d 4.1(4) . . .
+Ag4 Ag2' Ag4d 85.3(9) . . 5_665
+Ag4 Ag2' Ag4d 65.7(7) . . 2_555
+Ag4 Ag2' Ag4d 31.3(6) . . 6_665
+Ag4 Ag2' Ag4 83(1) 5_665 . .
+Ag4 Ag2' Ag4 29(1) 5_665 . 2_555
+Ag4 Ag2' Ag4 93(1) 5_665 . 6_665
+Ag4 Ag2' Ag4' 90(1) 5_665 . .
+Ag4 Ag2' Ag4' 15.6(9) 5_665 . 5_665
+Ag4 Ag2' I1 66(1) 5_665 . 5_665
+Ag4 Ag2' I2 128.4(8) 5_665 . .
+Ag4 Ag2' S2 126(1) 5_665 . .
+Ag4 Ag2' S2 58.0(8) 5_665 . 2_555
+Ag4 Ag2' Ag1d 77.2(8) 5_665 . 3_554
+Ag4 Ag2' Ag1d 124(1) 5_665 . 4_555
+Ag4 Ag2' Ag2d 123.5(9) 5_665 . .
+Ag4 Ag2' Ag2`d 131(2) 5_665 . .
+Ag4 Ag2' Ag2``d 116.6(9) 5_665 . .
+Ag4 Ag2' Ag4d 87(1) 5_665 . .
+Ag4 Ag2' Ag4d 2.6(6) 5_665 . 5_665
+Ag4 Ag2' Ag4d 28.2(9) 5_665 . 2_555
+Ag4 Ag2' Ag4d 95(1) 5_665 . 6_665
+Ag4 Ag2' Ag4 61.9(8) 2_555 . .
+Ag4 Ag2' Ag4 29(1) 2_555 . 5_665
+Ag4 Ag2' Ag4 83(1) 2_555 . 6_665
+Ag4 Ag2' Ag4' 73.5(9) 2_555 . .
+Ag4 Ag2' Ag4' 14.4(6) 2_555 . 5_665
+Ag4 Ag2' I1 87.1(9) 2_555 . 5_665
+Ag4 Ag2' I2 148.4(5) 2_555 . .
+Ag4 Ag2' S2 98.2(8) 2_555 . .
+Ag4 Ag2' S2 49.0(5) 2_555 . 2_555
+Ag4 Ag2' Ag1d 105.8(6) 2_555 . 3_554
+Ag4 Ag2' Ag1d 146(1) 2_555 . 4_555
+Ag4 Ag2' Ag2d 107.5(8) 2_555 . .
+Ag4 Ag2' Ag2`d 122(6) 2_555 . .
+Ag4 Ag2' Ag2``d 96.8(7) 2_555 . .
+Ag4 Ag2' Ag4d 65.7(7) 2_555 . .
+Ag4 Ag2' Ag4d 31.3(6) 2_555 . 5_665
+Ag4 Ag2' Ag4d 4.1(4) 2_555 . 2_555
+Ag4 Ag2' Ag4d 85.3(9) 2_555 . 6_665
+Ag4 Ag2' Ag4 29(1) 6_665 . .
+Ag4 Ag2' Ag4 93(1) 6_665 . 5_665
+Ag4 Ag2' Ag4 83(1) 6_665 . 2_555
+Ag4 Ag2' Ag4' 15.6(9) 6_665 . .
+Ag4 Ag2' Ag4' 90(1) 6_665 . 5_665
+Ag4 Ag2' I1 66(1) 6_665 . 5_665
+Ag4 Ag2' I2 128.4(8) 6_665 . .
+Ag4 Ag2' S2 58.0(8) 6_665 . .
+Ag4 Ag2' S2 126(1) 6_665 . 2_555
+Ag4 Ag2' Ag1d 124(1) 6_665 . 3_554
+Ag4 Ag2' Ag1d 77.2(8) 6_665 . 4_555
+Ag4 Ag2' Ag2d 123.5(9) 6_665 . .
+Ag4 Ag2' Ag2`d 131(2) 6_665 . .
+Ag4 Ag2' Ag2``d 116.6(9) 6_665 . .
+Ag4 Ag2' Ag4d 28.2(9) 6_665 . .
+Ag4 Ag2' Ag4d 95(1) 6_665 . 5_665
+Ag4 Ag2' Ag4d 87(1) 6_665 . 2_555
+Ag4 Ag2' Ag4d 2.6(6) 6_665 . 6_665
+Ag4' Ag2' Ag4' 84(1) . . 5_665
+Ag4' Ag2' I1 78.8(6) . . 5_665
+Ag4' Ag2' I2 138.0(6) . . .
+Ag4' Ag2' S2 49.3(4) . . .
+Ag4' Ag2' S2 112.5(8) . . 2_555
+Ag4' Ag2' Ag1d 138.2(7) . . 3_554
+Ag4' Ag2' Ag1d 91.4(4) . . 4_555
+Ag4' Ag2' Ag2d 113.4(6) . . .
+Ag4' Ag2' Ag2`d 125(4) . . .
+Ag4' Ag2' Ag2``d 104.5(4) . . .
+Ag4' Ag2' Ag4d 12.6(2) . . .
+Ag4' Ag2' Ag4d 93(1) . . 5_665
+Ag4' Ag2' Ag4d 77.6(8) . . 2_555
+Ag4' Ag2' Ag4d 17.1(3) . . 6_665
+Ag4' Ag2' Ag4' 84(1) 5_665 . .
+Ag4' Ag2' I1 78.8(6) 5_665 . 5_665
+Ag4' Ag2' I2 138.0(6) 5_665 . .
+Ag4' Ag2' S2 112.5(8) 5_665 . .
+Ag4' Ag2' S2 49.3(4) 5_665 . 2_555
+Ag4' Ag2' Ag1d 91.4(4) 5_665 . 3_554
+Ag4' Ag2' Ag1d 138.2(7) 5_665 . 4_555
+Ag4' Ag2' Ag2d 113.4(6) 5_665 . .
+Ag4' Ag2' Ag2`d 125(4) 5_665 . .
+Ag4' Ag2' Ag2``d 104.5(4) 5_665 . .
+Ag4' Ag2' Ag4d 77.6(8) 5_665 . .
+Ag4' Ag2' Ag4d 17.1(3) 5_665 . 5_665
+Ag4' Ag2' Ag4d 12.6(2) 5_665 . 2_555
+Ag4' Ag2' Ag4d 93(1) 5_665 . 6_665
+I1 Ag2' I2 100.1(5) 5_665 . .
+I1 Ag2' S2 122.4(6) 5_665 . .
+I1 Ag2' S2 122.4(6) 5_665 . 2_555
+I1 Ag2' Ag1d 59.6(3) 5_665 . 3_554
+I1 Ag2' Ag1d 59.6(3) 5_665 . 4_555
+I1 Ag2' Ag2d 163(1) 5_665 . .
+I1 Ag2' Ag2`d 145(8) 5_665 . .
+I1 Ag2' Ag2``d 175(1) 5_665 . .
+I1 Ag2' Ag4d 88.6(7) 5_665 . .
+I1 Ag2' Ag4d 66.3(5) 5_665 . 5_665
+I1 Ag2' Ag4d 88.6(7) 5_665 . 2_555
+I1 Ag2' Ag4d 66.3(5) 5_665 . 6_665
+I2 Ag2' S2 103.4(8) . . .
+I2 Ag2' S2 103.4(8) . . 2_555
+I2 Ag2' Ag1d 55.1(4) . . 3_554
+I2 Ag2' Ag1d 55.1(4) . . 4_555
+I2 Ag2' Ag2d 63(1) . . .
+I2 Ag2' Ag2`d 45(7) . . .
+I2 Ag2' Ag2``d 75.4(8) . . .
+I2 Ag2' Ag4d 144.3(3) . . .
+I2 Ag2' Ag4d 125.8(4) . . 5_665
+I2 Ag2' Ag4d 144.3(3) . . 2_555
+I2 Ag2' Ag4d 125.8(4) . . 6_665
+S2 Ag2' S2 101.9(5) . . 2_555
+S2 Ag2' Ag1d 156.0(9) . . 3_554
+S2 Ag2' Ag1d 94.3(2) . . 4_555
+S2 Ag2' Ag2d 65.5(4) . . .
+S2 Ag2' Ag2`d 76(4) . . .
+S2 Ag2' Ag2``d 59.5(3) . . .
+S2 Ag2' Ag4d 45.4(3) . . .
+S2 Ag2' Ag4d 128.7(9) . . 5_665
+S2 Ag2' Ag4d 100.6(6) . . 2_555
+S2 Ag2' Ag4d 57.2(2) . . 6_665
+S2 Ag2' S2 101.9(5) 2_555 . .
+S2 Ag2' Ag1d 94.3(2) 2_555 . 3_554
+S2 Ag2' Ag1d 156.0(9) 2_555 . 4_555
+S2 Ag2' Ag2d 65.5(4) 2_555 . .
+S2 Ag2' Ag2`d 76(4) 2_555 . .
+S2 Ag2' Ag2``d 59.5(3) 2_555 . .
+S2 Ag2' Ag4d 100.6(6) 2_555 . .
+S2 Ag2' Ag4d 57.2(2) 2_555 . 5_665
+S2 Ag2' Ag4d 45.4(3) 2_555 . 2_555
+S2 Ag2' Ag4d 128.7(9) 2_555 . 6_665
+Ag1d Ag2' Ag1d 65.4(3) 3_554 . 4_555
+Ag1d Ag2' Ag2d 107(1) 3_554 . .
+Ag1d Ag2' Ag2`d 92(6) 3_554 . .
+Ag1d Ag2' Ag2``d 116.9(9) 3_554 . .
+Ag1d Ag2' Ag4d 148.0(8) 3_554 . .
+Ag1d Ag2' Ag4d 75.0(2) 3_554 . 5_665
+Ag1d Ag2' Ag4d 103.4(3) 3_554 . 2_555
+Ag1d Ag2' Ag4d 123.7(6) 3_554 . 6_665
+Ag1d Ag2' Ag1d 65.4(3) 4_555 . 3_554
+Ag1d Ag2' Ag2d 107(1) 4_555 . .
+Ag1d Ag2' Ag2`d 92(6) 4_555 . .
+Ag1d Ag2' Ag2``d 116.9(9) 4_555 . .
+Ag1d Ag2' Ag4d 103.4(3) 4_555 . .
+Ag1d Ag2' Ag4d 123.7(6) 4_555 . 5_665
+Ag1d Ag2' Ag4d 148.0(8) 4_555 . 2_555
+Ag1d Ag2' Ag4d 75.0(2) 4_555 . 6_665
+Ag2d Ag2' Ag2`d 18(7) . . .
+Ag2d Ag2' Ag2``d 12.6(3) . . .
+Ag2d Ag2' Ag4d 105.3(6) . . .
+Ag2d Ag2' Ag4d 122.5(4) . . 5_665
+Ag2d Ag2' Ag4d 105.3(6) . . 2_555
+Ag2d Ag2' Ag4d 122.5(4) . . 6_665
+Ag2`d Ag2' Ag2``d 31(7) . . .
+Ag2`d Ag2' Ag4d 120(5) . . .
+Ag2`d Ag2' Ag4d 129(2) . . 5_665
+Ag2`d Ag2' Ag4d 120(5) . . 2_555
+Ag2`d Ag2' Ag4d 129(2) . . 6_665
+Ag2``d Ag2' Ag4d 95.1(4) . . .
+Ag2``d Ag2' Ag4d 116.2(4) . . 5_665
+Ag2``d Ag2' Ag4d 95.1(4) . . 2_555
+Ag2``d Ag2' Ag4d 116.2(4) . . 6_665
+Ag4d Ag2' Ag4d 89.4(8) . . 5_665
+Ag4d Ag2' Ag4d 69.6(5) . . 2_555
+Ag4d Ag2' Ag4d 29.8(2) . . 6_665
+Ag4d Ag2' Ag4d 89.4(8) 5_665 . .
+Ag4d Ag2' Ag4d 29.8(2) 5_665 . 2_555
+Ag4d Ag2' Ag4d 97(1) 5_665 . 6_665
+Ag4d Ag2' Ag4d 69.6(5) 2_555 . .
+Ag4d Ag2' Ag4d 29.8(2) 2_555 . 5_665
+Ag4d Ag2' Ag4d 89.4(8) 2_555 . 6_665
+Ag4d Ag2' Ag4d 29.8(2) 6_665 . .
+Ag4d Ag2' Ag4d 97(1) 6_665 . 5_665
+Ag4d Ag2' Ag4d 89.4(8) 6_665 . 2_555
+Ag1 Ag2'' Ag1 81.0(9) . . 2_555
+Ag1 Ag2'' Ag2 119.2(8) . . .
+Ag1 Ag2'' Ag2' 109.5(5) . . .
+Ag1 Ag2'' I2 102.6(9) . . 5_565
+Ag1 Ag2'' S1 45.6(5) . . .
+Ag1 Ag2'' S2 52.3(3) . . .
+Ag1 Ag2'' S2 115.8(8) . . 2_555
+Ag1 Ag2'' Ag1d 1.67(5) . . .
+Ag1 Ag2'' Ag1d 82.4(9) . . 2_555
+Ag1 Ag2'' Ag2d 122.2(5) . . .
+Ag1 Ag2'' Ag2`d 110.7(4) . . .
+Ag1 Ag2'' Ag2``d 134(2) . . .
+Ag1 Ag2'' Ag1 81.0(9) 2_555 . .
+Ag1 Ag2'' Ag2 119.2(8) 2_555 . .
+Ag1 Ag2'' Ag2' 109.5(5) 2_555 . .
+Ag1 Ag2'' I2 102.6(9) 2_555 . 5_565
+Ag1 Ag2'' S1 45.6(5) 2_555 . .
+Ag1 Ag2'' S2 115.8(8) 2_555 . .
+Ag1 Ag2'' S2 52.3(3) 2_555 . 2_555
+Ag1 Ag2'' Ag1d 82.4(9) 2_555 . .
+Ag1 Ag2'' Ag1d 1.67(5) 2_555 . 2_555
+Ag1 Ag2'' Ag2d 122.2(5) 2_555 . .
+Ag1 Ag2'' Ag2`d 110.7(4) 2_555 . .
+Ag1 Ag2'' Ag2``d 134(2) 2_555 . .
+Ag2 Ag2'' Ag2' 14(1) . . .
+Ag2 Ag2'' I2 123(2) . . 5_565
+Ag2 Ag2'' S1 153(1) . . .
+Ag2 Ag2'' S2 68.2(8) . . .
+Ag2 Ag2'' S2 68.2(8) . . 2_555
+Ag2 Ag2'' Ag1d 119.3(8) . . .
+Ag2 Ag2'' Ag1d 119.3(8) . . 2_555
+Ag2 Ag2'' Ag2d 5(1) . . .
+Ag2 Ag2'' Ag2`d 12(1) . . .
+Ag2 Ag2'' Ag2``d 26(4) . . .
+Ag2' Ag2'' I2 137(1) . . 5_565
+Ag2' Ag2'' S1 139.0(8) . . .
+Ag2' Ag2'' S2 61.9(6) . . .
+Ag2' Ag2'' S2 61.9(6) . . 2_555
+Ag2' Ag2'' Ag1d 110.0(5) . . .
+Ag2' Ag2'' Ag1d 110.0(5) . . 2_555
+Ag2' Ag2'' Ag2d 18.4(6) . . .
+Ag2' Ag2'' Ag2`d 1.7(6) . . .
+Ag2' Ag2'' Ag2``d 40(4) . . .
+I2 Ag2'' S1 83.7(9) 5_565 . .
+I2 Ag2'' S2 126.2(2) 5_565 . .
+I2 Ag2'' S2 126.2(2) 5_565 . 2_555
+I2 Ag2'' Ag1d 101.4(9) 5_565 . .
+I2 Ag2'' Ag1d 101.4(9) 5_565 . 2_555
+I2 Ag2'' Ag2d 119(1) 5_565 . .
+I2 Ag2'' Ag2`d 136(1) 5_565 . .
+I2 Ag2'' Ag2``d 97(4) 5_565 . .
+S1 Ag2'' S2 96.9(8) . . .
+S1 Ag2'' S2 96.9(8) . . 2_555
+S1 Ag2'' Ag1d 46.2(5) . . .
+S1 Ag2'' Ag1d 46.2(5) . . 2_555
+S1 Ag2'' Ag2d 157.4(9) . . .
+S1 Ag2'' Ag2`d 140.7(6) . . .
+S1 Ag2'' Ag2``d 179(4) . . .
+S2 Ag2'' S2 107.3(6) . . 2_555
+S2 Ag2'' Ag1d 52.0(3) . . .
+S2 Ag2'' Ag1d 117.4(8) . . 2_555
+S2 Ag2'' Ag2d 70.5(6) . . .
+S2 Ag2'' Ag2`d 62.6(6) . . .
+S2 Ag2'' Ag2``d 83(3) . . .
+S2 Ag2'' S2 107.3(6) 2_555 . .
+S2 Ag2'' Ag1d 117.4(8) 2_555 . .
+S2 Ag2'' Ag1d 52.0(3) 2_555 . 2_555
+S2 Ag2'' Ag2d 70.5(6) 2_555 . .
+S2 Ag2'' Ag2`d 62.6(6) 2_555 . .
+S2 Ag2'' Ag2``d 83(3) 2_555 . .
+Ag1d Ag2'' Ag1d 83.8(9) . . 2_555
+Ag1d Ag2'' Ag2d 122.2(5) . . .
+Ag1d Ag2'' Ag2`d 111.2(3) . . .
+Ag1d Ag2'' Ag2``d 133(2) . . .
+Ag1d Ag2'' Ag1d 83.8(9) 2_555 . .
+Ag1d Ag2'' Ag2d 122.2(5) 2_555 . .
+Ag1d Ag2'' Ag2`d 111.2(3) 2_555 . .
+Ag1d Ag2'' Ag2``d 133(2) 2_555 . .
+Ag2d Ag2'' Ag2`d 16.7(3) . . .
+Ag2d Ag2'' Ag2``d 22(4) . . .
+Ag2`d Ag2'' Ag2``d 39(4) . . .
+Ag1 Ag3 Ag3 108.7(8) 8_454 . 2_555
+Ag1 Ag3 Ag3' 99(2) 8_454 . 5_565
+Ag1 Ag3 Ag4 102.6(7) 8_454 . 3_544
+Ag1 Ag3 Ag4 125.3(8) 8_454 . 7_455
+Ag1 Ag3 Ag4 107(1) 8_454 . 8_454
+Ag1 Ag3 Ag4' 107.9(9) 8_454 . 3_544
+Ag1 Ag3 Ag4' 123.9(6) 8_454 . 7_455
+Ag1 Ag3 I1 69.3(5) 8_454 . 7_454
+Ag1 Ag3 I2 56.7(2) 8_454 . 5_565
+Ag1 Ag3 S1 141.3(6) 8_454 . .
+Ag1 Ag3 S2 51.2(3) 8_454 . 8_454
+Ag1 Ag3 Ag1d 2.69(5) 8_454 . 8_454
+Ag1 Ag3 Ag3d 89(8) 8_454 . .
+Ag1 Ag3 Ag3d 109.8(7) 8_454 . 2_555
+Ag1 Ag3 Ag4d 106.5(6) 8_454 . 3_544
+Ag1 Ag3 Ag4d 124.8(7) 8_454 . 7_455
+Ag1 Ag3 Ag4d 110(1) 8_454 . 8_454
+Ag3 Ag3 Ag3' 10(1) 2_555 . 5_565
+Ag3 Ag3 Ag4 115(1) 2_555 . 3_544
+Ag3 Ag3 Ag4 20.5(8) 2_555 . 7_455
+Ag3 Ag3 Ag4 138(2) 2_555 . 8_454
+Ag3 Ag3 Ag4' 119(1) 2_555 . 3_544
+Ag3 Ag3 Ag4' 32.8(6) 2_555 . 7_455
+Ag3 Ag3 I1 155.8(8) 2_555 . 7_454
+Ag3 Ag3 I2 74.0(8) 2_555 . 5_565
+Ag3 Ag3 S1 68.5(8) 2_555 . .
+Ag3 Ag3 S2 111.6(9) 2_555 . 8_454
+Ag3 Ag3 Ag1d 106.1(8) 2_555 . 8_454
+Ag3 Ag3 Ag3d 162(8) 2_555 . .
+Ag3 Ag3 Ag3d 1.2(4) 2_555 . 2_555
+Ag3 Ag3 Ag4d 110.5(9) 2_555 . 3_544
+Ag3 Ag3 Ag4d 20.7(5) 2_555 . 7_455
+Ag3 Ag3 Ag4d 133(1) 2_555 . 8_454
+Ag3' Ag3 Ag4 119(2) 5_565 . 3_544
+Ag3' Ag3 Ag4 29(2) 5_565 . 7_455
+Ag3' Ag3 Ag4 145(2) 5_565 . 8_454
+Ag3' Ag3 Ag4' 124(2) 5_565 . 3_544
+Ag3' Ag3 Ag4' 39(2) 5_565 . 7_455
+Ag3' Ag3 I1 153(2) 5_565 . 7_454
+Ag3' Ag3 I2 67(2) 5_565 . 5_565
+Ag3' Ag3 S1 76(2) 5_565 . .
+Ag3' Ag3 S2 106(2) 5_565 . 8_454
+Ag3' Ag3 Ag1d 97(2) 5_565 . 8_454
+Ag3' Ag3 Ag3d 170(8) 5_565 . .
+Ag3' Ag3 Ag3d 11(1) 5_565 . 2_555
+Ag3' Ag3 Ag4d 115(2) 5_565 . 3_544
+Ag3' Ag3 Ag4d 29(2) 5_565 . 7_455
+Ag3' Ag3 Ag4d 141(2) 5_565 . 8_454
+Ag4 Ag3 Ag4 98(1) 3_544 . 7_455
+Ag4 Ag3 Ag4 34(1) 3_544 . 8_454
+Ag4 Ag3 Ag4' 9.4(4) 3_544 . 3_544
+Ag4 Ag3 Ag4' 83.0(8) 3_544 . 7_455
+Ag4 Ag3 I1 88.0(9) 3_544 . 7_454
+Ag4 Ag3 I2 159.2(7) 3_544 . 5_565
+Ag4 Ag3 S1 113.4(6) 3_544 . .
+Ag4 Ag3 S2 54.6(5) 3_544 . 8_454
+Ag4 Ag3 Ag1d 104.6(7) 3_544 . 8_454
+Ag4 Ag3 Ag3d 64(7) 3_544 . .
+Ag4 Ag3 Ag3d 115(1) 3_544 . 2_555
+Ag4 Ag3 Ag4d 5.2(6) 3_544 . 3_544
+Ag4 Ag3 Ag4d 97.0(8) 3_544 . 7_455
+Ag4 Ag3 Ag4d 29.7(5) 3_544 . 8_454
+Ag4 Ag3 Ag4 98(1) 7_455 . 3_544
+Ag4 Ag3 Ag4 117(1) 7_455 . 8_454
+Ag4 Ag3 Ag4' 100(1) 7_455 . 3_544
+Ag4 Ag3 Ag4' 15.8(6) 7_455 . 7_455
+Ag4 Ag3 I1 161.9(5) 7_455 . 7_454
+Ag4 Ag3 I2 94.0(9) 7_455 . 5_565
+Ag4 Ag3 S1 64.5(7) 7_455 . .
+Ag4 Ag3 S2 110.9(8) 7_455 . 8_454
+Ag4 Ag3 Ag1d 122.9(8) 7_455 . 8_454
+Ag4 Ag3 Ag3d 145(7) 7_455 . .
+Ag4 Ag3 Ag3d 19.8(6) 7_455 . 2_555
+Ag4 Ag3 Ag4d 92.6(8) 7_455 . 3_544
+Ag4 Ag3 Ag4d 1.1(4) 7_455 . 7_455
+Ag4 Ag3 Ag4d 113(1) 7_455 . 8_454
+Ag4 Ag3 Ag4 34(1) 8_454 . 3_544
+Ag4 Ag3 Ag4 117(1) 8_454 . 7_455
+Ag4 Ag3 Ag4' 25(1) 8_454 . 3_544
+Ag4 Ag3 Ag4' 106(1) 8_454 . 7_455
+Ag4 Ag3 I1 61(1) 8_454 . 7_454
+Ag4 Ag3 I2 147(2) 8_454 . 5_565
+Ag4 Ag3 S1 95.8(8) 8_454 . .
+Ag4 Ag3 S2 75.6(9) 8_454 . 8_454
+Ag4 Ag3 Ag1d 110(1) 8_454 . 8_454
+Ag4 Ag3 Ag3d 34(6) 8_454 . .
+Ag4 Ag3 Ag3d 137(1) 8_454 . 2_555
+Ag4 Ag3 Ag4d 36(1) 8_454 . 3_544
+Ag4 Ag3 Ag4d 117(1) 8_454 . 7_455
+Ag4 Ag3 Ag4d 5(1) 8_454 . 8_454
+Ag4' Ag3 Ag4' 86(1) 3_544 . 7_455
+Ag4' Ag3 I1 83(1) 3_544 . 7_454
+Ag4' Ag3 I2 164(1) 3_544 . 5_565
+Ag4' Ag3 S1 106.2(6) 3_544 . .
+Ag4' Ag3 S2 62.3(5) 3_544 . 8_454
+Ag4' Ag3 Ag1d 110.1(9) 3_544 . 8_454
+Ag4' Ag3 Ag3d 58(7) 3_544 . .
+Ag4' Ag3 Ag3d 119(1) 3_544 . 2_555
+Ag4' Ag3 Ag4d 11.2(6) 3_544 . 3_544
+Ag4' Ag3 Ag4d 100(1) 3_544 . 7_455
+Ag4' Ag3 Ag4d 21.0(6) 3_544 . 8_454
+Ag4' Ag3 Ag4' 86(1) 7_455 . 3_544
+Ag4' Ag3 I1 165.4(6) 7_455 . 7_454
+Ag4' Ag3 I2 106.3(8) 7_455 . 5_565
+Ag4' Ag3 S1 75.8(7) 7_455 . .
+Ag4' Ag3 S2 97.6(6) 7_455 . 8_454
+Ag4' Ag3 Ag1d 122.0(6) 7_455 . 8_454
+Ag4' Ag3 Ag3d 139(7) 7_455 . .
+Ag4' Ag3 Ag3d 32.5(4) 7_455 . 2_555
+Ag4' Ag3 Ag4d 78.0(5) 7_455 . 3_544
+Ag4' Ag3 Ag4d 14.8(3) 7_455 . 7_455
+Ag4' Ag3 Ag4d 101.8(9) 7_455 . 8_454
+I1 Ag3 I2 86.0(4) 7_454 . 5_565
+I1 Ag3 S1 97.5(6) 7_454 . .
+I1 Ag3 S2 86.4(8) 7_454 . 8_454
+I1 Ag3 Ag1d 71.4(5) 7_454 . 8_454
+I1 Ag3 Ag3d 27(7) 7_454 . .
+I1 Ag3 Ag3d 155.6(7) 7_454 . 2_555
+I1 Ag3 Ag4d 92.6(8) 7_454 . 3_544
+I1 Ag3 Ag4d 163.0(5) 7_454 . 7_455
+I1 Ag3 Ag4d 66(1) 7_454 . 8_454
+I2 Ag3 S1 87.2(5) 5_565 . .
+I2 Ag3 S2 105.1(4) 5_565 . 8_454
+I2 Ag3 Ag1d 54.7(2) 5_565 . 8_454
+I2 Ag3 Ag3d 113(7) 5_565 . .
+I2 Ag3 Ag3d 74.5(6) 5_565 . 2_555
+I2 Ag3 Ag4d 162.4(5) 5_565 . 3_544
+I2 Ag3 Ag4d 94.5(7) 5_565 . 7_455
+I2 Ag3 Ag4d 152(1) 5_565 . 8_454
+S1 Ag3 S2 167.4(7) . . 8_454
+S1 Ag3 Ag1d 140.1(6) . . 8_454
+S1 Ag3 Ag3d 94(7) . . .
+S1 Ag3 Ag3d 67.5(7) . . 2_555
+S1 Ag3 Ag4d 110.4(5) . . 3_544
+S1 Ag3 Ag4d 65.6(6) . . 7_455
+S1 Ag3 Ag4d 96.0(6) . . 8_454
+S2 Ag3 Ag1d 52.5(3) 8_454 . 8_454
+S2 Ag3 Ag3d 84(7) 8_454 . .
+S2 Ag3 Ag3d 112.5(8) 8_454 . 2_555
+S2 Ag3 Ag4d 57.3(4) 8_454 . 3_544
+S2 Ag3 Ag4d 109.8(7) 8_454 . 7_455
+S2 Ag3 Ag4d 74.7(8) 8_454 . 8_454
+Ag1d Ag3 Ag3d 91(8) 8_454 . .
+Ag1d Ag3 Ag3d 107.2(7) 8_454 . 2_555
+Ag1d Ag3 Ag4d 108.3(6) 8_454 . 3_544
+Ag1d Ag3 Ag4d 122.4(7) 8_454 . 7_455
+Ag1d Ag3 Ag4d 112(1) 8_454 . 8_454
+Ag3d Ag3 Ag3d 161(8) . . 2_555
+Ag3d Ag3 Ag4d 68(7) . . 3_544
+Ag3d Ag3 Ag4d 146(7) . . 7_455
+Ag3d Ag3 Ag4d 39(6) . . 8_454
+Ag3d Ag3 Ag3d 161(8) 2_555 . .
+Ag3d Ag3 Ag4d 110.4(8) 2_555 . 3_544
+Ag3d Ag3 Ag4d 20.1(3) 2_555 . 7_455
+Ag3d Ag3 Ag4d 133(1) 2_555 . 8_454
+Ag4d Ag3 Ag4d 91.9(5) 3_544 . 7_455
+Ag4d Ag3 Ag4d 32.1(4) 3_544 . 8_454
+Ag4d Ag3 Ag4d 91.9(5) 7_455 . 3_544
+Ag4d Ag3 Ag4d 112.5(9) 7_455 . 8_454
+Ag4d Ag3 Ag4d 32.1(4) 8_454 . 3_544
+Ag4d Ag3 Ag4d 112.5(9) 8_454 . 7_455
+Ag1 Ag3' Ag1 67.9(4) 3_554 . 4_555
+Ag1 Ag3' Ag3 134(2) 3_554 . 5_565
+Ag1 Ag3' Ag3 66(1) 3_554 . 6_565
+Ag1 Ag3' Ag4 83.5(6) 3_554 . 3_554
+Ag1 Ag3' Ag4 130.4(7) 3_554 . 7_465
+Ag1 Ag3' Ag4 148.0(8) 3_554 . 4_555
+Ag1 Ag3' Ag4 87.2(5) 3_554 . 8_464
+Ag1 Ag3' Ag4' 87.9(4) 3_554 . 3_554
+Ag1 Ag3' Ag4' 139.0(8) 3_554 . 7_465
+Ag1 Ag3' I2 56.0(3) 3_554 . .
+Ag1 Ag3' S1 130.3(6) 3_554 . 5_565
+Ag1 Ag3' S2 46.0(3) 3_554 . 3_554
+Ag1 Ag3' S2 90.7(6) 3_554 . 4_555
+Ag1 Ag3' Ag1d 2.46(4) 3_554 . 3_554
+Ag1 Ag3' Ag1d 65.5(4) 3_554 . 4_555
+Ag1 Ag3' Ag3d 134(1) 3_554 . 5_565
+Ag1 Ag3' Ag3d 67(1) 3_554 . 6_565
+Ag1 Ag3' Ag4d 84.2(3) 3_554 . 3_554
+Ag1 Ag3' Ag4d 130.7(7) 3_554 . 7_465
+Ag1 Ag3' Ag4d 147.8(8) 3_554 . 4_555
+Ag1 Ag3' Ag4d 90.9(3) 3_554 . 8_464
+Ag1 Ag3' Ag1 67.9(4) 4_555 . 3_554
+Ag1 Ag3' Ag3 66(1) 4_555 . 5_565
+Ag1 Ag3' Ag3 134(2) 4_555 . 6_565
+Ag1 Ag3' Ag4 148.0(8) 4_555 . 3_554
+Ag1 Ag3' Ag4 87.2(5) 4_555 . 7_465
+Ag1 Ag3' Ag4 83.5(6) 4_555 . 4_555
+Ag1 Ag3' Ag4 130.4(7) 4_555 . 8_464
+Ag1 Ag3' Ag4' 139.0(8) 4_555 . 3_554
+Ag1 Ag3' Ag4' 87.9(4) 4_555 . 7_465
+Ag1 Ag3' I2 56.0(3) 4_555 . .
+Ag1 Ag3' S1 130.3(6) 4_555 . 5_565
+Ag1 Ag3' S2 90.7(6) 4_555 . 3_554
+Ag1 Ag3' S2 46.0(3) 4_555 . 4_555
+Ag1 Ag3' Ag1d 65.5(4) 4_555 . 3_554
+Ag1 Ag3' Ag1d 2.46(4) 4_555 . 4_555
+Ag1 Ag3' Ag3d 67(1) 4_555 . 5_565
+Ag1 Ag3' Ag3d 134(1) 4_555 . 6_565
+Ag1 Ag3' Ag4d 147.8(8) 4_555 . 3_554
+Ag1 Ag3' Ag4d 90.9(3) 4_555 . 7_465
+Ag1 Ag3' Ag4d 84.2(3) 4_555 . 4_555
+Ag1 Ag3' Ag4d 130.7(7) 4_555 . 8_464
+Ag3 Ag3' Ag3 161(3) 5_565 . 6_565
+Ag3 Ag3' Ag4 141(2) 5_565 . 3_554
+Ag3 Ag3' Ag4 47(2) 5_565 . 7_465
+Ag3 Ag3' Ag4 23(2) 5_565 . 4_555
+Ag3 Ag3' Ag4 124(2) 5_565 . 8_464
+Ag3 Ag3' Ag4' 129(2) 5_565 . 3_554
+Ag3 Ag3' Ag4' 39(1) 5_565 . 7_465
+Ag3 Ag3' I2 97(2) 5_565 . .
+Ag3 Ag3' S1 83(2) 5_565 . 5_565
+Ag3 Ag3' S2 134(2) 5_565 . 3_554
+Ag3 Ag3' S2 56(1) 5_565 . 4_555
+Ag3 Ag3' Ag1d 131(2) 5_565 . 3_554
+Ag3 Ag3' Ag1d 68(1) 5_565 . 4_555
+Ag3 Ag3' Ag3d 1.2(9) 5_565 . 5_565
+Ag3 Ag3' Ag3d 160(3) 5_565 . 6_565
+Ag3 Ag3' Ag4d 140(2) 5_565 . 3_554
+Ag3 Ag3' Ag4d 51(1) 5_565 . 7_465
+Ag3 Ag3' Ag4d 24(1) 5_565 . 4_555
+Ag3 Ag3' Ag4d 120(2) 5_565 . 8_464
+Ag3 Ag3' Ag3 161(3) 6_565 . 5_565
+Ag3 Ag3' Ag4 23(2) 6_565 . 3_554
+Ag3 Ag3' Ag4 124(2) 6_565 . 7_465
+Ag3 Ag3' Ag4 141(2) 6_565 . 4_555
+Ag3 Ag3' Ag4 47(2) 6_565 . 8_464
+Ag3 Ag3' Ag4' 39(1) 6_565 . 3_554
+Ag3 Ag3' Ag4' 129(2) 6_565 . 7_465
+Ag3 Ag3' I2 97(2) 6_565 . .
+Ag3 Ag3' S1 83(2) 6_565 . 5_565
+Ag3 Ag3' S2 56(1) 6_565 . 3_554
+Ag3 Ag3' S2 134(2) 6_565 . 4_555
+Ag3 Ag3' Ag1d 68(1) 6_565 . 3_554
+Ag3 Ag3' Ag1d 131(2) 6_565 . 4_555
+Ag3 Ag3' Ag3d 160(3) 6_565 . 5_565
+Ag3 Ag3' Ag3d 1.2(9) 6_565 . 6_565
+Ag3 Ag3' Ag4d 24(1) 6_565 . 3_554
+Ag3 Ag3' Ag4d 120(2) 6_565 . 7_465
+Ag3 Ag3' Ag4d 140(2) 6_565 . 4_555
+Ag3 Ag3' Ag4d 51(1) 6_565 . 8_464
+Ag4 Ag3' Ag4 102(1) 3_554 . 7_465
+Ag4 Ag3' Ag4 119(1) 3_554 . 4_555
+Ag4 Ag3' Ag4 29.5(8) 3_554 . 8_464
+Ag4 Ag3' Ag4' 19.6(8) 3_554 . 3_554
+Ag4 Ag3' Ag4' 106(1) 3_554 . 7_465
+Ag4 Ag3' I2 118.9(9) 3_554 . .
+Ag4 Ag3' S1 79.2(6) 3_554 . 5_565
+Ag4 Ag3' S2 58.1(4) 3_554 . 3_554
+Ag4 Ag3' S2 124(1) 3_554 . 4_555
+Ag4 Ag3' Ag1d 85.9(6) 3_554 . 3_554
+Ag4 Ag3' Ag1d 146.1(8) 3_554 . 4_555
+Ag4 Ag3' Ag3d 140(2) 3_554 . 5_565
+Ag4 Ag3' Ag3d 22(1) 3_554 . 6_565
+Ag4 Ag3' Ag4d 1.9(8) 3_554 . 3_554
+Ag4 Ag3' Ag4d 98(1) 3_554 . 7_465
+Ag4 Ag3' Ag4d 117(1) 3_554 . 4_555
+Ag4 Ag3' Ag4d 31.9(8) 3_554 . 8_464
+Ag4 Ag3' Ag4 102(1) 7_465 . 3_554
+Ag4 Ag3' Ag4 29.5(8) 7_465 . 4_555
+Ag4 Ag3' Ag4 77.1(9) 7_465 . 8_464
+Ag4 Ag3' Ag4' 84.3(9) 7_465 . 3_554
+Ag4 Ag3' Ag4' 10.2(5) 7_465 . 7_465
+Ag4 Ag3' I2 139.1(6) 7_465 . .
+Ag4 Ag3' S1 98.8(6) 7_465 . 5_565
+Ag4 Ag3' S2 95.0(7) 7_465 . 3_554
+Ag4 Ag3' S2 45.4(4) 7_465 . 4_555
+Ag4 Ag3' Ag1d 129.9(7) 7_465 . 3_554
+Ag4 Ag3' Ag1d 89.4(5) 7_465 . 4_555
+Ag4 Ag3' Ag3d 48(1) 7_465 . 5_565
+Ag4 Ag3' Ag3d 124(1) 7_465 . 6_565
+Ag4 Ag3' Ag4d 99.9(9) 7_465 . 3_554
+Ag4 Ag3' Ag4d 4.1(5) 7_465 . 7_465
+Ag4 Ag3' Ag4d 27.7(5) 7_465 . 4_555
+Ag4 Ag3' Ag4d 73.3(7) 7_465 . 8_464
+Ag4 Ag3' Ag4 119(1) 4_555 . 3_554
+Ag4 Ag3' Ag4 29.5(8) 4_555 . 7_465
+Ag4 Ag3' Ag4 102(1) 4_555 . 8_464
+Ag4 Ag3' Ag4' 106(1) 4_555 . 3_554
+Ag4 Ag3' Ag4' 19.6(8) 4_555 . 7_465
+Ag4 Ag3' I2 118.9(9) 4_555 . .
+Ag4 Ag3' S1 79.2(6) 4_555 . 5_565
+Ag4 Ag3' S2 124(1) 4_555 . 3_554
+Ag4 Ag3' S2 58.1(4) 4_555 . 4_555
+Ag4 Ag3' Ag1d 146.1(8) 4_555 . 3_554
+Ag4 Ag3' Ag1d 85.9(6) 4_555 . 4_555
+Ag4 Ag3' Ag3d 22(1) 4_555 . 5_565
+Ag4 Ag3' Ag3d 140(2) 4_555 . 6_565
+Ag4 Ag3' Ag4d 117(1) 4_555 . 3_554
+Ag4 Ag3' Ag4d 31.9(8) 4_555 . 7_465
+Ag4 Ag3' Ag4d 1.9(8) 4_555 . 4_555
+Ag4 Ag3' Ag4d 98(1) 4_555 . 8_464
+Ag4 Ag3' Ag4 29.5(8) 8_464 . 3_554
+Ag4 Ag3' Ag4 77.1(9) 8_464 . 7_465
+Ag4 Ag3' Ag4 102(1) 8_464 . 4_555
+Ag4 Ag3' Ag4' 10.2(5) 8_464 . 3_554
+Ag4 Ag3' Ag4' 84.3(9) 8_464 . 7_465
+Ag4 Ag3' I2 139.1(6) 8_464 . .
+Ag4 Ag3' S1 98.8(6) 8_464 . 5_565
+Ag4 Ag3' S2 45.4(4) 8_464 . 3_554
+Ag4 Ag3' S2 95.0(7) 8_464 . 4_555
+Ag4 Ag3' Ag1d 89.4(5) 8_464 . 3_554
+Ag4 Ag3' Ag1d 129.9(7) 8_464 . 4_555
+Ag4 Ag3' Ag3d 124(1) 8_464 . 5_565
+Ag4 Ag3' Ag3d 48(1) 8_464 . 6_565
+Ag4 Ag3' Ag4d 27.7(5) 8_464 . 3_554
+Ag4 Ag3' Ag4d 73.3(7) 8_464 . 7_465
+Ag4 Ag3' Ag4d 99.9(9) 8_464 . 4_555
+Ag4 Ag3' Ag4d 4.1(5) 8_464 . 8_464
+Ag4' Ag3' Ag4' 90.3(9) 3_554 . 7_465
+Ag4' Ag3' I2 134.6(6) 3_554 . .
+Ag4' Ag3' S1 90.6(6) 3_554 . 5_565
+Ag4' Ag3' S2 50.5(3) 3_554 . 3_554
+Ag4' Ag3' S2 105.2(8) 3_554 . 4_555
+Ag4' Ag3' Ag1d 90.2(4) 3_554 . 3_554
+Ag4' Ag3' Ag1d 138.2(7) 3_554 . 4_555
+Ag4' Ag3' Ag3d 129(2) 3_554 . 5_565
+Ag4' Ag3' Ag3d 40(1) 3_554 . 6_565
+Ag4' Ag3' Ag4d 17.8(4) 3_554 . 3_554
+Ag4' Ag3' Ag4d 80.3(7) 3_554 . 7_465
+Ag4' Ag3' Ag4d 104.5(9) 3_554 . 4_555
+Ag4' Ag3' Ag4d 12.3(4) 3_554 . 8_464
+Ag4' Ag3' Ag4' 90.3(9) 7_465 . 3_554
+Ag4' Ag3' I2 134.6(6) 7_465 . .
+Ag4' Ag3' S1 90.6(6) 7_465 . 5_565
+Ag4' Ag3' S2 105.2(8) 7_465 . 3_554
+Ag4' Ag3' S2 50.5(3) 7_465 . 4_555
+Ag4' Ag3' Ag1d 138.2(7) 7_465 . 3_554
+Ag4' Ag3' Ag1d 90.2(4) 7_465 . 4_555
+Ag4' Ag3' Ag3d 40(1) 7_465 . 5_565
+Ag4' Ag3' Ag3d 129(2) 7_465 . 6_565
+Ag4' Ag3' Ag4d 104.5(9) 7_465 . 3_554
+Ag4' Ag3' Ag4d 12.3(4) 7_465 . 7_465
+Ag4' Ag3' Ag4d 17.8(4) 7_465 . 4_555
+Ag4' Ag3' Ag4d 80.3(7) 7_465 . 8_464
+I2 Ag3' S1 93.7(7) . . 5_565
+I2 Ag3' S2 102.0(6) . . 3_554
+I2 Ag3' S2 102.0(6) . . 4_555
+I2 Ag3' Ag1d 54.4(3) . . 3_554
+I2 Ag3' Ag1d 54.4(3) . . 4_555
+I2 Ag3' Ag3d 97(1) . . 5_565
+I2 Ag3' Ag3d 97(1) . . 6_565
+I2 Ag3' Ag4d 120.7(5) . . 3_554
+I2 Ag3' Ag4d 143.2(3) . . 7_465
+I2 Ag3' Ag4d 120.7(5) . . 4_555
+I2 Ag3' Ag4d 143.2(3) . . 8_464
+S1 Ag3' S2 137.0(4) 5_565 . 3_554
+S1 Ag3' S2 137.0(4) 5_565 . 4_555
+S1 Ag3' Ag1d 131.1(6) 5_565 . 3_554
+S1 Ag3' Ag1d 131.1(6) 5_565 . 4_555
+S1 Ag3' Ag3d 81(1) 5_565 . 5_565
+S1 Ag3' Ag3d 81(1) 5_565 . 6_565
+S1 Ag3' Ag4d 80.0(6) 5_565 . 3_554
+S1 Ag3' Ag4d 97.7(6) 5_565 . 7_465
+S1 Ag3' Ag4d 80.0(6) 5_565 . 4_555
+S1 Ag3' Ag4d 97.7(6) 5_565 . 8_464
+S2 Ag3' S2 78.6(6) 3_554 . 4_555
+S2 Ag3' Ag1d 47.6(3) 3_554 . 3_554
+S2 Ag3' Ag1d 89.3(6) 3_554 . 4_555
+S2 Ag3' Ag3d 135(1) 3_554 . 5_565
+S2 Ag3' Ag3d 57.2(9) 3_554 . 6_565
+S2 Ag3' Ag4d 57.5(3) 3_554 . 3_554
+S2 Ag3' Ag4d 93.2(6) 3_554 . 7_465
+S2 Ag3' Ag4d 122.5(8) 3_554 . 4_555
+S2 Ag3' Ag4d 48.3(3) 3_554 . 8_464
+S2 Ag3' S2 78.6(6) 4_555 . 3_554
+S2 Ag3' Ag1d 89.3(6) 4_555 . 3_554
+S2 Ag3' Ag1d 47.6(3) 4_555 . 4_555
+S2 Ag3' Ag3d 57.2(9) 4_555 . 5_565
+S2 Ag3' Ag3d 135(1) 4_555 . 6_565
+S2 Ag3' Ag4d 122.5(8) 4_555 . 3_554
+S2 Ag3' Ag4d 48.3(3) 4_555 . 7_465
+S2 Ag3' Ag4d 57.5(3) 4_555 . 4_555
+S2 Ag3' Ag4d 93.2(6) 4_555 . 8_464
+Ag1d Ag3' Ag1d 63.1(4) 3_554 . 4_555
+Ag1d Ag3' Ag3d 132(1) 3_554 . 5_565
+Ag1d Ag3' Ag3d 69(1) 3_554 . 6_565
+Ag1d Ag3' Ag4d 86.7(3) 3_554 . 3_554
+Ag1d Ag3' Ag4d 130.5(7) 3_554 . 7_465
+Ag1d Ag3' Ag4d 146.0(8) 3_554 . 4_555
+Ag1d Ag3' Ag4d 93.0(3) 3_554 . 8_464
+Ag1d Ag3' Ag1d 63.1(4) 4_555 . 3_554
+Ag1d Ag3' Ag3d 69(1) 4_555 . 5_565
+Ag1d Ag3' Ag3d 132(1) 4_555 . 6_565
+Ag1d Ag3' Ag4d 146.0(8) 4_555 . 3_554
+Ag1d Ag3' Ag4d 93.0(3) 4_555 . 7_465
+Ag1d Ag3' Ag4d 86.7(3) 4_555 . 4_555
+Ag1d Ag3' Ag4d 130.5(7) 4_555 . 8_464
+Ag3d Ag3' Ag3d 159(2) 5_565 . 6_565
+Ag3d Ag3' Ag4d 139(2) 5_565 . 3_554
+Ag3d Ag3' Ag4d 51(1) 5_565 . 7_465
+Ag3d Ag3' Ag4d 24.1(7) 5_565 . 4_555
+Ag3d Ag3' Ag4d 120(1) 5_565 . 8_464
+Ag3d Ag3' Ag3d 159(2) 6_565 . 5_565
+Ag3d Ag3' Ag4d 24.1(7) 6_565 . 3_554
+Ag3d Ag3' Ag4d 120(1) 6_565 . 7_465
+Ag3d Ag3' Ag4d 139(2) 6_565 . 4_555
+Ag3d Ag3' Ag4d 51(1) 6_565 . 8_464
+Ag4d Ag3' Ag4d 95.8(7) 3_554 . 7_465
+Ag4d Ag3' Ag4d 116.0(9) 3_554 . 4_555
+Ag4d Ag3' Ag4d 30.0(3) 3_554 . 8_464
+Ag4d Ag3' Ag4d 95.8(7) 7_465 . 3_554
+Ag4d Ag3' Ag4d 30.0(3) 7_465 . 4_555
+Ag4d Ag3' Ag4d 69.5(4) 7_465 . 8_464
+Ag4d Ag3' Ag4d 116.0(9) 4_555 . 3_554
+Ag4d Ag3' Ag4d 30.0(3) 4_555 . 7_465
+Ag4d Ag3' Ag4d 95.8(7) 4_555 . 8_464
+Ag4d Ag3' Ag4d 30.0(3) 8_464 . 3_554
+Ag4d Ag3' Ag4d 69.5(4) 8_464 . 7_465
+Ag4d Ag3' Ag4d 95.8(7) 8_464 . 4_555
+Ag2 Ag4 Ag2' 101.6(9) 5_665 . .
+Ag2 Ag4 Ag2' 20.3(6) 5_665 . 5_665
+Ag2 Ag4 Ag3 94(1) 5_665 . 3_555
+Ag2 Ag4 Ag3 133.7(7) 5_665 . 7_555
+Ag2 Ag4 Ag3 141(1) 5_665 . 8_555
+Ag2 Ag4 Ag3' 139.9(9) 5_665 . 3_545
+Ag2 Ag4 Ag3' 99.5(9) 5_665 . 7_565
+Ag2 Ag4 Ag4 58.7(5) 5_665 . 2_555
+Ag2 Ag4 Ag4 98(1) 5_665 . 6_665
+Ag2 Ag4 Ag4' 105(2) 5_665 . .
+Ag2 Ag4 I1 83.1(7) 5_665 . .
+Ag2 Ag4 S1 90.8(5) 5_665 . 7_555
+Ag2 Ag4 S2 152(1) 5_665 . .
+Ag2 Ag4 S2 46.1(5) 5_665 . 6_665
+Ag2 Ag4 Ag2d 1.1(2) 5_665 . 5_665
+Ag2 Ag4 Ag2`d 103.3(9) 5_665 . .
+Ag2 Ag4 Ag2`d 18.2(4) 5_665 . 5_665
+Ag2 Ag4 Ag3d 94(1) 5_665 . 3_555
+Ag2 Ag4 Ag3d 132.7(6) 5_665 . 7_555
+Ag2 Ag4 Ag3d 140(1) 5_665 . 8_555
+Ag2 Ag4 Ag4d 142(4) 5_665 . .
+Ag2 Ag4 Ag4d 99(1) 5_665 . 6_665
+Ag2' Ag4 Ag2' 97(1) . . 5_665
+Ag2' Ag4 Ag3 74.3(8) . . 3_555
+Ag2' Ag4 Ag3 121.3(6) . . 7_555
+Ag2' Ag4 Ag3 116.8(8) . . 8_555
+Ag2' Ag4 Ag3' 118.0(8) . . 3_545
+Ag2' Ag4 Ag3' 85.6(8) . . 7_565
+Ag2' Ag4 Ag4 59.1(6) . . 2_555
+Ag2' Ag4 Ag4 42(1) . . 6_665
+Ag2' Ag4 Ag4' 54(2) . . .
+Ag2' Ag4 I1 93.3(7) . . .
+Ag2' Ag4 S1 166.6(8) . . 7_555
+Ag2' Ag4 S2 50.9(5) . . .
+Ag2' Ag4 S2 106(1) . . 6_665
+Ag2' Ag4 Ag2d 102.5(9) . . 5_665
+Ag2' Ag4 Ag2`d 1.9(4) . . .
+Ag2' Ag4 Ag2`d 98.7(9) . . 5_665
+Ag2' Ag4 Ag3d 72.2(7) . . 3_555
+Ag2' Ag4 Ag3d 121.9(6) . . 7_555
+Ag2' Ag4 Ag3d 117.2(7) . . 8_555
+Ag2' Ag4 Ag4d 109(4) . . .
+Ag2' Ag4 Ag4d 50.6(6) . . 6_665
+Ag2' Ag4 Ag2' 97(1) 5_665 . .
+Ag2' Ag4 Ag3 113(1) 5_665 . 3_555
+Ag2' Ag4 Ag3 141(1) 5_665 . 7_555
+Ag2' Ag4 Ag3 137(2) 5_665 . 8_555
+Ag2' Ag4 Ag3' 143(1) 5_665 . 3_545
+Ag2' Ag4 Ag3' 119(1) 5_665 . 7_565
+Ag2' Ag4 Ag4 43.6(7) 5_665 . 2_555
+Ag2' Ag4 Ag4 108(2) 5_665 . 6_665
+Ag2' Ag4 Ag4' 119(3) 5_665 . .
+Ag2' Ag4 I1 63.3(8) 5_665 . .
+Ag2' Ag4 S1 96.1(7) 5_665 . 7_555
+Ag2' Ag4 S2 141(1) 5_665 . .
+Ag2' Ag4 S2 66.4(7) 5_665 . 6_665
+Ag2' Ag4 Ag2d 21.0(5) 5_665 . 5_665
+Ag2' Ag4 Ag2`d 99(1) 5_665 . .
+Ag2' Ag4 Ag2`d 2.3(5) 5_665 . 5_665
+Ag2' Ag4 Ag3d 112(1) 5_665 . 3_555
+Ag2' Ag4 Ag3d 141(1) 5_665 . 7_555
+Ag2' Ag4 Ag3d 135(2) 5_665 . 8_555
+Ag2' Ag4 Ag4d 153(4) 5_665 . .
+Ag2' Ag4 Ag4d 112(2) 5_665 . 6_665
+Ag3 Ag4 Ag3 82.3(9) 3_555 . 7_555
+Ag3 Ag4 Ag3 102(2) 3_555 . 8_555
+Ag3 Ag4 Ag3' 90(1) 3_555 . 3_545
+Ag3 Ag4 Ag3' 13.4(6) 3_555 . 7_565
+Ag3 Ag4 Ag4 115(1) 3_555 . 2_555
+Ag3 Ag4 Ag4 32(1) 3_555 . 6_665
+Ag3 Ag4 Ag4' 22(2) 3_555 . .
+Ag3 Ag4 I1 167(1) 3_555 . .
+Ag3 Ag4 S1 100.0(9) 3_555 . 7_555
+Ag3 Ag4 S2 83.1(8) 3_555 . .
+Ag3 Ag4 S2 53.8(7) 3_555 . 6_665
+Ag3 Ag4 Ag2d 94.2(9) 3_555 . 5_665
+Ag3 Ag4 Ag2`d 75.1(8) 3_555 . .
+Ag3 Ag4 Ag2`d 111(1) 3_555 . 5_665
+Ag3 Ag4 Ag3d 2.2(5) 3_555 . 3_555
+Ag3 Ag4 Ag3d 81.6(9) 3_555 . 7_555
+Ag3 Ag4 Ag3d 104(1) 3_555 . 8_555
+Ag3 Ag4 Ag4d 74(7) 3_555 . .
+Ag3 Ag4 Ag4d 23.7(6) 3_555 . 6_665
+Ag3 Ag4 Ag3 82.3(9) 7_555 . 3_555
+Ag3 Ag4 Ag3 22(1) 7_555 . 8_555
+Ag3 Ag4 Ag3' 10.2(6) 7_555 . 3_545
+Ag3 Ag4 Ag3' 69.8(7) 7_555 . 7_565
+Ag3 Ag4 Ag4 160(1) 7_555 . 2_555
+Ag3 Ag4 Ag4 102(1) 7_555 . 6_665
+Ag3 Ag4 Ag4' 89(3) 7_555 . .
+Ag3 Ag4 I1 109(1) 7_555 . .
+Ag3 Ag4 S1 45.4(5) 7_555 . 7_555
+Ag3 Ag4 S2 73.6(6) 7_555 . .
+Ag3 Ag4 S2 101.4(9) 7_555 . 6_665
+Ag3 Ag4 Ag2d 132.7(6) 7_555 . 5_665
+Ag3 Ag4 Ag2`d 119.9(6) 7_555 . .
+Ag3 Ag4 Ag2`d 140.1(8) 7_555 . 5_665
+Ag3 Ag4 Ag3d 84.2(8) 7_555 . 3_555
+Ag3 Ag4 Ag3d 1.2(3) 7_555 . 7_555
+Ag3 Ag4 Ag3d 24.2(7) 7_555 . 8_555
+Ag3 Ag4 Ag4d 13(5) 7_555 . .
+Ag3 Ag4 Ag4d 96(1) 7_555 . 6_665
+Ag3 Ag4 Ag3 102(2) 8_555 . 3_555
+Ag3 Ag4 Ag3 22(1) 8_555 . 7_555
+Ag3 Ag4 Ag3' 12(1) 8_555 . 3_545
+Ag3 Ag4 Ag3' 90(1) 8_555 . 7_565
+Ag3 Ag4 Ag4 138(2) 8_555 . 2_555
+Ag3 Ag4 Ag4 114(2) 8_555 . 6_665
+Ag3 Ag4 Ag4' 103(3) 8_555 . .
+Ag3 Ag4 I1 88(2) 8_555 . .
+Ag3 Ag4 S1 51.7(8) 8_555 . 7_555
+Ag3 Ag4 S2 65.9(7) 8_555 . .
+Ag3 Ag4 S2 122(1) 8_555 . 6_665
+Ag3 Ag4 Ag2d 140(1) 8_555 . 5_665
+Ag3 Ag4 Ag2`d 115.1(8) 8_555 . .
+Ag3 Ag4 Ag2`d 137(2) 8_555 . 5_665
+Ag3 Ag4 Ag3d 103(1) 8_555 . 3_555
+Ag3 Ag4 Ag3d 23(1) 8_555 . 7_555
+Ag3 Ag4 Ag3d 2.5(7) 8_555 . 8_555
+Ag3 Ag4 Ag4d 27(7) 8_555 . .
+Ag3 Ag4 Ag4d 110(1) 8_555 . 6_665
+Ag3' Ag4 Ag3' 78.3(9) 3_545 . 7_565
+Ag3' Ag4 Ag4 149(1) 3_545 . 2_555
+Ag3' Ag4 Ag4 107(1) 3_545 . 6_665
+Ag3' Ag4 Ag4' 94(2) 3_545 . .
+Ag3' Ag4 I1 100(1) 3_545 . .
+Ag3' Ag4 S1 49.2(7) 3_545 . 7_555
+Ag3' Ag4 S2 68.0(7) 3_545 . .
+Ag3' Ag4 S2 111(1) 3_545 . 6_665
+Ag3' Ag4 Ag2d 138.9(8) 3_545 . 5_665
+Ag3' Ag4 Ag2`d 116.4(7) 3_545 . .
+Ag3' Ag4 Ag2`d 142(1) 3_545 . 5_665
+Ag3' Ag4 Ag3d 92(1) 3_545 . 3_555
+Ag3' Ag4 Ag3d 11.4(5) 3_545 . 7_555
+Ag3' Ag4 Ag3d 14.4(6) 3_545 . 8_555
+Ag3' Ag4 Ag4d 16(7) 3_545 . .
+Ag3' Ag4 Ag4d 101(1) 3_545 . 6_665
+Ag3' Ag4 Ag3' 78.3(9) 7_565 . 3_545
+Ag3' Ag4 Ag4 129(1) 7_565 . 2_555
+Ag3' Ag4 Ag4 44(1) 7_565 . 6_665
+Ag3' Ag4 Ag4' 32(2) 7_565 . .
+Ag3' Ag4 I1 177.4(7) 7_565 . .
+Ag3' Ag4 S1 87.5(7) 7_565 . 7_555
+Ag3' Ag4 S2 84.4(8) 7_565 . .
+Ag3' Ag4 S2 54.8(7) 7_565 . 6_665
+Ag3' Ag4 Ag2d 99.0(8) 7_565 . 5_665
+Ag3' Ag4 Ag2`d 86.1(8) 7_565 . .
+Ag3' Ag4 Ag2`d 117(1) 7_565 . 5_665
+Ag3' Ag4 Ag3d 15.6(3) 7_565 . 3_555
+Ag3' Ag4 Ag3d 69.0(6) 7_565 . 7_555
+Ag3' Ag4 Ag3d 92(1) 7_565 . 8_555
+Ag3' Ag4 Ag4d 63(7) 7_565 . .
+Ag3' Ag4 Ag4d 35.4(7) 7_565 . 6_665
+Ag4 Ag4 Ag4 90 2_555 . 6_665
+Ag4 Ag4 Ag4' 104(3) 2_555 . .
+Ag4 Ag4 I1 52.3(8) 2_555 . .
+Ag4 Ag4 S1 133.4(9) 2_555 . 7_555
+Ag4 Ag4 S2 97.3(7) 2_555 . .
+Ag4 Ag4 S2 97.7(9) 2_555 . 6_665
+Ag4 Ag4 Ag2d 59.7(5) 2_555 . 5_665
+Ag4 Ag4 Ag2`d 59.8(5) 2_555 . .
+Ag4 Ag4 Ag2`d 45.7(5) 2_555 . 5_665
+Ag4 Ag4 Ag3d 113(1) 2_555 . 3_555
+Ag4 Ag4 Ag3d 161(1) 2_555 . 7_555
+Ag4 Ag4 Ag3d 135(2) 2_555 . 8_555
+Ag4 Ag4 Ag4d 158(5) 2_555 . .
+Ag4 Ag4 Ag4d 98(1) 2_555 . 6_665
+Ag4 Ag4 Ag4 90 6_665 . 2_555
+Ag4 Ag4 Ag4' 14(2) 6_665 . .
+Ag4 Ag4 I1 135(1) 6_665 . .
+Ag4 Ag4 S1 131(2) 6_665 . 7_555
+Ag4 Ag4 S2 65.9(8) 6_665 . .
+Ag4 Ag4 S2 74(1) 6_665 . 6_665
+Ag4 Ag4 Ag2d 98(1) 6_665 . 5_665
+Ag4 Ag4 Ag2`d 43.3(9) 6_665 . .
+Ag4 Ag4 Ag2`d 108(2) 6_665 . 5_665
+Ag4 Ag4 Ag3d 30(1) 6_665 . 3_555
+Ag4 Ag4 Ag3d 102(1) 6_665 . 7_555
+Ag4 Ag4 Ag3d 116(2) 6_665 . 8_555
+Ag4 Ag4 Ag4d 91(7) 6_665 . .
+Ag4 Ag4 Ag4d 8.5(9) 6_665 . 6_665
+Ag4' Ag4 I1 147(2) . . .
+Ag4' Ag4 S1 118(3) . . 7_555
+Ag4' Ag4 S2 64.7(8) . . .
+Ag4' Ag4 S2 72(2) . . 6_665
+Ag4' Ag4 Ag2d 105(2) . . 5_665
+Ag4' Ag4 Ag2`d 54(2) . . .
+Ag4' Ag4 Ag2`d 118(3) . . 5_665
+Ag4' Ag4 Ag3d 20(1) . . 3_555
+Ag4' Ag4 Ag3d 88(3) . . 7_555
+Ag4' Ag4 Ag3d 105(2) . . 8_555
+Ag4' Ag4 Ag4d 78(7) . . .
+Ag4' Ag4 Ag4d 7(2) . . 6_665
+I1 Ag4 S1 93.2(9) . . 7_555
+I1 Ag4 S2 93.0(8) . . .
+I1 Ag4 S2 127.8(7) . . 6_665
+I1 Ag4 Ag2d 83.5(6) . . 5_665
+I1 Ag4 Ag2`d 92.7(6) . . .
+I1 Ag4 Ag2`d 65.2(7) . . 5_665
+I1 Ag4 Ag3d 164(1) . . 3_555
+I1 Ag4 Ag3d 110(1) . . 7_555
+I1 Ag4 Ag3d 86(1) . . 8_555
+I1 Ag4 Ag4d 115(8) . . .
+I1 Ag4 Ag4d 144(1) . . 6_665
+S1 Ag4 S2 117(1) 7_555 . .
+S1 Ag4 S2 78.9(5) 7_555 . 6_665
+S1 Ag4 Ag2d 89.8(3) 7_555 . 5_665
+S1 Ag4 Ag2`d 165.3(8) 7_555 . .
+S1 Ag4 Ag2`d 94.7(5) 7_555 . 5_665
+S1 Ag4 Ag3d 102.2(8) 7_555 . 3_555
+S1 Ag4 Ag3d 44.8(4) 7_555 . 7_555
+S1 Ag4 Ag3d 51.7(7) 7_555 . 8_555
+S1 Ag4 Ag4d 57(4) 7_555 . .
+S1 Ag4 Ag4d 123(1) 7_555 . 6_665
+S2 Ag4 S2 137(1) . . 6_665
+S2 Ag4 Ag2d 153(1) . . 5_665
+S2 Ag4 Ag2`d 49.2(3) . . .
+S2 Ag4 Ag2`d 143(1) . . 5_665
+S2 Ag4 Ag3d 82.5(7) . . 3_555
+S2 Ag4 Ag3d 74.5(6) . . 7_555
+S2 Ag4 Ag3d 66.4(6) . . 8_555
+S2 Ag4 Ag4d 64(3) . . .
+S2 Ag4 Ag4d 68.2(5) . . 6_665
+S2 Ag4 S2 137(1) 6_665 . .
+S2 Ag4 Ag2d 45.4(3) 6_665 . 5_665
+S2 Ag4 Ag2`d 108(1) 6_665 . .
+S2 Ag4 Ag2`d 64.2(5) 6_665 . 5_665
+S2 Ag4 Ag3d 54.3(7) 6_665 . 3_555
+S2 Ag4 Ag3d 100.2(8) 6_665 . 7_555
+S2 Ag4 Ag3d 123(1) 6_665 . 8_555
+S2 Ag4 Ag4d 103(6) 6_665 . .
+S2 Ag4 Ag4d 70(1) 6_665 . 6_665
+Ag2d Ag4 Ag2`d 104.2(8) 5_665 . .
+Ag2d Ag4 Ag2`d 18.8(2) 5_665 . 5_665
+Ag2d Ag4 Ag3d 93.7(8) 5_665 . 3_555
+Ag2d Ag4 Ag3d 131.7(6) 5_665 . 7_555
+Ag2d Ag4 Ag3d 139(1) 5_665 . 8_555
+Ag2d Ag4 Ag4d 141(4) 5_665 . .
+Ag2d Ag4 Ag4d 99(1) 5_665 . 6_665
+Ag2`d Ag4 Ag2`d 100.0(9) . . 5_665
+Ag2`d Ag4 Ag3d 73.0(6) . . 3_555
+Ag2`d Ag4 Ag3d 120.5(5) . . 7_555
+Ag2`d Ag4 Ag3d 115.4(6) . . 8_555
+Ag2`d Ag4 Ag4d 108(4) . . .
+Ag2`d Ag4 Ag4d 51.4(5) . . 6_665
+Ag2`d Ag4 Ag2`d 100.0(9) 5_665 . .
+Ag2`d Ag4 Ag3d 110(1) 5_665 . 3_555
+Ag2`d Ag4 Ag3d 139.5(8) 5_665 . 7_555
+Ag2`d Ag4 Ag3d 135(2) 5_665 . 8_555
+Ag2`d Ag4 Ag4d 152(4) 5_665 . .
+Ag2`d Ag4 Ag4d 111(1) 5_665 . 6_665
+Ag3d Ag4 Ag3d 83.5(7) 3_555 . 7_555
+Ag3d Ag4 Ag3d 106(1) 3_555 . 8_555
+Ag3d Ag4 Ag4d 76(7) 3_555 . .
+Ag3d Ag4 Ag4d 21.7(4) 3_555 . 6_665
+Ag3d Ag4 Ag3d 83.5(7) 7_555 . 3_555
+Ag3d Ag4 Ag3d 25.3(6) 7_555 . 8_555
+Ag3d Ag4 Ag4d 13(5) 7_555 . .
+Ag3d Ag4 Ag4d 95(1) 7_555 . 6_665
+Ag3d Ag4 Ag3d 106(1) 8_555 . 3_555
+Ag3d Ag4 Ag3d 25.3(6) 8_555 . 7_555
+Ag3d Ag4 Ag4d 30(7) 8_555 . .
+Ag3d Ag4 Ag4d 112(1) 8_555 . 6_665
+Ag4d Ag4 Ag4d 85(7) . . 6_665
+Ag4d Ag4 Ag4d 85(7) 6_665 . .
+Ag2' Ag4' Ag2' 96(1) . . 5_665
+Ag2' Ag4' Ag3 97.2(7) . . 3_555
+Ag2' Ag4' Ag3 133.3(5) . . 7_555
+Ag2' Ag4' Ag3 115.8(4) . . 4_555
+Ag2' Ag4' Ag3 121.8(7) . . 8_555
+Ag2' Ag4' Ag3' 127.0(6) . . 3_545
+Ag2' Ag4' Ag3' 110.1(5) . . 7_565
+Ag2' Ag4' Ag4 112(2) . . .
+Ag2' Ag4' Ag4 46(2) . . 6_665
+Ag2' Ag4' S2 59.2(5) . . .
+Ag2' Ag4' S2 125.0(9) . . 6_665
+Ag2' Ag4' Ag2`d 2.1(4) . . .
+Ag2' Ag4' Ag2`d 97.7(9) . . 5_665
+Ag2' Ag4' Ag3d 94.5(4) . . 3_555
+Ag2' Ag4' Ag3d 134.1(5) . . 7_555
+Ag2' Ag4' Ag3d 116.1(3) . . 4_555
+Ag2' Ag4' Ag3d 121.1(5) . . 8_555
+Ag2' Ag4' Ag4d 121(2) . . .
+Ag2' Ag4' Ag4d 62(1) . . 6_665
+Ag2' Ag4' Ag2' 96(1) 5_665 . .
+Ag2' Ag4' Ag3 121.8(7) 5_665 . 3_555
+Ag2' Ag4' Ag3 115.8(4) 5_665 . 7_555
+Ag2' Ag4' Ag3 133.3(5) 5_665 . 4_555
+Ag2' Ag4' Ag3 97.2(7) 5_665 . 8_555
+Ag2' Ag4' Ag3' 110.1(5) 5_665 . 3_545
+Ag2' Ag4' Ag3' 127.0(6) 5_665 . 7_565
+Ag2' Ag4' Ag4 46(2) 5_665 . .
+Ag2' Ag4' Ag4 112(2) 5_665 . 6_665
+Ag2' Ag4' S2 125.0(9) 5_665 . .
+Ag2' Ag4' S2 59.2(5) 5_665 . 6_665
+Ag2' Ag4' Ag2`d 97.7(9) 5_665 . .
+Ag2' Ag4' Ag2`d 2.1(4) 5_665 . 5_665
+Ag2' Ag4' Ag3d 121.1(5) 5_665 . 3_555
+Ag2' Ag4' Ag3d 116.1(3) 5_665 . 7_555
+Ag2' Ag4' Ag3d 134.1(5) 5_665 . 4_555
+Ag2' Ag4' Ag3d 94.5(4) 5_665 . 8_555
+Ag2' Ag4' Ag4d 62(1) 5_665 . .
+Ag2' Ag4' Ag4d 121(2) 5_665 . 6_665
+Ag3 Ag4' Ag3 94(1) 3_555 . 7_555
+Ag3 Ag4' Ag3 28.0(9) 3_555 . 4_555
+Ag3 Ag4' Ag3 121(2) 3_555 . 8_555
+Ag3 Ag4' Ag3' 105(1) 3_555 . 3_545
+Ag3 Ag4' Ag3' 16.2(9) 3_555 . 7_565
+Ag3 Ag4' Ag4 149(2) 3_555 . .
+Ag3 Ag4' Ag4 52(2) 3_555 . 6_665
+Ag3 Ag4' S2 110.4(7) 3_555 . .
+Ag3 Ag4' S2 66.8(4) 3_555 . 6_665
+Ag3 Ag4' Ag2`d 97.8(6) 3_555 . .
+Ag3 Ag4' Ag2`d 119.9(6) 3_555 . 5_665
+Ag3 Ag4' Ag3d 2.9(7) 3_555 . 3_555
+Ag3 Ag4' Ag3d 92(1) 3_555 . 7_555
+Ag3 Ag4' Ag3d 29.2(9) 3_555 . 4_555
+Ag3 Ag4' Ag3d 124(2) 3_555 . 8_555
+Ag3 Ag4' Ag4d 142(2) 3_555 . .
+Ag3 Ag4' Ag4d 36(1) 3_555 . 6_665
+Ag3 Ag4' Ag3 94(1) 7_555 . 3_555
+Ag3 Ag4' Ag3 65.6(7) 7_555 . 4_555
+Ag3 Ag4' Ag3 28.0(9) 7_555 . 8_555
+Ag3 Ag4' Ag3' 12.3(5) 7_555 . 3_545
+Ag3 Ag4' Ag3' 77.6(9) 7_555 . 7_565
+Ag3 Ag4' Ag4 76(2) 7_555 . .
+Ag3 Ag4' Ag4 132(3) 7_555 . 6_665
+Ag3 Ag4' S2 74.4(6) 7_555 . .
+Ag3 Ag4' S2 101.0(8) 7_555 . 6_665
+Ag3 Ag4' Ag2`d 131.2(3) 7_555 . .
+Ag3 Ag4' Ag2`d 115.7(3) 7_555 . 5_665
+Ag3 Ag4' Ag3d 96(1) 7_555 . 3_555
+Ag3 Ag4' Ag3d 1.3(3) 7_555 . 7_555
+Ag3 Ag4' Ag3d 64.4(6) 7_555 . 4_555
+Ag3 Ag4' Ag3d 30.7(6) 7_555 . 8_555
+Ag3 Ag4' Ag4d 59(2) 7_555 . .
+Ag3 Ag4' Ag4d 118(2) 7_555 . 6_665
+Ag3 Ag4' Ag3 28.0(9) 4_555 . 3_555
+Ag3 Ag4' Ag3 65.6(7) 4_555 . 7_555
+Ag3 Ag4' Ag3 94(1) 4_555 . 8_555
+Ag3 Ag4' Ag3' 77.6(9) 4_555 . 3_545
+Ag3 Ag4' Ag3' 12.3(5) 4_555 . 7_565
+Ag3 Ag4' Ag4 132(3) 4_555 . .
+Ag3 Ag4' Ag4 76(2) 4_555 . 6_665
+Ag3 Ag4' S2 101.0(8) 4_555 . .
+Ag3 Ag4' S2 74.4(6) 4_555 . 6_665
+Ag3 Ag4' Ag2`d 115.7(3) 4_555 . .
+Ag3 Ag4' Ag2`d 131.2(3) 4_555 . 5_665
+Ag3 Ag4' Ag3d 30.7(6) 4_555 . 3_555
+Ag3 Ag4' Ag3d 64.4(6) 4_555 . 7_555
+Ag3 Ag4' Ag3d 1.3(3) 4_555 . 4_555
+Ag3 Ag4' Ag3d 96(1) 4_555 . 8_555
+Ag3 Ag4' Ag4d 118(2) 4_555 . .
+Ag3 Ag4' Ag4d 59(2) 4_555 . 6_665
+Ag3 Ag4' Ag3 121(2) 8_555 . 3_555
+Ag3 Ag4' Ag3 28.0(9) 8_555 . 7_555
+Ag3 Ag4' Ag3 94(1) 8_555 . 4_555
+Ag3 Ag4' Ag3' 16.2(9) 8_555 . 3_545
+Ag3 Ag4' Ag3' 105(1) 8_555 . 7_565
+Ag3 Ag4' Ag4 52(2) 8_555 . .
+Ag3 Ag4' Ag4 149(2) 8_555 . 6_665
+Ag3 Ag4' S2 66.8(4) 8_555 . .
+Ag3 Ag4' S2 110.4(7) 8_555 . 6_665
+Ag3 Ag4' Ag2`d 119.9(6) 8_555 . .
+Ag3 Ag4' Ag2`d 97.8(6) 8_555 . 5_665
+Ag3 Ag4' Ag3d 124(2) 8_555 . 3_555
+Ag3 Ag4' Ag3d 29.2(9) 8_555 . 7_555
+Ag3 Ag4' Ag3d 92(1) 8_555 . 4_555
+Ag3 Ag4' Ag3d 2.9(7) 8_555 . 8_555
+Ag3 Ag4' Ag4d 36(1) 8_555 . .
+Ag3 Ag4' Ag4d 142(2) 8_555 . 6_665
+Ag3' Ag4' Ag3' 90(1) 3_545 . 7_565
+Ag3' Ag4' Ag4 67(2) 3_545 . .
+Ag3' Ag4' Ag4 138(2) 3_545 . 6_665
+Ag3' Ag4' S2 68.1(6) 3_545 . .
+Ag3' Ag4' S2 107.9(9) 3_545 . 6_665
+Ag3' Ag4' Ag2`d 125.0(4) 3_545 . .
+Ag3' Ag4' Ag2`d 110.3(4) 3_545 . 5_665
+Ag3' Ag4' Ag3d 108(1) 3_545 . 3_555
+Ag3' Ag4' Ag3d 13.6(4) 3_545 . 7_555
+Ag3' Ag4' Ag3d 76.3(8) 3_545 . 4_555
+Ag3' Ag4' Ag3d 19.1(4) 3_545 . 8_555
+Ag3' Ag4' Ag4d 50(1) 3_545 . .
+Ag3' Ag4' Ag4d 128(2) 3_545 . 6_665
+Ag3' Ag4' Ag3' 90(1) 7_565 . 3_545
+Ag3' Ag4' Ag4 138(2) 7_565 . .
+Ag3' Ag4' Ag4 67(2) 7_565 . 6_665
+Ag3' Ag4' S2 107.9(9) 7_565 . .
+Ag3' Ag4' S2 68.1(6) 7_565 . 6_665
+Ag3' Ag4' Ag2`d 110.3(4) 7_565 . .
+Ag3' Ag4' Ag2`d 125.0(4) 7_565 . 5_665
+Ag3' Ag4' Ag3d 19.1(4) 7_565 . 3_555
+Ag3' Ag4' Ag3d 76.3(8) 7_565 . 7_555
+Ag3' Ag4' Ag3d 13.6(4) 7_565 . 4_555
+Ag3' Ag4' Ag3d 108(1) 7_565 . 8_555
+Ag3' Ag4' Ag4d 128(2) 7_565 . .
+Ag3' Ag4' Ag4d 50(1) 7_565 . 6_665
+Ag4 Ag4' Ag4 151(4) . . 6_665
+Ag4 Ag4' S2 95(1) . . .
+Ag4 Ag4' S2 86(1) . . 6_665
+Ag4 Ag4' Ag2`d 111(2) . . .
+Ag4 Ag4' Ag2`d 47(2) . . 5_665
+Ag4 Ag4' Ag3d 151(2) . . 3_555
+Ag4 Ag4' Ag3d 76(2) . . 7_555
+Ag4 Ag4' Ag3d 131(3) . . 4_555
+Ag4 Ag4' Ag3d 49(2) . . 8_555
+Ag4 Ag4' Ag4d 17(2) . . .
+Ag4 Ag4' Ag4d 166(4) . . 6_665
+Ag4 Ag4' Ag4 151(4) 6_665 . .
+Ag4 Ag4' S2 86(1) 6_665 . .
+Ag4 Ag4' S2 95(1) 6_665 . 6_665
+Ag4 Ag4' Ag2`d 47(2) 6_665 . .
+Ag4 Ag4' Ag2`d 111(2) 6_665 . 5_665
+Ag4 Ag4' Ag3d 49(2) 6_665 . 3_555
+Ag4 Ag4' Ag3d 131(3) 6_665 . 7_555
+Ag4 Ag4' Ag3d 76(2) 6_665 . 4_555
+Ag4 Ag4' Ag3d 151(2) 6_665 . 8_555
+Ag4 Ag4' Ag4d 166(4) 6_665 . .
+Ag4 Ag4' Ag4d 17(2) 6_665 . 6_665
+S2 Ag4' S2 175(1) . . 6_665
+S2 Ag4' Ag2`d 57.1(3) . . .
+S2 Ag4' Ag2`d 127.1(8) . . 5_665
+S2 Ag4' Ag3d 110.1(5) . . 3_555
+S2 Ag4' Ag3d 75.4(6) . . 7_555
+S2 Ag4' Ag3d 100.0(7) . . 4_555
+S2 Ag4' Ag3d 67.4(2) . . 8_555
+S2 Ag4' Ag4d 88.1(1) . . .
+S2 Ag4' Ag4d 91.8(1) . . 6_665
+S2 Ag4' S2 175(1) 6_665 . .
+S2 Ag4' Ag2`d 127.1(8) 6_665 . .
+S2 Ag4' Ag2`d 57.1(3) 6_665 . 5_665
+S2 Ag4' Ag3d 67.4(2) 6_665 . 3_555
+S2 Ag4' Ag3d 100.0(7) 6_665 . 7_555
+S2 Ag4' Ag3d 75.4(6) 6_665 . 4_555
+S2 Ag4' Ag3d 110.1(5) 6_665 . 8_555
+S2 Ag4' Ag4d 91.8(1) 6_665 . .
+S2 Ag4' Ag4d 88.1(1) 6_665 . 6_665
+Ag2`d Ag4' Ag2`d 99.1(9) . . 5_665
+Ag2`d Ag4' Ag3d 95.2(3) . . 3_555
+Ag2`d Ag4' Ag3d 132.1(3) . . 7_555
+Ag2`d Ag4' Ag3d 115.8(2) . . 4_555
+Ag2`d Ag4' Ag3d 119.3(3) . . 8_555
+Ag2`d Ag4' Ag4d 120(2) . . .
+Ag2`d Ag4' Ag4d 62(1) . . 6_665
+Ag2`d Ag4' Ag2`d 99.1(9) 5_665 . .
+Ag2`d Ag4' Ag3d 119.3(3) 5_665 . 3_555
+Ag2`d Ag4' Ag3d 115.8(2) 5_665 . 7_555
+Ag2`d Ag4' Ag3d 132.1(3) 5_665 . 4_555
+Ag2`d Ag4' Ag3d 95.2(3) 5_665 . 8_555
+Ag2`d Ag4' Ag4d 62(1) 5_665 . .
+Ag2`d Ag4' Ag4d 120(2) 5_665 . 6_665
+Ag3d Ag4' Ag3d 95(1) 3_555 . 7_555
+Ag3d Ag4' Ag3d 31.9(5) 3_555 . 4_555
+Ag3d Ag4' Ag3d 127(2) 3_555 . 8_555
+Ag3d Ag4' Ag4d 145(2) 3_555 . .
+Ag3d Ag4' Ag4d 33(1) 3_555 . 6_665
+Ag3d Ag4' Ag3d 95(1) 7_555 . 3_555
+Ag3d Ag4' Ag3d 63.2(5) 7_555 . 4_555
+Ag3d Ag4' Ag3d 31.9(5) 7_555 . 8_555
+Ag3d Ag4' Ag4d 60(2) 7_555 . .
+Ag3d Ag4' Ag4d 118(2) 7_555 . 6_665
+Ag3d Ag4' Ag3d 31.9(5) 4_555 . 3_555
+Ag3d Ag4' Ag3d 63.2(5) 4_555 . 7_555
+Ag3d Ag4' Ag3d 95(1) 4_555 . 8_555
+Ag3d Ag4' Ag4d 118(2) 4_555 . .
+Ag3d Ag4' Ag4d 60(2) 4_555 . 6_665
+Ag3d Ag4' Ag3d 127(2) 8_555 . 3_555
+Ag3d Ag4' Ag3d 31.9(5) 8_555 . 7_555
+Ag3d Ag4' Ag3d 95(1) 8_555 . 4_555
+Ag3d Ag4' Ag4d 33(1) 8_555 . .
+Ag3d Ag4' Ag4d 145(2) 8_555 . 6_665
+Ag4d Ag4' Ag4d 177(4) . . 6_665
+Ag4d Ag4' Ag4d 177(4) 6_665 . .
+S1 Sb S2 94.80(4) 1_565 . 3_554
+S1 Sb S2 94.80(4) 1_565 . 4_555
+S2 Sb S2 95.42(5) 3_554 . 4_555
+S2 Sb S2 95.42(5) 4_555 . 3_554
+Ag1 Ag1d Ag2' 148.3(9) . . 3_545
+Ag1 Ag1d Ag2'' 36(1) . . .
+Ag1 Ag1d Ag3 84(1) . . 8_555
+Ag1 Ag1d Ag3' 99(1) . . 3_545
+Ag1 Ag1d I1 135(1) . . 7_455
+Ag1 Ag1d I2 128(1) . . 3_545
+Ag1 Ag1d S1 59.6(9) . . .
+Ag1 Ag1d S2 64.6(9) . . .
+Ag1 Ag1d Ag2`d 148.1(9) . . 3_545
+Ag1 Ag1d Ag2``d 37(1) . . .
+Ag1 Ag1d Ag3d 82(1) . . 8_555
+Ag2' Ag1d Ag2'' 142.6(6) 3_545 . .
+Ag2' Ag1d Ag3 119.8(6) 3_545 . 8_555
+Ag2' Ag1d Ag3' 106.9(4) 3_545 . 3_545
+Ag2' Ag1d I1 52.1(4) 3_545 . 7_455
+Ag2' Ag1d I2 59.0(5) 3_545 . 3_545
+Ag2' Ag1d S1 89.3(2) 3_545 . .
+Ag2' Ag1d S2 146.4(2) 3_545 . .
+Ag2' Ag1d Ag2`d 2.3(5) 3_545 . 3_545
+Ag2' Ag1d Ag2``d 143.8(5) 3_545 . .
+Ag2' Ag1d Ag3d 121.5(4) 3_545 . 8_555
+Ag2'' Ag1d Ag3 95.7(6) . . 8_555
+Ag2'' Ag1d Ag3' 105.8(6) . . 3_545
+Ag2'' Ag1d I1 100.3(2) . . 7_455
+Ag2'' Ag1d I2 158.4(4) . . 3_545
+Ag2'' Ag1d S1 70.1(5) . . .
+Ag2'' Ag1d S2 52.5(5) . . .
+Ag2'' Ag1d Ag2`d 144.6(4) . . 3_545
+Ag2'' Ag1d Ag2``d 2.4(5) . . .
+Ag2'' Ag1d Ag3d 94.3(4) . . 8_555
+Ag3 Ag1d Ag3' 15.4(6) 8_555 . 3_545
+Ag3 Ag1d I1 122.2(5) 8_555 . 7_455
+Ag3 Ag1d I2 64.2(4) 8_555 . 3_545
+Ag3 Ag1d S1 136.2(5) 8_555 . .
+Ag3 Ag1d S2 49.4(3) 8_555 . .
+Ag3 Ag1d Ag2`d 118.3(4) 8_555 . 3_545
+Ag3 Ag1d Ag2``d 93.9(4) 8_555 . .
+Ag3 Ag1d Ag3d 2.2(5) 8_555 . 8_555
+Ag3' Ag1d I1 108.1(2) 3_545 . 7_455
+Ag3' Ag1d I2 56.5(3) 3_545 . 3_545
+Ag3' Ag1d S1 150.5(2) 3_545 . .
+Ag3' Ag1d S2 54.9(3) 3_545 . .
+Ag3' Ag1d Ag2`d 105.7(3) 3_545 . 3_545
+Ag3' Ag1d Ag2``d 103.7(3) 3_545 . .
+Ag3' Ag1d Ag3d 17.6(2) 3_545 . 8_555
+I1 Ag1d I2 97.44(1) 7_455 . 3_545
+I1 Ag1d S1 101.31(4) 7_455 . .
+I1 Ag1d S2 103.02(3) 7_455 . .
+I1 Ag1d Ag2`d 54.30(1) 7_455 . 3_545
+I1 Ag1d Ag2``d 100.02(1) 7_455 . .
+I1 Ag1d Ag3d 124.26(1) 7_455 . 8_555
+I2 Ag1d S1 118.18(4) 3_545 . .
+I2 Ag1d S2 111.34(3) 3_545 . .
+I2 Ag1d Ag2`d 56.96(1) 3_545 . 3_545
+I2 Ag1d Ag2``d 157.15(1) 3_545 . .
+I2 Ag1d Ag3d 65.25(1) 3_545 . 8_555
+S1 Ag1d S2 120.44(4) . . .
+S1 Ag1d Ag2`d 89.59(3) . . 3_545
+S1 Ag1d Ag2``d 72.54(3) . . .
+S1 Ag1d Ag3d 134.09(4) . . 8_555
+S2 Ag1d Ag2`d 147.14(3) . . 3_545
+S2 Ag1d Ag2``d 50.17(3) . . .
+S2 Ag1d Ag3d 49.04(3) . . 8_555
+Ag2`d Ag1d Ag2``d 145.862 3_545 . .
+Ag2`d Ag1d Ag3d 119.86 3_545 . 8_555
+Ag2``d Ag1d Ag3d 92.6049 . . 8_555
+Ag2 Ag2d Ag2' 27(*) . . .
+Ag2 Ag2d Ag2'' 120(*) . . .
+Ag2 Ag2d Ag4 31(3) . . 5_665
+Ag2 Ag2d Ag4 31(3) . . 6_665
+Ag2 Ag2d I2 115(*) . . .
+Ag2 Ag2d I2 162(*) . . 5_565
+Ag2 Ag2d S2 68(6) . . .
+Ag2 Ag2d S2 68(6) . . 2_555
+Ag2 Ag2d Ag2`d 28(*) . . .
+Ag2 Ag2d Ag2``d 123(*) . . .
+Ag2' Ag2d Ag2'' 146(1) . . .
+Ag2' Ag2d Ag4 35.6(7) . . 5_665
+Ag2' Ag2d Ag4 35.6(7) . . 6_665
+Ag2' Ag2d I2 88.4(9) . . .
+Ag2' Ag2d I2 171.7(9) . . 5_565
+Ag2' Ag2d S2 81.2(4) . . .
+Ag2' Ag2d S2 81.2(4) . . 2_555
+Ag2' Ag2d Ag2`d 1.8(9) . . .
+Ag2' Ag2d Ag2``d 149.9(9) . . .
+Ag2'' Ag2d Ag4 121.0(8) . . 5_665
+Ag2'' Ag2d Ag4 121.0(8) . . 6_665
+Ag2'' Ag2d I2 125.4(8) . . .
+Ag2'' Ag2d I2 42.2(8) . . 5_565
+Ag2'' Ag2d S2 80.8(4) . . .
+Ag2'' Ag2d S2 80.8(4) . . 2_555
+Ag2'' Ag2d Ag2`d 147.9(8) . . .
+Ag2'' Ag2d Ag2``d 3.7(8) . . .
+Ag4 Ag2d Ag4 60.6(6) 5_665 . 6_665
+Ag4 Ag2d I2 105.5(6) 5_665 . .
+Ag4 Ag2d I2 147.9(5) 5_665 . 5_565
+Ag4 Ag2d S2 98.8(4) 5_665 . .
+Ag4 Ag2d S2 45.7(5) 5_665 . 2_555
+Ag4 Ag2d Ag2`d 36.5(5) 5_665 . .
+Ag4 Ag2d Ag2``d 124.0(6) 5_665 . .
+Ag4 Ag2d Ag4 60.6(6) 6_665 . 5_665
+Ag4 Ag2d I2 105.5(6) 6_665 . .
+Ag4 Ag2d I2 147.9(5) 6_665 . 5_565
+Ag4 Ag2d S2 45.7(5) 6_665 . .
+Ag4 Ag2d S2 98.8(4) 6_665 . 2_555
+Ag4 Ag2d Ag2`d 36.5(5) 6_665 . .
+Ag4 Ag2d Ag2``d 124.0(6) 6_665 . .
+I2 Ag2d I2 83.22(2) . . 5_565
+I2 Ag2d S2 120.73(3) . . .
+I2 Ag2d S2 120.73(3) . . 2_555
+I2 Ag2d Ag2`d 86.68(1) . . .
+I2 Ag2d Ag2``d 121.64(1) . . .
+I2 Ag2d I2 83.22(2) 5_565 . .
+I2 Ag2d S2 103.05(3) 5_565 . .
+I2 Ag2d S2 103.05(3) 5_565 . 2_555
+I2 Ag2d Ag2`d 169.90(1) 5_565 . .
+I2 Ag2d Ag2``d 38.42(1) 5_565 . .
+S2 Ag2d S2 114.99(4) . . 2_555
+S2 Ag2d Ag2`d 82.14(3) . . .
+S2 Ag2d Ag2``d 82.75(3) . . .
+S2 Ag2d S2 114.99(4) 2_555 . .
+S2 Ag2d Ag2`d 82.14(3) 2_555 . .
+S2 Ag2d Ag2``d 82.75(3) 2_555 . .
+Ag2`d Ag2d Ag2``d 151.68 . . .
+Ag1 Ag2`d Ag1 67.92(6) 3_554 . 4_555
+Ag1 Ag2`d Ag2 112.0(9) 3_554 . .
+Ag1 Ag2`d Ag2' 86(6) 3_554 . .
+Ag1 Ag2`d Ag2'' 122.0(4) 3_554 . .
+Ag1 Ag2`d Ag4 142.0(5) 3_554 . .
+Ag1 Ag2`d Ag4 75.2(7) 3_554 . 5_665
+Ag1 Ag2`d Ag4 103.0(5) 3_554 . 2_555
+Ag1 Ag2`d Ag4 121.6(8) 3_554 . 6_665
+Ag1 Ag2`d Ag4' 135.02(9) 3_554 . .
+Ag1 Ag2`d Ag4' 89.0(3) 3_554 . 5_665
+Ag1 Ag2`d I1 59.21(4) 3_554 . 5_665
+Ag1 Ag2`d I2 56.23(5) 3_554 . .
+Ag1 Ag2`d S2 159.43(5) 3_554 . .
+Ag1 Ag2`d S2 93.37(5) 3_554 . 2_555
+Ag1 Ag2`d Ag1d 1.32(4) 3_554 . 3_554
+Ag1 Ag2`d Ag1d 66.61(4) 3_554 . 4_555
+Ag1 Ag2`d Ag2d 109.94(4) 3_554 . .
+Ag1 Ag2`d Ag2``d 119.78(4) 3_554 . .
+Ag1 Ag2`d Ag4d 73.03(4) 3_554 . 5_665
+Ag1 Ag2`d Ag4d 121.42(4) 3_554 . 6_665
+Ag1 Ag2`d Ag1 67.92(6) 4_555 . 3_554
+Ag1 Ag2`d Ag2 112.0(9) 4_555 . .
+Ag1 Ag2`d Ag2' 86(6) 4_555 . .
+Ag1 Ag2`d Ag2'' 122.0(4) 4_555 . .
+Ag1 Ag2`d Ag4 103.0(5) 4_555 . .
+Ag1 Ag2`d Ag4 121.6(8) 4_555 . 5_665
+Ag1 Ag2`d Ag4 142.0(5) 4_555 . 2_555
+Ag1 Ag2`d Ag4 75.2(7) 4_555 . 6_665
+Ag1 Ag2`d Ag4' 89.0(3) 4_555 . .
+Ag1 Ag2`d Ag4' 135.02(9) 4_555 . 5_665
+Ag1 Ag2`d I1 59.21(4) 4_555 . 5_665
+Ag1 Ag2`d I2 56.23(5) 4_555 . .
+Ag1 Ag2`d S2 93.37(5) 4_555 . .
+Ag1 Ag2`d S2 159.43(5) 4_555 . 2_555
+Ag1 Ag2`d Ag1d 66.61(4) 4_555 . 3_554
+Ag1 Ag2`d Ag1d 1.32(4) 4_555 . 4_555
+Ag1 Ag2`d Ag2d 109.94(4) 4_555 . .
+Ag1 Ag2`d Ag2``d 119.78(4) 4_555 . .
+Ag1 Ag2`d Ag4d 121.42(4) 4_555 . 5_665
+Ag1 Ag2`d Ag4d 73.03(4) 4_555 . 6_665
+Ag2 Ag2`d Ag2' 158(7) . . .
+Ag2 Ag2`d Ag2'' 13(1) . . .
+Ag2 Ag2`d Ag4 106(1) . . .
+Ag2 Ag2`d Ag4 123(1) . . 5_665
+Ag2 Ag2`d Ag4 106(1) . . 2_555
+Ag2 Ag2`d Ag4 123(1) . . 6_665
+Ag2 Ag2`d Ag4' 112.4(9) . . .
+Ag2 Ag2`d Ag4' 112.4(9) . . 5_665
+Ag2 Ag2`d I1 169(1) . . 5_665
+Ag2 Ag2`d I2 69(1) . . .
+Ag2 Ag2`d S2 66.0(6) . . .
+Ag2 Ag2`d S2 66.0(6) . . 2_555
+Ag2 Ag2`d Ag1d 112.5(9) . . 3_554
+Ag2 Ag2`d Ag1d 112.5(9) . . 4_555
+Ag2 Ag2`d Ag2d 3(1) . . .
+Ag2 Ag2`d Ag2``d 10(1) . . .
+Ag2 Ag2`d Ag4d 122.5(6) . . 5_665
+Ag2 Ag2`d Ag4d 122.5(6) . . 6_665
+Ag2' Ag2`d Ag2'' 145(7) . . .
+Ag2' Ag2`d Ag4 56(6) . . .
+Ag2' Ag2`d Ag4 47(2) . . 5_665
+Ag2' Ag2`d Ag4 56(6) . . 2_555
+Ag2' Ag2`d Ag4 47(2) . . 6_665
+Ag2' Ag2`d Ag4' 53(4) . . .
+Ag2' Ag2`d Ag4' 53(4) . . 5_665
+Ag2' Ag2`d I1 34(7) . . 5_665
+Ag2' Ag2`d I2 133(7) . . .
+Ag2' Ag2`d S2 101(4) . . .
+Ag2' Ag2`d S2 101(4) . . 2_555
+Ag2' Ag2`d Ag1d 86(6) . . 3_554
+Ag2' Ag2`d Ag1d 86(6) . . 4_555
+Ag2' Ag2`d Ag2d 160(7) . . .
+Ag2' Ag2`d Ag2``d 148(7) . . .
+Ag2' Ag2`d Ag4d 49(2) . . 5_665
+Ag2' Ag2`d Ag4d 49(2) . . 6_665
+Ag2'' Ag2`d Ag4 94.7(7) . . .
+Ag2'' Ag2`d Ag4 115.7(9) . . 5_665
+Ag2'' Ag2`d Ag4 94.7(7) . . 2_555
+Ag2'' Ag2`d Ag4 115.7(9) . . 6_665
+Ag2'' Ag2`d Ag4' 103.0(4) . . .
+Ag2'' Ag2`d Ag4' 103.0(4) . . 5_665
+Ag2'' Ag2`d I1 178.5(6) . . 5_665
+Ag2'' Ag2`d I2 81.7(6) . . .
+Ag2'' Ag2`d S2 60.0(2) . . .
+Ag2'' Ag2`d S2 60.0(2) . . 2_555
+Ag2'' Ag2`d Ag1d 122.6(4) . . 3_554
+Ag2'' Ag2`d Ag1d 122.6(4) . . 4_555
+Ag2'' Ag2`d Ag2d 15.4(6) . . .
+Ag2'' Ag2`d Ag2``d 2.9(6) . . .
+Ag2'' Ag2`d Ag4d 115.4(3) . . 5_665
+Ag2'' Ag2`d Ag4d 115.4(3) . . 6_665
+Ag4 Ag2`d Ag4 80.0(7) . . 5_665
+Ag4 Ag2`d Ag4 60.4(6) . . 2_555
+Ag4 Ag2`d Ag4 29(1) . . 6_665
+Ag4 Ag2`d Ag4' 14.1(6) . . .
+Ag4 Ag2`d Ag4' 71.5(6) . . 5_665
+Ag4 Ag2`d I1 84.0(5) . . 5_665
+Ag4 Ag2`d I2 149.7(4) . . .
+Ag4 Ag2`d S2 48.1(4) . . .
+Ag4 Ag2`d S2 97.0(5) . . 2_555
+Ag4 Ag2`d Ag1d 141.6(5) . . 3_554
+Ag4 Ag2`d Ag1d 104.0(5) . . 4_555
+Ag4 Ag2`d Ag2d 107.8(5) . . .
+Ag4 Ag2`d Ag2``d 97.1(5) . . .
+Ag4 Ag2`d Ag4d 82.6(4) . . 5_665
+Ag4 Ag2`d Ag4d 30.5(6) . . 6_665
+Ag4 Ag2`d Ag4 80.0(7) 5_665 . .
+Ag4 Ag2`d Ag4 29(1) 5_665 . 2_555
+Ag4 Ag2`d Ag4 88.5(7) 5_665 . 6_665
+Ag4 Ag2`d Ag4' 86.7(7) 5_665 . .
+Ag4 Ag2`d Ag4' 15.3(8) 5_665 . 5_665
+Ag4 Ag2`d I1 63.3(8) 5_665 . 5_665
+Ag4 Ag2`d I2 128.7(6) 5_665 . .
+Ag4 Ag2`d S2 123.9(7) 5_665 . .
+Ag4 Ag2`d S2 57.4(7) 5_665 . 2_555
+Ag4 Ag2`d Ag1d 76.0(7) 5_665 . 3_554
+Ag4 Ag2`d Ag1d 120.7(8) 5_665 . 4_555
+Ag4 Ag2`d Ag2d 124.7(7) 5_665 . .
+Ag4 Ag2`d Ag2``d 117.5(8) 5_665 . .
+Ag4 Ag2`d Ag4d 2.6(5) 5_665 . 5_665
+Ag4 Ag2`d Ag4d 91.0(5) 5_665 . 6_665
+Ag4 Ag2`d Ag4 60.4(6) 2_555 . .
+Ag4 Ag2`d Ag4 29(1) 2_555 . 5_665
+Ag4 Ag2`d Ag4 80.0(7) 2_555 . 6_665
+Ag4 Ag2`d Ag4' 71.5(6) 2_555 . .
+Ag4 Ag2`d Ag4' 14.1(6) 2_555 . 5_665
+Ag4 Ag2`d I1 84.0(5) 2_555 . 5_665
+Ag4 Ag2`d I2 149.7(4) 2_555 . .
+Ag4 Ag2`d S2 97.0(5) 2_555 . .
+Ag4 Ag2`d S2 48.1(4) 2_555 . 2_555
+Ag4 Ag2`d Ag1d 104.0(5) 2_555 . 3_554
+Ag4 Ag2`d Ag1d 141.6(5) 2_555 . 4_555
+Ag4 Ag2`d Ag2d 107.8(5) 2_555 . .
+Ag4 Ag2`d Ag2``d 97.1(5) 2_555 . .
+Ag4 Ag2`d Ag4d 30.5(6) 2_555 . 5_665
+Ag4 Ag2`d Ag4d 82.6(4) 2_555 . 6_665
+Ag4 Ag2`d Ag4 29(1) 6_665 . .
+Ag4 Ag2`d Ag4 88.5(7) 6_665 . 5_665
+Ag4 Ag2`d Ag4 80.0(7) 6_665 . 2_555
+Ag4 Ag2`d Ag4' 15.3(8) 6_665 . .
+Ag4 Ag2`d Ag4' 86.7(7) 6_665 . 5_665
+Ag4 Ag2`d I1 63.3(8) 6_665 . 5_665
+Ag4 Ag2`d I2 128.7(6) 6_665 . .
+Ag4 Ag2`d S2 57.4(7) 6_665 . .
+Ag4 Ag2`d S2 123.9(7) 6_665 . 2_555
+Ag4 Ag2`d Ag1d 120.7(8) 6_665 . 3_554
+Ag4 Ag2`d Ag1d 76.0(7) 6_665 . 4_555
+Ag4 Ag2`d Ag2d 124.7(7) 6_665 . .
+Ag4 Ag2`d Ag2``d 117.5(8) 6_665 . .
+Ag4 Ag2`d Ag4d 91.0(5) 6_665 . 5_665
+Ag4 Ag2`d Ag4d 2.6(5) 6_665 . 6_665
+Ag4' Ag2`d Ag4' 80.9(6) . . 5_665
+Ag4' Ag2`d I1 75.83(9) . . 5_665
+Ag4' Ag2`d I2 138.7(4) . . .
+Ag4' Ag2`d S2 48.6(3) . . .
+Ag4' Ag2`d S2 111.0(3) . . 2_555
+Ag4' Ag2`d Ag1d 134.31(7) . . 3_554
+Ag4' Ag2`d Ag1d 89.9(3) . . 4_555
+Ag4' Ag2`d Ag2d 114.2(2) . . .
+Ag4' Ag2`d Ag2``d 105.1(1) . . .
+Ag4' Ag2`d Ag4d 89.2(4) . . 5_665
+Ag4' Ag2`d Ag4d 16.7(2) . . 6_665
+Ag4' Ag2`d Ag4' 80.9(6) 5_665 . .
+Ag4' Ag2`d I1 75.83(9) 5_665 . 5_665
+Ag4' Ag2`d I2 138.7(4) 5_665 . .
+Ag4' Ag2`d S2 111.0(3) 5_665 . .
+Ag4' Ag2`d S2 48.6(3) 5_665 . 2_555
+Ag4' Ag2`d Ag1d 89.9(3) 5_665 . 3_554
+Ag4' Ag2`d Ag1d 134.31(7) 5_665 . 4_555
+Ag4' Ag2`d Ag2d 114.2(2) 5_665 . .
+Ag4' Ag2`d Ag2``d 105.1(1) 5_665 . .
+Ag4' Ag2`d Ag4d 16.7(2) 5_665 . 5_665
+Ag4' Ag2`d Ag4d 89.2(4) 5_665 . 6_665
+I1 Ag2`d I2 99.82(2) 5_665 . .
+I1 Ag2`d S2 119.37(3) 5_665 . .
+I1 Ag2`d S2 119.37(3) 5_665 . 2_555
+I1 Ag2`d Ag1d 58.56(1) 5_665 . 3_554
+I1 Ag2`d Ag1d 58.56(1) 5_665 . 4_555
+I1 Ag2`d Ag2d 166.17(1) 5_665 . .
+I1 Ag2`d Ag2``d 178.68(1) 5_665 . .
+I1 Ag2`d Ag4d 63.69(1) 5_665 . 5_665
+I1 Ag2`d Ag4d 63.69(1) 5_665 . 6_665
+I2 Ag2`d S2 106.77(3) . . .
+I2 Ag2`d S2 106.77(3) . . 2_555
+I2 Ag2`d Ag1d 55.77(1) . . 3_554
+I2 Ag2`d Ag1d 55.77(1) . . 4_555
+I2 Ag2`d Ag2d 66.35(1) . . .
+I2 Ag2`d Ag2``d 78.87(1) . . .
+I2 Ag2`d Ag4d 126.249 . . 5_665
+I2 Ag2`d Ag4d 126.249 . . 6_665
+S2 Ag2`d S2 103.51(4) . . 2_555
+S2 Ag2`d Ag1d 158.30(3) . . 3_554
+S2 Ag2`d Ag1d 94.69(3) . . 4_555
+S2 Ag2`d Ag2d 67.30(3) . . .
+S2 Ag2`d Ag2``d 61.21(3) . . .
+S2 Ag2`d Ag4d 126.25(3) . . 5_665
+S2 Ag2`d Ag4d 56.50(3) . . 6_665
+S2 Ag2`d S2 103.51(4) 2_555 . .
+S2 Ag2`d Ag1d 94.69(3) 2_555 . 3_554
+S2 Ag2`d Ag1d 158.30(3) 2_555 . 4_555
+S2 Ag2`d Ag2d 67.30(3) 2_555 . .
+S2 Ag2`d Ag2``d 61.21(3) 2_555 . .
+S2 Ag2`d Ag4d 56.50(3) 2_555 . 5_665
+S2 Ag2`d Ag4d 126.25(3) 2_555 . 6_665
+Ag1d Ag2`d Ag1d 65.2913 3_554 . 4_555
+Ag1d Ag2`d Ag2d 110.387 3_554 . .
+Ag1d Ag2`d Ag2``d 120.412 3_554 . .
+Ag1d Ag2`d Ag4d 73.8734 3_554 . 5_665
+Ag1d Ag2`d Ag4d 120.491 3_554 . 6_665
+Ag1d Ag2`d Ag1d 65.2913 4_555 . 3_554
+Ag1d Ag2`d Ag2d 110.387 4_555 . .
+Ag1d Ag2`d Ag2``d 120.412 4_555 . .
+Ag1d Ag2`d Ag4d 120.491 4_555 . 5_665
+Ag1d Ag2`d Ag4d 73.8734 4_555 . 6_665
+Ag2d Ag2`d Ag2``d 12.5164 . . .
+Ag2d Ag2`d Ag4d 123.746 . . 5_665
+Ag2d Ag2`d Ag4d 123.746 . . 6_665
+Ag2``d Ag2`d Ag4d 117.074 . . 5_665
+Ag2``d Ag2`d Ag4d 117.074 . . 6_665
+Ag4d Ag2`d Ag4d 93.3963 5_665 . 6_665
+Ag4d Ag2`d Ag4d 93.3963 6_665 . 5_665
+Ag1 Ag2``d Ag1 76.92(6) . . 2_555
+Ag1 Ag2``d Ag2 118.4(8) . . .
+Ag1 Ag2``d Ag2' 109.3(4) . . .
+Ag1 Ag2``d Ag2'' 43(2) . . .
+Ag1 Ag2``d I2 141.30(4) . . .
+Ag1 Ag2``d I2 98.40(5) . . 5_565
+Ag1 Ag2``d S1 43.12(4) . . .
+Ag1 Ag2``d S2 50.53(5) . . .
+Ag1 Ag2``d S2 111.90(5) . . 2_555
+Ag1 Ag2``d Ag1d 1.63(5) . . .
+Ag1 Ag2``d Ag1d 78.31(4) . . 2_555
+Ag1 Ag2``d Ag2d 121.91(4) . . .
+Ag1 Ag2``d Ag2`d 110.57(5) . . .
+Ag1 Ag2``d Ag1 76.92(6) 2_555 . .
+Ag1 Ag2``d Ag2 118.4(8) 2_555 . .
+Ag1 Ag2``d Ag2' 109.3(4) 2_555 . .
+Ag1 Ag2``d Ag2'' 43(2) 2_555 . .
+Ag1 Ag2``d I2 141.30(4) 2_555 . .
+Ag1 Ag2``d I2 98.40(5) 2_555 . 5_565
+Ag1 Ag2``d S1 43.12(4) 2_555 . .
+Ag1 Ag2``d S2 111.90(5) 2_555 . .
+Ag1 Ag2``d S2 50.53(5) 2_555 . 2_555
+Ag1 Ag2``d Ag1d 78.31(4) 2_555 . .
+Ag1 Ag2``d Ag1d 1.63(5) 2_555 . 2_555
+Ag1 Ag2``d Ag2d 121.91(4) 2_555 . .
+Ag1 Ag2``d Ag2`d 110.57(5) 2_555 . .
+Ag2 Ag2``d Ag2' 12(1) . . .
+Ag2 Ag2``d Ag2'' 149(4) . . .
+Ag2 Ag2``d I2 48(1) . . .
+Ag2 Ag2``d I2 132(1) . . 5_565
+Ag2 Ag2``d S1 149(1) . . .
+Ag2 Ag2``d S2 69.9(6) . . .
+Ag2 Ag2``d S2 69.9(6) . . 2_555
+Ag2 Ag2``d Ag1d 118.6(8) . . .
+Ag2 Ag2``d Ag1d 118.6(8) . . 2_555
+Ag2 Ag2``d Ag2d 5(1) . . .
+Ag2 Ag2``d Ag2`d 11(1) . . .
+Ag2' Ag2``d Ag2'' 137(4) . . .
+Ag2' Ag2``d I2 60.3(6) . . .
+Ag2' Ag2``d I2 144.3(6) . . 5_565
+Ag2' Ag2``d S1 136.2(6) . . .
+Ag2' Ag2``d S2 64.1(3) . . .
+Ag2' Ag2``d S2 64.1(3) . . 2_555
+Ag2' Ag2``d Ag1d 109.8(4) . . .
+Ag2' Ag2``d Ag1d 109.8(4) . . 2_555
+Ag2' Ag2``d Ag2d 17.5(6) . . .
+Ag2' Ag2``d Ag2`d 1.7(6) . . .
+Ag2'' Ag2``d I2 163(4) . . .
+Ag2'' Ag2``d I2 79(4) . . 5_565
+Ag2'' Ag2``d S1 1(4) . . .
+Ag2'' Ag2``d S2 93(2) . . .
+Ag2'' Ag2``d S2 93(2) . . 2_555
+Ag2'' Ag2``d Ag1d 44(2) . . .
+Ag2'' Ag2``d Ag1d 44(2) . . 2_555
+Ag2'' Ag2``d Ag2d 154(4) . . .
+Ag2'' Ag2``d Ag2`d 139(4) . . .
+I2 Ag2``d I2 83.96(2) . . 5_565
+I2 Ag2``d S1 163.49(3) . . .
+I2 Ag2``d S2 96.96(3) . . .
+I2 Ag2``d S2 96.96(3) . . 2_555
+I2 Ag2``d Ag1d 140.027 . . .
+I2 Ag2``d Ag1d 140.027 . . 2_555
+I2 Ag2``d Ag2d 42.83(1) . . .
+I2 Ag2``d Ag2`d 58.63(1) . . .
+I2 Ag2``d I2 83.96(2) 5_565 . .
+I2 Ag2``d S1 79.53(3) 5_565 . .
+I2 Ag2``d S2 125.60(3) 5_565 . .
+I2 Ag2``d S2 125.60(3) 5_565 . 2_555
+I2 Ag2``d Ag1d 97.37(1) 5_565 . .
+I2 Ag2``d Ag1d 97.37(1) 5_565 . 2_555
+I2 Ag2``d Ag2d 126.78(1) 5_565 . .
+I2 Ag2``d Ag2`d 142.59(1) 5_565 . .
+S1 Ag2``d S2 92.67(3) . . .
+S1 Ag2``d S2 92.67(3) . . 2_555
+S1 Ag2``d Ag1d 43.85(1) . . .
+S1 Ag2``d Ag1d 43.85(1) . . 2_555
+S1 Ag2``d Ag2d 153.68(3) . . .
+S1 Ag2``d Ag2`d 137.88(3) . . .
+S2 Ag2``d S2 108.36(4) . . 2_555
+S2 Ag2``d Ag1d 50.22(3) . . .
+S2 Ag2``d Ag1d 113.53(3) . . 2_555
+S2 Ag2``d Ag2d 72.52(3) . . .
+S2 Ag2``d Ag2`d 64.80(3) . . .
+S2 Ag2``d S2 108.36(4) 2_555 . .
+S2 Ag2``d Ag1d 113.53(3) 2_555 . .
+S2 Ag2``d Ag1d 50.22(3) 2_555 . 2_555
+S2 Ag2``d Ag2d 72.52(3) 2_555 . .
+S2 Ag2``d Ag2`d 64.80(3) 2_555 . .
+Ag1d Ag2``d Ag1d 79.6787 . . 2_555
+Ag1d Ag2``d Ag2d 121.968 . . .
+Ag1d Ag2``d Ag2`d 110.977 . . .
+Ag1d Ag2``d Ag1d 79.6787 2_555 . .
+Ag1d Ag2``d Ag2d 121.968 2_555 . .
+Ag1d Ag2``d Ag2`d 110.977 2_555 . .
+Ag2d Ag2``d Ag2`d 15.8034 . . .
+Ag1 Ag3d Ag3 89(7) 8_454 . .
+Ag1 Ag3d Ag3 105.4(4) 8_454 . 2_555
+Ag1 Ag3d Ag3' 96(1) 8_454 . 5_565
+Ag1 Ag3d Ag4 103.8(4) 8_454 . 3_544
+Ag1 Ag3d Ag4 121.9(3) 8_454 . 7_455
+Ag1 Ag3d Ag4 110.5(8) 8_454 . 8_454
+Ag1 Ag3d Ag4' 109.7(4) 8_454 . 3_544
+Ag1 Ag3d Ag4' 120.9(1) 8_454 . 7_455
+Ag1 Ag3d I1 70.73(5) 8_454 . 7_454
+Ag1 Ag3d I2 56.15(4) 8_454 . 5_565
+Ag1 Ag3d S1 140.62(6) 8_454 . .
+Ag1 Ag3d S2 51.29(5) 8_454 . 8_454
+Ag1 Ag3d Ag1d 2.68(4) 8_454 . 8_454
+Ag1 Ag3d Ag3d 106.52(4) 8_454 . 2_555
+Ag1 Ag3d Ag4d 107.60(4) 8_454 . 3_544
+Ag1 Ag3d Ag4d 121.33(4) 8_454 . 7_455
+Ag1 Ag3d Ag4d 112.98(4) 8_454 . 8_454
+Ag3 Ag3d Ag3 17(7) . . 2_555
+Ag3 Ag3d Ag3' 9(7) . . 5_565
+Ag3 Ag3d Ag4 114(7) . . 3_544
+Ag3 Ag3d Ag4 34(7) . . 7_455
+Ag3 Ag3d Ag4 144(7) . . 8_454
+Ag3 Ag3d Ag4' 120(7) . . 3_544
+Ag3 Ag3d Ag4' 40(7) . . 7_455
+Ag3 Ag3d I1 152(7) . . 7_454
+Ag3 Ag3d I2 65(7) . . 5_565
+Ag3 Ag3d S1 83(7) . . .
+Ag3 Ag3d S2 94(7) . . 8_454
+Ag3 Ag3d Ag1d 87(7) . . 8_454
+Ag3 Ag3d Ag3d 18(7) . . 2_555
+Ag3 Ag3d Ag4d 109(7) . . 3_544
+Ag3 Ag3d Ag4d 33(7) . . 7_455
+Ag3 Ag3d Ag4d 138(7) . . 8_454
+Ag3 Ag3d Ag3 17(7) 2_555 . .
+Ag3 Ag3d Ag3' 9(1) 2_555 . 5_565
+Ag3 Ag3d Ag4 113.4(7) 2_555 . 3_544
+Ag3 Ag3d Ag4 20.1(7) 2_555 . 7_455
+Ag3 Ag3d Ag4 136(1) 2_555 . 8_454
+Ag3 Ag3d Ag4' 116.8(9) 2_555 . 3_544
+Ag3 Ag3d Ag4' 31.9(5) 2_555 . 7_455
+Ag3 Ag3d I1 155.2(4) 2_555 . 7_454
+Ag3 Ag3d I2 71.7(4) 2_555 . 5_565
+Ag3 Ag3d S1 66.8(4) 2_555 . .
+Ag3 Ag3d S2 107.9(4) 2_555 . 8_454
+Ag3 Ag3d Ag1d 102.8(4) 2_555 . 8_454
+Ag3 Ag3d Ag3d 1.2(4) 2_555 . 2_555
+Ag3 Ag3d Ag4d 108.4(4) 2_555 . 3_544
+Ag3 Ag3d Ag4d 20.2(4) 2_555 . 7_455
+Ag3 Ag3d Ag4d 130.9(4) 2_555 . 8_454
+Ag3' Ag3d Ag4 117(1) 5_565 . 3_544
+Ag3' Ag3d Ag4 28(1) 5_565 . 7_455
+Ag3' Ag3d Ag4 143(2) 5_565 . 8_454
+Ag3' Ag3d Ag4' 121(1) 5_565 . 3_544
+Ag3' Ag3d Ag4' 38(1) 5_565 . 7_455
+Ag3' Ag3d I1 152(1) 5_565 . 7_454
+Ag3' Ag3d I2 65(1) 5_565 . 5_565
+Ag3' Ag3d S1 74(1) 5_565 . .
+Ag3' Ag3d S2 102(1) 5_565 . 8_454
+Ag3' Ag3d Ag1d 93(1) 5_565 . 8_454
+Ag3' Ag3d Ag3d 11(1) 5_565 . 2_555
+Ag3' Ag3d Ag4d 112(1) 5_565 . 3_544
+Ag3' Ag3d Ag4d 28(1) 5_565 . 7_455
+Ag3' Ag3d Ag4d 138(1) 5_565 . 8_454
+Ag4 Ag3d Ag4 96.5(8) 3_544 . 7_455
+Ag4 Ag3d Ag4 34(1) 3_544 . 8_454
+Ag4 Ag3d Ag4' 9.0(4) 3_544 . 3_544
+Ag4 Ag3d Ag4' 82.0(6) 3_544 . 7_455
+Ag4 Ag3d I1 91.1(6) 3_544 . 7_454
+Ag4 Ag3d I2 159.3(3) 3_544 . 5_565
+Ag4 Ag3d S1 114.8(3) 3_544 . .
+Ag4 Ag3d S2 55.4(3) 3_544 . 8_454
+Ag4 Ag3d Ag1d 105.7(4) 3_544 . 8_454
+Ag4 Ag3d Ag3d 113.3(6) 3_544 . 2_555
+Ag4 Ag3d Ag4d 5.3(6) 3_544 . 3_544
+Ag4 Ag3d Ag4d 95.8(6) 3_544 . 7_455
+Ag4 Ag3d Ag4d 29.2(4) 3_544 . 8_454
+Ag4 Ag3d Ag4 96.5(8) 7_455 . 3_544
+Ag4 Ag3d Ag4 116(1) 7_455 . 8_454
+Ag4 Ag3d Ag4' 98(1) 7_455 . 3_544
+Ag4 Ag3d Ag4' 15.3(6) 7_455 . 7_455
+Ag4 Ag3d I1 162.7(3) 7_455 . 7_454
+Ag4 Ag3d I2 91.3(6) 7_455 . 5_565
+Ag4 Ag3d S1 62.7(3) 7_455 . .
+Ag4 Ag3d S2 108.0(3) 7_455 . 8_454
+Ag4 Ag3d Ag1d 119.5(4) 7_455 . 8_454
+Ag4 Ag3d Ag3d 19.4(6) 7_455 . 2_555
+Ag4 Ag3d Ag4d 91.3(6) 7_455 . 3_544
+Ag4 Ag3d Ag4d 1.1(4) 7_455 . 7_455
+Ag4 Ag3d Ag4d 110.9(6) 7_455 . 8_454
+Ag4 Ag3d Ag4 34(1) 8_454 . 3_544
+Ag4 Ag3d Ag4 116(1) 8_454 . 7_455
+Ag4 Ag3d Ag4' 26(1) 8_454 . 3_544
+Ag4 Ag3d Ag4' 105(1) 8_454 . 7_455
+Ag4 Ag3d I1 64(1) 8_454 . 7_454
+Ag4 Ag3d I2 151(1) 8_454 . 5_565
+Ag4 Ag3d S1 98.1(6) 8_454 . .
+Ag4 Ag3d S2 77.4(6) 8_454 . 8_454
+Ag4 Ag3d Ag1d 113.1(8) 8_454 . 8_454
+Ag4 Ag3d Ag3d 135(1) 8_454 . 2_555
+Ag4 Ag3d Ag4d 36(1) 8_454 . 3_544
+Ag4 Ag3d Ag4d 116(1) 8_454 . 7_455
+Ag4 Ag3d Ag4d 6(1) 8_454 . 8_454
+Ag4' Ag3d Ag4' 84.9(8) 3_544 . 7_455
+Ag4' Ag3d I1 86.8(8) 3_544 . 7_454
+Ag4' Ag3d I2 165.8(4) 3_544 . 5_565
+Ag4' Ag3d S1 107.8(3) 3_544 . .
+Ag4' Ag3d S2 63.2(1) 3_544 . 8_454
+Ag4' Ag3d Ag1d 111.8(4) 3_544 . 8_454
+Ag4' Ag3d Ag3d 116.5(8) 3_544 . 2_555
+Ag4' Ag3d Ag4d 10.6(6) 3_544 . 3_544
+Ag4' Ag3d Ag4d 97.9(8) 3_544 . 7_455
+Ag4' Ag3d Ag4d 20.9(6) 3_544 . 8_454
+Ag4' Ag3d Ag4' 84.9(8) 7_455 . 3_544
+Ag4' Ag3d I1 167.5(2) 7_455 . 7_454
+Ag4' Ag3d I2 103.1(3) 7_455 . 5_565
+Ag4' Ag3d S1 73.79(9) 7_455 . .
+Ag4' Ag3d S2 95.5(1) 7_455 . 8_454
+Ag4' Ag3d Ag1d 119.0(1) 7_455 . 8_454
+Ag4' Ag3d Ag3d 31.6(3) 7_455 . 2_555
+Ag4' Ag3d Ag4d 76.9(3) 7_455 . 3_544
+Ag4' Ag3d Ag4d 14.4(2) 7_455 . 7_455
+Ag4' Ag3d Ag4d 99.9(3) 7_455 . 8_454
+I1 Ag3d I2 86.98(1) 7_454 . 5_565
+I1 Ag3d S1 100.07(2) 7_454 . .
+I1 Ag3d S2 89.05(3) 7_454 . 8_454
+I1 Ag3d Ag1d 72.79(1) 7_454 . 8_454
+I1 Ag3d Ag3d 155.06(1) 7_454 . 2_555
+I1 Ag3d Ag4d 95.83(1) 7_454 . 3_544
+I1 Ag3d Ag4d 163.80(1) 7_454 . 7_455
+I1 Ag3d Ag4d 69.81(1) 7_454 . 8_454
+I2 Ag3d S1 85.84(4) 5_565 . .
+I2 Ag3d S2 103.95(3) 5_565 . 8_454
+I2 Ag3d Ag1d 54.14(1) 5_565 . 8_454
+I2 Ag3d Ag3d 72.1665 5_565 . 2_555
+I2 Ag3d Ag4d 161.56(1) 5_565 . 3_544
+I2 Ag3d Ag4d 91.6085 5_565 . 7_455
+I2 Ag3d Ag4d 156.781 5_565 . 8_454
+S1 Ag3d S2 167.05(5) . . 8_454
+S1 Ag3d Ag1d 139.14(4) . . 8_454
+S1 Ag3d Ag3d 65.71(2) . . 2_555
+S1 Ag3d Ag4d 111.45(4) . . 3_544
+S1 Ag3d Ag4d 63.73(2) . . 7_455
+S1 Ag3d Ag4d 98.09(3) . . 8_454
+S2 Ag3d Ag1d 52.46(3) 8_454 . 8_454
+S2 Ag3d Ag3d 108.79(3) 8_454 . 2_555
+S2 Ag3d Ag4d 58.00(3) 8_454 . 3_544
+S2 Ag3d Ag4d 106.93(3) 8_454 . 7_455
+S2 Ag3d Ag4d 76.32(3) 8_454 . 8_454
+Ag1d Ag3d Ag3d 103.913 8_454 . 2_555
+Ag1d Ag3d Ag4d 109.302 8_454 . 3_544
+Ag1d Ag3d Ag4d 118.957 8_454 . 7_455
+Ag1d Ag3d Ag4d 115.535 8_454 . 8_454
+Ag3d Ag3d Ag4d 108.304 2_555 . 3_544
+Ag3d Ag3d Ag4d 19.5724 2_555 . 7_455
+Ag3d Ag3d Ag4d 130.288 2_555 . 8_454
+Ag4d Ag3d Ag4d 90.6107 3_544 . 7_455
+Ag4d Ag3d Ag4d 31.5002 3_544 . 8_454
+Ag4d Ag3d Ag4d 90.6107 7_455 . 3_544
+Ag4d Ag3d Ag4d 110.715 7_455 . 8_454
+Ag4d Ag3d Ag4d 31.5002 8_454 . 3_544
+Ag4d Ag3d Ag4d 110.715 8_454 . 7_455
+Ag2' Ag4d Ag2' 90.6(6) . . 5_665
+Ag2' Ag4d Ag3 73.4(5) . . 3_555
+Ag2' Ag4d Ag3 126.4(4) . . 7_555
+Ag2' Ag4d Ag3 121.0(7) . . 8_555
+Ag2' Ag4d Ag3' 122.8(6) . . 3_545
+Ag2' Ag4d Ag3' 85.8(3) . . 7_565
+Ag2' Ag4d Ag4 67(4) . . .
+Ag2' Ag4d Ag4 39.8(8) . . 6_665
+Ag2' Ag4d Ag4' 47(1) . . .
+Ag2' Ag4d I1 89.2(2) . . .
+Ag2' Ag4d S1 175.0(3) . . 7_555
+Ag2' Ag4d S2 49.8(4) . . .
+Ag2' Ag4d S2 101.8(3) . . 6_665
+Ag2' Ag4d Ag2`d 92.0(3) . . 5_665
+Ag2' Ag4d Ag3d 71.3(2) . . 3_555
+Ag2' Ag4d Ag3d 127.1(3) . . 7_555
+Ag2' Ag4d Ag3d 121.1(4) . . 8_555
+Ag2' Ag4d Ag4d 47.9(2) . . 6_665
+Ag2' Ag4d Ag2' 90.6(6) 5_665 . .
+Ag2' Ag4d Ag3 107.4(6) 5_665 . 3_555
+Ag2' Ag4d Ag3 142.9(5) 5_665 . 7_555
+Ag2' Ag4d Ag3 135.2(8) 5_665 . 8_555
+Ag2' Ag4d Ag3' 143.4(7) 5_665 . 3_545
+Ag2' Ag4d Ag3' 115.6(4) 5_665 . 7_565
+Ag2' Ag4d Ag4 24(4) 5_665 . .
+Ag2' Ag4d Ag4 98.1(8) 5_665 . 6_665
+Ag2' Ag4d Ag4' 101(2) 5_665 . .
+Ag2' Ag4d I1 59.0(3) 5_665 . .
+Ag2' Ag4d S1 94.3(5) 5_665 . 7_555
+Ag2' Ag4d S2 133.2(5) 5_665 . .
+Ag2' Ag4d S2 61.9(4) 5_665 . 6_665
+Ag2' Ag4d Ag2`d 2.2(5) 5_665 . 5_665
+Ag2' Ag4d Ag3d 106.3(3) 5_665 . 3_555
+Ag2' Ag4d Ag3d 142.3(5) 5_665 . 7_555
+Ag2' Ag4d Ag3d 132.5(3) 5_665 . 8_555
+Ag2' Ag4d Ag4d 102.4(3) 5_665 . 6_665
+Ag3 Ag4d Ag3 88.1(7) 3_555 . 7_555
+Ag3 Ag4d Ag3 112(1) 3_555 . 8_555
+Ag3 Ag4d Ag3' 97.2(7) 3_555 . 3_545
+Ag3 Ag4d Ag3' 14.5(6) 3_555 . 7_565
+Ag3 Ag4d Ag4 101(8) 3_555 . .
+Ag3 Ag4d Ag4 34(1) 3_555 . 6_665
+Ag3 Ag4d Ag4' 27(2) 3_555 . .
+Ag3 Ag4d I1 158.4(6) 3_555 . .
+Ag3 Ag4d S1 104.8(5) 3_555 . 7_555
+Ag3 Ag4d S2 86.2(3) 3_555 . .
+Ag3 Ag4d S2 54.1(3) 3_555 . 6_665
+Ag3 Ag4d Ag2`d 106.1(4) 3_555 . 5_665
+Ag3 Ag4d Ag3d 2.3(6) 3_555 . 3_555
+Ag3 Ag4d Ag3d 87.3(6) 3_555 . 7_555
+Ag3 Ag4d Ag3d 114.8(6) 3_555 . 8_555
+Ag3 Ag4d Ag4d 25.6(5) 3_555 . 6_665
+Ag3 Ag4d Ag3 88.1(7) 7_555 . 3_555
+Ag3 Ag4d Ag3 26(1) 7_555 . 8_555
+Ag3 Ag4d Ag3' 11.4(6) 7_555 . 3_545
+Ag3 Ag4d Ag3' 74.4(4) 7_555 . 7_565
+Ag3 Ag4d Ag4 166(5) 7_555 . .
+Ag3 Ag4d Ag4 111.9(9) 7_555 . 6_665
+Ag3 Ag4d Ag4' 106(2) 7_555 . .
+Ag3 Ag4d I1 112.8(3) 7_555 . .
+Ag3 Ag4d S1 48.7(3) 7_555 . 7_555
+Ag3 Ag4d S2 79.9(3) 7_555 . .
+Ag3 Ag4d S2 106.8(3) 7_555 . 6_665
+Ag3 Ag4d Ag2`d 141.6(3) 7_555 . 5_665
+Ag3 Ag4d Ag3d 90.2(3) 7_555 . 3_555
+Ag3 Ag4d Ag3d 1.3(3) 7_555 . 7_555
+Ag3 Ag4d Ag3d 29.0(3) 7_555 . 8_555
+Ag3 Ag4d Ag4d 105.0(3) 7_555 . 6_665
+Ag3 Ag4d Ag3 112(1) 8_555 . 3_555
+Ag3 Ag4d Ag3 26(1) 8_555 . 7_555
+Ag3 Ag4d Ag3' 15(1) 8_555 . 3_545
+Ag3 Ag4d Ag3' 98.9(9) 8_555 . 7_565
+Ag3 Ag4d Ag4 148(8) 8_555 . .
+Ag3 Ag4d Ag4 127(1) 8_555 . 6_665
+Ag3 Ag4d Ag4' 123(2) 8_555 . .
+Ag3 Ag4d I1 88.2(9) 8_555 . .
+Ag3 Ag4d S1 55.1(6) 8_555 . 7_555
+Ag3 Ag4d S2 71.4(6) 8_555 . .
+Ag3 Ag4d S2 129.6(8) 8_555 . 6_665
+Ag3 Ag4d Ag2`d 135.3(6) 8_555 . 5_665
+Ag3 Ag4d Ag3d 113.3(9) 8_555 . 3_555
+Ag3 Ag4d Ag3d 27.2(9) 8_555 . 7_555
+Ag3 Ag4d Ag3d 3.2(9) 8_555 . 8_555
+Ag3 Ag4d Ag4d 122.3(7) 8_555 . 6_665
+Ag3' Ag4d Ag3' 84.2(5) 3_545 . 7_565
+Ag3' Ag4d Ag4 162(8) 3_545 . .
+Ag3' Ag4d Ag4 117(1) 3_545 . 6_665
+Ag3' Ag4d Ag4' 112(2) 3_545 . .
+Ag3' Ag4d I1 103.0(5) 3_545 . .
+Ag3' Ag4d S1 52.5(5) 3_545 . 7_555
+Ag3' Ag4d S2 73.8(5) 3_545 . .
+Ag3' Ag4d S2 117.8(5) 3_545 . 6_665
+Ag3' Ag4d Ag2`d 142.7(6) 3_545 . 5_665
+Ag3' Ag4d Ag3d 99.1(5) 3_545 . 3_555
+Ag3' Ag4d Ag3d 12.7(5) 3_545 . 7_555
+Ag3' Ag4d Ag3d 18.1(5) 3_545 . 8_555
+Ag3' Ag4d Ag4d 111.1(5) 3_545 . 6_665
+Ag3' Ag4d Ag3' 84.2(5) 7_565 . 3_545
+Ag3' Ag4d Ag4 113(8) 7_565 . .
+Ag3' Ag4d Ag4 47.4(9) 7_565 . 6_665
+Ag3' Ag4d Ag4' 40(2) 7_565 . .
+Ag3' Ag4d I1 172.7(2) 7_565 . .
+Ag3' Ag4d S1 91.9(3) 7_565 . 7_555
+Ag3' Ag4d S2 88.5(4) 7_565 . .
+Ag3' Ag4d S2 56.3(3) 7_565 . 6_665
+Ag3' Ag4d Ag2`d 114.0(3) 7_565 . 5_665
+Ag3' Ag4d Ag3d 16.8(2) 7_565 . 3_555
+Ag3' Ag4d Ag3d 73.6(2) 7_565 . 7_555
+Ag3' Ag4d Ag3d 102.1(2) 7_565 . 8_555
+Ag3' Ag4d Ag4d 38.8(3) 7_565 . 6_665
+Ag4 Ag4d Ag4 81(7) . . 6_665
+Ag4 Ag4d Ag4' 85(7) . . .
+Ag4 Ag4d I1 60(8) . . .
+Ag4 Ag4d S1 118(4) . . 7_555
+Ag4 Ag4d S2 111(3) . . .
+Ag4 Ag4d S2 71(6) . . 6_665
+Ag4 Ag4d Ag2`d 25(4) . . 5_665
+Ag4 Ag4d Ag3d 99(8) . . 3_555
+Ag4 Ag4d Ag3d 166(5) . . 7_555
+Ag4 Ag4d Ag3d 145(8) . . 8_555
+Ag4 Ag4d Ag4d 87(7) . . 6_665
+Ag4 Ag4d Ag4 81(7) 6_665 . .
+Ag4 Ag4d Ag4' 7(2) 6_665 . .
+Ag4 Ag4d I1 126.6(9) 6_665 . .
+Ag4 Ag4d S1 138.7(8) 6_665 . 7_555
+Ag4 Ag4d S2 68.4(6) 6_665 . .
+Ag4 Ag4d S2 71.4(6) 6_665 . 6_665
+Ag4 Ag4d Ag2`d 98.1(8) 6_665 . 5_665
+Ag4 Ag4d Ag3d 31.7(9) 6_665 . 3_555
+Ag4 Ag4d Ag3d 111.6(9) 6_665 . 7_555
+Ag4 Ag4d Ag3d 129.1(7) 6_665 . 8_555
+Ag4 Ag4d Ag4d 8.5(9) 6_665 . 6_665
+Ag4' Ag4d I1 134(2) . . .
+Ag4' Ag4d S1 132(2) . . 7_555
+Ag4' Ag4d S2 71.08(9) . . .
+Ag4' Ag4d S2 67.9(1) . . 6_665
+Ag4' Ag4d Ag2`d 101(1) . . 5_665
+Ag4' Ag4d Ag3d 25(2) . . 3_555
+Ag4' Ag4d Ag3d 106(2) . . 7_555
+Ag4' Ag4d Ag3d 126(2) . . 8_555
+Ag4' Ag4d Ag4d 1(2) . . 6_665
+I1 Ag4d S1 93.51(3) . . 7_555
+I1 Ag4d S2 92.33(3) . . .
+I1 Ag4d S2 119.90(3) . . 6_665
+I1 Ag4d Ag2`d 60.79(1) . . 5_665
+I1 Ag4d Ag3d 156.18(1) . . 3_555
+I1 Ag4d Ag3d 113.72(1) . . 7_555
+I1 Ag4d Ag3d 85.00(1) . . 8_555
+I1 Ag4d Ag4d 135.09(1) . . 6_665
+S1 Ag4d S2 125.92(4) 7_555 . .
+S1 Ag4d S2 80.42(4) 7_555 . 6_665
+S1 Ag4d Ag2`d 92.97(3) 7_555 . 5_665
+S1 Ag4d Ag3d 106.98(3) 7_555 . 3_555
+S1 Ag4d Ag3d 48.01(3) 7_555 . 7_555
+S1 Ag4d Ag3d 55.14(3) 7_555 . 8_555
+S1 Ag4d Ag4d 130.35(3) 7_555 . 6_665
+S2 Ag4d S2 138.62(4) . . 6_665
+S2 Ag4d Ag2`d 135.27(3) . . 5_665
+S2 Ag4d Ag3d 85.47(3) . . 3_555
+S2 Ag4d Ag3d 80.87(3) . . 7_555
+S2 Ag4d Ag3d 71.97(3) . . 8_555
+S2 Ag4d Ag4d 71.02(3) . . 6_665
+S2 Ag4d S2 138.62(4) 6_665 . .
+S2 Ag4d Ag2`d 59.94(3) 6_665 . 5_665
+S2 Ag4d Ag3d 54.35(3) 6_665 . 3_555
+S2 Ag4d Ag3d 105.51(3) 6_665 . 7_555
+S2 Ag4d Ag3d 131.26(3) 6_665 . 8_555
+S2 Ag4d Ag4d 67.80(3) 6_665 . 6_665
+Ag2`d Ag4d Ag3d 105.137 5_665 . 3_555
+Ag2`d Ag4d Ag3d 140.975 5_665 . 7_555
+Ag2`d Ag4d Ag3d 132.701 5_665 . 8_555
+Ag2`d Ag4d Ag4d 102.059 5_665 . 6_665
+Ag3d Ag4d Ag3d 89.3893 3_555 . 7_555
+Ag3d Ag4d Ag3d 116.517 3_555 . 8_555
+Ag3d Ag4d Ag4d 23.4205 3_555 . 6_665
+Ag3d Ag4d Ag3d 89.3893 7_555 . 3_555
+Ag3d Ag4d Ag3d 30.1397 7_555 . 8_555
+Ag3d Ag4d Ag4d 104.619 7_555 . 6_665
+Ag3d Ag4d Ag3d 116.517 8_555 . 3_555
+Ag3d Ag4d Ag3d 30.1397 8_555 . 7_555
+Ag3d Ag4d Ag4d 125.079 8_555 . 6_665
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Ag1 Ag2' 3.41(1) . 3_545
+Ag1 Ag2'' 3.03(3) . .
+Ag1 Ag3 3.15(2) . 8_555
+Ag1 Ag3' 3.42(2) . 3_545
+Ag1 I1 3.151(3) . 7_455
+Ag1 I2 3.041(2) . 3_545
+Ag1 S1 2.466(3) . .
+Ag1 S2 2.504(3) . .
+Ag1 Ag1d 0.149(2) . .
+Ag1 Ag2`d 3.415(2) . 3_545
+Ag1 Ag2``d 3.165(2) . .
+Ag1 Ag3d 3.152(3) . 8_555
+Ag2 Ag2' 1.38(4) . .
+Ag2 Ag2'' 1.32(5) . .
+Ag2 Ag4 3.36(3) . 5_665
+Ag2 Ag4 3.36(3) . 6_665
+Ag2 I2 2.80(3) . .
+Ag2 S2 2.42(1) . .
+Ag2 S2 2.42(1) . 2_555
+Ag2 Ag2d 0.12(2) . .
+Ag2 Ag2`d 1.25(3) . .
+Ag2 Ag2``d 1.15(3) . .
+Ag2' Ag1 3.41(1) . 3_554
+Ag2' Ag1 3.41(1) . 4_555
+Ag2' Ag2 1.38(4) . .
+Ag2' Ag2'' 2.62(4) . .
+Ag2' Ag4 3.40(3) . .
+Ag2' Ag4 2.41(3) . 5_665
+Ag2' Ag4 3.40(3) . 2_555
+Ag2' Ag4 2.41(3) . 6_665
+Ag2' Ag4' 2.95(3) . .
+Ag2' Ag4' 2.95(3) . 5_665
+Ag2' I1 2.79(2) . 5_665
+Ag2' I2 3.08(3) . .
+Ag2' S2 2.676(9) . .
+Ag2' S2 2.676(9) . 2_555
+Ag2' Ag1d 3.28(1) . 3_554
+Ag2' Ag1d 3.28(1) . 4_555
+Ag2' Ag2d 1.49(3) . .
+Ag2' Ag2`d 0.13(3) . .
+Ag2' Ag2``d 2.48(2) . .
+Ag2' Ag4d 3.49(2) . .
+Ag2' Ag4d 2.65(2) . 5_665
+Ag2' Ag4d 3.49(2) . 2_555
+Ag2' Ag4d 2.65(2) . 6_665
+Ag2'' Ag1 3.03(3) . .
+Ag2'' Ag1 3.03(3) . 2_555
+Ag2'' Ag2 1.32(5) . .
+Ag2'' Ag2' 2.62(4) . .
+Ag2'' I2 2.60(1) . 5_565
+Ag2'' S1 3.31(4) . .
+Ag2'' S2 2.58(1) . .
+Ag2'' S2 2.58(1) . 2_555
+Ag2'' Ag1d 3.15(3) . .
+Ag2'' Ag1d 3.15(3) . 2_555
+Ag2'' Ag2d 1.25(4) . .
+Ag2'' Ag2`d 2.51(3) . .
+Ag2'' Ag2``d 0.19(4) . .
+Ag3 Ag1 3.15(2) . 8_454
+Ag3 Ag3 1.79(4) . 2_555
+Ag3 Ag3' 0.91(3) . 5_565
+Ag3 Ag4 2.88(4) . 3_544
+Ag3 Ag4 3.23(4) . 7_455
+Ag3 Ag4 1.67(4) . 8_454
+Ag3 Ag4' 2.07(2) . 3_544
+Ag3 Ag4' 3.33(4) . 7_455
+Ag3 I1 3.27(3) . 7_454
+Ag3 I2 3.25(2) . 5_565
+Ag3 S1 2.45(2) . .
+Ag3 S2 2.45(2) . 8_454
+Ag3 Ag1d 3.16(2) . 8_454
+Ag3 Ag3d 0.12(3) . .
+Ag3 Ag3d 1.91(3) . 2_555
+Ag3 Ag4d 2.82(2) . 3_544
+Ag3 Ag4d 2.97(3) . 7_455
+Ag3 Ag4d 1.44(2) . 8_454
+Ag3' Ag1 3.42(2) . 3_554
+Ag3' Ag1 3.42(2) . 4_555
+Ag3' Ag3 0.91(3) . 5_565
+Ag3' Ag3 0.91(3) . 6_565
+Ag3' Ag4 2.47(3) . 3_554
+Ag3' Ag4 3.42(4) . 7_465
+Ag3' Ag4 2.47(3) . 4_555
+Ag3' Ag4 3.42(4) . 8_464
+Ag3' Ag4' 2.69(3) . 3_554
+Ag3' Ag4' 2.69(3) . 7_465
+Ag3' I2 3.02(2) . .
+Ag3' S1 2.39(2) . 5_565
+Ag3' S2 2.84(2) . 3_554
+Ag3' S2 2.84(2) . 4_555
+Ag3' Ag1d 3.39(2) . 3_554
+Ag3' Ag1d 3.39(2) . 4_555
+Ag3' Ag3d 1.029(4) . 5_565
+Ag3' Ag3d 1.029(4) . 6_565
+Ag3' Ag4d 2.22(1) . 3_554
+Ag3' Ag4d 3.31(2) . 7_465
+Ag3' Ag4d 2.22(1) . 4_555
+Ag3' Ag4d 3.31(2) . 8_464
+Ag4 Ag2 3.36(3) . 5_665
+Ag4 Ag2' 3.40(3) . .
+Ag4 Ag2' 2.41(3) . 5_665
+Ag4 Ag3 2.88(4) . 3_555
+Ag4 Ag3 3.23(4) . 7_555
+Ag4 Ag3 1.67(4) . 8_555
+Ag4 Ag3' 2.47(3) . 3_545
+Ag4 Ag3' 3.42(4) . 7_565
+Ag4 Ag4 3.49(4) . 2_555
+Ag4 Ag4 1.76(5) . 6_665
+Ag4 Ag4' 0.91(3) . .
+Ag4 I1 2.85(3) . .
+Ag4 S1 3.10(3) . 7_555
+Ag4 S2 2.60(1) . .
+Ag4 S2 2.48(3) . 6_665
+Ag4 Ag2d 3.46(2) . 5_665
+Ag4 Ag2`d 3.47(2) . .
+Ag4 Ag2`d 2.50(2) . 5_665
+Ag4 Ag3d 2.83(3) . 3_555
+Ag4 Ag3d 3.33(3) . 7_555
+Ag4 Ag3d 1.57(3) . 8_555
+Ag4 Ag4d 0.26(3) . .
+Ag4 Ag4d 1.78(3) . 6_665
+Ag4' Ag2' 2.95(3) . .
+Ag4' Ag2' 2.95(3) . 5_665
+Ag4' Ag3 2.07(2) . 3_555
+Ag4' Ag3 3.33(4) . 7_555
+Ag4' Ag3 3.33(4) . 4_555
+Ag4' Ag3 2.07(2) . 8_555
+Ag4' Ag3' 2.69(3) . 3_545
+Ag4' Ag3' 2.69(3) . 7_565
+Ag4' Ag4 0.91(3) . .
+Ag4' Ag4 0.91(3) . 6_665
+Ag4' S2 2.362(2) . .
+Ag4' S2 2.362(2) . 6_665
+Ag4' Ag2`d 3.03(2) . .
+Ag4' Ag2`d 3.03(2) . 5_665
+Ag4' Ag3d 2.01(1) . 3_555
+Ag4' Ag3d 3.43(3) . 7_555
+Ag4' Ag3d 3.43(3) . 4_555
+Ag4' Ag3d 2.01(1) . 8_555
+Ag4' Ag4d 0.8876(8) . .
+Ag4' Ag4d 0.8876(8) . 6_665
+Sb S1 2.426(2) . 1_565
+Sb S2 2.431(1) . 3_554
+Sb S2 2.431(1) . 4_555
+Ag1d Ag1 0.149(2) . .
+Ag1d Ag2' 3.28(1) . 3_545
+Ag1d Ag2'' 3.15(3) . .
+Ag1d Ag3 3.16(2) . 8_555
+Ag1d Ag3' 3.39(2) . 3_545
+Ag1d I1 3.0448(5) . 7_455
+Ag1d I2 2.9479(5) . 3_545
+Ag1d S1 2.538(1) . .
+Ag1d S2 2.564(1) . .
+Ag1d Ag2`d 3.2882 . 3_545
+Ag1d Ag2``d 3.2819 . .
+Ag1d Ag3d 3.1694 . 8_555
+Ag2d Ag2 0.12(2) . .
+Ag2d Ag2' 1.49(3) . .
+Ag2d Ag2'' 1.25(4) . .
+Ag2d Ag4 3.46(2) . 5_665
+Ag2d Ag4 3.46(2) . 6_665
+Ag2d I2 2.7424(6) . .
+Ag2d I2 3.3877(6) . 5_565
+Ag2d S2 2.464(1) . .
+Ag2d S2 2.464(1) . 2_555
+Ag2d Ag2`d 1.3577 . .
+Ag2d Ag2``d 1.0804 . .
+Ag2`d Ag1 3.415(2) . 3_554
+Ag2`d Ag1 3.415(2) . 4_555
+Ag2`d Ag2 1.25(3) . .
+Ag2`d Ag2' 0.13(3) . .
+Ag2`d Ag2'' 2.51(3) . .
+Ag2`d Ag4 3.47(2) . .
+Ag2`d Ag4 2.50(2) . 5_665
+Ag2`d Ag4 3.47(2) . 2_555
+Ag2`d Ag4 2.50(2) . 6_665
+Ag2`d Ag4' 3.03(2) . .
+Ag2`d Ag4' 3.03(2) . 5_665
+Ag2`d I1 2.8981(7) . 5_665
+Ag2`d I2 2.9888(6) . .
+Ag2`d S2 2.645(1) . .
+Ag2`d S2 2.645(1) . 2_555
+Ag2`d Ag1d 3.2882 . 3_554
+Ag2`d Ag1d 3.2882 . 4_555
+Ag2`d Ag2d 1.3577 . .
+Ag2`d Ag2``d 2.3651 . .
+Ag2`d Ag4d 2.7367 . 5_665
+Ag2`d Ag4d 2.7367 . 6_665
+Ag2``d Ag1 3.165(2) . .
+Ag2``d Ag1 3.165(2) . 2_555
+Ag2``d Ag2 1.15(3) . .
+Ag2``d Ag2' 2.48(2) . .
+Ag2``d Ag2'' 0.19(4) . .
+Ag2``d I2 3.4346(6) . .
+Ag2``d I2 2.6283(6) . 5_565
+Ag2``d S1 3.495(2) . .
+Ag2``d S2 2.562(1) . .
+Ag2``d S2 2.562(1) . 2_555
+Ag2``d Ag1d 3.2819 . .
+Ag2``d Ag1d 3.2819 . 2_555
+Ag2``d Ag2d 1.0804 . .
+Ag2``d Ag2`d 2.3651 . .
+Ag3d Ag1 3.152(3) . 8_454
+Ag3d Ag3 0.12(3) . .
+Ag3d Ag3 1.91(3) . 2_555
+Ag3d Ag3' 1.029(4) . 5_565
+Ag3d Ag4 2.83(3) . 3_544
+Ag3d Ag4 3.33(3) . 7_455
+Ag3d Ag4 1.57(3) . 8_454
+Ag3d Ag4' 2.01(1) . 3_544
+Ag3d Ag4' 3.43(3) . 7_455
+Ag3d I1 3.1591(3) . 7_454
+Ag3d I2 3.3036(6) . 5_565
+Ag3d S1 2.460(2) . .
+Ag3d S2 2.442(1) . 8_454
+Ag3d Ag1d 3.1694 . 8_454
+Ag3d Ag3d 2.0235 . 2_555
+Ag3d Ag4d 2.7795 . 3_544
+Ag3d Ag4d 3.074 . 7_455
+Ag3d Ag4d 1.35 . 8_454
+Ag4d Ag2' 3.49(2) . .
+Ag4d Ag2' 2.65(2) . 5_665
+Ag4d Ag3 2.82(2) . 3_555
+Ag4d Ag3 2.97(3) . 7_555
+Ag4d Ag3 1.44(2) . 8_555
+Ag4d Ag3' 2.22(1) . 3_545
+Ag4d Ag3' 3.31(2) . 7_565
+Ag4d Ag4 0.26(3) . .
+Ag4d Ag4 1.78(3) . 6_665
+Ag4d Ag4' 0.8876(8) . .
+Ag4d I1 2.9763(5) . .
+Ag4d S1 2.968(1) . 7_555
+Ag4d S2 2.496(1) . .
+Ag4d S2 2.549(1) . 6_665
+Ag4d Ag2`d 2.7367 . 5_665
+Ag4d Ag3d 2.7795 . 3_555
+Ag4d Ag3d 3.074 . 7_555
+Ag4d Ag3d 1.35 . 8_555
+Ag4d Ag4d 1.7747 . 6_665

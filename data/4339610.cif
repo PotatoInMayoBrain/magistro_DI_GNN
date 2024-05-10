@@ -1,0 +1,364 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 23:01:14 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179499 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/96/4339610.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4339610
+loop_
+_publ_author_name
+'You, Tae-Soo'
+'Grin, Yuri'
+'Miller, Gordon J.'
+_publ_section_title
+;
+ Planar versus puckered nets in the polar intermetallic series EuGaTt (Tt
+ = Si, Ge, Sn).
+;
+_journal_issue                   21
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              8801
+_journal_page_last               8811
+_journal_paper_doi               10.1021/ic701111e
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_moiety         'Eu Ga Sn'
+_chemical_formula_sum            'Eu Ga Sn'
+_chemical_formula_weight         340.37
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            4
+_cell_length_a                   4.5243(5)
+_cell_length_b                   4.5243(5)
+_cell_length_c                   18.067(3)
+_cell_measurement_temperature    292(2)
+_cell_volume                     320.27(7)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      292(2)
+_diffrn_measured_fraction_theta_full 0.930
+_diffrn_measured_fraction_theta_max 0.954
+_diffrn_measurement_device_type  'Bruker SMART APEX CCD'
+_diffrn_measurement_method       'w\ scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0304
+_diffrn_reflns_av_sigmaI/netI    0.0188
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            1713
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         27.94
+_diffrn_reflns_theta_min         2.25
+_exptl_absorpt_coefficient_mu    35.108
+_exptl_absorpt_correction_T_max  0.7172
+_exptl_absorpt_correction_T_min  0.2461
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    7.059
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             576
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.06
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         1.496
+_refine_diff_density_min         -2.123
+_refine_diff_density_rms         0.285
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.297
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     11
+_refine_ls_number_reflns         185
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.297
+_refine_ls_R_factor_all          0.0363
+_refine_ls_R_factor_gt           0.0293
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0147P)^2^+6.0086P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0565
+_refine_ls_wR_factor_ref         0.0587
+_reflns_number_gt                161
+_reflns_number_total             185
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic701111e-file005.cif
+_cod_data_source_block           p63mmc
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      P63/mmc
+_cod_database_code               4339610
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'-y, -x, -z+1/2'
+'-x+y, y, -z+1/2'
+'x, x-y, -z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z-1/2'
+'x-y, -y, z-1/2'
+'-x, -x+y, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Eu1 Eu 0.0000 0.0000 0.0000 0.0128(3) Uani 1 12 d S
+Eu2 Eu 0.0000 0.0000 0.2500 0.0101(3) Uani 1 12 d S
+Ga1 Ga 0.6667 0.3333 0.16205(11) 0.0142(5) Uani 1 6 d S
+Sn1 Sn 0.3333 0.6667 0.11684(6) 0.0106(3) Uani 1 6 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Eu1 0.0126(4) 0.0126(4) 0.0131(5) 0.000 0.000 0.0063(2)
+Eu2 0.0097(4) 0.0097(4) 0.0107(5) 0.000 0.000 0.0049(2)
+Ga1 0.0093(6) 0.0093(6) 0.0238(9) 0.000 0.000 0.0047(3)
+Sn1 0.0094(4) 0.0094(4) 0.0130(5) 0.000 0.000 0.0047(2)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sn Sn -0.6537 1.4246 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Sn1 Eu1 Sn1 180.00(3) 13 .
+Sn1 Eu1 Sn1 84.69(2) 13 13_565
+Sn1 Eu1 Sn1 95.31(2) . 13_565
+Sn1 Eu1 Sn1 95.31(2) 13 1_545
+Sn1 Eu1 Sn1 84.69(2) . 1_545
+Sn1 Eu1 Sn1 180.00(3) 13_565 1_545
+Sn1 Eu1 Sn1 84.69(2) 13 13_665
+Sn1 Eu1 Sn1 95.31(2) . 13_665
+Sn1 Eu1 Sn1 84.69(2) 13_565 13_665
+Sn1 Eu1 Sn1 95.31(2) 1_545 13_665
+Sn1 Eu1 Sn1 95.31(2) 13 1_445
+Sn1 Eu1 Sn1 84.69(2) . 1_445
+Sn1 Eu1 Sn1 95.31(2) 13_565 1_445
+Sn1 Eu1 Sn1 84.69(2) 1_545 1_445
+Sn1 Eu1 Sn1 180.00(3) 13_665 1_445
+Ga1 Eu2 Ga1 62.62(6) 1_455 16_456
+Ga1 Eu2 Ga1 95.44(4) 1_455 1_445
+Ga1 Eu2 Ga1 129.423(18) 16_456 1_445
+Ga1 Eu2 Ga1 129.423(18) 1_455 16_556
+Ga1 Eu2 Ga1 95.44(4) 16_456 16_556
+Ga1 Eu2 Ga1 129.423(18) 1_445 16_556
+Ga1 Eu2 Ga1 95.44(4) 1_455 .
+Ga1 Eu2 Ga1 129.423(18) 16_456 .
+Ga1 Eu2 Ga1 95.44(4) 1_445 .
+Ga1 Eu2 Ga1 62.62(6) 16_556 .
+Ga1 Eu2 Ga1 129.423(18) 1_455 16_446
+Ga1 Eu2 Ga1 95.44(4) 16_456 16_446
+Ga1 Eu2 Ga1 62.62(6) 1_445 16_446
+Ga1 Eu2 Ga1 95.44(4) 16_556 16_446
+Ga1 Eu2 Ga1 129.423(18) . 16_446
+Ga1 Eu2 Sn1 92.17(3) 1_455 16_556
+Ga1 Eu2 Sn1 48.219(16) 16_456 16_556
+Ga1 Eu2 Sn1 168.67(3) 1_445 16_556
+Ga1 Eu2 Sn1 48.219(16) 16_556 16_556
+Ga1 Eu2 Sn1 92.17(3) . 16_556
+Ga1 Eu2 Sn1 106.04(3) 16_446 16_556
+Ga1 Eu2 Sn1 48.219(16) 1_455 1_445
+Ga1 Eu2 Sn1 92.17(3) 16_456 1_445
+Ga1 Eu2 Sn1 48.219(16) 1_445 1_445
+Ga1 Eu2 Sn1 168.67(3) 16_556 1_445
+Ga1 Eu2 Sn1 106.04(3) . 1_445
+Ga1 Eu2 Sn1 92.17(3) 16_446 1_445
+Sn1 Eu2 Sn1 136.842(10) 16_556 1_445
+Ga1 Eu2 Sn1 168.67(3) 1_455 16_546
+Ga1 Eu2 Sn1 106.04(3) 16_456 16_546
+Ga1 Eu2 Sn1 92.17(3) 1_445 16_546
+Ga1 Eu2 Sn1 48.219(16) 16_556 16_546
+Ga1 Eu2 Sn1 92.17(3) . 16_546
+Ga1 Eu2 Sn1 48.219(16) 16_446 16_546
+Sn1 Eu2 Sn1 79.14(2) 16_556 16_546
+Sn1 Eu2 Sn1 136.842(10) 1_445 16_546
+Ga1 Eu2 Sn1 106.04(3) 1_455 1_545
+Ga1 Eu2 Sn1 168.67(3) 16_456 1_545
+Ga1 Eu2 Sn1 48.219(16) 1_445 1_545
+Ga1 Eu2 Sn1 92.17(3) 16_556 1_545
+Ga1 Eu2 Sn1 48.219(16) . 1_545
+Ga1 Eu2 Sn1 92.17(3) 16_446 1_545
+Sn1 Eu2 Sn1 136.842(10) 16_556 1_545
+Sn1 Eu2 Sn1 79.14(2) 1_445 1_545
+Sn1 Eu2 Sn1 85.29(3) 16_546 1_545
+Ga1 Eu2 Sn1 48.219(16) 1_455 .
+Ga1 Eu2 Sn1 92.17(3) 16_456 .
+Ga1 Eu2 Sn1 106.04(3) 1_445 .
+Ga1 Eu2 Sn1 92.17(3) 16_556 .
+Ga1 Eu2 Sn1 48.219(16) . .
+Ga1 Eu2 Sn1 168.67(3) 16_446 .
+Sn1 Eu2 Sn1 85.29(3) 16_556 .
+Sn1 Eu2 Sn1 79.14(2) 1_445 .
+Sn1 Eu2 Sn1 136.842(10) 16_546 .
+Sn1 Eu2 Sn1 79.14(2) 1_545 .
+Ga1 Eu2 Sn1 92.17(3) 1_455 16_446
+Ga1 Eu2 Sn1 48.219(16) 16_456 16_446
+Ga1 Eu2 Sn1 92.17(3) 1_445 16_446
+Ga1 Eu2 Sn1 106.04(3) 16_556 16_446
+Ga1 Eu2 Sn1 168.67(3) . 16_446
+Ga1 Eu2 Sn1 48.219(16) 16_446 16_446
+Sn1 Eu2 Sn1 79.14(2) 16_556 16_446
+Sn1 Eu2 Sn1 85.29(3) 1_445 16_446
+Sn1 Eu2 Sn1 79.14(2) 16_546 16_446
+Sn1 Eu2 Sn1 136.842(10) 1_545 16_446
+Sn1 Eu2 Sn1 136.842(10) . 16_446
+Sn1 Ga1 Sn1 111.49(4) 1_545 1_655
+Sn1 Ga1 Sn1 111.49(4) 1_545 .
+Sn1 Ga1 Sn1 111.49(4) 1_655 .
+Sn1 Ga1 Eu2 75.369(17) 1_545 1_655
+Sn1 Ga1 Eu2 75.369(17) 1_655 1_655
+Sn1 Ga1 Eu2 166.05(7) . 1_655
+Sn1 Ga1 Eu2 166.05(7) 1_545 1_665
+Sn1 Ga1 Eu2 75.369(17) 1_655 1_665
+Sn1 Ga1 Eu2 75.369(17) . 1_665
+Eu2 Ga1 Eu2 95.44(4) 1_655 1_665
+Sn1 Ga1 Eu2 75.369(17) 1_545 .
+Sn1 Ga1 Eu2 166.05(7) 1_655 .
+Sn1 Ga1 Eu2 75.369(17) . .
+Eu2 Ga1 Eu2 95.44(4) 1_655 .
+Eu2 Ga1 Eu2 95.44(4) 1_665 .
+Ga1 Sn1 Ga1 111.49(4) 1_565 1_455
+Ga1 Sn1 Ga1 111.49(4) 1_565 .
+Ga1 Sn1 Ga1 111.49(4) 1_455 .
+Ga1 Sn1 Eu1 158.42(5) 1_565 .
+Ga1 Sn1 Eu1 79.42(3) 1_455 .
+Ga1 Sn1 Eu1 79.42(3) . .
+Ga1 Sn1 Eu1 79.42(3) 1_565 1_565
+Ga1 Sn1 Eu1 79.42(3) 1_455 1_565
+Ga1 Sn1 Eu1 158.42(5) . 1_565
+Eu1 Sn1 Eu1 84.69(2) . 1_565
+Ga1 Sn1 Eu1 79.42(3) 1_565 1_665
+Ga1 Sn1 Eu1 158.42(5) 1_455 1_665
+Ga1 Sn1 Eu1 79.42(3) . 1_665
+Eu1 Sn1 Eu1 84.69(2) . 1_665
+Eu1 Sn1 Eu1 84.69(2) 1_565 1_665
+Ga1 Sn1 Eu2 56.41(3) 1_565 1_665
+Ga1 Sn1 Eu2 119.99(5) 1_455 1_665
+Ga1 Sn1 Eu2 56.41(3) . 1_665
+Eu1 Sn1 Eu2 135.387(5) . 1_665
+Eu1 Sn1 Eu2 135.387(5) 1_565 1_665
+Eu1 Sn1 Eu2 81.588(11) 1_665 1_665
+Ga1 Sn1 Eu2 56.41(3) 1_565 1_565
+Ga1 Sn1 Eu2 56.41(3) 1_455 1_565
+Ga1 Sn1 Eu2 119.99(5) . 1_565
+Eu1 Sn1 Eu2 135.387(5) . 1_565
+Eu1 Sn1 Eu2 81.588(11) 1_565 1_565
+Eu1 Sn1 Eu2 135.387(5) 1_665 1_565
+Eu2 Sn1 Eu2 79.14(2) 1_665 1_565
+Ga1 Sn1 Eu2 119.99(5) 1_565 .
+Ga1 Sn1 Eu2 56.41(3) 1_455 .
+Ga1 Sn1 Eu2 56.41(3) . .
+Eu1 Sn1 Eu2 81.588(11) . .
+Eu1 Sn1 Eu2 135.387(5) 1_565 .
+Eu1 Sn1 Eu2 135.387(5) 1_665 .
+Eu2 Sn1 Eu2 79.14(2) 1_665 .
+Eu2 Sn1 Eu2 79.14(2) 1_565 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Eu1 Sn1 3.3585(7) 13
+Eu1 Sn1 3.3585(7) .
+Eu1 Sn1 3.3584(7) 13_565
+Eu1 Sn1 3.3584(7) 1_545
+Eu1 Sn1 3.3584(7) 13_665
+Eu1 Sn1 3.3584(7) 1_445
+Eu2 Ga1 3.0574(10) 1_455
+Eu2 Ga1 3.0574(10) 16_456
+Eu2 Ga1 3.0574(10) 1_445
+Eu2 Ga1 3.0574(10) 16_556
+Eu2 Ga1 3.0574(10) .
+Eu2 Ga1 3.0574(10) 16_446
+Eu2 Sn1 3.5512(8) 16_556
+Eu2 Sn1 3.5512(8) 1_445
+Eu2 Sn1 3.5512(8) 16_546
+Eu2 Sn1 3.5512(8) 1_545
+Eu2 Sn1 3.5512(8) .
+Eu2 Sn1 3.5512(8) 16_446
+Ga1 Sn1 2.7369(7) 1_545
+Ga1 Sn1 2.7369(7) 1_655
+Ga1 Sn1 2.7369(7) .
+Ga1 Eu2 3.0574(10) 1_655
+Ga1 Eu2 3.0574(10) 1_665
+Sn1 Ga1 2.7369(7) 1_565
+Sn1 Ga1 2.7369(7) 1_455
+Sn1 Eu1 3.3584(7) 1_565
+Sn1 Eu1 3.3584(7) 1_665
+Sn1 Eu2 3.5512(8) 1_665
+Sn1 Eu2 3.5512(8) 1_565

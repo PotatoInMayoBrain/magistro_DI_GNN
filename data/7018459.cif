@@ -1,0 +1,356 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/01/84/7018459.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7018459
+loop_
+_publ_author_name
+'Colodrero, Rosario M. P.'
+'Olivera-Pastor, Pascual'
+'Losilla, Enrique R.'
+'Aranda, Miguel A. G.'
+'Leon-Reina, Laura'
+'Papadaki, Maria'
+'McKinlay, Alistair C.'
+'Morris, Russell E.'
+'Demadis, Konstantinos D.'
+'Cabeza, Aurelio'
+_publ_section_title
+;
+ Multifunctional lanthanum tetraphosphonates: Flexible, ultramicroporous
+ and proton-conducting hybrid frameworks.
+;
+_journal_issue                   14
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              4045
+_journal_page_last               4051
+_journal_paper_doi               10.1039/c2dt11992g
+_journal_volume                  41
+_journal_year                    2012
+_chemical_formula_sum            'C10 H29 La N2 O14 P4'
+_chemical_formula_weight         663.96
+_chemical_name_common            LaH5DTMP.2H2O
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_audit_creation_date             2011-12-08T13:21
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-12-08T13:21 Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 101.923(4)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   12.5035(6)
+_cell_length_b                   18.1874(10)
+_cell_length_c                   5.82000(33)
+_cell_measurement_temperature    293
+_cell_volume                     1294.95(12)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      293
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     1.5406
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+; GSAS Absorption/surface roughness correction: function number 0
+No correction is applied.
+;
+_pd_block_id
+2011-12-08T13:21|LAH5DTMP.2H2O|LAH5DTMP.2H2O|X'Pert_Pro
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.017
+_pd_meas_2theta_range_max        99.9904
+_pd_meas_2theta_range_min        4.0084
+_pd_phase_name                   LaH5DTMP.2H2O
+_pd_proc_2theta_range_inc        0.017
+_pd_proc_2theta_range_max        99.9199
+_pd_proc_2theta_range_min        3.9379
+_pd_proc_info_datetime           2011-12-08T13:21:56
+_pd_proc_info_excluded_regions   ' ?'
+_pd_proc_ls_background_function
+; GSAS Background function number 1 with 20 terms.
+Shifted Chebyshev function of 1st kind
+1: 1647.82 2: -1486.05 3: 880.627 4: -425.360
+5: 181.121 6: -30.2813 7: -69.6481 8: 88.6265
+9: -79.7150 10: 16.9672 11: 28.8771 12: -47.6654
+13: 28.1020 14: 4.80831 15: -42.4080 16: 38.1946
+17: -26.3533 18: 17.2604 19: -14.3381 20: 14.3706
+;
+_pd_proc_ls_peak_cutoff          0.00300
+_pd_proc_ls_profile_function
+;
+CW Profile function number 4 with 21 terms
+Pseudovoigt profile coefficients as parameterized in
+P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+J. Appl. Cryst.,27,892-900.
+Microstrain broadening by P.W. Stephens, (1999). J. Appl. Cryst.,32,281-289.
+Peak tails are ignored where the intensity is below 0.0030 times the peak
+Aniso. broadening axis 0.0 0.0 1.0
+;
+_pd_proc_ls_prof_R_factor        0.0684
+_pd_proc_ls_prof_wR_expected     0.0221
+_pd_proc_ls_prof_wR_factor       0.0946
+_pd_spec_mounting                ' ?'
+_refine_ls_goodness_of_fit_all   4.52
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     127
+_refine_ls_number_restraints     74
+_refine_ls_R_Fsqd_factor         0.12184
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.091
+_reflns_d_resolution_low         12.234
+_reflns_limit_h_max              11
+_reflns_limit_h_min              0
+_reflns_limit_k_max              16
+_reflns_limit_k_min              0
+_reflns_limit_l_max              5
+_reflns_limit_l_min              -5
+_reflns_number_total             1098
+_cod_data_source_file            c2dt11992g.txt
+_cod_data_source_block           LAH5DTMP.2H2O_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (66
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (61 time).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1294.95(11)
+_cod_original_formula_sum        'C10 La N2 O14 H29 P4'
+_cod_database_code               7018459
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La 0.6695(4) 0.25 0.3763(11) 1.0 Uiso 0.01 2
+P P1 0.4652(16) 0.0889(13) 0.180(5) 1.0 Uiso 0.01 2
+P P2 -0.2521(14) 0.1126(11) 0.914(4) 1.0 Uiso 0.01 2
+O O1 0.4299(30) 0.0892(24) -0.086(5) 1.0 Uiso 0.01 2
+O O2 0.4996(22) 0.1682(16) 0.259(8) 1.0 Uiso 0.01 2
+O O3 0.5493(26) 0.0301(19) 0.278(8) 1.0 Uiso 0.01 2
+O O4 -0.1270(16) 0.1066(24) 0.931(9) 1.0 Uiso 0.01 2
+O O5 -0.3049(35) 0.1630(20) 0.710(6) 1.0 Uiso 0.01 2
+O O6 -0.2815(31) 0.1341(15) 1.151(5) 1.0 Uiso 0.01 2
+C C1 0.3484(23) 0.0732(23) 0.319(7) 1.0 Uiso 0.01 2
+C C2 -0.3091(33) 0.0229(14) 0.833(6) 1.0 Uiso 0.01 2
+N N1 0.2429(19) 0.0320(16) 0.287(6) 1.0 Uiso 0.01 2
+C C3 0.1529(28) 0.0878(23) 0.274(7) 1.0 Uiso 0.01 2
+C C4 0.1237(30) 0.0992(24) 0.510(8) 1.0 Uiso 0.01 2
+C C5 0.0166(34) 0.0652(25) 0.524(10) 1.0 Uiso 0.01 2
+P P3 -0.4468(15) -0.1014(12) 0.797(5) 1.0 Uiso 0.01 2
+P P4 0.2068(15) -0.1196(10) 0.073(4) 1.0 Uiso 0.01 2
+O O1b -0.4326(30) -0.1341(22) 1.045(5) 1.0 Uiso 0.01 2
+O O2b -0.5169(25) -0.1514(18) 0.602(6) 1.0 Uiso 0.01 2
+O O3b -0.4922(27) -0.0241(15) 0.767(8) 1.0 Uiso 0.01 2
+O O4b 0.0820(17) -0.1320(24) 0.041(8) 1.0 Uiso 0.01 2
+O O5b 0.268(4) -0.1532(21) 0.306(6) 1.0 Uiso 0.01 2
+O O6b 0.2484(31) -0.1513(19) -0.140(6) 1.0 Uiso 0.01 2
+C C1b -0.3115(20) -0.1057(15) 0.721(8) 1.0 Uiso 0.01 2
+C C2b 0.2312(34) -0.0217(10) 0.087(7) 1.0 Uiso 0.01 2
+N N2 -0.3003(28) -0.0285(17) 0.636(6) 1.0 Uiso 0.01 2
+C C8 -0.2093(33) -0.0137(26) 0.510(6) 1.0 Uiso 0.01 2
+C C7 -0.0970(33) -0.0373(28) 0.643(10) 1.0 Uiso 0.01 2
+C C6 -0.001(4) -0.0151(25) 0.541(13) 1.0 Uiso 0.01 2
+O Ow1 0.0549(30) 0.257(5) 0.104(7) 1.0 Uiso 0.01 2
+O Ow2 0.2776(29) 0.2722(29) 0.574(7) 1.0 Uiso 0.01 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+La 2.0 -2.214 3.142 20.5780 2.94817 19.5990 0.24448 11.3727 18.7726 3.28719
+133.124 2.14678 International_Tables_Vol_C
+P 8.0 0.001 0.016 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+O 28.0 -0.004 0.001 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+C 20.0 -0.002 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+N 4.0 -0.003 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 La O5 78.7(13) 1_555 1_655 n
+O2 La O6 70.6(11) 1_555 1_654 n
+O2 La O2b 80.8(9) 1_555 2_556 n
+O2 La O5b 134.6(15) 1_555 2_656 n
+O2 La O6b 130.9(14) 1_555 2_655 n
+O5 La O6 82.7(8) 1_655 1_654 n
+O5 La O2b 112.0(14) 1_655 2_556 n
+O5 La O5b 84.3(10) 1_655 2_656 n
+O5 La O6b 148.9(14) 1_655 2_655 n
+O6 La O2b 144.6(11) 1_654 2_556 n
+O6 La O5b 148.1(13) 1_654 2_656 n
+O6 La O6b 97.5(9) 1_654 2_655 n
+O2b La O5b 67.2(12) 2_556 2_656 n
+O2b La O6b 85.7(11) 2_556 2_655 n
+O5b La O6b 79.3(7) 2_656 2_655 n
+O1 P1 O2 107.7(12) 1_555 1_555 n
+O1 P1 O3 114.6(13) 1_555 1_555 n
+O1 P1 C1 111.0(12) 1_555 1_555 n
+O2 P1 O3 114.5(13) 1_555 1_555 n
+O2 P1 C1 102.3(11) 1_555 1_555 n
+O3 P1 C1 106.1(12) 1_555 1_555 n
+O4 P2 O5 111.1(12) 1_555 1_555 n
+O4 P2 O6 112.4(12) 1_555 1_555 n
+O4 P2 C2 107.0(11) 1_555 1_555 n
+O5 P2 O6 113.2(12) 1_555 1_555 n
+O5 P2 C2 104.8(11) 1_555 1_555 n
+O6 P2 C2 107.9(11) 1_555 1_555 n
+La O2 P1 141.5(18) 1_555 1_555 n
+La O5 P2 162.4(26) 1_455 1_555 n
+La O6 P2 140.5(19) 1_456 1_555 n
+P1 C1 N1 142.0(21) 1_555 1_555 n
+P2 C2 N2 132.5(21) 1_555 1_555 n
+C1 N1 C3 107.5(14) 1_555 1_555 n
+C1 N1 C2b 111.4(14) 1_555 1_555 n
+C3 N1 C2b 116.7(16) 1_555 1_555 n
+N1 C3 C4 111.7(10) 1_555 1_555 n
+C3 C4 C5 112.4(12) 1_555 1_555 n
+C4 C5 C6 123.8(18) 1_555 1_555 n
+O1b P3 O2b 113.0(12) 1_555 1_555 n
+O1b P3 O3b 115.9(13) 1_555 1_555 n
+O1b P3 C1b 105.9(11) 1_555 1_555 n
+O2b P3 O3b 108.3(12) 1_555 1_555 n
+O2b P3 C1b 101.9(10) 1_555 1_555 n
+O3b P3 C1b 110.7(11) 1_555 1_555 n
+O4b P4 O5b 110.9(12) 1_555 1_555 n
+O4b P4 O6b 110.3(12) 1_555 1_555 n
+O4b P4 C2b 107.8(11) 1_555 1_555 n
+O5b P4 O6b 111.4(12) 1_555 1_555 n
+O5b P4 C2b 107.6(11) 1_555 1_555 n
+O6b P4 C2b 108.8(11) 1_555 1_555 n
+La O2b P3 131.3(15) 2_546 1_555 n
+La O5b P4 158.8(23) 2_646 1_555 n
+La O6b P4 156.2(25) 2_645 1_555 n
+P3 C1b N2 101.1(17) 1_555 1_555 n
+N1 C2b P4 131.8(26) 1_555 1_555 n
+C2 N2 C1b 107.8(14) 1_555 1_555 n
+C2 N2 C8 116.4(15) 1_555 1_555 n
+C1b N2 C8 117.4(15) 1_555 1_555 n
+N2 C8 C7 114.5(15) 1_555 1_555 n
+C8 C7 C6 117.1(16) 1_555 1_555 n
+C5 C6 C7 115.4(16) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La O2 2.568(16) 1_555 n
+La O5 2.474(16) 1_655 n
+La O6 2.623(17) 1_654 n
+La O2b 2.640(17) 2_556 n
+La O5b 2.556(16) 2_656 n
+La O6b 2.599(16) 2_655 n
+P1 O1 1.523(9) 1_555 n
+P1 O2 1.547(9) 1_555 n
+P1 O3 1.525(9) 1_555 n
+P1 C1 1.829(16) 1_555 n
+P2 O4 1.551(9) 1_555 n
+P2 O5 1.536(9) 1_555 n
+P2 O6 1.548(9) 1_555 n
+P2 C2 1.804(9) 1_555 n
+O1 P1 1.523(9) 1_555 n
+O2 La 2.568(16) 1_555 n
+O2 P1 1.547(9) 1_555 n
+O3 P1 1.525(9) 1_555 n
+O4 P2 1.551(9) 1_555 n
+O5 La 2.474(16) 1_455 n
+O5 P2 1.536(9) 1_555 n
+O6 La 2.623(17) 1_456 n
+O6 P2 1.548(9) 1_555 n
+C1 P1 1.829(16) 1_555 n
+C1 N1 1.494(10) 1_555 n
+C2 P2 1.804(9) 1_555 n
+C2 N2 1.498(10) 1_555 n
+N1 C1 1.494(10) 1_555 n
+N1 C3 1.506(10) 1_555 n
+N1 C2b 1.502(10) 1_555 n
+C3 N1 1.506(10) 1_555 n
+C3 C4 1.508(10) 1_555 n
+C4 C3 1.508(10) 1_555 n
+C4 C5 1.492(10) 1_555 n
+C5 C4 1.492(10) 1_555 n
+C5 C6 1.483(10) 1_555 n
+P3 O1b 1.536(9) 1_555 n
+P3 O2b 1.570(9) 1_555 n
+P3 O3b 1.513(9) 1_555 n
+P3 C1b 1.836(9) 1_555 n
+P4 O4b 1.549(9) 1_555 n
+P4 O5b 1.539(9) 1_555 n
+P4 O6b 1.551(9) 1_555 n
+P4 C2b 1.805(9) 1_555 n
+O1b P3 1.536(9) 1_555 n
+O2b La 2.640(17) 2_546 n
+O2b P3 1.570(9) 1_555 n
+O3b P3 1.513(9) 1_555 n
+O4b P4 1.549(9) 1_555 n
+O5b La 2.556(16) 2_646 n
+O5b P4 1.539(9) 1_555 n
+O6b La 2.599(16) 2_645 n
+O6b P4 1.551(9) 1_555 n
+C1b P3 1.836(9) 1_555 n
+C1b N2 1.504(10) 1_555 n
+C2b N1 1.502(10) 1_555 n
+C2b P4 1.805(9) 1_555 n
+N2 C2 1.498(10) 1_555 n
+N2 C1b 1.504(10) 1_555 n
+N2 C8 1.500(10) 1_555 n
+C8 N2 1.500(10) 1_555 n
+C8 C7 1.519(10) 1_555 n
+C7 C8 1.519(10) 1_555 n
+C7 C6 1.504(10) 1_555 n
+C6 C5 1.483(10) 1_555 n
+C6 C7 1.504(10) 1_555 n

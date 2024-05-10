@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/59/9015925.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015925
+loop_
+_publ_author_name
+'Tahara, T.'
+'Nakai, I.'
+'Miyawaki, R.'
+'Matsubara, S.'
+_publ_section_title
+;
+ Crystal chemistry of RE(CO3)OH
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              326
+_journal_page_last               334
+_journal_volume                  222
+_journal_year                    2007
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'C H O4 Yb'
+_space_group_IT_number           137
+_symmetry_space_group_name_Hall  '-P 4ac 2a'
+_symmetry_space_group_name_H-M   'P 42/n m c :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   9.3771
+_cell_length_b                   9.3771
+_cell_length_c                   7.7117
+_cell_volume                     678.090
+_database_code_amcsd             0019390
+_exptl_crystal_density_diffrn    4.899
+_cod_original_sg_symbol_H-M      'P 42/n m c'
+_cod_original_formula_sum        'Yb C (O4 H)'
+_cod_database_code               9015925
+_amcsd_formula_title             Yb(CO3)OH
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2-z
+1/2+y,-x,1/2-z
+1/2-y,x,1/2+z
+x,1/2-y,z
+-x,1/2+y,-z
+1/2+x,1/2+y,-z
+1/2-x,1/2-y,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,1/2+x,1/2-z
+y,1/2-x,1/2+z
+1/2-x,y,z
+1/2+x,-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Yb 0.47311 0.52689 0.25000 0.00600 Yb 0
+C 0.49760 0.25000 0.09950 0.00720 C 0
+O-H1 0.25000 0.51350 0.16740 0.01610 O 1
+O2 0.48660 0.25000 0.26510 0.01510 O 0
+O3 0.49490 0.63090 -0.01910 0.01100 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:32+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019390

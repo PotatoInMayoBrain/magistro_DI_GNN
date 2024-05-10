@@ -1,0 +1,433 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-10-05 15:19:55 +0300 (Fri, 05 Oct 2018) $
+#$Revision: 211332 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/72/2107291.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2107291
+loop_
+_publ_author_name
+'Terlan, B\"urgehan'
+'Akselrud, Lev'
+'Baranov, Alexey I.'
+'Borrmann, Horst'
+'Grin, Yuri'
+_publ_section_title
+;
+ On the transferability of electron density in binary vanadium borides VB,
+ V~3~B~4~ and VB~2~
+;
+_journal_coeditor_code           PI5025
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              777
+_journal_page_last               787
+_journal_paper_doi               10.1107/S2052520615018363
+_journal_volume                  71
+_journal_year                    2015
+_chemical_formula_moiety         'B1 V1'
+_chemical_formula_sum            'B V'
+_chemical_formula_weight         61.75
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.0616(2)
+_cell_length_b                   8.0495(3)
+_cell_length_c                   2.9733(2)
+_cell_measurement_reflns_used    3388
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      67.75
+_cell_measurement_theta_min      4.00
+_cell_volume                     73.275(7)
+_computing_cell_refinement       WinCSD
+_computing_data_reduction        WinCSD
+_computing_publication_material  'enCIFer 1.3, CCDC, 2008'
+_computing_structure_refinement
+;
+WinCSD (Akselrud et al, 1993) and WinXD (Volkov et al., 2006)
+;
+_computing_structure_solution    WinCSD
+_diffrn_ambient_temperature      295.0
+_diffrn_measured_fraction_theta_full 0.985
+_diffrn_measured_fraction_theta_max 0.985
+_diffrn_measurement_device_type  'Rigaku R-axis Spider'
+_diffrn_measurement_method       dtprofit.ref
+_diffrn_radiation_monochromator  'Multilayer Optics'
+_diffrn_radiation_source         'Rotating Anode'
+_diffrn_radiation_type           AgK\a
+_diffrn_radiation_wavelength     0.560871
+_diffrn_reflns_av_R_equivalents  0.0196
+_diffrn_reflns_av_sigmaI/netI    0.0196
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       25
+_diffrn_reflns_limit_k_min       -26
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            3388
+_diffrn_reflns_theta_full        67.75
+_diffrn_reflns_theta_max         67.75
+_diffrn_reflns_theta_min         4.00
+_diffrn_standards_decay_%        0.10(10)
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         4
+_exptl_absorpt_coefficient_mu    6.140
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  0.8750
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'CrystalClear (Rigaku Corp., 2000), '
+_exptl_crystal_colour            grey
+_exptl_crystal_density_diffrn    5.597
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       chip
+_exptl_crystal_F_000             112
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         0.118
+_refine_diff_density_min         -0.127
+_refine_ls_goodness_of_fit_ref   1.01
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     43
+_refine_ls_number_reflns         783
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.01
+_refine_ls_R_factor_all          0.0093
+_refine_ls_R_factor_gt           0.0093
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         1.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     0.4007/[\s(F~o~)^2^]
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0094
+_refine_ls_wR_factor_ref         0.0094
+_reflns_number_gt                783
+_reflns_number_total             783
+_reflns_threshold_expression     'F~o~ > 4\s(F~o~)'
+_cod_data_source_file            pi5025sup1.cif
+_cod_data_source_block           VB
+_cod_original_cell_volume        73.280(10)
+_cod_original_formula_sum        'B1 V1'
+_cod_database_code               2107291
+_cod_database_fobs_code          2107291
+loop_
+_symmetry_equiv_pos_as_xyz
+' x, y, z'
+'-x, y, z'
+' x, -y, 1/2+z'
+'-x, -y, 1/2+z'
+'-x, -y, -z'
+' x, -y, -z'
+'-x, y, 1/2-z'
+' x, y, 1/2-z'
+' 1/2+x, 1/2+y, z'
+' 1/2-x, 1/2+y, z'
+' 1/2+x, 1/2-y, 1/2+z'
+' 1/2-x, 1/2-y, 1/2+z'
+' 1/2-x, 1/2-y, -z'
+' 1/2+x, 1/2-y, -z'
+' 1/2-x, 1/2+y, 1/2-z'
+' 1/2+x, 1/2+y, 1/2-z'
+loop_
+_atom_rho_multipole_atom_label
+_atom_rho_multipole_coeff_Pv
+_atom_rho_multipole_coeff_P00
+_atom_rho_multipole_coeff_P10
+_atom_rho_multipole_coeff_P11
+_atom_rho_multipole_coeff_P1-1
+_atom_rho_multipole_coeff_P20
+_atom_rho_multipole_coeff_P21
+_atom_rho_multipole_coeff_P2-1
+_atom_rho_multipole_coeff_P22
+_atom_rho_multipole_coeff_P2-2
+_atom_rho_multipole_coeff_P30
+_atom_rho_multipole_coeff_P31
+_atom_rho_multipole_coeff_P3-1
+_atom_rho_multipole_coeff_P32
+_atom_rho_multipole_coeff_P3-2
+_atom_rho_multipole_coeff_P33
+_atom_rho_multipole_coeff_P3-3
+_atom_rho_multipole_coeff_P40
+_atom_rho_multipole_coeff_P41
+_atom_rho_multipole_coeff_P4-1
+_atom_rho_multipole_coeff_P42
+_atom_rho_multipole_coeff_P4-2
+_atom_rho_multipole_coeff_P43
+_atom_rho_multipole_coeff_P4-3
+_atom_rho_multipole_coeff_P44
+_atom_rho_multipole_coeff_P4-4
+_atom_rho_multipole_kappa
+_atom_rho_multipole_kappa_prime0
+_atom_rho_multipole_kappa_prime1
+_atom_rho_multipole_kappa_prime2
+_atom_rho_multipole_kappa_prime3
+_atom_rho_multipole_kappa_prime4
+_atom_rho_multipole_radial_slater_n0
+_atom_rho_multipole_radial_slater_zeta0
+_atom_rho_multipole_radial_slater_n1
+_atom_rho_multipole_radial_slater_zeta1
+_atom_rho_multipole_radial_slater_n2
+_atom_rho_multipole_radial_slater_zeta2
+_atom_rho_multipole_radial_slater_n3
+_atom_rho_multipole_radial_slater_zeta3
+_atom_rho_multipole_radial_slater_n4
+_atom_rho_multipole_radial_slater_zeta4
+V1 4.650(2) 0 0 0 -0.422(4) -0.008(2) 0 0 -0.012(2) 0 0 0 -0.2110(2) 0 0 0
+0.164(2) -0.002(2) 0 0 0.013(2) 0 0 0 -0.040(2) 0 0.997(2) 0.820(2) 1 1 1 1 4
+4.4 4 4.4 4 4.4 4 4.4 4 4.4
+B1 3.350(5) 0 0 0 -0.0310(5) 0.0230(5) 0 0 -0.0250(5) 0 0 0 -0.3146(2) 0 0 0
+0.0070(5) -0.0046(5) 0 0 0.0230(5) 0 0 0 0.0010(5) 0 0.997(2) 0.820(2) 1 1 1 1
+2 2.53 2 2.53 2 2.53 3 2.53 4 2.53
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+V V1 0 0.14750(2) 0.25 0.00149(3) Uani 1.0 4
+B B1 0 0.43757(7) 0.25 0.00377(7) Uani 1.0 4
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+V1 0.00158(5) 0.00133(5) 0.00154(5) 0 0 0
+B1 0.00400(10) 0.00390(10) 0.00340(10) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+V V 4.00 .194 .338 International_Tables_Vol_IV_Table_2.3.1
+B B 4.00 .000 .000 International_Tables_Vol_IV_Table_2.3.1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+B1 V1 B1 11_555 11_554 83.12(2) yes
+B1 V1 B1 11_555 11_455 86.17(2) yes
+B1 V1 B1 11_555 11_454 144.42(2) yes
+B1 V1 B1 11_555 9_545 46.76(2) yes
+B1 V1 B1 11_555 9_445 103.42(2) yes
+B1 V1 B1 11_555 . 107.79(2) yes
+B1 V1 V1 11_555 11_555 55.510(10) yes
+B1 V1 V1 11_555 11_554 99.49(2) yes
+B1 V1 V1 11_555 11_455 102.06(2) yes
+B1 V1 V1 11_555 11_454 160.07(2) yes
+B1 V1 V1 11_555 3_555 52.340(10) yes
+B1 V1 V1 11_555 3_554 95.34(2) yes
+B1 V1 V1 11_555 1_554 131.56(2) yes
+B1 V1 V1 11_555 1_556 48.440(10) yes
+B1 V1 V1 11_555 1_655 46.920(10) yes
+B1 V1 V1 11_555 1_455 133.08(2) yes
+B1 V1 B1 11_554 11_455 144.42(2) yes
+B1 V1 B1 11_554 11_454 86.17(2) yes
+B1 V1 B1 11_554 9_545 46.76(2) yes
+B1 V1 B1 11_554 9_445 103.42(2) yes
+B1 V1 B1 11_554 . 107.79(2) yes
+B1 V1 V1 11_554 11_555 99.49(2) yes
+B1 V1 V1 11_554 11_554 55.510(10) yes
+B1 V1 V1 11_554 11_455 160.07(2) yes
+B1 V1 V1 11_554 11_454 102.06(2) yes
+B1 V1 V1 11_554 3_555 95.34(2) yes
+B1 V1 V1 11_554 3_554 52.340(10) yes
+B1 V1 V1 11_554 1_554 48.440(10) yes
+B1 V1 V1 11_554 1_556 131.56(2) yes
+B1 V1 V1 11_554 1_655 46.920(10) yes
+B1 V1 V1 11_554 1_455 133.08(2) yes
+B1 V1 B1 11_455 11_454 83.12(2) yes
+B1 V1 B1 11_455 9_545 103.42(2) yes
+B1 V1 B1 11_455 9_445 46.76(2) yes
+B1 V1 B1 11_455 . 107.79(2) yes
+B1 V1 V1 11_455 11_555 102.06(2) yes
+B1 V1 V1 11_455 11_554 160.07(2) yes
+B1 V1 V1 11_455 11_455 55.510(10) yes
+B1 V1 V1 11_455 11_454 99.49(2) yes
+B1 V1 V1 11_455 3_555 52.340(10) yes
+B1 V1 V1 11_455 3_554 95.34(2) yes
+B1 V1 V1 11_455 1_554 131.56(2) yes
+B1 V1 V1 11_455 1_556 48.440(10) yes
+B1 V1 V1 11_455 1_655 133.08(2) yes
+B1 V1 V1 11_455 1_455 46.920(10) yes
+B1 V1 B1 11_454 9_545 103.42(2) yes
+B1 V1 B1 11_454 9_445 46.76(2) yes
+B1 V1 B1 11_454 . 107.79(2) yes
+B1 V1 V1 11_454 11_555 160.07(2) yes
+B1 V1 V1 11_454 11_554 102.06(2) yes
+B1 V1 V1 11_454 11_455 99.49(2) yes
+B1 V1 V1 11_454 11_454 55.510(10) yes
+B1 V1 V1 11_454 3_555 95.34(2) yes
+B1 V1 V1 11_454 3_554 52.340(10) yes
+B1 V1 V1 11_454 1_554 48.440(10) yes
+B1 V1 V1 11_454 1_556 131.56(2) yes
+B1 V1 V1 11_454 1_655 133.08(2) yes
+B1 V1 V1 11_454 1_455 46.920(10) yes
+B1 V1 B1 9_545 9_445 84.35(2) yes
+B1 V1 B1 9_545 . 137.83(2) yes
+B1 V1 V1 9_545 11_555 94.15(2) yes
+B1 V1 V1 9_545 11_554 94.15(2) yes
+B1 V1 V1 9_545 11_455 146.55(2) yes
+B1 V1 V1 9_545 11_454 146.55(2) yes
+B1 V1 V1 9_545 3_555 51.090(10) yes
+B1 V1 V1 9_545 3_554 51.090(10) yes
+B1 V1 V1 9_545 1_554 90.00(2) yes
+B1 V1 V1 9_545 1_556 90.00(2) yes
+B1 V1 V1 9_545 1_655 47.830(10) yes
+B1 V1 V1 9_545 1_455 132.17(2) yes
+B1 V1 B1 9_445 . 137.83(2) yes
+B1 V1 V1 9_445 11_555 146.55(2) yes
+B1 V1 V1 9_445 11_554 146.55(2) yes
+B1 V1 V1 9_445 11_455 94.15(2) yes
+B1 V1 V1 9_445 11_454 94.15(2) yes
+B1 V1 V1 9_445 3_555 51.090(10) yes
+B1 V1 V1 9_445 3_554 51.090(10) yes
+B1 V1 V1 9_445 1_554 90.00(2) yes
+B1 V1 V1 9_445 1_556 90.00(2) yes
+B1 V1 V1 9_445 1_655 132.17(2) yes
+B1 V1 V1 9_445 1_455 47.830(10) yes
+B1 V1 V1 . 11_555 52.280(10) yes
+B1 V1 V1 . 11_554 52.280(10) yes
+B1 V1 V1 . 11_455 52.280(10) yes
+B1 V1 V1 . 11_454 52.280(10) yes
+B1 V1 V1 . 3_555 147.95(2) yes
+B1 V1 V1 . 3_554 147.95(2) yes
+B1 V1 V1 . 1_554 90.00(2) yes
+B1 V1 V1 . 1_556 90.00(2) yes
+B1 V1 V1 . 1_655 90.00(2) yes
+B1 V1 V1 . 1_455 90.00(2) yes
+V1 V1 V1 11_555 11_554 66.890(10) yes
+V1 V1 V1 11_555 11_455 69.150(10) yes
+V1 V1 V1 11_555 11_454 104.570(10) yes
+V1 V1 V1 11_555 3_555 103.070(10) yes
+V1 V1 V1 11_555 3_554 144.19(2) yes
+V1 V1 V1 11_555 1_554 123.440(10) yes
+V1 V1 V1 11_555 1_556 56.560(10) yes
+V1 V1 V1 11_555 1_655 55.430(10) yes
+V1 V1 V1 11_555 1_455 124.570(10) yes
+V1 V1 V1 11_554 11_455 104.570(10) yes
+V1 V1 V1 11_554 11_454 69.150(10) yes
+V1 V1 V1 11_554 3_555 144.19(2) yes
+V1 V1 V1 11_554 3_554 103.070(10) yes
+V1 V1 V1 11_554 1_554 56.560(10) yes
+V1 V1 V1 11_554 1_556 123.440(10) yes
+V1 V1 V1 11_554 1_655 55.430(10) yes
+V1 V1 V1 11_554 1_455 124.570(10) yes
+V1 V1 V1 11_455 11_454 66.890(10) yes
+V1 V1 V1 11_455 3_555 103.070(10) yes
+V1 V1 V1 11_455 3_554 144.19(2) yes
+V1 V1 V1 11_455 1_554 123.440(10) yes
+V1 V1 V1 11_455 1_556 56.560(10) yes
+V1 V1 V1 11_455 1_655 124.570(10) yes
+V1 V1 V1 11_455 1_455 55.430(10) yes
+V1 V1 V1 11_454 3_555 144.19(2) yes
+V1 V1 V1 11_454 3_554 103.070(10) yes
+V1 V1 V1 11_454 1_554 56.560(10) yes
+V1 V1 V1 11_454 1_556 123.440(10) yes
+V1 V1 V1 11_454 1_655 124.570(10) yes
+V1 V1 V1 11_454 1_455 55.430(10) yes
+V1 V1 V1 3_555 3_554 64.100(10) yes
+V1 V1 V1 3_555 1_554 122.050(10) yes
+V1 V1 V1 3_555 1_556 57.950(10) yes
+V1 V1 V1 3_555 1_655 90.000(10) yes
+V1 V1 V1 3_555 1_455 90.000(10) yes
+V1 V1 V1 3_554 1_554 57.950(10) yes
+V1 V1 V1 3_554 1_556 122.050(10) yes
+V1 V1 V1 3_554 1_655 90.000(10) yes
+V1 V1 V1 3_554 1_455 90.000(10) yes
+V1 V1 V1 1_554 1_556 180.000(10) yes
+V1 V1 V1 1_554 1_655 90.000(10) yes
+V1 V1 V1 1_554 1_455 90.000(10) yes
+V1 V1 V1 1_556 1_655 90.000(10) yes
+V1 V1 V1 1_556 1_455 90.000(10) yes
+V1 V1 V1 1_655 1_455 180.000(10) yes
+B1 B1 B1 3_565 3_564 111.87(3) yes
+B1 B1 V1 3_565 11_555 67.76(2) yes
+B1 B1 V1 3_565 11_554 136.11(3) yes
+B1 B1 V1 3_565 11_455 67.76(2) yes
+B1 B1 V1 3_565 11_454 136.11(3) yes
+B1 B1 V1 3_565 9_555 65.47(2) yes
+B1 B1 V1 3_565 9_455 65.47(2) yes
+B1 B1 V1 3_565 . 124.06(3) yes
+B1 B1 V1 3_564 11_555 136.11(3) yes
+B1 B1 V1 3_564 11_554 67.76(2) yes
+B1 B1 V1 3_564 11_455 136.11(3) yes
+B1 B1 V1 3_564 11_454 67.76(2) yes
+B1 B1 V1 3_564 9_555 65.47(2) yes
+B1 B1 V1 3_564 9_455 65.47(2) yes
+B1 B1 V1 3_564 . 124.06(3) yes
+V1 B1 V1 11_555 11_554 83.12(2) yes
+V1 B1 V1 11_555 11_455 86.17(2) yes
+V1 B1 V1 11_555 11_454 144.42(2) yes
+V1 B1 V1 11_555 9_555 76.58(2) yes
+V1 B1 V1 11_555 9_455 133.24(2) yes
+V1 B1 V1 11_555 . 72.21(2) yes
+V1 B1 V1 11_554 11_455 144.42(2) yes
+V1 B1 V1 11_554 11_454 86.17(2) yes
+V1 B1 V1 11_554 9_555 76.58(2) yes
+V1 B1 V1 11_554 9_455 133.24(2) yes
+V1 B1 V1 11_554 . 72.21(2) yes
+V1 B1 V1 11_455 11_454 83.12(2) yes
+V1 B1 V1 11_455 9_555 133.24(2) yes
+V1 B1 V1 11_455 9_455 76.58(2) yes
+V1 B1 V1 11_455 . 72.21(2) yes
+V1 B1 V1 11_454 9_555 133.24(2) yes
+V1 B1 V1 11_454 9_455 76.58(2) yes
+V1 B1 V1 11_454 . 72.21(2) yes
+V1 B1 V1 9_555 9_455 84.35(2) yes
+V1 B1 V1 9_555 . 137.83(2) yes
+V1 B1 V1 9_455 . 137.83(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V1 B1 11_555 2.2410(3) yes
+V1 B1 11_554 2.2410(3) yes
+V1 B1 11_455 2.2410(3) yes
+V1 B1 11_454 2.2410(3) yes
+V1 B1 9_545 2.2801(5) yes
+V1 B1 9_445 2.2801(5) yes
+V1 B1 . 2.3349(6) yes
+V1 V1 11_555 2.6975(2) yes
+V1 V1 11_554 2.6975(2) yes
+V1 V1 11_455 2.6975(2) yes
+V1 V1 11_454 2.6975(2) yes
+V1 V1 3_555 2.8015(2) yes
+V1 V1 3_554 2.8015(2) yes
+V1 V1 1_554 2.9733(3) yes
+V1 V1 1_556 2.9733(3) yes
+V1 V1 1_655 3.0616(3) yes
+V1 V1 1_455 3.0616(3) yes
+B1 B1 3_565 1.7946(5) yes
+B1 B1 3_564 1.7946(5) yes

@@ -1,0 +1,197 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300268.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300268
+loop_
+_publ_author_name
+'Fortes, A. D.'
+'Wood, I. G.'
+'Knight, K. S.'
+_publ_section_title
+;
+ The crystal structure of perdeuterated methanol hemiammoniate
+ (CD~3~OD&#x00B7;0.5ND~3~) determined from neutron powder diffraction
+ data at 4.2 and 180K
+;
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              328
+_journal_page_last               336
+_journal_paper_doi               10.1107/S0021889810005595
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_sum            'C D7 N O'
+_chemical_formula_weight         56.11
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   11.20962(25)
+_cell_length_b                   7.74564(24)
+_cell_length_c                   7.67810(22)
+_cell_volume                     666.66(3)
+_pd_block_id
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_phase1|Fortes||
+_pd_phase_name                   'methanol monoammoniate d7'
+_cod_data_source_file            db5076.cif
+_cod_data_source_block           METHANOL_HEMIAMMONIA_phase_1_180
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (10
+times).
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (38 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        666.656(21)
+_cod_database_code               2300268
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z
+3 +x,-y+1/2,+z+1/2
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z
+-3 -x,+y+1/2,-z+1/2
+-4 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+C 0.043 -0.002 -0.001 0.054 0.005 0.054
+O 0.037 -0.008 0.001 0.021 0.01 0.044
+D1 0.057 -0.019 -0.022 0.071 -0.089 0.378
+D2 0.1 -0.055 0.03 0.338 0.017 0.086
+D3 0.032 0.019 -0.035 0.13 0.064 0.252
+D4 0.036 -0.004 0.01 0.036 0.003 0.048
+N 0.033 0.021 -0.004 0.037 0.005 0.034
+D5 0.063 -0.011 -0.07 0.059 -0.02 0.031
+D6 0.068 -0.024 -0.002 0.055 -0.006 0.048
+D7 0.047 0.011 0.012 0.047 0.003 0.072
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C 0.25504 0.0505 0.2268 1.0 Uani 0.05033 8
+O O 0.1338 0.01326 0.2297 1.0 Uani 0.034 8
+D D1 0.27587 0.1712 0.271 1.0 Uani 0.16867 8
+D D2 0.2875 0.0443 0.1019 1.0 Uani 0.17467 8
+D D3 0.30029 -0.0336 0.2982 1.0 Uani 0.138 8
+D D4 0.09216 0.098 0.1593 1.0 Uani 0.04 8
+N N 0.49062 0.74732 1.03034 1.0 Uani 0.03467 8
+D D5 0.54152 0.8274 1.1076 1.0 Uani 0.051 8
+D D6 0.44586 0.823 0.9528 1.0 Uani 0.057 8
+D D7 0.54881 0.67774 0.9542 1.0 Uani 0.05533 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+D 56.0
+C 8.0
+O 8.0
+N 8.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O C D1 114.09100(10) 1_555 . 1_555 n
+O C D2 110.6005(6) 1_555 . 1_555 n
+O C D3 110.8113(12) 1_555 . 1_555 n
+D1 C D2 105.7863(7) 1_555 . 1_555 n
+D1 C D3 107.5033(18) 1_555 . 1_555 n
+D2 C D3 107.7294(14) 1_555 . 1_555 n
+C O D4 108.7395(11) 1_555 . 1_555 n
+D5 N D6 105.9405(20) 1_555 . 1_555 n
+D5 N D7 106.9442(17) 1_555 . 1_555 n
+D6 N D7 107.1257(19) 1_555 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C O 1.389510(30) . 1_555 n
+C D1 1.021630(30) . 1_555 n
+C D2 1.026830(30) . 1_555 n
+C D3 0.991040(20) . 1_555 n
+C D4 1.93329(4) . 1_555 n
+O C 1.389510(30) . 1_555 n
+O D1 2.03306(4) . 1_555 n
+O D2 1.99728(4) . 1_555 n
+O D3 1.97266(4) . 1_555 n
+O D4 0.969980(20) . 1_555 n
+D1 C 1.021630(30) . 1_555 n
+D1 O 2.03306(4) . 1_555 n
+D1 D2 1.633670(30) . 1_555 n
+D1 D3 1.62324(5) . 1_555 n
+D2 C 1.026830(30) . 1_555 n
+D2 O 1.99728(4) . 1_555 n
+D2 D1 1.633670(30) . 1_555 n
+D2 D3 1.62982(4) . 1_555 n
+D3 C 0.991040(20) . 1_555 n
+D3 O 1.97266(4) . 1_555 n
+D3 D1 1.62324(5) . 1_555 n
+D3 D2 1.62982(4) . 1_555 n
+D4 C 1.93329(4) . 1_555 n
+D4 O 0.969980(20) . 1_555 n
+D4 N 1.783020(30) . 2_544 n
+N D4 1.783020(30) . 2_556 n
+N D5 1.030620(20) . 1_555 n
+N D6 0.974590(20) . 1_555 n
+N D7 1.028450(20) . 1_555 n
+D5 N 1.030620(20) . 1_555 n
+D5 D6 1.601160(30) . 1_555 n
+D5 D7 1.654600(30) . 1_555 n
+D6 N 0.974590(20) . 1_555 n
+D6 D5 1.601160(30) . 1_555 n
+D6 D7 1.611780(30) . 1_555 n
+D7 N 1.028450(20) . 1_555 n
+D7 D5 1.654600(30) . 1_555 n
+D7 D6 1.611780(30) . 1_555 n
+loop_
+_pd_block_diffractogram_id
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_H_02|Fortes|HRPD
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_H_03|Fortes|HRPD
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_H_04|Fortes|HRPD
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_H_05|Fortes|HRPD
+2009-09-02T21:50|METHANOL_HEMIAMMONIA_H_07|Fortes|HRPD

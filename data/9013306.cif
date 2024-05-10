@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/33/9013306.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013306
+loop_
+_publ_author_name
+'Pekov, I. V.'
+'Zubkova, N. V.'
+'Chukanov, N. V.'
+'Agakhanov, A. A.'
+'Belakovskiy, D. I.'
+'Horvath, L.'
+'Filinchuk, Y. E.'
+'Gobechiya, E. R.'
+'Pushcharovsky, D. Y.'
+'Rabadanov, M. K.'
+_publ_section_title
+;Niveolanite, the first natural beryllium carbonate, a new mineral species
+ from Mont Saint-Hilaire, Quebec, Canada Locality: Poudrette quarry, Mont
+ Saint-Hilaire, Quebec, Canada
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1343
+_journal_page_last               1354
+_journal_paper_doi               10.3749/canmin.46.5.1343
+_journal_volume                  46
+_journal_year                    2008
+_chemical_compound_source
+'Poudrette quarry, Mont Saint-Hilaire, Quebec, Canada'
+_chemical_formula_sum            'C H2.92 Be Ca0.09 Na0.9 O5'
+_chemical_name_mineral           Niveolanite
+_space_group_IT_number           124
+_symmetry_space_group_name_Hall  '-P 4 2c'
+_symmetry_space_group_name_H-M   'P 4/m c c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   13.1304
+_cell_length_b                   13.1304
+_cell_length_c                   5.4189
+_cell_volume                     934.258
+_database_code_amcsd             0006196
+_exptl_crystal_density_diffrn    1.824
+_cod_original_formula_sum        'Na.9 Ca.09 Be C O5 H2.92'
+_cod_database_code               9013306
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,-x,1/2+z
+y,x,1/2-z
+y,-x,-z
+-y,x,z
+x,-y,1/2+z
+-x,y,1/2-z
+x,y,-z
+-x,-y,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,x,-z
+y,-x,z
+-x,y,1/2+z
+x,-y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.41084 0.10533 0.50000 0.90000 0.02830 Na 0
+Ca 0.41084 0.10533 0.50000 0.09000 0.02830 Ca 0
+Be 0.84477 0.15523 0.25000 1.00000 0.01400 Be 0
+C 0.67720 0.11760 0.50000 1.00000 0.01760 C 0
+O1 0.72297 0.13374 0.70730 1.00000 0.02620 O 0
+O2 0.58599 0.08510 0.50000 1.00000 0.03070 O 0
+O3 0.90044 0.11618 0.50000 0.08000 0.01340 O 0
+O3H 0.90044 0.11618 0.50000 0.92000 0.01340 O 0
+H 0.95900 0.12400 0.50000 0.92000 0.02400 H 0
+Wat 0.42490 0.29350 0.50000 1.00000 0.24300 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:23+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006196

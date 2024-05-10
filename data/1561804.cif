@@ -1,0 +1,221 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-15 11:13:39 +0300 (Thu, 15 Apr 2021) $
+#$Revision: 264193 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/18/1561804.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1561804
+loop_
+_publ_author_name
+'Dixon, Charlotte A.L.'
+'Kavanagh, Christopher M.'
+'Knight, Kevin S.'
+'Kockelmann, Winfried'
+'Morrison, Finlay D.'
+'Lightfoot, Philip'
+_publ_section_title
+;
+ Thermal evolution of the crystal structure of the orthorhombic perovskite
+ LaFeO3
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              337
+_journal_page_last               342
+_journal_paper_doi               10.1016/j.jssc.2015.07.019
+_journal_volume                  230
+_journal_year                    2015
+_chemical_formula_sum            'Fe La O3'
+_chemical_formula_weight         242.75
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2ac 2n'
+_space_group_name_H-M_alt        'P n m a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.56275(4)
+_cell_length_b                   7.84160(6)
+_cell_length_c                   5.54642(4)
+_cell_measurement_temperature    50
+_cell_volume                     241.940(3)
+_computing_structure_refinement  GSAS
+_pd_phase_name
+'from C:/gsas/MyWork/Chris Kavanagh_LaFeO3HRPDbanks12 - Copy/25C/En'
+_pd_proc_ls_prof_R_factor        0.0402
+_pd_proc_ls_prof_wR_factor       0.0399
+_refine_ls_goodness_of_fit_all   2.60
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            JSSC-2015-230-337.cif
+_cod_data_source_block           LAFEO3PNMA
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_geom_angle_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (42 times).
+
+data item '_geom_bond_publ_flag' value 'N' was changed to 'n' in
+accordance with the built-in table derived from the CIF Core
+dictionary named 'cif_core.dic' version 2.4.5 last updated on
+2014-11-21 (52 times).
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_cell_volume        241.940(4)
+_cod_database_code               1561804
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z+1/2
+3 +x,-y+1/2,+z
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z+1/2
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+La La1 0.03119(10) 0.25 -0.00734(23) 1.0 Uiso 0.00345(12) 4
+Fe Fe1 0.0 0.0 0.5 1.0 Uiso 0.00506(9) 4
+O- O1 0.48513(18) 0.25 0.07365(28) 1.0 Uiso 0.00210(24) 4
+O- O2 0.28365(13) 0.04015(11) -0.28278(14) 1.0 Uiso 0.00358(16) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+La 4.0
+Fe 4.0
+O- 12.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 La1 O1 85.99(5) 1_555 . -2_465 n
+O1 La1 O2 65.10(4) 1_555 . 1_555 n
+O1 La1 O2 65.10(4) 1_555 . 3_555 n
+O1 La1 O2 129.709(33) 1_555 . -2_565 n
+O1 La1 O2 129.709(33) 1_555 . -4_555 n
+O1 La1 O2 129.033(29) -2_566 . 1_555 n
+O1 La1 O2 129.033(29) -2_566 . 3_555 n
+O1 La1 O2 114.48(4) -2_566 . -2_565 n
+O1 La1 O2 114.48(4) -2_566 . -4_555 n
+O2 La1 O2 76.83(5) 1_555 . 3_555 n
+O2 La1 O2 116.29(5) 1_555 . -2_565 n
+O2 La1 O2 66.747(26) 1_555 . -4_555 n
+O2 La1 O2 66.747(26) 3_555 . -2_565 n
+O2 La1 O2 116.29(5) 3_555 . -4_555 n
+O2 La1 O2 84.77(5) -2_565 . -4_555 n
+O1 Fe1 O1 180.0 2_545 . -2_465 n
+O1 Fe1 O2 89.92(5) 2_545 . 1_556 n
+O1 Fe1 O2 88.91(6) 2_545 . 4_555 n
+O1 Fe1 O2 90.08(5) 2_545 . -1_555 n
+O1 Fe1 O2 91.09(6) 2_545 . -4_556 n
+O1 Fe1 O2 90.08(5) -2_566 . 1_556 n
+O1 Fe1 O2 91.09(6) -2_566 . 4_555 n
+O1 Fe1 O2 89.92(5) -2_566 . -1_555 n
+O1 Fe1 O2 88.91(6) -2_566 . -4_556 n
+O2 Fe1 O2 91.279(10) 1_556 . 4_555 n
+O2 Fe1 O2 180.0 1_556 . -1_555 n
+O2 Fe1 O2 88.721(10) 1_556 . -4_556 n
+O2 Fe1 O2 88.721(10) 4_555 . -1_555 n
+O2 Fe1 O2 180.0 4_555 . -4_556 n
+O2 Fe1 O2 91.279(10) -1_555 . -4_556 n
+La1 O1 La1 106.17(5) 1_555 . -2_555 n
+La1 O1 Fe1 90.283(33) 1_555 . 2_554 n
+La1 O1 Fe1 90.283(33) 1_555 . 4_554 n
+La1 O1 Fe1 101.44(4) -2_656 . 2_554 n
+La1 O1 Fe1 101.44(4) -2_656 . 4_554 n
+Fe1 O1 Fe1 156.00(8) 2_554 . 4_554 n
+La1 O2 La1 98.94(4) 1_555 . -2_554 n
+La1 O2 Fe1 91.537(32) 1_555 . 1_554 n
+La1 O2 Fe1 87.969(33) 1_555 . 4_554 n
+La1 O2 Fe1 105.22(4) -2_655 . 1_554 n
+La1 O2 Fe1 98.08(4) -2_655 . 4_554 n
+Fe1 O2 Fe1 156.48(4) 1_554 . 4_554 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+La1 La1 3.93697(11) . -1_555 n
+La1 La1 3.93697(11) . -1_565 n
+La1 La1 3.8706(18) . -2_454 n
+La1 La1 3.9856(19) . -2_455 n
+La1 La1 3.8706(18) . -2_554 n
+La1 La1 3.9856(19) . -2_555 n
+La1 Fe1 3.3675(10) . 1_554 n
+La1 Fe1 3.4339(11) . 1_555 n
+La1 Fe1 3.5463(4) . 2_454 n
+La1 Fe1 3.2628(4) . 2_554 n
+La1 Fe1 3.3675(10) . 3_554 n
+La1 Fe1 3.4339(11) . 3_555 n
+La1 Fe1 3.5463(4) . 4_454 n
+La1 Fe1 3.2628(4) . 4_554 n
+La1 O1 3.0706(11) . 1_455 n
+La1 O1 2.5648(11) . 1_555 n
+La1 O1 3.1514(20) . -2_454 n
+La1 O1 2.4190(20) . -2_455 n
+La1 O2 2.6484(10) . 1_555 n
+La1 O2 2.7908(10) . 2_555 n
+La1 O2 2.6484(10) . 3_555 n
+La1 O2 2.7908(10) . 4_555 n
+La1 O2 3.2914(10) . -1_555 n
+La1 O2 2.4411(11) . -2_454 n
+La1 O2 3.2914(10) . -3_555 n
+La1 O2 2.4411(11) . -4_454 n
+Fe1 La1 3.4339(11) . 1_555 n
+Fe1 La1 3.3675(10) . 1_556 n
+Fe1 La1 3.5463(4) . 2_445 n
+Fe1 La1 3.2628(4) . 2_545 n
+Fe1 La1 3.3675(10) . -1_555 n
+Fe1 La1 3.4339(11) . -1_556 n
+Fe1 La1 3.2628(4) . -2_455 n
+Fe1 La1 3.5463(4) . -2_555 n
+Fe1 O1 2.00421(32) . 2_545 n
+Fe1 O1 2.00421(32) . -2_455 n
+Fe1 O2 2.0101(8) . 1_556 n
+Fe1 O2 2.0019(8) . 4_555 n
+Fe1 O2 2.0101(8) . -1_555 n
+Fe1 O2 2.0019(8) . -4_455 n
+O1 La1 2.5648(11) . 1_555 n
+O1 La1 3.0706(11) . 1_655 n
+O1 La1 3.1514(20) . -2_554 n
+O1 La1 2.4190(20) . -2_555 n
+O1 Fe1 2.00421(32) . 2_554 n
+O1 Fe1 2.00421(32) . 4_554 n
+O2 La1 2.6484(10) . 1_555 n
+O2 La1 2.7908(10) . 2_544 n
+O2 La1 3.2914(10) . -1_555 n
+O2 La1 2.4411(11) . -2_554 n
+O2 Fe1 2.0101(8) . 1_554 n
+O2 Fe1 2.0019(8) . 4_554 n

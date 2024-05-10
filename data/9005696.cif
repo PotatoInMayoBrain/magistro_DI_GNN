@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/56/9005696.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005696
+loop_
+_publ_author_name
+'Perchiazzi, N.'
+'Ondrus, P.'
+'Skala, R.'
+_publ_section_title
+'Ab initio X-ray powder structure determination of parascorodite, Fe(H2O)2AsO4'
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              1003
+_journal_page_last               1007
+_journal_paper_doi               10.1127/0935-1221/2004/0016-1003
+_journal_volume                  16
+_journal_year                    2004
+_chemical_formula_sum            'As Fe H4 O6'
+_chemical_name_mineral           Parascorodite
+_space_group_IT_number           165
+_symmetry_space_group_name_Hall  '-P 3 2"c'
+_symmetry_space_group_name_H-M   'P -3 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   8.9232
+_cell_length_b                   8.9232
+_cell_length_c                   9.9296
+_cell_volume                     684.705
+_database_code_amcsd             0007087
+_exptl_crystal_density_diffrn    3.332
+_cod_original_formula_sum        'Fe O6 As H4'
+_cod_database_code               9005696
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,-x,1/2+z
+y,-x+y,-z
+-x,-x+y,1/2-z
+-x+y,-x,z
+-x+y,y,1/2+z
+-x,-y,-z
+y,x,1/2-z
+-y,x-y,z
+x,x-y,1/2+z
+x-y,x,-z
+x-y,-y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 0.05800 0.05800 0.05100 0.02900 0.00000 0.00000
+Fe2 0.04800 0.04800 0.01700 0.02400 0.00000 0.00000
+As1 0.01900 0.02100 0.01700 0.01000 -0.00010 -0.00030
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.33333 0.66667 0.30700 0.05600 Fe 0
+Fe2 0.00000 0.00000 0.00000 0.03800 Fe 0
+Wat 0.86150 0.50460 0.06420 0.01400 O 2
+As1 0.27350 0.00000 0.25000 0.02000 As 0
+O1 0.46210 0.16640 0.29990 0.01200 O 0
+O2 0.21360 0.06950 0.11750 0.01700 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:19+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007087

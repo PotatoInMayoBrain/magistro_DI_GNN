@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-01-03 18:52:30 +0200 (Wed, 03 Jan 2024) $
+#$Revision: 288652 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/53/9005317.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005317
+loop_
+_publ_author_name
+'Wunder, B.'
+'Marler, B.'
+_publ_section_title
+;
+ Ge-analogues of aluminium silicates: High-pressure synthesis
+ and properties of orthorhombic Al2GeO4(OH)2
+ Note: Space group setting altered to match standard
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              1147
+_journal_page_last               1158
+_journal_volume                  9
+_journal_year                    1997
+_chemical_formula_sum            'Al2 Ge H2 O6'
+_chemical_name_mineral           Krieselite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.804
+_cell_length_b                   9.107
+_cell_length_c                   8.551
+_cell_volume                     374.106
+_database_code_amcsd             0006702
+_exptl_crystal_density_diffrn    3.987
+_cod_original_formula_sum        'Al2 Ge O6 H2'
+_cod_database_code               9005317
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al -0.09330 0.13300 0.07910 0.00390 Al 0
+Ge 0.40520 -0.06100 0.25000 0.00390 Ge 0
+O1 -0.27300 0.03000 0.25000 0.00390 O 0
+O2 0.06030 0.24700 0.25000 0.00390 O 0
+O3 0.21260 -0.00400 0.08440 0.00390 O 0
+O-H 0.58850 0.24800 0.06510 0.00390 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:59+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2 'Vaitkus, Antanas' 2024-01-03T18:51:00+02:00
+;
+ Corrected atom-site coordinates after consulting the updated version of AMCSD
+ entry 0006702.
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006702

@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/55/9005548.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005548
+loop_
+_publ_author_name
+'Comodi, P.'
+'Gatta, G. D.'
+'Zanazzi, P. F.'
+_publ_section_title
+;
+ High-pressure structural behaviour of scolecite
+ Sample: P = .0001 GPa (after compression)
+ Note: y-coordinate of O5 altered to match bond lengths
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              567
+_journal_page_last               574
+_journal_paper_doi               10.1127/0935-1221/2002/0014-0567
+_journal_volume                  14
+_journal_year                    2002
+_chemical_formula_sum            'Al2 Ca H6 O13 Si3'
+_chemical_name_mineral           Scolecite
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 109.89
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.542
+_cell_length_b                   18.842
+_cell_length_c                   9.863
+_cell_volume                     1143.234
+_database_code_amcsd             0006936
+_diffrn_ambient_pressure         100
+_exptl_crystal_density_diffrn    2.279
+_cod_original_formula_sum        'Ca Si3 Al2 O13 H6'
+_cod_database_code               9005548
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.16100 0.14330 0.05120 0.01220 Ca 0
+Si1 0.50000 0.37076 0.00000 0.00720 Si 0
+Si2 0.22920 0.33187 0.19960 0.00700 Si 0
+Si3 0.53950 0.08247 0.33070 0.00660 Si 0
+Al1 0.93390 0.46211 0.09910 0.00750 Al 0
+Al2 0.35490 0.21648 0.43340 0.00670 Al 0
+O1 0.54120 0.03160 0.46070 0.01330 O 0
+O2 0.44770 0.04550 0.17380 0.01090 O 0
+O3 0.38300 0.15160 0.31540 0.01170 O 0
+O4 0.11530 0.19950 0.46790 0.01280 O 0
+O5 0.35290 0.29930 0.35790 0.00910 O 0
+O6 0.08580 0.27130 0.09020 0.01110 O 0
+O7 0.41470 0.35860 0.13500 0.01350 O 0
+O8 0.07590 0.39570 0.21390 0.01260 O 0
+O9 0.79000 0.10950 0.35700 0.01180 O 0
+O10 0.66020 0.43690 0.03420 0.01260 O 0
+Wat1 0.89060 0.08070 0.10750 0.03100 O 2
+Wat2 0.90770 0.32590 0.43930 0.03500 O 2
+Wat3 0.57850 0.44490 0.37430 0.02700 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006936

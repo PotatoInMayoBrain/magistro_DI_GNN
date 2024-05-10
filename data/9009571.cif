@@ -1,0 +1,115 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/95/9009571.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009571
+loop_
+_publ_author_name
+'Beran, A.'
+'Bittner, H.'
+_publ_section_title
+;
+ Untersuchungen zur kristallchemie des ilvaits
+;
+_journal_name_full
+'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_page_first              11
+_journal_page_last               29
+_journal_volume                  21
+_journal_year                    1974
+_chemical_formula_sum            'Ca Fe3 H O9 Si2'
+_chemical_name_mineral           Ilvaite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.800
+_cell_length_b                   13.019
+_cell_length_c                   5.852
+_cell_volume                     670.447
+_database_code_amcsd             0015644
+_exptl_crystal_density_diffrn    4.050
+_cod_original_formula_sum        'Fe3 Ca Si2 O9 H'
+_cod_database_code               9009571
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 0.00588 0.00601 0.00659 0.00000 0.00078 0.00000
+Fe2 0.00785 0.00773 0.00920 -0.00058 0.00000 0.00000
+Ca 0.00706 0.00859 0.00989 -0.00058 0.00000 0.00000
+Si1 0.00549 0.00859 0.00278 -0.00058 0.00000 0.00000
+Si2 0.00981 0.00429 0.00763 -0.00116 0.00000 0.00000
+O1 0.01059 0.01288 0.01752 -0.00290 0.00000 0.00000
+O2 0.00628 0.00945 0.00590 0.00058 0.00235 -0.00502
+O3 0.00471 0.00859 0.01475 0.00000 0.00000 0.00000
+O4 0.00863 0.00601 0.01284 -0.00116 -0.00026 -0.00193
+O5 0.00863 0.00945 0.00017 0.00116 0.00000 0.00000
+O6 0.01648 0.00343 0.02290 0.00000 0.00000 0.00000
+OH7 0.01295 0.00258 0.00746 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.05099 0.11001 0.00789 Fe 0
+Fe2 0.74029 0.05888 0.25000 Fe 0
+Ca 0.37056 0.18712 0.75000 Ca 0
+Si1 0.36913 0.04051 0.25000 Si 0
+Si2 0.22740 0.32012 0.25000 Si 0
+O1 0.03030 -0.00920 0.75000 O 0
+O2 0.27310 0.06420 0.01820 O 0
+O3 0.10860 0.22120 0.25000 O 0
+O4 0.32870 0.32930 0.02000 O 0
+O5 0.10200 0.41600 0.25000 O 0
+O6 0.02690 0.39870 0.75000 O 0
+O-H7 0.10970 0.20340 0.75000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:57+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015644

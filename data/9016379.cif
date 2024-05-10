@@ -1,0 +1,117 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-11-10 21:21:08 +0200 (Fri, 10 Nov 2023) $
+#$Revision: 287519 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/63/9016379.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016379
+loop_
+_publ_author_name
+'Mills, S. J.'
+'Whitfield, P. S.'
+'Wilson, S. A.'
+'Woodhouse, J. N.'
+'Dipple, G. M.'
+'Raudsepp, M.'
+'Francis, C. A.'
+_publ_section_title
+;
+ The crystal structure of stichtite, re-examination of barbertonite, and the
+ nature of polytypism in MgCr hydrotalcites
+ Note: Sample 84588, 2H1 polytype of stichtite = barbertonite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              179
+_journal_page_last               187
+_journal_paper_doi               10.2138/am.2011.3531
+_journal_volume                  96
+_journal_year                    2011
+_chemical_compound_source        'Barberton, South Africa'
+_chemical_formula_sum            'C0.124 H3.224 Cr0.25 Mg0.75 O2.984'
+_chemical_name_mineral           Stichtite
+_space_group_IT_number           194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   3.09689
+_cell_length_b                   3.09689
+_cell_length_c                   15.6193
+_cell_volume                     129.731
+_database_code_amcsd             0018331
+_exptl_crystal_density_diffrn    2.143
+_cod_original_formula_sum        '(Mg.75 Cr.25) O2.984 H3.224 C.124'
+_cod_database_code               9016379
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-x+y,1/2+z
+x,x-y,1/2-z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+-y,-x,z
+y,x,-z
+y,-x+y,-z
+-y,x-y,z
+x-y,-y,1/2+z
+-x+y,y,1/2-z
+x,y,1/2-z
+-x,-y,1/2+z
+x,x-y,z
+-x,-x+y,-z
+x-y,x,-z
+-x+y,-x,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x+y,y,z
+x-y,-y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.00000 0.00000 0.00000 0.75000 0.01013 Mg 0
+Cr 0.00000 0.00000 0.00000 0.25000 0.01013 Cr 0
+O1 0.33333 0.66667 0.06500 1.00000 0.00811 O 0
+H1 0.33333 0.66667 0.13100 1.00000 0.00811 H 0
+Wat2 0.23000 -0.23000 0.25000 0.20400 0.00811 O 2
+CO3 0.33333 0.66667 0.25000 0.12400 0.00811 C 0
+O3 0.33333 0.66667 0.25000 0.37200 0.00811 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:25:37+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018331
+_cod_duplicate_entry 9014563

@@ -1,0 +1,1831 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-14 19:38:48 +0300 (Wed, 14 Sep 2022) $
+#$Revision: 277834 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/06/2100610.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100610
+loop_
+_publ_author_name
+'K. M. Sparta'
+'R. M\"uller'
+'M. Merz'
+'G. Roth'
+'P. Adelmann'
+'T. Wolf'
+_publ_section_title
+;
+Modulated corrugations in the crystal structure
+of the superconductor CaAlSi
+;
+_journal_coeditor_code           CK5016
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              710
+_journal_page_last               718
+_journal_paper_doi               10.1107/S0108768106025900
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_moiety         'Al Si Ca'
+_chemical_formula_sum            'Al Ca Si'
+_chemical_formula_weight         95.15
+_chemical_melting_point          0
+_space_group_IT_number           187
+_space_group_name_Hall           'P -6 2'
+_space_group_name_H-M_alt        'P -6 m 2'
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6 2'
+_symmetry_space_group_name_H-M   'P -6 m 2'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            5
+_cell_length_a                   4.17720(4)
+_cell_length_b                   4.17720(4)
+_cell_length_c                   21.9372(3)
+_cell_measurement_reflns_used    23
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      47.21
+_cell_measurement_theta_min      10.11
+_cell_volume                     331.500(6)
+_computing_cell_refinement       'FullProf Suite (Rodriguez-Carvajal)'
+_computing_data_collection       'X-AREA (Stoe, 2002)'
+_computing_data_reduction        'X-RED (Stoe, 1996)'
+_computing_molecular_graphics    'ATOMS Version 5.1'
+_computing_publication_material  'WinGX 1.64.05 (Farrugia, 1999)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_measured_fraction_theta_full 0.977
+_diffrn_measured_fraction_theta_max 0.977
+_diffrn_measurement_device       '2-circle diffractometer'
+_diffrn_measurement_device_type  'STOE IPDS 2'
+_diffrn_measurement_method       'rotation method'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0578
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       -30
+_diffrn_reflns_number            4754
+_diffrn_reflns_theta_full        29.2
+_diffrn_reflns_theta_max         29.2
+_diffrn_reflns_theta_min         1.86
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 0
+_diffrn_standards_interval_time  0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    2.759
+_exptl_absorpt_correction_T_max  0.607
+_exptl_absorpt_correction_T_min  0.531
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   'X-SHAPE (Stoe & Cie, 1996)'
+_exptl_crystal_colour            'metallic dark grey'
+_exptl_crystal_density_diffrn    2.383
+_exptl_crystal_density_meas      2.383
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cuboid
+_exptl_crystal_F_000             235
+_exptl_crystal_size_max          0.21
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.18
+_exptl_crystal_size_rad          0
+_refine_diff_density_max         0.464
+_refine_diff_density_min         -0.408
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.5(4)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.993
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     26
+_refine_ls_number_reflns         422
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.965
+_refine_ls_R_factor_gt           0.0345
+_refine_ls_shift/su_max          0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0230P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0863
+_reflns_number_gt                340
+_reflns_number_total             422
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ck5016.cif
+_cod_database_code               2100610
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x, y, -z'
+'-y, x-y, -z'
+'-x+y, -x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-y, -x, -z'
+'-x+y, y, -z'
+'x, x-y, -z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Ca Ca1 0 0 0 0.0202(6) Uani d S 1
+Ca Ca2 0 0 0.19941(8) 0.0160(4) Uani d S 1
+Ca Ca3 0 0 0.40126(5) 0.0165(5) Uani d S 1
+Si Si1 0.3333 0.6667 0.08767(12) 0.0210(5) Uani d SP 0.5
+Si Si2 0.6667 0.3333 0.10556(8) 0.0120(6) Uani d SP 0.5
+Si Si3 0.3333 0.6667 0.29191(9) 0.0122(5) Uani d SP 0.5
+Si Si4 0.6667 0.3333 0.30909(12) 0.0241(7) Uani d SP 0.5
+Si Si5 0.3333 0.6667 0.5 0.0136(6) Uani d SP 0.5
+Si Si6 0.6667 0.3333 0.5 0.0472(14) Uani d SP 0.5
+Al Al1 0.3333 0.6667 0.08767(12) 0.0210(5) Uani d SP 0.5
+Al Al2 0.6667 0.3333 0.10556(8) 0.0120(6) Uani d SP 0.5
+Al Al3 0.3333 0.6667 0.29191(9) 0.0122(5) Uani d SP 0.5
+Al Al4 0.6667 0.3333 0.30909(12) 0.0241(7) Uani d SP 0.5
+Al Al5 0.3333 0.6667 0.5 0.0136(6) Uani d SP 0.5
+Al Al6 0.6667 0.3333 0.5 0.0472(14) Uani d SP 0.5
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.0203(10) 0.0203(10) 0.0202(10) 0.0101(5) 0 0
+Ca2 0.0155(5) 0.0155(5) 0.0169(5) 0.0078(3) 0 0
+Ca3 0.0189(7) 0.0189(7) 0.0116(6) 0.0095(3) 0 0
+Si1 0.0137(8) 0.0137(8) 0.0356(9) 0.0068(4) 0 0
+Si2 0.0097(8) 0.0097(8) 0.0167(7) 0.0048(4) 0 0
+Si3 0.0088(7) 0.0088(7) 0.0189(7) 0.0044(3) 0 0
+Si4 0.0150(10) 0.0150(10) 0.0422(10) 0.0075(5) 0 0
+Si5 0.0088(9) 0.0088(9) 0.0231(12) 0.0044(4) 0 0
+Si6 0.0137(14) 0.0137(14) 0.114(4) 0.0068(7) 0 0
+Al1 0.0137(8) 0.0137(8) 0.0356(9) 0.0068(4) 0 0
+Al2 0.0097(8) 0.0097(8) 0.0167(7) 0.0048(4) 0 0
+Al3 0.0088(7) 0.0088(7) 0.0189(7) 0.0044(3) 0 0
+Al4 0.0150(10) 0.0150(10) 0.0422(10) 0.0075(5) 0 0
+Al5 0.0088(9) 0.0088(9) 0.0231(12) 0.0044(4) 0 0
+Al6 0.0137(14) 0.0137(14) 0.114(4) 0.0068(7) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Si1 Ca1 Al1 . 4_445 133.98(3)
+Si1 Ca1 Si1 . 4_445 133.98(3)
+Si1 Ca1 Al1 . 4_545 133.98(3)
+Al1 Ca1 Al1 4_445 4_545 85.24(6)
+Si1 Ca1 Al1 4_445 4_545 85.24(6)
+Si1 Ca1 Al1 . 1_545 85.24(6)
+Al1 Ca1 Al1 4_445 1_545 133.98(3)
+Si1 Ca1 Al1 4_445 1_545 133.98(3)
+Al1 Ca1 Al1 4_545 1_545 77.14(8)
+Si1 Ca1 Si1 . 4_545 133.98(3)
+Al1 Ca1 Si1 4_445 4_545 85.24(6)
+Si1 Ca1 Si1 4_445 4_545 85.24(6)
+Al1 Ca1 Si1 1_545 4_545 77.14(8)
+Si1 Ca1 Si1 . 1_545 85.24(6)
+Al1 Ca1 Si1 4_445 1_545 133.98(3)
+Si1 Ca1 Si1 4_445 1_545 133.98(3)
+Al1 Ca1 Si1 4_545 1_545 77.14(8)
+Si1 Ca1 Si1 4_545 1_545 77.14(8)
+Si1 Ca1 Al1 . 4 77.14(8)
+Al1 Ca1 Al1 4_445 4 85.24(6)
+Si1 Ca1 Al1 4_445 4 85.24(6)
+Al1 Ca1 Al1 4_545 4 85.24(6)
+Al1 Ca1 Al1 1_545 4 133.98(3)
+Si1 Ca1 Al1 4_545 4 85.24(6)
+Si1 Ca1 Al1 1_545 4 133.98(3)
+Si1 Ca1 Al1 . 1_445 85.24(6)
+Al1 Ca1 Al1 4_445 1_445 77.14(8)
+Si1 Ca1 Al1 4_445 1_445 77.14(8)
+Al1 Ca1 Al1 4_545 1_445 133.98(3)
+Al1 Ca1 Al1 1_545 1_445 85.24(6)
+Si1 Ca1 Al1 4_545 1_445 133.98(3)
+Si1 Ca1 Al1 1_545 1_445 85.24(6)
+Al1 Ca1 Al1 4 1_445 133.98(3)
+Si1 Ca1 Si1 . 4 77.14(8)
+Al1 Ca1 Si1 4_445 4 85.24(6)
+Si1 Ca1 Si1 4_445 4 85.24(6)
+Al1 Ca1 Si1 4_545 4 85.24(6)
+Al1 Ca1 Si1 1_545 4 133.98(3)
+Si1 Ca1 Si1 4_545 4 85.24(6)
+Si1 Ca1 Si1 1_545 4 133.98(3)
+Al1 Ca1 Si1 1_445 4 133.98(3)
+Si1 Ca1 Si1 . 1_445 85.24(6)
+Al1 Ca1 Si1 4_445 1_445 77.14(8)
+Si1 Ca1 Si1 4_445 1_445 77.14(8)
+Al1 Ca1 Si1 4_545 1_445 133.98(3)
+Al1 Ca1 Si1 1_545 1_445 85.24(6)
+Si1 Ca1 Si1 4_545 1_445 133.98(3)
+Si1 Ca1 Si1 1_545 1_445 85.24(6)
+Al1 Ca1 Si1 4 1_445 133.98(3)
+Si1 Ca1 Si1 4 1_445 133.98(3)
+Si1 Ca1 Si2 . . 44.46(2)
+Al1 Ca1 Si2 4_445 . 174.73(4)
+Si1 Ca1 Si2 4_445 . 174.73(4)
+Al1 Ca1 Si2 4_545 . 98.62(4)
+Al1 Ca1 Si2 1_545 . 44.46(2)
+Si1 Ca1 Si2 4_545 . 98.62(4)
+Si1 Ca1 Si2 1_545 . 44.46(2)
+Al1 Ca1 Si2 4 . 98.62(4)
+Al1 Ca1 Si2 1_445 . 97.59(5)
+Si1 Ca1 Si2 4 . 98.62(4)
+Si1 Ca1 Si2 1_445 . 97.59(5)
+Si1 Ca1 Al2 . 4_445 174.73(4)
+Al1 Ca1 Al2 4_445 4_445 44.46(2)
+Si1 Ca1 Al2 4_445 4_445 44.46(2)
+Al1 Ca1 Al2 4_545 4_445 44.46(2)
+Al1 Ca1 Al2 1_545 4_445 98.62(4)
+Si1 Ca1 Al2 4_545 4_445 44.46(2)
+Si1 Ca1 Al2 1_545 4_445 98.62(4)
+Al1 Ca1 Al2 4 4_445 97.59(5)
+Al1 Ca1 Al2 1_445 4_445 98.62(4)
+Si1 Ca1 Al2 4 4_445 97.59(5)
+Si1 Ca1 Al2 1_445 4_445 98.62(4)
+Si2 Ca1 Al2 . 4_445 137.718(16)
+Si1 Ca1 Si2 . 4_445 174.73(4)
+Al1 Ca1 Si2 4_445 4_445 44.46(2)
+Si1 Ca1 Si2 4_445 4_445 44.46(2)
+Al1 Ca1 Si2 4_545 4_445 44.46(2)
+Al1 Ca1 Si2 1_545 4_445 98.62(4)
+Si1 Ca1 Si2 4_545 4_445 44.46(2)
+Si1 Ca1 Si2 1_545 4_445 98.62(4)
+Al1 Ca1 Si2 4 4_445 97.59(5)
+Al1 Ca1 Si2 1_445 4_445 98.62(4)
+Si1 Ca1 Si2 4 4_445 97.59(5)
+Si1 Ca1 Si2 1_445 4_445 98.62(4)
+Si2 Ca1 Si2 . 4_445 137.718(16)
+Si1 Ca1 Al2 . 4_455 98.62(4)
+Al1 Ca1 Al2 4_445 4_455 44.46(2)
+Si1 Ca1 Al2 4_445 4_455 44.46(2)
+Al1 Ca1 Al2 4_545 4_455 97.59(5)
+Al1 Ca1 Al2 1_545 4_455 174.73(4)
+Si1 Ca1 Al2 4_545 4_455 97.59(5)
+Si1 Ca1 Al2 1_545 4_455 174.73(4)
+Al1 Ca1 Al2 4 4_455 44.46(2)
+Al1 Ca1 Al2 1_445 4_455 98.62(4)
+Si1 Ca1 Al2 4 4_455 44.46(2)
+Si1 Ca1 Al2 1_445 4_455 98.62(4)
+Si2 Ca1 Al2 . 4_455 137.718(16)
+Al2 Ca1 Al2 4_445 4_455 77.32(3)
+Si2 Ca1 Al2 4_445 4_455 77.32(3)
+Si1 Ca1 Al2 . 1_455 44.46(2)
+Al1 Ca1 Al2 4_445 1_455 98.62(4)
+Si1 Ca1 Al2 4_445 1_455 98.62(4)
+Al1 Ca1 Al2 4_545 1_455 174.73(4)
+Al1 Ca1 Al2 1_545 1_455 97.59(5)
+Si1 Ca1 Al2 4_545 1_455 174.73(4)
+Si1 Ca1 Al2 1_545 1_455 97.59(5)
+Al1 Ca1 Al2 4 1_455 98.62(4)
+Al1 Ca1 Al2 1_445 1_455 44.46(2)
+Si1 Ca1 Al2 4 1_455 98.62(4)
+Si1 Ca1 Al2 1_445 1_455 44.46(2)
+Si2 Ca1 Al2 . 1_455 77.32(3)
+Al2 Ca1 Al2 4_445 1_455 137.718(16)
+Si2 Ca1 Al2 4_445 1_455 137.718(16)
+Al2 Ca1 Al2 4_455 1_455 87.67(4)
+Si1 Ca1 Si2 . 4_455 98.62(4)
+Al1 Ca1 Si2 4_445 4_455 44.46(2)
+Si1 Ca1 Si2 4_445 4_455 44.46(2)
+Al1 Ca1 Si2 4_545 4_455 97.59(5)
+Al1 Ca1 Si2 1_545 4_455 174.73(4)
+Si1 Ca1 Si2 4_545 4_455 97.59(5)
+Si1 Ca1 Si2 1_545 4_455 174.73(4)
+Al1 Ca1 Si2 4 4_455 44.46(2)
+Al1 Ca1 Si2 1_445 4_455 98.62(4)
+Si1 Ca1 Si2 4 4_455 44.46(2)
+Si1 Ca1 Si2 1_445 4_455 98.62(4)
+Si2 Ca1 Si2 . 4_455 137.718(16)
+Al2 Ca1 Si2 4_445 4_455 77.32(3)
+Si2 Ca1 Si2 4_445 4_455 77.32(3)
+Al2 Ca1 Si2 1_455 4_455 87.67(4)
+Si1 Ca1 Si2 . 1_455 44.46(2)
+Al1 Ca1 Si2 4_445 1_455 98.62(4)
+Si1 Ca1 Si2 4_445 1_455 98.62(4)
+Al1 Ca1 Si2 4_545 1_455 174.73(4)
+Al1 Ca1 Si2 1_545 1_455 97.59(5)
+Si1 Ca1 Si2 4_545 1_455 174.73(4)
+Si1 Ca1 Si2 1_545 1_455 97.59(5)
+Al1 Ca1 Si2 4 1_455 98.62(4)
+Al1 Ca1 Si2 1_445 1_455 44.46(2)
+Si1 Ca1 Si2 4 1_455 98.62(4)
+Si1 Ca1 Si2 1_445 1_455 44.46(2)
+Si2 Ca1 Si2 . 1_455 77.32(3)
+Al2 Ca1 Si2 4_445 1_455 137.718(16)
+Si2 Ca1 Si2 4_445 1_455 137.718(16)
+Al2 Ca1 Si2 4_455 1_455 87.67(4)
+Si2 Ca1 Si2 4_455 1_455 87.67(4)
+Si1 Ca1 Al2 . 4 98.62(4)
+Al1 Ca1 Al2 4_445 4 97.59(5)
+Si1 Ca1 Al2 4_445 4 97.59(5)
+Al1 Ca1 Al2 4_545 4 44.46(2)
+Al1 Ca1 Al2 1_545 4 98.62(4)
+Si1 Ca1 Al2 4_545 4 44.46(2)
+Si1 Ca1 Al2 1_545 4 98.62(4)
+Al1 Ca1 Al2 4 4 44.46(2)
+Al1 Ca1 Al2 1_445 4 174.73(4)
+Si1 Ca1 Al2 4 4 44.46(2)
+Si1 Ca1 Al2 1_445 4 174.73(4)
+Si2 Ca1 Al2 . 4 87.67(4)
+Al2 Ca1 Al2 4_445 4 77.32(3)
+Si2 Ca1 Al2 4_445 4 77.32(3)
+Al2 Ca1 Al2 4_455 4 77.32(3)
+Al2 Ca1 Al2 1_455 4 137.718(16)
+Si2 Ca1 Al2 4_455 4 77.32(3)
+Si2 Ca1 Al2 1_455 4 137.718(16)
+Si1 Ca1 Si2 . 1_445 97.59(5)
+Al1 Ca1 Si2 4_445 1_445 98.62(4)
+Si1 Ca1 Si2 4_445 1_445 98.62(4)
+Al1 Ca1 Si2 4_545 1_445 98.62(4)
+Al1 Ca1 Si2 1_545 1_445 44.46(2)
+Si1 Ca1 Si2 4_545 1_445 98.62(4)
+Si1 Ca1 Si2 1_545 1_445 44.46(2)
+Al1 Ca1 Si2 4 1_445 174.73(4)
+Al1 Ca1 Si2 1_445 1_445 44.46(2)
+Si1 Ca1 Si2 4 1_445 174.73(4)
+Si1 Ca1 Si2 1_445 1_445 44.46(2)
+Si2 Ca1 Si2 . 1_445 77.32(3)
+Al2 Ca1 Si2 4_445 1_445 87.67(4)
+Si2 Ca1 Si2 4_445 1_445 87.67(4)
+Al2 Ca1 Si2 4_455 1_445 137.718(16)
+Al2 Ca1 Si2 1_455 1_445 77.32(3)
+Si2 Ca1 Si2 4_455 1_445 137.718(16)
+Si2 Ca1 Si2 1_455 1_445 77.32(3)
+Al2 Ca1 Si2 4 1_445 137.718(16)
+Si1 Ca1 Si2 . 4 98.62(4)
+Al1 Ca1 Si2 4_445 4 97.59(5)
+Si1 Ca1 Si2 4_445 4 97.59(5)
+Al1 Ca1 Si2 4_545 4 44.46(2)
+Al1 Ca1 Si2 1_545 4 98.62(4)
+Si1 Ca1 Si2 4_545 4 44.46(2)
+Si1 Ca1 Si2 1_545 4 98.62(4)
+Al1 Ca1 Si2 4 4 44.46(2)
+Al1 Ca1 Si2 1_445 4 174.73(4)
+Si1 Ca1 Si2 4 4 44.46(2)
+Si1 Ca1 Si2 1_445 4 174.73(4)
+Si2 Ca1 Si2 . 4 87.67(4)
+Al2 Ca1 Si2 4_445 4 77.32(3)
+Si2 Ca1 Si2 4_445 4 77.32(3)
+Al2 Ca1 Si2 4_455 4 77.32(3)
+Al2 Ca1 Si2 1_455 4 137.718(16)
+Si2 Ca1 Si2 4_455 4 77.32(3)
+Si2 Ca1 Si2 1_455 4 137.718(16)
+Si2 Ca1 Si2 1_445 4 137.718(16)
+Si1 Ca1 Al2 . 1_445 97.59(5)
+Al1 Ca1 Al2 4_445 1_445 98.62(4)
+Si1 Ca1 Al2 4_445 1_445 98.62(4)
+Al1 Ca1 Al2 4_545 1_445 98.62(4)
+Al1 Ca1 Al2 1_545 1_445 44.46(2)
+Si1 Ca1 Al2 4_545 1_445 98.62(4)
+Si1 Ca1 Al2 1_545 1_445 44.46(2)
+Al1 Ca1 Al2 4 1_445 174.73(4)
+Al1 Ca1 Al2 1_445 1_445 44.46(2)
+Si1 Ca1 Al2 4 1_445 174.73(4)
+Si1 Ca1 Al2 1_445 1_445 44.46(2)
+Si2 Ca1 Al2 . 1_445 77.32(3)
+Al2 Ca1 Al2 4_445 1_445 87.67(4)
+Si2 Ca1 Al2 4_445 1_445 87.67(4)
+Al2 Ca1 Al2 4_455 1_445 137.718(16)
+Al2 Ca1 Al2 1_455 1_445 77.32(3)
+Si2 Ca1 Al2 4_455 1_445 137.718(16)
+Si2 Ca1 Al2 1_455 1_445 77.32(3)
+Al2 Ca1 Al2 4 1_445 137.718(16)
+Si2 Ca1 Al2 4 1_445 137.718(16)
+Si1 Ca1 Ca1 . 1_665 47.38(3)
+Al1 Ca1 Ca1 4_445 1_665 132.62(3)
+Si1 Ca1 Ca1 4_445 1_665 132.62(3)
+Al1 Ca1 Ca1 4_545 1_665 90
+Al1 Ca1 Ca1 1_545 1_665 90
+Si1 Ca1 Ca1 4_545 1_665 90
+Si1 Ca1 Ca1 1_545 1_665 90
+Al1 Ca1 Ca1 4 1_665 47.38(3)
+Al1 Ca1 Ca1 1_445 1_665 132.62(3)
+Si1 Ca1 Ca1 4 1_665 47.38(3)
+Si1 Ca1 Ca1 1_445 1_665 132.62(3)
+Si2 Ca1 Ca1 . 1_665 51.341(16)
+Al2 Ca1 Ca1 4_445 1_665 128.659(16)
+Si2 Ca1 Ca1 4_445 1_665 128.659(16)
+Al2 Ca1 Ca1 4_455 1_665 90
+Al2 Ca1 Ca1 1_455 1_665 90
+Si2 Ca1 Ca1 4_455 1_665 90
+Si2 Ca1 Ca1 1_455 1_665 90
+Al2 Ca1 Ca1 4 1_665 51.341(16)
+Si2 Ca1 Ca1 1_445 1_665 128.659(16)
+Si2 Ca1 Ca1 4 1_665 51.341(16)
+Al2 Ca1 Ca1 1_445 1_665 128.659(16)
+Si1 Ca1 Ca1 . 1_445 132.62(3)
+Al1 Ca1 Ca1 4_445 1_445 47.38(3)
+Si1 Ca1 Ca1 4_445 1_445 47.38(3)
+Al1 Ca1 Ca1 4_545 1_445 90
+Al1 Ca1 Ca1 1_545 1_445 90
+Si1 Ca1 Ca1 4_545 1_445 90
+Si1 Ca1 Ca1 1_545 1_445 90
+Al1 Ca1 Ca1 4 1_445 132.62(3)
+Al1 Ca1 Ca1 1_445 1_445 47.38(3)
+Si1 Ca1 Ca1 4 1_445 132.62(3)
+Si1 Ca1 Ca1 1_445 1_445 47.38(3)
+Si2 Ca1 Ca1 . 1_445 128.659(16)
+Al2 Ca1 Ca1 4_445 1_445 51.341(16)
+Si2 Ca1 Ca1 4_445 1_445 51.341(16)
+Al2 Ca1 Ca1 4_455 1_445 90
+Al2 Ca1 Ca1 1_455 1_445 90
+Si2 Ca1 Ca1 4_455 1_445 90
+Si2 Ca1 Ca1 1_455 1_445 90
+Al2 Ca1 Ca1 4 1_445 128.659(16)
+Si2 Ca1 Ca1 1_445 1_445 51.341(16)
+Si2 Ca1 Ca1 4 1_445 128.659(16)
+Al2 Ca1 Ca1 1_445 1_445 51.341(16)
+Ca1 Ca1 Ca1 1_665 1_445 180
+Si1 Ca1 Ca1 . 1_545 132.62(3)
+Al1 Ca1 Ca1 4_445 1_545 90
+Si1 Ca1 Ca1 4_445 1_545 90
+Al1 Ca1 Ca1 4_545 1_545 47.38(3)
+Al1 Ca1 Ca1 1_545 1_545 47.38(3)
+Si1 Ca1 Ca1 4_545 1_545 47.38(3)
+Si1 Ca1 Ca1 1_545 1_545 47.38(3)
+Al1 Ca1 Ca1 4 1_545 132.62(3)
+Al1 Ca1 Ca1 1_445 1_545 90
+Si1 Ca1 Ca1 4 1_545 132.62(3)
+Si1 Ca1 Ca1 1_445 1_545 90
+Si2 Ca1 Ca1 . 1_545 90
+Al2 Ca1 Ca1 4_445 1_545 51.341(16)
+Si2 Ca1 Ca1 4_445 1_545 51.341(16)
+Al2 Ca1 Ca1 4_455 1_545 128.659(16)
+Al2 Ca1 Ca1 1_455 1_545 128.659(16)
+Si2 Ca1 Ca1 4_455 1_545 128.659(16)
+Si2 Ca1 Ca1 1_455 1_545 128.659(16)
+Al2 Ca1 Ca1 4 1_545 90
+Si2 Ca1 Ca1 1_445 1_545 51.341(16)
+Si2 Ca1 Ca1 4 1_545 90
+Al2 Ca1 Ca1 1_445 1_545 51.341(16)
+Ca1 Ca1 Ca1 1_665 1_545 120
+Ca1 Ca1 Ca1 1_445 1_545 60
+Si1 Ca1 Ca1 . 1_655 90
+Al1 Ca1 Ca1 4_445 1_655 132.62(3)
+Si1 Ca1 Ca1 4_445 1_655 132.62(3)
+Al1 Ca1 Ca1 4_545 1_655 47.38(3)
+Al1 Ca1 Ca1 1_545 1_655 47.38(3)
+Si1 Ca1 Ca1 4_545 1_655 47.38(3)
+Si1 Ca1 Ca1 1_545 1_655 47.38(3)
+Al1 Ca1 Ca1 4 1_655 90
+Al1 Ca1 Ca1 1_445 1_655 132.62(3)
+Si1 Ca1 Ca1 4 1_655 90
+Si1 Ca1 Ca1 1_445 1_655 132.62(3)
+Si2 Ca1 Ca1 . 1_655 51.341(16)
+Al2 Ca1 Ca1 4_445 1_655 90
+Si2 Ca1 Ca1 4_445 1_655 90
+Al2 Ca1 Ca1 4_455 1_655 128.659(16)
+Al2 Ca1 Ca1 1_455 1_655 128.659(16)
+Si2 Ca1 Ca1 4_455 1_655 128.659(16)
+Si2 Ca1 Ca1 1_455 1_655 128.659(16)
+Al2 Ca1 Ca1 4 1_655 51.341(16)
+Si2 Ca1 Ca1 1_445 1_655 90
+Si2 Ca1 Ca1 4 1_655 51.341(16)
+Al2 Ca1 Ca1 1_445 1_655 90
+Ca1 Ca1 Ca1 1_665 1_655 60
+Ca1 Ca1 Ca1 1_445 1_655 120
+Ca1 Ca1 Ca1 1_545 1_655 60
+Si1 Ca1 Ca1 . 1_455 90
+Al1 Ca1 Ca1 4_445 1_455 47.38(3)
+Si1 Ca1 Ca1 4_445 1_455 47.38(3)
+Al1 Ca1 Ca1 4_545 1_455 132.62(3)
+Al1 Ca1 Ca1 1_545 1_455 132.62(3)
+Si1 Ca1 Ca1 4_545 1_455 132.62(3)
+Si1 Ca1 Ca1 1_545 1_455 132.62(3)
+Al1 Ca1 Ca1 4 1_455 90
+Al1 Ca1 Ca1 1_445 1_455 47.38(3)
+Si1 Ca1 Ca1 4 1_455 90
+Si1 Ca1 Ca1 1_445 1_455 47.38(3)
+Si2 Ca1 Ca1 . 1_455 128.659(16)
+Al2 Ca1 Ca1 4_445 1_455 90
+Si2 Ca1 Ca1 4_445 1_455 90
+Al2 Ca1 Ca1 4_455 1_455 51.341(16)
+Al2 Ca1 Ca1 1_455 1_455 51.341(16)
+Si2 Ca1 Ca1 4_455 1_455 51.341(16)
+Si2 Ca1 Ca1 1_455 1_455 51.341(16)
+Al2 Ca1 Ca1 4 1_455 128.659(16)
+Si2 Ca1 Ca1 1_445 1_455 90
+Si2 Ca1 Ca1 4 1_455 128.659(16)
+Al2 Ca1 Ca1 1_445 1_455 90
+Ca1 Ca1 Ca1 1_665 1_455 120
+Ca1 Ca1 Ca1 1_445 1_455 60
+Ca1 Ca1 Ca1 1_545 1_455 120
+Ca1 Ca1 Ca1 1_655 1_455 180
+Si1 Ca1 Ca1 . 1_565 47.38(3)
+Al1 Ca1 Ca1 4_445 1_565 90
+Si1 Ca1 Ca1 4_445 1_565 90
+Al1 Ca1 Ca1 4_545 1_565 132.62(3)
+Al1 Ca1 Ca1 1_545 1_565 132.62(3)
+Si1 Ca1 Ca1 4_545 1_565 132.62(3)
+Si1 Ca1 Ca1 1_545 1_565 132.62(3)
+Al1 Ca1 Ca1 4 1_565 47.38(3)
+Al1 Ca1 Ca1 1_445 1_565 90
+Si1 Ca1 Ca1 4 1_565 47.38(3)
+Si1 Ca1 Ca1 1_445 1_565 90
+Si2 Ca1 Ca1 . 1_565 90
+Al2 Ca1 Ca1 4_445 1_565 128.659(16)
+Si2 Ca1 Ca1 4_445 1_565 128.659(16)
+Al2 Ca1 Ca1 4_455 1_565 51.341(16)
+Al2 Ca1 Ca1 1_455 1_565 51.341(16)
+Si2 Ca1 Ca1 4_455 1_565 51.341(16)
+Si2 Ca1 Ca1 1_455 1_565 51.341(16)
+Al2 Ca1 Ca1 4 1_565 90
+Si2 Ca1 Ca1 1_445 1_565 128.659(16)
+Si2 Ca1 Ca1 4 1_565 90
+Al2 Ca1 Ca1 1_445 1_565 128.659(16)
+Ca1 Ca1 Ca1 1_665 1_565 60
+Ca1 Ca1 Ca1 1_445 1_565 120
+Ca1 Ca1 Ca1 1_545 1_565 180
+Ca1 Ca1 Ca1 1_655 1_565 120
+Ca1 Ca1 Ca1 1_455 1_565 60
+Si1 Ca1 Ca2 . 4 128.57(4)
+Al1 Ca1 Ca2 4_445 4 51.43(4)
+Si1 Ca1 Ca2 4_445 4 51.43(4)
+Al1 Ca1 Ca2 4_545 4 51.43(4)
+Al1 Ca1 Ca2 1_545 4 128.57(4)
+Si1 Ca1 Ca2 4_545 4 51.43(4)
+Si1 Ca1 Ca2 1_545 4 128.57(4)
+Al1 Ca1 Ca2 4 4 51.43(4)
+Al1 Ca1 Ca2 1_445 4 128.57(4)
+Si1 Ca1 Ca2 4 4 51.43(4)
+Si1 Ca1 Ca2 1_445 4 128.57(4)
+Si2 Ca1 Ca2 . 4 133.84(2)
+Al2 Ca1 Ca2 4_445 4 46.16(2)
+Si2 Ca1 Ca2 4_445 4 46.16(2)
+Al2 Ca1 Ca2 4_455 4 46.16(2)
+Al2 Ca1 Ca2 1_455 4 133.84(2)
+Si2 Ca1 Ca2 4_455 4 46.16(2)
+Si2 Ca1 Ca2 1_455 4 133.84(2)
+Al2 Ca1 Ca2 4 4 46.16(2)
+Si2 Ca1 Ca2 1_445 4 133.84(2)
+Si2 Ca1 Ca2 4 4 46.16(2)
+Al2 Ca1 Ca2 1_445 4 133.84(2)
+Ca1 Ca1 Ca2 1_665 4 90
+Ca1 Ca1 Ca2 1_445 4 90
+Ca1 Ca1 Ca2 1_545 4 90
+Ca1 Ca1 Ca2 1_655 4 90
+Ca1 Ca1 Ca2 1_455 4 90
+Ca1 Ca1 Ca2 1_565 4 90
+Si1 Ca1 Ca2 . . 51.43(4)
+Al1 Ca1 Ca2 4_445 . 128.57(4)
+Si1 Ca1 Ca2 4_445 . 128.57(4)
+Al1 Ca1 Ca2 4_545 . 128.57(4)
+Al1 Ca1 Ca2 1_545 . 51.43(4)
+Si1 Ca1 Ca2 4_545 . 128.57(4)
+Si1 Ca1 Ca2 1_545 . 51.43(4)
+Al1 Ca1 Ca2 4 . 128.57(4)
+Al1 Ca1 Ca2 1_445 . 51.43(4)
+Si1 Ca1 Ca2 4 . 128.57(4)
+Si1 Ca1 Ca2 1_445 . 51.43(4)
+Si2 Ca1 Ca2 . . 46.16(2)
+Al2 Ca1 Ca2 4_445 . 133.84(2)
+Si2 Ca1 Ca2 4_445 . 133.84(2)
+Al2 Ca1 Ca2 4_455 . 133.84(2)
+Al2 Ca1 Ca2 1_455 . 46.16(2)
+Si2 Ca1 Ca2 4_455 . 133.84(2)
+Si2 Ca1 Ca2 1_455 . 46.16(2)
+Al2 Ca1 Ca2 4 . 133.84(2)
+Si2 Ca1 Ca2 1_445 . 46.16(2)
+Si2 Ca1 Ca2 4 . 133.84(2)
+Al2 Ca1 Ca2 1_445 . 46.16(2)
+Ca1 Ca1 Ca2 1_665 . 90
+Ca1 Ca1 Ca2 1_445 . 90
+Ca1 Ca1 Ca2 1_545 . 90
+Ca1 Ca1 Ca2 1_655 . 90
+Ca1 Ca1 Ca2 1_455 . 90
+Ca1 Ca1 Ca2 1_565 . 90
+Ca2 Ca1 Ca2 4 . 180
+Si3 Ca2 Al3 . 1_545 83.01(5)
+Si3 Ca2 Si3 . 1_545 83.01(5)
+Si3 Ca2 Al3 . 1_445 83.01(5)
+Al3 Ca2 Al3 1_545 1_445 83.01(5)
+Si3 Ca2 Al3 1_545 1_445 83.01(5)
+Si3 Ca2 Si3 . 1_445 83.01(5)
+Al3 Ca2 Si3 1_545 1_445 83.01(5)
+Si3 Ca2 Si3 1_545 1_445 83.01(5)
+Si3 Ca2 Al2 . 1_445 179.59(6)
+Al3 Ca2 Al2 1_545 1_445 97.299(17)
+Si3 Ca2 Al2 1_545 1_445 97.299(17)
+Al3 Ca2 Al2 1_445 1_445 97.299(17)
+Si3 Ca2 Al2 1_445 1_445 97.299(17)
+Si3 Ca2 Si2 . 1_445 179.59(6)
+Al3 Ca2 Si2 1_545 1_445 97.299(17)
+Si3 Ca2 Si2 1_545 1_445 97.299(17)
+Al3 Ca2 Si2 1_445 1_445 97.299(17)
+Si3 Ca2 Si2 1_445 1_445 97.299(17)
+Si3 Ca2 Al2 . 1_455 97.299(17)
+Al3 Ca2 Al2 1_545 1_455 179.59(6)
+Si3 Ca2 Al2 1_545 1_455 179.59(6)
+Al3 Ca2 Al2 1_445 1_455 97.299(17)
+Si3 Ca2 Al2 1_445 1_455 97.299(17)
+Al2 Ca2 Al2 1_445 1_455 82.39(4)
+Si2 Ca2 Al2 1_445 1_455 82.39(4)
+Si3 Ca2 Si2 . 1_455 97.299(17)
+Al3 Ca2 Si2 1_545 1_455 179.59(6)
+Si3 Ca2 Si2 1_545 1_455 179.59(6)
+Al3 Ca2 Si2 1_445 1_455 97.299(17)
+Si3 Ca2 Si2 1_445 1_455 97.299(17)
+Al2 Ca2 Si2 1_445 1_455 82.39(4)
+Si2 Ca2 Si2 1_445 1_455 82.39(4)
+Si3 Ca2 Si2 . . 97.299(17)
+Al3 Ca2 Si2 1_545 . 97.299(17)
+Si3 Ca2 Si2 1_545 . 97.299(17)
+Al3 Ca2 Si2 1_445 . 179.59(6)
+Si3 Ca2 Si2 1_445 . 179.59(6)
+Al2 Ca2 Si2 1_445 . 82.39(4)
+Si2 Ca2 Si2 1_445 . 82.39(4)
+Al2 Ca2 Si2 1_455 . 82.39(4)
+Si2 Ca2 Si2 1_455 . 82.39(4)
+Si3 Ca2 Si4 . . 43.49(2)
+Al3 Ca2 Si4 1_545 . 43.49(2)
+Si3 Ca2 Si4 1_545 . 43.49(2)
+Al3 Ca2 Si4 1_445 . 94.99(6)
+Si3 Ca2 Si4 1_445 . 94.99(6)
+Al2 Ca2 Si4 1_445 . 136.701(10)
+Si2 Ca2 Si4 1_445 . 136.701(10)
+Al2 Ca2 Si4 1_455 . 136.701(10)
+Si2 Ca2 Si4 1_455 . 136.701(10)
+Si2 Ca2 Si4 . . 85.42(3)
+Si3 Ca2 Al4 . 1_455 43.49(2)
+Al3 Ca2 Al4 1_545 1_455 94.99(6)
+Si3 Ca2 Al4 1_545 1_455 94.99(6)
+Al3 Ca2 Al4 1_445 1_455 43.49(2)
+Si3 Ca2 Al4 1_445 1_455 43.49(2)
+Al2 Ca2 Al4 1_445 1_455 136.701(10)
+Si2 Ca2 Al4 1_445 1_455 136.701(10)
+Al2 Ca2 Al4 1_455 1_455 85.42(3)
+Si2 Ca2 Al4 1_455 1_455 85.42(3)
+Si2 Ca2 Al4 . 1_455 136.701(10)
+Si4 Ca2 Al4 . 1_455 75.63(6)
+Si3 Ca2 Si4 . 1_455 43.49(2)
+Al3 Ca2 Si4 1_545 1_455 94.99(6)
+Si3 Ca2 Si4 1_545 1_455 94.99(6)
+Al3 Ca2 Si4 1_445 1_455 43.49(2)
+Si3 Ca2 Si4 1_445 1_455 43.49(2)
+Al2 Ca2 Si4 1_445 1_455 136.701(10)
+Si2 Ca2 Si4 1_445 1_455 136.701(10)
+Al2 Ca2 Si4 1_455 1_455 85.42(3)
+Si2 Ca2 Si4 1_455 1_455 85.42(3)
+Si2 Ca2 Si4 . 1_455 136.701(10)
+Si4 Ca2 Si4 . 1_455 75.63(6)
+Si3 Ca2 Al4 . 1_445 94.99(6)
+Al3 Ca2 Al4 1_545 1_445 43.49(2)
+Si3 Ca2 Al4 1_545 1_445 43.49(2)
+Al3 Ca2 Al4 1_445 1_445 43.49(2)
+Si3 Ca2 Al4 1_445 1_445 43.49(2)
+Al2 Ca2 Al4 1_445 1_445 85.42(3)
+Si2 Ca2 Al4 1_445 1_445 85.42(3)
+Al2 Ca2 Al4 1_455 1_445 136.701(10)
+Si2 Ca2 Al4 1_455 1_445 136.701(10)
+Si2 Ca2 Al4 . 1_445 136.701(10)
+Si4 Ca2 Al4 . 1_445 75.63(6)
+Al4 Ca2 Al4 1_455 1_445 75.63(6)
+Si4 Ca2 Al4 1_455 1_445 75.63(6)
+Si3 Ca2 Si4 . 1_445 94.99(6)
+Al3 Ca2 Si4 1_545 1_445 43.49(2)
+Si3 Ca2 Si4 1_545 1_445 43.49(2)
+Al3 Ca2 Si4 1_445 1_445 43.49(2)
+Si3 Ca2 Si4 1_445 1_445 43.49(2)
+Al2 Ca2 Si4 1_445 1_445 85.42(3)
+Si2 Ca2 Si4 1_445 1_445 85.42(3)
+Al2 Ca2 Si4 1_455 1_445 136.701(10)
+Si2 Ca2 Si4 1_455 1_445 136.701(10)
+Si2 Ca2 Si4 . 1_445 136.701(10)
+Si4 Ca2 Si4 . 1_445 75.63(6)
+Al4 Ca2 Si4 1_455 1_445 75.63(6)
+Si4 Ca2 Si4 1_455 1_445 75.63(6)
+Si3 Ca2 Si1 . 1_445 136.657(10)
+Al3 Ca2 Si1 1_545 1_445 136.657(10)
+Si3 Ca2 Si1 1_545 1_445 136.657(10)
+Al3 Ca2 Si1 1_445 1_445 85.54(3)
+Si3 Ca2 Si1 1_445 1_445 85.54(3)
+Al2 Ca2 Si1 1_445 1_445 43.15(2)
+Si2 Ca2 Si1 1_445 1_445 43.15(2)
+Al2 Ca2 Si1 1_455 1_445 43.15(2)
+Si2 Ca2 Si1 1_455 1_445 43.15(2)
+Si2 Ca2 Si1 . 1_445 94.04(6)
+Si4 Ca2 Si1 . 1_445 179.46(7)
+Al4 Ca2 Si1 1_455 1_445 104.79(3)
+Si4 Ca2 Si1 1_455 1_445 104.79(3)
+Al4 Ca2 Si1 1_445 1_445 104.79(3)
+Si4 Ca2 Si1 1_445 1_445 104.79(3)
+Si3 Ca2 Al1 . 1_445 136.657(10)
+Al3 Ca2 Al1 1_545 1_445 136.657(10)
+Si3 Ca2 Al1 1_545 1_445 136.657(10)
+Al3 Ca2 Al1 1_445 1_445 85.54(3)
+Si3 Ca2 Al1 1_445 1_445 85.54(3)
+Al2 Ca2 Al1 1_445 1_445 43.15(2)
+Si2 Ca2 Al1 1_445 1_445 43.15(2)
+Al2 Ca2 Al1 1_455 1_445 43.15(2)
+Si2 Ca2 Al1 1_455 1_445 43.15(2)
+Si2 Ca2 Al1 . 1_445 94.04(6)
+Si4 Ca2 Al1 . 1_445 179.46(7)
+Al4 Ca2 Al1 1_455 1_445 104.79(3)
+Si4 Ca2 Al1 1_455 1_445 104.79(3)
+Al4 Ca2 Al1 1_445 1_445 104.79(3)
+Si4 Ca2 Al1 1_445 1_445 104.79(3)
+Si3 Ca2 Al1 . 1_545 136.657(10)
+Al3 Ca2 Al1 1_545 1_545 85.54(3)
+Si3 Ca2 Al1 1_545 1_545 85.54(3)
+Al3 Ca2 Al1 1_445 1_545 136.657(10)
+Si3 Ca2 Al1 1_445 1_545 136.657(10)
+Al2 Ca2 Al1 1_445 1_545 43.15(2)
+Si2 Ca2 Al1 1_445 1_545 43.15(2)
+Al2 Ca2 Al1 1_455 1_545 94.04(6)
+Si2 Ca2 Al1 1_455 1_545 94.04(6)
+Si2 Ca2 Al1 . 1_545 43.15(2)
+Si4 Ca2 Al1 . 1_545 104.79(3)
+Al4 Ca2 Al1 1_455 1_545 179.46(7)
+Si4 Ca2 Al1 1_455 1_545 179.46(7)
+Al4 Ca2 Al1 1_445 1_545 104.79(3)
+Si4 Ca2 Al1 1_445 1_545 104.79(3)
+Si1 Ca2 Al1 1_445 1_545 74.80(6)
+Al1 Ca2 Al1 1_445 1_545 74.80(6)
+Si3 Ca2 Si1 . 1_545 136.657(10)
+Al3 Ca2 Si1 1_545 1_545 85.54(3)
+Si3 Ca2 Si1 1_545 1_545 85.54(3)
+Al3 Ca2 Si1 1_445 1_545 136.657(10)
+Si3 Ca2 Si1 1_445 1_545 136.657(10)
+Al2 Ca2 Si1 1_445 1_545 43.15(2)
+Si2 Ca2 Si1 1_445 1_545 43.15(2)
+Al2 Ca2 Si1 1_455 1_545 94.04(6)
+Si2 Ca2 Si1 1_455 1_545 94.04(6)
+Si2 Ca2 Si1 . 1_545 43.15(2)
+Si4 Ca2 Si1 . 1_545 104.79(3)
+Al4 Ca2 Si1 1_455 1_545 179.46(7)
+Si4 Ca2 Si1 1_455 1_545 179.46(7)
+Al4 Ca2 Si1 1_445 1_545 104.79(3)
+Si4 Ca2 Si1 1_445 1_545 104.79(3)
+Si1 Ca2 Si1 1_445 1_545 74.80(6)
+Al1 Ca2 Si1 1_445 1_545 74.80(6)
+Si3 Ca2 Si1 . . 85.54(3)
+Al3 Ca2 Si1 1_545 . 136.657(10)
+Si3 Ca2 Si1 1_545 . 136.657(10)
+Al3 Ca2 Si1 1_445 . 136.657(10)
+Si3 Ca2 Si1 1_445 . 136.657(10)
+Al2 Ca2 Si1 1_445 . 94.04(6)
+Si2 Ca2 Si1 1_445 . 94.04(6)
+Al2 Ca2 Si1 1_455 . 43.15(2)
+Si2 Ca2 Si1 1_455 . 43.15(2)
+Si2 Ca2 Si1 . . 43.15(2)
+Si4 Ca2 Si1 . . 104.79(3)
+Al4 Ca2 Si1 1_455 . 104.79(3)
+Si4 Ca2 Si1 1_455 . 104.79(3)
+Al4 Ca2 Si1 1_445 . 179.46(7)
+Si4 Ca2 Si1 1_445 . 179.46(7)
+Si1 Ca2 Si1 1_445 . 74.80(6)
+Al1 Ca2 Si1 1_445 . 74.80(6)
+Al1 Ca2 Si1 1_545 . 74.80(6)
+Si1 Ca2 Si1 1_545 . 74.80(6)
+Si3 Ca2 Ca2 . 1_445 131.50(2)
+Al3 Ca2 Ca2 1_545 1_445 90
+Si3 Ca2 Ca2 1_545 1_445 90
+Al3 Ca2 Ca2 1_445 1_445 48.50(2)
+Si3 Ca2 Ca2 1_445 1_445 48.50(2)
+Al2 Ca2 Ca2 1_445 1_445 48.80(2)
+Si2 Ca2 Ca2 1_445 1_445 48.80(2)
+Al2 Ca2 Ca2 1_455 1_445 90
+Si2 Ca2 Ca2 1_455 1_445 90
+Si2 Ca2 Ca2 . 1_445 131.20(2)
+Si4 Ca2 Ca2 . 1_445 127.81(3)
+Al4 Ca2 Ca2 1_455 1_445 90
+Si4 Ca2 Ca2 1_455 1_445 90
+Al4 Ca2 Ca2 1_445 1_445 52.19(3)
+Si4 Ca2 Ca2 1_445 1_445 52.19(3)
+Si1 Ca2 Ca2 1_445 1_445 52.60(3)
+Al1 Ca2 Ca2 1_445 1_445 52.60(3)
+Al1 Ca2 Ca2 1_545 1_445 90
+Si1 Ca2 Ca2 1_545 1_445 90
+Si1 Ca2 Ca2 . 1_445 127.40(3)
+Si3 Ca2 Ca2 . 1_665 48.50(2)
+Al3 Ca2 Ca2 1_545 1_665 90
+Si3 Ca2 Ca2 1_545 1_665 90
+Al3 Ca2 Ca2 1_445 1_665 131.50(2)
+Si3 Ca2 Ca2 1_445 1_665 131.50(2)
+Al2 Ca2 Ca2 1_445 1_665 131.20(2)
+Si2 Ca2 Ca2 1_445 1_665 131.20(2)
+Al2 Ca2 Ca2 1_455 1_665 90
+Si2 Ca2 Ca2 1_455 1_665 90
+Si2 Ca2 Ca2 . 1_665 48.80(2)
+Si4 Ca2 Ca2 . 1_665 52.19(3)
+Al4 Ca2 Ca2 1_455 1_665 90
+Si4 Ca2 Ca2 1_455 1_665 90
+Al4 Ca2 Ca2 1_445 1_665 127.81(3)
+Si4 Ca2 Ca2 1_445 1_665 127.81(3)
+Si1 Ca2 Ca2 1_445 1_665 127.40(3)
+Al1 Ca2 Ca2 1_445 1_665 127.40(3)
+Al1 Ca2 Ca2 1_545 1_665 90
+Si1 Ca2 Ca2 1_545 1_665 90
+Si1 Ca2 Ca2 . 1_665 52.60(3)
+Ca2 Ca2 Ca2 1_445 1_665 180
+Si3 Ca2 Ca2 . 1_565 48.50(2)
+Al3 Ca2 Ca2 1_545 1_565 131.50(2)
+Si3 Ca2 Ca2 1_545 1_565 131.50(2)
+Al3 Ca2 Ca2 1_445 1_565 90
+Si3 Ca2 Ca2 1_445 1_565 90
+Al2 Ca2 Ca2 1_445 1_565 131.20(2)
+Si2 Ca2 Ca2 1_445 1_565 131.20(2)
+Al2 Ca2 Ca2 1_455 1_565 48.80(2)
+Si2 Ca2 Ca2 1_455 1_565 48.80(2)
+Si2 Ca2 Ca2 . 1_565 90
+Si4 Ca2 Ca2 . 1_565 90
+Al4 Ca2 Ca2 1_455 1_565 52.19(3)
+Si4 Ca2 Ca2 1_455 1_565 52.19(3)
+Al4 Ca2 Ca2 1_445 1_565 127.81(3)
+Si4 Ca2 Ca2 1_445 1_565 127.81(3)
+Si1 Ca2 Ca2 1_445 1_565 90
+Al1 Ca2 Ca2 1_445 1_565 90
+Al1 Ca2 Ca2 1_545 1_565 127.40(3)
+Si1 Ca2 Ca2 1_545 1_565 127.40(3)
+Si1 Ca2 Ca2 . 1_565 52.60(3)
+Ca2 Ca2 Ca2 1_445 1_565 120
+Ca2 Ca2 Ca2 1_665 1_565 60
+Si3 Ca2 Ca2 . 1_455 90
+Al3 Ca2 Ca2 1_545 1_455 131.50(2)
+Si3 Ca2 Ca2 1_545 1_455 131.50(2)
+Al3 Ca2 Ca2 1_445 1_455 48.50(2)
+Si3 Ca2 Ca2 1_445 1_455 48.50(2)
+Al2 Ca2 Ca2 1_445 1_455 90
+Si2 Ca2 Ca2 1_445 1_455 90
+Al2 Ca2 Ca2 1_455 1_455 48.80(2)
+Si2 Ca2 Ca2 1_455 1_455 48.80(2)
+Si2 Ca2 Ca2 . 1_455 131.20(2)
+Si4 Ca2 Ca2 . 1_455 127.81(3)
+Al4 Ca2 Ca2 1_455 1_455 52.19(3)
+Si4 Ca2 Ca2 1_455 1_455 52.19(3)
+Al4 Ca2 Ca2 1_445 1_455 90
+Si4 Ca2 Ca2 1_445 1_455 90
+Si1 Ca2 Ca2 1_445 1_455 52.60(3)
+Al1 Ca2 Ca2 1_445 1_455 52.60(3)
+Al1 Ca2 Ca2 1_545 1_455 127.40(3)
+Si1 Ca2 Ca2 1_545 1_455 127.40(3)
+Si1 Ca2 Ca2 . 1_455 90
+Ca2 Ca2 Ca2 1_445 1_455 60
+Ca2 Ca2 Ca2 1_665 1_455 120
+Ca2 Ca2 Ca2 1_565 1_455 60
+Si3 Ca2 Ca2 . 1_545 131.50(2)
+Al3 Ca2 Ca2 1_545 1_545 48.50(2)
+Si3 Ca2 Ca2 1_545 1_545 48.50(2)
+Al3 Ca2 Ca2 1_445 1_545 90
+Si3 Ca2 Ca2 1_445 1_545 90
+Al2 Ca2 Ca2 1_445 1_545 48.80(2)
+Si2 Ca2 Ca2 1_445 1_545 48.80(2)
+Al2 Ca2 Ca2 1_455 1_545 131.20(2)
+Si2 Ca2 Ca2 1_455 1_545 131.20(2)
+Si2 Ca2 Ca2 . 1_545 90
+Si4 Ca2 Ca2 . 1_545 90
+Al4 Ca2 Ca2 1_455 1_545 127.81(3)
+Si4 Ca2 Ca2 1_455 1_545 127.81(3)
+Al4 Ca2 Ca2 1_445 1_545 52.19(3)
+Si4 Ca2 Ca2 1_445 1_545 52.19(3)
+Si1 Ca2 Ca2 1_445 1_545 90
+Al1 Ca2 Ca2 1_445 1_545 90
+Al1 Ca2 Ca2 1_545 1_545 52.60(3)
+Si1 Ca2 Ca2 1_545 1_545 52.60(3)
+Si1 Ca2 Ca2 . 1_545 127.40(3)
+Ca2 Ca2 Ca2 1_445 1_545 60
+Ca2 Ca2 Ca2 1_665 1_545 120
+Ca2 Ca2 Ca2 1_565 1_545 180
+Ca2 Ca2 Ca2 1_455 1_545 120
+Si3 Ca2 Ca2 . 1_655 90
+Al3 Ca2 Ca2 1_545 1_655 48.50(2)
+Si3 Ca2 Ca2 1_545 1_655 48.50(2)
+Al3 Ca2 Ca2 1_445 1_655 131.50(2)
+Si3 Ca2 Ca2 1_445 1_655 131.50(2)
+Al2 Ca2 Ca2 1_445 1_655 90
+Si2 Ca2 Ca2 1_445 1_655 90
+Al2 Ca2 Ca2 1_455 1_655 131.20(2)
+Si2 Ca2 Ca2 1_455 1_655 131.20(2)
+Si2 Ca2 Ca2 . 1_655 48.80(2)
+Si4 Ca2 Ca2 . 1_655 52.19(3)
+Al4 Ca2 Ca2 1_455 1_655 127.81(3)
+Si4 Ca2 Ca2 1_455 1_655 127.81(3)
+Al4 Ca2 Ca2 1_445 1_655 90
+Si4 Ca2 Ca2 1_445 1_655 90
+Si1 Ca2 Ca2 1_445 1_655 127.40(3)
+Al1 Ca2 Ca2 1_445 1_655 127.40(3)
+Al1 Ca2 Ca2 1_545 1_655 52.60(3)
+Si1 Ca2 Ca2 1_545 1_655 52.60(3)
+Si1 Ca2 Ca2 . 1_655 90
+Ca2 Ca2 Ca2 1_445 1_655 120
+Ca2 Ca2 Ca2 1_665 1_655 60
+Ca2 Ca2 Ca2 1_565 1_655 120
+Ca2 Ca2 Ca2 1_455 1_655 180
+Ca2 Ca2 Ca2 1_545 1_655 60
+Si3 Ca2 Ca1 . . 130.08(3)
+Al3 Ca2 Ca1 1_545 . 130.08(3)
+Si3 Ca2 Ca1 1_545 . 130.08(3)
+Al3 Ca2 Ca1 1_445 . 130.08(3)
+Si3 Ca2 Ca1 1_445 . 130.08(3)
+Al2 Ca2 Ca1 1_445 . 49.51(3)
+Si2 Ca2 Ca1 1_445 . 49.51(3)
+Al2 Ca2 Ca1 1_455 . 49.51(3)
+Si2 Ca2 Ca1 1_455 . 49.51(3)
+Si2 Ca2 Ca1 . . 49.51(3)
+Si4 Ca2 Ca1 . . 134.93(4)
+Al4 Ca2 Ca1 1_455 . 134.93(4)
+Si4 Ca2 Ca1 1_455 . 134.93(4)
+Al4 Ca2 Ca1 1_445 . 134.93(4)
+Si4 Ca2 Ca1 1_445 . 134.93(4)
+Si1 Ca2 Ca1 1_445 . 44.53(4)
+Al1 Ca2 Ca1 1_445 . 44.53(4)
+Al1 Ca2 Ca1 1_545 . 44.53(4)
+Si1 Ca2 Ca1 1_545 . 44.53(4)
+Si1 Ca2 Ca1 . . 44.53(4)
+Ca2 Ca2 Ca1 1_445 . 90
+Ca2 Ca2 Ca1 1_665 . 90
+Ca2 Ca2 Ca1 1_565 . 90
+Ca2 Ca2 Ca1 1_455 . 90
+Ca2 Ca2 Ca1 1_545 . 90
+Ca2 Ca2 Ca1 1_655 . 90
+Si3 Ca2 Ca3 . . 49.92(3)
+Al3 Ca2 Ca3 1_545 . 49.92(3)
+Si3 Ca2 Ca3 1_545 . 49.92(3)
+Al3 Ca2 Ca3 1_445 . 49.92(3)
+Si3 Ca2 Ca3 1_445 . 49.92(3)
+Al2 Ca2 Ca3 1_445 . 130.49(3)
+Si2 Ca2 Ca3 1_445 . 130.49(3)
+Al2 Ca2 Ca3 1_455 . 130.49(3)
+Si2 Ca2 Ca3 1_455 . 130.49(3)
+Si2 Ca2 Ca3 . . 130.49(3)
+Si4 Ca2 Ca3 . . 45.07(4)
+Al4 Ca2 Ca3 1_455 . 45.07(4)
+Si4 Ca2 Ca3 1_455 . 45.07(4)
+Al4 Ca2 Ca3 1_445 . 45.07(4)
+Si4 Ca2 Ca3 1_445 . 45.07(4)
+Si1 Ca2 Ca3 1_445 . 135.47(4)
+Al1 Ca2 Ca3 1_445 . 135.47(4)
+Al1 Ca2 Ca3 1_545 . 135.47(4)
+Si1 Ca2 Ca3 1_545 . 135.47(4)
+Si1 Ca2 Ca3 . . 135.47(4)
+Ca2 Ca2 Ca3 1_445 . 90
+Ca2 Ca2 Ca3 1_665 . 90
+Ca2 Ca2 Ca3 1_565 . 90
+Ca2 Ca2 Ca3 1_455 . 90
+Ca2 Ca2 Ca3 1_545 . 90
+Ca2 Ca2 Ca3 1_655 . 90
+Ca1 Ca2 Ca3 . . 180
+Al4 Ca3 Al4 1_445 1_455 83.15(6)
+Si4 Ca3 Al4 1_445 1_455 83.15(6)
+Al4 Ca3 Si4 1_445 1_455 83.15(6)
+Si4 Ca3 Si4 1_445 1_455 83.15(6)
+Al4 Ca3 Si4 1_445 . 83.15(6)
+Si4 Ca3 Si4 1_445 . 83.15(6)
+Al4 Ca3 Si4 1_455 . 83.15(6)
+Si4 Ca3 Si4 1_455 . 83.15(6)
+Al4 Ca3 Si6 1_445 . 135.591(15)
+Si4 Ca3 Si6 1_445 . 135.591(15)
+Al4 Ca3 Si6 1_455 . 135.591(15)
+Si4 Ca3 Si6 1_455 . 135.591(15)
+Si4 Ca3 Si6 . . 81.91(4)
+Al4 Ca3 Si5 1_445 . 178.05(5)
+Si4 Ca3 Si5 1_445 . 178.05(5)
+Al4 Ca3 Si5 1_455 . 98.29(3)
+Si4 Ca3 Si5 1_455 . 98.29(3)
+Si4 Ca3 Si5 . . 98.29(3)
+Si6 Ca3 Si5 . . 43.677(11)
+Al4 Ca3 Al6 1_445 1_455 135.591(15)
+Si4 Ca3 Al6 1_445 1_455 135.591(15)
+Al4 Ca3 Al6 1_455 1_455 81.91(4)
+Si4 Ca3 Al6 1_455 1_455 81.91(4)
+Si4 Ca3 Al6 . 1_455 135.591(15)
+Si6 Ca3 Al6 . 1_455 80.23(2)
+Si5 Ca3 Al6 . 1_455 43.677(11)
+Al4 Ca3 Al5 1_445 1_545 98.29(3)
+Si4 Ca3 Al5 1_445 1_545 98.29(3)
+Al4 Ca3 Al5 1_455 1_545 178.05(5)
+Si4 Ca3 Al5 1_455 1_545 178.05(5)
+Si4 Ca3 Al5 . 1_545 98.29(3)
+Si6 Ca3 Al5 . 1_545 43.677(11)
+Si5 Ca3 Al5 . 1_545 80.23(2)
+Al6 Ca3 Al5 1_455 1_545 96.14(3)
+Al4 Ca3 Si6 1_445 1_455 135.591(15)
+Si4 Ca3 Si6 1_445 1_455 135.591(15)
+Al4 Ca3 Si6 1_455 1_455 81.91(4)
+Si4 Ca3 Si6 1_455 1_455 81.91(4)
+Si4 Ca3 Si6 . 1_455 135.591(15)
+Si6 Ca3 Si6 . 1_455 80.23(2)
+Si5 Ca3 Si6 . 1_455 43.677(11)
+Al5 Ca3 Si6 1_545 1_455 96.14(3)
+Al4 Ca3 Si5 1_445 1_545 98.29(3)
+Si4 Ca3 Si5 1_445 1_545 98.29(3)
+Al4 Ca3 Si5 1_455 1_545 178.05(5)
+Si4 Ca3 Si5 1_455 1_545 178.05(5)
+Si4 Ca3 Si5 . 1_545 98.29(3)
+Si6 Ca3 Si5 . 1_545 43.677(11)
+Si5 Ca3 Si5 . 1_545 80.23(2)
+Al6 Ca3 Si5 1_455 1_545 96.14(3)
+Si6 Ca3 Si5 1_455 1_545 96.14(3)
+Al4 Ca3 Al6 1_445 1_445 81.91(4)
+Si4 Ca3 Al6 1_445 1_445 81.91(4)
+Al4 Ca3 Al6 1_455 1_445 135.591(15)
+Si4 Ca3 Al6 1_455 1_445 135.591(15)
+Si4 Ca3 Al6 . 1_445 135.591(15)
+Si6 Ca3 Al6 . 1_445 80.23(2)
+Si5 Ca3 Al6 . 1_445 96.14(3)
+Al6 Ca3 Al6 1_455 1_445 80.23(2)
+Al5 Ca3 Al6 1_545 1_445 43.677(11)
+Si6 Ca3 Al6 1_455 1_445 80.23(2)
+Si5 Ca3 Al6 1_545 1_445 43.677(11)
+Al4 Ca3 Al5 1_445 1_445 98.29(3)
+Si4 Ca3 Al5 1_445 1_445 98.29(3)
+Al4 Ca3 Al5 1_455 1_445 98.29(3)
+Si4 Ca3 Al5 1_455 1_445 98.29(3)
+Si4 Ca3 Al5 . 1_445 178.05(5)
+Si6 Ca3 Al5 . 1_445 96.14(3)
+Si5 Ca3 Al5 . 1_445 80.23(2)
+Al6 Ca3 Al5 1_455 1_445 43.677(11)
+Al5 Ca3 Al5 1_545 1_445 80.23(2)
+Si6 Ca3 Al5 1_455 1_445 43.677(11)
+Si5 Ca3 Al5 1_545 1_445 80.23(2)
+Al6 Ca3 Al5 1_445 1_445 43.677(11)
+Al4 Ca3 Si6 1_445 1_445 81.91(4)
+Si4 Ca3 Si6 1_445 1_445 81.91(4)
+Al4 Ca3 Si6 1_455 1_445 135.591(15)
+Si4 Ca3 Si6 1_455 1_445 135.591(15)
+Si4 Ca3 Si6 . 1_445 135.591(15)
+Si6 Ca3 Si6 . 1_445 80.23(2)
+Si5 Ca3 Si6 . 1_445 96.14(3)
+Al6 Ca3 Si6 1_455 1_445 80.23(2)
+Al5 Ca3 Si6 1_545 1_445 43.677(11)
+Si6 Ca3 Si6 1_455 1_445 80.23(2)
+Si5 Ca3 Si6 1_545 1_445 43.677(11)
+Al5 Ca3 Si6 1_445 1_445 43.677(11)
+Al4 Ca3 Si5 1_445 1_445 98.29(3)
+Si4 Ca3 Si5 1_445 1_445 98.29(3)
+Al4 Ca3 Si5 1_455 1_445 98.29(3)
+Si4 Ca3 Si5 1_455 1_445 98.29(3)
+Si4 Ca3 Si5 . 1_445 178.05(5)
+Si6 Ca3 Si5 . 1_445 96.14(3)
+Si5 Ca3 Si5 . 1_445 80.23(2)
+Al6 Ca3 Si5 1_455 1_445 43.677(11)
+Al5 Ca3 Si5 1_545 1_445 80.23(2)
+Si6 Ca3 Si5 1_455 1_445 43.677(11)
+Si5 Ca3 Si5 1_545 1_445 80.23(2)
+Al6 Ca3 Si5 1_445 1_445 43.677(11)
+Si6 Ca3 Si5 1_445 1_445 43.677(11)
+Al4 Ca3 Al3 1_445 1_445 43.55(2)
+Si4 Ca3 Al3 1_445 1_445 43.55(2)
+Al4 Ca3 Al3 1_455 1_445 43.55(2)
+Si4 Ca3 Al3 1_455 1_445 43.55(2)
+Si4 Ca3 Al3 . 1_445 95.18(6)
+Si6 Ca3 Al3 . 1_445 177.08(3)
+Si5 Ca3 Al3 . 1_445 137.304(8)
+Al6 Ca3 Al3 1_455 1_445 101.974(19)
+Al5 Ca3 Al3 1_545 1_445 137.304(8)
+Si6 Ca3 Al3 1_455 1_445 101.974(19)
+Si5 Ca3 Al3 1_545 1_445 137.304(8)
+Al6 Ca3 Al3 1_445 1_445 101.974(19)
+Al5 Ca3 Al3 1_445 1_445 86.77(2)
+Si6 Ca3 Al3 1_445 1_445 101.974(19)
+Si5 Ca3 Al3 1_445 1_445 86.77(2)
+Al4 Ca3 Si3 1_445 1_445 43.55(2)
+Si4 Ca3 Si3 1_445 1_445 43.55(2)
+Al4 Ca3 Si3 1_455 1_445 43.55(2)
+Si4 Ca3 Si3 1_455 1_445 43.55(2)
+Si4 Ca3 Si3 . 1_445 95.18(6)
+Si6 Ca3 Si3 . 1_445 177.08(3)
+Si5 Ca3 Si3 . 1_445 137.304(8)
+Al6 Ca3 Si3 1_455 1_445 101.974(19)
+Al5 Ca3 Si3 1_545 1_445 137.304(8)
+Si6 Ca3 Si3 1_455 1_445 101.974(19)
+Si5 Ca3 Si3 1_545 1_445 137.304(8)
+Al6 Ca3 Si3 1_445 1_445 101.974(19)
+Al5 Ca3 Si3 1_445 1_445 86.77(2)
+Si6 Ca3 Si3 1_445 1_445 101.974(19)
+Si5 Ca3 Si3 1_445 1_445 86.77(2)
+Al4 Ca3 Al3 1_445 1_545 43.55(2)
+Si4 Ca3 Al3 1_445 1_545 43.55(2)
+Al4 Ca3 Al3 1_455 1_545 95.18(6)
+Si4 Ca3 Al3 1_455 1_545 95.18(6)
+Si4 Ca3 Al3 . 1_545 43.55(2)
+Si6 Ca3 Al3 . 1_545 101.974(19)
+Si5 Ca3 Al3 . 1_545 137.304(8)
+Al6 Ca3 Al3 1_455 1_545 177.08(3)
+Al5 Ca3 Al3 1_545 1_545 86.77(2)
+Si6 Ca3 Al3 1_455 1_545 177.08(3)
+Si5 Ca3 Al3 1_545 1_545 86.77(2)
+Al6 Ca3 Al3 1_445 1_545 101.974(19)
+Al5 Ca3 Al3 1_445 1_545 137.304(8)
+Si6 Ca3 Al3 1_445 1_545 101.974(19)
+Si5 Ca3 Al3 1_445 1_545 137.304(8)
+Al3 Ca3 Al3 1_445 1_545 75.76(4)
+Si3 Ca3 Al3 1_445 1_545 75.76(4)
+Al4 Ca3 Si3 1_445 1_545 43.55(2)
+Si4 Ca3 Si3 1_445 1_545 43.55(2)
+Al4 Ca3 Si3 1_455 1_545 95.18(6)
+Si4 Ca3 Si3 1_455 1_545 95.18(6)
+Si4 Ca3 Si3 . 1_545 43.55(2)
+Si6 Ca3 Si3 . 1_545 101.974(19)
+Si5 Ca3 Si3 . 1_545 137.304(8)
+Al6 Ca3 Si3 1_455 1_545 177.08(3)
+Al5 Ca3 Si3 1_545 1_545 86.77(2)
+Si6 Ca3 Si3 1_455 1_545 177.08(3)
+Si5 Ca3 Si3 1_545 1_545 86.77(2)
+Al6 Ca3 Si3 1_445 1_545 101.974(19)
+Al5 Ca3 Si3 1_445 1_545 137.304(8)
+Si6 Ca3 Si3 1_445 1_545 101.974(19)
+Si5 Ca3 Si3 1_445 1_545 137.304(8)
+Al3 Ca3 Si3 1_445 1_545 75.76(4)
+Si3 Ca3 Si3 1_445 1_545 75.76(4)
+Al4 Ca3 Si3 1_445 . 95.18(6)
+Si4 Ca3 Si3 1_445 . 95.18(6)
+Al4 Ca3 Si3 1_455 . 43.55(2)
+Si4 Ca3 Si3 1_455 . 43.55(2)
+Si4 Ca3 Si3 . . 43.55(2)
+Si6 Ca3 Si3 . . 101.974(19)
+Si5 Ca3 Si3 . . 86.77(2)
+Al6 Ca3 Si3 1_455 . 101.974(19)
+Al5 Ca3 Si3 1_545 . 137.304(8)
+Si6 Ca3 Si3 1_455 . 101.974(19)
+Si5 Ca3 Si3 1_545 . 137.304(8)
+Al6 Ca3 Si3 1_445 . 177.08(3)
+Al5 Ca3 Si3 1_445 . 137.304(8)
+Si6 Ca3 Si3 1_445 . 177.08(3)
+Si5 Ca3 Si3 1_445 . 137.304(8)
+Al3 Ca3 Si3 1_445 . 75.76(4)
+Si3 Ca3 Si3 1_445 . 75.76(4)
+Al3 Ca3 Si3 1_545 . 75.76(4)
+Si3 Ca3 Si3 1_545 . 75.76(4)
+Al4 Ca3 Ca3 1_445 1_665 131.58(3)
+Si4 Ca3 Ca3 1_445 1_665 131.58(3)
+Al4 Ca3 Ca3 1_455 1_665 90
+Si4 Ca3 Ca3 1_455 1_665 90
+Si4 Ca3 Ca3 . 1_665 48.42(3)
+Si6 Ca3 Ca3 . 1_665 49.886(11)
+Si5 Ca3 Ca3 . 1_665 49.886(11)
+Al6 Ca3 Ca3 1_455 1_665 90
+Al5 Ca3 Ca3 1_545 1_665 90
+Si6 Ca3 Ca3 1_455 1_665 90
+Si5 Ca3 Ca3 1_545 1_665 90
+Al6 Ca3 Ca3 1_445 1_665 130.114(11)
+Al5 Ca3 Ca3 1_445 1_665 130.114(11)
+Si6 Ca3 Ca3 1_445 1_665 130.114(11)
+Si5 Ca3 Ca3 1_445 1_665 130.114(11)
+Al3 Ca3 Ca3 1_445 1_665 127.88(2)
+Si3 Ca3 Ca3 1_445 1_665 127.88(2)
+Al3 Ca3 Ca3 1_545 1_665 90
+Si3 Ca3 Ca3 1_545 1_665 90
+Si3 Ca3 Ca3 . 1_665 52.12(2)
+Al4 Ca3 Ca3 1_445 1_445 48.42(3)
+Si4 Ca3 Ca3 1_445 1_445 48.42(3)
+Al4 Ca3 Ca3 1_455 1_445 90
+Si4 Ca3 Ca3 1_455 1_445 90
+Si4 Ca3 Ca3 . 1_445 131.58(3)
+Si6 Ca3 Ca3 . 1_445 130.114(11)
+Si5 Ca3 Ca3 . 1_445 130.114(11)
+Al6 Ca3 Ca3 1_455 1_445 90
+Al5 Ca3 Ca3 1_545 1_445 90
+Si6 Ca3 Ca3 1_455 1_445 90
+Si5 Ca3 Ca3 1_545 1_445 90
+Al6 Ca3 Ca3 1_445 1_445 49.886(11)
+Al5 Ca3 Ca3 1_445 1_445 49.886(11)
+Si6 Ca3 Ca3 1_445 1_445 49.886(11)
+Si5 Ca3 Ca3 1_445 1_445 49.886(11)
+Al3 Ca3 Ca3 1_445 1_445 52.12(2)
+Si3 Ca3 Ca3 1_445 1_445 52.12(2)
+Al3 Ca3 Ca3 1_545 1_445 90
+Si3 Ca3 Ca3 1_545 1_445 90
+Si3 Ca3 Ca3 . 1_445 127.88(2)
+Ca3 Ca3 Ca3 1_665 1_445 180.00(6)
+Al4 Ca3 Ca3 1_445 1_545 48.42(3)
+Si4 Ca3 Ca3 1_445 1_545 48.42(3)
+Al4 Ca3 Ca3 1_455 1_545 131.58(3)
+Si4 Ca3 Ca3 1_455 1_545 131.58(3)
+Si4 Ca3 Ca3 . 1_545 90
+Si6 Ca3 Ca3 . 1_545 90
+Si5 Ca3 Ca3 . 1_545 130.114(11)
+Al6 Ca3 Ca3 1_455 1_545 130.114(11)
+Al5 Ca3 Ca3 1_545 1_545 49.886(11)
+Si6 Ca3 Ca3 1_455 1_545 130.114(11)
+Si5 Ca3 Ca3 1_545 1_545 49.886(11)
+Al6 Ca3 Ca3 1_445 1_545 49.886(11)
+Al5 Ca3 Ca3 1_445 1_545 90
+Si6 Ca3 Ca3 1_445 1_545 49.886(11)
+Si5 Ca3 Ca3 1_445 1_545 90
+Al3 Ca3 Ca3 1_445 1_545 90
+Si3 Ca3 Ca3 1_445 1_545 90
+Al3 Ca3 Ca3 1_545 1_545 52.12(2)
+Si3 Ca3 Ca3 1_545 1_545 52.12(2)
+Si3 Ca3 Ca3 . 1_545 127.88(2)
+Ca3 Ca3 Ca3 1_665 1_545 120
+Ca3 Ca3 Ca3 1_445 1_545 60
+Al4 Ca3 Ca3 1_445 1_655 90
+Si4 Ca3 Ca3 1_445 1_655 90
+Al4 Ca3 Ca3 1_455 1_655 131.58(3)
+Si4 Ca3 Ca3 1_455 1_655 131.58(3)
+Si4 Ca3 Ca3 . 1_655 48.42(3)
+Si6 Ca3 Ca3 . 1_655 49.886(11)
+Si5 Ca3 Ca3 . 1_655 90
+Al6 Ca3 Ca3 1_455 1_655 130.114(11)
+Al5 Ca3 Ca3 1_545 1_655 49.886(11)
+Si6 Ca3 Ca3 1_455 1_655 130.114(11)
+Si5 Ca3 Ca3 1_545 1_655 49.886(11)
+Al6 Ca3 Ca3 1_445 1_655 90
+Al5 Ca3 Ca3 1_445 1_655 130.114(11)
+Si6 Ca3 Ca3 1_445 1_655 90
+Si5 Ca3 Ca3 1_445 1_655 130.114(11)
+Al3 Ca3 Ca3 1_445 1_655 127.88(2)
+Si3 Ca3 Ca3 1_445 1_655 127.88(2)
+Al3 Ca3 Ca3 1_545 1_655 52.12(2)
+Si3 Ca3 Ca3 1_545 1_655 52.12(2)
+Si3 Ca3 Ca3 . 1_655 90
+Ca3 Ca3 Ca3 1_665 1_655 60
+Ca3 Ca3 Ca3 1_445 1_655 120
+Ca3 Ca3 Ca3 1_545 1_655 60
+Al4 Ca3 Ca3 1_445 1_565 131.58(3)
+Si4 Ca3 Ca3 1_445 1_565 131.58(3)
+Al4 Ca3 Ca3 1_455 1_565 48.42(3)
+Si4 Ca3 Ca3 1_455 1_565 48.42(3)
+Si4 Ca3 Ca3 . 1_565 90
+Si6 Ca3 Ca3 . 1_565 90
+Si5 Ca3 Ca3 . 1_565 49.886(11)
+Al6 Ca3 Ca3 1_455 1_565 49.886(11)
+Al5 Ca3 Ca3 1_545 1_565 130.114(11)
+Si6 Ca3 Ca3 1_455 1_565 49.886(11)
+Si5 Ca3 Ca3 1_545 1_565 130.114(11)
+Al6 Ca3 Ca3 1_445 1_565 130.114(11)
+Al5 Ca3 Ca3 1_445 1_565 90
+Si6 Ca3 Ca3 1_445 1_565 130.114(11)
+Si5 Ca3 Ca3 1_445 1_565 90
+Al3 Ca3 Ca3 1_445 1_565 90
+Si3 Ca3 Ca3 1_445 1_565 90
+Al3 Ca3 Ca3 1_545 1_565 127.88(2)
+Si3 Ca3 Ca3 1_545 1_565 127.88(2)
+Si3 Ca3 Ca3 . 1_565 52.12(2)
+Ca3 Ca3 Ca3 1_665 1_565 60
+Ca3 Ca3 Ca3 1_445 1_565 120
+Ca3 Ca3 Ca3 1_545 1_565 180.00(6)
+Ca3 Ca3 Ca3 1_655 1_565 120
+Al4 Ca3 Ca3 1_445 1_455 90
+Si4 Ca3 Ca3 1_445 1_455 90
+Al4 Ca3 Ca3 1_455 1_455 48.42(3)
+Si4 Ca3 Ca3 1_455 1_455 48.42(3)
+Si4 Ca3 Ca3 . 1_455 131.58(3)
+Si6 Ca3 Ca3 . 1_455 130.114(11)
+Si5 Ca3 Ca3 . 1_455 90
+Al6 Ca3 Ca3 1_455 1_455 49.886(11)
+Al5 Ca3 Ca3 1_545 1_455 130.114(11)
+Si6 Ca3 Ca3 1_455 1_455 49.886(11)
+Si5 Ca3 Ca3 1_545 1_455 130.114(11)
+Al6 Ca3 Ca3 1_445 1_455 90
+Al5 Ca3 Ca3 1_445 1_455 49.886(11)
+Si6 Ca3 Ca3 1_445 1_455 90
+Si5 Ca3 Ca3 1_445 1_455 49.886(11)
+Al3 Ca3 Ca3 1_445 1_455 52.12(2)
+Si3 Ca3 Ca3 1_445 1_455 52.12(2)
+Al3 Ca3 Ca3 1_545 1_455 127.88(2)
+Si3 Ca3 Ca3 1_545 1_455 127.88(2)
+Si3 Ca3 Ca3 . 1_455 90
+Ca3 Ca3 Ca3 1_665 1_455 120
+Ca3 Ca3 Ca3 1_445 1_455 60
+Ca3 Ca3 Ca3 1_545 1_455 120
+Ca3 Ca3 Ca3 1_655 1_455 180.00(6)
+Ca3 Ca3 Ca3 1_565 1_455 60
+Al4 Ca3 Ca3 1_445 4_556 129.98(4)
+Si4 Ca3 Ca3 1_445 4_556 129.98(4)
+Al4 Ca3 Ca3 1_455 4_556 129.98(4)
+Si4 Ca3 Ca3 1_455 4_556 129.98(4)
+Si4 Ca3 Ca3 . 4_556 129.98(4)
+Si6 Ca3 Ca3 . 4_556 48.072(15)
+Si5 Ca3 Ca3 . 4_556 48.072(15)
+Al6 Ca3 Ca3 1_455 4_556 48.072(15)
+Al5 Ca3 Ca3 1_545 4_556 48.072(15)
+Si6 Ca3 Ca3 1_455 4_556 48.072(15)
+Si5 Ca3 Ca3 1_545 4_556 48.072(15)
+Al6 Ca3 Ca3 1_445 4_556 48.072(15)
+Al5 Ca3 Ca3 1_445 4_556 48.072(15)
+Si6 Ca3 Ca3 1_445 4_556 48.072(15)
+Si5 Ca3 Ca3 1_445 4_556 48.072(15)
+Al3 Ca3 Ca3 1_445 4_556 134.85(3)
+Si3 Ca3 Ca3 1_445 4_556 134.85(3)
+Al3 Ca3 Ca3 1_545 4_556 134.85(3)
+Si3 Ca3 Ca3 1_545 4_556 134.85(3)
+Si3 Ca3 Ca3 . 4_556 134.85(3)
+Ca3 Ca3 Ca3 1_665 4_556 90
+Ca3 Ca3 Ca3 1_445 4_556 90
+Ca3 Ca3 Ca3 1_545 4_556 90
+Ca3 Ca3 Ca3 1_655 4_556 90
+Ca3 Ca3 Ca3 1_565 4_556 90
+Ca3 Ca3 Ca3 1_455 4_556 90
+Al4 Ca3 Ca2 1_445 . 50.02(4)
+Si4 Ca3 Ca2 1_445 . 50.02(4)
+Al4 Ca3 Ca2 1_455 . 50.02(4)
+Si4 Ca3 Ca2 1_455 . 50.02(4)
+Si4 Ca3 Ca2 . . 50.02(4)
+Si6 Ca3 Ca2 . . 131.928(15)
+Si5 Ca3 Ca2 . . 131.928(15)
+Al6 Ca3 Ca2 1_455 . 131.928(15)
+Al5 Ca3 Ca2 1_545 . 131.928(15)
+Si6 Ca3 Ca2 1_455 . 131.928(15)
+Si5 Ca3 Ca2 1_545 . 131.928(15)
+Al6 Ca3 Ca2 1_445 . 131.928(15)
+Al5 Ca3 Ca2 1_445 . 131.928(15)
+Si6 Ca3 Ca2 1_445 . 131.928(15)
+Si5 Ca3 Ca2 1_445 . 131.928(15)
+Al3 Ca3 Ca2 1_445 . 45.15(3)
+Si3 Ca3 Ca2 1_445 . 45.15(3)
+Al3 Ca3 Ca2 1_545 . 45.15(3)
+Si3 Ca3 Ca2 1_545 . 45.15(3)
+Si3 Ca3 Ca2 . . 45.15(3)
+Ca3 Ca3 Ca2 1_665 . 90
+Ca3 Ca3 Ca2 1_445 . 90
+Ca3 Ca3 Ca2 1_545 . 90
+Ca3 Ca3 Ca2 1_655 . 90
+Ca3 Ca3 Ca2 1_565 . 90
+Ca3 Ca3 Ca2 1_455 . 90
+Ca3 Ca3 Ca2 4_556 . 180
+Al2 Si1 Al2 1_565 1_455 117.47(3)
+Si2 Si1 Al2 1_565 1_455 117.47(3)
+Al2 Si1 Si2 1_565 1_455 117.47(3)
+Si2 Si1 Si2 1_565 1_455 117.47(3)
+Al2 Si1 Si2 1_565 . 117.47(3)
+Si2 Si1 Si2 1_565 . 117.47(3)
+Al2 Si1 Si2 1_455 . 117.47(3)
+Si2 Si1 Si2 1_455 . 117.47(3)
+Al2 Si1 Ca1 1_565 . 150.68(10)
+Si2 Si1 Ca1 1_565 . 150.68(10)
+Al2 Si1 Ca1 1_455 . 73.40(3)
+Si2 Si1 Ca1 1_455 . 73.40(3)
+Si2 Si1 Ca1 . . 73.40(3)
+Al2 Si1 Ca1 1_565 1_565 73.40(3)
+Si2 Si1 Ca1 1_565 1_565 73.40(3)
+Al2 Si1 Ca1 1_455 1_565 73.40(3)
+Si2 Si1 Ca1 1_455 1_565 73.40(3)
+Si2 Si1 Ca1 . 1_565 150.68(10)
+Ca1 Si1 Ca1 . 1_565 85.24(6)
+Al2 Si1 Ca1 1_565 1_665 73.40(3)
+Si2 Si1 Ca1 1_565 1_665 73.40(3)
+Al2 Si1 Ca1 1_455 1_665 150.68(10)
+Si2 Si1 Ca1 1_455 1_665 150.68(10)
+Si2 Si1 Ca1 . 1_665 73.40(3)
+Ca1 Si1 Ca1 . 1_665 85.24(6)
+Ca1 Si1 Ca1 1_565 1_665 85.24(6)
+Al2 Si1 Ca2 1_565 1_665 62.57(4)
+Si2 Si1 Ca2 1_565 1_665 62.57(4)
+Al2 Si1 Ca2 1_455 1_665 125.29(10)
+Si2 Si1 Ca2 1_455 1_665 125.29(10)
+Si2 Si1 Ca2 . 1_665 62.57(4)
+Ca1 Si1 Ca2 . 1_665 135.939(12)
+Ca1 Si1 Ca2 1_565 1_665 135.939(12)
+Ca1 Si1 Ca2 1_665 1_665 84.04(2)
+Al2 Si1 Ca2 1_565 1_565 62.57(4)
+Si2 Si1 Ca2 1_565 1_565 62.57(4)
+Al2 Si1 Ca2 1_455 1_565 62.57(4)
+Si2 Si1 Ca2 1_455 1_565 62.57(4)
+Si2 Si1 Ca2 . 1_565 125.29(10)
+Ca1 Si1 Ca2 . 1_565 135.939(12)
+Ca1 Si1 Ca2 1_565 1_565 84.04(2)
+Ca1 Si1 Ca2 1_665 1_565 135.939(12)
+Ca2 Si1 Ca2 1_665 1_565 74.80(6)
+Al2 Si1 Ca2 1_565 . 125.29(10)
+Si2 Si1 Ca2 1_565 . 125.29(10)
+Al2 Si1 Ca2 1_455 . 62.57(4)
+Si2 Si1 Ca2 1_455 . 62.57(4)
+Si2 Si1 Ca2 . . 62.57(4)
+Ca1 Si1 Ca2 . . 84.04(2)
+Ca1 Si1 Ca2 1_565 . 135.939(12)
+Ca1 Si1 Ca2 1_665 . 135.939(12)
+Ca2 Si1 Ca2 1_665 . 74.80(6)
+Ca2 Si1 Ca2 1_565 . 74.80(6)
+Al1 Si2 Al1 1_545 1_655 117.47(3)
+Si1 Si2 Al1 1_545 1_655 117.47(3)
+Al1 Si2 Si1 1_545 1_655 117.47(3)
+Si1 Si2 Si1 1_545 1_655 117.47(3)
+Al1 Si2 Si1 1_545 . 117.47(3)
+Si1 Si2 Si1 1_545 . 117.47(3)
+Al1 Si2 Si1 1_655 . 117.47(3)
+Si1 Si2 Si1 1_655 . 117.47(3)
+Al1 Si2 Ca2 1_545 1_665 148.76(7)
+Si1 Si2 Ca2 1_545 1_665 148.76(7)
+Al1 Si2 Ca2 1_655 1_665 74.27(5)
+Si1 Si2 Ca2 1_655 1_665 74.27(5)
+Si1 Si2 Ca2 . 1_665 74.27(5)
+Al1 Si2 Ca2 1_545 1_655 74.27(5)
+Si1 Si2 Ca2 1_545 1_655 74.27(5)
+Al1 Si2 Ca2 1_655 1_655 74.27(5)
+Si1 Si2 Ca2 1_655 1_655 74.27(5)
+Si1 Si2 Ca2 . 1_655 148.76(7)
+Ca2 Si2 Ca2 1_665 1_655 82.39(4)
+Al1 Si2 Ca2 1_545 . 74.27(5)
+Si1 Si2 Ca2 1_545 . 74.27(5)
+Al1 Si2 Ca2 1_655 . 148.76(7)
+Si1 Si2 Ca2 1_655 . 148.76(7)
+Si1 Si2 Ca2 . . 74.27(5)
+Ca2 Si2 Ca2 1_665 . 82.39(4)
+Ca2 Si2 Ca2 1_655 . 82.39(4)
+Al1 Si2 Ca1 1_545 . 62.14(4)
+Si1 Si2 Ca1 1_545 . 62.14(4)
+Al1 Si2 Ca1 1_655 . 126.92(7)
+Si1 Si2 Ca1 1_655 . 126.92(7)
+Si1 Si2 Ca1 . . 62.14(4)
+Ca2 Si2 Ca1 1_665 . 136.385(10)
+Ca2 Si2 Ca1 1_655 . 136.385(10)
+Ca2 Si2 Ca1 . . 84.32(2)
+Al1 Si2 Ca1 1_545 1_655 62.14(4)
+Si1 Si2 Ca1 1_545 1_655 62.14(4)
+Al1 Si2 Ca1 1_655 1_655 62.14(4)
+Si1 Si2 Ca1 1_655 1_655 62.14(4)
+Si1 Si2 Ca1 . 1_655 126.92(7)
+Ca2 Si2 Ca1 1_665 1_655 136.385(10)
+Ca2 Si2 Ca1 1_655 1_655 84.32(2)
+Ca2 Si2 Ca1 . 1_655 136.385(10)
+Ca1 Si2 Ca1 . 1_655 77.32(3)
+Al1 Si2 Ca1 1_545 1_665 126.92(7)
+Si1 Si2 Ca1 1_545 1_665 126.92(7)
+Al1 Si2 Ca1 1_655 1_665 62.14(4)
+Si1 Si2 Ca1 1_655 1_665 62.14(4)
+Si1 Si2 Ca1 . 1_665 62.14(4)
+Ca2 Si2 Ca1 1_665 1_665 84.32(2)
+Ca2 Si2 Ca1 1_655 1_665 136.385(10)
+Ca2 Si2 Ca1 . 1_665 136.385(10)
+Ca1 Si2 Ca1 . 1_665 77.32(3)
+Ca1 Si2 Ca1 1_655 1_665 77.32(3)
+Al4 Si3 Al4 1_565 1_455 117.66(3)
+Si4 Si3 Al4 1_565 1_455 117.66(3)
+Al4 Si3 Si4 1_565 1_455 117.66(3)
+Si4 Si3 Si4 1_565 1_455 117.66(3)
+Al4 Si3 Si4 1_565 . 117.66(3)
+Si4 Si3 Si4 1_565 . 117.66(3)
+Al4 Si3 Si4 1_455 . 117.66(3)
+Si4 Si3 Si4 1_455 . 117.66(3)
+Al4 Si3 Ca2 1_565 . 148.80(6)
+Si4 Si3 Ca2 1_565 . 148.80(6)
+Al4 Si3 Ca2 1_455 . 73.82(4)
+Si4 Si3 Ca2 1_455 . 73.82(4)
+Si4 Si3 Ca2 . . 73.82(4)
+Al4 Si3 Ca2 1_565 1_565 73.82(4)
+Si4 Si3 Ca2 1_565 1_565 73.82(4)
+Al4 Si3 Ca2 1_455 1_565 73.82(4)
+Si4 Si3 Ca2 1_455 1_565 73.82(4)
+Si4 Si3 Ca2 . 1_565 148.80(6)
+Ca2 Si3 Ca2 . 1_565 83.01(5)
+Al4 Si3 Ca2 1_565 1_665 73.82(4)
+Si4 Si3 Ca2 1_565 1_665 73.82(4)
+Al4 Si3 Ca2 1_455 1_665 148.80(6)
+Si4 Si3 Ca2 1_455 1_665 148.80(6)
+Si4 Si3 Ca2 . 1_665 73.82(4)
+Ca2 Si3 Ca2 . 1_665 83.01(5)
+Ca2 Si3 Ca2 1_565 1_665 83.01(5)
+Al4 Si3 Ca3 1_565 1_665 62.67(4)
+Si4 Si3 Ca3 1_565 1_665 62.67(4)
+Al4 Si3 Ca3 1_455 1_665 126.27(6)
+Si4 Si3 Ca3 1_455 1_665 126.27(6)
+Si4 Si3 Ca3 . 1_665 62.67(4)
+Ca2 Si3 Ca3 . 1_665 136.492(11)
+Ca2 Si3 Ca3 1_565 1_665 136.492(11)
+Ca2 Si3 Ca3 1_665 1_665 84.92(2)
+Al4 Si3 Ca3 1_565 1_565 62.67(4)
+Si4 Si3 Ca3 1_565 1_565 62.67(4)
+Al4 Si3 Ca3 1_455 1_565 62.67(4)
+Si4 Si3 Ca3 1_455 1_565 62.67(4)
+Si4 Si3 Ca3 . 1_565 126.27(6)
+Ca2 Si3 Ca3 . 1_565 136.492(11)
+Ca2 Si3 Ca3 1_565 1_565 84.92(2)
+Ca2 Si3 Ca3 1_665 1_565 136.492(11)
+Ca3 Si3 Ca3 1_665 1_565 75.76(4)
+Al4 Si3 Ca3 1_565 . 126.27(6)
+Si4 Si3 Ca3 1_565 . 126.27(6)
+Al4 Si3 Ca3 1_455 . 62.67(4)
+Si4 Si3 Ca3 1_455 . 62.67(4)
+Si4 Si3 Ca3 . . 62.67(4)
+Ca2 Si3 Ca3 . . 84.92(2)
+Ca2 Si3 Ca3 1_565 . 136.492(11)
+Ca2 Si3 Ca3 1_665 . 136.492(11)
+Ca3 Si3 Ca3 1_665 . 75.76(4)
+Ca3 Si3 Ca3 1_565 . 75.76(4)
+Al3 Si4 Al3 1_545 1_655 117.66(3)
+Si3 Si4 Al3 1_545 1_655 117.66(3)
+Al3 Si4 Si3 1_545 1_655 117.66(3)
+Si3 Si4 Si3 1_545 1_655 117.66(3)
+Al3 Si4 Si3 1_545 . 117.66(3)
+Si3 Si4 Si3 1_545 . 117.66(3)
+Al3 Si4 Si3 1_655 . 117.66(3)
+Si3 Si4 Si3 1_655 . 117.66(3)
+Al3 Si4 Ca3 1_545 1_665 148.90(8)
+Si3 Si4 Ca3 1_545 1_665 148.90(8)
+Al3 Si4 Ca3 1_655 1_665 73.78(3)
+Si3 Si4 Ca3 1_655 1_665 73.78(3)
+Si3 Si4 Ca3 . 1_665 73.78(3)
+Al3 Si4 Ca3 1_545 1_655 73.78(3)
+Si3 Si4 Ca3 1_545 1_655 73.78(3)
+Al3 Si4 Ca3 1_655 1_655 73.78(3)
+Si3 Si4 Ca3 1_655 1_655 73.78(3)
+Si3 Si4 Ca3 . 1_655 148.90(8)
+Ca3 Si4 Ca3 1_665 1_655 83.15(6)
+Al3 Si4 Ca3 1_545 . 73.78(3)
+Si3 Si4 Ca3 1_545 . 73.78(3)
+Al3 Si4 Ca3 1_655 . 148.90(8)
+Si3 Si4 Ca3 1_655 . 148.90(8)
+Si3 Si4 Ca3 . . 73.78(3)
+Ca3 Si4 Ca3 1_665 . 83.15(6)
+Ca3 Si4 Ca3 1_655 . 83.15(6)
+Al3 Si4 Ca2 1_545 . 62.69(3)
+Si3 Si4 Ca2 1_545 . 62.69(3)
+Al3 Si4 Ca2 1_655 . 126.19(8)
+Si3 Si4 Ca2 1_655 . 126.19(8)
+Si3 Si4 Ca2 . . 62.69(3)
+Ca3 Si4 Ca2 1_665 . 136.470(12)
+Ca3 Si4 Ca2 1_655 . 136.470(12)
+Ca3 Si4 Ca2 . . 84.91(2)
+Al3 Si4 Ca2 1_545 1_655 62.69(3)
+Si3 Si4 Ca2 1_545 1_655 62.69(3)
+Al3 Si4 Ca2 1_655 1_655 62.69(3)
+Si3 Si4 Ca2 1_655 1_655 62.69(3)
+Si3 Si4 Ca2 . 1_655 126.19(8)
+Ca3 Si4 Ca2 1_665 1_655 136.470(12)
+Ca3 Si4 Ca2 1_655 1_655 84.91(2)
+Ca3 Si4 Ca2 . 1_655 136.470(12)
+Ca2 Si4 Ca2 . 1_655 75.63(6)
+Al3 Si4 Ca2 1_545 1_665 126.19(8)
+Si3 Si4 Ca2 1_545 1_665 126.19(8)
+Al3 Si4 Ca2 1_655 1_665 62.69(3)
+Si3 Si4 Ca2 1_655 1_665 62.69(3)
+Si3 Si4 Ca2 . 1_665 62.69(3)
+Ca3 Si4 Ca2 1_665 1_665 84.91(2)
+Ca3 Si4 Ca2 1_655 1_665 136.470(12)
+Ca3 Si4 Ca2 . 1_665 136.470(12)
+Ca2 Si4 Ca2 . 1_665 75.63(6)
+Ca2 Si4 Ca2 1_655 1_665 75.63(6)
+Al6 Si5 Al6 1_565 1_455 120
+Al6 Si5 Si6 1_455 1_565 120
+Al6 Si5 Si6 1_565 1_455 120
+Si6 Si5 Si6 1_565 1_455 120
+Al6 Si5 Si6 1_565 . 120
+Al6 Si5 Si6 1_455 . 120
+Si6 Si5 Si6 1_565 . 120
+Si6 Si5 Si6 1_455 . 120
+Al6 Si5 Ca3 1_565 . 138.072(15)
+Al6 Si5 Ca3 1_455 . 68.161(6)
+Si6 Si5 Ca3 1_565 . 138.072(15)
+Si6 Si5 Ca3 1_455 . 68.161(6)
+Si6 Si5 Ca3 . . 68.161(5)
+Al6 Si5 Ca3 1_565 4_666 68.161(6)
+Al6 Si5 Ca3 1_455 4_666 138.072(15)
+Si6 Si5 Ca3 1_565 4_666 68.161(6)
+Si6 Si5 Ca3 1_455 4_666 138.072(15)
+Si6 Si5 Ca3 . 4_666 68.161(5)
+Ca3 Si5 Ca3 . 4_666 136.323(11)
+Al6 Si5 Ca3 1_565 4_566 68.161(5)
+Al6 Si5 Ca3 1_455 4_566 68.161(5)
+Si6 Si5 Ca3 1_565 4_566 68.161(5)
+Si6 Si5 Ca3 1_455 4_566 68.161(5)
+Si6 Si5 Ca3 . 4_566 138.072(15)
+Ca3 Si5 Ca3 . 4_566 136.323(11)
+Ca3 Si5 Ca3 4_666 4_566 80.23(2)
+Al6 Si5 Ca3 1_565 1_565 68.161(5)
+Al6 Si5 Ca3 1_455 1_565 68.161(5)
+Si6 Si5 Ca3 1_565 1_565 68.161(5)
+Si6 Si5 Ca3 1_455 1_565 68.161(5)
+Si6 Si5 Ca3 . 1_565 138.072(15)
+Ca3 Si5 Ca3 . 1_565 80.23(2)
+Ca3 Si5 Ca3 4_666 1_565 136.323(11)
+Ca3 Si5 Ca3 4_566 1_565 83.86(3)
+Al6 Si5 Ca3 1_565 4_556 138.072(15)
+Al6 Si5 Ca3 1_455 4_556 68.161(6)
+Si6 Si5 Ca3 1_565 4_556 138.072(15)
+Si6 Si5 Ca3 1_455 4_556 68.161(6)
+Si6 Si5 Ca3 . 4_556 68.161(5)
+Ca3 Si5 Ca3 . 4_556 83.86(3)
+Ca3 Si5 Ca3 4_666 4_556 80.23(2)
+Ca3 Si5 Ca3 4_566 4_556 80.23(2)
+Ca3 Si5 Ca3 1_565 4_556 136.323(11)
+Al6 Si5 Ca3 1_565 1_665 68.161(6)
+Al6 Si5 Ca3 1_455 1_665 138.072(15)
+Si6 Si5 Ca3 1_565 1_665 68.161(6)
+Si6 Si5 Ca3 1_455 1_665 138.072(15)
+Si6 Si5 Ca3 . 1_665 68.161(5)
+Ca3 Si5 Ca3 . 1_665 80.23(2)
+Ca3 Si5 Ca3 4_666 1_665 83.86(3)
+Ca3 Si5 Ca3 4_566 1_665 136.323(11)
+Ca3 Si5 Ca3 1_565 1_665 80.23(2)
+Ca3 Si5 Ca3 4_556 1_665 136.323(11)
+Al5 Si6 Al5 1_655 1_545 120
+Al5 Si6 Si5 1_545 1_655 120
+Al5 Si6 Si5 1_655 1_545 120
+Si5 Si6 Si5 1_655 1_545 120
+Al5 Si6 Si5 1_655 . 120
+Al5 Si6 Si5 1_545 . 120
+Si5 Si6 Si5 1_655 . 120
+Si5 Si6 Si5 1_545 . 120
+Al5 Si6 Ca3 1_655 . 138.072(15)
+Al5 Si6 Ca3 1_545 . 68.161(5)
+Si5 Si6 Ca3 1_655 . 138.072(15)
+Si5 Si6 Ca3 1_545 . 68.161(5)
+Si5 Si6 Ca3 . . 68.161(5)
+Al5 Si6 Ca3 1_655 4_666 68.161(6)
+Al5 Si6 Ca3 1_545 4_666 138.072(15)
+Si5 Si6 Ca3 1_655 4_666 68.161(6)
+Si5 Si6 Ca3 1_545 4_666 138.072(15)
+Si5 Si6 Ca3 . 4_666 68.161(5)
+Ca3 Si6 Ca3 . 4_666 136.323(11)
+Al5 Si6 Ca3 1_655 4_656 68.161(5)
+Al5 Si6 Ca3 1_545 4_656 68.161(5)
+Si5 Si6 Ca3 1_655 4_656 68.161(5)
+Si5 Si6 Ca3 1_545 4_656 68.161(5)
+Si5 Si6 Ca3 . 4_656 138.072(15)
+Ca3 Si6 Ca3 . 4_656 136.323(11)
+Ca3 Si6 Ca3 4_666 4_656 80.23(2)
+Al5 Si6 Ca3 1_655 1_655 68.161(5)
+Al5 Si6 Ca3 1_545 1_655 68.161(5)
+Si5 Si6 Ca3 1_655 1_655 68.161(5)
+Si5 Si6 Ca3 1_545 1_655 68.161(5)
+Si5 Si6 Ca3 . 1_655 138.072(15)
+Ca3 Si6 Ca3 . 1_655 80.23(2)
+Ca3 Si6 Ca3 4_666 1_655 136.323(11)
+Ca3 Si6 Ca3 4_656 1_655 83.86(3)
+Al5 Si6 Ca3 1_655 4_556 138.072(15)
+Al5 Si6 Ca3 1_545 4_556 68.161(5)
+Si5 Si6 Ca3 1_655 4_556 138.072(15)
+Si5 Si6 Ca3 1_545 4_556 68.161(5)
+Si5 Si6 Ca3 . 4_556 68.161(5)
+Ca3 Si6 Ca3 . 4_556 83.86(3)
+Ca3 Si6 Ca3 4_666 4_556 80.23(2)
+Ca3 Si6 Ca3 4_656 4_556 80.23(2)
+Ca3 Si6 Ca3 1_655 4_556 136.323(11)
+Al5 Si6 Ca3 1_655 1_665 68.161(6)
+Al5 Si6 Ca3 1_545 1_665 138.072(15)
+Si5 Si6 Ca3 1_655 1_665 68.161(6)
+Si5 Si6 Ca3 1_545 1_665 138.072(15)
+Si5 Si6 Ca3 . 1_665 68.161(5)
+Ca3 Si6 Ca3 . 1_665 80.23(2)
+Ca3 Si6 Ca3 4_666 1_665 83.86(3)
+Ca3 Si6 Ca3 4_656 1_665 136.323(11)
+Ca3 Si6 Ca3 1_655 1_665 80.23(2)
+Ca3 Si6 Ca3 4_556 1_665 136.323(11)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ca1 Si1 . 3.0846(17)
+Ca1 Al1 4_445 3.0846(17)
+Ca1 Si1 4_445 3.0846(17)
+Ca1 Al1 4_545 3.0846(17)
+Ca1 Al1 1_545 3.0846(17)
+Ca1 Si1 4_545 3.0846(17)
+Ca1 Si1 1_545 3.0846(17)
+Ca1 Al1 4 3.0846(17)
+Ca1 Al1 1_445 3.0846(17)
+Ca1 Si1 4 3.0846(17)
+Ca1 Si1 1_445 3.0846(17)
+Ca1 Si2 . 3.3435(12)
+Ca1 Al2 4_445 3.3435(12)
+Ca1 Si2 4_445 3.3435(12)
+Ca1 Al2 4_455 3.3435(12)
+Ca1 Al2 1_455 3.3435(12)
+Ca1 Si2 4_455 3.3435(12)
+Ca1 Si2 1_455 3.3435(12)
+Ca1 Al2 4 3.3435(12)
+Ca1 Si2 1_445 3.3435(12)
+Ca1 Si2 4 3.3435(12)
+Ca1 Al2 1_445 3.3435(12)
+Ca1 Ca1 1_665 4.1772
+Ca1 Ca1 1_445 4.1772
+Ca1 Ca1 1_545 4.1772
+Ca1 Ca1 1_655 4.1772
+Ca1 Ca1 1_455 4.1772
+Ca1 Ca1 1_565 4.1772
+Ca1 Ca2 4 4.3746(18)
+Ca1 Ca2 . 4.3746(18)
+Ca2 Si3 . 3.1518(15)
+Ca2 Al3 1_545 3.1518(15)
+Ca2 Si3 1_545 3.1518(15)
+Ca2 Al3 1_445 3.1518(15)
+Ca2 Si3 1_445 3.1518(15)
+Ca2 Al2 1_445 3.1710(14)
+Ca2 Si2 1_445 3.1710(14)
+Ca2 Al2 1_455 3.1710(14)
+Ca2 Si2 1_455 3.1710(14)
+Ca2 Si2 . 3.1710(14)
+Ca2 Si4 . 3.407(2)
+Ca2 Al4 1_455 3.407(2)
+Ca2 Si4 1_455 3.407(2)
+Ca2 Al4 1_445 3.407(2)
+Ca2 Si4 1_445 3.407(2)
+Ca2 Si1 1_445 3.439(3)
+Ca2 Al1 1_445 3.439(3)
+Ca2 Al1 1_545 3.439(3)
+Ca2 Si1 1_545 3.439(3)
+Ca2 Si1 . 3.439(3)
+Ca2 Ca2 1_445 4.1772
+Ca2 Ca2 1_665 4.1772
+Ca2 Ca2 1_565 4.1772
+Ca2 Ca2 1_455 4.1772
+Ca2 Ca2 1_545 4.1772
+Ca2 Ca2 1_655 4.1772
+Ca2 Ca3 . 4.4280(18)
+Ca3 Al4 1_445 3.1472(18)
+Ca3 Si4 1_445 3.1472(18)
+Ca3 Al4 1_455 3.1472(18)
+Ca3 Si4 1_455 3.1472(18)
+Ca3 Si4 . 3.1472(18)
+Ca3 Si6 . 3.2416(8)
+Ca3 Si5 . 3.2416(8)
+Ca3 Al6 1_455 3.2416(8)
+Ca3 Al5 1_545 3.2416(8)
+Ca3 Si6 1_455 3.2416(8)
+Ca3 Si5 1_545 3.2416(8)
+Ca3 Al6 1_445 3.2416(8)
+Ca3 Al5 1_445 3.2416(8)
+Ca3 Si6 1_445 3.2416(8)
+Ca3 Si5 1_445 3.2416(8)
+Ca3 Al3 1_445 3.4016(15)
+Ca3 Si3 1_445 3.4016(15)
+Ca3 Al3 1_545 3.4016(15)
+Ca3 Si3 1_545 3.4016(15)
+Ca3 Si3 . 3.4016(15)
+Ca3 Ca3 1_665 4.1772
+Ca3 Ca3 1_445 4.1772
+Ca3 Ca3 1_545 4.1772
+Ca3 Ca3 1_655 4.1772
+Ca3 Ca3 1_565 4.1772
+Ca3 Ca3 1_455 4.1772
+Ca3 Ca3 4_556 4.332(2)
+Si1 Al2 1_565 2.4434(4)
+Si1 Si2 1_565 2.4434(4)
+Si1 Al2 1_455 2.4434(4)
+Si1 Si2 1_455 2.4434(4)
+Si1 Si2 . 2.4434(4)
+Si1 Ca1 1_565 3.0846(17)
+Si1 Ca1 1_665 3.0846(17)
+Si1 Ca2 1_665 3.439(3)
+Si1 Ca2 1_565 3.439(3)
+Si2 Al1 1_545 2.4434(4)
+Si2 Si1 1_545 2.4434(4)
+Si2 Al1 1_655 2.4434(4)
+Si2 Si1 1_655 2.4434(4)
+Si2 Ca2 1_665 3.1710(14)
+Si2 Ca2 1_655 3.1710(14)
+Si2 Ca1 1_655 3.3435(12)
+Si2 Ca1 1_665 3.3435(12)
+Si3 Al4 1_565 2.4410(3)
+Si3 Si4 1_565 2.4410(3)
+Si3 Al4 1_455 2.4410(3)
+Si3 Si4 1_455 2.4410(3)
+Si3 Si4 . 2.4410(3)
+Si3 Ca2 1_565 3.1518(15)
+Si3 Ca2 1_665 3.1518(15)
+Si3 Ca3 1_665 3.4016(15)
+Si3 Ca3 1_565 3.4016(15)
+Si4 Al3 1_545 2.4410(3)
+Si4 Si3 1_545 2.4410(3)
+Si4 Al3 1_655 2.4410(3)
+Si4 Si3 1_655 2.4410(3)
+Si4 Ca3 1_665 3.1472(18)
+Si4 Ca3 1_655 3.1472(18)
+Si4 Ca2 1_655 3.407(2)
+Si4 Ca2 1_665 3.407(2)
+Si5 Al6 1_565 2.4117
+Si5 Al6 1_455 2.4117
+Si5 Si6 1_565 2.4117
+Si5 Si6 1_455 2.4117
+Si5 Si6 . 2.4117
+Si5 Ca3 4_666 3.2416(8)
+Si5 Ca3 4_566 3.2416(8)
+Si5 Ca3 1_565 3.2416(8)
+Si5 Ca3 4_556 3.2416(8)
+Si5 Ca3 1_665 3.2416(8)
+Si6 Al5 1_655 2.4117
+Si6 Al5 1_545 2.4117
+Si6 Si5 1_655 2.4117
+Si6 Si5 1_545 2.4117
+Si6 Ca3 4_666 3.2416(8)
+Si6 Ca3 4_656 3.2416(8)
+Si6 Ca3 1_655 3.2416(8)
+Si6 Ca3 4_556 3.2416(8)
+Si6 Ca3 1_665 3.2416(8)

@@ -1,0 +1,304 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/59/2005994.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005994
+loop_
+_publ_author_name
+'Honda, K.'
+'Tsuchiya, T.'
+_publ_contact_author
+;
+    Kazumasa Honda
+ National Institute of Materials and Chemical Research
+ Tsukuba,  Ibaraki 305
+ Japan
+;
+_publ_section_title
+;
+ 3-Hydroxy-<i>N</i>,<i>N</i>-dimethyl-2-butenethioamide
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              374
+_journal_page_last               376
+_journal_paper_doi               10.1107/S0108270196013686
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'C6 H11 N O S '
+_chemical_formula_sum            'C6 H11 N O S'
+_chemical_formula_weight         145.22
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_audit_creation_method           'from TEXRAY.INF file'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.84(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   8.472(2)
+_cell_length_b                   7.107(2)
+_cell_length_c                   6.533(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    299
+_cell_measurement_theta_max      14.8
+_cell_measurement_theta_min      12.5
+_cell_volume                     387.57(19)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+ 1988)
+;
+_computing_data_reduction
+'TEXSAN PROCESS (Molecular Structure Corporation, 1994)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'TEXSAN FINISH'
+_computing_structure_refinement  'TEXSAN LS'
+_computing_structure_solution    'SIR88 (Burla et al., 1989)'
+_diffrn_ambient_temperature      296.2
+_diffrn_measurement_device       'Rigaku AFC5S'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rigaku sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.0116
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            1193
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         1.50
+_diffrn_standards_decay_%        -10.06
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.341
+_exptl_absorpt_correction_T_max  0.995
+_exptl_absorpt_correction_T_min  0.858
+_exptl_absorpt_correction_type   'empirical, \y scan (Karcher et al., 1989)'
+_exptl_crystal_colour            'yellow transparent'
+_exptl_crystal_density_diffrn    1.244
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       block
+_exptl_crystal_F_000             156.00
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         0.27
+_refine_diff_density_min         -0.30
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   0.000
+_refine_ls_goodness_of_fit_obs   1.290
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     82
+_refine_ls_number_reflns         541
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0000
+_refine_ls_R_factor_obs          0.0530
+_refine_ls_shift/esd_max         0.0920
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(Fo) + 0.00090|Fo|^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0000
+_refine_ls_wR_factor_obs         0.0580
+_reflns_number_observed          541
+_reflns_number_total             1057
+_reflns_observed_criterion       >sigma(I)
+_cod_data_source_file            fr1014.cif
+_cod_data_source_block           tsu2C5
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(Fo) +
+0.00090|Fo|^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(Fo) + 0.00090|Fo|^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        387.6(2)
+_cod_original_sg_symbol_Hall     '-P 2y1'
+_cod_original_sg_symbol_H-M      'P 21/m'
+_cod_original_formula_sum        'C6 H11 N O S '
+_cod_database_code               2005994
+loop_
+_symmetry_equiv_pos_as_xyz
+' +x, +y, +z'
+' -x,1/2+y, -z'
+' -x, -y, -z'
+' +x,1/2-y, +z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+S(1) 0.0550(8) 0.0000 0.0110(5) 0.091(1) 0.0000 0.0348(7)
+O(1) 0.038(2) 0.0000 0.016(2) 0.127(4) 0.0000 0.057(2)
+N(1) 0.030(2) 0.0000 0.001(2) 0.059(3) 0.0000 0.042(2)
+C(1) 0.033(2) 0.0000 0.002(2) 0.042(3) 0.0000 0.038(2)
+C(2) 0.032(2) 0.0000 0.009(2) 0.065(3) 0.0000 0.033(2)
+C(3) 0.038(2) 0.0000 0.008(2) 0.073(4) 0.0000 0.045(3)
+C(4) 0.035(3) 0.0000 -0.003(2) 0.134(7) 0.0000 0.055(3)
+C(5) 0.044(3) 0.0000 0.012(3) 0.075(4) 0.0000 0.051(3)
+C(6) 0.037(3) 0.0000 -0.005(2) 0.101(5) 0.0000 0.050(3)
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+S(1) 0.50 0.1853(2) 0.2500 0.1400(2) 0.0598(4) Uani d S
+O(1) 0.50 0.4845(4) 0.2500 0.4305(6) 0.073(1) Uani d S
+N(1) 0.50 -0.0287(4) 0.2500 0.3911(5) 0.044(1) Uani d S
+C(1) 0.50 0.1273(5) 0.2500 0.3761(6) 0.038(1) Uani d S
+C(2) 0.50 0.2432(5) 0.2500 0.5674(7) 0.043(1) Uani d S
+C(3) 0.50 0.4038(5) 0.2500 0.5839(7) 0.052(1) Uani d S
+C(4) 0.50 0.5120(7) 0.2500 0.7908(10) 0.076(2) Uani d S
+C(5) 0.50 -0.0883(7) 0.2500 0.5868(9) 0.056(2) Uani d S
+C(6) 0.50 -0.1522(7) 0.2500 0.2007(9) 0.064(2) Uani d S
+H(1) 0.50 0.215(5) 0.2500 0.691(6) 0.027(10) Uiso calc S
+H(2) 1.00 0.587(4) 0.141(6) 0.801(6) 0.09(1) Uiso calc .
+H(3) 0.50 0.467(10) 0.2500 0.89(1) 0.13(2) Uiso calc S
+H(4) 1.00 -0.043(4) 0.147(5) 0.679(5) 0.063(10) Uiso calc .
+H(5) 0.50 -0.182(8) 0.2500 0.571(10) 0.09(2) Uiso calc S
+H(6) 0.50 -0.247(9) 0.2500 0.26(1) 0.09(2) Uiso calc S
+H(7) 1.00 -0.129(5) 0.145(6) 0.120(7) 0.10(1) Uiso calc .
+H(8) 0.50 0.408(9) 0.2500 0.31(1) 0.12(2) Uiso calc S
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S 0.125 0.123
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+O 0.011 0.006
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+N 0.006 0.003
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+C 0.003 0.002
+;International Tables for Crystallography
+(1992, Vol. C, Tables 4.2.6.8 and 6.1.1.1)
+;
+H 0.000 0.000
+;International Tables for Crystallography
+(1992, Vol. C, Table 6.1.1.2)
+;
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 0 0
+0 2 0
+0 0 -4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C(3) O(1) H(8) . . 106(4) no
+C(1) N(1) C(5) . . 124.0(4) yes
+C(1) N(1) C(6) . . 120.1(4) yes
+C(5) N(1) C(6) . . 115.9(4) yes
+S(1) C(1) N(1) . . 120.5(3) yes
+S(1) C(1) C(2) . . 121.6(3) yes
+N(1) C(1) C(2) . . 117.8(4) yes
+C(1) C(2) C(3) . . 126.5(4) yes
+C(1) C(2) H(1) . . 122(2) no
+C(3) C(2) H(1) . . 110(2) no
+O(1) C(3) C(2) . . 126.3(4) yes
+O(1) C(3) C(4) . . 111.9(4) yes
+C(2) C(3) C(4) . . 121.8(5) yes
+C(3) C(4) H(2) . . 110(2) no
+C(3) C(4) H(2) . 4_555 110(2) no
+C(3) C(4) H(3) . . 116(5) no
+H(2) C(4) H(2) . 4_555 102(4) no
+H(2) C(4) H(3) . . 109(3) no
+H(2) C(4) H(3) 4_555 . 109(3) no
+N(1) C(5) H(4) . . 112.0(10) no
+N(1) C(5) H(4) . 4_555 112.0(10) no
+N(1) C(5) H(5) . . 112(4) no
+H(4) C(5) H(4) . 4_555 96(3) no
+H(4) C(5) H(5) . . 111(3) no
+H(4) C(5) H(5) 4_555 . 111(3) no
+N(1) C(6) H(6) . . 100(4) no
+N(1) C(6) H(7) . . 106(2) no
+N(1) C(6) H(7) . 4_555 106(2) no
+H(6) C(6) H(7) . . 119(3) no
+H(6) C(6) H(7) . 4_555 119(3) no
+H(7) C(6) H(7) . 4_555 103(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_site_symmetry_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S(1) . C(1) . 1.697(4) yes
+O(1) . C(3) . 1.306(6) yes
+N(1) . C(1) . 1.342(5) yes
+N(1) . C(5) . 1.453(6) yes
+N(1) . C(6) . 1.482(6) yes
+C(1) . C(2) . 1.451(6) yes
+C(2) . C(3) . 1.346(6) yes
+C(3) . C(4) . 1.497(7) yes
+O(1) . H(8) . 0.94(7) no
+C(2) . H(1) . 0.88(4) no
+C(4) . H(2) . 1.00(4) no
+C(4) . H(3) . 0.81(8) no
+C(5) . H(4) . 0.98(3) no
+C(5) . H(5) . 0.78(7) no
+C(6) . H(6) . 0.95(7) no
+C(6) . H(7) . 0.96(4) no
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+O(1) C(5) 3.589(7) 1_655 no
+C(1) C(5) 3.5810(10) 2_556 no
+C(1) C(5) 3.5810(10) 2_546 no
+C(4) C(6) 3.559(7) 1_656 no

@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/18/9011835.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011835
+loop_
+_publ_author_name
+'Simonov, V. I.'
+'Belov, N. V.'
+_publ_section_title
+;
+ The determination of the structure of seidozerite
+;
+_journal_name_full               'Soviet Physics Crystallography'
+_journal_page_first              146
+_journal_page_last               157
+_journal_volume                  4
+_journal_year                    1960
+_chemical_formula_sum
+'Al0.1 Ca0.4 F2 Fe0.19 Mg0.34 Mn0.46 Na3.6 Nb0.04 O16 Si4 Ti1.26 Zr1.44'
+_chemical_name_mineral           Seidozerite
+_space_group_IT_number           13
+_symmetry_space_group_name_Hall  '-P 2yc'
+_symmetry_space_group_name_H-M   'P 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 102.43
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.53
+_cell_length_b                   7.10
+_cell_length_c                   18.30
+_cell_volume                     701.671
+_database_code_amcsd             0015540
+_exptl_crystal_density_diffrn    3.537
+_cod_original_formula_sum
+'Zr1.44 Ti1.26 Mn.46 Mg.34 Fe.19 Nb.04 Al.1 Si4 (Na3.6 Ca.4) O16 F2'
+_cod_database_code               9011835
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,-y,1/2+z
+-x,y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zr 0.20000 0.11900 0.07400 0.72000 Zr 0
+Ti 0.20000 0.11900 0.07400 0.25000 Ti 0
+Mn 0.50000 0.35000 0.25000 0.46000 Mn 0
+Mg 0.50000 0.35000 0.25000 0.34000 Mg 0
+Fe2+ 0.50000 0.35000 0.25000 0.10000 Fe 0
+Ti 0.00000 0.11100 0.25000 0.76000 Ti 0
+Nb 0.00000 0.11100 0.25000 0.04000 Nb 0
+Al 0.00000 0.11100 0.25000 0.10000 Al 0
+Fe3+ 0.00000 0.11100 0.25000 0.09000 Fe 0
+SiI 0.71800 0.38400 0.10400 1.00000 Si 0
+SiII 0.71800 0.84300 0.10400 1.00000 Si 0
+NaI 0.19500 0.61100 0.06900 0.90000 Na 0
+CaI 0.19500 0.61100 0.06900 0.10000 Ca 0
+NaII 0.00000 0.61300 0.25000 0.90000 Na 0
+CaII 0.00000 0.61300 0.25000 0.10000 Ca 0
+NaIII 0.50000 0.86000 0.25000 0.90000 Na 0
+CaIII 0.50000 0.86000 0.25000 0.10000 Ca 0
+OI 0.71900 0.61500 0.10500 1.00000 O 0
+OII 0.43800 0.32700 0.07000 1.00000 O 0
+OIII 0.43800 0.90700 0.07100 1.00000 O 0
+OIV 0.90800 0.31800 0.05000 1.00000 O 0
+OV 0.91500 0.91200 0.05600 1.00000 O 0
+OVI 0.80400 0.31400 0.19100 1.00000 O 0
+OVII 0.80400 0.91500 0.19200 1.00000 O 0
+OVIII 0.24300 0.12100 0.18500 1.00000 O 0
+FOH 0.29400 0.57000 0.19300 1.00000 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:23:21+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015540

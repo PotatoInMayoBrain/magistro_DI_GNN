@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/99/2009905.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009905
+loop_
+_publ_author_name
+'Irngartinger, H.'
+'Lichenth\"aler, J.'
+_publ_section_title
+;
+ Three tetramethylketals of 2,5-distyryl-[1,4]benzoquinones
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1154
+_journal_page_last               1156
+_journal_paper_doi               10.1107/S0108270193011503
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'C28 H32 O4'
+_chemical_formula_weight         432
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 112.18(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            2
+_cell_length_a                   11.529(2)
+_cell_length_b                   11.867(2)
+_cell_length_c                   9.592(2)
+_cell_measurement_reflns_used    49
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      18.04
+_cell_measurement_theta_min      9.98
+_cell_volume                     1215.2(4)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.11
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            3136
+_diffrn_reflns_theta_max         28
+_diffrn_standards_decay_%        17.7
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.076
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.18
+_exptl_crystal_description       platelets
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.45
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         0.28
+_refine_diff_density_min         -0.10
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   2.30
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     173
+_refine_ls_number_reflns         1192
+_refine_ls_R_factor_obs          0.051
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s(F~o~)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.059
+_reflns_number_observed          1192
+_reflns_number_total             2919
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            se1044.cif
+_cod_data_source_block           se1044_structure_3_of_3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s(F~o~)^2^]' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/[\s(F~o~)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+
+The authors quote the space group as P 21/n but this yields and chemically
+unreasonable polymeric structure, putting it as P 21/c generates the monomeric
+species described in the original paper. Hence, we think that the group is
+indeed P 21/c
+
+miguel
+;
+_cod_original_cell_volume        1215.2(8)
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_database_code               2009905
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O1 .0120(2) -.2094(2) 1.0715(2) .0740(10)
+O2 .1189(2) -.0920(2) 1.2647(2) .0680(10)
+C1 .0795(2) .0367(2) .9226(3) .0520(10)
+C2 .1165(2) -.0472(3) 1.0209(3) .0590(10)
+C3 .0440(2) -.0946(2) 1.1077(3) .0560(10)
+C4 .1530(2) .0823(3) .8381(3) .0590(10)
+C5 .2536(2) .0379(3) .8305(3) .0600(10)
+C6 .3325(2) .0831(2) .7524(3) .0520(10)
+C7 .3049(2) .1814(2) .6680(3) .0600(10)
+C8 .3829(2) .2204(2) .5995(3) .0590(10)
+C9 .4901(2) .1632(2) .6105(3) .0520(10)
+C10 .5168(2) .0658(3) .6939(3) .0660(10)
+C11 .4395(2) .0260(3) .7636(3) .0660(10)
+C12 .1097(3) -.2854(3) 1.0896(4) .102(2)
+C13 .1500(3) .0178(3) 1.3261(4) .084(2)
+C14 .5738(3) .2063(3) .5322(3) .075(2)
+H2 .197(2) -.083(2) 1.045(2) .0050(10)
+H4 .123(3) .147(3) .778(3) .0100(10)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C1 C2 1.326(4) yes
+C1 C3' 1.507(4) yes
+C2 C3 1.495(5) yes
+C1 C4 1.479(4) yes
+C4 C5 1.300(4) yes
+C5 C6 1.480(4) yes
+O1 C3 1.419(4) yes
+O2 C3 1.426(3) yes
+O1 C12 1.402(4) yes
+O2 C13 1.418(4) yes
+C6 C7 1.386(4) no
+C6 C11 1.376(4) no
+C7 C8 1.379(5) no
+C8 C9 1.378(4) no
+C9 C10 1.373(4) no
+C9 C14 1.518(5) no
+C10 C11 1.383(5) no
+C2 H2 0.96(2) no
+C4 H4 0.95(3) no
+C5 H5 0.96(2) no
+C7 H7 0.87(2) no
+C8 H8 0.90(2) no
+C10 H10 0.92(3) no
+C11 H11 0.98(3) no
+C12 H12A 1.00 no
+C12 H12C 0.92 no
+C12 H12B 0.96 no
+C13 H13A 0.94 no
+C13 H13B 0.95 no
+C13 H13C 0.96 no
+C14 H14C 0.90 no
+C14 H14A 0.83 no
+C14 H14B 0.83 no

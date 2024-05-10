@@ -1,0 +1,140 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 17:37:37 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176729 $
+#$URL: svn://www.crystallography.net/cod/cif/1/10/00/1100051.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1100051
+loop_
+_publ_author_name
+'Brandon, J. K.'
+'Pearson, W. B.'
+'Riley, P. W.'
+'Chien, C.'
+'Stokhuyzen, R.'
+_publ_section_title
+;
+ \g-Brasses with R cells
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1088
+_journal_page_last               1095
+_journal_paper_doi               10.1107/S0567740877005433
+_journal_volume                  33
+_journal_year                    1977
+_chemical_formula_sum            'Al65 Cr27 Fe8'
+_chemical_name_structure_type    Al8Cr5
+_space_group_IT_number           160
+_symmetry_cell_setting           rhombohedral
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.0(3)
+_cell_formula_units_Z            ?
+_cell_length_a                   12.6963024(3)
+_cell_length_b                   12.6963024(3)
+_cell_length_c                   7.9210911(7)
+_cell_measurement_temperature    300
+_cell_volume                     1105.78(3)
+_pd_meas_2theta_range_inc        0.03200
+_pd_meas_2theta_range_max        143.98399
+_pd_meas_2theta_range_min        14.00000
+_pd_meas_number_of_points        4063
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Rhombohedral' changed to 'rhombohedral'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '300K' was changed to '300' -
+the value should be numeric and without a unit designator.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      'R 3 M'
+_cod_database_code               1100051
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+-y,-x,z
+-x+y,y,z
+x,x-y,z
+x+2/3,y+1/3,z+1/3
+-y+2/3,x-y+1/3,z+1/3
+-x+y+2/3,-x+1/3,z+1/3
+-y+2/3,-x+1/3,z+1/3
+-x+y+2/3,y+1/3,z+1/3
+x+2/3,x-y+1/3,z+1/3
+x+1/3,y+2/3,z+2/3
+-y+1/3,x-y+2/3,z+2/3
+-x+y+1/3,-x+2/3,z+2/3
+-y+1/3,-x+2/3,z+2/3
+-x+y+1/3,y+2/3,z+2/3
+x+1/3,x-y+2/3,z+2/3
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+al6 0.33760 0.29120 0.34450 0.01064 1.00000 Uiso al
+cr1 0.00000 0.00000 0.17950 0.00215 0.40000 Uiso cr
+Fe1 0.00000 0.00000 0.17950 0.00215 0.10000 Uiso fe
+cr2 0.07170 0.92830 0.93380 0.00697 0.34200 Uiso cr
+Fe2 0.07170 0.92830 0.93380 0.00697 0.08556 Uiso fe
+al1 0.07170 0.92830 0.93380 0.00633 0.57256 Uiso al
+cr3 0.00000 0.00000 0.69290 0.00215 0.80000 Uiso cr
+fe3 0.00000 0.00000 0.69290 0.00215 0.20000 Uiso fe
+cr4 0.21830 0.78170 0.78170 0.00583 0.80000 Uiso cr
+fe4 0.21830 0.78170 0.78170 0.00583 0.20000 Uiso fe
+cr5 0.44640 0.55360 0.92350 0.00317 0.49467 Uiso cr
+fe5 0.44640 0.55360 0.92350 0.00317 0.12367 Uiso fe
+al2 0.44640 0.55360 0.92350 0.00317 0.38156 Uiso al
+cr6 0.26290 0.73710 0.09790 0.00760 0.34200 Uiso cr
+fe6 0.26290 0.73710 0.09790 0.00760 0.08556 Uiso fe
+al3 0.26290 0.73710 0.09790 0.00760 0.57256 Uiso al
+al4 0.21620 0.78380 0.42300 0.01621 1.00000 Uiso al
+al5 0.45200 0.54800 0.27710 0.00532 1.00000 Uiso al
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+al 6.42020 3.03870 1.90020 0.74260 1.59360 31.54720 1.96460 85.08860 1.11510
+0.25900 0.32800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+cr 10.64060 6.10380 7.35370 0.39200 3.32400 20.26260 1.49220 98.73990 1.18320
+-0.95900 3.06900
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+fe 11.76950 4.76110 7.35730 0.30720 3.52220 15.35350 2.30450 76.88050 1.03690
+-3.36100 0.49200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

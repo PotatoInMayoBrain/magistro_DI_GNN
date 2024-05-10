@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/03/46/7034622.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7034622
+loop_
+_publ_author_name
+'Blanco, M. Cecilia'
+'Paz, Sergio Alexis'
+'Nassif, Vivian M.'
+'Guimpel, Julio J.'
+'Carbonio, Ra\'ul E'
+_publ_section_title
+;
+ Synthesis and characterization of the new two-dimensional Heisenberg
+ antiferromagnet double perovskite BaLaCuSbO6.
+;
+_journal_issue                   23
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              10860
+_journal_page_last               10866
+_journal_paper_doi               10.1039/c4dt03880k
+_journal_volume                  44
+_journal_year                    2015
+_chemical_formula_moiety         BaCuLaSbO6
+_chemical_formula_structural     BaLaCuSbO6
+_chemical_formula_sum            'Ba Cu La O6 Sb'
+_chemical_name_common
+'Barium Copper Lanthanum Antimony(V) Oxide(1/1/1/1/6)'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.2877(3)
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            2
+_cell_length_a                   5.5683(5)
+_cell_length_b                   5.5683(4)
+_cell_length_c                   8.4637(3)
+_cell_measurement_temperature    300
+_cell_volume                     262.42(3)
+_computing_structure_refinement  FULLPROF
+_diffrn_measurement_method       'neutron diffraction'
+_diffrn_radiation_type           'Constant Wavelength Neutron Diffraction'
+_diffrn_radiation_wavelength     1.91000
+_diffrn_source                   'nuclear reactor'
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.100078
+_pd_meas_2theta_range_max        127.90000
+_pd_meas_2theta_range_min        0.00000
+_pd_meas_number_of_points        1280
+_pd_proc_2theta_range_inc        0.100078
+_pd_proc_2theta_range_max        127.8846
+_pd_proc_2theta_range_min        -0.0154
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        11.3670
+_pd_proc_ls_prof_wR_expected     13.7685
+_pd_proc_ls_prof_wR_factor       14.6315
+_pd_proc_wavelength              1.910000
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     33
+_refine_ls_number_reflns         151
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            10.5356
+_cod_data_source_file            c4dt03880k1.cif
+_cod_data_source_block           BaLaCuSbO6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3105 2015-03-04 15:46:00Z robertas 
+
+ Adding full bibliography for 7034622.cif.
+;
+_cod_original_formula_sum        BaCuLaSbO6
+_cod_database_code               7034622
+#BEGIN Tags that were not found in dictionaries:
+_chemical_formula_density        7.054
+_pd_proc_ls_prof_cr_factor       32.9653
+_pd_proc_ls_prof_cwr_factor      29.4151
+_pd_proc_ls_prof_cwr_expected    27.6800
+_pd_proc_ls_prof_chi2            1.1293
+_pd_proc_ls_prof_echi2           1.1769
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,-z
+-x,-y,-z
+x,-y,z
+x+1/2,y+1/2,z+1/2
+-x+1/2,y+1/2,-z+1/2
+-x+1/2,-y+1/2,-z+1/2
+x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+Ba Ba2+ 0.4965(1) 0.00000 0.2520(1) 0.00448(5) 0.50000 Uiso
+La La3+ 0.4965(1) 0.00000 0.2520(1) 0.00448(5) 0.50000 Uiso
+Sb1 Sb5+ 0.00000 0.00000 0.50000 0.0082(2) 0.0441(9) Uiso
+Cu1 Cu2+ 0.00000 0.00000 0.50000 0.0082(2) 0.9559(9) Uiso
+Sb2 Sb5+ 0.00000 0.00000 0.00000 0.00115(11) 0.9559(9) Uiso
+Cu2 Cu2+ 0.00000 0.00000 0.00000 0.00115(11) 0.0441(9) Uiso
+O1 O2- -0.0420(3) 0.00000 0.2352(2) 0.0145(4) 1.00000 Uiso
+O2 O2- 0.2351(2) 0.2741(2) 0.0136(2) 0.0224(3) 1.00000 Uiso
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Ba 0.50700 V.F._Sears_Neutron_News_3_26_(1992)
+La 0.82400 V.F._Sears_Neutron_News_3_26_(1992)
+Sb 0.55700 V.F._Sears_Neutron_News_3_26_(1992)
+Cu 0.77180 V.F._Sears_Neutron_News_3_26_(1992)
+O 0.58030 V.F._Sears_Neutron_News_3_26_(1992)

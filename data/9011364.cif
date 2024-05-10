@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/13/9011364.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011364
+loop_
+_publ_author_name
+'Ginderow, D.'
+_publ_section_title
+;
+ Structure de l'uranophane alpha, Ca(UO2)2(SiO3OH)2*5H2O
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              421
+_journal_page_last               424
+_journal_paper_doi               10.1107/S0108270187011491
+_journal_volume                  44
+_journal_year                    1988
+_chemical_compound_source        'Bois Noirs du Puy-de-Dome, France'
+_chemical_formula_sum            'Ca H12 O17 Si2 U2'
+_chemical_name_mineral           'Uranophane - alpha'
+_space_group_IT_number           4
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.27
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   15.909
+_cell_length_b                   7.002
+_cell_length_c                   6.665
+_cell_volume                     736.478
+_database_code_amcsd             0010068
+_exptl_crystal_density_diffrn    3.862
+_cod_original_formula_sum        'Ca U2 Si2 O17 H12'
+_cod_database_code               9011364
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,1/2+y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.76820 0.68370 0.27670 0.01646 Ca 0
+U1 0.00568 0.78217 0.13400 0.00735 U 0
+U2 -0.50568 -0.78220 -0.13400 0.00735 U 0
+Si1 0.03290 0.27960 0.34050 0.01013 Si 0
+Si2 -0.53290 -0.27960 -0.34050 0.01013 Si 0
+O1 0.11930 0.80040 0.13930 0.01900 O 0
+O2 -0.61930 -0.80040 -0.13930 0.01900 O 0
+O3 -0.10760 0.76120 0.12400 0.01773 O 0
+O4 -0.39240 -0.76120 -0.12400 0.01773 O 0
+O5 0.01980 0.45920 0.18730 0.01393 O 0
+O6 -0.51980 -0.45920 -0.18730 0.01393 O 0
+O7 0.00480 0.10640 0.18370 0.01520 O 0
+O8 -0.50480 -0.10640 -0.18370 0.01520 O 0
+O9 -0.02130 0.28650 0.52710 0.01520 O 0
+O10 -0.47870 -0.28650 -0.52710 0.01520 O 0
+O11 0.13380 0.26910 0.42740 0.02280 O 0
+O12 -0.63380 -0.26910 -0.42740 0.02280 O 0
+Ow1 0.81900 0.37230 0.36340 0.03926 O 0
+Ow2 0.74380 0.01450 0.20520 0.04306 O 0
+Ow3 0.68690 0.63290 0.54930 0.04306 O 0
+Ow4 0.74310 0.51800 0.95170 0.02786 O 0
+Ow5 0.76150 0.02990 0.76530 0.14312 O 0
+H1 0.17300 0.34400 0.39100 0.05066 H 0
+H2 0.65600 0.34300 0.43700 0.05066 H 0
+H11 0.87500 0.31600 0.38300 0.05066 H 0
+H12 0.77000 0.31600 0.30300 0.05066 H 0
+H21 0.26600 0.47700 0.96900 0.05066 H 0
+H22 0.68000 0.08600 0.24200 0.05066 H 0
+H31 0.36700 0.18400 0.44500 0.05066 H 0
+H32 0.29300 0.09300 0.31200 0.05066 H 0
+H41 0.79700 0.46800 0.89100 0.05066 H 0
+H42 0.69400 0.43000 0.94300 0.05066 H 0
+H51 0.81600 0.10900 0.82000 0.05066 H 0
+H52 0.71100 0.11700 0.69500 0.05066 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:56+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010068

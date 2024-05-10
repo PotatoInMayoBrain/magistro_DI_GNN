@@ -1,0 +1,1318 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 14:52:44 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179310 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/07/4320797.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4320797
+loop_
+_publ_author_name
+'Eric G. Tulsky'
+'Jeffrey R. Long'
+_publ_contact_author
+;
+       Jeffrey R. Long
+       Department of Chemistry
+       University of California, Berkeley
+       United States of America
+;
+_publ_contact_author_email       jlong@cchem.berkeley.edu
+_publ_contact_author_fax         '510 643-3832'
+_publ_contact_author_phone       '510 642-0860'
+_publ_section_title
+;
+ Heterometal Substitution in the Dimensional Reduction of Cluster
+ Frameworks: Synthesis of Soluble [Re6-nOsnSe8Cl6](4-n) (n = 1-3)
+ Cluster-Containing Solids
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6990
+_journal_page_last               7002
+_journal_paper_doi               10.1021/ic010867d
+_journal_volume                  40
+_journal_year                    2001
+_chemical_compound_source        synthetic
+_chemical_formula_sum            'Cl4 Os2 Re4 Se8'
+_chemical_formula_weight         1898.68
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                87.8180(10)
+_cell_angle_beta                 84.896(3)
+_cell_angle_gamma                63.824(4)
+_cell_formula_units_Z            2
+_cell_length_a                   8.7946(7)
+_cell_length_b                   8.8305(7)
+_cell_length_c                   11.9783(3)
+_cell_measurement_temperature    155(2)
+_cell_volume                     831.53(10)
+_computing_cell_refinement       'Bruker SAINT'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      155(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0626
+_diffrn_reflns_av_sigmaI/netI    0.0906
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            6582
+_diffrn_reflns_theta_max         25.96
+_diffrn_reflns_theta_min         1.71
+_exptl_absorpt_coefficient_mu    62.341
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'Blessing, Acta Cryst. (1995) A51 33-38'
+_exptl_crystal_colour            'shiny black'
+_exptl_crystal_density_diffrn    7.583
+_exptl_crystal_description       plates
+_exptl_crystal_F_000             1584
+_exptl_crystal_size_max          0.12
+_exptl_crystal_size_mid          0.04
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         3.806
+_refine_diff_density_min         -3.670
+_refine_diff_density_rms         0.683
+_refine_ls_extinction_coef       0.00092(6)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   0.908
+_refine_ls_goodness_of_fit_obs   1.095
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     164
+_refine_ls_number_reflns         2836
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.908
+_refine_ls_restrained_S_obs      1.095
+_refine_ls_R_factor_all          0.0887
+_refine_ls_R_factor_obs          0.0458
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0454P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1046
+_refine_ls_wR_factor_obs         0.0951
+_reflns_number_observed          1679
+_reflns_number_total             2836
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic010867d_1.cif
+_cod_data_source_block           compound1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'multiscan' changed to
+'multi-scan' according to the built-in table from CIF Core dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0454P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0454P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4320797
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Os1 0.0098(6) 0.0104(6) 0.0099(6) -0.0013(4) 0.0018(5) -0.0036(5)
+Os2 0.0109(6) 0.0107(6) 0.0099(6) -0.0013(4) 0.0010(5) -0.0045(5)
+Os3 0.0100(6) 0.0103(6) 0.0102(6) -0.0007(4) 0.0007(5) -0.0033(5)
+Os4 0.0114(7) 0.0112(6) 0.0096(6) -0.0011(5) 0.0018(5) -0.0040(5)
+Os5 0.0097(6) 0.0112(6) 0.0101(6) -0.0017(4) 0.0013(5) -0.0034(5)
+Os6 0.0102(6) 0.0109(6) 0.0088(6) -0.0008(4) 0.0013(5) -0.0031(5)
+Re1 0.0098(6) 0.0104(6) 0.0099(6) -0.0013(4) 0.0018(5) -0.0036(5)
+Re2 0.0109(6) 0.0107(6) 0.0099(6) -0.0013(4) 0.0010(5) -0.0045(5)
+Re3 0.0100(6) 0.0103(6) 0.0102(6) -0.0007(4) 0.0007(5) -0.0033(5)
+Re4 0.0114(7) 0.0112(6) 0.0096(6) -0.0011(5) 0.0018(5) -0.0040(5)
+Re5 0.0097(6) 0.0112(6) 0.0101(6) -0.0017(4) 0.0013(5) -0.0034(5)
+Re6 0.0102(6) 0.0109(6) 0.0088(6) -0.0008(4) 0.0013(5) -0.0031(5)
+Se1 0.015(2) 0.0158(15) 0.0107(14) 0.0010(11) -0.0023(12) -0.0054(13)
+Se2 0.014(2) 0.0123(14) 0.0132(15) -0.0017(11) 0.0034(12) -0.0055(12)
+Se3 0.0109(15) 0.0131(14) 0.0106(15) -0.0031(11) 0.0014(12) -0.0046(12)
+Se4 0.013(2) 0.0114(14) 0.0137(15) -0.0010(11) 0.0035(12) -0.0034(12)
+Se5 0.012(2) 0.0156(15) 0.0101(14) -0.0038(11) 0.0025(11) -0.0058(13)
+Se6 0.015(2) 0.0127(15) 0.0131(15) -0.0020(11) 0.0012(12) -0.0057(13)
+Se7 0.014(2) 0.0131(15) 0.0106(15) -0.0015(11) 0.0011(11) -0.0066(13)
+Se8 0.015(2) 0.0124(14) 0.0091(14) 0.0007(11) 0.0010(11) -0.0047(12)
+Cl1 0.003(3) 0.020(4) 0.020(4) -0.003(3) 0.007(3) 0.000(3)
+Cl2 0.015(4) 0.014(4) 0.019(4) -0.002(3) -0.004(3) -0.005(3)
+Cl3 0.015(4) 0.026(4) 0.018(4) 0.001(3) 0.003(3) -0.006(3)
+Cl6 0.020(4) 0.019(4) 0.009(3) 0.003(3) -0.003(3) -0.011(3)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Os1 Os 0.23390(14) 0.90691(13) 0.96345(9) 0.0105(3) Uani 0.33 d P .
+Os2 Os -0.01169(14) 0.82333(13) 0.92674(9) 0.0107(3) Uani 0.33 d P .
+Os3 Os 0.03854(14) 0.87306(13) 1.13242(9) 0.0107(3) Uani 0.33 d P .
+Os4 Os 0.42680(14) 0.34353(13) 0.55992(9) 0.0112(3) Uani 0.33 d P .
+Os5 Os 0.36342(14) 0.65529(13) 0.61074(9) 0.0109(3) Uani 0.33 d P .
+Os6 Os 0.32256(14) 0.58347(13) 0.40757(9) 0.0106(3) Uani 0.33 d P .
+Re1 Re 0.23390(14) 0.90691(13) 0.96345(9) 0.0105(3) Uani 0.67 d P .
+Re2 Re -0.01169(14) 0.82333(13) 0.92674(9) 0.0107(3) Uani 0.67 d P .
+Re3 Re 0.03854(14) 0.87306(13) 1.13242(9) 0.0107(3) Uani 0.67 d P .
+Re4 Re 0.42680(14) 0.34353(13) 0.55992(9) 0.0112(3) Uani 0.67 d P .
+Re5 Re 0.36342(14) 0.65529(13) 0.61074(9) 0.0109(3) Uani 0.67 d P .
+Re6 Re 0.32256(14) 0.58347(13) 0.40757(9) 0.0106(3) Uani 0.67 d P .
+Se1 Se 0.2682(4) 0.9608(3) 1.1618(2) 0.0141(6) Uani 1 d . .
+Se2 Se 0.1977(4) 1.1973(3) 0.9089(2) 0.0135(6) Uani 1 d . .
+Se3 Se 0.1770(3) 0.8613(3) 0.7683(2) 0.0119(6) Uani 1 d . .
+Se4 Se 0.2465(3) 0.6250(3) 1.0213(2) 0.0138(6) Uani 1 d . .
+Se5 Se 0.1282(3) 0.5786(3) 0.5736(2) 0.0127(6) Uani 1 d . .
+Se6 Se 0.3877(4) 0.2841(3) 0.3633(2) 0.0137(6) Uani 1 d . .
+Se7 Se 0.4675(4) 0.4241(3) 0.7525(2) 0.0125(6) Uani 1 d . .
+Se8 Se 0.7323(4) 0.1229(3) 0.5389(2) 0.0130(6) Uani 1 d . .
+Cl1 Cl 0.5289(8) 0.7893(8) 0.9157(6) 0.017(2) Uani 1 d . .
+Cl2 Cl -0.0305(9) 0.6026(8) 0.8349(6) 0.017(2) Uani 1 d . .
+Cl3 Cl 0.3442(9) 0.1371(9) 0.6355(6) 0.021(2) Uani 1 d . .
+Cl6 Cl 0.0728(9) 0.6982(8) 1.2995(5) 0.015(2) Uani 1 d . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Re Re -1.0185 7.2310 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Os Os -1.2165 7.6030 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Cl1 Os1 Se2 91.9(2) . . ?
+Cl1 Os1 Se1 92.3(2) . . ?
+Se2 Os1 Se1 90.16(10) . . ?
+Cl1 Os1 Se4 92.3(2) . . ?
+Se2 Os1 Se4 175.72(10) . . ?
+Se1 Os1 Se4 89.85(9) . . ?
+Cl1 Os1 Se3 91.8(2) . . ?
+Se2 Os1 Se3 89.79(9) . . ?
+Se1 Os1 Se3 175.90(11) . . ?
+Se4 Os1 Se3 89.88(10) . . ?
+Cl1 Os1 Re2 135.1(2) . 2_577 ?
+Se2 Os1 Re2 58.21(7) . 2_577 ?
+Se1 Os1 Re2 58.58(7) . 2_577 ?
+Se4 Os1 Re2 118.39(7) . 2_577 ?
+Se3 Os1 Re2 118.15(8) . 2_577 ?
+Cl1 Os1 Os2 135.1(2) . 2_577 ?
+Se2 Os1 Os2 58.21(7) . 2_577 ?
+Se1 Os1 Os2 58.58(7) . 2_577 ?
+Se4 Os1 Os2 118.39(7) . 2_577 ?
+Se3 Os1 Os2 118.15(8) . 2_577 ?
+Re2 Os1 Os2 0.00(6) 2_577 2_577 ?
+Cl1 Os1 Os3 135.0(2) . . ?
+Se2 Os1 Os3 118.96(8) . . ?
+Se1 Os1 Os3 58.54(8) . . ?
+Se4 Os1 Os3 57.64(7) . . ?
+Se3 Os1 Os3 118.08(8) . . ?
+Re2 Os1 Os3 60.77(4) 2_577 . ?
+Os2 Os1 Os3 60.77(4) 2_577 . ?
+Cl1 Os1 Re3 135.0(2) . . ?
+Se2 Os1 Re3 118.96(8) . . ?
+Se1 Os1 Re3 58.54(8) . . ?
+Se4 Os1 Re3 57.64(7) . . ?
+Se3 Os1 Re3 118.08(8) . . ?
+Re2 Os1 Re3 60.77(4) 2_577 . ?
+Os2 Os1 Re3 60.77(4) 2_577 . ?
+Os3 Os1 Re3 0.00(6) . . ?
+Cl1 Os1 Os2 134.9(2) . . ?
+Se2 Os1 Os2 118.27(8) . . ?
+Se1 Os1 Os2 118.23(8) . . ?
+Se4 Os1 Os2 58.14(7) . . ?
+Se3 Os1 Os2 58.37(7) . . ?
+Re2 Os1 Os2 90.02(5) 2_577 . ?
+Os2 Os1 Os2 90.02(5) 2_577 . ?
+Os3 Os1 Os2 59.72(4) . . ?
+Re3 Os1 Os2 59.72(4) . . ?
+Cl1 Os1 Re2 134.9(2) . . ?
+Se2 Os1 Re2 118.27(8) . . ?
+Se1 Os1 Re2 118.23(8) . . ?
+Se4 Os1 Re2 58.14(7) . . ?
+Se3 Os1 Re2 58.37(7) . . ?
+Re2 Os1 Re2 90.02(5) 2_577 . ?
+Os2 Os1 Re2 90.02(5) 2_577 . ?
+Os3 Os1 Re2 59.72(4) . . ?
+Re3 Os1 Re2 59.72(4) . . ?
+Os2 Os1 Re2 0.00(6) . . ?
+Cl1 Os1 Re3 134.7(2) . 2_577 ?
+Se2 Os1 Re3 58.05(7) . 2_577 ?
+Se1 Os1 Re3 118.24(8) . 2_577 ?
+Se4 Os1 Re3 118.35(8) . 2_577 ?
+Se3 Os1 Re3 58.49(7) . 2_577 ?
+Re2 Os1 Re3 59.68(4) 2_577 2_577 ?
+Os2 Os1 Re3 59.68(4) 2_577 2_577 ?
+Os3 Os1 Re3 90.32(5) . 2_577 ?
+Re3 Os1 Re3 90.32(5) . 2_577 ?
+Os2 Os1 Re3 60.22(4) . 2_577 ?
+Re2 Os1 Re3 60.22(4) . 2_577 ?
+Cl2 Os2 Se2 91.2(2) . 2_577 ?
+Cl2 Os2 Se4 92.7(2) . . ?
+Se2 Os2 Se4 89.90(9) 2_577 . ?
+Cl2 Os2 Se1 91.3(2) . 2_577 ?
+Se2 Os2 Se1 90.28(10) 2_577 2_577 ?
+Se4 Os2 Se1 175.91(11) . 2_577 ?
+Cl2 Os2 Se3 92.9(2) . . ?
+Se2 Os2 Se3 175.86(10) 2_577 . ?
+Se4 Os2 Se3 89.92(9) . . ?
+Se1 Os2 Se3 89.60(9) 2_577 . ?
+Cl2 Os2 Re1 134.0(2) . 2_577 ?
+Se2 Os2 Re1 58.55(7) 2_577 2_577 ?
+Se4 Os2 Re1 118.43(8) . 2_577 ?
+Se1 Os2 Re1 58.42(7) 2_577 2_577 ?
+Se3 Os2 Re1 118.09(8) . 2_577 ?
+Cl2 Os2 Os1 134.0(2) . 2_577 ?
+Se2 Os2 Os1 58.55(7) 2_577 2_577 ?
+Se4 Os2 Os1 118.43(8) . 2_577 ?
+Se1 Os2 Os1 58.42(7) 2_577 2_577 ?
+Se3 Os2 Os1 118.09(8) . 2_577 ?
+Re1 Os2 Os1 0.00(6) 2_577 2_577 ?
+Cl2 Os2 Os3 134.6(2) . . ?
+Se2 Os2 Os3 58.52(7) 2_577 . ?
+Se4 Os2 Os3 57.75(7) . . ?
+Se1 Os2 Os3 119.10(8) 2_577 . ?
+Se3 Os2 Os3 118.11(8) . . ?
+Re1 Os2 Os3 60.70(4) 2_577 . ?
+Os1 Os2 Os3 60.70(4) 2_577 . ?
+Cl2 Os2 Re3 134.6(2) . . ?
+Se2 Os2 Re3 58.52(7) 2_577 . ?
+Se4 Os2 Re3 57.75(7) . . ?
+Se1 Os2 Re3 119.10(8) 2_577 . ?
+Se3 Os2 Re3 118.11(8) . . ?
+Re1 Os2 Re3 60.70(4) 2_577 . ?
+Os1 Os2 Re3 60.70(4) 2_577 . ?
+Os3 Os2 Re3 0.00(5) . . ?
+Cl2 Os2 Os1 136.0(2) . . ?
+Se2 Os2 Os1 118.36(8) 2_577 . ?
+Se4 Os2 Os1 58.33(7) . . ?
+Se1 Os2 Os1 118.16(8) 2_577 . ?
+Se3 Os2 Os1 58.25(7) . . ?
+Re1 Os2 Os1 89.98(5) 2_577 . ?
+Os1 Os2 Os1 89.98(5) 2_577 . ?
+Os3 Os2 Os1 59.87(4) . . ?
+Re3 Os2 Os1 59.87(4) . . ?
+Cl2 Os2 Re1 136.0(2) . . ?
+Se2 Os2 Re1 118.36(8) 2_577 . ?
+Se4 Os2 Re1 58.33(7) . . ?
+Se1 Os2 Re1 118.16(8) 2_577 . ?
+Se3 Os2 Re1 58.25(7) . . ?
+Re1 Os2 Re1 89.98(5) 2_577 . ?
+Os1 Os2 Re1 89.98(5) 2_577 . ?
+Os3 Os2 Re1 59.87(4) . . ?
+Re3 Os2 Re1 59.87(4) . . ?
+Os1 Os2 Re1 0.00(6) . . ?
+Cl2 Os2 Re3 135.1(2) . 2_577 ?
+Se2 Os2 Re3 118.25(8) 2_577 2_577 ?
+Se4 Os2 Re3 118.36(8) . 2_577 ?
+Se1 Os2 Re3 58.12(8) 2_577 2_577 ?
+Se3 Os2 Re3 58.39(7) . 2_577 ?
+Re1 Os2 Re3 59.72(4) 2_577 2_577 ?
+Os1 Os2 Re3 59.72(4) 2_577 2_577 ?
+Os3 Os2 Re3 90.30(4) . 2_577 ?
+Re3 Os2 Re3 90.30(4) . 2_577 ?
+Os1 Os2 Re3 60.04(4) . 2_577 ?
+Re1 Os2 Re3 60.04(4) . 2_577 ?
+Cl6 Os3 Se4 90.6(2) . . ?
+Cl6 Os3 Se2 87.4(2) . 2_577 ?
+Se4 Os3 Se2 90.32(10) . 2_577 ?
+Cl6 Os3 Se1 97.0(2) . . ?
+Se4 Os3 Se1 90.46(10) . . ?
+Se2 Os3 Se1 175.49(10) 2_577 . ?
+Cl6 Os3 Se3 93.8(2) . 2_577 ?
+Se4 Os3 Se3 175.59(9) . 2_577 ?
+Se2 Os3 Se3 89.52(10) 2_577 2_577 ?
+Se1 Os3 Se3 89.36(10) . 2_577 ?
+Cl6 Os3 Re2 130.7(2) . . ?
+Se4 Os3 Re2 58.77(7) . . ?
+Se2 Os3 Re2 58.19(7) 2_577 . ?
+Se1 Os3 Re2 118.72(8) . . ?
+Se3 Os3 Re2 117.65(8) 2_577 . ?
+Cl6 Os3 Os2 130.7(2) . . ?
+Se4 Os3 Os2 58.77(7) . . ?
+Se2 Os3 Os2 58.19(7) 2_577 . ?
+Se1 Os3 Os2 118.72(8) . . ?
+Se3 Os3 Os2 117.65(8) 2_577 . ?
+Re2 Os3 Os2 0.00(5) . . ?
+Cl6 Os3 Os1 137.5(2) . . ?
+Se4 Os3 Os1 58.84(7) . . ?
+Se2 Os3 Os1 118.58(8) 2_577 . ?
+Se1 Os3 Os1 58.33(7) . . ?
+Se3 Os3 Os1 117.56(8) 2_577 . ?
+Re2 Os3 Os1 60.42(4) . . ?
+Os2 Os3 Os1 60.42(4) . . ?
+Cl6 Os3 Re1 137.5(2) . . ?
+Se4 Os3 Re1 58.84(7) . . ?
+Se2 Os3 Re1 118.58(8) 2_577 . ?
+Se1 Os3 Re1 58.33(7) . . ?
+Se3 Os3 Re1 117.56(8) 2_577 . ?
+Re2 Os3 Re1 60.42(4) . . ?
+Os2 Os3 Re1 60.42(4) . . ?
+Os1 Os3 Re1 0.00(6) . . ?
+Cl6 Os3 Os1 132.5(2) . 2_577 ?
+Se4 Os3 Os1 118.37(8) . 2_577 ?
+Se2 Os3 Os1 58.06(7) 2_577 2_577 ?
+Se1 Os3 Os1 117.79(8) . 2_577 ?
+Se3 Os3 Os1 58.03(7) 2_577 2_577 ?
+Re2 Os3 Os1 59.63(4) . 2_577 ?
+Os2 Os3 Os1 59.63(4) . 2_577 ?
+Os1 Os3 Os1 89.68(5) . 2_577 ?
+Re1 Os3 Os1 89.68(5) . 2_577 ?
+Cl6 Os3 Re1 132.5(2) . 2_577 ?
+Se4 Os3 Re1 118.37(8) . 2_577 ?
+Se2 Os3 Re1 58.06(7) 2_577 2_577 ?
+Se1 Os3 Re1 117.79(8) . 2_577 ?
+Se3 Os3 Re1 58.03(7) 2_577 2_577 ?
+Re2 Os3 Re1 59.63(4) . 2_577 ?
+Os2 Os3 Re1 59.63(4) . 2_577 ?
+Os1 Os3 Re1 89.68(5) . 2_577 ?
+Re1 Os3 Re1 89.68(5) . 2_577 ?
+Os1 Os3 Re1 0.00(6) 2_577 2_577 ?
+Cl6 Os3 Re2 139.5(2) . 2_577 ?
+Se4 Os3 Re2 118.34(8) . 2_577 ?
+Se2 Os3 Re2 117.79(8) 2_577 2_577 ?
+Se1 Os3 Re2 58.07(7) . 2_577 ?
+Se3 Os3 Re2 58.05(7) 2_577 2_577 ?
+Re2 Os3 Re2 89.70(4) . 2_577 ?
+Os2 Os3 Re2 89.70(4) . 2_577 ?
+Os1 Os3 Re2 59.52(4) . 2_577 ?
+Re1 Os3 Re2 59.52(4) . 2_577 ?
+Os1 Os3 Re2 59.73(4) 2_577 2_577 ?
+Re1 Os3 Re2 59.73(4) 2_577 2_577 ?
+Cl3 Os4 Se6 92.0(2) . . ?
+Cl3 Os4 Se5 94.3(2) . . ?
+Se6 Os4 Se5 89.30(10) . . ?
+Cl3 Os4 Se8 89.8(2) . . ?
+Se6 Os4 Se8 90.09(9) . . ?
+Se5 Os4 Se8 175.88(10) . . ?
+Cl3 Os4 Se7 92.3(2) . . ?
+Se6 Os4 Se7 175.56(10) . . ?
+Se5 Os4 Se7 89.36(9) . . ?
+Se8 Os4 Se7 90.95(9) . . ?
+Cl3 Os4 Re6 133.4(2) . 2_666 ?
+Se6 Os4 Re6 118.66(9) . 2_666 ?
+Se5 Os4 Re6 118.36(8) . 2_666 ?
+Se8 Os4 Re6 58.58(7) . 2_666 ?
+Se7 Os4 Re6 58.53(7) . 2_666 ?
+Cl3 Os4 Os6 133.4(2) . 2_666 ?
+Se6 Os4 Os6 118.66(9) . 2_666 ?
+Se5 Os4 Os6 118.36(8) . 2_666 ?
+Se8 Os4 Os6 58.58(7) . 2_666 ?
+Se7 Os4 Os6 58.53(7) . 2_666 ?
+Re6 Os4 Os6 0.00(6) 2_666 2_666 ?
+Cl3 Os4 Re5 133.3(2) . 2_666 ?
+Se6 Os4 Re5 58.50(8) . 2_666 ?
+Se5 Os4 Re5 118.17(8) . 2_666 ?
+Se8 Os4 Re5 58.22(7) . 2_666 ?
+Se7 Os4 Re5 118.68(8) . 2_666 ?
+Re6 Os4 Re5 60.19(4) 2_666 2_666 ?
+Os6 Os4 Re5 60.19(4) 2_666 2_666 ?
+Cl3 Os4 Os5 133.3(2) . 2_666 ?
+Se6 Os4 Os5 58.50(8) . 2_666 ?
+Se5 Os4 Os5 118.17(8) . 2_666 ?
+Se8 Os4 Os5 58.22(7) . 2_666 ?
+Se7 Os4 Os5 118.68(8) . 2_666 ?
+Re6 Os4 Os5 60.19(4) 2_666 2_666 ?
+Os6 Os4 Os5 60.19(4) 2_666 2_666 ?
+Re5 Os4 Os5 0.00(6) 2_666 2_666 ?
+Cl3 Os4 Os6 136.8(2) . . ?
+Se6 Os4 Os6 58.30(7) . . ?
+Se5 Os4 Os6 58.31(7) . . ?
+Se8 Os4 Os6 118.07(7) . . ?
+Se7 Os4 Os6 117.51(8) . . ?
+Re6 Os4 Os6 89.74(5) 2_666 . ?
+Os6 Os4 Os6 89.74(5) 2_666 . ?
+Re5 Os4 Os6 59.87(4) 2_666 . ?
+Os5 Os4 Os6 59.87(4) 2_666 . ?
+Cl3 Os4 Re6 136.8(2) . . ?
+Se6 Os4 Re6 58.30(7) . . ?
+Se5 Os4 Re6 58.31(7) . . ?
+Se8 Os4 Re6 118.07(7) . . ?
+Se7 Os4 Re6 117.51(8) . . ?
+Re6 Os4 Re6 89.74(5) 2_666 . ?
+Os6 Os4 Re6 89.74(5) 2_666 . ?
+Re5 Os4 Re6 59.87(4) 2_666 . ?
+Os5 Os4 Re6 59.87(4) 2_666 . ?
+Os6 Os4 Re6 0.00(6) . . ?
+Cl3 Os4 Os5 136.5(2) . . ?
+Se6 Os4 Os5 118.14(8) . . ?
+Se5 Os4 Os5 58.39(7) . . ?
+Se8 Os4 Os5 118.55(8) . . ?
+Se7 Os4 Os5 57.68(7) . . ?
+Re6 Os4 Os5 59.99(4) 2_666 . ?
+Os6 Os4 Os5 59.99(4) 2_666 . ?
+Re5 Os4 Os5 90.16(5) 2_666 . ?
+Os5 Os4 Os5 90.16(5) 2_666 . ?
+Os6 Os4 Os5 59.84(4) . . ?
+Re6 Os4 Os5 59.84(4) . . ?
+Se7 Os5 Se8 177.19(10) . 2_666 ?
+Se7 Os5 Se6 89.55(10) . 2_666 ?
+Se8 Os5 Se6 90.41(9) 2_666 2_666 ?
+Se7 Os5 Se5 90.31(10) . . ?
+Se8 Os5 Se5 89.52(10) 2_666 . ?
+Se6 Os5 Se5 175.68(10) 2_666 . ?
+Se7 Os5 Se3 89.32(9) . . ?
+Se8 Os5 Se3 93.49(9) 2_666 . ?
+Se6 Os5 Se3 92.44(9) 2_666 . ?
+Se5 Os5 Se3 91.88(9) . . ?
+Se7 Os5 Re6 58.84(7) . 2_666 ?
+Se8 Os5 Re6 118.88(8) 2_666 2_666 ?
+Se6 Os5 Re6 58.40(7) 2_666 2_666 ?
+Se5 Os5 Re6 118.04(8) . 2_666 ?
+Se3 Os5 Re6 134.03(7) . 2_666 ?
+Se7 Os5 Os6 58.84(7) . 2_666 ?
+Se8 Os5 Os6 118.88(8) 2_666 2_666 ?
+Se6 Os5 Os6 58.40(7) 2_666 2_666 ?
+Se5 Os5 Os6 118.04(8) . 2_666 ?
+Se3 Os5 Os6 134.03(7) . 2_666 ?
+Re6 Os5 Os6 0.00(7) 2_666 2_666 ?
+Se7 Os5 Re4 118.99(8) . 2_666 ?
+Se8 Os5 Re4 58.75(7) 2_666 2_666 ?
+Se6 Os5 Re4 58.49(7) 2_666 2_666 ?
+Se5 Os5 Re4 118.02(8) . 2_666 ?
+Se3 Os5 Re4 136.55(8) . 2_666 ?
+Re6 Os5 Re4 60.15(4) 2_666 2_666 ?
+Os6 Os5 Re4 60.15(4) 2_666 2_666 ?
+Se7 Os5 Os4 118.99(8) . 2_666 ?
+Se8 Os5 Os4 58.75(7) 2_666 2_666 ?
+Se6 Os5 Os4 58.49(7) 2_666 2_666 ?
+Se5 Os5 Os4 118.02(8) . 2_666 ?
+Se3 Os5 Os4 136.55(8) . 2_666 ?
+Re6 Os5 Os4 60.15(4) 2_666 2_666 ?
+Os6 Os5 Os4 60.15(4) 2_666 2_666 ?
+Re4 Os5 Os4 0.00(6) 2_666 2_666 ?
+Se7 Os5 Os6 119.11(8) . . ?
+Se8 Os5 Os6 58.55(7) 2_666 . ?
+Se6 Os5 Os6 118.10(8) 2_666 . ?
+Se5 Os5 Os6 58.39(7) . . ?
+Se3 Os5 Os6 136.34(8) . . ?
+Re6 Os5 Os6 89.59(5) 2_666 . ?
+Os6 Os5 Os6 89.59(5) 2_666 . ?
+Re4 Os5 Os6 59.64(4) 2_666 . ?
+Os4 Os5 Os6 59.64(4) 2_666 . ?
+Se7 Os5 Re6 119.11(8) . . ?
+Se8 Os5 Re6 58.55(7) 2_666 . ?
+Se6 Os5 Re6 118.10(8) 2_666 . ?
+Se5 Os5 Re6 58.39(7) . . ?
+Se3 Os5 Re6 136.34(8) . . ?
+Re6 Os5 Re6 89.59(5) 2_666 . ?
+Os6 Os5 Re6 89.59(5) 2_666 . ?
+Re4 Os5 Re6 59.64(4) 2_666 . ?
+Os4 Os5 Re6 59.64(4) 2_666 . ?
+Os6 Os5 Re6 0.00(6) . . ?
+Se7 Os5 Os4 59.13(7) . . ?
+Se8 Os5 Os4 118.54(8) 2_666 . ?
+Se6 Os5 Os4 117.95(8) 2_666 . ?
+Se5 Os5 Os4 58.49(7) . . ?
+Se3 Os5 Os4 133.58(7) . . ?
+Re6 Os5 Os4 59.57(4) 2_666 . ?
+Os6 Os5 Os4 59.57(4) 2_666 . ?
+Re4 Os5 Os4 89.84(5) 2_666 . ?
+Os4 Os5 Os4 89.84(5) 2_666 . ?
+Os6 Os5 Os4 59.99(4) . . ?
+Re6 Os5 Os4 59.99(4) . . ?
+Cl6 Os6 Se6 92.7(2) 1_554 . ?
+Cl6 Os6 Se5 87.2(2) 1_554 . ?
+Se6 Os6 Se5 89.60(10) . . ?
+Cl6 Os6 Se8 90.4(2) 1_554 2_666 ?
+Se6 Os6 Se8 176.75(10) . 2_666 ?
+Se5 Os6 Se8 89.50(9) . 2_666 ?
+Cl6 Os6 Se7 96.2(2) 1_554 2_666 ?
+Se6 Os6 Se7 89.18(10) . 2_666 ?
+Se5 Os6 Se7 176.48(10) . 2_666 ?
+Se8 Os6 Se7 91.53(9) 2_666 2_666 ?
+Cl6 Os6 Re4 137.0(2) 1_554 2_666 ?
+Se6 Os6 Re4 119.03(8) . 2_666 ?
+Se5 Os6 Re4 118.76(8) . 2_666 ?
+Se8 Os6 Re4 58.87(7) 2_666 2_666 ?
+Se7 Os6 Re4 59.19(7) 2_666 2_666 ?
+Cl6 Os6 Os4 137.0(2) 1_554 2_666 ?
+Se6 Os6 Os4 119.03(8) . 2_666 ?
+Se5 Os6 Os4 118.76(8) . 2_666 ?
+Se8 Os6 Os4 58.87(7) 2_666 2_666 ?
+Se7 Os6 Os4 59.19(7) 2_666 2_666 ?
+Re4 Os6 Os4 0.00(6) 2_666 2_666 ?
+Cl6 Os6 Re5 138.6(2) 1_554 2_666 ?
+Se6 Os6 Re5 58.60(7) . 2_666 ?
+Se5 Os6 Re5 118.60(8) . 2_666 ?
+Se8 Os6 Re5 119.30(8) 2_666 2_666 ?
+Se7 Os6 Re5 58.03(7) 2_666 2_666 ?
+Re4 Os6 Re5 60.44(4) 2_666 2_666 ?
+Os4 Os6 Re5 60.44(4) 2_666 2_666 ?
+Cl6 Os6 Os5 138.6(2) 1_554 2_666 ?
+Se6 Os6 Os5 58.60(7) . 2_666 ?
+Se5 Os6 Os5 118.60(8) . 2_666 ?
+Se8 Os6 Os5 119.30(8) 2_666 2_666 ?
+Se7 Os6 Os5 58.03(7) 2_666 2_666 ?
+Re4 Os6 Os5 60.44(4) 2_666 2_666 ?
+Os4 Os6 Os5 60.44(4) 2_666 2_666 ?
+Re5 Os6 Os5 0.00(7) 2_666 2_666 ?
+Cl6 Os6 Re5 130.8(2) 1_554 . ?
+Se6 Os6 Re5 118.65(8) . . ?
+Se5 Os6 Re5 58.60(7) . . ?
+Se8 Os6 Re5 58.31(7) 2_666 . ?
+Se7 Os6 Re5 119.33(8) 2_666 . ?
+Re4 Os6 Re5 60.18(4) 2_666 . ?
+Os4 Os6 Re5 60.18(4) 2_666 . ?
+Re5 Os6 Re5 90.41(5) 2_666 . ?
+Os5 Os6 Re5 90.41(5) 2_666 . ?
+Cl6 Os6 Os5 130.8(2) 1_554 . ?
+Se6 Os6 Os5 118.65(8) . . ?
+Se5 Os6 Os5 58.60(7) . . ?
+Se8 Os6 Os5 58.31(7) 2_666 . ?
+Se7 Os6 Os5 119.33(8) 2_666 . ?
+Re4 Os6 Os5 60.18(4) 2_666 . ?
+Os4 Os6 Os5 60.18(4) 2_666 . ?
+Re5 Os6 Os5 90.41(5) 2_666 . ?
+Os5 Os6 Os5 90.41(5) 2_666 . ?
+Re5 Os6 Os5 0.00(6) . . ?
+Cl6 Os6 Os4 132.5(2) 1_554 . ?
+Se6 Os6 Os4 58.49(7) . . ?
+Se5 Os6 Os4 58.62(7) . . ?
+Se8 Os6 Os4 118.47(7) 2_666 . ?
+Se7 Os6 Os4 118.02(8) 2_666 . ?
+Re4 Os6 Os4 90.26(5) 2_666 . ?
+Os4 Os6 Os4 90.26(5) 2_666 . ?
+Re5 Os6 Os4 59.99(4) 2_666 . ?
+Os5 Os6 Os4 59.99(4) 2_666 . ?
+Re5 Os6 Os4 60.16(4) . . ?
+Os5 Os6 Os4 60.16(4) . . ?
+Cl1 Re1 Se2 91.9(2) . . ?
+Cl1 Re1 Se1 92.3(2) . . ?
+Se2 Re1 Se1 90.16(10) . . ?
+Cl1 Re1 Se4 92.3(2) . . ?
+Se2 Re1 Se4 175.72(10) . . ?
+Se1 Re1 Se4 89.85(9) . . ?
+Cl1 Re1 Se3 91.8(2) . . ?
+Se2 Re1 Se3 89.79(9) . . ?
+Se1 Re1 Se3 175.90(11) . . ?
+Se4 Re1 Se3 89.88(10) . . ?
+Cl1 Re1 Re2 135.1(2) . 2_577 ?
+Se2 Re1 Re2 58.21(7) . 2_577 ?
+Se1 Re1 Re2 58.58(7) . 2_577 ?
+Se4 Re1 Re2 118.39(7) . 2_577 ?
+Se3 Re1 Re2 118.15(8) . 2_577 ?
+Cl1 Re1 Os2 135.1(2) . 2_577 ?
+Se2 Re1 Os2 58.21(7) . 2_577 ?
+Se1 Re1 Os2 58.58(7) . 2_577 ?
+Se4 Re1 Os2 118.39(7) . 2_577 ?
+Se3 Re1 Os2 118.15(8) . 2_577 ?
+Re2 Re1 Os2 0.00(6) 2_577 2_577 ?
+Cl1 Re1 Os3 135.0(2) . . ?
+Se2 Re1 Os3 118.96(8) . . ?
+Se1 Re1 Os3 58.54(8) . . ?
+Se4 Re1 Os3 57.64(7) . . ?
+Se3 Re1 Os3 118.08(8) . . ?
+Re2 Re1 Os3 60.77(4) 2_577 . ?
+Os2 Re1 Os3 60.77(4) 2_577 . ?
+Cl1 Re1 Re3 135.0(2) . . ?
+Se2 Re1 Re3 118.96(8) . . ?
+Se1 Re1 Re3 58.54(8) . . ?
+Se4 Re1 Re3 57.64(7) . . ?
+Se3 Re1 Re3 118.08(8) . . ?
+Re2 Re1 Re3 60.77(4) 2_577 . ?
+Os2 Re1 Re3 60.77(4) 2_577 . ?
+Os3 Re1 Re3 0.00(6) . . ?
+Cl1 Re1 Os2 134.9(2) . . ?
+Se2 Re1 Os2 118.27(8) . . ?
+Se1 Re1 Os2 118.23(8) . . ?
+Se4 Re1 Os2 58.14(7) . . ?
+Se3 Re1 Os2 58.37(7) . . ?
+Re2 Re1 Os2 90.02(5) 2_577 . ?
+Os2 Re1 Os2 90.02(5) 2_577 . ?
+Os3 Re1 Os2 59.72(4) . . ?
+Re3 Re1 Os2 59.72(4) . . ?
+Cl1 Re1 Re2 134.9(2) . . ?
+Se2 Re1 Re2 118.27(8) . . ?
+Se1 Re1 Re2 118.23(8) . . ?
+Se4 Re1 Re2 58.14(7) . . ?
+Se3 Re1 Re2 58.37(7) . . ?
+Re2 Re1 Re2 90.02(5) 2_577 . ?
+Os2 Re1 Re2 90.02(5) 2_577 . ?
+Os3 Re1 Re2 59.72(4) . . ?
+Re3 Re1 Re2 59.72(4) . . ?
+Os2 Re1 Re2 0.00(6) . . ?
+Cl1 Re1 Re3 134.7(2) . 2_577 ?
+Se2 Re1 Re3 58.05(7) . 2_577 ?
+Se1 Re1 Re3 118.24(8) . 2_577 ?
+Se4 Re1 Re3 118.35(8) . 2_577 ?
+Se3 Re1 Re3 58.49(7) . 2_577 ?
+Re2 Re1 Re3 59.68(4) 2_577 2_577 ?
+Os2 Re1 Re3 59.68(4) 2_577 2_577 ?
+Os3 Re1 Re3 90.32(5) . 2_577 ?
+Re3 Re1 Re3 90.32(5) . 2_577 ?
+Os2 Re1 Re3 60.22(4) . 2_577 ?
+Re2 Re1 Re3 60.22(4) . 2_577 ?
+Cl2 Re2 Se2 91.2(2) . 2_577 ?
+Cl2 Re2 Se4 92.7(2) . . ?
+Se2 Re2 Se4 89.90(9) 2_577 . ?
+Cl2 Re2 Se1 91.3(2) . 2_577 ?
+Se2 Re2 Se1 90.28(10) 2_577 2_577 ?
+Se4 Re2 Se1 175.91(11) . 2_577 ?
+Cl2 Re2 Se3 92.9(2) . . ?
+Se2 Re2 Se3 175.86(10) 2_577 . ?
+Se4 Re2 Se3 89.92(9) . . ?
+Se1 Re2 Se3 89.60(9) 2_577 . ?
+Cl2 Re2 Re1 134.0(2) . 2_577 ?
+Se2 Re2 Re1 58.55(7) 2_577 2_577 ?
+Se4 Re2 Re1 118.43(8) . 2_577 ?
+Se1 Re2 Re1 58.42(7) 2_577 2_577 ?
+Se3 Re2 Re1 118.09(8) . 2_577 ?
+Cl2 Re2 Os1 134.0(2) . 2_577 ?
+Se2 Re2 Os1 58.55(7) 2_577 2_577 ?
+Se4 Re2 Os1 118.43(8) . 2_577 ?
+Se1 Re2 Os1 58.42(7) 2_577 2_577 ?
+Se3 Re2 Os1 118.09(8) . 2_577 ?
+Re1 Re2 Os1 0.00(6) 2_577 2_577 ?
+Cl2 Re2 Os3 134.6(2) . . ?
+Se2 Re2 Os3 58.52(7) 2_577 . ?
+Se4 Re2 Os3 57.75(7) . . ?
+Se1 Re2 Os3 119.10(8) 2_577 . ?
+Se3 Re2 Os3 118.11(8) . . ?
+Re1 Re2 Os3 60.70(4) 2_577 . ?
+Os1 Re2 Os3 60.70(4) 2_577 . ?
+Cl2 Re2 Re3 134.6(2) . . ?
+Se2 Re2 Re3 58.52(7) 2_577 . ?
+Se4 Re2 Re3 57.75(7) . . ?
+Se1 Re2 Re3 119.10(8) 2_577 . ?
+Se3 Re2 Re3 118.11(8) . . ?
+Re1 Re2 Re3 60.70(4) 2_577 . ?
+Os1 Re2 Re3 60.70(4) 2_577 . ?
+Os3 Re2 Re3 0.00(5) . . ?
+Cl2 Re2 Os1 136.0(2) . . ?
+Se2 Re2 Os1 118.36(8) 2_577 . ?
+Se4 Re2 Os1 58.33(7) . . ?
+Se1 Re2 Os1 118.16(8) 2_577 . ?
+Se3 Re2 Os1 58.25(7) . . ?
+Re1 Re2 Os1 89.98(5) 2_577 . ?
+Os1 Re2 Os1 89.98(5) 2_577 . ?
+Os3 Re2 Os1 59.87(4) . . ?
+Re3 Re2 Os1 59.87(4) . . ?
+Cl2 Re2 Re1 136.0(2) . . ?
+Se2 Re2 Re1 118.36(8) 2_577 . ?
+Se4 Re2 Re1 58.33(7) . . ?
+Se1 Re2 Re1 118.16(8) 2_577 . ?
+Se3 Re2 Re1 58.25(7) . . ?
+Re1 Re2 Re1 89.98(5) 2_577 . ?
+Os1 Re2 Re1 89.98(5) 2_577 . ?
+Os3 Re2 Re1 59.87(4) . . ?
+Re3 Re2 Re1 59.87(4) . . ?
+Os1 Re2 Re1 0.00(6) . . ?
+Cl2 Re2 Re3 135.1(2) . 2_577 ?
+Se2 Re2 Re3 118.25(8) 2_577 2_577 ?
+Se4 Re2 Re3 118.36(8) . 2_577 ?
+Se1 Re2 Re3 58.12(8) 2_577 2_577 ?
+Se3 Re2 Re3 58.39(7) . 2_577 ?
+Re1 Re2 Re3 59.72(4) 2_577 2_577 ?
+Os1 Re2 Re3 59.72(4) 2_577 2_577 ?
+Os3 Re2 Re3 90.30(4) . 2_577 ?
+Re3 Re2 Re3 90.30(4) . 2_577 ?
+Os1 Re2 Re3 60.04(4) . 2_577 ?
+Re1 Re2 Re3 60.04(4) . 2_577 ?
+Cl6 Re3 Se4 90.6(2) . . ?
+Cl6 Re3 Se2 87.4(2) . 2_577 ?
+Se4 Re3 Se2 90.32(10) . 2_577 ?
+Cl6 Re3 Se1 97.0(2) . . ?
+Se4 Re3 Se1 90.46(10) . . ?
+Se2 Re3 Se1 175.49(10) 2_577 . ?
+Cl6 Re3 Se3 93.8(2) . 2_577 ?
+Se4 Re3 Se3 175.59(9) . 2_577 ?
+Se2 Re3 Se3 89.52(10) 2_577 2_577 ?
+Se1 Re3 Se3 89.36(10) . 2_577 ?
+Cl6 Re3 Re2 130.7(2) . . ?
+Se4 Re3 Re2 58.77(7) . . ?
+Se2 Re3 Re2 58.19(7) 2_577 . ?
+Se1 Re3 Re2 118.72(8) . . ?
+Se3 Re3 Re2 117.65(8) 2_577 . ?
+Cl6 Re3 Os2 130.7(2) . . ?
+Se4 Re3 Os2 58.77(7) . . ?
+Se2 Re3 Os2 58.19(7) 2_577 . ?
+Se1 Re3 Os2 118.72(8) . . ?
+Se3 Re3 Os2 117.65(8) 2_577 . ?
+Re2 Re3 Os2 0.00(5) . . ?
+Cl6 Re3 Os1 137.5(2) . . ?
+Se4 Re3 Os1 58.84(7) . . ?
+Se2 Re3 Os1 118.58(8) 2_577 . ?
+Se1 Re3 Os1 58.33(7) . . ?
+Se3 Re3 Os1 117.56(8) 2_577 . ?
+Re2 Re3 Os1 60.42(4) . . ?
+Os2 Re3 Os1 60.42(4) . . ?
+Cl6 Re3 Re1 137.5(2) . . ?
+Se4 Re3 Re1 58.84(7) . . ?
+Se2 Re3 Re1 118.58(8) 2_577 . ?
+Se1 Re3 Re1 58.33(7) . . ?
+Se3 Re3 Re1 117.56(8) 2_577 . ?
+Re2 Re3 Re1 60.42(4) . . ?
+Os2 Re3 Re1 60.42(4) . . ?
+Os1 Re3 Re1 0.00(6) . . ?
+Cl6 Re3 Os1 132.5(2) . 2_577 ?
+Se4 Re3 Os1 118.37(8) . 2_577 ?
+Se2 Re3 Os1 58.06(7) 2_577 2_577 ?
+Se1 Re3 Os1 117.79(8) . 2_577 ?
+Se3 Re3 Os1 58.03(7) 2_577 2_577 ?
+Re2 Re3 Os1 59.63(4) . 2_577 ?
+Os2 Re3 Os1 59.63(4) . 2_577 ?
+Os1 Re3 Os1 89.68(5) . 2_577 ?
+Re1 Re3 Os1 89.68(5) . 2_577 ?
+Cl6 Re3 Re1 132.5(2) . 2_577 ?
+Se4 Re3 Re1 118.37(8) . 2_577 ?
+Se2 Re3 Re1 58.06(7) 2_577 2_577 ?
+Se1 Re3 Re1 117.79(8) . 2_577 ?
+Se3 Re3 Re1 58.03(7) 2_577 2_577 ?
+Re2 Re3 Re1 59.63(4) . 2_577 ?
+Os2 Re3 Re1 59.63(4) . 2_577 ?
+Os1 Re3 Re1 89.68(5) . 2_577 ?
+Re1 Re3 Re1 89.68(5) . 2_577 ?
+Os1 Re3 Re1 0.00(6) 2_577 2_577 ?
+Cl6 Re3 Re2 139.5(2) . 2_577 ?
+Se4 Re3 Re2 118.34(8) . 2_577 ?
+Se2 Re3 Re2 117.79(8) 2_577 2_577 ?
+Se1 Re3 Re2 58.07(7) . 2_577 ?
+Se3 Re3 Re2 58.05(7) 2_577 2_577 ?
+Re2 Re3 Re2 89.70(4) . 2_577 ?
+Os2 Re3 Re2 89.70(4) . 2_577 ?
+Os1 Re3 Re2 59.52(4) . 2_577 ?
+Re1 Re3 Re2 59.52(4) . 2_577 ?
+Os1 Re3 Re2 59.73(4) 2_577 2_577 ?
+Re1 Re3 Re2 59.73(4) 2_577 2_577 ?
+Cl3 Re4 Se6 92.0(2) . . ?
+Cl3 Re4 Se5 94.3(2) . . ?
+Se6 Re4 Se5 89.30(10) . . ?
+Cl3 Re4 Se8 89.8(2) . . ?
+Se6 Re4 Se8 90.09(9) . . ?
+Se5 Re4 Se8 175.88(10) . . ?
+Cl3 Re4 Se7 92.3(2) . . ?
+Se6 Re4 Se7 175.56(10) . . ?
+Se5 Re4 Se7 89.36(9) . . ?
+Se8 Re4 Se7 90.95(9) . . ?
+Cl3 Re4 Re6 133.4(2) . 2_666 ?
+Se6 Re4 Re6 118.66(9) . 2_666 ?
+Se5 Re4 Re6 118.36(8) . 2_666 ?
+Se8 Re4 Re6 58.58(7) . 2_666 ?
+Se7 Re4 Re6 58.53(7) . 2_666 ?
+Cl3 Re4 Os6 133.4(2) . 2_666 ?
+Se6 Re4 Os6 118.66(9) . 2_666 ?
+Se5 Re4 Os6 118.36(8) . 2_666 ?
+Se8 Re4 Os6 58.58(7) . 2_666 ?
+Se7 Re4 Os6 58.53(7) . 2_666 ?
+Re6 Re4 Os6 0.00(6) 2_666 2_666 ?
+Cl3 Re4 Re5 133.3(2) . 2_666 ?
+Se6 Re4 Re5 58.50(8) . 2_666 ?
+Se5 Re4 Re5 118.17(8) . 2_666 ?
+Se8 Re4 Re5 58.22(7) . 2_666 ?
+Se7 Re4 Re5 118.68(8) . 2_666 ?
+Re6 Re4 Re5 60.19(4) 2_666 2_666 ?
+Os6 Re4 Re5 60.19(4) 2_666 2_666 ?
+Cl3 Re4 Os5 133.3(2) . 2_666 ?
+Se6 Re4 Os5 58.50(8) . 2_666 ?
+Se5 Re4 Os5 118.17(8) . 2_666 ?
+Se8 Re4 Os5 58.22(7) . 2_666 ?
+Se7 Re4 Os5 118.68(8) . 2_666 ?
+Re6 Re4 Os5 60.19(4) 2_666 2_666 ?
+Os6 Re4 Os5 60.19(4) 2_666 2_666 ?
+Re5 Re4 Os5 0.00(6) 2_666 2_666 ?
+Cl3 Re4 Os6 136.8(2) . . ?
+Se6 Re4 Os6 58.30(7) . . ?
+Se5 Re4 Os6 58.31(7) . . ?
+Se8 Re4 Os6 118.07(7) . . ?
+Se7 Re4 Os6 117.51(8) . . ?
+Re6 Re4 Os6 89.74(5) 2_666 . ?
+Os6 Re4 Os6 89.74(5) 2_666 . ?
+Re5 Re4 Os6 59.87(4) 2_666 . ?
+Os5 Re4 Os6 59.87(4) 2_666 . ?
+Cl3 Re4 Re6 136.8(2) . . ?
+Se6 Re4 Re6 58.30(7) . . ?
+Se5 Re4 Re6 58.31(7) . . ?
+Se8 Re4 Re6 118.07(7) . . ?
+Se7 Re4 Re6 117.51(8) . . ?
+Re6 Re4 Re6 89.74(5) 2_666 . ?
+Os6 Re4 Re6 89.74(5) 2_666 . ?
+Re5 Re4 Re6 59.87(4) 2_666 . ?
+Os5 Re4 Re6 59.87(4) 2_666 . ?
+Os6 Re4 Re6 0.00(6) . . ?
+Cl3 Re4 Os5 136.5(2) . . ?
+Se6 Re4 Os5 118.14(8) . . ?
+Se5 Re4 Os5 58.39(7) . . ?
+Se8 Re4 Os5 118.55(8) . . ?
+Se7 Re4 Os5 57.68(7) . . ?
+Re6 Re4 Os5 59.99(4) 2_666 . ?
+Os6 Re4 Os5 59.99(4) 2_666 . ?
+Re5 Re4 Os5 90.16(5) 2_666 . ?
+Os5 Re4 Os5 90.16(5) 2_666 . ?
+Os6 Re4 Os5 59.84(4) . . ?
+Re6 Re4 Os5 59.84(4) . . ?
+Se7 Re5 Se8 177.19(10) . 2_666 ?
+Se7 Re5 Se6 89.55(10) . 2_666 ?
+Se8 Re5 Se6 90.41(9) 2_666 2_666 ?
+Se7 Re5 Se5 90.31(10) . . ?
+Se8 Re5 Se5 89.52(10) 2_666 . ?
+Se6 Re5 Se5 175.68(10) 2_666 . ?
+Se7 Re5 Se3 89.32(9) . . ?
+Se8 Re5 Se3 93.49(9) 2_666 . ?
+Se6 Re5 Se3 92.44(9) 2_666 . ?
+Se5 Re5 Se3 91.88(9) . . ?
+Se7 Re5 Re6 58.84(7) . 2_666 ?
+Se8 Re5 Re6 118.88(8) 2_666 2_666 ?
+Se6 Re5 Re6 58.40(7) 2_666 2_666 ?
+Se5 Re5 Re6 118.04(8) . 2_666 ?
+Se3 Re5 Re6 134.03(7) . 2_666 ?
+Se7 Re5 Os6 58.84(7) . 2_666 ?
+Se8 Re5 Os6 118.88(8) 2_666 2_666 ?
+Se6 Re5 Os6 58.40(7) 2_666 2_666 ?
+Se5 Re5 Os6 118.04(8) . 2_666 ?
+Se3 Re5 Os6 134.03(7) . 2_666 ?
+Re6 Re5 Os6 0.00(7) 2_666 2_666 ?
+Se7 Re5 Re4 118.99(8) . 2_666 ?
+Se8 Re5 Re4 58.75(7) 2_666 2_666 ?
+Se6 Re5 Re4 58.49(7) 2_666 2_666 ?
+Se5 Re5 Re4 118.02(8) . 2_666 ?
+Se3 Re5 Re4 136.55(8) . 2_666 ?
+Re6 Re5 Re4 60.15(4) 2_666 2_666 ?
+Os6 Re5 Re4 60.15(4) 2_666 2_666 ?
+Se7 Re5 Os4 118.99(8) . 2_666 ?
+Se8 Re5 Os4 58.75(7) 2_666 2_666 ?
+Se6 Re5 Os4 58.49(7) 2_666 2_666 ?
+Se5 Re5 Os4 118.02(8) . 2_666 ?
+Se3 Re5 Os4 136.55(8) . 2_666 ?
+Re6 Re5 Os4 60.15(4) 2_666 2_666 ?
+Os6 Re5 Os4 60.15(4) 2_666 2_666 ?
+Re4 Re5 Os4 0.00(6) 2_666 2_666 ?
+Se7 Re5 Os6 119.11(8) . . ?
+Se8 Re5 Os6 58.55(7) 2_666 . ?
+Se6 Re5 Os6 118.10(8) 2_666 . ?
+Se5 Re5 Os6 58.39(7) . . ?
+Se3 Re5 Os6 136.34(8) . . ?
+Re6 Re5 Os6 89.59(5) 2_666 . ?
+Os6 Re5 Os6 89.59(5) 2_666 . ?
+Re4 Re5 Os6 59.64(4) 2_666 . ?
+Os4 Re5 Os6 59.64(4) 2_666 . ?
+Se7 Re5 Re6 119.11(8) . . ?
+Se8 Re5 Re6 58.55(7) 2_666 . ?
+Se6 Re5 Re6 118.10(8) 2_666 . ?
+Se5 Re5 Re6 58.39(7) . . ?
+Se3 Re5 Re6 136.34(8) . . ?
+Re6 Re5 Re6 89.59(5) 2_666 . ?
+Os6 Re5 Re6 89.59(5) 2_666 . ?
+Re4 Re5 Re6 59.64(4) 2_666 . ?
+Os4 Re5 Re6 59.64(4) 2_666 . ?
+Os6 Re5 Re6 0.00(6) . . ?
+Se7 Re5 Os4 59.13(7) . . ?
+Se8 Re5 Os4 118.54(8) 2_666 . ?
+Se6 Re5 Os4 117.95(8) 2_666 . ?
+Se5 Re5 Os4 58.49(7) . . ?
+Se3 Re5 Os4 133.58(7) . . ?
+Re6 Re5 Os4 59.57(4) 2_666 . ?
+Os6 Re5 Os4 59.57(4) 2_666 . ?
+Re4 Re5 Os4 89.84(5) 2_666 . ?
+Os4 Re5 Os4 89.84(5) 2_666 . ?
+Os6 Re5 Os4 59.99(4) . . ?
+Re6 Re5 Os4 59.99(4) . . ?
+Cl6 Re6 Se6 92.7(2) 1_554 . ?
+Cl6 Re6 Se5 87.2(2) 1_554 . ?
+Se6 Re6 Se5 89.60(10) . . ?
+Cl6 Re6 Se8 90.4(2) 1_554 2_666 ?
+Se6 Re6 Se8 176.75(10) . 2_666 ?
+Se5 Re6 Se8 89.50(9) . 2_666 ?
+Cl6 Re6 Se7 96.2(2) 1_554 2_666 ?
+Se6 Re6 Se7 89.18(10) . 2_666 ?
+Se5 Re6 Se7 176.48(10) . 2_666 ?
+Se8 Re6 Se7 91.53(9) 2_666 2_666 ?
+Cl6 Re6 Re4 137.0(2) 1_554 2_666 ?
+Se6 Re6 Re4 119.03(8) . 2_666 ?
+Se5 Re6 Re4 118.76(8) . 2_666 ?
+Se8 Re6 Re4 58.87(7) 2_666 2_666 ?
+Se7 Re6 Re4 59.19(7) 2_666 2_666 ?
+Cl6 Re6 Os4 137.0(2) 1_554 2_666 ?
+Se6 Re6 Os4 119.03(8) . 2_666 ?
+Se5 Re6 Os4 118.76(8) . 2_666 ?
+Se8 Re6 Os4 58.87(7) 2_666 2_666 ?
+Se7 Re6 Os4 59.19(7) 2_666 2_666 ?
+Re4 Re6 Os4 0.00(6) 2_666 2_666 ?
+Cl6 Re6 Re5 138.6(2) 1_554 2_666 ?
+Se6 Re6 Re5 58.60(7) . 2_666 ?
+Se5 Re6 Re5 118.60(8) . 2_666 ?
+Se8 Re6 Re5 119.30(8) 2_666 2_666 ?
+Se7 Re6 Re5 58.03(7) 2_666 2_666 ?
+Re4 Re6 Re5 60.44(4) 2_666 2_666 ?
+Os4 Re6 Re5 60.44(4) 2_666 2_666 ?
+Cl6 Re6 Os5 138.6(2) 1_554 2_666 ?
+Se6 Re6 Os5 58.60(7) . 2_666 ?
+Se5 Re6 Os5 118.60(8) . 2_666 ?
+Se8 Re6 Os5 119.30(8) 2_666 2_666 ?
+Se7 Re6 Os5 58.03(7) 2_666 2_666 ?
+Re4 Re6 Os5 60.44(4) 2_666 2_666 ?
+Os4 Re6 Os5 60.44(4) 2_666 2_666 ?
+Re5 Re6 Os5 0.00(7) 2_666 2_666 ?
+Cl6 Re6 Re5 130.8(2) 1_554 . ?
+Se6 Re6 Re5 118.65(8) . . ?
+Se5 Re6 Re5 58.60(7) . . ?
+Se8 Re6 Re5 58.31(7) 2_666 . ?
+Se7 Re6 Re5 119.33(8) 2_666 . ?
+Re4 Re6 Re5 60.18(4) 2_666 . ?
+Os4 Re6 Re5 60.18(4) 2_666 . ?
+Re5 Re6 Re5 90.41(5) 2_666 . ?
+Os5 Re6 Re5 90.41(5) 2_666 . ?
+Cl6 Re6 Os5 130.8(2) 1_554 . ?
+Se6 Re6 Os5 118.65(8) . . ?
+Se5 Re6 Os5 58.60(7) . . ?
+Se8 Re6 Os5 58.31(7) 2_666 . ?
+Se7 Re6 Os5 119.33(8) 2_666 . ?
+Re4 Re6 Os5 60.18(4) 2_666 . ?
+Os4 Re6 Os5 60.18(4) 2_666 . ?
+Re5 Re6 Os5 90.41(5) 2_666 . ?
+Os5 Re6 Os5 90.41(5) 2_666 . ?
+Re5 Re6 Os5 0.00(6) . . ?
+Cl6 Re6 Os4 132.5(2) 1_554 . ?
+Se6 Re6 Os4 58.49(7) . . ?
+Se5 Re6 Os4 58.62(7) . . ?
+Se8 Re6 Os4 118.47(7) 2_666 . ?
+Se7 Re6 Os4 118.02(8) 2_666 . ?
+Re4 Re6 Os4 90.26(5) 2_666 . ?
+Os4 Re6 Os4 90.26(5) 2_666 . ?
+Re5 Re6 Os4 59.99(4) 2_666 . ?
+Os5 Re6 Os4 59.99(4) 2_666 . ?
+Re5 Re6 Os4 60.16(4) . . ?
+Os5 Re6 Os4 60.16(4) . . ?
+Re1 Se1 Os1 0.00(6) . . ?
+Re1 Se1 Re2 63.01(7) . 2_577 ?
+Os1 Se1 Re2 63.01(7) . 2_577 ?
+Re1 Se1 Os2 63.01(7) . 2_577 ?
+Os1 Se1 Os2 63.01(7) . 2_577 ?
+Re2 Se1 Os2 0.00(6) 2_577 2_577 ?
+Re1 Se1 Os3 63.13(8) . . ?
+Os1 Se1 Os3 63.13(8) . . ?
+Re2 Se1 Os3 63.81(8) 2_577 . ?
+Os2 Se1 Os3 63.81(8) 2_577 . ?
+Re1 Se1 Re3 63.13(8) . . ?
+Os1 Se1 Re3 63.13(8) . . ?
+Re2 Se1 Re3 63.81(8) 2_577 . ?
+Os2 Se1 Re3 63.81(8) 2_577 . ?
+Os3 Se1 Re3 0.00(6) . . ?
+Re2 Se2 Os2 0.00(6) 2_577 2_577 ?
+Re2 Se2 Re3 63.29(8) 2_577 2_577 ?
+Os2 Se2 Re3 63.29(8) 2_577 2_577 ?
+Re2 Se2 Os3 63.29(8) 2_577 2_577 ?
+Os2 Se2 Os3 63.29(8) 2_577 2_577 ?
+Re3 Se2 Os3 0.00(6) 2_577 2_577 ?
+Re2 Se2 Re1 63.25(7) 2_577 . ?
+Os2 Se2 Re1 63.25(7) 2_577 . ?
+Re3 Se2 Re1 63.88(8) 2_577 . ?
+Os3 Se2 Re1 63.88(8) 2_577 . ?
+Re2 Se2 Os1 63.25(7) 2_577 . ?
+Os2 Se2 Os1 63.25(7) 2_577 . ?
+Re3 Se2 Os1 63.88(8) 2_577 . ?
+Os3 Se2 Os1 63.88(8) 2_577 . ?
+Re1 Se2 Os1 0.00(6) . . ?
+Re1 Se3 Os1 0.00(6) . . ?
+Re1 Se3 Re2 63.39(7) . . ?
+Os1 Se3 Re2 63.39(7) . . ?
+Re1 Se3 Os2 63.39(7) . . ?
+Os1 Se3 Os2 63.39(7) . . ?
+Re2 Se3 Os2 0.00(6) . . ?
+Re1 Se3 Re3 63.48(7) . 2_577 ?
+Os1 Se3 Re3 63.48(7) . 2_577 ?
+Re2 Se3 Re3 63.56(7) . 2_577 ?
+Os2 Se3 Re3 63.56(7) . 2_577 ?
+Re1 Se3 Os3 63.48(7) . 2_577 ?
+Os1 Se3 Os3 63.48(7) . 2_577 ?
+Re2 Se3 Os3 63.56(7) . 2_577 ?
+Os2 Se3 Os3 63.56(7) . 2_577 ?
+Re3 Se3 Os3 0.00(7) 2_577 2_577 ?
+Re1 Se3 Os5 132.33(11) . . ?
+Os1 Se3 Os5 132.33(11) . . ?
+Re2 Se3 Os5 129.78(12) . . ?
+Os2 Se3 Os5 129.78(12) . . ?
+Re3 Se3 Os5 160.98(12) 2_577 . ?
+Os3 Se3 Os5 160.98(12) 2_577 . ?
+Re1 Se3 Re5 132.33(11) . . ?
+Os1 Se3 Re5 132.33(11) . . ?
+Re2 Se3 Re5 129.78(12) . . ?
+Os2 Se3 Re5 129.78(12) . . ?
+Re3 Se3 Re5 160.98(12) 2_577 . ?
+Os3 Se3 Re5 160.98(12) 2_577 . ?
+Os5 Se3 Re5 0.00(6) . . ?
+Re3 Se4 Os3 0.00(7) . . ?
+Re3 Se4 Re2 63.48(7) . . ?
+Os3 Se4 Re2 63.48(7) . . ?
+Re3 Se4 Os2 63.48(7) . . ?
+Os3 Se4 Os2 63.48(7) . . ?
+Re2 Se4 Os2 0.00(6) . . ?
+Re3 Se4 Os1 63.52(7) . . ?
+Os3 Se4 Os1 63.52(7) . . ?
+Re2 Se4 Os1 63.53(7) . . ?
+Os2 Se4 Os1 63.53(7) . . ?
+Re3 Se4 Re1 63.52(7) . . ?
+Os3 Se4 Re1 63.52(7) . . ?
+Re2 Se4 Re1 63.53(7) . . ?
+Os2 Se4 Re1 63.53(7) . . ?
+Os1 Se4 Re1 0.00(6) . . ?
+Re6 Se5 Os6 0.00(6) . . ?
+Re6 Se5 Re5 63.01(8) . . ?
+Os6 Se5 Re5 63.01(8) . . ?
+Re6 Se5 Os5 63.01(8) . . ?
+Os6 Se5 Os5 63.01(8) . . ?
+Re5 Se5 Os5 0.00(6) . . ?
+Re6 Se5 Os4 63.08(7) . . ?
+Os6 Se5 Os4 63.08(7) . . ?
+Re5 Se5 Os4 63.12(8) . . ?
+Os5 Se5 Os4 63.12(8) . . ?
+Re6 Se5 Re4 63.08(7) . . ?
+Os6 Se5 Re4 63.08(7) . . ?
+Re5 Se5 Re4 63.12(8) . . ?
+Os5 Se5 Re4 63.12(8) . . ?
+Os4 Se5 Re4 0.00(7) . . ?
+Re6 Se6 Os6 0.00(6) . . ?
+Re6 Se6 Os4 63.21(7) . . ?
+Os6 Se6 Os4 63.21(7) . . ?
+Re6 Se6 Re4 63.21(7) . . ?
+Os6 Se6 Re4 63.21(7) . . ?
+Os4 Se6 Re4 0.00(6) . . ?
+Re6 Se6 Re5 63.01(8) . 2_666 ?
+Os6 Se6 Re5 63.01(8) . 2_666 ?
+Os4 Se6 Re5 63.02(8) . 2_666 ?
+Re4 Se6 Re5 63.02(8) . 2_666 ?
+Re6 Se6 Os5 63.01(8) . 2_666 ?
+Os6 Se6 Os5 63.01(8) . 2_666 ?
+Os4 Se6 Os5 63.02(8) . 2_666 ?
+Re4 Se6 Os5 63.02(8) . 2_666 ?
+Re5 Se6 Os5 0.00(6) 2_666 2_666 ?
+Re5 Se7 Os5 0.00(6) . . ?
+Re5 Se7 Re6 63.12(7) . 2_666 ?
+Os5 Se7 Re6 63.12(7) . 2_666 ?
+Re5 Se7 Os6 63.12(7) . 2_666 ?
+Os5 Se7 Os6 63.12(7) . 2_666 ?
+Re6 Se7 Os6 0.00(6) 2_666 2_666 ?
+Re5 Se7 Re4 63.19(7) . . ?
+Os5 Se7 Re4 63.19(7) . . ?
+Re6 Se7 Re4 62.28(7) 2_666 . ?
+Os6 Se7 Re4 62.28(7) 2_666 . ?
+Re5 Se7 Os4 63.19(7) . . ?
+Os5 Se7 Os4 63.19(7) . . ?
+Re6 Se7 Os4 62.28(7) 2_666 . ?
+Os6 Se7 Os4 62.28(7) 2_666 . ?
+Re4 Se7 Os4 0.00(6) . . ?
+Re5 Se8 Os5 0.00(6) 2_666 2_666 ?
+Re5 Se8 Re6 63.14(7) 2_666 2_666 ?
+Os5 Se8 Re6 63.14(7) 2_666 2_666 ?
+Re5 Se8 Os6 63.14(7) 2_666 2_666 ?
+Os5 Se8 Os6 63.14(7) 2_666 2_666 ?
+Re6 Se8 Os6 0.00(6) 2_666 2_666 ?
+Re5 Se8 Re4 63.02(7) 2_666 . ?
+Os5 Se8 Re4 63.02(7) 2_666 . ?
+Re6 Se8 Re4 62.55(7) 2_666 . ?
+Os6 Se8 Re4 62.55(7) 2_666 . ?
+Re5 Se8 Os4 63.02(7) 2_666 . ?
+Os5 Se8 Os4 63.02(7) 2_666 . ?
+Re6 Se8 Os4 62.55(7) 2_666 . ?
+Os6 Se8 Os4 62.55(7) 2_666 . ?
+Re4 Se8 Os4 0.00(7) . . ?
+Re1 Cl1 Os1 0.00(7) . . ?
+Re2 Cl2 Os2 0.00(6) . . ?
+Re4 Cl3 Os4 0.00(6) . . ?
+Re3 Cl6 Os3 0.00(6) . . ?
+Re3 Cl6 Re6 125.5(3) . 1_556 ?
+Os3 Cl6 Re6 125.5(3) . 1_556 ?
+Re3 Cl6 Os6 125.5(3) . 1_556 ?
+Os3 Cl6 Os6 125.5(3) . 1_556 ?
+Re6 Cl6 Os6 0.00(7) 1_556 1_556 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Os1 Cl1 2.354(6) . ?
+Os1 Se2 2.509(3) . ?
+Os1 Se1 2.511(3) . ?
+Os1 Se4 2.516(3) . ?
+Os1 Se3 2.517(3) . ?
+Os1 Re2 2.6264(14) 2_577 ?
+Os1 Os2 2.6264(14) 2_577 ?
+Os1 Os3 2.632(2) . ?
+Os1 Re3 2.632(2) . ?
+Os1 Os2 2.646(2) . ?
+Os1 Re2 2.646(2) . ?
+Os1 Re3 2.6547(15) 2_577 ?
+Os2 Cl2 2.349(7) . ?
+Os2 Se2 2.500(3) 2_577 ?
+Os2 Se4 2.511(3) . ?
+Os2 Se1 2.515(3) 2_577 ?
+Os2 Se3 2.520(3) . ?
+Os2 Re1 2.6264(14) 2_577 ?
+Os2 Os1 2.6264(14) 2_577 ?
+Os2 Os3 2.6277(15) . ?
+Os2 Re3 2.6277(15) . ?
+Os2 Re1 2.646(2) . ?
+Os2 Re3 2.6595(14) 2_577 ?
+Os3 Cl6 2.437(6) . ?
+Os3 Se4 2.484(3) . ?
+Os3 Se2 2.509(3) 2_577 ?
+Os3 Se1 2.517(3) . ?
+Os3 Se3 2.529(3) 2_577 ?
+Os3 Re2 2.6277(15) . ?
+Os3 Re1 2.632(2) . ?
+Os3 Os1 2.6547(15) 2_577 ?
+Os3 Re1 2.6547(15) 2_577 ?
+Os3 Re2 2.6594(14) 2_577 ?
+Os4 Cl3 2.365(7) . ?
+Os4 Se6 2.518(3) . ?
+Os4 Se5 2.524(3) . ?
+Os4 Se8 2.525(3) . ?
+Os4 Se7 2.539(3) . ?
+Os4 Re6 2.617(2) 2_666 ?
+Os4 Os6 2.617(2) 2_666 ?
+Os4 Re5 2.632(2) 2_666 ?
+Os4 Os5 2.632(2) 2_666 ?
+Os4 Os6 2.6362(14) . ?
+Os4 Re6 2.6362(14) . ?
+Os4 Os5 2.641(2) . ?
+Os5 Se7 2.500(3) . ?
+Os5 Se8 2.511(3) 2_666 ?
+Os5 Se6 2.518(3) 2_666 ?
+Os5 Se5 2.521(3) . ?
+Os5 Se3 2.577(3) . ?
+Os5 Re6 2.6287(15) 2_666 ?
+Os5 Os6 2.6287(15) 2_666 ?
+Os5 Re4 2.632(2) 2_666 ?
+Os5 Os4 2.632(2) 2_666 ?
+Os5 Os6 2.632(2) . ?
+Os5 Re6 2.632(2) . ?
+Os6 Cl6 2.444(7) 1_554 ?
+Os6 Se6 2.513(3) . ?
+Os6 Se5 2.516(3) . ?
+Os6 Se8 2.517(3) 2_666 ?
+Os6 Se7 2.522(3) 2_666 ?
+Os6 Re4 2.618(2) 2_666 ?
+Os6 Os4 2.618(2) 2_666 ?
+Os6 Re5 2.6287(15) 2_666 ?
+Os6 Os5 2.6287(15) 2_666 ?
+Os6 Re5 2.632(2) . ?
+Re1 Cl1 2.354(6) . ?
+Re1 Se2 2.509(3) . ?
+Re1 Se1 2.511(3) . ?
+Re1 Se4 2.516(3) . ?
+Re1 Se3 2.517(3) . ?
+Re1 Re2 2.6264(14) 2_577 ?
+Re1 Os2 2.6264(14) 2_577 ?
+Re1 Re3 2.632(2) . ?
+Re1 Re2 2.646(2) . ?
+Re1 Re3 2.6547(15) 2_577 ?
+Re2 Cl2 2.349(7) . ?
+Re2 Se2 2.500(3) 2_577 ?
+Re2 Se4 2.511(3) . ?
+Re2 Se1 2.515(3) 2_577 ?
+Re2 Se3 2.520(3) . ?
+Re2 Re1 2.6264(14) 2_577 ?
+Re2 Os1 2.6264(14) 2_577 ?
+Re2 Re3 2.6277(15) . ?
+Re2 Re3 2.6595(14) 2_577 ?
+Re3 Cl6 2.437(6) . ?
+Re3 Se4 2.484(3) . ?
+Re3 Se2 2.509(3) 2_577 ?
+Re3 Se1 2.517(3) . ?
+Re3 Se3 2.529(3) 2_577 ?
+Re3 Os1 2.6547(15) 2_577 ?
+Re3 Re1 2.6547(15) 2_577 ?
+Re3 Re2 2.6594(14) 2_577 ?
+Re4 Cl3 2.365(7) . ?
+Re4 Se6 2.518(3) . ?
+Re4 Se5 2.524(3) . ?
+Re4 Se8 2.525(3) . ?
+Re4 Se7 2.539(3) . ?
+Re4 Re6 2.617(2) 2_666 ?
+Re4 Os6 2.617(2) 2_666 ?
+Re4 Re5 2.632(2) 2_666 ?
+Re4 Os5 2.632(2) 2_666 ?
+Re4 Re6 2.6362(14) . ?
+Re5 Se7 2.500(3) . ?
+Re5 Se8 2.511(3) 2_666 ?
+Re5 Se6 2.518(3) 2_666 ?
+Re5 Se5 2.521(3) . ?
+Re5 Se3 2.577(3) . ?
+Re5 Re6 2.6287(15) 2_666 ?
+Re5 Os6 2.6287(15) 2_666 ?
+Re5 Re4 2.632(2) 2_666 ?
+Re5 Os4 2.632(2) 2_666 ?
+Re5 Re6 2.632(2) . ?
+Re6 Cl6 2.444(7) 1_554 ?
+Re6 Se6 2.513(3) . ?
+Re6 Se5 2.516(3) . ?
+Re6 Se8 2.517(3) 2_666 ?
+Re6 Se7 2.522(3) 2_666 ?
+Re6 Re4 2.618(2) 2_666 ?
+Re6 Os4 2.618(2) 2_666 ?
+Re6 Re5 2.6287(15) 2_666 ?
+Re6 Os5 2.6287(15) 2_666 ?
+Se1 Re2 2.515(3) 2_577 ?
+Se1 Os2 2.515(3) 2_577 ?
+Se2 Re2 2.500(3) 2_577 ?
+Se2 Os2 2.500(3) 2_577 ?
+Se2 Re3 2.509(3) 2_577 ?
+Se2 Os3 2.509(3) 2_577 ?
+Se3 Re3 2.529(3) 2_577 ?
+Se3 Os3 2.529(3) 2_577 ?
+Se6 Re5 2.518(3) 2_666 ?
+Se6 Os5 2.518(3) 2_666 ?
+Se7 Re6 2.522(3) 2_666 ?
+Se7 Os6 2.522(3) 2_666 ?
+Se8 Re5 2.511(3) 2_666 ?
+Se8 Os5 2.511(3) 2_666 ?
+Se8 Re6 2.517(3) 2_666 ?
+Se8 Os6 2.517(3) 2_666 ?
+Cl6 Re6 2.444(7) 1_556 ?
+Cl6 Os6 2.444(7) 1_556 ?

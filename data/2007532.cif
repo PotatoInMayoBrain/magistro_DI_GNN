@@ -1,0 +1,272 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/75/2007532.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007532
+loop_
+_publ_author_name
+'Bettach, M. '
+'Benkhouja, K. '
+'Zahir, M. '
+'Rissouli, K. '
+'Sadel, A. '
+'Giorgi, M. '
+'Pierrot, M. '
+_publ_section_title
+;
+ A Mixed Zinc--Cobalt Diphosphate, ZnCoP~2~O~7~
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1059
+_journal_page_last               1062
+_journal_paper_doi               10.1107/S0108270198002820
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_iupac          'Zn Co P2 O7'
+_chemical_formula_sum            'Co O7 P2 Zn'
+_chemical_formula_weight         298.25
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_type_scat_source           International_Tables_for_Xray_Crystallography
+_cell_angle_alpha                90.00
+_cell_angle_beta                 112.32(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.981(2)
+_cell_length_b                   8.3340(10)
+_cell_length_c                   8.9240(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      15
+_cell_measurement_theta_min      10
+_cell_volume                     480.30(17)
+_computing_cell_refinement       CAD4_Software
+_computing_data_collection       CAD4_Software_(Enraf-Nonius,_1989)
+_computing_data_reduction        BEGIN_in_SDP_(Frenz_et_al.,_1985)
+_computing_molecular_graphics    ORTEPII_(Johnson,_1976)
+_computing_publication_material  MolEN_(Fair,_1990)
+_computing_structure_refinement  LSFM_in_SDP
+_computing_structure_solution    Patterson_and_Fourier
+_diffrn_ambient_temperature      294
+_diffrn_measurement_device       Enraf_Nonius_CAD4
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           Mo_K\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.033
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2165
+_diffrn_reflns_theta_max         34
+_diffrn_reflns_theta_min         3
+_diffrn_standards_decay_%        1.21
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.209
+_exptl_absorpt_correction_T_max  0.479
+_exptl_absorpt_correction_T_min  0.370
+_exptl_absorpt_correction_type   refined_empirical_(Walker_&_Stuart,_1983)
+_exptl_crystal_colour            violet
+_exptl_crystal_density_diffrn    4.12
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    none
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             572
+_exptl_crystal_size_max          0.16
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.299
+_refine_diff_density_min         -1.241
+_refine_ls_extinction_coef       '2.5(2) \\times 10^-7^'
+_refine_ls_extinction_method     isotropic_(Zachariasen,_1963)
+_refine_ls_goodness_of_fit_obs   2.011
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     101
+_refine_ls_number_reflns         1268
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.048
+_refine_ls_R_factor_obs          .041
+_refine_ls_shift/esd_max         0.036
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4Fo^2^/ (\s^2^(Fo^2^) + 0.0016 Fo^4^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .064
+_reflns_number_observed          1274
+_reflns_number_total             1413
+_reflns_observed_criterion       I>3.0\s(I)
+_cod_data_source_file            jz1256.cif
+_cod_data_source_block           jz1256
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'none' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '4Fo^2^/ (\s^2^(Fo^2^) + 0.0016
+Fo^4^)' was changed to 'calc'. New tag '_refine_ls_weighting_details'
+was created. The value of the new tag was set to 'w = 4Fo^2^/
+(\s^2^(Fo^2^) + 0.0016 Fo^4^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        480.3(3)
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_original_formula_sum        'Co1 O7 P2 Zn1'
+_cod_database_code               2007532
+_cod_database_fobs_code          2007532
+loop_
+_symmetry_equiv_pos_as_xyz
++X,+Y,+Z
+-X,-Y,-Z
++X+0.5,-Y+0.5,+Z+0.5
+-X+0.5,+Y+0.5,-Z+0.5
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Co .0043(2) .0038(2) .0035(2) -.0006(2) .0018(2) .0003(2)
+Zn .0096(2) .0095(3) .0130(3) .0001(2) .0040(2) .0001(2)
+P1 .0047(4) .0045(5) .0026(4) .0001(4) .0008(3) .0003(4)
+P2 .0039(4) .0052(5) .0040(4) .0005(4) .0018(3) .0010(4)
+O2 .0050(10) .008(2) .0090(10) .0000(10) .0036(9) -.0010(10)
+O3 .0120(10) .012(2) .0070(10) .0010(10) .0060(10) .0030(10)
+O4 .0100(10) .007(2) .018(2) .0030(10) .0030(10) -.001(2)
+O1 .0060(10) .007(2) .0080(10) .0000(10) .0000(10) .0000(10)
+O5 .0090(10) .009(2) .0060(10) -.0030(10) .0040(10) -.0010(10)
+O6 .0070(10) .0060(10) .0070(10) .0040(10) .0030(10) .0010(10)
+O7 .0110(10) .009(2) .0050(10) .0010(10) .0030(10) .0030(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+Co .87770(10) .43017(8) .11013(9) .00380(10) Uani ?
+Zn .87550(10) .05820(9) .17464(9) .01080(10) Uani ?
+P1 .4370(2) .2269(2) -.0318(2) .0041(3) Uani ?
+P2 1.3187(2) .2331(2) .2597(2) .0043(3) Uani ?
+O2 1.0840(6) .2408(5) .2029(5) .0068(8) Uani ?
+O3 .3532(6) .1750(5) .1020(5) .0094(8) Uani ?
+O4 1.0773(7) -.1103(5) .1847(6) .0120(10) Uani ?
+O1 .6726(6) .2359(5) .0480(5) .0074(8) Uani ?
+O5 .9062(6) .4021(5) -.1180(5) .0077(8) Uani ?
+O6 .8646(6) .4096(5) .3467(5) .0069(8) Uani ?
+O7 .6551(6) .6128(5) .1038(5) .0084(9) Uani ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Co O1 . . 79.60(10) yes
+O2 Co O5 . . 89.7(2) yes
+O2 Co O5 . 2_765 96.6(2) yes
+O2 Co O6 . . 80.2(2) yes
+O2 Co O7 . . 157.7(2) yes
+O1 Co O5 . . 88.0(2) yes
+O1 Co O5 . 2_765 164.4(2) yes
+O1 Co O6 . . 85.3(2) yes
+O1 Co O7 . . 97.2(2) yes
+O5 Co O5 . 2_765 76.8(2) yes
+O5 Co O6 . . 168.8(2) yes
+O5 Co O7 . . 112.3(2) yes
+O5 Co O6 2_765 . 109.1(2) yes
+O5 Co O7 2_765 . 91.9(2) yes
+O6 Co O7 . . 77.5(2) yes
+O2 Zn O4 . . 93.5(2) yes
+O2 Zn O1 . . 81.0(2) yes
+O2 Zn O6 . 4_645 169.4(2) yes
+O2 Zn O7 . 4_645 92.5(2) yes
+O4 Zn O1 . . 150.2(2) yes
+O4 Zn O6 . 4_645 96.9(2) yes
+O4 Zn O7 . 4_645 115.8(2) yes
+O1 Zn O6 . 4_645 90.9(2) yes
+O1 Zn O7 . 4_645 93.7(2) yes
+O6 Zn O7 4_645 4_645 81.2(2) yes
+O3 P1 O1 . . 107.7(2) ?
+O3 P1 O6 . 3_454 102.5(2) ?
+O3 P1 O7 . 2_665 110.1(3) ?
+O1 P1 O6 . 3_454 112.1(2) ?
+O1 P1 O7 . 2_665 111.3(2) ?
+O6 P1 O7 3_454 2_665 112.6(2) ?
+O2 P2 O3 . 1_655 102.9(2) ?
+O2 P2 O4 . 4_755 113.8(2) ?
+O2 P2 O5 . 3_555 110.9(2) ?
+O3 P2 O4 1_655 4_755 110.1(3) ?
+O3 P2 O5 1_655 3_555 104.7(2) ?
+O4 P2 O5 4_755 3_555 113.4(2) ?
+Co O2 Zn . . 99.3(2) ?
+Co O2 P2 . . 131.2(2) ?
+Zn O2 P2 . . 129.3(2) ?
+P1 O3 P2 . 1_455 144.2(3) ?
+Zn O4 P2 . 4_745 153.4(4) ?
+Co O1 Zn . . 98.7(2) ?
+Co O1 P1 . . 132.0(2) ?
+Zn O1 P1 . . 127.9(3) ?
+Co O5 Co . 2_765 103.2(2) ?
+Co O5 P2 . 3_454 127.4(3) ?
+Co O5 P2 2_765 3_454 128.4(3) ?
+Co O6 Zn . 4_655 101.5(2) ?
+Co O6 P1 . 3_555 129.2(3) ?
+Zn O6 P1 4_655 3_555 124.1(3) ?
+Co O7 Zn . 4_655 98.7(2) ?
+Co O7 P1 . 2_665 144.7(3) ?
+Zn O7 P1 4_655 2_665 114.1(3) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Co O2 . . 2.084(4) yes
+Co O1 . . 2.092(4) yes
+Co O5 . . 2.132(5) yes
+Co O5 . 2_765 2.038(4) yes
+Co O6 . . 2.154(5) yes
+Co O7 . . 2.161(4) yes
+Zn O2 . . 2.054(4) yes
+Zn O4 . . 1.967(5) yes
+Zn O1 . . 2.064(4) yes
+Zn O6 . 4_645 2.034(4) yes
+Zn O7 . 4_645 2.117(5) yes
+P1 O3 . . 1.576(5) ?
+P1 O1 . . 1.526(4) ?
+P1 O6 . 3_454 1.520(4) ?
+P1 O7 . 2_665 1.516(4) ?
+P2 O2 . . 1.521(4) ?
+P2 O3 . . 1.591(5) ?
+P2 O4 . 4_755 1.485(4) ?
+P2 O5 . 3_555 1.525(4) ?

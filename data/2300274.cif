@@ -1,0 +1,145 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300274.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300274
+loop_
+_publ_author_name
+'Veselinovi\'c, Ljiljana'
+'Karanovi\'c, Ljiljana'
+'Stojanovi\'c, Zoran'
+'Bra\<cko, Ines'
+'Markovi\'c, Smilja'
+'Ignjatovi\'c, Nenad'
+'Uskokovi\'c, Dragan'
+_publ_section_title
+;
+ Crystal structure of cobalt-substituted calcium hydroxyapatite
+ nanopowders prepared by hydrothermal processing
+;
+_journal_coeditor_code           KS5226
+_journal_issue                   2
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              320
+_journal_page_last               327
+_journal_paper_doi               10.1107/S0021889809051395
+_journal_volume                  43
+_journal_year                    2010
+_chemical_formula_structural     Ca9.57Co0.43(PO4)6(OH)2
+_chemical_name_common            'Calcium Tris(phosphate(V)) Hydroxide'
+_chemical_name_systematic
+;
+ cobalt exchanged hydroxyapatite
+;
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            2
+_cell_length_a                   9.4170(3)
+_cell_length_b                   9.4170(3)
+_cell_length_c                   6.8670(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     527.38(3)
+_computing_structure_refinement  FULLPROF
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Philips 1050'
+_diffrn_radiation_type           X-ray
+_pd_instr_location               ?
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        110
+_pd_meas_2theta_range_min        8
+_pd_meas_number_of_points        5096
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        110
+_pd_proc_2theta_range_min        8
+_pd_proc_ls_background_function  'square polynomial for each range'
+_pd_proc_ls_pref_orient_corr     ?
+_pd_proc_ls_profile_function     pseudo-Voigt
+_pd_proc_ls_prof_R_factor        9.4238
+_pd_proc_ls_prof_wR_expected     15.3463
+_pd_proc_ls_prof_wR_factor       12.0244
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ?
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         547
+_refine_ls_number_restraints     4
+_cod_data_source_file            ks5226.cif
+_cod_data_source_block           Co5HAp
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+Luca Lutterotti, 10/5/2013
+
+Problem with occupancy exceeding 1. We re-normalize everything 
+to 1 for the maximum.
+
+Adding missing '_cell_length_a' after consulting the original paper.
+;
+_cod_original_sg_symbol_H-M      'P 63/M'
+_cod_database_code               2300274
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-x,-y,-z
+-x+y,-x,-z+1/2
+y,-x+y,-z
+x,y,-z+1/2
+x-y,x,-z
+-y,x-y,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ca Ca1 0.33330 0.66670 0.00225 0.01900 Uiso 0.98659
+Co Co1 0.33330 0.66670 0.00225 0.01900 Uiso 0.01341
+Ca Ca2 0.24490 0.99335 0.25000 0.01900 Uiso 0.965(3)
+Co Co2 0.24490 0.99335 0.25000 0.01900 Uiso 0.035
+P P 0.39666 0.36968 0.25000 0.01900 Uiso 1.0
+O O1 0.32952 0.48825 0.25000 0.01900 Uiso 1.0
+O O2 0.58479 0.46372 0.25000 0.01900 Uiso 1.0
+O O3 0.34411 0.26013 0.06854 0.01900 Uiso 1.0
+O O4 0.00000 0.00000 0.17779 0.01900 Uiso 0.5
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ca 0.34100 1.28600
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+Co -2.46400 3.60800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+P 0.28300 0.43400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+O 0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

@@ -1,0 +1,115 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-07-08 10:42:25 +0300 (Sat, 08 Jul 2023) $
+#$Revision: 285095 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/35/9013590.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013590
+loop_
+_publ_author_name
+'Kyono, A.'
+_publ_section_title
+;Molecular conformation and anion configuration variations for As4S4 and
+ As4Se4 in an anion-substituted solid solution Locality: synthetic Note:
+ S1Se2-8
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              451
+_journal_page_last               460
+_journal_paper_doi               10.2138/am.2009.3075
+_journal_volume                  94
+_journal_year                    2009
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     As4Se4
+_chemical_formula_sum            'As S0.382 Se0.618'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.475
+_cell_angle_gamma                90
+_cell_length_a                   9.4842
+_cell_length_b                   13.7008
+_cell_length_c                   6.6808
+_cell_volume                     832.469
+_database_code_amcsd             0004880
+_exptl_crystal_density_diffrn    4.339
+_cod_original_formula_sum        'As (S.382 Se.618)'
+_cod_database_code               9013590
+_amcsd_formula_title             As4Se4
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As1 0.02570 0.02070 0.02370 -0.00320 0.00540 -0.00380
+As2 0.01980 0.02450 0.02770 0.00080 0.00780 0.00130
+As3 0.02060 0.02910 0.01820 -0.00130 0.00420 -0.00460
+As4 0.01840 0.02670 0.02460 0.00490 -0.00120 0.00150
+SX1 0.02790 0.02310 0.02890 0.00320 0.00730 0.00040
+SeX1 0.02790 0.02310 0.02890 0.00320 0.00730 0.00040
+SX2 0.02270 0.02640 0.02660 -0.00100 0.00720 0.00460
+SeX2 0.02270 0.02640 0.02660 -0.00100 0.00720 0.00460
+SX3 0.02220 0.02390 0.03000 0.00240 0.00750 0.00690
+SeX3 0.02220 0.02390 0.03000 0.00240 0.00750 0.00690
+SX4 0.03000 0.02900 0.02950 0.00410 0.01410 -0.00540
+SeX4 0.03000 0.02900 0.02950 0.00410 0.01410 -0.00540
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As1 0.11700 -0.01944 0.75820 1.00000 0.02370 As 0
+As2 0.42510 0.14029 0.86060 1.00000 0.02380 As 0
+As3 0.32330 0.12975 0.17670 1.00000 0.02290 As 0
+As4 0.03930 0.16060 0.70690 1.00000 0.02470 As 0
+SX1 0.34321 -0.00921 0.69702 0.32600 0.02690 S 0
+SeX1 0.34321 -0.00921 0.69702 0.67400 0.02690 Se 0
+SX2 0.21363 -0.02515 0.11823 0.29000 0.02520 S 0
+SeX2 0.21363 -0.02515 0.11823 0.71000 0.02520 Se 0
+SX3 0.24172 0.22965 0.64111 0.52000 0.02530 S 0
+SeX3 0.24172 0.22965 0.64111 0.48000 0.02530 Se 0
+SX4 0.10962 0.21515 0.05554 0.39400 0.02840 S 0
+SeX4 0.10962 0.21515 0.05554 0.60600 0.02840 Se 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:24:55+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004880
+_cell_formula_units_Z 16

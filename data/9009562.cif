@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/95/9009562.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_9009562
+loop_
+_publ_author_name
+'Ilyushin, G. D.'
+_publ_section_title
+;
+ New data on the crystal structure of umbite K2ZrSi3O9*H2O
+;
+_journal_name_full
+'Izvestiya Akademii Nauk SSSR Neorganicheskie Materialy'
+_journal_page_first              971
+_journal_page_last               975
+_journal_volume                  29
+_journal_year                    1993
+_chemical_formula_sum            'H2 K2 O10 Si3 Ti0.14 Zr0.86'
+_chemical_name_mineral           Umbite
+_space_group_IT_number           19
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.207
+_cell_length_b                   13.241
+_cell_length_c                   7.174
+_cell_volume                     969.572
+_database_code_amcsd             0012738
+_cod_original_formula_sum        'K2 (Zr.86 Ti.14) Si3 O10 H2'
+_cod_database_code               9009562
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+1/2-x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K1 0.07270 0.57800 0.71230 1.00000 K 0
+K2 0.20930 0.86530 0.64960 1.00000 K 0
+Zr 0.05000 0.70970 0.26000 0.86000 Zr 0
+Ti 0.05000 0.70970 0.26000 0.14000 Ti 0
+Si1 0.17600 0.32770 0.50480 1.00000 Si 0
+Si2 0.13760 0.33310 0.91800 1.00000 Si 0
+Si3 0.03280 0.45190 0.23040 1.00000 Si 0
+O1 0.16820 0.68840 0.04170 1.00000 O 0
+O2 0.98570 0.56380 0.26940 1.00000 O 0
+O3 0.20860 0.68700 0.43390 1.00000 O 0
+O4 0.11320 0.23020 0.40860 1.00000 O 0
+O5 0.05720 0.24100 0.99960 1.00000 O 0
+O6 0.07920 0.86620 0.24460 1.00000 O 0
+O7 0.09990 0.35490 0.70010 1.00000 O 0
+O8 0.15590 0.42650 0.37290 1.00000 O 0
+O9 0.09490 0.43810 0.01840 1.00000 O 0
+Wat 0.18140 0.06450 0.62780 1.00000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:56+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012738

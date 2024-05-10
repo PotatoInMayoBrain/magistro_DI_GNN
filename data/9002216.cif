@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/22/9002216.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9002216
+loop_
+_publ_author_name
+'Wilson, R. M.'
+'Elliot, J. C.'
+'Dowker, S. E. P.'
+_publ_section_title
+;
+ Rietveld refinement of the crystallographic structure of human dental
+ enamel apatites
+ Sample: Prep.63b, synthetic
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1406
+_journal_page_last               1414
+_journal_volume                  84
+_journal_year                    1999
+_chemical_formula_sum            'Ca5 H2 O13 P3'
+_chemical_name_mineral           Hydroxylapatite
+_space_group_IT_number           176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.4232
+_cell_length_b                   9.4232
+_cell_length_c                   6.8833
+_cell_volume                     529.327
+_database_code_amcsd             0002284
+_exptl_crystal_density_diffrn    3.158
+_cod_original_formula_sum        'Ca5 P3 O13 H2'
+_cod_database_code               9002216
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+y,-x+y,-z
+-y,x-y,z
+x,y,1/2-z
+-x,-y,1/2+z
+x-y,x,-z
+-x+y,-x,z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.66667 0.33333 0.00140 1.00000 Ca 0
+Ca2 0.24690 0.99310 0.25000 1.00000 Ca 0
+P 0.39840 0.36790 0.25000 1.00000 P 0
+O1 0.32730 0.48480 0.25000 1.00000 O 0
+O2 0.58520 0.46350 0.25000 1.00000 O 0
+O3 0.34150 0.25650 0.06900 1.00000 O 0
+O-H 0.00000 0.00000 0.19170 0.50000 O 1
+H 0.00000 0.00000 0.06080 0.50000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:52+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0002284

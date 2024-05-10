@@ -1,0 +1,352 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-06-09 12:03:45 +0300 (Wed, 09 Jun 2021) $
+#$Revision: 266299 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/32/1563262.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1563262
+loop_
+_publ_author_name
+'Xiong, Ding-Bang'
+'Zhao, Yufeng'
+_publ_section_title
+;
+ Half-Heusler phase related structural perturbations near stoichiometric
+ composition FeZnSb
+;
+_journal_issue                   5
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              1159
+_journal_page_last               1164
+_journal_paper_doi               10.1016/j.jssc.2011.03.029
+_journal_volume                  184
+_journal_year                    2011
+_chemical_formula_sum            'Fe Sb Zn'
+_chemical_formula_weight         243.014
+_space_group_IT_number           129
+_space_group_name_Hall           '-P 4a 2a'
+_space_group_name_H-M_alt        'P 4/n m m :2'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'P 4/n m m :2'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   4.1274(6)
+_cell_length_b                   4.1274(6)
+_cell_length_c                   6.0068(12)
+_cell_measurement_temperature    293(2)
+_cell_volume                     102.33(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.935
+_diffrn_measured_fraction_theta_max 0.935
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1149
+_diffrn_reflns_av_sigmaI/netI    0.0460
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            998
+_diffrn_reflns_theta_full        32.79
+_diffrn_reflns_theta_max         32.79
+_diffrn_reflns_theta_min         3.39
+_exptl_absorpt_coefficient_mu    31.213
+_exptl_absorpt_correction_T_max  0.0806
+_exptl_absorpt_correction_T_min  0.0234
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+'X-RED (1.02)-Data Reduction Program. Stoe & Cie., Darmstadt (Germany), 2001'
+_exptl_crystal_density_diffrn    7.886
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             214
+_refine_diff_density_max         2.335
+_refine_diff_density_min         -1.358
+_refine_diff_density_rms         0.400
+_refine_ls_extinction_coef       0.08(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.308
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     11
+_refine_ls_number_reflns         129
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.308
+_refine_ls_R_factor_all          0.0315
+_refine_ls_R_factor_gt           0.0315
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0488P)^2^+0.0919P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0864
+_refine_ls_wR_factor_ref         0.0864
+_reflns_number_gt                129
+_reflns_number_total             129
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            JSSC-2011-184-1159.cif
+_cod_data_source_block           Fe0.88ZnSb
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Tetragonal' was changed to
+'tetragonal' in accordance with the built-in table derived from the
+CIF Core dictionary named 'cif_core.dic' version 2.4.5 last updated
+on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_sg_symbol_H-M      P4/nmm
+_cod_database_code               1563262
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z'
+'-y+1/2, x, z'
+'y, -x+1/2, z'
+'-x, y+1/2, -z'
+'x+1/2, -y, -z'
+'y+1/2, x+1/2, -z'
+'-y, -x, -z'
+'-x, -y, -z'
+'x-1/2, y-1/2, -z'
+'y-1/2, -x, -z'
+'-y, x-1/2, -z'
+'x, -y-1/2, z'
+'-x-1/2, y, z'
+'-y-1/2, -x-1/2, z'
+'y, x, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Sb Sb 0.2500 0.2500 0.72262(10) 0.0112(4) Uani 1 8 d S . .
+Zn Zn 0.2500 0.2500 0.2681(3) 0.0182(4) Uani 1 8 d S . .
+Fe Fe 0.2500 0.7500 0.0000 0.0130(6) Uani 0.880(11) 8 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Sb 0.0105(4) 0.0105(4) 0.0125(5) 0.000 0.000 0.000
+Zn 0.0150(6) 0.0150(6) 0.0247(7) 0.000 0.000 0.000
+Fe 0.0158(7) 0.0158(7) 0.0075(8) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sb Sb -0.5866 1.5461 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Fe Sb Fe 66.758(13) 9_666 1_556
+Fe Sb Fe 102.17(2) 9_666 9_566
+Fe Sb Fe 66.758(13) 1_556 9_566
+Fe Sb Fe 66.758(13) 9_666 1_546
+Fe Sb Fe 102.17(2) 1_556 1_546
+Fe Sb Fe 66.758(13) 9_566 1_546
+Fe Sb Zn 128.916(12) 9_666 .
+Fe Sb Zn 128.916(12) 1_556 .
+Fe Sb Zn 128.916(13) 9_566 .
+Fe Sb Zn 128.916(13) 1_546 .
+Fe Sb Zn 55.80(2) 9_666 9_666
+Fe Sb Zn 55.80(2) 1_556 9_666
+Fe Sb Zn 122.55(2) 9_566 9_666
+Fe Sb Zn 122.55(2) 1_546 9_666
+Zn Sb Zn 91.10(3) . 9_666
+Fe Sb Zn 122.55(2) 9_666 9_556
+Fe Sb Zn 122.55(2) 1_556 9_556
+Fe Sb Zn 55.80(2) 9_566 9_556
+Fe Sb Zn 55.80(2) 1_546 9_556
+Zn Sb Zn 91.10(3) . 9_556
+Zn Sb Zn 177.80(6) 9_666 9_556
+Fe Sb Zn 122.55(2) 9_666 9_566
+Fe Sb Zn 55.80(2) 1_556 9_566
+Fe Sb Zn 55.80(2) 9_566 9_566
+Fe Sb Zn 122.55(2) 1_546 9_566
+Zn Sb Zn 91.10(3) . 9_566
+Zn Sb Zn 89.979(1) 9_666 9_566
+Zn Sb Zn 89.979(1) 9_556 9_566
+Fe Sb Zn 55.80(2) 9_666 9_656
+Fe Sb Zn 122.55(2) 1_556 9_656
+Fe Sb Zn 122.55(2) 9_566 9_656
+Fe Sb Zn 55.80(2) 1_546 9_656
+Zn Sb Zn 91.10(3) . 9_656
+Zn Sb Zn 89.979(1) 9_666 9_656
+Zn Sb Zn 89.979(1) 9_556 9_656
+Zn Sb Zn 177.80(6) 9_566 9_656
+Fe Zn Fe 67.76(3) 9_565 1_545
+Fe Zn Fe 104.07(6) 9_565 9_665
+Fe Zn Fe 67.76(3) 1_545 9_665
+Fe Zn Fe 67.76(3) 9_565 .
+Fe Zn Fe 104.07(6) 1_545 .
+Fe Zn Fe 67.76(3) 9_665 .
+Fe Zn Sb 127.96(3) 9_565 .
+Fe Zn Sb 127.96(3) 1_545 .
+Fe Zn Sb 127.96(3) 9_665 .
+Fe Zn Sb 127.96(3) . .
+Fe Zn Sb 56.935(11) 9_565 9_556
+Fe Zn Sb 56.935(11) 1_545 9_556
+Fe Zn Sb 124.69(4) 9_665 9_556
+Fe Zn Sb 124.69(4) . 9_556
+Sb Zn Sb 88.90(3) . 9_556
+Fe Zn Sb 124.69(4) 9_565 9_666
+Fe Zn Sb 124.69(4) 1_545 9_666
+Fe Zn Sb 56.935(11) 9_665 9_666
+Fe Zn Sb 56.935(11) . 9_666
+Sb Zn Sb 88.90(3) . 9_666
+Sb Zn Sb 177.80(6) 9_556 9_666
+Fe Zn Sb 124.69(4) 9_565 9_656
+Fe Zn Sb 56.935(11) 1_545 9_656
+Fe Zn Sb 56.935(11) 9_665 9_656
+Fe Zn Sb 124.69(4) . 9_656
+Sb Zn Sb 88.90(3) . 9_656
+Sb Zn Sb 89.979(1) 9_556 9_656
+Sb Zn Sb 89.979(1) 9_666 9_656
+Fe Zn Sb 56.935(11) 9_565 9_566
+Fe Zn Sb 124.69(4) 1_545 9_566
+Fe Zn Sb 124.69(4) 9_665 9_566
+Fe Zn Sb 56.935(11) . 9_566
+Sb Zn Sb 88.90(3) . 9_566
+Sb Zn Sb 89.979(1) 9_556 9_566
+Sb Zn Sb 89.979(1) 9_666 9_566
+Sb Zn Sb 177.80(6) 9_656 9_566
+Zn Fe Zn 112.24(3) 9_565 1_565
+Zn Fe Zn 104.07(6) 9_565 9_665
+Zn Fe Zn 112.24(3) 1_565 9_665
+Zn Fe Zn 112.24(3) 9_565 .
+Zn Fe Zn 104.07(6) 1_565 .
+Zn Fe Zn 112.24(3) 9_665 .
+Zn Fe Sb 67.267(19) 9_565 1_554
+Zn Fe Sb 179.05(3) 1_565 1_554
+Zn Fe Sb 67.267(19) 9_665 1_554
+Zn Fe Sb 76.88(4) . 1_554
+Zn Fe Sb 179.05(3) 9_565 9_666
+Zn Fe Sb 67.267(19) 1_565 9_666
+Zn Fe Sb 76.88(4) 9_665 9_666
+Zn Fe Sb 67.267(19) . 9_666
+Sb Fe Sb 113.242(13) 1_554 9_666
+Zn Fe Sb 67.267(19) 9_565 1_564
+Zn Fe Sb 76.88(4) 1_565 1_564
+Zn Fe Sb 67.267(19) 9_665 1_564
+Zn Fe Sb 179.05(3) . 1_564
+Sb Fe Sb 102.17(2) 1_554 1_564
+Sb Fe Sb 113.242(13) 9_666 1_564
+Zn Fe Sb 76.88(4) 9_565 9_566
+Zn Fe Sb 67.267(19) 1_565 9_566
+Zn Fe Sb 179.05(3) 9_665 9_566
+Zn Fe Sb 67.267(19) . 9_566
+Sb Fe Sb 113.242(13) 1_554 9_566
+Sb Fe Sb 102.17(2) 9_666 9_566
+Sb Fe Sb 113.242(13) 1_564 9_566
+Zn Fe Fe 123.882(15) 9_565 9_675
+Zn Fe Fe 56.118(15) 1_565 9_675
+Zn Fe Fe 56.118(15) 9_665 9_675
+Zn Fe Fe 123.882(15) . 9_675
+Sb Fe Fe 123.379(7) 1_554 9_675
+Sb Fe Fe 56.621(7) 9_666 9_675
+Sb Fe Fe 56.621(7) 1_564 9_675
+Sb Fe Fe 123.379(7) 9_566 9_675
+Zn Fe Fe 56.118(15) 9_565 9_565
+Zn Fe Fe 123.882(15) 1_565 9_565
+Zn Fe Fe 123.882(15) 9_665 9_565
+Zn Fe Fe 56.118(15) . 9_565
+Sb Fe Fe 56.621(7) 1_554 9_565
+Sb Fe Fe 123.379(7) 9_666 9_565
+Sb Fe Fe 123.379(7) 1_564 9_565
+Sb Fe Fe 56.621(7) 9_566 9_565
+Fe Fe Fe 180.0 9_675 9_565
+Zn Fe Fe 123.882(15) 9_565 9_665
+Zn Fe Fe 123.882(15) 1_565 9_665
+Zn Fe Fe 56.118(15) 9_665 9_665
+Zn Fe Fe 56.118(15) . 9_665
+Sb Fe Fe 56.621(7) 1_554 9_665
+Sb Fe Fe 56.621(7) 9_666 9_665
+Sb Fe Fe 123.379(7) 1_564 9_665
+Sb Fe Fe 123.379(7) 9_566 9_665
+Fe Fe Fe 90.0 9_675 9_665
+Fe Fe Fe 90.0 9_565 9_665
+Zn Fe Fe 56.118(15) 9_565 9_575
+Zn Fe Fe 56.118(15) 1_565 9_575
+Zn Fe Fe 123.882(15) 9_665 9_575
+Zn Fe Fe 123.882(15) . 9_575
+Sb Fe Fe 123.379(7) 1_554 9_575
+Sb Fe Fe 123.379(7) 9_666 9_575
+Sb Fe Fe 56.621(7) 1_564 9_575
+Sb Fe Fe 56.621(7) 9_566 9_575
+Fe Fe Fe 90.0 9_675 9_575
+Fe Fe Fe 90.0 9_565 9_575
+Fe Fe Fe 180.0 9_665 9_575
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Sb Fe 2.6524(5) 9_666
+Sb Fe 2.6524(5) 1_556
+Sb Fe 2.6524(5) 9_566
+Sb Fe 2.6524(5) 1_546
+Sb Zn 2.730(2) .
+Sb Zn 2.9190(4) 9_666
+Sb Zn 2.9190(4) 9_556
+Sb Zn 2.9190(4) 9_566
+Sb Zn 2.9190(4) 9_656
+Zn Fe 2.6176(10) 9_565
+Zn Fe 2.6176(10) 1_545
+Zn Fe 2.6176(10) 9_665
+Zn Fe 2.6176(10) .
+Zn Sb 2.9190(4) 9_556
+Zn Sb 2.9190(4) 9_666
+Zn Sb 2.9190(4) 9_656
+Zn Sb 2.9190(4) 9_566
+Fe Zn 2.6176(10) 9_565
+Fe Zn 2.6176(10) 1_565
+Fe Zn 2.6176(11) 9_665
+Fe Sb 2.6524(5) 1_554
+Fe Sb 2.6524(5) 9_666
+Fe Sb 2.6524(5) 1_564
+Fe Sb 2.6524(5) 9_566
+Fe Fe 2.9185(4) 9_675
+Fe Fe 2.9185(4) 9_565
+Fe Fe 2.9185(4) 9_665
+Fe Fe 2.9185(4) 9_575

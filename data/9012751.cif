@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/27/9012751.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012751
+loop_
+_publ_author_name
+'Barinova, A. V.'
+'Rastsvetaeva, R. K.'
+'Sidorenko, G. A.'
+'Pushcharovsky, D. Y.'
+_publ_section_title
+;
+ Crystal structure of high-symmetry alpha-uranophane
+;
+_journal_name_full               'Doklady Chemistry'
+_journal_page_first              122
+_journal_page_last               124
+_journal_paper_doi               10.1023/A:1019246301667
+_journal_volume                  378
+_journal_year                    2001
+_chemical_compound_source
+'Strel'tsovskii ore field, Transbaikal region, Russia'
+_chemical_formula_sum            'Ca H12 O17 Si2 U2'
+_chemical_name_mineral           'Uranophane - alpha'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2bc'
+_symmetry_space_group_name_H-M   'P 1 1 21/b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                97.3
+_cell_formula_units_Z            2
+_cell_length_a                   6.670
+_cell_length_b                   15.92
+_cell_length_c                   6.985
+_cell_volume                     735.700
+_database_code_amcsd             0012507
+_exptl_crystal_density_diffrn    3.866
+_cod_original_formula_sum        'Ca U2 Si2 O17 H12'
+_cod_database_code               9012751
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2-z
+-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.27610 0.01870 0.18310 0.50000 0.01165 Ca 0
+U 0.13370 0.75570 0.21740 1.00000 0.01229 U 0
+Si 0.65950 0.71790 0.21940 1.00000 0.00988 Si 0
+O1 0.14000 0.86930 0.20200 1.00000 0.00633 O 0
+O2 0.81100 0.73080 0.04100 1.00000 0.01140 O 0
+O3 0.12400 0.64180 0.23600 1.00000 0.01013 O 0
+O4 0.47200 0.77180 0.21400 1.00000 0.01140 O 0
+O5 0.81700 0.24480 0.10800 1.00000 0.01393 O 0
+O-H 0.57200 0.61440 0.22900 1.00000 0.02533 O 1
+Wat1 0.00000 0.00000 0.00000 1.00000 0.06459 O 2
+Wat2 0.21400 0.48930 -0.00300 1.00000 0.04306 O 2
+Wat3 0.58700 0.93470 0.12920 1.00000 0.06966 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:14+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012507

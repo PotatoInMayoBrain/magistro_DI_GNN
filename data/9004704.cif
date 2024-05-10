@@ -1,0 +1,119 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/47/9004704.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004704
+loop_
+_publ_author_name
+'Brugger, J.'
+'Krivovichev, S. V.'
+'Kolitsch, U.'
+'Meisser, N.'
+'Andrut, M.'
+'Ansermet, S.'
+'Burns, P. C.'
+_publ_section_title
+;
+ Description and crystal structure of manganlotharmeyerite,
+ Ca(Mn,_,Mg)2{AsO4,[AsO2(OH)2]}2(OH,H2O)2, from the Starlera Mn-deposit,
+ Swiss Alps, and a redefinition of lotharmeyerite
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1597
+_journal_page_last               1608
+_journal_paper_doi               10.2113/gscanmin.40.6.1597
+_journal_volume                  40
+_journal_year                    2002
+_chemical_compound_source        'Starlera Mn-deposit, Swiss Alps'
+_chemical_formula_sum            'As2 Ca H5.18 Mg0.34 Mn1.18 O10'
+_chemical_name_mineral           Manganlotharmeyerite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 116.392
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.043
+_cell_length_b                   6.2314
+_cell_length_c                   7.3889
+_cell_volume                     372.972
+_database_code_amcsd             0005797
+_exptl_crystal_density_diffrn    3.813
+_cod_original_formula_sum        'Ca Mn1.18 Mg.34 As2 O10 H5.18'
+_cod_database_code               9004704
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.01660 0.01500 0.01050 0.00000 0.00510 0.00000
+Mn2 0.00960 0.01010 0.00800 0.00000 0.00210 0.00020
+Mg2 0.00960 0.01010 0.00800 0.00000 0.00210 0.00020
+As 0.00890 0.01120 0.00890 0.00000 0.00260 0.00000
+OH1 0.01500 0.02200 0.01900 0.00000 0.00600 0.00000
+Wat1 0.01500 0.02200 0.01900 0.00000 0.00600 0.00000
+O2 0.01900 0.01900 0.02200 0.00000 0.01200 0.00000
+O3 0.01680 0.01640 0.02000 0.00080 0.00610 -0.00100
+O4 0.01700 0.03100 0.01300 0.00000 0.00200 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.00000 0.00000 0.00000 1.00000 0.01440 Ca 0
+Mn2 0.25000 0.25000 0.50000 0.59000 0.00990 Mn 0
+Mg2 0.25000 0.25000 0.50000 0.17000 0.00990 Mg 0
+As 0.91498 0.50000 0.20524 1.00000 0.01020 As 0
+O-H1 0.33850 0.50000 0.40980 0.59000 0.01950 O 1
+Wat1 0.33850 0.50000 0.40980 0.41000 0.01950 O 2
+O2 0.31700 0.00000 0.35730 1.00000 0.01900 O 0
+O3 0.03510 0.27930 0.24680 1.00000 0.01860 O 0
+O4 0.24200 0.50000 0.02370 1.00000 0.02220 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:38:24+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005797

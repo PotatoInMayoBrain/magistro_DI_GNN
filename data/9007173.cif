@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/71/9007173.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007173
+loop_
+_publ_author_name
+'Comodi, P.'
+'Drabek, M.'
+'Montagnoli, M.'
+'Rieder, M.'
+'Weiss, Z.'
+'Zanazzi, P. F.'
+_publ_section_title
+;
+ Pressure-induced phase transition in synthetic trioctahedral Rb-mica
+ Sample: P = .0001 GPa, data collected at room conditions in the DAC
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              198
+_journal_page_last               205
+_journal_paper_doi               10.1007/s00269-003-0317-3
+_journal_volume                  30
+_journal_year                    2003
+_chemical_formula_sum            'Fe4.07 H2 O12 Rb0.99 Si2.96'
+_chemical_name_mineral           Mica
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.95
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.478
+_cell_length_b                   9.489
+_cell_length_c                   10.521
+_cell_volume                     538.664
+_database_code_amcsd             0008758
+_diffrn_ambient_pressure         100
+_exptl_crystal_density_diffrn    3.632
+_cod_original_formula_sum        'Rb.99 Fe4.07 Si2.96 O12 H2'
+_cod_database_code               9007173
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Rb 0.00000 0.50000 0.00000 0.99000 0.02100 Rb 0
+FeM1 0.00000 0.00000 0.50000 1.00000 0.01100 Fe 0
+FeM2 0.00000 0.33210 0.50000 1.00000 0.01150 Fe 0
+FeT 0.07610 0.16650 0.22910 0.26750 0.01520 Fe 0
+SiT 0.07610 0.16650 0.22910 0.74000 0.01520 Si 0
+O1 0.04000 0.00000 0.17200 1.00000 0.04000 O 0
+O2 0.31600 0.24300 0.17300 1.00000 0.03700 O 0
+O3 0.13100 0.16700 0.39100 1.00000 0.01300 O 0
+O-H 0.13300 0.50000 0.41000 1.00000 0.01400 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:38+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0008758

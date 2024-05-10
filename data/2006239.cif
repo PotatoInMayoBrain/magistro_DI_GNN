@@ -1,0 +1,232 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-08-07 17:33:59 +0300 (Tue, 07 Aug 2018) $
+#$Revision: 209447 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/62/2006239.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006239
+loop_
+_publ_author_name
+'Matsushita, Nobuyuki'
+'Kitagawa, Hiroshi'
+'Kojima, Norimichi'
+_publ_contact_author
+;  Dr. Nobuyuki MATSUSHITA
+   Department of Chemistry
+   College of Arts and Sciences
+   The University of Tokyo
+   Komaba 3-8-1, Meguro
+   Tokyo 153
+   Japan
+;
+_publ_section_title
+;
+ A Three-Dimensional Iodo-Bridged Mixed-Valence Gold(I, III) Compound,
+ Cs~2~Au^I^Au^III^I~6~
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              663
+_journal_page_last               666
+_journal_paper_doi               10.1107/S0108270197000279
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_structural     'Cs2 (Au I2)(Au I4)'
+_chemical_formula_sum            'Au2 Cs2 I6'
+_chemical_formula_weight         1421.169
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   8.2840(10)
+_cell_length_b                   8.2840(10)
+_cell_length_c                   12.092(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    297
+_cell_measurement_theta_max      14.9
+_cell_measurement_theta_min      10.1
+_cell_volume                     829.8(2)
+_diffrn_ambient_temperature      297
+_diffrn_measurement_device       'RIGAKU AFC5S diffractometer'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0441
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1063
+_diffrn_reflns_theta_max         35.00
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    32.94
+_exptl_absorpt_correction_T_max  0.1151
+_exptl_absorpt_correction_T_min  0.0126
+_exptl_absorpt_correction_type
+'Gaussian integration method (Busing & Levy, 1957)'
+_exptl_crystal_colour            'Dark bronze'
+_exptl_crystal_density_diffrn    5.69
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       Plate
+_exptl_crystal_F_000             1172
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.09
+_refine_diff_density_max         1.93
+_refine_diff_density_min         -2.04
+_refine_ls_extinction_coef       'g = 0.26(1) \\times 10^-4^'
+_refine_ls_extinction_method
+'Zachariasen (1967) type I, isotropic Gaussian'
+_refine_ls_goodness_of_fit_obs   2.66
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     14
+_refine_ls_number_reflns         483
+_refine_ls_R_factor_obs          .0698
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(Fo)+0.0004Fo^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0851
+_reflns_number_observed          497
+_reflns_number_total             573
+_reflns_observed_criterion       >3sigma(F)
+_cod_data_source_file            oa1010.cif
+_cod_data_source_block           CAI
+_cod_depositor_comments
+;
+ Removing duplicate rows from the ATOM_TYPE loop.
+
+ Antanas Vaitkus,
+ 2018-08-07
+
+ Adding the _atom_site_type_symbol data item.
+
+ Antanas Vaitkus,
+ 2018-08-07
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo)+0.0004Fo^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(Fo)+0.0004Fo^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Cs2 Au2 I6'
+_cod_database_code               2006239
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+1/2+x,1/2+y,1/2+z
+-x,+y,+z
+1/2-x,1/2+y,1/2+z
++x,-y,+z
+1/2+x,1/2-y,1/2+z
++x,+y,-z
+1/2+x,1/2+y,1/2-z
+-x,-y,+z
+1/2-x,1/2-y,1/2+z
+-x,+y,-z
+1/2-x,1/2+y,1/2-z
++x,-y,-z
+1/2+x,1/2-y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
++y,+x,+z
+1/2+y,1/2+x,1/2+z
+-y,+x,+z
+1/2-y,1/2+x,1/2+z
++y,-x,+z
+1/2+y,1/2-x,1/2+z
++y,+x,-z
+1/2+y,1/2+x,1/2-z
+-y,-x,+z
+1/2-y,1/2-x,1/2+z
+-y,+x,-z
+1/2-y,1/2+x,1/2-z
++y,-x,-z
+1/2+y,1/2-x,1/2-z
+-y,-x,-z
+1/2-y,1/2-x,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Au(1) .0269(5) .0269 .0299(8) .0 .0 .0
+Au(2) .0350(6) .0350 .0265(8) .0 .0 .0
+I(1) .0414(6) .0414 .0637(12) -.0158(7) .0 .0
+I(2) .0547(10) .0547 .0243(10) .0 .0 .0
+Cs .0614(12) .0614 .065(2) .0 .0 .0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Au(1) Au 0 0 0 .0279(6) Uani
+Au(2) Au .5 .5 0 .0322(7) Uani
+I(1) I .2258(2) .2258 0 .0488(9) Uani
+I(2) I .5 .5 .2139(2) .0446(10) Uani
+Cs Cs 0 .5 .25 .0625(16) Uani
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Au -2.688 8.798 International_Tables_Vol_IV_Table_2.2B
+Cs -0.644 2.119 International_Tables_Vol_IV_Table_2.2B
+I -0.726 1.812 International_Tables_Vol_IV_Table_2.2B
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 4
+2 2 0
+2 0 2
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Au(1) I(1) . . 2.646(2) yes
+Au(1) I(2) . 16 3.460(3) yes
+Au(2) I(2) . . 2.586(3) yes
+Au(2) I(1) . . 3.212(2) yes
+Au(1) Au(2) . 16 6.0460(10) yes
+Au(1) Au(2) . . 5.8580(10) yes

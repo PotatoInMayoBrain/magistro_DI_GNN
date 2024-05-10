@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/74/9007428.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007428
+loop_
+_publ_author_name
+'Megaw, H. D.'
+_publ_section_title
+;
+ The structure of afwillite, Ca3(SiO3OH)2*2H2O
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              477
+_journal_page_last               491
+_journal_paper_doi               10.1107/S0365110X52001404
+_journal_volume                  5
+_journal_year                    1952
+_chemical_compound_source        'Scawt Hill, Northern Ireland'
+_chemical_formula_sum            'Ca3 H6 O10 Si2'
+_chemical_name_mineral           Afwillite
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 134.80
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   16.27
+_cell_length_b                   5.632
+_cell_length_c                   13.23
+_cell_volume                     860.212
+_database_code_amcsd             0009147
+_exptl_crystal_density_diffrn    2.644
+_cod_original_cell_volume        860.213
+_cod_original_formula_sum        'Ca3 Si2 O10 H6'
+_cod_database_code               9007428
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.19680 0.03480 0.29200 0.01773 Ca 0
+Ca2 0.80120 0.04850 0.20930 0.01773 Ca 0
+Ca3 0.50370 0.03620 0.02880 0.01773 Ca 0
+Si1 0.11750 0.04420 0.00070 0.01773 Si 0
+Si2 0.86920 0.97530 0.99820 0.01773 Si 0
+O1 0.99180 0.91520 0.34100 0.01773 O 0
+O-H2 0.99920 0.90450 0.15380 0.01773 O 1
+O3 0.78370 0.96950 0.02070 0.01773 O 0
+O-H4 0.21580 0.05450 0.98880 0.01773 O 1
+O5 0.33120 0.73520 0.39050 0.01773 O 0
+O6 0.36300 0.28200 0.43330 0.01773 O 0
+O7 0.14730 0.26670 0.09830 0.01773 O 0
+O8 0.13180 0.81250 0.07780 0.01773 O 0
+Wat9 0.56300 0.97950 0.25830 0.01773 O 2
+Wat10 0.41200 0.96930 0.26470 0.01773 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:42+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009147

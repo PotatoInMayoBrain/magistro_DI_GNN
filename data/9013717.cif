@@ -1,0 +1,109 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/37/9013717.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013717
+loop_
+_publ_author_name
+'Ventruti, G.'
+'Stasi, F.'
+'Scordari, F.'
+_publ_section_title
+;
+ Metasideronatrite: crystal structure and its relation with sideronatrite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              329
+_journal_page_last               334
+_journal_paper_doi               10.2138/am.2010.3332
+_journal_volume                  95
+_journal_year                    2010
+_chemical_compound_source        'Sierra Gorda, Chile'
+_chemical_formula_sum            'Fe H3 Na2 O10 S2'
+_chemical_name_mineral           Metasideronatrite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.3959
+_cell_length_b                   16.0979
+_cell_length_c                   7.1607
+_cell_volume                     852.542
+_database_code_amcsd             0005014
+_exptl_crystal_density_diffrn    2.563
+_cod_original_formula_sum        'Na2 Fe S2 O10 H3'
+_cod_database_code               9013717
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe 0.01380 0.01810 0.00920 0.00060 0.00060 0.00010
+S1 0.01700 0.01600 0.01400 0.00100 0.00000 0.00000
+S2 0.01400 0.01800 0.01020 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.55120 0.15980 0.52250 0.02800 Na 0
+Fe 0.00000 0.00000 0.00000 0.01400 Fe 0
+S1 0.98430 0.16530 0.75000 0.01600 S 0
+S2 0.63140 0.01420 0.25000 0.01400 S 0
+O1 0.78890 0.17350 0.75000 0.02700 O 0
+O2 0.07030 0.24780 0.75000 0.02100 O 0
+O3 0.04640 0.11920 0.91940 0.01800 O 0
+O4 0.74520 0.03370 0.41910 0.01900 O 0
+O5 0.47820 0.07190 0.25000 0.01900 O 0
+O6 0.42160 0.07140 0.75000 0.02200 O 0
+O-H 0.09530 0.02860 0.25000 0.01000 O 1
+Wat 0.44390 0.25890 0.75000 0.03000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:31+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005014

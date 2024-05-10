@@ -1,0 +1,571 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/22/2102288.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102288
+loop_
+_publ_author_name
+'Angel, R. J.'
+'Bismayer, U.'
+'Marshall, W. G.'
+_publ_section_title
+;
+ Local and long-range order in ferroelastic lead phosphate at high
+ pressure
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1
+_journal_page_last               9
+_journal_paper_doi               10.1107/S0108768103026582
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_analytical     'Pb2.952 Ba0.048 P2 O8'
+_chemical_formula_structural     '(Pb0.984 Ba0.016)3 (PO4)2'
+_chemical_formula_sum            'O8 P2 Pb3'
+_chemical_formula_weight         811.54
+_chemical_name_common            'Ba-doped lead phosphate'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            3
+_cell_length_a                   5.4624(2)
+_cell_length_b                   5.4624
+_cell_length_c                   20.0769(11)
+_cell_measurement_pressure       1730000.
+_cell_measurement_temperature    298
+_cell_volume                     518.79(3)
+_cod_data_source_file            ws5002.cif
+_cod_data_source_block           S4P22_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (361
+time).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (50 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (361
+time).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (50 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        518.79(4)
+_cod_original_sg_symbol_Hall     -R32''-P3*2
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'O8.00 P2 Pb3.00'
+_cod_database_code               2102288
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,x-y,+z
+3 y-x,-x,+z
+4 y-x,+y,+z
+5 -y,-x,+z
+6 +x,x-y,+z
+-1 -x,-y,-z
+-2 +y,y-x,-z
+-3 x-y,+x,-z
+-4 x-y,-y,-z
+-5 +y,+x,-z
+-6 -x,y-x,-z
+101 +x+1/3,+y+2/3,+z+2/3
+102 -y+1/3,x-y+2/3,+z+2/3
+103 y-x+1/3,-x+2/3,+z+2/3
+104 y-x+1/3,+y+2/3,+z+2/3
+105 -y+1/3,-x+2/3,+z+2/3
+106 +x+1/3,x-y+2/3,+z+2/3
+-101 -x+2/3,-y+1/3,-z+1/3
+-102 +y+2/3,y-x+1/3,-z+1/3
+-103 x-y+2/3,+x+1/3,-z+1/3
+-104 x-y+2/3,-y+1/3,-z+1/3
+-105 +y+2/3,+x+1/3,-z+1/3
+-106 -x+2/3,y-x+1/3,-z+1/3
+201 +x+2/3,+y+1/3,+z+1/3
+202 -y+2/3,x-y+1/3,+z+1/3
+203 y-x+2/3,-x+1/3,+z+1/3
+204 y-x+2/3,+y+1/3,+z+1/3
+205 -y+2/3,-x+1/3,+z+1/3
+206 +x+2/3,x-y+1/3,+z+1/3
+-201 -x+1/3,-y+2/3,-z+2/3
+-202 +y+1/3,y-x+2/3,-z+2/3
+-203 x-y+1/3,+x+2/3,-z+2/3
+-204 x-y+1/3,-y+2/3,-z+2/3
+-205 +y+1/3,+x+2/3,-z+2/3
+-206 -x+1/3,y-x+2/3,-z+2/3
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+PB1 0.0 0.0 0.0 0.0195(15) Uiso 1.0 PB
+PB2 0.0 0.040(2) 0.21065(16) 0.0195(15) Uiso 0.16667 PB
+P 0.0 0.0 0.4037(3) 0.0109(13) Uiso 1.0 P
+O1 0.0170(16) -0.0170(16) 0.3282(2) 0.0153(11) Uiso 0.3333 O
+O2 -0.142(2) 0.165(2) 0.42941(14) 0.0153(11) Uiso 0.5 O
+loop_
+_atom_type_symbol
+Pb
+P
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+PB2 PB2 PB2 2_555 3_555 60.0000(2) n
+PB2 PB2 PB2 2_555 4_555 90.0000(2) n
+PB2 PB2 PB2 2_555 5_555 30.0 n
+PB2 PB2 PB2 2_555 6_555 30.0 n
+PB2 PB2 PB2 3_555 4_555 30.0 n
+PB2 PB2 PB2 3_555 5_555 90.0000(2) n
+PB2 PB2 PB2 3_555 6_555 30.0 n
+PB2 PB2 PB2 4_555 5_555 120.0 n
+PB2 PB2 PB2 4_555 6_555 60.0000(2) n
+PB2 PB2 PB2 5_555 6_555 60.0000(2) n
+O1 P O1 1_555 2_555 10.5(10) n
+O1 P O1 1_555 3_555 10.5(10) n
+O1 P O2 1_555 1_555 115.6(6) n
+O1 P O2 1_555 2_555 106.7(3) n
+O1 P O2 1_555 3_555 106.3(4) n
+O1 P O2 1_555 4_555 106.7(3) n
+O1 P O2 1_555 5_555 115.6(6) n
+O1 P O2 1_555 6_555 106.3(4) n
+O1 P O1 2_555 3_555 10.5(10) n
+O1 P O2 2_555 1_555 106.3(4) n
+O1 P O2 2_555 2_555 115.6(6) n
+O1 P O2 2_555 3_555 106.7(3) n
+O1 P O2 2_555 4_555 106.3(4) n
+O1 P O2 2_555 5_555 106.7(3) n
+O1 P O2 2_555 6_555 115.6(6) n
+O1 P O2 3_555 1_555 106.7(3) n
+O1 P O2 3_555 2_555 106.3(4) n
+O1 P O2 3_555 3_555 115.6(6) n
+O1 P O2 3_555 4_555 115.6(6) n
+O1 P O2 3_555 5_555 106.3(4) n
+O1 P O2 3_555 6_555 106.7(3) n
+O2 P O2 1_555 2_555 109.3(2) n
+O2 P O2 1_555 3_555 109.3(2) n
+O2 P O2 1_555 4_555 105.2(8) n
+O2 P O2 1_555 5_555 4.7(9) n
+O2 P O2 1_555 6_555 113.3(8) n
+O2 P O2 2_555 3_555 109.3(2) n
+O2 P O2 2_555 4_555 113.3(8) n
+O2 P O2 2_555 5_555 105.2(8) n
+O2 P O2 2_555 6_555 4.7(9) n
+O2 P O2 3_555 4_555 4.7(9) n
+O2 P O2 3_555 5_555 113.3(8) n
+O2 P O2 3_555 6_555 105.2(8) n
+O2 P O2 4_555 5_555 109.3(2) n
+O2 P O2 4_555 6_555 109.3(2) n
+O2 P O2 5_555 6_555 109.3(2) n
+P O1 O1 1_555 2_555 84.8(5) n
+P O1 O1 1_555 3_555 84.8(5) n
+O1 O1 O1 2_555 3_555 60.0000(2) n
+P O2 O2 1_555 5_555 87.7(4) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+PB1 PB2 1_555 4.235(3) n
+PB1 PB2 2_555 4.235(3) n
+PB1 PB2 3_555 4.235(3) n
+PB1 PB2 4_555 4.235(3) n
+PB1 PB2 5_555 4.235(3) n
+PB1 PB2 6_555 4.235(3) n
+PB1 PB2 -1_555 4.235(3) n
+PB1 PB2 -2_555 4.235(3) n
+PB1 PB2 -3_555 4.235(3) n
+PB1 PB2 -4_555 4.235(3) n
+PB1 PB2 -5_555 4.235(3) n
+PB1 PB2 -6_555 4.235(3) n
+PB1 PB2 101_444 4.008(2) n
+PB1 PB2 101_544 3.855(7) n
+PB1 PB2 101_554 4.155(8) n
+PB1 PB2 102_444 4.155(8) n
+PB1 PB2 102_544 4.008(2) n
+PB1 PB2 102_554 3.855(7) n
+PB1 PB2 103_444 3.855(7) n
+PB1 PB2 103_544 4.155(8) n
+PB1 PB2 103_554 4.008(2) n
+PB1 PB2 104_444 3.855(7) n
+PB1 PB2 104_544 4.008(2) n
+PB1 PB2 104_554 4.155(8) n
+PB1 PB2 105_444 4.155(8) n
+PB1 PB2 105_544 3.855(7) n
+PB1 PB2 105_554 4.008(2) n
+PB1 PB2 106_444 4.008(2) n
+PB1 PB2 106_544 4.155(8) n
+PB1 PB2 106_554 3.855(7) n
+PB1 PB2 -201_445 4.155(8) n
+PB1 PB2 -201_455 3.855(7) n
+PB1 PB2 -201_555 4.008(2) n
+PB1 PB2 -202_445 3.855(7) n
+PB1 PB2 -202_455 4.008(2) n
+PB1 PB2 -202_555 4.155(8) n
+PB1 PB2 -203_445 4.008(2) n
+PB1 PB2 -203_455 4.155(8) n
+PB1 PB2 -203_555 3.855(7) n
+PB1 PB2 -204_445 4.155(8) n
+PB1 PB2 -204_455 4.008(2) n
+PB1 PB2 -204_555 3.855(7) n
+PB1 PB2 -205_445 4.008(2) n
+PB1 PB2 -205_455 3.855(7) n
+PB1 PB2 -205_555 4.155(8) n
+PB1 PB2 -206_445 3.855(7) n
+PB1 PB2 -206_455 4.155(8) n
+PB1 PB2 -206_555 4.008(2) n
+PB1 P 101_444 3.456(2) n
+PB1 P 101_544 3.456(2) n
+PB1 P 101_554 3.456(2) n
+PB1 P -201_445 3.456(2) n
+PB1 P -201_455 3.456(2) n
+PB1 P -201_555 3.456(2) n
+PB1 O1 101_444 3.078(7) n
+PB1 O1 101_544 3.316(15) n
+PB1 O1 101_554 3.078(7) n
+PB1 O1 102_444 3.078(7) n
+PB1 O1 102_544 3.078(7) n
+PB1 O1 102_554 3.316(15) n
+PB1 O1 103_444 3.316(15) n
+PB1 O1 103_544 3.078(7) n
+PB1 O1 103_554 3.078(7) n
+PB1 O1 -201_445 3.078(7) n
+PB1 O1 -201_455 3.316(15) n
+PB1 O1 -201_555 3.078(7) n
+PB1 O1 -202_445 3.316(15) n
+PB1 O1 -202_455 3.078(7) n
+PB1 O1 -202_555 3.078(7) n
+PB1 O1 -203_445 3.078(7) n
+PB1 O1 -203_455 3.078(7) n
+PB1 O1 -203_555 3.316(15) n
+PB1 O2 101_544 2.575(3) n
+PB1 O2 102_554 2.575(3) n
+PB1 O2 103_444 2.575(3) n
+PB1 O2 104_444 2.575(3) n
+PB1 O2 105_544 2.575(3) n
+PB1 O2 106_554 2.575(3) n
+PB1 O2 -201_455 2.575(3) n
+PB1 O2 -202_445 2.575(3) n
+PB1 O2 -203_555 2.575(3) n
+PB1 O2 -204_555 2.575(3) n
+PB1 O2 -205_455 2.575(3) n
+PB1 O2 -206_445 2.575(3) n
+PB2 PB1 1_555 4.235(3) n
+PB2 PB1 201_445 4.155(8) n
+PB2 PB1 201_455 3.855(7) n
+PB2 PB1 201_555 4.008(2) n
+PB2 PB2 2_555 0.381(19) n
+PB2 PB2 3_555 0.381(19) n
+PB2 PB2 4_555 0.220(11) n
+PB2 PB2 5_555 0.220(11) n
+PB2 PB2 6_555 0.44(2) n
+PB2 PB2 -201_445 3.958(18) n
+PB2 PB2 -201_455 3.295(15) n
+PB2 PB2 -201_555 3.641(4) n
+PB2 PB2 -202_445 3.621(3) n
+PB2 PB2 -202_455 3.451(8) n
+PB2 PB2 -202_555 3.784(9) n
+PB2 PB2 -203_445 3.784(9) n
+PB2 PB2 -203_455 3.621(3) n
+PB2 PB2 -203_555 3.451(8) n
+PB2 PB2 -204_445 3.952(17) n
+PB2 PB2 -204_455 3.465(7) n
+PB2 PB2 -204_555 3.465(7) n
+PB2 PB2 -205_445 3.796(10) n
+PB2 PB2 -205_455 3.287(16) n
+PB2 PB2 -205_555 3.796(10) n
+PB2 PB2 -206_445 3.615(3) n
+PB2 PB2 -206_455 3.615(3) n
+PB2 PB2 -206_555 3.615(3) n
+PB2 P 1_555 3.882(7) n
+PB2 P 101_444 4.234(5) n
+PB2 P 101_544 4.374(8) n
+PB2 P 101_554 4.090(9) n
+PB2 P -101_445 3.3314(18) n
+PB2 P -101_545 3.507(9) n
+PB2 P -101_555 3.146(9) n
+PB2 O1 1_555 2.388(6) n
+PB2 O1 2_555 2.362(6) n
+PB2 O1 3_555 2.375(6) n
+PB2 O1 -101_445 4.130(7) n
+PB2 O1 -101_545 4.091(13) n
+PB2 O1 -101_555 3.982(9) n
+PB2 O1 -102_445 4.145(8) n
+PB2 O1 -102_545 4.287(12) n
+PB2 O1 -102_555 3.802(14) n
+PB2 O1 -103_445 3.949(12) n
+PB2 O1 -103_545 4.280(11) n
+PB2 O1 -103_555 3.989(9) n
+PB2 O2 101_544 2.981(6) n
+PB2 O2 102_554 2.754(7) n
+PB2 O2 103_444 2.877(4) n
+PB2 O2 104_444 2.867(4) n
+PB2 O2 105_544 2.985(6) n
+PB2 O2 106_554 2.759(7) n
+PB2 O2 -101_445 2.954(13) n
+PB2 O2 -101_555 2.614(13) n
+PB2 O2 -102_445 2.633(12) n
+PB2 O2 -102_545 2.970(13) n
+PB2 O2 -103_545 2.940(15) n
+PB2 O2 -103_555 2.632(15) n
+PB2 O2 -104_545 3.064(16) n
+PB2 O2 -104_555 2.509(16) n
+PB2 O2 -105_445 2.830(12) n
+PB2 O2 -105_555 2.738(13) n
+PB2 O2 -106_445 2.755(12) n
+PB2 O2 -106_545 2.847(13) n
+P PB1 201_445 3.456(2) n
+P PB1 201_455 3.456(2) n
+P PB1 201_555 3.456(2) n
+P PB2 1_555 3.882(7) n
+P PB2 2_555 3.882(7) n
+P PB2 3_555 3.882(7) n
+P PB2 4_555 3.882(7) n
+P PB2 5_555 3.882(7) n
+P PB2 6_555 3.882(7) n
+P PB2 -101_445 3.3314(18) n
+P PB2 -101_545 3.507(9) n
+P PB2 -101_555 3.146(9) n
+P PB2 -102_445 3.146(9) n
+P PB2 -102_545 3.3314(18) n
+P PB2 -102_555 3.507(9) n
+P PB2 -103_445 3.507(9) n
+P PB2 -103_545 3.146(9) n
+P PB2 -103_555 3.3314(18) n
+P PB2 -104_445 3.507(9) n
+P PB2 -104_545 3.3314(18) n
+P PB2 -104_555 3.146(9) n
+P PB2 -105_445 3.146(9) n
+P PB2 -105_545 3.507(9) n
+P PB2 -105_555 3.3314(18) n
+P PB2 -106_445 3.3314(18) n
+P PB2 -106_545 3.146(9) n
+P PB2 -106_555 3.507(9) n
+P PB2 201_445 4.090(9) n
+P PB2 201_455 4.374(8) n
+P PB2 201_555 4.234(5) n
+P PB2 202_445 4.374(8) n
+P PB2 202_455 4.234(5) n
+P PB2 202_555 4.090(9) n
+P PB2 203_445 4.234(5) n
+P PB2 203_455 4.090(9) n
+P PB2 203_555 4.374(8) n
+P PB2 204_445 4.090(9) n
+P PB2 204_455 4.234(5) n
+P PB2 204_555 4.374(8) n
+P PB2 205_445 4.234(5) n
+P PB2 205_455 4.374(8) n
+P PB2 205_555 4.090(9) n
+P PB2 206_445 4.374(8) n
+P PB2 206_455 4.090(9) n
+P PB2 206_555 4.234(5) n
+P P -1_556 3.868(11) n
+P P -101_445 4.234(7) n
+P P -101_545 4.234(7) n
+P P -101_555 4.234(7) n
+P O1 1_555 1.525(7) n
+P O1 2_555 1.525(7) n
+P O1 3_555 1.525(7) n
+P O1 -101_445 3.492(8) n
+P O1 -101_545 3.267(14) n
+P O1 -101_555 3.492(8) n
+P O1 -102_445 3.492(8) n
+P O1 -102_545 3.492(8) n
+P O1 -102_555 3.267(14) n
+P O1 -103_445 3.267(14) n
+P O1 -103_545 3.492(8) n
+P O1 -103_555 3.492(8) n
+P O2 1_545 4.260(8) n
+P O2 1_555 1.540(4) n
+P O2 1_655 4.341(8) n
+P O2 2_555 1.540(4) n
+P O2 2_565 4.341(8) n
+P O2 2_665 4.260(8) n
+P O2 3_445 4.341(8) n
+P O2 3_455 4.260(8) n
+P O2 3_555 1.540(4) n
+P O2 4_445 4.260(8) n
+P O2 4_455 4.341(8) n
+P O2 4_555 1.540(4) n
+P O2 5_545 4.341(8) n
+P O2 5_555 1.540(4) n
+P O2 5_655 4.260(8) n
+P O2 6_555 1.540(4) n
+P O2 6_565 4.260(8) n
+P O2 6_665 4.341(8) n
+P O2 -1_556 3.652(6) n
+P O2 -2_556 3.652(6) n
+P O2 -3_556 3.652(6) n
+P O2 -4_556 3.652(6) n
+P O2 -5_556 3.652(6) n
+P O2 -6_556 3.652(6) n
+P O2 -101_445 4.358(9) n
+P O2 -101_555 4.278(9) n
+P O2 -102_445 4.278(9) n
+P O2 -102_545 4.358(9) n
+P O2 -103_545 4.278(9) n
+P O2 -103_555 4.358(9) n
+P O2 -104_545 4.358(9) n
+P O2 -104_555 4.278(9) n
+P O2 -105_445 4.278(9) n
+P O2 -105_555 4.358(9) n
+P O2 -106_445 4.358(9) n
+P O2 -106_545 4.278(9) n
+O1 PB1 201_445 3.078(7) n
+O1 PB1 201_455 3.316(15) n
+O1 PB1 201_555 3.078(7) n
+O1 PB2 1_555 2.388(6) n
+O1 PB2 2_555 2.375(6) n
+O1 PB2 3_555 2.362(6) n
+O1 PB2 4_555 2.375(6) n
+O1 PB2 5_555 2.388(6) n
+O1 PB2 6_555 2.362(6) n
+O1 PB2 -101_445 4.130(7) n
+O1 PB2 -101_545 4.091(13) n
+O1 PB2 -101_555 3.982(9) n
+O1 PB2 -102_445 3.989(9) n
+O1 PB2 -102_545 3.949(12) n
+O1 PB2 -102_555 4.280(11) n
+O1 PB2 -103_445 4.287(12) n
+O1 PB2 -103_545 3.802(14) n
+O1 PB2 -103_555 4.145(8) n
+O1 PB2 -104_445 4.280(11) n
+O1 PB2 -104_545 3.949(12) n
+O1 PB2 -104_555 3.989(9) n
+O1 PB2 -105_445 3.982(9) n
+O1 PB2 -105_545 4.091(13) n
+O1 PB2 -105_555 4.130(7) n
+O1 PB2 -106_445 4.145(8) n
+O1 PB2 -106_545 3.802(14) n
+O1 PB2 -106_555 4.287(12) n
+O1 P 1_555 1.525(7) n
+O1 P -101_445 3.492(8) n
+O1 P -101_545 3.267(14) n
+O1 P -101_555 3.492(8) n
+O1 O1 2_555 0.28(3) n
+O1 O1 3_555 0.28(3) n
+O1 O1 -101_445 3.333(17) n
+O1 O1 -101_545 2.84(3) n
+O1 O1 -101_555 3.333(17) n
+O1 O1 -102_445 3.321(15) n
+O1 O1 -102_545 3.084(7) n
+O1 O1 -102_555 3.084(7) n
+O1 O1 -103_445 3.084(7) n
+O1 O1 -103_545 3.084(7) n
+O1 O1 -103_555 3.321(15) n
+O1 O2 1_555 2.594(10) n
+O1 O2 2_555 2.459(6) n
+O1 O2 3_555 2.452(7) n
+O1 O2 4_555 2.459(6) n
+O1 O2 5_555 2.594(10) n
+O1 O2 6_555 2.452(7) n
+O1 O2 -101_445 3.350(11) n
+O1 O2 -101_555 3.245(10) n
+O1 O2 -102_445 3.349(13) n
+O1 O2 -102_545 3.222(13) n
+O1 O2 -103_545 3.119(16) n
+O1 O2 -103_555 3.455(16) n
+O1 O2 -104_545 3.222(13) n
+O1 O2 -104_555 3.349(13) n
+O1 O2 -105_445 3.245(10) n
+O1 O2 -105_555 3.350(11) n
+O1 O2 -106_445 3.455(16) n
+O1 O2 -106_545 3.119(16) n
+O2 PB1 201_455 2.575(3) n
+O2 PB2 -101_445 2.954(13) n
+O2 PB2 -101_555 2.614(13) n
+O2 PB2 -102_445 2.632(15) n
+O2 PB2 -102_555 2.940(15) n
+O2 PB2 -103_445 2.970(13) n
+O2 PB2 -103_555 2.633(12) n
+O2 PB2 -104_445 3.064(16) n
+O2 PB2 -104_555 2.509(16) n
+O2 PB2 -105_445 2.738(13) n
+O2 PB2 -105_555 2.830(12) n
+O2 PB2 -106_445 2.755(12) n
+O2 PB2 -106_555 2.847(13) n
+O2 PB2 201_455 2.981(6) n
+O2 PB2 202_455 2.877(4) n
+O2 PB2 203_455 2.754(7) n
+O2 PB2 204_455 2.867(4) n
+O2 PB2 205_455 2.985(6) n
+O2 PB2 206_455 2.759(7) n
+O2 P 1_455 4.341(8) n
+O2 P 1_555 1.540(4) n
+O2 P 1_565 4.260(8) n
+O2 P -1_556 3.652(6) n
+O2 P -101_445 4.358(9) n
+O2 P -101_555 4.278(9) n
+O2 O1 1_555 2.594(10) n
+O2 O1 2_555 2.452(7) n
+O2 O1 3_555 2.459(6) n
+O2 O1 -101_445 3.350(11) n
+O2 O1 -101_555 3.245(10) n
+O2 O1 -102_445 3.455(16) n
+O2 O1 -102_555 3.119(16) n
+O2 O1 -103_445 3.222(13) n
+O2 O1 -103_555 3.349(13) n
+O2 O2 2_555 2.513(6) n
+O2 O2 2_565 2.954(6) n
+O2 O2 3_455 2.954(6) n
+O2 O2 3_555 2.513(6) n
+O2 O2 4_455 3.015(14) n
+O2 O2 4_555 2.448(14) n
+O2 O2 5_555 0.13(2) n
+O2 O2 6_555 2.574(13) n
+O2 O2 6_565 2.889(13) n
+O2 O2 -1_556 4.056(6) n
+O2 O2 -1_566 4.263(15) n
+O2 O2 -2_556 3.184(5) n
+O2 O2 -3_556 3.184(5) n
+O2 O2 -4_556 3.235(11) n
+O2 O2 -5_456 4.341(5) n
+O2 O2 -5_556 4.054(6) n
+O2 O2 -5_566 4.341(5) n
+O2 O2 -6_556 3.135(10) n
+O2 O2 -102_445 4.218(5) n
+O2 O2 -103_555 4.218(5) n
+O2 O2 -104_555 4.175(10) n
+O2 O2 -106_445 4.263(10) n

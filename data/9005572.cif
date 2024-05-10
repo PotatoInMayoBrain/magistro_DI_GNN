@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/55/9005572.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005572
+loop_
+_publ_author_name
+'Pekov, I. V.'
+'Chukanov, N. V.'
+'Larsen, A. O.'
+'Merlino, S.'
+'Pasero, M.'
+'Pushcharovsky, D. Y.'
+'Ivaldi, G.'
+'Zadov, A. E.'
+'Grishin, V. G.'
+'Asheim, A.'
+'Tafto, J.'
+'Chistyakova, N. I.'
+_publ_section_title
+;
+ Sphaerobertrandite, Be3SiO4(OH)2: new data, crystal structure and genesis
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              157
+_journal_page_last               166
+_journal_paper_doi               10.1127/0935-1221/2003/0015-0157
+_journal_volume                  15
+_journal_year                    2003
+_chemical_formula_sum            'Be3 H2 O6 Si'
+_chemical_name_mineral           Sphaerobertrandite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 106.13
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.082
+_cell_length_b                   4.640
+_cell_length_c                   17.696
+_cell_volume                     400.853
+_database_code_amcsd             0006960
+_exptl_crystal_density_diffrn    2.537
+_cod_original_formula_sum        'Be3 Si O6 H2'
+_cod_database_code               9005572
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+Be1 0.29000 0.41600 0.11980 0.00600 0 Be
+Be2 0.62900 0.08900 0.96040 0.00700 0 Be
+Be3 0.11000 0.91700 0.29240 0.00600 0 Be
+Si 0.02740 0.41950 0.37550 0.00730 0 Si
+O1 0.02300 0.57400 0.14300 0.00800 0 O
+O2 0.04500 0.57100 0.29330 0.00800 0 O
+O3 0.22800 0.06900 0.09900 0.00100 0 O
+O4 0.69700 0.97400 0.05400 0.00800 0 O
+O-H5 0.30700 0.57500 0.04130 0.01100 1 O
+O-H6 0.55700 0.46500 0.19390 0.01300 1 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:14+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006960

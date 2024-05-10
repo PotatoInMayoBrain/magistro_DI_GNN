@@ -1,0 +1,197 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/01/2010120.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010120
+loop_
+_publ_author_name
+'Nguyen-Huy Dung'
+'Rodier, N.'
+'Viossat, B.'
+'Lancelot, J.C.'
+_publ_section_title
+;
+ Sels de <i>S</i>,<i>S</i>'-(alcane-\a,\w-diyle)bis(thiouronium). II.
+ T\'etrachloroplatinate(II) de
+ <i>S</i>,<i>S</i>'-(butane-1,4-diyle)bis(thiouronium) monohydrate
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1574
+_journal_page_last               1576
+_journal_paper_doi               10.1107/S010827019400168X
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'C6 H18 Cl4 N4 O Pt S2'
+_chemical_formula_weight         563.3
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                98.28(2)
+_cell_angle_beta                 119.64(2)
+_cell_angle_gamma                113.26(2)
+_cell_formula_units_Z            1
+_cell_length_a                   7.709(3)
+_cell_length_b                   7.333(2)
+_cell_length_c                   10.819(4)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    292
+_cell_measurement_theta_max      16.90
+_cell_measurement_theta_min      9.06
+_cell_volume                     442.1(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           MoK\=\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            1723
+_diffrn_reflns_theta_max         26
+_diffrn_standards_decay_%        'non significative'
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    8.85
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            orang\'ee
+_exptl_crystal_density_diffrn    2.12
+_exptl_crystal_density_meas      2.16
+_exptl_crystal_density_method    'flottaison dans ?'
+_exptl_crystal_description       plaquette
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.09
+_refine_diff_density_max         1.7(2)
+_refine_diff_density_min         -1.7(2)
+_refine_ls_extinction_coef       5E-7(1)
+_refine_ls_extinction_method     'Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   1.54
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     89
+_refine_ls_number_reflns         1703
+_refine_ls_R_factor_obs          0.031
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.039
+_reflns_number_observed          1703
+_reflns_number_total             1723
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            pa1087.cif
+_cod_data_source_block           pa1087a
+_cod_depositor_comments
+;
+ Added _atom_site_type_symbol label and values.
+
+ Antanas Vaitkus
+ 2013-04-09
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F~o~)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        442.1(4)
+_cod_database_code               2010120
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pt Pt .0000 .0000 .0000 .03058(5)
+Cl(1) Cl .2267(2) .1733(3) .2691(2) .0474(3)
+Cl(2) Cl .2580(2) -.0990(3) .0220(2) .0600(3)
+S S .1858(2) .3139(2) .6069(2) .0394(3)
+C(1) C .2223(8) .3864(8) .7880(6) .0360(10)
+C(2) C .4748(8) .4603(9) .9192(5) .0360(10)
+C(11) C -.1078(8) .2223(8) .4634(6) .0310(10)
+N(12) N -.2541(7) .2120(8) .4937(5) .0450(10)
+N(13) N -.1730(8) .1677(8) .3195(5) .0450(10)
+Ow O .7499(8) .3487(9) .7496(6) .0840(10)
+H(1) H .110 .259 .785 3.8
+H'(1) H .191 .498 .803 3.8
+H(2) H .583 .577 .916 3.7
+H'(2) H .495 .341 .905 3.7
+H(12) H -.197 .270 .596 4.8
+H'(12) H -.432 .145 .402 4.8
+H(13) H -.061 .188 .305 4.8
+H'(13) H -.314 .125 .234 4.8
+H(Ow) H .803 .500 .777 7.5
+H'(Ow) H .783 .332 .832 7.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Cl(1) Pt Cl(2) . 90.65(6) yes
+C(1) S C(11) . 104.3(3) yes
+S C(1) C(2) . 107.1(5) yes
+C(1) C(2) C(2) 2_667 110.2(6) yes
+S C(11) N(12) . 123.5(4) yes
+S C(11) N(13) . 115.0(6) yes
+N(12) C(11) N(13) . 121.5(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pt Cl(1) . . 2.3010(10) yes
+Pt Cl(2) . . 2.294(2) yes
+S C(1) . . 1.799(7) yes
+S C(11) . . 1.734(5) yes
+C(1) C(2) . . 1.520(7) yes
+C(2) C(2) . 2_667 1.549(9) yes
+C(11) N(12) . . 1.300(10) yes
+C(11) N(13) . . 1.313(9) yes
+C(1) H(1) . . 0.97 no
+C(1) H'(1) . . 0.96 no
+C(2) H(2) . . 0.95 no
+C(2) H'(2) . . 0.95 no
+Ow H(Ow) . . 0.96 no
+Ow H'(Ow) . . 0.84 no
+N(11) H(11) . . 0.91 no
+N(11) H'(11) . . 1.04 no
+N(12) H(12) . . 0.92 no
+N(12) H'(12) . . 0.89 no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+C(11) S C(1) C(2) . 177.9(4) yes
+C(1) S C(11) N(12) . -1.1(6) yes
+C(1) S C(11) N(13) . 177.4(5) yes
+S C(1) C(2) C(2) 2_667 176.4(4) yes

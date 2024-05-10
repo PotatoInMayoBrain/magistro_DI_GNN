@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:56:46 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179270 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/90/4319098.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319098
+loop_
+_publ_author_name
+'Nicole S. Persky'
+'Jessica M. Chow'
+'Karalee A. Poschmann'
+'Nanette N. Lacuesta'
+'Sarah L. Stoll'
+'Simon G. Bott'
+'Steven Obrey'
+_publ_section_title
+;
+ Hydrothermal Syntheses, Structures, and Properties of
+ [Cu3Cl2CN(pyrazine)] and Copper(I) Halide Pyrazine Polymers
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              29
+_journal_page_last               35
+_journal_paper_doi               10.1021/ic000185a
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_moiety         Cu3Cl2CNPz
+_chemical_formula_sum            'C10 H8 Cl4 Cu6 N6'
+_chemical_formula_weight         735.26
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.58(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   3.6350(7)
+_cell_length_b                   17.160(3)
+_cell_length_c                   6.9800(14)
+_cell_measurement_temperature    293(2)
+_cell_volume                     435.37(14)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1183
+_diffrn_reflns_av_sigmaI/netI    0.0767
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -3
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            1947
+_diffrn_reflns_theta_max         23.28
+_diffrn_reflns_theta_min         2.37
+_exptl_absorpt_coefficient_mu    7.816
+_exptl_crystal_density_diffrn    2.804
+_exptl_crystal_F_000             352
+_refine_diff_density_max         0.919
+_refine_diff_density_min         -1.382
+_refine_diff_density_rms         0.229
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.046
+_refine_ls_goodness_of_fit_obs   1.096
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     64
+_refine_ls_number_reflns         639
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.119
+_refine_ls_restrained_S_obs      1.096
+_refine_ls_R_factor_all          0.0656
+_refine_ls_R_factor_obs          0.0591
+_refine_ls_shift/esd_max         0.017
+_refine_ls_shift/esd_mean        0.003
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0985P)^2^+4.1061P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1821
+_refine_ls_wR_factor_obs         0.1659
+_reflns_number_observed          560
+_reflns_number_total             642
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic000185a_1.cif
+_cod_data_source_block           sgb1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0985P)^2^+4.1061P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0985P)^2^+4.1061P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        435.37(15)
+_cod_original_sg_symbol_H-M      'P 1 21/c 1'
+_cod_database_code               4319098
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x, -y-1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Cu1 0.0447(9) 0.0246(9) 0.0322(9) -0.0001(5) 0.0050(6) 0.0011(5)
+Cu2 0.0581(14) 0.0579(15) 0.0354(12) 0.000 0.0174(10) 0.000
+Cl 0.0280(13) 0.0338(14) 0.0324(14) -0.0002(10) 0.0045(10) -0.0014(10)
+N 0.057(8) 0.034(7) 0.027(7) 0.000 0.017(6) 0.000
+N1 0.035(5) 0.032(5) 0.029(4) 0.002(4) 0.006(3) -0.002(4)
+C 0.024(7) 0.026(8) 0.054(11) 0.000 -0.002(7) 0.000
+C1 0.037(6) 0.024(6) 0.039(6) 0.005(5) -0.005(4) 0.000(4)
+C2 0.027(5) 0.034(6) 0.034(6) -0.008(5) -0.003(4) 0.000(4)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Cu1 Cu 0.4565(4) 0.67605(7) 0.2492(2) 0.0338(6) Uani 1 d . .
+Cu2 Cu 1.1077(6) 0.7500 -0.1336(3) 0.0503(7) Uani 1 d S .
+Cl Cl 0.9292(6) 0.64221(14) 0.0347(3) 0.0314(7) Uani 1 d . .
+N N 0.2759(39) 0.7500 0.6161(18) 0.039(3) Uani 1 d S .
+N1 N 0.4740(23) 0.5705(5) 0.4031(11) 0.032(2) Uani 1 d . .
+C C 0.3496(39) 0.7500 0.4555(25) 0.035(4) Uani 1 d S .
+C1 C 0.5749(29) 0.5666(6) 0.5839(15) 0.033(2) Uani 1 d . .
+H1A H 0.6319(29) 0.6141(6) 0.6507(15) 0.040 Uiso 1 d R .
+C2 C 0.3951(26) 0.5026(6) 0.3193(14) 0.032(2) Uani 1 d . .
+H2B H 0.3145(26) 0.5026(6) 0.1879(14) 0.038 Uiso 1 d R .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C Cu1 N1 100.8(4) . . ?
+C Cu1 Cl 140.8(4) . . ?
+N1 Cu1 Cl 95.4(2) . . ?
+C Cu1 Cl 115.8(4) . 1_455 ?
+N1 Cu1 Cl 97.2(2) . 1_455 ?
+Cl Cu1 Cl 97.02(9) . 1_455 ?
+C Cu1 Cu1 49.7(3) . 4_575 ?
+N1 Cu1 Cu1 149.3(2) . 4_575 ?
+Cl Cu1 Cu1 104.23(7) . 4_575 ?
+Cl Cu1 Cu1 103.49(6) 1_455 4_575 ?
+N Cu2 Cl 125.50(9) 1_654 4_575 ?
+N Cu2 Cl 125.50(9) 1_654 . ?
+Cl Cu2 Cl 107.84(14) 4_575 . ?
+Cu2 Cl Cu1 109.78(11) . . ?
+Cu2 Cl Cu1 84.24(10) . 1_655 ?
+Cu1 Cl Cu1 97.02(9) . 1_655 ?
+C N Cu2 174.2(14) . 1_456 ?
+C1 N1 C2 115.7(9) . . ?
+C1 N1 Cu1 122.7(7) . . ?
+C2 N1 Cu1 121.5(6) . . ?
+N C Cu1 139.7(3) . . ?
+N C Cu1 139.7(3) . 4_575 ?
+Cu1 C Cu1 80.6(7) . 4_575 ?
+N1 C1 C2 122.5(10) . 3_666 ?
+N1 C2 C1 121.7(9) . 3_666 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 C 1.961(13) . ?
+Cu1 N1 2.106(8) . ?
+Cu1 Cl 2.363(3) . ?
+Cu1 Cl 2.489(3) 1_455 ?
+Cu1 Cu1 2.538(3) 4_575 ?
+Cu2 N 1.857(12) 1_654 ?
+Cu2 Cl 2.289(3) 4_575 ?
+Cu2 Cl 2.289(3) . ?
+Cl Cu1 2.489(3) 1_655 ?
+N C 1.16(2) . ?
+N Cu2 1.857(12) 1_456 ?
+N1 C1 1.312(13) . ?
+N1 C2 1.334(13) . ?
+C Cu1 1.961(13) 4_575 ?
+C1 C2 1.370(15) 3_666 ?
+C2 C1 1.370(15) 3_666 ?

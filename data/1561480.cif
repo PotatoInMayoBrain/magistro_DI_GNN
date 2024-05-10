@@ -1,0 +1,472 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-06 11:43:10 +0300 (Tue, 06 Apr 2021) $
+#$Revision: 263890 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/14/1561480.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1561480
+loop_
+_publ_author_name
+'Nakhal, Suliman'
+'Wiedemann, Dennis'
+'Stanje, Bernhard'
+'Dolotko, Oleksandr'
+'Wilkening, Martin'
+'Lerch, Martin'
+_publ_section_title
+;
+ LiBi3S5---A lithium bismuth sulfide with strong cation disorder
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              60
+_journal_page_last               67
+_journal_paper_doi               10.1016/j.jssc.2016.03.010
+_journal_volume                  238
+_journal_year                    2016
+_chemical_formula_iupac          'Bi3 Li S5'
+_chemical_formula_structural     'Li Bi3 S5'
+_chemical_formula_sum            'Bi3 Li S5'
+_chemical_formula_weight         794.2
+_chemical_name_structure_type    AgBi~3~S~5~
+_chemical_name_systematic        'lithium tribismuth pentasulfide'
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_sites_solution_hydrogens   notdet
+_atom_sites_solution_primary     other
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 94.0723(12)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   13.1079(2)
+_cell_length_b                   4.00070(7)
+_cell_length_c                   16.5085(3)
+_cell_measurement_temperature    298
+_cell_volume                     863.53(3)
+_computing_cell_refinement       'FullProf (Rodr\'iguez-Carvajal, 1993)'
+_computing_data_collection       'CARESS (Busse et al., 2013)'
+_computing_data_reduction        'DATAPARSER (Senyshyn, 2011)'
+_computing_molecular_graphics    'Diamond 3.2 (Brandenburg & Putz, 2014)'
+_computing_publication_material  'WinPLOTR (Roisnel, 2001)'
+_computing_structure_refinement  'FullProf (Rodr\'iguez-Carvajal, 1993)'
+_computing_structure_solution    'CSD (Bergerhoff & Brown, 1987)'
+_diffrn_ambient_temperature      298
+_diffrn_detector                 '^3^He counter'
+_diffrn_detector_details
+; curved position-sensitive detector-array of 80 counter tubes, height: 300 mm,
+resolution: 3 mm (B. Krimmer, R. Gilles, K. Zeitelhack, R. Schneider,
+G. Montermann, H. Boysen, H. Fuess, Appl. Phys. A: Mater. Sci. Process.
+2002, 74, S154-S156)
+;
+_diffrn_measurement_device       'one-circle powder diffractometer'
+_diffrn_measurement_device_details
+; M. Hoelzel, A. Senyshyn, N. Juenke, H. Boysen, W. Schmahl, H. Fuess,
+Nucl. Instrum. Methods Phys. Res., Sect. A 2012, 667, 32-37
+;
+_diffrn_measurement_device_type  SPODI
+_diffrn_measurement_method       'profile data from area detector'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.54831
+_diffrn_source                   'nuclear reactor'
+_diffrn_source_type              'FRM II beamline 8a'
+_exptl_absorpt_coefficient_mu    0.0297
+_exptl_absorpt_correction_type   cylinder
+_exptl_absorpt_process_details
+; correction for a cylindrical sample with \mR = 0.0850 as
+implemented in FullProf
+;
+_exptl_crystal_density_diffrn    6.109
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             151.724
+_pd_calc_method                  'Rietveld refinement'
+_pd_char_atten_coef_mu_calc      0.0178
+_pd_char_colour                  grey-black
+_pd_instr_2theta_monochr_pre     155
+_pd_instr_beam_size_ax           100
+_pd_instr_beam_size_eq           25
+_pd_instr_dist_mono/spec         5000
+_pd_instr_dist_spec/detc         1120
+_pd_instr_dist_src/mono          17500
+_pd_instr_geometry               Debye-Scherrer
+_pd_instr_location
+; SPODI diffractometer, Heinz Maier-Leibnitz Zentrum,
+ Garching bei M\"unchen (Germany)
+;
+_pd_instr_monochr_pre_spec       'Ge 551'
+_pd_instr_soller_eq_spec/detc    0.16667
+_pd_meas_2theta_range_inc        0.05
+_pd_meas_2theta_range_max        152.90
+_pd_meas_2theta_range_min        0.95
+_pd_meas_number_of_points        3020
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.05
+_pd_proc_2theta_range_max        151.815
+_pd_proc_2theta_range_min        0.865
+_pd_proc_info_data_reduction
+; efficiency/intensity correction and 2\q scattering-angle correction for each
+detector-collimator pair, geometrical data correction with Lorentz factor,
+variable integration height to obtain 1D data:
+H~L~=(R^2^*sin(4\q))/(H~S~*cos^2^(2\q))*\D2\q+H~S~/2
+with H~L~: limiting height, H~S~: sample height, R: detector radius
+(M. Hoelzel, A. Senyshyn, N. Juenke, H. Boysen, W. Schmahl, H. Fuess,
+Nucl. Instrum. Methods Phys. Res., Sect. A 2012, 667, 32-37)
+;
+_pd_proc_info_excluded_regions   'from 0.00 to 4.00\%: inclined inset'
+_pd_proc_ls_background_function
+; interpolation by cubic splines between 20 manually defined background points
+with previously refined heights
+;
+_pd_proc_ls_peak_cutoff          0.005
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function
+; pseudo-Voigt function with U = 0.064(3), V = -0.081(5), W = 0.140(2),
+\h~0~ = 0.098(16), X = 0.0018(3); one-term asymmetry correction with
+P~1~ = 0.083(8), P~2~ = 0.024(2) on reflections with 2\q < 160\%
+;
+_pd_proc_ls_prof_R_factor        0.0160
+_pd_proc_ls_prof_wR_expected     0.0125
+_pd_proc_ls_prof_wR_factor       0.0190
+_pd_proc_number_of_points        2958
+_pd_proc_wavelength              1.54381
+_pd_spec_mounting                'compacted powder in vanadium can'
+_pd_spec_mount_mode              transmission
+_pd_spec_orientation             vertical
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              40
+_pd_spec_size_equat              9
+_refine_diff_density_max         0.188
+_refine_diff_density_min         -0.168
+_refine_diff_density_rms         0.176
+_refine_ls_extinction_coef       .
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.52
+_refine_ls_hydrogen_treatment    .
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    4
+_refine_ls_number_parameters     65
+_refine_ls_number_reflns         1094
+_refine_ls_number_restraints     1
+_refine_ls_R_I_factor            0.0367
+_refine_ls_shift/su_max          0.0114
+_refine_ls_shift/su_mean         0.0005
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0216
+_cod_data_source_file            JSSC-2016-238-60.cif
+_cod_data_source_block           LiBi3S5
+_cod_database_code               1561480
+_pd_proc_ls_prof_cr_factor       0.0713
+_pd_proc_ls_prof_cwr_factor      0.0618
+_pd_proc_ls_prof_cwr_expected    0.0406
+_pd_proc_ls_prof_chi2            2.3184
+_pd_proc_ls_prof_echi2           2.3184
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 x+1/2,y+1/2,z
+6 -x+1/2,y+1/2,-z
+7 -x+1/2,-y+1/2,-z
+8 x+1/2,-y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_constraints
+_atom_site_restraints
+Bi1 Bi 0.23805(16) 0.50000 0.11122(10) 0.0162(11) 0.821(3) Uani 4 i d . . . . .
+Li1 Li 0.23805(16) 0.50000 0.11122(10) 0.0162(11) 0.179(3) Uani 4 i d . . P
+'x=x(Bi1), z=z(Bi1), occ=1-occ(Bi1), U=U(Bi1)' .
+Bi2 Bi 0.47179(14) 0.00000 0.21890(10) 0.0190(11) 0.876(3) Uani 4 i d . . . . .
+Li2 Li 0.47179(14) 0.00000 0.21890(10) 0.0190(11) 0.124(3) Uani 4 i d . . P
+'x=x(Bi2), z=z(Bi2), occ=1-occ(Bi2), U=U(Bi2)' .
+Bi3 Bi 0.21539(12) 0.00000 0.39076(8) 0.0254(9) 1.00000 Uani 4 i d . . . . .
+Bi4 Bi 0.00000 0.00000 0.00000 0.01825 0.450(3) Uiso 2 a d . . . . .
+Li4 Li 0.00000 0.00000 0.00000 0.01825 0.550(3) Uiso 2 a d . . P occ=1-occ(Bi4)
+.
+Bi5 Bi 0.00000 0.50000 0.50000 0.01835 0.156(3) Uiso 2 d d . . . . .
+Li5 Li 0.00000 0.50000 0.50000 0.01835 0.844(3) Uiso 2 d d . . P occ=1-occ(Bi5)
+.
+S1 S 0.3716(4) 0.00000 0.0535(3) 0.018(2) 1.00000 Uani 4 i d . . . . .
+S2 S 0.1069(4) 0.00000 0.1534(3) 0.020(2) 1.00000 Uani 4 i d . . . . .
+S3 S 0.3411(3) 0.50000 0.2580(3) 0.016(2) 1.00000 Uani 4 i d . . . . .
+S4 S 0.0706(3) 0.50000 0.3631(3) 0.016(2) 1.00000 Uani 4 i d . . . . .
+S5 S 0.3536(3) 0.50000 0.4656(2) 0.0154(20) 1.00000 Uani 4 i d . . . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 Bi 0.0110(10) 0.0123(11) 0.0254(12) 0.00000 0.0011(9) 0.00000
+Li1 Li 0.0110(10) 0.0123(11) 0.0254(12) 0.00000 0.0011(9) 0.00000
+Bi2 Bi 0.0192(10) 0.0178(10) 0.0200(12) 0.00000 -0.0030(10) 0.00000
+Li2 Li 0.0192(10) 0.0178(10) 0.0200(12) 0.00000 -0.0030(10) 0.00000
+Bi3 Bi 0.0309(9) 0.0224(8) 0.0230(10) 0.00000 0.0068(7) 0.00000
+S1 S 0.034(3) 0.0101(19) 0.010(2) 0.00000 0.009(2) 0.00000
+S2 S 0.011(2) 0.023(2) 0.027(3) 0.00000 0.007(2) 0.00000
+S3 S 0.012(2) 0.013(2) 0.024(2) 0.00000 0.011(2) 0.00000
+S4 S 0.020(2) 0.0122(20) 0.017(2) 0.00000 -0.0100(19) 0.00000
+S5 S 0.019(2) 0.0109(19) 0.017(2) 0.00000 -0.0045(17) 0.00000
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+Bi 8.5320 V.F._Sears_Neutron_News_3_26_(1992)
+Li -1.9000 V.F._Sears_Neutron_News_3_26_(1992)
+S 2.8470 V.F._Sears_Neutron_News_3_26_(1992)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+S1 Bi1 S1 . . 1_565 88.55(12)
+S1 Bi1 S1 . . 6_555 87.88(13)
+S1 Bi1 S2 . . . 89.09(11)
+S1 Bi1 S2 . . 1_565 175.15(15)
+S1 Bi1 S3 . . . 91.15(13)
+S1 Bi1 S1 1_565 . 6_555 87.88(13)
+S1 Bi1 S2 1_565 . . 175.15(15)
+S1 Bi1 S2 1_565 . 1_565 89.09(11)
+S1 Bi1 S3 1_565 . . 91.15(13)
+S1 Bi1 S2 6_555 . . 87.80(13)
+S1 Bi1 S2 6_555 . 1_565 87.80(13)
+S1 Bi1 S3 6_555 . . 178.64(16)
+S2 Bi1 S2 . . 1_565 92.95(13)
+S2 Bi1 S3 . . . 93.14(13)
+S2 Bi1 S3 1_565 . . 93.14(13)
+S1 Li1 S1 . . 1_565 88.55(12)
+S1 Li1 S1 . . 6_555 87.88(13)
+S1 Li1 S2 . . . 89.09(11)
+S1 Li1 S2 . . 1_565 175.15(15)
+S1 Li1 S3 . . . 91.15(13)
+S1 Li1 S1 1_565 . 6_555 87.88(13)
+S1 Li1 S2 1_565 . . 175.15(15)
+S1 Li1 S2 1_565 . 1_565 89.09(11)
+S1 Li1 S3 1_565 . . 91.15(13)
+S1 Li1 S2 6_555 . . 87.80(13)
+S1 Li1 S2 6_555 . 1_565 87.80(13)
+S1 Li1 S3 6_555 . . 178.64(16)
+S2 Li1 S2 . . 1_565 92.95(13)
+S2 Li1 S3 . . . 93.14(13)
+S2 Li1 S3 1_565 . . 93.14(13)
+S1 Bi2 S2 . . 5_545 84.22(13)
+S1 Bi2 S2 . . 5_555 84.22(13)
+S1 Bi2 S3 . . 1_545 88.47(13)
+S1 Bi2 S3 . . . 88.47(13)
+S1 Bi2 S4 . . 5_545 176.97(16)
+S2 Bi2 S2 5_545 . 5_555 86.15(11)
+S2 Bi2 S3 5_545 . 1_545 89.59(10)
+S2 Bi2 S3 5_545 . . 171.87(15)
+S2 Bi2 S4 5_545 . 5_545 93.58(13)
+S2 Bi2 S3 5_555 . 1_545 171.87(15)
+S2 Bi2 S3 5_555 . . 89.59(10)
+S2 Bi2 S4 5_555 . 5_545 93.58(13)
+S3 Bi2 S3 1_545 . . 93.76(11)
+S3 Bi2 S4 1_545 . 5_545 93.60(12)
+S3 Bi2 S4 . . 5_545 93.60(12)
+S1 Li2 S2 . . 5_545 84.22(13)
+S1 Li2 S2 . . 5_555 84.22(13)
+S1 Li2 S3 . . 1_545 88.47(13)
+S1 Li2 S3 . . . 88.47(13)
+S1 Li2 S4 . . 5_545 176.97(16)
+S2 Li2 S2 5_545 . 5_555 86.15(11)
+S2 Li2 S3 5_545 . 1_545 89.59(10)
+S2 Li2 S3 5_545 . . 171.87(15)
+S2 Li2 S4 5_545 . 5_545 93.58(13)
+S2 Li2 S3 5_555 . 1_545 171.87(15)
+S2 Li2 S3 5_555 . . 89.59(10)
+S2 Li2 S4 5_555 . 5_545 93.58(13)
+S3 Li2 S3 1_545 . . 93.76(11)
+S3 Li2 S4 1_545 . 5_545 93.60(12)
+S3 Li2 S4 . . 5_545 93.60(12)
+S3 Bi3 S3 1_545 . . 70.43(7)
+S3 Bi3 S4 1_545 . 1_545 80.23(10)
+S3 Bi3 S4 1_545 . . 131.47(13)
+S3 Bi3 S5 1_545 . 1_545 64.10(9)
+S3 Bi3 S5 1_545 . . 110.78(10)
+S3 Bi3 S5 1_545 . 6_546 142.06(7)
+S3 Bi3 S4 . . 1_545 131.47(13)
+S3 Bi3 S4 . . . 80.23(10)
+S3 Bi3 S5 . . 1_545 110.78(10)
+S3 Bi3 S5 . . . 64.10(9)
+S3 Bi3 S5 . . 6_546 142.06(7)
+S4 Bi3 S4 1_545 . . 92.34(9)
+S4 Bi3 S5 1_545 . 1_545 88.41(8)
+S4 Bi3 S5 1_545 . . 164.29(13)
+S4 Bi3 S5 1_545 . 6_546 82.63(12)
+S4 Bi3 S5 . . 1_545 164.29(13)
+S4 Bi3 S5 . . . 88.41(8)
+S4 Bi3 S5 . . 6_546 82.63(12)
+S5 Bi3 S5 1_545 . . 86.70(8)
+S5 Bi3 S5 1_545 . 6_546 81.91(10)
+S5 Bi3 S5 . . 6_546 81.91(10)
+S1 Bi4 S1 5_445 . 5_455 91.30(11)
+S1 Bi4 S1 5_445 . 6_545 88.70(11)
+S1 Bi4 S1 5_445 . 6_555 180.0(5)
+S1 Bi4 S2 5_445 . . 89.32(13)
+S1 Bi4 S2 5_445 . 2_555 90.68(13)
+S1 Bi4 S1 5_455 . 6_545 180.0(5)
+S1 Bi4 S1 5_455 . 6_555 88.70(11)
+S1 Bi4 S2 5_455 . . 89.32(13)
+S1 Bi4 S2 5_455 . 2_555 90.68(13)
+S1 Bi4 S1 6_545 . 6_555 91.30(11)
+S1 Bi4 S2 6_545 . . 90.68(13)
+S1 Bi4 S2 6_545 . 2_555 89.32(13)
+S1 Bi4 S2 6_555 . . 90.68(13)
+S1 Bi4 S2 6_555 . 2_555 89.32(13)
+S2 Bi4 S2 . . 2_555 180.0(5)
+S1 Li4 S1 5_445 . 5_455 91.30(11)
+S1 Li4 S1 5_445 . 6_545 88.70(11)
+S1 Li4 S1 5_445 . 6_555 180.0(5)
+S1 Li4 S2 5_445 . . 89.32(13)
+S1 Li4 S2 5_445 . 2_555 90.68(13)
+S1 Li4 S1 5_455 . 6_545 180.0(5)
+S1 Li4 S1 5_455 . 6_555 88.70(11)
+S1 Li4 S2 5_455 . . 89.32(13)
+S1 Li4 S2 5_455 . 2_555 90.68(13)
+S1 Li4 S1 6_545 . 6_555 91.30(11)
+S1 Li4 S2 6_545 . . 90.68(13)
+S1 Li4 S2 6_545 . 2_555 89.32(13)
+S1 Li4 S2 6_555 . . 90.68(13)
+S1 Li4 S2 6_555 . 2_555 89.32(13)
+S2 Li4 S2 . . 2_555 180.0(5)
+S4 Bi5 S4 . . 2_556 180.0(5)
+S4 Bi5 S5 . . 5_445 96.25(9)
+S4 Bi5 S5 . . 5_455 96.25(9)
+S4 Bi5 S5 . . 6_546 83.75(9)
+S4 Bi5 S5 . . 6_556 83.75(9)
+S4 Bi5 S5 2_556 . 5_445 83.75(9)
+S4 Bi5 S5 2_556 . 5_455 83.75(9)
+S4 Bi5 S5 2_556 . 6_546 96.25(9)
+S4 Bi5 S5 2_556 . 6_556 96.25(9)
+S5 Bi5 S5 5_445 . 5_455 91.10(8)
+S5 Bi5 S5 5_445 . 6_546 88.90(8)
+S5 Bi5 S5 5_445 . 6_556 180.0(5)
+S5 Bi5 S5 5_455 . 6_546 180.0(5)
+S5 Bi5 S5 5_455 . 6_556 88.90(8)
+S5 Bi5 S5 6_546 . 6_556 91.10(8)
+S4 Li5 S4 . . 2_556 180.0(5)
+S4 Li5 S5 . . 5_445 96.25(9)
+S4 Li5 S5 . . 5_455 96.25(9)
+S4 Li5 S5 . . 6_546 83.75(9)
+S4 Li5 S5 . . 6_556 83.75(9)
+S4 Li5 S5 2_556 . 5_445 83.75(9)
+S4 Li5 S5 2_556 . 5_455 83.75(9)
+S4 Li5 S5 2_556 . 6_546 96.25(9)
+S4 Li5 S5 2_556 . 6_556 96.25(9)
+S5 Li5 S5 5_445 . 5_455 91.10(8)
+S5 Li5 S5 5_445 . 6_546 88.90(8)
+S5 Li5 S5 5_445 . 6_556 180.0(5)
+S5 Li5 S5 5_455 . 6_546 180.0(5)
+S5 Li5 S5 5_455 . 6_556 88.90(8)
+S5 Li5 S5 6_546 . 6_556 91.10(8)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Bi1 S1 . . 2.865(4)
+Bi1 S1 . 1_565 2.865(4)
+Bi1 S1 . 6_555 2.984(5)
+Bi1 S2 . . 2.759(4)
+Bi1 S2 . 1_565 2.759(4)
+Bi1 S3 . . 2.689(5)
+Li1 S1 . . 2.865(4)
+Li1 S1 . 1_565 2.865(4)
+Li1 S1 . 6_555 2.984(5)
+Li1 S2 . . 2.759(4)
+Li1 S2 . 1_565 2.759(4)
+Li1 S3 . . 2.689(5)
+Bi2 S1 . . 2.945(5)
+Bi2 S2 . 5_545 2.929(4)
+Bi2 S2 . 5_555 2.929(4)
+Bi2 S3 . 1_545 2.740(3)
+Bi2 S3 . . 2.740(3)
+Bi2 S4 . 5_545 2.628(5)
+Li2 S1 . . 2.945(5)
+Li2 S2 . 5_545 2.929(4)
+Li2 S2 . 5_555 2.929(4)
+Li2 S3 . 1_545 2.740(3)
+Li2 S3 . . 2.740(3)
+Li2 S4 . 5_545 2.628(5)
+Bi3 S3 . 1_545 3.469(4)
+Bi3 S3 . . 3.469(4)
+Bi3 S4 . 1_545 2.773(3)
+Bi3 S4 . . 2.773(3)
+Bi3 S5 . 1_545 2.914(3)
+Bi3 S5 . . 2.914(3)
+Bi3 S5 . 6_546 2.597(4)
+Bi4 S1 . 5_445 2.797(4)
+Bi4 S1 . 5_455 2.797(4)
+Bi4 S1 . 6_545 2.797(4)
+Bi4 S1 . 6_555 2.797(4)
+Bi4 S2 . . 2.806(5)
+Bi4 S2 . 2_555 2.806(5)
+Li4 S1 . 5_445 2.797(4)
+Li4 S1 . 5_455 2.797(4)
+Li4 S1 . 6_545 2.797(4)
+Li4 S1 . 6_555 2.797(4)
+Li4 S2 . . 2.806(5)
+Li4 S2 . 2_555 2.806(5)
+Bi5 S4 . . 2.502(5)
+Bi5 S4 . 2_556 2.502(5)
+Bi5 S5 . 5_445 2.802(3)
+Bi5 S5 . 5_455 2.802(3)
+Bi5 S5 . 6_546 2.802(3)
+Bi5 S5 . 6_556 2.802(3)
+Li5 S4 . . 2.502(5)
+Li5 S4 . 2_556 2.502(5)
+Li5 S5 . 5_445 2.802(3)
+Li5 S5 . 5_455 2.802(3)
+Li5 S5 . 6_546 2.802(3)
+Li5 S5 . 6_556 2.802(3)
+loop_
+_restr_parameter_id
+_restr_parameter_class_id
+_restr_parameter_atom_site_label
+_restr_parameter_atom_coefficient
+1 1 Bi1 1
+2 1 Bi2 1
+3 1 Bi4 1
+4 1 Bi5 1
+loop_
+_restr_parameter_class_class_id
+_restr_parameter_class_parameter_type
+_restr_parameter_class_target
+_restr_parameter_class_target_weight_param
+_restr_parameter_class_details
+1 occupancy 1.000000 0.000001 'refined Bi occupation 1.0'

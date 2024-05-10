@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/05/9000522.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000522
+loop_
+_publ_author_name
+'Hill, R. J.'
+'Jones, J. B.'
+_publ_section_title
+;
+ The crystal structure of hopeite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              987
+_journal_page_last               995
+_journal_volume                  61
+_journal_year                    1976
+_chemical_formula_sum            'H10 O12 P2 Zn3'
+_chemical_name_mineral           Hopeite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.597
+_cell_length_b                   18.318
+_cell_length_c                   5.031
+_cell_volume                     976.597
+_database_code_amcsd             0000533
+_exptl_crystal_density_diffrn    3.130
+_cod_original_formula_sum        'Zn3 P2 (O12 H10)'
+_cod_database_code               9000522
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+1/2+x,y,1/2-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 0.01485 0.02193 0.01353 0.00000 -0.00103 0.00000
+Zn2 0.01246 0.01666 0.01137 -0.00030 -0.00003 -0.00070
+P 0.01468 0.01224 0.01195 0.00108 -0.00054 0.00079
+Wat1 0.02048 0.03060 0.01782 0.00000 -0.00216 0.00000
+Wat2 0.01593 0.04760 0.02282 0.00000 0.00486 0.00000
+Wat3 0.02560 0.02720 0.03424 0.00688 0.00405 0.00187
+O4 0.03129 0.01700 0.01859 -0.00787 -0.00729 0.00280
+O5 0.05348 0.02210 0.01500 0.01180 -0.00621 -0.00420
+O6 0.01479 0.01870 0.03321 -0.00295 0.00270 -0.00467
+OH7 0.01650 0.02380 0.01539 0.00590 -0.00378 -0.00514
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn1 0.26365 0.25000 0.07280 Zn 0
+Zn2 0.14273 0.49915 0.20780 Zn 0
+P 0.39710 0.40580 0.22561 P 0
+Wat1 0.10650 0.75000 0.25790 O 2
+Wat2 0.11430 0.25000 0.34800 O 2
+Wat3 0.33670 0.66950 0.33720 O 2
+O4 0.35990 0.32750 0.28380 O 0
+O5 0.10030 0.57950 0.42830 O 0
+O6 0.02500 0.42170 0.14330 O 0
+O-H7 0.30130 0.45970 0.35970 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000533

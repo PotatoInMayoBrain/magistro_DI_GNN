@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/45/9004504.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004504
+loop_
+_publ_author_name
+'Grice, J. D.'
+'Gault, R. A.'
+_publ_section_title
+;
+ Thomasclarkite-(Y), a new sodium - rare-earth-element bicarbonate mineral
+ species from Mont Saint-Hilaire, Quebec
+ Note: z-coodinate for OH2 changed.
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1293
+_journal_page_last               1300
+_journal_volume                  36
+_journal_year                    1998
+_chemical_compound_source        'Mont Saint-Hilaire, Quebec, Canada'
+_chemical_formula_sum            'C H15 Na O12 Y'
+_chemical_name_mineral           Thomasclarkite-(Y)
+_space_group_IT_number           3
+_symmetry_space_group_name_Hall  'P 2y'
+_symmetry_space_group_name_H-M   'P 1 2 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.15
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   4.556
+_cell_length_b                   13.018
+_cell_length_c                   4.556
+_cell_volume                     270.215
+_database_code_amcsd             0005579
+_exptl_crystal_density_diffrn    1.984
+_cod_original_formula_sum        'Na Y C O12 H15'
+_cod_database_code               9004504
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00000 0.31900 0.00000 0.04300 Na 0
+Y 0.00000 0.00000 0.00000 0.02090 Y 0
+C 0.00000 0.78190 0.00000 0.03100 C 0
+O1 0.81400 0.83200 0.20400 0.04900 O 0
+O-H2 0.00000 0.68060 0.00000 0.02700 O 1
+O-H3 0.16900 0.16730 0.21000 0.04800 O 1
+O-H4 0.19900 -0.03800 0.50000 0.03200 O 1
+Wat5 0.20500 0.39110 0.49900 0.05700 O 2
+Wat6 0.82400 0.60800 0.48700 0.06800 O 2
+Wat7 0.50000 0.04770 0.50000 0.04200 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:09+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005579

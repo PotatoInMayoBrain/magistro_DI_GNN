@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-21 11:37:04 +0300 (Sun, 21 May 2023) $
+#$Revision: 283911 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/61/9006151.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9006151
+loop_
+_publ_author_name
+'Kudoh, Y.'
+'Finger, L. W.'
+'Hazen, R. M.'
+'Prewitt, C. T.'
+'Kanzaki, M.'
+'Veblen, D. R.'
+_publ_section_title
+;
+ Phase E: A high pressure hydrous silicate with unique
+ crystal chemistry
+ Sample: 2
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              357
+_journal_page_last               360
+_journal_volume                  19
+_journal_year                    1993
+_chemical_formula_sum            'H0.603 Mg0.361 O Si0.169'
+_chemical_name_mineral           Phase-E
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   2.9853
+_cell_length_b                   2.9853
+_cell_length_c                   13.9482
+_cell_volume                     107.653
+_database_code_amcsd             0007733
+_exptl_crystal_density_diffrn    2.789
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'Mg.361 Si.169 O H.603'
+_cod_database_code               9006151
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+y,x,-z
+2/3+y,1/3+x,1/3-z
+1/3+y,2/3+x,2/3-z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-x,-x+y,-z
+2/3-x,1/3-x+y,1/3-z
+1/3-x,2/3-x+y,2/3-z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+x-y,-y,-z
+2/3+x-y,1/3-y,1/3-z
+1/3+x-y,2/3-y,2/3-z
+y,-x+y,-z
+2/3+y,1/3-x+y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+-x,-y,-z
+2/3-x,1/3-y,1/3-z
+1/3-x,2/3-y,2/3-z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+x-y,x,-z
+2/3+x-y,1/3+x,1/3-z
+1/3+x-y,2/3+x,2/3-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg1 0.00000 0.00000 0.00000 0.68700 0.01950 Mg 0
+Mg2 0.00000 0.00000 0.50000 0.03600 0.01950 Mg 0
+Si 0.00000 0.00000 0.13000 0.16900 0.01305 Si 0
+O 0.00000 0.00000 0.25030 0.39700 0.02913 O 0
+O-H 0.00000 0.00000 0.25030 0.60300 0.02913 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-21T08:53:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007733

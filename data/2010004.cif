@@ -1,0 +1,172 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-14 20:01:49 +0300 (Wed, 14 Sep 2022) $
+#$Revision: 277836 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/00/2010004.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010004
+loop_
+_publ_author_name
+'Valkonen, J.'
+_publ_section_title
+;
+ Cadmium diselenite and cadmium hydrogenselenite selenite
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1381
+_journal_page_last               1384
+_journal_paper_doi               10.1107/S010827019301128X
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'Cd O5 Se2'
+_chemical_formula_weight         350.32
+_space_group_IT_number           15
+_space_group_name_Hall           '-C 2yc'
+_space_group_name_H-M_alt        'C 1 2/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 119.38(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   8.024(3)
+_cell_length_b                   11.3190(10)
+_cell_length_c                   6.0200(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      13.96
+_cell_measurement_theta_min      7.77
+_cell_volume                     476.4(2)
+_diffrn_measurement_device       'Enarf-Nonius CAD-4'
+_diffrn_measurement_method       2\q/\w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            1756
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        <2
+_diffrn_standards_interval_time  30
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    19.62
+_exptl_absorpt_correction_T_max  1.323
+_exptl_absorpt_correction_T_min  0.810
+_exptl_absorpt_correction_type   ' empirical, DIFABS (Walker & Stuart, 1983)'
+_exptl_crystal_colour            White
+_exptl_crystal_density_diffrn    4.88
+_exptl_crystal_description       prism
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         1.93
+_refine_diff_density_min         -1.74
+_refine_ls_extinction_coef       g=1.8E-8
+_refine_ls_extinction_method     ' |F~c~|=|F~o~|(1+gI~c~) Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   2.28
+_refine_ls_number_parameters     39
+_refine_ls_number_reflns         1252
+_refine_ls_R_factor_obs          2.8
+_refine_ls_shift/esd_max         0.005
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_obs         3.3
+_reflns_number_observed          1252
+_reflns_number_total             1756
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            ab1079.cif
+_cod_data_source_block           ab1079a
+_cod_depositor_comments
+;
+
+    Adding symmetry operators
+        1/2-x,1/2+y,1/2-z
+        1/2+x,1/2-y,1/2+z
+    to the list given in _symmetry_equiv_pos_as_xyz, because:
+
+    a) Updated list of symmetry operators forms a full group of symmetry
+       operators of spacegroup 'C 1 2/c 1';
+
+    b) Calculated summary chemical formula is now the same as given by
+       the authors of publication.
+
+    Andrius Merkys
+    2014-07-01
+
+;
+_cod_original_cell_volume        476.5(2)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Cd1 O5 Se2'
+_cod_database_code               2010004
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+x,-y,1/2+z
+-x,+y,-1/2-z
+1/2+x,1/2+y,z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cd .000 .58867(3) .250 .00284(3)
+Se .14441(5) .14053(3) .61859(6) .00314(3)
+O(1) .1978(4) .2774(3) .7229(6) .0045(3)
+O(2) .3396(4) .0647(3) .8175(5) .0043(3)
+O(3) .000 .0865(5) .750 .0111(6)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Cd O(1) 95.60(10) no
+O(1) Cd O(2) 98.00(10) no
+O(1) Cd O(2) 171.20(10) no
+O(1) Cd O(2) 91.20(10) no
+O(1) Cd O(2) 91.10(10) no
+O(1) Cd O(2) 91.20(10) no
+O(1) Cd O(2) 91.10(10) no
+O(1) Cd O(2) 98.00(10) no
+O(1) Cd O(2) 171.20(10) no
+O(2) Cd O(2) 76.20(10) no
+O(2) Cd O(2) 166.30(10) no
+O(2) Cd O(2) 93.40(10) no
+O(2) Cd O(2) 93.40(10) no
+O(2) Cd O(2) 82.70(10) no
+O(2) Cd O(2) 76.20(10) no
+O(1) Se O(2) 103.50(10) no
+O(1) Se O(3) 104.8(2) no
+O(2) Se O(3) 95.1(2) no
+Se O(3) Se 140.3(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cd O(1) 2_566 2.258(3) yes
+Cd O(2) 5_454 2.285(3) yes
+Cd O(2) 6_556 2.313(3) yes
+Se O(1) . 1.647(3) yes
+Se O(2) . 1.668(3) yes
+Se O(3) . 1.801(2) yes

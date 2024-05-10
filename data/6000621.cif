@@ -1,0 +1,326 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-15 12:05:42 +0300 (Thu, 15 Sep 2022) $
+#$Revision: 277869 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/6/00/06/6000621.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000621
+loop_
+_publ_author_name
+'Malin Olofsson'
+'Mikael Kritikos'
+'Dag Nor\'eus'
+_publ_section_title
+;
+ The first trigonal planar transition metal-hydrogen complex in NaBaPdH3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2900
+_journal_page_last               2902
+_journal_paper_doi               10.1021/ic971386q
+_journal_volume                  37
+_journal_year                    1998
+_chemical_formula_sum            'Ba H3 Na Pd'
+_space_group_IT_number           194
+_space_group_name_Hall           '-P 6c 2c'
+_space_group_name_H-M_alt        'P 63/m m c'
+_symmetry_cell_setting           hexagonal
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.000
+_cell_angle_beta                 90.000
+_cell_angle_gamma                120.000
+_cell_formula_units_Z            2
+_cell_length_a                   6.048(1)
+_cell_length_b                   6.048(1)
+_cell_length_c                   6.061(2)
+_cell_measurement_reflns_used    30
+_cell_measurement_temperature    150(1)
+_cell_measurement_theta_max      41.3
+_cell_measurement_theta_min      36.1
+_cell_volume                     192.0(1)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_measurement_device       'STOE 4-circle'
+_diffrn_measurement_method       \w--2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoKa
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0355
+_diffrn_reflns_av_sigmaI/netI    0.0140
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            1134
+_diffrn_reflns_theta_max         34.75
+_diffrn_reflns_theta_min         3.89
+_diffrn_standards_decay_%        6.2
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         4
+_exptl_absorpt_coefficient_mu    14.666
+_exptl_absorpt_correction_T_max  0.1909
+_exptl_absorpt_correction_T_min  0.1187
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            darkred
+_exptl_crystal_density_diffrn    4.650
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             232
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.27
+_exptl_crystal_size_min          0.22
+_refine_diff_density_max         1.15
+_refine_diff_density_min         -2.24
+_refine_diff_density_rms         0.29
+_refine_ls_extinction_coef       .098(5)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.254
+_refine_ls_goodness_of_fit_obs   1.248
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         187
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.254
+_refine_ls_restrained_S_obs      1.248
+_refine_ls_R_factor_all          0.0221
+_refine_ls_R_factor_obs          0.0197
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[s^2^(Fo^2^)+( 0.0281P)^2^+0.0153P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0421
+_refine_ls_wR_factor_obs         0.0400
+_reflns_number_gt                171
+_reflns_number_total             187
+_reflns_observed_criterion       >2sigma(I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w=1/[s^2^(Fo^2^)+(
+0.0281P)^2^+0.0153P] where P=(Fo^2^+2Fc^2^)/3' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w=1/[s^2^(Fo^2^)+( 0.0281P)^2^+0.0153P] where
+P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               6000621
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-y, -x, z'
+'x, x-y, z'
+'-x+y, y, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'y, x, z+1/2'
+'-x, -x+y, z+1/2'
+'x-y, -y, z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'y, x, -z'
+'-x, -x+y, -z'
+'x-y, -y, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+'-y, -x, -z-1/2'
+'x, x-y, -z-1/2'
+'-x+y, y, -z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.0038(3) 0.0038(3) 0.0058(5) 0.000 0.000 0.0019(2)
+Pd1 0.0068(4) 0.0068(4) 0.0060(6) 0.000 0.000 0.0034(2)
+Na1 0.016(3) 0.016(3) 0.020(6) 0.000 0.000 0.008(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Ba1 Ba 0.6667 0.3333 0.2500 0.0045(3) Uani 1 d S .
+Pd1 Pd 0.3333 0.6667 0.2500 0.0066(3) Uani 1 d S .
+Na1 Na 1.0000 0.0000 0.0000 0.018(2) Uani 1 d S .
+H1 H 0.1563(188) 0.3125(375) 0.2500 0.026(33) Uiso 1 d S .
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Pd1 Ba1 Pd1 180.0 13_666 13_665 ?
+Pd1 Ba1 Pd1 90.0 13_666 1_545 ?
+Pd1 Ba1 Pd1 90.0 13_665 1_545 ?
+Pd1 Ba1 Pd1 90.0 13_666 1_655 ?
+Pd1 Ba1 Pd1 90.0 13_665 1_655 ?
+Pd1 Ba1 Pd1 120.0 1_545 1_655 ?
+Pd1 Ba1 Pd1 90.0 13_666 . ?
+Pd1 Ba1 Pd1 90.0 13_665 . ?
+Pd1 Ba1 Pd1 120.0 1_545 . ?
+Pd1 Ba1 Pd1 120.0 1_655 . ?
+Pd1 Ba1 Na1 113.477(7) 13_666 . ?
+Pd1 Ba1 Na1 66.522(7) 13_665 . ?
+Pd1 Ba1 Na1 62.703(1) 1_545 . ?
+Pd1 Ba1 Na1 62.703(2) 1_655 . ?
+Pd1 Ba1 Na1 156.522(7) . . ?
+Pd1 Ba1 Na1 66.522(8) 13_666 7_755 ?
+Pd1 Ba1 Na1 113.477(7) 13_665 7_755 ?
+Pd1 Ba1 Na1 62.703(2) 1_545 7_755 ?
+Pd1 Ba1 Na1 62.703(2) 1_655 7_755 ?
+Pd1 Ba1 Na1 156.522(7) . 7_755 ?
+Na1 Ba1 Na1 46.96(2) . 7_755 ?
+Pd1 Ba1 Na1 113.478(8) 13_666 1_455 ?
+Pd1 Ba1 Na1 66.523(7) 13_665 1_455 ?
+Pd1 Ba1 Na1 62.703(2) 1_545 1_455 ?
+Pd1 Ba1 Na1 156.522(7) 1_655 1_455 ?
+Pd1 Ba1 Na1 62.703(2) . 1_455 ?
+Na1 Ba1 Na1 105.184(9) . 1_455 ?
+Na1 Ba1 Na1 125.405(4) 7_755 1_455 ?
+Pd1 Ba1 Na1 66.523(8) 13_666 7_655 ?
+Pd1 Ba1 Na1 113.478(8) 13_665 7_655 ?
+Pd1 Ba1 Na1 62.703(1) 1_545 7_655 ?
+Pd1 Ba1 Na1 156.522(7) 1_655 7_655 ?
+Pd1 Ba1 Na1 62.703(1) . 7_655 ?
+Na1 Ba1 Na1 125.405(3) . 7_655 ?
+Na1 Ba1 Na1 105.184(9) 7_755 7_655 ?
+Na1 Ba1 Na1 46.96(2) 1_455 7_655 ?
+Pd1 Ba1 Na1 66.522(7) 13_666 7_765 ?
+Pd1 Ba1 Na1 113.478(8) 13_665 7_765 ?
+Pd1 Ba1 Na1 156.522(7) 1_545 7_765 ?
+Pd1 Ba1 Na1 62.702(2) 1_655 7_765 ?
+Pd1 Ba1 Na1 62.703(2) . 7_765 ?
+Na1 Ba1 Na1 125.405(4) . 7_765 ?
+Na1 Ba1 Na1 105.184(9) 7_755 7_765 ?
+Na1 Ba1 Na1 125.406(3) 1_455 7_765 ?
+Na1 Ba1 Na1 105.185(9) 7_655 7_765 ?
+Pd1 Ba1 Na1 113.478(7) 13_666 1_565 ?
+Pd1 Ba1 Na1 66.522(8) 13_665 1_565 ?
+Pd1 Ba1 Na1 156.522(7) 1_545 1_565 ?
+Pd1 Ba1 Na1 62.702(1) 1_655 1_565 ?
+Pd1 Ba1 Na1 62.703(2) . 1_565 ?
+Na1 Ba1 Na1 105.184(9) . 1_565 ?
+Na1 Ba1 Na1 125.405(3) 7_755 1_565 ?
+Na1 Ba1 Na1 105.185(9) 1_455 1_565 ?
+Na1 Ba1 Na1 125.406(4) 7_655 1_565 ?
+Na1 Ba1 Na1 46.96(2) 7_765 1_565 ?
+Pd1 Ba1 Ba1 130.981(10) 13_666 13_655 ?
+Pd1 Ba1 Ba1 49.019(11) 13_665 13_655 ?
+Pd1 Ba1 Ba1 40.981(10) 1_545 13_655 ?
+Pd1 Ba1 Ba1 112.177(4) 1_655 13_655 ?
+Pd1 Ba1 Ba1 112.177(4) . 13_655 ?
+Na1 Ba1 Ba1 52.592(4) . 13_655 ?
+Na1 Ba1 Ba1 85.127(12) 7_755 13_655 ?
+Na1 Ba1 Ba1 52.592(4) 1_455 13_655 ?
+Na1 Ba1 Ba1 85.127(12) 7_655 13_655 ?
+Na1 Ba1 Ba1 162.497(3) 7_765 13_655 ?
+Na1 Ba1 Ba1 115.54(2) 1_565 13_655 ?
+Ba1 Pd1 Ba1 180.0 13_666 13_665 ?
+Ba1 Pd1 Ba1 90.0 13_666 1_455 ?
+Ba1 Pd1 Ba1 90.0 13_665 1_455 ?
+Ba1 Pd1 Ba1 90.0 13_666 1_565 ?
+Ba1 Pd1 Ba1 90.0 13_665 1_565 ?
+Ba1 Pd1 Ba1 120.0 1_455 1_565 ?
+Ba1 Pd1 Ba1 90.0 13_666 . ?
+Ba1 Pd1 Ba1 90.0 13_665 . ?
+Ba1 Pd1 Ba1 120.0 1_455 . ?
+Ba1 Pd1 Ba1 120.0 1_565 . ?
+Na1 Na1 Na1 180.0 7_755 7_754 ?
+Na1 Na1 Ba1 113.478(7) 7_755 13_755 ?
+Na1 Na1 Ba1 66.522(7) 7_754 13_755 ?
+Na1 Na1 Ba1 66.522(7) 7_755 . ?
+Na1 Na1 Ba1 113.478(7) 7_754 . ?
+Ba1 Na1 Ba1 180.0 13_755 . ?
+Na1 Na1 Ba1 113.478(8) 7_755 13_655 ?
+Na1 Na1 Ba1 66.522(7) 7_754 13_655 ?
+Ba1 Na1 Ba1 105.184(9) 13_755 13_655 ?
+Ba1 Na1 Ba1 74.816(9) . 13_655 ?
+Na1 Na1 Ba1 66.522(8) 7_755 1_545 ?
+Na1 Na1 Ba1 113.478(8) 7_754 1_545 ?
+Ba1 Na1 Ba1 74.815(9) 13_755 1_545 ?
+Ba1 Na1 Ba1 105.185(9) . 1_545 ?
+Ba1 Na1 Ba1 74.816(9) 13_655 1_545 ?
+Na1 Na1 Ba1 113.478(8) 7_755 13_765 ?
+Na1 Na1 Ba1 66.522(8) 7_754 13_765 ?
+Ba1 Na1 Ba1 105.184(9) 13_755 13_765 ?
+Ba1 Na1 Ba1 74.816(9) . 13_765 ?
+Ba1 Na1 Ba1 105.184(9) 13_655 13_765 ?
+Ba1 Na1 Ba1 180.0 1_545 13_765 ?
+Na1 Na1 Ba1 66.522(8) 7_755 1_655 ?
+Na1 Na1 Ba1 113.477(7) 7_754 1_655 ?
+Ba1 Na1 Ba1 74.815(9) 13_755 1_655 ?
+Ba1 Na1 Ba1 105.185(9) . 1_655 ?
+Ba1 Na1 Ba1 180.0 13_655 1_655 ?
+Ba1 Na1 Ba1 105.184(9) 1_545 1_655 ?
+Ba1 Na1 Ba1 74.816(9) 13_765 1_655 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ba1 Pd1 3.0359(10) 13_666 ?
+Ba1 Pd1 3.0358(10) 13_665 ?
+Ba1 Pd1 3.4947(6) 1_545 ?
+Ba1 Pd1 3.4947(6) 1_655 ?
+Ba1 Pd1 3.4947(6) . ?
+Ba1 Na1 3.8101(6) . ?
+Ba1 Na1 3.8101(6) 7_755 ?
+Ba1 Na1 3.8101(6) 1_455 ?
+Ba1 Na1 3.8101(6) 7_655 ?
+Ba1 Na1 3.8101(6) 7_765 ?
+Ba1 Na1 3.8101(6) 1_565 ?
+Ba1 Ba1 4.6292(8) 13_655 ?
+Pd1 Ba1 3.0359(10) 13_666 ?
+Pd1 Ba1 3.0358(10) 13_665 ?
+Pd1 Ba1 3.4947(6) 1_455 ?
+Pd1 Ba1 3.4947(6) 1_565 ?
+Na1 Na1 3.0358(10) 7_755 ?
+Na1 Na1 3.0358(10) 7_754 ?
+Na1 Ba1 3.8101(6) 13_755 ?
+Na1 Ba1 3.8101(6) 13_655 ?
+Na1 Ba1 3.8101(6) 1_545 ?
+Na1 Ba1 3.8101(6) 13_765 ?
+Na1 Ba1 3.8101(6) 1_655 ?

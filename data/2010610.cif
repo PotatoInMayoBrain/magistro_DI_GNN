@@ -1,0 +1,647 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/06/2010610.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010610
+loop_
+_publ_author_name
+'Wang, Meitian'
+'Mar, Arthur'
+_publ_section_title
+;
+ High-temperature LaAs~2~
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              138
+_journal_page_last               139
+_journal_paper_doi               10.1107/S0108270199015553
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         'LaAs2 '
+_chemical_formula_sum            'As2 La'
+_chemical_formula_weight         288.75
+_chemical_name_systematic        'Lanthanum diarsenide'
+_space_group_IT_number           9
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 134.83(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            16
+_cell_length_a                   12.864(3)
+_cell_length_b                   14.422(3)
+_cell_length_c                   9.0830(18)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      15.06
+_cell_measurement_theta_min      11.12
+_cell_volume                     1195.1(8)
+_computing_cell_refinement       CAD4/PC
+_computing_data_collection       'CAD4/PC  (Enraf-Nonius, 1992)'
+_computing_data_reduction        'XCAD4 (Harms & Wocadlo, 1996)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1997) '
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Sheldrick, 1997)'
+_diffrn_ambient_temperature      295(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Enraf-Nonius CAD4'
+_diffrn_measurement_method       \q--2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0770
+_diffrn_reflns_av_sigmaI/netI    .0925
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       -20
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            6855
+_diffrn_reflns_theta_full        29.97
+_diffrn_reflns_theta_max         29.97
+_diffrn_reflns_theta_min         2.64
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  250
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    35.931
+_exptl_absorpt_correction_T_max  .5335
+_exptl_absorpt_correction_T_min  .0524
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   '(SHELXTL; Sheldrick, 1997)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.419
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             1968
+_exptl_crystal_size_max          .20
+_exptl_crystal_size_mid          .03
+_exptl_crystal_size_min          .02
+_refine_diff_density_max         2.496
+_refine_diff_density_min         -2.230
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   .03(4)
+_refine_ls_extinction_coef       .00045(3)
+_refine_ls_extinction_method     'SHELXTL (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.010
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     110
+_refine_ls_number_reflns         3494
+_refine_ls_number_restraints     2
+_refine_ls_restrained_S_all      1.010
+_refine_ls_R_factor_all          .0604
+_refine_ls_R_factor_gt           .0477
+_refine_ls_shift/su_max          .001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0331P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .1036
+_reflns_number_gt                2990
+_reflns_number_total             3494
+_reflns_threshold_expression     F^2^>2\s(F^2^)
+_cod_data_source_file            br1274.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        1195.2(4)
+_cod_original_sg_symbol_H-M      'C c'
+_cod_database_code               2010610
+_cod_database_fobs_code          2010610
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y, z+1/2'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+La1 .20913(10) .45944(7) .07692(14) .0075(2) Uani d . 1 . . La
+La2 .31390(10) .04212(7) .38156(14) .00727(19) Uani d . 1 . . La
+La3 .39355(11) .27908(7) .68047(15) .00710(19) Uani d . 1 . . La
+La4 .59953(10) .30229(7) .28369(14) .0078(2) Uani d . 1 . . La
+As1 .0002(2) .12726(13) .0001(3) .0091(4) Uani d . 1 . . As
+As2 .0209(2) .02337(12) .2495(3) .0100(4) Uani d . 1 . . As
+As3 .1048(2) .37244(14) .2733(3) .0089(4) Uani d . 1 . . As
+As4 .18993(19) .11817(14) .5662(3) .0076(4) Uani d . 1 . . As
+As5 .2010(2) .24884(13) .2091(3) .0105(4) Uani d . 1 . . As
+As6 .2907(2) .62784(15) .3638(3) .0100(4) Uani d . 1 . . As
+As7 .41172(19) .12441(14) .1747(3) .0089(4) Uani d . 1 . . As
+As8 .5272(2) .12585(12) .0398(3) .0086(4) Uani d . 1 . . As
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+La1 .0087(4) .0061(4) .0104(5) -.0001(4) .0078(4) -.0006(4)
+La2 .0074(4) .0060(4) .0098(5) .0003(4) .0066(4) .0000(4)
+La3 .0096(4) .0048(4) .0085(4) -.0003(4) .0070(4) -.0007(4)
+La4 .0104(4) .0060(4) .0090(5) -.0002(4) .0076(4) -.0003(4)
+As1 .0098(8) .0112(9) .0087(9) -.0024(7) .0074(8) -.0017(7)
+As2 .0101(8) .0068(8) .0152(9) .0014(7) .0096(8) .0008(7)
+As3 .0100(8) .0074(8) .0100(8) .0003(7) .0074(7) -.0005(7)
+As4 .0093(9) .0065(7) .0094(8) -.0012(7) .0074(8) -.0004(7)
+As5 .0161(9) .0078(8) .0118(8) .0035(7) .0113(8) .0024(7)
+As6 .0108(9) .0103(8) .0115(9) -.0016(6) .0088(8) -.0007(7)
+As7 .0092(9) .0092(9) .0103(8) .0003(7) .0075(8) .0012(7)
+As8 .0088(8) .0052(8) .0123(9) .0002(6) .0076(8) .0003(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+As As .0499 2.0058 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+La La -.2871 2.4523 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+As6 La1 As7 2_564 4_454 77.49(6) no
+As6 La1 As6 2_564 . 141.26(7) no
+As7 La1 As6 4_454 . 133.26(6) no
+As6 La1 As3 2_564 . 132.02(7) no
+As7 La1 As3 4_454 . 81.28(6) no
+As6 La1 As3 . . 82.26(6) no
+As6 La1 As1 2_564 4 88.05(6) no
+As7 La1 As1 4_454 4 133.73(7) no
+As6 La1 As1 . 4 83.19(6) no
+As3 La1 As1 . 4 76.54(6) no
+As6 La1 As3 2_564 2_564 83.56(6) no
+As7 La1 As3 4_454 2_564 81.97(6) no
+As6 La1 As3 . 2_564 79.63(6) no
+As3 La1 As3 . 2_564 135.07(7) no
+As1 La1 As3 4 2_564 140.28(6) no
+As6 La1 As8 2_564 3_455 142.78(6) no
+As7 La1 As8 4_454 3_455 88.00(6) no
+As6 La1 As8 . 3_455 45.71(6) no
+As3 La1 As8 . 3_455 77.67(6) no
+As1 La1 As8 4 3_455 125.04(6) no
+As3 La1 As8 2_564 3_455 60.35(5) no
+As6 La1 As2 2_564 3 64.06(6) no
+As7 La1 As2 4_454 3 138.88(6) no
+As6 La1 As2 . 3 78.69(6) no
+As3 La1 As2 . 3 135.58(6) no
+As1 La1 As2 4 3 61.68(6) no
+As3 La1 As2 2_564 3 79.88(6) no
+As8 La1 As2 3_455 3 113.64(6) no
+As6 La1 As5 2_564 . 87.96(6) no
+As7 La1 As5 4_454 . 75.03(6) no
+As6 La1 As5 . . 119.12(6) no
+As3 La1 As5 . . 44.86(5) no
+As1 La1 As5 4 . 60.57(5) no
+As3 La1 As5 2_564 . 156.72(6) no
+As8 La1 As5 3_455 . 121.40(6) no
+As2 La1 As5 3 . 115.59(6) no
+As6 La1 La2 2_564 4_454 127.55(5) no
+As7 La1 La2 4_454 4_454 50.07(5) no
+As6 La1 La2 . 4_454 87.12(5) no
+As3 La1 La2 . 4_454 48.64(5) no
+As1 La1 La2 4 4_454 125.14(5) no
+As3 La1 La2 2_564 4_454 89.55(5) no
+As8 La1 La2 3_455 4_454 49.94(4) no
+As2 La1 La2 3 4_454 163.59(5) no
+As5 La1 La2 . 4_454 78.53(4) no
+As6 La1 La3 2_564 2_564 96.90(5) no
+As7 La1 La3 4_454 2_564 130.08(5) no
+As6 La1 La3 . 2_564 46.82(4) no
+As3 La1 La3 . 2_564 129.08(5) no
+As1 La1 La3 4 2_564 94.87(5) no
+As3 La1 La3 2_564 2_564 48.21(5) no
+As8 La1 La3 3_455 2_564 66.76(4) no
+As2 La1 La3 3 2_564 47.55(4) no
+As5 La1 La3 . 2_564 154.89(5) no
+La2 La1 La3 4_454 2_564 116.22(3) no
+As2 La2 As3 . 4 130.48(7) no
+As2 La2 As4 . 2_554 83.27(6) no
+As3 La2 As4 4 2_554 141.44(6) no
+As2 La2 As7 . 2 84.87(6) no
+As3 La2 As7 4 2 83.74(6) no
+As4 La2 As7 2_554 2 81.37(6) no
+As2 La2 As7 . . 134.60(6) no
+As3 La2 As7 4 . 82.33(6) no
+As4 La2 As7 2_554 . 83.76(6) no
+As7 La2 As7 2 . 135.37(7) no
+As2 La2 As8 . 2 123.23(6) no
+As3 La2 As8 4 2 79.73(6) no
+As4 La2 As8 2_554 2 64.14(6) no
+As7 La2 As8 2 2 47.14(5) no
+As7 La2 As8 . 2 88.63(6) no
+As2 La2 As1 . . 48.63(6) no
+As3 La2 As1 4 . 133.09(7) no
+As4 La2 As1 2_554 . 81.38(6) no
+As7 La2 As1 2 . 131.85(6) no
+As7 La2 As1 . . 86.45(6) no
+As8 La2 As1 2 . 145.50(6) no
+As2 La2 As5 . . 83.21(5) no
+As3 La2 As5 4 . 87.43(6) no
+As4 La2 As5 2_554 . 118.75(6) no
+As7 La2 As5 2 . 155.01(6) no
+As7 La2 As5 . . 65.80(5) no
+As8 La2 As5 2 . 152.80(6) no
+As1 La2 As5 . . 46.89(5) no
+As2 La2 As4 . . 46.12(5) no
+As3 La2 As4 4 . 84.60(6) no
+As4 La2 As4 2_554 . 127.88(6) no
+As7 La2 As4 2 . 82.37(6) no
+As7 La2 As4 . . 137.65(6) no
+As8 La2 As4 2 . 128.17(6) no
+As1 La2 As4 . . 73.80(6) no
+As5 La2 As4 . . 73.54(5) no
+As2 La2 La3 . . 89.83(5) no
+As3 La2 La3 4 . 49.74(4) no
+As4 La2 La3 2_554 . 167.30(5) no
+As7 La2 La3 2 . 108.71(5) no
+As7 La2 La3 . . 93.67(5) no
+As8 La2 La3 2 . 128.36(5) no
+As1 La2 La3 . . 86.05(5) no
+As5 La2 La3 . . 49.51(5) no
+As4 La2 La3 . . 48.84(4) no
+As2 La2 La1 . 4 174.26(5) no
+As3 La2 La1 4 4 50.47(5) no
+As4 La2 La1 2_554 4 94.01(5) no
+As7 La2 La1 2 4 89.73(5) no
+As7 La2 La1 . 4 49.67(5) no
+As8 La2 La1 2 4 51.11(4) no
+As1 La2 La1 . 4 136.07(5) no
+As5 La2 La1 . 4 102.53(5) no
+As4 La2 La1 . 4 135.02(5) no
+La3 La2 La1 . 4 93.76(4) no
+As2 La2 La4 . 3_445 52.20(4) no
+As3 La2 La4 4 3_445 132.27(5) no
+As4 La2 La4 2_554 3_445 49.04(4) no
+As7 La2 La4 2 3_445 48.84(5) no
+As7 La2 La4 . 3_445 132.80(5) no
+As8 La2 La4 2 3_445 71.76(5) no
+As1 La2 La4 . 3_445 86.94(5) no
+As5 La2 La4 . 3_445 132.38(5) no
+As4 La2 La4 . 3_445 84.03(4) no
+La3 La2 La4 . 3_445 132.35(3) no
+La1 La2 La4 4 3_445 122.38(3) no
+As6 La3 As4 2_565 . 85.58(6) no
+As6 La3 As1 2_565 4 128.18(6) no
+As4 La3 As1 . 4 137.73(6) no
+As6 La3 As3 2_565 4 142.14(7) no
+As4 La3 As3 . 4 86.26(6) no
+As1 La3 As3 4 4 79.70(6) no
+As6 La3 As5 2_565 . 125.26(6) no
+As4 La3 As5 . . 76.59(6) no
+As1 La3 As5 4 . 63.44(6) no
+As3 La3 As5 4 . 88.30(6) no
+As6 La3 As2 2_565 4 81.83(6) no
+As4 La3 As2 . 4 163.00(6) no
+As1 La3 As2 4 4 48.83(5) no
+As3 La3 As2 4 4 110.67(6) no
+As5 La3 As2 . 4 101.54(6) no
+As6 La3 As3 2_565 . 81.23(6) no
+As4 La3 As3 . . 84.69(7) no
+As1 La3 As3 4 . 77.74(6) no
+As3 La3 As3 4 . 134.57(7) no
+As5 La3 As3 . . 46.30(6) no
+As2 La3 As3 4 . 82.14(6) no
+As6 La3 As4 2_565 4 80.77(6) no
+As4 La3 As4 . 4 142.57(7) no
+As1 La3 As4 4 4 75.28(6) no
+As3 La3 As4 4 4 83.63(6) no
+As5 La3 As4 . 4 138.71(6) no
+As2 La3 As4 4 4 45.87(5) no
+As3 La3 As4 . 4 126.75(7) no
+As6 La3 As8 2_565 1_556 82.98(6) no
+As4 La3 As8 . 1_556 63.17(6) no
+As1 La3 As8 4 1_556 135.27(6) no
+As3 La3 As8 4 1_556 60.46(6) no
+As5 La3 As8 . 1_556 129.02(6) no
+As2 La3 As8 4 1_556 125.96(6) no
+As3 La3 As8 . 1_556 145.10(6) no
+As4 La3 As8 4 1_556 80.59(6) no
+As6 La3 La2 2_565 . 137.33(5) no
+As4 La3 La2 . . 51.76(4) no
+As1 La3 La2 4 . 90.60(5) no
+As3 La3 La2 4 . 48.93(5) no
+As5 La3 La2 . . 51.39(4) no
+As2 La3 La2 4 . 139.36(5) no
+As3 La3 La2 . . 92.42(5) no
+As4 La3 La2 4 . 132.42(5) no
+As8 La3 La2 1_556 . 78.64(5) no
+As6 La3 La4 2_565 1_556 49.97(5) no
+As4 La3 La4 . 1_556 96.15(5) no
+As1 La3 La4 4 1_556 124.37(5) no
+As3 La3 La4 4 1_556 94.44(5) no
+As5 La3 La4 . 1_556 172.07(5) no
+As2 La3 La4 4 1_556 84.46(5) no
+As3 La3 La4 . 1_556 130.76(6) no
+As4 La3 La4 4 1_556 49.14(5) no
+As8 La3 La4 1_556 1_556 47.59(4) no
+La2 La3 La4 . 1_556 126.21(3) no
+As6 La3 La1 2_565 2_565 48.45(4) no
+As4 La3 La1 . 2_565 112.93(5) no
+As1 La3 La1 4 2_565 83.13(5) no
+As3 La3 La1 4 2_565 160.43(5) no
+As5 La3 La1 . 2_565 92.39(5) no
+As2 La3 La1 4 2_565 50.07(4) no
+As3 La3 La1 . 2_565 48.69(4) no
+As4 La3 La1 4 2_565 82.98(5) no
+As8 La3 La1 1_556 2_565 130.63(5) no
+La2 La3 La1 . 2_565 141.08(4) no
+La4 La3 La1 1_556 2_565 87.51(3) no
+As8 La4 As7 . 4 126.63(6) no
+As8 La4 As4 . 4_554 84.64(6) no
+As7 La4 As4 4 4_554 80.89(6) no
+As8 La4 As6 . 2_564 84.79(6) no
+As7 La4 As6 4 2_564 141.22(7) no
+As4 La4 As6 4_554 2_564 80.32(6) no
+As8 La4 As7 . . 47.43(5) no
+As7 La4 As7 4 . 135.72(6) no
+As4 La4 As7 4_554 . 129.81(6) no
+As6 La4 As7 2_564 . 81.26(6) no
+As8 La4 As5 . 4 110.05(6) no
+As7 La4 As5 4 4 66.33(6) no
+As4 La4 As5 4_554 4 146.76(6) no
+As6 La4 As5 2_564 4 129.19(6) no
+As7 La4 As5 . 4 76.15(6) no
+As8 La4 As1 . 4 131.73(6) no
+As7 La4 As1 4 4 86.78(6) no
+As4 La4 As1 4_554 4 139.83(6) no
+As6 La4 As1 2_564 4 86.14(6) no
+As7 La4 As1 . 4 84.34(6) no
+As5 La4 As1 4 4 47.13(5) no
+As8 La4 As6 . 3_545 46.19(6) no
+As7 La4 As6 4 3_545 80.94(6) no
+As4 La4 As6 4_554 3_545 82.23(5) no
+As6 La4 As6 2_564 3_545 129.17(7) no
+As7 La4 As6 . 3_545 74.38(6) no
+As5 La4 As6 4 3_545 87.15(6) no
+As1 La4 As6 4 3_545 133.36(6) no
+As8 La4 As2 . 3 145.23(6) no
+As7 La4 As2 4 3 80.95(6) no
+As4 La4 As2 4_554 3 79.15(6) no
+As6 La4 As2 2_564 3 62.36(5) no
+As7 La4 As2 . 3 129.72(5) no
+As5 La4 As2 4 3 100.09(6) no
+As1 La4 As2 4 3 61.14(5) no
+As6 La4 As2 3_545 3 155.80(6) no
+As8 La4 La3 . 1_554 51.78(4) no
+As7 La4 La3 4 1_554 130.65(5) no
+As4 La4 La3 4_554 1_554 50.37(4) no
+As6 La4 La3 2_564 1_554 48.11(5) no
+As7 La4 La3 . 1_554 83.32(5) no
+As5 La4 La3 4 1_554 159.30(5) no
+As1 La4 La3 4 1_554 133.89(5) no
+As6 La4 La3 3_545 1_554 84.78(5) no
+As2 La4 La3 3 1_554 95.00(5) no
+As8 La4 La2 . 3 132.24(5) no
+As7 La4 La2 4 3 48.73(4) no
+As4 La4 La2 4_554 3 48.51(4) no
+As6 La4 La2 2_564 3 94.23(5) no
+As7 La4 La2 . 3 175.48(5) no
+As5 La4 La2 4 3 107.15(5) no
+As1 La4 La2 4 3 95.65(5) no
+As6 La4 La2 3_545 3 108.62(5) no
+As2 La4 La2 3 3 47.19(4) no
+La3 La4 La2 1_554 3 93.50(4) no
+As5 As1 As2 . . 108.98(10) yes
+As5 As1 La3 . 4_454 84.23(7) no
+As2 As1 La3 . 4_454 66.19(6) no
+As5 As1 La1 . 4_454 152.68(9) no
+As2 As1 La1 . 4_454 97.97(8) no
+La3 As1 La1 4_454 4_454 103.22(6) no
+As5 As1 La4 . 4_454 66.43(7) no
+As2 As1 La4 . 4_454 153.68(9) no
+La3 As1 La4 4_454 4_454 135.33(7) no
+La1 As1 La4 4_454 4_454 91.29(6) no
+As5 As1 La2 . . 67.06(7) no
+As2 As1 La2 . . 63.27(6) no
+La3 As1 La2 4_454 . 106.73(6) no
+La1 As1 La2 4_454 . 132.54(8) no
+La4 As1 La2 4_454 . 92.44(6) no
+As4 As2 As1 . . 99.43(9) yes
+As4 As2 La2 . . 70.31(7) no
+As1 As2 La2 . . 68.11(7) no
+As4 As2 La3 . 4_454 68.52(7) no
+As1 As2 La3 . 4_454 64.98(6) no
+La2 As2 La3 . 4_454 108.99(6) no
+As4 As2 La1 . 3_445 119.69(9) no
+As1 As2 La1 . 3_445 114.54(9) no
+La2 As2 La1 . 3_445 167.67(7) no
+La3 As2 La1 4_454 3_445 82.38(5) no
+As4 As2 La4 . 3_445 117.92(8) no
+As1 As2 La4 . 3_445 118.82(8) no
+La2 As2 La4 . 3_445 80.61(5) no
+La3 As2 La4 4_454 3_445 170.22(7) no
+La1 As2 La4 3_445 3_445 87.90(5) no
+As5 As3 La2 . 4_454 114.95(9) no
+As5 As3 La3 . 4_454 85.18(8) no
+La2 As3 La3 4_454 4_454 81.34(6) no
+As5 As3 La3 . . 66.11(7) no
+La2 As3 La3 4_454 . 176.71(8) no
+La3 As3 La3 4_454 . 95.74(6) no
+As5 As3 La1 . . 70.64(7) no
+La2 As3 La1 4_454 . 80.89(6) no
+La3 As3 La1 4_454 . 140.08(8) no
+La3 As3 La1 . . 102.37(6) no
+As5 As3 La1 . 2_565 141.57(9) no
+La2 As3 La1 4_454 2_565 97.12(7) no
+La3 As3 La1 4_454 2_565 121.80(7) no
+La3 As3 La1 . 2_565 83.10(6) no
+La1 As3 La1 . 2_565 95.71(6) no
+As2 As4 La3 . . 130.78(9) no
+As2 As4 La2 . 2 96.93(8) no
+La3 As4 La2 . 2 119.21(7) no
+As2 As4 La4 . 4_455 121.73(8) no
+La3 As4 La4 . 4_455 96.73(6) no
+La2 As4 La4 2 4_455 82.44(6) no
+As2 As4 La3 . 4_454 65.61(7) no
+La3 As4 La3 . 4_454 95.40(6) no
+La2 As4 La3 2 4_454 142.90(7) no
+La4 As4 La3 4_455 4_454 80.49(6) no
+As2 As4 La2 . . 63.57(7) no
+La3 As4 La2 . . 79.40(5) no
+La2 As4 La2 2 . 96.10(6) no
+La4 As4 La2 4_455 . 174.59(7) no
+La3 As4 La2 4_454 . 103.53(6) no
+As3 As5 As1 . . 105.12(10) yes
+As3 As5 La3 . . 67.59(7) no
+As1 As5 La3 . . 121.94(9) no
+As3 As5 La4 . 4_454 127.77(9) no
+As1 As5 La4 . 4_454 66.44(7) no
+La3 As5 La4 . 4_454 162.21(7) no
+As3 As5 La2 . . 133.53(9) no
+As1 As5 La2 . . 66.04(7) no
+La3 As5 La2 . . 79.10(5) no
+La4 As5 La2 4_454 . 91.99(6) no
+As3 As5 La1 . . 64.50(7) no
+As1 As5 La1 . . 129.90(9) no
+La3 As5 La1 . . 99.96(6) no
+La4 As5 La1 4_454 . 82.06(5) no
+La2 As5 La1 . . 156.49(7) no
+As8 As6 La1 3_455 2_565 87.37(8) no
+As8 As6 La3 3_455 2_564 96.49(8) no
+La1 As6 La3 2_565 2_564 175.81(8) no
+As8 As6 La1 3_455 . 68.17(7) no
+La1 As6 La1 2_565 . 98.26(6) no
+La3 As6 La1 2_564 . 84.72(6) no
+As8 As6 La4 3_455 2_565 160.86(10) no
+La1 As6 La4 2_565 2_565 93.90(6) no
+La3 As6 La4 2_564 2_565 81.92(6) no
+La1 As6 La4 . 2_565 130.26(7) no
+As8 As6 La4 3_455 3_455 63.36(6) no
+La1 As6 La4 2_565 3_455 85.20(6) no
+La3 As6 La4 2_564 3_455 95.06(6) no
+La1 As6 La4 . 3_455 131.19(7) no
+La4 As6 La4 2_565 3_455 97.68(6) no
+As8 As7 La2 . 2_554 67.05(7) no
+As8 As7 La1 . 4 85.16(7) no
+La2 As7 La1 2_554 4 97.18(7) no
+As8 As7 La4 . 4_454 99.87(8) no
+La2 As7 La4 2_554 4_454 82.43(6) no
+La1 As7 La4 4 4_454 174.28(7) no
+As8 As7 La2 . . 157.23(9) no
+La2 As7 La2 2_554 . 97.42(6) no
+La1 As7 La2 4 . 80.26(6) no
+La4 As7 La2 4_454 . 94.12(6) no
+As8 As7 La4 . . 63.98(6) no
+La2 As7 La4 2_554 . 130.61(7) no
+La1 As7 La4 4 . 84.98(6) no
+La4 As7 La4 4_454 . 99.64(6) no
+La2 As7 La4 . . 131.19(7) no
+As6 As8 As7 3_545 . 101.91(10) yes
+As6 As8 La4 3_545 . 70.45(7) no
+As7 As8 La4 . . 68.59(7) no
+As6 As8 La2 3_545 2_554 125.18(9) no
+As7 As8 La2 . 2_554 65.81(7) no
+La4 As8 La2 . 2_554 133.94(7) no
+As6 As8 La1 3_545 3_545 66.12(7) no
+As7 As8 La1 . 3_545 125.74(8) no
+La4 As8 La1 . 3_545 136.19(7) no
+La2 As8 La1 2_554 3_545 78.94(5) no
+As6 As8 La3 3_545 1_554 119.92(9) no
+As7 As8 La3 . 1_554 114.86(8) no
+La4 As8 La3 . 1_554 80.63(5) no
+La2 As8 La3 2_554 1_554 113.01(7) no
+La1 As8 La3 3_545 1_554 116.44(7) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+La1 As6 2_564 3.049(2) yes
+La1 As7 4_454 3.121(3) yes
+La1 As6 . 3.152(2) yes
+La1 As3 . 3.152(2) yes
+La1 As1 4 3.172(3) yes
+La1 As3 2_564 3.173(2) yes
+La1 As8 3_455 3.200(2) yes
+La1 As2 3 3.245(2) yes
+La1 As5 . 3.295(2) yes
+La1 La2 4_454 4.0349(18) no
+La1 La3 2_564 4.1937(16) no
+La2 As2 . 3.057(2) yes
+La2 As3 4 3.067(3) yes
+La2 As4 2_554 3.107(2) yes
+La2 As7 2 3.117(2) yes
+La2 As7 . 3.139(2) yes
+La2 As8 2 3.147(2) yes
+La2 As1 . 3.176(3) yes
+La2 As5 . 3.200(2) yes
+La2 As4 . 3.214(2) yes
+La2 La3 . 4.0222(16) no
+La2 La1 4 4.0349(18) no
+La2 La4 3_445 4.1112(16) no
+La3 As6 2_565 3.071(2) yes
+La3 As4 . 3.081(2) yes
+La3 As1 4 3.092(2) yes
+La3 As3 4 3.105(2) yes
+La3 As5 . 3.115(3) yes
+La3 As2 4 3.122(2) yes
+La3 As3 . 3.150(3) yes
+La3 As4 4 3.190(3) yes
+La3 As8 1_556 3.253(2) yes
+La3 La4 1_556 4.085(2) no
+La3 La1 2_565 4.1937(16) no
+La4 As8 . 3.057(2) yes
+La4 As7 4 3.122(3) yes
+La4 As4 4_554 3.132(2) yes
+La4 As6 2_564 3.159(3) yes
+La4 As7 . 3.167(2) yes
+La4 As5 4 3.173(2) yes
+La4 As1 4 3.173(2) yes
+La4 As6 3_545 3.223(2) yes
+La4 As2 3 3.293(2) yes
+La4 La3 1_554 4.085(2) no
+La4 La2 3 4.1112(16) no
+As1 As5 . 2.537(3) yes
+As1 As2 . 2.569(3) yes
+As1 La3 4_454 3.092(2) no
+As1 La1 4_454 3.172(3) no
+As1 La4 4_454 3.173(2) no
+As2 As4 . 2.460(3) yes
+As2 La3 4_454 3.122(2) no
+As2 La1 3_445 3.245(2) no
+As2 La4 3_445 3.293(2) no
+As3 As5 . 2.463(3) yes
+As3 La2 4_454 3.067(3) no
+As3 La3 4_454 3.105(2) no
+As3 La1 2_565 3.173(2) no
+As4 La2 2 3.107(2) no
+As4 La4 4_455 3.132(2) no
+As4 La3 4_454 3.190(3) no
+As5 La4 4_454 3.173(2) no
+As6 As8 3_455 2.468(3) yes
+As6 La1 2_565 3.049(2) no
+As6 La3 2_564 3.071(2) no
+As6 La4 2_565 3.159(3) no
+As6 La4 3_455 3.223(2) no
+As7 As8 . 2.505(3) yes
+As7 La2 2_554 3.117(2) no
+As7 La1 4 3.121(3) no
+As7 La4 4_454 3.122(3) no
+As8 As6 3_545 2.468(3) no
+As8 La2 2_554 3.147(2) no
+As8 La1 3_545 3.200(2) no
+As8 La3 1_554 3.253(2) no

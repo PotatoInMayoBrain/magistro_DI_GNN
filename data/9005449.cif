@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/54/9005449.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005449
+loop_
+_publ_author_name
+'Rius, J.'
+'Louer, D.'
+'Louer, M.'
+'Gali, S.'
+'Melgarejo, J. C.'
+_publ_section_title
+;
+ Structure solution from powder data of the phosphate hydrate tinticite
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              581
+_journal_page_last               588
+_journal_volume                  12
+_journal_year                    2000
+_chemical_compound_source
+'Rocabruna mines, Bruguers, Barcelona, Catalonia, Spain'
+_chemical_formula_sum            'Fe5.34 H20 O26.8 P3.62 V0.38'
+_chemical_name_mineral           Tinticite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                103.94
+_cell_angle_beta                 115.91
+_cell_angle_gamma                67.86
+_cell_formula_units_Z            1
+_cell_length_a                   7.965
+_cell_length_b                   9.999
+_cell_length_c                   7.644
+_cell_volume                     505.086
+_database_code_amcsd             0006835
+_exptl_crystal_density_diffrn    2.889
+_cod_original_formula_sum        'Fe5.34 P3.62 V.38 O26.8 H20'
+_cod_database_code               9005449
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.29200 0.01360 0.01080 1.00000 0.01520 Fe 0
+Fe2 0.35780 0.48980 0.73380 0.86000 0.01520 Fe 0
+Fe3 0.00000 0.00000 0.50000 0.70000 0.01520 Fe 0
+Fe4 0.03390 0.51330 0.21920 0.46000 0.01520 Fe 0
+P1 -0.01810 0.20710 0.21460 0.81000 0.01520 P 0
+V1 -0.01810 0.20710 0.21460 0.19000 0.01520 V 0
+O1 0.18870 0.14770 0.20250 1.00000 0.01520 O 0
+O2 -0.11820 0.37620 0.20620 1.00000 0.01520 O 0
+O3 0.02670 0.16980 0.43100 1.00000 0.01520 O 0
+Wat4 -0.15040 0.11980 0.05390 1.00000 0.01520 O 2
+P2a 0.40010 0.31300 0.06200 0.50000 0.01520 P 0
+O5a 0.41440 0.37390 -0.09500 1.00000 0.01520 O 0
+O6a 0.18250 0.38350 0.04800 1.00000 0.01520 O 0
+O7a 0.53420 0.37240 0.27480 1.00000 0.01520 O 0
+Wat8a 0.48600 0.14710 0.07440 1.00000 0.01520 O 2
+P2b 0.76640 0.26450 0.63140 0.50000 0.01520 P 0
+Wat9b 0.98990 0.16660 0.76450 0.70000 0.01520 O 2
+O10b 0.80560 0.37900 0.55480 1.00000 0.01520 O 0
+Wat11b 0.62230 0.33100 0.72470 0.70000 0.01520 O 2
+O12b 0.69480 0.13470 0.47120 1.00000 0.01520 O 0
+O-H13 0.51460 0.04990 0.68550 1.00000 0.01520 O 1
+O-H14 0.17290 0.44000 0.57900 1.00000 0.01520 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:39:20+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006835

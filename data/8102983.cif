@@ -1,0 +1,193 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 18:55:33 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176466 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/29/8102983.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102983
+loop_
+_publ_author_name
+'Kirill Kovnir'
+'Marcus Schmidt'
+'Christian Waurisch'
+'Marc Armbr\"uster'
+'Yurii Prots'
+'Yuri Grin'
+_publ_section_title
+;
+ Refinement of the crystal structure of dipalladium gallium, Pd2Ga
+;
+_journal_issue                   1
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              7
+_journal_volume                  223
+_journal_year                    2008
+_chemical_formula_sum            'Ga Pd2'
+_chemical_formula_weight         282.5
+_chemical_name_systematic        'dipalladium gallium, Pd2Ga'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2007-03-28T12:00:00-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.4829(8)
+_cell_length_b                   4.0560(4)
+_cell_length_c                   7.7863(8)
+_cell_measurement_temperature    295(2)
+_cell_volume                     173.16(4)
+_computing_cell_refinement       'CSD (Akselrud, 1993)'
+_computing_data_collection       'CrystalClear (Rigaku Corp., 2000)'
+_computing_data_reduction        'CrystalClear (Rigaku Corp., 2000)'
+_computing_structure_refinement  'CSD (Akselrud, 1993)'
+_diffrn_ambient_temperature      295.15
+_diffrn_detector_area_resol_mean 14.6306
+_diffrn_measurement_details
+;
+scan:
+    Number of images: 400
+               Slice: -30.0000 - 210.0000
+         Image width: 0.6000
+            Exp time: 60.0000
+       Rotation axis: Phi
+               Omega: 0.0000
+                 Chi: 0.0000
+                 Phi: 0.0000
+                 XTD: 41.8100
+              2theta: -25.0000
+scan:
+    Number of images: 95
+               Slice: -38.0000 - 19.0000
+         Image width: 0.6000
+            Exp time: 60.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+                 Chi: -90.0000
+                 Phi: 85.0000
+                 XTD: 41.8100
+              2theta: -25.0000
+;
+_diffrn_measurement_device       'Rigaku AFC-7'
+_diffrn_measurement_method       oscillation
+_diffrn_radiation_detector       'Mercury CCD'
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_source         'Sealed Tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.028
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            1596
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         32.00
+_diffrn_reflns_theta_min         4.55
+_diffrn_source_current           32.0000
+_diffrn_source_power             1.6000
+_diffrn_source_voltage           50.0000
+_exptl_absorpt_coefficient_mu    35.74
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.6565
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    10.83
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle-shaped
+_exptl_crystal_F_000             492
+_exptl_crystal_size_max          0.190
+_exptl_crystal_size_mid          0.010
+_exptl_crystal_size_min          0.010
+_refine_diff_density_max         1.638
+_refine_diff_density_min         -1.490
+_refine_ls_extinction_coef       0.0025(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.020
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         317
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.020
+_refine_ls_R_factor_gt           0.022
+_refine_ls_shift/su_max          0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_ref         0.029
+_reflns_number_gt                317
+_reflns_number_total             321
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409939.cff
+_cod_data_source_block           MS102b_Pd2Ga
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_original_cell_volume        173.16(6)
+_cod_original_formula_sum        'Pd2 Ga'
+_cod_database_code               8102983
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2+y,1/2+z
+x,1/2-y,z
+1/2-x,-y,1/2+z
+-x,-y,-z
+-1/2+x,-1/2-y,-1/2-z
+-x,-1/2+y,-z
+-1/2+x,y,-1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pd1 0.0112(2) 0.0077(2) 0.0078(2) 0 -0.0003(2) 0
+Pd2 0.0076(2) 0.0087(2) 0.0092(2) 0 -0.0001(2) 0
+Ga 0.0123(3) 0.0081(4) 0.0094(3) 0 -0.0005(3) 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Pd1 Pd 4 c 0.16511(1) 0.25 0.06662(7) Uani 0.00890(1) 1.0
+Pd2 Pd 4 c 0.04293(1) 0.25 0.71063(7) Uani 0.00851(1) 1.0
+Ga Ga 4 c 0.2016(2) 0.25 0.39316(1) Uani 0.0099(2) 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pd Pd -0.9988 1.0072 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

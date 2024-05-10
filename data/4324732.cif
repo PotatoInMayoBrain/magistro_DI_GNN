@@ -1,0 +1,401 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/47/4324732.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4324732
+loop_
+_publ_author_name
+'Derk Wandner'
+'Pascal Link'
+'Oliver Heyer'
+'John Mydosh'
+'Mahmoud A. Ahmida'
+'Mohsen M. Abd-Elmeguid'
+'Manfred Speldrich'
+'Heiko Lueken'
+'Uwe Ruschewitz'
+_publ_section_title
+;
+ Correction to Structural Phase Transitions in EuC2
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2703
+_journal_page_last               2703
+_journal_paper_doi               10.1021/ic200013z
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'C2 Eu'
+_chemical_formula_weight         175.98
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_author_name               EuC2_648
+_audit_creation_date             2010-11-19T15:25
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2010-11-19T15:25  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   6.1379(4)
+_cell_length_b                   6.1379
+_cell_length_c                   6.1379
+_cell_measurement_temperature    648
+_cell_volume                     231.238(15)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      648
+_diffrn_radiation_polarisn_ratio 0.95
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.470257
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2010-11-19T15:25|EUC2_648_phase1|EuC2_648||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   EuC2
+_pd_proc_info_datetime           2010-11-19T15:25:21
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with  9 terms.
+ Linear interpolation
+      1:    3382.43     2:    2700.02     3:    2772.61     4:    2805.95    
+      5:    2372.12     6:    1854.29     7:    1667.25     8:    1448.26    
+      9:    1434.10    
+;
+_pd_proc_ls_prof_R_factor        0.0954
+_pd_proc_ls_prof_wR_expected     0.0188
+_pd_proc_ls_prof_wR_factor       0.1239
+_refine_ls_goodness_of_fit_all   6.61
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     19
+_refine_ls_number_restraints     1
+_refine_ls_R_Fsqd_factor         0.32051
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        0.690
+_reflns_d_resolution_low         3.544
+_reflns_limit_h_max              9
+_reflns_limit_h_min              1
+_reflns_limit_k_max              6
+_reflns_limit_k_min              0
+_reflns_limit_l_max              5
+_reflns_limit_l_min              0
+_reflns_number_total             57
+_cod_data_source_file            ic200013z_si_003.cif
+_cod_data_source_block           EUC2_648_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (24 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        231.24(5)
+_cod_original_formula_sum        'C2.00 Eu'
+_cod_database_code               4324732
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +z,+x,+y
+3 +y,+z,+x
+4 +x,+y,-z
+5 -z,+x,+y
+6 +y,-z,+x
+7 -z,+x,-y
+8 -y,-z,+x
+9 +y,-z,-x
+10 -x,+y,-z
+11 -z,-x,+y
+12 +x,-y,-z
+13 +y,+x,+z
+14 +z,+y,+x
+15 +x,+z,+y
+16 +y,+x,-z
+17 -z,+y,+x
+18 +x,-z,+y
+19 -z,+y,-x
+20 -x,-z,+y
+21 +x,-z,-y
+22 -y,+x,-z
+23 -z,-y,+x
+24 +y,-x,-z
+-1 -x,-y,-z
+-2 -z,-x,-y
+-3 -y,-z,-x
+-4 -x,-y,+z
+-5 +z,-x,-y
+-6 -y,+z,-x
+-7 +z,-x,+y
+-8 +y,+z,-x
+-9 -y,+z,+x
+-10 +x,-y,+z
+-11 +z,+x,-y
+-12 -x,+y,+z
+-13 -y,-x,-z
+-14 -z,-y,-x
+-15 -x,-z,-y
+-16 -y,-x,+z
+-17 +z,-y,-x
+-18 -x,+z,-y
+-19 +z,-y,+x
+-20 +x,+z,-y
+-21 -x,+z,+y
+-22 +y,-x,+z
+-23 +z,+y,-x
+-24 -y,+x,+z
+101 +x,+y+1/2,+z+1/2
+102 +z,+x+1/2,+y+1/2
+103 +y,+z+1/2,+x+1/2
+104 +x,+y+1/2,-z+1/2
+105 -z,+x+1/2,+y+1/2
+106 +y,-z+1/2,+x+1/2
+107 -z,+x+1/2,-y+1/2
+108 -y,-z+1/2,+x+1/2
+109 +y,-z+1/2,-x+1/2
+110 -x,+y+1/2,-z+1/2
+111 -z,-x+1/2,+y+1/2
+112 +x,-y+1/2,-z+1/2
+113 +y,+x+1/2,+z+1/2
+114 +z,+y+1/2,+x+1/2
+115 +x,+z+1/2,+y+1/2
+116 +y,+x+1/2,-z+1/2
+117 -z,+y+1/2,+x+1/2
+118 +x,-z+1/2,+y+1/2
+119 -z,+y+1/2,-x+1/2
+120 -x,-z+1/2,+y+1/2
+121 +x,-z+1/2,-y+1/2
+122 -y,+x+1/2,-z+1/2
+123 -z,-y+1/2,+x+1/2
+124 +y,-x+1/2,-z+1/2
+-101 -x,-y+1/2,-z+1/2
+-102 -z,-x+1/2,-y+1/2
+-103 -y,-z+1/2,-x+1/2
+-104 -x,-y+1/2,+z+1/2
+-105 +z,-x+1/2,-y+1/2
+-106 -y,+z+1/2,-x+1/2
+-107 +z,-x+1/2,+y+1/2
+-108 +y,+z+1/2,-x+1/2
+-109 -y,+z+1/2,+x+1/2
+-110 +x,-y+1/2,+z+1/2
+-111 +z,+x+1/2,-y+1/2
+-112 -x,+y+1/2,+z+1/2
+-113 -y,-x+1/2,-z+1/2
+-114 -z,-y+1/2,-x+1/2
+-115 -x,-z+1/2,-y+1/2
+-116 -y,-x+1/2,+z+1/2
+-117 +z,-y+1/2,-x+1/2
+-118 -x,+z+1/2,-y+1/2
+-119 +z,-y+1/2,+x+1/2
+-120 +x,+z+1/2,-y+1/2
+-121 -x,+z+1/2,+y+1/2
+-122 +y,-x+1/2,+z+1/2
+-123 +z,+y+1/2,-x+1/2
+-124 -y,+x+1/2,+z+1/2
+201 +x+1/2,+y,+z+1/2
+202 +z+1/2,+x,+y+1/2
+203 +y+1/2,+z,+x+1/2
+204 +x+1/2,+y,-z+1/2
+205 -z+1/2,+x,+y+1/2
+206 +y+1/2,-z,+x+1/2
+207 -z+1/2,+x,-y+1/2
+208 -y+1/2,-z,+x+1/2
+209 +y+1/2,-z,-x+1/2
+210 -x+1/2,+y,-z+1/2
+211 -z+1/2,-x,+y+1/2
+212 +x+1/2,-y,-z+1/2
+213 +y+1/2,+x,+z+1/2
+214 +z+1/2,+y,+x+1/2
+215 +x+1/2,+z,+y+1/2
+216 +y+1/2,+x,-z+1/2
+217 -z+1/2,+y,+x+1/2
+218 +x+1/2,-z,+y+1/2
+219 -z+1/2,+y,-x+1/2
+220 -x+1/2,-z,+y+1/2
+221 +x+1/2,-z,-y+1/2
+222 -y+1/2,+x,-z+1/2
+223 -z+1/2,-y,+x+1/2
+224 +y+1/2,-x,-z+1/2
+-201 -x+1/2,-y,-z+1/2
+-202 -z+1/2,-x,-y+1/2
+-203 -y+1/2,-z,-x+1/2
+-204 -x+1/2,-y,+z+1/2
+-205 +z+1/2,-x,-y+1/2
+-206 -y+1/2,+z,-x+1/2
+-207 +z+1/2,-x,+y+1/2
+-208 +y+1/2,+z,-x+1/2
+-209 -y+1/2,+z,+x+1/2
+-210 +x+1/2,-y,+z+1/2
+-211 +z+1/2,+x,-y+1/2
+-212 -x+1/2,+y,+z+1/2
+-213 -y+1/2,-x,-z+1/2
+-214 -z+1/2,-y,-x+1/2
+-215 -x+1/2,-z,-y+1/2
+-216 -y+1/2,-x,+z+1/2
+-217 +z+1/2,-y,-x+1/2
+-218 -x+1/2,+z,-y+1/2
+-219 +z+1/2,-y,+x+1/2
+-220 +x+1/2,+z,-y+1/2
+-221 -x+1/2,+z,+y+1/2
+-222 +y+1/2,-x,+z+1/2
+-223 +z+1/2,+y,-x+1/2
+-224 -y+1/2,+x,+z+1/2
+301 +x+1/2,+y+1/2,+z
+302 +z+1/2,+x+1/2,+y
+303 +y+1/2,+z+1/2,+x
+304 +x+1/2,+y+1/2,-z
+305 -z+1/2,+x+1/2,+y
+306 +y+1/2,-z+1/2,+x
+307 -z+1/2,+x+1/2,-y
+308 -y+1/2,-z+1/2,+x
+309 +y+1/2,-z+1/2,-x
+310 -x+1/2,+y+1/2,-z
+311 -z+1/2,-x+1/2,+y
+312 +x+1/2,-y+1/2,-z
+313 +y+1/2,+x+1/2,+z
+314 +z+1/2,+y+1/2,+x
+315 +x+1/2,+z+1/2,+y
+316 +y+1/2,+x+1/2,-z
+317 -z+1/2,+y+1/2,+x
+318 +x+1/2,-z+1/2,+y
+319 -z+1/2,+y+1/2,-x
+320 -x+1/2,-z+1/2,+y
+321 +x+1/2,-z+1/2,-y
+322 -y+1/2,+x+1/2,-z
+323 -z+1/2,-y+1/2,+x
+324 +y+1/2,-x+1/2,-z
+-301 -x+1/2,-y+1/2,-z
+-302 -z+1/2,-x+1/2,-y
+-303 -y+1/2,-z+1/2,-x
+-304 -x+1/2,-y+1/2,+z
+-305 +z+1/2,-x+1/2,-y
+-306 -y+1/2,+z+1/2,-x
+-307 +z+1/2,-x+1/2,+y
+-308 +y+1/2,+z+1/2,-x
+-309 -y+1/2,+z+1/2,+x
+-310 +x+1/2,-y+1/2,+z
+-311 +z+1/2,+x+1/2,-y
+-312 -x+1/2,+y+1/2,+z
+-313 -y+1/2,-x+1/2,-z
+-314 -z+1/2,-y+1/2,-x
+-315 -x+1/2,-z+1/2,-y
+-316 -y+1/2,-x+1/2,+z
+-317 +z+1/2,-y+1/2,-x
+-318 -x+1/2,+z+1/2,-y
+-319 +z+1/2,-y+1/2,+x
+-320 +x+1/2,+z+1/2,-y
+-321 -x+1/2,+z+1/2,+y
+-322 +y+1/2,-x+1/2,+z
+-323 +z+1/2,+y+1/2,-x
+-324 -y+1/2,+x+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Eu Eu 0.0 0.0 0.0 1.0 Uiso 0.0493(8) 4
+C C 0.0 0.5 0.0 2.0 Uiso 0.073(4) 4
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+_atom_type_number_in_cell
+Eu -7.718 11.276 24.6274 2.38790 19.0886 0.19420 13.7603 13.7546 2.92270
+123.174 2.57450 International_Tables_Vol_C 4
+C 0.017 0.009 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500 51.6512
+0.21560 International_Tables_Vol_C 8
+O 0.047 0.032 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700 32.9089
+0.25080 International_Tables_Vol_C 0
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Eu Eu 4.34018(20) 101_544 n
+Eu Eu 4.34018(20) 101_545 n
+Eu Eu 4.34018(20) 101_554 n
+Eu Eu 4.34018(20) 101_555 n
+Eu Eu 4.34018(20) 201_454 n
+Eu Eu 4.34018(20) 201_455 n
+Eu Eu 4.34018(20) 201_554 n
+Eu Eu 4.34018(20) 201_555 n
+Eu Eu 4.34018(28) 301_445 n
+Eu Eu 4.34018(28) 301_455 n
+Eu Eu 4.34018(28) 301_545 n
+Eu Eu 4.34018(28) 301_555 n
+Eu C 3.06897(20) 1_545 n
+Eu C 3.06897(20) 1_555 n
+Eu C 3.06897(20) 2_554 n
+Eu C 3.06897(20) 2_555 n
+Eu C 3.06897(20) 3_455 n
+Eu C 3.06897(20) 3_555 n
+C Eu 3.06897(20) 1_555 n
+C Eu 3.06897(20) 1_565 n
+C Eu 3.06897(20) 101_554 n
+C Eu 3.06897(20) 101_555 n
+C Eu 3.06897(20) 301_455 n
+C Eu 3.06897(20) 301_555 n
+loop_
+_pd_phase_id
+_pd_phase_block_id
+_pd_phase_mass_%
+_pd_proc_ls_profile_function
+_pd_proc_ls_peak_cutoff
+1 2010-11-19T15:25|EUC2_648_phase1|EuC2_648|| 98.28
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   1.0   0.0
+;
+0.00100
+2 2010-11-19T15:25|EUC2_648_phase2|EuC2_648|| 1.72(14)
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+0.00100

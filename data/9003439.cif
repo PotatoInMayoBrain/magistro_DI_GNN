@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/34/9003439.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9003439
+loop_
+_publ_author_name
+'Gatta, G. D.'
+'Ballaran, T. B.'
+'Comodi, P.'
+'Zanazzi, P. F.'
+_publ_section_title
+;Isothermal equation of state and compressional behavior of tetragonal
+ edingtonite Sample at P = 0.0001 GPa in air
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              633
+_journal_page_last               639
+_journal_volume                  89
+_journal_year                    2004
+_chemical_formula_sum            'Al1.96 Ba0.94 H8 O13.54 Si3.04'
+_chemical_name_mineral           Edingtonite
+_space_group_IT_number           113
+_symmetry_space_group_name_Hall  'P -4 2ab'
+_symmetry_space_group_name_H-M   'P -4 21 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.5909
+_cell_length_b                   9.5909
+_cell_length_c                   6.5339
+_cell_volume                     601.023
+_database_code_amcsd             0003529
+_diffrn_ambient_pressure         100
+_exptl_crystal_density_diffrn    2.719
+_exptl_crystal_pressure_history  'P = 0.0001 GPa in air'
+_cod_original_formula_sum        'Ba.94 (Si3.04 Al1.96) O13.54 H8'
+_cod_database_code               9003439
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-y,1/2-x,z
+y,-x,-z
+1/2-x,1/2+y,-z
+-x,-y,z
+1/2+y,1/2+x,z
+-y,x,-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba1 0.50000 0.00000 0.64292 0.79000 0.01583 Ba 0
+Ba2 0.50000 0.00000 0.59380 0.15000 0.01380 Ba 0
+SiT1 0.00000 0.00000 0.00000 0.60000 0.00933 Si 0
+AlT1 0.00000 0.00000 0.00000 0.40000 0.00933 Al 0
+SiT2 -0.17347 0.09318 0.38107 0.61000 0.00934 Si 0
+AlT2 -0.17347 0.09318 0.38107 0.39000 0.00934 Al 0
+O1 0.17297 0.32703 0.62436 1.00000 0.01337 O 0
+O23 -0.04481 0.19643 0.46501 1.00000 0.01664 O 0
+O45 -0.13667 0.03769 0.14424 1.00000 0.01659 O 0
+Wat1 0.17659 0.32341 0.14610 0.79000 0.03100 O 2
+Wat2 0.37786 0.12214 -0.02510 0.98000 0.05810 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:37:30+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0003529

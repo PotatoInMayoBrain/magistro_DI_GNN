@@ -1,0 +1,219 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-30 15:55:43 +0200 (Mon, 30 Jan 2017) $
+#$Revision: 191094 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/45/2004554.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004554
+loop_
+_publ_author_name
+'Gon\,calves, N. S.'
+'Santos, P. S.'
+'Vencato, I.'
+_publ_contact_author
+;
+    Dr Ivo Vencato
+    Departamento Fisica
+    UFSC
+    88040-900 Florianopolis
+    SC
+    Brazil
+;
+_publ_section_title
+;
+ Lithium Croconate Dihydrate
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              622
+_journal_page_last               624
+_journal_paper_doi               10.1107/S0108270195011887
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_iupac          '2Li + , C5 O5 2- , 2H2 O1'
+_chemical_formula_moiety         'Li2 C5 O5,2H2 O1'
+_chemical_formula_sum            'C5 H4 Li2 O7'
+_chemical_formula_weight         189.97
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           'MolEN   (Fair, 1990)'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 106.200(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   15.1058(6)
+_cell_length_b                   7.5393(2)
+_cell_length_c                   6.6094(3)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      25.5
+_cell_measurement_theta_min      19.3
+_cell_volume                     722.84(5)
+_computing_cell_refinement       CAD4-Express
+_computing_data_collection       'CAD4-Express (Nonius, 1993)'
+_computing_data_reduction        'MolEN: PROCESS (Fair, 1990)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_publication_material  'PLATON (Spek, 1990)'
+_computing_structure_refinement  'MolEN: LSFM'
+_computing_structure_solution    'SIR92   (Burla et al., 1992)'
+_diffrn_measurement_device       'Nonius CAD-4 diffractometer'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           Mo
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.035
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            925
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         2.12
+_diffrn_standards_decay_%        -1.4
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.152
+_exptl_absorpt_correction_T_max  0.9997
+_exptl_absorpt_correction_T_min  0.9577
+_exptl_absorpt_correction_type
+'empirical via \y scan (North, Phillips & Mathews, 1968)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.745
+_exptl_crystal_density_meas      1.75
+_exptl_crystal_density_method    flotation
+_exptl_crystal_description       prismatic
+_exptl_crystal_F_000             384
+_exptl_crystal_size_max          0.70
+_exptl_crystal_size_mid          0.60
+_exptl_crystal_size_min          0.50
+_refine_diff_density_max         0.381
+_refine_diff_density_min         -0.456
+_refine_ls_extinction_coef       ' g = 9.27(1)x10^-5^ '
+_refine_ls_extinction_method     ' (1 + gI~c~) applied to F~c~ '
+_refine_ls_goodness_of_fit_obs   0.884
+_refine_ls_hydrogen_treatment    'H atoms refined'
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         776
+_refine_ls_R_factor_all          0.0517
+_refine_ls_R_factor_obs          0.0472
+_refine_ls_shift/esd_max         0.13
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0513
+_reflns_number_observed          776
+_reflns_number_total             829
+_reflns_observed_criterion       'F > 6.0\s(F)'
+_cod_data_source_file            ab1272.cif
+_cod_data_source_block           default
+_cod_depositor_comments
+;
+ Adding the _atom_site_type_symbol data item.
+
+ Antanas Vaitkus,
+ 2017-01-30
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F)]' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/[\s^2^(F)]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        722.79(5)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_original_formula_sum        'Li2 C5 H4 O7'
+_cod_database_code               2004554
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+-x,-y,-z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Li 0.0250(10) 0.0250(10) 0.0360(10) -0.0010(10) 0.0070(10) -0.0030(10)
+O1 0.0226(7) 0.0139(7) 0.0422(8) .0 0.0051(6) .0
+O2 0.0197(5) 0.0279(6) 0.0505(6) 0.0084(6) 0.0068(5) 0.0025(5)
+O3 0.0443(7) 0.0182(5) 0.0428(6) 0.0032(5) 0.0083(5) 0.0118(5)
+C1 0.0195(8) 0.0150(9) 0.0235(9) .0 0.0055(7) .0
+C2 0.0222(6) 0.0166(7) 0.0242(6) 0.0022(6) 0.0056(5) 0.0018(6)
+C3 0.0315(7) 0.0164(7) 0.0216(6) 0.0013(6) 0.0064(5) 0.0038(6)
+OW 0.0233(5) 0.0213(5) 0.0356(5) -0.0008(5) 0.0051(4) -0.0042(5)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Li Li .1126(2) .5483(4) .3087(5) .0291(7)
+O1 O 0 .3992(2) .25 .0270(4)
+O2 O .16230(8) .1717(2) .3235(2) .0333(3)
+O3 O .10066(9) -0.1986(2) .2932(2) .0359(3)
+C1 C 0 .2310(3) .25 .0194(5)
+C2 C .08120(10) .1194(2) .2871(2) .0212(4)
+C3 C .05070(10) -.0663(2) .2724(2) .0234(4)
+OW O .18381(7) .4744(2) .1108(2) .0274(3)
+H1 H .1920(10) .361(3) .187(2) .0507
+H2 H .2280(10) .526(3) .145(2) .0507
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C1 O1 Li ? ? 124.50(10) yes
+O1 C1 C2 ? ? 125.44(9) yes
+O2 C2 C1 ? ? 126.1(2) yes
+O2 C2 C3 ? ? 126.10(10) yes
+C1 C2 C3 ? ? 107.90(10) yes
+O3 C3 C2 ? ? 126.3(2) yes
+O3 Li O1 1_565 ? 119.4(2) yes
+O3 Li OW 1_565 ? 107.6(2) yes
+O3 Li OW 1_565 4_565 98.9(2) yes
+O1 Li OW ? ? 107.70(10) yes
+O1 Li OW ? 4_565 109.9(2) yes
+OW Li OW ? 4_565 113.2(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Li O1 ? 1.984(3) yes
+Li OW ? 1.990(4) yes
+Li O3 1_565 1.917(3) yes
+Li OW 4_565 1.994(3) yes
+O1 C1 ? 1.268(3) yes
+O2 C2 ? 1.245(2) yes
+O3 C3 ? 1.235(2) yes
+C1 C2 ? 1.451(2) yes
+C2 C3 ? 1.469(2) yes
+OW H1 ? 0.98(2) no
+OW H2 ? 0.75(2) no

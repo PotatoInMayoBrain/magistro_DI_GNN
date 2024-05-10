@@ -1,0 +1,344 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/06/2010625.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010625
+loop_
+_publ_author_name
+'Weil, Matthias'
+'Glaum, Robert'
+_publ_section_title
+;
+ Mercury(II) polyphosphate, Hg(PO~3~)~2~
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              133
+_journal_page_last               135
+_journal_paper_doi               10.1107/S0108270199014067
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'Hg O6 P2'
+_chemical_formula_weight         358.53
+_chemical_melting_point          612(10)
+_chemical_name_systematic
+;
+Mercury(II) polyphosphate
+;
+_space_group_IT_number           61
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P b c a'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   9.709(2)
+_cell_length_b                   13.748(2)
+_cell_length_c                   7.1280(10)
+_cell_measurement_reflns_used    45
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      25.85
+_cell_measurement_theta_min      6.44
+_cell_volume                     951.4(3)
+_computing_cell_refinement       STADI4
+_computing_data_collection       'STADI4 (Stoe & Cie, 1995)'
+_computing_data_reduction        STADI4
+_computing_molecular_graphics    'ATOMS for Windows (Dowty, 1998)'
+_computing_publication_material  SHELXL97
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    ???
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'Siemens AED-2'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .082
+_diffrn_reflns_av_sigmaI/netI    .036
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -19
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            10112
+_diffrn_reflns_theta_full        29.99
+_diffrn_reflns_theta_max         29.99
+_diffrn_reflns_theta_min         2.96
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    32.973
+_exptl_absorpt_correction_T_max  .085
+_exptl_absorpt_correction_T_min  .023
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'HABITUS (Herrendorf, 1993)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    5.006
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             1264
+_exptl_crystal_size_max          .28
+_exptl_crystal_size_mid          .18
+_exptl_crystal_size_min          .12
+_refine_diff_density_max         3.009
+_refine_diff_density_min         -2.883
+_refine_ls_extinction_coef       .0032(2)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.108
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         1379
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.108
+_refine_ls_R_factor_all          .039
+_refine_ls_R_factor_gt           .034
+_refine_ls_shift/su_max          <0.001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0367P)^2^+18.4224P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .093
+_reflns_number_gt                1223
+_reflns_number_total             1379
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            gs1057.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0367P)^2^+18.4224P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(Fo^2^)+(0.0367P)^2^+18.4224P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2010625
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z'
+'-x, y+1/2, -z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x, -y, -z'
+'-x-1/2, y-1/2, z'
+'x, -y-1/2, z-1/2'
+'x-1/2, y, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Hg -.00637(3) .204514(19) .04929(4) .01364(15) Uani d . 1 . . Hg
+P1 .21142(18) .39560(12) .1799(3) .0119(3) Uani d . 1 . . P
+P2 .30089(18) .40325(13) .5744(3) .0119(3) Uani d . 1 . . P
+O1 .2966(6) .3755(4) .0131(8) .0216(11) Uani d . 1 . . O
+O2 .1025(6) .3245(4) .2359(8) .0186(10) Uani d . 1 . . O
+O3 .3997(6) .3251(4) .6302(8) .0182(10) Uani d . 1 . . O
+O4 .1535(5) .3973(4) .6328(8) .0187(10) Uani d . 1 . . O
+O5 .3126(5) .4138(4) .3515(7) .0164(10) Uani d . 1 . . O
+O6 .1360(5) .4979(3) .1504(8) .0145(9) Uani d . 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hg .01344(19) .0141(2) .0134(2) .00131(8) -.00142(8) .00056(9)
+P1 .0124(7) .0115(7) .0118(8) .0011(6) .0007(6) -.0006(6)
+P2 .0111(7) .0118(7) .0128(7) .0009(6) -.0021(6) -.0015(6)
+O1 .023(3) .027(3) .014(2) .008(2) .006(2) -.002(2)
+O2 .026(3) .013(2) .016(2) -.005(2) -.001(2) .001(2)
+O3 .026(3) .015(2) .014(2) .008(2) -.004(2) .0016(19)
+O4 .015(2) .021(2) .020(3) -.0041(19) .001(2) -.003(2)
+O5 .014(2) .025(2) .011(2) .0045(19) .0018(19) .009(2)
+O6 .012(2) .012(2) .020(2) .0002(17) .0040(19) .0036(19)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Hg Hg -2.3894 9.2266 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P .1023 .0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O4 Hg O1 7_565 2_455 110.3(2) y
+O4 Hg O3 7_565 8_556 155.0(2) y
+O1 Hg O3 2_455 8_556 84.5(2) y
+O4 Hg O2 7_565 . 88.6(2) y
+O1 Hg O2 2_455 . 146.2(2) y
+O3 Hg O2 8_556 . 89.3(2) y
+O4 Hg O3 7_565 2_456 84.5(2) y
+O1 Hg O3 2_455 2_456 77.89(19) y
+O3 Hg O3 8_556 2_456 119.1(2) y
+O2 Hg O3 . 2_456 76.27(18) y
+O4 Hg O2 7_565 7_565 80.80(19) y
+O1 Hg O2 2_455 7_565 96.0(2) y
+O3 Hg O2 8_556 7_565 77.57(18) y
+O2 Hg O2 . 7_565 115.1(2) y
+O3 Hg O2 2_456 7_565 161.07(18) y
+O1 P1 O2 . . 119.3(3) y
+O1 P1 O5 . . 107.7(3) y
+O2 P1 O5 . . 109.5(3) y
+O1 P1 O6 . . 108.4(3) y
+O2 P1 O6 . . 106.6(3) y
+O5 P1 O6 . . 104.3(3) y
+O1 P1 Hg . 2 26.4(2) ?
+O2 P1 Hg . 2 115.1(2) ?
+O5 P1 Hg . 2 86.4(2) ?
+O6 P1 Hg . 2 130.37(19) ?
+O1 P1 Hg . . 89.1(3) ?
+O2 P1 Hg . . 32.0(2) ?
+O5 P1 Hg . . 134.1(2) ?
+O6 P1 Hg . . 110.40(19) ?
+Hg P1 Hg 2 . 93.10(4) ?
+O1 P1 Hg . 7_566 146.8(2) ?
+O2 P1 Hg . 7_566 31.8(2) ?
+O5 P1 Hg . 7_566 82.1(2) ?
+O6 P1 Hg . 7_566 99.27(19) ?
+Hg P1 Hg 2 7_566 130.33(5) ?
+Hg P1 Hg . 7_566 63.78(3) ?
+O1 P1 Hg . 8_656 83.6(2) ?
+O2 P1 Hg . 8_656 86.0(2) ?
+O5 P1 Hg . 8_656 49.5(2) ?
+O6 P1 Hg . 8_656 153.7(2) ?
+Hg P1 Hg 2 8_656 57.41(3) ?
+Hg P1 Hg . 8_656 92.65(4) ?
+Hg P1 Hg 7_566 8_656 79.22(3) ?
+O4 P2 O3 . . 120.1(3) y
+O4 P2 O6 . 4_565 108.8(3) y
+O3 P2 O6 . 4_565 106.1(3) y
+O4 P2 O5 . . 110.5(3) y
+O3 P2 O5 . . 106.5(3) y
+O6 P2 O5 4_565 . 103.6(3) y
+O4 P2 Hg . 7_566 29.9(2) ?
+O3 P2 Hg . 7_566 105.6(2) ?
+O6 P2 Hg 4_565 7_566 138.1(2) ?
+O5 P2 Hg . 7_566 92.9(2) ?
+O4 P2 Hg . 8_656 123.5(2) ?
+O3 P2 Hg . 8_656 31.2(2) ?
+O6 P2 Hg 4_565 8_656 124.05(19) ?
+O5 P2 Hg . 8_656 77.15(19) ?
+Hg P2 Hg 7_566 8_656 96.92(5) ?
+O4 P2 Hg . 2_556 105.6(2) ?
+O3 P2 Hg . 2_556 33.9(2) ?
+O6 P2 Hg 4_565 2_556 84.08(19) ?
+O5 P2 Hg . 2_556 137.9(2) ?
+Hg P2 Hg 7_566 2_556 108.84(5) ?
+Hg P2 Hg 8_656 2_556 65.08(3) ?
+P1 O1 Hg . 2 136.7(4) ?
+P1 O1 Hg . . 67.9(2) ?
+Hg O1 Hg 2 . 111.8(2) ?
+P1 O2 Hg . . 128.4(3) ?
+P1 O2 Hg . 7_566 129.9(3) ?
+Hg O2 Hg . 7_566 101.63(19) ?
+P2 O3 Hg . 8_656 129.0(3) ?
+P2 O3 Hg . 2_556 126.6(3) ?
+Hg O3 Hg 8_656 2_556 104.38(19) ?
+P2 O3 Hg . 7_566 53.3(2) ?
+Hg O3 Hg 8_656 7_566 103.80(18) ?
+Hg O3 Hg 2_556 7_566 118.39(19) ?
+P2 O4 Hg . 7_566 130.0(3) ?
+P2 O4 Hg . 2_556 54.6(2) ?
+Hg O4 Hg 7_566 2_556 119.31(19) ?
+P1 O5 P2 . . 135.0(4) y
+P1 O5 Hg . 8_656 110.0(3) ?
+P2 O5 Hg . 8_656 75.94(19) ?
+P1 O5 Hg . 2 68.5(2) ?
+P2 O5 Hg . 2 139.1(3) ?
+Hg O5 Hg 8_656 2 63.41(9) ?
+P1 O5 Hg . 7_566 73.3(2) ?
+P2 O5 Hg . 7_566 62.05(17) ?
+Hg O5 Hg 8_656 7_566 88.98(12) ?
+Hg O5 Hg 2 7_566 119.05(15) ?
+P2 O6 P1 4_564 . 128.4(3) y
+P2 O6 Hg 4_564 3 71.19(18) ?
+P1 O6 Hg . 3 137.7(3) ?
+P2 O6 Hg 4_564 7_566 157.4(3) ?
+P1 O6 Hg . 7_566 58.71(16) ?
+Hg O6 Hg 3 7_566 90.29(11) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Hg O4 7_565 2.173(5) y
+Hg O1 2_455 2.251(6) y
+Hg O3 8_556 2.285(5) y
+Hg O2 . 2.369(5) y
+Hg O3 2_456 2.493(5) y
+Hg O2 7_565 2.503(6) y
+P1 O1 . 1.475(6) y
+P1 O2 . 1.494(6) y
+P1 O5 . 1.589(6) y
+P1 O6 . 1.600(5) y
+P1 Hg 2 3.4742(18) ?
+P1 Hg 7_566 3.6469(18) ?
+P1 Hg 8_656 4.2587(18) ?
+P2 O4 . 1.493(6) y
+P2 O3 . 1.494(5) y
+P2 O6 4_565 1.586(5) y
+P2 O5 . 1.599(6) y
+P2 Hg 7_566 3.3356(19) ?
+P2 Hg 8_656 3.4270(18) ?
+P2 Hg 2_556 3.5905(19) ?
+O1 Hg 2 2.251(6) ?
+O2 Hg 7_566 2.503(6) ?
+O3 Hg 8_656 2.285(5) ?
+O3 Hg 2_556 2.493(5) ?
+O3 Hg 7_566 4.005(6) ?
+O4 Hg 7_566 2.173(5) ?
+O4 Hg 2_556 4.243(6) ?
+O5 Hg 8_656 3.444(5) ?
+O5 Hg 2 3.728(5) ?
+O5 Hg 7_566 3.771(5) ?
+O6 P2 4_564 1.586(5) ?
+O6 Hg 3 3.773(5) ?
+O6 Hg 7_566 4.212(5) ?

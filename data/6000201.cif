@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-12-15 23:52:18 +0200 (Fri, 15 Dec 2023) $
+#$Revision: 288353 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/6/00/02/6000201.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_6000201
+loop_
+_publ_author_name
+'Goubitz, K.'
+'Sonneveld, E. J.'
+'Schenk, H.'
+_publ_section_title
+;
+ Crystal structure determination of a series of small organic compounds from
+ powder data
+;
+_journal_issue                   3
+_journal_name_full               'Zeitschrift f\"ur Kristallographie'
+_journal_page_first              176
+_journal_page_last               181
+_journal_paper_doi               10.1524/zkri.216.3.176.20326
+_journal_volume                  216
+_journal_year                    2001
+_chemical_formula_sum            'C7 H7 I O'
+_chemical_name_systematic        2-iodo-benzenemethanol
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yn'
+_space_group_name_H-M_alt        'P 1 21/n 1'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 109.69(4)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   13.23(1)
+_cell_length_b                   4.652(3)
+_cell_length_c                   12.82(1)
+_cell_volume                     742.89
+_cod_database_code               6000201
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x+1/2,y+1/2,-z+1/2
+3 -x,-y,-z
+4 x+1/2,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_attached_hydrogens
+I1 0.08406(9) 0.1306(2) -0.21070(10) 5.75(5) 0
+O2 0.1575(7) -0.395(2) 0.1119(8) 9.6(3) 1
+C3 0.147(2) -0.216(4) 0.018(2) 12.6(3) 0
+C4 0.415(1) 0.231(4) 0.002(2) 12.6(3) 0
+C5 0.318(2) 0.260(3) -0.080(1) 12.6(3) 0
+C6 0.229(1) 0.100(4) -0.079(2) 12.6(3) 0
+C7 0.236(2) -0.061(4) 0.017(2) 12.6(3) 0
+C8 0.336(2) -0.106(4) 0.097(2) 12.6(3) 0
+C9 0.423(1) 0.075(5) 0.100(2) 12.6(3) 0
+H10 0.482(9) 0.31(2) -0.008(10) 10.0 0
+H11 0.309(8) 0.41(2) -0.137(8) 10.0 0
+H12 0.345(8) -0.25(2) 0.156(8) 10.0 0
+H13 0.491(8) 0.07(2) 0.164(9) 10.0 0
+H14 0.089(6) -0.07(2) 0.017(10) 10.0 0
+H15 0.123(8) -0.33(2) -0.050(10) 10.0 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2023-12-15T23:50:00+02:00
+;
+ Changed the z coordinate of atom site 'I1' from '-0.21070(10' to
+ '-0.21070(10)'.
+;
+loop_
+_cod_entry_issue_id
+_cod_entry_issue_author
+_cod_entry_issue_date
+_cod_entry_issue_severity
+_cod_entry_issue_origin
+_cod_entry_issue_description
+1 'Vaitkus, Antanas' 2023-12-15T23:50:00+02:00 warning original
+;
+ The z coordinate of atom site 'I1' in the original publication was specified
+ as '-0.21070(10', i.e. without the closing parenthesis symbol (')'). The
+ supplementary CIF file with this data is not publicly available. Maintainers
+ of the COD chose to interpret this value as '-0.21070(10)'.
+;

@@ -1,0 +1,122 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/00/2200091.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2200091
+loop_
+_publ_author_name
+'Matthias Weil'
+_publ_section_title
+;
+Cadmium(II) metaarsenate(V), CdAs~2~O~6~
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i22
+_journal_page_last               i23
+_journal_paper_doi               10.1107/S1600536801003865
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_iupac          'As2 Cd O6'
+_chemical_formula_moiety         'As2 Cd O6'
+_chemical_formula_sum            'As2 Cd O6'
+_chemical_formula_weight         358.24
+_space_group_IT_number           162
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3 2'
+_symmetry_space_group_name_H-M   'P -3 1 m'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   4.8269(10)
+_cell_length_b                   4.8269(10)
+_cell_length_c                   4.8660(10)
+_cell_measurement_temperature    293(2)
+_cell_volume                     98.18(4)
+_diffrn_ambient_temperature      293(2)
+_exptl_crystal_density_diffrn    6.059
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'Y' changed to 'y' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (2 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P -3 1 M'
+_cod_database_code               2200091
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, z'
+'x-y, -y, z'
+'-x, -x+y, z'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, -z'
+'-x+y, y, -z'
+'x, x-y, -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Cd1 .0000 .0000 .0000 .00641(13) Uani d S 1 . . Cd
+As1 .3333 .6667 .5000 .00374(13) Uani d S 1 . . As
+O1 .6243(4) .0000 .2913(3) .0062(3) Uani d S 1 . . O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cd1 .00700(14) .00700(14) .00522(16) .00350(7) .000 .000
+As1 .00321(14) .00321(14) .00480(16) .00161(7) .000 .000
+O1 .0067(4) .0042(5) .0068(6) .0021(3) .0023(4) .000
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cd1 O1 9_445 2.3019(17) y
+Cd1 O1 3_665 2.3019(17) ?
+Cd1 O1 1_455 2.3019(17) ?
+Cd1 O1 2_545 2.3019(17) ?
+Cd1 O1 8_565 2.3019(17) ?
+Cd1 O1 7_655 2.3019(17) ?
+As1 O1 2 1.8256(11) y
+As1 O1 7_666 1.8256(11) ?
+As1 O1 8_566 1.8256(11) ?
+As1 O1 1_565 1.8256(11) ?
+As1 O1 9_556 1.8256(11) ?
+As1 O1 3_665 1.8256(11) ?
+As1 As1 7_566 2.7868(6) ?
+As1 As1 7_676 2.7868(6) ?
+As1 As1 7_666 2.7868(6) ?
+O1 As1 7_666 1.8256(11) ?
+O1 As1 1_545 1.8256(11) ?
+O1 Cd1 1_655 2.3019(17) ?

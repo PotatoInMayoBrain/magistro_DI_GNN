@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/75/9007547.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007547
+loop_
+_publ_author_name
+'Khan, A. A.'
+'Baur, W. H.'
+_publ_section_title
+;
+ Salt hydrates. VIII. The crystal structures of sodium ammonium orthochromate
+ dihydrate and magnesium diammonium bis(hydrogen orthophosphate) tetrahydrate
+ and a discussion of the ammonium ion
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              683
+_journal_page_last               693
+_journal_paper_doi               10.1107/S0567740872003024
+_journal_volume                  28
+_journal_year                    1972
+_chemical_formula_structural     Na(NH4)CrO4*2H2O
+_chemical_formula_sum            'Cr H4 N Na O6'
+_space_group_IT_number           19
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.413
+_cell_length_b                   13.039
+_cell_length_c                   6.219
+_cell_volume                     682.206
+_database_code_amcsd             0009428
+_exptl_crystal_density_diffrn    1.840
+_cod_original_formula_sum        'Na N Cr O6 H4'
+_cod_database_code               9007547
+_amcsd_formula_title             Na(NH4)CrO4*2H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+1/2-x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.26100 0.49000 0.90000 0.03166 Na 0
+NH4 0.15600 0.85600 0.37600 0.03293 N 0
+Cr 0.09700 0.12810 0.38320 0.02406 Cr 0
+O1 0.08100 0.20600 0.18300 0.03926 O 0
+O2 0.08200 0.18900 0.60700 0.04559 O 0
+O3 0.27200 0.07200 0.37500 0.05066 O 0
+O4 0.03900 0.53900 0.13400 0.03673 O 0
+Wat5 0.19700 0.63300 0.67100 0.03546 O 2
+Wat6 0.09000 0.40400 0.65400 0.03040 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:50+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009428

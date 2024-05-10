@@ -1,0 +1,466 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-08 00:56:26 +0200 (Fri, 08 Nov 2019) $
+#$Revision: 224372 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/70/04/7700433.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7700433
+loop_
+_publ_author_name
+'Starobrat, Agnieszka'
+'Jaro\'n, Tomasz'
+'Grochala, Wojciech'
+_publ_section_title
+;
+ Two new derivatives of scandium borohydride,
+ MSc(BH<sub>4</sub>)<sub>4</sub>, M = Rb, Cs, prepared via a one-pot
+ solvent-mediated method.
+;
+_journal_issue                   31
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              11829
+_journal_page_last               11837
+_journal_paper_doi               10.1039/c9dt01967g
+_journal_volume                  48
+_journal_year                    2019
+_chemical_formula_sum            'Cl6 Rb3 Sc'
+_chemical_formula_weight         514.1
+_space_group_IT_number           225
+_space_group_name_Hall           '-F 4 2 3'
+_space_group_name_H-M_alt        'F m -3 m'
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      225
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_update_record
+;
+2019-05-07 deposited with the CCDC.    2019-07-02 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.6873(10)
+_cell_length_b                   10.6873(10)
+_cell_length_c                   10.6873(10)
+_cell_measurement_temperature    293
+_cell_volume                     1220.7(2)
+_diffrn_ambient_temperature      293
+_diffrn_detector                 one-dimensional
+_diffrn_detector_type            LYNXEYE
+_diffrn_measurement_device_type  'Bruker D8 Discover'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Cu K\a'
+_diffrn_radiation_wavelength     1.54187
+_exptl_absorpt_coefficient_mu    31.241
+_exptl_crystal_density_diffrn    2.7973
+_exptl_crystal_F_000             184
+_pd_char_colour                  white
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.013
+_pd_meas_2theta_range_max        89.997
+_pd_meas_2theta_range_min        6.000
+_pd_meas_number_of_points        6317
+_pd_meas_scan_method             cont
+_pd_proc_2theta_range_inc        0.013
+_pd_proc_2theta_range_max        89.997
+_pd_proc_2theta_range_min        6
+_pd_proc_ls_background_function  '36 Legendre polynoms'
+_pd_proc_ls_pref_orient_corr     none
+_pd_proc_ls_profile_function     Pseudo-Voigt
+_pd_proc_ls_prof_R_factor        0.0095
+_pd_proc_ls_prof_wR_expected     0.2389
+_pd_proc_ls_prof_wR_factor       0.0148
+_pd_spec_mounting                'quartz capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   0.06
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     58
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0934
+_refine_ls_R_factor_gt           0.0524
+_refine_ls_shift/su_max          0.0319
+_refine_ls_shift/su_mean         0.0041
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0632
+_refine_ls_wR_factor_gt          0.0551
+_cod_data_source_file            c9dt01967g2.cif
+_cod_data_source_block           I_CCDC2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7700431--7700434.cif.
+;
+_cod_original_formula_sum        'Cl6 Rb3 Sc1'
+_cod_database_code               7700433
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x,y,-z
+4 x,-y,-z
+5 z,x,y
+6 z,-x,-y
+7 -z,-x,y
+8 -z,x,-y
+9 y,z,x
+10 -y,z,-x
+11 y,-z,-x
+12 -y,-z,x
+13 y,x,-z
+14 -y,-x,-z
+15 y,-x,z
+16 -y,x,z
+17 x,z,-y
+18 -x,z,y
+19 -x,-z,-y
+20 x,-z,y
+21 z,y,-x
+22 z,-y,x
+23 -z,y,x
+24 -z,-y,-x
+25 -x,-y,-z
+26 x,y,-z
+27 x,-y,z
+28 -x,y,z
+29 -z,-x,-y
+30 -z,x,y
+31 z,x,-y
+32 z,-x,y
+33 -y,-z,-x
+34 y,-z,x
+35 -y,z,x
+36 y,z,-x
+37 -y,-x,z
+38 y,x,z
+39 -y,x,-z
+40 y,-x,-z
+41 -x,-z,y
+42 x,-z,-y
+43 x,z,y
+44 -x,z,-y
+45 -z,-y,x
+46 -z,y,-x
+47 z,-y,-x
+48 z,y,x
+49 x,y+1/2,z+1/2
+50 -x,-y+1/2,z+1/2
+51 -x,y+1/2,-z+1/2
+52 x,-y+1/2,-z+1/2
+53 z,x+1/2,y+1/2
+54 z,-x+1/2,-y+1/2
+55 -z,-x+1/2,y+1/2
+56 -z,x+1/2,-y+1/2
+57 y,z+1/2,x+1/2
+58 -y,z+1/2,-x+1/2
+59 y,-z+1/2,-x+1/2
+60 -y,-z+1/2,x+1/2
+61 y,x+1/2,-z+1/2
+62 -y,-x+1/2,-z+1/2
+63 y,-x+1/2,z+1/2
+64 -y,x+1/2,z+1/2
+65 x,z+1/2,-y+1/2
+66 -x,z+1/2,y+1/2
+67 -x,-z+1/2,-y+1/2
+68 x,-z+1/2,y+1/2
+69 z,y+1/2,-x+1/2
+70 z,-y+1/2,x+1/2
+71 -z,y+1/2,x+1/2
+72 -z,-y+1/2,-x+1/2
+73 -x,-y+1/2,-z+1/2
+74 x,y+1/2,-z+1/2
+75 x,-y+1/2,z+1/2
+76 -x,y+1/2,z+1/2
+77 -z,-x+1/2,-y+1/2
+78 -z,x+1/2,y+1/2
+79 z,x+1/2,-y+1/2
+80 z,-x+1/2,y+1/2
+81 -y,-z+1/2,-x+1/2
+82 y,-z+1/2,x+1/2
+83 -y,z+1/2,x+1/2
+84 y,z+1/2,-x+1/2
+85 -y,-x+1/2,z+1/2
+86 y,x+1/2,z+1/2
+87 -y,x+1/2,-z+1/2
+88 y,-x+1/2,-z+1/2
+89 -x,-z+1/2,y+1/2
+90 x,-z+1/2,-y+1/2
+91 x,z+1/2,y+1/2
+92 -x,z+1/2,-y+1/2
+93 -z,-y+1/2,x+1/2
+94 -z,y+1/2,-x+1/2
+95 z,-y+1/2,-x+1/2
+96 z,y+1/2,x+1/2
+97 x+1/2,y,z+1/2
+98 -x+1/2,-y,z+1/2
+99 -x+1/2,y,-z+1/2
+100 x+1/2,-y,-z+1/2
+101 z+1/2,x,y+1/2
+102 z+1/2,-x,-y+1/2
+103 -z+1/2,-x,y+1/2
+104 -z+1/2,x,-y+1/2
+105 y+1/2,z,x+1/2
+106 -y+1/2,z,-x+1/2
+107 y+1/2,-z,-x+1/2
+108 -y+1/2,-z,x+1/2
+109 y+1/2,x,-z+1/2
+110 -y+1/2,-x,-z+1/2
+111 y+1/2,-x,z+1/2
+112 -y+1/2,x,z+1/2
+113 x+1/2,z,-y+1/2
+114 -x+1/2,z,y+1/2
+115 -x+1/2,-z,-y+1/2
+116 x+1/2,-z,y+1/2
+117 z+1/2,y,-x+1/2
+118 z+1/2,-y,x+1/2
+119 -z+1/2,y,x+1/2
+120 -z+1/2,-y,-x+1/2
+121 -x+1/2,-y,-z+1/2
+122 x+1/2,y,-z+1/2
+123 x+1/2,-y,z+1/2
+124 -x+1/2,y,z+1/2
+125 -z+1/2,-x,-y+1/2
+126 -z+1/2,x,y+1/2
+127 z+1/2,x,-y+1/2
+128 z+1/2,-x,y+1/2
+129 -y+1/2,-z,-x+1/2
+130 y+1/2,-z,x+1/2
+131 -y+1/2,z,x+1/2
+132 y+1/2,z,-x+1/2
+133 -y+1/2,-x,z+1/2
+134 y+1/2,x,z+1/2
+135 -y+1/2,x,-z+1/2
+136 y+1/2,-x,-z+1/2
+137 -x+1/2,-z,y+1/2
+138 x+1/2,-z,-y+1/2
+139 x+1/2,z,y+1/2
+140 -x+1/2,z,-y+1/2
+141 -z+1/2,-y,x+1/2
+142 -z+1/2,y,-x+1/2
+143 z+1/2,-y,-x+1/2
+144 z+1/2,y,x+1/2
+145 x+1/2,y+1/2,z
+146 -x+1/2,-y+1/2,z
+147 -x+1/2,y+1/2,-z
+148 x+1/2,-y+1/2,-z
+149 z+1/2,x+1/2,y
+150 z+1/2,-x+1/2,-y
+151 -z+1/2,-x+1/2,y
+152 -z+1/2,x+1/2,-y
+153 y+1/2,z+1/2,x
+154 -y+1/2,z+1/2,-x
+155 y+1/2,-z+1/2,-x
+156 -y+1/2,-z+1/2,x
+157 y+1/2,x+1/2,-z
+158 -y+1/2,-x+1/2,-z
+159 y+1/2,-x+1/2,z
+160 -y+1/2,x+1/2,z
+161 x+1/2,z+1/2,-y
+162 -x+1/2,z+1/2,y
+163 -x+1/2,-z+1/2,-y
+164 x+1/2,-z+1/2,y
+165 z+1/2,y+1/2,-x
+166 z+1/2,-y+1/2,x
+167 -z+1/2,y+1/2,x
+168 -z+1/2,-y+1/2,-x
+169 -x+1/2,-y+1/2,-z
+170 x+1/2,y+1/2,-z
+171 x+1/2,-y+1/2,z
+172 -x+1/2,y+1/2,z
+173 -z+1/2,-x+1/2,-y
+174 -z+1/2,x+1/2,y
+175 z+1/2,x+1/2,-y
+176 z+1/2,-x+1/2,y
+177 -y+1/2,-z+1/2,-x
+178 y+1/2,-z+1/2,x
+179 -y+1/2,z+1/2,x
+180 y+1/2,z+1/2,-x
+181 -y+1/2,-x+1/2,z
+182 y+1/2,x+1/2,z
+183 -y+1/2,x+1/2,-z
+184 y+1/2,-x+1/2,-z
+185 -x+1/2,-z+1/2,y
+186 x+1/2,-z+1/2,-y
+187 x+1/2,z+1/2,y
+188 -x+1/2,z+1/2,-y
+189 -z+1/2,-y+1/2,x
+190 -z+1/2,y+1/2,-x
+191 z+1/2,-y+1/2,-x
+192 z+1/2,y+1/2,x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Rb1 Rb 0.25 0.25 0.25 Uiso 0.217(5) 8 1 d
+Rb2 Rb 0.5 0.5 0.5 Uiso 0.335(9) 4 1 d
+Cl1 Cl 0.7701(19) 0 0 Uiso 0.271(5) 24 1 d
+Sc1 Sc 0 0 0 Uiso 0.039(4) 4 1 d
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cl 0.3639 0.7018 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Rb -0.4688 1.6079 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Sc 0.3119 1.5331 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Rb2 Rb1 Rb2 . 49_544 109.471(6)
+Rb2 Rb1 Rb2 . 97_454 109.471(6)
+Rb2 Rb1 Rb2 . 145_445 109.471(6)
+Rb2 Rb1 Rb2 49_544 97_454 109.471(6)
+Rb2 Rb1 Rb2 49_544 145_445 109.471(6)
+Rb2 Rb1 Rb2 97_454 145_445 109.471(6)
+Rb1 Rb2 Rb1 . 49_555 109.471(6)
+Rb1 Rb2 Rb1 . 97_555 109.471(6)
+Rb1 Rb2 Rb1 . 145_555 109.471(6)
+Rb1 Rb2 Rb1 . 13_556 70.529(6)
+Rb1 Rb2 Rb1 . 61_555 70.529(6)
+Rb1 Rb2 Rb1 . 109_555 70.529(6)
+Rb1 Rb2 Rb1 . 157_556 180
+Rb1 Rb2 Cl1 . 49_555 125.264(3)
+Rb1 Rb2 Cl1 . 50_655 54.736(3)
+Rb1 Rb2 Cl1 . 101_555 125.264(3)
+Rb1 Rb2 Cl1 . 102_565 54.736(3)
+Rb1 Rb2 Cl1 . 153_555 125.264(3)
+Rb1 Rb2 Cl1 . 154_556 54.736(3)
+Rb1 Rb2 Rb1 49_555 97_555 109.471(6)
+Rb1 Rb2 Rb1 49_555 145_555 109.471(6)
+Rb1 Rb2 Rb1 49_555 13_556 70.529(6)
+Rb1 Rb2 Rb1 49_555 61_555 70.529(6)
+Rb1 Rb2 Rb1 49_555 109_555 180
+Rb1 Rb2 Rb1 49_555 157_556 70.529(6)
+Rb1 Rb2 Cl1 49_555 49_555 125.264(3)
+Rb1 Rb2 Cl1 49_555 50_655 54.736(3)
+Rb1 Rb2 Cl1 49_555 101_555 54.736(3)
+Rb1 Rb2 Cl1 49_555 102_565 125.264(3)
+Rb1 Rb2 Cl1 49_555 153_555 54.736(3)
+Rb1 Rb2 Cl1 49_555 154_556 125.264(3)
+Rb1 Rb2 Rb1 97_555 145_555 109.471(6)
+Rb1 Rb2 Rb1 97_555 13_556 70.529(6)
+Rb1 Rb2 Rb1 97_555 61_555 180
+Rb1 Rb2 Rb1 97_555 109_555 70.529(6)
+Rb1 Rb2 Rb1 97_555 157_556 70.529(6)
+Rb1 Rb2 Cl1 97_555 49_555 54.736(3)
+Rb1 Rb2 Cl1 97_555 50_655 125.264(3)
+Rb1 Rb2 Cl1 97_555 101_555 125.264(3)
+Rb1 Rb2 Cl1 97_555 102_565 54.736(3)
+Rb1 Rb2 Cl1 97_555 153_555 54.736(3)
+Rb1 Rb2 Cl1 97_555 154_556 125.264(3)
+Rb1 Rb2 Rb1 145_555 13_556 180
+Rb1 Rb2 Rb1 145_555 61_555 70.529(6)
+Rb1 Rb2 Rb1 145_555 109_555 70.529(6)
+Rb1 Rb2 Rb1 145_555 157_556 70.529(6)
+Rb1 Rb2 Cl1 145_555 49_555 54.736(3)
+Rb1 Rb2 Cl1 145_555 50_655 125.264(3)
+Rb1 Rb2 Cl1 145_555 101_555 54.736(3)
+Rb1 Rb2 Cl1 145_555 102_565 125.264(3)
+Rb1 Rb2 Cl1 145_555 153_555 125.264(3)
+Rb1 Rb2 Cl1 145_555 154_556 54.736(3)
+Rb1 Rb2 Rb1 13_556 61_555 109.471(6)
+Rb1 Rb2 Rb1 13_556 109_555 109.471(6)
+Rb1 Rb2 Rb1 13_556 157_556 109.471(6)
+Rb1 Rb2 Cl1 13_556 49_555 125.264(3)
+Rb1 Rb2 Cl1 13_556 50_655 54.736(3)
+Rb1 Rb2 Cl1 13_556 101_555 125.264(3)
+Rb1 Rb2 Cl1 13_556 102_565 54.736(3)
+Rb1 Rb2 Cl1 13_556 153_555 54.736(3)
+Rb1 Rb2 Cl1 13_556 154_556 125.264(3)
+Rb1 Rb2 Rb1 61_555 109_555 109.471(6)
+Rb1 Rb2 Rb1 61_555 157_556 109.471(6)
+Rb1 Rb2 Cl1 61_555 49_555 125.264(3)
+Rb1 Rb2 Cl1 61_555 50_655 54.736(3)
+Rb1 Rb2 Cl1 61_555 101_555 54.736(3)
+Rb1 Rb2 Cl1 61_555 102_565 125.264(3)
+Rb1 Rb2 Cl1 61_555 153_555 125.264(3)
+Rb1 Rb2 Cl1 61_555 154_556 54.736(3)
+Rb1 Rb2 Rb1 109_555 157_556 109.471(6)
+Rb1 Rb2 Cl1 109_555 49_555 54.736(3)
+Rb1 Rb2 Cl1 109_555 50_655 125.264(3)
+Rb1 Rb2 Cl1 109_555 101_555 125.264(3)
+Rb1 Rb2 Cl1 109_555 102_565 54.736(3)
+Rb1 Rb2 Cl1 109_555 153_555 125.264(3)
+Rb1 Rb2 Cl1 109_555 154_556 54.736(3)
+Rb1 Rb2 Cl1 157_556 49_555 54.736(3)
+Rb1 Rb2 Cl1 157_556 50_655 125.264(3)
+Rb1 Rb2 Cl1 157_556 101_555 54.736(3)
+Rb1 Rb2 Cl1 157_556 102_565 125.264(3)
+Rb1 Rb2 Cl1 157_556 153_555 54.736(3)
+Rb1 Rb2 Cl1 157_556 154_556 125.264(3)
+Cl1 Rb2 Cl1 49_555 50_655 180
+Cl1 Rb2 Cl1 49_555 101_555 90
+Cl1 Rb2 Cl1 49_555 102_565 90
+Cl1 Rb2 Cl1 49_555 153_555 90
+Cl1 Rb2 Cl1 49_555 154_556 90
+Cl1 Rb2 Cl1 50_655 101_555 90
+Cl1 Rb2 Cl1 50_655 102_565 90
+Cl1 Rb2 Cl1 50_655 153_555 90
+Cl1 Rb2 Cl1 50_655 154_556 90
+Cl1 Rb2 Cl1 101_555 102_565 180
+Cl1 Rb2 Cl1 101_555 153_555 90
+Cl1 Rb2 Cl1 101_555 154_556 90
+Cl1 Rb2 Cl1 102_565 153_555 90
+Cl1 Rb2 Cl1 102_565 154_556 90
+Cl1 Rb2 Cl1 153_555 154_556 180
+Rb2 Cl1 Sc1 49_544 1_655 180
+Cl1 Sc1 Cl1 1_455 2_655 180
+Cl1 Sc1 Cl1 1_455 5_545 90
+Cl1 Sc1 Cl1 1_455 6_565 90
+Cl1 Sc1 Cl1 1_455 9_554 90
+Cl1 Sc1 Cl1 1_455 10_556 90
+Cl1 Sc1 Cl1 2_655 5_545 90
+Cl1 Sc1 Cl1 2_655 6_565 90
+Cl1 Sc1 Cl1 2_655 9_554 90
+Cl1 Sc1 Cl1 2_655 10_556 90
+Cl1 Sc1 Cl1 5_545 6_565 180
+Cl1 Sc1 Cl1 5_545 9_554 90
+Cl1 Sc1 Cl1 5_545 10_556 90
+Cl1 Sc1 Cl1 6_565 9_554 90
+Cl1 Sc1 Cl1 6_565 10_556 90
+Cl1 Sc1 Cl1 9_554 10_556 180
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Rb1 Rb2 . 4.6277(5)
+Rb1 Rb2 49_544 4.6277(5)
+Rb1 Rb2 97_454 4.6277(5)
+Rb1 Rb2 145_445 4.6277(5)
+Rb2 Cl1 49_555 2.89(2)
+Rb2 Cl1 50_655 2.89(2)
+Rb2 Cl1 101_555 2.89(2)
+Rb2 Cl1 102_565 2.89(2)
+Rb2 Cl1 153_555 2.89(2)
+Rb2 Cl1 154_556 2.89(2)
+Cl1 Sc1 1_655 2.46(2)

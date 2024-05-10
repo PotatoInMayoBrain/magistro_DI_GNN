@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/74/9007479.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007479
+loop_
+_publ_author_name
+'Perrotta, A. J.'
+'Smith, J. V.'
+_publ_section_title
+;
+ The crystal structure of brewsterite, (Sr,Ba,Ca)(Al2Si6O16)*5H2O
+ Note: zeolite
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              857
+_journal_page_last               862
+_journal_paper_doi               10.1107/S0365110X64002298
+_journal_volume                  17
+_journal_year                    1964
+_chemical_compound_source        'Strontian, Argyll, Scotland'
+_chemical_formula_sum            'Al1.98 Ba0.3 Ca0.14 H8 O20.9 Si6.02 Sr0.58'
+_chemical_name_mineral           Brewsterite-Sr
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 94.30
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.772
+_cell_length_b                   17.51
+_cell_length_c                   7.744
+_cell_volume                     915.681
+_database_code_amcsd             0009286
+_exptl_crystal_density_diffrn    2.403
+_cod_original_formula_sum        'Sr.58 Ba.3 Ca.14 Al1.98 Si6.02 O20.9 H8'
+_cod_database_code               9007479
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Sr 0.25070 0.25000 0.17780 0.58000 0.01292 Sr 0
+Ba 0.25070 0.25000 0.17780 0.30000 0.01292 Ba 0
+Ca 0.25070 0.25000 0.17780 0.14000 0.01292 Ca 0
+AlA 0.31870 0.08140 0.82200 0.33000 0.01203 Al 0
+AlB 0.40530 0.05680 0.21050 0.33000 0.01064 Al 0
+AlC 0.55660 0.15840 0.53450 0.33000 0.01089 Al 0
+SiA 0.31870 0.08140 0.82200 0.67000 0.01203 Si 0
+SiB 0.40530 0.05680 0.21050 0.67000 0.01064 Si 0
+SiC 0.55660 0.15840 0.53450 0.67000 0.01089 Si 0
+SiD 0.91060 0.05270 0.64120 1.00000 0.01115 Si 0
+O1 0.34610 0.10570 0.02860 1.00000 0.01900 O 0
+O2 0.42440 0.12270 0.36000 1.00000 0.03040 O 0
+O3 0.79090 0.12140 0.54660 1.00000 0.01900 O 0
+O4 0.45190 0.14060 0.71410 1.00000 0.02026 O 0
+O5 0.07310 0.09150 0.76040 1.00000 0.02913 O 0
+O6 0.22120 0.99700 0.23790 1.00000 0.03166 O 0
+O7 0.38350 0.99200 0.79590 1.00000 0.02153 O 0
+O8 0.00000 0.00000 0.50000 1.00000 0.03293 O 0
+O9 0.57650 0.25000 0.49860 1.00000 0.02660 O 0
+Wat1 0.05450 0.25000 0.47030 0.98000 0.04433 O 2
+Wat2 0.93190 0.14690 0.15370 0.98000 0.07219 O 2
+Wat3 0.58960 0.25000 0.02560 0.98000 0.05826 O 2
+Wat4 0.05440 0.25000 0.86420 0.98000 0.03166 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:39:45+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009286

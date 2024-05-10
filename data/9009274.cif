@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/92/9009274.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009274
+loop_
+_publ_author_name
+'Wang, N.'
+_publ_section_title
+;
+ A structure proposal for the phase beta-CaB2O4*6H2O
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              315
+_journal_page_last               325
+_journal_volume                  1971
+_journal_year                    1971
+_chemical_formula_structural     CaB2O4(H2O)6
+_chemical_formula_sum            'B2 Ca H12 O10'
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 104.033
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   16.00
+_cell_length_b                   6.676
+_cell_length_c                   7.964
+_cell_volume                     825.295
+_database_code_amcsd             0014743
+_exptl_crystal_density_diffrn    1.882
+_cod_original_formula_sum        'Ca B2 O10 H12'
+_cod_database_code               9009274
+_amcsd_formula_title             CaB2O4(H2O)6
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.02730 0.25000 0.02305 Ca 0
+B 0.09010 0.27040 0.02680 0.01203 B 0
+O1 0.49820 0.27920 0.46590 0.02875 O 0
+Wat2 0.39150 0.02190 0.01440 0.02900 O 2
+O3 0.11120 0.24310 0.20620 0.02786 O 0
+Wat4 0.36670 0.37310 0.06840 0.02774 O 2
+Wat5 0.28650 0.29140 0.33870 0.03850 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:31+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014743

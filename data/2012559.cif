@@ -1,0 +1,296 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/25/2012559.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2012559
+loop_
+_publ_author_name
+'\<Cern\'y, Radovan'
+'Favre-Nicolin, Vincent'
+'Bertheville, Bernard'
+_publ_section_title
+;
+ A tetragonal polymorph of caesium hydroxide monohydrate,
+ CsOH&#x00B7;H~2~O, from X-ray powder data
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i31
+_journal_page_last               i32
+_journal_paper_doi               10.1107/S0108270101021928
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_iupac          'Cs O H , H2 O'
+_chemical_formula_moiety         'Cs H O , H2 O'
+_chemical_formula_structural     'Cs O H , H2 O'
+_chemical_formula_sum            'Cs H3 O2'
+_chemical_formula_weight         167.93
+_chemical_name_systematic
+;
+Caesium hydroxide monohydrate
+;
+_space_group_IT_number           141
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4bd 2'
+_symmetry_space_group_name_H-M   'I 41/a m d :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.38088(4)
+_cell_length_b                   4.38088(4)
+_cell_length_c                   15.46525(17)
+_cell_measurement_reflns_used    109
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      3.3
+_cell_volume                     296.811(5)
+_computing_cell_refinement       'FULLPROF98 (Rodr\'iguez-Carvajal, 1998)'
+_computing_data_collection       'Please give details'
+_computing_data_reduction        FULLPROF98
+_computing_molecular_graphics    'ATOMS (Dowty, 1993)'
+_computing_publication_material
+'WinPLOTR (Roisnel & Rodr\'iguez-Carvajal, 1998) and ATOMS'
+_computing_structure_refinement  FULLPROF98
+_computing_structure_solution    'FOX (Favre-Nicolin & \<Cern\'y, 2002)'
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  'two-axis goniometer'
+_diffrn_radiation_monochromator  'channel-cut Si 111'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     .48562
+_exptl_absorpt_coefficient_mu    24.21
+_exptl_crystal_density_diffrn    3.785(2)
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             332
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.28
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     14
+_refine_ls_shift/su_max          .01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     'w = 1/Y~i~'
+_refine_ls_weighting_scheme      calc
+_cod_data_source_file            br1352.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w = 1/Y~i~' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/Y~i~'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_database_code               2012559
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++x,-y,-z
+1/2-x,-y,1/2+z
+1/2-x,+y,1/2-z
+1/4+y,3/4+x,1/4-z
+1/4+y,1/4-x,3/4+z
+1/4-y,3/4+x,1/4+z
+1/4-y,1/4-x,3/4-z
+-x,-y,-z
+-x,+y,+z
+1/2+x,+y,1/2-z
+1/2+x,-y,1/2+z
+3/4-y,1/4-x,3/4+z
+3/4-y,3/4+x,1/4-z
+3/4+y,1/4-x,3/4-z
+3/4+y,3/4+x,1/4+z
+1/2+x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+-x,1/2-y,+z
+-x,1/2+y,-z
+3/4+y,1/4+x,3/4-z
+3/4+y,3/4-x,1/4+z
+3/4-y,1/4+x,3/4+z
+3/4-y,3/4-x,1/4-z
+1/2-x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2+z
++x,1/2+y,-z
++x,1/2-y,+z
+1/4-y,3/4-x,1/4+z
+1/4-y,1/4+x,3/4-z
+1/4+y,3/4-x,1/4-z
+1/4+y,1/4+x,3/4+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Cs 0 .75 .125 .0328(5) Uiso 1 Cs
+O 0 .25 .4560(5) .004(2) Uiso 1 O
+H1 0 .25 .375 .012 Uiso 1 H
+H2 0 0 .5 .012 Uiso 1 H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs Cs+1 -1.0290 1.3910 'Program FULLPROF.99 (Version 0.5  - Nov99-LLB JRC)'
+O O-2 .0030 .0040 'Program FULLPROF.99 (Version 0.5  - Nov99-LLB JRC)'
+H H .000 .000 'Program FULLPROF.99 (Version 0.5  - Nov99-LLB JRC)'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Cs O '6 564' '6 554' 81.92(6) no
+O Cs O '6 564' '6 464' 81.92(6) no
+O Cs O '6 564' '6 454' 135.96(18) no
+O Cs O '6 564' '4 465' 98.08(6) no
+O Cs O '6 564' 4 98.08(6) no
+O Cs O '6 564' '4 565' 44.04(17) no
+O Cs O '6 564' '4 455' 180.0000 no
+O Cs O '6 564' 8 97.69(13) no
+O Cs O '6 564' '8 565' 44.90(10) no
+O Cs O '6 564' '3 564' 82.31(13) no
+O Cs O '6 564' '3 464' 135.10(10) no
+O Cs O '6 554' '6 464' 135.96(18) no
+O Cs O '6 554' '6 454' 81.92(6) no
+O Cs O '6 554' '4 465' 180.0000 no
+O Cs O '6 554' 4 44.04(17) no
+O Cs O '6 554' '4 565' 98.08(6) no
+O Cs O '6 554' '4 455' 98.08(6) no
+O Cs O '6 554' 8 44.90(10) no
+O Cs O '6 554' '8 565' 97.69(13) no
+O Cs O '6 554' '3 564' 82.31(13) no
+O Cs O '6 554' '3 464' 135.10(10) no
+O Cs O '6 464' '6 454' 81.92(6) no
+O Cs O '6 464' '4 465' 44.04(17) no
+O Cs O '6 464' 4 180.0000 no
+O Cs O '6 464' '4 565' 98.08(6) no
+O Cs O '6 464' '4 455' 98.08(6) no
+O Cs O '6 464' 8 97.69(13) no
+O Cs O '6 464' '8 565' 44.90(10) no
+O Cs O '6 464' '3 564' 135.10(10) no
+O Cs O '6 464' '3 464' 82.31(13) no
+O Cs O '6 454' '4 465' 98.08(6) no
+O Cs O '6 454' 4 98.08(6) no
+O Cs O '6 454' '4 565' 180.0000 no
+O Cs O '6 454' '4 455' 44.04(17) no
+O Cs O '6 454' 8 44.90(10) no
+O Cs O '6 454' '8 565' 97.69(13) no
+O Cs O '6 454' '3 564' 135.10(10) no
+O Cs O '6 454' '3 464' 82.31(13) no
+O Cs O '4 465' 4 135.96(17) no
+O Cs O '4 465' '4 565' 81.92(6) no
+O Cs O '4 465' '4 455' 81.92(6) no
+O Cs O '4 465' 8 135.10(10) no
+O Cs O '4 465' '8 565' 82.31(13) no
+O Cs O '4 465' '3 564' 97.69(13) no
+O Cs O '4 465' '3 464' 44.90(10) no
+O Cs O 4 '4 565' 81.92(6) no
+O Cs O 4 '4 455' 81.92(6) no
+O Cs O 4 8 82.31(13) no
+O Cs O 4 '8 565' 135.10(10) no
+O Cs O 4 '3 564' 44.90(10) no
+O Cs O 4 '3 464' 97.69(13) no
+O Cs O '4 565' '4 455' 135.96(17) no
+O Cs O '4 565' 8 135.10(10) no
+O Cs O '4 565' '8 565' 82.31(13) no
+O Cs O '4 565' '3 564' 44.90(10) no
+O Cs O '4 565' '3 464' 97.69(13) no
+O Cs O '4 455' 8 82.31(13) no
+O Cs O '4 455' '8 565' 135.10(10) no
+O Cs O '4 455' '3 564' 97.69(13) no
+O Cs O '4 455' '3 464' 44.90(10) no
+O Cs O 8 '8 565' 79.93(12) no
+O Cs O 8 '3 564' 125.97(7) no
+O Cs O 8 '3 464' 125.97(7) no
+O Cs O '8 565' '3 564' 125.97(7) no
+O Cs O '8 565' '3 464' 125.97(7) no
+O Cs O '3 564' '3 464' 79.93(12) no
+O O O 8 '2 556' 121.9(2) no
+O O O 8 '2 566' 121.9(2) no
+O O Cs 8 '4 455' 67.98(12) no
+O O Cs 8 '4 545' 67.98(12) no
+O O Cs 8 4 67.98(12) no
+O O Cs 8 '4 445' 67.98(12) no
+O O Cs 8 '3 465' 140.03(8) no
+O O Cs 8 '3 565' 140.03(8) no
+O O O '2 556' '2 566' 116.3(4) no
+O O Cs '2 556' '4 455' 139.00(6) no
+O O Cs '2 556' '4 545' 68.96(10) no
+O O Cs '2 556' 4 139.00(6) no
+O O Cs '2 556' '4 445' 68.96(10) no
+O O Cs '2 556' '3 465' 66.14(17) no
+O O Cs '2 556' '3 565' 66.14(17) no
+O O Cs '2 566' '4 455' 68.96(10) no
+O O Cs '2 566' '4 545' 139.00(6) no
+O O Cs '2 566' 4 68.96(10) no
+O O Cs '2 566' '4 445' 139.00(6) no
+O O Cs '2 566' '3 465' 66.14(17) no
+O O Cs '2 566' '3 565' 66.14(17) no
+Cs O Cs '4 455' '4 545' 136.0(2) no
+Cs O Cs '4 455' 4 81.92(9) no
+Cs O Cs '4 455' '4 445' 81.92(9) no
+Cs O Cs '4 455' '3 465' 82.31(5) no
+Cs O Cs '4 455' '3 565' 135.10(12) no
+Cs O Cs '4 545' 4 81.92(9) no
+Cs O Cs '4 545' '4 445' 81.92(9) no
+Cs O Cs '4 545' '3 465' 135.10(12) no
+Cs O Cs '4 545' '3 565' 82.31(5) no
+Cs O Cs 4 '4 445' 136.0(2) no
+Cs O Cs 4 '3 465' 135.10(12) no
+Cs O Cs 4 '3 565' 82.31(5) no
+Cs O Cs '4 445' '3 465' 82.31(5) no
+Cs O Cs '4 445' '3 565' 135.10(13) no
+Cs O Cs '3 465' '3 565' 79.93(17) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cs O . '6 564' 3.341(3) n
+Cs O . '6 554' 3.341(3) n
+Cs O . '6 464' 3.341(3) n
+Cs O . '6 454' 3.341(3) n
+Cs O . '4 465' 3.341(3) n
+Cs O . 4 3.341(3) yes
+Cs O . '4 565' 3.341(3) n
+Cs O . '4 455' 3.341(3) n
+Cs O . 8 3.410(6) yes
+Cs O . '8 565' 3.410(6) n
+Cs O . '3 564' 3.410(6) n
+Cs O . '3 464' 3.410(6) n
+O O . 8 2.505(11) yes
+O O . '2 556' 2.579(6) yes
+O O . '2 566' 2.579(6) n

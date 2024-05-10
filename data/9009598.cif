@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/95/9009598.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009598
+loop_
+_publ_author_name
+'Hofmeister, W.'
+'Tillmanns, E.'
+_publ_section_title
+;
+ Strukturelle untersuchungen an arsenbrackebuschit
+;
+_journal_name_full
+'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_page_first              153
+_journal_page_last               163
+_journal_volume                  25
+_journal_year                    1978
+_chemical_compound_source        'Tsumeb, Namibia'
+_chemical_formula_sum            'As2 Fe0.65 H2.65 O9 Pb2 Zn0.35'
+_chemical_name_mineral           Arsenbrackebuschite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 112.5
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.763
+_cell_length_b                   6.046
+_cell_length_c                   9.022
+_cell_volume                     391.215
+_database_code_amcsd             0015672
+_exptl_crystal_density_diffrn    6.537
+_cod_original_formula_sum        'Pb2 (Fe.65 Zn.35) As2 O9 H2.65'
+_cod_database_code               9009598
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb1 0.27390 0.75000 0.73560 1.00000 Pb 0
+Pb2 0.69600 0.75000 0.60230 1.00000 Pb 0
+Fe 0.00000 0.00000 0.00000 0.65000 Fe 0
+Zn 0.00000 0.00000 0.00000 0.35000 Zn 0
+As1 0.43570 0.75000 0.17360 1.00000 As 0
+As2 0.03220 0.75000 0.33670 1.00000 As 0
+O1 0.99600 0.98300 0.22500 1.00000 O 0
+O2 0.26200 0.75000 0.47100 1.00000 O 0
+O3 0.89800 0.75000 0.44400 1.00000 O 0
+O4 0.49200 0.97700 0.29100 1.00000 O 0
+O5 0.54100 0.75000 0.04100 1.00000 O 0
+O6 0.19900 0.75000 0.06200 1.00000 O 0
+O-H7 0.82100 0.75000 0.91600 0.65000 O 1
+Wat7 0.82100 0.75000 0.91600 0.35000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:32+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015672

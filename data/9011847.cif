@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 12:25:40 +0300 (Thu, 18 May 2023) $
+#$Revision: 283857 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/18/9011847.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011847
+loop_
+_publ_author_name
+'Mokeeva, V. I.'
+_publ_section_title
+;
+ The structure of sklodowskite
+;
+_journal_name_full               'Soviet Physics Crystallography'
+_journal_page_first              217
+_journal_page_last               218
+_journal_volume                  9
+_journal_year                    1964
+_chemical_formula_sum            'H12 Mg O18 Si2 U2'
+_chemical_name_mineral           Sklodowskite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 96.33
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   16.89
+_cell_length_b                   7.01
+_cell_length_c                   6.60
+_cell_volume                     776.669
+_database_code_amcsd             0015548
+_exptl_crystal_density_diffrn    3.663
+_cod_original_formula_sum        'Mg U2 Si2 O18 H12'
+_cod_database_code               9011847
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+x,-y,z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.00000 0.00000 0.50000 0.03166 Mg 0
+U 0.25700 0.00000 0.12000 0.03166 U 0
+Si 0.21800 0.00000 0.57000 0.03166 Si 0
+OSi1 0.28000 0.00000 0.78000 0.03166 O 0
+OSi2 0.12800 0.00000 0.62700 0.03166 O 0
+OSi3 0.23500 0.18700 0.44000 0.03166 O 0
+OU1 0.15500 0.00000 0.03500 0.03166 O 0
+OU2 0.35500 0.00000 0.18500 0.03166 O 0
+Wat 0.02000 0.21000 0.30000 0.03166 O 2
+WatX 0.08000 0.50000 0.82000 0.03166 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015548

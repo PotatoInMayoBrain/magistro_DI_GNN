@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/41/9004101.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004101
+loop_
+_publ_author_name
+'Hawthorne, F. C.'
+_publ_section_title
+;
+ A refinement of the crystal structure of adamite
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              143
+_journal_page_last               148
+_journal_volume                  14
+_journal_year                    1976
+_chemical_formula_sum            'As H O5 Zn2'
+_chemical_name_mineral           Adamite
+_space_group_IT_number           58
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.304
+_cell_length_b                   8.530
+_cell_length_c                   6.047
+_cell_volume                     428.328
+_database_code_amcsd             0005122
+_exptl_crystal_density_diffrn    4.446
+_cod_original_formula_sum        'Zn2 As O5 H'
+_cod_database_code               9004101
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+x,y,-z
+-x,-y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 0.00370 0.00440 0.00740 0.00010 0.00000 0.00000
+Zn2 0.00620 0.00570 0.00650 0.00160 0.00000 0.00000
+As 0.00320 0.00380 0.00600 0.00020 0.00000 0.00000
+O1 0.00270 0.00370 0.01870 -0.00010 0.00000 0.00000
+O2 0.00530 0.00530 0.00910 0.00040 0.00000 0.00000
+O3 0.00510 0.00460 0.00750 -0.00010 0.00000 0.00000
+OH 0.00310 0.00600 0.01100 0.00090 -0.00050 -0.00280
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn1 0.36530 0.36420 0.50000 Zn 0
+Zn2 0.50000 0.00000 0.25260 Zn 0
+As 0.24980 0.24380 0.00000 As 0
+O1 0.10440 0.10410 0.00000 O 0
+O2 0.42370 0.14780 0.00000 O 0
+O3 0.23120 0.36030 0.22330 O 0
+O-H 0.39330 0.12740 0.50000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:48:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005122

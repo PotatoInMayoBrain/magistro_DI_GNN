@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009455.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009455
+loop_
+_publ_author_name
+'Finney, J. J.'
+'Graeber, E. J.'
+'Rosenzweig, A.'
+'Hamilton, R. D.'
+_publ_section_title
+;
+ The structure of chloroxiphite, Pb3CuO2(OH)2Cl2
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              357
+_journal_page_last               361
+_journal_paper_doi               10.1180/minmag.1977.041.319.07
+_journal_volume                  41
+_journal_year                    1977
+_chemical_compound_source        'Mendip Hills, Somerset, England'
+_chemical_formula_sum            'Cl2 Cu H2 O4 Pb3'
+_chemical_name_mineral           Chloroxiphite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.79
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.458
+_cell_length_b                   5.750
+_cell_length_c                   6.693
+_cell_volume                     398.759
+_database_code_amcsd             0014466
+_exptl_crystal_density_diffrn    6.847
+_cod_original_formula_sum        'Pb3 Cu O4 Cl2 H2'
+_cod_database_code               9009455
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb1 0.21670 0.25000 0.46060 0.01811 Pb 0
+Pb2 0.55020 0.25000 0.34320 0.01697 Pb 0
+Pb3 0.67410 0.25000 0.86730 0.01710 Pb 0
+Cu 0.00000 0.00000 0.00000 0.02039 Cu 0
+O1 0.36600 0.00000 0.38600 0.01672 O 0
+O-H1 0.90700 0.25000 0.83200 0.01735 O 1
+O-H2 0.12600 0.25000 0.08600 0.02178 O 1
+Cl1 0.37800 0.25000 0.86800 0.02128 Cl 0
+Cl2 0.88600 0.25000 0.32100 0.03090 Cl 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014466

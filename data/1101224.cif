@@ -1,0 +1,427 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-17 16:41:39 +0200 (Thu, 17 Mar 2016) $
+#$Revision: 178244 $
+#$URL: svn://www.crystallography.net/cod/cif/1/10/12/1101224.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1101224
+loop_
+_publ_author_name
+'Chi, Eun Ok'
+'Ok, Kang Min'
+'Porter, Yetta'
+'Halasyamani, P. Shiv'
+_publ_contact_author_address
+;
+Department of Chemistry
+University of Houston
+4800 Calhoun
+TX 77204-5003 USA
+;
+_publ_contact_author_email       psh@uh.edu
+_publ_contact_author_fax         1(713)7432787
+_publ_contact_author_name        'Halasyamani, P. Shiv'
+_publ_contact_author_phone       1(713)7430796
+_publ_section_title
+;
+ Na~2~Te~3~Mo~3~O~16~: A New Molybdenum Tellurite with Second-Harmonic
+ Generating and Pyroelectric Properties
+;
+_journal_coden_ASTM              CMATEX
+_journal_issue                   8
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              2070
+_journal_page_last               2074
+_journal_paper_doi               10.1021/cm052614e
+_journal_volume                  18
+_journal_year                    2006
+_chemical_absolute_configuration unk
+_chemical_formula_sum            'Mo3 Na2 O16 Te3'
+_chemical_formula_weight         972.6
+_chemical_name_systematic        'Sodium molybdenum tellurium oxide'
+_space_group_IT_number           5
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'I 2y'
+_symmetry_space_group_name_H-M   'I 1 2 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 97.387(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.3373(10)
+_cell_length_b                   11.2668(16)
+_cell_length_c                   8.2369(18)
+_cell_measurement_temperature    293.0(2)
+_cell_volume                     675.3(2)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293.0(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.951
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0368
+_diffrn_reflns_av_unetI/netI     0.0268
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2082
+_diffrn_reflns_theta_full        25
+_diffrn_reflns_theta_max         27.97
+_diffrn_reflns_theta_min         3.08
+_exptl_absorpt_coefficient_mu    9.25
+_exptl_absorpt_correction_T_max  0.637
+_exptl_absorpt_correction_T_min  0.411
+_exptl_absorpt_correction_type   Psi-scan
+_exptl_absorpt_process_details   '(North et al., 1968)'
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    4.783
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Block
+_exptl_crystal_F_000             864
+_exptl_crystal_size_max          0.17
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.183
+_refine_diff_density_min         -1.597
+_refine_diff_density_rms         0.288
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.47(4)
+_refine_ls_extinction_coef       0.0022(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.081
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     112
+_refine_ls_number_reflns         1404
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.08
+_refine_ls_R_factor_all          0.0337
+_refine_ls_R_factor_gt           0.0331
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0643P)^2^+8.0532P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0886
+_refine_ls_wR_factor_ref         0.0891
+_reflns_number_gt                1380
+_reflns_number_total             1404
+_reflns_threshold_expression     >2\(I)
+_cod_data_source_file            cm052614esi20060214_024006.txt
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'I 2'
+_cod_database_code               1101224
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Na1 Na 0.5 1.0659(12) 0 0.056(4) Uani 1 2 d S . .
+Na2 Na 0.5 0.9771(7) -0.5 0.0186(15) Uani 1 2 d S . .
+Te1 Te 0 0.98861(7) 0 0.0102(2) Uani 1 2 d S . .
+Te2 Te 0.27903(9) 0.82680(7) -0.21870(7) 0.0104(2) Uani 1 1 d . . .
+Mo1 Mo 1 1.07971(11) -0.5 0.0095(3) Uani 1 2 d S . .
+Mo2 Mo 0.25515(16) 0.74092(7) 0.22691(11) 0.0104(2) Uani 1 1 d . . .
+O1 O 0.0950(9) 0.8773(7) 0.1636(8) 0.0152(14) Uani 1 1 d . . .
+O2 O 0.2392(10) 0.9670(6) -0.0991(9) 0.0139(14) Uani 1 1 d . . .
+O3 O 0.3096(9) 0.7327(6) -0.0281(8) 0.0136(13) Uani 1 1 d . . .
+O4 O 0.5206(9) 0.8707(6) -0.2330(9) 0.0150(14) Uani 1 1 d . . .
+O5 O -0.0417(9) 1.1283(6) -0.2816(8) 0.0137(14) Uani 1 1 d . . .
+O6 O 1.1852(10) 0.9862(6) -0.4503(8) 0.0154(14) Uani 1 1 d . . .
+O7 O 0.2742(11) 0.7487(8) 0.4358(9) 0.0241(18) Uani 1 1 d . . .
+O8 O 0.0834(11) 0.6374(7) 0.1910(11) 0.0243(17) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Na1 0.014(5) 0.041(6) 0.109(11) 0 -0.007(5) 0
+Na2 0.015(3) 0.024(4) 0.017(3) 0 0.001(3) 0
+Te1 0.0119(4) 0.0065(5) 0.0126(5) 0 0.0030(4) 0
+Te2 0.0122(3) 0.0099(3) 0.0093(3) 0.0013(3) 0.0019(2) 0.0005(3)
+Mo1 0.0121(9) 0.0082(6) 0.0083(7) 0 0.0020(5) 0
+Mo2 0.0117(4) 0.0099(4) 0.0103(5) 0.0005(4) 0.0034(3) 0.0018(3)
+O1 0.011(3) 0.019(4) 0.015(3) 0.002(3) 0.001(2) 0.002(3)
+O2 0.014(3) 0.008(3) 0.018(3) -0.004(3) -0.003(3) -0.002(3)
+O3 0.018(3) 0.012(3) 0.011(3) 0.004(3) 0.002(3) 0.006(3)
+O4 0.009(3) 0.015(3) 0.022(4) 0.007(3) 0.005(3) 0.000(3)
+O5 0.018(3) 0.011(3) 0.012(3) 0.004(3) 0.002(3) 0.004(3)
+O6 0.022(4) 0.008(3) 0.018(3) -0.002(3) 0.010(3) 0.005(3)
+O7 0.028(4) 0.034(5) 0.011(3) 0.000(3) 0.006(3) 0.012(4)
+O8 0.024(4) 0.013(4) 0.036(4) 0.001(3) 0.005(3) -0.005(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Na1 O2 121.3(7) . 2_655 ?
+O2 Na1 O8 101.2(3) . 4 ?
+O2 Na1 O8 95.0(3) 2_655 4 ?
+O2 Na1 O8 95.0(2) . 3_554 ?
+O2 Na1 O8 101.2(3) 2_655 3_554 ?
+O8 Na1 O8 146.7(7) 4 3_554 ?
+O2 Na1 O4 60.7(3) . . ?
+O2 Na1 O4 75.8(4) 2_655 . ?
+O8 Na1 O4 147.4(5) 4 . ?
+O8 Na1 O4 65.6(2) 3_554 . ?
+O2 Na1 O4 75.8(4) . 2_655 ?
+O2 Na1 O4 60.7(3) 2_655 2_655 ?
+O8 Na1 O4 65.6(2) 4 2_655 ?
+O8 Na1 O4 147.4(5) 3_554 2_655 ?
+O4 Na1 O4 82.9(5) . 2_655 ?
+O2 Na1 O7 146.4(3) . 3_554 ?
+O2 Na1 O7 81.1(3) 2_655 3_554 ?
+O8 Na1 O7 101.2(4) 4 3_554 ?
+O8 Na1 O7 53.8(3) 3_554 3_554 ?
+O4 Na1 O7 108.0(2) . 3_554 ?
+O4 Na1 O7 136.7(2) 2_655 3_554 ?
+O2 Na1 O7 81.1(3) . 4 ?
+O2 Na1 O7 146.4(3) 2_655 4 ?
+O8 Na1 O7 53.8(3) 4 4 ?
+O8 Na1 O7 101.2(4) 3_554 4 ?
+O4 Na1 O7 136.7(2) . 4 ?
+O4 Na1 O7 108.0(2) 2_655 4 ?
+O7 Na1 O7 92.4(5) 3_554 4 ?
+O2 Na1 Te2 29.5(3) . . ?
+O2 Na1 Te2 96.9(5) 2_655 . ?
+O8 Na1 Te2 122.9(3) 4 . ?
+O8 Na1 Te2 84.0(2) 3_554 . ?
+O4 Na1 Te2 31.87(17) . . ?
+O4 Na1 Te2 72.6(3) 2_655 . ?
+O7 Na1 Te2 135.81(16) 3_554 . ?
+O7 Na1 Te2 110.08(16) 4 . ?
+O2 Na1 Te2 96.9(5) . 2_655 ?
+O2 Na1 Te2 29.5(3) 2_655 2_655 ?
+O8 Na1 Te2 84.0(2) 4 2_655 ?
+O8 Na1 Te2 122.9(3) 3_554 2_655 ?
+O4 Na1 Te2 72.6(3) . 2_655 ?
+O4 Na1 Te2 31.87(17) 2_655 2_655 ?
+O7 Na1 Te2 110.08(16) 3_554 2_655 ?
+O7 Na1 Te2 135.81(16) 4 2_655 ?
+Te2 Na1 Te2 80.1(3) . 2_655 ?
+O2 Na1 Mo2 120.9(2) . 3_554 ?
+O2 Na1 Mo2 90.6(2) 2_655 3_554 ?
+O8 Na1 Mo2 126.0(4) 4 3_554 ?
+O8 Na1 Mo2 26.58(18) 3_554 3_554 ?
+O4 Na1 Mo2 85.92(13) . 3_554 ?
+O4 Na1 Mo2 151.0(2) 2_655 3_554 ?
+O7 Na1 Mo2 27.26(15) 3_554 3_554 ?
+O7 Na1 Mo2 98.4(4) 4 3_554 ?
+Te2 Na1 Mo2 109.54(7) . 3_554 ?
+Te2 Na1 Mo2 119.09(9) 2_655 3_554 ?
+O2 Na1 Mo2 90.6(2) . 4 ?
+O2 Na1 Mo2 120.9(2) 2_655 4 ?
+O8 Na1 Mo2 26.58(18) 4 4 ?
+O8 Na1 Mo2 126.0(4) 3_554 4 ?
+O4 Na1 Mo2 151.0(2) . 4 ?
+O4 Na1 Mo2 85.92(13) 2_655 4 ?
+O7 Na1 Mo2 98.4(4) 3_554 4 ?
+O7 Na1 Mo2 27.25(15) 4 4 ?
+Te2 Na1 Mo2 119.09(9) . 4 ?
+Te2 Na1 Mo2 109.54(7) 2_655 4 ?
+Mo2 Na1 Mo2 115.2(4) 3_554 4 ?
+O6 Na2 O6 175.1(5) 2_754 1_455 ?
+O6 Na2 O8 84.9(3) 2_754 3_554 ?
+O6 Na2 O8 91.5(3) 1_455 3_554 ?
+O6 Na2 O8 91.5(3) 2_754 4_554 ?
+O6 Na2 O8 84.9(3) 1_455 4_554 ?
+O8 Na2 O8 83.5(5) 3_554 4_554 ?
+O6 Na2 O4 79.7(2) 2_754 2_654 ?
+O6 Na2 O4 102.7(3) 1_455 2_654 ?
+O8 Na2 O4 156.0(4) 3_554 2_654 ?
+O8 Na2 O4 78.7(3) 4_554 2_654 ?
+O6 Na2 O4 102.7(3) 2_754 . ?
+O6 Na2 O4 79.7(2) 1_455 . ?
+O8 Na2 O4 78.7(3) 3_554 . ?
+O8 Na2 O4 156.0(4) 4_554 . ?
+O4 Na2 O4 122.5(5) 2_654 . ?
+O6 Na2 Te2 50.11(19) 2_754 2_654 ?
+O6 Na2 Te2 133.1(3) 1_455 2_654 ?
+O8 Na2 Te2 134.7(2) 3_554 2_654 ?
+O8 Na2 Te2 91.8(2) 4_554 2_654 ?
+O4 Na2 Te2 31.70(16) 2_654 2_654 ?
+O4 Na2 Te2 112.2(3) . 2_654 ?
+O6 Na2 Te2 133.1(3) 2_754 . ?
+O6 Na2 Te2 50.11(19) 1_455 . ?
+O8 Na2 Te2 91.8(2) 3_554 . ?
+O8 Na2 Te2 134.7(2) 4_554 . ?
+O4 Na2 Te2 112.2(3) 2_654 . ?
+O4 Na2 Te2 31.70(16) . . ?
+Te2 Na2 Te2 121.0(2) 2_654 . ?
+O1 Te1 O1 97.7(4) 2 . ?
+O1 Te1 O2 83.9(3) 2 . ?
+O1 Te1 O2 87.1(3) . . ?
+O1 Te1 O2 87.1(3) 2 2 ?
+O1 Te1 O2 83.9(3) . 2 ?
+O2 Te1 O2 166.3(4) . 2 ?
+O4 Te2 O3 101.0(3) . . ?
+O4 Te2 O2 91.3(3) . . ?
+O3 Te2 O2 92.6(3) . . ?
+O4 Te2 Na2 44.8(2) . . ?
+O3 Te2 Na2 145.4(2) . . ?
+O2 Te2 Na2 93.3(2) . . ?
+O4 Te2 Na1 56.5(2) . . ?
+O3 Te2 Na1 90.4(3) . . ?
+O2 Te2 Na1 36.0(2) . . ?
+Na2 Te2 Na1 75.04(14) . . ?
+O6 Mo1 O6 104.8(5) 2_754 . ?
+O6 Mo1 O5 100.3(3) 2_754 1_655 ?
+O6 Mo1 O5 99.5(3) . 1_655 ?
+O6 Mo1 O5 99.5(3) 2_754 2_654 ?
+O6 Mo1 O5 100.3(3) . 2_654 ?
+O5 Mo1 O5 147.2(4) 1_655 2_654 ?
+O6 Mo1 O3 165.3(3) 2_754 4_654 ?
+O6 Mo1 O3 89.0(3) . 4_654 ?
+O5 Mo1 O3 81.7(3) 1_655 4_654 ?
+O5 Mo1 O3 72.8(3) 2_654 4_654 ?
+O6 Mo1 O3 89.0(3) 2_754 3_554 ?
+O6 Mo1 O3 165.3(3) . 3_554 ?
+O5 Mo1 O3 72.8(3) 1_655 3_554 ?
+O5 Mo1 O3 81.7(3) 2_654 3_554 ?
+O3 Mo1 O3 77.6(4) 4_654 3_554 ?
+O7 Mo2 O8 99.9(4) . . ?
+O7 Mo2 O1 101.3(3) . . ?
+O8 Mo2 O1 94.9(3) . . ?
+O7 Mo2 O5 96.0(3) . 3_545 ?
+O8 Mo2 O5 95.7(4) . 3_545 ?
+O1 Mo2 O5 157.9(3) . 3_545 ?
+O7 Mo2 O3 164.9(3) . . ?
+O8 Mo2 O3 91.5(4) . . ?
+O1 Mo2 O3 87.4(3) . . ?
+O5 Mo2 O3 72.9(3) 3_545 . ?
+O7 Mo2 O4 88.8(4) . 2_655 ?
+O8 Mo2 O4 171.2(4) . 2_655 ?
+O1 Mo2 O4 84.6(3) . 2_655 ?
+O5 Mo2 O4 82.0(3) 3_545 2_655 ?
+O3 Mo2 O4 79.7(3) . 2_655 ?
+O7 Mo2 Na1 52.7(3) . 3_445 ?
+O8 Mo2 Na1 47.2(3) . 3_445 ?
+O1 Mo2 Na1 104.3(3) . 3_445 ?
+O5 Mo2 Na1 97.1(2) 3_545 3_445 ?
+O3 Mo2 Na1 137.2(2) . 3_445 ?
+O4 Mo2 Na1 141.4(2) 2_655 3_445 ?
+Te1 O1 Mo2 148.7(4) . . ?
+Te2 O2 Te1 120.1(3) . . ?
+Te2 O2 Na1 114.5(4) . . ?
+Te1 O2 Na1 121.7(4) . . ?
+Te2 O3 Mo2 139.4(4) . . ?
+Te2 O3 Mo1 122.1(3) . 3_445 ?
+Mo2 O3 Mo1 97.1(3) . 3_445 ?
+Te2 O4 Mo2 122.6(4) . 2_655 ?
+Te2 O4 Na2 103.5(3) . . ?
+Mo2 O4 Na2 107.5(3) 2_655 . ?
+Te2 O4 Na1 91.6(3) . . ?
+Mo2 O4 Na1 125.8(3) 2_655 . ?
+Na2 O4 Na1 102.4(4) . . ?
+Mo1 O5 Mo2 115.2(3) 1_455 3_454 ?
+Mo1 O6 Na2 137.0(4) . 1_655 ?
+Mo2 O7 Na1 100.0(4) . 3_445 ?
+Mo2 O8 Na2 137.6(5) . 3_445 ?
+Mo2 O8 Na1 106.2(4) . 3_445 ?
+Na2 O8 Na1 107.9(4) 3_445 3_445 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Na1 O2 2.273(10) . ?
+Na1 O2 2.273(10) 2_655 ?
+Na1 O8 2.811(10) 4 ?
+Na1 O8 2.811(10) 3_554 ?
+Na1 O4 2.936(13) . ?
+Na1 O4 2.936(13) 2_655 ?
+Na1 O7 2.973(14) 3_554 ?
+Na1 O7 2.973(14) 4 ?
+Na1 Te2 3.519(11) . ?
+Na1 Te2 3.519(11) 2_655 ?
+Na1 Mo2 3.679(7) 3_554 ?
+Na1 Mo2 3.679(7) 4 ?
+Na2 O6 2.399(7) 2_754 ?
+Na2 O6 2.399(7) 1_455 ?
+Na2 O8 2.422(11) 3_554 ?
+Na2 O8 2.422(11) 4_554 ?
+Na2 O4 2.492(8) 2_654 ?
+Na2 O4 2.492(8) . ?
+Na2 Te2 3.439(4) 2_654 ?
+Na2 Te2 3.439(4) . ?
+Te1 O1 1.906(7) 2 ?
+Te1 O1 1.906(7) . ?
+Te1 O2 2.043(7) . ?
+Te1 O2 2.043(7) 2 ?
+Te2 O4 1.859(6) . ?
+Te2 O3 1.884(7) . ?
+Te2 O2 1.904(7) . ?
+Mo1 O6 1.727(7) 2_754 ?
+Mo1 O6 1.727(7) . ?
+Mo1 O5 1.942(7) 1_655 ?
+Mo1 O5 1.942(7) 2_654 ?
+Mo1 O3 2.213(7) 4_654 ?
+Mo1 O3 2.213(7) 3_554 ?
+Mo2 O7 1.711(7) . ?
+Mo2 O8 1.715(8) . ?
+Mo2 O1 1.964(7) . ?
+Mo2 O5 1.965(7) 3_545 ?
+Mo2 O3 2.190(7) . ?
+Mo2 O4 2.197(7) 2_655 ?
+Mo2 Na1 3.679(7) 3_445 ?
+O3 Mo1 2.213(7) 3_445 ?
+O4 Mo2 2.197(7) 2_655 ?
+O5 Mo1 1.942(7) 1_455 ?
+O5 Mo2 1.965(7) 3_454 ?
+O6 Na2 2.399(7) 1_655 ?
+O7 Na1 2.973(14) 3_445 ?
+O8 Na2 2.422(11) 3_445 ?
+O8 Na1 2.811(10) 3_445 ?

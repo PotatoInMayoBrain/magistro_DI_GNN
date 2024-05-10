@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-11-07 21:39:33 +0200 (Thu, 07 Nov 2019) $
+#$Revision: 223570 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/23/34/7233462.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7233462
+loop_
+_publ_author_name
+'Bull, Craig L.'
+'Funnell, Nicholas P.'
+'Ridley, Christopher J.'
+'Pulham, Colin R.'
+'Coster, Paul L.'
+'Tellam, James P.'
+'Marshall, William G.'
+_publ_section_title
+;
+ Pressure-induced isosymmetric phase transition in biurea
+;
+_journal_issue                   39
+_journal_name_full               CrystEngComm
+_journal_page_first              5872
+_journal_paper_doi               10.1039/C9CE01028A
+_journal_volume                  21
+_journal_year                    2019
+_chemical_compound_source        'Sigma Aldrich'
+_chemical_formula_moiety         'C2 D6 N4 O2'
+_chemical_formula_sum            'C D3 N2 O'
+_chemical_formula_weight         62.07
+_chemical_melting_point          531
+_chemical_name_common            Biurea
+_space_group_IT_number           15
+_space_group_name_Hall           '-I 2ya'
+_space_group_name_H-M_alt        'I 1 2/a 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-I 2ya'
+_symmetry_space_group_name_H-M   'I 1 2/a 1'
+_audit_update_record
+;
+2019-06-21 deposited with the CCDC.    2019-08-26 downloaded from the CCDC.
+;
+_cell_angle_alpha                90.0
+_cell_angle_beta                 82.183(5)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            8
+_cell_length_a                   9.3429(5)
+_cell_length_b                   4.55499(24)
+_cell_length_c                   11.3567(6)
+_cell_measurement_pressure       0.50
+_cell_measurement_temperature    295
+_cell_volume                     478.81(4)
+_computing_cell_refinement       GSAS
+_computing_data_collection       'Custom ISIS software'
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'ZnS scintillator'
+_diffrn_detector_type            custom
+_diffrn_measurement_device_type  'PEARL diffractometer'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_type           Neutron
+_diffrn_source                   'Pulsed neutron source'
+_diffrn_source_target            W
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using custom ISIS routines.
+;
+_pd_char_colour                  white
+_pd_instr_dist_spec/detc         800
+_pd_instr_dist_src/spec          12800
+_pd_instr_location
+'ISIS Neutron Facility, Rutherford Appleton Laboratory'
+_pd_meas_2theta_fixed            90
+_pd_meas_scan_method             Time-of-flight
+_pd_proc_info_data_reduction
+;
+Custom ISIS software
+;
+_pd_proc_info_excluded_regions
+;
+
+;
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr
+;
+No requirement for preferred orientation correction
+;
+_pd_proc_ls_profile_function
+;
+Voigt function convoluted with a back-to-back double exponential.
+;
+_pd_proc_ls_prof_wR_factor       0.0329
+_pd_spec_mounting                'TiZr Capsule'
+_pd_spec_mount_mode              transmission
+_refine_ls_goodness_of_fit_all   1.146
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    2
+_refine_ls_number_parameters     64
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.1224
+_refine_ls_shift/su_max          0.05
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            c9ce01028a2.cif
+_cod_data_source_block           PRL87942_45_9TNS_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '531 K' was changed to '531' - the
+value should be numeric and without a unit designator.
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (27
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (9
+times).
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7233455--7233473.cif.
+;
+_cod_original_cell_volume        478.816(26)
+_cod_original_sg_symbol_H-M      'I 2/a'
+_cod_database_code               7233462
+loop_
+_symmetry_equiv_pos_as_xyz
+'x,y,z '
+'-x+1/2,y,-z '
+'-x,-y,-z '
+'x+1/2,-y,z '
+'x+1/2,y+1/2,z+1/2 '
+'-x,y+1/2,-z+1/2 '
+'-x+1/2,-y+1/2,-z+1/2 '
+'x,-y+1/2,z+1/2 '
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C 0.4024(8) 0.1899(15) -0.1012(6) 1.0 Uiso 0.0073(20) 8
+D D1 0.3741(8) 0.5053(19) 0.0324(6) 1.0 Uiso 0.0272(26) 8
+D D2 0.2204(10) -0.0141(23) -0.1420(7) 1.0 Uiso 0.0249(25) 8
+D D3 0.3836(12) -0.1014(19) -0.2313(8) 1.0 Uiso 0.0389(30) 8
+N N1 0.3254(6) 0.3399(11) -0.0066(5) 1.0 Uiso 0.0147(16) 8
+N N2 0.3315(7) 0.0083(15) -0.1605(6) 1.0 Uiso 0.0286(23) 8
+O O 0.5361(10) 0.2318(19) -0.1146(8) 1.0 Uiso 0.0185(26) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+C 8.0
+D 24.0
+O 8.0
+N 16.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N1 C N2 117.8(7) 1_555 1_555 n
+N1 C O 115.0(7) 1_555 1_555 n
+N2 C O 127.1(9) 1_555 1_555 n
+C N1 D1 119.2(7) 1_555 1_555 n
+C N1 N1 119.5(6) 1_555 2_555 n
+D1 N1 N1 117.4(7) 1_555 2_555 n
+C N2 D2 121.6(9) 1_555 1_555 n
+C N2 D3 120.0(10) 1_555 1_555 n
+D2 N2 D3 118.2(11) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C D1 2.080(10) 1_555 n
+C D2 2.046(11) 1_555 n
+C D3 2.011(12) 1_555 n
+C N1 1.389(7) 1_555 n
+C N2 1.303(7) 1_555 n
+C O 1.252(11) 1_555 n
+D1 C 2.080(10) 1_555 n
+D1 N1 1.012(8) 1_555 n
+D1 O 1.795(10) -1_665 n
+D2 C 2.046(11) 1_555 n
+D2 D3 1.758(14) 1_555 n
+D2 N2 1.036(8) 1_555 n
+D2 O 1.974(12) -2_455 n
+D3 C 2.011(12) 1_555 n
+D3 D2 1.758(14) 1_555 n
+D3 N2 1.013(9) 1_555 n
+D3 O 1.961(13) 102_644 n
+N1 C 1.389(7) 1_555 n
+N1 D1 1.012(8) 1_555 n
+N1 N1 1.396(10) 2_555 n
+N2 C 1.303(7) 1_555 n
+N2 D2 1.036(8) 1_555 n
+N2 D3 1.013(9) 1_555 n
+O C 1.252(11) 1_555 n
+O D1 1.795(10) -1_665 n
+O D2 1.974(12) -2_555 n
+O D3 1.961(13) 102_654 n

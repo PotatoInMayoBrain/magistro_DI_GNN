@@ -1,0 +1,199 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 18:55:33 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176466 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/29/8102974.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102974
+loop_
+_publ_author_name
+'Demchyna, Roman'
+'Prots, Yurii'
+'Schwarz, Ulrich'
+_publ_section_title
+;
+Crystal structures of titanium palladium germanium, TiPdGe, two polymorphic 
+modifications
+;
+_journal_issue                   3
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              173
+_journal_page_last               174
+_journal_volume                  222
+_journal_year                    2007
+_chemical_formula_sum            'Ge Pd Ti'
+_chemical_formula_weight         226.9
+_space_group_IT_number           189
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6 -2'
+_symmetry_space_group_name_H-M   'P -6 2 m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2007-05-09T12:00:00-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   6.6030(4)
+_cell_length_b                   6.6030(4)
+_cell_length_c                   3.6998(3)
+_cell_measurement_temperature    293(2)
+_cell_volume                     139.698(16)
+_computing_cell_refinement       'CSD (Akselrud, 1993)'
+_computing_data_collection       'CrystalClear (Rigaku Corp., 2000)'
+_computing_data_reduction        'CrystalClear (Rigaku Corp., 2000)'
+_computing_structure_refinement  'CSD (Akselrud, 1993)'
+_diffrn_ambient_temperature      295.15
+_diffrn_detector_area_resol_mean 14.6306
+_diffrn_measurement_details
+;
+scan:
+ Number of images: 300
+            Slice: -100.0000 - 140.0000
+      Image width: 0.8000
+         Exp time: 55.0000
+    Rotation axis: Phi
+            Omega: 0.0000
+              Chi: 0.0000
+              Phi: 0.0000
+              XTD: 41.9000
+           2theta: -25.0000
+scan:
+ Number of images: 70
+            Slice: -38.0000 - 18.0000
+      Image width: 0.8000
+         Exp time: 55.0000
+    Rotation axis: Omega
+            Omega: 0.0000
+              Chi: -90.0000
+              Phi: 25.0000
+              XTD: 41.9000
+           2theta: -25.0000
+;
+_diffrn_measurement_device       'Rigaku AFC7'
+_diffrn_measurement_method       oscillation
+_diffrn_radiation_detector       'Mercury CCD'
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_source         'Sealed Tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.031
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            1175
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         32.21
+_diffrn_reflns_theta_min         3.56
+_diffrn_source_current           40.0000
+_diffrn_source_power             2.0000
+_diffrn_source_voltage           50.0000
+_exptl_absorpt_coefficient_mu    29.21
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.6621
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    8.09
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       platelet
+_exptl_crystal_F_000             300
+_exptl_crystal_size_max          0.010
+_exptl_crystal_size_mid          0.025
+_exptl_crystal_size_min          0.045
+_refine_diff_density_max         1.12
+_refine_diff_density_min         -2.15
+_refine_ls_extinction_coef       0.046(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.040
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     14
+_refine_ls_number_reflns         203
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.040
+_refine_ls_R_factor_gt           0.022
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_ref         0.045
+_reflns_number_gt                203
+_reflns_number_total             210
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409925.cff
+_cod_data_source_block           3099a_TiPdGe
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_original_cell_volume        139.70(3)
+_cod_original_formula_sum        'Ti Pd Ge'
+_cod_database_code               8102974
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+-x+y,-x,z
+x,y,-z
+-y,x-y,-z
+-x+y,-x,-z
+y,x,-z
+x-y,-y,-z
+-x,-x+y,-z
+y,x,z
+x-y,-y,z
+-x,-x+y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Pd Pd 3 g 0.2585(2) 0 0.5 Uani 0.0153(3) 1.
+Ti Ti 3 f 0.5863(5) 0 0 Uani 0.0096(7) 1.
+Ge1 Ge 2 d 0.33333 0.66667 0.5 Uani 0.0073(4) 1.
+Ge2 Ge 1 a 0 0 0 Uani 0.0186(7) 1.
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pd 0.0089(3) 0.0101(5) 0.0271(6) 0.0051(2) 0 0
+Ti 0.0107(9) 0.0088(10) 0.0086(9) 0.0044(5) 0 0
+Ge1 0.0067(4) 0.0067(4) 0.0087(7) 0.0033(2) 0 0
+Ge2 0.0237(9) 0.0237(9) 0.0082(12) 0.0119(4) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Pd Pd -1.177 1.007 International_Tables_Vol_IV_Table_2.3.1
+Ti Ti 0.248 0.446 International_Tables_Vol_IV_Table_2.3.1
+Ge Ge 0.081 1.801 International_Tables_Vol_IV_Table_2.3.1

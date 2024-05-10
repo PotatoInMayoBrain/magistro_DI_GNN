@@ -1,0 +1,179 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/01/4000154.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4000154
+loop_
+_publ_author_name
+Serre,Christian
+'Millange, Franck'
+'Marrot, Jerome'
+'Ferey, Gerard'
+_publ_section_title
+;
+Hydrothermal Synthesis, Structure Determination,
+Thermal Behavior of New Three-dimensional Europium Terephtalates :
+MIL-51LT, HT and MIL-52 or Eu2n(OH)x(H2O)y(O2C-C6H4-CO2)z
+(n=III, III, II; x=4, 0, 0; y=2, 0, 0; z=1, 1, 2)
+;
+_journal_name_full               'Chemistry of Materials'
+_journal_paper_doi               10.1021/cm0211148
+_journal_year                    2002
+_chemical_formula_sum            'C8 H8 Eu2 O8'
+_chemical_formula_weight         536.06
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                91.01(3)
+_cell_angle_beta                 97.53(3)
+_cell_angle_gamma                91.03(3)
+_cell_formula_units_Z            1
+_cell_length_a                   3.6773(7)
+_cell_length_b                   6.2569(13)
+_cell_length_c                   11.969(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      18
+_cell_volume                     272.91(9)
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean ?
+_diffrn_measurement_device_type  'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       bisecting
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0577
+_diffrn_reflns_av_sigmaI/netI    0.1300
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4056
+_diffrn_reflns_theta_max         44.99
+_diffrn_reflns_theta_min         3.26
+_diffrn_standards_decay_%        2
+_diffrn_standards_interval_count 86
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    11.416
+_exptl_absorpt_correction_T_max  0.8038
+_exptl_absorpt_correction_T_min  0.3948
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(Xtal3.2 ABSORB; Hall et al., 1992)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.262
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       platelet
+_exptl_crystal_F_000             246
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.02
+_refine_ls_extinction_coef       0.0036(19)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.005
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         3925
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.005
+_refine_ls_R_factor_all          0.1124
+_refine_ls_R_factor_gt           0.0461
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0602P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0990
+_refine_ls_wR_factor_ref         0.1183
+_reflns_number_gt                2572
+_reflns_number_total             3925
+_reflns_threshold_expression     >2sigma(I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to 'gaussian'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               4000154
+#BEGIN Tags that were not found in dictionaries:
+_diffrn_standards_decay_corr_max 1.051
+_diffrn_standards_decay_corr_min 0.946
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Eu Eu -0.22199(7) 0.75450(5) 0.06575(3) 0.00758(7) Uani 1 1 d . . .
+O1 O -0.2280(10) 1.1351(7) 0.0490(4) 0.0095(6) Uani 1 1 d . . .
+O2 O -0.2987(11) 0.5019(7) -0.0902(4) 0.0116(7) Uani 1 1 d . . .
+O3 O 0.3283(13) 0.9133(8) 0.1930(4) 0.0153(8) Uani 1 1 d . . .
+O4 O -0.0119(13) 0.6761(9) 0.2703(4) 0.0177(9) Uani 1 1 d . . .
+C1 C 0.3740(16) 0.9139(11) 0.3930(5) 0.0152(10) Uani 1 1 d . . .
+C2 C 0.5431(19) 1.1146(12) 0.4046(6) 0.0187(11) Uani 1 1 d . . .
+H2 H 0.5733 1.1922 0.3407 0.022 Uiso 1 1 calc R . .
+C3 C 0.2256(16) 0.8265(11) 0.2798(5) 0.0152(10) Uani 1 1 d . . .
+C4 C 0.3320(19) 0.7991(11) 0.4890(6) 0.0189(11) Uani 1 1 d . . .
+H4 H 0.2202 0.6642 0.4821 0.023 Uiso 1 1 calc R . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Eu 0.00735(8) 0.00774(9) 0.00760(11) 0.00004(6) 0.00082(6) 0.00010(5)
+O1 0.0102(13) 0.0112(15) 0.0069(16) -0.0008(12) 0.0003(11) 0.0001(11)
+O2 0.0122(13) 0.0092(14) 0.0138(19) -0.0004(13) 0.0027(13) 0.0012(11)
+O3 0.0197(17) 0.0183(19) 0.0073(18) 0.0009(15) -0.0008(14) 0.0005(14)
+O4 0.0187(18) 0.026(2) 0.0080(18) -0.0040(17) 0.0025(14) -0.0054(16)
+C1 0.016(2) 0.021(3) 0.008(2) -0.004(2) -0.0008(17) 0.0006(18)
+C2 0.021(2) 0.023(3) 0.011(3) -0.002(2) 0.001(2) -0.002(2)
+C3 0.016(2) 0.021(3) 0.008(2) -0.0009(19) -0.0028(17) 0.0052(18)
+C4 0.026(3) 0.020(3) 0.010(2) -0.006(2) 0.001(2) -0.005(2)
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-3 3 1
+3 0 3
+0 5 4

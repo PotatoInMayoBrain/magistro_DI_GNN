@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 23:05:24 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179501 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/98/4339877.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4339877
+loop_
+_publ_author_name
+'Wen, He-Rui'
+'Li, Cheng-Hui'
+'Song, You'
+'Zuo, Jing-Lin'
+'Zhang, Bin'
+'You, Xiao-Zeng'
+_publ_section_title
+;
+ Synthesis and magnetic properties of a highly conducting neutral nickel
+ complex with a highly conjugated tetrathiafulvalenedithiolate ligand.
+;
+_journal_issue                   17
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              6837
+_journal_page_last               6839
+_journal_paper_doi               10.1021/ic070264n
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_sum            'C20 H8 Ni S12'
+_chemical_formula_weight         691.70
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_audit_creation_date             2007-01-10T19:30
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-01-10T19:30  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                87.141(21)
+_cell_angle_beta                 93.624(35)
+_cell_angle_gamma                111.799(12)
+_cell_formula_units_Z            1
+_cell_length_a                   6.7203(16)
+_cell_length_b                   7.3808(12)
+_cell_length_c                   12.5627(33)
+_cell_volume                     577.2(2)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.7
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.30452
+_exptl_absorpt_correction_T_min  1.30051
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =    -0.10000    
+Correction is not refined.
+;
+_pd_block_id                     2007-01-10T19:30|NIBTDT|nibtdt.cif|bruker
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_number_of_points        3850
+_pd_phase_name                   nibtdt
+_pd_proc_info_datetime           2007-01-10T19:30:29
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 36 terms.
+ Linear interpolation
+      1:    452.892     2:    257.141     3:    177.762     4:    111.872    
+      5:    175.320     6:    149.804     7:    170.107     8:    102.317    
+      9:    134.352    10:    168.281    11:    231.499    12:    206.713    
+     13:    269.505    14:    219.439    15:    238.607    16:    207.586    
+     17:    143.607    18:    191.464    19:    20.9574    20:    119.656    
+     21:    115.919    22:    93.3562    23:   -41.2738    24:    140.127    
+     25:    64.8658    26:    70.5044    27:    23.0566    28:    88.6404    
+     29:    62.8996    30:    143.226    31:    27.7865    32:    70.1279    
+     33:    63.6138    34:    89.8277    35:    85.6269    36:    92.6308    
+;
+_pd_proc_ls_peak_cutoff          0.00500
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0050 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0843
+_pd_proc_ls_prof_wR_expected     0.0658
+_pd_proc_ls_prof_wR_factor       0.1253
+_pd_proc_number_of_points        3850
+_refine_ls_goodness_of_fit_all   1.91
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     114
+_refine_ls_number_restraints     85
+_refine_ls_R_Fsqd_factor         0.08240
+_refine_ls_shift/su_max          2.46
+_refine_ls_shift/su_mean         0.12
+_reflns_d_resolution_high        1.588
+_reflns_d_resolution_low         12.533
+_reflns_limit_h_max              4
+_reflns_limit_h_min              0
+_reflns_limit_k_max              4
+_reflns_limit_k_min              -4
+_reflns_limit_l_max              8
+_reflns_limit_l_min              -8
+_reflns_number_total             594
+_cod_data_source_file            ic070264n-file004.cif
+_cod_data_source_block           NIBTDT_publ
+_cod_original_cell_volume        577.17(22)
+_cod_database_code               4339877
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+-1 -x,-y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Ni Ni1 0.0 0.0 0.0 1.0 Uiso 0.01525 1
+S S1 0.261(14) -0.01(4) 0.110(16) 1.0 Uiso 0.01525 2
+S S2 -0.116(14) 0.144(29) 0.118(14) 1.0 Uiso 0.01525 2
+S S3 0.406(13) 0.147(17) 0.329(10) 1.0 Uiso 0.01525 2
+S S4 0.041(11) 0.272(28) 0.341(10) 1.0 Uiso 0.01525 2
+S S5 0.541(8) 0.251(12) 0.570(7) 1.0 Uiso 0.01525 2
+S S6 0.173(11) 0.382(22) 0.584(9) 1.0 Uiso 0.01525 2
+C C1 0.222(11) 0.099(21) 0.221(5) 1.0 Uiso 0.01525 2
+C C2 0.061(11) 0.164(20) 0.224(5) 1.0 Uiso 0.01525 2
+C C3 0.256(8) 0.233(22) 0.408(7) 1.0 Uiso 0.01525 2
+C C4 0.322(7) 0.293(15) 0.508(6) 1.0 Uiso 0.01525 2
+C C5 0.516(9) 0.349(20) 0.688(5) 1.0 Uiso 0.01525 2
+C C6 0.345(9) 0.409(23) 0.695(5) 1.0 Uiso 0.01525 2
+C C7 0.313(6) 0.484(12) 0.788(4) 1.0 Uiso 0.01525 2
+C C8 0.445(7) 0.489(12) 0.876(4) 1.0 Uiso 0.01525 2
+C C9 0.623(7) 0.434(18) 0.869(4) 1.0 Uiso 0.01525 2
+C C10 0.651(6) 0.355(12) 0.776(4) 1.0 Uiso 0.01525 2
+H H1 0.194(10) 0.525(14) 0.792(6) 1.0 Uiso 0.01525 2
+H H2 0.431(9) 0.551(11) 0.939(4) 1.0 Uiso 0.01525 2
+H H3 0.717(10) 0.440(25) 0.930(5) 1.0 Uiso 0.01525 2
+H H4 0.772(10) 0.317(14) 0.771(6) 1.0 Uiso 0.01525 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Ni 1.0 0.000 0.000 12.8376 3.87850 7.29200 0.25650 4.44380 12.1763 2.38000
+66.3421 1.03410 International_Tables_Vol_C
+S 12.0 0.000 0.000 6.90530 1.46790 5.20340 22.2151 1.43790 0.25360 1.58630
+56.1720 0.86690 International_Tables_Vol_C
+C 20.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+H 8.0 0.000 0.000 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081
+57.7997 0.00304 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.541844 1.000 K\a~1~ 1
+1.544300 0.500 K\a~2~ 2

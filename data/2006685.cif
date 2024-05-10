@@ -1,0 +1,240 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/66/2006685.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2006685
+loop_
+_publ_author_name
+'Joubert, Jean-Marc'
+'\<Cern\'y, R.'
+'Yvon, K.'
+'Latroche, M.'
+'Percheron-Gu\'egan, A.'
+_publ_section_title
+;
+ Zirconium--Nickel, Zr~7~Ni~10~: Space Group Revision for the
+ Stoichiometric Phase
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1536
+_journal_page_last               1538
+_journal_paper_doi               10.1107/S0108270197007142
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_iupac          'Zr7 Ni10'
+_chemical_formula_sum            'Ni10 Zr7'
+_chemical_formula_weight         1225.5
+_space_group_IT_number           64
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2ac 2'
+_symmetry_space_group_name_H-M   'C m c a'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   12.381(10)
+_cell_length_b                   9.185(5)
+_cell_length_c                   9.221(5)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      28.77
+_cell_measurement_theta_min      8.63
+_cell_volume                     1048.6(12)
+_computing_cell_refinement
+'LATCON Xtal3.2 (Hall, Flack & Stewart, 1992)'
+_computing_data_collection       'PW1100 software (Philips, 1974)'
+_computing_data_reduction        'REFCAL and SORTRF Xtal3.2'
+_computing_publication_material
+'BONDLA and CIFIO Xtal3.2. Structure tidy: (Gelato & Parth\'e, 1987)'
+_computing_structure_refinement  'LSLS in Xtal3.2'
+_diffrn_measurement_device_type  'Philips PW1100'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .052
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            3710
+_diffrn_reflns_theta_max         29.99
+_diffrn_standards_decay_%        1.25
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    24.03
+_exptl_absorpt_correction_T_max  .678
+_exptl_absorpt_correction_T_min  .490
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details
+;analytical correction from measured crystal shape (indexed faces)
+        and size according to Blanc, Schwarzenbach & Flack (1991)
+;
+_exptl_crystal_colour            metallic_silver
+_exptl_crystal_density_diffrn    7.762
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       parallelepiped
+_exptl_crystal_size_max          0.077
+_exptl_crystal_size_mid          0.051
+_exptl_crystal_size_min          0.016
+_refine_diff_density_max         3.685
+_refine_diff_density_min         -3.824
+_refine_ls_extinction_coef       430E1(10)
+_refine_ls_extinction_method
+;
+       Secondary extinction with Gaussian distribution
+       according to Becker & Coppens (1974).
+;
+_refine_ls_goodness_of_fit_ref   1.2892
+_refine_ls_hydrogen_treatment    none
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         720
+_refine_ls_R_factor_gt           0.0605
+_refine_ls_shift/su_max          0.00012
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     1/[\s^2^(Fsqd)+0.06Fsqd]
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_ref         0.0376
+_reflns_number_gt                720
+_reflns_number_total             799
+_reflns_threshold_expression     'Fsqd > 0'
+_cod_data_source_file            jz1204.cif
+_cod_data_source_block           z7n10
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        1048.6(11)
+_cod_original_sg_symbol_Hall     '-C 2bc 2'
+_cod_database_code               2006685
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,1/2-y,1/2+z
++x,-y,-z
+-x,1/2+y,1/2-z
+-x,-y,-z
++x,1/2+y,1/2-z
+-x,+y,+z
++x,1/2-y,1/2+z
+1/2+x,1/2+y,+z
+1/2-x,-y,1/2+z
+1/2+x,1/2-y,-z
+1/2-x,+y,1/2-z
+1/2-x,1/2-y,-z
+1/2+x,+y,1/2-z
+1/2-x,1/2+y,+z
+1/2+x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ni1 .14438(8) .01115(12) .20822(9) .0118(2) Uani 1.00000 ? ?
+Ni2 .35507(8) .29157(9) .00833(14) .0120(2) Uani 1.00000 ? ?
+Ni3 .00000 .10755(16) .39423(18) .0142(4) Uani 1.00000 ? ?
+Zr1 .00000 .31219(12) .18847(13) .0135(3) Uani 1.00000 ? ?
+Zr2 .25000 .25466(12) .25000 .0041(2) Uani 1.00000 ? ?
+Zr3 .30634(8) .00000 .00000 .0097(2) Uani 1.00000 ? ?
+Zr4 .00000 .00000 .00000 .0078(3) Uani 1.00000 ? ?
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ni1 .0131(5) .0131(5) .0091(4) -.0020(5) -.0003(5) .0009(5)
+Ni2 .0127(5) .0097(4) .0134(5) .0004(4) .0014(7) .0000(5)
+Ni3 .0135(8) .0143(7) .0149(8) .00000 .00000 -.0001(7)
+Zr1 .0095(5) .0164(6) .0146(6) .00000 .00000 -.0037(5)
+Zr2 .0066(4) .0031(4) .0026(4) .00000 -.0012(6) .00000
+Zr3 .0129(5) .0083(5) .0077(5) .00000 .00000 -.0001(6)
+Zr4 .0064(6) .0087(7) .0085(6) .00000 .00000 .0007(9)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ni .285 1.113 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+Zr -2.965 .56 Int._Tables_Vol_IV_Tables_2.2B_and_2.3.1
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ni1 Zr2 9 4_655 2.6193(19) no
+Ni1 Zr4 9 9 2.6253(16) no
+Ni1 Ni3 9 9 2.6308(19) no
+Ni1 Ni2 9 5_665 2.6964(18) no
+Ni1 Zr2 9 7_655 2.7219(19) no
+Ni1 Ni1 9 4_655 2.727(3) no
+Ni1 Zr1 9 12 2.7281(18) no
+Ni1 Ni2 9 7_655 2.7323(18) no
+Ni1 Zr3 9 2_655 2.7607(17) no
+Ni1 Zr3 9 9 2.7781(18) no
+Ni1 Zr1 9 9 3.298(3) no
+Ni1 Ni1 9 15 3.575(4) no
+Ni1 Ni2 9 4_655 3.669(2) no
+Ni1 Ni1 9 11 3.845(3) no
+Ni1 Ni2 9 2_655 3.923(3) no
+Ni1 Ni2 9 9 4.103(3) no
+Ni2 Zr2 2_655 2_655 2.6025(17) no
+Ni2 Ni3 2_655 11_556 2.6237(19) no
+Ni2 Zr4 2_655 10 2.6250(16) no
+Ni2 Ni2 2_655 14 2.716(3) no
+Ni2 Zr1 2_655 12 2.7242(19) no
+Ni2 Zr3 2_655 2_655 2.7462(17) no
+Ni2 Zr2 2_655 7_655 2.7472(18) no
+Ni2 Zr3 2_655 14 2.7686(18) no
+Ni2 Zr1 2_655 11_556 3.327(3) no
+Ni2 Ni2 2_655 8 3.589(4) no
+Ni2 Ni2 2_655 4_645 3.832(3) no
+Ni3 Zr1 9 9 2.671(3) no
+Ni3 Zr3 9 6 2.771(3) no
+Ni3 Zr3 9 2_655 2.771(3) no
+Ni3 Ni3 9 11_556 2.776(3) no
+Ni3 Zr1 9 10_565 2.812(3) no
+Ni3 Zr1 9 12 2.818(3) no
+Ni3 Zr2 9 6 3.630(3) no
+Ni3 Zr2 9 4_655 3.630(3) no
+Ni3 Zr4 9 10_565 3.734(3) no
+Ni3 Zr4 9 9 3.767(3) no
+Zr1 Zr2 9 6 3.191(3) no
+Zr1 Zr2 9 4_655 3.191(3) no
+Zr1 Zr4 9 10_565 3.3508(19) no
+Zr1 Zr4 9 9 3.3530(19) no
+Zr1 Zr3 9 5_665 3.4270(19) no
+Zr1 Zr3 9 1_565 3.4270(19) no
+Zr2 Zr3 4_655 14_565 3.2983(15) no
+Zr2 Zr3 4_655 5_665 3.2983(15) no
+Zr2 Zr3 4_655 9 3.3574(15) no
+Zr2 Zr3 4_655 2_655 3.3574(15) no
+Zr3 Zr4 2_655 2_655 3.793(4) no

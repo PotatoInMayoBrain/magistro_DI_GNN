@@ -1,0 +1,213 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/04/2010453.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010453
+loop_
+_publ_author_name
+'Viossat, B.'
+'Tomas, A.'
+'Nguyen-Huy Dung'
+_publ_section_title
+;
+ L'hydrog\'enocarbonate de Bis(<i>N</i>,<i>N</i>-dim\'ethylbiguanide)
+ Cuivre(II), [Cu(C~4~H~11~N~5~)~2~]2HCO~3~
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              213
+_journal_page_last               215
+_journal_paper_doi               10.1107/S0108270194006086
+_journal_volume                  51
+_journal_year                    1995
+_chemical_formula_moiety         'C10 H24 Cu1 N10 O6'
+_chemical_formula_sum            'C10 H24 Cu N10 O6'
+_chemical_formula_weight         443.93
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                109.74(3)
+_cell_angle_beta                 76.70(5)
+_cell_angle_gamma                107.37(5)
+_cell_formula_units_Z            1
+_cell_length_a                   7.148(3)
+_cell_length_b                   7.586(3)
+_cell_length_c                   8.888(4)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      27.5
+_cell_measurement_theta_min      0
+_cell_volume                     428.4(3)
+_diffrn_measurement_device       'Syntex P2~1~'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2114
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        1
+_diffrn_standards_interval_count 60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    1.33
+_exptl_absorpt_correction_type   aucune
+_exptl_crystal_colour            rouge
+_exptl_crystal_density_diffrn    1.721
+_exptl_crystal_density_meas      1.71(2)
+_exptl_crystal_description       'aiguille prismatique'
+_exptl_crystal_size_max          0.32
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         0.46
+_refine_diff_density_min         -0.48
+_refine_ls_extinction_method     aucune
+_refine_ls_goodness_of_fit_obs   1.47
+_refine_ls_number_parameters     124
+_refine_ls_number_reflns         1095
+_refine_ls_R_factor_obs          0.05
+_refine_ls_shift/esd_max         0.034
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.04
+_reflns_number_observed          1095
+_reflns_number_total             2114
+_reflns_observed_criterion       I>4\s(I)
+_cod_data_source_file            du1088.cif
+_cod_data_source_block           du1088_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'temp\'erature ambiante' was
+changed to '295(2)' - the room/ambient temperature average [293;298]
+in Kelvins(K) was taken.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'temp\'erature ambiante' was
+changed to '295(2)' - the room/ambient temperature average [293;298]
+in Kelvins(K) was taken.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        428.4(5)
+_cod_original_formula_sum        'C10 H24 Cu1 N10 O6'
+_cod_database_code               2010453
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu 1.0 .0 1.0 .0265(8)
+N(1) 1.1282(6) .0753(6) .8086(5) .032(3)
+N(2) 1.3876(6) .1798(7) .6268(5) .038(3)
+N(3) 1.4543(6) .1906(6) .8678(5) .026(3)
+N(4) 1.2390(6) .1356(7) 1.0958(5) .038(3)
+N(5) 1.5709(6) .2887(6) 1.1109(5) .034(3)
+C(1) 1.3126(7) .1453(7) .7675(6) .026(4)
+C(2) 1.4161(7) .2051(8) 1.0286(7) .028(4)
+C(3) 1.1084(8) .7182(9) .4044(7) .035(4)
+C(51) 1.7611(8) .3951(8) 1.0409(7) .042(4)
+C(52) 1.5534(8) .2936(8) 1.2778(7) .041(4)
+O(1) 1.2048(5) .6012(6) .4027(5) .053(4)
+O(2) .9236(5) .6936(6) .4841(5) .052(3)
+O(3) 1.1740(5) .8495(6) .3423(5) .043(3)
+H(1A) 1.0559 0.0769 0.7307 0.0507
+H(2A) 1.5067 0.2514 0.5934 0.0507
+H(2B) 1.3198 0.1286 0.5472 0.0507
+H(3A) 1.5912 0.2106 0.8115 0.0507
+H(4A) 1.2137 0.1601 1.2087 0.0507
+H(51A) 1.8627 0.3100 0.9996 0.0507
+H(51B) 1.7514 0.4658 0.9555 0.0507
+H(51C) 1.8034 0.4761 1.1247 0.0507
+H(52A) 1.6800 0.2755 1.3055 0.0507
+H(52B) 1.4588 0.1917 1.3072 0.0507
+H(52C) 1.5057 0.4047 1.3338 0.0507
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+N(1) Cu N(4) 88.9(2) yes
+C(1) N(1) Cu 128.8(4) yes
+C(2) N(3) C(1) 125.7(4) yes
+C(2) N(4) Cu 129.6(4) yes
+C(2) N(5) C(52) 121.3(4) yes
+C(2) N(5) C(51) 121.7(5) yes
+C(52) N(5) C(51) 116.7(4) yes
+N(1) C(1) N(2) 123.9(5) yes
+N(1) C(1) N(3) 122.7(5) yes
+N(2) C(1) N(3) 113.4(4) yes
+N(4) C(2) N(5) 122.6(5) yes
+N(4) C(2) N(3) 121.1(5) yes
+N(5) C(2) N(3) 116.3(5) yes
+O(3) C(3) O(1) 124.7(6) yes
+O(3) C(3) O(2) 119.6(6) yes
+O(1) C(3) O(2) 115.7(6) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu N(1) . . 1.920(4) yes
+Cu N(4) . . 1.931(4) yes
+N(1) C(1) . . 1.282(6) yes
+N(2) C(1) . . 1.323(6) yes
+N(3) C(1) . . 1.392(6) yes
+N(3) C(2) . . 1.364(6) yes
+N(4) C(2) . . 1.305(6) yes
+N(5) C(2) . . 1.342(6) yes
+N(5) C(52) . . 1.448(7) yes
+N(5) C(51) . . 1.476(6) yes
+C(3) O(3) . . 1.221(6) yes
+C(3) O(1) . . 1.270(6) yes
+C(3) O(2) . . 1.339(6) yes
+N(1) H(1A) . . 0.96 no
+N(2) H(2A) . . 0.91 no
+N(2) H(2B) . . 0.86 no
+N(3) H(3A) . . 0.98 no
+N(4) H(4A) . . 0.94 no
+C(51) H(51A) . . 1.04 no
+C(51) H(51B) . . 1.09 no
+C(51) H(51C) . . 0.84 no
+C(52) H(52A) . . 1.05 no
+C(52) H(52B) . . 0.93 no
+C(52) H(52C) . . 0.94 no

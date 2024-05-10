@@ -1,0 +1,232 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 01:46:44 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179154 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/15/4311594.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4311594
+loop_
+_publ_author_name
+'Mathias S. Wickleder'
+'Oliver B\"uchner'
+'Claudia Wickleder'
+'Sherif el Sheik'
+'Gunther Brunklaus'
+'Hellmut Eckert'
+_publ_section_title
+;
+ Au2(SeO3)2(SeO4): Synthesis and Characterization of a New
+ Noncentrosymmetric Selenite-Selenate
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5860
+_journal_page_last               5864
+_journal_paper_doi               10.1021/ic049270z
+_journal_volume                  43
+_journal_year                    2004
+_chemical_formula_sum            'Au2 O10 Se3'
+_chemical_formula_weight         790.81
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           36
+_symmetry_space_group_name_Hall  'C 2c -2'
+_symmetry_space_group_name_H-M   'C m c 21'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   16.891(3)
+_cell_length_b                   6.3013(8)
+_cell_length_c                   8.3266(13)
+_cell_measurement_temperature    293(2)
+_cell_volume                     886.2(2)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0800
+_diffrn_reflns_av_sigmaI/netI    0.0534
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            5054
+_diffrn_reflns_theta_max         28.10
+_diffrn_reflns_theta_min         2.41
+_exptl_absorpt_coefficient_mu    45.431
+_exptl_absorpt_correction_T_max  0.0517
+_exptl_absorpt_correction_T_min  0.0156
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    5.927
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1360
+_refine_diff_density_max         3.147
+_refine_diff_density_min         -2.565
+_refine_diff_density_rms         0.535
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.04(3)
+_refine_ls_extinction_coef       0.0019(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   0.986
+_refine_ls_goodness_of_fit_obs   1.044
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     74
+_refine_ls_number_reflns         1087
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      0.985
+_refine_ls_restrained_S_obs      1.044
+_refine_ls_R_factor_all          0.0452
+_refine_ls_R_factor_obs          0.0362
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0539P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0873
+_refine_ls_wR_factor_obs         0.0838
+_reflns_number_observed          905
+_reflns_number_total             1087
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic049270zsi20040706_112811.cif
+_cod_data_source_block           d:\wicky\ekrech\au2se3o
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0539P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0539P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4311594
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-x, y, z'
+'x, -y, z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Au1 0.0202(3) 0.0104(3) 0.0202(3) -0.0005(6) -0.0004(4) 0.0003(2)
+Se1 0.0217(7) 0.0130(9) 0.0200(7) 0.0003(8) -0.0013(7) -0.0001(8)
+O11 0.028(5) 0.004(5) 0.038(9) -0.010(5) 0.004(6) 0.000(4)
+O12 0.035(6) 0.011(6) 0.026(8) -0.007(4) -0.007(5) -0.001(5)
+O13 0.010(4) 0.027(7) 0.012(5) -0.001(4) -0.001(4) 0.002(4)
+Se2 0.0223(10) 0.0145(13) 0.0218(10) 0.0019(9) 0.000 0.000
+O21 0.038(11) 0.025(11) 0.042(11) -0.018(8) 0.000 0.000
+O22 0.018(5) 0.023(7) 0.033(6) -0.007(5) 0.001(5) 0.003(5)
+O23 0.035(10) 0.039(12) 0.038(17) -0.024(10) 0.000 0.000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Au1 Au 0.65956(3) 0.97575(8) 0.6838 0.0169(2) Uani 1 d . .
+Se1 Se 0.83863(10) 0.9677(3) 0.8042(2) 0.0182(3) Uani 1 d . .
+O11 O 0.8457(7) 0.8397(18) 0.1603(18) 0.024(3) Uani 1 d . .
+O12 O 0.6697(8) 0.2859(21) 0.6496(14) 0.024(3) Uani 1 d . .
+O13 O 0.7389(6) 0.9783(19) 0.8627(11) 0.016(2) Uani 1 d . .
+Se2 Se 0.0000 0.6405(4) 0.5325(3) 0.0195(5) Uani 1 d S .
+O21 O 0.0000 0.1976(40) 0.8797(24) 0.035(5) Uani 1 d S .
+O22 O 0.5801(7) 0.9700(21) 0.5065(15) 0.025(3) Uani 1 d . .
+O23 O 0.0000 0.7378(34) 0.7127(25) 0.038(6) Uani 1 d S .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Au Au -2.0133 8.8022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O12 Au1 O22 88.3(5) 1_565 . ?
+O12 Au1 O11 165.9(6) 1_565 6_665 ?
+O22 Au1 O11 83.1(5) . 6_665 ?
+O12 Au1 O13 92.4(5) 1_565 . ?
+O22 Au1 O13 179.3(5) . . ?
+O11 Au1 O13 96.3(5) 6_665 . ?
+O11 Se1 O12 87.4(7) 4_575 7_655 ?
+O11 Se1 O13 103.6(5) 4_575 . ?
+O12 Se1 O13 98.8(6) 7_655 . ?
+Se1 O11 Au1 129.4(8) 4_574 6_664 ?
+Se1 O12 Au1 122.6(7) 7_645 1_545 ?
+Se1 O13 Au1 115.8(5) . . ?
+O23 Se2 O21 119.1(12) . 2_564 ?
+O23 Se2 O22 110.4(6) . 7_545 ?
+O21 Se2 O22 106.8(7) 2_564 7_545 ?
+O23 Se2 O22 110.4(6) . 5_445 ?
+O21 Se2 O22 106.8(7) 2_564 5_445 ?
+O22 Se2 O22 102.0(9) 7_545 5_445 ?
+Se2 O22 Au1 114.8(6) 5 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Au1 O12 1.982(13) 1_565 ?
+Au1 O22 1.995(12) . ?
+Au1 O11 1.999(12) 6_665 ?
+Au1 O13 2.004(10) . ?
+Se1 O11 1.709(13) 4_575 ?
+Se1 O12 1.729(12) 7_655 ?
+Se1 O13 1.756(11) . ?
+O11 Se1 1.709(13) 4_574 ?
+O11 Au1 1.999(12) 6_664 ?
+O12 Se1 1.729(12) 7_645 ?
+O12 Au1 1.982(13) 1_545 ?
+Se2 O23 1.62(2) . ?
+Se2 O21 1.63(2) 2_564 ?
+Se2 O22 1.741(13) 7_545 ?
+Se2 O22 1.741(13) 5_445 ?
+O21 Se2 1.63(2) 2_565 ?
+O22 Se2 1.741(13) 5 ?

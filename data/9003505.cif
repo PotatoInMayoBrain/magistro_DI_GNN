@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/35/9003505.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9003505
+loop_
+_publ_author_name
+'Nagashima, M.'
+'Akasaka, M.'
+_publ_section_title
+;
+ An X-ray Rietveld study of piemontite on the join
+ Ca2Al3Si3O12(OH) - Ca2Mn3+3Si3O12(OH) formed by hydrothermal synthesis
+ Sample: q = 1.75, p = 1.26, Synthesis at P=200 MPa, T=500 C
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1119
+_journal_page_last               1129
+_journal_volume                  89
+_journal_year                    2004
+_chemical_formula_sum            'Al1.75 Ca2 H Mn1.25 O13 Si3'
+_chemical_name_mineral           Piemontite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 115.548
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   8.8591
+_cell_length_b                   5.7039
+_cell_length_c                   10.1827
+_cell_volume                     464.236
+_database_code_amcsd             0003595
+_diffrn_ambient_pressure         2e+05
+_diffrn_ambient_temperature      773.15
+_exptl_crystal_density_diffrn    3.500
+_cod_original_formula_sum        'Ca2 (Al1.75 Mn1.25) Si3 O13 H'
+_cod_database_code               9003505
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.75600 0.75000 0.15400 1.00000 Ca 0
+Ca2 0.59600 0.75000 0.42300 1.00000 Ca 0
+AlM1 0.00000 0.00000 0.00000 0.69000 Al 0
+MnM1 0.00000 0.00000 0.00000 0.31000 Mn 0
+AlM2 0.00000 0.00000 0.50000 0.98000 Al 0
+MnM2 0.00000 0.00000 0.50000 0.02000 Mn 0
+AlM3 0.30100 0.25000 0.22400 0.08000 Al 0
+MnM3 0.30100 0.25000 0.22400 0.92000 Mn 0
+Si1 0.33800 0.75000 0.04100 1.00000 Si 0
+Si2 0.68600 0.25000 0.27600 1.00000 Si 0
+Si3 0.18600 0.75000 0.32100 1.00000 Si 0
+O1 0.23600 0.97900 0.03000 1.00000 O 0
+O2 0.31300 0.97300 0.35600 1.00000 O 0
+O3 0.79400 0.01900 0.33200 1.00000 O 0
+O4 0.06900 0.25000 0.13500 1.00000 O 0
+O5 0.03800 0.75000 0.14700 1.00000 O 0
+O6 0.07900 0.75000 0.41700 1.00000 O 0
+O7 0.52800 0.75000 0.18800 1.00000 O 0
+O8 0.53300 0.25000 0.30900 1.00000 O 0
+O9 0.61200 0.25000 0.09500 1.00000 O 0
+O-H10 0.08300 0.25000 0.41500 1.00000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:48:26+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0003595

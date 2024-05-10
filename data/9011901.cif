@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/19/9011901.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011901
+loop_
+_publ_author_name
+'Ilyukhin, V. V.'
+'Khomyakov, A. P.'
+'Shumyatskaya, N. G.'
+'Voronkov, A. A.'
+'Nevskii, N. N.'
+'Belov, N. V.'
+_publ_section_title
+;
+ The crystal structure of the new natural zirconosilicate K4Zr2Si6O18*2H2O
+ Note: dimorphic with umbite
+ Note: y(O7) corrected
+;
+_journal_name_full               'Soviet Physics Doklady'
+_journal_page_first              118
+_journal_page_last               120
+_journal_volume                  26
+_journal_year                    1981
+_chemical_compound_source        'Khibinsk massif, Kola Peninsula, Russia'
+_chemical_formula_sum            'H2 K2 O10 Si3 Zr'
+_chemical_name_mineral           Kostylevite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2bc'
+_symmetry_space_group_name_H-M   'P 1 1 21/b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                105.26
+_cell_formula_units_Z            4
+_cell_length_a                   6.565
+_cell_length_b                   13.171
+_cell_length_c                   11.727
+_cell_volume                     978.253
+_database_code_amcsd             0015609
+_exptl_crystal_density_diffrn    2.822
+_cod_original_formula_sum        'K2 Zr Si3 O10 H2'
+_cod_database_code               9011901
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2-z
+-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K1 0.79500 0.08530 0.54840 0.02254 K 0
+K2 0.68160 0.88490 0.88310 0.03838 K 0
+Zr 0.12230 0.22050 0.78340 0.00912 Zr 0
+Si1 0.84380 0.15570 0.02750 0.00861 Si 0
+Si2 0.58850 0.15130 0.81320 0.00811 Si 0
+Si3 0.79090 0.01810 0.23570 0.00773 Si 0
+O1 0.80370 0.20030 0.74700 0.01343 O 0
+O2 0.05730 0.19200 0.95360 0.01570 O 0
+O3 0.43910 0.22980 0.81450 0.01520 O 0
+O4 0.16490 0.37750 0.81290 0.01418 O 0
+O5 0.19430 0.25570 0.61150 0.01520 O 0
+O6 0.07700 0.06360 0.73260 0.01532 O 0
+O7 0.63720 0.11880 0.94360 0.01786 O 0
+O8 0.84950 0.05250 0.10240 0.01748 O 0
+O9 0.46620 0.03760 0.75680 0.01279 O 0
+Wat 0.40290 0.12430 0.49270 0.03584 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:37+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015609

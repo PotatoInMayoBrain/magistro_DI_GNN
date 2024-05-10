@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/77/9007779.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007779
+loop_
+_publ_author_name
+'Averbuch-Pouchot M T'
+'Durif, A.'
+_publ_section_title
+;
+ Crystal chemistry of cyclo-hexaphosphates. X. structure of dicalcium
+ dilithium cyclo-hexaphosphate octahydrate
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              968
+_journal_page_last               970
+_journal_paper_doi               10.1107/S0108270189010383
+_journal_volume                  46
+_journal_year                    1990
+_chemical_formula_structural     Ca2Li2P6O18.8H2O
+_chemical_formula_sum            'Ca H16 Li O13 P3'
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                105.17
+_cell_angle_beta                 102.76
+_cell_angle_gamma                84.95
+_cell_formula_units_Z            2
+_cell_length_a                   7.767
+_cell_length_b                   10.144
+_cell_length_c                   7.225
+_cell_volume                     535.566
+_database_code_amcsd             0010140
+_exptl_crystal_density_diffrn    2.258
+_cod_original_formula_sum        'Ca Li P3 O13 H16'
+_cod_database_code               9007779
+_amcsd_formula_title             Ca2Li2P6O18.8H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.19038 0.24157 0.82356 0.01161 Ca 0
+Li1 0.50000 0.50000 0.00000 0.02913 Li 0
+Li2 0.00000 0.00000 0.00000 0.02786 Li 0
+P1 0.79668 0.47973 0.75598 0.01172 P 0
+P2 0.53968 0.27179 0.59329 0.01184 P 0
+P3 0.19655 0.25937 0.32919 0.01164 P 0
+OE11 0.70390 0.56070 0.91100 0.01532 O 0
+OE12 0.95000 0.39050 0.80710 0.02533 O 0
+OL12 0.65500 0.39180 0.57940 0.01570 O 0
+OL13 0.14890 0.42050 0.35930 0.01811 O 0
+OE21 0.44530 0.32600 0.75720 0.01722 O 0
+OE22 0.64680 0.14340 0.58550 0.02204 O 0
+OL23 0.40820 0.25610 0.38500 0.01798 O 0
+OE31 0.14560 0.18830 0.11830 0.01608 O 0
+OE32 0.12340 0.21340 0.47430 0.01735 O 0
+Wat1 0.61830 -0.04150 0.21720 0.02406 O 2
+Wat2 0.02030 0.94360 0.27590 0.01900 O 2
+Wat3 0.27840 0.61300 0.81940 0.03521 O 2
+Wat4 0.25390 0.89180 0.98220 0.02736 O 2
+H1W1 0.37600 -0.00600 0.66600 0.03673 H 0
+H2W1 0.35400 -0.00700 0.83900 0.03166 H 0
+H1W2 0.03200 0.02700 0.35300 0.03673 H 0
+H2W2 0.11500 0.90900 0.30300 0.03673 H 0
+H1W3 0.29000 0.59600 0.71100 0.02913 H 0
+H2W3 0.20300 0.57800 0.80500 0.06333 H 0
+H1W4 0.25900 0.80700 0.92900 0.03673 H 0
+H2W4 0.32200 0.91400 0.08500 0.05066 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:01+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010140

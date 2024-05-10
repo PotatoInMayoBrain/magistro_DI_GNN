@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/28/9012892.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012892
+loop_
+_publ_author_name
+'Li, J. J.'
+'Zhou, J. L.'
+'Dong, W.'
+_publ_section_title
+;
+ The structure of amarillite
+;
+_journal_name_full               'Chinese Science Bulletin'
+_journal_page_first              2073
+_journal_page_last               2075
+_journal_volume                  35
+_journal_year                    1990
+_chemical_compound_source        'Qinghai Province, China'
+_chemical_formula_sum            'Fe H12 Na O14 S2'
+_chemical_name_mineral           Amarillite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.495
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.4190
+_cell_length_b                   10.8409
+_cell_length_c                   12.4717
+_cell_volume                     1133.055
+_database_code_amcsd             0012226
+_exptl_crystal_density_diffrn    2.222
+_cod_original_formula_sum        'Na Fe S2 O14 H12'
+_cod_database_code               9012892
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.02950 0.04060 0.01970 0.00000 0.00850 0.00000
+Fe3+ 0.02390 0.02130 0.01030 0.00110 0.00630 0.00250
+S 0.02640 0.01790 0.01210 0.00130 0.00550 0.00160
+O1 0.04060 0.02520 0.02420 0.00190 -0.00640 0.00090
+Wat2 0.03510 0.03530 0.01860 0.00910 -0.00480 -0.00640
+Wat3 0.03350 0.07480 0.02020 -0.01560 0.01290 0.00010
+O4 0.03810 0.02220 0.01560 -0.00330 0.00700 -0.00380
+O5 0.03690 0.02290 0.02530 -0.00370 0.00370 0.00840
+O6 0.03920 0.03640 0.03320 0.01100 0.02260 0.00280
+Wat7 0.04830 0.03730 0.02360 0.01140 0.00670 -0.00090
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00000 0.91671 0.25000 0.02950 Na 0
+Fe3+ 0.50000 0.00000 0.50000 0.01820 Fe 0
+S 0.25833 0.14758 0.32305 0.01850 S 0
+O1 0.39665 0.12949 0.40659 0.03060 O 0
+Wat2 0.53629 0.12204 0.62044 0.03010 O 2
+Wat3 0.70936 0.04432 0.44719 0.04220 O 2
+O4 0.24068 0.03375 0.25903 0.02500 O 0
+O5 0.29336 0.25360 0.25852 0.02830 O 0
+O6 0.11309 0.16700 0.37797 0.03500 O 0
+Wat7 0.04401 0.13623 0.93807 0.03620 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:21+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012226

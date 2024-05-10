@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/11/9001123.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001123
+loop_
+_publ_author_name
+'Sabelli, C.'
+'Nakai, I.'
+'Katsura, S.'
+_publ_section_title
+;
+ Crystal structures of cetineite and its synthetic Na analogue
+ Na3.6(Sb2O3)3(SbS3)(OH)0.6.2.4(H2O)
+ Sample: Synthetic Na analogue
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              398
+_journal_page_last               404
+_journal_volume                  73
+_journal_year                    1988
+_chemical_formula_sum            'H3 Na3.61 O12 S3 Sb7'
+_chemical_name_mineral           Cetineite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   14.152
+_cell_length_b                   14.152
+_cell_length_c                   5.5758
+_cell_volume                     967.105
+_exptl_crystal_density_diffrn    4.212
+_cod_original_formula_sum        'Sb7 Na3.61 S3 O12 H3'
+_cod_database_code               9001123
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sb1A 0.01476 0.01476 0.01137 0.00738 0.00000 0.00000
+Sb1B 0.04505 0.04505 0.03161 0.02252 0.00000 0.00000
+Sb2 0.02268 0.02625 0.03048 0.01415 0.00568 0.00038
+Sb3 0.02427 0.02291 0.02007 0.01522 0.00024 -0.00024
+Na1 0.04672 0.04269 0.05774 0.01735 0.00481 0.00748
+S 0.03561 0.02633 0.06387 0.01849 0.00741 -0.00042
+Na2 0.02214 0.02214 0.01958 0.01111 0.00000 0.00000
+O1 0.02587 0.03013 0.04626 0.01735 -0.01651 0.00415
+O2 0.04939 0.03097 0.01673 0.01758 0.00865 0.00336
+O3 0.01902 0.05616 0.04783 0.01811 -0.01433 0.00474
+OH1 0.04748 0.07686 0.02933 0.02291 -0.00706 -0.01243
+OH2 0.05525 0.03683 0.02575 0.01324 0.01077 0.00744
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Sb1A 0.33333 0.66667 0.87360 0.50000 Sb 0
+Sb1B 0.33333 0.66667 0.62630 0.50000 Sb 0
+Sb2 0.16383 0.44662 0.24750 1.00000 Sb 0
+Sb3 0.38448 0.40157 0.24710 1.00000 Sb 0
+Na1 0.19210 0.30000 0.76020 1.00000 Na 0
+S 0.35750 0.52670 0.69670 1.00000 S 0
+Na2 0.00000 0.00000 0.51490 0.61000 Na 0
+O1 0.22520 0.34950 0.24790 1.00000 O 0
+O2 0.06060 0.35220 0.49580 1.00000 O 0
+O3 0.06300 0.35370 0.99070 1.00000 O 0
+O-H1 0.13010 0.11480 0.27560 0.52000 O 1
+O-H2 0.13530 0.10520 0.71270 0.48000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;

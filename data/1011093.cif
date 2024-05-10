@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-18 16:04:22 +0300 (Wed, 18 Oct 2017) $
+#$Revision: 202122 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/10/1011093.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011093
+loop_
+_publ_author_name
+'Eitel, W'
+'Skaliks, W'
+_publ_section_title
+;
+Ueber einige Doppelcarbonate der Alkalien und Erdalkalien
+;
+_journal_coden_ASTM              ZAACAB
+_journal_name_full
+;
+Zeitschrift fuer Anorganische und Allgemeine Chemie
+;
+_journal_page_first              263
+_journal_page_last               286
+_journal_paper_doi               10.1002/zaac.19291830119
+_journal_volume                  183
+_journal_year                    1929
+_chemical_compound_source        synthetic
+_chemical_formula_structural     'Na2 Mg (C O3)2'
+_chemical_formula_sum            'C2 Mg Na2 O6'
+_chemical_name_mineral           Eitelite
+_chemical_name_systematic        'Disodium magnesium carbonate'
+_space_group_IT_number           147
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      147
+_symmetry_space_group_name_Hall  '-P 3'
+_symmetry_space_group_name_H-M   'P -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   4.95
+_cell_length_b                   4.95
+_cell_length_c                   16.5
+_cell_volume                     350.1
+_cod_database_code               1011093
+_cod_depositor_comments
+;
+ Correcting the _chemical_formula_sum data item value by changing it from
+ 'Mg Na2 O6' to 'C2 Mg Na2 O6'.
+
+ Antanas Vaitkus,
+ 2017-10-18
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Na1 Na1+ 2 c 0. 0. 0.25 1. 0 d
+Na2 Na1+ 2 c 0. 0. 0.9167 1. 0 d
+Na3 Na1+ 2 d 0.3333 0.6667 0.25 1. 0 d
+Na4 Na1+ 2 d 0.6667 0.3333 0.9167 1. 0 d
+Na5 Na1+ 2 d 0.6667 0.3333 0.25 1. 0 d
+Na6 Na1+ 2 d 0.3333 0.6667 0.9167 1. 0 d
+Mg1 Mg2+ 2 c 0. 0. 0.5833 1. 0 d
+Mg2 Mg2+ 2 d 0.3333 0.6667 0.5833 1. 0 d
+Mg3 Mg2+ 2 d 0.6667 0.3333 0.5833 1. 0 d
+C1 C4+ 1 a 0. 0. 0. 1. 0 d
+C2 C4+ 2 c 0. 0. 0.1667 1. 0 d
+C3 C4+ 2 c 0. 0. 0.3333 1. 0 d
+C4 C4+ 1 b 0. 0. 0.5 1. 0 d
+C5 C4+ 2 c 0. 0. 0.6667 1. 0 d
+C6 C4+ 2 c 0. 0. 0.8333 1. 0 d
+O1 O2- 6 g 0.3333 0.3333 0. 1. 0 d
+O2 O2- 6 g 0.3333 0.3333 0.1667 1. 0 d
+O3 O2- 6 g 0.3333 0.3333 0.3333 1. 0 d
+O4 O2- 6 g 0.3333 0.3333 0.5 1. 0 d
+O5 O2- 6 g 0.3333 0.3333 0.6667 1. 0 d
+O6 O2- 6 g 0.3333 0.3333 0.8333 1. 0 d
+C7 C4+ 2 ? -1. -1. -1. 1. 0 dum
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+ 1.000
+Mg2+ 2.000
+C4+ 4.000
+O2- -2.000

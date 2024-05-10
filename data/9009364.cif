@@ -1,0 +1,106 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/93/9009364.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009364
+loop_
+_publ_author_name
+'Wildner, M.'
+_publ_section_title
+;
+ Crystal structure refinements of synthetic cobaltomenite (CoSeO3*2H2O)
+ and ahlfeldite (NiSeO3*2H2O)
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              353
+_journal_page_last               362
+_journal_volume                  1990
+_journal_year                    1990
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'H4 Ni O5 Se'
+_chemical_name_mineral           Ahlfeldite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.00
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.441
+_cell_length_b                   8.746
+_cell_length_c                   7.522
+_cell_volume                     418.520
+_database_code_amcsd             0014846
+_exptl_crystal_density_diffrn    3.518
+_cod_original_formula_sum        'Ni Se O5 H4'
+_cod_database_code               9009364
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ni 0.01440 0.02700 0.01640 0.00080 0.00290 0.00000
+Se 0.01330 0.02600 0.01440 0.00000 0.00210 -0.00040
+O1 0.02420 0.02430 0.01710 0.00050 -0.00110 0.00530
+O2 0.01330 0.02150 0.02360 0.00180 0.00360 -0.00070
+O3 0.01520 0.03530 0.02270 -0.00340 0.00720 -0.00480
+Ow1 0.02330 0.03940 0.01510 0.00850 0.00620 -0.00180
+Ow2 0.02570 0.03090 0.02290 0.00230 0.00040 -0.00560
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ni 0.35246 0.63816 0.51806 0.01920 Ni 0
+Se 0.60100 0.15084 0.83718 0.01790 Se 0
+O1 0.67040 0.32570 0.76500 0.02230 O 0
+O2 0.67180 0.59170 0.53280 0.01940 O 0
+O3 0.45840 0.19740 0.99920 0.02390 O 0
+Ow1 0.38310 0.56660 0.79110 0.02560 O 0
+Ow2 0.42100 0.85920 0.57750 0.02690 O 0
+H11 0.48100 0.50200 0.78900 0.02350 H 0
+H12 0.40000 0.64800 0.89700 0.02350 H 0
+H21 0.34900 0.89800 0.65200 0.02350 H 0
+H22 0.56800 0.87700 0.62000 0.02350 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:42:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014846

@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/25/9012522.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012522
+loop_
+_publ_author_name
+'Harrison, W. T. A.'
+'Nenoff, T. M.'
+'Gier, T. E.'
+'Stucky, G. D.'
+_publ_section_title
+;
+ Tetrahedral-atom 3-ring groupings in 1-dimensional inorganic chains:
+ Be2AsO4OH*4H2O and Na2ZnPO4OH*7H2O
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2437
+_journal_page_last               2441
+_journal_paper_doi               10.1021/ic00063a039
+_journal_volume                  32
+_journal_year                    1993
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'As Be2 H9 O9'
+_chemical_name_mineral           Bearsite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 98.439
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.2349
+_cell_length_b                   12.686
+_cell_length_c                   8.6548
+_cell_volume                     785.754
+_database_code_amcsd             0012708
+_exptl_crystal_density_diffrn    2.080
+_cod_original_formula_sum        'Be2 As O9 H9'
+_cod_database_code               9012522
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Be1 0.62270 0.12240 0.35900 0.01630 Be 0
+Be2 0.85080 0.12650 0.11070 0.01700 Be 0
+As 0.23796 0.17406 0.24214 0.01210 As 0
+O1 0.82510 0.25450 0.10700 0.01720 O 0
+O2 0.40170 0.09230 0.33420 0.01590 O 0
+O3 0.06970 0.09280 0.15460 0.01570 O 0
+O4 0.65680 0.24880 0.37410 0.01740 O 0
+O-H5 0.72000 0.07330 0.22160 0.02340 O 1
+Wat6 0.70960 0.07780 0.53350 0.02650 O 2
+Wat7 0.79050 0.08830 -0.07310 0.02330 O 2
+Wat8 0.41580 0.15020 0.83310 0.03550 O 2
+Wat9 0.03070 0.18100 0.64450 0.03370 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012708

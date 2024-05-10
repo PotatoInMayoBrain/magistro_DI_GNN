@@ -1,0 +1,200 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/30/8103027.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103027
+loop_
+_publ_author_name
+'Aron Wosylus'
+'Roman Demchyna'
+'Yurii Prots'
+'Walter Schnelle'
+'Ulrich Schwarz'
+_publ_section_title
+;
+ Refinement of the crystal structure of barium hexasilicide, BaSi6
+;
+_journal_issue                   3
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              347
+_journal_volume                  224
+_journal_year                    2009
+_chemical_formula_sum            'Ba Si6'
+_chemical_formula_weight         305.88
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2006-05-29T12:00:00-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   4.4789(2)
+_cell_length_b                   10.3679(5)
+_cell_length_c                   11.9634(8)
+_cell_measurement_temperature    293(2)
+_cell_volume                     555.54(5)
+_computing_cell_refinement       'CSD [8]'
+_computing_data_collection       'CrystalClear (Rigaku Corp., 2000)'
+_computing_data_reduction        'CrystalClear (Rigaku Corp., 2000)'
+_computing_structure_refinement  'SHELXL-97 [9]'
+_diffrn_ambient_temperature      295.15
+_diffrn_detector_area_resol_mean 14.6306
+_diffrn_measurement_details
+;
+scan:
+    Number of images: 400
+               Slice: -120.0000 - 120.0000
+         Image width: 0.6000
+            Exp time: 120.0000
+       Rotation axis: Phi
+               Omega: 0.0000
+                 Chi: 0.0000
+                 Phi: 0.0000
+                 XTD: 41.7400
+              2theta: -20.0000
+scan:
+    Number of images: 100
+               Slice: -35.0000 - 25.0000
+         Image width: 0.6000
+            Exp time: 120.0000
+       Rotation axis: Omega
+               Omega: 0.0000
+                 Chi: -90.0000
+                 Phi: -5.0000
+                 XTD: 41.7400
+              2theta: -20.0000
+;
+_diffrn_measurement_device       'Rigaku AFC7'
+_diffrn_measurement_method       oscillation
+_diffrn_radiation_detector       'Mercury CCD'
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_source         'Sealed Tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.050
+_diffrn_reflns_av_sigmaI/netI    0.044
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            2233
+_diffrn_reflns_reduction_process 'Lp corrections applied'
+_diffrn_reflns_theta_max         30.81
+_diffrn_reflns_theta_min         3.41
+_diffrn_source_current           34.0000
+_diffrn_source_power             1.7000
+_diffrn_source_voltage           50.0000
+_exptl_absorpt_coefficient_mu    8.29
+_exptl_absorpt_correction_T_max  0.9050
+_exptl_absorpt_correction_T_min  0.5631
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    3.66
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             560
+_exptl_crystal_size_max          0.025
+_exptl_crystal_size_mid          0.015
+_exptl_crystal_size_min          0.012
+_refine_diff_density_max         2.88
+_refine_diff_density_min         -1.74
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.555
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     23
+_refine_ls_number_reflns         482
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.555
+_refine_ls_R_factor_gt           0.040
+_refine_ls_shift/su_max          0.00
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.073
+_reflns_number_gt                438
+_reflns_number_total             482
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            710014.cff
+_cod_data_source_block           aw_4000b_BaSi6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1555 2011-01-17 13:19:09Z saulius 
+;
+_cod_database_code               8103027
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'x, -y, -z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'-x, y, z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z-1/2'
+'-x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ba1 Ba 4 c 0 0.27449(5) 0.2500 0.01271(16) Uani 1
+Si1 Si 8 f 0 0.24696(16) 0.53739(14) 0.0109(4) Uani 1
+Si2 Si 8 f 0 0.55896(17) 0.35318(14) 0.0109(4) Uani 1
+Si3 Si 8 f 0 0.02354(17) 0.59819(14) 0.0117(4) Uani 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.0155(3) 0.0110(3) 0.0115(3) 0.000 0.000 0.000
+Si1 0.0107(8) 0.0121(10) 0.0100(9) -0.0006(7) 0.000 0.000
+Si2 0.0126(9) 0.0071(9) 0.0132(9) -0.0005(7) 0.000 0.000
+Si3 0.0113(8) 0.0104(10) 0.0135(9) -0.0004(7) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

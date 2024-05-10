@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/98/9009868.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009868
+loop_
+_publ_author_name
+'Mereiter, K.'
+'Preisinger, A.'
+_publ_section_title
+;
+ Kristallstrukturdaten der wismutminerale atelestit, mixit und pucherit
+;
+_journal_name_full
+'Anzeiger der Osterreichische Akademie der Wissenschaften'
+_journal_page_first              79
+_journal_page_last               81
+_journal_volume                  123
+_journal_year                    1986
+_chemical_compound_source        'Schneeberg, Saxony, Germany'
+_chemical_formula_sum            'As Bi2 H O6'
+_chemical_name_mineral           Atelestite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 107.08
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.000
+_cell_length_b                   7.430
+_cell_length_c                   10.831
+_cell_volume                     538.475
+_database_code_amcsd             0012025
+_exptl_crystal_density_diffrn    7.276
+_cod_original_formula_sum        'Bi2 As O6 H'
+_cod_database_code               9009868
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Bi1 0.25070 0.41930 0.47330 0.01013 Bi 0
+Bi2 0.40620 0.83750 0.66390 0.01140 Bi 0
+As1 0.13190 0.57090 0.83140 0.00887 As 0
+O1 0.50200 0.58400 0.60300 0.01013 O 0
+O-H2 0.37900 0.24400 0.64600 0.01267 O 1
+O3 0.19400 0.63300 0.69800 0.01520 O 0
+O4 0.18500 0.73200 0.94700 0.02153 O 0
+O5 0.27000 0.38500 0.88900 0.01646 O 0
+O6 -0.11300 0.53200 0.77900 0.01773 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:14+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012025

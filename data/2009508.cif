@@ -1,0 +1,233 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/95/2009508.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009508
+loop_
+_publ_author_name
+'Ichikawa, Mizuhiko'
+'Gustafsson, Torbj\"orn'
+'Olovsson, Ivar'
+_publ_section_title
+;
+ K~3~H(SeO~4~)~2~ at 297 and 30 K
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              330
+_journal_page_last               332
+_journal_paper_doi               10.1107/S0108270193009709
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'K3 ,[H O8 Se2]'
+_chemical_formula_structural     'K3 H (Se O4)2'
+_chemical_formula_sum            'H K3 O8 Se2'
+_chemical_formula_weight         404.2
+_chemical_name_systematic
+;
+Tripotassium hydrogenbis(selenate)
+;
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-A 2ya'
+_symmetry_space_group_name_H-M   'A 1 2/a 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 103.629(12)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   10.0464(8)
+_cell_length_b                   5.8561(4)
+_cell_length_c                   14.8215(13)
+_cell_measurement_reflns_used    30
+_cell_measurement_temperature    30
+_cell_measurement_theta_max      29.9
+_cell_measurement_theta_min      25.9
+_cell_volume                     847.44(12)
+_computing_cell_refinement       'LATCON (Lundgren, 1983)'
+_computing_data_collection       'DIF4 (Stoe & Cie, 1988)'
+_computing_data_reduction        'STOEDATRED & ABSSTOE (Lundgren, 1983)'
+_computing_molecular_graphics    'ORTEPII (Johnson, 1976)'
+_computing_structure_refinement  'DUPALS (Lundgren, 1983)'
+_diffrn_ambient_temperature      30
+_diffrn_measurement_device       HUBER/STOE/ARACOR
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine focus Philips Mo tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.017
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4975
+_diffrn_reflns_theta_max         40.00
+_diffrn_reflns_theta_min         2.83
+_diffrn_standards_decay_%        0.03
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    9.86
+_exptl_absorpt_correction_T_max  0.4658
+_exptl_absorpt_correction_T_min  0.2868
+_exptl_absorpt_correction_type   integration
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.168
+_exptl_crystal_description       'hexagonal plate'
+_exptl_crystal_F_000             760
+_exptl_crystal_size_max          0.250
+_exptl_crystal_size_mid          0.233
+_exptl_crystal_size_min          0.067
+_refine_diff_density_max         1.3
+_refine_diff_density_min         -1.4
+_refine_ls_extinction_coef       35.E2(2)
+_refine_ls_extinction_method     'B-C type 1 Lorenzian isotropic'
+_refine_ls_goodness_of_fit_obs   1.41
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     65
+_refine_ls_number_reflns         4967
+_refine_ls_R_factor_all          0.0557
+_refine_ls_R_factor_obs          0.0549
+_refine_ls_shift/esd_max         0.006
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_obs         0.0648
+_reflns_number_observed          2543
+_reflns_number_total             2543
+_reflns_observed_criterion       '< 15\s(I)'
+_cod_data_source_file            ab1083.cif
+_cod_data_source_block           30K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 7 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_cell_volume        847.44(10)
+_cod_original_sg_symbol_H-M      'A 2/a'
+_cod_original_formula_sum        'H1 K3 O8 Se2'
+_cod_database_code               2009508
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2-x,y,-z
+1/2+x,-y,z
+x,1/2+y,1/2+z
+-x,1/2-y,1/2-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+K(1) .00723(12) .00713(11) .00721(13) .00000 .00222(10) .00000 K
+K(2) .00706(10) .00679(8) .00958(10) .00010(5) .00218(8) .00151(6) K
+Se .00427(5) .00372(5) .00631(5) -.00002(2) .00188(4) .00012(3) Se
+O(1) .0113(3) .0057(3) .0107(3) -.0024(2) .0045(3) .0010(2) O
+O(2) .0119(3) .0108(3) .0076(3) .0004(2) .0030(3) -.0008(2) O
+O(3) .0042(3) .0113(3) .0109(4) -.0003(2) .0015(3) -.0013(2) O
+O(4) .0109(3) .0050(3) .0133(4) .0032(2) .0037(3) .0001(2) O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_refinement_flags
+_atom_site_type_symbol
+K(1) .25000 .75972(5) .00000 .00729 Uani S K
+K(2) .65161(2) .73825(3) .19635(2) .00796 Uani . K
+Se .459910(10) .23336(2) .116230(10) .00482 Uani . Se
+O(1) .39793(8) .01108(12) .15819(6) .00929 Uani . O
+O(2) .43454(8) .18081(14) .00090(6) .01023 Uani . O
+O(3) .62550(8) .25116(12) .15454(6) .00898 Uani . O
+O(4) .38165(8) .46782(12) .13066(6) .00989 Uani . O
+H .005(8) .037(13) -.018(5) .073(19) Uiso . H
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+H .0 .0 'International Tables Vol IV Table 2.2B'
+O .008 .006 'International Tables Vol IV Table 2.2B'
+K+ .179 .250 'International Tables Vol IV Table 2.2B'
+Se -.178 2.223 'International Tables Vol IV Table 2.2B'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 1 3
+2 2 2
+4 0 2
+3 -1 -1
+-2 -2 2
+-1 1 5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Se O(2) 105.05(4) yes
+O(1) Se O(3) 111.65(4) yes
+O(1) Se O(4) 112.68(4) yes
+O(2) Se O(3) 105.16(4) yes
+O(2) Se O(4) 108.92(4) yes
+O(3) Se O(4) 112.76(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+K(1) O(1) . 1_565 2.8689(9) yes
+K(1) O(2) . 1_565 3.0833(8) yes
+K(1) O(2) . 2_665 3.1914(8) yes
+K(1) O(3) . 2_665 2.8575(9) yes
+K(1) O(4) . . 2.6860(8) yes
+K(2) O(1) . 1_565 2.9477(8) yes
+K(2) O(1) . 4_565 3.0427(8) yes
+K(2) O(1) . 6_655 2.7447(8) yes
+K(2) O(2) . 2_665 2.8859(9) yes
+K(2) O(3) . . 2.9177(7) yes
+K(2) O(3) . 1_565 3.0656(7) yes
+K(2) O(3) . 7_655 2.7517(10) yes
+K(2) O(4) . . 3.0931(8) yes
+K(2) O(4) . 4_565 2.9674(8) yes
+K(2) O(4) . 6_665 3.1705(8) yes
+Se O(1) . . 1.6283(8) yes
+Se O(2) . . 1.6959(8) yes
+Se O(3) . . 1.6295(8) yes
+Se O(4) . . 1.6212(7) yes
+O(1) O(2) . . 2.6386(12) yes
+O(1) O(3) . . 2.6953(11) yes
+O(1) O(4) . . 2.7048(10) yes
+O(2) O(3) . . 2.6414(12) yes
+O(2) O(4) . . 2.6995(12) yes
+O(3) O(4) . . 2.7070(11) yes
+O(2) O(2) . 2_655 2.4965(16) yes
+O(2) H . 3 1.03(8) ?

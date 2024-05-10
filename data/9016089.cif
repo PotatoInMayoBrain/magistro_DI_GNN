@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/60/9016089.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016089
+loop_
+_publ_author_name
+'Tahara, T.'
+'Nakai, I.'
+'Miyawaki, R.'
+'Matsubara, S.'
+_publ_section_title
+;
+ Crystal chemistry of RE(CO3)OH
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              326
+_journal_page_last               334
+_journal_volume                  222
+_journal_year                    2007
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'C H O4 Tb'
+_space_group_IT_number           19
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.0256
+_cell_length_b                   4.8577
+_cell_length_c                   8.4657
+_cell_volume                     288.920
+_database_code_amcsd             0019383
+_exptl_crystal_density_diffrn    5.424
+_cod_original_formula_sum        'Tb C (O4 H)'
+_cod_database_code               9016089
+_amcsd_formula_title             Tb(CO3)OH
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+1/2-x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Tb 0.13696 0.24456 0.08608 0.00813 Tb 0
+C 0.20100 0.24730 0.42360 0.00790 C 0
+O-H1 0.95600 0.25150 0.86240 0.01390 O 1
+O2 0.20090 0.74280 0.04870 0.01350 O 0
+O3 0.84030 0.51280 0.13790 0.01010 O 0
+O4 0.85070 0.96820 0.15040 0.01250 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019383

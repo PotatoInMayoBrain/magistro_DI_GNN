@@ -1,0 +1,86 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/81/9008185.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9008185
+loop_
+_publ_author_name
+'Chao, G. Y.'
+_publ_section_title
+;
+ Refinement of the crystal structure of parahopeite
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              261
+_journal_page_last               266
+_journal_volume                  130
+_journal_year                    1969
+_chemical_compound_source        'not given'
+_chemical_formula_sum            'H8 O12 P2 Zn3'
+_chemical_name_mineral           Parahopeite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                93.417
+_cell_angle_beta                 91.183
+_cell_angle_gamma                91.367
+_cell_formula_units_Z            1
+_cell_length_a                   5.768
+_cell_length_b                   7.550
+_cell_length_c                   5.276
+_cell_volume                     229.232
+_database_code_amcsd             0010701
+_exptl_crystal_density_diffrn    3.319
+_cod_original_formula_sum        'Zn3 P2 O12 H8'
+_cod_database_code               9008185
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn1 0.00000 0.00000 0.00000 0.00776 Zn 0
+Zn2 0.25180 0.59840 0.81660 0.00635 Zn 0
+P 0.24970 0.36210 0.29550 0.00420 P 0
+O1 0.46750 0.25920 0.22730 0.00636 O 0
+O2 0.23290 0.39080 0.58630 0.01006 O 0
+O3 0.02870 0.25220 0.19660 0.00523 O 0
+O4 0.25050 0.54220 0.17080 0.00859 O 0
+Wat1 0.22970 0.89130 0.26060 0.01382 O 2
+Wat2 0.26550 0.05860 0.74770 0.01264 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010701

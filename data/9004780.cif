@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/47/9004780.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004780
+loop_
+_publ_author_name
+'Peterson, R. C.'
+_publ_section_title
+;
+ The relatinship between Cu content and distortion in the atomic structure
+ of melanterite from the Richmond mine, Iron Mountain, California
+ Sample: mati-19
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              937
+_journal_page_last               949
+_journal_paper_doi               10.2113/gscanmin.41.4.937
+_journal_volume                  41
+_journal_year                    2003
+_chemical_compound_source        'Richmond mine, Iron Mountain, California'
+_chemical_formula_sum            'Cu0.45 Fe1.117 H28 O22 S2 Zn0.433'
+_chemical_name_mineral           Melanterite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.65
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   14.080
+_cell_length_b                   6.498
+_cell_length_c                   10.955
+_cell_volume                     965.136
+_database_code_amcsd             0005873
+_exptl_crystal_density_diffrn    1.939
+_cod_original_formula_sum        'Fe1.117 Cu.45 Zn.433 S2 O22 H28'
+_cod_database_code               9004780
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.00000 0.00000 0.00000 1.00000 ? Fe 0
+Fe2 0.50000 0.00000 0.50000 0.11700 ? Fe 0
+Cu2 0.50000 0.00000 0.50000 0.45000 ? Cu 0
+Zn2 0.50000 0.00000 0.50000 0.43300 ? Zn 0
+S 0.77250 -0.03070 0.32440 1.00000 0.02861 S 0
+O1 0.79710 -0.03140 0.46503 1.00000 0.03641 O 0
+O2 0.86100 0.03900 0.28750 1.00000 0.04115 O 0
+O3 0.68980 0.11150 0.27410 1.00000 0.04241 O 0
+O4 0.74580 -0.23950 0.27570 1.00000 0.03928 O 0
+Wat5 -0.11320 -0.11360 0.06960 1.00000 0.06032 O 2
+Wat6 0.10090 -0.04350 0.18270 1.00000 0.04348 O 2
+Wat7 -0.02920 0.29450 0.06920 1.00000 0.03938 O 2
+Wat8 0.51980 -0.04440 0.32160 1.00000 0.04164 O 2
+Wat9 0.43050 0.27670 0.44090 1.00000 0.04247 O 2
+Wat10 0.35190 -0.14830 0.44080 1.00000 0.04362 O 2
+Wat11 0.36520 0.00640 0.11480 1.00000 0.04324 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:34+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005873

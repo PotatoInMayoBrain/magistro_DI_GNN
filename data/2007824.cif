@@ -1,0 +1,325 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/78/2007824.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007824
+loop_
+_publ_author_name
+'Bircsak, Zsolt'
+'Harrison, William T. A.'
+_publ_section_title
+;
+ Barium Cobalt Phosphate, BaCo~2~(PO~4~)~2~
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1554
+_journal_page_last               1556
+_journal_paper_doi               10.1107/S010827019800794X
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_iupac          'Ba Co2 (P O4)2'
+_chemical_formula_moiety         'Ba Co2 O8 P2'
+_chemical_formula_sum            'Ba Co2 O8 P2'
+_chemical_formula_weight         445.14
+_chemical_name_systematic
+;
+Barium cobalt(II) phosphate
+;
+_space_group_IT_number           148
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3'
+_symmetry_space_group_name_H-M   'R -3 :H'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.8554(6)
+_cell_length_b                   4.8554(6)
+_cell_length_c                   23.2156(17)
+_cell_measurement_reflns_used    29
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      13.5
+_cell_measurement_theta_min      5.0
+_cell_volume                     473.98(9)
+_computing_cell_refinement       P4
+_computing_data_collection       'P4 (Siemens, 1995)'
+_computing_data_reduction        P4
+_computing_molecular_graphics    'Ortep3 for Windows (Ferrugia, 1997) '
+_computing_publication_material  SHELXL97
+_computing_structure_refinement  SHELXL97
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device_type  'Siemens P4 diffractometer'
+_diffrn_measurement_method       '\q/2\q scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.033
+_diffrn_reflns_av_sigmaI/netI    0.0251
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       1
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       34
+_diffrn_reflns_limit_l_min       -34
+_diffrn_reflns_number            1134
+_diffrn_reflns_theta_full        32.44
+_diffrn_reflns_theta_max         32.44
+_diffrn_reflns_theta_min         2.63
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    11.868
+_exptl_absorpt_correction_T_max  0.093
+_exptl_absorpt_correction_T_min  0.080
+_exptl_absorpt_correction_type   'Empirical \y scans (North et al., 1968)'
+_exptl_crystal_colour            pink
+_exptl_crystal_density_diffrn    4.679
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       block
+_exptl_crystal_F_000             612
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         1.15
+_refine_diff_density_min         -0.97
+_refine_ls_extinction_coef       0.0098(6)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.178
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     23
+_refine_ls_number_reflns         390
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.178
+_refine_ls_R_factor_all          0.0175
+_refine_ls_R_factor_gt           0.017
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0125P)^2^+3.0015P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.045
+_reflns_number_gt                383
+_reflns_number_total             390
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            fr1136.cif
+_cod_data_source_block           bacopt
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value 'not measured' was changed to '?' -
+the value is undefined or not given.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_database_code               2007824
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Ba1 0 0 0 0.01059(13) Uani 1 Ba
+Co1 0 0 0.17021(2) 0.00725(14) Uani 1 Co
+P1 0.3333 0.6667 0.24129(4) 0.00579(18) Uani 1 P
+O1 0.3333 0.6667 0.30633(13) 0.0118(5) Uani 1 O
+O2 0.3455(4) 0.3700(4) 0.21959(9) 0.0106(3) Uani 1 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba1 0.00994(14) 0.00994(14) 0.01189(18) 0.00497(7) 0.000 0.000
+Co1 0.00597(16) 0.00597(16) 0.0098(3) 0.00299(8) 0.000 0.000
+P1 0.0051(2) 0.0051(2) 0.0072(3) 0.00254(12) 0.000 0.000
+O1 0.0144(8) 0.0144(8) 0.0066(11) 0.0072(4) 0.000 0.000
+O2 0.0099(8) 0.0088(7) 0.0138(8) 0.0053(6) -0.0004(6) -0.0020(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Ba1 O1 7_444 13 180.0 no
+O1 Ba1 O1 7_444 7_434 115.38(4) no
+O1 Ba1 O1 13 7_434 64.62(4) no
+O1 Ba1 O1 7_444 13_565 64.62(4) no
+O1 Ba1 O1 13 13_565 115.38(4) no
+O1 Ba1 O1 7_434 13_565 180.0 no
+O1 Ba1 O1 7_444 7_544 115.38(4) no
+O1 Ba1 O1 13 7_544 64.62(4) no
+O1 Ba1 O1 7_434 7_544 115.38(4) no
+O1 Ba1 O1 13_565 7_544 64.62(4) no
+O1 Ba1 O1 7_444 13_455 64.62(4) no
+O1 Ba1 O1 13 13_455 115.38(4) no
+O1 Ba1 O1 7_434 13_455 64.62(4) no
+O1 Ba1 O1 13_565 13_455 115.38(4) no
+O1 Ba1 O1 7_544 13_455 180.0 no
+O1 Ba1 O2 7_444 7_444 49.00(7) no
+O1 Ba1 O2 13 7_444 131.00(7) no
+O1 Ba1 O2 7_434 7_444 82.15(6) no
+O1 Ba1 O2 13_565 7_444 97.85(6) no
+O1 Ba1 O2 7_544 7_444 103.77(7) no
+O1 Ba1 O2 13_455 7_444 76.23(7) no
+O1 Ba1 O2 7_444 13 131.00(7) no
+O1 Ba1 O2 13 13 49.00(7) no
+O1 Ba1 O2 7_434 13 97.85(6) no
+O1 Ba1 O2 13_565 13 82.15(6) no
+O1 Ba1 O2 7_544 13 76.23(7) no
+O1 Ba1 O2 13_455 13 103.77(7) no
+O2 Ba1 O2 7_444 13 180.00(9) no
+O1 Ba1 O2 7_444 15_445 97.85(6) no
+O1 Ba1 O2 13 15_445 82.15(6) no
+O1 Ba1 O2 7_434 15_445 76.24(7) no
+O1 Ba1 O2 13_565 15_445 103.77(7) no
+O1 Ba1 O2 7_544 15_445 131.00(7) no
+O1 Ba1 O2 13_455 15_445 49.00(7) no
+O2 Ba1 O2 7_444 15_445 125.22(6) no
+O2 Ba1 O2 13 15_445 54.78(6) no
+O1 Ba1 O2 7_444 9_554 82.15(6) no
+O1 Ba1 O2 13 9_554 97.85(6) no
+O1 Ba1 O2 7_434 9_554 103.77(7) no
+O1 Ba1 O2 13_565 9_554 76.24(7) no
+O1 Ba1 O2 7_544 9_554 49.00(7) no
+O1 Ba1 O2 13_455 9_554 131.00(7) no
+O2 Ba1 O2 7_444 9_554 54.78(6) no
+O2 Ba1 O2 13 9_554 125.22(6) no
+O2 Ba1 O2 15_445 9_554 180.00(9) no
+O1 Ba1 O2 7_444 14_455 76.23(7) no
+O1 Ba1 O2 13 14_455 103.77(7) no
+O1 Ba1 O2 7_434 14_455 131.00(7) no
+O1 Ba1 O2 13_565 14_455 49.00(7) no
+O1 Ba1 O2 7_544 14_455 97.85(6) no
+O1 Ba1 O2 13_455 14_455 82.15(6) no
+O2 Ba1 O2 7_444 14_455 125.22(6) no
+O2 Ba1 O2 13 14_455 54.78(6) no
+O2 Ba1 O2 15_445 14_455 54.78(6) no
+O2 Ba1 O2 9_554 14_455 125.22(6) no
+O1 Ba1 O2 7_444 8_544 103.77(7) no
+O1 Ba1 O2 13 8_544 76.23(7) no
+O1 Ba1 O2 7_434 8_544 49.00(7) no
+O1 Ba1 O2 13_565 8_544 131.00(7) no
+O1 Ba1 O2 7_544 8_544 82.15(6) no
+O1 Ba1 O2 13_455 8_544 97.85(6) no
+O2 Ba1 O2 7_444 8_544 54.78(6) no
+O2 Ba1 O2 13 8_544 125.22(6) no
+O2 Ba1 O2 15_445 8_544 125.22(6) no
+O2 Ba1 O2 9_554 8_544 54.78(6) no
+O2 Ba1 O2 14_455 8_544 180.00(9) no
+O2 Co1 O2 . 3 92.64(8) yes
+O2 Co1 O2 . 2 92.64(8) no
+O2 Co1 O2 3 2 92.64(8) no
+O2 Co1 O2 . 13 95.97(7) yes
+O2 Co1 O2 3 13 86.09(11) yes
+O2 Co1 O2 2 13 171.34(8) yes
+O2 Co1 O2 . 15_445 171.34(8) no
+O2 Co1 O2 3 15_445 95.97(7) no
+O2 Co1 O2 2 15_445 86.09(11) no
+O2 Co1 O2 13 15_445 85.53(8) yes
+O2 Co1 O2 . 14_455 86.09(11) no
+O2 Co1 O2 3 14_455 171.35(8) no
+O2 Co1 O2 2 14_455 95.97(7) no
+O2 Co1 O2 13 14_455 85.53(8) no
+O2 Co1 O2 15_445 14_455 85.53(8) no
+O1 P1 O2 . 3_565 108.90(8) yes
+O1 P1 O2 . 2_665 108.90(8) no
+O2 P1 O2 3_565 2_665 110.03(8) yes
+O1 P1 O2 . . 108.90(8) no
+O2 P1 O2 3_565 . 110.03(8) no
+O2 P1 O2 2_665 . 110.03(8) no
+P1 O2 Co1 . . 126.15(11) yes
+P1 O2 Co1 . 13 130.61(11) yes
+Co1 O2 Co1 . 13 84.03(7) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba1 O1 7_444 2.8725(7) yes
+Ba1 O1 13 2.8725(7) no
+Ba1 O1 7_434 2.8725(7) no
+Ba1 O1 13_565 2.8725(7) no
+Ba1 O1 7_544 2.8725(7) no
+Ba1 O1 13_455 2.8725(7) no
+Ba1 O2 7_444 3.1168(19) yes
+Ba1 O2 13 3.1168(19) no
+Ba1 O2 15_445 3.1168(19) no
+Ba1 O2 9_554 3.1168(19) no
+Ba1 O2 14_455 3.1168(19) no
+Ba1 O2 8_544 3.1168(19) no
+Co1 O2 . 2.0837(19) yes
+Co1 O2 3 2.0837(19) no
+Co1 O2 2 2.0837(19) no
+Co1 O2 13 2.112(2) yes
+Co1 O2 15_445 2.112(2) no
+Co1 O2 14_455 2.112(2) no
+P1 O1 . 1.510(3) yes
+P1 O2 3_565 1.5548(19) no
+P1 O2 2_665 1.5548(19) no
+P1 O2 . 1.5548(19) yes

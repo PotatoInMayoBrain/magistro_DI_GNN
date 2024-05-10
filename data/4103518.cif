@@ -1,0 +1,274 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:24:09 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178781 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/35/4103518.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4103518
+loop_
+_publ_author_name
+'Kristina Lekin'
+'Stephen M. Winter'
+'Laura E. Downie'
+'Xuezhao Bao'
+'John S. Tse'
+'Serge Desgreniers'
+'Richard A. Secco'
+'Paul A. Dube'
+'Richard T. Oakley'
+_publ_contact_author_address
+; 'Department of Chemistry
+University of Waterloo
+Waterloo, ON  N2L 3G1 Canada'
+;
+_publ_contact_author_email       oakley@uwaterloo.ca
+_publ_contact_author_fax         519-746-0435
+_publ_contact_author_name        'Richard Oakley'
+_publ_contact_author_phone       519-888-4582
+_publ_section_title
+;
+ Hysteretic Spin Crossover between a Bisdithiazolyl Radical and Its
+ Hypervalent \s-Dimer
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              16212
+_journal_page_last               16224
+_journal_paper_doi               10.1021/ja106768z
+_journal_volume                  132
+_journal_year                    2010
+_chemical_formula_moiety         'C7 H5 F N3 S4'
+_chemical_formula_sum            'C7 H5 F N3 S4'
+_chemical_formula_weight         278.42
+_chemical_name_common            FBPEt
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 105.095(8)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.3225(6)
+_cell_length_b                   11.0910(10)
+_cell_length_c                   17.1492(15)
+_cell_measurement_temperature    293
+_cell_volume                     977.42(17)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      293
+_diffrn_radiation_polarisn_ratio 0.95
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.50918
+_diffrn_source                   'Canadian Light Source'
+_diffrn_source_type              synchrotron
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_colour            black
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  black
+_pd_char_particle_morphology     powder
+_pd_meas_2theta_range_inc        0.01
+_pd_meas_2theta_range_max        23.985
+_pd_meas_2theta_range_min        2.955
+_pd_phase_name
+'from C:/gsas/MyWork/FBPEt_103/103_dash_model_propersettings.cif'
+_pd_proc_2theta_range_inc        0.01
+_pd_proc_2theta_range_max        23.985
+_pd_proc_2theta_range_min        2.955
+_pd_proc_info_datetime           2010-06-29T14:07:07
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 10 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    1169.78     2:    384.297     3:   -49.4184     4:    79.7124    
+      5:   -61.0148     6:    37.0118     7:   -16.1928     8:   -3.45868    
+      9:   0.326098    10:   -8.04311    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0097
+_pd_proc_ls_prof_wR_expected     0.0284
+_pd_proc_ls_prof_wR_factor       0.0143
+_refine_ls_goodness_of_fit_all   0.50
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     1
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.18362
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            ja106768z_si_004.cif
+_cod_data_source_block           103_NEW_NUM_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (24 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (35
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               4103518
+_cod_database_fobs_code          4103518
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C1 0.33955 0.8141 0.59969 1.0 Uiso 0.025 4
+C C2 0.38696 0.8122 0.68641 1.0 Uiso 0.025 4
+C C3 0.23475 0.74025 0.72155 1.0 Uiso 0.025 4
+C C4 0.03653 0.67002 0.67536 1.0 Uiso 0.025 4
+C C5 -0.0129 0.67109 0.58859 1.0 Uiso 0.025 4
+C C6 0.09734 0.74134 0.4647 1.0 Uiso 0.025 4
+C C7 -0.09814 0.83764 0.42405 1.0 Uiso 0.025 4
+H H6A 0.02734 0.6516 0.44401 1.0 Uiso 0.025 4
+H H6B 0.28546 0.75616 0.45213 1.0 Uiso 0.025 4
+H H7A -0.02807 0.92762 0.44468 1.0 Uiso 0.025 4
+H H7B -0.12575 0.83384 0.35866 1.0 Uiso 0.025 4
+H H7C -0.28649 0.82277 0.43653 1.0 Uiso 0.025 4
+S S1 0.70954 0.96442 0.62621 1.0 Uiso 0.025 4
+S S2 0.63982 0.90454 0.74011 1.0 Uiso 0.025 4
+S S3 -0.41701 0.51432 0.56665 1.0 Uiso 0.025 4
+S S4 -0.15653 0.58006 0.72039 1.0 Uiso 0.025 4
+N N1 0.47704 0.88262 0.56494 1.0 Uiso 0.025 4
+N N2 0.14492 0.74092 0.5535 1.0 Uiso 0.025 4
+N N3 -0.20121 0.60742 0.54357 1.0 Uiso 0.025 4
+F F1 0.27979 0.73897 0.80256 1.0 Uiso 0.025 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+C 28.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+H 20.0 0.000 0.000 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081
+57.7997 0.00304 International_Tables_Vol_C
+S 16.0 0.000 0.000 6.90530 1.46790 5.20340 22.2151 1.43790 0.25360 1.58630
+56.1720 0.86690 International_Tables_Vol_C
+N 12.0 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+F 4.0 0.000 0.000 3.53920 10.2825 2.64120 4.29440 1.51700 0.26150 1.02430
+26.1476 0.27760 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C7 C6 H6A 110.845 1_555 1_555 n
+C7 C6 H6B 110.854 1_555 1_555 n
+C7 C6 N2 112.727 1_555 1_555 n
+H6A C6 H6B 109.0997 1_555 1_555 n
+H6A C6 N2 106.5694 1_555 1_555 n
+H6B C6 N2 106.535 1_555 1_555 n
+C4 C5 N3 120.840 1_555 1_555 n
+C4 C5 N2 118.883 1_555 1_555 n
+N3 C5 N2 120.276 1_555 1_555 n
+C6 C7 H7B 109.569 1_555 1_555 n
+C6 C7 H7C 110.883 1_555 1_555 n
+C6 C7 H7A 110.908 1_555 1_555 n
+H7B C7 H7C 108.093 1_555 1_555 n
+H7B C7 H7A 108.1216 1_555 1_555 n
+H7C C7 H7A 109.1805 1_555 1_555 n
+C5 C4 C3 119.565 1_555 1_555 n
+C5 C4 S4 119.330 1_555 1_555 n
+C3 C4 S4 121.105 1_555 1_555 n
+C2 C1 N2 118.906 1_555 1_555 n
+C2 C1 N1 120.809 1_555 1_555 n
+N2 C1 N1 120.284 1_555 1_555 n
+C4 C3 C2 121.456 1_555 1_555 n
+C4 C3 F1 119.289 1_555 1_555 n
+C2 C3 F1 119.253 1_555 1_555 n
+C1 C2 C3 119.534 1_555 1_555 n
+C1 C2 S2 115.982 1_555 1_555 n
+C3 C2 S2 124.483 1_555 1_555 n
+S3 S3 N3 87.632 -1_466 1_555 n
+S2 S1 N1 97.297 1_555 1_555 n
+C2 S2 S1 89.646 1_555 1_555 n
+C5 N3 S3 131.801 1_555 1_555 n
+C6 N2 C5 119.177 1_555 1_555 n
+C6 N2 C1 119.201 1_555 1_555 n
+C5 N2 C1 121.570 1_555 1_555 n
+C1 N1 S1 116.258 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C6 C7 1.52691 1_555 n
+C6 H6A 1.08926 1_555 n
+C6 H6B 1.09016 1_555 n
+C6 N2 1.47728 1_555 n
+C5 C4 1.44212 1_555 n
+C5 N3 1.30241 1_555 n
+C5 N2 1.38954 1_555 n
+C7 C6 1.52691 1_555 n
+C7 H7B 1.09318 1_555 n
+C7 H7C 1.09076 1_555 n
+C7 H7A 1.09154 1_555 n
+C4 C3 1.38274 1_555 n
+C4 S4 1.74958 1_555 n
+C1 C2 1.44234 1_555 n
+C1 N2 1.38994 1_555 n
+C1 N1 1.30205 1_555 n
+C3 C2 1.38223 1_555 n
+C3 F1 1.34694 1_555 n
+C2 S2 1.75006 1_555 n
+S3 S3 2.24838 -1_466 n
+S3 S4 2.73881 1_555 n
+S3 N3 1.66701 1_555 n
+S1 S2 2.18441 1_555 n
+S1 N1 1.66771 1_555 n

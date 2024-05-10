@@ -1,0 +1,254 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/18/2001835.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001835
+loop_
+_publ_author_name
+'Rodier, N.'
+'Agafonov, V.'
+'Cense, J. M.'
+'Galinier, E.'
+'Ombetta, J. E.'
+'Frangin, Y.'
+'Guilloteau, D.'
+_publ_section_title
+5-(3-Iodoph\'enyl)-2,3-dihydro-5-hydroxy-5<i>H</i>-imidazo[2,1-<i>a</i>]isoindole
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              841
+_journal_page_last               843
+_journal_paper_doi               10.1107/S0108270192010540
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_sum            'C16 H13 I N2 O'
+_chemical_formula_weight         376.2
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                103.110(10)
+_cell_angle_beta                 94.98(2)
+_cell_angle_gamma                96.45(3)
+_cell_formula_units_Z            2
+_cell_length_a                   8.350(2)
+_cell_length_b                   8.769(3)
+_cell_length_c                   10.1473(6)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      39.55
+_cell_measurement_theta_min      16.28
+_cell_volume                     714.2(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.5418
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            2385
+_diffrn_reflns_theta_max         65
+_diffrn_standards_decay_%        2
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    17.8
+_exptl_absorpt_correction_T_max  2.05
+_exptl_absorpt_correction_T_min  0.53
+_exptl_absorpt_correction_type   'empirical (DIFABS; Walker & Stuart, 1983)'
+_exptl_crystal_colour            Incolore
+_exptl_crystal_density_diffrn    1.749
+_exptl_crystal_description       Plaquette
+_exptl_crystal_size_max          0.18
+_exptl_crystal_size_mid          0.13
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         1.00(10)
+_refine_diff_density_min         -1.90(10)
+_refine_ls_extinction_coef       1.0E-6(2)
+_refine_ls_extinction_method     'Stout & Jensen (1968)'
+_refine_ls_goodness_of_fit_obs   1.07
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     221
+_refine_ls_number_reflns         2152
+_refine_ls_R_factor_obs          0.047
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/(1+0.5F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.065
+_reflns_number_observed          2152
+_reflns_number_total             2385
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            pa1025.cif
+_cod_data_source_block           pa1025_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Triclinic' changed to 'triclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/(1+0.5F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/(1+0.5F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        714.2(6)
+_cod_database_code               2001835
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C(1) .1385(6) .7942(6) .1817(5)
+N(2) .1217(5) .6448(5) .2258(5)
+C(3) .2414(7) .5374(7) .2341(6)
+C(4) .1281(8) .3812(7) .2201(6)
+N(5) -.0376(6) .4076(6) .1681(5)
+C(6) -.0247(7) .5555(6) .1775(5)
+C(7) -.1353(6) .6631(6) .1419(5)
+C(8) -.3020(7) .6420(7) .1099(6)
+C(9) -.3744(7) .7705(8) .0836(6)
+C(10) -.2814(7) .9127(7) .0913(5)
+C(11) -.1125(7) .9349(6) .1243(6)
+C(12) -.0407(6) .8060(6) .1489(5)
+C(13) .2282(6) .9307(6) .2948(5)
+C(14) .3493(7) 1.0360(6) .2680(5)
+C(15) .4266(7) 1.1594(7) .3728(5)
+C(16) .3840(8) 1.1796(8) .5027(6)
+C(17) .2649(9) 1.0737(9) .5293(6)
+C(18) .1861(8) .9485(8) .4265(6)
+O(19) .2218(4) .7857(5) .0658(4)
+I(20) .61867(5) 1.31050(5) .32851(4)
+H(3) .308 .567 .319
+H'(3) .308 .531 .162
+H(4) .126 .355 .306
+H'(4) .164 .298 .157
+H(8) -.365 .544 .106
+H(9) -.488 .759 .061
+H(10) -.333 .998 .074
+H(11) -.049 1.034 .129
+H(14) .379 1.024 .178
+H(16) .436 1.266 .573
+H(17) .236 1.086 .619
+H(18) .104 .875 .446
+H(19) .172 .730 .003
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+N(2) C(1) C(12) . 98.9(4) yes
+N(2) C(1) C(13) . 111.5(4) yes
+N(2) C(1) O(19) . 112.9(4) yes
+C(12) C(1) C(13) . 114.1(4) yes
+C(12) C(1) O(19) . 111.5(4) yes
+C(13) C(1) O(19) . 107.8(4) yes
+C(1) N(2) C(3) . 128.8(5) yes
+C(1) N(2) C(6) . 112.3(5) yes
+C(3) N(2) C(6) . 107.7(4) yes
+N(2) C(3) C(4) . 100.2(5) yes
+C(3) C(4) N(5) . 106.6(5) yes
+C(4) N(5) C(6) . 104.2(4) yes
+N(2) C(6) N(5) . 118.7(5) yes
+N(2) C(6) C(7) . 106.8(4) yes
+N(5) C(6) C(7) . 134.5(5) yes
+C(6) C(7) C(8) . 131.2(5) yes
+C(6) C(7) C(12) . 106.8(4) yes
+C(8) C(7) C(12) . 122.0(5) yes
+C(7) C(8) C(9) . 117.8(5) yes
+C(8) C(9) C(10) . 120.5(6) yes
+C(9) C(10) C(11) . 121.9(6) yes
+C(10) C(11) C(12) . 117.4(5) yes
+C(1) C(12) C(7) . 110.8(5) yes
+C(1) C(12) C(11) . 128.8(5) yes
+C(7) C(12) C(11) . 120.4(5) yes
+C(1) C(13) C(14) . 121.0(5) yes
+C(1) C(13) C(18) . 119.2(5) yes
+C(14) C(13) C(18) . 119.8(5) yes
+C(13) C(14) C(15) . 119.4(5) yes
+C(14) C(15) C(16) . 121.2(5) yes
+C(14) C(15) I(20) . 117.9(4) yes
+C(16) C(15) I(20) . 120.8(4) yes
+C(15) C(16) C(17) . 119.2(5) yes
+C(16) C(17) C(18) . 120.8(6) yes
+C(13) C(18) C(17) . 119.6(6) yes
+O(19) H(19) N(5) 2 177 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C(3) H(3) . .95 yes
+C(3) H'(3) . .94 yes
+C(4) H(4) . .95 yes
+C(4) H'(4) . .95 yes
+C(8) H(8) . .95 yes
+C(9) H(9) . .95 yes
+C(10) H(10) . .95 yes
+C(11) H(11) . .95 yes
+C(14) H(14) . .95 yes
+C(16) H(16) . .95 yes
+C(17) H(17) . .95 yes
+C(18) H(18) . .95 yes
+O(19) H(19) . .77 yes
+C(1) N(2) . 1.473(8) yes
+C(1) C(12) . 1.525(7) yes
+C(1) C(13) . 1.529(6) yes
+C(1) O(19) . 1.410(7) yes
+N(2) C(3) . 1.458(8) yes
+N(2) C(6) . 1.362(6) yes
+C(3) C(4) . 1.545(8) yes
+C(4) N(5) . 1.499(9) yes
+N(5) C(6) . 1.271(7) yes
+C(6) C(7) . 1.472(8) yes
+C(7) C(8) . 1.383(7) yes
+C(7) C(12) . 1.388(7) yes
+C(8) C(9) . 1.400(10) yes
+C(9) C(10) . 1.376(9) yes
+C(10) C(11) . 1.402(8) yes
+C(11) C(12) . 1.398(8) yes
+C(13) C(14) . 1.379(8) yes
+C(13) C(18) . 1.390(8) yes
+C(14) C(15) . 1.386(7) yes
+C(15) C(16) . 1.373(9) yes
+C(16) C(17) . 1.370(10) yes
+C(17) C(18) . 1.388(8) yes
+C(15) I(20) . 2.109(6) yes
+O(19) N(5) 2 2.798(5) yes

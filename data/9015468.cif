@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/54/9015468.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015468
+loop_
+_publ_author_name
+'Chukanov, N. V.'
+'Zubkova, N. V.'
+'Pekov, I. V.'
+'Olysych, L. V.'
+'Bonaccorsi, E.'
+'Pushcharovsky, D. Y.'
+_publ_section_title
+;
+ Balliranoite, (Na,K)6Ca2(Si6Al6O24)Cl2(CO3), a new cancrinite-group mineral
+ from Monte Somma - Vesuvio volcanic complex, Italy
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              113
+_journal_page_last               119
+_journal_paper_doi               10.1127/0935-1221/2010/0022-1983
+_journal_volume                  22
+_journal_year                    2010
+_chemical_compound_source        'Monte Somma, Italy'
+_chemical_formula_sum
+'C0.45 Al3 Ca1.246 Cl K0.366 Na2.388 O13.95 S0.15 Si3'
+_chemical_name_mineral           Balliranoite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   12.695
+_cell_length_b                   12.695
+_cell_length_c                   5.325
+_cell_volume                     743.217
+_database_code_amcsd             0007335
+_exptl_crystal_density_diffrn    2.472
+_cod_original_formula_sum
+'Na2.388 Ca1.246 K.366 Si3 Al3 O13.95 Cl S.15 C.45'
+_cod_database_code               9015468
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NaM 0.11810 0.24240 0.27860 0.58100 0.05600 Na 0
+CaM 0.11810 0.24240 0.27860 0.06000 0.05600 Ca 0
+KM 0.11810 0.24240 0.27860 0.08900 0.05600 K 0
+NaM&#x0092; 0.15370 0.31360 0.27440 0.21500 0.07300 Na 0
+CaM&#x0092; 0.15370 0.31360 0.27440 0.02200 0.07300 Ca 0
+KM&#x0092; 0.15370 0.31360 0.27440 0.03300 0.07300 K 0
+Ca 0.66667 0.33333 0.21614 1.00000 0.02300 Ca 0
+Si 0.32774 0.40839 0.75000 1.00000 0.00996 Si 0
+Al 0.06985 0.40885 0.75030 1.00000 0.01012 Al 0
+O(1) 0.21314 0.42747 0.71310 1.00000 0.02500 O 0
+O(2) 0.09954 0.55634 0.74230 1.00000 0.01930 O 0
+O(3) 0.00565 0.32843 0.02670 1.00000 0.02320 O 0
+O(4) 0.31568 0.33819 0.01070 1.00000 0.02170 O 0
+Cl 0.33333 0.66667 0.21760 0.58000 0.08200 Cl 0
+Cl&#x0092; 0.31100 0.63260 0.22200 0.14000 0.06200 Cl 0
+S 0.00000 0.00000 0.24700 0.15000 0.04160 S 0
+O(S1) 0.00000 0.00000 0.95200 0.15000 0.04600 O 0
+O(S2) 0.06400 0.11900 0.38700 0.15000 0.12100 O 0
+C(1) 0.00000 0.00000 0.14960 0.30000 0.04800 C 0
+O(C1) 0.11520 0.06060 0.14960 0.30000 0.05040 O 0
+C(2) 0.00000 0.00000 0.33300 0.15000 0.01100 C 0
+O(C2) 0.11520 0.05900 0.33300 0.15000 0.10600 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:20:10+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007335

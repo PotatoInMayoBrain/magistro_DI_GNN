@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/93/9009345.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009345
+loop_
+_publ_author_name
+'Giuseppetti, G.'
+'Mazzi, F.'
+'Tadini, C.'
+_publ_section_title
+;The crystal structure of synthetic burkeite Na4SO4(CO3)t(SO4)1-t Sample A
+ Note sign of y-coordinate for O3 and O5 altered to reproduce reported bond
+ lengths Locality: synthetic
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              203
+_journal_page_last               221
+_journal_volume                  1988
+_journal_year                    1988
+_chemical_formula_sum            'C0.61 Na3 O3.5 S0.89'
+_chemical_name_mineral           Burkeite
+_space_group_IT_number           59
+_symmetry_space_group_name_Hall  'P 2ac 2ac -1ac'
+_symmetry_space_group_name_H-M   'P m n m :1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   5.170
+_cell_length_b                   9.217
+_cell_length_c                   7.058
+_cell_volume                     336.327
+_exptl_crystal_density_diffrn    6.353
+_cod_original_sg_symbol_H-M      'P m n m'
+_cod_original_formula_sum        'Na3 C.61 S.89 O3.5'
+_cod_database_code               9009345
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,z
+1/2+x,-y,1/2-z
+x,y,-z
+1/2-x,-y,1/2+z
+1/2+x,-y,1/2+z
+-x,y,-z
+1/2-x,-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na1 0.25000 0.75090 0.00510 1.00000 0.02837 Na 0
+Na2 0.25000 0.42540 0.25000 1.00000 0.06915 Na 0
+Na3 0.75000 0.87540 0.25000 1.00000 0.02774 Na 0
+CT1 0.75000 0.55840 0.25000 0.61000 0.02039 C 0
+ST1 0.75000 0.55840 0.25000 0.39000 0.02039 S 0
+ST2 0.29510 0.09130 0.25000 0.50000 0.01469 S 0
+O1 0.75000 0.42260 0.25000 0.85000 0.04813 O 0
+O2 0.53570 0.64030 0.25000 0.88000 0.03673 O 0
+O3 0.75000 -0.46930 0.08190 0.15000 0.06966 O 0
+O4 0.93070 0.58090 0.09510 0.12000 0.07599 O 0
+O5 0.19270 -0.16450 0.08150 0.50000 0.03166 O 0
+O6 0.21640 -0.06320 0.25000 0.50000 0.01900 O 0
+O7 0.57980 0.10570 0.25000 0.50000 0.02786 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:15:06+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;

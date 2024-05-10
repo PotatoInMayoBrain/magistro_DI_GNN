@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/18/9011836.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011836
+loop_
+_publ_author_name
+'Pavlov, P. V.'
+'Belov, N. V.'
+_publ_section_title
+;
+ The structures of herderite, datolite and gadolinite determined by direct
+ methods
+;
+_journal_name_full               'Soviet Physics Crystallography'
+_journal_page_first              300
+_journal_page_last               314
+_journal_volume                  4
+_journal_year                    1959
+_chemical_compound_source        'origin of crystal not given'
+_chemical_formula_sum            'B Ca H O5 Si'
+_chemical_name_mineral           Datolite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.62
+_cell_length_b                   7.60
+_cell_length_c                   4.84
+_cell_volume                     353.862
+_database_code_amcsd             0015536
+_exptl_crystal_density_diffrn    3.003
+_cod_original_sg_symbol_H-M      'P 21/a'
+_cod_original_formula_sum        'Ca B Si O5 H'
+_cod_database_code               9011836
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.33900 0.10800 0.99000 Ca 0
+B 0.34000 0.41000 0.57600 B 0
+Si 0.08600 0.26200 0.47100 Si 0
+O1 0.04000 0.39500 0.24200 O 0
+O2 0.46000 0.30400 0.67100 O 0
+O3 0.21000 0.32700 0.67600 O 0
+O4 0.14200 0.09200 0.32000 O 0
+O-H5 0.33600 0.41500 0.25800 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:30+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015536

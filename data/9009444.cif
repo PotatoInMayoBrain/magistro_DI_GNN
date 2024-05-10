@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 17:39:31 +0300 (Thu, 18 May 2023) $
+#$Revision: 283868 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009444.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_9009444
+loop_
+_publ_author_name
+'Davis R J'
+'Smith G W'
+_publ_section_title
+;
+ Yttrotungstite
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              261
+_journal_page_last               285
+_journal_paper_doi               10.1180/minmag.1971.038.295.01
+_journal_volume                  38
+_journal_year                    1971
+_chemical_compound_source        'Kinta district, Perak, Malaysia'
+_chemical_formula_sum
+;Al0.1 Ca0.04 Ce0.08 Dy0.05 Er0.04 Fe0.02 Gd0.04 H3 La0.01 Mg0.03 Nd0.09 O9
+ Pr0.01 Si0.04 Sm0.03 Tb0.01 W1.84 Y0.57
+;
+_chemical_name_mineral           Yttrotungstite-(Y)
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 104.93
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.954
+_cell_length_b                   8.637
+_cell_length_c                   5.771
+_cell_volume                     334.915
+_database_code_amcsd             0014453
+_exptl_crystal_density_diffrn    5.924
+_cod_original_formula_sum
+;(Mg.03 Ca.04 Ce.08 La.01 Pr.01 Nd.09 Sm.03 Gd.04 Tb.01 Dy.05 Er.04 Y.57)
+ (W1.84 Al.1 Si.04 Fe.02) O9 H3
+;
+_cod_database_code               9009444
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.72100 0.25000 0.24800 0.03000 0.02216 Mg 0
+Ca 0.72100 0.25000 0.24800 0.04000 0.02216 Ca 0
+Ce 0.72100 0.25000 0.24800 0.08000 0.02216 Ce 0
+La 0.72100 0.25000 0.24800 0.01000 0.02216 La 0
+Pr 0.72100 0.25000 0.24800 0.01000 0.02216 Pr 0
+Nd 0.72100 0.25000 0.24800 0.09000 0.02216 Nd 0
+Sm 0.72100 0.25000 0.24800 0.03000 0.02216 Sm 0
+Gd 0.72100 0.25000 0.24800 0.04000 0.02216 Gd 0
+Tb 0.72100 0.25000 0.24800 0.01000 0.02216 Tb 0
+Dy 0.72100 0.25000 0.24800 0.05000 0.02216 Dy 0
+Er 0.72100 0.25000 0.24800 0.04000 0.02216 Er 0
+Y 0.72100 0.25000 0.24800 0.57000 0.02216 Y 0
+W 0.18400 0.06400 0.21200 0.92000 0.02216 W 0
+Al 0.18400 0.06400 0.21200 0.05000 0.02216 Al 0
+Si 0.18400 0.06400 0.21200 0.02000 0.02216 Si 0
+Fe 0.18400 0.06400 0.21200 0.01000 0.02216 Fe 0
+O1 0.85000 0.75000 0.03000 1.00000 0.02216 O 0
+O-H2 0.16000 0.25000 0.41000 1.00000 0.02216 O 1
+O3 0.42000 0.09000 0.20000 1.00000 0.02216 O 0
+O4 0.85000 0.06000 0.03000 1.00000 0.02216 O 0
+O5 0.16000 0.94000 0.41000 1.00000 0.02216 O 0
+Wat6 0.56000 0.25000 0.80000 1.00000 0.02216 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014453

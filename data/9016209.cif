@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-21 11:37:04 +0300 (Sun, 21 May 2023) $
+#$Revision: 283911 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/62/9016209.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016209
+loop_
+_publ_author_name
+'Tjy, C. T. L.'
+'Pobedimskaya, E. A.'
+'Nadezhina, T. N.'
+'Khomyakov, A. P.'
+_publ_section_title
+;
+ Polymorphism of donnayite (Na,TR)Sr(CO3)2*H2O
+;
+_journal_name_full               'Moscow University Geology Bulletin'
+_journal_page_first              60
+_journal_page_last               70
+_journal_volume                  47
+_journal_year                    1992
+_chemical_compound_source        'Khibiny alkaline massif'
+_chemical_formula_sum
+'C2 H2 Ba0.09 Ca0.19 Ce0.11 Dy0.02 Er0.01 Gd0.02 La0.09 Na0.5 O7 Pr0.01 Sr0.71 Y0.24 Yb0.01'
+_chemical_name_mineral           Donnayite-(Y)
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   5.211
+_cell_length_b                   5.211
+_cell_length_c                   18.357
+_cell_volume                     431.692
+_database_code_amcsd             0018482
+_exptl_crystal_density_diffrn    3.372
+_cod_original_sg_symbol_H-M      'R 3 m'
+_cod_original_formula_sum
+'Na.5 Y.24 Ce.11 La.09 Gd.02 Dy.02 Er.01 Yb.01 Pr.01 Sr.71 Ca.19 Ba.09 C2 O7 H2'
+_cod_database_code               9016209
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00000 0.00000 0.00000 0.49000 0.02368 Na 0
+Y 0.00000 0.00000 0.00000 0.24000 0.02368 Y 0
+Ce 0.00000 0.00000 0.00000 0.11000 0.02368 Ce 0
+La 0.00000 0.00000 0.00000 0.09000 0.02368 La 0
+Gd 0.00000 0.00000 0.00000 0.02000 0.02368 Gd 0
+Dy 0.00000 0.00000 0.00000 0.02000 0.02368 Dy 0
+Er 0.00000 0.00000 0.00000 0.01000 0.02368 Er 0
+Yb 0.00000 0.00000 0.00000 0.01000 0.02368 Yb 0
+Pr 0.00000 0.00000 0.00000 0.01000 0.02368 Pr 0
+Sr 0.00000 0.00000 0.79400 0.71000 0.01229 Sr 0
+Ca 0.00000 0.00000 0.79400 0.19000 0.01229 Ca 0
+Ba 0.00000 0.00000 0.79400 0.09000 0.01229 Ba 0
+Na 0.00000 0.00000 0.79400 0.01000 0.01229 Na 0
+C 0.00000 0.00000 0.41600 1.00000 0.01735 C 0
+O1 -0.14300 0.14300 0.42200 1.00000 0.02153 O 0
+Wat2 0.16900 0.13900 0.57000 0.16667 0.04686 O 2
+O2 0.16900 0.13900 0.57000 0.08333 0.04686 O 0
+C2 0.16900 0.13900 0.57000 0.16667 0.04686 C 0
+O3 0.08000 0.36100 0.91100 0.25000 0.07092 O 0
+O4 0.09100 0.11800 0.65300 0.16667 0.01013 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-21T08:54:56+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018482

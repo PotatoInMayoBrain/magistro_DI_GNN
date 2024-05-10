@@ -1,0 +1,123 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-21 11:37:04 +0300 (Sun, 21 May 2023) $
+#$Revision: 283911 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009438.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009438
+loop_
+_publ_author_name
+'Ingram, L.'
+'Taylor, H. F. W.'
+_publ_section_title
+;
+ The crystal structures of sjoegrenite and pyroaurite
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              465
+_journal_page_last               479
+_journal_paper_doi               10.1180/minmag.1967.036.280.01
+_journal_volume                  36
+_journal_year                    1967
+_chemical_compound_source        Sweden
+_chemical_formula_sum            'C0.125 H8 Fe0.25 Mg0.75 O2.875'
+_chemical_name_mineral           Sjogrenite
+_space_group_IT_number           194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   3.13
+_cell_length_b                   3.13
+_cell_length_c                   15.66
+_cell_volume                     132.865
+_database_code_amcsd             0014446
+_exptl_crystal_density_diffrn    2.193
+_cod_original_formula_sum        '(Mg.75 Fe.25) C.125 O2.875 H8'
+_cod_database_code               9009438
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-x+y,1/2+z
+x,x-y,1/2-z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+-y,-x,z
+y,x,-z
+y,-x+y,-z
+-y,x-y,z
+x-y,-y,1/2+z
+-x+y,y,1/2-z
+x,y,1/2-z
+-x,-y,1/2+z
+x,x-y,z
+-x,-x+y,-z
+x-y,x,-z
+-x+y,-x,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x+y,y,z
+x-y,-y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mg 0.00400 0.00400 0.00400 0.00000 0.00000 0.00000
+Fe 0.00400 0.00400 0.00400 0.00000 0.00000 0.00000
+C 0.02000 0.02000 0.02000 0.00000 0.00000 0.00000
+O1 0.05200 0.05200 0.01600 0.04200 0.00000 0.00000
+Wat1 0.05200 0.05200 0.01600 0.04200 0.00000 0.00000
+O2 0.01200 0.01200 0.01600 0.00000 0.00000 0.00000
+H 0.02000 0.02000 0.02000 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.00000 0.00000 0.00000 0.75000 Mg 0
+Fe 0.00000 0.00000 0.00000 0.25000 Fe 0
+C 0.00000 0.00000 0.25000 0.12500 C 0
+O1 0.23500 -0.23500 0.25000 0.12500 O 0
+Wat1 0.23500 -0.23500 0.25000 0.16667 O 2
+O2 0.33333 0.66667 0.06690 1.00000 O 0
+H 0.33333 0.66667 0.11400 1.00000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-21T08:53:26+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014446

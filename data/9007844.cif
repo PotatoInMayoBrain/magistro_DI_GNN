@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/78/9007844.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007844
+loop_
+_publ_author_name
+'Durif, A.'
+'Averbuch-Pouchot M T'
+_publ_section_title
+;Crystal chemistry of cyclo-hexaphosphates. VIII. structure of
+ hydroxylammonium cyclo-hexaphosphate tetrahydrate
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              2026
+_journal_page_last               2028
+_journal_paper_doi               10.1107/S010827019000333X
+_journal_volume                  46
+_journal_year                    1990
+_chemical_formula_structural     (NH3OH)6P6O18.4H2O
+_chemical_formula_sum            'H4 N3 O14 P3'
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                108.39
+_cell_angle_beta                 100.30
+_cell_angle_gamma                96.02
+_cell_formula_units_Z            2
+_cell_length_a                   10.365
+_cell_length_b                   9.278
+_cell_length_c                   7.280
+_cell_volume                     643.806
+_database_code_amcsd             0010206
+_exptl_crystal_density_diffrn    1.872
+_cod_original_formula_sum        'P3 O14 N3 H4'
+_cod_database_code               9007844
+_amcsd_formula_title             (NH3OH)6P6O18.4H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+P1 0.28199 0.49585 0.39028 0.01397 P 0
+P2 0.40646 0.76239 0.73136 0.01260 P 0
+P3 0.30424 0.17000 0.22317 0.01272 P 0
+OL12 0.39626 0.58996 0.58390 0.02064 O 0
+OL13 0.29873 0.32754 0.39200 0.01773 O 0
+OE11 0.15037 0.52860 0.42930 0.02178 O 0
+OE12 0.31926 0.51970 0.21190 0.02254 O 0
+OE21 0.37873 0.86386 0.61220 0.02026 O 0
+OE22 0.66977 0.23770 0.11450 0.02254 O 0
+OL23 0.55982 0.79580 0.84210 0.01621 O 0
+OE31 0.31287 0.05327 0.32340 0.02052 O 0
+OE32 0.19463 0.14200 0.04840 0.02254 O 0
+N1 0.52080 0.17040 0.73530 0.02090 N 0
+O1 0.54500 0.70160 0.23450 0.02850 O 0
+N2 0.08960 0.82200 0.41920 0.02242 N 0
+O2 0.12670 0.82060 0.24200 0.03103 O 0
+N3 0.90680 0.41230 0.13950 0.02191 N 0
+O3 0.88040 0.54980 0.10890 0.03331 O 0
+Wat1 0.17570 0.13240 0.66660 0.02609 O 2
+Wat2 0.95990 0.15010 0.21080 0.03103 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:03+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010206

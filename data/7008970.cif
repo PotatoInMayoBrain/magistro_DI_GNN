@@ -1,0 +1,216 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 11:30:08 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179793 $
+#$URL: svn://www.crystallography.net/cod/cif/7/00/89/7008970.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7008970
+loop_
+_publ_author_name
+'Baum, Michael'
+'Beck, Johannes'
+'Haas, Alois'
+'Herrendorf, Wolfgang'
+'Mons\'e, Christian'
+_publ_section_title
+;
+ Perfluoroalkyltellurocarbonyl fluorides, their cyclic dimers and
+ perfluoroalkanetellurenyl iodides: preparation and
+ reactivity&#x200A;&#x2020;
+;
+_journal_issue                   1
+_journal_name_full
+'Journal of the Chemical Society, Dalton Transactions'
+_journal_page_first              11
+_journal_paper_doi               10.1039/a907549f
+_journal_year                    2000
+_chemical_compound_source        synthetic
+_chemical_formula_structural     '[(CF3)(Cl)CTe]2'
+_chemical_formula_sum            'C4 Cl2 F6 Te2'
+_chemical_formula_weight         488.14
+_chemical_name_systematic
+;
+ trans-2,4-Bis(trifluormethyl)-2,4-dichloro-1,3,ditelluretane
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 105.30(4)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.771(7)
+_cell_length_b                   6.749(2)
+_cell_length_c                   10.685(2)
+_cell_measurement_temperature    293(2)
+_cell_volume                     540.5(5)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'STOE STADI 4 four circle diffractometer'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0609
+_diffrn_reflns_av_sigmaI/netI    0.0362
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -14
+_diffrn_reflns_number            6245
+_diffrn_reflns_theta_max         29.98
+_diffrn_reflns_theta_min         2.72
+_exptl_absorpt_coefficient_mu    5.932
+_exptl_absorpt_correction_T_max  0.6030
+_exptl_absorpt_correction_T_min  0.413
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            'dark red'
+_exptl_crystal_density_diffrn    2.999
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             432
+_exptl_crystal_size_max          0.48
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.713
+_refine_diff_density_min         -0.872
+_refine_diff_density_rms         0.214
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.228
+_refine_ls_goodness_of_fit_obs   1.278
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     64
+_refine_ls_number_reflns         1563
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.257
+_refine_ls_restrained_S_obs      1.278
+_refine_ls_R_factor_all          0.1373
+_refine_ls_R_factor_obs          0.1254
+_refine_ls_shift/esd_max         0.003
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0609P)^2^+10.8639P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.2535
+_refine_ls_wR_factor_obs         0.2431
+_reflns_number_observed          1369
+_reflns_number_total             1566
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            a907549f.txt
+_cod_data_source_block           (CF3)ClCTe
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0609P)^2^+10.8639P] where P=(Fo^2^+2Fc^2^)/3'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0609P)^2^+10.8639P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      P21/c
+_cod_database_code               7008970
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+F1 0.066(7) 0.166(14) 0.112(10) 0.008(9) 0.020(7) -0.005(8)
+F2 0.105(10) 0.136(12) 0.101(9) -0.038(10) 0.000(8) -0.048(10)
+F3 0.088(8) 0.196(17) 0.084(8) 0.011(10) 0.007(7) 0.009(10)
+C2 0.065(10) 0.085(13) 0.067(10) 0.010(10) 0.022(8) 0.037(10)
+Cl 0.147(6) 0.083(4) 0.167(7) -0.012(4) 0.068(5) 0.017(4)
+Te 0.0494(6) 0.1420(14) 0.0550(6) 0.0248(7) 0.0178(4) 0.0150(7)
+C1 0.064(8) 0.022(5) 0.059(7) 0.005(5) 0.018(6) 0.013(5)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+F1 F 0.4625(17) -0.0290(26) 0.1220(14) 0.115(5) Uani 1 d . .
+F2 F 0.3035(20) 0.1588(28) 0.1751(14) 0.119(5) Uani 1 d . .
+F3 F 0.3495(18) -0.0937(28) 0.2782(13) 0.125(5) Uani 1 d . .
+C2 C 0.3269(25) -0.0009(34) 0.1651(19) 0.072(5) Uani 1 d . .
+Cl Cl 0.2144(11) -0.3559(10) 0.0485(9) 0.127(3) Uani 1 d . .
+Te Te -0.08224(14) -0.0619(3) 0.12116(11) 0.0814(6) Uani 1 d . .
+C1 C 0.1639(19) -0.1021(17) 0.0652(14) 0.048(3) Uani 1 d . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Te Te -0.5310 1.6750 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1480 0.1590 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0170 0.0100 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0030 0.0020 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+F2 C2 F1 110.7(23) . . ?
+F2 C2 F3 111.0(20) . . ?
+F1 C2 F3 109.7(15) . . ?
+F2 C2 C1 111.4(15) . . ?
+F1 C2 C1 106.5(16) . . ?
+F3 C2 C1 107.5(18) . . ?
+C1 Te C1 83.1(5) . 3 ?
+C1 Te Te 42.1(4) . 3 ?
+C1 Te Te 40.9(4) 3 3 ?
+C2 C1 Cl 109.0(11) . . ?
+C2 C1 Te 111.6(10) . . ?
+Cl C1 Te 112.5(7) . . ?
+C2 C1 Te 112.3(10) . 3 ?
+Cl C1 Te 114.2(8) . 3 ?
+Te C1 Te 96.9(5) . 3 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+F1 C2 1.27(2) . ?
+F2 C2 1.10(2) . ?
+F3 C2 1.33(2) . ?
+C2 C1 1.58(3) . ?
+Cl C1 1.777(13) . ?
+Te C1 2.166(14) . ?
+Te C1 2.220(13) 3 ?
+Te Te 3.284(2) 3 ?
+C1 Te 2.220(13) 3 ?

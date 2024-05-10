@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-11-10 21:21:08 +0200 (Fri, 10 Nov 2023) $
+#$Revision: 287519 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/77/9007728.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007728
+loop_
+_publ_author_name
+'Leblanc, M.'
+'Ferey, G.'
+_publ_section_title
+;
+ Room-temperature structure of diaquaoctafluorocopper(II)diiron(III)
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              13
+_journal_page_last               15
+_journal_paper_doi               10.1107/S0108270189004415
+_journal_volume                  46
+_journal_year                    1990
+_chemical_formula_structural     CuFe2F8(H2O)2
+_chemical_formula_sum            'Cu F8 Fe2 H4 O2'
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.52
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.541
+_cell_length_b                   7.501
+_cell_length_c                   13.027
+_cell_volume                     736.842
+_exptl_crystal_density_diffrn    3.275
+_cod_original_formula_sum        'Cu Fe2 F8 O2 H4'
+_cod_database_code               9007728
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu 0.25000 0.25000 0.00000 0.01444 Cu 0
+Fe 0.25000 0.04490 0.25260 0.00811 Fe 0
+F1 0.30160 0.29640 0.26800 0.01874 F 0
+F2 0.25360 0.07520 0.10650 0.02077 F 0
+F3 0.24700 0.02430 0.39770 0.02242 F 0
+F4 0.00000 0.09870 0.25000 0.02115 F 0
+F5 0.00000 0.49460 0.25000 0.01988 F 0
+OW 0.49340 0.25000 0.50140 0.03736 O 0
+H1 0.42000 0.17000 0.46100 0.02533 H 0
+H2 0.07300 0.16600 0.45800 0.02533 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:59+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+_cod_duplicate_entry 1000252

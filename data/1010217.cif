@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-12-10 03:59:07 +0200 (Sun, 10 Dec 2017) $
+#$Revision: 204126 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/02/1010217.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010217
+loop_
+_publ_author_name
+'Zachariasen, W. H.'
+_publ_section_title              'The Crystal Structure of Potassium Chlorate'
+_journal_coden_ASTM              ZKKKAJ
+_journal_name_full
+;
+ Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+ Kristallchemie
+;
+_journal_page_first              501
+_journal_page_last               516
+_journal_paper_doi               10.1524/zkri.1929.71.1.501
+_journal_volume                  71
+_journal_year                    1929
+_chemical_formula_structural     'K Cl O3'
+_chemical_formula_sum            'Cl K O3'
+_chemical_name_systematic        'Potassium chlorate'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           11
+_space_group_name_Hall           '-P 2yb (x,y+1/4,z)'
+_space_group_name_H-M_alt        'P 1 21/m 1 (a,b-1/4,c)'
+_cell_angle_alpha                90
+_cell_angle_beta                 109.63(8)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.647(4)
+_cell_length_b                   5.585(5)
+_cell_length_c                   7.085(7)
+_cell_volume                     173.2
+_cod_depositor_comments
+;
+ Adding _space_group_symop_id data item values that were accidentally left
+ out in the previous revision.
+
+ Antanas Vaitkus,
+ 2017-12-10
+
+ Correcting space group operations after consulting the original publication.
+
+ Antanas Vaitkus,
+ 2017-10-12
+;
+_cod_database_code               1010217
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,1/2+y,-z
+3 -x,1/2-y,-z
+4 x,-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+K1 K1+ 2 e 0.366 0. -0.298 1. 0 d
+Cl1 Cl5+ 2 e 0.106 0. 0.175 1. 0 d
+O1 O2- 2 e 0.405 0. 0.111 1. 0 d
+O2 O2- 4 f 0.139 0.222 0.278 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+K1+ 1.000
+Cl5+ 5.000
+O2- -2.000

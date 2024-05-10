@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 12:25:40 +0300 (Thu, 18 May 2023) $
+#$Revision: 283857 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/37/9003702.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9003702
+loop_
+_publ_author_name
+'Benusa, M. D.'
+'Angel, R. J.'
+'Ross, N. L.'
+_publ_section_title
+;
+ Compression of albite, NaAlSi3O8
+ Sample: Amelia Court House, Virginia locality P = 9.431 GPa
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1115
+_journal_page_last               1120
+_journal_paper_doi               10.2138/am.2005.1805
+_journal_volume                  90
+_journal_year                    2005
+_chemical_formula_sum            'Al Na O8 Si3'
+_chemical_name_mineral           Albite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_cell_angle_alpha                93.903
+_cell_angle_beta                 117.791
+_cell_angle_gamma                86.786
+_cell_formula_units_Z            4
+_cell_length_a                   7.5028
+_cell_length_b                   12.4933
+_cell_length_c                   6.9463
+_cell_volume                     574.453
+_database_code_amcsd             0003800
+_diffrn_ambient_pressure         9.431e+06
+_exptl_crystal_density_diffrn    3.032
+_cod_original_formula_sum        'Na Al Si3 O8'
+_cod_database_code               9003702
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.00602 0.01416 0.01680 0.00126 0.00206 -0.00426
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.23670 0.99050 0.16590 0.01406 Na 0
+Al1o -0.01590 0.17068 0.19890 0.00735 Al 0
+Si1m -0.02330 0.82420 0.23100 0.00633 Si 0
+Si2o 0.69070 0.10098 0.31970 0.00621 Si 0
+Si2m 0.63990 0.87498 0.34620 0.00570 Si 0
+Oa1 0.01360 0.13290 0.96900 0.01178 O 0
+Oa2 0.55690 0.99850 0.29120 0.00760 O 0
+Obo 0.78580 0.09040 0.15500 0.01089 O 0
+Obm 0.75300 0.83950 0.20200 0.01165 O 0
+Oco -0.05500 0.30390 0.26240 0.00874 O 0
+Ocm 0.03700 0.70060 0.27100 0.01165 O 0
+Odo 0.21030 0.12780 0.39700 0.01381 O 0
+Odm 0.13060 0.89530 0.43400 0.01456 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:37:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0003800

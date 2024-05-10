@@ -1,0 +1,271 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/11/2001144.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001144
+loop_
+_publ_author_name
+'Lis, T.'
+'Utko, J.'
+'Sobota, P.'
+_publ_contact_author
+;     Lis, Tadeusz
+      Institute of Chemistry
+       University of Wroc\/law
+       ul. Joliot-Curie 14
+       50-383 Wroc\/law
+       Poland
+       e-mail TLIS AT PLWRUW11.BITNET
+;
+_publ_section_title
+;
+ Structure of di-\m-chloro-bis[(allyl
+ acetate-<i>O</i>)trichlorotitanium(IV)] at 80 K
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2089
+_journal_page_last               2091
+_journal_paper_doi               10.1107/S0108270193006110
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_moiety         '(C5 H8 O2)2 , Cl8 , Ti2'
+_chemical_formula_sum            'C10 H16 Cl8 O4 Ti2'
+_chemical_formula_weight         579.7
+_chemical_name_systematic
+;
+di-\m-chlorobis[trichloro(allyl acetate-O)]dititanium(IV)
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 101.27(9)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   13.381(12)
+_cell_length_b                   8.910(9)
+_cell_length_c                   9.178(9)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    80(1)
+_cell_measurement_theta_max      12
+_cell_measurement_theta_min      10
+_cell_volume                     1073.1(18)
+_computing_data_collection       'Kuma KM4 software (1989)'
+_computing_structure_refinement  'SHELX76 (Sheldrick, 1976)'
+_diffrn_ambient_temperature      80
+_diffrn_measurement_device
+'Kuma KM4 automated four-circle \k-axis diffractometer'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7093
+_diffrn_reflns_av_R_equivalents  0.017
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            2515
+_diffrn_reflns_reduction_process 'Kuma KM4 software (Kuma Diffraction, 1989)'
+_diffrn_reflns_theta_max         28
+_diffrn_reflns_theta_min         2
+_diffrn_standards_decay_%        -5
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    1.73
+_exptl_absorpt_correction_T_max  1.114
+_exptl_absorpt_correction_T_min  0.927
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.794(4)
+_exptl_crystal_density_meas      1.69
+_exptl_crystal_description       'columnar habit'
+_exptl_crystal_F_000             576
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.4
+_exptl_crystal_size_min          0.4
+_refine_diff_density_max         0.45
+_refine_diff_density_min         -0.43
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     141
+_refine_ls_number_reflns         2258
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_obs          0.0258
+_refine_ls_shift/esd_max         0.09
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F~o~)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0280
+_reflns_number_observed          2258
+_reflns_number_total             2412
+_reflns_observed_criterion       F>6.0\s(F)
+_cod_data_source_file            ka1046.cif
+_cod_data_source_block           C10H16Cl8O4Ti2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w = 1/\s^2^(F~o~)' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/\s^2^(F~o~)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        '1073.1(19) [1135.3(17)]'
+_cod_original_sg_symbol_H-M      'P 21/a'
+_cod_database_code               2001144
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+0.5-x,0.5+y,-z
+-x,-y,-z
+0.5+x,0.5-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ti 0.0154(3) 0.0063(3) 0.0063(3) 0.0002(2) 0.0036(2) -0.0004(2)
+Cl(1) 0.0129(4) 0.0077(3) 0.0101(3) 0.0011(3) 0.0030(3) -0.0008(3)
+Cl(2) 0.0170(4) 0.0116(4) 0.0132(4) -0.0023(3) 0.0023(3) -0.0012(3)
+Cl(3) 0.0206(4) 0.0084(3) 0.0145(3) 0.0026(3) 0.0076(3) -0.0006(3)
+Cl(4) 0.0226(4) 0.0117(4) 0.0076(3) -0.0001(3) 0.0052(3) 0.0009(3)
+O(1) 0.0186(12) 0.0070(9) 0.0086(9) -0.0011(8) 0.0058(8) 0.0000(8)
+O(2) 0.0150(12) 0.0136(10) 0.0087(9) 0.0012(9) 0.0048(8) 0.0015(8)
+C(1) 0.0170(18) 0.0189(16) 0.0154(14) -0.0015(14) 0.0061(12) 0.0043(12)
+C(2) 0.0194(17) 0.0049(12) 0.0112(12) -0.0019(11) 0.0032(11) -0.0014(10)
+C(3) 0.0150(16) 0.0146(14) 0.0115(13) 0.0017(12) 0.0041(11) 0.0011(11)
+C(4) 0.0171(16) 0.0165(14) 0.0111(13) -0.0017(12) 0.0042(11) -0.0004(11)
+C(5) 0.0276(19) 0.0179(16) 0.0148(14) 0.0012(14) 0.0028(13) 0.0024(12)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ti 0.02786(4) 0.19276(5) 0.09401(5) 0.0091(2)
+Cl(1) -0.11888(5) 0.03580(7) -0.03146(7) 0.0101(2)
+Cl(2) 0.17560(5) 0.31044(7) 0.16395(7) 0.0141(2)
+Cl(3) -0.07986(6) 0.37790(7) 0.10842(7) 0.0140(2)
+Cl(4) 0.02141(6) 0.08821(7) 0.31313(7) 0.0137(2)
+O(1) 0.02809(15) 0.2461(2) -0.12001(18) 0.0110(6)
+O(2) 0.01256(15) 0.2936(2) -0.35898(19) 0.0122(6)
+C(1) 0.1727(3) 0.2076(4) -0.2341(3) 0.0167(10)
+C(2) 0.0670(2) 0.2499(3) -0.2323(3) 0.0118(9)
+C(3) -0.0945(2) 0.3278(3) -0.3594(3) 0.0134(9)
+C(4) -0.1461(2) 0.3568(3) -0.5151(3) 0.0147(9)
+C(5) -0.2061(3) 0.4717(4) -0.5547(3) 0.0202(10)
+H(11) 0.227(3) 0.265(5) -0.161(4) 0.036(11)
+H(12) 0.188(3) 0.235(4) -0.323(4) 0.023(9)
+H(13) 0.180(3) 0.112(5) -0.193(4) 0.044(12)
+H(3) -0.119(3) 0.246(4) -0.311(4) 0.026(10)
+H(31) -0.099(3) 0.405(4) -0.303(4) 0.014(9)
+H(4) -0.133(3) 0.285(4) -0.585(4) 0.025(10)
+H(5) -0.254(3) 0.463(4) -0.657(4) 0.029(10)
+H(51) -0.219(3) 0.544(4) -0.483(4) 0.025(10)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ti 0.248 0.446 International_Tables_Vol_IV_Table_2.2B
+Cl 0.132 0.159 International_Tables_Vol_IV_Table_2.2B
+O 0.008 0.006 International_Tables_Vol_IV_Table_2.2B
+C 0.002 0.002 International_Tables_Vol_IV_Table_2.2B
+H 0 0 International_Tables_Vol_IV_Table_2.2B
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+-3 -4 -1
+3 -4 0
+1 -5 -1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Cl(1) Ti Cl(1) . . 3_555 79.20(10) yes
+Cl(1) Ti Cl(2) . . . 166.50(10) yes
+Cl(1) Ti Cl(3) . . . 89.00(10) yes
+Cl(1) Ti Cl(4) . . . 90.90(10) yes
+Cl(1) Ti Cl(2) 3_555 . . 90.30(10) yes
+Cl(1) Ti Cl(3) 3_555 . . 167.20(10) yes
+Cl(1) Ti Cl(4) 3_555 . . 88.50(10) yes
+Cl(2) Ti Cl(3) . . . 100.60(10) yes
+Cl(2) Ti Cl(4) . . . 97.20(10) yes
+Cl(3) Ti Cl(4) . . . 96.70(10) yes
+O(1) Ti Cl(1) . . . 80.50(10) yes
+O(1) Ti Cl(1) . . 3_555 82.80(10) yes
+O(1) Ti Cl(2) . . . 90.00(10) yes
+O(1) Ti Cl(3) . . . 90.40(10) yes
+O(1) Ti Cl(4) . . . 168.70(10) yes
+Ti Cl(1) Ti 3_555 . . 100.80(10) yes
+Ti O(1) C(2) . . . 153.2(2) yes
+O(1) C(2) O(2) . . . 119.7(3) yes
+O(1) C(2) C(1) . . . 124.3(3) yes
+O(2) C(2) C(1) . . . 116.0(3) yes
+C(2) O(2) C(3) . . . 116.1(3) yes
+O(2) C(3) C(4) . . . 108.0(3) yes
+C(3) C(4) C(5) . . . 123.3(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ti Ti . 3_555 3.851(4) yes
+Ti Cl(1) . . 2.501(2) yes
+Ti Cl(1) . 3_555 2.497(2) yes
+Ti Cl(2) . . 2.219(2) yes
+Ti Cl(3) . . 2.212(2) yes
+Ti Cl(4) . . 2.233(2) yes
+Ti O(1) . . 2.022(2) yes
+O(1) C(2) . . 1.243(3) yes
+C(1) C(2) . . 1.467(5) yes
+O(2) C(2) . . 1.305(3) yes
+O(2) C(3) . . 1.464(4) yes
+C(3) C(4) . . 1.483(4) yes
+C(4) C(5) . . 1.308(4) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+Ti O(1) C(2) C(1) . . . . -8.7(7) yes
+Ti O(1) C(2) O(2) . . . . 171.2(5) yes
+O(1) C(2) O(2) C(3) . . . . -3.2(5) yes
+C(2) O(2) C(3) C(4) . . . . -173.2(5) yes
+O(2) C(3) C(4) C(5) . . . . -132.9(6) yes
+C(1) C(2) O(2) C(3) . . . . 176.7(4) yes

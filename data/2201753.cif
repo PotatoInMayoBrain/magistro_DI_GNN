@@ -1,0 +1,166 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/17/2201753.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2201753
+loop_
+_publ_author_name
+'Radovan \<Cern\'y'
+'K. Alami-Yadri'
+_publ_section_title
+;
+ Orthorhombic Yb~5~Si~4~ from synchrotron powder data
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i1
+_journal_page_last               i3
+_journal_paper_doi               10.1107/S1600536802023541
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_iupac          'Yb5 Si4'
+_chemical_formula_structural     'Yb5 Si4'
+_chemical_formula_sum            'Si4 Yb5'
+_chemical_formula_weight         977.54
+_chemical_name_systematic
+;
+pentaytterbium tetrasilicide
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.26327(4)
+_cell_length_b                   14.78061(8)
+_cell_length_c                   7.70343(4)
+_cell_measurement_reflns_used    597
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      33.333
+_cell_measurement_theta_min      3.6
+_cell_volume                     827.006(8)
+_computing_cell_refinement       'FULLPROF99 (Rodr\'iguez-Carvajal, 1999)'
+_computing_data_reduction        FULLPROF99
+_computing_molecular_graphics    'ATOMS (Dowty, 1993)'
+_computing_publication_material
+'WinPLOTR (Roisnel & Rodr\'iguez-Carvajal, 1998) and ATOMS'
+_computing_structure_refinement  FULLPROF99
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  '2-axis goniometer'
+_diffrn_radiation_monochromator  'channel-cut Si 111'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.52301
+_exptl_absorpt_coefficient_mu    1.83
+_exptl_absorpt_correction_type   cylinder
+_exptl_crystal_density_diffrn    7.851(2)
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1624
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.28
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     46
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.01
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            br6073.cif
+_cod_data_source_block           I
+_cod_original_sg_symbol_Hall     '-p 2ac 2n'
+_cod_database_code               2201753
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+1/2-x,-y,1/2+z
+1/2+x,1/2-y,1/2-z
+-x,1/2+y,-z
+-x,-y,-z
+1/2+x,+y,1/2-z
+1/2-x,1/2+y,1/2+z
++x,1/2-y,+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Yb1 .3478(4) .25000 .0188(3) .0270(7) Uiso 1 Yb
+Yb2 .0197(2) .09421(9) .1797(2) .0259(5) Uiso 1 Yb
+Yb3 .3181(2) .87800(9) .1765(2) .0233(5) Uiso 1 Yb
+Si1 .240(2) .25000 .388(2) .035(2) Uiso 1 Si
+Si2 .978(2) .25000 .8822(19) .035(2) Uiso 1 Si
+Si3 .1466(16) .9615(6) .4715(15) .035(2) Uiso 1 Si
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Yb Yb -.884 5.548 'FULLPROF99 (Rodr\'iguez-Carvajal, 1999)'
+Si Si .072 .071 'FULLPROF99 (Rodr\'iguez-Carvajal, 1999)'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Yb1 Si2 . 1_454 2.887(16) yes
+Yb1 Si1 . 3 2.939(15) yes
+Yb1 Si1 . . 2.953(15) yes
+Yb1 Si3 . 7_544 3.147(9) yes
+Yb1 Si3 . 2_564 3.147(9) no
+Yb1 Si2 . 3_455 3.229(15) yes
+Yb1 Yb3 . 4_645 3.425(3) yes
+Yb1 Yb3 . 5_665 3.425(3) no
+Yb1 Yb3 . 2_564 3.462(3) yes
+Yb1 Yb3 . 7_544 3.462(3) no
+Yb1 Yb2 . 3 3.501(2) yes
+Yb1 Yb2 . 6 3.501(2) no
+Yb1 Yb2 . . 3.538(2) yes
+Yb1 Yb2 . 8 3.538(2) no
+Yb2 Si3 . 2_564 3.020(12) yes
+Yb2 Si3 . 5_566 3.059(11) yes
+Yb2 Si1 . 3_455 3.114(10) yes
+Yb2 Si3 . 1_545 3.123(11) yes
+Yb2 Si1 . . 3.233(11) yes
+Yb2 Si2 . 1_454 3.263(10) yes
+Yb2 Si3 . 6_445 3.543(11) yes
+Yb2 Yb3 . 6_445 3.686(2) yes
+Yb2 Yb3 . 5_565 3.704(2) yes
+Yb2 Yb2 . 6 3.790(2) yes
+Yb2 Yb2 . 6_455 3.790(2) no
+Yb2 Yb3 . 1_545 3.861(2) yes
+Yb2 Yb2 . 5 3.937(2) yes
+Yb2 Yb3 . 2_565 4.025(2) no
+Yb2 Yb3 . 2_564 4.072(2) no
+Yb3 Si3 . 2_574 2.861(10) yes
+Yb3 Si3 . . 2.871(11) yes
+Yb3 Si2 . 2_664 2.879(12) yes
+Yb3 Si2 . 4_656 2.898(12) yes
+Yb3 Si3 . 6 2.918(11) yes
+Yb3 Si1 . 2_564 2.947(11) yes
+Yb3 Yb3 . 8_565 3.7838(19) yes
+Yb3 Yb3 . 6_455 3.804(2) yes
+Yb3 Yb3 . 6 3.804(2) no
+Si1 Si2 . 3_456 2.47(2) yes
+Si2 Si2 . 3_556 4.16(2) no
+Si2 Si2 . 3_456 4.16(2) no
+Si3 Si3 . 5_576 2.454(16) yes

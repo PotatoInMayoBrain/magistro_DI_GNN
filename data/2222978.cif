@@ -1,0 +1,513 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 22:30:07 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176789 $
+#$URL: svn://www.crystallography.net/cod/cif/2/22/29/2222978.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2222978
+loop_
+_publ_author_name
+'Belkhiri, Sabrina'
+'Kars, Mohammed'
+'Mezaoui, Djillali'
+_publ_section_title
+;
+ K~1.65~V~1.78~W~0.22~O~2~(AsO~4~)~2~
+;
+_journal_coeditor_code           BR2112
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i69
+_journal_paper_doi               10.1107/S1600536809033133
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_iupac          'K1.65 V1.78 W0.22 O2 (As O4)2'
+_chemical_formula_sum            'As2 K1.642 O10 V1.78 W0.22'
+_chemical_formula_weight         505.2
+_chemical_name_systematic
+;
+potassium vanadium tungsten bis(arsenate oxide)
+;
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P -2n -2ac'
+_symmetry_space_group_name_H-M   'P c 21 n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.5322(7)
+_cell_length_b                   10.7228(9)
+_cell_length_c                   13.0782(5)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      35.96
+_cell_measurement_theta_min      5.83
+_cell_volume                     916.04(13)
+_computing_cell_refinement
+'DENZO and SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_data_collection       'KappaCCD Software (Nonius, 1998)'
+_computing_data_reduction
+'DENZO and SCALEPACK (Otwinowski & Minor, 1997)'
+_computing_molecular_graphics
+'ATOMS (Dowty, 1994) and GRETEP (Laugier & Bochu, 2002)'
+_computing_publication_material
+'JANA2000 (Pet\<r\'i\<cek <i>et al.</i>, 2000)'
+_computing_structure_refinement
+'JANA2000 (Pet\<r\'i\<cek <i>et al.</i>, 2000)'
+_computing_structure_solution
+'coordinates taken from KVOPO~4~ (Reference?)'
+_diffrn_ambient_temperature      293
+_diffrn_measured_fraction_theta_full 0.99
+_diffrn_measurement_device_type  'Nonius KappaCCD'
+_diffrn_measurement_method       \f
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0444
+_diffrn_reflns_av_sigmaI/netI    0.0294
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            13762
+_diffrn_reflns_theta_full        35.96
+_diffrn_reflns_theta_max         35.96
+_diffrn_reflns_theta_min         5.83
+_exptl_absorpt_coefficient_mu    12.695
+_exptl_absorpt_correction_T_max  0.564
+_exptl_absorpt_correction_T_min  0.314
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(Pet\<r\'i\<cek <i>et al.</i>,  2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.6617
+_exptl_crystal_description       block
+_exptl_crystal_F_000             938
+_exptl_crystal_size_max          0.067
+_exptl_crystal_size_mid          0.043
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         3.19
+_refine_diff_density_min         -2.75
+_refine_ls_abs_structure_details 'Flack (1983), with how many Friedel pairs?'
+_refine_ls_abs_structure_Flack   0.43(3)
+_refine_ls_extinction_coef       2559
+_refine_ls_extinction_method
+'B--C type 1 Gaussian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_ref   2.88
+_refine_ls_number_parameters     117
+_refine_ls_number_reflns         3754
+_refine_ls_number_restraints     5
+_refine_ls_R_factor_all          0.0633
+_refine_ls_R_factor_gt           0.0478
+_refine_ls_shift/su_max          0.0003
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0001F^2^]'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0630
+_refine_ls_wR_factor_ref         0.0643
+_reflns_number_gt                2938
+_reflns_number_total             3754
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            br2112.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to 'gaussian'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2222978
+_cod_database_fobs_code          2222978
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,-z
+3 1/2+x,1/2+y,1/2-z
+4 1/2-x,y,1/2+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+V V1 0.2630(3) 0.2468(2) 0.24971(13) 0.0168(3) Uani d . 1 . .
+W W 0.50139(17) 0.5 0.87349(4) 0.00878(14) Uani d . 0.220(2) . .
+V V2 0.50139(17) 0.5 0.87349(4) 0.00878(14) Uani d . 0.780(2) . .
+As As 0.17664(8) 0.25354(16) 0.50018(8) 0.00581(11) Uani d . 1 . .
+As As1 0.00101(18) 0.50644(9) 0.81691(5) 0.00690(13) Uani d . 1 . .
+O O6 0.3321(10) 0.2386(6) 0.3990(5) 0.0087(13) Uani d . 1 . .
+O O8 0.4578(13) 0.3816(6) 0.7822(6) 0.0134(7) Uani d . 1 . .
+K K1 0.3033(5) 0.5700(3) 0.6047(2) 0.0213(8) Uani d . 0.642(9) . .
+K K2 0.7220(5) 0.3138(4) 0.6181(3) 0.0639(13) Uani d . 1 . .
+O O4 0.5533(11) 0.6264(6) 0.7830(6) 0.0116(7) Uani d . 1 . .
+O O7 -0.2009(11) 0.4750(6) 0.8937(5) 0.0116(7) Uani d . 1 . .
+O O1 0.0429(12) 0.3840(6) 0.7363(6) 0.0113(12) Uani d . 1 . .
+O O3 0.0142(13) 0.3730(6) 0.4904(6) 0.0134(7) Uani d . 1 . .
+O O5 0.0306(13) 0.1243(6) 0.5126(6) 0.0134(7) Uani d . 1 . .
+O O2 -0.0408(12) 0.6253(6) 0.7377(7) 0.0160(18) Uani d . 1 . .
+O O9 0.3212(11) 0.2750(7) 0.6060(5) 0.0113(12) Uani d . 1 . .
+O O10 0.2004(10) 0.5412(6) 0.8927(5) 0.0116(7) Uani d . 1 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+V1 0.0307(7) 0.0156(5) 0.0042(4) -0.0159(5) -0.0026(4) 0.0014(4) V
+W 0.0070(2) 0.0118(2) 0.0075(3) -0.00182(17) -0.0009(4) -0.0018(4) W
+V2 0.0070(2) 0.0118(2) 0.0075(3) -0.00182(17) -0.0009(4) -0.0018(4) V
+As 0.0070(2) 0.00636(17) 0.0040(2) -0.0010(4) 0.0017(4) 0.00093(18) As
+As1 0.0054(2) 0.00608(19) 0.0092(3) 0.00066(15) -0.0001(5) -0.0006(3) As
+O6 0.008(2) 0.011(2) 0.007(3) 0.0035(19) -0.0005(18) 0.0001(19) O
+O8 0.0123(14) 0.0181(11) 0.0099(13) -0.0028(14) -0.0004(17) 0.0051(9) O
+K1 0.0174(13) 0.0400(16) 0.0066(13) -0.0027(11) -0.0056(10) 0.0009(11) K
+K2 0.0193(11) 0.086(3) 0.087(3) -0.0147(14) 0.0165(16) -0.0306(19) K
+O4 0.0061(10) 0.0160(11) 0.0128(13) -0.0011(9) 0.0026(16) 0.0031(14) O
+O7 0.0061(10) 0.0160(11) 0.0128(13) -0.0011(9) 0.0026(16) 0.0031(14) O
+O1 0.012(2) 0.018(2) 0.004(2) 0.0023(15) -0.0047(17) -0.0012(16) O
+O3 0.0123(14) 0.0181(11) 0.0099(13) -0.0028(14) -0.0004(17) 0.0051(9) O
+O5 0.0123(14) 0.0181(11) 0.0099(13) -0.0028(14) -0.0004(17) 0.0051(9) O
+O2 0.018(3) 0.012(2) 0.018(4) 0.012(2) 0.005(3) 0.007(2) O
+O9 0.012(2) 0.018(2) 0.004(2) 0.0023(15) -0.0047(17) -0.0012(16) O
+O10 0.0061(10) 0.0160(11) 0.0128(13) -0.0011(9) 0.0026(16) 0.0031(14) O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K 0.201 0.249 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+As 0.050 2.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+V 0.301 0.529 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+W -0.849 6.872 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+O 0.011 0.006 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O6 V1 O8 . . 4_554 89.1(3) ?
+O6 V1 O4 . . 2_646 92.9(3) ?
+O6 V1 O7 . . 2_546 120.7(2) ?
+O6 V1 O1 . . 4_554 88.3(3) ?
+O6 V1 O2 . . 2_546 93.5(3) ?
+O6 V1 O9 . . 4_554 172.3(3) ?
+O8 V1 O4 4_554 . 2_646 177.4(3) ?
+O8 V1 O7 4_554 . 2_546 127.7(2) ?
+O8 V1 O1 4_554 . 4_554 86.7(3) ?
+O8 V1 O2 4_554 . 2_546 86.1(3) ?
+O8 V1 O9 4_554 . 4_554 83.8(3) ?
+O4 V1 O7 2_646 . 2_546 49.7(3) ?
+O4 V1 O1 2_646 . 4_554 95.1(3) ?
+O4 V1 O2 2_646 . 2_546 92.0(3) ?
+O4 V1 O9 2_646 . 4_554 94.3(4) ?
+O7 V1 O1 2_546 . 4_554 131.3(3) ?
+O7 V1 O2 2_546 . 2_546 53.2(2) ?
+O7 V1 O9 2_546 . 4_554 66.4(2) ?
+O1 V1 O2 4_554 . 2_546 172.6(3) ?
+O1 V1 O9 4_554 . 4_554 88.4(3) ?
+O2 V1 O9 2_546 . 4_554 88.9(3) ?
+O6 W O8 4_555 . . 52.8(2) ?
+O6 W O4 4_555 . . 138.9(3) ?
+O6 W O7 4_555 . 1_655 118.5(2) ?
+O6 W O3 4_555 . 4_555 51.6(2) ?
+O6 W O5 4_555 . 3_556 120.6(2) ?
+O6 W O10 4_555 . . 64.1(2) ?
+O8 W O4 . . . 97.2(3) ?
+O8 W O7 . . 1_655 98.4(3) ?
+O8 W O3 . . 4_555 91.3(3) ?
+O8 W O5 . . 3_556 173.4(3) ?
+O8 W O10 . . . 94.6(3) ?
+O4 W O7 . . 1_655 90.3(3) ?
+O4 W O3 . . 4_555 169.5(3) ?
+O4 W O5 . . 3_556 88.0(3) ?
+O4 W O10 . . . 96.0(3) ?
+O7 W O3 1_655 . 4_555 82.3(3) ?
+O7 W O5 1_655 . 3_556 85.6(3) ?
+O7 W O10 1_655 . . 164.8(2) ?
+O3 W O5 4_555 . 3_556 84.0(3) ?
+O3 W O10 4_555 . . 89.4(2) ?
+O5 W O10 3_556 . . 80.8(3) ?
+O6 V2 O8 4_555 . . 52.8(2) ?
+O6 V2 O4 4_555 . . 138.9(3) ?
+O6 V2 O7 4_555 . 1_655 118.5(2) ?
+O6 V2 O3 4_555 . 4_555 51.6(2) ?
+O6 V2 O5 4_555 . 3_556 120.6(2) ?
+O6 V2 O10 4_555 . . 64.1(2) ?
+O8 V2 O4 . . . 97.2(3) ?
+O8 V2 O7 . . 1_655 98.4(3) ?
+O8 V2 O3 . . 4_555 91.3(3) ?
+O8 V2 O5 . . 3_556 173.4(3) ?
+O8 V2 O10 . . . 94.6(3) ?
+O4 V2 O7 . . 1_655 90.3(3) ?
+O4 V2 O3 . . 4_555 169.5(3) ?
+O4 V2 O5 . . 3_556 88.0(3) ?
+O4 V2 O10 . . . 96.0(3) ?
+O7 V2 O3 1_655 . 4_555 82.3(3) ?
+O7 V2 O5 1_655 . 3_556 85.6(3) ?
+O7 V2 O10 1_655 . . 164.8(2) ?
+O3 V2 O5 4_555 . 3_556 84.0(3) ?
+O3 V2 O10 4_555 . . 89.4(2) ?
+O5 V2 O10 3_556 . . 80.8(2) ?
+O6 As O8 . . 4_554 60.7(2) ?
+O6 As O4 . . 3_446 143.3(3) ?
+O6 As O7 . . 3_546 96.0(3) ?
+O6 As O1 . . . 152.0(2) ?
+O6 As O3 . . . 113.1(3) ?
+O6 As O5 . . . 111.0(3) ?
+O6 As O2 . . 2_546 54.5(2) ?
+O6 As O9 . . . 108.8(3) ?
+O6 As O10 . . 4_554 67.8(2) ?
+O8 As O4 4_554 . 3_446 150.29(17) ?
+O8 As O7 4_554 . 3_546 141.90(17) ?
+O8 As O1 4_554 . . 122.41(17) ?
+O8 As O3 4_554 . . 56.6(3) ?
+O8 As O5 4_554 . . 105.8(3) ?
+O8 As O2 4_554 . 2_546 47.58(16) ?
+O8 As O9 4_554 . . 143.0(3) ?
+O4 As O3 3_446 . . 103.5(3) ?
+O4 As O5 3_446 . . 55.0(3) ?
+O4 As O2 3_446 . 2_546 122.96(18) ?
+O4 As O9 3_446 . . 59.1(3) ?
+O4 As O10 3_446 . 4_554 141.36(16) ?
+O7 As O1 3_546 . . 92.65(16) ?
+O7 As O3 3_546 . . 149.2(3) ?
+O7 As O5 3_546 . . 51.8(3) ?
+O7 As O2 3_546 . 2_546 94.61(16) ?
+O7 As O9 3_546 . . 70.2(3) ?
+O7 As O10 3_546 . 4_554 153.03(15) ?
+O1 As O3 . . . 66.3(3) ?
+O1 As O5 . . . 95.2(3) ?
+O1 As O2 . . 2_546 150.96(15) ?
+O1 As O10 . . 4_554 93.27(15) ?
+O3 As O5 . . . 105.7(3) ?
+O3 As O2 . . 2_546 94.6(3) ?
+O3 As O9 . . . 107.2(4) ?
+O3 As O10 . . 4_554 55.3(3) ?
+O5 As O2 . . 2_546 68.1(3) ?
+O5 As O9 . . . 110.9(4) ?
+O5 As O10 . . 4_554 153.1(3) ?
+O2 As O9 2_546 . . 157.2(3) ?
+O2 As O10 2_546 . 4_554 92.87(15) ?
+O9 As O10 . . 4_554 94.0(3) ?
+O6 As1 K1 4_555 . . 104.26(12) ?
+O6 As1 O4 4_555 . 1_455 134.43(16) ?
+O6 As1 O7 4_555 . . 83.4(2) ?
+O6 As1 O1 4_555 . . 58.1(3) ?
+O6 As1 O2 4_555 . . 159.4(3) ?
+O6 As1 O9 4_555 . 3_456 142.85(15) ?
+O6 As1 O10 4_555 . . 74.7(2) ?
+O8 As1 K1 . . . 57.12(14) ?
+O8 As1 O4 . . 1_455 164.2(2) ?
+O8 As1 O7 . . . 134.6(3) ?
+O8 As1 O1 . . . 56.8(3) ?
+O8 As1 O2 . . . 111.9(3) ?
+O8 As1 O9 . . 3_456 136.53(17) ?
+O8 As1 O10 . . . 58.4(2) ?
+O4 As1 O7 1_455 . . 56.8(3) ?
+O4 As1 O1 1_455 . . 111.7(3) ?
+O4 As1 O2 1_455 . . 57.6(3) ?
+O4 As1 O9 1_455 . 3_456 50.74(17) ?
+O4 As1 O10 1_455 . . 134.1(3) ?
+O7 As1 O1 . . . 109.3(3) ?
+O7 As1 O2 . . . 113.4(3) ?
+O7 As1 O9 . . 3_456 74.0(3) ?
+O7 As1 O10 . . . 107.5(3) ?
+O1 As1 O2 . . . 103.5(4) ?
+O1 As1 O9 . . 3_456 157.9(3) ?
+O1 As1 O10 . . . 114.2(3) ?
+O2 As1 O9 . . 3_456 57.0(3) ?
+O2 As1 O10 . . . 109.0(3) ?
+O9 As1 O10 3_456 . . 84.3(2) ?
+O6 K1 O8 2_656 . . 98.39(18) ?
+O6 K1 O4 2_656 . . 56.08(19) ?
+O6 K1 O1 2_656 . . 145.5(2) ?
+O6 K1 O3 2_656 . . 149.53(19) ?
+O6 K1 O5 2_656 . 2_556 119.1(2) ?
+O6 K1 O2 2_656 . . 119.8(2) ?
+O6 K1 O9 2_656 . . 125.3(2) ?
+O6 K1 O10 2_656 . 4_554 93.41(19) ?
+O8 K1 O4 . . . 51.74(18) ?
+O8 K1 O1 . . . 51.25(18) ?
+O8 K1 O3 . . . 95.96(19) ?
+O8 K1 O5 . . 2_556 142.1(2) ?
+O8 K1 O2 . . . 86.3(2) ?
+O8 K1 O9 . . . 50.10(18) ?
+O8 K1 O10 . . 4_554 130.1(2) ?
+O4 K1 O1 . . . 89.6(2) ?
+O4 K1 O3 . . . 147.2(2) ?
+O4 K1 O5 . . 2_556 148.6(2) ?
+O4 K1 O2 . . . 84.7(2) ?
+O4 K1 O9 . . . 100.3(2) ?
+O4 K1 O10 . . 4_554 145.5(2) ?
+O1 K1 O3 . . . 61.2(2) ?
+O1 K1 O5 . . 2_556 91.4(2) ?
+O1 K1 O2 . . . 51.88(18) ?
+O1 K1 O9 . . . 51.67(18) ?
+O1 K1 O10 . . 4_554 118.1(2) ?
+O3 K1 O5 . . 2_556 54.16(19) ?
+O3 K1 O2 . . . 87.7(2) ?
+O3 K1 O9 . . . 50.68(18) ?
+O3 K1 O10 . . 4_554 57.2(2) ?
+O5 K1 O2 2_556 . . 71.5(2) ?
+O5 K1 O9 2_556 . . 104.8(2) ?
+O5 K1 O10 2_556 . 4_554 57.1(2) ?
+O2 K1 O9 . . . 103.3(2) ?
+O2 K1 O10 . . 4_554 127.9(2) ?
+O9 K1 O10 . . 4_554 83.97(19) ?
+O8 K2 O4 . . 3_546 105.3(2) ?
+O8 K2 O7 . . 4_554 120.0(2) ?
+O8 K2 O1 . . 1_655 88.5(2) ?
+O8 K2 O3 . . 1_655 149.5(3) ?
+O8 K2 O5 . . 1_655 151.0(2) ?
+O8 K2 O2 . . 3_546 53.10(19) ?
+O8 K2 O9 . . . 58.7(2) ?
+O8 K2 O10 . . 3_546 105.1(2) ?
+O4 K2 O7 3_546 . 4_554 133.4(2) ?
+O4 K2 O1 3_546 . 1_655 55.0(2) ?
+O4 K2 O3 3_546 . 1_655 85.3(2) ?
+O4 K2 O5 3_546 . 1_655 49.5(2) ?
+O4 K2 O2 3_546 . 3_546 74.43(19) ?
+O4 K2 O9 3_546 . . 126.1(2) ?
+O4 K2 O10 3_546 . 3_546 55.25(19) ?
+O7 K2 O1 4_554 . 1_655 112.7(2) ?
+O7 K2 O3 4_554 . 1_655 50.0(2) ?
+O7 K2 O5 4_554 . 1_655 88.3(2) ?
+O7 K2 O2 4_554 . 3_546 142.3(2) ?
+O7 K2 O9 4_554 . . 89.2(2) ?
+O7 K2 O10 4_554 . 3_546 116.94(19) ?
+O1 K2 O3 1_655 . 1_655 74.1(2) ?
+O1 K2 O5 1_655 . 1_655 86.3(2) ?
+O1 K2 O2 1_655 . 3_546 104.5(2) ?
+O1 K2 O9 1_655 . . 147.0(3) ?
+O1 K2 O10 1_655 . 3_546 110.1(2) ?
+O3 K2 O5 1_655 . 1_655 54.4(2) ?
+O3 K2 O2 1_655 . 3_546 155.1(2) ?
+O3 K2 O9 1_655 . . 136.3(3) ?
+O3 K2 O10 1_655 . 3_546 104.4(2) ?
+O5 K2 O2 1_655 . 3_546 100.8(2) ?
+O5 K2 O9 1_655 . . 120.2(2) ?
+O5 K2 O10 1_655 . 3_546 50.97(18) ?
+O2 K2 O9 3_546 . . 54.5(2) ?
+O2 K2 O10 3_546 . 3_546 51.97(18) ?
+O9 K2 O10 . . 3_546 78.3(2) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V1 W . 2_646 3.461(2) ?
+V1 V2 . 2_646 3.461(2) ?
+V1 As . . 3.3257(17) ?
+V1 As . 4_554 3.2867(17) ?
+V1 As1 . 2_546 3.222(2) ?
+V1 As1 . 4_554 3.301(2) ?
+V1 O6 . . 2.006(5) ?
+V1 O8 . 4_554 2.069(7) ?
+V1 O4 . 2_646 1.823(7) ?
+V1 O7 . 2_546 3.494(7) ?
+V1 O1 . 4_554 1.944(7) ?
+V1 O2 . 2_546 1.960(7) ?
+V1 O9 . 4_554 1.979(7) ?
+W As . 3_556 3.3815(19) ?
+W As . 4_555 3.3284(19) ?
+W As1 . . 3.3521(18) ?
+W As1 . 1_655 3.3470(18) ?
+W O6 . 4_555 3.557(6) ?
+W O8 . . 1.774(7) ?
+W O4 . . 1.824(8) ?
+W O7 . 1_655 1.980(7) ?
+W O3 . 4_555 2.047(7) ?
+W O5 . 3_556 2.014(7) ?
+W O10 . . 2.034(7) ?
+V2 As . 3_556 3.3815(18) ?
+V2 As . 4_555 3.3284(18) ?
+V2 As1 . . 3.3521(13) ?
+V2 As1 . 1_655 3.3470(13) ?
+V2 O6 . 4_555 3.557(6) ?
+V2 O8 . . 1.774(7) ?
+V2 O4 . . 1.824(8) ?
+V2 O7 . 1_655 1.980(7) ?
+V2 O3 . 4_555 2.047(7) ?
+V2 O5 . 3_556 2.014(7) ?
+V2 O10 . . 2.034(7) ?
+As O6 . . 1.676(6) ?
+As O8 . 4_554 3.279(8) ?
+As K2 . 1_455 3.407(4) ?
+As O4 . 3_446 3.251(9) ?
+As O7 . 3_546 3.410(7) ?
+As O1 . . 3.497(8) ?
+As O3 . . 1.671(7) ?
+As O5 . . 1.688(7) ?
+As O2 . 2_546 3.520(8) ?
+As O9 . . 1.695(7) ?
+As O10 . 4_554 3.474(7) ?
+As1 O6 . 4_555 3.243(6) ?
+As1 O8 . . 3.294(7) ?
+As1 K1 . . 3.475(3) ?
+As1 O4 . 1_455 3.224(7) ?
+As1 O7 . . 1.685(7) ?
+As1 O1 . . 1.709(7) ?
+As1 O2 . . 1.664(7) ?
+As1 O9 . 3_456 3.284(7) ?
+As1 O10 . . 1.684(6) ?
+O6 K1 . 2_646 2.998(7) ?
+O8 K1 . . 3.240(8) ?
+O8 K2 . . 2.854(8) ?
+K1 O4 . . 2.911(9) ?
+K1 O1 . . 3.132(8) ?
+K1 O3 . . 3.181(8) ?
+K1 O5 . 2_556 2.718(8) ?
+K1 O2 . . 2.903(8) ?
+K1 O9 . . 3.147(8) ?
+K1 O10 . 4_554 2.775(6) ?
+K2 O4 . 3_546 3.228(8) ?
+K2 O7 . 4_554 3.414(8) ?
+K2 O1 . 1_655 2.715(8) ?
+K2 O3 . 1_655 2.619(8) ?
+K2 O5 . 1_655 3.145(8) ?
+K2 O2 . 3_546 3.250(8) ?
+K2 O9 . . 2.656(7) ?
+K2 O10 . 3_546 2.937(8) ?

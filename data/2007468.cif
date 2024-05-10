@@ -1,0 +1,267 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/74/2007468.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007468
+loop_
+_publ_author_name
+'Huang, Da-Ping'
+'Huang, Chang-Cang'
+'Liu, Shi-Xiong'
+'Xu, Huai-Da'
+'Huang, Jin-Ling'
+_publ_section_title
+;
+ An Oxygen-Centred Tetranuclear Tantalum Cluster:
+ Ta~4~O(Te~2~)~4~TeI~4~
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              893
+_journal_page_last               895
+_journal_paper_doi               10.1107/S0108270197018593
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'Ta4 O (Te2 )4 Te I4'
+_chemical_formula_sum            'I4 O Ta4 Te9'
+_chemical_formula_weight         2395.80
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 122.08(9)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   21.97(4)
+_cell_length_b                   6.155(3)
+_cell_length_c                   19.98(4)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      20
+_cell_measurement_theta_min      12
+_cell_volume                     2289(7)
+_diffrn_measurement_device       'Rigaku AFC-5R'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.060
+_diffrn_reflns_limit_h_max       33
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       -30
+_diffrn_reflns_number            8832
+_diffrn_reflns_theta_max         33
+_diffrn_standards_decay_%        .0
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    35.458
+_exptl_absorpt_correction_T_max  0.415
+_exptl_absorpt_correction_T_min  0.227
+_exptl_absorpt_correction_type   refdelf
+_exptl_absorpt_process_details   'DIFABS (Walker & Stuart, 1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.95
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         3.55
+_refine_diff_density_min         -3.69
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.072
+_refine_ls_number_parameters     84
+_refine_ls_number_reflns         2817
+_refine_ls_R_factor_obs          .0330
+_refine_ls_shift/esd_max         0.15
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0430
+_reflns_number_observed          2817
+_reflns_number_total             4674
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            oh1092.cif
+_cod_data_source_block           oh1092a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        2289(2)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2007468
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,1/2+z
+-x,-y,-z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2-y,-z
+1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ta(1) .07799(2) .29502(7) .73638(3)
+Ta(2) .06446(2) .05602(7) .86114(3)
+I(1) .14303(5) -.19750(10) .99857(5)
+I(2) .17519(5) .55160(10) .72037(6)
+Te(1) .17204(4) .36340(10) .90449(5)
+Te(2) .18157(4) -.00590(10) .83644(5)
+Te(3) -.02239(5) .35790(10) .56848(5)
+Te(4) .05881(5) -.00840(10) .62398(5)
+Te(5) .0 .6740(2) .75
+O .0 .164(4) .75
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O Ta(1) Te(4) . . 93.7(4) yes
+O Ta(1) I(2) . . 169.0(6) yes
+O Ta(1) Ta(2) . . 40.9(2) yes
+Te(4) Ta(1) Te(2) . . 81.30(10) yes
+Te(4) Ta(1) Ta(2) . 4_556 59.60(10) yes
+Te(2) Ta(1) Te(1) . . 57.00(10) yes
+Te(2) Ta(1) Te(5) . . 137.86(9) yes
+I(2) Ta(1) Te(3) . . 87.10(10) yes
+I(2) Ta(1) Ta(2) . . 140.95(8) yes
+Te(1) Ta(1) Te(3) . . 163.72(5) yes
+Te(5) Ta(1) Ta(2) . 4_556 89.50(10) yes
+O Ta(2) Te(3) . 4_556 96.3(5) yes
+O Ta(2) Ta(1) . . 41.6(2) yes
+Te(3) Ta(2) Te(1) 4_556 . 81.00(10) yes
+Te(3) Ta(2) Ta(1) 4_556 4_556 59.60(10) yes
+Te(1) Ta(2) Te(2) . . 57.10(10) yes
+Te(1) Ta(2) Te(5) . 1_545 138.35(6) yes
+I(1) Ta(2) Te(4) . 4_556 86.90(10) yes
+I(1) Ta(2) Ta(1) . . 142.30(10) yes
+Te(2) Ta(2) Te(4) . 4_556 164.21(4) yes
+Te(2) Ta(2) Ta(1) . . 55.99(8) yes
+Te(2) Te(1) Ta(2) . . 63.50(10) yes
+Ta(2) Te(1) Ta(1) . . 64.80(10) yes
+Te(1) Te(2) Ta(2) . . 59.43(5) yes
+Ta(2) Te(3) Ta(1) 4_556 . 65.00(10) yes
+Te(3) Te(4) Ta(2) . 4_556 58.88(8) yes
+Ta(1) Te(5) Ta(1) . 4_556 77.50(10) yes
+Ta(1) Te(5) Ta(2) . 4_566 127.42(8) yes
+Ta(2) O Ta(1) 4_556 4_556 97.4(2) yes
+O Ta(1) Te(2) . . 93.8(5) yes
+O Ta(1) Te(1) . . 92.0(2) yes
+O Ta(1) Ta(2) . 4_556 40.9(2) yes
+Te(4) Ta(1) I(2) . . 94.83(9) yes
+Te(2) Ta(1) I(2) . . 94.30(10) yes
+Te(2) Ta(1) Te(3) . . 138.40(6) yes
+Te(2) Ta(1) Ta(2) . . 59.30(10) yes
+I(2) Ta(1) Te(5) . . 94.50(10) yes
+I(2) Ta(1) Ta(2) . 4_556 141.60(10) yes
+Te(1) Ta(1) Te(5) . . 82.60(10) yes
+Ta(2) Ta(1) Ta(2) . 4_556 77.10(10) yes
+O Ta(2) Te(1) . . 95.9(5) yes
+O Ta(2) Ta(1) . 4_556 41.5(2) yes
+Te(3) Ta(2) I(1) 4_556 . 94.20(10) yes
+Te(1) Ta(2) I(1) . . 95.40(10) yes
+Te(1) Ta(2) Te(4) . 4_556 138.17(8) yes
+Te(1) Ta(2) Ta(1) . . 59.30(10) yes
+I(1) Ta(2) Te(5) . 1_545 95.20(10) yes
+I(1) Ta(2) Ta(1) . 4_556 141.38(7) yes
+Te(2) Ta(2) Te(5) . 1_545 83.30(10) yes
+Te(2) Ta(2) Ta(1) . 4_556 131.30(10) yes
+Te(2) Te(1) Ta(1) . . 59.57(7) yes
+Te(1) Te(2) Ta(1) . . 63.40(10) yes
+Ta(1) Te(2) Ta(2) . . 64.80(10) yes
+Te(3) Te(4) Ta(1) . . 63.70(10) yes
+Ta(1) Te(4) Ta(2) . 4_556 64.80(10) yes
+Ta(1) Te(5) Ta(2) . 1_565 127.30(10) yes
+Ta(1) Te(5) Ta(2) 4_556 1_565 127.42(8) yes
+Ta(1) O Ta(1) . 4_556 133.0(10) yes
+O Ta(1) Te(3) . . 91.7(2) no
+Te(4) Ta(1) Te(1) . . 138.23(7) no
+Te(4) Ta(1) Te(5) . . 138.61(8) no
+Te(2) Ta(1) Ta(2) . 4_556 107.90(10) no
+Te(1) Ta(1) Ta(2) . . 55.90(10) no
+Te(3) Ta(1) Te(5) . . 83.20(10) no
+Te(3) Ta(1) Ta(2) . 4_556 55.40(10) no
+O Ta(2) I(1) . . 165.7(6) no
+O Ta(2) Te(4) . 4_556 90.6(2) no
+Te(3) Ta(2) Te(2) 4_556 . 137.96(5) no
+Te(3) Ta(2) Te(5) 4_556 1_545 138.00(10) no
+Te(1) Ta(2) Ta(1) . 4_556 106.60(10) no
+Te(4) Ta(2) Te(5) 4_556 1_545 82.60(10) no
+Te(4) Ta(2) Ta(1) 4_556 4_556 55.60(10) no
+Te(5) Ta(2) Ta(1) 1_545 4_556 89.10(10) no
+Te(4) Te(3) Ta(2) . 4_556 63.90(10) no
+Ta(1) Te(5) Ta(2) . 4_566 127.30(10) no
+Ta(2) O Ta(2) . 4_556 141.0(10) no
+Ta(2) O Ta(1) . 4_556 97.60(10) no
+O Ta(1) Te(5) . . 74.5(6) no
+Te(4) Ta(1) Te(3) . . 57.20(10) no
+Te(4) Ta(1) Ta(2) . . 107.40(10) no
+I(2) Ta(1) Te(1) . . 86.20(10) no
+Te(1) Ta(1) Ta(2) . 4_556 132.15(8) no
+Te(3) Ta(1) Ta(2) . . 131.90(10) no
+Te(5) Ta(1) Ta(2) . . 89.57(8) no
+O Ta(2) Te(2) . . 91.4(2) no
+O Ta(2) Te(5) . 1_545 70.5(6) no
+Te(3) Ta(2) Te(4) 4_556 4_556 57.23(7) no
+Te(3) Ta(2) Ta(1) 4_556 . 107.22(9) no
+I(1) Ta(2) Te(2) . . 87.30(10) no
+Te(4) Ta(2) Ta(1) 4_556 . 130.71(8) no
+Te(5) Ta(2) Ta(1) 1_545 . 89.20(10) no
+Ta(1) Ta(2) Ta(1) . 4_556 75.90(10) no
+Te(4) Te(3) Ta(1) . . 59.10(7) no
+Ta(2) Te(5) Ta(2) 1_565 4_566 77.80(10) no
+Ta(2) O Ta(1) . . 97.40(10) no
+Ta(2) O Ta(1) 4_556 . 97.60(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ta(1) O . . 2.040(10) yes
+Ta(1) I(2) . . 2.807(4) yes
+Ta(1) Te(3) . . 2.900(6) yes
+Ta(2) Te(5) . 1_545 3.021(3) yes
+I(1) Te(3) . 4_546 3.540(4) yes
+Ta(2) O . . 2.010(8) yes
+Ta(2) I(1) . . 2.814(4) yes
+Ta(2) Te(4) . 4_556 2.904(6) yes
+Ta(1) Ta(2) . . 3.042(4) yes
+I(2) Te(2) . 1_565 3.532(3) yes
+Ta(1) Te(4) . . 2.776(3) yes
+Ta(1) Te(1) . . 2.891(6) yes
+Ta(1) Te(5) . . 2.991(3) yes
+Te(1) Te(2) . . 2.713(2) yes
+I(2) Te(4) . 1_565 3.514(4) yes
+Ta(2) Te(3) . 4_556 2.768(2) no
+Ta(1) Ta(2) . 4_556 3.046(6) no
+Ta(2) Te(1) . . 2.782(4) no
+Te(5) O . 1_565 3.02(2) no

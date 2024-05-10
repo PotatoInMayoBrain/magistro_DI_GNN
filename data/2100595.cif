@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-14 19:38:48 +0300 (Wed, 14 Sep 2022) $
+#$Revision: 277834 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/05/2100595.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100595
+loop_
+_publ_author_name
+'S. A. Moggach'
+'W. G. Marshall'
+'S. Parsons'
+_publ_section_title
+;High-pressure neutron diffraction study of L-serine-I and L-serine-II,
+and the structure of L-serine-III at 8.1 GPa
+;
+_journal_coeditor_code           BS5027
+_journal_date_accepted           2006-05-15
+_journal_date_recd_electronic    2005-11-23
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              815
+_journal_page_last               825
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S010876810601799X
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_moiety         'C3 D7 N O3'
+_chemical_formula_sum            'C3 D7 N O3'
+_chemical_formula_weight         112.11
+_chemical_name_common            Serine
+_chemical_name_systematic
+;
+L-serine-d7
+;
+_space_group_IT_number           19
+_space_group_name_Hall           'P 2ac 2ab'
+_space_group_name_H-M_alt        'P 21 21 21'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   6.5477(4)
+_cell_length_b                   9.5405(6)
+_cell_length_c                   5.6092(4)
+_cell_measurement_pressure       8100000
+_cell_measurement_reflns_used    1004
+_cell_measurement_temperature    298
+_cell_volume                     350.40(4)
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device_type  'HiPr/PEARL, ISIS'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           Neutron
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1004
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using custom ISIS software.
+;
+_exptl_crystal_density_diffrn    2.125
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       powder
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   0.381
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           sparse
+_refine_ls_number_parameters     39
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          <0.001
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            bs5027.cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      P212121
+_cod_database_code               2100595
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+C C1 0.7786595 0.7864084 0.4860566 1
+C C2 0.8370694 0.7497561 0.7415623 1
+C C3 0.7996682 0.5969721 0.7948614 1
+N N1 0.7145518 0.8343593 0.9119237 1
+O O1 0.6785283 0.8938874 0.4508547 1
+O O2 0.8379062 0.7031536 0.3295044 1
+O O3 0.5847529 0.5675629 0.7980295 1
+D D1 0.9970693 0.7703515 0.7757463 1
+D D2 0.8652116 0.5743639 0.9679093 1
+D D3 0.8704224 0.5313466 0.6607067 1
+D D4 0.5649604 0.8219534 0.8742285 1
+D D5 0.743598 0.8010799 1.079268 1
+D D6 0.7538451 0.9361522 0.895256 1
+D D7 0.537007 0.4922763 0.8767998 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'

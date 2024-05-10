@@ -1,0 +1,346 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/55/2105525.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105525
+loop_
+_publ_author_name
+'Schefer, J.'
+'Schwarzenbach, D.'
+'Fischer, P.'
+'Koetzle, Th.'
+'Larsen, F. K.'
+'Hauss\"uhl, S.'
+'R\"udlinger, M.'
+'McIntyre, G.'
+'Birkedal, H.'
+'B\"urgi, H.-B.'
+_publ_section_title
+;
+ Neutron and X-ray Diffraction Study of the Thermal Motion in K~2~PtCl~6~
+ as a Function of Temperature
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              121
+_journal_page_last               128
+_journal_paper_doi               10.1107/S0108768197011956
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'K2 Pt Cl6'
+_chemical_formula_sum            'Cl6 K2 Pt'
+_chemical_formula_weight         486.004
+_chemical_name_systematic        'Potassium hexachloroplatinate(IV)'
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                90.00000
+_cell_formula_units_Z            4
+_cell_length_a                   9.673(2)
+_cell_length_b                   9.673(2)
+_cell_length_c                   9.673(2)
+_cell_measurement_temperature    100
+_cell_volume                     905.1(3)
+_diffrn_ambient_temperature      100
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  'graphite (0 0 2)'
+_diffrn_radiation_type           xray_tube
+_diffrn_radiation_wavelength     0.56087
+_diffrn_reflns_av_R_equivalents  0.017
+_diffrn_reflns_limit_h_max       30
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       30
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       30
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            10941
+_diffrn_reflns_theta_max         60.0
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.76
+_exptl_absorpt_correction_T_max  0.497
+_exptl_absorpt_correction_T_min  0.452
+_exptl_absorpt_correction_type   'analytical integration'
+_exptl_crystal_density_diffrn    3.567
+_exptl_crystal_description       'nearly perfect octahedral shape {111}'
+_exptl_crystal_F_000             872.0
+_exptl_crystal_size_max          0.097
+_exptl_crystal_size_mid          0.097(2)
+_exptl_crystal_size_min          0.097
+_refine_ls_extinction_coef       'g = 0.080(3), ymin = 0.95'
+_refine_ls_extinction_method     'Type I, Lorentzian'
+_refine_ls_goodness_of_fit_all   1.828
+_refine_ls_goodness_of_fit_obs   1.828
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     5
+_refine_ls_number_reflns         758
+_refine_ls_R_factor_all          0.016
+_refine_ls_R_factor_obs          0.016
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=(\s^2^(Fo^2^)+(0.05(Fo^2^)^2^)^-1^
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.020
+_refine_ls_wR_factor_obs         0.020
+_reflns_number_observed          758
+_reflns_number_total             758
+_reflns_observed_criterion       refl_observed_if_F_square_>_10__sigma(F_square)
+_cod_data_source_file            ab0382.cif
+_cod_data_source_block           RSS2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value
+'w=(\s^2^(Fo^2^)+(0.05(Fo^2^)^2^)^-1^' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w=(\s^2^(Fo^2^)+(0.05(Fo^2^)^2^)^-1^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        905.1(6)
+_cod_original_formula_sum        'K2 Pt Cl6'
+_cod_database_code               2105525
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
++x,-y,-z
+-x,-y,+z
+-x,+y,-z
+-y,+x,+z
++y,+x,-z
++y,-x,+z
+-y,-x,-z
++y,+z,+x
+-y,-z,+x
++y,-z,-x
+-y,+z,-x
+-z,+y,+x
+-z,-y,-x
++z,-y,+x
++z,+y,-x
++z,+x,+y
+-z,+x,-y
+-z,-x,+y
++z,-x,-y
+-x,-z,-y
+-x,+z,+y
++x,-z,+y
++x,+z,-y
+-x,-y,-z
+-x,+y,+z
++x,+y,-z
++x,-y,+z
++y,-x,-z
+-y,-x,+z
+-y,+x,-z
++y,+x,+z
+-y,-z,-x
++y,+z,-x
+-y,+z,+x
++y,-z,+x
++z,-y,-x
++z,+y,+x
+-z,+y,-x
+-z,-y,+x
+-z,-x,-y
++z,-x,+y
++z,+x,-y
+-z,+x,+y
++x,+z,+y
++x,-z,-y
+-x,+z,-y
+-x,-z,+y
++x,1/2+y,1/2+z
+1/2+x,+y,1/2+z
+1/2+x,1/2+y,+z
++x,1/2-y,1/2-z
+1/2+x,-y,1/2-z
+1/2+x,1/2-y,-z
+-x,1/2-y,1/2+z
+1/2-x,-y,1/2+z
+1/2-x,1/2-y,+z
+-x,1/2+y,1/2-z
+1/2-x,+y,1/2-z
+1/2-x,1/2+y,-z
+-y,1/2+x,1/2+z
+1/2-y,+x,1/2+z
+1/2-y,1/2+x,+z
++y,1/2+x,1/2-z
+1/2+y,+x,1/2-z
+1/2+y,1/2+x,-z
++y,1/2-x,1/2+z
+1/2+y,-x,1/2+z
+1/2+y,1/2-x,+z
+-y,1/2-x,1/2-z
+1/2-y,-x,1/2-z
+1/2-y,1/2-x,-z
++y,1/2+z,1/2+x
+1/2+y,+z,1/2+x
+1/2+y,1/2+z,+x
+-y,1/2-z,1/2+x
+1/2-y,-z,1/2+x
+1/2-y,1/2-z,+x
++y,1/2-z,1/2-x
+1/2+y,-z,1/2-x
+1/2+y,1/2-z,-x
+-y,1/2+z,1/2-x
+1/2-y,+z,1/2-x
+1/2-y,1/2+z,-x
+-z,1/2+y,1/2+x
+1/2-z,+y,1/2+x
+1/2-z,1/2+y,+x
+-z,1/2-y,1/2-x
+1/2-z,-y,1/2-x
+1/2-z,1/2-y,-x
++z,1/2-y,1/2+x
+1/2+z,-y,1/2+x
+1/2+z,1/2-y,+x
++z,1/2+y,1/2-x
+1/2+z,+y,1/2-x
+1/2+z,1/2+y,-x
++z,1/2+x,1/2+y
+1/2+z,+x,1/2+y
+1/2+z,1/2+x,+y
+-z,1/2+x,1/2-y
+1/2-z,+x,1/2-y
+1/2-z,1/2+x,-y
+-z,1/2-x,1/2+y
+1/2-z,-x,1/2+y
+1/2-z,1/2-x,+y
++z,1/2-x,1/2-y
+1/2+z,-x,1/2-y
+1/2+z,1/2-x,-y
+-x,1/2-z,1/2-y
+1/2-x,-z,1/2-y
+1/2-x,1/2-z,-y
+-x,1/2+z,1/2+y
+1/2-x,+z,1/2+y
+1/2-x,1/2+z,+y
++x,1/2-z,1/2+y
+1/2+x,-z,1/2+y
+1/2+x,1/2-z,+y
++x,1/2+z,1/2-y
+1/2+x,+z,1/2-y
+1/2+x,1/2+z,-y
+-x,1/2-y,1/2-z
+1/2-x,-y,1/2-z
+1/2-x,1/2-y,-z
+-x,1/2+y,1/2+z
+1/2-x,+y,1/2+z
+1/2-x,1/2+y,+z
++x,1/2+y,1/2-z
+1/2+x,+y,1/2-z
+1/2+x,1/2+y,-z
++x,1/2-y,1/2+z
+1/2+x,-y,1/2+z
+1/2+x,1/2-y,+z
++y,1/2-x,1/2-z
+1/2+y,-x,1/2-z
+1/2+y,1/2-x,-z
+-y,1/2-x,1/2+z
+1/2-y,-x,1/2+z
+1/2-y,1/2-x,+z
+-y,1/2+x,1/2-z
+1/2-y,+x,1/2-z
+1/2-y,1/2+x,-z
++y,1/2+x,1/2+z
+1/2+y,+x,1/2+z
+1/2+y,1/2+x,+z
+-y,1/2-z,1/2-x
+1/2-y,-z,1/2-x
+1/2-y,1/2-z,-x
++y,1/2+z,1/2-x
+1/2+y,+z,1/2-x
+1/2+y,1/2+z,-x
+-y,1/2+z,1/2+x
+1/2-y,+z,1/2+x
+1/2-y,1/2+z,+x
++y,1/2-z,1/2+x
+1/2+y,-z,1/2+x
+1/2+y,1/2-z,+x
++z,1/2-y,1/2-x
+1/2+z,-y,1/2-x
+1/2+z,1/2-y,-x
++z,1/2+y,1/2+x
+1/2+z,+y,1/2+x
+1/2+z,1/2+y,+x
+-z,1/2+y,1/2-x
+1/2-z,+y,1/2-x
+1/2-z,1/2+y,-x
+-z,1/2-y,1/2+x
+1/2-z,-y,1/2+x
+1/2-z,1/2-y,+x
+-z,1/2-x,1/2-y
+1/2-z,-x,1/2-y
+1/2-z,1/2-x,-y
++z,1/2-x,1/2+y
+1/2+z,-x,1/2+y
+1/2+z,1/2-x,+y
++z,1/2+x,1/2-y
+1/2+z,+x,1/2-y
+1/2+z,1/2+x,-y
+-z,1/2+x,1/2+y
+1/2-z,+x,1/2+y
+1/2-z,1/2+x,+y
++x,1/2+z,1/2+y
+1/2+x,+z,1/2+y
+1/2+x,1/2+z,+y
++x,1/2-z,1/2-y
+1/2+x,-z,1/2-y
+1/2+x,1/2-z,-y
+-x,1/2+z,1/2-y
+1/2-x,+z,1/2-y
+1/2-x,1/2+z,-y
+-x,1/2-z,1/2+y
+1/2-x,-z,1/2+y
+1/2-x,1/2-z,+y
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K .01286(2) .01286(2) .01286(2) .00000 .00000 .00000
+Pt .004601(4) .004601(4) .004601(4) .00000 .00000 .00000
+Cl .00581(2) .01570(2) .01570(2) .00000 .00000 .00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+K .25000 .25000 .25000 .01286(2) Uani
+Pt .00000 .00000 .00000 .004601(4) Uani
+Cl .239260(10) .00000 .00000 .01240(2) Uani
+loop_
+_atom_type_symbol
+_atom_type_scat_source
+K 'Int. Tables Vol IV Tables 2.2B and 2.3.1'
+Pt 'Int. Tables Vol IV Tables 2.2B and 2.3.1'
+Cl 'Int. Tables Vol IV Tables 2.2B and 2.3.1'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pt Cl 49 49 2.3144(5) yes

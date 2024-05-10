@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/99/9009996.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009996
+loop_
+_publ_author_name
+'Nakai, I.'
+'Appleman, D. E.'
+_publ_section_title
+;
+ The crystal structure of gerstleyite Na2(Sb,As)8S13*2H2O:
+ the first sulfosalt mineral of sodium
+;
+_journal_name_full               'Chemistry Letters'
+_journal_page_first              1327
+_journal_page_last               1330
+_journal_volume                  1981
+_journal_year                    1981
+_chemical_compound_source
+'Baker mine, Kern County, Boron, California, USA'
+_chemical_formula_sum            'As0.8 H2 Na2 O2 S13 Sb7.2'
+_chemical_name_mineral           Gerstleyite
+_space_group_IT_number           8
+_symmetry_space_group_name_Hall  'C -2y'
+_symmetry_space_group_name_H-M   'C 1 m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 127.85
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.911
+_cell_length_b                   23.05
+_cell_length_c                   7.097
+_cell_volume                     1280.210
+_database_code_amcsd             0012197
+_exptl_crystal_density_diffrn    3.718
+_cod_original_formula_sum        'Na2 (Sb7.2 As.8) S13 O2 H2'
+_cod_database_code               9009996
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.01030 0.42550 0.02240 1.00000 0.05573 Na 0
+Sb1 0.41280 0.40590 0.79330 0.83000 0.02242 Sb 0
+As1 0.41280 0.40590 0.79330 0.17000 0.02242 As 0
+Sb2 0.08590 0.16850 0.50340 0.98000 0.01912 Sb 0
+As2 0.08590 0.16850 0.50340 0.02000 0.01912 As 0
+Sb3 0.48460 0.16900 0.51550 0.91000 0.01786 Sb 0
+As3 0.48460 0.16900 0.51550 0.09000 0.01786 As 0
+Sb4 0.49350 0.24610 0.98290 0.88000 0.02077 Sb 0
+As4 0.49350 0.24610 0.98290 0.12000 0.02077 As 0
+S1 0.00000 0.00000 0.00000 1.00000 0.02938 S 0
+S2 0.46810 0.42610 0.51590 1.00000 0.03116 S 0
+S3 0.26210 0.10500 0.45410 1.00000 0.02571 S 0
+S4 0.11070 0.42460 0.52480 1.00000 0.03901 S 0
+S5 0.28900 0.17460 0.94510 1.00000 0.01976 S 0
+S6 0.16050 0.32860 0.95510 1.00000 0.03014 S 0
+S7 0.31520 0.27560 0.57570 1.00000 0.02140 S 0
+Wat1 0.34200 0.00000 0.98600 1.00000 0.06447 O 2
+Wat2 0.15900 0.50000 0.98100 1.00000 0.04293 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012197

@@ -1,0 +1,850 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/04/2100409.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100409
+loop_
+_publ_author_name
+'Friedrich, Alexandra'
+'Haussuehl, Eiken'
+'Morgenroth, Wolfgang'
+'Lieb, Alexandra'
+'Winkler, Bj\"orn'
+'Knorr, Karsten'
+'Schnick, Wolfgang'
+_publ_section_title
+;
+ Crystal structure of the high-pressure phase of the oxonitridosilicate
+ chloride
+ Ce~4~[Si~4~O~3+<i>x~</i>N~7{-~<i>x</i>}]Cl~1{-~<i>x</i>}O~<i>x~</i>,
+ <i>x</i> \\simeq 0.2
+;
+_journal_coeditor_code           BK5022
+_journal_date_accepted           2006-01-26
+_journal_date_recd_electronic    2005-09-10
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              205
+_journal_page_last               211
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S0108768106003302
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_structural     Ce4[Si4O3.07N6.93]Cl0.94O0.06
+_chemical_formula_sum            'Ce4 Cl0.93 N6.93 O3.14 Si4'
+_chemical_formula_weight         853.28
+_chemical_name_systematic
+;
+cerium oxonitridosilicate chloride
+;
+_space_group_IT_number           19
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 21'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00(4)
+_cell_angle_beta                 90.00(4)
+_cell_angle_gamma                90.00(4)
+_cell_formula_units_Z            4
+_cell_length_a                   10.824(9)
+_cell_length_b                   10.479(3)
+_cell_length_c                   8.967(3)
+_cell_measurement_pressure       '8.6 GPa'
+_cell_measurement_reflns_used    16
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      9.9
+_cell_measurement_theta_min      3.12
+_cell_volume                     1017.1(10)
+_computing_cell_refinement       'DIF4 (Eichhorn, 1987a)'
+_computing_data_collection       'DIF4 (Eichhorn, 1987a)'
+_computing_data_reduction
+'REDUCE (Eichhorn, 1987b); AVSORT (Eichhorn, 1978); ABSORB v6.0 (Angel, 2004)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1999)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997b)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997a)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 'NaJ point detector'
+_diffrn_measured_fraction_theta_full 0.539
+_diffrn_measured_fraction_theta_max 0.539
+_diffrn_measurement_device_type  'HUBER diffractometer D3, HASYLAB/DESY'
+_diffrn_measurement_method       'omega scan, continuous, fixed-phi method'
+_diffrn_radiation_monochromator  'Si(111) double crystal'
+_diffrn_radiation_source         'synchrotron HASYLAB/DESY'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.45000
+_diffrn_reflns_av_R_equivalents  0.0841
+_diffrn_reflns_av_sigmaI/netI    0.0922
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            1726
+_diffrn_reflns_theta_full        14.99
+_diffrn_reflns_theta_max         14.99
+_diffrn_reflns_theta_min         1.87
+_diffrn_standards_interval_time  '50 min'
+_diffrn_standards_number         1
+_exptl_absorpt_coefficient_mu    4.888
+_exptl_absorpt_correction_T_max  0.503
+_exptl_absorpt_correction_T_min  0.404
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+;
+Gaussian integration over a grid
+of 16 x 16 x 16 points =  4096 total grid points
+  Based upon method of Burnham (1966)
+ Data corrected for diamond-anvil cell absorption
+ Note that exptl_absorpt_correction_tmin and _tmax
+ the total correction factors applied to the intensities
+ The individual factors are:
+         range of dac transmission factors (min-max)      0.492     0.597
+ thickness of diamond anvil 1:  1.300 mm, mu =  0.0958 mm-1
+       thickness of platten 1:  4.000 mm, mu =  0.0334 mm-1
+ thickness of diamond anvil 2:  1.300 mm, mu =  0.0958 mm-1
+       thickness of platten 2:  4.000 mm, mu =  0.0334 mm-1
+    No gasket shadowing corrections were made
+;
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    5.572
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description
+;
+ round plate,
+ crystal was described in terms of coordinates of corners
+ on the orthogonal phi-axis coordinate system of  Busing and Levy (1967)
+ (ie +Y along beam, +Z up at circles zero, +X to make right-handed set)
+ with origin at the centre of the face of the incident-beam anvil
+  loop is over x, y, z (mm)
+  -0.059000    0.000000    0.032000
+  -0.059000    0.035000    0.032000
+   0.000000    0.000000    0.000000
+   0.000000    0.035000    0.000000  -0.095000    0.000000    0.016000
+  -0.095000    0.035000    0.016000
+  -0.111000    0.000000    0.000000
+  -0.111000    0.035000    0.000000
+  -0.111000    0.000000   -0.044000
+  -0.111000    0.035000   -0.044000
+  -0.087000    0.000000   -0.064000
+  -0.087000    0.035000   -0.064000
+  -0.019000    0.000000   -0.064000
+  -0.019000    0.035000   -0.064000
+   0.000000    0.000000   -0.048000
+   0.000000    0.035000   -0.048000
+;
+_exptl_crystal_F_000             1510
+_exptl_crystal_size_max          0.111
+_exptl_crystal_size_mid          0.096
+_exptl_crystal_size_min          0.035
+_refine_diff_density_max         1.553
+_refine_diff_density_min         -1.977
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.2(2)
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.056
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     79
+_refine_ls_number_reflns         823
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.056
+_refine_ls_R_factor_all          0.0747
+_refine_ls_R_factor_gt           0.0537
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0676P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1133
+_refine_ls_wR_factor_ref         0.1216
+_reflns_number_gt                663
+_reflns_number_total             823
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            bk5022.cif
+_cod_data_source_block           8.6GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from
+2010-06-29.
+
+'_exptl_absorpt_correction_type' value 'Gaussian'
+changed to 'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P2(1)2(1)2(1)
+_cod_database_code               2100409
+_cod_database_fobs_code          2100409
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Ce Ce2 0.0894(4) 0.03956(19) 0.0840(2) 0.0159(15) Uani d . 1
+Ce Ce1A 0.8262(4) 0.69793(17) 0.07711(19) 0.0077(5) Uiso d . 1
+Ce Ce1B 0.0667(4) 0.81923(17) 0.6574(2) 0.0078(5) Uiso d . 1
+Ce Ce1C 0.7035(4) 0.01999(17) 0.7533(2) 0.0098(5) Uiso d . 1
+Si Si1A 0.0935(18) 0.7660(8) 0.2331(9) 0.007(2) Uiso d . 1
+Si Si1B 0.1673(18) 0.0910(8) 0.7450(10) 0.0060(19) Uiso d . 1
+Si Si1C 0.7146(19) 0.2080(8) 0.0357(9) 0.007(2) Uiso d . 1
+Si Si2 0.431(2) 0.4259(8) 0.4629(9) 0.006(2) Uiso d . 1
+Cl Cl 0.9075(17) 0.9163(7) 0.8989(8) 0.0078(19) Uiso d P 0.93
+O O2 0.9075(17) 0.9163(7) 0.8989(8) 0.008(8) Uiso d P 0.07
+O O1 0.348(4) 0.3286(18) 0.359(2) 0.005(5) Uiso d . 1
+O O3A 0.979(5) 0.865(2) 0.215(2) 0.012(9) Uiso d P 0.69
+N N3AA 0.979(5) 0.865(2) 0.215(2) 0.012(8) Uiso d P 0.31
+O O3B 0.198(5) 0.956(2) 0.834(2) 0.010(8) Uiso d P 0.69
+N N3BA 0.198(5) 0.956(2) 0.834(2) 0.010(7) Uiso d P 0.31
+O O3C 0.725(5) 0.267(2) 0.862(3) 0.020(10) Uiso d P 0.69
+N N3CA 0.725(5) 0.267(2) 0.862(3) 0.020(8) Uiso d P 0.31
+N N1C 0.610(6) 0.305(3) 0.123(3) 0.019(8) Uiso d . 1
+N N1B 0.289(7) 0.150(3) 0.645(3) 0.019 Uiso d . 1
+N N1A 0.136(5) 0.706(3) 0.406(3) 0.015(7) Uiso d . 1
+N N2C 0.071(6) 0.047(3) 0.603(3) 0.021(8) Uiso d . 1
+N N2B 0.669(7) 0.051(3) 0.036(3) 0.021(8) Uiso d . 1
+N N2A 0.054(6) 0.630(3) 0.144(3) 0.021(8) Uiso d . 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ce2 0.014(5) 0.0067(9) 0.0267(11) -0.0017(13) 0.0054(16) 0.0072(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+N N 0.0010 0.0012 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0027 0.0022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0330 0.0274 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.0664 0.0632 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ce Ce -0.9381 1.1779 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+N1B Ce2 N3AA 2_554 1_445 63.7(18)
+N1B Ce2 O3A 2_554 1_445 63.7(18)
+N3AA Ce2 O3A 1_445 1_445 0(3)
+N1B Ce2 N1C 2_554 4_455 130.9(18)
+N3AA Ce2 N1C 1_445 4_455 151.8(16)
+O3A Ce2 N1C 1_445 4_455 151.8(16)
+N1B Ce2 N3CA 2_554 4_456 107.0(16)
+N3AA Ce2 N3CA 1_445 4_456 140.6(9)
+O3A Ce2 N3CA 1_445 4_456 140.6(9)
+N1C Ce2 N3CA 4_455 4_456 64.4(12)
+N1B Ce2 O3C 2_554 4_456 107.0(16)
+N3AA Ce2 O3C 1_445 4_456 140.6(9)
+O3A Ce2 O3C 1_445 4_456 140.6(9)
+N1C Ce2 O3C 4_455 4_456 64.4(12)
+N3CA Ce2 O3C 4_456 4_456 0.0(12)
+N1B Ce2 N3BA 2_554 1_544 71.8(11)
+N3AA Ce2 N3BA 1_445 1_544 111.7(8)
+O3A Ce2 N3BA 1_445 1_544 111.7(8)
+N1C Ce2 N3BA 4_455 1_544 63.1(10)
+N3CA Ce2 N3BA 4_456 1_544 99.5(11)
+O3C Ce2 N3BA 4_456 1_544 99.5(11)
+N1B Ce2 O3B 2_554 1_544 71.8(11)
+N3AA Ce2 O3B 1_445 1_544 111.7(8)
+O3A Ce2 O3B 1_445 1_544 111.7(8)
+N1C Ce2 O3B 4_455 1_544 63.1(10)
+N3CA Ce2 O3B 4_456 1_544 99.5(11)
+O3C Ce2 O3B 4_456 1_544 99.5(11)
+N3BA Ce2 O3B 1_544 1_544 0(2)
+N1B Ce2 O2 2_554 1_444 97.7(12)
+N3AA Ce2 O2 1_445 1_444 67.2(9)
+O3A Ce2 O2 1_445 1_444 67.2(9)
+N1C Ce2 O2 4_455 1_444 85.7(12)
+N3CA Ce2 O2 4_456 1_444 149.3(7)
+O3C Ce2 O2 4_456 1_444 149.3(7)
+N3BA Ce2 O2 1_544 1_444 70.9(10)
+O3B Ce2 O2 1_544 1_444 70.9(10)
+N1B Ce2 Cl 2_554 1_444 97.7(12)
+N3AA Ce2 Cl 1_445 1_444 67.2(9)
+O3A Ce2 Cl 1_445 1_444 67.2(9)
+N1C Ce2 Cl 4_455 1_444 85.7(12)
+N3CA Ce2 Cl 4_456 1_444 149.3(7)
+O3C Ce2 Cl 4_456 1_444 149.3(7)
+N3BA Ce2 Cl 1_544 1_444 70.9(10)
+O3B Ce2 Cl 1_544 1_444 70.9(10)
+O2 Ce2 Cl 1_444 1_444 0.0(7)
+N1B Ce2 N1A 2_554 3_545 154.5(16)
+N3AA Ce2 N1A 1_445 3_545 91.1(14)
+O3A Ce2 N1A 1_445 3_545 91.1(14)
+N1C Ce2 N1A 4_455 3_545 73.4(16)
+N3CA Ce2 N1A 4_456 3_545 89.9(13)
+O3C Ce2 N1A 4_456 3_545 89.9(13)
+N3BA Ce2 N1A 1_544 3_545 124.9(10)
+O3B Ce2 N1A 1_544 3_545 124.9(10)
+O2 Ce2 N1A 1_444 3_545 73.9(8)
+Cl Ce2 N1A 1_444 3_545 73.9(8)
+N1B Ce2 Si1C 2_554 4_455 121.7(15)
+N3AA Ce2 Si1C 1_445 4_455 169.9(7)
+O3A Ce2 Si1C 1_445 4_455 169.9(7)
+N1C Ce2 Si1C 4_455 4_455 32.6(12)
+N3CA Ce2 Si1C 4_456 4_455 32.1(6)
+O3C Ce2 Si1C 4_456 4_455 32.1(6)
+N3BA Ce2 Si1C 1_544 4_455 78.4(6)
+O3B Ce2 Si1C 1_544 4_455 78.4(6)
+O2 Ce2 Si1C 1_444 4_455 118.2(3)
+Cl Ce2 Si1C 1_444 4_455 118.2(3)
+N1A Ce2 Si1C 3_545 4_455 82.7(8)
+N3BA Ce1A O3B 4_566 4_566 0(2)
+N3BA Ce1A O1 4_566 3_655 81.0(11)
+O3B Ce1A O1 4_566 3_655 81.0(11)
+N3BA Ce1A N1B 4_566 3_655 80.1(13)
+O3B Ce1A N1B 4_566 3_655 80.1(13)
+O1 Ce1A N1B 3_655 3_655 84.8(16)
+N3BA Ce1A N2C 4_566 3_655 92.7(13)
+O3B Ce1A N2C 4_566 3_655 92.7(13)
+O1 Ce1A N2C 3_655 3_655 149.0(14)
+N1B Ce1A N2C 3_655 3_655 64.3(18)
+N3BA Ce1A N3CA 4_566 2_664 68.4(10)
+O3B Ce1A N3CA 4_566 2_664 68.4(10)
+O1 Ce1A N3CA 3_655 2_664 61.7(11)
+N1B Ce1A N3CA 3_655 2_664 136(2)
+N2C Ce1A N3CA 3_655 2_664 143.2(10)
+N3BA Ce1A O3C 4_566 2_664 68.4(10)
+O3B Ce1A O3C 4_566 2_664 68.4(10)
+O1 Ce1A O3C 3_655 2_664 61.7(11)
+N1B Ce1A O3C 3_655 2_664 136(2)
+N2C Ce1A O3C 3_655 2_664 143.2(10)
+N3CA Ce1A O3C 2_664 2_664 0(2)
+N3BA Ce1A N2A 4_566 1_655 107.3(12)
+O3B Ce1A N2A 4_566 1_655 107.3(12)
+O1 Ce1A N2A 3_655 1_655 146.8(9)
+N1B Ce1A N2A 3_655 1_655 128.0(16)
+N2C Ce1A N2A 3_655 1_655 64.0(15)
+N3CA Ce1A N2A 2_664 1_655 90.9(14)
+O3C Ce1A N2A 2_664 1_655 90.9(14)
+N3BA Ce1A O3A 4_566 . 132.1(8)
+O3B Ce1A O3A 4_566 . 132.1(8)
+O1 Ce1A O3A 3_655 . 90.1(12)
+N1B Ce1A O3A 3_655 . 146.1(9)
+N2C Ce1A O3A 3_655 . 115.5(17)
+N3CA Ce1A O3A 2_664 . 66.1(13)
+O3C Ce1A O3A 2_664 . 66.1(13)
+N2A Ce1A O3A 1_655 . 60.2(11)
+N3BA Ce1A Cl 4_566 1_554 158.6(11)
+O3B Ce1A Cl 4_566 1_554 158.6(11)
+O1 Ce1A Cl 3_655 1_554 85.4(7)
+N1B Ce1A Cl 3_655 1_554 82.3(9)
+N2C Ce1A Cl 3_655 1_554 90.5(8)
+N3CA Ce1A Cl 2_664 1_554 118.8(6)
+O3C Ce1A Cl 2_664 1_554 118.8(6)
+N2A Ce1A Cl 1_655 1_554 93.1(9)
+O3A Ce1A Cl . 1_554 63.9(5)
+N3BA Ce1A O2 4_566 1_554 158.6(11)
+O3B Ce1A O2 4_566 1_554 158.6(11)
+O1 Ce1A O2 3_655 1_554 85.4(7)
+N1B Ce1A O2 3_655 1_554 82.3(9)
+N2C Ce1A O2 3_655 1_554 90.5(8)
+N3CA Ce1A O2 2_664 1_554 118.8(6)
+O3C Ce1A O2 2_664 1_554 118.8(6)
+N2A Ce1A O2 1_655 1_554 93.1(9)
+O3A Ce1A O2 . 1_554 63.9(5)
+Cl Ce1A O2 1_554 1_554 0.0(3)
+N3CA Ce1B O3C 3_656 3_656 0.0(16)
+N3CA Ce1B N1C 3_656 2_565 130.8(13)
+O3C Ce1B N1C 3_656 2_565 130.8(13)
+N3CA Ce1B N2C 3_656 1_565 101.5(18)
+O3C Ce1B N2C 3_656 1_565 101.5(18)
+N1C Ce1B N2C 2_565 1_565 122(2)
+N3CA Ce1B O1 3_656 2_565 63.9(11)
+O3C Ce1B O1 3_656 2_565 63.9(11)
+N1C Ce1B O1 2_565 2_565 92.9(12)
+N2C Ce1B O1 1_565 2_565 136.8(12)
+N3CA Ce1B O3B 3_656 . 68.9(12)
+O3C Ce1B O3B 3_656 . 68.9(12)
+N1C Ce1B O3B 2_565 . 148.0(11)
+N2C Ce1B O3B 1_565 . 64.2(13)
+O1 Ce1B O3B 2_565 . 72.8(8)
+N3CA Ce1B N1A 3_656 . 63.9(13)
+O3C Ce1B N1A 3_656 . 63.9(13)
+N1C Ce1B N1A 2_565 . 82.5(14)
+N2C Ce1B N1A 1_565 . 105.2(11)
+O1 Ce1B N1A 2_565 . 103.3(10)
+O3B Ce1B N1A . . 128.0(16)
+N3CA Ce1B O2 3_656 1_455 134.6(7)
+O3C Ce1B O2 3_656 1_455 134.6(7)
+N1C Ce1B O2 2_565 1_455 79.0(10)
+N2C Ce1B O2 1_565 1_455 79.6(11)
+O1 Ce1B O2 2_565 1_455 84.2(7)
+O3B Ce1B O2 . 1_455 71.3(10)
+N1A Ce1B O2 . 1_455 160.5(13)
+N3CA Ce1B Cl 3_656 1_455 134.6(7)
+O3C Ce1B Cl 3_656 1_455 134.6(7)
+N1C Ce1B Cl 2_565 1_455 79.0(10)
+N2C Ce1B Cl 1_565 1_455 79.6(11)
+O1 Ce1B Cl 2_565 1_455 84.2(7)
+O3B Ce1B Cl . 1_455 71.3(10)
+N1A Ce1B Cl . 1_455 160.5(13)
+O2 Ce1B Cl 1_455 1_455 0.0(6)
+N3CA Ce1B Si1B 3_656 1_565 84.1(7)
+O3C Ce1B Si1B 3_656 1_565 84.1(7)
+N1C Ce1B Si1B 2_565 1_565 145.1(12)
+N2C Ce1B Si1B 1_565 1_565 32.6(11)
+O1 Ce1B Si1B 2_565 1_565 104.3(6)
+O3B Ce1B Si1B . 1_565 31.6(6)
+N1A Ce1B Si1B . 1_565 121.2(9)
+O2 Ce1B Si1B 1_455 1_565 73.0(4)
+Cl Ce1B Si1B 1_455 1_565 73.0(4)
+N3CA Ce1B Si1C 3_656 3_655 31.3(6)
+O3C Ce1B Si1C 3_656 3_655 31.3(6)
+N1C Ce1B Si1C 2_565 3_655 109.7(10)
+N2C Ce1B Si1C 1_565 3_655 103.8(13)
+O1 Ce1B Si1C 2_565 3_655 84.0(8)
+O3B Ce1B Si1C . 3_655 97.4(10)
+N1A Ce1B Si1C . 3_655 32.6(12)
+O2 Ce1B Si1C 1_455 3_655 165.7(4)
+Cl Ce1B Si1C 1_455 3_655 165.7(4)
+Si1B Ce1B Si1C 1_565 3_655 102.2(4)
+N3AA Ce1C O3A 2_665 2_665 0.0(19)
+N3AA Ce1C N2A 2_665 4_556 80.0(16)
+O3A Ce1C N2A 2_665 4_556 80.0(16)
+N3AA Ce1C O1 2_665 4_556 98.4(13)
+O3A Ce1C O1 2_665 4_556 98.4(13)
+N2A Ce1C O1 4_556 4_556 177.7(14)
+N3AA Ce1C N2B 2_665 2_655 120.3(13)
+O3A Ce1C N2B 2_665 2_655 120.3(13)
+N2A Ce1C N2B 4_556 2_655 118.0(11)
+O1 Ce1C N2B 4_556 2_655 61.2(10)
+N3AA Ce1C N2B 2_665 1_556 87.5(14)
+O3A Ce1C N2B 2_665 1_556 87.5(14)
+N2A Ce1C N2B 4_556 1_556 67.3(13)
+O1 Ce1C N2B 4_556 1_556 114.5(12)
+N2B Ce1C N2B 2_655 1_556 151.9(6)
+N3AA Ce1C O3C 2_665 . 69.0(14)
+O3A Ce1C O3C 2_665 . 69.0(14)
+N2A Ce1C O3C 4_556 . 121.6(13)
+O1 Ce1C O3C 4_556 . 59.1(10)
+N2B Ce1C O3C 2_655 . 120.3(13)
+N2B Ce1C O3C 1_556 . 63.2(8)
+N3AA Ce1C O2 2_665 1_545 159.9(6)
+O3A Ce1C O2 2_665 1_545 159.9(6)
+N2A Ce1C O2 4_556 1_545 95.6(13)
+O1 Ce1C O2 4_556 1_545 86.5(10)
+N2B Ce1C O2 2_655 1_545 79.2(13)
+N2B Ce1C O2 1_556 1_545 72.8(14)
+O3C Ce1C O2 . 1_545 97.6(10)
+N3AA Ce1C Cl 2_665 1_545 159.9(6)
+O3A Ce1C Cl 2_665 1_545 159.9(6)
+N2A Ce1C Cl 4_556 1_545 95.6(13)
+O1 Ce1C Cl 4_556 1_545 86.5(10)
+N2B Ce1C Cl 2_655 1_545 79.2(13)
+N2B Ce1C Cl 1_556 1_545 72.8(14)
+O3C Ce1C Cl . 1_545 97.6(10)
+O2 Ce1C Cl 1_545 1_545 0.0(4)
+N3AA Ce1C N1A 2_665 4_556 97.9(13)
+O3A Ce1C N1A 2_665 4_556 97.9(13)
+N2A Ce1C N1A 4_556 4_556 59.0(11)
+O1 Ce1C N1A 4_556 4_556 119.7(10)
+N2B Ce1C N1A 2_655 4_556 60.4(15)
+N2B Ce1C N1A 1_556 4_556 123.9(11)
+O3C Ce1C N1A . 4_556 165.7(12)
+O2 Ce1C N1A 1_545 4_556 96.5(10)
+Cl Ce1C N1A 1_545 4_556 96.5(10)
+N3AA Ce1C Si2 2_665 3_646 83.5(8)
+O3A Ce1C Si2 2_665 3_646 83.5(8)
+N2A Ce1C Si2 4_556 3_646 33.8(7)
+O1 Ce1C Si2 4_556 3_646 148.0(6)
+N2B Ce1C Si2 2_655 3_646 143.7(7)
+N2B Ce1C Si2 1_556 3_646 33.4(11)
+O3C Ce1C Si2 . 3_646 92.8(8)
+O2 Ce1C Si2 1_545 3_646 82.2(4)
+Cl Ce1C Si2 1_545 3_646 82.2(4)
+N1A Ce1C Si2 4_556 3_646 91.4(8)
+N3AA Si1A O3A 1_455 1_455 0(3)
+N3AA Si1A N2A 1_455 . 107(2)
+O3A Si1A N2A 1_455 . 107(2)
+N3AA Si1A N1A 1_455 . 121.5(18)
+O3A Si1A N1A 1_455 . 121.5(18)
+N2A Si1A N1A . . 100.6(15)
+N3AA Si1A N1B 1_455 2_564 101(2)
+O3A Si1A N1B 1_455 2_564 101(2)
+N2A Si1A N1B . 2_564 113(2)
+N1A Si1A N1B . 2_564 113(3)
+N3AA Si1A Ce2 1_455 1_565 50.9(14)
+O3A Si1A Ce2 1_455 1_565 50.9(14)
+N2A Si1A Ce2 . 1_565 124.1(11)
+N1A Si1A Ce2 . 1_565 135.3(11)
+N1B Si1A Ce2 2_564 1_565 50.1(16)
+N3AA Si1A Ce1C 1_455 4_456 151.4(15)
+O3A Si1A Ce1C 1_455 4_456 151.4(15)
+N2A Si1A Ce1C . 4_456 47.7(19)
+N1A Si1A Ce1C . 4_456 62.0(11)
+N1B Si1A Ce1C 2_564 4_456 102.6(16)
+Ce2 Si1A Ce1C 1_565 4_456 149.6(5)
+N3AA Si1A Ce1A 1_455 1_455 54.9(13)
+O3A Si1A Ce1A 1_455 1_455 54.9(13)
+N2A Si1A Ce1A . 1_455 53(2)
+N1A Si1A Ce1A . 1_455 122.3(18)
+N1B Si1A Ce1A 2_564 1_455 124.2(17)
+Ce2 Si1A Ce1A 1_565 1_455 90.3(4)
+Ce1C Si1A Ce1A 4_456 1_455 98.0(3)
+N3AA Si1A Ce2 1_455 3 92.7(15)
+O3A Si1A Ce2 1_455 3 92.7(15)
+N2A Si1A Ce2 . 3 60.5(15)
+N1A Si1A Ce2 . 3 59.0(17)
+N1B Si1A Ce2 2_564 3 166.2(18)
+Ce2 Si1A Ce2 1_565 3 143.6(6)
+Ce1C Si1A Ce2 4_456 3 63.96(19)
+Ce1A Si1A Ce2 1_455 3 63.6(3)
+N3BA Si1B O3B 1_545 1_545 0.0(7)
+N3BA Si1B N1B 1_545 . 114(3)
+O3B Si1B N1B 1_545 . 114(3)
+N3BA Si1B N2C 1_545 . 104.5(17)
+O3B Si1B N2C 1_545 . 104.5(17)
+N1B Si1B N2C . . 100(2)
+N3BA Si1B N1C 1_545 4_456 106.5(14)
+O3B Si1B N1C 1_545 4_456 106.5(14)
+N1B Si1B N1C . 4_456 114(2)
+N2C Si1B N1C . 4_456 117(3)
+N3BA Si1B Ce1A 1_545 3_645 138.8(10)
+O3B Si1B Ce1A 1_545 3_645 138.8(10)
+N1B Si1B Ce1A . 3_645 50.5(17)
+N2C Si1B Ce1A . 3_645 54.5(14)
+N1C Si1B Ce1A 4_456 3_645 114.7(11)
+N3BA Si1B Ce1B 1_545 1_545 54.4(13)
+O3B Si1B Ce1B 1_545 1_545 54.4(13)
+N1B Si1B Ce1B . 1_545 117.6(10)
+N2C Si1B Ce1B . 1_545 50.0(10)
+N1C Si1B Ce1B 4_456 1_545 128.2(19)
+Ce1A Si1B Ce1B 3_645 1_545 95.9(3)
+N3BA Si1B Ce2 1_545 1_556 56.9(11)
+O3B Si1B Ce2 1_545 1_556 56.9(11)
+N1B Si1B Ce2 . 1_556 139.6(17)
+N2C Si1B Ce2 . 1_556 120.0(18)
+N1C Si1B Ce2 4_456 1_556 50.3(10)
+Ce1A Si1B Ce2 3_645 1_556 162.2(6)
+Ce1B Si1B Ce2 1_545 1_556 89.6(3)
+N3BA Si1B Ce2 1_545 2 72.2(16)
+O3B Si1B Ce2 1_545 2 72.2(16)
+N1B Si1B Ce2 . 2 46.0(13)
+N2C Si1B Ce2 . 2 92.9(19)
+N1C Si1B Ce2 4_456 2 148(2)
+Ce1A Si1B Ce2 3_645 2 74.0(3)
+Ce1B Si1B Ce2 1_545 2 78.0(2)
+Ce2 Si1B Ce2 1_556 2 123.8(4)
+N3CA Si1C O3C 1_554 1_554 0.0(16)
+N3CA Si1C N1A 1_554 3_645 103(2)
+O3C Si1C N1A 1_554 3_645 103(2)
+N3CA Si1C N1C 1_554 . 104.6(18)
+O3C Si1C N1C 1_554 . 104.6(18)
+N1A Si1C N1C 3_645 . 120(2)
+N3CA Si1C N2B 1_554 . 111.7(14)
+O3C Si1C N2B 1_554 . 111.7(14)
+N1A Si1C N2B 3_645 . 105(3)
+N1C Si1C N2B . . 112(3)
+N3CA Si1C Ce1B 1_554 3_645 46.0(19)
+O3C Si1C Ce1B 1_554 3_645 46.0(19)
+N1A Si1C Ce1B 3_645 3_645 57.4(11)
+N1C Si1C Ce1B . 3_645 122.0(14)
+N2B Si1C Ce1B . 3_645 125(2)
+N3CA Si1C Ce2 1_554 4 53.6(13)
+O3C Si1C Ce2 1_554 4 53.6(13)
+N1A Si1C Ce2 3_645 4 121.5(11)
+N1C Si1C Ce2 . 4 51.3(10)
+N2B Si1C Ce2 . 4 133(2)
+Ce1B Si1C Ce2 3_645 4 80.0(2)
+N3CA Si1C Ce1C 1_554 2_654 144.9(14)
+O3C Si1C Ce1C 1_554 2_654 144.9(14)
+N1A Si1C Ce1C 3_645 2_654 62.6(10)
+N1C Si1C Ce1C . 2_654 110.2(10)
+N2B Si1C Ce1C . 2_654 50.7(16)
+Ce1B Si1C Ce1C 3_645 2_654 113.7(6)
+Ce2 Si1C Ce1C 4 2_654 161.5(4)
+N3CA Si1C Ce1C 1_554 1_554 59.6(8)
+O3C Si1C Ce1C 1_554 1_554 59.6(8)
+N1A Si1C Ce1C 3_645 1_554 105.8(13)
+N1C Si1C Ce1C . 1_554 134.4(19)
+N2B Si1C Ce1C . 1_554 53.2(10)
+Ce1B Si1C Ce1C 3_645 1_554 79.7(3)
+Ce2 Si1C Ce1C 4 1_554 103.3(3)
+Ce1C Si1C Ce1C 2_654 1_554 91.9(2)
+N3CA Si1C Ce1B 1_554 2_564 114(2)
+O3C Si1C Ce1B 1_554 2_564 114(2)
+N1A Si1C Ce1B 3_645 2_564 141.9(11)
+N1C Si1C Ce1B . 2_564 43.7(17)
+N2B Si1C Ce1B . 2_564 69(2)
+Ce1B Si1C Ce1B 3_645 2_564 157.0(4)
+Ce2 Si1C Ce1B 4 2_564 77.6(4)
+Ce1C Si1C Ce1B 2_654 2_564 89.4(3)
+Ce1C Si1C Ce1B 1_554 2_564 100.1(5)
+N2C Si2 O1 4_556 . 113.9(18)
+N2C Si2 N2B 4_556 3_655 117(2)
+O1 Si2 N2B . 3_655 98(2)
+N2C Si2 N2A 4_556 2_565 108(3)
+O1 Si2 N2A . 2_565 111.6(17)
+N2B Si2 N2A 3_655 2_565 108(2)
+N2C Si2 Ce1C 4_556 3_656 132.3(13)
+O1 Si2 Ce1C . 3_656 113.8(17)
+N2B Si2 Ce1C 3_655 3_656 56.5(10)
+N2A Si2 Ce1C 2_565 3_656 51.6(17)
+N2C Si2 Ce1A 4_556 2_665 54.3(15)
+O1 Si2 Ce1A . 2_665 112.9(13)
+N2B Si2 Ce1A 3_655 2_665 149.2(17)
+N2A Si2 Ce1A 2_565 2_665 58(2)
+Ce1C Si2 Ce1A 3_656 2_665 105.1(3)
+N2C Si2 Ce1C 4_556 4_456 117.3(14)
+O1 Si2 Ce1C . 4_456 49.0(11)
+N2B Si2 Ce1C 3_655 4_456 51.3(15)
+N2A Si2 Ce1C 2_565 4_456 134(2)
+Ce1C Si2 Ce1C 3_656 4_456 94.5(6)
+Ce1A Si2 Ce1C 2_665 4_456 158.4(3)
+N2C Si2 Ce1B 4_556 4_566 47.2(12)
+O1 Si2 Ce1B . 4_566 124.8(8)
+N2B Si2 Ce1B 3_655 4_566 69.8(19)
+N2A Si2 Ce1B 2_565 4_566 123.4(16)
+Ce1C Si2 Ce1B 3_656 4_566 103.0(2)
+Ce1A Si2 Ce1B 2_665 4_566 94.2(6)
+Ce1C Si2 Ce1B 4_456 4_566 90.0(3)
+Ce1C Cl Ce2 1_565 1_666 129.6(3)
+Ce1C Cl Ce1A 1_565 1_556 108.8(6)
+Ce2 Cl Ce1A 1_666 1_556 104.0(3)
+Ce1C Cl Ce1B 1_565 1_655 104.7(3)
+Ce2 Cl Ce1B 1_666 1_655 100.3(6)
+Ce1A Cl Ce1B 1_556 1_655 107.9(3)
+Si2 O1 Ce1A . 3_645 130.5(15)
+Si2 O1 Ce1C . 4_456 100.4(10)
+Ce1A O1 Ce1C 3_645 4_456 87.9(15)
+Si2 O1 Ce1B . 2_564 125(2)
+Ce1A O1 Ce1B 3_645 2_564 96.0(8)
+Ce1C O1 Ce1B 4_456 2_564 109.3(8)
+Si1A O3A Ce1C 1_655 2_664 163.5(17)
+Si1A O3A Ce2 1_655 1_665 98(2)
+Ce1C O3A Ce2 2_664 1_665 95.7(9)
+Si1A O3A Ce1A 1_655 . 95.5(11)
+Ce1C O3A Ce1A 2_664 . 83.5(17)
+Ce2 O3A Ce1A 1_665 . 123.7(9)
+Si1B O3B Ce1A 1_565 4_466 154(3)
+Si1B O3B Ce1B 1_565 . 94.0(16)
+Ce1A O3B Ce1B 4_466 . 99.0(8)
+Si1B O3B Ce2 1_565 1_566 92.1(14)
+Ce1A O3B Ce2 4_466 1_566 101.7(8)
+Ce1B O3B Ce2 . 1_566 116.9(19)
+Si1C O3C Ce1B 1_556 3_646 103(2)
+Si1C O3C Ce2 1_556 4_556 94.3(16)
+Ce1B O3C Ce2 3_646 4_556 112.5(12)
+Si1C O3C Ce1A 1_556 2_665 159(3)
+Ce1B O3C Ce1A 3_646 2_665 95.7(13)
+Ce2 O3C Ce1A 4_556 2_665 87.3(11)
+Si1C O3C Ce1C 1_556 . 88.8(10)
+Ce1B O3C Ce1C 3_646 . 106.0(16)
+Ce2 O3C Ce1C 4_556 . 140(2)
+Ce1A O3C Ce1C 2_665 . 77.0(6)
+Si1C N1C Si1B . 4_556 117(4)
+Si1C N1C Ce1B . 2_564 105.9(15)
+Si1B N1C Ce1B 4_556 2_564 124(2)
+Si1C N1C Ce2 . 4 96.1(16)
+Si1B N1C Ce2 4_556 4 97.4(14)
+Ce1B N1C Ce2 2_564 4 113(2)
+Si1B N1B Si1A . 2_565 120.8(18)
+Si1B N1B Ce1A . 3_645 96(3)
+Si1A N1B Ce1A 2_565 3_645 130.4(17)
+Si1B N1B Ce2 . 2 103.9(13)
+Si1A N1B Ce2 2_565 2 97(3)
+Ce1A N1B Ce2 3_645 2 105.2(10)
+Si1C N1A Si1A 3_655 . 122(3)
+Si1C N1A Ce1B 3_655 . 90.0(12)
+Si1A N1A Ce1B . . 121(2)
+Si1C N1A Ce1C 3_655 4_456 85.5(17)
+Si1A N1A Ce1C . 4_456 85.6(10)
+Ce1B N1A Ce1C . 4_456 149.9(11)
+Si1C N1A Ce2 3_655 3 140.4(15)
+Si1A N1A Ce2 . 3 91(2)
+Ce1B N1A Ce2 . 3 90.2(14)
+Ce1C N1A Ce2 4_456 3 75.0(8)
+Si2 N2C Si1B 4_456 . 141(3)
+Si2 N2C Ce1B 4_456 1_545 103(2)
+Si1B N2C Ce1B . 1_545 97.4(16)
+Si2 N2C Ce1A 4_456 3_645 93.7(13)
+Si1B N2C Ce1A . 3_645 92(2)
+Ce1B N2C Ce1A 1_545 3_645 139(2)
+Si2 N2B Si1C 3_645 . 157(4)
+Si2 N2B Ce1C 3_645 2_654 96.6(12)
+Si1C N2B Ce1C . 2_654 97(2)
+Si2 N2B Ce1C 3_645 1_554 90.1(13)
+Si1C N2B Ce1C . 1_554 94.6(14)
+Ce1C N2B Ce1C 2_654 1_554 130(3)
+Si1A N2A Si2 . 2_564 135(2)
+Si1A N2A Ce1C . 4_456 101(3)
+Si2 N2A Ce1C 2_564 4_456 95(2)
+Si1A N2A Ce1A . 1_455 97(2)
+Si2 N2A Ce1A 2_564 1_455 88(2)
+Ce1C N2A Ce1A 4_456 1_455 152(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Ce2 N1B 2_554 2.45(4)
+Ce2 N3AA 1_445 2.48(3)
+Ce2 O3A 1_445 2.48(3)
+Ce2 N1C 4_455 2.48(3)
+Ce2 N3CA 4_456 2.55(4)
+Ce2 O3C 4_456 2.55(4)
+Ce2 N3BA 1_544 2.68(3)
+Ce2 O3B 1_544 2.68(3)
+Ce2 O2 1_444 2.881(15)
+Ce2 Cl 1_444 2.881(15)
+Ce2 N1A 3_545 3.00(5)
+Ce2 Si1C 4_455 3.160(12)
+Ce1A N3BA 4_566 2.28(4)
+Ce1A O3B 4_566 2.28(4)
+Ce1A O1 3_655 2.40(4)
+Ce1A N1B 3_655 2.41(4)
+Ce1A N2C 3_655 2.52(4)
+Ce1A N3CA 2_664 2.64(2)
+Ce1A O3C 2_664 2.64(2)
+Ce1A N2A 1_655 2.64(7)
+Ce1A O3A . 2.71(4)
+Ce1A Cl 1_554 2.926(10)
+Ce1A O2 1_554 2.926(10)
+Ce1B N3CA 3_656 2.33(6)
+Ce1B O3C 3_656 2.33(6)
+Ce1B N1C 2_565 2.33(6)
+Ce1B N2C 1_565 2.43(3)
+Ce1B O1 2_565 2.55(2)
+Ce1B O3B . 2.57(4)
+Ce1B N1A . 2.66(3)
+Ce1B O2 1_455 2.948(13)
+Ce1B Cl 1_455 2.948(13)
+Ce1B Si1B 1_565 3.148(11)
+Ce1B Si1C 3_655 3.156(17)
+Ce1C N3AA 2_665 2.33(5)
+Ce1C O3A 2_665 2.33(5)
+Ce1C N2A 4_556 2.43(5)
+Ce1C O1 4_556 2.45(3)
+Ce1C N2B 2_655 2.50(5)
+Ce1C N2B 1_556 2.58(3)
+Ce1C O3C . 2.77(2)
+Ce1C O2 1_545 2.786(16)
+Ce1C Cl 1_545 2.786(16)
+Ce1C N1A 4_556 2.86(3)
+Ce1C Si2 3_646 3.095(13)
+Si1A N3AA 1_455 1.63(5)
+Si1A O3A 1_455 1.63(5)
+Si1A N2A . 1.69(3)
+Si1A N1A . 1.73(3)
+Si1A N1B 2_564 1.74(6)
+Si1A Ce2 1_565 3.163(9)
+Si1A Ce1C 4_456 3.227(11)
+Si1A Ce1A 1_455 3.292(19)
+Si1A Ce2 3 3.500(14)
+Si1B N3BA 1_545 1.65(2)
+Si1B O3B 1_545 1.65(2)
+Si1B N1B . 1.71(6)
+Si1B N2C . 1.71(5)
+Si1B N1C 4_456 1.73(4)
+Si1B Ce1A 3_645 3.099(9)
+Si1B Ce1B 1_545 3.148(11)
+Si1B Ce2 1_556 3.200(10)
+Si1B Ce2 2 3.299(17)
+Si1C N3CA 1_554 1.68(2)
+Si1C O3C 1_554 1.68(2)
+Si1C N1A 3_645 1.70(6)
+Si1C N1C . 1.71(5)
+Si1C N2B . 1.71(3)
+Si1C Ce1B 3_645 3.156(17)
+Si1C Ce2 4 3.160(12)
+Si1C Ce1C 2_654 3.209(11)
+Si1C Ce1C 1_554 3.211(9)
+Si1C Ce1B 2_564 3.25(2)
+Si2 N2C 4_556 1.65(7)
+Si2 O1 . 1.65(3)
+Si2 N2B 3_655 1.71(5)
+Si2 N2A 2_565 1.73(3)
+Si2 Ce1C 3_656 3.095(13)
+Si2 Ce1A 2_665 3.10(2)
+Si2 Ce1C 4_456 3.189(19)
+Si2 Ce1B 4_566 3.232(13)
+Cl Ce1C 1_565 2.786(16)
+Cl Ce2 1_666 2.881(15)
+Cl Ce1A 1_556 2.926(10)
+Cl Ce1B 1_655 2.948(13)
+O1 Ce1A 3_645 2.40(4)
+O1 Ce1C 4_456 2.45(3)
+O1 Ce1B 2_564 2.55(2)
+O3A Si1A 1_655 1.63(5)
+O3A Ce1C 2_664 2.33(5)
+O3A Ce2 1_665 2.48(3)
+O3B Si1B 1_565 1.65(2)
+O3B Ce1A 4_466 2.28(4)
+O3B Ce2 1_566 2.68(3)
+O3C Si1C 1_556 1.68(2)
+O3C Ce1B 3_646 2.33(6)
+O3C Ce2 4_556 2.55(4)
+O3C Ce1A 2_665 2.64(2)
+N1C Si1B 4_556 1.73(4)
+N1C Ce1B 2_564 2.33(6)
+N1C Ce2 4 2.48(3)
+N1B Si1A 2_565 1.74(6)
+N1B Ce1A 3_645 2.41(4)
+N1B Ce2 2 2.45(4)
+N1A Si1C 3_655 1.70(6)
+N1A Ce1C 4_456 2.86(3)
+N1A Ce2 3 3.00(5)
+N2C Si2 4_456 1.65(7)
+N2C Ce1B 1_545 2.43(3)
+N2C Ce1A 3_645 2.52(4)
+N2B Si2 3_645 1.71(5)
+N2B Ce1C 2_654 2.50(5)
+N2B Ce1C 1_554 2.58(3)
+N2A Si2 2_564 1.73(3)
+N2A Ce1C 4_456 2.43(5)
+N2A Ce1A 1_455 2.64(7)

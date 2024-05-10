@@ -1,0 +1,448 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 16:30:59 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179974 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/68/7026893.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7026893
+loop_
+_publ_author_name
+'Li, Pei-Xin'
+'Zhang, Su-Yun'
+'Mao, Jiang-Gao'
+_publ_section_title
+;
+ Explorations of new quaternary phases in the Ln(III)-V(V)(d0)-Se(IV)-O
+ (Ln = Nd, Eu, Gd, Tb) systems.
+;
+_journal_issue                   48
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              11560
+_journal_page_last               11567
+_journal_paper_doi               10.1039/c0dt00848f
+_journal_volume                  39
+_journal_year                    2010
+_chemical_formula_sum            'O8 Se2 Tb V'
+_chemical_formula_weight         495.78
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           11
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.009(7)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   6.677(3)
+_cell_length_b                   7.089(3)
+_cell_length_c                   13.323(6)
+_cell_measurement_reflns_used    2313
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.4797
+_cell_measurement_theta_min      2.9612
+_cell_volume                     630.5(5)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_detector_area_resol_mean 28.5714
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.995
+_diffrn_measurement_device_type  Saturn70
+_diffrn_measurement_method       CCD_Profile_fitting
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0463
+_diffrn_reflns_av_sigmaI/netI    0.0640
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            5046
+_diffrn_reflns_theta_full        27.47
+_diffrn_reflns_theta_max         27.47
+_diffrn_reflns_theta_min         3.05
+_exptl_absorpt_coefficient_mu    24.159
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.8317
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    5.223
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Prism
+_exptl_crystal_F_000             880
+_exptl_crystal_size_max          0.0400
+_exptl_crystal_size_mid          0.0300
+_exptl_crystal_size_min          0.0200
+_refine_diff_density_max         1.348
+_refine_diff_density_min         -1.559
+_refine_diff_density_rms         0.312
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.094
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     124
+_refine_ls_number_reflns         1563
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.094
+_refine_ls_R_factor_all          0.0485
+_refine_ls_R_factor_gt           0.0346
+_refine_ls_shift/su_max          0.004
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0141P)^2^+3.3249P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0550
+_refine_ls_wR_factor_ref         0.0595
+_reflns_number_gt                1297
+_reflns_number_total             1563
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c0dt00848f.txt
+_cod_data_source_block           Tb(VO2)(SeO3)2-4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_H-M      P2(1)/m
+_cod_database_code               7026893
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z'
+'-x, -y, -z'
+'x, -y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Tb1 Tb 0.62664(8) 0.2500 -0.13456(4) 0.01116(14) Uani 1 2 d S
+Tb2 Tb 0.07576(8) 0.2500 0.06900(4) 0.01073(14) Uani 1 2 d S
+V1 V 0.3710(2) 0.0085(3) -0.38787(11) 0.0263(4) Uani 1 1 d .
+Se1 Se -0.04003(15) -0.2500 -0.35035(8) 0.0087(2) Uani 1 2 d S
+Se2 Se 0.54660(15) 0.2500 0.13943(8) 0.0096(2) Uani 1 2 d S
+Se3 Se 0.79545(15) 0.2500 -0.40838(8) 0.0066(2) Uani 1 2 d S
+Se4 Se 0.10777(15) 0.2500 -0.16070(8) 0.0113(2) Uani 1 2 d S
+O1 O 0.0205(12) -0.2500 -0.2287(6) 0.0201(19) Uiso 1 2 d S
+O2 O 0.0931(7) -0.0616(7) -0.3939(4) 0.0110(11) Uani 1 1 d .
+O3 O 0.7077(11) 0.2500 0.0422(5) 0.0127(16) Uani 1 2 d S
+O4 O 0.3798(7) 0.0743(8) 0.1086(4) 0.0127(12) Uani 1 1 d .
+O5 O 0.7865(11) 0.2500 -0.2837(5) 0.0139(17) Uani 1 2 d S
+O6 O 0.6393(7) 0.0619(7) -0.4392(4) 0.0079(11) Uani 1 1 d .
+O7 O 0.3073(11) 0.2500 -0.0812(6) 0.0184(18) Uani 1 2 d S
+O8 O -0.0253(7) 0.0796(8) -0.1001(4) 0.0142(12) Uani 1 1 d .
+O9 O 0.4100(8) 0.0646(8) -0.2707(4) 0.0154(12) Uani 1 1 d .
+O10 O 0.2914(10) 0.2500 -0.4321(5) 0.0098(16) Uani 1 2 d S
+O11 O 0.4362(11) -0.2500 -0.3792(5) 0.0109(16) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Tb1 0.0066(3) 0.0189(3) 0.0081(3) 0.000 0.0003(2) 0.000
+Tb2 0.0069(3) 0.0184(3) 0.0069(3) 0.000 -0.0003(2) 0.000
+V1 0.0174(8) 0.0536(11) 0.0079(8) -0.0100(7) 0.0048(6) -0.0212(7)
+Se1 0.0073(5) 0.0084(5) 0.0104(6) 0.000 0.0013(4) 0.000
+Se2 0.0061(5) 0.0153(6) 0.0075(5) 0.000 -0.0010(4) 0.000
+Se3 0.0069(5) 0.0074(5) 0.0056(5) 0.000 -0.0006(4) 0.000
+Se4 0.0066(6) 0.0216(6) 0.0057(5) 0.000 -0.0002(4) 0.000
+O2 0.011(3) 0.009(3) 0.013(3) 0.007(2) 0.005(2) 0.003(2)
+O3 0.015(4) 0.014(4) 0.008(4) 0.000 -0.003(3) 0.000
+O4 0.005(3) 0.022(3) 0.011(3) -0.001(2) 0.000(2) 0.000(2)
+O5 0.020(4) 0.014(4) 0.007(4) 0.000 0.000(3) 0.000
+O6 0.009(3) 0.007(3) 0.008(3) -0.006(2) 0.001(2) -0.0012(19)
+O7 0.011(4) 0.034(5) 0.010(4) 0.000 -0.006(3) 0.000
+O8 0.012(3) 0.016(3) 0.014(3) 0.000(2) 0.004(2) -0.002(2)
+O9 0.020(3) 0.017(3) 0.009(3) -0.001(2) 0.001(2) -0.002(2)
+O10 0.007(4) 0.009(4) 0.014(4) 0.000 -0.001(3) 0.000
+O11 0.012(4) 0.013(4) 0.008(4) 0.000 0.003(3) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+V V 0.3005 0.5294 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Tb Tb -0.1723 4.1537 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O7 Tb1 O5 137.4(3) . .
+O7 Tb1 O4 86.16(12) . 2_655
+O5 Tb1 O4 98.07(12) . 2_655
+O7 Tb1 O4 86.16(12) . 3_655
+O5 Tb1 O4 98.07(12) . 3_655
+O4 Tb1 O4 162.7(2) 2_655 3_655
+O7 Tb1 O3 83.7(3) . .
+O5 Tb1 O3 139.0(3) . .
+O4 Tb1 O3 81.88(12) 2_655 .
+O4 Tb1 O3 81.88(12) 3_655 .
+O7 Tb1 O9 73.0(2) . .
+O5 Tb1 O9 70.16(19) . .
+O4 Tb1 O9 125.53(17) 2_655 .
+O4 Tb1 O9 66.42(16) 3_655 .
+O3 Tb1 O9 141.31(16) . .
+O7 Tb1 O9 73.0(2) . 4_565
+O5 Tb1 O9 70.16(19) . 4_565
+O4 Tb1 O9 66.42(16) 2_655 4_565
+O4 Tb1 O9 125.53(17) 3_655 4_565
+O3 Tb1 O9 141.31(16) . 4_565
+O9 Tb1 O9 59.5(2) . 4_565
+O7 Tb1 O8 140.75(17) . 4_665
+O5 Tb1 O8 74.20(19) . 4_665
+O4 Tb1 O8 62.77(16) 2_655 4_665
+O4 Tb1 O8 116.30(16) 3_655 4_665
+O3 Tb1 O8 69.46(19) . 4_665
+O9 Tb1 O8 144.19(16) . 4_665
+O9 Tb1 O8 111.03(17) 4_565 4_665
+O7 Tb1 O8 140.75(17) . 1_655
+O5 Tb1 O8 74.20(19) . 1_655
+O4 Tb1 O8 116.30(16) 2_655 1_655
+O4 Tb1 O8 62.77(16) 3_655 1_655
+O3 Tb1 O8 69.46(19) . 1_655
+O9 Tb1 O8 111.03(17) . 1_655
+O9 Tb1 O8 144.19(16) 4_565 1_655
+O8 Tb1 O8 54.2(2) 4_665 1_655
+O7 Tb1 Se4 167.84(19) . 1_655
+O5 Tb1 Se4 54.80(18) . 1_655
+O4 Tb1 Se4 92.13(12) 2_655 1_655
+O4 Tb1 Se4 92.13(12) 3_655 1_655
+O3 Tb1 Se4 84.18(18) . 1_655
+O9 Tb1 Se4 117.22(12) . 1_655
+O9 Tb1 Se4 117.22(12) 4_565 1_655
+O8 Tb1 Se4 31.84(11) 4_665 1_655
+O8 Tb1 Se4 31.84(11) 1_655 1_655
+O7 Tb1 Tb2 119.08(19) . 1_655
+O5 Tb1 Tb2 103.55(18) . 1_655
+O4 Tb1 Tb2 85.12(12) 2_655 1_655
+O4 Tb1 Tb2 85.12(12) 3_655 1_655
+O3 Tb1 Tb2 35.43(18) . 1_655
+O9 Tb1 Tb2 148.91(12) . 1_655
+O9 Tb1 Tb2 148.91(12) 4_565 1_655
+O8 Tb1 Tb2 40.52(11) 4_665 1_655
+O8 Tb1 Tb2 40.52(11) 1_655 1_655
+Se4 Tb1 Tb2 48.75(3) 1_655 1_655
+O1 Tb2 O8 77.99(12) 3 2
+O1 Tb2 O8 77.99(12) 3 3
+O8 Tb2 O8 154.1(2) 2 3
+O1 Tb2 O4 92.7(2) 3 4_565
+O8 Tb2 O4 65.34(17) 2 4_565
+O8 Tb2 O4 125.52(17) 3 4_565
+O1 Tb2 O4 92.7(2) 3 .
+O8 Tb2 O4 125.52(17) 2 .
+O8 Tb2 O4 65.34(17) 3 .
+O4 Tb2 O4 61.6(2) 4_565 .
+O1 Tb2 O3 80.6(3) 3 1_455
+O8 Tb2 O3 83.28(12) 2 1_455
+O8 Tb2 O3 83.28(12) 3 1_455
+O4 Tb2 O3 148.61(13) 4_565 1_455
+O4 Tb2 O3 148.61(13) . 1_455
+O1 Tb2 O7 159.4(3) 3 .
+O8 Tb2 O7 102.97(12) 2 .
+O8 Tb2 O7 102.97(12) 3 .
+O4 Tb2 O7 69.80(18) 4_565 .
+O4 Tb2 O7 69.80(18) . .
+O3 Tb2 O7 120.0(2) 1_455 .
+O1 Tb2 O8 137.83(18) 3 4_565
+O8 Tb2 O8 70.50(19) 2 4_565
+O8 Tb2 O8 124.06(14) 3 4_565
+O4 Tb2 O8 98.68(16) 4_565 4_565
+O4 Tb2 O8 128.37(17) . 4_565
+O3 Tb2 O8 68.77(18) 1_455 4_565
+O7 Tb2 O8 58.57(18) . 4_565
+O1 Tb2 O8 137.83(18) 3 .
+O8 Tb2 O8 124.06(14) 2 .
+O8 Tb2 O8 70.50(19) 3 .
+O4 Tb2 O8 128.37(17) 4_565 .
+O4 Tb2 O8 98.68(16) . .
+O3 Tb2 O8 68.77(18) 1_455 .
+O7 Tb2 O8 58.57(18) . .
+O8 Tb2 O8 54.6(2) 4_565 .
+O1 Tb2 Se4 167.3(2) 3 .
+O8 Tb2 Se4 100.63(12) 2 .
+O8 Tb2 Se4 100.63(12) 3 .
+O4 Tb2 Se4 98.25(12) 4_565 .
+O4 Tb2 Se4 98.25(12) . .
+O3 Tb2 Se4 86.71(17) 1_455 .
+O7 Tb2 Se4 33.32(16) . .
+O8 Tb2 Se4 33.80(11) 4_565 .
+O8 Tb2 Se4 33.80(11) . .
+O1 Tb2 Se2 91.0(2) 3 .
+O8 Tb2 Se2 95.04(12) 2 .
+O8 Tb2 Se2 95.04(12) 3 .
+O4 Tb2 Se2 30.87(12) 4_565 .
+O4 Tb2 Se2 30.87(12) . .
+O3 Tb2 Se2 171.59(17) 1_455 .
+O7 Tb2 Se2 68.38(16) . .
+O8 Tb2 Se2 118.48(11) 4_565 .
+O8 Tb2 Se2 118.48(11) . .
+Se4 Tb2 Se2 101.70(3) . .
+O1 Tb2 Tb1 114.8(2) 3 1_455
+O8 Tb2 Tb1 90.64(12) 2 1_455
+O8 Tb2 Tb1 90.64(12) 3 1_455
+O4 Tb2 Tb1 139.34(12) 4_565 1_455
+O4 Tb2 Tb1 139.34(12) . 1_455
+O3 Tb2 Tb1 34.29(17) 1_455 1_455
+O7 Tb2 Tb1 85.74(16) . 1_455
+O8 Tb2 Tb1 40.86(11) 4_565 1_455
+O8 Tb2 Tb1 40.86(11) . 1_455
+Se4 Tb2 Tb1 52.42(3) . 1_455
+Se2 Tb2 Tb1 154.12(3) . 1_455
+O9 V1 O10 96.7(3) . .
+O9 V1 O11 98.4(3) . .
+O10 V1 O11 164.9(3) . .
+O9 V1 O2 104.0(2) . .
+O10 V1 O2 87.4(3) . .
+O11 V1 O2 88.4(3) . .
+O9 V1 O6 98.9(2) . .
+O10 V1 O6 88.3(3) . .
+O11 V1 O6 89.9(3) . .
+O2 V1 O6 157.0(2) . .
+O9 V1 O6 172.2(2) . 3_654
+O10 V1 O6 83.3(2) . 3_654
+O11 V1 O6 81.8(2) . 3_654
+O2 V1 O6 83.84(19) . 3_654
+O6 V1 O6 73.3(2) . 3_654
+O1 Se1 O2 102.2(2) . .
+O1 Se1 O2 102.2(2) . 4
+O2 Se1 O2 102.6(3) . 4
+O3 Se2 O4 103.6(2) . .
+O3 Se2 O4 103.6(2) . 4_565
+O4 Se2 O4 93.1(3) . 4_565
+O3 Se2 Tb2 113.6(2) . .
+O4 Se2 Tb2 46.66(17) . .
+O4 Se2 Tb2 46.66(17) 4_565 .
+O5 Se3 O6 101.8(2) . .
+O5 Se3 O6 101.8(2) . 4_565
+O6 Se3 O6 100.3(3) . 4_565
+O7 Se4 O8 96.6(3) . .
+O7 Se4 O8 96.6(3) . 4_565
+O8 Se4 O8 89.8(4) . 4_565
+O7 Se4 Tb2 56.1(3) . .
+O8 Se4 Tb2 58.92(17) . .
+O8 Se4 Tb2 58.92(17) 4_565 .
+O7 Se4 Tb1 135.0(3) . 1_455
+O8 Se4 Tb1 54.86(17) . 1_455
+O8 Se4 Tb1 54.86(17) 4_565 1_455
+Tb2 Se4 Tb1 78.83(3) . 1_455
+Se1 O1 Tb2 149.2(5) . 3
+Se1 O2 V1 134.0(3) . .
+Se2 O3 Tb1 127.7(4) . .
+Se2 O3 Tb2 122.0(3) . 1_655
+Tb1 O3 Tb2 110.3(3) . 1_655
+Se2 O4 Tb1 134.1(3) . 3_655
+Se2 O4 Tb2 102.5(2) . .
+Tb1 O4 Tb2 121.4(2) 3_655 .
+Se3 O5 Tb1 154.0(4) . .
+Se3 O6 V1 127.8(3) . .
+Se3 O6 V1 113.6(2) . 3_654
+V1 O6 V1 106.7(2) . 3_654
+Se4 O7 Tb1 122.8(4) . .
+Se4 O7 Tb2 90.6(3) . .
+Tb1 O7 Tb2 146.7(3) . .
+Se4 O8 Tb2 147.7(3) . 3
+Se4 O8 Tb2 87.3(2) . .
+Tb2 O8 Tb2 109.50(19) 3 .
+Se4 O8 Tb1 93.3(2) . 1_455
+Tb2 O8 Tb1 110.39(19) 3 1_455
+Tb2 O8 Tb1 98.62(18) . 1_455
+V1 O9 Tb1 148.7(3) . .
+V1 O10 V1 130.7(4) 4_565 .
+V1 O11 V1 152.5(4) 4 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Tb1 O7 2.259(8) .
+Tb1 O5 2.272(8) .
+Tb1 O4 2.325(6) 2_655
+Tb1 O4 2.325(6) 3_655
+Tb1 O3 2.407(7) .
+Tb1 O9 2.648(5) .
+Tb1 O9 2.648(5) 4_565
+Tb1 O8 2.652(5) 4_665
+Tb1 O8 2.652(5) 1_655
+Tb1 Se4 3.2373(18) 1_655
+Tb1 Tb2 4.0075(14) 1_655
+Tb2 O1 2.233(8) 3
+Tb2 O8 2.398(6) 2
+Tb2 O8 2.398(6) 3
+Tb2 O4 2.432(5) 4_565
+Tb2 O4 2.432(5) .
+Tb2 O3 2.477(7) 1_455
+Tb2 O7 2.550(8) .
+Tb2 O8 2.633(5) 4_565
+Tb2 O8 2.633(5) .
+Tb2 Se4 3.0714(18) .
+Tb2 Se2 3.2648(17) .
+Tb2 Tb1 4.0075(14) 1_455
+V1 O9 1.628(5) .
+V1 O10 1.884(3) .
+V1 O11 1.887(3) .
+V1 O2 1.921(5) .
+V1 O6 1.966(5) .
+V1 O6 2.357(5) 3_654
+Se1 O1 1.663(8) .
+Se1 O2 1.711(5) .
+Se1 O2 1.711(5) 4
+Se2 O3 1.698(8) .
+Se2 O4 1.716(5) .
+Se2 O4 1.716(5) 4_565
+Se3 O5 1.663(7) .
+Se3 O6 1.737(5) .
+Se3 O6 1.737(5) 4_565
+Se4 O7 1.687(7) .
+Se4 O8 1.711(5) .
+Se4 O8 1.711(5) 4_565
+Se4 Tb1 3.2373(18) 1_455
+O1 Tb2 2.233(8) 3
+O3 Tb2 2.477(7) 1_655
+O4 Tb1 2.325(6) 3_655
+O6 V1 2.357(5) 3_654
+O8 Tb2 2.398(6) 3
+O8 Tb1 2.652(5) 1_455
+O10 V1 1.884(3) 4_565
+O11 V1 1.887(3) 4

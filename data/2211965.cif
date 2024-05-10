@@ -1,0 +1,530 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 18:35:30 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176787 $
+#$URL: svn://www.crystallography.net/cod/cif/2/21/19/2211965.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2211965
+loop_
+_publ_author_name
+'Hoseop Yun'
+'Gyung-Joo Jang'
+_publ_section_title
+;
+ Dicaesium hexachlorotantalate(IV), Cs~2~TaCl~6~
+;
+_journal_coeditor_code           WM2079
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i22
+_journal_page_last               i23
+_journal_paper_doi               10.1107/S1600536806054754
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_iupac          'Cs2 Ta Cl6'
+_chemical_formula_structural     'Cs2 (Ta Cl6)'
+_chemical_formula_sum            'Cl6 Cs2 Ta'
+_chemical_formula_weight         659.47
+_chemical_name_systematic
+;
+Dicaesium hexachlorotantalate(IV)
+;
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.271(4)
+_cell_length_b                   10.271(4)
+_cell_length_c                   10.271(4)
+_cell_measurement_reflns_used    1243
+_cell_measurement_temperature    200(2)
+_cell_measurement_theta_max      27.50
+_cell_measurement_theta_min      3.00
+_cell_volume                     1083.5(7)
+_computing_cell_refinement       RAPID-AUTO
+_computing_data_collection       'RAPID-AUTO (Rigaku, 2005)'
+_computing_data_reduction        RAPID-AUTO
+_computing_molecular_graphics
+'locally modified version of ORTEP (Johnson, 1965)'
+_computing_publication_material  'WinGX (Farrugia, 1999)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      200(2)
+_diffrn_measured_fraction_theta_full 0.989
+_diffrn_measured_fraction_theta_max 0.989
+_diffrn_measurement_device_type  'Rigaku R-AXIS RAPID CCD'
+_diffrn_measurement_method       \w
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0491
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            2146
+_diffrn_reflns_theta_full        27.5
+_diffrn_reflns_theta_max         27.5
+_diffrn_reflns_theta_min         3.0
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    18.175
+_exptl_absorpt_correction_T_max  0.025
+_exptl_absorpt_correction_T_min  0.008
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   '(NUMABS; Higashi, 2000)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.043
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1140
+_exptl_crystal_size_max          0.30
+_exptl_crystal_size_mid          0.25
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         1.581
+_refine_diff_density_min         -1.443
+_refine_ls_extinction_coef       0.0032(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL97
+_refine_ls_goodness_of_fit_ref   1.184
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     7
+_refine_ls_number_reflns         89
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.184
+_refine_ls_R_factor_gt           0.0279
+_refine_ls_shift/su_max          0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0012P)^2^+79.0954P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.056
+_reflns_number_gt                85
+_reflns_number_total             89
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            wm2079.cif
+_cod_data_source_block           I
+_cod_original_cell_volume        1083.4(7)
+_cod_database_code               2211965
+_cod_database_fobs_code          2211965
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x, z'
+'-x, -y, z'
+'y, -x, z'
+'x, -z, y'
+'x, -y, -z'
+'x, z, -y'
+'z, y, -x'
+'-x, y, -z'
+'-z, y, x'
+'z, x, y'
+'y, z, x'
+'-y, -z, x'
+'z, -x, -y'
+'-y, z, -x'
+'-z, -x, y'
+'-z, x, -y'
+'y, -z, -x'
+'y, x, -z'
+'-y, -x, -z'
+'-x, z, y'
+'-x, -z, -y'
+'z, -y, x'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-y, x+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'y, -x+1/2, z+1/2'
+'x, -z+1/2, y+1/2'
+'x, -y+1/2, -z+1/2'
+'x, z+1/2, -y+1/2'
+'z, y+1/2, -x+1/2'
+'-x, y+1/2, -z+1/2'
+'-z, y+1/2, x+1/2'
+'z, x+1/2, y+1/2'
+'y, z+1/2, x+1/2'
+'-y, -z+1/2, x+1/2'
+'z, -x+1/2, -y+1/2'
+'-y, z+1/2, -x+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, -z+1/2, -x+1/2'
+'y, x+1/2, -z+1/2'
+'-y, -x+1/2, -z+1/2'
+'-x, z+1/2, y+1/2'
+'-x, -z+1/2, -y+1/2'
+'z, -y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-y+1/2, x, z+1/2'
+'-x+1/2, -y, z+1/2'
+'y+1/2, -x, z+1/2'
+'x+1/2, -z, y+1/2'
+'x+1/2, -y, -z+1/2'
+'x+1/2, z, -y+1/2'
+'z+1/2, y, -x+1/2'
+'-x+1/2, y, -z+1/2'
+'-z+1/2, y, x+1/2'
+'z+1/2, x, y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, -z, x+1/2'
+'z+1/2, -x, -y+1/2'
+'-y+1/2, z, -x+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, -z, -x+1/2'
+'y+1/2, x, -z+1/2'
+'-y+1/2, -x, -z+1/2'
+'-x+1/2, z, y+1/2'
+'-x+1/2, -z, -y+1/2'
+'z+1/2, -y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-y+1/2, x+1/2, z'
+'-x+1/2, -y+1/2, z'
+'y+1/2, -x+1/2, z'
+'x+1/2, -z+1/2, y'
+'x+1/2, -y+1/2, -z'
+'x+1/2, z+1/2, -y'
+'z+1/2, y+1/2, -x'
+'-x+1/2, y+1/2, -z'
+'-z+1/2, y+1/2, x'
+'z+1/2, x+1/2, y'
+'y+1/2, z+1/2, x'
+'-y+1/2, -z+1/2, x'
+'z+1/2, -x+1/2, -y'
+'-y+1/2, z+1/2, -x'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, -z+1/2, -x'
+'y+1/2, x+1/2, -z'
+'-y+1/2, -x+1/2, -z'
+'-x+1/2, z+1/2, y'
+'-x+1/2, -z+1/2, -y'
+'z+1/2, -y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'y, -x, -z'
+'x, y, -z'
+'-y, x, -z'
+'-x, z, -y'
+'-x, y, z'
+'-x, -z, y'
+'-z, -y, x'
+'x, -y, z'
+'z, -y, -x'
+'-z, -x, -y'
+'-y, -z, -x'
+'y, z, -x'
+'-z, x, y'
+'y, -z, x'
+'z, x, -y'
+'z, -x, y'
+'-y, z, x'
+'-y, -x, z'
+'y, x, z'
+'x, -z, -y'
+'x, z, y'
+'-z, y, -x'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'y, -x+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'-y, x+1/2, -z+1/2'
+'-x, z+1/2, -y+1/2'
+'-x, y+1/2, z+1/2'
+'-x, -z+1/2, y+1/2'
+'-z, -y+1/2, x+1/2'
+'x, -y+1/2, z+1/2'
+'z, -y+1/2, -x+1/2'
+'-z, -x+1/2, -y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, z+1/2, -x+1/2'
+'-z, x+1/2, y+1/2'
+'y, -z+1/2, x+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, z+1/2, x+1/2'
+'-y, -x+1/2, z+1/2'
+'y, x+1/2, z+1/2'
+'x, -z+1/2, -y+1/2'
+'x, z+1/2, y+1/2'
+'-z, y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'y+1/2, -x, -z+1/2'
+'x+1/2, y, -z+1/2'
+'-y+1/2, x, -z+1/2'
+'-x+1/2, z, -y+1/2'
+'-x+1/2, y, z+1/2'
+'-x+1/2, -z, y+1/2'
+'-z+1/2, -y, x+1/2'
+'x+1/2, -y, z+1/2'
+'z+1/2, -y, -x+1/2'
+'-z+1/2, -x, -y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, z, -x+1/2'
+'-z+1/2, x, y+1/2'
+'y+1/2, -z, x+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, z, x+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, x, z+1/2'
+'x+1/2, -z, -y+1/2'
+'x+1/2, z, y+1/2'
+'-z+1/2, y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'y+1/2, -x+1/2, -z'
+'x+1/2, y+1/2, -z'
+'-y+1/2, x+1/2, -z'
+'-x+1/2, z+1/2, -y'
+'-x+1/2, y+1/2, z'
+'-x+1/2, -z+1/2, y'
+'-z+1/2, -y+1/2, x'
+'x+1/2, -y+1/2, z'
+'z+1/2, -y+1/2, -x'
+'-z+1/2, -x+1/2, -y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, z+1/2, -x'
+'-z+1/2, x+1/2, y'
+'y+1/2, -z+1/2, x'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, z+1/2, x'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+'x+1/2, -z+1/2, -y'
+'x+1/2, z+1/2, y'
+'-z+1/2, y+1/2, -x'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Cs Cs 0.25 0.25 0.25 0.0206(6) Uani d S 1
+Ta Ta 0 0 0 0.0483(9) Uani d S 1
+Cl Cl 0.2331(3) 0 0 0.0188(8) Uani d S 1
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cs 0.0206(6) 0.0206(6) 0.0206(6) 0 0 0
+Ta 0.0483(9) 0.0483(9) 0.0483(9) 0 0 0
+Cl 0.018(2) 0.0193(10) 0.0193(10) 0 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cs Cs -0.368 2.1192 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -0.7052 6.5227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Cl Cs Cl 104 2 55.51(9)
+Cl Cs Cl 104 . 55.51(9)
+Cl Cs Cl 2 . 55.51(9)
+Cl Cs Cl 104 176 174.54(11)
+Cl Cs Cl 2 176 119.925(3)
+Cl Cs Cl . 176 119.925(3)
+Cl Cs Cl 104 50 119.925(3)
+Cl Cs Cl 2 50 174.54(11)
+Cl Cs Cl . 50 119.925(3)
+Cl Cs Cl 176 50 64.44(9)
+Cl Cs Cl 104 25 119.925(3)
+Cl Cs Cl 2 25 119.925(3)
+Cl Cs Cl . 25 174.54(11)
+Cl Cs Cl 176 25 64.44(9)
+Cl Cs Cl 50 25 64.44(9)
+Cl Cs Cl 104 56 90.130(5)
+Cl Cs Cl 2 56 119.925(3)
+Cl Cs Cl . 56 64.44(9)
+Cl Cs Cl 176 56 90.130(6)
+Cl Cs Cl 50 56 55.51(9)
+Cl Cs Cl 25 56 119.925(3)
+Cl Cs Cl 104 32 90.130(5)
+Cl Cs Cl 2 32 64.44(9)
+Cl Cs Cl . 32 119.925(3)
+Cl Cs Cl 176 32 90.130(5)
+Cl Cs Cl 50 32 119.925(3)
+Cl Cs Cl 25 32 55.51(9)
+Cl Cs Cl 56 32 174.54(11)
+Cl Cs Cl 104 170 119.925(3)
+Cl Cs Cl 2 170 90.130(5)
+Cl Cs Cl . 170 64.44(9)
+Cl Cs Cl 176 170 55.51(9)
+Cl Cs Cl 50 170 90.130(6)
+Cl Cs Cl 25 170 119.925(3)
+Cl Cs Cl 56 170 64.44(9)
+Cl Cs Cl 32 170 119.925(3)
+Cl Cs Cl 104 122 64.44(9)
+Cl Cs Cl 2 122 90.130(6)
+Cl Cs Cl . 122 119.925(3)
+Cl Cs Cl 176 122 119.925(3)
+Cl Cs Cl 50 122 90.130(5)
+Cl Cs Cl 25 122 55.51(9)
+Cl Cs Cl 56 122 119.925(3)
+Cl Cs Cl 32 122 55.51(9)
+Cl Cs Cl 170 122 174.54(11)
+Cl Cs Cl 104 169 119.925(3)
+Cl Cs Cl 2 169 64.44(9)
+Cl Cs Cl . 169 90.130(5)
+Cl Cs Cl 176 169 55.51(9)
+Cl Cs Cl 50 169 119.925(3)
+Cl Cs Cl 25 169 90.130(5)
+Cl Cs Cl 56 169 119.925(3)
+Cl Cs Cl 32 169 64.44(9)
+Cl Cs Cl 170 169 55.51(9)
+Cl Cs Cl 122 169 119.925(3)
+Cl Cs Cl 104 145 64.44(9)
+Cl Cs Cl 2 145 119.925(3)
+Cl Cs Cl . 145 90.130(5)
+Cl Cs Cl 176 145 119.925(3)
+Cl Cs Cl 50 145 55.51(9)
+Cl Cs Cl 25 145 90.130(5)
+Cl Cs Cl 56 145 55.51(9)
+Cl Cs Cl 32 145 119.925(3)
+Cl Cs Cl 170 145 119.925(3)
+Cl Cs Cl 122 145 64.44(9)
+Cl Cs Cl 169 145 174.54(11)
+Cl Ta Cl 104 2 90
+Cl Ta Cl 104 . 90
+Cl Ta Cl 2 . 90
+Cl Ta Cl 104 8 180
+Cl Ta Cl 2 8 90
+Cl Ta Cl . 8 90
+Cl Ta Cl 104 98 90
+Cl Ta Cl 2 98 180
+Cl Ta Cl . 98 90
+Cl Ta Cl 8 98 90
+Cl Ta Cl 104 97 90
+Cl Ta Cl 2 97 90
+Cl Ta Cl . 97 180
+Cl Ta Cl 8 97 90
+Cl Ta Cl 98 97 90
+Cl Ta Cs 104 . 54.7
+Cl Ta Cs 2 . 54.7
+Cl Ta Cs . . 54.7
+Cl Ta Cs 8 . 125.3
+Cl Ta Cs 98 . 125.3
+Cl Ta Cs 97 . 125.3
+Cl Ta Cs 104 97 125.3
+Cl Ta Cs 2 97 125.3
+Cl Ta Cs . 97 125.3
+Cl Ta Cs 8 97 54.7
+Cl Ta Cs 98 97 54.7
+Cl Ta Cs 97 97 54.7
+Cs Ta Cs . 97 180
+Cl Ta Cs 104 121 54.7
+Cl Ta Cs 2 121 54.7
+Cl Ta Cs . 121 125.3
+Cl Ta Cs 8 121 125.3
+Cl Ta Cs 98 121 125.3
+Cl Ta Cs 97 121 54.7
+Cs Ta Cs . 121 70.5
+Cs Ta Cs 97 121 109.5
+Cl Ta Cs 104 169 125.3
+Cl Ta Cs 2 169 54.7
+Cl Ta Cs . 169 54.7
+Cl Ta Cs 8 169 54.7
+Cl Ta Cs 98 169 125.3
+Cl Ta Cs 97 169 125.3
+Cs Ta Cs . 169 70.5
+Cs Ta Cs 97 169 109.5
+Cs Ta Cs 121 169 109.5
+Cl Ta Cs 104 145 54.7
+Cl Ta Cs 2 145 125.3
+Cl Ta Cs . 145 54.7
+Cl Ta Cs 8 145 125.3
+Cl Ta Cs 98 145 54.7
+Cl Ta Cs 97 145 125.3
+Cs Ta Cs . 145 70.5
+Cs Ta Cs 97 145 109.5
+Cs Ta Cs 121 145 109.5
+Cs Ta Cs 169 145 109.5
+Cl Ta Cs 104 25_544 125.3
+Cl Ta Cs 2 25_544 125.3
+Cl Ta Cs . 25_544 54.7
+Cl Ta Cs 8 25_544 54.7
+Cl Ta Cs 98 25_544 54.7
+Cl Ta Cs 97 25_544 125.3
+Cs Ta Cs . 25_544 109.5
+Cs Ta Cs 97 25_544 70.5
+Cs Ta Cs 121 25_544 180
+Cs Ta Cs 169 25_544 70.5
+Cs Ta Cs 145 25_544 70.5
+Ta Cl Cs . . 92.73(6)
+Ta Cl Cs . 25_544 92.73(6)
+Cs Cl Cs . 25_544 174.54(11)
+Ta Cl Cs . 169 92.73(6)
+Cs Cl Cs . 169 89.870(5)
+Cs Cl Cs 25_544 169 89.870(5)
+Ta Cl Cs . 145 92.73(6)
+Cs Cl Cs . 145 89.870(5)
+Cs Cl Cs 25_544 145 89.870(5)
+Cs Cl Cs 169 145 174.54(11)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Cs Cl 104 3.6354(14)
+Cs Cl 2 3.6354(14)
+Cs Cl . 3.6354(14)
+Cs Cl 176 3.6354(14)
+Cs Cl 50 3.6354(14)
+Cs Cl 25 3.6354(14)
+Cs Cl 56 3.6354(14)
+Cs Cl 32 3.6354(14)
+Cs Cl 170 3.6354(14)
+Cs Cl 122 3.6354(14)
+Cs Cl 169 3.6354(14)
+Cs Cl 145 3.6354(14)
+Ta Cl 104 2.394(4)
+Ta Cl 2 2.394(4)
+Ta Cl . 2.394(4)
+Ta Cl 8 2.394(4)
+Ta Cl 98 2.394(4)
+Ta Cl 97 2.394(4)
+Ta Cs 97 4.4473(17)
+Ta Cs 121 4.4473(17)
+Ta Cs 169 4.4473(17)
+Ta Cs 145 4.4473(17)
+Ta Cs 25_544 4.4473(17)
+Cl Cs 25_544 3.6354(14)
+Cl Cs 169 3.6354(14)
+Cl Cs 145 3.6354(14)

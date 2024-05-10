@@ -1,0 +1,116 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/13/9011350.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011350
+loop_
+_publ_author_name
+'Menchetti, S.'
+'Sabelli, C.'
+'Trosti-Ferroni R'
+_publ_section_title
+;
+ The structures of onoratoite, Sb8O11Cl2 and Sb8O11Cl2*6H2O
+ Note: anisoB's from ICSD
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              1506
+_journal_page_last               1510
+_journal_paper_doi               10.1107/S0108270184008532
+_journal_volume                  40
+_journal_year                    1984
+_chemical_formula_structural     Sb8O11Cl2*6H2O
+_chemical_formula_sum            'Cl H9.04 O8.54 Sb4'
+_space_group_IT_number           71
+_symmetry_space_group_name_Hall  '-I 2 2'
+_symmetry_space_group_name_H-M   'I m m m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.618
+_cell_length_b                   13.148
+_cell_length_c                   4.078
+_cell_volume                     515.694
+_database_code_amcsd             0009997
+_exptl_crystal_density_diffrn    4.303
+_cod_original_formula_sum        'Sb4 O8.54 Cl H9.04'
+_cod_database_code               9011350
+_amcsd_formula_title             Sb8O11Cl2*6H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+x,-y,z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2-x,1/2+y,1/2-z
+-x,y,z
+1/2-x,1/2+y,1/2+z
+x,-y,-z
+1/2+x,1/2-y,1/2-z
+x,y,-z
+1/2+x,1/2+y,1/2-z
+-x,-y,z
+1/2-x,1/2-y,1/2+z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sb 0.02062 0.04116 0.03176 0.00256 0.00000 0.00000
+O1 0.02578 0.04379 0.08678 -0.00256 0.00000 0.00000
+O2 0.01781 0.04992 0.02131 0.00000 0.00000 0.00000
+Cl 0.07826 0.04729 0.04373 0.00000 0.00000 0.00000
+Wat3 0.17574 0.25748 0.09773 0.00000 0.00000 -0.06791
+Wat4 0.11201 0.19792 0.25949 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Sb 0.18377 0.15356 0.00000 1.00000 0.03128 Sb 0
+O1 0.27980 0.29140 0.00000 0.88000 0.05231 O 0
+O2 0.00000 0.21780 0.00000 1.00000 0.02951 O 0
+Cl 0.50000 0.50000 0.00000 1.00000 0.05649 Cl 0
+Wat3 0.00000 0.39900 0.36400 0.50000 0.17693 O 2
+Wat4 0.00000 0.43100 0.00000 0.51000 0.18972 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:31+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009997

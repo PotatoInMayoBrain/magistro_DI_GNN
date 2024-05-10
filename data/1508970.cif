@@ -1,0 +1,250 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/1/50/89/1508970.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1508970
+loop_
+_publ_author_name
+'Mugnaioli, E.'
+'Andrusenko, I.'
+'Sch\"uler, T.'
+'Loges, N.'
+'Panth\"ofer, M.'
+'Dinnebier, R. E.'
+'Tremel, W.'
+'Kolb, U.'
+_publ_contact_author_address
+;
+Institut f\"ur Physikalische Chemie
+Welderweg 11
+Johannes Gutenberg Universit\"at
+D-55099 Mainz, Germany
+;
+_publ_contact_author_email       kolb@uni-mainz.de
+_publ_contact_author_name        'Dr. Ute Kolb'
+_publ_contact_author_phone       49(6131)3924154
+_publ_section_title
+;
+ Ab Initio Structure Determination of Vaterite by Automated Electron
+ Diffraction
+;
+_journal_issue                   28
+_journal_name_full               'Angewandte Chemie International Edition'
+_journal_page_first              7041
+_journal_page_last               7045
+_journal_paper_doi               10.1002/anie.201200845
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_sum            'C1.5 Ca1.5 O4.5'
+_chemical_formula_weight         150.13
+_chemical_name_mineral           Vaterite
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_atom_type_scat_source
+'P.A. Doyle, P.S. Turner, Acta Crystallogr. A 1968, 24, 390-397'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 118.37
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   12.170
+_cell_length_b                   7.120
+_cell_length_c                   9.470
+_cell_volume                     722.026
+_computing_cell_refinement       ADT3D
+_computing_data_collection       'ADT module'
+_computing_data_reduction        'own developed routines'
+_computing_molecular_graphics    'Materials Studio'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    Sir2008
+_diffrn_ambient_temperature      295(2)
+_diffrn_detector                 '14-bit CCD GATAN 794MSC, 1024x1024 pixels'
+_diffrn_measured_fraction_theta_full 0.813
+_diffrn_measured_fraction_theta_max 0.813
+_diffrn_measurement_device_type  'FEI Tecnai F30 ST'
+_diffrn_radiation_monochromator  not
+_diffrn_radiation_probe          electron
+_diffrn_radiation_type           electrons
+_diffrn_radiation_wavelength     0.01970
+_diffrn_reflns_av_R_equivalents  0.2112
+_diffrn_reflns_av_sigmaI/netI    0.1273
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -7
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            1176
+_diffrn_reflns_theta_full        0.63
+_diffrn_reflns_theta_max         0.63
+_diffrn_reflns_theta_min         0.10
+_exptl_absorpt_coefficient_mu    0.014
+_exptl_crystal_density_diffrn    2.762
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       nanocrystal
+_exptl_crystal_F_000             220
+_exptl_crystal_size_mid          0.00004
+_exptl_crystal_size_min          0.00003
+_refine_diff_density_max         1.170
+_refine_diff_density_min         -0.423
+_refine_diff_density_rms         0.173
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   3.715
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     30
+_refine_ls_number_reflns         427
+_refine_ls_number_restraints     13
+_refine_ls_restrained_S_all      3.689
+_refine_ls_R_factor_all          0.3870
+_refine_ls_R_factor_gt           0.3761
+_refine_ls_shift/su_max          0.006
+_refine_ls_shift/su_mean         0.002
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.6852
+_refine_ls_wR_factor_ref         0.7024
+_reflns_number_gt                314
+_reflns_number_total             427
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            CaCO3_vaterite_C2_c_DC236.cif
+_cod_data_source_block           vaterite_ref_good3_chateigner_2310010
+_cod_original_cell_volume        722.0
+_cod_original_sg_symbol_H-M      C2/c
+_cod_original_formula_sum        'C1.50 Ca1.50 O4.50'
+_cod_database_code               1508970
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ca1 Ca 0.2500 0.2500 0.0000 0.051(5) Uiso 1 2 d S
+Ca2 Ca 0.0793(9) 0.2631(13) 0.5033(10) 0.036(4) Uiso 1 1 d .
+C1 C 0.1837(19) 0.392(3) 0.262(2) 0.048(8) Uiso 1 1 d D
+C2 C 0.0000 0.947(4) 0.2500 0.046(10) Uiso 1 2 d SD
+O1 O 0.092(2) 0.434(5) 0.132(3) 0.094(11) Uiso 1 1 d D
+O2 O 0.200(3) 0.443(5) 0.399(3) 0.101(12) Uiso 1 1 d D
+O3 O 0.057(4) 0.859(4) 0.3831(12) 0.101(12) Uiso 1 1 d D
+O4 O 0.274(2) 0.292(4) 0.265(3) 0.069(9) Uiso 1 1 d D
+O5 O 0.0000 0.129(4) 0.2500 0.071(12) Uiso 1 2 d S
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O4 Ca1 O4 180.000(2) . 7
+O4 Ca1 O3 98.0(10) . 6_565
+O4 Ca1 O3 82.0(10) 7 6_565
+O4 Ca1 O3 82.0(10) . 4_545
+O4 Ca1 O3 98.0(10) 7 4_545
+O3 Ca1 O3 180.0(12) 6_565 4_545
+O4 Ca1 O2 79.0(10) . 4_545
+O4 Ca1 O2 101.0(10) 7 4_545
+O3 Ca1 O2 83.4(11) 6_565 4_545
+O3 Ca1 O2 96.6(11) 4_545 4_545
+O4 Ca1 O2 101.0(10) . 6_565
+O4 Ca1 O2 79.0(10) 7 6_565
+O3 Ca1 O2 96.6(11) 6_565 6_565
+O3 Ca1 O2 83.4(11) 4_545 6_565
+O2 Ca1 O2 180.000(1) 4_545 6_565
+O4 Ca2 O5 136.9(10) 7_556 .
+O4 Ca2 O1 143.2(12) 7_556 2
+O5 Ca2 O1 79.3(9) . 2
+O4 Ca2 O3 84.0(10) 7_556 5_566
+O5 Ca2 O3 105.3(5) . 5_566
+O1 Ca2 O3 78.7(11) 2 5_566
+O4 Ca2 O1 79.8(10) 7_556 6_566
+O5 Ca2 O1 140.6(10) . 6_566
+O1 Ca2 O1 68.0(8) 2 6_566
+O3 Ca2 O1 89.5(9) 5_566 6_566
+O4 Ca2 O2 98.1(11) 7_556 .
+O5 Ca2 O2 80.5(7) . .
+O1 Ca2 O2 93.5(11) 2 .
+O3 Ca2 O2 169.0(11) 5_566 .
+O1 Ca2 O2 80.3(10) 6_566 .
+O1 C1 O2 126(2) . .
+O1 C1 O4 119.8(19) . .
+O2 C1 O4 115(3) . .
+O3 C2 O3 121(2) 2 .
+O3 C2 O5 119.4(10) 2 1_565
+O3 C2 O5 119.4(10) . 1_565
+C1 O1 Ca2 127(2) . 2
+C1 O1 Ca2 121(2) . 6_565
+Ca2 O1 Ca2 112.0(8) 2 6_565
+C1 O2 Ca1 125(2) . 4
+C1 O2 Ca2 115(2) . .
+Ca1 O2 Ca2 113.9(11) 4 .
+C2 O3 Ca1 128(3) . 4
+C2 O3 Ca2 116(2) . 5_566
+Ca1 O3 Ca2 115.1(8) 4 5_566
+C1 O4 Ca1 111.5(17) . .
+C1 O4 Ca2 114(2) . 7_556
+Ca1 O4 Ca2 133.4(12) . 7_556
+C2 O5 Ca2 114.3(7) 1_545 .
+C2 O5 Ca2 114.3(7) 1_545 2
+Ca2 O5 Ca2 131.5(14) . 2
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ca1 O4 2.40(3) .
+Ca1 O4 2.40(3) 7
+Ca1 O3 2.21(4) 6_565
+Ca1 O3 2.21(4) 4_545
+Ca1 O2 2.35(4) 4_545
+Ca1 O2 2.35(4) 6_565
+Ca2 O4 2.11(3) 7_556
+Ca2 O5 2.323(14) .
+Ca2 O1 2.22(3) 2
+Ca2 O3 2.52(4) 5_566
+Ca2 O1 2.45(4) 6_566
+Ca2 O2 2.48(4) .
+C1 O1 1.242(16) .
+C1 O2 1.263(18) .
+C1 O4 1.301(18) .
+C2 O3 1.278(11) 2
+C2 O3 1.278(11) .
+C2 O5 1.297(17) 1_565
+O1 Ca2 2.22(3) 2
+O1 Ca2 2.45(4) 6_565
+O2 Ca1 2.35(4) 4
+O3 Ca1 2.21(4) 4
+O3 Ca2 2.52(4) 5_566
+O4 Ca2 2.11(3) 7_556
+O5 C2 1.297(17) 1_545
+O5 Ca2 2.323(14) 2
