@@ -1,0 +1,366 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/94/4319477.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319477
+loop_
+_publ_author_name
+'N. S. P. Bhuvanesh'
+'P. Shiv Halasyamani'
+_publ_section_title
+;
+ Synthesis and Characterization of NaGaTe2O6.2.4H2O: A New Open-Framework
+ Tellurite Related to Zemannite
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1404
+_journal_page_last               1405
+_journal_paper_doi               10.1021/ic001301c
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'Ga H4.8 Na O8.4 Te2'
+_chemical_formula_weight         487.28
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           163
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 3 2c'
+_symmetry_space_group_name_H-M   'P -3 1 c'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   9.216(7)
+_cell_length_b                   9.216(7)
+_cell_length_c                   16.711(15)
+_cell_measurement_temperature    293.0(2)
+_cell_volume                     1229.2(17)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_diffrn_ambient_temperature      293.0(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0031
+_diffrn_reflns_av_sigmaI/netI    0.0066
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       21
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            973
+_diffrn_reflns_theta_max         28.01
+_diffrn_reflns_theta_min         2.44
+_exptl_absorpt_coefficient_mu    10.401
+_exptl_crystal_density_diffrn    3.908
+_exptl_crystal_F_000             1279
+_refine_diff_density_max         0.663
+_refine_diff_density_min         -0.765
+_refine_diff_density_rms         0.138
+_refine_ls_extinction_coef       0.0145(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.338
+_refine_ls_goodness_of_fit_gt    1.347
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     74
+_refine_ls_number_reflns         973
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.338
+_refine_ls_restrained_S_obs      1.347
+_refine_ls_R_factor_all          0.0169
+_refine_ls_R_factor_gt           0.0165
+_refine_ls_shift/su_max          0.031
+_refine_ls_shift/su_mean         0.004
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0164P)^2^+3.8945P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0434
+_refine_ls_wR_factor_gt          0.0433
+_reflns_number_gt                955
+_reflns_number_total             973
+_reflns_threshold_expression     >4sigma(I)
+_cod_data_source_file            ic001301c.cif
+_cod_data_source_block           IC001301C
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0164P)^2^+3.8945P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0164P)^2^+3.8945P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'H4.8 Ga Na O8.4 Te2'
+_cod_database_code               4319477
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-y, -x, -z+1/2'
+'-x+y, y, -z+1/2'
+'x, x-y, -z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'y, x, z-1/2'
+'x-y, -y, z-1/2'
+'-x, -x+y, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Te Te 0.04782(3) 0.54081(3) 0.105663(12) 0.01222(11) Uani 1 d . .
+Ga1 Ga 0.3333 0.6667 0.25 0.0111(2) Uani 1 d S .
+Ga2 Ga -0.3333 0.3333 0.04805(3) 0.01066(15) Uani 1 d S .
+Na Na 0.12067(15) 0.87933(15) 0.25 0.0315(5) Uani 1 d S .
+O1 O 0.1604(3) 0.4860(3) 0.18309(15) 0.0174(5) Uani 1 d . .
+O2 O -0.1532(3) 0.3355(3) 0.11248(14) 0.0147(5) Uani 1 d . .
+O3 O 0.1486(3) 0.4916(3) 0.01962(14) 0.0151(5) Uani 1 d . .
+O4 O -0.1660(3) 0.6680(6) 0.25 0.0314(9) Uani 1 d S .
+O5 O 0 1 0.141(2) 0.07(2) Uani 0.5 d SP 1
+O5' O -0.026(7) 1.031(9) 0.145(3) 0.08(2) Uani 0.17 d P 2
+O6 O -0.1787(15) 0.9593(19) 0.0122(10) 0.071(4) Uani 0.36 d P .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Te 0.01086(14) 0.01301(14) 0.01229(14) -0.00117(7) -0.00061(7) 0.00559(9)
+Ga1 0.0120(3) 0.0120(3) 0.0093(4) 0 0 0.00601(13)
+Ga2 0.0108(2) 0.0108(2) 0.0103(3) 0 0 0.00542(10)
+Na 0.0249(9) 0.0249(9) 0.0494(15) 0.0007(9) 0.0007(9) 0.0159(10)
+O1 0.0175(12) 0.0152(12) 0.0179(12) -0.0012(9) -0.0072(9) 0.0070(10)
+O2 0.0110(11) 0.0157(11) 0.0154(11) 0.0027(9) -0.0010(9) 0.0052(10)
+O3 0.0164(12) 0.0145(11) 0.0141(11) 0.0013(9) 0.0044(9) 0.0075(10)
+O4 0.030(2) 0.032(2) 0.033(2) 0 -0.0106(15) 0.0161(11)
+O5 0.09(3) 0.09(3) 0.014(10) 0 0 0.046(16)
+O5' 0.028(19) 0.09(4) 0.06(2) -0.04(2) 0.017(13) -0.03(3)
+O6 0.033(6) 0.066(9) 0.109(11) -0.004(8) -0.003(7) 0.022(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O2 Te O1 94.96(11) . . ?
+O2 Te O3 99.22(10) . . ?
+O1 Te O3 93.18(13) . . ?
+O2 Te Na 118.59(8) . . ?
+O1 Te Na 83.51(10) . . ?
+O3 Te Na 142.19(8) . . ?
+O1 Ga1 O1 91.16(11) 3_565 2_665 ?
+O1 Ga1 O1 86.34(15) 3_565 6_565 ?
+O1 Ga1 O1 176.4(2) 2_665 6_565 ?
+O1 Ga1 O1 91.5(2) 3_565 4_665 ?
+O1 Ga1 O1 86.3(2) 2_665 4_665 ?
+O1 Ga1 O1 91.16(11) 6_565 4_665 ?
+O1 Ga1 O1 91.16(11) 3_565 . ?
+O1 Ga1 O1 91.16(11) 2_665 . ?
+O1 Ga1 O1 91.5(2) 6_565 . ?
+O1 Ga1 O1 176.4(2) 4_665 . ?
+O1 Ga1 O1 176.4(2) 3_565 5 ?
+O1 Ga1 O1 91.5(2) 2_665 5 ?
+O1 Ga1 O1 91.16(11) 6_565 5 ?
+O1 Ga1 O1 91.16(11) 4_665 5 ?
+O1 Ga1 O1 86.3(2) . 5 ?
+O1 Ga1 Na 43.17(8) 3_565 . ?
+O1 Ga1 Na 134.27(8) 2_665 . ?
+O1 Ga1 Na 43.17(8) 6_565 . ?
+O1 Ga1 Na 91.80(8) 4_665 . ?
+O1 Ga1 Na 91.80(8) . . ?
+O1 Ga1 Na 134.27(8) 5 . ?
+O1 Ga1 Na 134.27(8) 3_565 2_665 ?
+O1 Ga1 Na 91.79(8) 2_665 2_665 ?
+O1 Ga1 Na 91.80(8) 6_565 2_665 ?
+O1 Ga1 Na 134.27(8) 4_665 2_665 ?
+O1 Ga1 Na 43.17(8) . 2_665 ?
+O1 Ga1 Na 43.17(8) 5 2_665 ?
+Na Ga1 Na 120 . 2_665 ?
+O1 Ga1 Na 91.80(8) 3_565 3_565 ?
+O1 Ga1 Na 43.17(8) 2_665 3_565 ?
+O1 Ga1 Na 134.27(8) 6_565 3_565 ?
+O1 Ga1 Na 43.17(8) 4_665 3_565 ?
+O1 Ga1 Na 134.27(8) . 3_565 ?
+O1 Ga1 Na 91.80(8) 5 3_565 ?
+Na Ga1 Na 120 . 3_565 ?
+Na Ga1 Na 120 2_665 3_565 ?
+O2 Ga2 O2 92.99(10) 2_565 3_455 ?
+O2 Ga2 O2 92.99(10) 2_565 . ?
+O2 Ga2 O2 92.99(10) 3_455 . ?
+O2 Ga2 O3 177.06(10) 2_565 9 ?
+O2 Ga2 O3 85.88(11) 3_455 9 ?
+O2 Ga2 O3 89.77(11) . 9 ?
+O2 Ga2 O3 89.77(11) 2_565 7_565 ?
+O2 Ga2 O3 177.07(10) 3_455 7_565 ?
+O2 Ga2 O3 85.88(11) . 7_565 ?
+O3 Ga2 O3 91.40(11) 9 7_565 ?
+O2 Ga2 O3 85.88(11) 2_565 8_455 ?
+O2 Ga2 O3 89.77(11) 3_455 8_455 ?
+O2 Ga2 O3 177.06(10) . 8_455 ?
+O3 Ga2 O3 91.40(11) 9 8_455 ?
+O3 Ga2 O3 91.40(11) 7_565 8_455 ?
+O4 Na O4 150.6(2) 2_675 . ?
+O4 Na O1 84.17(10) 2_675 3_565 ?
+O4 Na O1 121.22(11) . 3_565 ?
+O4 Na O1 121.22(11) 2_675 6_565 ?
+O4 Na O1 84.17(10) . 6_565 ?
+O1 Na O1 69.42(14) 3_565 6_565 ?
+O4 Na O5' 89(2) 2_675 6_575 ?
+O4 Na O5' 71.2(19) . 6_575 ?
+O1 Na O5' 161.2(10) 3_565 6_575 ?
+O1 Na O5' 100(2) 6_565 6_575 ?
+O4 Na O5' 71.2(19) 2_675 3_465 ?
+O4 Na O5' 89(2) . 3_465 ?
+O1 Na O5' 100(2) 3_565 3_465 ?
+O1 Na O5' 161.2(10) 6_565 3_465 ?
+O5' Na O5' 94(4) 6_575 3_465 ?
+O4 Na O5' 71(2) 2_675 5_455 ?
+O4 Na O5' 89(3) . 5_455 ?
+O1 Na O5' 148(3) 3_565 5_455 ?
+O1 Na O5' 106.6(9) 6_565 5_455 ?
+O5' Na O5' 18(5) 6_575 5_455 ?
+O5' Na O5' 91(2) 3_465 5_455 ?
+O4 Na O5' 89(3) 2_675 2_675 ?
+O4 Na O5' 71(2) . 2_675 ?
+O1 Na O5' 106.6(9) 3_565 2_675 ?
+O1 Na O5' 148(3) 6_565 2_675 ?
+O5' Na O5' 91(2) 6_575 2_675 ?
+O5' Na O5' 18(5) 3_465 2_675 ?
+O5' Na O5' 93(3) 5_455 2_675 ?
+O4 Na O5 79.38(12) 2_675 4_665 ?
+O4 Na O5 79.38(12) . 4_665 ?
+O1 Na O5 157.0(3) 3_565 4_665 ?
+O1 Na O5 105.9(5) 6_565 4_665 ?
+O4 Na O5 79.38(12) 2_675 . ?
+O4 Na O5 79.38(12) . . ?
+O1 Na O5 105.9(5) 3_565 . ?
+O1 Na O5 157.0(3) 6_565 . ?
+O5 Na O5 86.7(11) 4_665 . ?
+O4 Na O5' 78.7(7) 2_675 4_665 ?
+O4 Na O5' 77.8(8) . 4_665 ?
+O1 Na O5' 160.6(9) 3_565 4_665 ?
+O1 Na O5' 112.2(12) 6_565 4_665 ?
+O5' Na O5' 13(3) 6_575 4_665 ?
+O5' Na O5' 83.1(17) 3_465 4_665 ?
+O5' Na O5' 14(3) 5_455 4_665 ?
+O5' Na O5' 82.2(16) 2_675 4_665 ?
+O4 Na O5' 77.8(8) 2_675 . ?
+O4 Na O5' 78.7(7) . . ?
+O1 Na O5' 112.2(12) 3_565 . ?
+O1 Na O5' 160.6(9) 6_565 . ?
+O5' Na O5' 83.1(17) 6_575 . ?
+O5' Na O5' 13(3) 3_465 . ?
+O5' Na O5' 82.2(16) 5_455 . ?
+O5' Na O5' 14(3) 2_675 . ?
+O5' Na O5' 73(3) 4_665 . ?
+Te O1 Ga1 118.95(13) . . ?
+Te O1 Na 137.35(13) . 2_665 ?
+Ga1 O1 Na 102.12(11) . 2_665 ?
+Te O2 Ga2 112.27(12) . . ?
+Te O3 Ga2 123.87(13) . 7_565 ?
+Na O4 Na 89.4(2) 3_465 . ?
+Na O5 Na 78.0(9) 2_675 3_465 ?
+Na O5 Na 78.0(9) 2_675 . ?
+Na O5 Na 78.0(9) 3_465 . ?
+O5' O5' O5' 60.00(7) 2_675 3_465 ?
+O5' O5' Na 123(3) 2_675 2_675 ?
+O5' O5' Na 83(4) 3_465 2_675 ?
+O5' O5' Na 79(4) 2_675 3_465 ?
+O5' O5' Na 119(4) 3_465 3_465 ?
+Na O5' Na 84.6(16) 2_675 3_465 ?
+O5' O5' Na 47(2) 2_675 . ?
+O5' O5' Na 45(2) 3_465 . ?
+Na O5' Na 75.3(18) 2_675 . ?
+Na O5' Na 75(2) 3_465 . ?
+O6 O6 O6 113.4(10) 9_665 8_455 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Te O2 1.876(3) . ?
+Te O1 1.879(3) . ?
+Te O3 1.886(3) . ?
+Te Na 3.729(3) . ?
+Ga1 O1 1.977(3) 3_565 ?
+Ga1 O1 1.977(3) 2_665 ?
+Ga1 O1 1.977(3) 6_565 ?
+Ga1 O1 1.977(3) 4_665 ?
+Ga1 O1 1.977(3) . ?
+Ga1 O1 1.977(3) 5 ?
+Ga1 Na 3.395(3) . ?
+Ga1 Na 3.395(3) 2_665 ?
+Ga1 Na 3.395(3) 3_565 ?
+Ga2 O2 1.971(3) 2_565 ?
+Ga2 O2 1.971(3) 3_455 ?
+Ga2 O2 1.971(3) . ?
+Ga2 O3 2.008(3) 9 ?
+Ga2 O3 2.009(3) 7_565 ?
+Ga2 O3 2.009(3) 8_455 ?
+Na O4 2.372(4) 2_675 ?
+Na O4 2.372(4) . ?
+Na O1 2.375(3) 3_565 ?
+Na O1 2.375(3) 6_565 ?
+Na O5' 2.46(5) 6_575 ?
+Na O5' 2.46(5) 3_465 ?
+Na O5' 2.50(4) 5_455 ?
+Na O5' 2.50(4) 2_675 ?
+Na O5 2.65(2) 4_665 ?
+Na O5 2.65(2) . ?
+Na O5' 2.96(10) 4_665 ?
+Na O5' 2.96(10) . ?
+O1 Na 2.375(3) 2_665 ?
+O3 Ga2 2.009(3) 7_565 ?
+O4 Na 2.372(4) 3_465 ?
+O5 Na 2.65(2) 2_675 ?
+O5 Na 2.65(2) 3_465 ?
+O5' O5' 0.79(19) 2_675 ?
+O5' O5' 0.79(19) 3_465 ?
+O5' Na 2.46(5) 2_675 ?
+O5' Na 2.50(4) 3_465 ?
+O6 O6 1.550(14) 9_665 ?
+O6 O6 1.550(14) 8_455 ?

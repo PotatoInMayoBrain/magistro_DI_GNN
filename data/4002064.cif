@@ -1,0 +1,247 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/20/4002064.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002064
+loop_
+_publ_author_name
+'Fan, Jing'
+'Carrillo-Cabrera, Wilder'
+'Antonyshyn, Iryna'
+'Prots, Yurii'
+'Veremchuk, Igor'
+'Schnelle, Walter'
+'Drathen, Christina'
+'Chen, Lidong'
+'Grin, Yuri'
+_publ_section_title
+;
+ Crystal Structure and Physical Properties of Ternary Phases around the
+ Composition Cu5Sn2Se7with Tetrahedral Coordination of Atoms
+;
+_journal_issue                   18
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              5244
+_journal_paper_doi               10.1021/cm501899q
+_journal_volume                  26
+_journal_year                    2014
+_chemical_compound_source        'high temperature synchrotron diffraction'
+_chemical_formula_sum            'Cu5.6 Se8 Sn2.4'
+_chemical_formula_weight         1272.45
+_space_group_IT_number           121
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I -4 2'
+_symmetry_space_group_name_H-M   'I -4 2 m'
+_audit_creation_method           'WinCSD program'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   5.74738(1)
+_cell_length_b                   5.74738(1)
+_cell_length_c                   11.45583(3)
+_cell_measurement_temperature    873
+_cell_volume                     378.4133(14)
+_computing_cell_refinement       'WinCSD (Akselrud et al, 1993)'
+_computing_data_reduction        'WinCSD (Akselrud et al, 1993)'
+_computing_publication_material
+;
+WinCSD (Akselrud et al, 1993)
+L.G. Akselrud, P.Yu. Zavalii, Yu.N. Grin, 
+V.K. Pecharsky, B. Baumgartner, E. W\"olfel,
+(1993) Materials Science Forum, 133-136, 335-340
+;
+_computing_structure_refinement  'WinCSD (Akselrud et al, 1993)'
+_computing_structure_solution    'WinCSD (Akselrud et al, 1993)'
+_diffrn_ambient_temperature      873
+_diffrn_detector                 'Nine crystal multi-analyser stage'
+_diffrn_detector_type            'position sensitive detector'
+_diffrn_measurement_device_type  'ID31 beamline at ESRF'
+_diffrn_radiation_monochromator  'Si 111 crystal'
+_diffrn_radiation_wavelength     0.430459
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            149
+_diffrn_source                   synchrotron
+_diffrn_source_target
+;
+;
+_diffrn_source_type              'high resolution beamline ID31'
+_exptl_absorpt_coefficient_mu    9.33
+_exptl_crystal_density_diffrn    5.5833(1)
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             554.4
+_pd_char_colour                  metallic-grey
+_pd_char_particle_morphology     isoform
+_pd_instr_location
+; 
+European Synchrotron Radiation Facility (ESRF)
+;
+_pd_meas_2theta_range_inc        0.001
+_pd_meas_2theta_range_max        32
+_pd_meas_2theta_range_min        2.5
+_pd_meas_number_of_points        29501
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+; Preffered orientation was refined using WinCSD
+formula (V.K. Pecharskii, L.G. Akselrud, P.Yu. Zavalii
+(1987) Soviet Physics Crystallogr., 32, 514-516):
+
+I~corr~=I~obs~/[1+(\t^2^-1)^.^sin^2^\f]^1/2^
+
+'Axis'  1  1  0, \t=1.12(2)
+
+;
+_pd_proc_ls_profile_function     pseudo-Voit
+_pd_proc_ls_prof_R_factor        0.0620
+_pd_proc_ls_prof_wR_factor       0.1254
+_pd_spec_mounting                'glass capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.02
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     18
+_refine_ls_R_I_factor            0.0315
+_refine_ls_shift/su_max          0.029
+_refine_ls_shift/su_mean         0.014
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     1/[Y~i~+\s(Y~i~)]
+_refine_ls_weighting_scheme      sigma
+_reflns_number_total             149
+_cod_data_source_file            cm501899q_si_003.cif
+_cod_data_source_block           Cu5.6Se8Sn2.4
+_cod_depositor_comments
+'Adding full bibliography for 4002063--4002064.cif.'
+_cod_original_cell_volume        378.414(2)
+_cod_database_code               4002064
+loop_
+_symmetry_equiv_pos_as_xyz
+' x, y, z'
+'-y, x, -z'
+'-x, -y, z'
+' y, -x, -z'
+'-x, y, -z'
+' y, x, z'
+' x, -y, -z'
+'-y, -x, z'
+' 1/2+x, 1/2+y, 1/2+z'
+' 1/2-y, 1/2+x, 1/2-z'
+' 1/2-x, 1/2-y, 1/2+z'
+' 1/2+y, 1/2-x, 1/2-z'
+' 1/2-x, 1/2+y, 1/2-z'
+' 1/2+y, 1/2+x, 1/2+z'
+' 1/2+x, 1/2-y, 1/2-z'
+' 1/2-y, 1/2-x, 1/2+z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+Cu1 Cu 0 0 0 Uiso 0.074(1) 2 1.0
+Cu2 Cu 0 0 0.5 Uiso 0.058(1) 2 0.113(7)
+Cu3 Cu 0 0.5 0.25 Uiso 0.078(1) 4 0.843(8)
+Sn1 Sn 0 0 0.5 Uiso 0.058(1) 2 0.887(7)
+Sn2 Sn 0 0.5 0.25 Uiso 0.078(1) 4 0.157(8)
+Se Se 0.2570(1) 0.2570(1) 0.3724(1) Uiso 0.045(0) 8 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu Cu 5.60 .259 .509 WinCSD
+Se Se 8.00 .295 .932 WinCSD
+Sn Sn 2.40 -3.547 .578 WinCSD
+loop_
+_diffrn_radiation_type
+synchrotron
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se Cu1 Se 110.72(4) 9_444 10_545 yes
+Se Cu1 Se 107.00(4) 9_444 11_554 yes
+Se Cu1 Se 110.72(4) 9_444 12_455 yes
+Se Cu1 Se 110.72(4) 10_545 11_554 yes
+Se Cu1 Se 107.00(4) 10_545 12_455 yes
+Se Cu1 Se 110.72(4) 11_554 12_455 yes
+Se Cu2 Se 109.19(3) . 2_556 yes
+Se Cu2 Se 110.03(3) . 3_555 yes
+Se Cu2 Se 109.19(3) . 4_556 yes
+Se Cu2 Se 109.19(3) 2_556 3_555 yes
+Se Cu2 Se 110.03(3) 2_556 4_556 yes
+Se Cu2 Se 109.19(3) 3_555 4_556 yes
+Se Cu3 Se 110.80(4) . 3_565 yes
+Se Cu3 Se 108.81(4) . 10_555 yes
+Se Cu3 Se 108.81(4) . 12_455 yes
+Se Cu3 Se 108.81(4) 3_565 10_555 yes
+Se Cu3 Se 108.81(4) 3_565 12_455 yes
+Se Cu3 Se 110.80(4) 10_555 12_455 yes
+Se Sn1 Se 109.19(3) . 2_556 yes
+Se Sn1 Se 110.03(3) . 3_555 yes
+Se Sn1 Se 109.19(3) . 4_556 yes
+Se Sn1 Se 109.19(3) 2_556 3_555 yes
+Se Sn1 Se 110.03(3) 2_556 4_556 yes
+Se Sn1 Se 109.19(3) 3_555 4_556 yes
+Se Sn2 Se 110.80(4) . 3_565 yes
+Se Sn2 Se 108.81(4) . 10_555 yes
+Se Sn2 Se 108.81(4) . 12_455 yes
+Se Sn2 Se 108.81(4) 3_565 10_555 yes
+Se Sn2 Se 108.81(4) 3_565 12_455 yes
+Se Sn2 Se 110.80(4) 10_555 12_455 yes
+Cu1 Se Cu3 110.87(4) 9_555 6_555 yes
+Cu1 Se Cu2 108.52(4) 9_555 . yes
+Cu3 Se Cu3 110.74(4) . 6_555 yes
+Cu3 Se Cu2 107.86(4) . . yes
+Cu3 Se Sn2 110.74(4) 6_555 . yes
+Sn2 Se Cu2 107.86(4) 6_555 . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 Se 2.457(1) 9_444 yes
+Cu1 Se 2.457(1) 10_545 yes
+Cu1 Se 2.457(1) 11_554 yes
+Cu1 Se 2.457(1) 12_455 yes
+Cu2 Se 2.549(1) . yes
+Cu2 Se 2.549(1) 2_556 yes
+Cu2 Se 2.549(1) 3_555 yes
+Cu2 Se 2.549(1) 4_556 yes
+Cu3 Se 2.470(1) . yes
+Cu3 Se 2.470(1) 3_565 yes
+Cu3 Se 2.470(1) 10_555 yes
+Cu3 Se 2.470(1) 12_455 yes
+Sn1 Se 2.549(1) . yes
+Sn1 Se 2.549(1) 2_556 yes
+Sn1 Se 2.549(1) 3_555 yes
+Sn1 Se 2.549(1) 4_556 yes
+Sn2 Se 2.470(1) . yes
+Sn2 Se 2.470(1) 3_565 yes
+Sn2 Se 2.470(1) 10_555 yes
+Sn2 Se 2.470(1) 12_455 yes

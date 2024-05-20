@@ -1,0 +1,278 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-05-24 05:31:50 +0300 (Thu, 24 May 2018) $
+#$Revision: 207947 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/11/2001131.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2001131
+loop_
+_publ_author_name
+'Meetsma, A.'
+'Wiegers, G. A.'
+'de Boer, J. L.'
+_publ_contact_author
+;
+     Meetsma, Auke
+     Department of Chemical Physics
+     Groningen University
+     Nijenborgh 4
+     NL-9747 AG Groningen
+     The Netherlands
+;
+_publ_section_title
+;
+ Structure determination of SnZrS~3~
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2060
+_journal_page_last               2062
+_journal_paper_doi               10.1107/S0108270193005888
+_journal_volume                  49
+_journal_year                    1993
+_chemical_formula_moiety         'Sn Zr S3'
+_chemical_formula_sum            'S3 Sn Zr'
+_chemical_formula_weight         306.133
+_chemical_name_systematic
+;
+ tinzirconiumtrisulfide
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_method
+;
+     spawned by the program PLATON with option: TABLE ACC
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.1880(10)
+_cell_length_b                   3.7170(10)
+_cell_length_c                   13.8390(10)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      34.33
+_cell_measurement_theta_min      32.90
+_cell_volume                     472.63(14)
+_computing_cell_refinement
+;
+     CAD-4 SET4 (de Boer & Duisenberg, 1984)
+;
+_computing_data_collection       'CAD-4 (Enraf-Nonius, 1988)'
+_computing_data_reduction        'EUCLID (Spek, 1982)'
+_computing_molecular_graphics
+;
+     PLUTO92 (Meetsma, 1992; Motherwell & Clegg, 1978)
+;
+_computing_publication_material  'PLATON92 (Spek, 1992)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device
+;
+     CAD-4F Enraf-Nonius single crystal diffractometer
+;
+_diffrn_measurement_method       ' \w/2\q'
+_diffrn_radiation_monochromator  'perpendicular mounted graphite'
+_diffrn_radiation_source         'fine focus Philips Mo tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  0.039
+_diffrn_reflns_av_sigmaI/netI    0.041
+_diffrn_reflns_number            3384
+_diffrn_reflns_reduction_process
+;The intensity data were corrected for the long term scale variation, for
+ Lorentz and polarization effects, but not for absorption. Variance e (I) was
+ calculated based on counting statistics and the term (P^2^I^2^), where P is
+ the instability constant as derived from the excess variance in the reference
+ reflections (McCandlish, Stout & Andrews, 1975).
+;
+_diffrn_reflns_theta_max         40.00
+_diffrn_reflns_theta_min         1.4700
+_diffrn_standards_decay_%        0.1
+_diffrn_standards_interval_time  180
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    8.566
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    4.302
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             552
+_exptl_crystal_size_max          1.6
+_exptl_crystal_size_mid          0.02
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         1.91
+_refine_diff_density_min         -2.87
+_refine_ls_goodness_of_fit_obs   2.190
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     31
+_refine_ls_number_reflns         1174
+_refine_ls_R_factor_obs          0.038
+_refine_ls_shift/esd_max         0.239E-1
+_refine_ls_shift/esd_mean        0.155E-2
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.031
+_reflns_number_observed          1175
+_reflns_number_total             1620
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            ab1082.cif
+_cod_data_source_block           CP189
+_cod_depositor_comments
+;
+ Removing duplicate lines from the aniso value loop.
+
+ Antanas Vaitkus,
+ 2018-05-24
+
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w = 1/[\s^2^(F)]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/[\s^2^(F)]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'S3 Sn1 Zr1'
+_cod_database_code               2001131
+loop_
+_symmetry_equiv_pos_as_xyz
+X,Y,Z
+1/2-X,1/2+Y,1/2+Z
+X,1/2-Y,Z
+1/2-X,-Y,1/2+Z
+-X,-Y,-Z
+1/2+X,1/2-Y,1/2-Z
+-X,1/2+Y,-Z
+1/2+X,Y,1/2-Z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Sn1 .0163(2) .0096(2) .0272(3) 0 -.0042(2) 0
+Zr1 .0121(3) .0067(2) .0131(3) 0 -.0019(2) 0
+S1 .0195(8) .0105(7) .0130(7) 0 -.0032(6) 0
+S2 .0121(6) .0077(6) .0136(6) 0 .0016(6) 0
+S3 .0112(7) .0075(6) .0099(6) 0 .0006(5) 0
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Sn1 .46328(6) -0.25 .17150(4) .01770(10) Uani
+Zr1 .16377(7) 0.25 .04954(4) .0106(2) Uani
+S1 .27420(19) 0.25 .21656(12) .0143(4) Uani
+S2 .33181(18) -0.25 -.00820(11) .0111(3) Uani
+S3 .01227(17) 0.25 -.10761(11) .0095(4) Uani
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+2 0 4
+3 1 4
+-3 1 -4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+S1 Sn1 S2 . . . 85.66(5) yes
+S1 Sn1 S1 . . 1_545 90.39(4) yes
+S1 Sn1 S2 1_545 . . 85.66(5) no
+S1 Zr1 S2 . . . 92.50(5) yes
+S1 Zr1 S3 . . . 171.08(6) yes
+S1 Zr1 S2 . . 1_565 92.50(5) no
+S1 Zr1 S3 . . 5_555 88.10(5) yes
+S1 Zr1 S3 . . 5_565 88.10(5) no
+S2 Zr1 S3 . . . 93.59(4) yes
+S2 Zr1 S2 . . 1_565 93.82(4) yes
+S2 Zr1 S3 . . 5_555 87.27(4) yes
+S2 Zr1 S3 . . 5_565 178.73(5) yes
+S2 Zr1 S3 1_565 . . 93.59(4) no
+S3 Zr1 S3 . . 5_555 85.68(4) yes
+S3 Zr1 S3 . . 5_565 85.68(4) no
+S2 Zr1 S3 1_565 . 5_555 178.73(5) no
+S2 Zr1 S3 1_565 . 5_565 87.27(4) no
+S3 Zr1 S3 5_555 . 5_565 91.64(4) yes
+Sn1 S1 Zr1 . . . 92.79(5) yes
+Sn1 S1 Sn1 . . 1_565 90.39(6) yes
+Sn1 S1 Zr1 1_565 . . 92.79(5) no
+Sn1 S2 Zr1 . . . 89.01(4) yes
+Sn1 S2 Zr1 . . 1_545 89.01(4) no
+Zr1 S2 Zr1 . . 1_545 93.82(6) yes
+Zr1 S3 Zr1 . . 5_555 94.32(4) yes
+Zr1 S3 Zr1 . . 5_565 94.32(4) no
+Zr1 S3 Zr1 5_555 . 5_565 91.64(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Sn1 S1 . . 2.6193(15) yes
+Sn1 S2 . . 2.7647(18) yes
+Sn1 S1 . 1_545 2.6193(15) no
+Sn1 S3 . 2_545 3.065(2) yes
+Zr1 S1 . . 2.5243(19) yes
+Zr1 S2 . . 2.5449(14) yes
+Zr1 S3 . . 2.5821(18) yes
+Zr1 S2 . 1_565 2.5449(14) no
+Zr1 S3 . 5_555 2.5915(14) yes
+Zr1 S3 . 5_565 2.5915(14) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+S2 Sn1 S1 Zr1 . . . . -1.57(4) yes
+S1 Sn1 S2 Zr1 . . . . 1.56(4) yes
+S2 Zr1 S1 Sn1 . . . . 1.70(4) yes
+S1 Zr1 S2 Sn1 . . . . -1.61(4) yes
+S3 Zr1 S2 Sn1 . . . . -175.09(4) yes

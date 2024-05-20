@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/53/9005331.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005331
+loop_
+_publ_author_name
+'Stahl, K.'
+'Hanson, J. C.'
+_publ_section_title
+;
+ An in situ study of the edingtonite dehydration process from
+ X-ray synchrotron powder diffraction
+ Sample: 451 K
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              221
+_journal_page_last               228
+_journal_volume                  10
+_journal_year                    1998
+_chemical_formula_sum            'Al2 Ba0.9 Ca0.1 H3.809 O12.04 Si3'
+_chemical_name_mineral           Edingtonite
+_space_group_IT_number           18
+_symmetry_space_group_name_Hall  'P 2 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.4393
+_cell_length_b                   9.5089
+_cell_length_c                   6.5042
+_cell_volume                     583.800
+_database_code_amcsd             0006716
+_exptl_crystal_density_diffrn    2.630
+_cod_original_formula_sum        '(Ba.9 Ca.1) Al2 Si3 O12.04 H3.809'
+_cod_database_code               9005331
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,1/2+y,-z
+1/2+x,1/2-y,-z
+-x,-y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba 0.50000 0.00000 0.63340 0.90000 0.03673 Ba 0
+Ca 0.50000 0.00000 0.63340 0.10000 0.03673 Ca 0
+Al 0.08720 0.17120 0.63510 1.00000 0.02153 Al 0
+Si1 0.00000 0.00000 0.00530 1.00000 0.02153 Si 0
+Si2 -0.17670 0.09410 0.38550 1.00000 0.02153 Si 0
+O1 0.16680 0.32720 0.60810 1.00000 0.01773 O 0
+O2 -0.05670 0.20540 0.47110 1.00000 0.01773 O 0
+O3 0.18590 0.03400 0.54090 1.00000 0.01773 O 0
+O4 0.02370 0.13870 0.87470 1.00000 0.01773 O 0
+O5 -0.13580 0.03350 0.16650 1.00000 0.01773 O 0
+Wat1 0.13360 0.33380 0.12810 0.16000 0.05193 O 2
+Wat2 0.39970 0.13620 -0.02620 0.86000 0.05193 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:39:14+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006716

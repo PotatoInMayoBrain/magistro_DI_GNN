@@ -1,0 +1,164 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-30 16:30:45 +0200 (Tue, 30 Jan 2018) $
+#$Revision: 205898 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/16/2101636.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101636
+loop_
+_publ_author_name
+'Marcos, C.'
+'Paniagua, A.'
+'Moreiras, D. B.'
+'Garc\'ia-Granda, S.'
+'D\'iaz, M. R.'
+_publ_section_title
+;
+ Villamaninite, a case of noncubic pyrite-type structure
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              899
+_journal_page_last               904
+_journal_paper_doi               10.1107/S0108768196002996
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'Cu S2'
+_chemical_formula_weight         127.224
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           4
+_space_group_name_Hall           'P 2yb'
+_space_group_name_H-M_alt        'P 1 21 1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.010(10)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   5.709(2)
+_cell_length_b                   5.707(2)
+_cell_length_c                   5.708(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      29
+_cell_measurement_theta_min      26
+_cell_volume                     186.00(10)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.060
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            4290
+_diffrn_reflns_theta_max         45
+_diffrn_standards_decay_%        0.94-1.02
+_diffrn_standards_interval_time  60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.200
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            'Greyish purple'
+_exptl_crystal_density_diffrn    4.54
+_exptl_crystal_description       Regular
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         3.67
+_refine_diff_density_min         -2.93
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   0.6521
+_refine_ls_number_parameters     51
+_refine_ls_number_reflns         539
+_refine_ls_R_factor_obs          0.051
+_refine_ls_shift/esd_max         0.3
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w=1/[\s^2^(F~o~) + 0.01F~o~^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.051
+_reflns_number_observed          539
+_reflns_number_total             1611
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            hu1045.cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/[\s^2^(F~o~) + 0.01F~o~^2^]'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w=1/[\s^2^(F~o~) +
+0.01F~o~^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Cu1 S2'
+_cod_database_code               2101636
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,y+1/2,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu(1) .7591(9) .100 .4940(10) .0078(5)
+Cu(2) 1.2513(9) .107(2) -.0020(10) .0090(4)
+S(1) .8550(10) .004(2) .101(2) 0.013(2)
+S(2) 1.150(2) .003(3) .602(2) 0.013(2)
+S(3) .6470(10) .212(2) .8940(10) .006(2)
+S(4) .3570(10) .211(3) .3950(10) .008(2)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+S(2) Cu(1) S(1) 88.6(4) yes
+S(3) Cu(1) S(1) 177.4(6) yes
+S(3) Cu(1) S(2) 93.7(4) yes
+S(4) Cu(1) S(1) 93.2(4) yes
+S(4) Cu(1) S(2) 177.9(6) yes
+S(4) Cu(1) S(3) 84.5(3) yes
+S(2) Cu(2) S(1) 86.7(4) yes
+S(3) Cu(2) S(1) 179.8(2) yes
+S(3) Cu(2) S(2) 93.2(3) yes
+S(4) Cu(2) S(1) 93.7(4) yes
+S(4) Cu(2) S(2) 179.5(5) yes
+S(4) Cu(2) S(3) 86.4(3) yes
+S(3) S(1) Cu(1) 106.2(3) yes
+S(3) S(1) Cu(2) 105.2(4) yes
+S(4) S(2) Cu(1) 104.9(4) yes
+S(4) S(2) Cu(2) 105.0(3) yes
+Cu(2) S(1) Cu(1) 113.1(5) yes
+Cu(2) S(2) Cu(1) 114.3(5) yes
+Cu(2) S(3) Cu(1) 114.1(4) yes
+Cu(2) S(4) Cu(1) 112.8(4) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu(1) S(1) 2.370(10) yes
+Cu(1) S(2) 2.380(10) yes
+Cu(1) S(3) 2.460(10) yes
+Cu(1) S(4) 2.450(10) yes
+Cu(2) S(1) 2.410(10) yes
+Cu(2) S(2) 2.410(10) yes
+Cu(2) S(3) 2.410(8) yes
+Cu(2) S(4) 2.420(10) yes
+S(1) S(3) 2.050(4) yes
+S(2) S(4) 2.051(4) yes

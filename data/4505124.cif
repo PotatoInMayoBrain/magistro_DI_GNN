@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-24 02:34:26 +0200 (Thu, 24 Mar 2016) $
+#$Revision: 179586 $
+#$URL: svn://www.crystallography.net/cod/cif/4/50/51/4505124.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4505124
+loop_
+_publ_author_name
+'Fu, Ruibiao'
+'Xiang, Shengchang'
+'Zhang, Huishuang'
+'Zhang, Jianjun'
+'Wu, Xintao'
+_publ_section_title
+;
+ Syntheses, Characterization, and Magnetic Properties of Four New Layered
+ Transition-Metal Hydroxyl&#x2212;Carboxylate&#x2212;Phosphonates:&#x2009;
+ [M(CH(OH)(CO2)(PO3H))(H2O)2] (M = Mn, Fe, Co, Zn)
+;
+_journal_issue                   5
+_journal_name_full               'Crystal Growth &amp; Design'
+_journal_page_first              1795
+_journal_paper_doi               10.1021/cg050065j
+_journal_volume                  5
+_journal_year                    2005
+_chemical_formula_sum            'C2 H7 Co O8 P'
+_chemical_formula_weight         248.98
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 109.522(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.678(2)
+_cell_length_b                   15.469(6)
+_cell_length_c                   7.846(3)
+_cell_measurement_reflns_used    2234
+_cell_measurement_temperature    130.15
+_cell_measurement_theta_max      27.4835
+_cell_measurement_theta_min      2.6348
+_cell_volume                     649.5(4)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      130.15
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'Rotating Anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0196
+_diffrn_reflns_av_sigmaI/netI    0.0191
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            4932
+_diffrn_reflns_theta_full        27.48
+_diffrn_reflns_theta_max         27.48
+_diffrn_reflns_theta_min         2.63
+_exptl_absorpt_coefficient_mu    2.899
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  0.7891
+_exptl_absorpt_correction_type   multi-scan
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    2.546
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             500
+_exptl_crystal_size_max          0.1500
+_exptl_crystal_size_mid          0.1000
+_exptl_crystal_size_min          0.1000
+_refine_diff_density_max         0.522
+_refine_diff_density_min         -0.419
+_refine_diff_density_rms         0.076
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.082
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     137
+_refine_ls_number_reflns         1490
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.082
+_refine_ls_R_factor_all          0.0223
+_refine_ls_R_factor_gt           0.0201
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0213P)^2^+0.5706P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0478
+_refine_ls_wR_factor_ref         0.0487
+_reflns_number_gt                1398
+_reflns_number_total             1490
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            cg050065jsi20050222_103220.cif
+_cod_data_source_block           3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P2(1)/c
+_cod_database_code               4505124
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+Co1 Co 0.27180(4) 0.364480(15) 0.52417(3) 0.00541(8) Uani 1 1 d
+P1 P 0.02496(8) 0.18169(3) 0.33568(6) 0.00585(11) Uani 1 1 d
+O1 O 0.5447(2) 0.37357(8) 0.39099(18) 0.0074(3) Uani 1 1 d
+H1 H 0.691(5) 0.3692(17) 0.463(4) 0.024(7) Uiso 1 1 d
+H2 H 0.536(4) 0.4229(17) 0.348(3) 0.018(6) Uiso 1 1 d
+O2 O 0.4765(2) 0.45277(8) 0.71554(17) 0.0076(2) Uani 1 1 d
+O3 O 0.0485(2) 0.45480(9) 0.34717(19) 0.0095(3) Uani 1 1 d
+H3 H -0.029(5) 0.4436(17) 0.250(4) 0.024(7) Uiso 1 1 d
+H4 H 0.047(5) 0.508(2) 0.357(4) 0.025(7) Uiso 1 1 d
+O4 O 0.5373(2) 0.28346(8) 0.71446(17) 0.0079(3) Uani 1 1 d
+H5 H 0.520(5) 0.236(2) 0.751(4) 0.035(8) Uiso 1 1 d
+O5 O 0.0028(2) 0.13677(8) 0.15777(17) 0.0067(2) Uani 1 1 d
+O6 O 0.0843(2) 0.27606(8) 0.34113(17) 0.0084(3) Uani 1 1 d
+O7 O 0.2219(2) 0.13597(9) 0.49911(17) 0.0093(3) Uani 1 1 d
+H6 H 0.233(5) 0.083(2) 0.504(4) 0.033(8) Uiso 1 1 d
+O8 O -0.2407(2) 0.03116(9) 0.49110(17) 0.0099(3) Uani 1 1 d
+C1 C -0.2846(3) 0.17087(11) 0.3622(2) 0.0066(3) Uani 1 1 d
+H7 H -0.275(4) 0.1933(15) 0.478(3) 0.008(5) Uiso 1 1 d
+C2 C -0.3593(3) 0.07577(11) 0.3563(2) 0.0069(3) Uani 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Co1 0.00507(12) 0.00483(13) 0.00569(13) -0.00056(8) 0.00096(9) -0.00033(8)
+P1 0.0057(2) 0.0055(2) 0.0059(2) -0.00081(15) 0.00138(16) -0.00101(16)
+O1 0.0063(6) 0.0071(6) 0.0080(6) 0.0012(5) 0.0012(5) 0.0001(5)
+O2 0.0067(6) 0.0070(6) 0.0072(6) 0.0010(5) 0.0001(5) 0.0007(5)
+O3 0.0128(6) 0.0065(6) 0.0059(7) -0.0002(5) -0.0015(5) 0.0011(5)
+O4 0.0084(6) 0.0052(6) 0.0078(6) 0.0006(5) -0.0002(5) -0.0022(5)
+O5 0.0061(6) 0.0075(6) 0.0066(6) -0.0012(4) 0.0024(5) -0.0005(5)
+O6 0.0090(6) 0.0066(6) 0.0085(6) -0.0017(5) 0.0016(5) -0.0019(5)
+O7 0.0095(6) 0.0078(7) 0.0085(7) -0.0001(5) 0.0004(5) 0.0003(5)
+O8 0.0105(6) 0.0091(6) 0.0084(6) 0.0022(5) 0.0009(5) 0.0005(5)
+C1 0.0061(8) 0.0072(8) 0.0057(8) 0.0002(6) 0.0010(6) 0.0005(6)
+C2 0.0072(8) 0.0071(8) 0.0075(8) -0.0002(6) 0.0040(6) 0.0008(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O6 Co1 O2 177.92(5) . .
+O6 Co1 O3 85.46(6) . .
+O2 Co1 O3 96.33(6) . .
+O6 Co1 O5 92.86(5) . 4_566
+O2 Co1 O5 88.29(5) . 4_566
+O3 Co1 O5 87.54(6) . 4_566
+O6 Co1 O4 100.46(6) . .
+O2 Co1 O4 77.68(5) . .
+O3 Co1 O4 172.87(5) . .
+O5 Co1 O4 96.07(5) 4_566 .
+O6 Co1 O1 89.59(6) . .
+O2 Co1 O1 89.32(6) . .
+O3 Co1 O1 90.53(6) . .
+O5 Co1 O1 176.75(5) 4_566 .
+O4 Co1 O1 85.58(6) . .
+O6 P1 O5 114.79(7) . .
+O6 P1 O7 109.03(7) . .
+O5 P1 O7 111.25(8) . .
+O6 P1 C1 107.41(8) . .
+O5 P1 C1 105.76(8) . .
+O7 P1 C1 108.30(8) . .
+C2 O2 Co1 118.29(11) 4_666 .
+C1 O4 Co1 114.55(10) 4_666 .
+P1 O5 Co1 127.10(7) . 4_565
+P1 O6 Co1 138.13(8) . .
+O4 C1 C2 109.53(14) 4_465 .
+O4 C1 P1 107.63(12) 4_465 .
+C2 C1 P1 110.43(12) . .
+O8 C2 O2 125.20(16) . 4_465
+O8 C2 C1 116.06(15) . .
+O2 C2 C1 118.65(15) 4_465 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Co1 O6 2.0112(13) .
+Co1 O2 2.0748(13) .
+Co1 O3 2.0765(14) .
+Co1 O5 2.1215(14) 4_566
+Co1 O4 2.1374(14) .
+Co1 O1 2.1436(14) .
+P1 O6 1.4956(14) .
+P1 O5 1.5264(14) .
+P1 O7 1.5609(14) .
+P1 C1 1.8453(19) .
+O2 C2 1.263(2) 4_666
+O4 C1 1.443(2) 4_666
+O5 Co1 2.1215(14) 4_565
+O8 C2 1.254(2) .
+C1 O4 1.443(2) 4_465
+C1 C2 1.527(2) .
+C2 O2 1.263(2) 4_465

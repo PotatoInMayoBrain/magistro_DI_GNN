@@ -1,0 +1,119 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/07/9000789.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000789
+loop_
+_publ_author_name
+'Alberti, A.'
+'Galli, E.'
+_publ_section_title
+;
+ The structure of nekoite, Ca3Si6O15*7H2O, a new type of sheet silicate
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1270
+_journal_page_last               1276
+_journal_volume                  65
+_journal_year                    1980
+_chemical_compound_source        'Caxias do Sul, Rio Grande do Sul, Brazil'
+_chemical_formula_sum            'Ca3 H14 O22 Si6'
+_chemical_name_mineral           Nekoite
+_space_group_IT_number           1
+_symmetry_space_group_name_Hall  'P 1'
+_symmetry_space_group_name_H-M   'P 1'
+_cell_angle_alpha                111.77
+_cell_angle_beta                 103.50
+_cell_angle_gamma                86.53
+_cell_formula_units_Z            1
+_cell_length_a                   7.588
+_cell_length_b                   9.793
+_cell_length_c                   7.339
+_cell_volume                     492.263
+_database_code_amcsd             0000803
+_exptl_crystal_density_diffrn    2.209
+_cod_original_formula_sum        'Ca3 Si6 O22 H14'
+_cod_database_code               9000789
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.03748 0.00419 0.01674 0.00068 0.00322 0.00183
+Ca2 0.03665 0.00502 0.01517 0.00272 0.00595 0.00245
+Ca3 0.03803 0.00084 0.01607 0.00374 0.00397 0.00367
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.53660 0.16580 0.47310 ? Ca 0
+Ca2 0.46710 -0.16080 0.55950 ? Ca 0
+Ca3 0.44930 -0.16280 0.02970 ? Ca 0
+Si1 0.15720 0.13740 0.07910 0.01140 Si 0
+Si2 -0.12870 -0.12290 -0.04280 0.02153 Si 0
+Si3 -0.13800 -0.10580 0.39780 0.01267 Si 0
+Si4 0.16020 0.14140 0.66240 0.01520 Si 0
+Si5 0.18020 0.37830 0.48970 0.01520 Si 0
+Si6 0.06950 0.70510 0.63580 0.01646 Si 0
+O1 -0.02180 0.02910 -0.00460 0.03166 O 0
+O2 0.10230 0.27960 0.24850 0.02786 O 0
+O3 -0.03660 -0.26160 -0.18350 0.02660 O 0
+O4 0.33570 0.06050 0.15730 0.03293 O 0
+O5 -0.33540 -0.10780 -0.11820 0.02660 O 0
+O6 -0.09210 -0.14870 0.18100 0.03673 O 0
+O7 0.17170 0.19390 -0.09260 0.02153 O 0
+O8 -0.03230 0.03840 0.54390 0.03293 O 0
+O9 -0.06970 -0.24010 0.46120 0.01900 O 0
+O10 0.11690 0.29310 0.62190 0.01773 O 0
+O11 -0.35580 -0.08130 0.37680 0.01900 O 0
+O12 0.33130 0.05890 0.59230 0.02913 O 0
+O13 0.07510 0.52890 0.53390 0.02026 O 0
+O14 0.39950 0.39230 0.54640 0.02786 O 0
+O15 0.25430 0.78730 0.71480 0.04686 O 0
+Wat1 0.50540 -0.42100 -0.07700 0.04939 O 2
+Wat2 0.54990 -0.41320 0.45860 0.06206 O 2
+Wat3 0.70840 0.20840 0.82070 0.10132 O 2
+Wat4 0.71410 0.21830 0.28770 0.09372 O 2
+Wat5 0.08250 0.50930 0.03570 0.08486 O 2
+Wat6 0.75980 0.45880 0.16610 0.06586 O 2
+Wat7 0.27450 -0.24320 0.22510 0.02786 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000803

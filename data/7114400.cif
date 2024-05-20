@@ -1,0 +1,241 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 14:21:19 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180258 $
+#$URL: svn://www.crystallography.net/cod/cif/7/11/44/7114400.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7114400
+loop_
+_publ_author_name
+'Hamilton, Barton H.'
+'Ziegler, Christopher J.'
+_publ_section_title
+;
+ The structures of Cu(i) and Ag(i) coordination polymers using the
+ tricyanofluoroborate anion
+;
+_journal_issue                   8
+_journal_name_full               'Chemical Communications'
+_journal_page_first              842
+_journal_paper_doi               10.1039/b201442d
+_journal_year                    2002
+_chemical_formula_sum            'C5 H3 Ag B F N4'
+_chemical_formula_weight         256.79
+_chemical_name_common            'silver tricyanofluoroborate'
+_chemical_name_systematic
+; 
+? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   8.7909(18)
+_cell_length_b                   8.1413(16)
+_cell_length_c                   12.743(3)
+_cell_measurement_reflns_used    864
+_cell_measurement_temperature    150(2)
+_cell_measurement_theta_max      25.00
+_cell_measurement_theta_min      2.97
+_cell_volume                     912.0(3)
+_computing_cell_refinement       P3
+_computing_data_collection       P3
+_computing_data_reduction        xdisk
+_computing_molecular_graphics    'Siemens SHELXTL'
+_computing_publication_material  'Siemens SHELXTL'
+_computing_structure_refinement  'Siemens SHELXTL'
+_computing_structure_solution    'Siemens SHELXTL'
+_diffrn_ambient_temperature      150(2)
+_diffrn_measured_fraction_theta_full 0.995
+_diffrn_measured_fraction_theta_max 0.995
+_diffrn_measurement_device_type  'Bruker P(2)1 Syntex'
+_diffrn_measurement_method       '/w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0309
+_diffrn_reflns_av_sigmaI/netI    0.0307
+_diffrn_reflns_limit_h_max       1
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            1918
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         25.00
+_diffrn_reflns_theta_min         2.97
+_diffrn_standards_interval_count 97
+_diffrn_standards_interval_time  3/97
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    2.174
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.870
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             488
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.2
+_exptl_crystal_size_min          0.2
+_refine_diff_density_max         0.397
+_refine_diff_density_min         -0.595
+_refine_diff_density_rms         0.086
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.029
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     74
+_refine_ls_number_reflns         864
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.029
+_refine_ls_R_factor_all          0.0346
+_refine_ls_R_factor_gt           0.0247
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0286P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0500
+_refine_ls_wR_factor_ref         0.0531
+_reflns_number_gt                736
+_reflns_number_total             864
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            b201442d.txt
+_cod_data_source_block           AgBFCN3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      Pnma
+_cod_database_code               7114400
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ag Ag 0.97587(4) 0.2500 0.41023(3) 0.02826(14) Uani 1 2 d S
+B B 0.7996(6) 0.2500 0.7821(4) 0.0267(12) Uani 1 2 d S
+F F 0.9373(3) 0.2500 0.8377(2) 0.0400(8) Uani 1 2 d S
+C2 C 1.3568(5) 0.2500 0.4106(4) 0.0379(13) Uani 1 2 d S
+C3 C 0.8324(5) 0.2500 0.6565(4) 0.0262(11) Uani 1 2 d S
+C1 C 0.7987(3) -0.0879(4) 0.3090(2) 0.0264(7) Uani 1 1 d .
+C4 C 1.5221(8) 0.2500 0.4057(8) 0.091(4) Uani 1 2 d S
+N2 N 1.2288(5) 0.2500 0.4139(3) 0.0402(11) Uani 1 2 d S
+N3 N 0.8571(4) 0.2500 0.5698(3) 0.0326(10) Uani 1 2 d S
+N1 N 0.8662(3) 0.0278(4) 0.3291(2) 0.0360(7) Uani 1 1 d .
+H1 H 1.545(7) 0.192(10) 0.369(4) 0.13(3) Uiso 1 1 d .
+H2 H 1.571(9) 0.2500 0.470(6) 0.11(3) Uiso 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ag 0.0256(2) 0.0354(2) 0.0238(2) 0.000 0.00080(16) 0.000
+B 0.025(3) 0.033(3) 0.022(3) 0.000 -0.002(2) 0.000
+F 0.0258(16) 0.068(2) 0.0264(14) 0.000 -0.0034(12) 0.000
+C2 0.022(3) 0.066(4) 0.026(3) 0.000 -0.001(2) 0.000
+C3 0.019(2) 0.030(3) 0.029(3) 0.000 0.003(2) 0.000
+C1 0.0270(17) 0.0296(19) 0.0226(17) 0.0001(16) -0.0032(13) 0.0101(16)
+C4 0.017(3) 0.207(14) 0.048(4) 0.000 0.003(3) 0.000
+N2 0.030(2) 0.057(3) 0.034(2) 0.000 0.001(2) 0.000
+N3 0.026(2) 0.048(3) 0.024(2) 0.000 0.0011(17) 0.000
+N1 0.0418(17) 0.0311(17) 0.0350(16) -0.0059(14) -0.0110(13) 0.0034(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+B B 0.0013 0.0007 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ag Ag -0.8971 1.1015 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+N2 Ag N3 115.96(15) . .
+N2 Ag N1 115.44(9) . .
+N3 Ag N1 102.04(9) . .
+N2 Ag N1 115.44(9) . 7_565
+N3 Ag N1 102.04(9) . 7_565
+N1 Ag N1 103.99(14) . 7_565
+F B C1 110.8(3) . 2_655
+F B C1 110.8(3) . 8_766
+C1 B C1 109.7(4) 2_655 8_766
+F B C3 110.1(4) . .
+C1 B C3 107.7(3) 2_655 .
+C1 B C3 107.7(3) 8_766 .
+N2 C2 C4 179.7(6) . .
+N3 C3 B 179.1(5) . .
+N1 C1 B 178.7(4) . 2_654
+C2 N2 Ag 176.6(4) . .
+C3 N3 Ag 164.0(4) . .
+C1 N1 Ag 165.7(3) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ag N2 2.224(4) .
+Ag N3 2.286(4) .
+Ag N1 2.296(3) .
+Ag N1 2.296(3) 7_565
+B F 1.403(6) .
+B C1 1.614(5) 2_655
+B C1 1.614(5) 8_766
+B C3 1.626(7) .
+C2 N2 1.126(6) .
+C2 C4 1.455(9) .
+C3 N3 1.126(5) .
+C1 N1 1.142(4) .
+C1 B 1.614(5) 2_654

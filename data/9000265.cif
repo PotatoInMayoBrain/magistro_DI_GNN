@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/02/9000265.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000265
+loop_
+_publ_author_name
+'Moore, P. B.'
+_publ_section_title
+;
+ Octahedral tetramer in the crystal structure of leucophosphite,
+ K2[Fe4(OH)2(H2O)2(PO4)4].2H2O
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              397
+_journal_page_last               410
+_journal_volume                  57
+_journal_year                    1972
+_chemical_formula_sum            'Fe2 H5 K O11 P2'
+_chemical_name_mineral           Leucophosphite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 102.24
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.782
+_cell_length_b                   9.658
+_cell_length_c                   9.751
+_cell_volume                     900.280
+_database_code_amcsd             0000274
+_exptl_crystal_density_diffrn    2.905
+_cod_original_formula_sum        'K Fe2 P2 O11 H5'
+_cod_database_code               9000265
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K 0.10100 0.19580 0.51710 0.02381 K 0
+Fe1 0.36950 0.55120 0.39190 0.00329 Fe 0
+Fe2 0.30970 0.22780 0.59690 0.00355 Fe 0
+P1 0.35480 0.52850 0.70940 0.00532 P 0
+P2 0.12870 0.32210 0.28940 0.00545 P 0
+O1 0.30090 0.59350 0.56320 0.00874 O 0
+O2 0.17530 0.12070 0.67440 0.00937 O 0
+O3 0.48450 0.49290 0.26090 0.00861 O 0
+O4 0.28380 0.38640 0.71620 0.00975 O 0
+O5 0.15530 0.26870 0.43990 0.01203 O 0
+O6 0.19520 0.46790 0.28540 0.00874 O 0
+O7 0.30500 0.72750 0.30540 0.01115 O 0
+O8 0.47100 0.16230 0.73510 0.01077 O 0
+O-H9 0.43860 0.35680 0.49660 0.00697 O 1
+Wat10 0.34320 0.04640 0.48910 0.01938 O 2
+Wat11 0.53350 0.15310 0.31000 0.02292 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000274

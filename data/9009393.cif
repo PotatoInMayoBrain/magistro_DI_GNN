@@ -1,0 +1,128 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/93/9009393.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009393
+loop_
+_publ_author_name
+'Giester, G.'
+'Mikenda, W.'
+'Pertlik, F.'
+_publ_section_title
+;
+ Kleinite from Terlingua, Brewster County, Texas: Investigations
+ by single crystal X-ray diffraction, and vibrational spectroscopy
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              49
+_journal_page_last               56
+_journal_volume                  1996
+_journal_year                    1996
+_chemical_compound_source        'Terlingua, Brewster County, Texas, USA'
+_chemical_formula_sum            'Cl H20 Hg4 N2 O S'
+_chemical_name_mineral           Kleinite
+_space_group_IT_number           194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   6.762
+_cell_length_b                   6.762
+_cell_length_c                   11.068
+_cell_volume                     438.278
+_database_code_amcsd             0014883
+_diffrn_ambient_temperature      403.15
+_exptl_crystal_density_diffrn    7.078
+_exptl_crystal_thermal_history   'heated at T = 130 C for 1 day'
+_cod_original_formula_sum        'Hg4 N2 S Cl O H20'
+_cod_database_code               9009393
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-x+y,1/2+z
+x,x-y,1/2-z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+-y,-x,z
+y,x,-z
+y,-x+y,-z
+-y,x-y,z
+x-y,-y,1/2+z
+-x+y,y,1/2-z
+x,y,1/2-z
+-x,-y,1/2+z
+x,x-y,z
+-x,-x+y,-z
+x-y,x,-z
+-x+y,-x,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x+y,y,z
+x-y,-y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hg1 0.02700 0.02700 0.00500 0.01350 0.00000 0.00000
+Hg2 0.02400 0.02100 0.00800 0.01200 0.00000 0.00000
+S1 0.09000 0.09000 0.28300 0.04500 0.00000 0.00000
+S2 0.03600 0.06400 0.01900 0.01800 0.00000 0.00000
+Cl 0.07200 0.07200 0.07200 0.03600 0.00000 0.00000
+Wat1 0.03900 0.06400 0.02600 0.01900 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Hg1 0.33333 0.66667 0.25000 1.00000 ? Hg 0
+Hg2 0.50000 0.00000 0.00000 1.00000 ? Hg 0
+N 0.33333 0.66667 0.06250 1.00000 0.02000 N 0
+S1 0.00000 0.00000 0.25000 0.25000 ? S 0
+S2 -0.03640 -0.07280 0.25000 0.25000 ? S 0
+Cl 0.00000 0.00000 0.00000 1.00000 ? Cl 0
+Wat1 0.60620 0.80310 0.75000 0.10000 ? O 2
+Wat2 0.66820 0.83410 0.00000 0.10000 0.03800 O 2
+Wat3 0.33333 0.66667 0.75000 0.10000 0.08900 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:17+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014883

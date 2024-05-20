@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009407.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009407
+loop_
+_publ_author_name
+'Witzke, T.'
+'Raade, G.'
+_publ_section_title
+;Zincowoodwardite, [Zn1-x Alx(OH)2][(SO4)x/2(H2O)n], a new mineral of the
+ hydrotalcite group Locality: Hilarion mine, Kamariza, near Laurion, Greece
+ Note: polytype Zincowoodwardite-1T
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              455
+_journal_page_last               465
+_journal_volume                  2000
+_journal_year                    2000
+_chemical_compound_source        'Hilarion mine, Kamariza, near Laurion, Greece'
+_chemical_formula_sum            'Al0.375 H6 O2.686 S0.188 Zn0.625'
+_chemical_name_mineral           Zincowoodwardite
+_space_group_IT_number           147
+_symmetry_space_group_name_Hall  '-P 3'
+_symmetry_space_group_name_H-M   'P -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   3.063
+_cell_length_b                   3.063
+_cell_length_c                   8.91
+_cell_volume                     72.394
+_database_code_amcsd             0014907
+_exptl_crystal_density_diffrn    2.432
+_cod_original_formula_sum        '(Zn.625 Al.375) S.188 O2.686 H6'
+_cod_database_code               9009407
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+y,-x+y,-z
+-x+y,-x,z
+-x,-y,-z
+-y,x-y,z
+x-y,x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn 0.00000 0.00000 0.00000 0.62500 Zn 0
+Al 0.00000 0.00000 0.00000 0.37500 Al 0
+S 0.00000 0.00000 0.46400 0.09400 S 0
+O-H1 0.33333 0.66667 0.11000 1.00000 O 1
+O2 0.26730 -0.26730 0.42000 0.08300 O 0
+Wat3 0.00000 0.00000 0.60000 0.09400 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:18+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014907

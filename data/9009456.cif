@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009456.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009456
+loop_
+_publ_author_name
+'Taylor, H. F. W.'
+_publ_section_title
+;
+ The crystal structure of killalaite
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              363
+_journal_page_last               369
+_journal_paper_doi               10.1180/minmag.1977.041.319.08
+_journal_volume                  41
+_journal_year                    1977
+_chemical_compound_source        'Killala Bay, Ireland'
+_chemical_formula_sum            'Ca6.43 H3.14 O17.14 Si4'
+_chemical_name_mineral           Killalaite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.76
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.807
+_cell_length_b                   15.459
+_cell_length_c                   6.811
+_cell_volume                     710.154
+_database_code_amcsd             0014467
+_exptl_crystal_density_diffrn    3.028
+_cod_original_formula_sum        'Ca6.43 Si4 O17.14 H3.14'
+_cod_database_code               9009456
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.33140 -0.09420 0.93080 1.00000 0.01570 Ca 0
+Ca2 0.71900 -0.09960 0.33300 1.00000 0.02394 Ca 0
+Ca3 0.01250 0.25000 0.33750 1.00000 0.02356 Ca 0
+Ca4 0.92990 0.25000 0.83320 1.00000 0.02634 Ca 0
+Ca5 0.52000 0.25000 0.48700 0.43000 0.01520 Ca 0
+Si1 0.81310 -0.08740 0.83740 1.00000 0.01267 Si 0
+Si2 0.78040 0.08330 0.60080 1.00000 0.01178 Si 0
+O1 0.67700 -0.05870 0.00200 1.00000 0.01520 O 0
+O2 0.69000 -0.14630 0.66200 1.00000 0.02406 O 0
+O-H2 0.69000 -0.14630 0.66200 0.57000 0.02406 O 1
+O3 0.00400 -0.14400 0.91900 1.00000 0.01267 O 0
+O4 0.67200 0.04890 0.39200 1.00000 0.03420 O 0
+O5 0.63300 0.13160 0.73100 1.00000 0.02026 O 0
+O6 0.95700 0.15040 0.57600 1.00000 0.01393 O 0
+O7 0.88400 0.00040 0.72700 1.00000 0.03166 O 0
+O-H8 0.28000 0.25000 0.76200 1.00000 0.03800 O 1
+O-H9 0.66000 0.25000 0.15600 1.00000 0.02533 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:45+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014467

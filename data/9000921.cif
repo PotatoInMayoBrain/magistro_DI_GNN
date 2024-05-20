@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/09/9000921.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000921
+loop_
+_publ_author_name
+'Ralph, R. L.'
+'Finger, L. W.'
+'Hazen, R. M.'
+'Ghose, S.'
+_publ_section_title
+;
+ Compressibility and crystal structure of andalusite at high pressure
+ 25 kbar step-scan
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              513
+_journal_page_last               519
+_journal_volume                  69
+_journal_year                    1984
+_chemical_formula_sum            'Al2 O5 Si'
+_chemical_name_mineral           Andalusite
+_space_group_IT_number           58
+_symmetry_space_group_name_Hall  '-P 2 2n'
+_symmetry_space_group_name_H-M   'P n n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.7382
+_cell_length_b                   7.8571
+_cell_length_c                   5.5338
+_cell_volume                     336.454
+_database_code_amcsd             0000940
+_exptl_crystal_density_diffrn    3.199
+_cod_original_formula_sum        'Al2 Si O5'
+_cod_database_code               9000921
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,1/2-z
+x,y,-z
+-x,-y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Al1 0.01092 0.00813 0.00109 0.00277 0.00000 0.00000
+Al2 0.00667 0.00625 0.00807 -0.00092 0.00000 0.00000
+Si 0.00576 0.00594 0.00729 0.00000 0.00000 0.00000
+OA 0.00758 0.00844 0.01024 0.00123 0.00000 0.00000
+OB 0.00758 0.01095 0.00264 -0.00277 0.00000 0.00000
+OC 0.01092 0.00782 0.01055 -0.00370 0.00000 0.00000
+OD 0.00910 0.00938 0.00264 -0.00123 -0.00065 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al1 0.00000 0.00000 0.24190 Al 0
+Al2 0.37020 0.13860 0.50000 Al 0
+Si 0.24600 0.25050 0.00000 Si 0
+OA 0.42200 0.36320 0.50000 O 0
+OB 0.42600 0.36080 0.00000 O 0
+OC 0.10310 0.39990 0.00000 O 0
+OD 0.23030 0.13240 0.23870 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:13:59+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000940

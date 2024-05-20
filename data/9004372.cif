@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/43/9004372.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004372
+loop_
+_publ_author_name
+'Liang, J.'
+'Hawthorne, F. C.'
+'Novak, M.'
+'Cerny, P.'
+_publ_section_title
+;
+ Crystal-structure refinement of boromuscovite polytypes using a coupled
+ Rietveld-static-structure energy-minimization method
+ Sample: 1M polytype
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              859
+_journal_page_last               865
+_journal_volume                  33
+_journal_year                    1995
+_chemical_compound_source        'Recice, Czech Republic'
+_chemical_formula_sum            'Al0.82 B H2 K0.2 O12 Si3'
+_chemical_name_mineral           Boromuscovite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 101.23
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.102
+_cell_length_b                   8.788
+_cell_length_c                   10.076
+_cell_volume                     443.121
+_database_code_amcsd             0005446
+_exptl_crystal_density_diffrn    2.391
+_cod_original_formula_sum        'Al.82 (Si3 B) K.2 (O12 H2)'
+_cod_database_code               9004372
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al 0.00000 0.66600 0.00000 0.41000 0.00785 Al 0
+SiT 0.43700 0.67400 0.27200 0.75000 0.00152 Si 0
+BT 0.43700 0.67400 0.27200 0.25000 0.00152 B 0
+K 0.50000 0.00000 0.50000 0.20000 0.00329 K 0
+O-H 0.43300 0.00000 0.10000 1.00000 0.00443 O 1
+O1 0.34700 0.71500 0.11600 1.00000 0.00469 O 0
+O2 0.19200 0.72600 0.33000 1.00000 0.00861 O 0
+O3 0.52000 0.50000 0.28700 1.00000 0.00481 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:48:59+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005446

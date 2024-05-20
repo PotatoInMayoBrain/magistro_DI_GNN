@@ -1,0 +1,187 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 20:17:53 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179406 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/03/4330304.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4330304
+loop_
+_publ_author_name
+'Endrit Shurdha'
+'Saul H. Lapidus'
+'Peter W. Stephens'
+'Curtis E. Moore'
+'Arnold L. Rheingold'
+'Joel S. Miller'
+_publ_contact_author_address
+; 
+Department of Chemistry
+University of Utah
+Salt Lake City
+UT 84112-0850
+USA 
+;
+_publ_contact_author_email       JSMILLER@chem.utah.edu
+_publ_contact_author_name        'Joel S. Miller'
+_publ_section_title
+;
+ Extended Network Thiocyanate- and Tetracyanoethanide-Based First-Row
+ Transition Metal Complexes
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              9655
+_journal_page_last               9665
+_journal_paper_doi               10.1021/ic300804y
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_moiety         'C2 Co N2 S2'
+_chemical_formula_sum            'C2 Co N2 S2'
+_chemical_formula_weight         175.11
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.862(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.5959(3)
+_cell_length_b                   3.72504(11)
+_cell_length_c                   6.16597(19)
+_cell_measurement_temperature    300
+_cell_volume                     234.105(12)
+_computing_cell_refinement       TOPAS-Academic
+_computing_data_collection       SPEC
+_computing_data_reduction        TOPAS-Academic
+_computing_structure_refinement  TOPAS-Academic
+_computing_structure_solution    TOPAS-Academic
+_diffrn_ambient_temperature      300
+_diffrn_detector                 'NaI scintillation counter'
+_diffrn_measurement_device_type  'Huber diffractometer'
+_diffrn_radiation_monochromator  'Si(111) channel cut'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.699944
+_diffrn_source                   synchrotron
+_pd_block_diffractogram_id       ES-2-139
+_pd_char_colour                  brown
+_pd_instr_location
+;
+X16C, National Synchrotron Light Source, Brookhaven National Laboratory
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        35.52
+_pd_meas_2theta_range_min        6.0
+_pd_meas_number_of_points        5905
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        35.52
+_pd_proc_2theta_range_min        6.0
+_pd_proc_ls_background_function
+;
+7 Pearson-Voight peaks and Chebyshev polynomial with 6 coefficients
+;
+_pd_proc_ls_pref_orient_corr
+;
+none
+;
+_pd_proc_ls_profile_function
+;
+Simple_Axial_model function with Rp=9999,Rs=330 in TOPAS-Academic
+;
+_pd_proc_ls_prof_R_factor        0.05881
+_pd_proc_ls_prof_wR_expected     0.05931
+_pd_proc_ls_prof_wR_factor       0.07736
+_pd_proc_wavelength              0.699944
+_pd_spec_mounting
+;
+capillary
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   1.304
+_refine_ls_number_parameters     60
+_refine_ls_weighting_details     1/(sigma*sigma)
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ic300804y_si_002_1.cif
+_cod_data_source_block           ES-2-139
+_cod_original_cell_volume        234.106(12)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               4330304
+_cod_database_fobs_code          4330304
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 -x,-y,-z
+4 x,-y,z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2+y,-z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Co1 Co 2 0 0 0 1 1.362(24)
+C7 C 4 -0.23557(51) 0 0.21862(76) 1 1.362(24)
+N3 N 4 -0.13805(36) 0 0.17294(69) 1 1.362(24)
+S1 S 4 -0.38148(12) 0 0.26806(22) 1 1.362(24)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N3 Co1 N3 180.00 . 2_555 yes
+S1 Co1 N3 87.589(75) 5_545 . yes
+S1 Co1 N3 87.589(75) 5_555 . yes
+S1 Co1 N3 92.411(75) 6_445 . yes
+S1 Co1 N3 92.411(75) 6_455 . yes
+S1 Co1 N3 92.411(75) 5_545 2_555 yes
+S1 Co1 N3 92.411(75) 5_555 2_555 yes
+S1 Co1 N3 87.589(75) 6_445 2_555 yes
+S1 Co1 N3 87.589(75) 6_455 2_555 yes
+S1 Co1 S1 92.542(37) 5_545 5_555 yes
+S1 Co1 S1 87.458(37) 5_545 6_445 yes
+S1 Co1 S1 180.00 5_545 6_455 yes
+S1 Co1 S1 180.00 5_555 6_445 yes
+S1 Co1 S1 87.458(37) 5_555 6_455 yes
+S1 Co1 S1 92.542(37) 6_445 6_455 yes
+Co1 S1 C7 101.40(12) 5_445 . yes
+Co1 S1 C7 101.40(12) 5_455 . yes
+Co1 S1 Co1 92.542(37) 5_445 5_455 yes
+Co1 N3 C7 163.40(36) . . yes
+S1 C7 N3 176.49(38) . . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Co1 N3 2.0321(45) . yes
+Co1 N3 2.0321(45) 2_555 yes
+Co1 S1 2.57747(83) 5_545 yes
+Co1 S1 2.57747(83) 5_555 yes
+Co1 S1 2.57747(83) 6_445 yes
+Co1 S1 2.57747(83) 6_455 yes
+S1 C7 1.6555(59) . yes
+N3 C7 1.1429(72) . yes

@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-09-11 16:25:09 +0300 (Mon, 11 Sep 2017) $
+#$Revision: 200452 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/02/1010251.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010251
+loop_
+_publ_author_name
+'West, C D'
+_publ_section_title
+;
+The Crystal Structures of Some Alkali Hydrosulfides and Monosulfides.
+;
+_journal_coden_ASTM              ZEKGAX
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+Kristallchemie (-144,1977)
+;
+_journal_page_first              97
+_journal_page_last               115
+_journal_volume                  88
+_journal_year                    1934
+_chemical_formula_structural     'Na S H'
+_chemical_formula_sum            'H Na S'
+_chemical_name_systematic        'Sodium hydrogensulfide'
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                68.08
+_cell_angle_beta                 68.08
+_cell_angle_gamma                68.08
+_cell_formula_units_Z            1
+_cell_length_a                   3.99
+_cell_length_b                   3.99
+_cell_length_c                   3.99
+_cell_volume                     52.6
+_exptl_crystal_density_meas      1.79
+_cod_original_sg_symbol_H-M      'R -3 m R'
+_cod_database_code               1010251
+_cod_depositor_comments
+;
+ Removing dummy H atoms since the hydrogen atoms they represent are already
+ marked using the _atom_site_attached_hydrogens data item.
+
+ Antanas Vaitkus,
+ 2017-09-11
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,x,z
+y,z,x
+x,z,y
+z,x,y
+z,y,x
+-x,-y,-z
+-y,-x,-z
+-y,-z,-x
+-x,-z,-y
+-z,-x,-y
+-z,-y,-x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Na1 Na1+ 1 a 0. 0. 0. 1. 0 d
+S1 S2- 1 b 0.5 0.5 0.5 1. 1 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+ 1.000
+S2- -2.000

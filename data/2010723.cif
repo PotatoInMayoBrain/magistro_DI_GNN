@@ -1,0 +1,653 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/07/2010723.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010723
+loop_
+_publ_author_name
+'Belin, Renaud'
+'Tillard, Monique'
+'Monconduit, Laure'
+_publ_section_title
+;
+ Redetermination of the iron--zinc phase FeZn~13~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              267
+_journal_page_last               268
+_journal_paper_doi               10.1107/S0108270199014997
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_moiety         FeZn13
+_chemical_formula_sum            'Fe Zn13'
+_chemical_formula_weight         905.66
+_chemical_name_systematic        'Iron-Zinc (1:13) alloy'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 127.23(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   13.394(3)
+_cell_length_b                   7.5980(9)
+_cell_length_c                   5.066(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      20.59
+_cell_measurement_theta_min      9.40
+_cell_volume                     410.5(2)
+_computing_cell_refinement       'CAD-4 Software'
+_computing_data_collection       'CAD-4 Software (Enraf-Nonius, 1989)'
+_computing_data_reduction        'local program'
+_computing_molecular_graphics    'ATOMS (Dowty, 1993)'
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full .473
+_diffrn_measured_fraction_theta_max .473
+_diffrn_measurement_device_type  'Nonius CAD-4 diffractometer'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71069
+_diffrn_reflns_av_R_equivalents  .0586
+_diffrn_reflns_av_sigmaI/netI    .0847
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            1091
+_diffrn_reflns_theta_full        29.91
+_diffrn_reflns_theta_max         29.91
+_diffrn_reflns_theta_min         3.29
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    38.817
+_exptl_absorpt_correction_T_max  .4621
+_exptl_absorpt_correction_T_min  .1184
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details
+;
+(The absorption effects have been corrected using the numerical procedure
+provided by SHELX76; Sheldrick, 1976)
+;
+_exptl_crystal_colour            'metallic grey'
+_exptl_crystal_density_diffrn    7.327
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'triangular platelet'
+_exptl_crystal_F_000             832
+_exptl_crystal_size_max          .10
+_exptl_crystal_size_mid          .05
+_exptl_crystal_size_min          .02
+_refine_diff_density_max         2.147
+_refine_diff_density_min         -1.499
+_refine_ls_extinction_coef       .0019(5)
+_refine_ls_extinction_method     'SHELXL97 (Sheldrick, 1997)'
+_refine_ls_goodness_of_fit_ref   1.025
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_refine_ls_number_reflns         604
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.025
+_refine_ls_R_factor_all          .0751
+_refine_ls_R_factor_gt           .0417
+_refine_ls_shift/su_max          .000
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w = 1/[\s^2^(Fo^2^)+(0.0521P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .1092
+_reflns_number_gt                439
+_reflns_number_total             604
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            gs1065.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Numerical' changed to
+'numerical' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\s^2^(Fo^2^)+(0.0521P)^2^] where P=(Fo^2^+2Fc^2^)/3' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/[\s^2^(Fo^2^)+(0.0521P)^2^]
+where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        410.49(19)
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               2010723
+_cod_database_fobs_code          2010723
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y, z'
+'x+1/2, y+1/2, z'
+'x+1/2, -y+1/2, z'
+'-x, -y, -z'
+'-x, y, -z'
+'-x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Zn1 .0000 .0000 .0000 .0134(5) Uani d S 1 . . Zn
+Fe2 .0000 .0000 .5000 .0045(5) Uani d S 1 . . Fe
+Zn3 .11406(12) .5000 .2942(3) .0109(4) Uani d S 1 . . Zn
+Zn4 .22002(13) .0000 .0693(4) .0148(4) Uani d S 1 . . Zn
+Zn5 .07635(9) .29477(17) .8340(3) .0172(3) Uani d . 1 . . Zn
+Zn6 .17545(9) .17895(15) .5486(3) .0114(3) Uani d . 1 . . Zn
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 .0125(9) .0216(12) .0057(9) .000 .0052(8) .000
+Fe2 .0058(10) .0051(11) .0014(9) .000 .0015(8) .000
+Zn3 .0105(7) .0086(8) .0065(6) .000 .0013(6) .000
+Zn4 .0122(7) .0182(9) .0063(7) .000 .0015(6) .000
+Zn5 .0149(5) .0156(6) .0171(6) -.0013(4) .0076(4) -.0092(4)
+Zn6 .0114(5) .0098(5) .0129(5) -.0010(4) .0074(4) .0015(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zn Zn .2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe .3463 .8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Fe2 Zn1 Fe2 1_554 . 180.0 no
+Fe2 Zn1 Zn6 1_554 . 120.41(3) no
+Fe2 Zn1 Zn6 . . 59.59(3) no
+Fe2 Zn1 Zn6 1_554 5 59.59(3) no
+Fe2 Zn1 Zn6 . 5 120.41(3) no
+Zn6 Zn1 Zn6 . 5 180.0 no
+Fe2 Zn1 Zn6 1_554 6 59.59(3) no
+Fe2 Zn1 Zn6 . 6 120.41(3) no
+Zn6 Zn1 Zn6 . 6 119.07(5) no
+Zn6 Zn1 Zn6 5 6 60.93(5) no
+Fe2 Zn1 Zn6 1_554 2 120.41(3) no
+Fe2 Zn1 Zn6 . 2 59.59(3) no
+Zn6 Zn1 Zn6 . 2 60.93(5) no
+Zn6 Zn1 Zn6 5 2 119.07(5) no
+Zn6 Zn1 Zn6 6 2 180.0 no
+Fe2 Zn1 Zn4 1_554 . 58.60(4) no
+Fe2 Zn1 Zn4 . . 121.40(4) no
+Zn6 Zn1 Zn4 . . 70.62(4) no
+Zn6 Zn1 Zn4 5 . 109.38(4) no
+Zn6 Zn1 Zn4 6 . 109.38(4) no
+Zn6 Zn1 Zn4 2 . 70.62(4) no
+Fe2 Zn1 Zn4 1_554 5 121.40(4) no
+Fe2 Zn1 Zn4 . 5 58.60(4) no
+Zn6 Zn1 Zn4 . 5 109.38(4) no
+Zn6 Zn1 Zn4 5 5 70.62(4) no
+Zn6 Zn1 Zn4 6 5 70.62(4) no
+Zn6 Zn1 Zn4 2 5 109.38(4) no
+Zn4 Zn1 Zn4 . 5 180.0 no
+Fe2 Zn1 Zn5 1_554 1_554 58.51(2) no
+Fe2 Zn1 Zn5 . 1_554 121.49(2) no
+Zn6 Zn1 Zn5 . 1_554 69.81(4) no
+Zn6 Zn1 Zn5 5 1_554 110.19(4) no
+Zn6 Zn1 Zn5 6 1_554 62.13(3) no
+Zn6 Zn1 Zn5 2 1_554 117.87(3) no
+Zn4 Zn1 Zn5 . 1_554 58.61(3) no
+Zn4 Zn1 Zn5 5 1_554 121.39(3) no
+Fe2 Zn1 Zn5 1_554 2_554 58.51(2) no
+Fe2 Zn1 Zn5 . 2_554 121.49(2) no
+Zn6 Zn1 Zn5 . 2_554 117.87(3) no
+Zn6 Zn1 Zn5 5 2_554 62.13(3) no
+Zn6 Zn1 Zn5 6 2_554 110.19(4) no
+Zn6 Zn1 Zn5 2 2_554 69.81(4) no
+Zn4 Zn1 Zn5 . 2_554 58.61(3) no
+Zn4 Zn1 Zn5 5 2_554 121.39(3) no
+Zn5 Zn1 Zn5 1_554 2_554 106.53(5) no
+Fe2 Zn1 Zn5 1_554 5_556 121.49(2) no
+Fe2 Zn1 Zn5 . 5_556 58.51(2) no
+Zn6 Zn1 Zn5 . 5_556 110.19(4) no
+Zn6 Zn1 Zn5 5 5_556 69.81(4) no
+Zn6 Zn1 Zn5 6 5_556 117.87(3) no
+Zn6 Zn1 Zn5 2 5_556 62.13(3) no
+Zn4 Zn1 Zn5 . 5_556 121.39(3) no
+Zn4 Zn1 Zn5 5 5_556 58.61(3) no
+Zn5 Zn1 Zn5 1_554 5_556 180.0 no
+Zn5 Zn1 Zn5 2_554 5_556 73.47(5) no
+Fe2 Zn1 Zn5 1_554 6_556 121.49(2) no
+Fe2 Zn1 Zn5 . 6_556 58.51(2) no
+Zn6 Zn1 Zn5 . 6_556 62.13(3) no
+Zn6 Zn1 Zn5 5 6_556 117.87(3) no
+Zn6 Zn1 Zn5 6 6_556 69.81(4) no
+Zn6 Zn1 Zn5 2 6_556 110.19(4) no
+Zn4 Zn1 Zn5 . 6_556 121.39(3) no
+Zn4 Zn1 Zn5 5 6_556 58.61(3) no
+Zn5 Zn1 Zn5 1_554 6_556 73.47(5) no
+Zn5 Zn1 Zn5 2_554 6_556 180.0 no
+Zn5 Zn1 Zn5 5_556 6_556 106.53(5) no
+Zn1 Fe2 Zn1 1_556 . 180.0 no
+Zn1 Fe2 Zn4 1_556 5 115.14(5) no
+Zn1 Fe2 Zn4 . 5 64.86(5) no
+Zn1 Fe2 Zn4 1_556 1_556 64.86(5) no
+Zn1 Fe2 Zn4 . 1_556 115.14(5) no
+Zn4 Fe2 Zn4 5 1_556 180.0 no
+Zn1 Fe2 Zn6 1_556 . 116.94(3) no
+Zn1 Fe2 Zn6 . . 63.06(3) no
+Zn4 Fe2 Zn6 5 . 117.41(4) no
+Zn4 Fe2 Zn6 1_556 . 62.59(4) no
+Zn1 Fe2 Zn6 1_556 5_556 63.06(3) no
+Zn1 Fe2 Zn6 . 5_556 116.94(3) no
+Zn4 Fe2 Zn6 5 5_556 62.59(4) no
+Zn4 Fe2 Zn6 1_556 5_556 117.41(4) no
+Zn6 Fe2 Zn6 . 5_556 180.0 no
+Zn1 Fe2 Zn6 1_556 2 116.94(3) no
+Zn1 Fe2 Zn6 . 2 63.06(3) no
+Zn4 Fe2 Zn6 5 2 117.41(4) no
+Zn4 Fe2 Zn6 1_556 2 62.59(4) no
+Zn6 Fe2 Zn6 . 2 63.21(5) no
+Zn6 Fe2 Zn6 5_556 2 116.79(5) no
+Zn1 Fe2 Zn6 1_556 6_556 63.06(3) no
+Zn1 Fe2 Zn6 . 6_556 116.94(3) no
+Zn4 Fe2 Zn6 5 6_556 62.59(4) no
+Zn4 Fe2 Zn6 1_556 6_556 117.41(4) no
+Zn6 Fe2 Zn6 . 6_556 116.79(5) no
+Zn6 Fe2 Zn6 5_556 6_556 63.21(5) no
+Zn6 Fe2 Zn6 2 6_556 180.0 no
+Zn1 Fe2 Zn5 1_556 5_556 114.24(3) no
+Zn1 Fe2 Zn5 . 5_556 65.76(3) no
+Zn4 Fe2 Zn5 5 5_556 62.84(3) no
+Zn4 Fe2 Zn5 1_556 5_556 117.16(3) no
+Zn6 Fe2 Zn5 . 5_556 119.19(4) no
+Zn6 Fe2 Zn5 5_556 5_556 60.81(4) no
+Zn6 Fe2 Zn5 2 5_556 65.77(4) no
+Zn6 Fe2 Zn5 6_556 5_556 114.23(4) no
+Zn1 Fe2 Zn5 1_556 . 65.76(3) no
+Zn1 Fe2 Zn5 . . 114.24(3) no
+Zn4 Fe2 Zn5 5 . 117.16(3) no
+Zn4 Fe2 Zn5 1_556 . 62.84(3) no
+Zn6 Fe2 Zn5 . . 60.81(4) no
+Zn6 Fe2 Zn5 5_556 . 119.19(4) no
+Zn6 Fe2 Zn5 2 . 114.23(4) no
+Zn6 Fe2 Zn5 6_556 . 65.77(4) no
+Zn5 Fe2 Zn5 5_556 . 180.0 no
+Zn1 Fe2 Zn5 1_556 6_556 114.24(3) no
+Zn1 Fe2 Zn5 . 6_556 65.76(3) no
+Zn4 Fe2 Zn5 5 6_556 62.84(3) no
+Zn4 Fe2 Zn5 1_556 6_556 117.16(3) no
+Zn6 Fe2 Zn5 . 6_556 65.77(4) no
+Zn6 Fe2 Zn5 5_556 6_556 114.23(4) no
+Zn6 Fe2 Zn5 2 6_556 119.19(4) no
+Zn6 Fe2 Zn5 6_556 6_556 60.81(4) no
+Zn5 Fe2 Zn5 5_556 6_556 117.95(6) no
+Zn5 Fe2 Zn5 . 6_556 62.05(6) no
+Zn1 Fe2 Zn5 1_556 2 65.76(3) no
+Zn1 Fe2 Zn5 . 2 114.24(3) no
+Zn4 Fe2 Zn5 5 2 117.16(3) no
+Zn4 Fe2 Zn5 1_556 2 62.84(3) no
+Zn6 Fe2 Zn5 . 2 114.23(4) no
+Zn6 Fe2 Zn5 5_556 2 65.77(4) no
+Zn6 Fe2 Zn5 2 2 60.81(4) no
+Zn6 Fe2 Zn5 6_556 2 119.19(4) no
+Zn5 Fe2 Zn5 5_556 2 62.05(6) no
+Zn5 Fe2 Zn5 . 2 117.95(6) no
+Zn5 Fe2 Zn5 6_556 2 180.0 no
+Zn4 Zn3 Zn5 7_556 1_554 132.58(5) no
+Zn4 Zn3 Zn5 7_556 2_564 132.58(5) no
+Zn5 Zn3 Zn5 1_554 2_564 74.11(8) no
+Zn4 Zn3 Zn6 7_556 2_565 67.21(4) no
+Zn5 Zn3 Zn6 1_554 2_565 145.89(7) no
+Zn5 Zn3 Zn6 2_564 2_565 73.57(5) no
+Zn4 Zn3 Zn6 7_556 . 67.21(4) no
+Zn5 Zn3 Zn6 1_554 . 73.57(5) no
+Zn5 Zn3 Zn6 2_564 . 145.89(7) no
+Zn6 Zn3 Zn6 2_565 . 134.32(7) no
+Zn4 Zn3 Zn3 7_556 5_565 158.21(10) no
+Zn5 Zn3 Zn3 1_554 5_565 61.90(5) no
+Zn5 Zn3 Zn3 2_564 5_565 61.90(5) no
+Zn6 Zn3 Zn3 2_565 5_565 110.51(4) no
+Zn6 Zn3 Zn3 . 5_565 110.51(4) no
+Zn4 Zn3 Zn5 7_556 6_556 105.85(6) no
+Zn5 Zn3 Zn5 1_554 6_556 78.18(6) no
+Zn5 Zn3 Zn5 2_564 6_556 119.22(6) no
+Zn6 Zn3 Zn5 2_565 6_556 128.06(6) no
+Zn6 Zn3 Zn5 . 6_556 63.68(4) no
+Zn3 Zn3 Zn5 5_565 6_556 57.32(5) no
+Zn4 Zn3 Zn5 7_556 5_566 105.85(6) no
+Zn5 Zn3 Zn5 1_554 5_566 119.22(6) no
+Zn5 Zn3 Zn5 2_564 5_566 78.18(6) no
+Zn6 Zn3 Zn5 2_565 5_566 63.68(4) no
+Zn6 Zn3 Zn5 . 5_566 128.06(6) no
+Zn3 Zn3 Zn5 5_565 5_566 57.32(5) no
+Zn5 Zn3 Zn5 6_556 5_566 70.20(6) no
+Zn4 Zn3 Zn6 7_556 8_556 71.61(5) no
+Zn5 Zn3 Zn6 1_554 8_556 99.46(6) no
+Zn5 Zn3 Zn6 2_564 8_556 64.81(5) no
+Zn6 Zn3 Zn6 2_565 8_556 56.42(4) no
+Zn6 Zn3 Zn6 . 8_556 110.44(5) no
+Zn3 Zn3 Zn6 5_565 8_556 126.49(7) no
+Zn5 Zn3 Zn6 6_556 8_556 174.03(5) no
+Zn5 Zn3 Zn6 5_566 8_556 115.57(4) no
+Zn4 Zn3 Zn6 7_556 7_556 71.61(5) no
+Zn5 Zn3 Zn6 1_554 7_556 64.81(5) no
+Zn5 Zn3 Zn6 2_564 7_556 99.46(6) no
+Zn6 Zn3 Zn6 2_565 7_556 110.44(5) no
+Zn6 Zn3 Zn6 . 7_556 56.42(4) no
+Zn3 Zn3 Zn6 5_565 7_556 126.49(7) no
+Zn5 Zn3 Zn6 6_556 7_556 115.57(4) no
+Zn5 Zn3 Zn6 5_566 7_556 174.03(5) no
+Zn6 Zn3 Zn6 8_556 7_556 58.62(5) no
+Zn3 Zn4 Fe2 7_556 1_554 158.40(8) no
+Zn3 Zn4 Zn6 7_556 2_554 137.42(6) no
+Fe2 Zn4 Zn6 1_554 2_554 58.75(4) no
+Zn3 Zn4 Zn6 7_556 1_554 137.42(6) no
+Fe2 Zn4 Zn6 1_554 1_554 58.75(4) no
+Zn6 Zn4 Zn6 2_554 1_554 60.63(7) no
+Zn3 Zn4 Zn5 7_556 2_554 113.23(5) no
+Fe2 Zn4 Zn5 1_554 2_554 58.97(4) no
+Zn6 Zn4 Zn5 2_554 2_554 58.34(4) no
+Zn6 Zn4 Zn5 1_554 2_554 107.95(6) no
+Zn3 Zn4 Zn5 7_556 1_554 113.23(5) no
+Fe2 Zn4 Zn5 1_554 1_554 58.97(4) no
+Zn6 Zn4 Zn5 2_554 1_554 107.95(6) no
+Zn6 Zn4 Zn5 1_554 1_554 58.34(4) no
+Zn5 Zn4 Zn5 2_554 1_554 111.24(7) no
+Zn3 Zn4 Zn1 7_556 . 101.86(7) no
+Fe2 Zn4 Zn1 1_554 . 56.53(4) no
+Zn6 Zn4 Zn1 2_554 . 106.83(5) no
+Zn6 Zn4 Zn1 1_554 . 106.83(5) no
+Zn5 Zn4 Zn1 2_554 . 61.54(4) no
+Zn5 Zn4 Zn1 1_554 . 61.54(4) no
+Zn3 Zn4 Zn6 7_556 7_556 57.46(3) no
+Fe2 Zn4 Zn6 1_554 7_556 120.56(4) no
+Zn6 Zn4 Zn6 2_554 7_556 144.21(6) no
+Zn6 Zn4 Zn6 1_554 7_556 87.73(4) no
+Zn5 Zn4 Zn6 2_554 7_556 156.47(7) no
+Zn5 Zn4 Zn6 1_554 7_556 61.69(4) no
+Zn1 Zn4 Zn6 . 7_556 97.63(4) no
+Zn3 Zn4 Zn6 7_556 8_546 57.46(4) no
+Fe2 Zn4 Zn6 1_554 8_546 120.56(4) no
+Zn6 Zn4 Zn6 2_554 8_546 87.73(4) no
+Zn6 Zn4 Zn6 1_554 8_546 144.21(6) no
+Zn5 Zn4 Zn6 2_554 8_546 61.69(4) no
+Zn5 Zn4 Zn6 1_554 8_546 156.47(7) no
+Zn1 Zn4 Zn6 . 8_546 97.63(4) no
+Zn6 Zn4 Zn6 7_556 8_546 114.86(7) no
+Zn3 Zn4 Zn5 7_556 7_556 77.25(5) no
+Fe2 Zn4 Zn5 1_554 7_556 120.36(5) no
+Zn6 Zn4 Zn5 2_554 7_556 93.74(6) no
+Zn6 Zn4 Zn5 1_554 7_556 61.64(4) no
+Zn5 Zn4 Zn5 2_554 7_556 149.12(6) no
+Zn5 Zn4 Zn5 1_554 7_556 88.57(4) no
+Zn1 Zn4 Zn5 . 7_556 147.50(3) no
+Zn6 Zn4 Zn5 7_556 7_556 53.97(4) no
+Zn6 Zn4 Zn5 8_546 7_556 108.28(5) no
+Zn3 Zn4 Zn5 7_556 8_546 77.25(5) no
+Fe2 Zn4 Zn5 1_554 8_546 120.36(5) no
+Zn6 Zn4 Zn5 2_554 8_546 61.64(4) no
+Zn6 Zn4 Zn5 1_554 8_546 93.74(6) no
+Zn5 Zn4 Zn5 2_554 8_546 88.57(4) no
+Zn5 Zn4 Zn5 1_554 8_546 149.12(6) no
+Zn1 Zn4 Zn5 . 8_546 147.50(3) no
+Zn6 Zn4 Zn5 7_556 8_546 108.28(5) no
+Zn6 Zn4 Zn5 8_546 8_546 53.97(4) no
+Zn5 Zn4 Zn5 7_556 8_546 64.70(6) no
+Zn3 Zn4 Zn6 7_556 . 57.09(5) no
+Fe2 Zn4 Zn6 1_554 . 103.91(6) no
+Zn6 Zn4 Zn6 2_554 . 160.52(7) no
+Zn6 Zn4 Zn6 1_554 . 120.37(5) no
+Zn5 Zn4 Zn6 2_554 . 106.32(6) no
+Zn5 Zn4 Zn6 1_554 . 64.29(5) no
+Zn1 Zn4 Zn6 . . 53.69(4) no
+Zn6 Zn4 Zn6 7_556 . 50.14(4) no
+Zn6 Zn4 Zn6 8_546 . 95.11(5) no
+Zn5 Zn4 Zn6 7_556 . 103.58(4) no
+Zn5 Zn4 Zn6 8_546 . 134.29(6) no
+Zn3 Zn5 Fe2 1_556 . 152.40(6) no
+Zn3 Zn5 Zn6 1_556 . 143.77(6) no
+Fe2 Zn5 Zn6 . . 59.24(4) no
+Zn3 Zn5 Zn5 1_556 6_556 135.85(5) no
+Fe2 Zn5 Zn5 . 6_556 58.97(3) no
+Zn6 Zn5 Zn5 . 6_556 64.07(6) no
+Zn3 Zn5 Zn3 1_556 5_566 60.78(6) no
+Fe2 Zn5 Zn3 . 5_566 113.25(5) no
+Zn6 Zn5 Zn3 . 5_566 140.66(6) no
+Zn5 Zn5 Zn3 6_556 5_566 79.05(5) no
+Zn3 Zn5 Zn4 1_556 1_556 113.67(6) no
+Fe2 Zn5 Zn4 . 1_556 58.19(4) no
+Zn6 Zn5 Zn4 . 1_556 60.45(5) no
+Zn5 Zn5 Zn4 6_556 1_556 110.45(5) no
+Zn3 Zn5 Zn4 5_566 1_556 153.37(7) no
+Zn3 Zn5 Zn1 1_556 1_556 96.85(5) no
+Fe2 Zn5 Zn1 . 1_556 55.73(3) no
+Zn6 Zn5 Zn1 . 1_556 107.15(5) no
+Zn5 Zn5 Zn1 6_556 1_556 103.89(4) no
+Zn3 Zn5 Zn1 5_566 1_556 94.04(4) no
+Zn4 Zn5 Zn1 1_556 1_556 59.85(4) no
+Zn3 Zn5 Zn6 1_556 6_556 107.87(6) no
+Fe2 Zn5 Zn6 . 6_556 56.79(3) no
+Zn6 Zn5 Zn6 . 6_556 107.92(5) no
+Zn5 Zn5 Zn6 6_556 6_556 56.96(5) no
+Zn3 Zn5 Zn6 5_566 6_556 57.04(4) no
+Zn4 Zn5 Zn6 1_556 6_556 106.20(6) no
+Zn1 Zn5 Zn6 1_556 6_556 56.98(4) no
+Zn3 Zn5 Zn6 1_556 7_557 60.78(5) no
+Fe2 Zn5 Zn6 . 7_557 120.33(5) no
+Zn6 Zn5 Zn6 . 7_557 89.16(5) no
+Zn5 Zn5 Zn6 6_556 7_557 149.82(7) no
+Zn3 Zn5 Zn6 5_566 7_557 121.37(6) no
+Zn4 Zn5 Zn6 1_556 7_557 62.24(4) no
+Zn1 Zn5 Zn6 1_556 7_557 96.94(5) no
+Zn6 Zn5 Zn6 6_556 7_557 151.70(6) no
+Zn3 Zn5 Zn4 1_556 7_556 82.72(5) no
+Fe2 Zn5 Zn4 . 7_556 121.82(5) no
+Zn6 Zn5 Zn4 . 7_556 62.63(4) no
+Zn5 Zn5 Zn4 6_556 7_556 97.66(6) no
+Zn3 Zn5 Zn4 5_566 7_556 112.43(5) no
+Zn4 Zn5 Zn4 1_556 7_556 91.43(4) no
+Zn1 Zn5 Zn4 1_556 7_556 148.63(5) no
+Zn6 Zn5 Zn4 6_556 7_556 152.69(6) no
+Zn6 Zn5 Zn4 7_557 7_556 55.41(4) no
+Zn3 Zn5 Zn5 1_556 2_565 52.94(4) no
+Fe2 Zn5 Zn5 . 2_565 148.97(3) no
+Zn6 Zn5 Zn5 . 2_565 109.50(4) no
+Zn5 Zn5 Zn5 6_556 2_565 90.0 no
+Zn3 Zn5 Zn5 5_566 2_565 54.90(3) no
+Zn4 Zn5 Zn5 1_556 2_565 145.62(4) no
+Zn1 Zn5 Zn5 1_556 2_565 143.26(2) no
+Zn6 Zn5 Zn5 6_556 2_565 108.13(4) no
+Zn6 Zn5 Zn5 7_557 2_565 86.02(3) no
+Zn4 Zn5 Zn5 7_556 2_565 57.65(3) no
+Zn3 Zn5 Zn6 1_556 1_556 54.08(4) no
+Fe2 Zn5 Zn6 . 1_556 103.50(5) no
+Zn6 Zn5 Zn6 . 1_556 122.53(6) no
+Zn5 Zn5 Zn6 6_556 1_556 156.88(5) no
+Zn3 Zn5 Zn6 5_566 1_556 96.75(5) no
+Zn4 Zn5 Zn6 1_556 1_556 64.46(5) no
+Zn1 Zn5 Zn6 1_556 1_556 53.41(3) no
+Zn6 Zn5 Zn6 6_556 1_556 101.55(5) no
+Zn6 Zn5 Zn6 7_557 1_556 50.30(4) no
+Zn4 Zn5 Zn6 7_556 1_556 104.87(5) no
+Zn5 Zn5 Zn6 2_565 1_556 106.30(3) no
+Zn6 Zn6 Fe2 7_556 . 165.36(8) no
+Zn6 Zn6 Zn5 7_556 . 132.33(8) no
+Fe2 Zn6 Zn5 . . 59.95(4) no
+Zn6 Zn6 Zn3 7_556 . 64.36(6) no
+Fe2 Zn6 Zn3 . . 116.11(5) no
+Zn5 Zn6 Zn3 . . 81.28(6) no
+Zn6 Zn6 Zn1 7_556 . 108.06(7) no
+Fe2 Zn6 Zn1 . . 57.35(3) no
+Zn5 Zn6 Zn1 . . 108.75(5) no
+Zn3 Zn6 Zn1 . . 98.24(5) no
+Zn6 Zn6 Zn4 7_556 1_556 131.53(7) no
+Fe2 Zn6 Zn4 . 1_556 58.66(4) no
+Zn5 Zn6 Zn4 . 1_556 61.20(5) no
+Zn3 Zn6 Zn4 . 1_556 139.60(6) no
+Zn1 Zn6 Zn4 . 1_556 107.16(5) no
+Zn6 Zn6 Zn6 7_556 2 114.88(5) no
+Fe2 Zn6 Zn6 . 2 58.39(3) no
+Zn5 Zn6 Zn6 . 2 109.50(4) no
+Zn3 Zn6 Zn6 . 2 157.16(4) no
+Zn1 Zn6 Zn6 . 2 59.54(3) no
+Zn4 Zn6 Zn6 1_556 2 59.69(3) no
+Zn6 Zn6 Zn3 7_556 7_556 59.22(4) no
+Fe2 Zn6 Zn3 . 7_556 118.33(5) no
+Zn5 Zn6 Zn3 . 7_556 140.06(6) no
+Zn3 Zn6 Zn3 . 7_556 123.58(4) no
+Zn1 Zn6 Zn3 . 7_556 98.62(5) no
+Zn4 Zn6 Zn3 1_556 7_556 83.51(5) no
+Zn6 Zn6 Zn3 2 7_556 60.69(3) no
+Zn6 Zn6 Zn5 7_556 6_556 118.78(7) no
+Fe2 Zn6 Zn5 . 6_556 57.44(3) no
+Zn5 Zn6 Zn5 . 6_556 58.97(5) no
+Zn3 Zn6 Zn5 . 6_556 59.28(4) no
+Zn1 Zn6 Zn5 . 6_556 60.89(4) no
+Zn4 Zn6 Zn5 1_556 6_556 107.10(5) no
+Zn6 Zn6 Zn5 2 6_556 108.13(4) no
+Zn3 Zn6 Zn5 7_556 6_556 158.70(6) no
+Zn6 Zn6 Zn5 7_556 7_557 70.02(6) no
+Fe2 Zn6 Zn5 . 7_557 121.57(5) no
+Zn5 Zn6 Zn5 . 7_557 90.84(5) no
+Zn3 Zn6 Zn5 . 7_557 106.22(5) no
+Zn1 Zn6 Zn5 . 7_557 150.77(5) no
+Zn4 Zn6 Zn5 1_556 7_557 62.95(5) no
+Zn6 Zn6 Zn5 2 7_557 93.98(3) no
+Zn3 Zn6 Zn5 7_556 7_557 54.41(4) no
+Zn5 Zn6 Zn5 6_556 7_557 146.86(6) no
+Zn6 Zn6 Zn4 7_556 7_556 69.89(6) no
+Fe2 Zn6 Zn4 . 7_556 123.30(5) no
+Zn5 Zn6 Zn4 . 7_556 63.40(5) no
+Zn3 Zn6 Zn4 . 7_556 55.32(5) no
+Zn1 Zn6 Zn4 . 7_556 152.42(5) no
+Zn4 Zn6 Zn4 1_556 7_556 92.27(4) no
+Zn6 Zn6 Zn4 2 7_556 147.43(3) no
+Zn3 Zn6 Zn4 7_556 7_556 102.97(5) no
+Zn5 Zn6 Zn4 6_556 7_556 95.16(6) no
+Zn5 Zn6 Zn4 7_557 7_556 56.06(4) no
+Zn6 Zn6 Zn5 7_556 1_554 59.68(5) no
+Fe2 Zn6 Zn5 . 1_554 108.13(5) no
+Zn5 Zn6 Zn5 . 1_554 122.53(6) no
+Zn3 Zn6 Zn5 . 1_554 52.35(4) no
+Zn1 Zn6 Zn5 . 1_554 56.79(4) no
+Zn4 Zn6 Zn5 1_556 1_554 163.86(5) no
+Zn6 Zn6 Zn5 2 1_554 106.30(3) no
+Zn3 Zn6 Zn5 7_556 1_554 96.64(5) no
+Zn5 Zn6 Zn5 6_556 1_554 67.98(5) no
+Zn5 Zn6 Zn5 7_557 1_554 129.70(4) no
+Zn4 Zn6 Zn5 7_556 1_554 103.37(5) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Zn1 Fe2 1_554 2.5330(10) no
+Zn1 Fe2 . 2.5330(10) yes
+Zn1 Zn6 . 2.6819(14) yes
+Zn1 Zn6 5 2.6819(14) no
+Zn1 Zn6 6 2.6819(14) no
+Zn1 Zn6 2 2.6819(14) no
+Zn1 Zn4 . 2.7488(17) yes
+Zn1 Zn4 5 2.7488(17) no
+Zn1 Zn5 1_554 2.7946(14) yes
+Zn1 Zn5 2_554 2.7946(14) no
+Zn1 Zn5 5_556 2.7946(14) no
+Zn1 Zn5 6_556 2.7946(14) no
+Fe2 Zn1 . 2.5330(10) no
+Fe2 Zn1 1_556 2.5330(10) no
+Fe2 Zn4 5 2.5919(17) yes
+Fe2 Zn4 1_556 2.5919(17) no
+Fe2 Zn6 . 2.5945(11) yes
+Fe2 Zn6 5_556 2.5945(11) no
+Fe2 Zn6 2 2.5945(11) no
+Fe2 Zn6 6_556 2.5945(11) no
+Fe2 Zn5 5_556 2.6136(12) no
+Fe2 Zn5 . 2.6136(12) yes
+Fe2 Zn5 6_556 2.6136(12) no
+Fe2 Zn5 2 2.6136(12) no
+Zn3 Zn4 7_556 2.582(2) yes
+Zn3 Zn5 1_554 2.5878(17) yes
+Zn3 Zn5 2_564 2.5878(17) no
+Zn3 Zn6 2_565 2.6468(13) no
+Zn3 Zn6 . 2.6468(13) yes
+Zn3 Zn3 5_565 2.683(3) yes
+Zn3 Zn5 6_556 2.7119(16) yes
+Zn3 Zn5 5_566 2.7119(16) no
+Zn3 Zn6 8_556 2.7775(16) yes
+Zn3 Zn6 7_556 2.7775(16) no
+Zn4 Zn3 7_556 2.582(2) no
+Zn4 Fe2 1_554 2.5919(17) no
+Zn4 Zn6 2_554 2.6939(19) no
+Zn4 Zn6 1_554 2.6939(19) yes
+Zn4 Zn5 2_554 2.7137(15) no
+Zn4 Zn5 1_554 2.7137(15) yes
+Zn4 Zn6 7_556 2.8945(14) yes
+Zn4 Zn6 8_546 2.8945(14) no
+Zn4 Zn5 7_556 2.9143(18) yes
+Zn4 Zn5 8_546 2.9143(18) no
+Zn4 Zn6 . 3.139(2) yes
+Zn5 Zn3 1_556 2.5878(17) no
+Zn5 Zn6 . 2.6358(17) yes
+Zn5 Zn5 6_556 2.694(3) yes
+Zn5 Zn3 5_566 2.7119(16) no
+Zn5 Zn4 1_556 2.7137(15) no
+Zn5 Zn1 1_556 2.7946(14) no
+Zn5 Zn6 6_556 2.8277(17) yes
+Zn5 Zn6 7_557 2.8797(18) yes
+Zn5 Zn4 7_556 2.9143(18) no
+Zn5 Zn5 2_565 3.119(3) yes
+Zn5 Zn6 1_556 3.135(2) yes
+Zn6 Zn6 7_556 2.567(2) yes
+Zn6 Zn4 1_556 2.6939(19) no
+Zn6 Zn6 2 2.719(2) yes
+Zn6 Zn3 7_556 2.7775(16) no
+Zn6 Zn5 6_556 2.8277(17) no
+Zn6 Zn5 7_557 2.8797(18) no
+Zn6 Zn4 7_556 2.8945(14) no
+Zn6 Zn5 1_554 3.135(2) no

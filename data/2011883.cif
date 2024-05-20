@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/18/2011883.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2011883
+loop_
+_publ_author_name
+'Zumdick, Markus'
+'Althoff, Gerhard'
+'R\"ohr, Caroline'
+_publ_section_title
+;
+ Barium oxoaluminate hydride
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              339
+_journal_page_last               340
+_journal_paper_doi               10.1107/S0108270100020229
+_journal_volume                  57
+_journal_year                    2001
+_chemical_formula_moiety         'Ba3 [AlO4 ][H]'
+_chemical_formula_sum            'Al Ba3 H O4'
+_chemical_formula_weight         504.01
+_chemical_name_systematic
+;
+                                  barium oxo-aluminate hydride
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.4889(8)
+_cell_length_b                   8.1503(9)
+_cell_length_c                   7.2440(12)
+_cell_measurement_reflns_used    2363
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      56.533
+_cell_measurement_theta_min      6.331
+_cell_volume                     619.27(13)
+_computing_cell_refinement       'SAINT (Bruker, 1999)'
+_computing_data_collection       'SMART (Bruker, 1999)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics
+;
+ORTEP (Johnson, 1968) and  DRAWxtl (Finger & Kroeker, 1999)
+;
+_computing_publication_material  SHELXL97
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full .988
+_diffrn_measured_fraction_theta_max .988
+_diffrn_measurement_device_type  'Bruker AXS, CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71070
+_diffrn_reflns_av_R_equivalents  .0285
+_diffrn_reflns_av_sigmaI/netI    .0188
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            3661
+_diffrn_reflns_theta_full        28.31
+_diffrn_reflns_theta_max         28.31
+_diffrn_reflns_theta_min         3.42
+_diffrn_standards_decay_%        none
+_exptl_absorpt_coefficient_mu    18.932
+_exptl_absorpt_correction_T_max  1.0
+_exptl_absorpt_correction_T_min  .466524
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   '(SADABS; Sheldrick, 1996)'
+_exptl_crystal_colour            clear_light_red
+_exptl_crystal_density_diffrn    5.406
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             856
+_exptl_crystal_size_max          .17
+_exptl_crystal_size_mid          .12
+_exptl_crystal_size_min          .10
+_refine_diff_density_max         1.052
+_refine_diff_density_min         -2.257
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.129
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         810
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.129
+_refine_ls_R_factor_all          .0251
+_refine_ls_R_factor_gt           .0225
+_refine_ls_shift/su_max          .025
+_refine_ls_shift/su_mean         .002
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w = 1/[\s^2^(Fo^2^)+(0.0328P)^2^] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .0543
+_reflns_number_gt                752
+_reflns_number_total             810
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            iz1007.cif
+_cod_data_source_block           I
+_cod_database_code               2011883
+_cod_database_fobs_code          2011883
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, y+1/2, -z'
+'-x+1/2, -y, z+1/2'
+'-x, -y, -z'
+'-x-1/2, y-1/2, z-1/2'
+'x, -y-1/2, z'
+'x-1/2, y, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Ba1 .33491(2) .02502(3) .10190(4) .01025(11) Uani d . 1 . . Ba
+Ba2 .46337(3) .2500 .59881(5) .00871(12) Uani d S 1 . . Ba
+Al1 .10373(15) .2500 .3110(3) .0072(3) Uani d S 1 . . Al
+O1 .0725(3) .0660(4) .1951(5) .0137(6) Uani d . 1 . . O
+O2 .0113(4) .2500 .5170(7) .0112(8) Uani d S 1 . . O
+O3 .2678(4) .2500 .3706(6) .0126(9) Uani d S 1 . . O
+H1 .224(7) .2500 .822(13) .07(2) Uiso d SP 1 . . H
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba1 .01116(17) .00649(17) .01310(17) .00021(8) .00083(9) -.00146(8)
+Ba2 .01006(19) .00640(19) .0097(2) .000 -.00052(12) .000
+Al1 .0094(8) .0041(7) .0080(8) .000 -.0013(7) .000
+O1 .0165(15) .0075(14) .0173(16) -.0019(11) .0025(13) -.0031(13)
+O2 .012(2) .0094(18) .012(2) .000 .0045(17) .000
+O3 .0105(19) .015(2) .012(2) .000 -.0024(17) .000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba -.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al .0645 .0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H .0000 .0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ba1 O2 2 2.744(3) y
+Ba1 O3 . 2.766(3) y
+Ba1 H1 6_655 2.82(5) y
+Ba1 O2 6_655 2.829(3) y
+Ba1 O1 . 2.854(3) y
+Ba1 O1 8_656 2.913(3) y
+Ba1 H1 1_554 2.97(7) y
+Ba1 O3 6_655 2.998(3) y
+Ba1 O1 4_554 3.191(3) y
+Ba2 O3 . 2.635(4) y
+Ba2 O1 6_666 2.694(3) y
+Ba2 O1 4 2.694(3) y
+Ba2 H1 2_556 2.80(7) y
+Ba2 O2 2_556 2.828(5) y
+Ba2 O1 2 2.844(3) y
+Ba2 O1 8_656 2.844(3) y
+Ba2 H1 . 2.98(8) y
+Al1 O1 7_565 1.750(3) y
+Al1 O1 . 1.750(3) y
+Al1 O3 . 1.774(5) y
+Al1 O2 . 1.780(5) y
+H1 Ba2 2_456 2.80(7) y
+H1 Ba1 6_666 2.82(5) y
+H1 Ba1 4 2.82(5) y
+H1 Ba1 7_566 2.97(7) y
+H1 Ba1 1_556 2.97(7) y
+H1 Ba2 . 2.98(8) y
+O1 Al1 . 1.750(3) ?
+O1 Ba2 6_655 2.694(3) ?
+O1 Ba2 2_455 2.844(3) ?
+O1 Ba1 . 2.854(3) ?
+O1 Ba1 8_556 2.913(3) ?
+O1 Ba1 4 3.191(3) ?
+O2 Al1 . 1.780(5) ?
+O2 Ba1 2_455 2.744(3) ?
+O2 Ba1 8_556 2.744(3) ?
+O2 Ba2 2_456 2.828(5) ?
+O2 Ba1 6_666 2.829(3) ?
+O2 Ba1 4 2.829(3) ?
+O3 Al1 . 1.774(5) ?
+O3 Ba2 . 2.635(4) ?
+O3 Ba1 . 2.766(3) ?
+O3 Ba1 7_565 2.766(3) ?
+O3 Ba1 6_666 2.998(3) ?
+O3 Ba1 4 2.998(3) ?

@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/48/9004895.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004895
+loop_
+_publ_author_name
+'Locock, A. J.'
+'Burns, P. C.'
+'Flynn, M.'
+_publ_section_title
+;
+ Divalent transition metals and magnesium in structures
+ that contain the autunite-type sheet
+ Sample: MnUAs8
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1699
+_journal_page_last               1718
+_journal_paper_doi               10.2113/gscanmin.42.6.1699
+_journal_volume                  42
+_journal_year                    2004
+_chemical_formula_structural     Mn[UO2AsO4]2(H2O)8
+_chemical_formula_sum            'As2 H16 Mn O20 U2'
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                75.012
+_cell_angle_beta                 84.136
+_cell_angle_gamma                81.995
+_cell_formula_units_Z            2
+_cell_length_a                   7.2244
+_cell_length_b                   9.9170
+_cell_length_c                   13.337
+_cell_volume                     911.832
+_database_code_amcsd             0005991
+_exptl_crystal_density_diffrn    3.704
+_cod_original_formula_sum        'Mn U2 As2 O20 H16'
+_cod_database_code               9004895
+_amcsd_formula_title             Mn[UO2AsO4]2(H2O)8
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.32280 0.36060 0.25940 0.02100 Mn 0
+U1 0.23470 0.69230 0.40090 0.01000 U 0
+U2 0.22820 0.20010 -0.09140 0.01100 U 0
+As1 0.25190 0.87200 0.12020 0.01100 As 0
+As2 0.24650 0.37760 -0.37240 0.01200 As 0
+O1 0.26180 0.04450 0.06690 0.02000 O 0
+O2 0.19770 0.83370 0.46310 0.01800 O 0
+O3 0.19030 0.33840 -0.02630 0.01900 O 0
+O4 0.08760 0.81210 0.06850 0.01900 O 0
+O5 0.45860 0.77720 0.09930 0.02100 O 0
+O6 0.45460 0.28280 -0.38840 0.02100 O 0
+O7 0.08230 0.31330 -0.42120 0.01900 O 0
+O8 0.25890 0.54720 -0.43670 0.02100 O 0
+O9 0.19920 0.85500 0.24850 0.02100 O 0
+O10 0.27100 0.54630 0.33880 0.02200 O 0
+O11 0.26810 0.06290 -0.15790 0.02300 O 0
+O12 0.19220 0.37100 -0.24550 0.01900 O 0
+Wat1 0.41330 0.17810 0.19570 0.03500 O 2
+Wat2 0.57450 0.29110 0.34050 0.04100 O 2
+Wat3 0.17270 0.22790 0.38840 0.04200 O 2
+Wat4 0.07030 0.43170 0.17950 0.04500 O 2
+Wat5 0.47820 0.48470 0.13000 0.04500 O 2
+Wat6 0.95780 0.09060 0.29780 0.04300 O 2
+Wat7 0.78270 0.27860 0.11530 0.05500 O 2
+Wat8 0.37580 0.00680 0.59370 0.07900 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005991

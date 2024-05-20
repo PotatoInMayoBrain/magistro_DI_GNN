@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 12:03:41 +0300 (Tue, 23 May 2023) $
+#$Revision: 283962 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/75/9007504.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007504
+loop_
+_publ_author_name
+'Worzala, H.'
+_publ_section_title
+;
+ Die kristallstruktur des arsensaurehydrates 2H3AsO4.H2O
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              987
+_journal_page_last               991
+_journal_paper_doi               10.1107/S0567740868003602
+_journal_volume                  24
+_journal_year                    1968
+_chemical_formula_structural     2(H3AsO4).H2O
+_chemical_formula_sum            'As2 H8 O9'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 109.6
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.60
+_cell_length_b                   13.29
+_cell_length_c                   8.24
+_cell_volume                     784.049
+_database_code_amcsd             0009343
+_exptl_crystal_density_diffrn    2.558
+_cod_original_formula_sum        'As2 (O9 H8)'
+_cod_database_code               9007504
+_amcsd_formula_title             2(H3AsO4).H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As1 0.74740 0.10350 0.44090 0.02343 As 0
+As2 0.14250 0.13510 0.08480 0.02343 As 0
+O-H1 0.31400 0.01900 0.55660 0.03394 O 1
+O-H2 0.55090 0.16210 0.43160 0.03394 O 1
+O3 0.93060 0.13400 0.59590 0.03394 O 0
+O-H4 0.76820 0.12190 0.25000 0.03394 O 1
+O5 0.10580 0.09850 0.25840 0.03394 O 0
+O-H6 0.93720 0.12410 0.91630 0.03394 O 1
+O-H7 0.30890 0.06710 0.05080 0.03394 O 1
+O-H8 0.21860 0.24310 0.59040 0.03394 O 1
+Wat9 0.51570 0.13210 0.86870 0.03394 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:15:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009343

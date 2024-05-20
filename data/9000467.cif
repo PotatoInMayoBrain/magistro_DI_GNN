@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/04/9000467.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000467
+loop_
+_publ_author_name
+'Takeda, H.'
+'Ross, M.'
+_publ_section_title
+;Mica polytypism: Dissimilarities in the crystal structures of coexisting 1M
+ and 2M1 biotite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1030
+_journal_page_last               1040
+_journal_volume                  60
+_journal_year                    1975
+_chemical_formula_sum            'Al1.999 H2 K Mg2.001 O12 Si3'
+_chemical_name_mineral           Biotite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.16
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.331
+_cell_length_b                   9.231
+_cell_length_c                   10.173
+_cell_volume                     492.768
+_database_code_amcsd             0000478
+_exptl_crystal_density_diffrn    2.830
+_cod_original_formula_sum        'Mg2.001 Al1.999 K Si3 O12 H2'
+_cod_database_code               9000467
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mg1 0.01186 0.00820 0.02540 0.00000 0.00612 0.00000
+Mg2 0.00893 0.01425 0.02083 0.00000 0.00319 0.00000
+Al1 0.01186 0.00820 0.02540 0.00000 0.00612 0.00000
+Al2 0.00893 0.01425 0.02083 0.00000 0.00319 0.00000
+K1 0.02511 0.02288 0.04013 0.00000 0.00745 0.00000
+Si1 0.00767 0.00548 0.01570 0.00000 0.00346 0.00000
+Al3 0.00767 0.00548 0.01570 0.00000 0.00346 0.00000
+O1 0.02399 0.01036 0.02083 0.00000 0.00346 0.00000
+O2 0.01604 0.01899 0.02540 -0.00417 0.00453 -0.00281
+O3 0.01032 0.00777 0.01676 0.00074 0.00399 0.00000
+OH4 0.01102 0.01209 0.01575 0.00000 0.00213 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg1 0.00000 0.00000 0.50000 0.66700 Mg 0
+Mg2 0.00000 0.33920 0.50000 0.66700 Mg 0
+Al1 0.00000 0.00000 0.50000 0.33300 Al 0
+Al2 0.00000 0.33920 0.50000 0.33300 Al 0
+K1 0.00000 0.50000 0.00000 1.00000 K 0
+Si1 0.07450 0.16710 0.22420 0.75000 Si 0
+Al3 0.07450 0.16710 0.22420 0.25000 Al 0
+O1 0.01650 0.00000 0.16740 1.00000 O 0
+O2 0.32400 0.23100 0.16600 1.00000 O 0
+O3 0.13100 0.16840 0.39060 1.00000 O 0
+O-H4 0.13120 0.50000 0.39850 1.00000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:20+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000478

@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 12:03:41 +0300 (Tue, 23 May 2023) $
+#$Revision: 283962 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/78/9007878.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007878
+loop_
+_publ_author_name
+'Jessen, S. M.'
+'Kuppers, H.'
+_publ_section_title
+;
+ The structure of dilithium dihydrogen 1,2,4,5,-benzenetetracarboxylate
+ tetrahydrate (dilithium dihydrogen pyromellitate tetrahydrate)
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              2351
+_journal_page_last               2354
+_journal_paper_doi               10.1107/S0108270190004863
+_journal_volume                  46
+_journal_year                    1990
+_chemical_formula_structural     Li2C10H4O8.4H2O
+_chemical_formula_sum            'C5 H6 Li O6'
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                87.66
+_cell_angle_beta                 89.21
+_cell_angle_gamma                89.80
+_cell_formula_units_Z            2
+_cell_length_a                   4.586
+_cell_length_b                   8.539
+_cell_length_c                   8.525
+_cell_volume                     333.526
+_database_code_amcsd             0010241
+_exptl_crystal_density_diffrn    1.683
+_cod_original_formula_sum        'C5 O6 Li H6'
+_cod_database_code               9007878
+_amcsd_formula_title             Li2C10H4O8.4H2O
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+C1 0.83100 0.03180 0.86590 0.01490 C 0
+C2 0.89120 0.15070 0.96870 0.01330 C 0
+C3 0.05690 0.11790 0.10150 0.01590 C 0
+C4 0.64220 0.06530 0.72560 0.01910 C 0
+C5 0.79700 0.31870 0.93670 0.01570 C 0
+O1 0.48100 0.18010 0.72210 0.02710 O 0
+O2 0.34020 0.03260 0.38520 0.03630 O 0
+O3 0.92350 0.40100 0.83610 0.02280 O 0
+O4 0.58690 0.36490 0.02650 0.02120 O 0
+Wat1 0.60040 0.43430 0.33940 0.02700 O 2
+Wat2 0.08470 0.30950 0.48200 0.03040 O 2
+Li 0.22940 0.35250 0.68810 0.02710 Li 0
+H2 0.43330 0.01700 0.46450 0.01110 H 0
+H3 0.52050 0.44510 0.01320 0.06840 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:16:15+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010241

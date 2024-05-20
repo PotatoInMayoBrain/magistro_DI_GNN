@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/24/9012412.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012412
+loop_
+_publ_author_name
+'Clark, M. J. R.'
+'Lynton, H.'
+_publ_section_title
+;
+ Crystal structures of potassium, ammonium, rubidium and cesium
+ tetrafluoroborates
+;
+_journal_name_full               'Canadian Journal of Chemistry'
+_journal_page_first              2579
+_journal_page_last               2586
+_journal_paper_doi               10.1139/v69-426
+_journal_volume                  47
+_journal_year                    1969
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'B F4 N'
+_chemical_name_mineral           Barberiite
+_space_group_IT_number           62
+_symmetry_space_group_name_Hall  '-P 2c 2ab'
+_symmetry_space_group_name_H-M   'P b n m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.278
+_cell_length_b                   9.072
+_cell_length_c                   5.678
+_cell_volume                     374.896
+_database_code_amcsd             0012155
+_exptl_crystal_density_diffrn    1.786
+_cod_original_formula_sum        'N B F4'
+_cod_database_code               9012412
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,y,1/2-z
+-x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2-x,1/2+y,z
+1/2+x,1/2-y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+NH4 0.02683 0.02443 0.03402 -0.00161 -0.00226 -0.00039
+B 0.01849 0.02222 0.02100 -0.00151 0.00576 -0.00308
+F1 0.07020 0.04007 0.07196 -0.03395 0.00521 -0.00089
+F2 0.03293 0.05258 0.05524 0.02014 -0.00324 -0.00217
+F3 0.03886 0.04194 0.02605 0.00415 0.00789 0.00055
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NH4 0.16420 0.18539 0.25000 N 0
+B 0.69207 0.06051 0.25000 B 0
+F1 0.61017 -0.07653 0.25000 F 0
+F2 0.56426 0.17280 0.25000 F 0
+F3 0.80393 0.07559 0.04994 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:21:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012155

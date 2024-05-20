@@ -1,0 +1,325 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:58:43 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179356 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/53/4325395.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4325395
+loop_
+_publ_author_name
+'Pascal Link'
+'Pieter Glatzel'
+'Kristina Kvashnina'
+'Ronald I. Smith'
+'Uwe Ruschewitz'
+_publ_contact_author_address
+;
+Department of Chemistry, University of Cologne, Greinstra\&se 6, 
+D-50939 Cologne, Germany
+;
+_publ_contact_author_email       uwe.ruschewitz@uni-koeln.de
+_publ_contact_author_name        'Uwe Ruschewitz'
+_publ_section_title
+;
+ Yb Valence States in ybC2: A HERFD-XANES Spectroscopic Investigation
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5587
+_journal_page_last               5595
+_journal_paper_doi               10.1021/ic200247z
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_moiety         ybC2
+_chemical_formula_sum            'C2 yb'
+_chemical_formula_weight         197.06
+_chemical_name_common            'Ytterbium Dicarbide'
+_chemical_name_systematic
+; 
+Ytterbium(II)- carbide
+;
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_audit_author_name               'YbC2 RT'
+_audit_creation_date             2011-01-24T08:52
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2011-01-24T08:52  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   3.635306(24)
+_cell_length_b                   3.635306
+_cell_length_c                   6.11257(7)
+_cell_measurement_temperature    298.15
+_cell_volume                     80.7804(11)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Polaris beamline'
+_diffrn_radiation_probe          neutron
+_diffrn_source                   'neutron spallation source'
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ no correction is applied.
+;
+_pd_block_id                     2011-01-24T08:52|YBC2_RT_phase1|YbC2_RT||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_particle_morphology     Powder
+_pd_instr_location
+; 
+POLARIS time-of-flight powder diffractometer, ISIS Facility, 
+Rutherford Appleton Laboratory, Chilton, Didcot, Oxfordshire, OX11 0QX, UK
+;
+_pd_meas_2theta_fixed            145.00
+_pd_phase_name                   I4/mmm
+_pd_prep_temperature             1323
+_pd_proc_info_datetime           2011-01-24T08:52:15
+_pd_proc_ls_background_function
+;   GSAS Background function number 4 with  7 terms.
+ Power series in Q**2n/n!
+      1:   0.142848     2:   1.419710E-02 3:  -1.119250E-03 4:   8.825850E-05
+      5:  -4.912070E-06 6:   1.679080E-07 7:  -2.659310E-09
+;
+_pd_proc_ls_prof_R_factor        0.0668
+_pd_proc_ls_prof_wR_factor       0.0394
+_refine_ls_goodness_of_fit_all   2.08
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.08
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.606
+_reflns_d_resolution_low         3.124
+_reflns_limit_h_max              6
+_reflns_limit_h_min              0
+_reflns_limit_k_max              4
+_reflns_limit_k_min              0
+_reflns_limit_l_max              10
+_reflns_limit_l_min              0
+_reflns_number_total             75
+_cod_data_source_file            ic200247z_si_001.cif
+_cod_data_source_block           YBC2_RT_publ
+_cod_original_cell_volume        80.7800(10)
+_cod_database_code               4325395
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   0.60962
+_gsas_exptl_extinct_corr_t_max   0.99993
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -y,+x,+z
+3 -x,-y,+z
+4 +y,-x,+z
+5 -x,+y,+z
+6 -y,-x,+z
+7 +x,-y,+z
+8 +y,+x,+z
+-1 -x,-y,-z
+-2 +y,-x,-z
+-3 +x,+y,-z
+-4 -y,+x,-z
+-5 +x,-y,-z
+-6 +y,+x,-z
+-7 -x,+y,-z
+-8 -y,-x,-z
+101 +x+1/2,+y+1/2,+z+1/2
+102 -y+1/2,+x+1/2,+z+1/2
+103 -x+1/2,-y+1/2,+z+1/2
+104 +y+1/2,-x+1/2,+z+1/2
+105 -x+1/2,+y+1/2,+z+1/2
+106 -y+1/2,-x+1/2,+z+1/2
+107 +x+1/2,-y+1/2,+z+1/2
+108 +y+1/2,+x+1/2,+z+1/2
+-101 -x+1/2,-y+1/2,-z+1/2
+-102 +y+1/2,-x+1/2,-z+1/2
+-103 +x+1/2,+y+1/2,-z+1/2
+-104 -y+1/2,+x+1/2,-z+1/2
+-105 +x+1/2,-y+1/2,-z+1/2
+-106 +y+1/2,+x+1/2,-z+1/2
+-107 -x+1/2,+y+1/2,-z+1/2
+-108 -y+1/2,-x+1/2,-z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Yb YB1 0.0 0.0 0.0 1.0 Uiso 0.00430(9) 2
+C C2 0.0 0.0 0.39522(4) 1.0 Uiso 0.00672(8) 4
+loop_
+_atom_type_symbol
+_atom_type_scat_length_neutron
+_atom_type_scat_source
+_atom_type_number_in_cell
+yb 1.2279 International_Tables_Vol_C 2
+C 0.6648 International_Tables_Vol_C 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+yB1 YB1 YB1 90.0 1_455 1_545 n
+yB1 YB1 YB1 90.0 1_455 1_565 n
+yB1 YB1 YB1 180.0 1_455 1_655 n
+yB1 YB1 C2 90.0 1_455 1_555 n
+yB1 YB1 C2 90.0 1_455 -1_555 n
+yB1 YB1 C2 46.6755(12) 1_455 101_444 n
+yB1 YB1 C2 46.6755(12) 1_455 101_454 n
+yB1 YB1 C2 133.3245(12) 1_455 101_544 n
+yB1 YB1 C2 133.3245(12) 1_455 101_554 n
+yB1 YB1 C2 46.6755(12) 1_455 -101_334 n
+yB1 YB1 C2 46.6755(12) 1_455 -101_344 n
+yB1 YB1 C2 133.3245(12) 1_455 -101_434 n
+yB1 YB1 C2 133.3245(12) 1_455 -101_444 n
+yB1 YB1 YB1 180.0 1_545 1_565 n
+yB1 YB1 YB1 90.0 1_545 1_655 n
+yB1 YB1 C2 90.0 1_545 1_555 n
+yB1 YB1 C2 90.0 1_545 -1_555 n
+yB1 YB1 C2 46.6755(12) 1_545 101_444 n
+yB1 YB1 C2 133.3245(12) 1_545 101_454 n
+yB1 YB1 C2 46.6755(12) 1_545 101_544 n
+yB1 YB1 C2 133.3245(12) 1_545 101_554 n
+yB1 YB1 C2 46.6755(12) 1_545 -101_334 n
+yB1 YB1 C2 133.3245(12) 1_545 -101_344 n
+yB1 YB1 C2 46.6755(12) 1_545 -101_434 n
+yB1 YB1 C2 133.3245(12) 1_545 -101_444 n
+yB1 YB1 YB1 90.0 1_565 1_655 n
+yB1 YB1 C2 90.0 1_565 1_555 n
+yB1 YB1 C2 90.0 1_565 -1_555 n
+yB1 YB1 C2 133.3245(12) 1_565 101_444 n
+yB1 YB1 C2 46.6755(12) 1_565 101_454 n
+yB1 YB1 C2 133.3245(12) 1_565 101_544 n
+yB1 YB1 C2 46.6755(12) 1_565 101_554 n
+yB1 YB1 C2 133.3245(12) 1_565 -101_334 n
+yB1 YB1 C2 46.6755(12) 1_565 -101_344 n
+yB1 YB1 C2 133.3245(12) 1_565 -101_434 n
+yB1 YB1 C2 46.6755(12) 1_565 -101_444 n
+yB1 YB1 C2 90.0 1_655 1_555 n
+yB1 YB1 C2 90.0 1_655 -1_555 n
+yB1 YB1 C2 133.3245(12) 1_655 101_444 n
+yB1 YB1 C2 133.3245(12) 1_655 101_454 n
+yB1 YB1 C2 46.6755(12) 1_655 101_544 n
+yB1 YB1 C2 46.6755(12) 1_655 101_554 n
+yB1 YB1 C2 133.3245(12) 1_655 -101_334 n
+yB1 YB1 C2 133.3245(12) 1_655 -101_344 n
+yB1 YB1 C2 46.6755(12) 1_655 -101_434 n
+yB1 YB1 C2 46.6755(12) 1_655 -101_444 n
+C2 yB1 C2 180.0 1_555 -1_555 n
+C2 yB1 C2 103.991(5) 1_555 101_444 n
+C2 yB1 C2 103.991(5) 1_555 101_454 n
+C2 yB1 C2 103.991(5) 1_555 101_544 n
+C2 yB1 C2 103.991(5) 1_555 101_554 n
+C2 yB1 C2 76.009(5) 1_555 -101_334 n
+C2 yB1 C2 76.009(5) 1_555 -101_344 n
+C2 yB1 C2 76.009(5) 1_555 -101_434 n
+C2 yB1 C2 76.009(5) 1_555 -101_444 n
+C2 yB1 C2 76.009(5) -1_555 101_444 n
+C2 yB1 C2 76.009(5) -1_555 101_454 n
+C2 yB1 C2 76.009(5) -1_555 101_544 n
+C2 yB1 C2 76.009(5) -1_555 101_554 n
+C2 yB1 C2 103.991(5) -1_555 -101_334 n
+C2 yB1 C2 103.991(5) -1_555 -101_344 n
+C2 yB1 C2 103.991(5) -1_555 -101_434 n
+C2 yB1 C2 103.991(5) -1_555 -101_444 n
+C2 yB1 C2 86.6489(24) 101_444 101_454 n
+C2 yB1 C2 86.6489(24) 101_444 101_544 n
+C2 yB1 C2 152.018(10) 101_444 101_554 n
+C2 yB1 C2 27.982(10) 101_444 -101_334 n
+C2 yB1 C2 93.3510(24) 101_444 -101_344 n
+C2 yB1 C2 93.3510(24) 101_444 -101_434 n
+C2 yB1 C2 179.9802 101_444 -101_444 n
+C2 yB1 C2 152.018(10) 101_454 101_544 n
+C2 yB1 C2 86.6489(24) 101_454 101_554 n
+C2 yB1 C2 93.3510(24) 101_454 -101_334 n
+C2 yB1 C2 27.982(10) 101_454 -101_344 n
+C2 yB1 C2 179.972 101_454 -101_434 n
+C2 yB1 C2 93.3510(24) 101_454 -101_444 n
+C2 yB1 C2 86.6489(24) 101_544 101_554 n
+C2 yB1 C2 93.3510(24) 101_544 -101_334 n
+C2 yB1 C2 179.972 101_544 -101_344 n
+C2 yB1 C2 27.982(10) 101_544 -101_434 n
+C2 yB1 C2 93.3510(24) 101_544 -101_444 n
+C2 yB1 C2 179.9802 101_554 -101_334 n
+C2 yB1 C2 93.3510(24) 101_554 -101_344 n
+C2 yB1 C2 93.3510(24) 101_554 -101_434 n
+C2 yB1 C2 27.982(10) 101_554 -101_444 n
+C2 yB1 C2 86.6489(24) -101_334 -101_344 n
+C2 yB1 C2 86.6489(24) -101_334 -101_434 n
+C2 yB1 C2 152.018(10) -101_334 -101_444 n
+C2 yB1 C2 152.018(10) -101_344 -101_434 n
+C2 yB1 C2 86.6489(24) -101_344 -101_444 n
+C2 yB1 C2 86.6489(24) -101_434 -101_444 n
+yB1 C2 YB1 103.991(5) 1_555 101_445 n
+yB1 C2 YB1 103.991(5) 1_555 101_455 n
+yB1 C2 YB1 103.991(5) 1_555 101_545 n
+yB1 C2 YB1 103.991(5) 1_555 101_555 n
+yB1 C2 C2 180.0 1_555 -1_556 n
+yB1 C2 YB1 86.6489(24) 101_445 101_455 n
+yB1 C2 YB1 86.6489(24) 101_445 101_545 n
+yB1 C2 YB1 152.018(10) 101_445 101_555 n
+yB1 C2 C2 76.009(5) 101_445 -1_556 n
+yB1 C2 YB1 152.018(10) 101_455 101_545 n
+yB1 C2 YB1 86.6489(24) 101_455 101_555 n
+yB1 C2 C2 76.009(5) 101_455 -1_556 n
+yB1 C2 YB1 86.6489(24) 101_545 101_555 n
+yB1 C2 C2 76.009(5) 101_545 -1_556 n
+yB1 C2 C2 76.009(5) 101_555 -1_556 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+yB1 YB1 3.635310(20) 1_455 n
+yB1 YB1 3.635310(20) 1_545 n
+yB1 YB1 3.635310(20) 1_565 n
+yB1 YB1 3.635310(20) 1_655 n
+yB1 YB1 3.993570(30) 101_444 n
+yB1 YB1 3.993570(30) 101_445 n
+yB1 YB1 3.993570(30) 101_454 n
+yB1 YB1 3.993570(30) 101_455 n
+yB1 YB1 3.993570(30) 101_544 n
+yB1 YB1 3.993570(30) 101_545 n
+yB1 YB1 3.993570(30) 101_554 n
+yB1 YB1 3.993570(30) 101_555 n
+yB1 C2 2.41580(24) 1_555 n
+yB1 C2 2.41580(24) -1_555 n
+yB1 C2 2.64914(6) 101_444 n
+yB1 C2 2.64914(6) 101_454 n
+yB1 C2 2.64914(6) 101_544 n
+yB1 C2 2.64914(6) 101_554 n
+yB1 C2 2.64914(6) -101_334 n
+yB1 C2 2.64914(6) -101_344 n
+yB1 C2 2.64914(6) -101_434 n
+yB1 C2 2.64914(6) -101_444 n
+C2 yB1 2.41580(24) 1_555 n
+C2 yB1 2.64914(6) 101_445 n
+C2 yB1 2.64914(6) 101_455 n
+C2 yB1 2.64914(6) 101_545 n
+C2 yB1 2.64914(6) 101_555 n
+C2 C2 1.2810(5) -1_556 n
+loop_
+_pd_block_diffractogram_id
+2011-01-24T08:52|YBC2_RT_H_01|YbC2_RT|POLARIS
+2011-01-24T08:52|YBC2_RT_H_02|YbC2_RT|POLARIS
+2011-01-24T08:52|YBC2_RT_H_03|YbC2_RT|POLARIS
+loop_
+_pd_phase_block_id
+2011-01-24T08:52|YBC2_RT_phase1|YbC2_RT||

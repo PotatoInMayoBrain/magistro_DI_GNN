@@ -1,0 +1,87 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/01/9000140.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000140
+loop_
+_publ_author_name
+'Moore, P. B.'
+_publ_section_title
+;
+ The crystal structure of metastrengite and its relationship to strengite and
+ phosphophyllite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              168
+_journal_page_last               176
+_journal_volume                  51
+_journal_year                    1966
+_chemical_formula_sum            'Fe H4 O6 P'
+_chemical_name_mineral           Phosphosiderite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.60
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.30
+_cell_length_b                   9.77
+_cell_length_c                   8.73
+_cell_volume                     452.023
+_database_code_amcsd             0000144
+_exptl_crystal_density_diffrn    2.746
+_cod_original_formula_sum        'Fe P (O6 H4)'
+_cod_database_code               9000140
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe 0.09160 0.82700 0.19190 0.00747 Fe 0
+P -0.08670 0.15060 0.18360 0.00887 P 0
+Wat1 0.38740 0.94940 0.17990 0.03584 O 2
+Wat2 0.08710 0.87300 0.42750 0.02026 O 2
+O3 0.33240 0.68140 0.23830 0.01634 O 0
+O4 -0.11520 -0.00660 0.17080 0.01482 O 0
+O5 -0.20100 0.70500 0.21780 0.01089 O 0
+O6 0.09390 0.78730 -0.02500 0.02064 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:45:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000144

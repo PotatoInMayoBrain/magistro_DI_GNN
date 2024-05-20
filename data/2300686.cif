@@ -1,0 +1,355 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-12-12 14:54:19 +0200 (Tue, 12 Dec 2023) $
+#$Revision: 288248 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/06/2300686.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300686
+loop_
+_publ_author_name
+'Jha, Kunal Kumar'
+'Gruza, Barbara'
+'Chodkiewicz, Micha\/l Leszek'
+'Jelsch, Christian'
+'Dominiak, Paulina Maria'
+_publ_section_title
+;
+ Refinements on electron diffraction data of \b-glycine in MoPro: a quest
+ for an improved structure model
+;
+_journal_coeditor_code           TE5073SUP1
+_journal_issue                   4
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              1234
+_journal_page_last               1243
+_journal_paper_doi               10.1107/S160057672100580X
+_journal_volume                  54
+_journal_year                    2021
+_chemical_formula_moiety         'C2 H5 N O2'
+_chemical_formula_sum            'C2 H5 N O2'
+_chemical_formula_weight         75.064
+_space_group_IT_number           4
+_space_group_name_Hall           'P 2yb'
+_space_group_name_H-M_alt        'P 1 21 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_atom_sites_solution_hydrogens   difmap
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           'MoPro v20.06             '
+_cell_angle_alpha                90.
+_cell_angle_beta                 112.86(3)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            2
+_cell_length_a                   5.3110(11)
+_cell_length_b                   6.4540(13)
+_cell_length_c                   5.6940(11)
+_cell_measurement_temperature    103.15
+_cell_volume                     179.84(7)
+_computing_structure_refinement  'MoPro (J. Appl. Cryst. 2005, 38, 38-54)'
+_diffrn_ambient_temperature      103.15
+_diffrn_measured_fraction_theta_full 0.873
+_diffrn_measured_fraction_theta_max 0.884
+_diffrn_measurement_device_type  'transmission electron microscope'
+_diffrn_measurement_method       'Phi scan'
+_diffrn_radiation_source
+'JEOL JEM-2100 LaB6 transmission electron microscope'
+_diffrn_radiation_type           electron
+_diffrn_radiation_wavelength     0.02508
+_diffrn_reflns_av_R_equivalents  0.0
+_diffrn_reflns_av_sigmaI/netI    0.22719
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            859
+_diffrn_reflns_theta_full        0.88
+_diffrn_reflns_theta_max         0.96
+_diffrn_reflns_theta_min         0.14
+_exptl_absorpt_coefficient_mu    0.119
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.387
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       shard
+_exptl_crystal_F_000             27.67
+_refine_diff_density_max         0.29
+_refine_diff_density_min         -0.37
+_refine_diff_density_rms         0.08
+_refine_ls_abs_structure_details 'Rogers (1981),   393 Friedel pairs'
+_refine_ls_abs_structure_Rogers  1.
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.392
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     66
+_refine_ls_number_reflns         859
+_refine_ls_number_restraints     17
+_refine_ls_restrained_S_all      58.286
+_refine_ls_R_factor_all          0.1408
+_refine_ls_R_factor_gt           0.1332
+_refine_ls_shift/su_max          -0.002
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.2668
+_refine_ls_wR_factor_ref         0.2727
+_reflns_number_gt                736
+_reflns_number_total             859
+_reflns_threshold_expression     'I > 2\s(I)'
+_iucr_refine_instructions_details
+; 
+! MoPro v20.06 15/11/2020 09:00:58
+! molecular file: D:\PostDoc_Papers\GLYTAAM_EDMoPro_Paper\Betaglycine\withrestr
+#aints\CJ\MoPro\IAM_IT\beta_Gly_05.par
+! reflections hkl file : D:\PostDoc_Papers\GLYTAAM_EDMoPro_Paper\Betaglycine\wi
+#threstraints\CJ\MoPro\IAM_IT\glycine_beta_merg.Fhkl refin. vs. F^2
+! atomic table file : C:\Program Files (x86)\MoProSuite\LibMoPro\mopro_ElecD_Ga
+#uss_IT_Valence.tab
+! wave functions file : C:\Program Files (x86)\MoProSuite\LibMoPro\WAVEF
+! anomalous scattering file :
+! Constraints file :
+! Restraints file : D:\PostDoc_Papers\GLYTAAM_EDMoPro_Paper\Betaglycine\withres
+#traints\CJ\MoPro\LSDB\RESTRAIN.txt
+! RF factor = 14.083 % RI factor = 31.914%
+! wR2F factor = 15.258 % wR2I factor = 27.274%
+! g.o.f.(F**2) = 1.557 Nvar= 66 Nref= 859 Nfree= 0 0.10<sinT/l< 0.67
+
+! P00 Dip Qua Oct Hex l=5 l=6
+! N nl = 2 2 2 3 4
+! N zeta= 2.000 2.000 2.000 2.000 2.000
+! H nl = 1 1 2 2 2
+! H zeta= 1.000 1.000 1.000 1.000 1.000
+! C nl = 2 2 2 3 4
+! C zeta= 1.500 1.500 1.500 1.500 1.500
+! O nl = 2 2 2 3 4
+! O zeta= 2.000 2.000 2.000 2.000 2.000
+
+WSIG 1.00000 ! weighting scheme
+ ! SPACE GROUP P ?
+
+CELL 5.3110 6.4540 5.6940 90.0000 112.8630 90.0000 0.02508
+ZERR 0.0011 0.0013 0.0011 0.0000 0.0300 0.0000
+
+SYMM 2 P
+ X , Y, Z
+ -X , 1/2+Y, -Z
+
+SCALE 1 63.153225
+
+FMULT 1.00000
+
+UOVER 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 ANI
+
+SOLVT 0.00000 50.00000
+
+EXTIN 0.00000 GAUSSIAN ISOT TYP1 ! G*10^4
+
+
+DUMMY 0
+
+KAPPA 10
+ 1. 1. ! # 1 1 MOL N1 1X N
+ 1. 1. ! # 2 1 MOL H1a 1X H
+ 1. 1. ! # 3 1 MOL H1b 1X H
+ 1. 1. ! # 4 1 MOL H1c 1X H
+ 1. 1. ! # 5 1 MOL C1 1X C
+ 1. 1. ! # 6 1 MOL H1d 1X H
+ 1. 1. ! # 7 1 MOL H1e 1X H
+ 1. 1. ! # 8 1 MOL C2 1X C
+ 1. 1. ! # 9 1 MOL O1 1X O
+ 1. 1. ! # 10 1 MOL O2 1X O
+
+
+ATOMS 10
+
+ATOM 1 N1 MOL 1 0.147955 -0.435163 -0.235357 1.0000 1 N
+bZX H1b H1a OCT K1 V0 M0 Q0
+UANI 0.009227 0.011229 0.010970 0.000249 0.005646 -.001363
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 2 H1a MOL 1 0.158228 -0.469163 -0.021308 1.0000 1 H
+bZX N1 H1b OCT K2 V0 M0 Q0
+UISO 0.009357
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 3 H1b MOL 1 0.144628 -0.248550 -0.276945 1.0000 1 H
+bZX N1 H1c OCT K3 V0 M0 Q0
+UISO 0.025569
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 4 H1c MOL 1 -0.040445 -0.498939 -0.378324 1.0000 1 H
+bZX N1 H1b OCT K4 V0 M0 Q0
+UISO 0.058840
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 5 C1 MOL 1 0.384303 -0.547870 -0.273391 1.0000 1 C
+ XY C2 H1e OCT K5 V0 M0 Q0
+UANI 0.010758 0.011119 0.012039 0.000353 0.006649 -.000219
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 6 H1d MOL 1 0.613512 -0.476016 -0.104734 1.0000 1 H
+bZX C1 H1e OCT K6 V0 M0 Q0
+UISO 0.053377
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 7 H1e MOL 1 0.376193 -0.721352 -0.214930 1.0000 1 H
+bZX C1 H1d OCT K7 V0 M0 Q0
+UISO 0.029243
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 8 C2 MOL 1 0.363995 -0.537025 -0.558471 1.0000 1 C
+ XY C1 O2 OCT K8 V0 M0 Q0
+UANI 0.008237 0.010013 0.010693 0.000732 0.005672 0.000011
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 9 O1 MOL 1 0.119451 -0.509400 -0.742579 1.0000 1 O
+bZX C2 O2 OCT K9 V0 M0 Q0
+UANI 0.007348 0.015202 0.011991 -.000280 0.005828 0.001509
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ATOM 10 O2 MOL 1 0.589490 -0.565432 -0.599830 1.0000 1 O
+bZX C2 O1 OCT K10 V0 M0 Q0
+UANI 0.009117 0.012948 0.015873 0.000769 0.007940 -.002539
+ 0.00000 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0.
+
+ANHAR 0 3 ! number_of_anharmonic_atoms max_order
+! 1 ! atom number
+! 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00
+! 0.00E+00 0.00E+00
+
+
+STOP
+;
+_cod_data_source_file            te5073sup1.cif
+_cod_data_source_block           IAM_IT_MoPro
+_cod_database_code               2300686
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+N N1 0.1480(11) -0.4352(9) -0.2354(11) 0.0099(10) Uani 1 d . . . .
+H H1a 0.158(6) -0.469(4) -0.021(6) 0.009(5) Uiso 1 d D . . .
+H H1b 0.145(8) -0.249(5) -0.277(8) 0.026(6) Uiso 1 d D . . .
+H H1c -0.040(13) -0.499(9) -0.378(13) 0.059(13) Uiso 1 d D . . .
+C C1 0.3843(12) -0.5479(10) -0.2734(12) 0.0106(10) Uani 1 d . . . .
+H H1d 0.614(12) -0.476(8) -0.105(12) 0.053(12) Uiso 1 d D . . .
+H H1e 0.376(8) -0.721(5) -0.215(9) 0.029(7) Uiso 1 d D . . .
+C C2 0.3640(12) -0.5370(10) -0.5585(13) 0.0090(8) Uani 1 d . . . .
+O O1 0.1195(10) -0.50940(7) -0.7426(10) 0.0109(9) Uani 1 d . . . .
+O O2 0.5895(9) -0.5654(10) -0.5998(10) 0.0117(10) Uani 1 d . . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N1 0.0092(14) 0.0112(14) 0.0110(16) 0.0002(13) 0.0056(13) -0.0014(14)
+C1 0.0108(15) 0.0111(16) 0.0120(14) 0.0004(14) 0.0066(13) -0.0002(15)
+C2 0.0082(12) 0.0100(14) 0.0107(12) 0.0007(12) 0.0057(10) 0.0000(13)
+O1 0.0073(12) 0.0152(14) 0.0120(14) -0.0003(12) 0.0058(11) 0.0015(13)
+O2 0.0091(14) 0.0129(14) 0.0159(16) 0.0008(13) 0.0079(13) -0.0025(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0010 0.0010 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0010 0.0010 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0010 0.0010 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0010 0.0010 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+C1 N1 H1c 106.(3) . . .
+C1 N1 H1a 110.(1) . . .
+H1c N1 H1a 110.(3) . . .
+N1 C1 C2 112.9(4) . . .
+N1 C1 H1e 107.(2) . . .
+C2 C1 H1e 110.(2) . . .
+O2 C2 O1 123.7(4) . . .
+O2 C2 C1 118.1(4) . . .
+O1 C2 C1 118.1(5) . . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+N1 C1 1.537(6) .
+N1 H1c 1.10(7) .
+N1 H1a 1.22(3) .
+C1 C2 1.586(8) .
+C1 H1e 1.17(4) .
+C2 O2 1.320(6) .
+C2 O1 1.326(8) .
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+N1 H1c O2 1.10(7) 1.93(7) 3.005(8) 167.(1) 1_455
+N1 H1a O1 1.22(3) 1.70(3) 2.908(7) 171.1(7) 1_556
+C1 H1e O2 1.17(4) 2.50(4) 3.432(6) 135.(2) 2_644
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+N1 C1 C2 O2 . . . . 158.2(7)
+N1 C1 C2 O1 . . . . -24.8(7)
+H1a N1 C1 C2 . . . . 172.(2)
+H1a N1 C1 H1e . . . . 52.(2)
+H1c N1 C1 C2 . . . . 53.(3)
+H1c N1 C1 H1e . . . . -68.(4)
+H1e C1 C2 O2 . . . . -83.(3)
+H1e C1 C2 O1 . . . . 94.(3)

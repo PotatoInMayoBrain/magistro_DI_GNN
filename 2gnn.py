@@ -27,9 +27,15 @@ class CustomDataset(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         row = self.data.iloc[idx]
         # Extract relevant data from the row
-        codid = row['codid']
+        codid = row['cod_id']
         sg = row['sg']
-        distances = [float(d) for d in row['distances'].split()]  # Convert distances to list of floats
+        lattice_a = row['lattice_a']
+        lattice_b = row['lattice_b']
+        lattice_c = row['lattice_c']
+        lattice_alpha = row['lattice_alpha']
+        lattice_beta = row['lattice_beta']
+        lattice_gamma = row['lattice_gamma']
+        distances = [float(d) for d in row['adjacency_matrix'].split()]  # Convert distances to list of floats
         #print("\ndistances: ", distances, "\ncodid: ",codid ,"\nsg: ", sg)
 
         adj_matrix = create_adjacency_matrix(distances)

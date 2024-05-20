@@ -1,0 +1,363 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/97/4319720.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319720
+loop_
+_publ_author_name
+Evenson
+'Peter K. Dorhout'
+_publ_section_title
+;
+ Selenophosphate Phase Diagrams Developed in Conjunction with the
+ Synthesis of the New Compounds K2La(P2Se6)1/2(PSe4), K3La(PSe4)2,
+ K4La0.67(PSe4)2, K9-xLa1+x/3(PSe4)4 (x = 0.5), and KEuPSe4
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2875
+_journal_page_last               2883
+_journal_paper_doi               10.1021/ic000595z
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'Eu K P Se4'
+_chemical_formula_weight         537.87
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   17.5156(11)
+_cell_length_b                   7.0126(5)
+_cell_length_c                   6.9015(4)
+_cell_measurement_temperature    170(2)
+_cell_volume                     847.71(9)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      170(2)
+_diffrn_measurement_device       'Bruker CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0368
+_diffrn_reflns_av_sigmaI/netI    0.0280
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            5130
+_diffrn_reflns_theta_max         28.03
+_diffrn_reflns_theta_min         2.33
+_exptl_absorpt_coefficient_mu    25.150
+_exptl_absorpt_correction_type   SADABS
+_exptl_crystal_colour            'red, clear'
+_exptl_crystal_density_diffrn    4.214
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             932
+_exptl_crystal_size_max          0.09
+_exptl_crystal_size_mid          0.12
+_exptl_crystal_size_min          0.15
+_refine_diff_density_max         0.829
+_refine_diff_density_min         -1.193
+_refine_diff_density_rms         0.220
+_refine_ls_extinction_coef       0.0058(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.094
+_refine_ls_goodness_of_fit_obs   1.119
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     41
+_refine_ls_number_reflns         1079
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.154
+_refine_ls_restrained_S_obs      1.119
+_refine_ls_R_factor_all          0.0278
+_refine_ls_R_factor_obs          0.0237
+_refine_ls_shift/esd_max         -0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0227P)^2^+2.5700P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0565
+_refine_ls_wR_factor_obs         0.0523
+_reflns_number_observed          988
+_reflns_number_total             1080
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic000595z_5.cif
+_cod_data_source_block           KEuPSe4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0227P)^2^+2.5700P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0227P)^2^+2.5700P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'K Eu P Se4'
+_cod_database_code               4319720
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Eu1 0.0115(2) 0.0210(2) 0.0133(2) 0.000 0.00068(11) 0.000
+Se1 0.0113(3) 0.0232(4) 0.0163(3) 0.000 0.0045(2) 0.000
+Se2 0.0086(3) 0.0306(4) 0.0155(3) 0.000 0.0009(2) 0.000
+Se3 0.0157(2) 0.0082(2) 0.0203(3) -0.0032(2) -0.0017(2) -0.0008(2)
+P1 0.0089(7) 0.0081(7) 0.0117(7) 0.000 0.0002(5) 0.000
+K1 0.0167(8) 0.0214(8) 0.0372(9) 0.000 -0.0042(6) 0.000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Eu1 Eu 0.47536(2) 0.2500 0.28926(5) 0.01525(12) Uani 1 d S .
+Se1 Se 0.32745(4) 0.2500 0.03414(9) 0.0169(2) Uani 1 d S .
+Se2 Se 0.47269(4) -0.2500 0.14918(10) 0.0182(2) Uani 1 d S .
+Se3 Se 0.37951(3) -0.00281(6) 0.59475(7) 0.01474(14) Uani 1 d . .
+P1 P 0.40347(9) 0.2500 -0.2212(2) 0.0096(3) Uani 1 d S .
+K1 K 0.21351(9) 0.2500 0.4768(3) 0.0251(3) Uani 1 d S .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se1 Eu1 Se2 72.54(2) . 5_655 ?
+Se1 Eu1 Se3 143.400(11) . 3_656 ?
+Se2 Eu1 Se3 90.621(15) 5_655 3_656 ?
+Se1 Eu1 Se3 143.400(11) . 5_656 ?
+Se2 Eu1 Se3 90.621(15) 5_655 5_656 ?
+Se3 Eu1 Se3 66.08(2) 3_656 5_656 ?
+Se1 Eu1 Se3 86.39(2) . . ?
+Se2 Eu1 Se3 140.873(12) 5_655 . ?
+Se3 Eu1 Se3 123.451(12) 3_656 . ?
+Se3 Eu1 Se3 87.245(14) 5_656 . ?
+Se1 Eu1 Se3 86.384(15) . 7_565 ?
+Se2 Eu1 Se3 140.873(11) 5_655 7_565 ?
+Se3 Eu1 Se3 87.246(14) 3_656 7_565 ?
+Se3 Eu1 Se3 123.452(12) 5_656 7_565 ?
+Se3 Eu1 Se3 66.67(2) . 7_565 ?
+Se1 Eu1 Se2 80.791(11) . . ?
+Se2 Eu1 Se2 75.474(11) 5_655 . ?
+Se3 Eu1 Se2 127.07(2) 3_656 . ?
+Se3 Eu1 Se2 63.359(13) 5_656 . ?
+Se3 Eu1 Se2 68.732(13) . . ?
+Se3 Eu1 Se2 134.167(15) 7_565 . ?
+Se1 Eu1 Se2 80.790(11) . 1_565 ?
+Se2 Eu1 Se2 75.474(11) 5_655 1_565 ?
+Se3 Eu1 Se2 63.361(13) 3_656 1_565 ?
+Se3 Eu1 Se2 127.071(15) 5_656 1_565 ?
+Se3 Eu1 Se2 134.167(15) . 1_565 ?
+Se3 Eu1 Se2 68.732(13) 7_565 1_565 ?
+Se2 Eu1 Se2 149.14(2) . 1_565 ?
+Se1 Eu1 K1 122.04(3) . 6_656 ?
+Se2 Eu1 K1 49.50(3) 5_655 6_656 ?
+Se3 Eu1 K1 50.92(2) 3_656 6_656 ?
+Se3 Eu1 K1 50.92(2) 5_656 6_656 ?
+Se3 Eu1 K1 137.70(2) . 6_656 ?
+Se3 Eu1 K1 137.70(2) 7_565 6_656 ?
+Se2 Eu1 K1 84.531(12) . 6_656 ?
+Se2 Eu1 K1 84.531(12) 1_565 6_656 ?
+Se1 Eu1 K1 49.96(2) . . ?
+Se2 Eu1 K1 122.50(3) 5_655 . ?
+Se3 Eu1 K1 134.52(2) 3_656 . ?
+Se3 Eu1 K1 134.52(2) 5_656 . ?
+Se3 Eu1 K1 47.28(2) . . ?
+Se3 Eu1 K1 47.28(2) 7_565 . ?
+Se2 Eu1 K1 93.429(12) . . ?
+Se2 Eu1 K1 93.428(12) 1_565 . ?
+K1 Eu1 K1 172.00(2) 6_656 . ?
+P1 Se1 Eu1 87.13(5) . . ?
+P1 Se1 K1 91.86(3) . 2_554 ?
+Eu1 Se1 K1 103.10(3) . 2_554 ?
+P1 Se1 K1 91.86(3) . 2_564 ?
+Eu1 Se1 K1 103.10(3) . 2_564 ?
+K1 Se1 K1 153.69(6) 2_554 2_564 ?
+P1 Se1 K1 176.09(5) . . ?
+Eu1 Se1 K1 88.95(3) . . ?
+K1 Se1 K1 89.03(2) 2_554 . ?
+K1 Se1 K1 89.03(2) 2_564 . ?
+P1 Se2 Eu1 86.17(4) 5_655 5_655 ?
+P1 Se2 K1 172.87(6) 5_655 2_554 ?
+Eu1 Se2 K1 86.70(3) 5_655 2_554 ?
+P1 Se2 Eu1 85.88(2) 5_655 1_545 ?
+Eu1 Se2 Eu1 104.526(11) 5_655 1_545 ?
+K1 Se2 Eu1 95.920(13) 2_554 1_545 ?
+P1 Se2 Eu1 85.88(2) 5_655 . ?
+Eu1 Se2 Eu1 104.526(11) 5_655 . ?
+K1 Se2 Eu1 95.921(13) 2_554 . ?
+Eu1 Se2 Eu1 149.14(2) 1_545 . ?
+P1 Se3 Eu1 98.06(4) 1_556 5_656 ?
+P1 Se3 Eu1 80.60(4) 1_556 . ?
+Eu1 Se3 Eu1 92.755(14) 5_656 . ?
+P1 Se3 K1 83.43(4) 1_556 . ?
+Eu1 Se3 K1 176.95(2) 5_656 . ?
+Eu1 Se3 K1 90.11(3) . . ?
+P1 Se3 K1 92.97(4) 1_556 2 ?
+Eu1 Se3 K1 85.05(3) 5_656 2 ?
+Eu1 Se3 K1 172.87(3) . 2 ?
+K1 Se3 K1 92.22(2) . 2 ?
+Se1 P1 Se3 110.02(5) . 1_554 ?
+Se1 P1 Se3 110.02(5) . 7_564 ?
+Se3 P1 Se3 105.93(7) 1_554 7_564 ?
+Se1 P1 Se2 114.16(7) . 5_655 ?
+Se3 P1 Se2 108.18(5) 1_554 5_655 ?
+Se3 P1 Se2 108.18(5) 7_564 5_655 ?
+Se2 K1 Se3 134.46(4) 2 7_565 ?
+Se2 K1 Se3 134.46(4) 2 . ?
+Se3 K1 Se3 60.84(3) 7_565 . ?
+Se2 K1 Se3 79.83(3) 2 2_554 ?
+Se3 K1 Se3 143.20(5) 7_565 2_554 ?
+Se3 K1 Se3 107.84(3) . 2_554 ?
+Se2 K1 Se3 79.83(3) 2 8_665 ?
+Se3 K1 Se3 107.84(3) 7_565 8_665 ?
+Se3 K1 Se3 143.20(5) . 8_665 ?
+Se3 K1 Se3 58.44(3) 2_554 8_665 ?
+Se2 K1 Se1 77.01(3) 2 2 ?
+Se3 K1 Se1 129.27(4) 7_565 2 ?
+Se3 K1 Se1 69.32(2) . 2 ?
+Se3 K1 Se1 60.98(2) 2_554 2 ?
+Se3 K1 Se1 117.74(4) 8_665 2 ?
+Se2 K1 Se1 77.01(3) 2 2_565 ?
+Se3 K1 Se1 69.32(2) 7_565 2_565 ?
+Se3 K1 Se1 129.27(4) . 2_565 ?
+Se3 K1 Se1 117.74(4) 2_554 2_565 ?
+Se3 K1 Se1 60.98(2) 8_665 2_565 ?
+Se1 K1 Se1 153.69(6) 2 2_565 ?
+Se2 K1 Se1 143.20(5) 2 . ?
+Se3 K1 Se1 74.96(3) 7_565 . ?
+Se3 K1 Se1 74.96(3) . . ?
+Se3 K1 Se1 68.24(3) 2_554 . ?
+Se3 K1 Se1 68.24(3) 8_665 . ?
+Se1 K1 Se1 101.59(3) 2 . ?
+Se1 K1 Se1 101.59(3) 2_565 . ?
+Se2 K1 Eu1 43.80(2) 2 6_556 ?
+Se3 K1 Eu1 148.62(2) 7_565 6_556 ?
+Se3 K1 Eu1 148.62(2) . 6_556 ?
+Se3 K1 Eu1 44.03(2) 2_554 6_556 ?
+Se3 K1 Eu1 44.03(2) 8_665 6_556 ?
+Se1 K1 Eu1 82.06(3) 2 6_556 ?
+Se1 K1 Eu1 82.06(3) 2_565 6_556 ?
+Se1 K1 Eu1 99.40(4) . 6_556 ?
+Se2 K1 Eu1 175.72(5) 2 . ?
+Se3 K1 Eu1 42.60(2) 7_565 . ?
+Se3 K1 Eu1 42.60(2) . . ?
+Se3 K1 Eu1 103.88(4) 2_554 . ?
+Se3 K1 Eu1 103.88(4) 8_665 . ?
+Se1 K1 Eu1 102.80(3) 2 . ?
+Se1 K1 Eu1 102.80(3) 2_565 . ?
+Se1 K1 Eu1 41.08(2) . . ?
+Eu1 K1 Eu1 140.48(4) 6_556 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Eu1 Se1 3.1324(8) . ?
+Eu1 Se2 3.1598(8) 5_655 ?
+Eu1 Se3 3.1793(5) 3_656 ?
+Eu1 Se3 3.1793(5) 5_656 ?
+Eu1 Se3 3.2259(5) . ?
+Eu1 Se3 3.2259(5) 7_565 ?
+Eu1 Se2 3.6374(3) . ?
+Eu1 Se2 3.6374(3) 1_565 ?
+Eu1 K1 4.558(2) 6_656 ?
+Eu1 K1 4.766(2) . ?
+Se1 P1 2.209(2) . ?
+Se1 K1 3.6008(5) 2_554 ?
+Se1 K1 3.6008(5) 2_564 ?
+Se1 K1 3.649(2) . ?
+Se2 P1 2.225(2) 5_655 ?
+Se2 Eu1 3.1599(8) 5_655 ?
+Se2 K1 3.472(2) 2_554 ?
+Se2 Eu1 3.6374(3) 1_545 ?
+Se3 P1 2.2207(10) 1_556 ?
+Se3 Eu1 3.1793(5) 5_656 ?
+Se3 K1 3.5014(14) . ?
+Se3 K1 3.5513(15) 2 ?
+P1 Se3 2.2208(10) 1_554 ?
+P1 Se3 2.2208(10) 7_564 ?
+P1 Se2 2.225(2) 5_655 ?
+K1 Se2 3.472(2) 2 ?
+K1 Se3 3.5014(14) 7_565 ?
+K1 Se3 3.5513(15) 2_554 ?
+K1 Se3 3.5513(15) 8_665 ?
+K1 Se1 3.6008(5) 2 ?
+K1 Se1 3.6008(5) 2_565 ?
+K1 Eu1 4.558(2) 6_556 ?

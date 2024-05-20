@@ -1,0 +1,555 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/16/4001651.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001651
+loop_
+_publ_author_name
+'Chung, Duck Young'
+'Uher, Ctirad'
+'Kanatzidis, Mercouri G.'
+_publ_section_title
+;
+ Sb and Se Substitution in CsBi4Te6: The Semiconductors CsM4Q6(M = Bi, Sb;
+ Q = Te, Se), Cs2Bi10Q15, and CsBi5Q8
+;
+_journal_issue                   10
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              1854
+_journal_paper_doi               10.1021/cm300490v
+_journal_volume                  24
+_journal_year                    2012
+_chemical_formula_sum            'Bi3.75 Cs0.75 Se3.3 Te2.7'
+_chemical_formula_weight         1488.45
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   24.006(12)
+_cell_length_b                   4.291(2)
+_cell_length_c                   14.258(7)
+_cell_measurement_temperature    293(2)
+_cell_volume                     1468.7(12)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.960
+_diffrn_measured_fraction_theta_max 0.960
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0818
+_diffrn_reflns_av_sigmaI/netI    0.0679
+_diffrn_reflns_limit_h_max       33
+_diffrn_reflns_limit_h_min       -32
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       19
+_diffrn_reflns_limit_l_min       -19
+_diffrn_reflns_number            12086
+_diffrn_reflns_theta_full        30.06
+_diffrn_reflns_theta_max         30.06
+_diffrn_reflns_theta_min         3.33
+_exptl_absorpt_coefficient_mu    60.026
+_exptl_absorpt_correction_T_max  0.43
+_exptl_absorpt_correction_T_min  0.24
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.732
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             2442
+_exptl_crystal_size_max          0.032
+_exptl_crystal_size_mid          0.016
+_exptl_crystal_size_min          0.008
+_refine_diff_density_max         3.143
+_refine_diff_density_min         -3.971
+_refine_diff_density_rms         0.701
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.138
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     75
+_refine_ls_number_reflns         2292
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.138
+_refine_ls_R_factor_all          0.1180
+_refine_ls_R_factor_gt           0.0537
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0390P)^2^+119.6584P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1195
+_refine_ls_wR_factor_ref         0.1490
+_reflns_number_gt                1424
+_reflns_number_total             2292
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            cm300490v_si_001.cif
+_cod_data_source_block           Cs075Bi375Te270Se330
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1468.6(12)
+_cod_original_sg_symbol_H-M      Pnma
+_cod_original_formula_sum        'Bi3.75 Cs0.75 Se3.30 Te2.70'
+_cod_database_code               4001651
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Bi1 Bi 0.07402(6) 0.2500 0.04560(10) 0.0250(4) Uani 1 2 d S
+Bi2 Bi 0.02710(8) 0.2500 -0.26873(10) 0.0349(4) Uani 1 2 d S
+Bi3 Bi 0.17471(7) -0.2500 -0.16457(12) 0.0371(4) Uani 1 2 d S
+Bi4 Bi 0.21316(9) -0.2500 0.16358(16) 0.0363(5) Uani 0.75 2 d SP
+Cs1 Cs -0.1347(2) 0.2500 -0.4610(3) 0.0778(18) Uani 0.75 2 d SP
+Te1 Te -0.04852(13) 0.2500 0.0991(2) 0.0215(11) Uani 0.16(3) 2 d SP
+Se1 Se -0.04852(13) 0.2500 0.0991(2) 0.0215(11) Uani 0.84(3) 2 d SP
+Te2 Te 0.09463(12) -0.2500 0.1908(2) 0.0243(10) Uani 0.38(3) 2 d SP
+Se2 Se 0.09463(12) -0.2500 0.1908(2) 0.0243(10) Uani 0.62(3) 2 d SP
+Te3 Te -0.00150(14) 0.2500 -0.59799(19) 0.0352(11) Uani 0.83(4) 2 d SP
+Se3 Se -0.00150(14) 0.2500 -0.59799(19) 0.0352(11) Uani 0.17(4) 2 d SP
+Te4 Te 0.15291(12) 0.2500 -0.3126(2) 0.0312(11) Uani 0.54(3) 2 d SP
+Se4 Se 0.15291(12) 0.2500 -0.3126(2) 0.0312(11) Uani 0.46(3) 2 d SP
+Te5 Te 0.19998(11) 0.2500 -0.00568(19) 0.0286(10) Uani 0.78(3) 2 d SP
+Se5 Se 0.19998(11) 0.2500 -0.00568(19) 0.0286(10) Uani 0.22(3) 2 d SP
+Se6 Se 0.21195(17) 0.2500 0.2956(3) 0.0375(10) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Bi1 0.0229(6) 0.0214(7) 0.0307(7) 0.000 0.0009(5) 0.000
+Bi2 0.0535(9) 0.0229(8) 0.0283(7) 0.000 -0.0085(7) 0.000
+Bi3 0.0311(8) 0.0319(9) 0.0482(9) 0.000 0.0051(8) 0.000
+Bi4 0.0323(10) 0.0361(13) 0.0406(11) 0.000 -0.0019(9) 0.000
+Cs1 0.050(3) 0.129(6) 0.055(3) 0.000 0.010(2) 0.000
+Te1 0.0181(18) 0.0204(19) 0.0261(18) 0.000 -0.0007(12) 0.000
+Se1 0.0181(18) 0.0204(19) 0.0261(18) 0.000 -0.0007(12) 0.000
+Te2 0.0210(16) 0.0198(18) 0.0319(18) 0.000 0.0001(11) 0.000
+Se2 0.0210(16) 0.0198(18) 0.0319(18) 0.000 0.0001(11) 0.000
+Te3 0.057(2) 0.0217(17) 0.0273(15) 0.000 -0.0071(12) 0.000
+Se3 0.057(2) 0.0217(17) 0.0273(15) 0.000 -0.0071(12) 0.000
+Te4 0.0269(17) 0.0278(19) 0.0389(19) 0.000 -0.0003(13) 0.000
+Se4 0.0269(17) 0.0278(19) 0.0389(19) 0.000 -0.0003(13) 0.000
+Te5 0.0327(17) 0.0253(17) 0.0278(15) 0.000 0.0031(11) 0.000
+Se5 0.0327(17) 0.0253(17) 0.0278(15) 0.000 0.0031(11) 0.000
+Se6 0.0224(19) 0.046(3) 0.044(2) 0.000 -0.0081(19) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -0.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cs Cs -0.3680 2.1192 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Bi Bi -4.1077 10.2566 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Te2 Bi1 Se2 90.46(10) . 1_565
+Te2 Bi1 Te2 90.46(10) . 1_565
+Se2 Bi1 Te2 0.00(9) 1_565 1_565
+Te2 Bi1 Te1 89.22(8) . .
+Se2 Bi1 Te1 89.22(8) 1_565 .
+Te2 Bi1 Te1 89.22(8) 1_565 .
+Te2 Bi1 Se1 89.83(7) . 5
+Se2 Bi1 Se1 177.80(9) 1_565 5
+Te2 Bi1 Se1 177.80(9) 1_565 5
+Te1 Bi1 Se1 88.60(8) . 5
+Te2 Bi1 Te1 89.83(7) . 5
+Se2 Bi1 Te1 177.80(9) 1_565 5
+Te2 Bi1 Te1 177.80(9) 1_565 5
+Te1 Bi1 Te1 88.60(8) . 5
+Se1 Bi1 Te1 0.00(14) 5 5
+Te2 Bi1 Se1 177.80(9) . 5_565
+Se2 Bi1 Se1 89.83(7) 1_565 5_565
+Te2 Bi1 Se1 89.83(7) 1_565 5_565
+Te1 Bi1 Se1 88.60(8) . 5_565
+Se1 Bi1 Se1 89.80(10) 5 5_565
+Te1 Bi1 Se1 89.80(10) 5 5_565
+Te2 Bi1 Te1 177.80(9) . 5_565
+Se2 Bi1 Te1 89.83(7) 1_565 5_565
+Te2 Bi1 Te1 89.83(7) 1_565 5_565
+Te1 Bi1 Te1 88.60(8) . 5_565
+Se1 Bi1 Te1 89.80(10) 5 5_565
+Te1 Bi1 Te1 89.80(10) 5 5_565
+Se1 Bi1 Te1 0.00(14) 5_565 5_565
+Te2 Bi1 Te5 90.10(7) . .
+Se2 Bi1 Te5 90.11(7) 1_565 .
+Te2 Bi1 Te5 90.11(7) 1_565 .
+Te1 Bi1 Te5 179.05(9) . .
+Se1 Bi1 Te5 92.07(8) 5 .
+Te1 Bi1 Te5 92.07(8) 5 .
+Se1 Bi1 Te5 92.07(8) 5_565 .
+Te1 Bi1 Te5 92.07(8) 5_565 .
+Se3 Bi2 Te3 0.00(8) 5_554 5_554
+Se3 Bi2 Se3 94.10(9) 5_554 5_564
+Te3 Bi2 Se3 94.10(9) 5_554 5_564
+Se3 Bi2 Te3 94.10(9) 5_554 5_564
+Te3 Bi2 Te3 94.10(9) 5_554 5_564
+Se3 Bi2 Te3 0.00(14) 5_564 5_564
+Se3 Bi2 Te4 94.24(9) 5_554 .
+Te3 Bi2 Te4 94.24(9) 5_554 .
+Se3 Bi2 Te4 94.24(9) 5_564 .
+Te3 Bi2 Te4 94.24(9) 5_564 .
+Se3 Bi2 Te2 91.97(9) 5_554 5
+Te3 Bi2 Te2 91.97(9) 5_554 5
+Se3 Bi2 Te2 91.97(9) 5_564 5
+Te3 Bi2 Te2 91.97(9) 5_564 5
+Te4 Bi2 Te2 170.87(10) . 5
+Se3 Bi2 Se2 91.97(9) 5_554 5
+Te3 Bi2 Se2 91.97(9) 5_554 5
+Se3 Bi2 Se2 91.97(9) 5_564 5
+Te3 Bi2 Se2 91.97(9) 5_564 5
+Te4 Bi2 Se2 170.87(10) . 5
+Te2 Bi2 Se2 0.00(11) 5 5
+Se3 Bi2 Te1 172.57(8) 5_554 5_565
+Te3 Bi2 Te1 172.57(8) 5_554 5_565
+Se3 Bi2 Te1 91.84(6) 5_564 5_565
+Te3 Bi2 Te1 91.84(6) 5_564 5_565
+Te4 Bi2 Te1 89.77(8) . 5_565
+Te2 Bi2 Te1 83.35(8) 5 5_565
+Se2 Bi2 Te1 83.35(8) 5 5_565
+Se3 Bi2 Te1 91.84(6) 5_554 5
+Te3 Bi2 Te1 91.84(6) 5_554 5
+Se3 Bi2 Te1 172.57(8) 5_564 5
+Te3 Bi2 Te1 172.57(8) 5_564 5
+Te4 Bi2 Te1 89.77(8) . 5
+Te2 Bi2 Te1 83.35(8) 5 5
+Se2 Bi2 Te1 83.35(8) 5 5
+Te1 Bi2 Te1 81.90(9) 5_565 5
+Se6 Bi3 Te4 91.52(10) 2_554 .
+Se6 Bi3 Se4 91.52(10) 2_554 1_545
+Te4 Bi3 Se4 89.24(10) . 1_545
+Se6 Bi3 Te4 91.52(10) 2_554 1_545
+Te4 Bi3 Te4 89.24(10) . 1_545
+Se4 Bi3 Te4 0.00(9) 1_545 1_545
+Se6 Bi3 Te1 174.68(12) 2_554 5
+Te4 Bi3 Te1 92.27(8) . 5
+Se4 Bi3 Te1 92.27(8) 1_545 5
+Te4 Bi3 Te1 92.27(8) 1_545 5
+Se6 Bi3 Se1 174.68(12) 2_554 5
+Te4 Bi3 Se1 92.27(8) . 5
+Se4 Bi3 Se1 92.27(8) 1_545 5
+Te4 Bi3 Se1 92.27(8) 1_545 5
+Te1 Bi3 Se1 0.00(11) 5 5
+Se6 Bi3 Te5 87.64(10) 2_554 .
+Te4 Bi3 Te5 92.93(7) . .
+Se4 Bi3 Te5 177.70(7) 1_545 .
+Te4 Bi3 Te5 177.70(7) 1_545 .
+Te1 Bi3 Te5 88.43(7) 5 .
+Se1 Bi3 Te5 88.43(7) 5 .
+Se6 Bi3 Te5 87.65(10) 2_554 1_545
+Te4 Bi3 Te5 177.70(7) . 1_545
+Se4 Bi3 Te5 92.93(7) 1_545 1_545
+Te4 Bi3 Te5 92.93(7) 1_545 1_545
+Te1 Bi3 Te5 88.43(7) 5 1_545
+Se1 Bi3 Te5 88.43(7) 5 1_545
+Te5 Bi3 Te5 84.90(9) . 1_545
+Se6 Bi3 Se5 87.65(10) 2_554 1_545
+Te4 Bi3 Se5 177.70(7) . 1_545
+Se4 Bi3 Se5 92.93(7) 1_545 1_545
+Te4 Bi3 Se5 92.93(7) 1_545 1_545
+Te1 Bi3 Se5 88.43(7) 5 1_545
+Se1 Bi3 Se5 88.43(7) 5 1_545
+Te5 Bi3 Se5 84.90(9) . 1_545
+Te5 Bi3 Se5 0.00(9) 1_545 1_545
+Se6 Bi4 Se6 97.48(16) 1_545 .
+Se6 Bi4 Te2 84.31(10) 1_545 .
+Se6 Bi4 Te2 84.31(10) . .
+Se6 Bi4 Se4 86.60(10) 1_545 2
+Se6 Bi4 Se4 86.60(10) . 2
+Te2 Bi4 Se4 166.20(12) . 2
+Se6 Bi4 Te4 86.60(10) 1_545 2
+Se6 Bi4 Te4 86.60(10) . 2
+Te2 Bi4 Te4 166.20(12) . 2
+Se4 Bi4 Te4 0.00(11) 2 2
+Se6 Bi4 Se5 89.57(9) 1_545 1_545
+Se6 Bi4 Se5 170.59(10) . 1_545
+Te2 Bi4 Se5 90.22(8) . 1_545
+Se4 Bi4 Se5 100.09(8) 2 1_545
+Te4 Bi4 Se5 100.09(8) 2 1_545
+Se6 Bi4 Te5 89.57(9) 1_545 1_545
+Se6 Bi4 Te5 170.59(10) . 1_545
+Te2 Bi4 Te5 90.22(8) . 1_545
+Se4 Bi4 Te5 100.09(8) 2 1_545
+Te4 Bi4 Te5 100.09(8) 2 1_545
+Se5 Bi4 Te5 0.00(6) 1_545 1_545
+Se6 Bi4 Te5 170.59(10) 1_545 .
+Se6 Bi4 Te5 89.57(9) . .
+Te2 Bi4 Te5 90.22(8) . .
+Se4 Bi4 Te5 100.09(8) 2 .
+Te4 Bi4 Te5 100.09(8) 2 .
+Se5 Bi4 Te5 82.79(9) 1_545 .
+Te5 Bi4 Te5 82.79(9) 1_545 .
+Se6 Bi4 Cs1 52.65(9) 1_545 5
+Se6 Bi4 Cs1 52.65(9) . 5
+Te2 Bi4 Cs1 58.28(10) . 5
+Se4 Bi4 Cs1 107.92(10) 2 5
+Te4 Bi4 Cs1 107.92(10) 2 5
+Se5 Bi4 Cs1 129.80(7) 1_545 5
+Te5 Bi4 Cs1 129.80(7) 1_545 5
+Te5 Bi4 Cs1 129.80(7) . 5
+Se6 Cs1 Se6 71.12(12) 5_565 5
+Se6 Cs1 Te3 139.69(10) 5_565 .
+Se6 Cs1 Te3 139.69(10) 5 .
+Se6 Cs1 Se4 142.41(16) 5_565 5_554
+Se6 Cs1 Se4 98.79(9) 5 5_554
+Te3 Cs1 Se4 70.38(10) . 5_554
+Se6 Cs1 Te4 142.41(16) 5_565 5_554
+Se6 Cs1 Te4 98.79(9) 5 5_554
+Te3 Cs1 Te4 70.38(10) . 5_554
+Se4 Cs1 Te4 0.00(5) 5_554 5_554
+Se6 Cs1 Se4 98.79(9) 5_565 5_564
+Se6 Cs1 Se4 142.41(16) 5 5_564
+Te3 Cs1 Se4 70.38(10) . 5_564
+Se4 Cs1 Se4 66.72(10) 5_554 5_564
+Te4 Cs1 Se4 66.72(10) 5_554 5_564
+Se6 Cs1 Te4 98.79(9) 5_565 5_564
+Se6 Cs1 Te4 142.41(16) 5 5_564
+Te3 Cs1 Te4 70.38(10) . 5_564
+Se4 Cs1 Te4 66.72(10) 5_554 5_564
+Te4 Cs1 Te4 66.72(10) 5_554 5_564
+Se4 Cs1 Te4 0.0 5_564 5_564
+Se6 Cs1 Se2 60.09(10) 5_565 5
+Se6 Cs1 Se2 60.09(10) 5 5
+Te3 Cs1 Se2 107.43(14) . 5
+Se4 Cs1 Se2 146.12(6) 5_554 5
+Te4 Cs1 Se2 146.12(6) 5_554 5
+Se4 Cs1 Se2 146.12(6) 5_564 5
+Te4 Cs1 Se2 146.12(6) 5_564 5
+Se6 Cs1 Te2 60.09(10) 5_565 5
+Se6 Cs1 Te2 60.09(10) 5 5
+Te3 Cs1 Te2 107.43(14) . 5
+Se4 Cs1 Te2 146.12(6) 5_554 5
+Te4 Cs1 Te2 146.12(6) 5_554 5
+Se4 Cs1 Te2 146.12(6) 5_564 5
+Te4 Cs1 Te2 146.12(6) 5_564 5
+Se2 Cs1 Te2 0.00(8) 5 5
+Se6 Cs1 Se5 64.95(10) 5_565 6
+Se6 Cs1 Se5 64.95(10) 5 6
+Te3 Cs1 Se5 141.74(15) . 6
+Se4 Cs1 Se5 77.88(10) 5_554 6
+Te4 Cs1 Se5 77.88(10) 5_554 6
+Se4 Cs1 Se5 77.88(10) 5_564 6
+Te4 Cs1 Se5 77.88(10) 5_564 6
+Se2 Cs1 Se5 110.84(12) 5 6
+Te2 Cs1 Se5 110.84(12) 5 6
+Se6 Cs1 Te5 64.95(10) 5_565 6
+Se6 Cs1 Te5 64.95(10) 5 6
+Te3 Cs1 Te5 141.74(15) . 6
+Se4 Cs1 Te5 77.88(10) 5_554 6
+Te4 Cs1 Te5 77.88(10) 5_554 6
+Se4 Cs1 Te5 77.88(10) 5_564 6
+Te4 Cs1 Te5 77.88(10) 5_564 6
+Se2 Cs1 Te5 110.84(12) 5 6
+Te2 Cs1 Te5 110.84(12) 5 6
+Se5 Cs1 Te5 0.00(8) 6 6
+Bi1 Te1 Bi1 91.40(8) . 5
+Bi1 Te1 Bi1 91.40(8) . 5_565
+Bi1 Te1 Bi1 89.80(10) 5 5_565
+Bi1 Te1 Bi3 177.43(12) . 5
+Bi1 Te1 Bi3 90.42(8) 5 5
+Bi1 Te1 Bi3 90.42(8) 5_565 5
+Bi1 Te1 Bi2 91.92(8) . 5_565
+Bi1 Te1 Bi2 174.85(10) 5 5_565
+Bi1 Te1 Bi2 94.05(5) 5_565 5_565
+Bi3 Te1 Bi2 86.14(8) 5 5_565
+Bi1 Te1 Bi2 91.92(8) . 5
+Bi1 Te1 Bi2 94.05(5) 5 5
+Bi1 Te1 Bi2 174.85(10) 5_565 5
+Bi3 Te1 Bi2 86.14(8) 5 5
+Bi2 Te1 Bi2 81.91(9) 5_565 5
+Bi4 Te2 Bi1 94.00(8) . .
+Bi4 Te2 Bi1 94.00(8) . 1_545
+Bi1 Te2 Bi1 90.46(10) . 1_545
+Bi4 Te2 Bi2 166.94(13) . 5
+Bi1 Te2 Bi2 95.19(8) . 5
+Bi1 Te2 Bi2 95.19(8) 1_545 5
+Bi4 Te2 Cs1 83.76(11) . 5
+Bi1 Te2 Cs1 134.77(5) . 5
+Bi1 Te2 Cs1 134.77(5) 1_545 5
+Bi2 Te2 Cs1 83.18(10) 5 5
+Bi2 Te3 Bi2 94.10(9) 5_554 5_564
+Bi2 Te3 Cs1 99.16(10) 5_554 .
+Bi2 Te3 Cs1 99.16(10) 5_564 .
+Bi2 Te3 Cs1 134.45(12) 5_554 5_564
+Bi2 Te3 Cs1 85.13(8) 5_564 5_564
+Cs1 Te3 Cs1 126.00(9) . 5_564
+Bi2 Te3 Cs1 85.13(8) 5_554 5_554
+Bi2 Te3 Cs1 134.45(12) 5_564 5_554
+Cs1 Te3 Cs1 126.00(9) . 5_554
+Cs1 Te3 Cs1 64.88(10) 5_564 5_554
+Bi3 Te4 Bi3 89.24(10) 1_565 .
+Bi3 Te4 Bi2 91.59(8) 1_565 .
+Bi3 Te4 Bi2 91.59(8) . .
+Bi3 Te4 Bi4 84.39(8) 1_565 2_554
+Bi3 Te4 Bi4 84.39(8) . 2_554
+Bi2 Te4 Bi4 174.35(12) . 2_554
+Bi3 Te4 Cs1 167.76(9) 1_565 5_554
+Bi3 Te4 Cs1 101.82(6) . 5_554
+Bi2 Te4 Cs1 93.31(10) . 5_554
+Bi4 Te4 Cs1 91.41(10) 2_554 5_554
+Bi3 Te4 Cs1 101.82(6) 1_565 5_564
+Bi3 Te4 Cs1 167.76(9) . 5_564
+Bi2 Te4 Cs1 93.31(10) . 5_564
+Bi4 Te4 Cs1 91.41(10) 2_554 5_564
+Cs1 Te4 Cs1 66.72(10) 5_554 5_564
+Bi1 Te5 Bi3 88.97(7) . .
+Bi1 Te5 Bi3 88.97(7) . 1_565
+Bi3 Te5 Bi3 84.90(9) . 1_565
+Bi1 Te5 Bi4 85.41(7) . .
+Bi3 Te5 Bi4 95.88(5) . .
+Bi3 Te5 Bi4 174.31(11) 1_565 .
+Bi1 Te5 Bi4 85.41(7) . 1_565
+Bi3 Te5 Bi4 174.31(11) . 1_565
+Bi3 Te5 Bi4 95.88(5) 1_565 1_565
+Bi4 Te5 Bi4 82.79(9) . 1_565
+Bi1 Te5 Cs1 173.24(12) . 6_655
+Bi3 Te5 Cs1 96.01(8) . 6_655
+Bi3 Te5 Cs1 96.01(8) 1_565 6_655
+Bi4 Te5 Cs1 89.52(8) . 6_655
+Bi4 Te5 Cs1 89.52(8) 1_565 6_655
+Bi3 Se6 Bi4 97.17(12) 2 1_565
+Bi3 Se6 Bi4 97.17(12) 2 .
+Bi4 Se6 Bi4 97.48(16) 1_565 .
+Bi3 Se6 Cs1 111.20(13) 2 5_565
+Bi4 Se6 Cs1 89.40(8) 1_565 5_565
+Bi4 Se6 Cs1 149.75(16) . 5_565
+Bi3 Se6 Cs1 111.20(13) 2 5
+Bi4 Se6 Cs1 149.76(16) 1_565 5
+Bi4 Se6 Cs1 89.40(8) . 5
+Cs1 Se6 Cs1 71.13(12) 5_565 5
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Bi1 Te2 3.022(3) .
+Bi1 Se2 3.022(3) 1_565
+Bi1 Te2 3.022(3) 1_565
+Bi1 Te1 3.039(4) .
+Bi1 Se1 3.039(3) 5
+Bi1 Te1 3.039(3) 5
+Bi1 Se1 3.039(3) 5_565
+Bi1 Te1 3.039(3) 5_565
+Bi1 Te5 3.111(3) .
+Bi2 Se3 2.931(2) 5_554
+Bi2 Te3 2.931(2) 5_554
+Bi2 Se3 2.931(2) 5_564
+Bi2 Te3 2.931(2) 5_564
+Bi2 Te4 3.084(4) .
+Bi2 Te2 3.127(4) 5
+Bi2 Se2 3.127(4) 5
+Bi2 Te1 3.273(3) 5_565
+Bi2 Te1 3.273(3) 5
+Bi3 Se6 2.779(5) 2_554
+Bi3 Te4 3.054(3) .
+Bi3 Se4 3.054(3) 1_545
+Bi3 Te4 3.054(3) 1_545
+Bi3 Te1 3.170(4) 5
+Bi3 Se1 3.170(4) 5
+Bi3 Te5 3.179(3) .
+Bi3 Te5 3.179(3) 1_545
+Bi3 Se5 3.179(3) 1_545
+Bi4 Se6 2.854(4) 1_545
+Bi4 Se6 2.854(4) .
+Bi4 Te2 2.872(4) .
+Bi4 Se4 3.233(4) 2
+Bi4 Te4 3.233(4) 2
+Bi4 Se5 3.244(3) 1_545
+Bi4 Te5 3.244(3) 1_545
+Bi4 Te5 3.244(3) .
+Bi4 Cs1 4.640(6) 5
+Cs1 Se6 3.689(5) 5_565
+Cs1 Se6 3.689(5) 5
+Cs1 Te3 3.746(6) .
+Cs1 Se4 3.901(5) 5_554
+Cs1 Te4 3.901(5) 5_554
+Cs1 Se4 3.901(5) 5_564
+Cs1 Te4 3.901(5) 5_564
+Cs1 Se2 3.970(6) 5
+Cs1 Te2 3.970(6) 5
+Cs1 Se5 3.998(6) 6
+Cs1 Te5 3.998(6) 6
+Te1 Bi1 3.039(3) 5
+Te1 Bi1 3.039(3) 5_565
+Te1 Bi3 3.170(4) 5
+Te1 Bi2 3.273(3) 5_565
+Te1 Bi2 3.273(3) 5
+Te2 Bi1 3.022(3) 1_545
+Te2 Bi2 3.127(4) 5
+Te2 Cs1 3.970(6) 5
+Te3 Bi2 2.931(2) 5_554
+Te3 Bi2 2.931(2) 5_564
+Te3 Cs1 3.999(5) 5_564
+Te3 Cs1 3.999(5) 5_554
+Te4 Bi3 3.054(3) 1_565
+Te4 Bi4 3.233(4) 2_554
+Te4 Cs1 3.901(5) 5_554
+Te4 Cs1 3.901(5) 5_564
+Te5 Bi3 3.179(3) 1_565
+Te5 Bi4 3.244(3) 1_565
+Te5 Cs1 3.998(6) 6_655
+Se6 Bi3 2.780(5) 2
+Se6 Bi4 2.854(4) 1_565
+Se6 Cs1 3.689(5) 5_565
+Se6 Cs1 3.689(5) 5

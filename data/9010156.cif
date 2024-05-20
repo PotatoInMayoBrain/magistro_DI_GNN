@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/01/9010156.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010156
+loop_
+_publ_author_name
+'Lopano, C. L.'
+'Heaney, P. J.'
+'Post, J. E.'
+'Hanson, J.'
+'Komarneni, S.'
+_publ_section_title
+;Time-resolved structural analysis of K-and Ba-exchange reactions with
+ synthetic Na-birnessite using synchrotron X-ray diffraction Locality:
+ synthetic Sample: K-birnessite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              380
+_journal_page_last               387
+_journal_paper_doi               10.2138/am.2007.2242
+_journal_volume                  92
+_journal_year                    2007
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'H4 K0.23 Mn O2.776'
+_chemical_name_mineral           Birnessite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_cell_angle_alpha                89.96
+_cell_angle_beta                 100.75
+_cell_angle_gamma                89.702
+_cell_formula_units_Z            2
+_cell_length_a                   5.1371
+_cell_length_b                   2.8476
+_cell_length_c                   7.2131
+_cell_volume                     103.663
+_database_code_amcsd             0004277
+_exptl_crystal_density_diffrn    3.600
+_cod_original_formula_sum        'K.23 Mn O2.776 H4'
+_cod_database_code               9010156
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K -0.18350 0.60990 0.49310 0.11500 0.06730 K 0
+Mn 0.00000 0.00000 0.00000 1.00000 0.00580 Mn 0
+O 0.37170 0.03310 0.13480 1.00000 0.03180 O 0
+Wat -0.18350 0.60990 0.49310 0.38800 0.06730 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:52+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004277

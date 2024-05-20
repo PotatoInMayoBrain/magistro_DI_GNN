@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/26/9012651.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012651
+loop_
+_publ_author_name
+'Belovitskaya, Y. V.'
+'Pekov, I. V.'
+'Gobechiya, E. R.'
+'Yamnova, N. A.'
+'Kabalov, Y. K.'
+'Chukanov, N. V.'
+'Schneider, J.'
+_publ_section_title
+;Crystal structures of two ancylite modifications Locality: Lovchorrite Mine,
+ Hackman Velley, Khibiny massif, Kola Peninsula, Russia Sample: Specimen 52
+;
+_journal_name_full               'Crystallography Reports'
+_journal_page_first              223
+_journal_page_last               228
+_journal_paper_doi               10.1134/1.1466496
+_journal_volume                  47
+_journal_year                    2002
+_chemical_compound_source
+'Lovchorrite Mine, Hackman Velley, Khibiny massif, Kola Peninsula, Russia'
+_chemical_formula_sum
+'C2 H2.83 Ba0.01 Ca0.02 Ce0.52 F0.13 La0.28 Nd0.11 O7.73 Pr0.04 Sm0.01 Sr0.97'
+_chemical_name_mineral           Ancylite-(Ce)
+_space_group_IT_number           26
+_symmetry_space_group_name_Hall  'P 2c -2'
+_symmetry_space_group_name_H-M   'P m c 21'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.0634
+_cell_length_b                   8.5898
+_cell_length_c                   7.2781
+_cell_volume                     316.551
+_database_code_amcsd             0012378
+_exptl_crystal_density_diffrn    3.934
+_cod_original_formula_sum
+'(Sr.97 Ca.02 Ba.01) Ce.52 La.28 Nd.11 Pr.04 Sm.01 C2 O7.73 F.13 H2.83'
+_cod_database_code               9012651
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,-y,1/2+z
+-x,y,z
+-x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+SrM1 0.00000 0.09770 0.64370 0.97000 0.00608 Sr 0
+CaM1 0.00000 0.09770 0.64370 0.02000 0.00608 Ca 0
+BaM1 0.00000 0.09770 0.64370 0.01000 0.00608 Ba 0
+CeM2 0.50000 0.58970 0.84750 0.52000 0.00836 Ce 0
+LaM2 0.50000 0.58970 0.84750 0.28000 0.00836 La 0
+NdM2 0.50000 0.58970 0.84750 0.11000 0.00836 Nd 0
+PrM2 0.50000 0.58970 0.84750 0.04000 0.00836 Pr 0
+SmM2 0.50000 0.58970 0.84750 0.01000 0.00836 Sm 0
+C1 0.00000 0.55400 0.19100 1.00000 0.02406 C 0
+C2 0.50000 0.05600 0.30800 1.00000 0.02280 C 0
+O11 0.00000 0.41800 0.27100 1.00000 0.02660 O 0
+O12 0.50000 0.91900 0.24400 1.00000 0.01773 O 0
+O21 0.27700 0.12200 0.35200 1.00000 0.01646 O 0
+O22 0.22300 0.61700 0.15100 1.00000 0.01900 O 0
+Wat31 0.00000 0.20400 0.99200 0.90000 0.01773 O 2
+O-H32 0.50000 0.66000 0.51600 0.83000 0.01267 O 1
+F32 0.50000 0.66000 0.51600 0.13000 0.01267 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:42:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012378

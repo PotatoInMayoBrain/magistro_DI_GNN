@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/56/2105636.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105636
+loop_
+_publ_author_name
+'Ptasiewicz-Bak, H.'
+'Olovsson, I.'
+'McIntyre, G. J.'
+_publ_section_title
+;
+ Charge density in NiCl~2~.4H~2~O at 295 and 30K
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              830
+_journal_page_last               840
+_journal_paper_doi               10.1107/S0108768199005741
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_moiety         'Cl2 Ni,4(H2 O)'
+_chemical_formula_sum            'Cl2 H8 Ni O4'
+_chemical_formula_weight         201.7
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_type_scat_source           Sears(1986)
+_cell_angle_alpha                90.000
+_cell_angle_beta                 100.45(3)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   6.006(3)
+_cell_length_b                   9.338(5)
+_cell_length_c                   10.986(5)
+_cell_measurement_reflns_used    175
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      40
+_cell_measurement_theta_min      3
+_cell_volume                     605.9(5)
+_computing_cell_refinement       'Diffractometer Control Program D9'
+_computing_data_collection       'Diffractometer Control Program D9'
+_computing_data_reduction
+'Wilkinson, Khamis, Stansfield & McIntyre (1988)'
+_computing_structure_refinement  'UPALS Lundgren (1982)'
+_diffrn_measurement_device       D9
+_diffrn_measurement_method       \w-x\q
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     .8405
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            2292
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         1
+_exptl_absorpt_coefficient_mu    .236
+_exptl_absorpt_correction_T_max  .7383
+_exptl_absorpt_correction_T_min  .6439
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   ' (Coppens, Leiserowitz & Rabinovich, 1965)'
+_exptl_crystal_colour            'light green'
+_exptl_crystal_density_diffrn    2.211
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'prism 10 faces'
+_exptl_crystal_size_max          4.0
+_exptl_crystal_size_mid          2.0
+_exptl_crystal_size_min          1.7
+_refine_ls_extinction_coef       0
+_refine_ls_extinction_method     'no correction'
+_refine_ls_goodness_of_fit_ref   2.34
+_refine_ls_hydrogen_treatment    'H atoms refined'
+_refine_ls_number_parameters     136
+_refine_ls_number_reflns         2237
+_refine_ls_R_factor_gt           .18
+_refine_ls_shift/esd_max         .03
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s^2^(F~o~^2^) + k^2^F~o~^4^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .17
+_reflns_number_observed          2237
+_reflns_number_total             2292
+_reflns_observed_criterion       'unaffected by pyrasite peaks'
+_cod_data_source_file            os0021.cif
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F~o~^2^) +
+k^2^F~o~^4^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(F~o~^2^) + k^2^F~o~^4^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        606.0(10)
+_cod_original_formula_sum        'Cl2 H8 Ni1 O4'
+_cod_database_code               2105636
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ni .0160(10) .0200(10) .0200(10) .0000(10) .0040(10) .0000(10)
+Cl1 .0280(10) .0240(10) .0210(10) -.0020(10) .0010(10) .0020(10)
+Cl2 .0340(10) .0280(10) .0210(10) .0050(10) .0030(10) -.0040(10)
+O1 .027(2) .027(2) .025(2) -.0040(10) -.0040(10) .0050(10)
+O2 .028(2) .022(2) .026(2) -.0040(10) .0010(10) -.0020(10)
+O3 .046(2) .032(2) .026(2) .006(2) .006(2) -.004(2)
+O4 .029(2) .033(2) .036(2) .004(2) .006(2) .009(2)
+H11 .070(5) .046(4) .033(4) -.005(4) .001(3) -.005(3)
+H12 .045(5) .075(6) .033(4) -.004(4) .000(3) .003(4)
+H21 .052(5) .078(7) .036(4) .002(4) .000(3) .009(4)
+H22 .035(4) .030(4) .093(7) -.008(3) -.009(4) .003(4)
+H31 .044(5) .071(6) .055(5) .001(4) .021(4) .004(4)
+H32 .057(5) .038(4) .059(5) .014(4) .006(4) -.004(4)
+H41 .047(5) .046(4) .065(5) .018(4) .001(4) .013(4)
+H42 .153(15) .052(6) .131(13) .002(7) .087(12) .036(7)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Ni .0139(3) .1694(2) .2639(2) .0190(10) Uequi
+Cl1 -.0288(4) .3625(2) .1208(2) .0240(10) Uequi
+Cl2 -.0949(4) .3053(2) .4292(2) .0280(10) Uequi
+O1 .3513(7) .2252(4) .3366(4) .026(2) Uequi
+O2 -.3244(7) .1164(4) .1953(4) .026(2) Uequi
+O3 .1225(8) .0419(5) .1315(4) .035(2) Uequi
+O4 .0358(8) -.0174(5) .3672(4) .033(2) Uequi
+H11 .387(2) .194(2) .4230(10) .050(4) Uequi
+H12 .454(2) .192(2) .2990(10) .051(5) Uequi
+H21 -.3600(10) .152(3) .1130(10) .056(5) Uequi
+H22 -.3460(10) .014(2) .1870(10) .053(5) Uequi
+H31 .1920(10) .076(3) .0670(10) .057(5) Uequi
+H32 .159(2) -.058(2) .1460(10) .051(5) Uequi
+H41 .178(2) -.064(2) .3880(10) .053(5) Uequi
+H42 -.086(3) -.057(2) .3930(10) .112(11) Uequi

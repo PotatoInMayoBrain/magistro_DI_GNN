@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 02:50:29 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180157 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/53/7105364.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7105364
+loop_
+_publ_author_name
+'Yashima, Masatomo'
+'Yamada, Hiroki'
+'Maeda, Kazuhiko'
+'Domen, Kazunari'
+_publ_section_title
+;
+ Experimental visualization of covalent bonds and structural disorder
+ in a gallium zinc oxynitride photocatalyst (Ga(1-x)Zn(x))(N(1-x)O(x)):
+ origin of visible light absorption.
+;
+_journal_issue                   14
+_journal_name_full
+'Chemical communications (Cambridge, England)'
+_journal_page_first              2379
+_journal_page_last               2381
+_journal_paper_doi               10.1039/b922008a
+_journal_volume                  46
+_journal_year                    2010
+_space_group_IT_number           186
+_symmetry_Int_Tables_number      186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_length_a                   3.19868(3)
+_cell_length_b                   3.19868(3)
+_cell_length_c                   5.19278(5)
+_cell_volume                     46.0121(8)
+_cod_data_source_file            b922008a.txt
+_cod_data_source_block           GaZnNO
+_cod_depositor_comments
+;
+  Replacing tag _atom_site_type_symbol with _atom_site_description, as
+  site markers 'A' and 'M', placed as values of _atom_site_type_symbol
+  are often mistaken for chemical types by the software.
+
+  Andrius Merkys
+  2016-02-02
+;
+_cod_database_code               7105364
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'y, x, z+1/2'
+'x-y, -y, z+1/2'
+'-x, -x+y, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ga 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+Zn 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+N1 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+O1 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+N2 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+O2 0.00648 0.00648 0.00648 0.00324 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_B_iso_or_equiv
+_atom_site_description
+Ga 0.885 0.33333 0.66667 0.36267(96) Biso 0.512(16) M
+Zn 0.115 0.33333 0.66667 0.36267(96) Biso 0.512(16) M
+N1 0.531 0.33333 0.66667 0 Biso 0.512(16) A
+O1 0.069 0.33333 0.66667 0 Biso 0.512(16) A
+N2 0.354 0.33333 0.66667 0.76671(83) Biso 0.512(16) A
+O2 0.046 0.33333 0.66667 0.76671(83) Biso 0.512(16) A

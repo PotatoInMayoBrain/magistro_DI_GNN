@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 17:39:31 +0300 (Thu, 18 May 2023) $
+#$Revision: 283868 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/49/9004917.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004917
+loop_
+_publ_author_name
+'Chakhmouradian, A. R.'
+'Hughes, J. M.'
+'Rakovan, J. F.'
+_publ_section_title
+;Fluorcaphite, a second occurrence and detailed structural analysis:
+ Simultaneous accommodation of Ca, Sr, Na, LREE in the apatite atomic
+ arrangement Sample: Mt. Koashva, Khibina complex, Kola Peninsula,
+ northwestern Russia
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              735
+_journal_page_last               746
+_journal_paper_doi               10.2113/gscanmin.43.2.735
+_journal_volume                  43
+_journal_year                    2005
+_chemical_formula_sum
+;Ca3.295 Ce0.185 F0.749 H0.251 La0.175 Na0.195 Nd0.066 O12.251 P3 Pr0.04
+ Sr1.044
+;
+_chemical_name_mineral           Fluorcaphite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.4853
+_cell_length_b                   9.4853
+_cell_length_c                   6.9862
+_cell_volume                     544.344
+_database_code_amcsd             0006015
+_exptl_crystal_density_diffrn    3.641
+_cod_original_formula_sum
+'Ca3.295 Sr1.044 Na.195 La.175 Ce.185 Nd.066 Pr.04 P3 O12.251 (F.749 H.251)'
+_cod_database_code               9004917
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.66667 0.33333 -0.00170 0.58500 0.01480 Ca 0
+Sr1 0.66667 0.33333 -0.00170 0.21000 0.01480 Sr 0
+Na1 0.66667 0.33333 -0.00170 0.19500 0.01480 Na 0
+La1 0.66667 0.33333 -0.00170 0.01000 0.01480 La 0
+Ca1* 0.66667 0.33333 0.50130 0.88000 0.01240 Ca 0
+Ce1* 0.66667 0.33333 0.50130 0.06500 0.01240 Ce 0
+Nd1* 0.66667 0.33333 0.50130 0.01500 0.01240 Nd 0
+Pr1* 0.66667 0.33333 0.50130 0.04000 0.01240 Pr 0
+Sr2 0.76099 0.01279 0.25000 0.27800 0.01182 Sr 0
+Ca2 0.76099 0.01279 0.25000 0.61000 0.01182 Ca 0
+La2 0.76099 0.01279 0.25000 0.05500 0.01182 La 0
+Ce2 0.76099 0.01279 0.25000 0.04000 0.01182 Ce 0
+Nd2 0.76099 0.01279 0.25000 0.01700 0.01182 Nd 0
+P 0.60118 -0.36967 0.25220 1.00000 0.01020 P 0
+O1 0.84410 0.32860 0.25610 1.00000 0.01760 O 0
+O2 0.41430 -0.46540 0.24930 1.00000 0.02210 O 0
+O3 0.65180 -0.26080 0.07260 1.00000 0.02000 O 0
+O3* 0.66650 -0.25560 0.42500 1.00000 0.03000 O 0
+F 0.00000 0.00000 0.24600 0.74900 0.05200 F 0
+O-H 0.00000 0.00000 0.24600 0.25100 0.05200 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:38:30+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006015

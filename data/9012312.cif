@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/23/9012312.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012312
+loop_
+_publ_author_name
+'Hanic, F.'
+_publ_section_title
+;
+ The crystal structure of meta-zeunerite Cu(UO2)2(AsO4)2*8H2O
+;
+_journal_name_full               'Czechoslovak Journal of Physics B'
+_journal_page_first              169
+_journal_page_last               181
+_journal_paper_doi               10.1007/BF01557259
+_journal_volume                  10
+_journal_year                    1960
+_chemical_compound_source        'Rotava, Ore Mountains, Czech Republic'
+_chemical_formula_sum            'As Cu0.5 H16 O10 U'
+_chemical_name_mineral           Metazeunerite
+_symmetry_space_group_name_H-M   'P 42/n m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.10
+_cell_length_b                   7.10
+_cell_length_c                   17.70
+_cell_volume                     892.257
+_database_code_amcsd             0012422
+_exptl_crystal_density_diffrn    3.877
+_cod_original_formula_sum        'Cu.5 U As O10 H16'
+_cod_database_code               9012312
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,-z
+1/2+y,-x,-z
+1/2-y,x,1/2+z
+x,1/2-y,z
+-x,1/2+y,1/2-z
+1/2+x,1/2+y,1/2-z
+1/2-x,1/2-y,z
+y,x,1/2+z
+-y,-x,-z
+-y,1/2+x,-z
+y,1/2-x,1/2+z
+1/2-x,y,z
+1/2+x,-y,1/2-z
+-x,-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu 0.25000 0.25000 0.30800 0.50000 Cu 0
+U 0.25000 0.25000 0.05450 1.00000 U 0
+As1 0.75000 0.25000 0.00000 1.00000 As 0
+As2 0.25000 0.75000 0.00000 1.00000 As 0
+O1 0.25000 0.25000 0.16400 1.00000 O 0
+O2 0.25000 0.25000 0.45400 1.00000 O 0
+O3 0.25000 0.55600 0.56300 1.00000 O 0
+O4 0.25000 0.55600 0.06300 1.00000 O 0
+Wat5 0.51700 0.11100 0.30900 0.50000 O 2
+Wat6 0.51700 0.11100 0.80900 0.50000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:56+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012422

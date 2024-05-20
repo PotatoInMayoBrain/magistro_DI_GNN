@@ -1,0 +1,470 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:30:45 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179381 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/78/4327811.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4327811
+loop_
+_publ_author_name
+'Francesco Mezzadri'
+'Edmondo Gilioli'
+'Gianluca Calestani'
+'Andrea Migliori'
+'Mark R. Harrison'
+'David A. Headspith'
+'M. Grazia Francesconi'
+_publ_contact_author
+;
+ Prof. Gianluca Calestani
+ Universit\'a degli Studi di Parma
+ Dipartimento di Chimica Generale ed Inorganica
+ Chimica Analitica, Chimica Fisica
+ Viale G. P. Usberti 17/A
+ I-43100 Parma
+ Italy
+;
+_publ_section_title
+;
+ Using High Pressure to Prepare Polymorphs of the Ba2Co1-xZnxS3 (0 <= x <=
+ 1.0) Compounds
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              397
+_journal_page_last               404
+_journal_paper_doi               10.1021/ic201773e
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_moiety         'Ba2 Co0.38 S3 Zn0.62'
+_chemical_formula_sum            'Ba2 Co0.38 S3 Zn0.62'
+_chemical_formula_weight         433.80
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2c 2n'
+_symmetry_space_group_name_H-M   'P n a m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   8.7577(8)
+_cell_length_b                   16.9725(15)
+_cell_length_c                   4.2528(4)
+_cell_measurement_reflns_used    211
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      23.12
+_cell_measurement_theta_min      8.38
+_cell_volume                     632.14(10)
+_computing_cell_refinement       APEX-II
+_computing_data_collection       'APEX-II (Bruker, 2008)'
+_computing_data_reduction        'SAINT (Bruker, 2008)'
+_computing_structure_refinement  'SHELX97-L (Sheldrick, 2008)'
+_computing_structure_solution    'SIR97 (Altomare et al., 1999)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device       'Bruker APEX-II CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1165
+_diffrn_reflns_av_sigmaI/netI    0.0566
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       22
+_diffrn_reflns_limit_k_min       -22
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            8833
+_diffrn_reflns_theta_full        28.78
+_diffrn_reflns_theta_max         28.78
+_diffrn_reflns_theta_min         2.40
+_diffrn_standards_decay_%        0.01
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    16.345
+_exptl_absorpt_correction_T_max  0.528
+_exptl_absorpt_correction_T_min  0.164
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS (Bruker, 2008)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.550
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             755.5
+_exptl_crystal_size_max          0.11
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         1.959
+_refine_diff_density_min         -1.889
+_refine_diff_density_rms         0.390
+_refine_ls_extinction_coef       0.0012(2)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.018
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     39
+_refine_ls_number_reflns         929
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.018
+_refine_ls_R_factor_all          0.0559
+_refine_ls_R_factor_gt           0.0369
+_refine_ls_shift/su_max          0.003
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0279P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0675
+_refine_ls_wR_factor_ref         0.0729
+_reflns_number_gt                703
+_reflns_number_total             929
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            ic201773e_si_001_3.cif
+_cod_data_source_block           ba2zn05co05s3
+_cod_database_code               4327811
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z+1/2
+x+1/2,-y+1/2,-z+1/2
+-x+1/2,y+1/2,-z
+-x,-y,-z
+x,y,-z-1/2
+-x-1/2,y-1/2,z-1/2
+x-1/2,-y-1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba1 Ba 0.25279(8) 0.45552(4) -0.2500 0.0148(2) Uani 1 2 d S
+Ba2 Ba 0.08082(8) 0.21305(4) 0.2500 0.0144(2) Uani 1 2 d S
+Zn1 Zn -0.13328(15) 0.36573(8) -0.2500 0.0149(5) Uani 0.62(4) 2 d SP
+Co1 Co -0.13328(15) 0.36573(8) -0.2500 0.0149(5) Uani 0.38(4) 2 d SP
+S1 S -0.1807(3) 0.22936(15) -0.2500 0.0136(6) Uani 1 2 d S
+S2 S -0.3707(3) 0.42806(15) -0.2500 0.0137(6) Uani 1 2 d S
+S3 S -0.0074(3) 0.39771(16) -0.7500 0.0134(6) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.0168(4) 0.0131(3) 0.0143(4) 0.000 0.000 -0.0006(3)
+Ba2 0.0144(4) 0.0154(3) 0.0134(4) 0.000 0.000 0.0001(3)
+Zn1 0.0123(8) 0.0137(8) 0.0186(9) 0.000 0.000 0.0002(5)
+Co1 0.0123(8) 0.0137(8) 0.0186(9) 0.000 0.000 0.0002(5)
+S1 0.0136(14) 0.0128(14) 0.0144(14) 0.000 0.000 0.0003(11)
+S2 0.0125(15) 0.0139(13) 0.0146(15) 0.000 0.000 -0.0004(10)
+S3 0.0165(15) 0.0158(13) 0.0080(13) 0.000 0.000 -0.0001(11)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+S2 Ba1 S2 87.29(7) 5_565 5_564
+S2 Ba1 S1 124.71(5) 5_565 3_554
+S2 Ba1 S1 124.71(5) 5_564 3_554
+S2 Ba1 S3 151.10(7) 5_565 .
+S2 Ba1 S3 88.69(5) 5_564 .
+S1 Ba1 S3 80.33(6) 3_554 .
+S2 Ba1 S3 88.69(5) 5_565 1_556
+S2 Ba1 S3 151.10(7) 5_564 1_556
+S1 Ba1 S3 80.33(6) 3_554 1_556
+S3 Ba1 S3 81.20(7) . 1_556
+S2 Ba1 S3 74.53(6) 5_565 5_564
+S2 Ba1 S3 74.53(6) 5_564 5_564
+S1 Ba1 S3 149.74(8) 3_554 5_564
+S3 Ba1 S3 76.81(6) . 5_564
+S3 Ba1 S3 76.81(6) 1_556 5_564
+S2 Ba1 S2 75.99(7) 5_565 1_655
+S2 Ba1 S2 75.99(7) 5_564 1_655
+S1 Ba1 S2 71.44(7) 3_554 1_655
+S3 Ba1 S2 130.43(5) . 1_655
+S3 Ba1 S2 130.43(5) 1_556 1_655
+S3 Ba1 S2 138.83(7) 5_564 1_655
+S2 Ba1 Zn1 124.69(5) 5_565 .
+S2 Ba1 Zn1 124.69(5) 5_564 .
+S1 Ba1 Zn1 76.26(6) 3_554 .
+S3 Ba1 Zn1 40.61(3) . .
+S3 Ba1 Zn1 40.61(3) 1_556 .
+S3 Ba1 Zn1 73.48(6) 5_564 .
+S2 Ba1 Zn1 147.69(5) 1_655 .
+S2 Ba1 Co1 37.29(6) 5_565 5_565
+S2 Ba1 Co1 88.10(4) 5_564 5_565
+S1 Ba1 Co1 145.531(18) 3_554 5_565
+S3 Ba1 Co1 113.98(5) . 5_565
+S3 Ba1 Co1 71.80(5) 1_556 5_565
+S3 Ba1 Co1 39.26(3) 5_564 5_565
+S2 Ba1 Co1 112.30(4) 1_655 5_565
+Zn1 Ba1 Co1 94.36(3) . 5_565
+S2 Ba1 Zn1 37.29(6) 5_565 5_565
+S2 Ba1 Zn1 88.10(4) 5_564 5_565
+S1 Ba1 Zn1 145.531(18) 3_554 5_565
+S3 Ba1 Zn1 113.98(5) . 5_565
+S3 Ba1 Zn1 71.80(5) 1_556 5_565
+S3 Ba1 Zn1 39.26(3) 5_564 5_565
+S2 Ba1 Zn1 112.30(4) 1_655 5_565
+Zn1 Ba1 Zn1 94.36(3) . 5_565
+Co1 Ba1 Zn1 0.00(4) 5_565 5_565
+S2 Ba1 Zn1 88.10(4) 5_565 5_564
+S2 Ba1 Zn1 37.29(6) 5_564 5_564
+S1 Ba1 Zn1 145.531(18) 3_554 5_564
+S3 Ba1 Zn1 71.80(5) . 5_564
+S3 Ba1 Zn1 113.98(5) 1_556 5_564
+S3 Ba1 Zn1 39.26(3) 5_564 5_564
+S2 Ba1 Zn1 112.30(4) 1_655 5_564
+Zn1 Ba1 Zn1 94.36(3) . 5_564
+Co1 Ba1 Zn1 67.05(2) 5_565 5_564
+Zn1 Ba1 Zn1 67.05(2) 5_565 5_564
+S1 Ba2 S1 85.36(7) 3 3_554
+S1 Ba2 S1 156.64(3) 3 .
+S1 Ba2 S1 89.950(14) 3_554 .
+S1 Ba2 S1 89.950(14) 3 1_556
+S1 Ba2 S1 156.64(3) 3_554 1_556
+S1 Ba2 S1 85.34(8) . 1_556
+S1 Ba2 S3 81.77(6) 3 1_556
+S1 Ba2 S3 81.77(6) 3_554 1_556
+S1 Ba2 S3 74.91(6) . 1_556
+S1 Ba2 S3 74.91(6) 1_556 1_556
+S1 Ba2 S2 126.13(7) 3 3_554
+S1 Ba2 S2 72.38(6) 3_554 3_554
+S1 Ba2 S2 73.46(6) . 3_554
+S1 Ba2 S2 127.41(7) 1_556 3_554
+S3 Ba2 S2 138.70(3) 1_556 3_554
+S1 Ba2 S2 72.38(6) 3 3
+S1 Ba2 S2 126.13(7) 3_554 3
+S1 Ba2 S2 127.41(7) . 3
+S1 Ba2 S2 73.46(6) 1_556 3
+S3 Ba2 S2 138.70(3) 1_556 3
+S2 Ba2 S2 82.32(6) 3_554 3
+S1 Ba2 Co1 40.62(5) 3 3
+S1 Ba2 Co1 93.08(5) 3_554 3
+S1 Ba2 Co1 162.74(6) . 3
+S1 Ba2 Co1 98.18(4) 1_556 3
+S3 Ba2 Co1 122.35(4) 1_556 3
+S2 Ba2 Co1 91.28(5) 3_554 3
+S2 Ba2 Co1 39.92(5) 3 3
+S1 Ba2 Zn1 40.62(5) 3 3
+S1 Ba2 Zn1 93.08(5) 3_554 3
+S1 Ba2 Zn1 162.74(6) . 3
+S1 Ba2 Zn1 98.18(4) 1_556 3
+S3 Ba2 Zn1 122.35(4) 1_556 3
+S2 Ba2 Zn1 91.28(5) 3_554 3
+S2 Ba2 Zn1 39.92(5) 3 3
+Co1 Ba2 Zn1 0.00(4) 3 3
+S1 Ba2 Co1 93.08(5) 3 3_554
+S1 Ba2 Co1 40.62(5) 3_554 3_554
+S1 Ba2 Co1 98.18(4) . 3_554
+S1 Ba2 Co1 162.74(6) 1_556 3_554
+S3 Ba2 Co1 122.35(4) 1_556 3_554
+S2 Ba2 Co1 39.92(5) 3_554 3_554
+S2 Ba2 Co1 91.28(5) 3 3_554
+Co1 Ba2 Co1 73.67(3) 3 3_554
+Zn1 Ba2 Co1 73.67(3) 3 3_554
+S1 Ba2 Zn1 93.08(5) 3 3_554
+S1 Ba2 Zn1 40.62(5) 3_554 3_554
+S1 Ba2 Zn1 98.18(4) . 3_554
+S1 Ba2 Zn1 162.74(6) 1_556 3_554
+S3 Ba2 Zn1 122.35(4) 1_556 3_554
+S2 Ba2 Zn1 39.92(5) 3_554 3_554
+S2 Ba2 Zn1 91.28(5) 3 3_554
+Co1 Ba2 Zn1 73.67(3) 3 3_554
+Zn1 Ba2 Zn1 73.67(3) 3 3_554
+Co1 Ba2 Zn1 0.00(5) 3_554 3_554
+S1 Ba2 Co1 74.90(5) 3 1_556
+S1 Ba2 Co1 119.35(5) 3_554 1_556
+S1 Ba2 Co1 87.67(5) . 1_556
+S1 Ba2 Co1 37.71(5) 1_556 1_556
+S3 Ba2 Co1 39.47(3) 1_556 1_556
+S2 Ba2 Co1 158.23(6) 3_554 1_556
+S2 Ba2 Co1 101.53(4) 3 1_556
+Co1 Ba2 Co1 105.490(19) 3 1_556
+Zn1 Ba2 Co1 105.490(19) 3 1_556
+Co1 Ba2 Co1 158.58(3) 3_554 1_556
+Zn1 Ba2 Co1 158.58(3) 3_554 1_556
+S2 Zn1 S1 106.80(11) . .
+S2 Zn1 S3 107.45(8) . 1_556
+S1 Zn1 S3 107.26(7) . 1_556
+S2 Zn1 S3 107.45(8) . .
+S1 Zn1 S3 107.26(7) . .
+S3 Zn1 S3 119.96(13) 1_556 .
+S2 Zn1 Ba2 62.73(6) . 3_454
+S1 Zn1 Ba2 60.28(6) . 3_454
+S3 Zn1 Ba2 156.83(7) 1_556 3_454
+S3 Zn1 Ba2 83.17(6) . 3_454
+S2 Zn1 Ba2 62.73(6) . 3_455
+S1 Zn1 Ba2 60.28(6) . 3_455
+S3 Zn1 Ba2 83.17(6) 1_556 3_455
+S3 Zn1 Ba2 156.83(7) . 3_455
+Ba2 Zn1 Ba2 73.67(3) 3_454 3_455
+S2 Zn1 Ba1 128.77(8) . .
+S1 Zn1 Ba1 124.43(8) . .
+S3 Zn1 Ba1 60.00(6) 1_556 .
+S3 Zn1 Ba1 60.00(6) . .
+Ba2 Zn1 Ba1 142.991(15) 3_454 .
+Ba2 Zn1 Ba1 142.991(15) 3_455 .
+S2 Zn1 Ba2 137.82(5) . 1_554
+S1 Zn1 Ba2 54.70(6) . 1_554
+S3 Zn1 Ba2 114.16(8) 1_556 1_554
+S3 Zn1 Ba2 56.68(7) . 1_554
+Ba2 Zn1 Ba2 76.016(19) 3_454 1_554
+Ba2 Zn1 Ba2 114.97(3) 3_455 1_554
+Ba1 Zn1 Ba2 80.34(3) . 1_554
+S2 Zn1 Ba2 137.82(5) . .
+S1 Zn1 Ba2 54.70(6) . .
+S3 Zn1 Ba2 56.68(7) 1_556 .
+S3 Zn1 Ba2 114.16(8) . .
+Ba2 Zn1 Ba2 114.97(3) 3_454 .
+Ba2 Zn1 Ba2 76.016(19) 3_455 .
+Ba1 Zn1 Ba2 80.34(3) . .
+Ba2 Zn1 Ba2 67.23(2) 1_554 .
+S2 Zn1 Ba1 53.15(5) . 5_565
+S1 Zn1 Ba1 136.69(5) . 5_565
+S3 Zn1 Ba1 57.97(7) 1_556 5_565
+S3 Zn1 Ba1 115.22(7) . 5_565
+Ba2 Zn1 Ba1 115.87(4) 3_454 5_565
+Ba2 Zn1 Ba1 76.94(2) 3_455 5_565
+Ba1 Zn1 Ba1 85.64(3) . 5_565
+Ba2 Zn1 Ba1 165.97(4) 1_554 5_565
+Ba2 Zn1 Ba1 111.014(12) . 5_565
+S2 Zn1 Ba1 53.15(5) . 5_564
+S1 Zn1 Ba1 136.69(5) . 5_564
+S3 Zn1 Ba1 115.22(7) 1_556 5_564
+S3 Zn1 Ba1 57.97(7) . 5_564
+Ba2 Zn1 Ba1 76.94(2) 3_454 5_564
+Ba2 Zn1 Ba1 115.87(4) 3_455 5_564
+Ba1 Zn1 Ba1 85.64(3) . 5_564
+Ba2 Zn1 Ba1 111.014(13) 1_554 5_564
+Ba2 Zn1 Ba1 165.97(4) . 5_564
+Ba1 Zn1 Ba1 67.05(2) 5_565 5_564
+Zn1 S1 Ba2 79.10(7) . 3_454
+Zn1 S1 Ba2 79.10(7) . 3_455
+Ba2 S1 Ba2 85.36(7) 3_454 3_455
+Zn1 S1 Ba2 87.59(7) . .
+Ba2 S1 Ba2 166.65(9) 3_454 .
+Ba2 S1 Ba2 93.101(14) 3_455 .
+Zn1 S1 Ba2 87.59(7) . 1_554
+Ba2 S1 Ba2 93.101(14) 3_454 1_554
+Ba2 S1 Ba2 166.65(9) 3_455 1_554
+Ba2 S1 Ba2 85.34(8) . 1_554
+Zn1 S1 Ba1 179.65(13) . 3_454
+Ba2 S1 Ba1 100.65(7) 3_454 3_454
+Ba2 S1 Ba1 100.65(7) 3_455 3_454
+Ba2 S1 Ba1 92.67(6) . 3_454
+Ba2 S1 Ba1 92.67(6) 1_554 3_454
+Zn1 S2 Ba1 89.55(8) . 5_565
+Zn1 S2 Ba1 89.55(8) . 5_564
+Ba1 S2 Ba1 87.29(7) 5_565 5_564
+Zn1 S2 Ba2 77.35(7) . 3_454
+Ba1 S2 Ba2 166.85(10) 5_565 3_454
+Ba1 S2 Ba2 93.741(18) 5_564 3_454
+Zn1 S2 Ba2 77.35(7) . 3_455
+Ba1 S2 Ba2 93.741(18) 5_565 3_455
+Ba1 S2 Ba2 166.85(10) 5_564 3_455
+Ba2 S2 Ba2 82.32(6) 3_454 3_455
+Zn1 S2 Ba1 161.08(11) . 1_455
+Ba1 S2 Ba1 104.01(7) 5_565 1_455
+Ba1 S2 Ba1 104.01(7) 5_564 1_455
+Ba2 S2 Ba1 88.49(6) 3_454 1_455
+Ba2 S2 Ba1 88.49(6) 3_455 1_455
+Co1 S3 Zn1 0.00(6) 1_554 1_554
+Co1 S3 Zn1 119.96(13) 1_554 .
+Zn1 S3 Zn1 119.96(13) 1_554 .
+Co1 S3 Ba2 83.85(7) 1_554 1_554
+Zn1 S3 Ba2 83.85(7) 1_554 1_554
+Zn1 S3 Ba2 83.85(7) . 1_554
+Co1 S3 Ba1 160.53(10) 1_554 .
+Zn1 S3 Ba1 160.53(10) 1_554 .
+Zn1 S3 Ba1 79.39(4) . .
+Ba2 S3 Ba1 97.16(7) 1_554 .
+Co1 S3 Ba1 79.39(4) 1_554 1_554
+Zn1 S3 Ba1 79.39(4) 1_554 1_554
+Zn1 S3 Ba1 160.53(10) . 1_554
+Ba2 S3 Ba1 97.16(7) 1_554 1_554
+Ba1 S3 Ba1 81.20(7) . 1_554
+Co1 S3 Ba1 82.77(8) 1_554 5_564
+Zn1 S3 Ba1 82.77(8) 1_554 5_564
+Zn1 S3 Ba1 82.77(8) . 5_564
+Ba2 S3 Ba1 153.07(10) 1_554 5_564
+Ba1 S3 Ba1 103.19(6) . 5_564
+Ba1 S3 Ba1 103.19(6) 1_554 5_564
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba1 S2 3.081(2) 5_565
+Ba1 S2 3.081(2) 5_564
+Ba1 S1 3.191(3) 3_554
+Ba1 S3 3.268(2) .
+Ba1 S3 3.268(2) 1_556
+Ba1 S3 3.290(3) 5_564
+Ba1 S2 3.330(3) 1_655
+Ba1 Zn1 3.7086(16) .
+Ba1 Co1 3.8499(12) 5_565
+Ba1 Zn1 3.8499(12) 5_565
+Ba1 Zn1 3.8499(12) 5_564
+Ba2 S1 3.137(2) 3
+Ba2 S1 3.137(2) 3_554
+Ba2 S1 3.137(2) .
+Ba2 S1 3.137(2) 1_556
+Ba2 S3 3.228(3) 1_556
+Ba2 S2 3.231(2) 3_554
+Ba2 S2 3.231(2) 3
+Ba2 Co1 3.5467(12) 3
+Ba2 Zn1 3.5467(12) 3
+Ba2 Co1 3.5467(12) 3_554
+Ba2 Zn1 3.5467(12) 3_554
+Ba2 Co1 3.8408(12) 1_556
+Zn1 S2 2.333(3) .
+Zn1 S1 2.351(3) .
+Zn1 S3 2.4558(16) 1_556
+Zn1 S3 2.4558(16) .
+Zn1 Ba2 3.5467(12) 3_454
+Zn1 Ba2 3.5467(12) 3_455
+Zn1 Ba2 3.8408(12) 1_554
+Zn1 Ba1 3.8499(12) 5_565
+Zn1 Ba1 3.8499(12) 5_564
+S1 Ba2 3.137(2) 3_454
+S1 Ba2 3.137(2) 3_455
+S1 Ba2 3.137(2) 1_554
+S1 Ba1 3.191(3) 3_454
+S2 Ba1 3.081(2) 5_565
+S2 Ba1 3.081(2) 5_564
+S2 Ba2 3.231(2) 3_454
+S2 Ba2 3.231(2) 3_455
+S2 Ba1 3.330(3) 1_455
+S3 Co1 2.4558(16) 1_554
+S3 Zn1 2.4558(16) 1_554
+S3 Ba2 3.228(3) 1_554
+S3 Ba1 3.268(2) 1_554
+S3 Ba1 3.290(3) 5_564

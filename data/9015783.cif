@@ -1,0 +1,115 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/57/9015783.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015783
+loop_
+_publ_author_name
+'Jingliang, Z.'
+'Li, J.'
+'Wei, D.'
+_publ_section_title
+;
+ The crystal structure of xitieshanite
+;
+_journal_name_full               'Kexue Tongbao'
+_journal_page_first              502
+_journal_page_last               505
+_journal_volume                  33
+_journal_year                    1988
+_chemical_compound_source        'Xitieshan, Quinghai Province, China'
+_chemical_formula_sum            'Cl Fe H12 O10 S'
+_chemical_name_mineral           Xitieshanite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 111.407
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.6776
+_cell_length_b                   6.9148
+_cell_length_c                   14.1193
+_cell_volume                     970.558
+_database_code_amcsd             0019142
+_exptl_crystal_density_diffrn    2.022
+_cod_original_formula_sum        'Fe S Cl (O10 H12)'
+_cod_database_code               9015783
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe 0.02000 0.02130 0.01720 -0.00190 0.00760 0.00080
+S 0.02020 0.01920 0.01860 -0.00090 0.00750 0.00080
+Cl 0.03580 0.04900 0.02200 -0.00040 0.01100 -0.00880
+Wat1 0.02270 0.03780 0.03220 -0.00350 0.01300 -0.01020
+Wat2 0.02720 0.02810 0.03180 -0.00370 0.00280 0.01130
+Wat3 0.01870 0.05770 0.02470 -0.00150 0.00710 0.00920
+Wat4 0.04350 0.02860 0.02660 -0.00220 0.01590 -0.00540
+O5 0.05420 0.02300 0.01780 -0.00030 0.02080 0.00270
+Wat6 0.02930 0.03620 0.03480 -0.00300 0.01680 -0.00150
+O7 0.02360 0.02120 0.02620 -0.00200 0.00360 -0.00170
+O8 0.01870 0.03700 0.04080 -0.00470 0.00870 0.00140
+O9 0.03720 0.02660 0.01680 -0.00060 0.01110 -0.00350
+Wat10 0.02810 0.04000 0.03010 0.00020 0.01160 -0.00180
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe 0.25334 0.67909 0.54807 0.01920 Fe 0
+S 0.26091 0.33852 0.71286 0.01920 S 0
+Cl 0.20641 0.54097 0.39524 0.03550 Cl 0
+Wat1 0.05110 0.70345 0.52517 0.03000 O 2
+Wat2 0.24622 0.95530 0.49868 0.03130 O 2
+Wat3 0.45179 0.68002 0.57695 0.03390 O 2
+Wat4 0.28858 0.80701 0.68854 0.03210 O 2
+O5 0.27757 0.42920 0.62127 0.02950 O 0
+Wat6 0.47050 0.17539 0.56945 0.03200 O 2
+O7 0.35369 0.17456 0.74011 0.02520 O 0
+O8 0.12202 0.27550 0.68387 0.03280 O 0
+O9 0.29686 0.47974 0.79557 0.02650 O 0
+Wat10 0.02671 0.08015 0.34513 0.03250 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019142

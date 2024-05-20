@@ -1,0 +1,304 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/75/2007587.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007587
+loop_
+_publ_author_name
+'Feger, Christopher R.'
+'Kolis, Joseph W.'
+_publ_section_title
+;
+ V~2~MnTeO~7~
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1217
+_journal_page_last               1219
+_journal_paper_doi               10.1107/S010827019800448X
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'V2 Mn Te O7'
+_chemical_formula_sum            'Mn O7 Te V2'
+_chemical_formula_weight         396.42
+_chemical_name_common            'divanadium managanese tellurite'
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           'International Tables Vol IV'
+_cell_angle_alpha                94.27(2)
+_cell_angle_beta                 114.47(2)
+_cell_angle_gamma                114.79(2)
+_cell_formula_units_Z            2
+_cell_length_a                   6.712(2)
+_cell_length_b                   6.892(2)
+_cell_length_c                   7.855(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    295.2
+_cell_measurement_theta_max      16.7
+_cell_measurement_theta_min      9.6
+_cell_volume                     286.39(17)
+_computing_cell_refinement       'MSC/AFC Diffractometer Control Software'
+_computing_data_collection
+;
+MSC/AFC Diffractometer Control Software (Molecular Structure Corporation,
+1992)
+;
+_computing_data_reduction
+'TEXSAN (Molecular Structure Corporation, 1993)'
+_computing_molecular_graphics    SHELXTL-Plus
+_computing_structure_refinement  'SHELXTL-Plus (Sheldrick, 1990)'
+_computing_structure_solution    'SHELXS86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      295.2
+_diffrn_measurement_device       'Rigaku AFC7R diffractometer'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.027
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            1409
+_diffrn_reflns_theta_max         27.54
+_diffrn_reflns_theta_min         1.75
+_diffrn_standards_decay_%        -0.19
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    10.34
+_exptl_absorpt_correction_T_max  0.81
+_exptl_absorpt_correction_T_min  0.04
+_exptl_absorpt_correction_type
+;
+empirical via \y scans (North et al., 1968)
+;
+_exptl_crystal_colour            red--brown
+_exptl_crystal_density_diffrn    4.596
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       blade
+_exptl_crystal_F_000             358.00
+_exptl_crystal_size_max          0.31
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         1.53
+_refine_diff_density_min         -1.22
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.14
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     100
+_refine_ls_number_reflns         1154
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.036
+_refine_ls_R_factor_obs          .028
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0005F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.036
+_refine_ls_wR_factor_obs         .035
+_reflns_number_observed          1154
+_reflns_number_total             1315
+_reflns_observed_criterion       F>2\s(F)
+_cod_data_source_file            br1206.cif
+_cod_data_source_block           br1206
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 11 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F)+0.0005F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0005F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        286.40(10)
+_cod_original_sg_symbol_H-M      P-1
+_cod_original_formula_sum        'V2 Mn Te O7'
+_cod_database_code               2007587
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x,  +y,  +z'
+'  -x,  -y,  -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Te1 .0135(2) .0054(2) .0137(2) .00250(10) .00840(10) .00260(10)
+Mn1 .0144(4) .0087(4) .0149(4) .0044(3) .0090(3) .0040(3)
+V1 .0116(4) .0049(4) .0114(4) .0026(3) .0069(3) .0032(3)
+V2 .0120(4) .0039(4) .0124(4) .0025(3) .0074(3) .0028(3)
+O1 .018(2) .009(2) .022(2) .008(2) .015(2) .0080(10)
+O2 .012(2) .007(2) .014(2) .0030(10) .007(2) .0040(10)
+O3 .014(2) .007(2) .018(2) .0040(10) .010(2) .0050(10)
+O4 .016(2) .009(2) .012(2) .0060(10) .009(2) .0020(10)
+O5 .016(2) .013(2) .015(2) .008(2) .006(2) .0050(10)
+O6 .021(2) .008(2) .018(2) .005(2) .012(2) .0040(10)
+O7 .018(2) .013(2) .020(2) .009(2) .014(2) .010(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Te1 -.04708(6) .31116(5) .71689(5) .0110(2) Uani
+Mn1 -.5629(2) .06400(10) .18480(10) .0125(4) Uani
+V1 -.0286(2) .11350(10) .33140(10) .0094(4) Uani
+V2 .4979(2) .43320(10) .67390(10) .0094(4) Uani
+O1 .1398(7) -.0170(6) .2546(6) .014(2) Uani
+O2 .2619(7) .4098(6) .4155(5) .012(2) Uani
+O3 .1849(7) .1837(6) .6363(6) .013(2) Uani
+O4 -.2072(7) .2272(6) .4436(5) .012(2) Uani
+O5 -.2451(7) .0996(6) .1174(6) .015(2) Uani
+O6 .5645(7) .6319(6) .8508(6) .015(2) Uani
+O7 .6668(7) .2619(6) .7507(6) .014(2) Uani
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 2
+-2 0 2
+-2 0 1
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Te1 O3 2_556 . 72.1(2) no
+O1 Te1 O4 2_556 . 110.6(2) no
+O1 Te1 O7 2_556 1_455 82.0(2) no
+O3 Te1 O4 . . 75.3(2) no
+O3 Te1 O7 . 1_455 152.30(10) no
+O4 Te1 O7 . 1_455 98.9(2) no
+O1 Mn1 O4 1_455 . 110.6(2) no
+O1 Mn1 O5 1_455 . 171.1(2) no
+O1 Mn1 O5 1_455 2_455 103.7(2) no
+O1 Mn1 O6 1_455 2_566 88.5(2) no
+O1 Mn1 O7 1_455 2_556 70.8(2) no
+O4 Mn1 O5 . . 68.9(2) no
+O4 Mn1 O5 . 2_455 144.7(2) no
+O4 Mn1 O6 . 2_566 94.30(10) no
+O4 Mn1 O7 . 2_556 92.50(10) no
+O5 Mn1 O5 . 2_455 75.9(2) no
+O5 Mn1 O6 . 2_566 100.4(2) no
+O5 Mn1 O7 . 2_556 100.3(2) no
+O5 Mn1 O6 2_455 2_566 94.7(2) no
+O5 Mn1 O7 2_455 2_556 91.0(2) no
+O6 Mn1 O7 2_566 2_556 159.2(2) no
+O1 V1 O2 . . 89.2(2) no
+O1 V1 O3 . . 97.4(2) no
+O1 V1 O3 . 2_556 80.6(2) no
+O1 V1 O4 . . 171.6(2) no
+O1 V1 O5 . . 103.1(2) no
+O2 V1 O3 . . 75.5(2) no
+O2 V1 O3 . 2_556 150.8(2) no
+O2 V1 O4 . . 94.6(2) no
+O2 V1 O5 . . 104.2(2) no
+O3 V1 O3 . 2_556 78.80(10) no
+O3 V1 O4 . . 76.4(2) no
+O3 V1 O5 . . 159.4(3) no
+O3 V1 O4 2_556 . 92.5(2) no
+O3 V1 O5 2_556 . 104.7(2) no
+O4 V1 O5 . . 83.2(2) no
+O2 V2 O2 . 2_666 81.3(2) no
+O2 V2 O3 . . 79.4(2) no
+O2 V2 O6 . . 114.2(2) no
+O2 V2 O7 . . 129.4(2) no
+O2 V2 O3 2_666 . 152.3(2) no
+O2 V2 O6 2_666 . 103.3(2) no
+O2 V2 O7 2_666 . 86.5(2) no
+O3 V2 O6 . . 102.7(2) no
+O3 V2 O7 . . 90.6(2) no
+O6 V2 O7 . . 116.4(2) no
+Te1 O1 Mn1 2_556 1_655 105.1(3) no
+Te1 O1 V1 2_556 . 111.6(3) no
+Mn1 O1 V1 1_655 . 142.5(2) no
+V1 O2 V2 . . 103.5(2) no
+V1 O2 V2 . 2_666 137.1(2) no
+V2 O2 V2 . . 98.7(2) no
+Te1 O3 V1 . . 95.7(2) no
+Te1 O3 V1 . 2_556 95.4(2) no
+Te1 O3 V2 . . 111.6(2) no
+V1 O3 V1 . 2_556 101.20(10) no
+V1 O3 V2 . . 97.2(2) no
+V1 O3 V2 2_556 . 145.5(3) no
+Te1 O4 Mn1 . . 144.1(3) no
+Te1 O4 V1 . . 112.7(2) no
+Mn1 O4 V1 . . 96.0(2) no
+Mn1 O5 Mn1 . 2_455 104.1(2) no
+Mn1 O5 V1 . . 141.6(3) no
+Mn1 O5 V1 2_455 . 102.0(2) no
+Mn1 O6 V1 . 2_566 123.9(2) no
+Te1 O7 Mn1 1_655 2_556 101.6(2) no
+Te1 O7 V2 1_655 . 122.6(2) no
+Mn1 O7 V2 2_556 . 134.0(2) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Te1 O1 . 2_556 1.916(4) yes
+Te1 O3 . . 2.341(6) yes
+Te1 O4 . . 1.866(4) yes
+Te1 O7 . 1_455 1.940(6) yes
+Mn1 O1 . 1_455 2.147(6) yes
+Mn1 O4 . . 2.118(3) yes
+Mn1 O5 . . 2.326(6) yes
+Mn1 O5 . 2_455 2.101(4) yes
+Mn1 O6 . 2_566 2.139(5) yes
+Mn1 O7 . 2_556 2.222(5) yes
+V1 O1 . . 1.946(6) yes
+V1 O2 . . 1.950(3) yes
+V1 O3 . . 2.104(4) yes
+V1 O3 . 2_556 1.964(4) yes
+V1 O4 . . 2.095(6) yes
+V1 O5 . . 1.668(4) yes
+V2 O2 . . 1.931(4) yes
+V2 O2 . 2_666 1.963(5) yes
+V2 O3 . . 1.959(4) yes
+V2 O6 . . 1.641(5) yes
+V2 O7 . . 1.925(5) yes

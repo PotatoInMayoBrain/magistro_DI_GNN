@@ -1,0 +1,336 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/22/2102246.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102246
+loop_
+_publ_author_name
+'Angel, R. J.'
+'Bismayer, U.'
+'Marshall, W. G.'
+_publ_section_title
+;
+ Local and long-range order in ferroelastic lead phosphate at high
+ pressure
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1
+_journal_page_last               9
+_journal_paper_doi               10.1107/S0108768103026582
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_analytical     'Pb3 P2 O8'
+_chemical_formula_structural     'Pb3 (PO4)2'
+_chemical_formula_sum            'O8 P2 Pb3'
+_chemical_formula_weight         811.74
+_chemical_name_common            'Lead phosphate'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 102.923(9)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   13.7590(9)
+_cell_length_b                   5.5526(5)
+_cell_length_c                   9.4305(6)
+_cell_measurement_pressure       1162000.
+_cell_measurement_temperature    298
+_cell_volume                     702.22(9)
+_cod_data_source_file            ws5002.cif
+_cod_data_source_block           S2P12_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (198
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (6 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (198
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (6 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        702.22(7)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2102246
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+PB1 0.0 0.268(2) 0.25 0.0209(13) Uiso 1.0 PB
+PB2 0.3159(3) 0.2990(12) 0.3502(9) 0.0209(13) Uiso 1.0 PB
+P 0.6032(2) 0.2595(12) 0.4519(5) 0.0109(15) Uiso 1.0 P
+O21 0.6450(6) 0.0231(17) 0.3986(9) 0.0154(10) Uiso 1.0 O
+O22 0.6389(6) 0.4746(18) 0.3781(10) 0.0154(10) Uiso 1.0 O
+O23 0.6402(6) 0.2820(15) 0.6166(8) 0.0154(10) Uiso 1.0 O
+O1 0.4901(3) 0.2520(18) 0.4139(10) 0.0154(10) Uiso 1.0 O
+loop_
+_atom_type_symbol
+Pb
+P
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O21 P O22 1_555 1_555 109.47(11) n
+O21 P O23 1_555 1_555 109.47(10) n
+O21 P O1 1_555 1_555 109.48(11) n
+O22 P O23 1_555 1_555 109.44(10) n
+O22 P O1 1_555 1_555 109.48(11) n
+O23 P O1 1_555 1_555 109.49(11) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+PB1 PB2 1_555 4.240(4) n
+PB1 PB2 2_555 4.240(4) n
+PB1 PB2 101_445 3.895(10) n
+PB1 PB2 101_455 4.131(11) n
+PB1 PB2 102_545 3.895(10) n
+PB1 PB2 102_555 4.131(11) n
+PB1 PB2 -101_556 4.062(7) n
+PB1 PB2 -102_455 4.062(7) n
+PB1 P 101_445 3.523(10) n
+PB1 P 101_455 3.445(10) n
+PB1 P 102_545 3.523(10) n
+PB1 P 102_555 3.445(10) n
+PB1 P -101_556 3.424(5) n
+PB1 P -102_455 3.424(5) n
+PB1 O21 101_455 2.587(11) n
+PB1 O21 102_555 2.587(11) n
+PB1 O21 -101_556 4.389(9) n
+PB1 O21 -102_455 4.389(9) n
+PB1 O22 101_445 2.596(12) n
+PB1 O22 101_455 4.412(13) n
+PB1 O22 102_545 2.596(12) n
+PB1 O22 102_555 4.412(13) n
+PB1 O23 101_445 4.470(10) n
+PB1 O23 102_545 4.470(10) n
+PB1 O23 -101_556 2.543(9) n
+PB1 O23 -102_455 2.543(9) n
+PB1 O1 101_445 3.274(13) n
+PB1 O1 101_455 3.117(13) n
+PB1 O1 102_545 3.274(13) n
+PB1 O1 102_555 3.117(13) n
+PB1 O1 -101_556 3.144(10) n
+PB1 O1 -102_455 3.144(10) n
+PB2 PB1 1_555 4.240(4) n
+PB2 PB1 101_545 4.131(11) n
+PB2 PB1 101_555 3.895(10) n
+PB2 PB1 -101_556 4.062(7) n
+PB2 PB2 102_545 3.610(7) n
+PB2 PB2 102_555 3.610(7) n
+PB2 PB2 -101_556 3.723(15) n
+PB2 P 1_555 3.859(5) n
+PB2 P 2_655 3.290(10) n
+PB2 P -1_656 3.662(8) n
+PB2 P -1_666 3.131(9) n
+PB2 P 101_445 4.440(8) n
+PB2 P 101_455 4.157(8) n
+PB2 P -102_455 4.227(7) n
+PB2 O21 2_655 2.950(13) n
+PB2 O21 -1_656 2.921(12) n
+PB2 O21 -1_666 4.416(10) n
+PB2 O21 101_455 2.787(9) n
+PB2 O21 -102_455 4.491(11) n
+PB2 O22 1_555 4.500(9) n
+PB2 O22 2_655 2.564(13) n
+PB2 O22 -1_666 2.796(13) n
+PB2 O22 101_445 3.087(8) n
+PB2 O23 -1_656 3.284(9) n
+PB2 O23 -1_666 2.406(9) n
+PB2 O23 -102_455 2.919(8) n
+PB2 O1 1_555 2.352(6) n
+PB2 O1 2_655 4.046(11) n
+PB2 O1 -1_656 4.333(11) n
+PB2 O1 -1_666 3.954(11) n
+P PB1 101_545 3.445(10) n
+P PB1 101_555 3.523(10) n
+P PB1 -101_556 3.424(5) n
+P PB2 1_555 3.859(5) n
+P PB2 2_655 3.290(10) n
+P PB2 -1_656 3.662(8) n
+P PB2 -1_666 3.131(9) n
+P PB2 101_545 4.157(8) n
+P PB2 101_555 4.440(8) n
+P PB2 -102_556 4.227(7) n
+P P 2_655 4.210(8) n
+P P -1_656 4.282(10) n
+P P -1_666 4.143(11) n
+P P -101_656 3.940(6) n
+P O21 1_555 1.561(7) n
+P O21 1_565 4.323(7) n
+P O21 2_655 4.388(10) n
+P O21 -1_656 4.273(11) n
+P O21 -2_556 4.411(7) n
+P O21 -101_656 3.643(11) n
+P O22 1_545 4.458(8) n
+P O22 1_555 1.519(8) n
+P O22 2_655 4.191(11) n
+P O22 -1_666 4.270(13) n
+P O22 -2_566 4.206(7) n
+P O22 -101_656 3.783(11) n
+P O23 1_555 1.528(7) n
+P O23 -1_656 4.438(12) n
+P O23 -1_666 4.140(11) n
+P O23 -2_555 4.474(11) n
+P O23 -2_565 4.178(10) n
+P O23 -101_656 3.737(10) n
+P O1 1_555 1.516(5) n
+P O1 2_655 3.401(12) n
+P O1 -1_656 3.470(13) n
+P O1 -1_666 3.366(14) n
+O21 PB1 101_545 2.587(11) n
+O21 PB1 -101_556 4.389(9) n
+O21 PB2 2_655 2.950(13) n
+O21 PB2 -1_656 2.921(12) n
+O21 PB2 -1_666 4.416(10) n
+O21 PB2 101_545 2.787(9) n
+O21 PB2 -102_556 4.491(11) n
+O21 P 1_545 4.323(7) n
+O21 P 1_555 1.561(7) n
+O21 P 2_655 4.388(10) n
+O21 P -1_656 4.273(11) n
+O21 P -2_555 4.411(7) n
+O21 P -101_656 3.643(11) n
+O21 O21 2_655 4.332(17) n
+O21 O21 -101_646 4.329(18) n
+O21 O21 -101_656 3.986(18) n
+O21 O22 1_545 3.052(8) n
+O21 O22 1_555 2.514(8) n
+O21 O22 102_645 4.381(8) n
+O21 O22 -101_656 3.237(12) n
+O21 O23 1_555 2.522(7) n
+O21 O23 -1_656 4.247(12) n
+O21 O23 -2_555 3.141(11) n
+O21 O23 -101_656 3.181(12) n
+O21 O1 1_555 2.513(7) n
+O21 O1 2_655 3.362(10) n
+O21 O1 -1_656 3.223(12) n
+O22 PB1 101_545 4.412(13) n
+O22 PB1 101_555 2.596(12) n
+O22 PB2 1_555 4.500(9) n
+O22 PB2 2_655 2.564(13) n
+O22 PB2 -1_666 2.796(13) n
+O22 PB2 101_555 3.087(8) n
+O22 P 1_555 1.519(8) n
+O22 P 1_565 4.458(8) n
+O22 P 2_655 4.191(11) n
+O22 P -1_666 4.270(13) n
+O22 P -2_565 4.206(7) n
+O22 P -101_656 3.783(11) n
+O22 O21 1_555 2.514(8) n
+O22 O21 1_565 3.052(8) n
+O22 O21 102_655 4.381(8) n
+O22 O21 -101_656 3.237(12) n
+O22 O22 2_655 4.040(17) n
+O22 O22 -101_656 4.208(18) n
+O22 O23 1_555 2.487(8) n
+O22 O23 -1_666 4.081(12) n
+O22 O23 -2_565 2.815(10) n
+O22 O23 -101_656 3.347(12) n
+O22 O1 1_555 2.478(8) n
+O22 O1 2_655 3.174(10) n
+O22 O1 -1_666 3.296(15) n
+O23 PB1 101_555 4.470(10) n
+O23 PB1 -101_556 2.543(9) n
+O23 PB2 -1_656 3.284(9) n
+O23 PB2 -1_666 2.406(9) n
+O23 PB2 -102_556 2.919(8) n
+O23 P 1_555 1.528(7) n
+O23 P -1_656 4.438(12) n
+O23 P -1_666 4.140(11) n
+O23 P -2_556 4.474(11) n
+O23 P -2_566 4.178(10) n
+O23 P -101_656 3.737(10) n
+O23 O21 1_555 2.522(7) n
+O23 O21 -1_656 4.247(12) n
+O23 O21 -2_556 3.141(11) n
+O23 O21 -101_656 3.181(12) n
+O23 O22 1_555 2.487(8) n
+O23 O22 -1_666 4.081(12) n
+O23 O22 -2_566 2.815(10) n
+O23 O22 -101_656 3.347(12) n
+O23 O23 102_646 4.446(11) n
+O23 O23 102_656 4.446(11) n
+O23 O23 -101_656 4.132(18) n
+O23 O1 1_555 2.486(7) n
+O23 O1 -1_656 3.444(14) n
+O23 O1 -1_666 3.124(13) n
+O1 PB1 101_545 3.117(13) n
+O1 PB1 101_555 3.274(13) n
+O1 PB1 -101_556 3.144(10) n
+O1 PB2 1_555 2.352(6) n
+O1 PB2 2_655 4.046(11) n
+O1 PB2 -1_656 4.333(11) n
+O1 PB2 -1_666 3.954(11) n
+O1 P 1_555 1.516(5) n
+O1 P 2_655 3.401(12) n
+O1 P -1_656 3.470(13) n
+O1 P -1_666 3.366(14) n
+O1 O21 1_555 2.513(7) n
+O1 O21 2_655 3.362(10) n
+O1 O21 -1_656 3.223(12) n
+O1 O22 1_555 2.478(8) n
+O1 O22 2_655 3.174(10) n
+O1 O22 -1_666 3.296(15) n
+O1 O23 1_555 2.486(7) n
+O1 O23 -1_656 3.444(14) n
+O1 O23 -1_666 3.124(13) n
+O1 O1 2_655 3.163(19) n
+O1 O1 -1_656 3.217(19) n
+O1 O1 -1_666 3.18(2) n

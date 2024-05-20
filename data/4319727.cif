@@ -1,0 +1,422 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 04:07:30 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179277 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/97/4319727.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319727
+loop_
+_publ_author_name
+Evenson
+'Peter K. Dorhout'
+_publ_section_title
+;
+ Thiophosphate Phase Diagrams Developed in Conjunction with the Synthesis
+ of the New Compounds KLaP2S6, K2La(P2S6)1/2(PS4), K3La(PS4)2,
+ K4La0.67(PS4)2, K9-xLa1+x/3(PS4)4 (x = 0.5), K4Eu(PS4)2, and KEuPS4
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2884
+_journal_page_last               2891
+_journal_paper_doi               10.1021/ic000596r
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'Eu K P S4'
+_chemical_formula_weight         350.27
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   16.7816(15)
+_cell_length_b                   6.6141(6)
+_cell_length_c                   6.5142(6)
+_cell_measurement_temperature    168(2)
+_cell_volume                     723.04(11)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      168(2)
+_diffrn_measurement_device       'Bruker CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0581
+_diffrn_reflns_av_sigmaI/netI    0.0475
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            4521
+_diffrn_reflns_theta_max         28.30
+_diffrn_reflns_theta_min         2.43
+_exptl_absorpt_coefficient_mu    10.504
+_exptl_absorpt_correction_type   SADABS
+_exptl_crystal_colour            'brown, clear'
+_exptl_crystal_density_diffrn    3.218
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             644
+_exptl_crystal_size_max          0.03
+_exptl_crystal_size_mid          0.08
+_exptl_crystal_size_min          0.09
+_refine_diff_density_max         1.047
+_refine_diff_density_min         -1.209
+_refine_diff_density_rms         0.265
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.069
+_refine_ls_goodness_of_fit_obs   1.097
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     40
+_refine_ls_number_reflns         977
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.069
+_refine_ls_restrained_S_obs      1.097
+_refine_ls_R_factor_all          0.0552
+_refine_ls_R_factor_obs          0.0368
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0308P)^2^+3.2900P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0749
+_refine_ls_wR_factor_obs         0.0687
+_reflns_number_observed          787
+_reflns_number_total             977
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic000596r_7.cif
+_cod_data_source_block           KEuPS4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0308P)^2^+3.2900P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0308P)^2^+3.2900P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4319727
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Eu1 0.0130(2) 0.0167(2) 0.0120(2) 0.000 0.0005(2) 0.000
+P1 0.0099(10) 0.0074(9) 0.0121(11) 0.000 -0.0002(9) 0.000
+K1 0.0185(11) 0.0172(11) 0.0353(14) 0.000 -0.0064(10) 0.000
+S1 0.0131(11) 0.0200(11) 0.0170(12) 0.000 0.0057(9) 0.000
+S2 0.0088(10) 0.0236(11) 0.0165(12) 0.000 0.0018(9) 0.000
+S3 0.0150(8) 0.0095(7) 0.0180(8) -0.0019(6) -0.0025(6) -0.0001(6)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Eu1 Eu 0.47800(3) 0.2500 0.29192(7) 0.01388(15) Uani 1 d S .
+P1 P 0.40201(13) 0.2500 0.7786(4) 0.0098(4) Uani 1 d S .
+K1 K 0.21173(13) 0.2500 0.4815(4) 0.0237(5) Uani 1 d S .
+S1 S 0.33238(14) 0.2500 0.0338(4) 0.0167(5) Uani 1 d S .
+S2 S 0.47850(14) -0.2500 0.1562(4) 0.0163(5) Uani 1 d S .
+S3 S 0.37858(9) 0.0027(2) 0.6013(3) 0.0141(3) Uani 1 d . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+S1 Eu1 S2 69.51(6) . 5_655 ?
+S1 Eu1 S3 142.12(4) . 3_656 ?
+S2 Eu1 S3 91.73(5) 5_655 3_656 ?
+S1 Eu1 S3 142.12(4) . 5_656 ?
+S2 Eu1 S3 91.73(5) 5_655 5_656 ?
+S3 Eu1 S3 67.42(6) 3_656 5_656 ?
+S1 Eu1 S3 85.68(5) . 7_565 ?
+S2 Eu1 S3 139.89(4) 5_655 7_565 ?
+S3 Eu1 S3 89.26(4) 3_656 7_565 ?
+S3 Eu1 S3 125.13(3) 5_656 7_565 ?
+S1 Eu1 S3 85.68(5) . . ?
+S2 Eu1 S3 139.89(4) 5_655 . ?
+S3 Eu1 S3 125.13(3) 3_656 . ?
+S3 Eu1 S3 89.26(4) 5_656 . ?
+S3 Eu1 S3 64.03(6) 7_565 . ?
+S1 Eu1 P1 102.62(6) . . ?
+S2 Eu1 P1 172.13(6) 5_655 . ?
+S3 Eu1 P1 94.81(5) 3_656 . ?
+S3 Eu1 P1 94.81(5) 5_656 . ?
+S3 Eu1 P1 36.12(3) 7_565 . ?
+S3 Eu1 P1 36.12(3) . . ?
+S1 Eu1 S2 81.70(4) . 1_565 ?
+S2 Eu1 S2 75.45(4) 5_655 1_565 ?
+S3 Eu1 S2 61.42(5) 3_656 1_565 ?
+S3 Eu1 S2 126.43(5) 5_656 1_565 ?
+S3 Eu1 S2 69.99(5) 7_565 1_565 ?
+S3 Eu1 S2 133.01(5) . 1_565 ?
+P1 Eu1 S2 103.92(4) . 1_565 ?
+S1 Eu1 S2 81.70(4) . . ?
+S2 Eu1 S2 75.45(4) 5_655 . ?
+S3 Eu1 S2 126.43(5) 3_656 . ?
+S3 Eu1 S2 61.42(5) 5_656 . ?
+S3 Eu1 S2 133.01(5) 7_565 . ?
+S3 Eu1 S2 69.99(5) . . ?
+P1 Eu1 S2 103.92(4) . . ?
+S2 Eu1 S2 150.06(8) 1_565 . ?
+S1 Eu1 P1 34.60(6) . 1_554 ?
+S2 Eu1 P1 34.91(6) 5_655 1_554 ?
+S3 Eu1 P1 120.04(4) 3_656 1_554 ?
+S3 Eu1 P1 120.04(4) 5_656 1_554 ?
+S3 Eu1 P1 114.69(4) 7_565 1_554 ?
+S3 Eu1 P1 114.69(4) . 1_554 ?
+P1 Eu1 P1 137.21(7) . 1_554 ?
+S2 Eu1 P1 76.09(4) 1_565 1_554 ?
+S2 Eu1 P1 76.09(4) . 1_554 ?
+S1 Eu1 K1 121.05(5) . 6_656 ?
+S2 Eu1 K1 51.54(5) 5_655 6_656 ?
+S3 Eu1 K1 50.79(4) 3_656 6_656 ?
+S3 Eu1 K1 50.79(4) 5_656 6_656 ?
+S3 Eu1 K1 139.67(3) 7_565 6_656 ?
+S3 Eu1 K1 139.67(3) . 6_656 ?
+P1 Eu1 K1 136.33(5) . 6_656 ?
+S2 Eu1 K1 83.74(4) 1_565 6_656 ?
+S2 Eu1 K1 83.74(4) . 6_656 ?
+P1 Eu1 K1 86.45(5) 1_554 6_656 ?
+S1 Eu1 Eu1 119.62(2) . 5_666 ?
+S2 Eu1 Eu1 124.39(2) 5_655 5_666 ?
+S3 Eu1 Eu1 45.31(3) 3_656 5_666 ?
+S3 Eu1 Eu1 98.20(3) 5_656 5_666 ?
+S3 Eu1 Eu1 43.94(3) 7_565 5_666 ?
+S3 Eu1 Eu1 95.05(3) . 5_666 ?
+P1 Eu1 Eu1 58.93(2) . 5_666 ?
+S2 Eu1 Eu1 54.88(4) 1_565 5_666 ?
+S2 Eu1 Eu1 153.79(4) . 5_666 ?
+P1 Eu1 Eu1 130.118(11) 1_554 5_666 ?
+K1 Eu1 Eu1 95.93(2) 6_656 5_666 ?
+S1 P1 S3 110.63(9) 1_556 7_565 ?
+S1 P1 S3 110.63(9) 1_556 . ?
+S3 P1 S3 106.56(14) 7_565 . ?
+S1 P1 S2 113.13(14) 1_556 5_656 ?
+S3 P1 S2 107.81(9) 7_565 5_656 ?
+S3 P1 S2 107.81(9) . 5_656 ?
+S1 P1 Eu1 166.81(12) 1_556 . ?
+S3 P1 Eu1 63.05(7) 7_565 . ?
+S3 P1 Eu1 63.05(7) . . ?
+S2 P1 Eu1 80.05(9) 5_656 . ?
+S1 P1 Eu1 55.97(9) 1_556 1_556 ?
+S3 P1 Eu1 126.69(7) 7_565 1_556 ?
+S3 P1 Eu1 126.69(7) . 1_556 ?
+S2 P1 Eu1 57.16(8) 5_656 1_556 ?
+Eu1 P1 Eu1 137.22(7) . 1_556 ?
+S1 P1 K1 86.12(10) 1_556 . ?
+S3 P1 K1 62.73(7) 7_565 . ?
+S3 P1 K1 62.73(7) . . ?
+S2 P1 K1 160.75(12) 5_656 . ?
+Eu1 P1 K1 80.69(6) . . ?
+Eu1 P1 K1 142.09(8) 1_556 . ?
+S3 K1 S3 58.74(6) . 7_565 ?
+S3 K1 S3 107.94(5) . 2_554 ?
+S3 K1 S3 142.88(9) 7_565 2_554 ?
+S3 K1 S3 142.88(9) . 8_665 ?
+S3 K1 S3 107.94(5) 7_565 8_665 ?
+S3 K1 S3 59.85(6) 2_554 8_665 ?
+S3 K1 S2 135.42(7) . 2 ?
+S3 K1 S2 135.42(7) 7_565 2 ?
+S3 K1 S2 79.75(6) 2_554 2 ?
+S3 K1 S2 79.75(6) 8_665 2 ?
+S3 K1 S1 71.51(5) . 2 ?
+S3 K1 S1 129.44(7) 7_565 2 ?
+S3 K1 S1 59.42(5) 2_554 2 ?
+S3 K1 S1 117.39(7) 8_665 2 ?
+S2 K1 S1 76.21(5) 2 2 ?
+S3 K1 S1 129.44(7) . 2_565 ?
+S3 K1 S1 71.51(5) 7_565 2_565 ?
+S3 K1 S1 117.39(7) 2_554 2_565 ?
+S3 K1 S1 59.42(5) 8_665 2_565 ?
+S2 K1 S1 76.21(5) 2 2_565 ?
+S1 K1 S1 152.31(11) 2 2_565 ?
+S3 K1 S1 73.35(6) . . ?
+S3 K1 S1 73.35(6) 7_565 . ?
+S3 K1 S1 69.56(6) 2_554 . ?
+S3 K1 S1 69.56(6) 8_665 . ?
+S2 K1 S1 144.39(9) 2 . ?
+S1 K1 S1 101.90(6) 2 . ?
+S1 K1 S1 101.90(6) 2_565 . ?
+S3 K1 P1 32.95(4) . . ?
+S3 K1 P1 32.95(4) 7_565 . ?
+S3 K1 P1 140.36(6) 2_554 . ?
+S3 K1 P1 140.36(6) 8_665 . ?
+S2 K1 P1 129.16(9) 2 . ?
+S1 K1 P1 97.70(5) 2 . ?
+S1 K1 P1 97.70(5) 2_565 . ?
+S1 K1 P1 86.45(7) . . ?
+S3 K1 Eu1 149.44(4) . 6_556 ?
+S3 K1 Eu1 149.44(4) 7_565 6_556 ?
+S3 K1 Eu1 44.15(4) 2_554 6_556 ?
+S3 K1 Eu1 44.15(4) 8_665 6_556 ?
+S2 K1 Eu1 44.04(5) 2 6_556 ?
+S1 K1 Eu1 80.99(5) 2 6_556 ?
+S1 K1 Eu1 80.99(5) 2_565 6_556 ?
+S1 K1 Eu1 100.35(7) . 6_556 ?
+P1 K1 Eu1 173.21(8) . 6_556 ?
+S3 K1 Eu1 41.68(4) . . ?
+S3 K1 Eu1 41.68(4) 7_565 . ?
+S3 K1 Eu1 103.83(6) 2_554 . ?
+S3 K1 Eu1 103.83(6) 8_665 . ?
+S2 K1 Eu1 175.83(8) 2 . ?
+S1 K1 Eu1 103.66(5) 2 . ?
+S1 K1 Eu1 103.66(5) 2_565 . ?
+S1 K1 Eu1 39.78(4) . . ?
+P1 K1 Eu1 46.67(4) . . ?
+Eu1 K1 Eu1 140.13(6) 6_556 . ?
+S3 K1 K1 87.40(6) . 2_565 ?
+S3 K1 K1 44.04(5) 7_565 2_565 ?
+S3 K1 K1 164.40(6) 2_554 2_565 ?
+S3 K1 K1 106.14(4) 8_665 2_565 ?
+S2 K1 K1 91.38(6) 2 2_565 ?
+S1 K1 K1 131.07(6) 2 2_565 ?
+S1 K1 K1 47.44(5) 2_565 2_565 ?
+S1 K1 K1 113.79(6) . 2_565 ?
+P1 K1 K1 54.65(4) . 2_565 ?
+Eu1 K1 K1 121.50(6) 6_556 2_565 ?
+Eu1 K1 K1 85.59(6) . 2_565 ?
+P1 S1 Eu1 89.43(10) 1_554 . ?
+P1 S1 K1 92.47(6) 1_554 2_554 ?
+Eu1 S1 K1 103.64(5) . 2_554 ?
+P1 S1 K1 92.47(6) 1_554 2_564 ?
+Eu1 S1 K1 103.64(5) . 2_564 ?
+K1 S1 K1 152.31(11) 2_554 2_564 ?
+P1 S1 K1 179.67(12) 1_554 . ?
+Eu1 S1 K1 90.24(7) . . ?
+K1 S1 K1 87.61(5) 2_554 . ?
+K1 S1 K1 87.61(5) 2_564 . ?
+P1 S2 Eu1 87.92(10) 5_656 5_655 ?
+P1 S2 K1 172.34(13) 5_656 2_554 ?
+Eu1 S2 K1 84.42(7) 5_655 2_554 ?
+P1 S2 Eu1 87.07(5) 5_656 . ?
+Eu1 S2 Eu1 104.55(4) 5_655 . ?
+K1 S2 Eu1 94.84(4) 2_554 . ?
+P1 S2 Eu1 87.07(5) 5_656 1_545 ?
+Eu1 S2 Eu1 104.55(4) 5_655 1_545 ?
+K1 S2 Eu1 94.84(4) 2_554 1_545 ?
+Eu1 S2 Eu1 150.06(8) . 1_545 ?
+P1 S3 Eu1 99.21(8) . 5_656 ?
+P1 S3 Eu1 80.82(8) . . ?
+Eu1 S3 Eu1 90.74(4) 5_656 . ?
+P1 S3 K1 84.32(8) . . ?
+Eu1 S3 K1 175.64(6) 5_656 . ?
+Eu1 S3 K1 92.36(5) . . ?
+P1 S3 K1 93.94(8) . 2 ?
+Eu1 S3 K1 85.06(5) 5_656 2 ?
+Eu1 S3 K1 172.70(7) . 2 ?
+K1 S3 K1 92.17(5) . 2 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Eu1 S1 2.966(2) . ?
+Eu1 S2 3.009(2) 5_655 ?
+Eu1 S3 3.012(2) 3_656 ?
+Eu1 S3 3.012(2) 5_656 ?
+Eu1 S3 3.086(2) 7_565 ?
+Eu1 S3 3.086(2) . ?
+Eu1 P1 3.417(2) . ?
+Eu1 S2 3.4232(7) 1_565 ?
+Eu1 S2 3.4232(7) . ?
+Eu1 P1 3.579(2) 1_554 ?
+Eu1 K1 4.308(2) 6_656 ?
+Eu1 Eu1 4.3395(7) 5_666 ?
+P1 S1 2.032(3) 1_556 ?
+P1 S3 2.041(2) 7_565 ?
+P1 S3 2.041(2) . ?
+P1 S2 2.050(3) 5_656 ?
+P1 Eu1 3.579(2) 1_556 ?
+P1 K1 3.734(3) . ?
+K1 S3 3.335(2) . ?
+K1 S3 3.335(2) 7_565 ?
+K1 S3 3.350(3) 2_554 ?
+K1 S3 3.350(3) 8_665 ?
+K1 S2 3.389(3) 2 ?
+K1 S1 3.4060(8) 2 ?
+K1 S1 3.4060(8) 2_565 ?
+K1 S1 3.550(3) . ?
+K1 Eu1 4.308(2) 6_556 ?
+K1 K1 4.8161(12) 2_565 ?
+S1 P1 2.032(3) 1_554 ?
+S1 K1 3.4060(8) 2_554 ?
+S1 K1 3.4060(8) 2_564 ?
+S2 P1 2.050(3) 5_656 ?
+S2 Eu1 3.009(2) 5_655 ?
+S2 K1 3.389(3) 2_554 ?
+S2 Eu1 3.4232(7) 1_545 ?
+S3 Eu1 3.012(2) 5_656 ?
+S3 K1 3.350(3) 2 ?

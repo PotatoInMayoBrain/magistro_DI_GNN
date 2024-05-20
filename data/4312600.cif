@@ -1,0 +1,463 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 01:59:37 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179165 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/26/4312600.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4312600
+loop_
+_publ_author_name
+'Susan E. Latturner'
+'Daniel Bilc'
+'S. D. Mahanti'
+'Mercouri G. Kanatzidis'
+_publ_contact_author
+; 
+     Prof. M. G. Kanatzidis
+     Department of Chemistry
+     Michigan State University
+     East Lansing, MI  48824    
+;
+_publ_contact_author_email       kanatzid@cem.msu.edu
+_publ_contact_author_phone       '(517) 355-9715'
+_publ_section_title
+;
+ RE2MAl6Si4 (RE = Gd, Tb, Dy; M = Au, Pt): Layered Quaternary
+ Intermetallics Featuring CaAl2Si2-Type and YNiAl4Ge2-Type Slabs Grown
+ from Aluminum Flux
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              7959
+_journal_page_last               7966
+_journal_paper_doi               10.1021/ic0346432
+_journal_volume                  42
+_journal_year                    2003
+_chemical_formula_sum            'Al6 Au Dy2 Si4'
+_chemical_formula_weight         796.21
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           166
+_symmetry_cell_setting           rhombohedral
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            3
+_cell_length_a                   4.1901(6)
+_cell_length_b                   4.1901(6)
+_cell_length_c                   50.288(11)
+_cell_measurement_temperature    293(2)
+_cell_volume                     764.6(2)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.987
+_diffrn_measured_fraction_theta_max 0.987
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0463
+_diffrn_reflns_av_sigmaI/netI    0.0216
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -5
+_diffrn_reflns_limit_l_max       64
+_diffrn_reflns_limit_l_min       -64
+_diffrn_reflns_number            2540
+_diffrn_reflns_theta_full        28.26
+_diffrn_reflns_theta_max         28.26
+_diffrn_reflns_theta_min         2.43
+_exptl_absorpt_coefficient_mu    19.857
+_exptl_crystal_density_diffrn    5.188
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             690
+_refine_diff_density_max         1.206
+_refine_diff_density_min         -1.444
+_refine_diff_density_rms         0.303
+_refine_ls_extinction_coef       0.00091(10)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.087
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     22
+_refine_ls_number_reflns         302
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.087
+_refine_ls_R_factor_all          0.0239
+_refine_ls_R_factor_gt           0.0212
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0314P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0490
+_refine_ls_wR_factor_ref         0.0499
+_reflns_number_gt                275
+_reflns_number_total             302
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic0346432si20030609_054510_6.cif
+_cod_data_source_block           2sl178b
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               4312600
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z'
+'x-y, -y, -z'
+'-x, -x+y, -z'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+1/3'
+'x-y+2/3, -y+1/3, -z+1/3'
+'-x+2/3, -x+y+1/3, -z+1/3'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+2/3'
+'x-y+1/3, -y+2/3, -z+2/3'
+'-x+1/3, -x+y+2/3, -z+2/3'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z'
+'-x+y, y, z'
+'x, x-y, z'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z+1/3'
+'-x+y+2/3, y+1/3, z+1/3'
+'x+2/3, x-y+1/3, z+1/3'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+2/3'
+'-x+y+1/3, y+2/3, z+2/3'
+'x+1/3, x-y+2/3, z+2/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Au1 Au 0.0000 0.0000 0.0000 0.0054(2) Uani 1 12 d S . .
+Dy2 Dy 0.3333 0.6667 0.100969(9) 0.0060(2) Uani 1 6 d S . .
+Si1 Si 0.0000 1.0000 0.13500(6) 0.0055(6) Uani 1 6 d S . .
+Si2 Si 0.6667 0.3333 0.06753(6) 0.0059(6) Uani 1 6 d S . .
+Al1 Al 0.6667 0.3333 0.01613(7) 0.0077(7) Uani 1 6 d S . .
+Al2 Al 1.0000 0.0000 0.05170(7) 0.0067(7) Uani 1 6 d S . .
+Al3 Al 0.6667 1.3333 0.14789(6) 0.0073(7) Uani 1 6 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Au1 0.0063(2) 0.0063(2) 0.0036(3) 0.000 0.000 0.00313(12)
+Dy2 0.0072(2) 0.0072(2) 0.0035(3) 0.000 0.000 0.00361(12)
+Si1 0.0070(9) 0.0070(9) 0.0025(14) 0.000 0.000 0.0035(5)
+Si2 0.0059(9) 0.0059(9) 0.0058(14) 0.000 0.000 0.0030(4)
+Al1 0.0077(10) 0.0077(10) 0.0078(16) 0.000 0.000 0.0038(5)
+Al2 0.0075(10) 0.0075(10) 0.0052(14) 0.000 0.000 0.0037(5)
+Al3 0.0084(10) 0.0084(10) 0.0051(16) 0.000 0.000 0.0042(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Dy Dy -0.1892 4.4098 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Au Au -2.0133 8.8022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Al1 Au1 Al1 110.39(7) 19_655 19 ?
+Al1 Au1 Al1 69.61(7) 19_655 . ?
+Al1 Au1 Al1 180.00(15) 19 . ?
+Al1 Au1 Al1 180.00(15) 19_655 1_455 ?
+Al1 Au1 Al1 69.61(7) 19 1_455 ?
+Al1 Au1 Al1 110.39(7) . 1_455 ?
+Al1 Au1 Al1 110.39(7) 19_655 19_665 ?
+Al1 Au1 Al1 110.39(7) 19 19_665 ?
+Al1 Au1 Al1 69.61(7) . 19_665 ?
+Al1 Au1 Al1 69.61(7) 1_455 19_665 ?
+Al1 Au1 Al1 69.61(7) 19_655 1_445 ?
+Al1 Au1 Al1 69.61(7) 19 1_445 ?
+Al1 Au1 Al1 110.39(7) . 1_445 ?
+Al1 Au1 Al1 110.39(7) 1_455 1_445 ?
+Al1 Au1 Al1 180.00(15) 19_665 1_445 ?
+Al1 Au1 Al2 71.46(7) 19_655 19_655 ?
+Al1 Au1 Al2 71.46(7) 19 19_655 ?
+Al1 Au1 Al2 108.54(7) . 19_655 ?
+Al1 Au1 Al2 108.54(7) 1_455 19_655 ?
+Al1 Au1 Al2 71.46(7) 19_665 19_655 ?
+Al1 Au1 Al2 108.54(7) 1_445 19_655 ?
+Al1 Au1 Al2 108.54(7) 19_655 1_455 ?
+Al1 Au1 Al2 108.54(7) 19 1_455 ?
+Al1 Au1 Al2 71.46(7) . 1_455 ?
+Al1 Au1 Al2 71.46(7) 1_455 1_455 ?
+Al1 Au1 Al2 108.54(7) 19_665 1_455 ?
+Al1 Au1 Al2 71.46(7) 1_445 1_455 ?
+Al2 Au1 Al2 180.0 19_655 1_455 ?
+Si2 Dy2 Si2 90.65(7) 1_455 1_565 ?
+Si2 Dy2 Si2 90.65(7) 1_455 . ?
+Si2 Dy2 Si2 90.65(7) 1_565 . ?
+Si2 Dy2 Si1 89.68(5) 1_455 . ?
+Si2 Dy2 Si1 89.68(5) 1_565 . ?
+Si2 Dy2 Si1 179.52(6) . . ?
+Si2 Dy2 Si1 179.52(6) 1_455 1_655 ?
+Si2 Dy2 Si1 89.68(5) 1_565 1_655 ?
+Si2 Dy2 Si1 89.68(5) . 1_655 ?
+Si1 Dy2 Si1 89.98(7) . 1_655 ?
+Si2 Dy2 Si1 89.68(5) 1_455 1_545 ?
+Si2 Dy2 Si1 179.52(6) 1_565 1_545 ?
+Si2 Dy2 Si1 89.68(5) . 1_545 ?
+Si1 Dy2 Si1 89.98(7) . 1_545 ?
+Si1 Dy2 Si1 89.98(7) 1_655 1_545 ?
+Si2 Dy2 Al3 133.82(2) 1_455 . ?
+Si2 Dy2 Al3 79.09(6) 1_565 . ?
+Si2 Dy2 Al3 133.82(2) . . ?
+Si1 Dy2 Al3 45.94(3) . . ?
+Si1 Dy2 Al3 45.94(3) 1_655 . ?
+Si1 Dy2 Al3 100.44(6) 1_545 . ?
+Si2 Dy2 Al3 79.09(6) 1_455 1_445 ?
+Si2 Dy2 Al3 133.82(2) 1_565 1_445 ?
+Si2 Dy2 Al3 133.82(2) . 1_445 ?
+Si1 Dy2 Al3 45.94(3) . 1_445 ?
+Si1 Dy2 Al3 100.44(6) 1_655 1_445 ?
+Si1 Dy2 Al3 45.94(3) 1_545 1_445 ?
+Al3 Dy2 Al3 76.63(6) . 1_445 ?
+Si2 Dy2 Al3 133.82(2) 1_455 1_545 ?
+Si2 Dy2 Al3 133.82(2) 1_565 1_545 ?
+Si2 Dy2 Al3 79.09(6) . 1_545 ?
+Si1 Dy2 Al3 100.44(6) . 1_545 ?
+Si1 Dy2 Al3 45.94(3) 1_655 1_545 ?
+Si1 Dy2 Al3 45.94(3) 1_545 1_545 ?
+Al3 Dy2 Al3 76.63(6) . 1_545 ?
+Al3 Dy2 Al3 76.63(6) 1_445 1_545 ?
+Si2 Dy2 Al2 45.96(3) 1_455 1_455 ?
+Si2 Dy2 Al2 99.51(6) 1_565 1_455 ?
+Si2 Dy2 Al2 45.96(3) . 1_455 ?
+Si1 Dy2 Al2 134.30(3) . 1_455 ?
+Si1 Dy2 Al2 134.30(3) 1_655 1_455 ?
+Si1 Dy2 Al2 80.96(6) 1_545 1_455 ?
+Al3 Dy2 Al2 178.60(5) . 1_455 ?
+Al3 Dy2 Al2 104.45(5) 1_445 1_455 ?
+Al3 Dy2 Al2 104.45(5) 1_545 1_455 ?
+Si2 Dy2 Al2 45.96(3) 1_455 1_465 ?
+Si2 Dy2 Al2 45.96(3) 1_565 1_465 ?
+Si2 Dy2 Al2 99.51(6) . 1_465 ?
+Si1 Dy2 Al2 80.96(6) . 1_465 ?
+Si1 Dy2 Al2 134.30(3) 1_655 1_465 ?
+Si1 Dy2 Al2 134.30(3) 1_545 1_465 ?
+Al3 Dy2 Al2 104.45(5) . 1_465 ?
+Al3 Dy2 Al2 104.45(5) 1_445 1_465 ?
+Al3 Dy2 Al2 178.60(5) 1_545 1_465 ?
+Al2 Dy2 Al2 74.46(6) 1_455 1_465 ?
+Si2 Dy2 Al2 99.51(6) 1_455 1_565 ?
+Si2 Dy2 Al2 45.96(3) 1_565 1_565 ?
+Si2 Dy2 Al2 45.96(3) . 1_565 ?
+Si1 Dy2 Al2 134.30(3) . 1_565 ?
+Si1 Dy2 Al2 80.96(6) 1_655 1_565 ?
+Si1 Dy2 Al2 134.30(3) 1_545 1_565 ?
+Al3 Dy2 Al2 104.45(5) . 1_565 ?
+Al3 Dy2 Al2 178.60(5) 1_445 1_565 ?
+Al3 Dy2 Al2 104.45(5) 1_545 1_565 ?
+Al2 Dy2 Al2 74.46(6) 1_455 1_565 ?
+Al2 Dy2 Al2 74.46(6) 1_465 1_565 ?
+Al3 Si1 Al3 113.55(8) 1_455 . ?
+Al3 Si1 Al3 113.55(8) 1_455 1_445 ?
+Al3 Si1 Al3 113.55(8) . 1_445 ?
+Al3 Si1 Al3 75.00(10) 1_455 25_575 ?
+Al3 Si1 Al3 75.01(10) . 25_575 ?
+Al3 Si1 Al3 75.01(10) 1_445 25_575 ?
+Al3 Si1 Dy2 75.83(5) 1_455 1_455 ?
+Al3 Si1 Dy2 159.72(14) . 1_455 ?
+Al3 Si1 Dy2 75.83(5) 1_445 1_455 ?
+Al3 Si1 Dy2 125.28(5) 25_575 1_455 ?
+Al3 Si1 Dy2 159.72(14) 1_455 . ?
+Al3 Si1 Dy2 75.83(5) . . ?
+Al3 Si1 Dy2 75.83(5) 1_445 . ?
+Al3 Si1 Dy2 125.28(5) 25_575 . ?
+Dy2 Si1 Dy2 89.98(7) 1_455 . ?
+Al3 Si1 Dy2 75.83(5) 1_455 1_565 ?
+Al3 Si1 Dy2 75.83(5) . 1_565 ?
+Al3 Si1 Dy2 159.72(14) 1_445 1_565 ?
+Al3 Si1 Dy2 125.28(5) 25_575 1_565 ?
+Dy2 Si1 Dy2 89.98(7) 1_455 1_565 ?
+Dy2 Si1 Dy2 89.98(7) . 1_565 ?
+Al2 Si2 Al2 110.70(10) . 1_455 ?
+Al2 Si2 Al2 110.70(10) . 1_565 ?
+Al2 Si2 Al2 110.70(10) 1_455 1_565 ?
+Al2 Si2 Al1 71.78(10) . . ?
+Al2 Si2 Al1 71.78(10) 1_455 . ?
+Al2 Si2 Al1 71.78(10) 1_565 . ?
+Al2 Si2 Dy2 77.79(5) . 1_655 ?
+Al2 Si2 Dy2 163.41(14) 1_455 1_655 ?
+Al2 Si2 Dy2 77.79(5) 1_565 1_655 ?
+Al1 Si2 Dy2 124.80(5) . 1_655 ?
+Al2 Si2 Dy2 77.79(5) . 1_545 ?
+Al2 Si2 Dy2 77.79(5) 1_455 1_545 ?
+Al2 Si2 Dy2 163.41(14) 1_565 1_545 ?
+Al1 Si2 Dy2 124.80(5) . 1_545 ?
+Dy2 Si2 Dy2 90.65(7) 1_655 1_545 ?
+Al2 Si2 Dy2 163.41(14) . . ?
+Al2 Si2 Dy2 77.79(5) 1_455 . ?
+Al2 Si2 Dy2 77.79(5) 1_565 . ?
+Al1 Si2 Dy2 124.80(5) . . ?
+Dy2 Si2 Dy2 90.65(7) 1_655 . ?
+Dy2 Si2 Dy2 90.65(7) 1_545 . ?
+Au1 Al1 Au1 110.39(7) 1_655 . ?
+Au1 Al1 Au1 110.39(7) 1_655 1_665 ?
+Au1 Al1 Au1 110.39(7) . 1_665 ?
+Au1 Al1 Si2 108.54(7) 1_655 . ?
+Au1 Al1 Si2 108.54(7) . . ?
+Au1 Al1 Si2 108.54(7) 1_665 . ?
+Au1 Al1 Al1 55.19(4) 1_655 19_655 ?
+Au1 Al1 Al1 55.19(4) . 19_655 ?
+Au1 Al1 Al1 127.61(19) 1_665 19_655 ?
+Si2 Al1 Al1 123.85(11) . 19_655 ?
+Au1 Al1 Al1 55.19(4) 1_655 19_765 ?
+Au1 Al1 Al1 127.61(19) . 19_765 ?
+Au1 Al1 Al1 55.19(4) 1_665 19_765 ?
+Si2 Al1 Al1 123.85(11) . 19_765 ?
+Al1 Al1 Al1 91.98(16) 19_655 19_765 ?
+Au1 Al1 Al1 127.61(19) 1_655 19_665 ?
+Au1 Al1 Al1 55.19(4) . 19_665 ?
+Au1 Al1 Al1 55.19(4) 1_665 19_665 ?
+Si2 Al1 Al1 123.85(11) . 19_665 ?
+Al1 Al1 Al1 91.98(16) 19_655 19_665 ?
+Al1 Al1 Al1 91.98(16) 19_765 19_665 ?
+Si2 Al2 Si2 110.70(10) . 1_655 ?
+Si2 Al2 Si2 110.70(10) . 1_545 ?
+Si2 Al2 Si2 110.70(10) 1_655 1_545 ?
+Si2 Al2 Au1 108.22(10) . 1_655 ?
+Si2 Al2 Au1 108.22(10) 1_655 1_655 ?
+Si2 Al2 Au1 108.22(10) 1_545 1_655 ?
+Si2 Al2 Dy2 56.26(6) . 1_655 ?
+Si2 Al2 Dy2 56.26(6) 1_655 1_655 ?
+Si2 Al2 Dy2 116.10(13) 1_545 1_655 ?
+Au1 Al2 Dy2 135.68(4) 1_655 1_655 ?
+Si2 Al2 Dy2 116.10(13) . 1_645 ?
+Si2 Al2 Dy2 56.26(6) 1_655 1_645 ?
+Si2 Al2 Dy2 56.26(6) 1_545 1_645 ?
+Au1 Al2 Dy2 135.68(4) 1_655 1_645 ?
+Dy2 Al2 Dy2 74.46(6) 1_655 1_645 ?
+Si2 Al2 Dy2 56.26(6) . 1_545 ?
+Si2 Al2 Dy2 116.10(13) 1_655 1_545 ?
+Si2 Al2 Dy2 56.26(6) 1_545 1_545 ?
+Au1 Al2 Dy2 135.68(4) 1_655 1_545 ?
+Dy2 Al2 Dy2 74.46(6) 1_655 1_545 ?
+Dy2 Al2 Dy2 74.46(6) 1_645 1_545 ?
+Si1 Al3 Si1 113.55(8) 1_655 . ?
+Si1 Al3 Si1 113.55(8) 1_655 1_665 ?
+Si1 Al3 Si1 113.55(8) . 1_665 ?
+Si1 Al3 Si1 105.00(10) 1_655 25_575 ?
+Si1 Al3 Si1 104.99(10) . 25_575 ?
+Si1 Al3 Si1 104.99(10) 1_665 25_575 ?
+Si1 Al3 Dy2 58.24(6) 1_655 . ?
+Si1 Al3 Dy2 58.24(6) . . ?
+Si1 Al3 Dy2 120.72(13) 1_665 . ?
+Si1 Al3 Dy2 134.29(4) 25_575 . ?
+Si1 Al3 Dy2 58.24(6) 1_655 1_665 ?
+Si1 Al3 Dy2 120.72(13) . 1_665 ?
+Si1 Al3 Dy2 58.24(6) 1_665 1_665 ?
+Si1 Al3 Dy2 134.29(4) 25_575 1_665 ?
+Dy2 Al3 Dy2 76.63(6) . 1_665 ?
+Si1 Al3 Dy2 120.72(13) 1_655 1_565 ?
+Si1 Al3 Dy2 58.24(6) . 1_565 ?
+Si1 Al3 Dy2 58.24(6) 1_665 1_565 ?
+Si1 Al3 Dy2 134.28(4) 25_575 1_565 ?
+Dy2 Al3 Dy2 76.63(6) . 1_565 ?
+Dy2 Al3 Dy2 76.63(6) 1_665 1_565 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Au1 Al1 2.5516(11) 19_655 ?
+Au1 Al1 2.5516(11) 19 ?
+Au1 Al1 2.5516(11) . ?
+Au1 Al1 2.5516(11) 1_455 ?
+Au1 Al1 2.5516(11) 19_665 ?
+Au1 Al1 2.5516(11) 1_445 ?
+Au1 Al2 2.600(3) 19_655 ?
+Au1 Al2 2.600(3) 1_455 ?
+Dy2 Si2 2.9461(17) 1_455 ?
+Dy2 Si2 2.9461(17) 1_565 ?
+Dy2 Si2 2.9461(17) . ?
+Dy2 Si1 2.9634(18) . ?
+Dy2 Si1 2.9634(18) 1_655 ?
+Dy2 Si1 2.9634(18) 1_545 ?
+Dy2 Al3 3.379(2) . ?
+Dy2 Al3 3.379(2) 1_445 ?
+Dy2 Al3 3.379(2) 1_545 ?
+Dy2 Al2 3.463(2) 1_455 ?
+Dy2 Al2 3.463(2) 1_465 ?
+Dy2 Al2 3.463(2) 1_565 ?
+Si1 Al3 2.5044(12) 1_455 ?
+Si1 Al3 2.5044(12) . ?
+Si1 Al3 2.5044(12) 1_445 ?
+Si1 Al3 2.537(4) 25_575 ?
+Si1 Dy2 2.9634(18) 1_455 ?
+Si1 Dy2 2.9634(18) 1_565 ?
+Si2 Al2 2.5468(15) . ?
+Si2 Al2 2.5468(15) 1_455 ?
+Si2 Al2 2.5468(15) 1_565 ?
+Si2 Al1 2.585(4) . ?
+Si2 Dy2 2.9461(17) 1_655 ?
+Si2 Dy2 2.9461(17) 1_545 ?
+Al1 Au1 2.5516(11) 1_655 ?
+Al1 Au1 2.5516(11) 1_665 ?
+Al1 Al1 2.913(4) 19_655 ?
+Al1 Al1 2.913(4) 19_765 ?
+Al1 Al1 2.913(4) 19_665 ?
+Al2 Si2 2.5468(15) 1_655 ?
+Al2 Si2 2.5468(15) 1_545 ?
+Al2 Au1 2.600(3) 1_655 ?
+Al2 Dy2 3.463(2) 1_655 ?
+Al2 Dy2 3.463(2) 1_645 ?
+Al2 Dy2 3.463(2) 1_545 ?
+Al3 Si1 2.5044(12) 1_655 ?
+Al3 Si1 2.5044(12) 1_665 ?
+Al3 Si1 2.537(4) 25_575 ?
+Al3 Dy2 3.379(2) 1_665 ?
+Al3 Dy2 3.379(2) 1_565 ?

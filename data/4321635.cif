@@ -1,0 +1,221 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:15:55 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179319 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/16/4321635.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4321635
+loop_
+_publ_author_name
+'Johannes Beck'
+'Sylvia Hedderich'
+'Klaus K\"ollisch'
+_publ_section_title
+;
+ Hg3AsE4X (E = S, Se; X = Cl, Br, I), a Family of Isotypic Compounds with
+ an Acentric, Layered Structure
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5847
+_journal_page_last               5850
+_journal_paper_doi               10.1021/ic0003527
+_journal_volume                  39
+_journal_year                    2000
+_chemical_compound_source        synthetic
+_chemical_formula_sum            'As Br Hg3 Se4'
+_chemical_formula_weight         1072.44
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_date             2000-04-25T10:30:08-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   7.707(8)
+_cell_length_b                   7.707
+_cell_length_c                   9.468(11)
+_cell_measurement_temperature    293(2)
+_cell_volume                     487.0(8)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'Stoe Image Plate Diffraction System'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1096
+_diffrn_reflns_av_sigmaI/netI    0.0464
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            3989
+_diffrn_reflns_theta_max         28.05
+_diffrn_reflns_theta_min         6.48
+_exptl_absorpt_coefficient_mu    69.506
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    7.313
+_exptl_crystal_F_000             888
+_exptl_crystal_size_max          0.024
+_exptl_crystal_size_mid          0.008
+_exptl_crystal_size_min          0.008
+_refine_diff_density_max         1.514
+_refine_diff_density_min         -1.584
+_refine_diff_density_rms         0.358
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.06(4)
+_refine_ls_extinction_coef       0.0102(14)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.086
+_refine_ls_goodness_of_fit_gt    1.06
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     23
+_refine_ls_number_reflns         458
+_refine_ls_number_restraints     1
+_refine_ls_restrained_S_all      1.085
+_refine_ls_restrained_S_obs      1.058
+_refine_ls_R_factor_all          0.0433
+_refine_ls_R_factor_gt           0.0414
+_refine_ls_shift/su_max          0.078
+_refine_ls_shift/su_mean         0.026
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0579P)^2^+12.4351P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1141
+_refine_ls_wR_factor_gt          0.1094
+_reflns_number_gt                443
+_reflns_number_total             458
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic0003527_3.cif
+_cod_data_source_block           hgassebr
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0579P)^2^+12.4351P] where P=(Fo^2^+2Fc^2^)/3'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0579P)^2^+12.4351P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4321635
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x-y, x, z+1/2'
+'-y, x-y, z'
+'-x, -y, z+1/2'
+'-x+y, -x, z'
+'y, -x+y, z+1/2'
+'-y, -x, z'
+'-x, -x+y, z+1/2'
+'-x+y, y, z'
+'y, x, z+1/2'
+'x, x-y, z'
+'x-y, -y, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Br Br 0.6667 0.3333 0.0251(4) 0.0310(9) Uani 1 d S .
+Hg Hg 0.49672(7) -0.00657(13) 0.2453(3) 0.0340(4) Uani 1 d S .
+Se1 Se 0.2996(3) 0.14979(13) 0.3647(4) 0.0219(5) Uani 1 d S .
+Se2 Se 0.3333 -0.3333 0.1052(4) 0.0217(8) Uani 1 d S .
+As As 0 0 0.2238(5) 0.0200(11) Uani 1 d S .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Br 0.0326(13) 0.0326(13) 0.028(2) 0 0 0.0163(6)
+Hg 0.0236(4) 0.0246(5) 0.0542(9) -0.0097(4) -0.0048(2) 0.0123(2)
+Se1 0.0167(8) 0.0187(6) 0.0298(9) 0.0001(4) 0.0002(7) 0.0084(4)
+Se2 0.0202(10) 0.0202(10) 0.025(2) 0 0 0.0101(5)
+As 0.0192(10) 0.0192(10) 0.022(3) 0 0 0.0096(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Hg Hg -2.389 9.227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+As As 0.05 2.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.093 2.226 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.29 2.46 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Hg Br Hg 79.23(13) 3_655 . ?
+Hg Br Hg 79.23(14) 3_655 5_665 ?
+Hg Br Hg 79.23(13) . 5_665 ?
+Se2 Hg Se1 124.35(7) . . ?
+Se2 Hg Se1 124.35(5) . 3_655 ?
+Se1 Hg Se1 108.1(2) . 3_655 ?
+Se2 Hg Br 106.1(2) . . ?
+Se1 Hg Br 89.91(8) . . ?
+Se1 Hg Br 89.91(8) 3_655 . ?
+As Se1 Hg 100.3(2) . . ?
+As Se1 Hg 100.3(2) . 5_665 ?
+Hg Se1 Hg 97.14(14) . 5_665 ?
+Hg Se2 Hg 95.4(2) 3_545 . ?
+Hg Se2 Hg 95.4(2) 3_545 5_655 ?
+Hg Se2 Hg 95.4(2) . 5_655 ?
+Se1 As Se1 92.2(2) . 5 ?
+Se1 As Se1 92.2(2) . 3 ?
+Se1 As Se1 92.2(2) 5 3 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Br Hg 3.081(5) 3_655 ?
+Br Hg 3.081(5) . ?
+Br Hg 3.081(5) 5_665 ?
+Hg Se2 2.553(3) . ?
+Hg Se1 2.621(3) . ?
+Hg Se1 2.621(3) 3_655 ?
+Se1 As 2.404(5) . ?
+Se1 Hg 2.621(2) 5_665 ?
+Se2 Hg 2.553(4) 3_545 ?
+Se2 Hg 2.553(3) 5_655 ?
+As Se1 2.404(4) 5 ?
+As Se1 2.404(4) 3 ?

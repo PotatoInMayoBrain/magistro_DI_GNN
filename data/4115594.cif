@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 11:57:57 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178926 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/55/4115594.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4115594
+loop_
+_publ_author_name
+'Karl O. Christe'
+'Xiongzhi Zhang'
+'Jeffrey A. Sheehy'
+'Robert Bau'
+_publ_section_title
+;
+ Crystal Structure of ClF4+SbF6-, Normal Coordinate Analyses of ClF4+,
+ BrF4+, IF4+, SF4, SeF4, and TeF4, and Simple Method for Calculating the
+ Effects of Fluorine Bridging on the Structure and Vibrational Spectra of
+ Ions in a Strongly Interacting Ionic Solid
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              6338
+_journal_page_last               6348
+_journal_paper_doi               10.1021/ja003347a
+_journal_volume                  123
+_journal_year                    2001
+_chemical_formula_structural     ClF4+SbF6-
+_chemical_formula_sum            'Cl F10 Sb'
+_chemical_formula_weight         347.20
+_chemical_name_common            Tetrafluorochlorine(V+)hexafluoroantimonate(V+)
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           57
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2c 2b'
+_symmetry_space_group_name_H-M   'P b c m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   5.9570(10)
+_cell_length_b                   15.1700(10)
+_cell_length_c                   7.9640(10)
+_cell_measurement_temperature    193(2)
+_cell_volume                     719.69(16)
+_computing_molecular_graphics    'SHELXTL 5.10'
+_computing_publication_material  'SHELXTL 5.10'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      193(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0535
+_diffrn_reflns_av_sigmaI/netI    0.0334
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -19
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            3645
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         2.69
+_diffrn_standards_decay_%        1
+_exptl_absorpt_coefficient_mu    4.342
+_exptl_crystal_density_diffrn    3.204
+_exptl_crystal_F_000             632
+_refine_diff_density_max         1.187
+_refine_diff_density_min         -0.997
+_refine_diff_density_rms         0.136
+_refine_ls_extinction_coef       0.0056(4)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.147
+_refine_ls_goodness_of_fit_obs   1.158
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     68
+_refine_ls_number_reflns         880
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.147
+_refine_ls_restrained_S_obs      1.158
+_refine_ls_R_factor_all          0.0227
+_refine_ls_R_factor_obs          0.0220
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0223P)^2^+0.2118P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0496
+_refine_ls_wR_factor_obs         0.0493
+_reflns_number_observed          854
+_reflns_number_total             880
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ja003347a.cif
+_cod_data_source_block           lhi6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0223P)^2^+0.2118P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0223P)^2^+0.2118P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        719.7(2)
+_cod_database_code               4115594
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x, y-1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Sb 0.0114(2) 0.01294(14) 0.0208(2) 0.000 0.000 -0.00013(6)
+F1 0.0183(10) 0.0215(9) 0.0343(10) 0.000 0.000 0.0068(8)
+F2 0.0266(13) 0.0210(10) 0.063(2) 0.000 0.000 -0.0096(8)
+F3 0.0202(10) 0.0216(8) 0.0369(10) 0.000 0.000 -0.0078(8)
+F4 0.0325(12) 0.0461(11) 0.0223(9) -0.0076(6) 0.0003(7) -0.0006(6)
+F5 0.0188(11) 0.0239(9) 0.0562(14) 0.000 0.000 0.0069(9)
+Cl 0.0119(4) 0.0158(3) 0.0203(4) 0.000 0.000 0.0007(2)
+F11 0.0145(11) 0.0180(9) 0.0404(12) 0.000 0.000 0.0043(7)
+F12 0.0140(10) 0.0204(9) 0.0400(11) 0.000 0.000 -0.0062(8)
+F13 0.0273(11) 0.0513(10) 0.0209(8) 0.0006(6) -0.0007(7) 0.0015(6)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Sb Sb 0.09037(3) 0.140219(12) 0.2500 0.01506(11) Uani 1 d S
+F1 F -0.1565(4) 0.21910(13) 0.2500 0.0247(4) Uani 1 d S
+F2 F -0.1047(4) 0.0445(2) 0.2500 0.0368(6) Uani 1 d S
+F3 F 0.2845(4) 0.23915(12) 0.2500 0.0262(4) Uani 1 d S
+F4 F 0.0902(3) 0.14292(10) 0.0162(3) 0.0336(5) Uani 1 d .
+F5 F 0.3413(4) 0.06687(13) 0.2500 0.0330(5) Uani 1 d S
+Cl Cl 0.58830(12) 0.34395(5) 0.2500 0.0160(2) Uani 1 d S
+F11 F 0.4042(3) 0.41404(14) 0.2500 0.0243(5) Uani 1 d S
+F12 F 0.8045(4) 0.39867(12) 0.2500 0.0248(4) Uani 1 d S
+F13 F 0.5900(3) 0.34956(11) 0.0472(2) 0.0332(5) Uani 1 d .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sb Sb -0.5866 1.5461 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+F2 Sb F4 90.97(5) . .
+F2 Sb F4 90.97(5) . 6_556
+F4 Sb F4 177.47(9) . 6_556
+F2 Sb F5 91.99(10) . .
+F4 Sb F5 90.78(5) . .
+F4 Sb F5 90.78(5) 6_556 .
+F2 Sb F3 178.95(9) . .
+F4 Sb F3 89.02(5) . .
+F4 Sb F3 89.02(5) 6_556 .
+F5 Sb F3 89.06(9) . .
+F2 Sb F1 90.49(11) . .
+F4 Sb F1 89.18(5) . .
+F4 Sb F1 89.18(5) 6_556 .
+F5 Sb F1 177.53(9) . .
+F3 Sb F1 88.47(9) . .
+F11 Cl F12 103.08(12) . .
+F11 Cl F13 88.16(6) . .
+F12 Cl F13 88.06(6) . .
+F11 Cl F13 88.16(6) . 6_556
+F12 Cl F13 88.06(6) . 6_556
+F13 Cl F13 173.92(13) . 6_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Sb F2 1.860(2) .
+Sb F4 1.863(2) .
+Sb F4 1.863(2) 6_556
+Sb F5 1.863(2) .
+Sb F3 1.895(2) .
+Sb F1 1.896(2) .
+Cl F11 1.527(2) .
+Cl F12 1.532(2) .
+Cl F13 1.617(2) .
+Cl F13 1.618(2) 6_556

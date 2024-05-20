@@ -1,0 +1,289 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:59:44 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178798 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/52/4105295.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4105295
+loop_
+_publ_author_name
+'Alfred J. Wooten'
+'Donald J. Werder'
+'Darrick J. Williams'
+'Joanna L. Casson'
+'Jennifer A. Hollingsworth'
+_publ_section_title
+;
+ Solution-Liquid-Solid Growth of Ternary Cu-In-Se Semiconductor Nanowires
+ from Multiple- and Single-Source Precursors
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              16177
+_journal_page_last               16188
+_journal_paper_doi               10.1021/ja905730n
+_journal_volume                  131
+_journal_year                    2009
+_chemical_formula_sum            'Cu3 P'
+_chemical_formula_weight         221.61
+_space_group_IT_number           185
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2'
+_symmetry_space_group_name_H-M   'P 63 c m'
+_audit_author_name               CuInSe2MSP300Cu3P
+_audit_creation_date             2009-07-09T14:39
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2009-07-09T14:39  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   6.9986(4)
+_cell_length_b                   6.9986
+_cell_length_c                   7.1357(6)
+_cell_volume                     302.68(3)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_polarisn_ratio 0.5
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id
+2009-07-09T14:39|CUINSE2MSP300_phase2|CuInSe2MSP300Cu3P||
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_block_id
+2009-07-09T14:39|CUINSE2MSP300_phase2|CuInSe2MSP300Cu3P||
+_pd_phase_name                   'from E:/Powder/Compounds/CU3P.cel'
+_pd_proc_info_datetime           2009-07-09T14:39:03
+_pd_proc_ls_background_function
+;   GSAS Background function number 2 with  6 terms.
+ Cosine Fourier series
+      1:   -4212.42     2:    9439.92     3:   -5968.84     4:    2567.97    
+      5:   -780.351     6:   -119.797    
+;
+_pd_proc_ls_peak_cutoff          0.01000
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0100 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0854
+_pd_proc_ls_prof_wR_expected     0.0268
+_pd_proc_ls_prof_wR_factor       0.1354
+_refine_ls_goodness_of_fit_all   25.52
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     12
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.47963
+_refine_ls_shift/su_max          0.01
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        1.091
+_reflns_d_resolution_low         6.061
+_reflns_limit_h_max              5
+_reflns_limit_h_min              0
+_reflns_limit_k_max              3
+_reflns_limit_k_min              0
+_reflns_limit_l_max              10
+_reflns_limit_l_min              0
+_reflns_number_total             223
+_cod_data_source_file            ja905730n_si_006_2.cif
+_cod_data_source_block           CUINSE2MSP300_phase_2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (58 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (38
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        302.686(30)
+_cod_database_code               4105295
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 x-y,+x,+z+1/2
+3 -y,x-y,+z
+4 -x,-y,+z+1/2
+5 y-x,-x,+z
+6 +y,y-x,+z+1/2
+7 y-x,+y,+z+1/2
+8 -x,y-x,+z
+9 -y,-x,+z+1/2
+10 x-y,-y,+z
+11 +x,x-y,+z+1/2
+12 +y,+x,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Cu Cu 0.7194 0.0 0.5765 1.0 Uiso 0.025 6
+Cu Cu 0.6239 0.0 0.9246 1.0 Uiso 0.025 6
+Cu Cu 0.3333 0.6667 0.6998 1.0 Uiso 0.025 4
+Cu Cu 0.0 0.0 0.8213 1.0 Uiso 0.025 2
+P P 0.6678 0.0 0.25 1.0 Uiso 0.025 6
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+_atom_type_number_in_cell
+Cu 0.000 0.000 13.3380 3.58280 7.16760 0.24700 5.61580 11.3966 1.67350 64.8126
+1.19100 International_Tables_Vol_C 18.0
+In 0.000 0.000 19.1624 0.54760 18.5596 6.37760 4.29480 25.8499 2.03960 92.8029
+4.93910 International_Tables_Vol_C 0
+Se 0.000 0.000 17.0006 2.40980 5.81960 0.27260 3.97310 15.2372 4.35430 43.8163
+2.84090 International_Tables_Vol_C 0
+P 0.000 0.000 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080 68.1645
+1.11490 International_Tables_Vol_C 6.0
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540510 1.000 K\a~1~ 1
+1.544330 0.500 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+P Cu P 122.6418(23) 1_555 2_545 n
+P Cu P 122.6418(23) 1_555 6_665 n
+P Cu P 107.558(4) 2_545 6_665 n
+P Cu P 128.9328(19) 1_556 4_655 n
+P Cu P 117.7467(5) 2_555 4_665 n
+P Cu P 117.7327(5) 2_555 6_565 n
+P Cu P 117.7605(5) 4_665 6_565 n
+P Cu P 115.5595(9) 2_445 4_655 n
+P Cu P 115.5596(9) 2_445 6_565 n
+P Cu P 115.5596(9) 4_655 6_565 n
+Cu P Cu 114.0654(32) 1_555 2_544 n
+Cu P Cu 114.0654(32) 1_555 6_664 n
+Cu P Cu 178.72630(10) 1_555 1_554 n
+Cu P Cu 67.416(4) 1_555 4_654 n
+Cu P Cu 103.0524(5) 1_555 2_654 n
+Cu P Cu 103.0517(5) 1_555 7_544 n
+Cu P Cu 68.84540(30) 1_555 2_654 n
+Cu P Cu 85.9115(28) 2_544 6_664 n
+Cu P Cu 65.0906(31) 2_544 1_554 n
+Cu P Cu 135.8693(13) 2_544 4_654 n
+Cu P Cu 140.7595(34) 2_544 2_654 n
+Cu P Cu 67.02890(30) 2_544 7_544 n
+Cu P Cu 65.1884(22) 2_544 2_654 n
+Cu P Cu 65.0906(31) 6_664 1_554 n
+Cu P Cu 135.8693(13) 6_664 4_654 n
+Cu P Cu 67.04240(30) 6_664 2_654 n
+Cu P Cu 140.7554(34) 6_664 7_544 n
+Cu P Cu 65.1884(22) 6_664 2_654 n
+Cu P Cu 113.8578(35) 1_554 4_654 n
+Cu P Cu 77.5616(5) 1_554 2_654 n
+Cu P Cu 77.5620(5) 1_554 7_544 n
+Cu P Cu 109.8812(5) 1_554 2_654 n
+Cu P Cu 69.8055(17) 4_654 2_654 n
+Cu P Cu 69.8178(17) 4_654 7_544 n
+Cu P Cu 136.261(4) 4_654 2_654 n
+Cu P Cu 117.4194(5) 2_654 7_544 n
+Cu P Cu 121.18430(20) 2_654 2_654 n
+Cu P Cu 121.17010(20) 7_544 2_654 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu Cu 2.57230(21) 1_555 n
+Cu Cu 2.60589(13) 2_544 n
+Cu Cu 2.63580(13) 4_654 n
+Cu Cu 2.60589(13) 6_664 n
+Cu Cu 2.68585(14) 1_545 n
+Cu Cu 2.68611(14) 8_655 n
+Cu Cu 2.62830(13) 1_655 n
+Cu Cu 2.67820(14) 2_654 n
+Cu P 2.35764(20) 1_555 n
+Cu P 2.49578(12) 2_545 n
+Cu P 2.49578(12) 6_665 n
+Cu Cu 2.57230(21) 1_555 n
+Cu Cu 2.60589(13) 2_545 n
+Cu Cu 2.63580(13) 4_655 n
+Cu Cu 2.60589(13) 6_665 n
+Cu Cu 2.72150(13) 1_545 n
+Cu Cu 2.94784(15) 2_655 n
+Cu Cu 2.94763(15) 7_545 n
+Cu Cu 2.72184(13) 8_655 n
+Cu Cu 2.73344(15) 1_655 n
+Cu P 2.34221(20) 1_556 n
+Cu P 2.78681(14) 2_545 n
+Cu P 2.39164(12) 4_655 n
+Cu P 2.78681(14) 6_665 n
+Cu Cu 2.68585(14) 1_565 n
+Cu Cu 2.68545(14) 3_555 n
+Cu Cu 2.68611(14) 5_665 n
+Cu Cu 2.72150(13) 1_565 n
+Cu Cu 2.94815(15) 2_554 n
+Cu Cu 2.72128(13) 3_555 n
+Cu Cu 2.94763(15) 4_664 n
+Cu Cu 2.72184(13) 5_665 n
+Cu Cu 2.94784(15) 6_564 n
+Cu P 2.36448(13) 2_555 n
+Cu P 2.36379(13) 4_665 n
+Cu P 2.36414(13) 6_565 n
+Cu Cu 2.62830(13) 1_455 n
+Cu Cu 2.67820(14) 2_445 n
+Cu Cu 2.62830(13) 3_545 n
+Cu Cu 2.67820(14) 4_655 n
+Cu Cu 2.62830(13) 5_665 n
+Cu Cu 2.67820(14) 6_565 n
+Cu Cu 2.73344(15) 1_455 n
+Cu Cu 2.73344(15) 3_545 n
+Cu Cu 2.73344(15) 5_665 n
+Cu P 2.37995(13) 2_445 n
+Cu P 2.37995(13) 4_655 n
+Cu P 2.37995(13) 6_565 n
+P Cu 2.35764(20) 1_555 n
+P Cu 2.49578(12) 2_544 n
+P Cu 2.49578(12) 6_664 n
+P Cu 2.34221(20) 1_554 n
+P Cu 2.78681(14) 2_544 n
+P Cu 2.39164(12) 4_654 n
+P Cu 2.78681(14) 6_664 n
+P Cu 2.36414(13) 2_654 n
+P Cu 2.36379(13) 7_544 n
+P Cu 2.37995(13) 2_654 n

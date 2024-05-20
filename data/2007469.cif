@@ -1,0 +1,348 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/74/2007469.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007469
+loop_
+_publ_author_name
+'Huang, Jin-Ling'
+'Huang, Da-Ping'
+'Liu, Shi-Xiong'
+'Huang, Chang-Cang'
+'Xu, Huai-Da'
+_publ_section_title
+;
+ A New One-Dimensional Compound: (TaTe~4~)~6~I~4~(TaI~6~)
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              895
+_journal_page_last               897
+_journal_paper_doi               10.1107/S010827019701860X
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         '(Ta Te4 )6 I4 (Ta I6)'
+_chemical_formula_sum            'I10 Ta7 Te24'
+_chemical_formula_weight         5598.08
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                91.06(2)
+_cell_angle_beta                 102.02(2)
+_cell_angle_gamma                94.69(2)
+_cell_formula_units_Z            1
+_cell_length_a                   7.712(2)
+_cell_length_b                   26.454(8)
+_cell_length_c                   6.777(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    296
+_cell_measurement_theta_max      20
+_cell_measurement_theta_min      12
+_cell_volume                     1346.9(7)
+_diffrn_measurement_device       'Rigaku AFC-5R'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0356
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       44
+_diffrn_reflns_limit_k_min       -44
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            10867
+_diffrn_reflns_theta_max         33.1
+_diffrn_standards_decay_%        .0
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    32.468
+_exptl_absorpt_correction_T_max  0.522
+_exptl_absorpt_correction_T_min  0.292
+_exptl_absorpt_correction_type   'refdelf (Waker & Stuart, 1983)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    6.90
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.72
+_refine_diff_density_min         -3.43
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.440
+_refine_ls_number_parameters     188
+_refine_ls_number_reflns         5959
+_refine_ls_R_factor_obs          .0318
+_refine_ls_shift/esd_max         0.03
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0554
+_reflns_number_observed          5959
+_reflns_number_total             10215
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            oh1093.cif
+_cod_data_source_block           oh1093a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not_measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w = 1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1346.8(6)
+_cod_database_code               2007469
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ta(1) .0 .0 .0
+Ta(2) .56694(7) .78515(2) .39077(8)
+Ta(3) .56294(7) .78528(2) -.10886(6)
+Ta(4) .00266(6) .49963(2) .74959(7)
+I(1) -.00240(10) .08577(3) .23700(10)
+I(2) .27990(10) .04268(4) -.1537(2)
+I(3) .23420(10) -.03693(4) .3057(2)
+I(4) .44130(10) .62246(3) .10210(10)
+I(5) .13200(10) .66423(3) .53930(10)
+Te(1) .78020(10) .72966(3) .18570(10)
+Te(2) .83160(10) .83452(3) .20490(10)
+Te(3) .30700(10) .73317(3) .07800(10)
+Te(4) .34610(10) .83986(3) .09470(10)
+Te(5) .56130(10) .87225(3) .64660(10)
+Te(6) .27310(10) .80083(3) .57130(10)
+Te(7) .85560(10) .76847(3) .71150(10)
+Te(8) .55790(10) .69860(3) .63320(10)
+Te(9) -.29090(10) .51596(3) .92930(10)
+Te(10) .00280(10) .58684(3) 1.00550(10)
+Te(11) .26020(10) .55149(3) .56300(10)
+Te(12) .21840(10) .44484(3) .54430(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+I(3) Ta(1) I(1) 2 . 90.66(4) yes
+I(3) Ta(1) I(1) 2 2 89.34(4) yes
+I(2) Ta(1) I(2) . 2 180.00 yes
+Te(3) Ta(3) Te(8) . 1_554 90.36(3) yes
+Te(3) Ta(3) Te(2) . . 107.22(4) yes
+Te(7) Ta(3) Te(1) 1_554 . 77.05(3) yes
+Te(7) Ta(3) Te(5) 1_554 1_554 80.39(4) yes
+Te(1) Ta(3) Te(8) . 1_554 84.38(4) yes
+Te(1) Ta(3) Te(2) . . 58.15(3) yes
+Te(9) Ta(4) Te(12) 2_567 . 79.08(4) yes
+Ta(3) Te(3) Ta(2) . . 73.03(3) yes
+Te(8) Te(7) Ta(3) . 1_556 60.93(5) yes
+Te(6) Ta(2) Te(8) . . 78.41(4) yes
+Te(6) Ta(2) Te(4) . . 77.15(4) yes
+Te(6) Ta(2) Te(2) . . 144.17(4) yes
+Te(11) Ta(4) Te(12) 2_566 . 79.07(4) yes
+Te(11) Ta(4) Te(11) 2_566 . 107.20(3) yes
+Te(11) Ta(4) Te(10) 2_566 . 133.01(4) yes
+Te(9) Ta(4) Te(12) . 2_566 76.62(3) yes
+Te(12) Ta(4) Te(10) . 2_567 85.47(4) yes
+Te(12) Ta(4) Te(10) . . 143.79(3) yes
+Te(2) Te(1) Ta(2) . . 61.22(3) yes
+Te(12) Te(11) I(5) . . 156.13(4) yes
+Ta(2) Te(7) Ta(3) . 1_556 73.52(3) yes
+I(3) Ta(1) I(3) . 2 180.00 no
+I(3) Ta(1) I(2) . 2 89.68(4) no
+I(3) Ta(1) I(2) . . 90.32(4) no
+I(3) Ta(1) I(1) . . 89.34(4) no
+I(3) Ta(1) I(1) . 2 90.66(4) no
+I(3) Ta(1) I(2) . . 90.32(4) no
+I(3) Ta(1) I(2) . 2 89.68(4) no
+I(2) Ta(1) I(1) . . 92.01(4) no
+I(2) Ta(1) I(1) . 2 87.99(4) no
+I(2) Ta(1) I(1) 2 . 87.99(4) no
+I(2) Ta(1) I(1) 2 2 92.01(4) no
+I(1) Ta(1) I(1) . 2 180.00 no
+Te(7) Ta(2) Te(1) . . 78.82(4) no
+Te(7) Ta(2) Te(3) . . 142.01(3) no
+Te(7) Ta(2) Te(6) . . 106.36(4) no
+Te(7) Ta(2) Te(8) . . 58.55(3) no
+Te(7) Ta(2) Te(4) . . 157.93(3) no
+Te(7) Ta(2) Te(2) . . 85.32(4) no
+Te(7) Ta(2) Te(5) . . 80.29(4) no
+Te(1) Ta(2) Te(3) . . 78.10(4) no
+Te(1) Ta(2) Te(6) . . 156.27(3) no
+Te(1) Ta(2) Te(8) . . 85.27(4) no
+Te(1) Ta(2) Te(4) . . 106.97(4) no
+Te(3) Ta(3) Te(1) . . 78.09(3) no
+Te(3) Ta(3) Te(5) . 1_554 134.11(4) no
+Te(7) Ta(3) Te(4) 1_554 . 157.52(3) no
+Te(7) Ta(3) Te(8) 1_554 1_554 58.50(3) no
+Te(7) Ta(3) Te(2) 1_554 . 83.51(3) no
+Te(1) Ta(2) Te(2) . . 58.13(3) no
+Te(1) Ta(2) Te(5) . . 145.13(3) no
+Te(3) Ta(2) Te(6) . . 84.67(3) no
+Te(3) Ta(2) Te(8) . . 89.79(4) no
+Te(3) Ta(2) Te(4) . . 59.24(3) no
+Te(3) Ta(2) Te(2) . . 107.05(4) no
+Te(3) Ta(2) Te(5) . . 132.90(4) no
+Te(6) Ta(2) Te(5) . . 57.62(3) no
+Te(8) Ta(2) Te(4) . . 141.87(3) no
+Te(8) Ta(2) Te(2) . . 133.74(4) no
+Te(8) Ta(2) Te(5) . . 106.92(4) no
+Te(4) Ta(2) Te(2) . . 80.30(4) no
+Te(4) Ta(2) Te(5) . . 83.73(4) no
+Te(2) Ta(2) Te(5) . . 92.66(4) no
+Te(6) Ta(3) Te(3) 1_554 . 86.11(4) no
+Te(6) Ta(3) Te(7) 1_554 1_554 106.63(4) no
+Te(6) Ta(3) Te(4) 1_554 . 78.56(3) no
+Te(6) Ta(3) Te(1) 1_554 . 156.62(3) no
+Te(6) Ta(3) Te(8) 1_554 1_554 78.54(4) no
+Te(6) Ta(3) Te(2) 1_554 . 144.46(3) no
+Te(6) Ta(3) Te(5) 1_554 1_554 57.82(3) no
+Te(3) Ta(3) Te(7) . 1_554 141.59(4) no
+Te(3) Ta(3) Te(4) . . 59.35(3) no
+Te(11) Ta(4) Te(9) 2_566 . 84.25(3) no
+Te(11) Ta(4) Te(12) 2_566 2_566 59.15(3) no
+Te(11) Ta(4) Te(10) 2_566 2_567 90.61(4) no
+Te(9) Ta(4) Te(12) . . 157.09(3) no
+Te(9) Ta(4) Te(11) . . 142.09(4) no
+Te(4) Ta(3) Te(1) . . 107.11(4) no
+Te(4) Ta(3) Te(8) . 1_554 142.93(3) no
+Te(4) Ta(3) Te(2) . . 80.50(4) no
+Te(4) Ta(3) Te(5) . 1_554 84.45(4) no
+Te(1) Ta(3) Te(5) . 1_554 144.04(3) no
+Te(8) Ta(3) Te(2) 1_554 . 132.46(4) no
+Te(8) Ta(3) Te(5) 1_554 1_554 107.03(4) no
+Te(2) Ta(3) Te(5) . 1_554 91.91(4) no
+Te(9) Ta(4) Te(11) 2_567 2_566 143.18(4) no
+Te(9) Ta(4) Te(9) 2_567 . 106.31(3) no
+Te(9) Ta(4) Te(11) 2_567 . 86.20(4) no
+Te(9) Ta(4) Te(12) 2_567 2_566 157.01(3) no
+Te(9) Ta(4) Te(10) 2_567 2_567 58.42(3) no
+Te(9) Ta(4) Te(10) 2_567 . 79.16(4) no
+Ta(3) Te(2) Ta(2) . . 72.63(3) no
+Te(4) Te(3) Ta(3) . . 60.35(3) no
+Te(4) Te(3) Ta(2) . . 60.50(3) no
+Te(4) Te(3) I(4) . . 155.52(4) no
+Ta(3) Te(3) I(4) . . 100.92(4) no
+Ta(2) Te(3) I(4) . . 100.57(4) no
+Te(3) Te(4) Ta(3) . . 60.30(3) no
+Te(3) Te(4) Ta(2) . . 60.26(3) no
+Ta(3) Te(4) Ta(2) . . 72.91(3) no
+Te(6) Te(5) Ta(3) . 1_556 60.62(3) no
+Te(6) Te(5) Ta(2) . . 60.80(3) no
+Te(5) Te(6) Ta(3) . 1_556 61.56(3) no
+Ta(3) Te(6) Ta(2) 1_556 . 73.50(3) no
+Te(7) Te(8) Ta(2) . . 60.56(3) no
+Ta(2) Te(8) Ta(3) . 1_556 73.21(3) no
+Te(10) Te(9) Ta(4) . . 61.21(3) no
+Te(9) Te(10) Ta(4) . 2_567 60.39(3) no
+Te(9) Ta(4) Te(10) . 2_567 79.07(4) no
+Te(9) Ta(4) Te(10) . . 58.20(3) no
+Te(12) Ta(4) Te(11) . . 59.23(3) no
+Te(12) Ta(4) Te(12) . 2_566 107.33(3) no
+Te(11) Ta(4) Te(12) . 2_566 78.90(3) no
+Te(11) Ta(4) Te(10) . 2_567 134.99(4) no
+Te(11) Ta(4) Te(10) . . 90.77(4) no
+Te(12) Ta(4) Te(10) 2_566 2_567 142.61(3) no
+Te(12) Ta(4) Te(10) 2_566 . 83.61(4) no
+Te(10) Ta(4) Te(10) 2_567 . 106.90(3) no
+Te(2) Te(1) Ta(3) . . 61.10(3) no
+Ta(2) Te(1) Ta(3) . . 73.00(3) no
+Te(1) Te(2) Ta(3) . . 60.76(3) no
+Te(1) Te(2) Ta(2) . . 60.65(3) no
+Te(9) Te(10) Ta(4) . . 60.59(3) no
+Ta(4) Te(10) Ta(4) 2_567 . 73.10(3) no
+Te(12) Te(11) Ta(4) . 2_566 60.59(4) no
+Te(12) Te(11) Ta(4) . . 60.37(3) no
+Ta(4) Te(11) Ta(4) 2_566 . 72.80(3) no
+Ta(4) Te(11) I(5) 2_566 . 100.68(4) no
+Ta(4) Te(11) I(5) . . 101.59(4) no
+Te(11) Te(12) Ta(4) . . 60.40(3) no
+Te(11) Te(12) Ta(4) . 2_566 60.25(3) no
+Ta(4) Te(12) Ta(4) . 2_566 72.68(3) no
+Ta(3) Te(4) Ta(2) . . 72.79(3) no
+Te(5) Te(6) Ta(2) . . 61.58(2) no
+Te(8) Te(7) Ta(2) . . 60.89(3) no
+Te(7) Te(8) Ta(3) . 1_556 60.55(3) no
+Te(10) Te(9) Ta(4) . 2_567 61.19(3) no
+Ta(4) Te(9) Ta(4) 2_567 . 73.69(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ta(1) I(3) . . 2.7040(10) yes
+Ta(1) I(2) . 2 2.7570(10) yes
+Ta(1) I(1) . . 2.7590(10) yes
+Ta(2) Te(6) . . 2.8450(10) yes
+Ta(2) Te(8) . . 2.8470(10) yes
+Ta(2) Te(2) . . 2.8550(10) yes
+Ta(3) Te(4) . . 2.8400(10) yes
+Ta(3) Te(1) . . 2.8420(10) yes
+Ta(2) Ta(3) . 1_556 3.3970(10) yes
+I(1) Te(5) . 2_666 3.415(2) yes
+I(2) Te(2) . 2_665 3.433(2) yes
+Ta(3) Te(8) . 1_554 2.8500(10) yes
+Ta(4) Te(9) . 2_567 2.8310(10) yes
+Ta(4) Te(1) . 2_566 2.8430(10) yes
+Ta(4) Te(10) . 2_567 2.8530(10) yes
+Ta(4) Te(10) . . 2.8600(10) yes
+I(5) Te(11) . . 3.215(2) yes
+Te(9) Te(10) . . 2.7740(10) yes
+Te(11) Te(12) . . 2.811(2) yes
+I(5) Te(8) . . 3.262(2) yes
+Te(6) Te(7) . 1_455 3.5860(10) yes
+Te(9) Te(9) . 2_667 3.593(2) yes
+Ta(1) I(3) . 2 2.7040(10) no
+Ta(1) I(2) . . 2.7570(10) no
+Ta(1) I(1) . 2 2.7590(10) no
+Ta(2) Te(7) . . 2.8380(10) no
+Ta(2) Te(1) . . 2.8400(10) no
+Ta(2) Te(3) . . 2.8410(10) no
+Ta(2) Te(4) . . 2.8480(10) no
+Ta(2) Te(5) . . 2.8660(10) no
+Ta(3) Te(6) . 1_554 2.8340(10) no
+Ta(3) Te(3) . . 2.8390(10) no
+I(4) Te(10) . 1_554 3.359(2) no
+Ta(3) Te(2) . . 2.8510(10) no
+Ta(3) Te(5) . 1_554 2.8600(10) no
+Ta(4) Te(9) . . 2.8430(10) no
+Ta(4) Te(12) . . 2.8440(10) no
+Ta(4) Te(11) . . 2.8450(10) no
+Ta(4) Te(12) . 2_566 2.8520(10) no
+I(4) Te(3) . . 3.181(2) no
+Te(1) Te(2) . . 2.7670(10) no
+Te(3) Te(4) . . 2.8120(10) no
+Te(5) Te(6) . . 2.7520(10) no
+Te(7) Te(8) . . 2.7800(10) no

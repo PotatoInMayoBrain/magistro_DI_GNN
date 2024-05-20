@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/01/9000136.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000136
+loop_
+_publ_author_name
+'Moore, P. B.'
+_publ_section_title
+;
+ The crystal structure of laueite, MnFe2(OH)2(PO4)2(H2O)6.2H2O
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1884
+_journal_page_last               1892
+_journal_volume                  50
+_journal_year                    1965
+_chemical_formula_sum            'Fe2 H4 Mn O18 P2'
+_chemical_name_mineral           Laueite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                107.92
+_cell_angle_beta                 110.98
+_cell_angle_gamma                71.12
+_cell_formula_units_Z            1
+_cell_length_a                   5.28
+_cell_length_b                   10.66
+_cell_length_c                   7.14
+_cell_volume                     346.573
+_database_code_amcsd             0000140
+_exptl_crystal_density_diffrn    2.481
+_cod_original_formula_sum        'Mn Fe2 P2 O18 H4'
+_cod_database_code               9000136
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mn 0.00000 0.00000 0.00000 0.02216 Mn 0
+Fe1 0.00000 0.50000 0.00000 0.00899 Fe 0
+Fe2 0.00000 0.50000 0.50000 0.00861 Fe 0
+P 0.34600 0.67000 0.92790 0.00988 P 0
+O1 0.22810 0.11210 0.96200 0.02508 O 0
+O2 0.24260 0.00460 0.32180 0.03800 O 0
+O3 0.15520 0.50090 0.29520 0.01646 O 0
+O4 0.16660 0.65390 0.04100 0.01140 O 0
+Wat5 0.26180 0.80160 0.50760 0.03230 O 2
+O6 0.27170 0.81880 0.90570 0.01697 O 0
+O7 0.34440 0.36730 0.95010 0.01292 O 0
+O8 0.29760 0.58000 0.71220 0.01254 O 0
+O9 0.24330 0.30720 0.55070 0.01697 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:45:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000140

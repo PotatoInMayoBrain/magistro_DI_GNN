@@ -1,0 +1,268 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-26 11:09:57 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282068 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/20/2102083.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102083
+loop_
+_publ_author_name
+'Gaudin, E.'
+'Boucher, F.'
+'Petricek, V.'
+'Taulelle, F.'
+'Evain, M.'
+_publ_section_title
+;
+ Structures and phase transitions of the <i>A</i>~7~PSe~6~
+ (<i>A</i>~=~Ag, Cu) argyrodite-type ionic conductors. II. \b- and
+ \g-Cu~7~PSe~6~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              402
+_journal_page_last               408
+_journal_paper_doi               10.1107/S0108768199016614
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'Cu7 P Se6'
+_chemical_formula_weight         949.56
+_space_group_crystal_system      cubic
+_space_group_IT_number           216
+_space_group_name_Hall           'F -4 2 3'
+_space_group_name_H-M_alt        'F -4 3 m'
+_symmetry_space_group_name_H-M   'F -4 3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.1130(10)
+_cell_length_b                   10.1130(10)
+_cell_length_c                   10.1130(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    353
+_cell_volume                     1034.28(18)
+_database_code_amcsd             0009920
+_diffrn_ambient_temperature      353
+_diffrn_measurement_device_type  'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-\q
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .034
+_diffrn_reflns_number            1726
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_count 3
+_diffrn_standards_interval_time  60
+_exptl_absorpt_coefficient_mu    35.32
+_exptl_absorpt_correction_T_max  .0878
+_exptl_absorpt_correction_T_min  .0452
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            'metallic lustre'
+_exptl_crystal_density_diffrn    6.096
+_exptl_crystal_description       sphere
+_exptl_crystal_F_000             1688
+_exptl_crystal_size_rad          .069
+_refine_diff_density_max         .69
+_refine_diff_density_min         -.76
+_refine_ls_extinction_coef       .172(8)
+_refine_ls_extinction_method     'Type I, Gaussian (Becker \& Coppens, 1974)'
+_refine_ls_goodness_of_fit_all   1.09
+_refine_ls_goodness_of_fit_ref   1.09
+_refine_ls_number_parameters     31
+_refine_ls_number_reflns         300
+_refine_ls_R_factor_all          .0201
+_refine_ls_R_factor_gt           .0201
+_refine_ls_shift/su_max          <0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w =1/[\s^2^|Fo| + (0.015|Fo|)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .0245
+_refine_ls_wR_factor_ref         .0245
+_reflns_number_gt                300
+_reflns_number_total             368
+_reflns_threshold_expression     I>3.0\s(I)
+_cod_data_source_file            lc0017.cif
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+ Adding atom site occupancy values after consulting the original publication.
+
+ Antanas Vaitkus,
+ 2017-12-01
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' tag value 'spherical' was replaced
+with 'sphere' value.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w =1/[\s^2^|Fo| +
+(0.015|Fo|)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w =1/[\s^2^|Fo| + (0.015|Fo|)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1034.3(3)
+_cod_original_sg_symbol_H-M      F-43m
+_cod_database_code               2102083
+_amcsd_formula_title             gamma-Cu7PSe6
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 y,-x,-z
+3 -x,-y,z
+4 -y,x,-z
+5 x,-y,-z
+6 -y,-x,z
+7 -x,y,-z
+8 y,x,z
+9 z,x,y
+10 x,-z,-y
+11 -z,-x,y
+12 -x,z,-y
+13 z,-x,-y
+14 -x,-z,y
+15 -z,x,-y
+16 x,z,y
+17 y,z,x
+18 y,-z,-x
+19 -z,-y,x
+20 -y,z,-x
+21 z,y,x
+22 -y,-z,x
+23 -z,y,-x
+24 z,-y,-x
+25 x,y+1/2,z+1/2
+26 y,-x+1/2,-z+1/2
+27 -x,-y+1/2,z+1/2
+28 -y,x+1/2,-z+1/2
+29 x,-y+1/2,-z+1/2
+30 -y,-x+1/2,z+1/2
+31 -x,y+1/2,-z+1/2
+32 y,x+1/2,z+1/2
+33 z,x+1/2,y+1/2
+34 x,-z+1/2,-y+1/2
+35 -z,-x+1/2,y+1/2
+36 -x,z+1/2,-y+1/2
+37 z,-x+1/2,-y+1/2
+38 -x,-z+1/2,y+1/2
+39 -z,x+1/2,-y+1/2
+40 x,z+1/2,y+1/2
+41 y,z+1/2,x+1/2
+42 y,-z+1/2,-x+1/2
+43 -z,-y+1/2,x+1/2
+44 -y,z+1/2,-x+1/2
+45 z,y+1/2,x+1/2
+46 -y,-z+1/2,x+1/2
+47 -z,y+1/2,-x+1/2
+48 z,-y+1/2,-x+1/2
+49 x+1/2,y,z+1/2
+50 y+1/2,-x,-z+1/2
+51 -x+1/2,-y,z+1/2
+52 -y+1/2,x,-z+1/2
+53 x+1/2,-y,-z+1/2
+54 -y+1/2,-x,z+1/2
+55 -x+1/2,y,-z+1/2
+56 y+1/2,x,z+1/2
+57 z+1/2,x,y+1/2
+58 x+1/2,-z,-y+1/2
+59 -z+1/2,-x,y+1/2
+60 -x+1/2,z,-y+1/2
+61 z+1/2,-x,-y+1/2
+62 -x+1/2,-z,y+1/2
+63 -z+1/2,x,-y+1/2
+64 x+1/2,z,y+1/2
+65 y+1/2,z,x+1/2
+66 y+1/2,-z,-x+1/2
+67 -z+1/2,-y,x+1/2
+68 -y+1/2,z,-x+1/2
+69 z+1/2,y,x+1/2
+70 -y+1/2,-z,x+1/2
+71 -z+1/2,y,-x+1/2
+72 z+1/2,-y,-x+1/2
+73 x+1/2,y+1/2,z
+74 y+1/2,-x+1/2,-z
+75 -x+1/2,-y+1/2,z
+76 -y+1/2,x+1/2,-z
+77 x+1/2,-y+1/2,-z
+78 -y+1/2,-x+1/2,z
+79 -x+1/2,y+1/2,-z
+80 y+1/2,x+1/2,z
+81 z+1/2,x+1/2,y
+82 x+1/2,-z+1/2,-y
+83 -z+1/2,-x+1/2,y
+84 -x+1/2,z+1/2,-y
+85 z+1/2,-x+1/2,-y
+86 -x+1/2,-z+1/2,y
+87 -z+1/2,x+1/2,-y
+88 x+1/2,z+1/2,y
+89 y+1/2,z+1/2,x
+90 y+1/2,-z+1/2,-x
+91 -z+1/2,-y+1/2,x
+92 -y+1/2,z+1/2,-x
+93 z+1/2,y+1/2,x
+94 -y+1/2,-z+1/2,x
+95 -z+1/2,y+1/2,-x
+96 z+1/2,-y+1/2,-x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+P .0098(3) .0098 .0098 0 0 0
+Se1 .01622(12) .01622 .01622 -.00362(7) -.00362 -.00362
+Se2 .0330(4) .0330 .0330 0 0 0
+Se3 .0273(4) .0273 .0273 0 0 0
+Cu1 .0479(14) .0479 .057(2) .004(2) -.0008(12) -.0008(12)
+Cu2 .09(2) .09 .030(3) .06(2) -.019(9) -.019
+Cu3 .24(2) .24 .24 -.101(10) -.101 -.101
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+P .75 .75 .75 .0098(2) 1
+Se1 .87576(5) .87576 .87576 .01623(7) 1
+Se2 .25 .25 .25 .0330(2) 1
+Se3 .5 .5 .5 .0273(2) 1
+Cu1 .0787(8) .0787 .2673(6) .0511(10) 0.314(11)
+Cu2 .016(3) .016 .2757(8) .068(10) 0.179(9)
+Cu3 .1286(8) .1286 .3714 .243(11) 0.27
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P Se 2.2028(5) yes
+Cu3 Se2 2.127(8) yes
+Cu3 Se3 2.252(8) yes
+Cu2* Se3 2.2279 yes
+Cu2* Se1 2.373(5) yes
+Cu1* Se1 2.4982(5) yes
+Cu1* Se3 2.5611 yes
+Cu1* Se2 2.5800 yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009920

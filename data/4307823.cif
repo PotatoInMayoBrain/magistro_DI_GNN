@@ -1,0 +1,187 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 00:33:25 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179116 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/78/4307823.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4307823
+loop_
+_publ_author_name
+'Yaroslav E. Filinchuk'
+'Klaus Yvon'
+'Herman Emerich'
+_publ_section_title
+;
+Tetrahedral D Atom Coordination of Nickel and Evidence for
+Anti-isostructural Phase Transition in Orthorhombic Ce2Ni7D~4
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2914
+_journal_page_last               2920
+_journal_paper_doi               10.1021/ic062312u
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_sum            'Ce Ni3'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           194
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.00000
+_cell_formula_units_Z            6
+_cell_length_a                   4.96135
+_cell_length_b                   4.96135
+_cell_length_c                   16.52157
+_cell_volume                     352.194
+_computing_structure_refinement  FULLPROF
+_diffrn_radiation_type           X-ray
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.014432
+_pd_meas_2theta_range_max        130.00000
+_pd_meas_2theta_range_min        10.00000
+_pd_meas_number_of_points        0
+_pd_proc_2theta_range_inc        0.014432
+_pd_proc_2theta_range_max        130.0000
+_pd_proc_2theta_range_min        10.0000
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        3.2046
+_pd_proc_ls_prof_wR_expected     3.3120
+_pd_proc_ls_prof_wR_factor       4.0981
+_pd_proc_wavelength              1.540560
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     24
+_refine_ls_number_reflns         153
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            9.2787
+_cod_data_source_file            ic062312usi20061204_110207_2.cif
+_cod_data_source_block           2_CeNi3_(own_str._type)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_cell_volume        352.19403
+_cod_database_code               4307823
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_cr_factor       28.1283
+_pd_proc_ls_prof_cwr_factor      18.7861
+_pd_proc_ls_prof_cwr_expected    15.1829
+_pd_proc_ls_prof_chi2            1.5310
+_pd_proc_ls_prof_echi2           1.5435
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-y,-x,z
+-x,-x+y,z+1/2
+-x+y,y,z
+y,x,z+1/2
+x,x-y,z
+x-y,-y,z+1/2
+-x,-y,-z
+-x+y,-x,-z+1/2
+y,-x+y,-z
+x,y,-z+1/2
+x-y,x,-z
+-y,x-y,-z+1/2
+y,x,-z
+x,x-y,-z+1/2
+x-y,-y,-z
+-y,-x,-z+1/2
+-x,-x+y,-z
+-x+y,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+Ce1 0.33333 0.66666 0.25000 0.00744 1.00000 Uiso CE
+Ce2 0.33333 0.66666 0.04109 0.01562 1.00000 Uani CE
+Ni1 0.00000 0.00000 0.00000 0.02622 1.00000 Uani NI
+Ni2 0.00000 0.00000 0.25000 0.00135 1.00000 Uiso NI
+Ni3 0.33333 0.66666 0.75000 0.01272 1.00000 Uiso NI
+Ni4 0.83344 0.66687 0.12664 0.00711 1.00000 Uiso NI
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Ce2 0.02156 0.02156 0.00373 0.01078 0.00000 0.00000 CE
+Ni1 0.04679 0.04679 -0.01493 0.02339 0.00000 0.00000 NI
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+? ? ? ? ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+? ? ? ? ? ?
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?

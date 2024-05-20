@@ -1,0 +1,155 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:29:40 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179248 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/68/4316888.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4316888
+loop_
+_publ_author_name
+'Robert E. Dinnebier'
+'Daniela Freyer'
+'Sebastian Bette'
+'Melanie Oestreich'
+_publ_contact_author
+;
+      Dinnebier, Robert
+      Max-Planck Institute for Solid State Research
+      Heisenbergstrasse 1
+      D-70569 Stuttgart
+      Germany
+;
+_publ_contact_author_email       r.dinnebier@fkf.mpg.de
+_publ_contact_author_fax         '+49 711 689 1139'
+_publ_contact_author_phone       '+49 711 689 1503'
+_publ_section_title
+;
+ 9Mg(OH)2.MgCl2.4H2O, a High Temperature Phase of the Magnesia Binder
+ System
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              9770
+_journal_page_last               9776
+_journal_paper_doi               10.1021/ic1004566
+_journal_volume                  49
+_journal_year                    2010
+_chemical_formula_sum            'Cl2 H26 Mg10 O22'
+_chemical_formula_weight         692.192
+_chemical_name_common            'F9; 9-1-4; 9Mg(OH)2 1MgCl2 4H2O'
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_audit_creation_method           TOPAS
+_cell_angle_alpha                90
+_cell_angle_beta                 97.7533(12)
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   22.28316(32)
+_cell_length_b                   3.135010(42)
+_cell_length_c                   8.13157(17)
+_cell_measurement_temperature    293
+_cell_volume                     562.862(16)
+_diffrn_ambient_temperature      293
+_diffrn_detector
+; 
+ Lynx-Eye 
+;
+_diffrn_radiation_monochromator
+'Johannson Ge(111) primary beam monochromator'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           laboratory
+_diffrn_radiation_wavelength     1.54059
+_diffrn_source_type              Cu-tube
+_exptl_absorpt_process_details
+;   
+ ?
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.041
+_exptl_crystal_description       'microcrystalline powder'
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location
+; 
+'Bruker d8 Advance, Debye-Scherrer mode, MPI-FKF, Stuttgart, Germany'
+;
+_pd_meas_2theta_range_inc        0.009
+_pd_meas_2theta_range_max        125.0
+_pd_meas_2theta_range_min        6.0
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.009
+_pd_proc_2theta_range_max        125.0
+_pd_proc_2theta_range_min        6.0
+_pd_proc_info_data_reduction     binning
+_pd_proc_info_excluded_regions
+;
+ ?
+;
+_pd_proc_ls_background_function
+;   
+'Chebyshev polynomial'
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ Fundamental parameters
+;
+_pd_proc_ls_prof_R_factor        0.0289
+_pd_proc_ls_prof_wR_expected     0.0176
+_pd_proc_ls_prof_wR_factor       0.0370
+_pd_spec_mounting
+; 
+'0.5 mm glass capillary'
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_number_parameters     51
+_refine_ls_R_Fsqd_factor         0.0244
+_cod_data_source_file            ic1004566_si_001.cif
+_cod_data_source_block           F9
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to the built-in table from CIF Core dictionary named 'cif_core.dic'
+version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_database_code               4316888
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y, -z'
+'-x+1/2, -y+1/2, -z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x, -y, z'
+'x, y, z'
+'x+1/2, -y+1/2, z+1/2'
+'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Mg1 Mg 4 0.57416(13) 0.5 0.29408(26) 1 1.421(43)
+MG2 Mg 4 0.31016(13) 0 0.72658(37) 1 1.421(43)
+MG3 Mg 2 0.5 0 0 1 1.421(43)
+O4 O 4 0.84241(15) 0 0.09551(49) 1 0.842(45)
+O5 O 4 0.21870(20) 0 0.62434(53) 1 0.842(45)
+O6 O 4 0.51856(15) 0.5 0.83697(39) 1 0.842(45)
+O7 O 4 0.59386(16) 0 0.13000(42) 1 0.842(45)
+O8 O 4 0.94820(16) 0.5 0.04058(51) 1 0.842(45)
+Cl9 Cl 4 0.35245(16) 0 0.23228(42) 0.5425(26) 2.50(12)
+O10 O 4 0.66101(28) 0.5 0.75827(87) 0.5915(45) 2.50(12)

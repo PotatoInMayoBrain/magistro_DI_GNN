@@ -1,0 +1,258 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/51/17/4511758.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4511758
+loop_
+_publ_author_name
+'St\"oger, Berthold'
+'Du\<sek, Michal'
+_publ_section_title
+;
+ Complex Polymorphism and Polytypism of Potassium Metaarsenate, KAsO3
+;
+_journal_issue                   9
+_journal_name_full               'Crystal Growth &amp; Design'
+_journal_page_first              4640
+_journal_paper_doi               10.1021/cg500733w
+_journal_volume                  14
+_journal_year                    2014
+_chemical_formula_sum            'As K O3'
+_chemical_formula_weight         162
+_chemical_name_common            'potassium metaarsenate, gamma'
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           60
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      60
+_symmetry_space_group_name_Hall  '-P 2n 2ab'
+_symmetry_space_group_name_H-M   'P b c n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   11.32460(10)
+_cell_length_b                   11.4255(4)
+_cell_length_c                   4.8816(3)
+_cell_measurement_reflns_used    8336
+_cell_measurement_temperature    100
+_cell_measurement_theta_max      32.5
+_cell_measurement_theta_min      3.5
+_cell_volume                     631.63(5)
+_computing_cell_refinement       'SAINT-Plus (Bruker, 2012)'
+_computing_data_collection       'APEX2 (Bruker, 2012)'
+_computing_data_reduction        'SAINT-Plus (Bruker, 2012)'
+_computing_molecular_graphics    'ATOMS (Dowty, 2006)'
+_computing_structure_refinement  'JANA2006 (Pet\<r\'i\<cek, et al., 2006)'
+_computing_structure_solution    'SUPERFLIP (Palatinus & Chapuis, 2007)'
+_diffrn_ambient_temperature      100
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device       'four-cycle diffractometer'
+_diffrn_measurement_device_type  'Bruker KAPPA APEX II'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.037
+_diffrn_reflns_av_sigmaI/netI    0.0122
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            25021
+_diffrn_reflns_theta_full        32.59
+_diffrn_reflns_theta_max         32.59
+_diffrn_reflns_theta_min         2.53
+_exptl_absorpt_coefficient_mu    11.865
+_exptl_absorpt_correction_T_max  0.88
+_exptl_absorpt_correction_T_min  0.57
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            'clear colourless'
+_exptl_crystal_density_diffrn    3.4064
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             608
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.04
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         1.18
+_refine_diff_density_min         -1.19
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_gt    3.04
+_refine_ls_goodness_of_fit_ref   2.81
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     47
+_refine_ls_number_reflns         1163
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0332
+_refine_ls_R_factor_gt           0.0257
+_refine_ls_shift/su_max          0.0058
+_refine_ls_shift/su_mean         0.0009
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/(\s^2^(F)+0.0001F^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0441
+_refine_ls_wR_factor_ref         0.0445
+_reflns_number_gt                983
+_reflns_number_total             1163
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            cg500733w_si_001.cif
+_cod_data_source_block           gamma_kaso3_100K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+ Adding full bibliography for 4511752--4511758.cif.
+;
+_cod_original_formula_sum        'As1 K1 O3'
+_cod_database_code               4511758
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x+1/2,-y+1/2,z+1/2
+3 -x,y,-z+1/2
+4 x+1/2,-y+1/2,-z
+5 -x,-y,-z
+6 x+1/2,y+1/2,-z+1/2
+7 x,-y,z+1/2
+8 -x+1/2,y+1/2,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+As As 0.73037(3) 0.08868(3) 0.21997(7) Uani 0.00398(10) 8 1 d
+K1 K 0.5 0.18932(9) 0.75 Uani 0.0065(2) 4 1 d
+K2 K 0.5 0.39004(9) 0.25 Uani 0.0056(2) 4 1 d
+O1 O 0.8741(2) 0.1003(2) 0.2489(5) Uani 0.0067(6) 8 1 d
+O2 O 0.6389(2) 0.1946(2) 0.2891(5) Uani 0.0101(7) 8 1 d
+O3 O 0.6864(2) 0.0411(2) -0.1097(5) Uani 0.0067(6) 8 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As As 0.00414(18) 0.00451(18) 0.00328(17) 0.00063(12) -0.00032(10) -0.00033(11)
+K1 K 0.0061(4) 0.0068(4) 0.0065(4) 0 0.0012(3) 0
+K2 K 0.0063(4) 0.0056(4) 0.0049(4) 0 0.0008(3) 0
+O1 O 0.0044(10) 0.0084(11) 0.0072(10) 0.0007(9) 0.0025(8) 0.0014(9)
+O2 O 0.0127(13) 0.0082(11) 0.0093(12) 0.0066(10) -0.0008(9) -0.0003(9)
+O3 O 0.0067(11) 0.0093(11) 0.0042(10) 0.0019(9) -0.0035(8) -0.0020(9)
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+As 0.0499 2.0058 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+K 0.2009 0.2494 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+O 0.0106 0.0060 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O1 As O3 . . 112.47(11)
+O1 As O3 . 7_555 107.83(12)
+O1 As O2 . . 123.62(13)
+O3 As O3 . 7_555 95.21(11)
+O3 As O2 . . 103.76(12)
+O3 As O2 7_555 . 110.25(12)
+O1 K1 O1 2_655 4_456 61.36(8)
+O1 K1 O3 2_655 1_556 97.84(8)
+O1 K1 O3 2_655 3_655 155.10(8)
+O1 K1 O2 2_655 . 71.77(7)
+O1 K1 O2 2_655 3_656 105.96(8)
+O1 K1 O3 4_456 1_556 155.10(8)
+O1 K1 O3 4_456 3_655 97.84(8)
+O1 K1 O2 4_456 . 105.96(8)
+O1 K1 O2 4_456 3_656 71.77(7)
+O3 K1 O3 1_556 3_655 105.31(8)
+O3 K1 O2 1_556 . 77.36(7)
+O3 K1 O2 1_556 3_656 104.21(7)
+O3 K1 O2 3_655 . 104.21(7)
+O3 K1 O2 3_655 3_656 77.36(7)
+O2 K1 O2 . 3_656 177.49(9)
+O1 K2 O1 2_654 2_655 119.26(7)
+O1 K2 O1 2_654 4_455 60.54(7)
+O1 K2 O1 2_654 4_456 175.52(8)
+O1 K2 O1 2_654 6_455 103.01(7)
+O1 K2 O1 2_654 8_655 73.01(7)
+O1 K2 O2 2_654 . 78.63(7)
+O1 K2 O2 2_654 3_655 105.12(8)
+O1 K2 O1 2_655 4_455 175.51(8)
+O1 K2 O1 2_655 4_456 60.54(7)
+O1 K2 O1 2_655 6_455 102.85(7)
+O1 K2 O1 2_655 8_655 73.16(7)
+O1 K2 O2 2_655 . 71.44(7)
+O1 K2 O2 2_655 3_655 112.47(8)
+O1 K2 O1 4_455 4_456 119.26(7)
+O1 K2 O1 4_455 6_455 73.16(7)
+O1 K2 O1 4_455 8_655 102.85(7)
+O1 K2 O2 4_455 . 112.47(8)
+O1 K2 O2 4_455 3_655 71.44(7)
+O1 K2 O1 4_456 6_455 73.01(7)
+O1 K2 O1 4_456 8_655 103.01(7)
+O1 K2 O2 4_456 . 105.12(8)
+O1 K2 O2 4_456 3_655 78.63(7)
+O1 K2 O1 6_455 8_655 61.40(8)
+O1 K2 O2 6_455 . 173.93(8)
+O1 K2 O2 6_455 3_655 114.08(8)
+O1 K2 O2 8_655 . 114.08(8)
+O1 K2 O2 8_655 3_655 173.93(8)
+O2 K2 O2 . 3_655 70.72(8)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+As K1 1_554 3.6594(5)
+As O1 . 1.639(3)
+As O3 . 1.770(2)
+As O3 7_555 1.771(3)
+As O2 . 1.628(3)
+K1 O1 2_655 2.795(3)
+K1 O1 4_456 2.795(3)
+K1 O3 1_556 2.792(3)
+K1 O3 3_655 2.792(3)
+K1 O2 . 2.746(3)
+K1 O2 3_656 2.746(3)
+K2 O1 2_654 2.834(2)
+K2 O1 2_655 2.824(2)
+K2 O1 4_455 2.824(2)
+K2 O1 4_456 2.834(2)
+K2 O1 6_455 2.793(3)
+K2 O1 8_655 2.793(3)
+K2 O2 . 2.738(3)
+K2 O2 3_655 2.738(3)

@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/47/9004793.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004793
+loop_
+_publ_author_name
+'Christiansen, C. C.'
+'Johnsen, O.'
+'Makovicky, E.'
+_publ_section_title
+;
+ Crystal chemistry of the rosenbuschite group
+ Sample: WBC-13
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1203
+_journal_page_last               1224
+_journal_paper_doi               10.2113/gscanmin.41.5.1203
+_journal_volume                  41
+_journal_year                    2003
+_chemical_compound_source        'Werner Bjerge, East Greenland'
+_chemical_formula_sum
+'Ca4.91 Ce0.25 F3 Fe0.05 Mn0.11 Na1.59 Nb0.03 O15 Si4 Ti0.92 Y0.06 Zr0.09'
+_chemical_name_mineral           Gotzenite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                89.921
+_cell_angle_beta                 101.132
+_cell_angle_gamma                100.639
+_cell_formula_units_Z            1
+_cell_length_a                   9.6192
+_cell_length_b                   5.7249
+_cell_length_c                   7.3307
+_cell_volume                     389.044
+_database_code_amcsd             0005886
+_exptl_crystal_density_diffrn    3.188
+_cod_original_formula_sum
+'Ca4.91 Ce.25 Mn.11 Zr.09 Y.06 Na1.59 (Ti.92 Fe.05 Nb.03) Si4 O15 F3'
+_cod_database_code               9004793
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaM1 0.63094 0.22638 0.90950 0.81000 0.01100 Ca 0
+CeM1 0.63094 0.22638 0.90950 0.06500 0.01100 Ce 0
+MnM1 0.63094 0.22638 0.90950 0.05500 0.01100 Mn 0
+ZrM1 0.63094 0.22638 0.90950 0.04500 0.01100 Zr 0
+YM1 0.63094 0.22638 0.90950 0.03000 0.01100 Y 0
+CaM2 0.99344 0.49660 0.24160 0.61000 0.01860 Ca 0
+NaM2 0.99344 0.49660 0.24160 0.39000 0.01860 Na 0
+CaM3 0.63285 0.22740 0.40744 0.94000 0.01680 Ca 0
+CeM3 0.63285 0.22740 0.40744 0.06000 0.01680 Ce 0
+NaM4 0.00000 0.00000 0.50000 0.81000 0.01530 Na 0
+CaM4 0.00000 0.00000 0.50000 0.19000 0.01530 Ca 0
+TiM5 0.00000 0.00000 0.00000 0.92000 0.02430 Ti 0
+FeM5 0.00000 0.00000 0.00000 0.05000 0.02430 Fe 0
+NbM5 0.00000 0.00000 0.00000 0.03000 0.02430 Nb 0
+Si1 0.71688 0.75040 0.65190 1.00000 0.00910 Si 0
+Si2 0.72432 0.75510 0.21480 1.00000 0.00940 Si 0
+O1 0.75830 0.78600 0.44400 1.00000 0.02330 O 0
+O2 0.61520 0.94020 0.66880 1.00000 0.01450 O 0
+O3 0.61880 0.93630 0.14150 1.00000 0.01710 O 0
+O4 0.64360 0.47730 0.66700 1.00000 0.02380 O 0
+O5 0.66600 0.47900 0.16070 1.00000 0.02880 O 0
+O6 0.87570 0.81290 0.78550 1.00000 0.01700 O 0
+O7 0.88560 0.83550 0.17170 1.00000 0.01650 O 0
+OX8 0.88520 0.25920 0.96750 0.50000 0.02160 O 0
+FX8 0.88520 0.25920 0.96750 0.50000 0.02160 F 0
+F9 0.88560 0.30620 0.47590 1.00000 0.01870 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:16:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005886

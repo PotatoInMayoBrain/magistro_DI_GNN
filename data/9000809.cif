@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/08/9000809.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000809
+loop_
+_publ_author_name
+'Lee, J. H.'
+'Guggenheim, S.'
+_publ_section_title
+;
+ Single crystal X-ray refinement of pyrophyllite-1Tc
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              350
+_journal_page_last               357
+_journal_volume                  66
+_journal_year                    1981
+_chemical_formula_sum            'Al H O6 Si2'
+_chemical_name_mineral           Pyrophyllite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_cell_angle_alpha                91.18
+_cell_angle_beta                 100.46
+_cell_angle_gamma                89.64
+_cell_formula_units_Z            4
+_cell_length_a                   5.160
+_cell_length_b                   8.966
+_cell_length_c                   9.347
+_cell_volume                     425.157
+_database_code_amcsd             0000823
+_exptl_crystal_density_diffrn    2.815
+_cod_original_formula_sum        'Al Si2 O6 H'
+_cod_database_code               9000809
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Al 0.00691 0.00672 0.01275 -0.00115 0.00142 -0.00025
+Si1 0.00744 0.00651 0.01236 -0.00207 0.00142 0.00004
+Si2 0.00744 0.00659 0.01322 -0.00184 0.00213 -0.00033
+O1 0.01070 0.00936 0.01326 -0.00092 0.00047 -0.00042
+O2 0.00887 0.01058 0.01284 -0.00184 0.00142 -0.00083
+OH 0.01044 0.01181 0.01626 0.00115 0.00283 0.00209
+Ob1 0.01017 0.01099 0.01669 -0.00484 0.00142 0.00083
+Ob2 0.01474 0.00692 0.01669 -0.00184 0.00402 -0.00042
+Ob3 0.00796 0.01262 0.01797 0.00046 0.00165 -0.00292
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al 0.49950 0.16705 -0.00008 Al 0
+Si1 0.74490 -0.00303 0.29169 Si 0
+Si2 0.75950 0.32577 0.29230 Si 0
+O1 0.64950 0.00180 0.11550 O 0
+O2 0.73140 0.30790 0.11580 O 0
+O-H 0.22630 0.19270 0.10810 O 1
+Ob1 0.04980 0.38910 0.35890 O 0
+Ob2 0.72510 0.16370 0.35840 O 0
+Ob3 0.54520 0.44260 0.33250 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:39:21+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000823

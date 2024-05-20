@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/76/9007608.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007608
+loop_
+_publ_author_name
+'Hawthorne, F. C.'
+'Ferguson, R. B.'
+_publ_section_title
+;
+ Refinement of the crystal structure of krohnkite
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              1753
+_journal_page_last               1755
+_journal_paper_doi               10.1107/S0567740875006048
+_journal_volume                  31
+_journal_year                    1975
+_chemical_compound_source        'Chuquicamata, Chile'
+_chemical_formula_sum            'Cu H4 Na2 O10 S2'
+_chemical_name_mineral           Krohnkite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 108.32
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.807
+_cell_length_b                   12.656
+_cell_length_c                   5.517
+_cell_volume                     384.912
+_database_code_amcsd             0009535
+_exptl_crystal_density_diffrn    2.914
+_cod_original_cell_volume        384.913
+_cod_original_formula_sum        'Na2 Cu S2 O10 H4'
+_cod_database_code               9007608
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.02120 0.02012 0.02137 -0.00057 0.01258 -0.00091
+Cu 0.01145 0.01144 0.00988 0.00000 0.00073 0.00000
+S 0.00967 0.00966 0.00720 0.00014 0.00228 -0.00057
+O1 0.01338 0.01680 0.01573 0.00523 0.00395 0.00044
+O2 0.01544 0.01582 0.01063 0.00170 0.00366 0.00430
+O3 0.01315 0.01891 0.01308 0.00163 0.00271 -0.00665
+O4 0.01590 0.01534 0.01379 -0.00590 0.00459 0.00017
+Ow 0.01279 0.01201 0.01170 -0.00191 0.00230 -0.00030
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.57140 0.12470 0.20990 ? Na 0
+Cu 0.00000 0.00000 0.00000 ? Cu 0
+S 0.23750 0.11793 0.54450 ? S 0
+O1 0.00380 0.17250 0.48740 ? O 0
+O2 0.29110 0.05730 0.78440 ? O 0
+O3 0.23190 0.04250 0.33220 ? O 0
+O4 0.43850 0.19230 0.56170 ? O 0
+Ow 0.83150 0.13430 0.95130 ? O 0
+H1 0.92700 0.18400 0.99200 0.00633 H 0
+H2 0.71200 0.14000 0.79200 0.00633 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:42:11+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009535

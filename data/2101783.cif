@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/17/2101783.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101783
+loop_
+_publ_author_name
+'Marsh, R. E.'
+_publ_section_title
+;
+ The perils of <i>Cc</i> revisited
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              317
+_journal_page_last               322
+_journal_paper_doi               10.1107/S010876819601381X
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_moiety         'C12 H12 N2 Cl2 Pt'
+_chemical_formula_sum            'C12 H12 Cl2 N2 Pt'
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_creation_method           CSD-QUEST3D-V5
+_cell_angle_alpha                90
+_cell_angle_beta                 121.71(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   13.413(7)
+_cell_length_b                   9.063(4)
+_cell_length_c                   12.261(9)
+_cell_volume                     1268.0(15)
+_cod_data_source_file            an0533.cif
+_cod_data_source_block           CSD_CIF_MIF_PERDIZ01
+_cod_depositor_comments
+;
+
+  Added moiety chemical formula from Marsh (1997) paper. The summary
+  chemical formula is calculated from moiety formula using 'AdHocParser'
+  (svn://www.crystallography.net/cod-tools/trunk/Formulae/AdHocParser.yp,
+  revision 1441.)
+
+  Removing 8 atoms which were symmetric equivalents of the atoms from
+  the asymmetric unit.
+
+  Andrius Merkys
+  2013-11-06
+;
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               2101783
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y,1/2-z
+1/2+x,1/2+y,z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+x,-y,-1/2+z
+-1/2-x,-1/2-y,-z
+-1/2+x,-1/2-y,-1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+Pt1 .0 .29172 .25 Pt
+Cl1 -.0770 .1129 .0948 Cl
+N1 -.0651 .4616 .1262 N
+C1 -.1338 .4498 -.0046 C
+C2 -.1712 .5716 -.0826 C
+C3 -.1362 .7068 -.0264 C
+C4 -.0679 .7227 .1094 C
+C5 -.0346 .5978 .1814 C
+C6 -.2494 .5492 -.2266 C
+loop_
+_atom_type_symbol
+C
+Cl
+N
+Pt

@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/02/2010275.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010275
+loop_
+_publ_author_name
+'Sportouch, S.'
+'Belin, C.'
+'Tillard-Charbonnel, M.'
+_publ_section_title
+;
+ K~5~InTe~4~.KCl
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1861
+_journal_page_last               1862
+_journal_paper_doi               10.1107/S0108270194006141
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'Cl1 In1 K6 Te4'
+_chemical_formula_sum            'Cl In K6 Te4'
+_chemical_formula_weight         895.26
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_type_scat_source           'Cromer & Mann (1968)'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                120.
+_cell_formula_units_Z            2
+_cell_length_a                   11.288(7)
+_cell_length_b                   11.288(7)
+_cell_length_c                   8.013(2)
+_cell_measurement_reflns_used    21
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      20.8
+_cell_measurement_theta_min      6.8
+_cell_volume                     884.2(8)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  0.026
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1935
+_diffrn_reflns_theta_max         30
+_diffrn_standards_decay_%        <3
+_diffrn_standards_interval_count 60
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.504
+_exptl_absorpt_correction_T_max  0.732
+_exptl_absorpt_correction_T_min  0.425
+_exptl_absorpt_correction_type   'empirical (SHELX; Sheldrick, 1976)'
+_exptl_crystal_colour            'dark red'
+_exptl_crystal_density_diffrn    3.363
+_exptl_crystal_description       'thin plate'
+_exptl_crystal_size_max          0.28
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.03
+_refine_diff_density_max         0.58
+_refine_diff_density_min         -1.04
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   0.912
+_refine_ls_number_parameters     27
+_refine_ls_number_reflns         437
+_refine_ls_R_factor_obs          0.0181
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1.7761[\s^2^(F) + 0.00066F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0227
+_reflns_number_observed          1837
+_reflns_number_total             437
+_reflns_observed_criterion       I>3\s(I)
+_cod_data_source_file            du1081.cif
+_cod_data_source_block           du1081a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1.7761[\s^2^(F) +
+0.00066F^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1.7761[\s^2^(F) + 0.00066F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Cl1 In1 K6 Te4'
+_cod_database_code               2010275
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+In .33333 .66667 .20500 .0184(4)
+Te(1) .19953(2) .39906 .0985(2) .02120(10)
+Te(2) .33333 .66667 .5505(2) .0343(4)
+K(1) .12450(10) .2490 .5186(3) .0324(8)
+K(2) .52090(10) 1.0418 .3190(3) .0331(6)
+Cl .0 .0 .7768(5) .0260(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Te(1) In Te(1) 110.83(3) yes
+Te(1) In Te(2) 108.07(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+In Te(1) . . 2.7520(10) yes
+In Te(2) . . 2.768(2) yes
+K(1) Cl . . 3.110(3) yes
+K(1) Cl . . 3.194(3) yes
+K(1) Te(1) . . 3.472(2) yes
+K(1) Te(1) . . 3.673(3) yes
+K(1) Te(2) . . 4.092(2) yes
+K(2) Te(1) . . 3.539(2) yes
+K(2) Te(2) . . 3.571(2) yes
+K(2) Te(1) . . 3.718(2) yes
+K(2) Te(2) . . 4.110(2) yes
+Cl K(1) . . 3.110(3) yes
+Cl K(1) . . 3.194(3) yes

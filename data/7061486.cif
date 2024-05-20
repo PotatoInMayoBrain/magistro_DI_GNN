@@ -1,0 +1,382 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-07-06 11:23:14 +0300 (Wed, 06 Jul 2022) $
+#$Revision: 276651 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/06/14/7061486.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7061486
+loop_
+_publ_author_name
+'Kosone, Takashi'
+'Kosuge, Ryota'
+'Tanaka, Morie'
+'Kawasaki, Takeshi'
+'Adachi, Naoya'
+_publ_section_title
+;
+ New family of Hofmann-like coordination polymers constructed with
+ imidazole ligands and associated with spin crossover and anisotropic
+ thermal expansions
+;
+_journal_issue                   22
+_journal_name_full               'New Journal of Chemistry'
+_journal_page_first              10540
+_journal_page_last               10544
+_journal_paper_doi               10.1039/D2NJ00766E
+_journal_volume                  46
+_journal_year                    2022
+_chemical_formula_sum            'C12 H12 Fe N8 Ni'
+_chemical_formula_weight         382.86
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           12
+_space_group_name_Hall           '-C 2y'
+_space_group_name_H-M_alt        'C 1 2/m 1'
+_atom_sites_solution_hydrogens   geom
+_audit_update_record
+;
+2022-01-28 deposited with the CCDC.	2022-04-20 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 108.810(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   16.4065(17)
+_cell_length_b                   7.3671(8)
+_cell_length_c                   7.2016(7)
+_cell_measurement_reflns_used    1854
+_cell_measurement_temperature    296.(2)
+_cell_measurement_theta_max      29.0061
+_cell_measurement_theta_min      2.6230
+_cell_volume                     823.96(15)
+_computing_cell_refinement       'SAINT V8.38A (Bruker AXS Inc., 2017)'
+_computing_data_reduction        'SAINT V8.38A (Bruker AXS Inc., 2017)'
+_computing_structure_refinement  'SHELXL-2017/1 (Sheldrick, 2017)'
+_computing_structure_solution    'XT, VERSION 2014/5'
+_diffrn_ambient_temperature      296.(2)
+_diffrn_detector_area_resol_mean 8.3333
+_diffrn_measured_fraction_theta_full 0.917
+_diffrn_measured_fraction_theta_max 0.917
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_unetI/netI     0.0272
+_diffrn_reflns_limit_h_max       22
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1321
+_diffrn_reflns_theta_full        31.43
+_diffrn_reflns_theta_max         31.43
+_diffrn_reflns_theta_min         2.62
+_diffrn_source                   'fine-focus sealed tube'
+_exptl_absorpt_coefficient_mu    2.030
+_exptl_absorpt_correction_T_max  0.91
+_exptl_absorpt_correction_T_min  0.77
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+SADABS-2016/2 - Bruker AXS area detector scaling and absorption correction
+;
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    1.543
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             388
+_exptl_crystal_size_max          0.150
+_exptl_crystal_size_mid          0.150
+_exptl_crystal_size_min          0.050
+_refine_diff_density_max         0.549
+_refine_diff_density_min         -0.381
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.072
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     64
+_refine_ls_number_reflns         1321
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.072
+_refine_ls_R_factor_all          0.0359
+_refine_ls_R_factor_gt           0.0281
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0526P)^2^+0.1978P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0847
+_refine_ls_wR_factor_ref         0.0880
+_reflns_number_gt                1098
+_reflns_number_total             1321
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            d2nj00766e2.cif
+_cod_data_source_block           0302_Fe_1MeIm_Ni_300K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_exptl_absorpt_correction_type' value 'Multi-Scan' was
+changed to 'multi-scan' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+
+ Adding full bibliography for 7061486--7061487.cif.
+;
+_cod_database_code               7061486
+_shelx_res_file
+;
+
+TITL test2_a.res in C2/m
+    test3_hkl5.res
+    created by SHELXL-2017/1 at 19:06:01 on 02-Mar-2021
+CELL  0.71073  16.4065   7.3671   7.2016   90.000  108.810   90.000
+ZERR    2.000   0.0017   0.0008   0.0007    0.000    0.002    0.000
+LATT 7
+SYMM -X, Y, -Z
+SFAC C  H  Fe N  Ni
+UNIT 24  24  2  16  2
+L.S. 10
+ACTA
+BOND $H
+FMAP 2
+PLAN 20
+SIZE 0.05 0.15 0.15
+TEMP 23.000
+merg 0
+WGHT    0.052600    0.197800
+BASF   0.45440
+FVAR       0.64841
+FE1   3    0.500000    1.000000    0.500000    10.25000    0.03184    0.01396 =
+         0.01872    0.00000    0.01471    0.00000
+NI1   5    0.500000    0.500000    0.000000    10.25000    0.03351    0.01313 =
+         0.01605    0.00000    0.01321    0.00000
+N1    4    0.483231    0.791500    0.277394    11.00000    0.04851    0.02453 =
+         0.02958   -0.00415    0.02047   -0.00228
+N2    4    0.362619    1.000000    0.456344    10.50000    0.03539    0.02789 =
+         0.04134    0.00000    0.01817    0.00000
+N3    4    0.238988    1.000000    0.513698    10.50000    0.03577    0.04031 =
+         0.07548    0.00000    0.03105    0.00000
+C1    1    0.487489    0.680082    0.170972    11.00000    0.03625    0.02044 =
+         0.02250   -0.00063    0.01593   -0.00113
+C2    1    0.297877    1.000000    0.284019    10.50000    0.04354    0.09716 =
+         0.04101    0.00000    0.00982    0.00000
+AFIX  43
+H2    2    0.304492    1.000000    0.160531    10.50000   -1.20000
+AFIX   0
+C3    1    0.221438    1.000000    0.319620    10.50000    0.03808    0.10494 =
+         0.07419    0.00000    0.01035    0.00000
+AFIX  43
+H3    2    0.166969    1.000000    0.225952    10.50000   -1.20000
+AFIX   0
+C4    1    0.325535    1.000000    0.592868    10.50000    0.04267    0.04570 =
+         0.04799    0.00000    0.02346    0.00000
+AFIX  43
+H4    2    0.355111    1.000000    0.726881    10.50000   -1.20000
+AFIX   0
+C5    1    0.176780    1.000000    0.621169    10.50000    0.05669    0.07242 =
+         0.11793    0.00000    0.05906    0.00000
+AFIX  33
+H5A   2    0.207045    1.000000    0.759633    10.50000   -1.50000
+H5B   2    0.141283    1.106397    0.587117    10.50000   -1.50000
+H5C   2    0.141283    0.893603    0.587117    10.50000   -1.50000
+AFIX   0
+HKLF 5
+
+
+
+
+REM  test2_a.res in C2/m
+REM R1 =  0.0281 for    1098 Fo > 4sig(Fo)  and  0.0359 for all    1321 data
+REM     64 parameters refined using      0 restraints
+
+END
+
+WGHT      0.0526      0.1978
+
+REM Highest difference peak  0.549,  deepest hole -0.381,  1-sigma level  0.082
+Q1    1   0.3655  1.0000  0.5640  10.50000  0.05    0.55
+Q2    1   0.4491  1.0000  0.5173  10.50000  0.05    0.49
+Q3    1   0.1395  1.0000  0.9343  10.50000  0.05    0.39
+Q4    1   0.1515  1.0000  0.1062  10.50000  0.05    0.37
+Q5    1   0.5491  0.5000 -0.0145  10.50000  0.05    0.37
+Q6    1   0.3516  1.0000  0.3804  10.50000  0.05    0.36
+Q7    1   0.1789  1.0000  0.5789  10.50000  0.05    0.35
+Q8    1   0.2547  1.0000  0.2913  10.50000  0.05    0.33
+Q9    1   0.2704  1.0000  0.5981  10.50000  0.05    0.32
+Q10   1   0.1194  1.0000  0.5206  10.50000  0.05    0.28
+Q11   1   0.4631  1.0000  0.4116  10.50000  0.05    0.27
+Q12   1   0.2164  1.0000  0.5207  10.50000  0.05    0.27
+Q13   1   0.5108  0.6030  0.1373  11.00000  0.05    0.27
+Q14   1   0.3803  1.0674  0.4596  11.00000  0.05    0.26
+Q15   1   0.1334  1.0000  0.7469  10.50000  0.05    0.25
+Q16   1   0.4992  0.7782  0.1878  11.00000  0.05    0.25
+Q17   1   0.2478  1.0000  0.1861  10.50000  0.05    0.25
+Q18   1   0.4343  1.0000  0.6101  10.50000  0.05    0.25
+Q19   1   0.1241  1.0730  0.0318  11.00000  0.05    0.24
+Q20   1   0.1581  1.0000  0.3447  10.50000  0.05    0.24
+;
+_shelx_res_checksum              75109
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_refinement_flags_posn
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Fe Fe1 0.5 1.0 0.5 0.01993(17) Uani d T P S 1 . .
+Ni Ni1 0.5 0.5 0 0.01964(16) Uani d T P S 1 . .
+N N1 0.48323(14) 0.7915(3) 0.2774(3) 0.0323(4) Uani d . . . 1 . .
+N N2 0.36262(19) 1.0 0.4563(5) 0.0335(7) Uani d T P S 1 . .
+N N3 0.2390(2) 1.0 0.5137(6) 0.0474(9) Uani d T P S 1 . .
+C C1 0.48749(15) 0.6801(3) 0.1710(3) 0.0248(4) Uani d . . . 1 . .
+C C2 0.2979(3) 1.0 0.2840(6) 0.0615(14) Uani d T P S 1 . .
+H H2 0.304492 1.0 0.160531 0.074 Uiso calc U P R 1 . .
+C C3 0.2214(3) 1.0 0.3196(9) 0.0743(16) Uani d T P S 1 . .
+H H3 0.166969 1.0 0.225952 0.089 Uiso calc U P R 1 . .
+C C4 0.3255(3) 1.0 0.5929(6) 0.0433(9) Uani d T P S 1 . .
+H H4 0.355111 1.0 0.726881 0.052 Uiso calc U P R 1 . .
+C C5 0.1768(3) 1.0 0.6212(10) 0.0749(16) Uani d T P S 1 . .
+H H5A 0.207045 1.0 0.759633 0.112 Uiso calc U P R 1 . .
+H H5B 0.141283 1.106397 0.587117 0.112 Uiso calc U P R 0.5 . .
+H H5C 0.141283 0.893603 0.587117 0.112 Uiso calc U P R 0.5 . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe1 0.0318(3) 0.0140(3) 0.0187(3) 0 0.0147(2) 0
+Ni1 0.0335(3) 0.0131(2) 0.0160(2) 0 0.0132(2) 0
+N1 0.0485(11) 0.0245(9) 0.0296(9) -0.0023(9) 0.0205(8) -0.0041(7)
+N2 0.0354(16) 0.0279(15) 0.0413(15) 0 0.0182(13) 0
+N3 0.0358(17) 0.0403(19) 0.075(3) 0 0.0311(17) 0
+C1 0.0362(11) 0.0204(9) 0.0225(9) -0.0011(9) 0.0159(8) -0.0006(8)
+C2 0.044(2) 0.097(4) 0.041(2) 0 0.0098(19) 0
+C3 0.038(2) 0.105(5) 0.074(3) 0 0.010(2) 0
+C4 0.043(2) 0.046(2) 0.048(2) 0 0.0235(18) 0
+C5 0.057(3) 0.072(4) 0.118(5) 0 0.059(3) 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Fe Fe 0.3463 0.8444 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ni Ni 0.3393 1.1124 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+N1 Fe1 N1 5_676 6_575 90.02(10) ?
+N1 Fe1 N1 5_676 2_656 89.98(10) ?
+N1 Fe1 N1 6_575 2_656 180.0 ?
+N1 Fe1 N1 5_676 . 180.0 ?
+N1 Fe1 N1 6_575 . 89.98(10) ?
+N1 Fe1 N1 2_656 . 90.02(10) ?
+N1 Fe1 N2 5_676 . 89.17(8) ?
+N1 Fe1 N2 6_575 . 90.83(8) ?
+N1 Fe1 N2 2_656 . 89.17(8) ?
+N1 Fe1 N2 . . 90.84(8) ?
+N1 Fe1 N2 5_676 5_676 90.83(8) ?
+N1 Fe1 N2 6_575 5_676 89.17(8) ?
+N1 Fe1 N2 2_656 5_676 90.83(8) ?
+N1 Fe1 N2 . 5_676 89.16(8) ?
+N2 Fe1 N2 . 5_676 180.0 ?
+C1 Ni1 C1 . 5_665 180.0 ?
+C1 Ni1 C1 . 6_565 90.64(13) ?
+C1 Ni1 C1 5_665 6_565 89.36(13) ?
+C1 Ni1 C1 . 2_655 89.36(13) ?
+C1 Ni1 C1 5_665 2_655 90.64(13) ?
+C1 Ni1 C1 6_565 2_655 180.00(9) ?
+C1 N1 Fe1 . . 169.8(2) ?
+C4 N2 C2 . . 105.8(3) ?
+C4 N2 Fe1 . . 127.0(3) ?
+C2 N2 Fe1 . . 127.3(3) ?
+C3 N3 C4 . . 106.6(4) ?
+C3 N3 C5 . . 127.0(4) ?
+C4 N3 C5 . . 126.4(4) ?
+N1 C1 Ni1 . . 177.3(2) ?
+N2 C2 C3 . . 109.1(4) ?
+N2 C2 H2 . . 125.4 ?
+C3 C2 H2 . . 125.4 ?
+N3 C3 C2 . . 107.3(4) ?
+N3 C3 H3 . . 126.3 ?
+C2 C3 H3 . . 126.3 ?
+N2 C4 N3 . . 111.3(4) ?
+N2 C4 H4 . . 124.4 ?
+N3 C4 H4 . . 124.4 ?
+N3 C5 H5A . . 109.5 ?
+N3 C5 H5B . . 109.5 ?
+H5A C5 H5B . . 109.5 ?
+N3 C5 H5C . . 109.5 ?
+H5A C5 H5C . . 109.5 ?
+H5B C5 H5C . . 109.5 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Fe1 N1 5_676 2.173(2) ?
+Fe1 N1 6_575 2.173(2) ?
+Fe1 N1 2_656 2.173(2) ?
+Fe1 N1 . 2.173(2) ?
+Fe1 N2 . 2.173(3) ?
+Fe1 N2 5_676 2.173(3) ?
+Ni1 C1 . 1.866(2) ?
+Ni1 C1 5_665 1.866(2) ?
+Ni1 C1 6_565 1.866(2) ?
+Ni1 C1 2_655 1.866(2) ?
+N1 C1 . 1.140(3) ?
+N2 C4 . 1.312(5) ?
+N2 C2 . 1.348(5) ?
+N3 C3 . 1.333(6) ?
+N3 C4 . 1.349(5) ?
+N3 C5 . 1.466(5) ?
+C2 C3 . 1.359(7) ?
+C2 H2 . 0.93 ?
+C3 H3 . 0.93 ?
+C4 H4 . 0.93 ?
+C5 H5A . 0.96 ?
+C5 H5B . 0.96 ?
+C5 H5C . 0.96 ?

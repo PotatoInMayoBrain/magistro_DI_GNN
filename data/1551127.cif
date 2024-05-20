@@ -1,0 +1,654 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-05-24 12:00:09 +0300 (Fri, 24 May 2019) $
+#$Revision: 215485 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/11/1551127.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1551127
+loop_
+_publ_author_name
+'Anna Worthy'
+'Arnaud Grosjean'
+'Michael C. Pfrunder'
+'Yanan Xu'
+'Cheng Yan'
+'Grant Edwards'
+'Jack K. Clegg'
+'John C. McMurtrie'
+_publ_section_title
+;
+ Atomic resolution of structural changes in elastic crystals of copper(II)
+ acetylacetonate
+;
+_journal_name_full               'Nature Chemistry'
+_journal_page_first              65
+_journal_page_last               69
+_journal_paper_doi               10.1038/nchem.2848
+_journal_volume                  10
+_journal_year                    2018
+_chemical_formula_moiety         'C10 H14 Cu O4'
+_chemical_formula_sum            'C10 H14 Cu O4'
+_chemical_formula_weight         261.75
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yn'
+_space_group_name_H-M_alt        'P 1 21/n 1'
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_hydrogens   geom
+_cell_angle_alpha                90
+_cell_angle_beta                 92.07(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.301(2)
+_cell_length_b                   4.5940(9)
+_cell_length_c                   11.380(2)
+_cell_measurement_reflns_used    282
+_cell_measurement_temperature    100(2)
+_cell_measurement_theta_max      29.514
+_cell_measurement_theta_min      9.284
+_cell_volume                     538.18(18)
+_computing_cell_refinement       'XDS (Kabsch, 1993)'
+_computing_data_collection       'BluIce (McPhillips, 2002)'
+_computing_data_reduction        'XDS (Kabsch, 1993)'
+_computing_molecular_graphics    'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material  'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement  'ShelXL (Sheldrick, 2015)'
+_computing_structure_solution    'Known Structure'
+_diffrn_ambient_temperature      100(2)
+_diffrn_measured_fraction_theta_full 0.192
+_diffrn_measured_fraction_theta_max 0.188
+_diffrn_measurement_device_type  'ADSC Quantum 315r'
+_diffrn_measurement_method       'Phi Scan'
+_diffrn_radiation_monochromator  'Silicon Double Crystal'
+_diffrn_radiation_type           Synchrotron
+_diffrn_radiation_wavelength     0.7108
+_diffrn_reflns_av_unetI/netI     0.0217
+_diffrn_reflns_Laue_measured_fraction_full 0.192
+_diffrn_reflns_Laue_measured_fraction_max 0.188
+_diffrn_reflns_number            282
+_diffrn_reflns_point_group_measured_fraction_full 0.192
+_diffrn_reflns_point_group_measured_fraction_max 0.188
+_diffrn_reflns_theta_full        26.000
+_diffrn_reflns_theta_max         29.514
+_diffrn_reflns_theta_min         9.284
+_diffrn_source                   Synchrotron
+_exptl_absorpt_coefficient_mu    2.019
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'XDS (Kabsch, 1993)'
+_exptl_crystal_colour            'dark blue'
+_exptl_crystal_colour_lustre     .
+_exptl_crystal_colour_modifier   dark
+_exptl_crystal_colour_primary    blue
+_exptl_crystal_density_diffrn    1.615
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             270
+_exptl_crystal_size_max          1
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         0.371
+_refine_diff_density_min         -0.459
+_refine_diff_density_rms         0.064
+_refine_ls_extinction_coef       .
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.132
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_reflns         282
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.132
+_refine_ls_R_factor_all          0.0621
+_refine_ls_R_factor_gt           0.0554
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0693P)^2^+2.2546P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1373
+_refine_ls_wR_factor_ref         0.1448
+_reflns_Friedel_coverage         0.000
+_reflns_Friedel_fraction_full    .
+_reflns_Friedel_fraction_max     .
+_reflns_number_gt                247
+_reflns_number_total             282
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            nchem.2848-s5-l.cif
+_cod_data_source_block           l
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Multi-Scan' changed to
+'multi-scan' according to the built-in table from CIF Core dictionary
+named 'cif_core.dic' version 2.4.5 from 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6524 2018-11-02 12:15:13Z antanas 
+;
+_cod_original_cell_volume        538.18(19)
+_cod_database_code               1551127
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelx_estimated_absorpt_t_max   0.906
+_shelx_estimated_absorpt_t_min   0.237
+_olex2_refinement_description
+;
+1. Fixed Uiso
+ At 1.2 times of:
+  All C(H) groups
+ At 1.5 times of:
+  All C(H,H,H) groups
+2.a Aromatic/amide H refined with riding coordinates:
+ C3(H3)
+2.b Idealised Me refined as rotating group:
+ C1(H1A,H1B,H1C), C5(H5A,H5B,H5C)
+;
+_shelx_res_file
+;
+TITL 15 in P2(1)/n
+CELL 0.71073 10.301 4.594 11.38 90 92.068 90
+ZERR 2 0.00206 0.00092 0.00228 0 0.03 0
+LATT 1
+SYMM 0.5-X,0.5+Y,0.5-Z
+SFAC C H Cu O
+UNIT 20 28 2 8
+
+L.S. 50
+PLAN  25
+SIZE 0.05 0.05 1
+TEMP -173(2)
+LIST 1
+MORE -1
+BOND $H
+CONF
+fmap 2
+acta 52
+REM <olex2.extras>
+REM <HklSrc "%.\\l.hkl">
+REM </olex2.extras>
+
+WGHT    0.069300    2.254600
+FVAR       1.21715
+C1    1    0.182260   -0.066475    0.446355    11.00000    0.02254
+AFIX 137
+H1A   2    0.123207    0.069913    0.483554    11.00000   -1.50000
+H1B   2    0.196366   -0.236134    0.497435    11.00000   -1.50000
+H1C   2    0.143957   -0.129637    0.370503    11.00000   -1.50000
+AFIX   0
+C2    1    0.308798    0.080105    0.427468    11.00000    0.01672
+C3    1    0.390303   -0.032212    0.340135    11.00000    0.02170
+AFIX  43
+H3    2    0.360707   -0.197105    0.296493    11.00000   -1.20000
+AFIX   0
+C4    1    0.510635    0.084057    0.314549    11.00000    0.01632
+C5    1    0.586429   -0.055574    0.218068    11.00000    0.02169
+AFIX 137
+H5A   2    0.662661    0.063924    0.202298    11.00000   -1.50000
+H5B   2    0.531070   -0.070628    0.146465    11.00000   -1.50000
+H5C   2    0.614656   -0.250474    0.242938    11.00000   -1.50000
+AFIX   0
+O1    4    0.338227    0.293753    0.493926    11.00000    0.01921
+O2    4    0.566329    0.297791    0.367440    11.00000    0.01770
+CU1   3    0.500000    0.500000    0.500000    10.50000    0.01629
+HKLF 4
+
+REM  15 in P2(1)/n
+REM R1 =  0.0554 for     247 Fo > 4sig(Fo)  and  0.0621 for all     282 data
+REM     32 parameters refined using      0 restraints
+
+END
+
+WGHT      0.0689      2.2550
+
+REM Highest difference peak  0.371,  deepest hole -0.459,  1-sigma level  0.064
+Q1    1   0.5351  0.7036  0.5555  11.00000  0.05    0.37
+Q2    1   0.4105 -0.3600  0.4029  11.00000  0.05    0.29
+Q3    1   0.5000  0.0000  0.5000  10.50000  0.05    0.27
+Q4    1   0.5228  0.2204  0.5049  11.00000  0.05    0.25
+Q5    1   0.6006  0.4907  0.4522  11.00000  0.05    0.24
+Q6    1   0.4567 -0.0266  0.0565  11.00000  0.05    0.23
+Q7    1   0.4148  0.3635  0.3955  11.00000  0.05    0.22
+Q8    1   0.4714  0.5489  0.4667  11.00000  0.05    0.22
+Q9    1   0.1528 -0.5525  0.5008  11.00000  0.05    0.21
+Q10   1   0.2750 -0.0003  0.3442  11.00000  0.05    0.20
+Q11   1   0.5347  0.0698  0.1261  11.00000  0.05    0.20
+Q12   1   0.3169  0.5959  0.4823  11.00000  0.05    0.20
+Q13   1   0.5589 -0.0058  0.1996  11.00000  0.05    0.19
+Q14   1   0.4894  0.2394  0.5416  11.00000  0.05    0.19
+Q15   1   0.3118 -0.3358  0.3730  11.00000  0.05    0.19
+Q16   1   0.4989  0.5181  0.3957  11.00000  0.05    0.18
+Q17   1   0.5427  0.0410  0.0311  11.00000  0.05    0.17
+Q18   1   0.3742  0.2417  0.3541  11.00000  0.05    0.17
+Q19   1   0.1009 -0.3639  0.3648  11.00000  0.05    0.17
+Q20   1   0.6731 -0.1041  0.2664  11.00000  0.05    0.17
+Q21   1   0.3523 -0.2144  0.4467  11.00000  0.05    0.17
+Q22   1   0.1057  0.3294  0.4031  11.00000  0.05    0.16
+Q23   1   0.3243  0.0724  0.3774  11.00000  0.05    0.16
+Q24   1   0.4446 -0.1251  0.4123  11.00000  0.05    0.16
+Q25   1   0.2449 -0.4572  0.5730  11.00000  0.05    0.16
+;
+_shelx_res_checksum              84110
+_shelx_hkl_file
+;
+  -6  -1  10   43.33    1.52
+  -6  -1  11  582.50   12.03
+  -5  -1   7  714.60   14.51
+   4   1  -2 1287.00   25.91
+  -4  -1   5 1431.00   28.86
+  -4   1   4  249.10    5.08
+  -5   1   6 1871.00   37.83
+   5  -1  -2 2080.00   41.85
+  -6   1   8  118.10    2.64
+   6  -1  -2  189.40    3.89
+  -7   1  13   -0.70    3.03
+   7  -1  -2 1418.00   28.59
+   8  -1  -2  545.60   11.14
+   9  -1  -2 1764.00   35.68
+  10  -1  -2   24.45    1.27
+  11  -1  -2  861.00   17.57
+  13  -1  -1    3.70    2.27
+  14  -1  -1  560.60   11.85
+  12   2  -2   86.26    2.76
+  11   2  -2   -1.56    1.69
+  10   2  -2  382.90    7.93
+   7   2  -2   57.52    1.67
+   6   2  -2 1233.00   24.79
+  -6  -2  13   43.37    3.56
+   5   2  -2  252.90    5.19
+  -5  -2   8    2.50    1.62
+  -5  -2   9 1803.00   36.32
+  -5  -2  10  110.20    2.89
+  -5  -2  11  513.70   10.65
+   4   2  -2 5201.00  104.30
+  -4  -2   6 1151.00   23.17
+  -4  -2   7  243.80    5.08
+   3   2  -1 4569.00   91.60
+  -3  -2   5 1443.00   28.99
+   2   2  -1   64.06    1.50
+  -2  -2   3   29.00    0.90
+  -2  -2   4 1970.00   39.52
+  -1  -2   3 3640.00   72.95
+  -1   2   1 1666.00   33.45
+  -2   2   2 4246.00   85.09
+  -3   2   3 5723.00  114.70
+   3  -2   0  111.10    2.39
+  -4   2   5   16.57    0.95
+  -4   2   4 1489.00   29.96
+   4  -2  -1  575.40   11.61
+  -5   2   7  328.50    6.77
+  -5   2   6   17.63    1.07
+   5  -2  -1 1690.00   33.93
+  -6   2  11   25.10    2.52
+  -6   2  10  340.60    7.14
+  -6   2   9    4.61    1.47
+  -6   2   8  254.00    5.66
+   6  -2  -1    7.43    0.87
+   7  -2  -1 1093.00   22.00
+   8  -2  -1  123.80    2.89
+   9  -2  -1 1634.00   32.93
+  10  -2  -1  117.40    2.98
+  11  -2  -1  451.40    9.39
+  12  -2  -1   16.36    2.25
+  13  -2   0   35.89    2.68
+  12   3  -1   56.40    2.88
+  11   3  -1    3.22    2.21
+  10   3  -1  198.50    4.65
+  10   3  -2    2.88    1.96
+   9   3  -2  769.30   15.68
+   7   3  -1  195.40    4.65
+   7   3  -2  631.10   12.89
+   6   3  -1 1112.00   22.43
+   6   3  -2    2.11    1.13
+   5   3  -1  131.80    2.90
+   4   3  -1 2665.00   53.47
+  -4  -3   9  702.30   14.30
+  -4  -3  10  260.80    5.67
+  -4  -3  11  724.90   14.81
+  -4  -3  12   49.37    2.57
+  -4  -3  13  177.10    4.48
+   3   3   0 2136.00   42.86
+   3   3  -1    7.57    0.95
+  -3  -3   6  919.10   18.71
+  -3  -3   7   18.74    1.73
+  -3  -3   8  962.50   19.53
+  -3  -3   9    1.55    1.54
+   2   3   0   85.17    2.01
+  -2  -3   5 1744.00   35.04
+  -2  -3   6 1047.00   21.12
+  -2  -3   7  333.80    6.97
+   1   3   1  124.60    2.75
+   1   3   0  193.60    4.05
+  -1  -3   4 1628.00   32.70
+  -1  -3   5  427.70    8.73
+   0   3   2   15.05    1.13
+   0   3   1  195.30    4.12
+   0  -3   3 1484.00   29.81
+   0  -3   4   70.98    1.79
+  -1   3   2 1354.00   27.22
+   1  -3   2 1976.00   39.66
+   1  -3   3   61.94    1.65
+  -2   3   4    4.71    1.07
+  -2   3   3 2231.00   44.77
+   2  -3   1 1538.00   30.91
+   2  -3   2   40.96    1.30
+  -3   3   5   15.35    1.19
+  -3   3   4 2146.00   43.11
+   3  -3   1   -2.46    0.97
+   3  -3   2 1619.00   32.52
+  -4   3   7  838.60   17.06
+  -4   3   6  125.70    3.04
+  -4   3   5  809.80   16.40
+   4  -3   0   -1.57    1.16
+   4  -3   1 1210.00   24.35
+  -5   3  10  317.00    6.73
+  -5   3   9   93.07    2.58
+  -5   3   8  831.20   16.85
+  -5   3   7   21.98    1.60
+   5  -3   0 1887.00   37.89
+  -6   3  12    4.47    2.46
+  -6   3  11  135.50    3.59
+  -6   3  10    7.85    2.24
+   6  -3   1  359.90    7.52
+   7  -3   0 1080.00   21.83
+   8  -3   0  124.80    3.16
+   9  -3   0  731.30   14.89
+  10  -3   0  254.00    5.60
+  10  -3   1  661.70   13.58
+  11  -3   0  279.30    6.14
+  11  -3   1   10.80    2.14
+  12  -3   0   -6.65    2.55
+  12  -3   1  202.20    4.89
+  11   4   0    9.88    2.61
+  11   4  -1  306.80    7.43
+  10   4   0  137.70    3.75
+  10   4  -1   21.87    2.32
+   9   4   0    3.15    1.99
+   9   4  -1  432.10    9.05
+   8   4   0  366.20    7.74
+   8   4  -1  118.90    3.25
+   7   4   0    2.01    1.71
+   7   4  -1  464.10    9.61
+   6   4   0  330.40    6.89
+   6   4  -1   12.39    1.39
+   5   4   0  109.00    2.67
+   5   4  -1  389.90    8.24
+   4   4   1  176.70    3.87
+   4   4   0  301.00    6.29
+   3   4   1  566.40   11.52
+   3   4   0   62.94    1.88
+  -3  -4  10   31.97    2.65
+  -3  -4  11   58.22    2.59
+   2   4   2  758.70   15.34
+   2   4   1  196.50    4.22
+  -2  -4   8  623.50   12.79
+  -2  -4   9   25.47    1.89
+  -2  -4  10  159.90    3.85
+  -2  -4  11   24.61    2.17
+  -2  -4  12  164.10    4.22
+   1   4   3 1059.00   21.36
+   1   4   2  469.70    9.60
+   1   4   1 1198.00   24.12
+  -1  -4   6   69.96    2.12
+  -1  -4   7 1139.00   22.99
+  -1  -4   8   26.64    1.79
+  -1  -4   9  434.10    9.03
+  -1  -4  10   23.37    1.99
+  -1  -4  11  154.70    3.87
+   0   4   4  782.10   15.91
+   0   4   3   89.73    2.27
+   0   4   2  949.60   19.14
+   0  -4   5   51.10    1.92
+   0  -4   6 1041.00   21.04
+   0  -4   7   -0.22    1.78
+   0  -4   8  783.40   15.89
+  -1   4   5  452.70    9.28
+  -1   4   4  205.80    4.41
+  -1   4   3  691.90   14.01
+   1  -4   4   81.44    2.28
+   1  -4   5  776.50   15.74
+   1  -4   6   24.38    1.76
+   1  -4   7  775.70   15.82
+  -2   4   6  496.40   10.16
+  -2   4   5   60.85    1.88
+  -2   4   4  333.30    6.91
+   2  -4   3  642.20   13.07
+   2  -4   4  814.50   16.50
+   2  -4   5   27.30    1.69
+   2  -4   6  278.80    6.23
+  -3   4   8   24.98    1.74
+  -3   4   7  465.20    9.57
+  -3   4   6    3.67    1.39
+  -3   4   5  265.00    5.65
+   3  -4   3  742.10   15.06
+   3  -4   4    4.00    1.61
+   3  -4   5  292.60    6.21
+  -4   4  11   32.89    2.40
+  -4   4  10  124.30    3.32
+  -4   4   9    3.84    1.86
+  -4   4   8  408.70    8.49
+  -4   4   7   29.22    1.66
+   4  -4   2  785.50   15.93
+   4  -4   3   -1.14    1.61
+   4  -4   4  598.90   12.23
+  -5   4  11  172.50    4.33
+  -5   4  10   71.20    2.63
+   5  -4   2   17.35    1.82
+   5  -4   3  981.00   19.84
+   5  -4   4   62.59    2.31
+   6  -4   2 1141.00   23.04
+   6  -4   3   10.00    1.76
+   7  -4   1  660.40   13.57
+   7  -4   2    1.58    1.77
+   7  -4   3  710.90   14.47
+   8  -4   1   46.85    2.22
+   8  -4   3   10.39    1.91
+   9  -4   1  141.10    3.77
+   9  -4   2   -0.08    2.03
+   9  -4   3  120.00    3.27
+  10  -4   2   63.19    2.62
+  10  -4   3   12.81    2.26
+   8   5   2    2.24    2.13
+   8   5   1   35.52    2.31
+   7   5   2  147.10    3.73
+   7   5   1   16.97    2.04
+   6   5   3  336.60    7.28
+   6   5   2    1.11    1.86
+   6   5   1  675.40   13.76
+   5   5   3    1.06    1.55
+   5   5   2  609.90   12.46
+   5   5   1   93.84    2.58
+   4   5   3  213.30    4.71
+   4   5   2   13.82    1.62
+   4   5   1  766.30   15.54
+   3   5   4   93.99    2.51
+   3   5   3   -4.28    1.54
+   3   5   2  408.70    8.47
+   2   5   5  143.70    3.47
+   2   5   4    0.11    1.55
+   2   5   3  110.20    2.77
+   2   5   2   18.71    1.54
+   1   5   6  237.40    5.26
+   1   5   5    2.10    1.54
+   1   5   4  109.50    2.80
+   1   5   3   59.56    2.01
+   0   5   7  310.00    6.55
+   0   5   6   10.07    1.62
+   0   5   5  469.70    9.66
+   0   5   4   19.91    1.57
+   0  -5   9  280.10    6.28
+  -1   5   9   21.38    2.11
+  -1   5   8  237.30    5.23
+  -1   5   7   -1.82    1.82
+  -1   5   6  790.30   16.03
+  -1   5   5   19.88    1.71
+   1  -5   7    4.05    2.33
+   1  -5   8  403.90    8.48
+   1  -5   9    4.64    2.34
+  -2   5   9   85.85    2.82
+  -2   5   8    2.57    1.99
+  -2   5   7  368.60    7.75
+  -2   5   6  102.70    2.82
+   2  -5   6   10.44    2.08
+   2  -5   7  354.00    7.52
+   2  -5   8    7.22    2.10
+   2  -5   9  259.00    5.78
+  -3   5   9   -3.97    2.18
+  -3   5   8   46.97    2.28
+   3  -5   6  215.80    4.88
+   3  -5   7    2.68    1.94
+   3  -5   8  119.80    3.34
+   3  -5   9    2.79    2.37
+   4  -5   5  199.60    4.58
+   4  -5   6    1.04    2.13
+   4  -5   7   78.90    2.66
+   4  -5   8   38.29    2.37
+   5  -5   4  368.60    7.93
+   5  -5   5    3.07    2.00
+   5  -5   6  253.80    5.61
+   5  -5   7    9.44    2.24
+   6  -5   4   22.28    2.06
+   6  -5   5  379.00    7.98
+   6  -5   6   16.43    2.24
+   7  -5   4  261.50    5.81
+   7  -5   5    1.91    2.29
+   3   6   4    3.60    2.27
+   0   0   0    0.00    0.00
+;
+_shelx_hkl_checksum              83479
+_olex2_submission_special_instructions 'No special instructions were received'
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+C1 C 0.1823(10) -0.0665(16) 0.4464(11) 0.0225(16) Uiso 1 1 d . . . . .
+H1A H 0.1232 0.0699 0.4836 0.034 Uiso 1 1 calc GR . . . .
+H1B H 0.1964 -0.2361 0.4974 0.034 Uiso 1 1 calc GR . . . .
+H1C H 0.1440 -0.1296 0.3705 0.034 Uiso 1 1 calc GR . . . .
+C2 C 0.3088(10) 0.0801(14) 0.4275(10) 0.0167(14) Uiso 1 1 d . . . . .
+C3 C 0.3903(11) -0.0322(14) 0.3401(11) 0.0217(16) Uiso 1 1 d . . . . .
+H3 H 0.3607 -0.1971 0.2965 0.026 Uiso 1 1 calc R . . . .
+C4 C 0.5106(9) 0.0841(13) 0.3145(10) 0.0163(14) Uiso 1 1 d . . . . .
+C5 C 0.5864(11) -0.0556(15) 0.2181(11) 0.0217(15) Uiso 1 1 d . . . . .
+H5A H 0.6627 0.0639 0.2023 0.033 Uiso 1 1 calc GR . . . .
+H5B H 0.5311 -0.0706 0.1465 0.033 Uiso 1 1 calc GR . . . .
+H5C H 0.6147 -0.2505 0.2429 0.033 Uiso 1 1 calc GR . . . .
+O1 O 0.3382(8) 0.2938(10) 0.4939(8) 0.0192(12) Uiso 1 1 d . . . . .
+O2 O 0.5663(7) 0.2978(10) 0.3674(8) 0.0177(12) Uiso 1 1 d . . . . .
+Cu1 Cu 0.5000 0.5000 0.5000 0.0163(5) Uiso 1 2 d S T P . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+H1A C1 H1B 109.5 . .
+H1A C1 H1C 109.5 . .
+H1B C1 H1C 109.5 . .
+C2 C1 H1A 109.5 . .
+C2 C1 H1B 109.5 . .
+C2 C1 H1C 109.5 . .
+C3 C2 C1 118.6(8) . .
+O1 C2 C1 117.1(8) . .
+O1 C2 C3 124.3(8) . .
+C2 C3 H3 117.9 . .
+C4 C3 C2 124.1(8) . .
+C4 C3 H3 117.9 . .
+C3 C4 C5 118.5(8) . .
+O2 C4 C3 125.8(8) . .
+O2 C4 C5 115.7(8) . .
+C4 C5 H5A 109.5 . .
+C4 C5 H5B 109.5 . .
+C4 C5 H5C 109.5 . .
+H5A C5 H5B 109.5 . .
+H5A C5 H5C 109.5 . .
+H5B C5 H5C 109.5 . .
+C2 O1 Cu1 126.3(6) . .
+C4 O2 Cu1 125.2(5) . .
+O1 Cu1 O1 180.0 3_666 .
+O1 Cu1 O2 86.2(3) 3_666 .
+O1 Cu1 O2 93.8(3) 3_666 3_666
+O1 Cu1 O2 93.8(3) . .
+O1 Cu1 O2 86.2(3) . 3_666
+O2 Cu1 O2 180.0 3_666 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+C1 H1A 0.9800 .
+C1 H1B 0.9800 .
+C1 H1C 0.9800 .
+C1 C2 1.490(13) .
+C2 C3 1.421(13) .
+C2 O1 1.269(10) .
+C3 H3 0.9500 .
+C3 C4 1.390(13) .
+C4 C5 1.513(13) .
+C4 O2 1.277(10) .
+C5 H5A 0.9800 .
+C5 H5B 0.9800 .
+C5 H5C 0.9800 .
+O1 Cu1 1.916(7) .
+O2 Cu1 1.918(7) .
+Cu1 O1 1.916(7) 3_666
+Cu1 O2 1.918(7) 3_666
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+C1 C2 C3 C4 -179.7(11) . . . .
+C1 C2 O1 Cu1 173.8(8) . . . .
+C2 C3 C4 C5 -179.2(10) . . . .
+C2 C3 C4 O2 2.6(17) . . . .
+C3 C2 O1 Cu1 -3.9(13) . . . .
+C3 C4 O2 Cu1 2.8(13) . . . .
+C5 C4 O2 Cu1 -175.4(8) . . . .
+O1 C2 C3 C4 -2.0(17) . . . .

@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/11/9011124.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011124
+loop_
+_publ_author_name
+'Taylor, J. C.'
+'Sabine, T. M.'
+_publ_section_title
+;Isotope and bonding effects in ammonium oxalate monohydrate, determined by
+ the combined use of neutron and X-ray diffraction analyses Locality:
+ synthetic Sample: NOX(XR)
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              3340
+_journal_page_last               3351
+_journal_paper_doi               10.1107/S0567740872007927
+_journal_volume                  28
+_journal_year                    1972
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'C2 H10 N2 O5'
+_chemical_name_mineral           Oxammite
+_space_group_IT_number           18
+_symmetry_space_group_name_Hall  'P 2 2ab'
+_symmetry_space_group_name_H-M   'P 21 21 2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   8.025
+_cell_length_b                   10.300
+_cell_length_c                   3.799
+_cell_volume                     314.016
+_cell_formula_units_Z            2
+_database_code_amcsd             0009459
+_exptl_crystal_density_diffrn    1.503
+_cod_original_formula_sum        'N2 H10 C2 O5'
+_cod_database_code               9011124
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,1/2+y,-z
+1/2+x,1/2-y,-z
+-x,-y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N 0.02610 0.02257 0.02756 -0.00419 0.00015 -0.00040
+C 0.01860 0.02150 0.01967 -0.00335 -0.00108 0.00000
+O1 0.01958 0.02526 0.04650 0.00167 -0.00031 0.01031
+O2 0.02349 0.02096 0.04380 -0.00628 -0.00680 0.00912
+Ow 0.02153 0.03117 0.03860 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+N 0.38690 0.22620 0.42530 ? N 0
+H1 0.47490 0.26570 0.29020 0.05066 H 0
+H2 0.42480 0.15190 0.54250 0.05066 H 0
+H3 0.29120 0.20070 0.28820 0.05066 H 0
+H4 0.35530 0.29350 0.58100 0.05066 H 0
+C 0.09270 0.02440 0.07020 ? C 0
+O1 0.20170 -0.05870 0.14100 ? O 0
+O2 0.11820 0.14080 0.00150 ? O 0
+Ow 0.00000 0.50000 0.18600 ? O 0
+Hw 0.08410 0.48290 0.04670 0.05066 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:25:33+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009459

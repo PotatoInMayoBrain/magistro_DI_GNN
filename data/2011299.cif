@@ -1,0 +1,788 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/12/2011299.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2011299
+loop_
+_publ_author_name
+'Huang, Fu Qiang'
+'Ibers, James A.'
+_publ_section_title
+;
+ Rb~3~Ti~3~Te~11~
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1059
+_journal_page_last               1061
+_journal_paper_doi               10.1107/S0108270100009367
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'Rb3 Te11 Ti3'
+_chemical_formula_weight         1803.71
+_chemical_name_systematic        'rubidium titanium polytelluride'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 92.9540(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   10.5757(6)
+_cell_length_b                   15.0449(8)
+_cell_length_c                   14.7710(8)
+_cell_measurement_reflns_used    14466
+_cell_measurement_temperature    153(2)
+_cell_measurement_theta_max      28.00
+_cell_measurement_theta_min      1.93
+_cell_volume                     2347.1(2)
+_computing_cell_refinement       SMART
+_computing_data_collection       'SMART (Bruker, 2000)'
+_computing_data_reduction        'SAINT-Plus (Bruker, 2000)'
+_computing_molecular_graphics    'SHELXTL97 (Sheldrick, 1997)'
+_computing_publication_material  SHELXTL97
+_computing_structure_refinement  'SHELXL97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      153(2)
+_diffrn_measured_fraction_theta_full .956
+_diffrn_measured_fraction_theta_max .956
+_diffrn_measurement_device_type  'Bruker Smart 1000 CDD'
+_diffrn_measurement_method       \w
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'standard-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .0330
+_diffrn_reflns_av_sigmaI/netI    .0287
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -19
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            14466
+_diffrn_reflns_theta_full        28.00
+_diffrn_reflns_theta_max         28.00
+_diffrn_reflns_theta_min         1.93
+_diffrn_standards_decay_%        <2
+_exptl_absorpt_coefficient_mu    20.560
+_exptl_absorpt_correction_T_max  .511
+_exptl_absorpt_correction_T_min  .321
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'face indexed'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    5.104
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             2996
+_exptl_crystal_size_max          .150
+_exptl_crystal_size_mid          .022
+_exptl_crystal_size_min          .017
+_refine_diff_density_max         2.331
+_refine_diff_density_min         -1.889
+_refine_ls_extinction_coef       none
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.037
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     154
+_refine_ls_number_reflns         5422
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.037
+_refine_ls_R_factor_all          .0359
+_refine_ls_R_factor_gt           .0281
+_refine_ls_shift/su_max          .001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+; calc
+ w = 1/[1.00000+(0.0400F~o~^2^)^2^]
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .0658
+_reflns_number_gt                4676
+_reflns_number_total             5422
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            br1300.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_original_formula_sum        'Rb3 Ti3 Te11'
+_cod_database_code               2011299
+_cod_database_fobs_code          2011299
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+Rb1 .22720(6) .88028(4) .94126(5) .02286(14) Uani d . 1 . . Rb
+Rb2 .07671(6) .02884(4) .64715(4) .02243(14) Uani d . 1 . . Rb
+Rb3 .04867(6) .60968(4) .12268(4) .01974(13) Uani d . 1 . . Rb
+Ti1 .03002(10) .69799(7) .68106(7) .0118(2) Uani d . 1 . . Ti
+Ti2 .27666(10) .81231(7) .32332(7) .0123(2) Uani d . 1 . . Ti
+Ti3 .17981(10) .78428(7) .52232(7) .0127(2) Uani d . 1 . . Ti
+Te1 .23853(4) .94033(3) .45499(3) .01429(9) Uani d . 1 . . Te
+Te2 .24997(4) .79162(3) .69629(3) .01615(9) Uani d . 1 . . Te
+Te3 .40782(4) .69432(3) .05058(3) .01407(9) Uani d . 1 . . Te
+Te4 .89663(4) .79841(3) .95807(3) .01462(9) Uani d . 1 . . Te
+Te5 .36933(4) .03077(3) .77632(3) .01612(9) Uani d . 1 . . Te
+Te6 .39242(4) .10429(3) .97551(3) .01427(9) Uani d . 1 . . Te
+Te7 .87760(4) .84099(3) .73503(3) .01444(9) Uani d . 1 . . Te
+Te8 .09577(4) .84976(3) .18370(3) .01563(9) Uani d . 1 . . Te
+Te9 .33057(4) .93481(2) .18890(3) .01362(9) Uani d . 1 . . Te
+Te10 .04068(4) .66280(3) .87110(3) .01487(9) Uani d . 1 . . Te
+Te11 .55349(4) .78566(3) .86679(3) .01403(9) Uani d . 1 . . Te
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Rb1 .0214(3) .0248(3) .0226(3) -.0057(3) .0034(3) .0022(3)
+Rb2 .0167(3) .0306(3) .0201(3) .0057(2) .0013(3) -.0013(3)
+Rb3 .0181(3) .0203(3) .0210(3) .0023(2) .0035(2) .0003(2)
+Ti1 .0094(5) .0133(5) .0127(5) .0007(4) .0015(4) .0010(4)
+Ti2 .0105(5) .0145(5) .0120(5) .0003(4) .0014(4) .0009(4)
+Ti3 .0113(5) .0147(5) .0123(5) -.0014(4) .0017(4) .0011(4)
+Te1 .01440(18) .01335(19) .0154(2) -.00060(14) .00392(16) -.00033(15)
+Te2 .01317(18) .0223(2) .01300(19) -.00609(15) .00099(16) -.00067(16)
+Te3 .01136(18) .01655(19) .0144(2) -.00159(14) .00132(15) -.00214(15)
+Te4 .01220(18) .0181(2) .0137(2) -.00330(15) .00256(15) -.00246(15)
+Te5 .01535(19) .0160(2) .0172(2) -.00479(15) .00231(16) -.00160(15)
+Te6 .01431(19) .01284(19) .0160(2) .00060(14) .00413(16) .00135(15)
+Te7 .01282(18) .01384(19) .0171(2) .00020(14) .00478(16) -.00030(15)
+Te8 .01201(18) .0203(2) .0145(2) .00017(15) -.00062(15) .00057(16)
+Te9 .01337(18) .01392(19) .01378(19) .00110(14) .00270(15) .00087(14)
+Te10 .01063(18) .0207(2) .01330(19) -.00037(15) .00075(15) .00300(15)
+Te11 .01170(18) .0183(2) .01216(19) .00237(14) .00094(15) .00062(15)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ti Ti .2776 .4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Rb Rb -.9393 2.9676 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Te Te -.5308 1.6751 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+Te5 Rb1 Te3 1_565 1_556 122.03(2)
+Te5 Rb1 Te4 1_565 1_455 131.31(2)
+Te3 Rb1 Te4 1_556 1_455 100.689(18)
+Te5 Rb1 Te6 1_565 1_565 49.355(12)
+Te3 Rb1 Te6 1_556 1_565 112.714(19)
+Te4 Rb1 Te6 1_455 1_565 135.02(2)
+Te5 Rb1 Te9 1_565 1_556 112.944(18)
+Te3 Rb1 Te9 1_556 1_556 68.454(14)
+Te4 Rb1 Te9 1_455 1_556 103.204(18)
+Te6 Rb1 Te9 1_565 1_556 65.202(13)
+Te5 Rb1 Te2 1_565 . 63.197(14)
+Te3 Rb1 Te2 1_556 . 95.246(18)
+Te4 Rb1 Te2 1_455 . 92.985(17)
+Te6 Rb1 Te2 1_565 . 112.180(18)
+Te9 Rb1 Te2 1_556 . 158.70(2)
+Te5 Rb1 Te10 1_565 . 123.42(2)
+Te3 Rb1 Te10 1_556 . 74.174(15)
+Te4 Rb1 Te10 1_455 . 44.189(11)
+Te6 Rb1 Te10 1_565 . 171.67(2)
+Te9 Rb1 Te10 1_556 . 122.788(19)
+Te2 Rb1 Te10 . . 61.443(13)
+Te5 Rb1 Te8 1_565 1_556 147.67(2)
+Te3 Rb1 Te8 1_556 1_556 73.381(15)
+Te4 Rb1 Te8 1_455 1_556 61.589(13)
+Te6 Rb1 Te8 1_565 1_556 99.388(17)
+Te9 Rb1 Te8 1_556 1_556 41.993(11)
+Te2 Rb1 Te8 . 1_556 148.37(2)
+Te10 Rb1 Te8 . 1_556 86.952(15)
+Te5 Rb1 Te11 1_565 . 69.276(14)
+Te3 Rb1 Te11 1_556 . 53.886(13)
+Te4 Rb1 Te11 1_455 . 137.47(2)
+Te6 Rb1 Te11 1_565 . 87.394(15)
+Te9 Rb1 Te11 1_556 . 97.601(17)
+Te2 Rb1 Te11 . . 61.164(13)
+Te10 Rb1 Te11 . . 93.465(17)
+Te8 Rb1 Te11 1_556 . 124.564(19)
+Te5 Rb1 Te6 1_565 3_667 74.962(14)
+Te3 Rb1 Te6 1_556 3_667 56.224(12)
+Te4 Rb1 Te6 1_455 3_667 153.72(2)
+Te6 Rb1 Te6 1_565 3_667 58.774(13)
+Te9 Rb1 Te6 1_556 3_667 58.914(12)
+Te2 Rb1 Te6 . 3_667 100.942(17)
+Te10 Rb1 Te6 . 3_667 126.147(19)
+Te8 Rb1 Te6 1_556 3_667 96.857(16)
+Te11 Rb1 Te6 . 3_667 41.754(11)
+Te5 Rb1 Rb2 1_565 1_565 44.460(12)
+Te3 Rb1 Rb2 1_556 1_565 146.87(2)
+Te4 Rb1 Rb2 1_455 1_565 87.055(16)
+Te6 Rb1 Rb2 1_565 1_565 81.121(15)
+Te9 Rb1 Rb2 1_556 1_565 141.377(19)
+Te2 Rb1 Rb2 . 1_565 51.931(13)
+Te10 Rb1 Rb2 . 1_565 90.569(16)
+Te8 Rb1 Rb2 1_556 1_565 136.182(19)
+Te11 Rb1 Rb2 . 1_565 99.254(16)
+Te6 Rb1 Rb2 3_667 1_565 119.064(16)
+Te5 Rb1 Rb3 1_565 1_556 167.00(2)
+Te3 Rb1 Rb3 1_556 1_556 52.183(12)
+Te4 Rb1 Rb3 1_455 1_556 49.439(12)
+Te6 Rb1 Rb3 1_565 1_556 141.913(19)
+Te9 Rb1 Rb3 1_556 1_556 76.909(14)
+Te2 Rb1 Rb3 . 1_556 104.460(16)
+Te10 Rb1 Rb3 . 1_556 45.896(11)
+Te8 Rb1 Rb3 1_556 1_556 45.192(11)
+Te11 Rb1 Rb3 . 1_556 101.796(16)
+Te6 Rb1 Rb3 3_667 1_556 105.033(16)
+Rb2 Rb1 Rb3 1_565 1_556 132.127(17)
+Te5 Rb2 Te1 . 3_566 169.08(2)
+Te5 Rb2 Te1 . 1_545 89.440(17)
+Te1 Rb2 Te1 3_566 1_545 100.478(18)
+Te5 Rb2 Te8 . 3_566 94.612(18)
+Te1 Rb2 Te8 3_566 3_566 74.900(15)
+Te1 Rb2 Te8 1_545 3_566 170.46(2)
+Te5 Rb2 Te7 . 1_445 107.818(19)
+Te1 Rb2 Te7 3_566 1_445 73.879(15)
+Te1 Rb2 Te7 1_545 1_445 106.605(19)
+Te8 Rb2 Te7 3_566 1_445 80.390(16)
+Te5 Rb2 Te3 . 2_545 109.427(19)
+Te1 Rb2 Te3 3_566 2_545 71.023(14)
+Te1 Rb2 Te3 1_545 2_545 66.727(14)
+Te8 Rb2 Te3 3_566 2_545 103.747(18)
+Te7 Rb2 Te3 1_445 2_545 141.99(2)
+Te5 Rb2 Te3 . 4_566 123.722(19)
+Te1 Rb2 Te3 3_566 4_566 64.977(14)
+Te1 Rb2 Te3 1_545 4_566 68.707(14)
+Te8 Rb2 Te3 3_566 4_566 115.492(18)
+Te7 Rb2 Te3 1_445 4_566 41.973(11)
+Te3 Rb2 Te3 2_545 4_566 107.810(17)
+Te5 Rb2 Te2 . 1_545 62.505(13)
+Te1 Rb2 Te2 3_566 1_545 125.80(2)
+Te1 Rb2 Te2 1_545 1_545 65.919(14)
+Te8 Rb2 Te2 3_566 1_545 123.589(19)
+Te7 Rb2 Te2 1_445 1_545 62.436(14)
+Te3 Rb2 Te2 2_545 1_545 131.916(19)
+Te3 Rb2 Te2 4_566 1_545 61.220(13)
+Te5 Rb2 Te11 . 2_546 107.469(18)
+Te1 Rb2 Te11 3_566 2_546 63.813(13)
+Te1 Rb2 Te11 1_545 2_546 118.375(19)
+Te8 Rb2 Te11 3_566 2_546 52.131(12)
+Te7 Rb2 Te11 1_445 2_546 121.867(18)
+Te3 Rb2 Te11 2_545 2_546 51.679(12)
+Te3 Rb2 Te11 4_566 2_546 128.709(18)
+Te2 Rb2 Te11 1_545 2_546 169.69(2)
+Te5 Rb2 Ti3 . 1_545 90.24(2)
+Te1 Rb2 Ti3 3_566 1_545 100.38(2)
+Te1 Rb2 Ti3 1_545 1_545 37.790(17)
+Te8 Rb2 Ti3 3_566 1_545 150.50(2)
+Te7 Rb2 Ti3 1_445 1_545 70.445(19)
+Te3 Rb2 Ti3 2_545 1_545 101.97(2)
+Te3 Rb2 Ti3 4_566 1_545 41.373(17)
+Te2 Rb2 Ti3 1_545 1_545 36.777(17)
+Te11 Rb2 Ti3 2_546 1_545 151.61(2)
+Te5 Rb2 Rb2 . 3_556 139.24(2)
+Te1 Rb2 Rb2 3_566 3_556 50.463(14)
+Te1 Rb2 Rb2 1_545 3_556 50.015(14)
+Te8 Rb2 Rb2 3_566 3_556 124.78(2)
+Te7 Rb2 Rb2 1_445 3_556 90.44(2)
+Te3 Rb2 Rb2 2_545 3_556 55.717(15)
+Te3 Rb2 Rb2 4_566 3_556 52.093(14)
+Te2 Rb2 Rb2 1_545 3_556 97.80(2)
+Te11 Rb2 Rb2 2_546 3_556 91.654(19)
+Ti3 Rb2 Rb2 1_545 3_556 61.36(2)
+Te5 Rb2 Rb1 . 1_545 46.889(12)
+Te1 Rb2 Rb1 3_566 1_545 130.989(19)
+Te1 Rb2 Rb1 1_545 1_545 111.556(17)
+Te8 Rb2 Rb1 3_566 1_545 77.309(15)
+Te7 Rb2 Rb1 1_445 1_545 62.189(13)
+Te3 Rb2 Rb1 2_545 1_545 155.812(19)
+Te3 Rb2 Rb1 4_566 1_545 92.858(16)
+Te2 Rb2 Rb1 1_545 1_545 48.719(12)
+Te11 Rb2 Rb1 2_546 1_545 123.228(18)
+Ti3 Rb2 Rb1 1_545 1_545 85.09(2)
+Rb2 Rb2 Rb1 3_556 1_545 143.06(2)
+Te1 Rb3 Te5 2_545 4_565 97.997(17)
+Te1 Rb3 Te2 2_545 4_575 158.05(2)
+Te5 Rb3 Te2 4_565 4_575 64.946(14)
+Te1 Rb3 Te8 2_545 . 132.55(2)
+Te5 Rb3 Te8 4_565 . 117.984(19)
+Te2 Rb3 Te8 4_575 . 69.391(14)
+Te1 Rb3 Te10 2_545 1_554 79.693(15)
+Te5 Rb3 Te10 4_565 1_554 137.31(2)
+Te2 Rb3 Te10 4_575 1_554 103.094(17)
+Te8 Rb3 Te10 . 1_554 91.631(17)
+Te1 Rb3 Te7 2_545 4_575 73.136(15)
+Te5 Rb3 Te7 4_565 4_575 109.062(18)
+Te2 Rb3 Te7 4_575 4_575 124.175(19)
+Te8 Rb3 Te7 . 4_575 66.713(14)
+Te10 Rb3 Te7 1_554 4_575 110.817(18)
+Te1 Rb3 Te11 2_545 4_575 126.353(19)
+Te5 Rb3 Te11 4_565 4_575 69.434(14)
+Te2 Rb3 Te11 4_575 4_575 62.697(13)
+Te8 Rb3 Te11 . 4_575 53.030(12)
+Te10 Rb3 Te11 1_554 4_575 144.24(2)
+Te7 Rb3 Te11 4_575 4_575 63.811(13)
+Te1 Rb3 Te9 2_545 2_545 64.901(13)
+Te5 Rb3 Te9 4_565 2_545 49.520(12)
+Te2 Rb3 Te9 4_575 2_545 107.858(18)
+Te8 Rb3 Te9 . 2_545 115.694(18)
+Te10 Rb3 Te9 1_554 2_545 144.208(19)
+Te7 Rb3 Te9 4_575 2_545 64.965(13)
+Te11 Rb3 Te9 4_575 2_545 68.658(14)
+Te1 Rb3 Te4 2_545 1_454 122.723(19)
+Te5 Rb3 Te4 4_565 1_454 124.991(18)
+Te2 Rb3 Te4 4_575 1_454 64.770(13)
+Te8 Rb3 Te4 . 1_454 60.595(13)
+Te10 Rb3 Te4 1_554 1_454 43.230(11)
+Te7 Rb3 Te4 4_575 1_454 116.689(18)
+Te11 Rb3 Te4 4_575 1_454 104.933(17)
+Te9 Rb3 Te4 2_545 1_454 172.323(19)
+Te1 Rb3 Te1 2_545 4_575 99.854(17)
+Te5 Rb3 Te1 4_565 4_575 81.100(15)
+Te2 Rb3 Te1 4_575 4_575 65.213(13)
+Te8 Rb3 Te1 . 4_575 114.617(17)
+Te10 Rb3 Te1 1_554 4_575 57.840(12)
+Te7 Rb3 Te1 4_575 4_575 168.12(2)
+Te11 Rb3 Te1 4_575 4_575 127.084(18)
+Te9 Rb3 Te1 2_545 4_575 121.363(18)
+Te4 Rb3 Te1 1_454 4_575 58.575(12)
+Te1 Rb3 Te3 2_545 . 63.128(13)
+Te5 Rb3 Te3 4_565 . 146.051(19)
+Te2 Rb3 Te3 4_575 . 138.575(19)
+Te8 Rb3 Te3 . . 69.991(13)
+Te10 Rb3 Te3 1_554 . 70.273(13)
+Te7 Rb3 Te3 4_575 . 40.611(11)
+Te11 Rb3 Te3 4_575 . 98.170(16)
+Te9 Rb3 Te3 2_545 . 96.647(15)
+Te4 Rb3 Te3 1_454 . 88.348(15)
+Te1 Rb3 Te3 4_575 . 127.757(18)
+Te1 Rb3 Te10 2_545 3_566 57.726(12)
+Te5 Rb3 Te10 4_565 3_566 46.113(11)
+Te2 Rb3 Te10 4_575 3_566 100.850(17)
+Te8 Rb3 Te10 . 3_566 163.77(2)
+Te10 Rb3 Te10 1_554 3_566 103.451(16)
+Te7 Rb3 Te10 4_575 3_566 112.171(17)
+Te11 Rb3 Te10 4_575 3_566 111.243(17)
+Te9 Rb3 Te10 2_545 3_566 53.625(11)
+Te4 Rb3 Te10 1_454 3_566 128.166(18)
+Te1 Rb3 Te10 4_575 3_566 70.064(13)
+Te3 Rb3 Te10 . 3_566 120.557(17)
+Te2 Ti1 Te3 . 4_576 96.92(3)
+Te2 Ti1 Te5 . 2_556 97.68(3)
+Te3 Ti1 Te5 4_576 2_556 146.99(4)
+Te2 Ti1 Te7 . 1_455 94.60(3)
+Te3 Ti1 Te7 4_576 1_455 60.10(2)
+Te5 Ti1 Te7 2_556 1_455 146.99(4)
+Te2 Ti1 Te10 . . 91.40(3)
+Te3 Ti1 Te10 4_576 . 141.48(4)
+Te5 Ti1 Te10 2_556 . 67.39(3)
+Te7 Ti1 Te10 1_455 . 81.83(3)
+Te2 Ti1 Te6 . 2_556 92.43(3)
+Te3 Ti1 Te6 4_576 2_556 82.50(3)
+Te5 Ti1 Te6 2_556 2_556 67.46(3)
+Te7 Ti1 Te6 1_455 2_556 142.49(4)
+Te10 Ti1 Te6 . 2_556 134.80(4)
+Te2 Ti1 Te9 . 4_576 166.07(4)
+Te3 Ti1 Te9 4_576 4_576 96.63(3)
+Te5 Ti1 Te9 2_556 4_576 68.97(3)
+Te7 Ti1 Te9 1_455 4_576 94.94(3)
+Te10 Ti1 Te9 . 4_576 79.95(3)
+Te6 Ti1 Te9 2_556 4_576 86.13(3)
+Te2 Ti1 Ti3 . . 52.54(3)
+Te3 Ti1 Ti3 4_576 . 58.82(3)
+Te5 Ti1 Ti3 2_556 . 109.65(4)
+Te7 Ti1 Ti3 1_455 . 102.15(4)
+Te10 Ti1 Ti3 . . 143.78(4)
+Te6 Ti1 Ti3 2_556 . 55.27(3)
+Te9 Ti1 Ti3 4_576 . 134.44(4)
+Te1 Ti2 Te9 . . 94.73(3)
+Te1 Ti2 Te8 . . 104.94(4)
+Te9 Ti2 Te8 . . 59.95(2)
+Te1 Ti2 Te4 . 4_575 89.53(3)
+Te9 Ti2 Te4 . 4_575 141.73(4)
+Te8 Ti2 Te4 . 4_575 153.85(4)
+Te1 Ti2 Te10 . 4_675 84.95(3)
+Te9 Ti2 Te10 . 4_675 81.77(3)
+Te8 Ti2 Te10 . 4_675 140.81(4)
+Te4 Ti2 Te10 4_575 4_675 60.71(2)
+Te1 Ti2 Te7 . 4_575 160.25(4)
+Te9 Ti2 Te7 . 4_575 96.47(3)
+Te8 Ti2 Te7 . 4_575 94.75(3)
+Te4 Ti2 Te7 4_575 4_575 71.67(3)
+Te10 Ti2 Te7 4_675 4_575 80.63(3)
+Te1 Ti2 Te11 . 4_575 92.78(3)
+Te9 Ti2 Te11 . 4_575 134.11(4)
+Te8 Ti2 Te11 . 4_575 74.37(3)
+Te4 Ti2 Te11 4_575 4_575 83.42(3)
+Te10 Ti2 Te11 4_675 4_575 144.04(4)
+Te7 Ti2 Te11 4_575 4_575 91.04(3)
+Te1 Ti2 Ti3 . . 51.84(3)
+Te9 Ti2 Ti3 . . 146.13(4)
+Te8 Ti2 Ti3 . . 117.78(4)
+Te4 Ti2 Ti3 4_575 . 55.28(3)
+Te10 Ti2 Ti3 4_675 . 98.35(4)
+Te7 Ti2 Ti3 4_575 . 117.08(4)
+Te11 Ti2 Ti3 4_575 . 54.68(3)
+Te1 Ti3 Te2 . . 105.67(4)
+Te1 Ti3 Te11 . 4_575 97.86(4)
+Te2 Ti3 Te11 . 4_575 155.76(4)
+Te1 Ti3 Te6 . 2_556 158.51(5)
+Te2 Ti3 Te6 . 2_556 95.28(3)
+Te11 Ti3 Te6 4_575 2_556 61.95(3)
+Te1 Ti3 Te4 . 4_575 93.12(3)
+Te2 Ti3 Te4 . 4_575 98.84(4)
+Te11 Ti3 Te4 4_575 4_575 85.40(3)
+Te6 Ti3 Te4 2_556 4_575 78.75(3)
+Te1 Ti3 Te3 . 4_576 101.94(4)
+Te2 Ti3 Te3 . 4_576 94.88(3)
+Te11 Ti3 Te3 4_575 4_576 74.30(3)
+Te6 Ti3 Te3 2_556 4_576 80.56(3)
+Te4 Ti3 Te3 4_575 4_576 156.08(4)
+Te1 Ti3 Ti1 . . 141.18(5)
+Te2 Ti3 Ti1 . . 54.83(3)
+Te11 Ti3 Ti1 4_575 . 102.54(4)
+Te6 Ti3 Ti1 2_556 . 56.77(3)
+Te4 Ti3 Ti1 4_575 . 120.95(4)
+Te3 Ti3 Ti1 4_576 . 53.97(3)
+Te1 Ti3 Ti2 . . 56.06(3)
+Te2 Ti3 Ti2 . . 143.50(5)
+Te11 Ti3 Ti2 4_575 . 57.07(3)
+Te6 Ti3 Ti2 2_556 . 103.76(4)
+Te4 Ti3 Ti2 4_575 . 56.10(3)
+Te3 Ti3 Ti2 4_576 . 118.58(4)
+Ti1 Ti3 Ti2 . . 158.56(5)
+Te1 Ti3 Rb2 . 1_565 57.82(2)
+Te2 Ti3 Rb2 . 1_565 67.04(3)
+Te11 Ti3 Rb2 4_575 1_565 123.67(3)
+Te6 Ti3 Rb2 2_556 1_565 138.30(4)
+Te4 Ti3 Rb2 4_575 1_565 138.99(4)
+Te3 Ti3 Rb2 4_576 1_565 64.72(2)
+Ti1 Ti3 Rb2 . 1_565 83.43(3)
+Ti2 Ti3 Rb2 . 1_565 112.59(3)
+Te1 Ti3 Rb3 . 4_676 65.31(2)
+Te2 Ti3 Rb3 . 4_676 57.12(2)
+Te11 Ti3 Rb3 4_575 4_676 142.10(4)
+Te6 Ti3 Rb3 2_556 4_676 125.55(3)
+Te4 Ti3 Rb3 4_575 4_676 63.30(2)
+Te3 Ti3 Rb3 4_576 4_676 140.17(4)
+Ti1 Ti3 Rb3 . 4_676 111.53(3)
+Ti2 Ti3 Rb3 . 4_676 86.64(3)
+Rb2 Ti3 Rb3 1_565 4_676 77.55(2)
+Ti3 Te1 Ti2 . . 72.10(3)
+Ti3 Te1 Rb2 . 3_566 92.38(3)
+Ti2 Te1 Rb2 . 3_566 87.76(3)
+Ti3 Te1 Rb3 . 2 155.17(3)
+Ti2 Te1 Rb3 . 2 98.67(3)
+Rb2 Te1 Rb3 3_566 2 110.593(18)
+Ti3 Te1 Rb2 . 1_565 84.39(3)
+Ti2 Te1 Rb2 . 1_565 152.78(3)
+Rb2 Te1 Rb2 3_566 1_565 79.522(18)
+Rb3 Te1 Rb2 2 1_565 108.304(18)
+Ti3 Te1 Rb3 . 4_676 78.71(3)
+Ti2 Te1 Rb3 . 4_676 98.97(3)
+Rb2 Te1 Rb3 3_566 4_676 166.473(18)
+Rb3 Te1 Rb3 2 4_676 80.146(17)
+Rb2 Te1 Rb3 1_565 4_676 89.405(16)
+Ti3 Te2 Ti1 . . 72.63(3)
+Ti3 Te2 Rb3 . 4_676 86.12(3)
+Ti1 Te2 Rb3 . 4_676 157.28(3)
+Ti3 Te2 Rb1 . . 153.55(3)
+Ti1 Te2 Rb1 . . 99.29(3)
+Rb3 Te2 Rb1 4_676 . 103.358(16)
+Ti3 Te2 Rb2 . 1_565 76.18(3)
+Ti1 Te2 Rb2 . 1_565 93.69(3)
+Rb3 Te2 Rb2 4_676 1_565 88.795(16)
+Rb1 Te2 Rb2 . 1_565 79.350(16)
+Ti1 Te3 Te7 4_675 4_575 60.71(2)
+Ti1 Te3 Ti3 4_675 4_675 67.21(3)
+Te7 Te3 Ti3 4_575 4_675 108.58(3)
+Ti1 Te3 Rb1 4_675 1_554 94.17(3)
+Te7 Te3 Rb1 4_575 1_554 118.867(18)
+Ti3 Te3 Rb1 4_675 1_554 109.91(3)
+Ti1 Te3 Rb2 4_675 2 149.94(3)
+Te7 Te3 Rb2 4_575 2 128.682(18)
+Ti3 Te3 Rb2 4_675 2 83.29(2)
+Rb1 Te3 Rb2 1_554 2 101.458(18)
+Ti1 Te3 Rb2 4_675 4_665 93.34(3)
+Te7 Te3 Rb2 4_575 4_665 64.515(14)
+Ti3 Te3 Rb2 4_675 4_665 73.91(2)
+Rb1 Te3 Rb2 1_554 4_665 172.439(18)
+Rb2 Te3 Rb2 2 4_665 72.190(17)
+Ti1 Te3 Rb3 4_675 . 113.26(3)
+Te7 Te3 Rb3 4_575 . 63.049(14)
+Ti3 Te3 Rb3 4_675 . 166.58(3)
+Rb1 Te3 Rb3 1_554 . 83.502(15)
+Rb2 Te3 Rb3 2 . 94.058(15)
+Rb2 Te3 Rb3 4_665 . 92.740(15)
+Ti3 Te4 Ti2 4_676 4_676 68.62(3)
+Ti3 Te4 Te10 4_676 1_655 107.18(3)
+Ti2 Te4 Te10 4_676 1_655 60.08(2)
+Ti3 Te4 Rb1 4_676 1_655 162.05(3)
+Ti2 Te4 Rb1 4_676 1_655 122.22(3)
+Te10 Te4 Rb1 1_655 1_655 71.675(16)
+Ti3 Te4 Rb3 4_676 1_656 77.96(3)
+Ti2 Te4 Rb3 4_676 1_656 99.19(3)
+Te10 Te4 Rb3 1_655 1_656 64.290(14)
+Rb1 Te4 Rb3 1_655 1_656 85.778(16)
+Ti1 Te5 Te10 2_546 2_546 57.25(2)
+Ti1 Te5 Te6 2_546 . 57.38(2)
+Te10 Te5 Te6 2_546 . 114.596(16)
+Ti1 Te5 Te9 2_546 3_666 57.28(2)
+Te10 Te5 Te9 2_546 3_666 71.193(13)
+Te6 Te5 Te9 . 3_666 76.485(13)
+Ti1 Te5 Rb2 2_546 . 116.12(3)
+Te10 Te5 Rb2 2_546 . 85.367(17)
+Te6 Te5 Rb2 . . 121.986(18)
+Te9 Te5 Rb2 3_666 . 155.307(19)
+Ti1 Te5 Rb3 2_546 4_666 116.88(3)
+Te10 Te5 Rb3 2_546 4_666 75.625(15)
+Te6 Te5 Rb3 . 4_666 139.379(18)
+Te9 Te5 Rb3 3_666 4_666 70.014(14)
+Rb2 Te5 Rb3 . 4_666 97.240(17)
+Ti1 Te5 Rb1 2_546 1_545 124.47(3)
+Te10 Te5 Rb1 2_546 1_545 173.735(19)
+Te6 Te5 Rb1 . 1_545 67.258(15)
+Te9 Te5 Rb1 3_666 1_545 114.984(17)
+Rb2 Te5 Rb1 . 1_545 88.651(18)
+Rb3 Te5 Rb1 4_666 1_545 107.047(18)
+Ti3 Te6 Ti1 2_546 2_546 67.96(3)
+Ti3 Te6 Te11 2_546 3_667 58.82(2)
+Ti1 Te6 Te11 2_546 3_667 108.40(3)
+Ti3 Te6 Te5 2_546 . 109.96(3)
+Ti1 Te6 Te5 2_546 . 55.16(2)
+Te11 Te6 Te5 3_667 . 163.551(18)
+Ti3 Te6 Rb1 2_546 1_545 136.74(3)
+Ti1 Te6 Rb1 2_546 1_545 118.40(3)
+Te11 Te6 Rb1 3_667 1_545 133.044(18)
+Te5 Te6 Rb1 . 1_545 63.388(14)
+Ti3 Te6 Rb1 2_546 3_667 101.67(3)
+Ti1 Te6 Rb1 2_546 3_667 84.16(2)
+Te11 Te6 Rb1 3_667 3_667 65.225(14)
+Te5 Te6 Rb1 . 3_667 108.930(16)
+Rb1 Te6 Rb1 1_545 3_667 121.226(13)
+Te3 Te7 Ti1 4_676 1_655 59.19(2)
+Te3 Te7 Ti2 4_676 4_676 110.53(3)
+Ti1 Te7 Ti2 1_655 4_676 75.43(3)
+Te3 Te7 Rb2 4_676 1_665 73.512(15)
+Ti1 Te7 Rb2 1_655 1_665 97.80(3)
+Ti2 Te7 Rb2 4_676 1_665 167.52(3)
+Te3 Te7 Rb3 4_676 4_676 76.339(16)
+Ti1 Te7 Rb3 1_655 4_676 122.75(3)
+Ti2 Te7 Rb3 4_676 4_676 90.10(2)
+Rb2 Te7 Rb3 1_665 4_676 102.365(17)
+Te9 Te8 Ti2 . . 59.89(2)
+Te9 Te8 Rb2 . 3_566 103.099(18)
+Ti2 Te8 Rb2 . 3_566 86.74(3)
+Te9 Te8 Rb3 . . 123.725(18)
+Ti2 Te8 Rb3 . . 93.47(3)
+Rb2 Te8 Rb3 3_566 . 125.485(18)
+Te9 Te8 Rb1 . 1_554 67.419(15)
+Ti2 Te8 Rb1 . 1_554 115.74(3)
+Rb2 Te8 Rb1 3_566 1_554 140.857(18)
+Rb3 Te8 Rb1 . 1_554 86.698(16)
+Ti2 Te9 Te8 . . 60.16(2)
+Ti2 Te9 Ti1 . 4_675 75.53(3)
+Te8 Te9 Ti1 . 4_675 109.25(3)
+Ti2 Te9 Te5 . 3_666 103.17(3)
+Te8 Te9 Te5 . 3_666 160.604(18)
+Ti1 Te9 Te5 4_675 3_666 53.75(2)
+Ti2 Te9 Rb1 . 1_554 118.48(3)
+Te8 Te9 Rb1 . 1_554 70.589(15)
+Ti1 Te9 Rb1 4_675 1_554 89.24(3)
+Te5 Te9 Rb1 3_666 1_554 114.428(16)
+Ti2 Te9 Rb3 . 2 90.52(3)
+Te8 Te9 Rb3 . 2 125.004(17)
+Ti1 Te9 Rb3 4_675 2 105.88(3)
+Te5 Te9 Rb3 3_666 2 60.466(13)
+Rb1 Te9 Rb3 1_554 2 150.169(17)
+Ti1 Te10 Ti2 . 4_576 75.24(3)
+Ti1 Te10 Te4 . 1_455 108.16(3)
+Ti2 Te10 Te4 4_576 1_455 59.21(2)
+Ti1 Te10 Te5 . 2_556 55.36(2)
+Ti2 Te10 Te5 4_576 2_556 103.80(3)
+Te4 Te10 Te5 1_455 2_556 160.715(18)
+Ti1 Te10 Rb3 . 1_556 178.25(3)
+Ti2 Te10 Rb3 4_576 1_556 103.91(3)
+Te4 Te10 Rb3 1_455 1_556 72.480(15)
+Te5 Te10 Rb3 2_556 1_556 123.687(17)
+Ti1 Te10 Rb1 . . 95.67(3)
+Ti2 Te10 Rb1 4_576 . 115.15(3)
+Te4 Te10 Rb1 1_455 . 64.136(15)
+Te5 Te10 Rb1 2_556 . 123.012(17)
+Rb3 Te10 Rb1 1_556 . 86.081(16)
+Ti1 Te10 Rb3 . 3_566 101.81(3)
+Ti2 Te10 Rb3 4_576 3_566 85.17(2)
+Te4 Te10 Rb3 1_455 3_566 123.665(16)
+Te5 Te10 Rb3 2_556 3_566 58.262(13)
+Rb3 Te10 Rb3 1_556 3_566 76.548(16)
+Rb1 Te10 Rb3 . 3_566 156.188(17)
+Ti3 Te11 Ti2 4_676 4_676 68.25(3)
+Ti3 Te11 Te6 4_676 3_667 59.22(2)
+Ti2 Te11 Te6 4_676 3_667 110.00(3)
+Ti3 Te11 Rb3 4_676 4_676 152.27(3)
+Ti2 Te11 Rb3 4_676 4_676 88.43(3)
+Te6 Te11 Rb3 3_667 4_676 120.142(17)
+Ti3 Te11 Rb1 4_676 . 107.10(3)
+Ti2 Te11 Rb1 4_676 . 170.19(3)
+Te6 Te11 Rb1 3_667 . 73.021(15)
+Rb3 Te11 Rb1 4_676 . 98.112(16)
+Ti3 Te11 Rb2 4_676 2_556 80.34(3)
+Ti2 Te11 Rb2 4_676 2_556 77.52(2)
+Te6 Te11 Rb2 3_667 2_556 129.173(17)
+Rb3 Te11 Rb2 4_676 2_556 110.034(16)
+Rb1 Te11 Rb2 . 2_556 93.309(16)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Rb1 Te5 1_565 3.7012(8) yes
+Rb1 Te3 1_556 3.7101(8) yes
+Rb1 Te4 1_455 3.7270(8) yes
+Rb1 Te6 1_565 3.8179(8) yes
+Rb1 Te9 1_556 3.8518(8) yes
+Rb1 Te2 . 3.8756(8) yes
+Rb1 Te10 . 3.9319(8) yes
+Rb1 Te8 1_556 3.9345(8) yes
+Rb1 Te11 . 3.9415(8) yes
+Rb1 Te6 3_667 4.1518(8) yes
+Rb1 Rb2 1_565 5.0685(10) ?
+Rb1 Rb3 1_556 5.2765(9) ?
+Rb2 Te5 . 3.5510(8) yes
+Rb2 Te1 3_566 3.6177(8) yes
+Rb2 Te1 1_545 3.6413(8) yes
+Rb2 Te8 3_566 3.6572(8) yes
+Rb2 Te7 1_445 3.7932(8) yes
+Rb2 Te3 2_545 3.8476(8) yes
+Rb2 Te3 4_566 4.0293(8) yes
+Rb2 Te2 1_545 4.0602(8) yes
+Rb2 Te11 2_546 4.1034(8) yes
+Rb2 Ti3 1_545 4.2817(13) ?
+Rb2 Rb2 3_556 4.6428(13) ?
+Rb2 Rb1 1_545 5.0685(10) ?
+Rb3 Te1 2_545 3.6248(7) yes
+Rb3 Te5 4_565 3.6954(8) yes
+Rb3 Te2 4_575 3.7040(7) yes
+Rb3 Te8 . 3.7498(8) yes
+Rb3 Te10 1_554 3.7978(8) yes
+Rb3 Te7 4_575 3.8485(8) yes
+Rb3 Te11 4_575 3.9324(8) yes
+Rb3 Te9 2_545 3.9915(7) yes
+Rb3 Te4 1_454 4.0196(8) yes
+Rb3 Te1 4_575 4.0770(8) yes
+Rb3 Te3 . 4.1953(8) yes
+Rb3 Te10 3_566 4.2091(8) yes
+Ti1 Te2 . 2.7187(11) yes
+Ti1 Te3 4_576 2.7844(11) yes
+Ti1 Te5 2_556 2.7910(11) yes
+Ti1 Te7 1_455 2.8275(11) yes
+Ti1 Te10 . 2.8531(11) yes
+Ti1 Te6 2_556 2.8644(11) yes
+Ti1 Te9 4_576 2.9121(11) yes
+Ti1 Ti3 . 3.1741(15) ?
+Ti2 Te1 . 2.7813(11) yes
+Ti2 Te9 . 2.7893(11) yes
+Ti2 Te8 . 2.7970(11) yes
+Ti2 Te4 4_575 2.8435(11) yes
+Ti2 Te10 4_675 2.8691(11) yes
+Ti2 Te7 4_575 2.8815(11) yes
+Ti2 Te11 4_575 2.8829(11) yes
+Ti2 Ti3 . 3.1903(15) ?
+Ti3 Te1 . 2.6363(11) yes
+Ti3 Te2 . 2.6399(12) yes
+Ti3 Te11 4_575 2.8024(11) yes
+Ti3 Te6 2_556 2.8143(11) yes
+Ti3 Te4 4_575 2.8162(12) yes
+Ti3 Te3 4_576 2.9454(11) yes
+Ti3 Rb2 1_565 4.2817(13) ?
+Ti3 Rb3 4_676 4.4005(13) ?
+Te1 Rb2 3_566 3.6177(8) ?
+Te1 Rb3 2 3.6248(7) ?
+Te1 Rb2 1_565 3.6413(8) ?
+Te1 Rb3 4_676 4.0770(8) ?
+Te2 Rb3 4_676 3.7040(8) ?
+Te2 Rb2 1_565 4.0602(8) ?
+Te3 Ti1 4_675 2.7844(11) ?
+Te3 Te7 4_575 2.8103(6) yes
+Te3 Ti3 4_675 2.9454(11) ?
+Te3 Rb1 1_554 3.7101(8) ?
+Te3 Rb2 2 3.8476(8) ?
+Te3 Rb2 4_665 4.0293(8) ?
+Te4 Ti3 4_676 2.8162(12) ?
+Te4 Ti2 4_676 2.8435(11) ?
+Te4 Te10 1_655 2.8870(6) yes
+Te4 Rb1 1_655 3.7270(8) ?
+Te4 Rb3 1_656 4.0196(8) ?
+Te5 Ti1 2_546 2.7910(11) ?
+Te5 Te10 2_546 3.1316(6) yes
+Te5 Te6 . 3.1411(6) yes
+Te5 Te9 3_666 3.2306(6) yes
+Te5 Rb3 4_666 3.6954(8) ?
+Te5 Rb1 1_545 3.7012(8) ?
+Te6 Ti3 2_546 2.8143(11) ?
+Te6 Ti1 2_546 2.8644(11) ?
+Te6 Te11 3_667 2.8909(6) yes
+Te6 Rb1 1_545 3.8179(8) ?
+Te6 Rb1 3_667 4.1518(8) ?
+Te7 Te3 4_676 2.8103(6) ?
+Te7 Ti1 1_655 2.8275(11) ?
+Te7 Ti2 4_676 2.8815(11) ?
+Te7 Rb2 1_665 3.7932(8) ?
+Te7 Rb3 4_676 3.8485(8) ?
+Te8 Te9 . 2.7910(6) yes
+Te8 Rb2 3_566 3.6572(8) ?
+Te8 Rb1 1_554 3.9345(8) ?
+Te9 Ti1 4_675 2.9121(11) ?
+Te9 Te5 3_666 3.2306(6) ?
+Te9 Rb1 1_554 3.8518(8) ?
+Te9 Rb3 2 3.9915(7) ?
+Te10 Ti2 4_576 2.8691(11) ?
+Te10 Te4 1_455 2.8870(6) ?
+Te10 Te5 2_556 3.1316(6) ?
+Te10 Rb3 1_556 3.7978(8) ?
+Te10 Rb3 3_566 4.2091(8) ?
+Te11 Ti3 4_676 2.8024(11) ?
+Te11 Ti2 4_676 2.8829(11) ?
+Te11 Te6 3_667 2.8909(6) ?
+Te11 Rb3 4_676 3.9324(8) ?
+Te11 Rb2 2_556 4.1034(8) ?

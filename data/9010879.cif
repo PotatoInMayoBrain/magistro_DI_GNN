@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/08/9010879.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010879
+loop_
+_publ_author_name
+'Martucci, A.'
+'Cruciani, G.'
+_publ_section_title
+;
+ In situ time resolved synchrotron powder diffraction study of thaumasite
+ Sample: T = 413    K
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              723
+_journal_page_last               731
+_journal_paper_doi               10.1007/s00269-006-0124-8
+_journal_volume                  33
+_journal_year                    2006
+_chemical_formula_sum            'C H18 Ca3 O24.67 S Si'
+_chemical_name_mineral           Thaumasite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   11.0825
+_cell_length_b                   11.0825
+_cell_length_c                   10.4447
+_cell_volume                     1110.969
+_database_code_amcsd             0009049
+_diffrn_ambient_temperature      413
+_exptl_crystal_density_diffrn    1.809
+_cod_original_formula_sum        'Ca3 Si C S O24.67 H18'
+_cod_database_code               9010879
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.19750 0.99090 0.23100 1.00000 0.01900 Ca 0
+Si 0.00000 0.00000 -0.02500 1.00000 0.02300 Si 0
+C 0.33333 0.66667 0.44900 1.00000 0.00300 C 0
+S 0.33333 0.66667 0.97700 1.00000 0.04200 S 0
+O5 0.20850 0.62720 0.45600 1.00000 0.04200 O 0
+O6 0.19540 0.62960 0.03100 1.00000 0.02400 O 0
+O9 0.33333 0.66667 0.83200 1.00000 0.02600 O 0
+O-H7 0.12110 0.12320 0.08000 1.00000 0.03300 O 1
+O-H8 0.14650 0.13400 0.37200 1.00000 0.00300 O 1
+Wat1 0.39270 0.23670 0.22600 0.98000 0.02400 O 2
+Wat2 0.25550 0.40800 0.24200 0.96000 0.07600 O 2
+Wat3 -0.00180 0.32970 0.04400 0.96000 0.00200 O 2
+Wat4 0.02080 0.36560 0.39000 0.99000 0.02800 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:25+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009049

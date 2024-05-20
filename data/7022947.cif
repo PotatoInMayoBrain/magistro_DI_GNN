@@ -1,0 +1,236 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 15:45:19 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179934 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/29/7022947.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7022947
+loop_
+_publ_author_name
+'Li, Di'
+'Peng, Ying'
+'Geng, Chao'
+'Liu, Kaipeng'
+'Kong, Dexu'
+_publ_section_title
+;
+ Well-controlled ring-opening polymerization of cyclic esters initiated by
+ dialkylaluminum \b-diketiminates.
+;
+_journal_issue                   31
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              11295
+_journal_page_last               11303
+_journal_paper_doi               10.1039/c3dt50372k
+_journal_volume                  42
+_journal_year                    2013
+_chemical_formula_sum            'C9 H19 Al N2'
+_chemical_formula_weight         182.24
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           59
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ab 2a'
+_symmetry_space_group_name_H-M   'P m m n :2'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   9.126(7)
+_cell_length_b                   7.598(6)
+_cell_length_c                   8.267(6)
+_cell_measurement_reflns_used    1088
+_cell_measurement_temperature    298(2)
+_cell_measurement_theta_max      22.724
+_cell_measurement_theta_min      2.464
+_cell_volume                     573.2(8)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'Bruker SHELXTL'
+_computing_structure_solution    'Bruker SHELXTL'
+_diffrn_ambient_temperature      298(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0252
+_diffrn_reflns_av_unetI/netI     0.0190
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            3094
+_diffrn_reflns_theta_full        24.99
+_diffrn_reflns_theta_max         24.99
+_diffrn_reflns_theta_min         2.46
+_exptl_absorpt_coefficient_mu    0.134
+_exptl_absorpt_correction_T_max  0.9789
+_exptl_absorpt_correction_T_min  0.9648
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            'transparent white'
+_exptl_crystal_density_diffrn    1.056
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             200
+_exptl_crystal_size_max          0.32
+_exptl_crystal_size_mid          0.30
+_exptl_crystal_size_min          0.28
+_refine_diff_density_max         0.212
+_refine_diff_density_min         -0.130
+_refine_diff_density_rms         0.037
+_refine_ls_extinction_coef       0.121(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.000
+_refine_ls_hydrogen_treatment    'riding mode'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         581
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.000
+_refine_ls_R_factor_all          0.0387
+_refine_ls_R_factor_gt           0.0360
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0152P)^2^+0.3896P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0809
+_refine_ls_wR_factor_ref         0.0818
+_reflns_number_gt                537
+_reflns_number_total             581
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            c3dt50372k.txt
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_H-M      'Pmmn '
+_cod_database_code               7022947
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z'
+'-x, y+1/2, -z'
+'x+1/2, -y, -z'
+'-x, -y, -z'
+'x-1/2, y-1/2, -z'
+'x, -y-1/2, z'
+'-x-1/2, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Al1 Al 0.2500 0.2500 0.69705(12) 0.0453(4) Uani 1 4 d S
+N1 N 0.4039(2) 0.2500 0.8506(2) 0.0480(5) Uani 1 2 d S
+C2 C 0.3868(3) 0.2500 1.0089(3) 0.0508(7) Uani 1 2 d S
+C3 C 0.2500 0.2500 1.0823(4) 0.0583(10) Uani 1 4 d S
+H3A H 0.2500 0.2500 1.1948 0.070 Uiso 1 4 calc SR
+C5 C 0.5198(5) 0.2500 1.1179(6) 0.0870(12) Uani 1 2 d S
+C4 C 0.5526(4) 0.2500 0.7829(6) 0.0816(11) Uani 1 2 d S
+C1 C 0.2500 0.0335(4) 0.5673(3) 0.0747(9) Uani 1 2 d S
+H1A H 0.2500 -0.0669 0.6378 0.112 Uiso 1 2 d SR
+H1B H 0.1641 0.0309 0.5003 0.112 Uiso 1 1 d R
+H5A H 0.489(5) 0.2500 1.223(5) 0.135(18) Uiso 1 2 d S
+H5B H 0.584(2) 0.357(3) 1.095(3) 0.104(8) Uiso 1 1 d .
+H4A H 0.604(2) 0.145(3) 0.814(3) 0.115(9) Uiso 1 1 d .
+H4B H 0.545(4) 0.2500 0.668(5) 0.129(17) Uiso 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Al1 0.0493(6) 0.0468(6) 0.0399(6) 0.000 0.000 0.000
+N1 0.0348(10) 0.0503(12) 0.0590(12) 0.000 0.0010(9) 0.000
+C2 0.0548(15) 0.0398(13) 0.0579(15) 0.000 -0.0172(13) 0.000
+C3 0.077(3) 0.059(2) 0.0392(18) 0.000 0.000 0.000
+C5 0.084(3) 0.077(2) 0.100(3) 0.000 -0.051(2) 0.000
+C4 0.0411(16) 0.091(3) 0.112(3) 0.000 0.0143(18) 0.000
+C1 0.100(2) 0.0666(19) 0.0576(16) -0.0135(15) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+N1 Al1 N1 95.76(14) . 2
+N1 Al1 C1 111.49(6) . .
+N1 Al1 C1 111.49(6) 2 .
+N1 Al1 C1 111.49(6) . 2
+N1 Al1 C1 111.49(6) 2 2
+C1 Al1 C1 113.79(19) . 2
+C2 N1 C4 119.2(3) . .
+C2 N1 Al1 125.33(18) . .
+C4 N1 Al1 115.5(2) . .
+N1 C2 C3 122.7(2) . .
+N1 C2 C5 119.8(3) . .
+C3 C2 C5 117.5(3) . .
+C2 C3 C2 128.2(3) 2 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Al1 N1 1.893(2) .
+Al1 N1 1.893(2) 2
+Al1 C1 1.964(3) .
+Al1 C1 1.964(3) 2
+N1 C2 1.318(3) .
+N1 C4 1.468(4) .
+C2 C3 1.388(3) .
+C2 C5 1.511(4) .
+C3 C2 1.388(3) 2

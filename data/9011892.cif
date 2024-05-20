@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/18/9011892.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011892
+loop_
+_publ_author_name
+'Kornev, A. N.'
+'Batalieva, N. G.'
+'Maksimov, B. A.'
+'Ilyukhin, V. V.'
+'Belov, N. V.'
+_publ_section_title
+;
+ Crystal structure of the talenite Y3 [Si3O10](OH)
+;
+_journal_name_full               'Soviet Physics Doklady'
+_journal_page_first              88
+_journal_page_last               90
+_journal_volume                  17
+_journal_year                    1972
+_chemical_compound_source        Russia
+_chemical_formula_sum            'Al0.15 Fe0.15 H O11 Si2.85 Y2.85'
+_chemical_name_mineral           Thalenite-(Y)
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2n'
+_symmetry_space_group_name_H-M   'P 1 1 21/n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                96.917
+_cell_formula_units_Z            4
+_cell_length_a                   10.343
+_cell_length_b                   7.294
+_cell_length_c                   11.093
+_cell_volume                     830.785
+_database_code_amcsd             0015599
+_exptl_crystal_density_diffrn    4.180
+_cod_original_formula_sum        '(Y2.85 Fe.15) (Si2.85 Al.15) O11 H'
+_cod_database_code               9011892
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2-z
+1/2-x,1/2-y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+YI 0.31200 0.90500 0.23000 0.95000 0.01836 Y 0
+FeI 0.31200 0.90500 0.23000 0.05000 0.01836 Fe 0
+YII -0.01700 0.23700 0.53400 0.95000 0.02280 Y 0
+FeII -0.01700 0.23700 0.53400 0.05000 0.02280 Fe 0
+YIII 0.49700 0.30100 0.40200 0.95000 0.02356 Y 0
+FeIII 0.49700 0.30100 0.40200 0.05000 0.02356 Fe 0
+Si1 0.11100 0.23200 0.24500 0.95000 0.01988 Si 0
+Al1 0.11100 0.23200 0.24500 0.05000 0.01988 Al 0
+Si2 0.20900 0.49300 0.03900 0.95000 0.01722 Si 0
+Al2 0.20900 0.49300 0.03900 0.05000 0.01722 Al 0
+Si3 0.74100 0.02300 0.08500 0.95000 0.01684 Si 0
+Al3 0.74100 0.02300 0.08500 0.05000 0.01684 Al 0
+O1 0.98100 0.26000 0.31800 1.00000 0.01710 O 0
+O2 0.11900 0.02300 0.23100 1.00000 0.01279 O 0
+O3 0.36500 0.46900 0.01800 1.00000 0.02622 O 0
+O4 0.12300 0.32500 0.11400 1.00000 0.02318 O 0
+O5 0.23000 0.34000 0.32500 1.00000 0.02064 O 0
+O6 0.36900 0.02300 0.41400 1.00000 0.02622 O 0
+O7 0.36200 0.01200 0.02600 1.00000 0.02774 O 0
+O8 0.69000 0.18100 0.39100 1.00000 0.01254 O 0
+O9 0.70000 0.21100 0.14300 1.00000 0.02090 O 0
+O10 0.89300 0.04200 0.04700 1.00000 0.02457 O 0
+O-H11 0.44000 0.19600 0.21800 1.00000 0.01444 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:36+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015599

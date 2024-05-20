@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/11/9001119.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001119
+loop_
+_publ_author_name
+'MacKinney, J. A.'
+'Mora, C. I.'
+'Bailey, S. W.'
+_publ_section_title
+;
+ Structure and crystal chemistry of clintonite
+ Sample from Chichibu mine
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              365
+_journal_page_last               375
+_journal_volume                  73
+_journal_year                    1988
+_chemical_formula_sum            'Al3.75 Ca Fe0.07 H2 Mg2.1 O12 Si1.08'
+_chemical_name_mineral           Clintonite-1M
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.32
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.197
+_cell_length_b                   9.002
+_cell_length_c                   9.812
+_cell_volume                     451.613
+_database_code_amcsd             0001141
+_exptl_crystal_density_diffrn    3.093
+_cod_original_formula_sum        'Si1.08 Al3.75 Fe.07 Mg2.1 Ca O12 H2'
+_cod_database_code               9001119
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Si 0.00728 0.00698 0.00661 0.00000 0.00125 0.00000
+Al 0.00728 0.00698 0.00661 0.00000 0.00125 0.00000
+Fe 0.00728 0.00698 0.00661 0.00000 0.00125 0.00000
+Mg1 0.00556 0.00534 0.00755 0.00000 0.00100 0.00000
+Al1 0.00556 0.00534 0.00755 0.00000 0.00100 0.00000
+Fe1 0.00556 0.00534 0.00755 0.00000 0.00100 0.00000
+Mg2 0.00556 0.00575 0.00708 0.00000 0.00100 0.00000
+Al2 0.00556 0.00575 0.00708 0.00000 0.00100 0.00000
+Ca 0.00914 0.00862 0.00661 0.00000 0.00100 0.00000
+O1 0.01179 0.01191 0.00991 0.00000 0.00000 0.00000
+O2 0.01179 0.01314 0.00991 -0.00163 0.00275 -0.00176
+O3 0.01351 0.01149 0.00850 -0.00023 0.00150 0.00000
+Oh 0.01232 0.01930 0.00614 0.00000 0.00025 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Si 0.57050 0.16700 0.21010 0.27000 Si 0
+Al 0.57050 0.16700 0.21010 0.72000 Al 0
+Fe 0.57050 0.16700 0.21010 0.01000 Fe 0
+Mg1 0.00000 0.50000 0.50000 0.80000 Mg 0
+Al1 0.00000 0.50000 0.50000 0.17000 Al 0
+Fe1 0.00000 0.50000 0.50000 0.03000 Fe 0
+Mg2 0.50000 0.32920 0.50000 0.65000 Mg 0
+Al2 0.50000 0.32920 0.50000 0.35000 Al 0
+Ca 0.50000 0.50000 0.00000 1.00000 Ca 0
+O1 0.42650 0.00000 0.15230 1.00000 O 0
+O2 0.86270 0.18780 0.15120 1.00000 O 0
+O3 0.63160 0.16890 0.38890 1.00000 O 0
+O-h 0.62770 0.50000 0.39900 1.00000 O 0
+H 0.09500 0.00000 0.31300 1.00000 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:39:32+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001141

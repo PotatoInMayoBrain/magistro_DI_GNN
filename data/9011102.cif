@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/11/9011102.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011102
+loop_
+_publ_author_name
+'Taga, T.'
+_publ_section_title
+;
+ Crystal structure of Na2CO3*10H2O
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              2656
+_journal_page_last               2657
+_journal_paper_doi               10.1107/S0567740869006236
+_journal_volume                  25
+_journal_year                    1969
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'C H20 Na2 O13'
+_chemical_name_mineral           Natron
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 123.0
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.83
+_cell_length_b                   9.026
+_cell_length_c                   13.44
+_cell_volume                     1305.307
+_database_code_amcsd             0009366
+_exptl_crystal_density_diffrn    1.456
+_cod_original_formula_sum        'Na2 C O13 H20'
+_cod_database_code               9011102
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na1 0.24000 0.22500 0.12800 1.00000 0.02153 Na 0
+Na2 0.25200 0.27000 -0.12800 1.00000 0.02406 Na 0
+C 0.25000 0.75400 0.00000 1.00000 0.01267 C 0
+O11* 0.26600 0.71800 0.09700 0.50000 0.04433 O 0
+O12* 0.34400 0.79300 -0.00300 0.50000 0.03166 O 0
+O13* 0.13900 0.79400 -0.09600 0.50000 0.02533 O 0
+O11* 0.25300 0.83400 -0.07300 0.50000 0.05826 O 0
+O12* 0.15100 0.67500 -0.00100 0.50000 0.04813 O 0
+O13* 0.33600 0.80900 0.09300 0.50000 0.05193 O 0
+Wat1 0.12500 -0.01200 0.09100 1.00000 0.03800 O 2
+Wat2 0.37600 -0.44000 0.20800 1.00000 0.02533 O 2
+Wat3 0.09300 0.31200 0.17500 1.00000 0.02153 O 2
+Wat4 0.37400 0.12100 0.32200 1.00000 0.02280 O 2
+Wat5 0.13900 0.37400 -0.05800 1.00000 0.02786 O 2
+Wat6 0.35500 0.12500 0.04700 1.00000 0.02533 O 2
+Wat7 0.12800 0.04900 -0.21500 1.00000 0.03166 O 2
+Wat8 0.37200 0.50200 -0.08000 1.00000 0.03040 O 2
+Wat9 0.12000 0.37600 -0.33200 1.00000 0.03420 O 2
+Wat10 0.39900 0.18700 -0.18600 1.00000 0.03420 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:56+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009366

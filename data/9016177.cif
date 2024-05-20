@@ -1,0 +1,123 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/61/9016177.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016177
+loop_
+_publ_author_name
+'Cooper, M. A.'
+'Abdu, Y. A.'
+'Ball, N. A.'
+'Hawthorne, F. C.'
+'Back, M. E.'
+'Tait, K. T.'
+'Schluter, J.'
+'Malcherek, T.'
+'Pohl, D.'
+'Gebhard, G.'
+_publ_section_title
+;
+ Ianbruceite, ideally [Zn2(OH)(H2O)(AsO4)](H2O)2, a new arsenate mineral from
+ the Tsumeb mine, Otjikoto (Oshikoto) region, Namibia: description and crystal structure
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              1119
+_journal_page_last               1131
+_journal_paper_doi               10.1180/minmag.2012.076.5.05
+_journal_volume                  76
+_journal_year                    2012
+_chemical_compound_source        'Tsumeb mine, Namibia'
+_chemical_formula_sum            'As1.079 H6.74 O7.87 Zn2'
+_chemical_name_mineral           Ianbruceite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 103.859
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   11.793
+_cell_length_b                   9.1138
+_cell_length_c                   6.8265
+_cell_volume                     712.346
+_database_code_amcsd             0019546
+_exptl_crystal_density_diffrn    3.211
+_cod_original_formula_sum        'As1.079 Zn2 O7.87 H6.74'
+_cod_database_code               9016177
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+As1 0.03800 0.01060 0.00890 0.00040 0.00730 -0.00080
+Zn1 0.03870 0.01200 0.01290 0.00150 0.00830 -0.00050
+Zn2 0.03980 0.01980 0.01240 -0.00030 0.00930 -0.00510
+O1 0.02000 0.01500 0.01700 0.00400 0.00600 0.00100
+Wat2 0.00900 0.04500 0.03000 -0.00200 -0.00300 0.02700
+O3 0.02200 0.02000 0.05400 -0.00200 0.01100 -0.01700
+O-H4 0.04800 0.01100 0.01600 -0.00200 0.01100 0.00600
+O5 0.04800 0.01200 0.01000 0.00000 0.00700 -0.00200
+O6 0.03800 0.02300 0.00700 -0.00200 0.00600 0.00400
+Wat7 0.10000 0.11000 0.24000 0.03500 -0.08000 -0.03000
+Wat8 0.11000 0.13000 0.25000 -0.04000 -0.05000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+As1 0.36080 0.91756 0.09520 1.00000 0.01890 As 0
+As2 0.80600 0.77700 0.49200 0.04800 0.00400 As 0
+As3 0.77800 0.68600 0.48400 0.03100 0.01100 As 0
+Zn1 0.61790 0.04130 0.40160 1.00000 0.02080 Zn 0
+Zn2 0.60590 0.75910 0.14900 1.00000 0.02350 Zn 0
+O1 0.43190 0.75710 0.09690 1.00000 0.01700 O 0
+Wat2 0.79640 0.08820 0.51180 1.00000 0.03000 O 2
+O3 0.22010 0.88610 0.08100 1.00000 0.03200 O 0
+O-H4 0.66900 0.81340 0.43070 1.00000 0.02400 O 1
+O5 0.42670 0.01100 0.31020 1.00000 0.02300 O 0
+O6 0.37250 0.01300 -0.11040 1.00000 0.02300 O 0
+Wat7 0.05600 0.98700 -0.20300 0.96000 0.17000 O 2
+Wat8 0.91300 0.76900 0.58500 0.91000 0.17000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:46+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019546

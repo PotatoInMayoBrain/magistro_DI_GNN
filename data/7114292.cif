@@ -1,0 +1,293 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/11/42/7114292.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7114292
+loop_
+_publ_author_name
+'Liao, Yi'
+'Baskett, Martha'
+'Lahti, Paul M.'
+'Palacio, Fernando'
+_publ_section_title
+;
+ Structure and exchange in silicon-linked tetraradicalsElectronic
+ supplementary information (ESI) available: EPR spectra, X-ray
+ crystallographic data and packing views, synthetic and characterization
+ details for 1a and 2, \cT plot for 2, and computational summaries for
+ model systems. See http://www.rsc.org/suppdata/cc/b1/b107430j/
+;
+_journal_issue                   3
+_journal_name_full               'Chemical Communications'
+_journal_page_first              252
+_journal_paper_doi               10.1039/b107430j
+_journal_year                    2002
+_chemical_compound_source        'Local laboratory'
+_chemical_formula_moiety         'C40 H52 N4 O4 Si '
+_chemical_formula_sum            'C40 H52 N4 O4 Si'
+_chemical_formula_weight         680.966
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           86
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4bc'
+_symmetry_space_group_name_H-M   'P 42/n :2'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           maXus
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   16.661(2)
+_cell_length_b                   16.661(2)
+_cell_length_c                   7.0586(9)
+_cell_measurement_reflns_used    1075
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      19.980
+_cell_measurement_theta_min      4.076
+_cell_volume                     1959.4(4)
+_computing_data_collection       KappaCCD
+_computing_data_reduction
+'Denzo and Scalepak (Otwinowski & Minor, 1997)'
+_computing_molecular_graphics    'Ortep (Johnson, 1976)'
+_computing_publication_material  'maxus(Mackay et al., 1999)'
+_computing_structure_refinement  'maxus(Mackay et al., 1999)'
+_computing_structure_solution    'SIR92 (Altomare et al., 1994)'
+_diffrn_measurement_device       KappaCCD
+_diffrn_orient_matrix_type       X=UH
+_diffrn_orient_matrix_UB_11      -0.03272
+_diffrn_orient_matrix_UB_12      0.00452
+_diffrn_orient_matrix_UB_13      0.11829
+_diffrn_orient_matrix_UB_21      -0.05026
+_diffrn_orient_matrix_UB_22      0.00000
+_diffrn_orient_matrix_UB_23      -0.07745
+_diffrn_orient_matrix_UB_31      -0.00247
+_diffrn_orient_matrix_UB_32      -0.05985
+_diffrn_orient_matrix_UB_33      0.00893
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           ' MoK\a'
+_diffrn_radiation_wavelength_id  all
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1092
+_diffrn_reflns_theta_max         20.61
+_exptl_absorpt_coefficient_mu    0.10
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    1.154
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'needle, 0.150*0.200*0.650 mm'
+_exptl_crystal_F_000             732
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   4.832
+_refine_ls_goodness_of_fit_gt    5.890
+_refine_ls_goodness_of_fit_ref   5.890
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     54
+_refine_ls_number_reflns         518
+_refine_ls_R_factor_all          0.315
+_refine_ls_R_factor_gt           0.246
+_refine_ls_shift/su_max          3.951
+_refine_ls_shift/su_mean         0.934
+_refine_ls_structure_factor_coef F^2^
+_refine_ls_weighting_details     ' w = 1 / ( s^2^(Fo^2^) + 0.03000 * Fo^2^)'
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.264
+_refine_ls_wR_factor_gt          0.218
+_refine_ls_wR_factor_ref         0.218
+_reflns_d_resolution_high        0.71
+_reflns_d_resolution_low         1.28
+_reflns_limit_h_max              16
+_reflns_limit_h_min              0
+_reflns_limit_k_max              11
+_reflns_limit_k_min              -11
+_reflns_limit_l_max              16
+_reflns_limit_l_min              0
+_reflns_number_gt                518
+_reflns_number_total             987
+_reflns_threshold_expression     'I> 3.00 sigma(I)'
+_cod_data_source_file            b107430j.txt
+_cod_data_source_block           2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_cell_volume        1959.3(4)
+_cod_original_sg_symbol_H-M      'P 42/n        '
+_cod_original_formula_sum        'C40 H52 N4 O4 Si '
+_cod_database_code               7114292
+loop_
+_symmetry_equiv_pos_as_xyz
++X,+Y,+Z
+-X,-Y,-Z
+'-X+ 1/2,-Y+ 1/2,+Z'
+'+X+ 1/2,+Y+ 1/2,-Z'
+'-Y,+X+ 1/2,+Z+ 1/2'
+'+Y,-X+ 1/2,-Z+ 1/2'
+'+Y+ 1/2,-X,+Z+ 1/2'
+'-Y+ 1/2,+X,-Z+ 1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+Si1 0.250000 0.250000 0.250000 0.0786(9) 0.25 Uiso
+C2 0.3609(3) 0.2391(3) 0.5516(7) 0.088(2) 1.00 Uiso
+C3 0.3621(3) 0.3668(3) 0.3774(6) 0.098(2) 1.00 Uiso
+C4 0.3308(3) 0.2892(3) 0.4013(8) 0.089(1) 1.00 Uiso
+C5 0.4304(3) 0.2613(3) 0.6709(7) 0.116(2) 1.00 Uiso
+C6 0.4262(4) 0.3956(3) 0.4953(8) 0.131(2) 1.00 Uiso
+C7 0.4576(4) 0.3408(4) 0.620(1) 0.135(2) 1.00 Uiso
+C8 0.5763(9) 0.333(1) 0.863(2) 0.273(6) 0.50 Uiso
+C9 0.5136(5) 0.3186(5) 1.057(1) 0.236(4) 0.50 Uiso
+N10 0.5282(9) 0.377(1) 0.767(2) 0.322(5) 0.50 Uiso
+C11 0.6307(7) 0.4169(8) 0.960(2) 0.309(5) 0.50 Uiso
+O12 0.5105(8) 0.453(1) 0.765(2) 0.293(6) 0.50 Uiso
+C13 0.6153(6) 0.2602(9) 0.848(2) 0.285(5) 0.50 Uiso
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+'C ' 'C ' 0.0033 0.0016 'Waasmaier & Kirfel, 1995'
+'H ' 'H ' 0.0000 0.0000 'Waasmaier & Kirfel, 1995'
+'N ' 'N ' 0.0061 0.0033 'Waasmaier & Kirfel, 1995'
+'O ' 'O ' 0.0106 0.0060 'Waasmaier & Kirfel, 1995'
+Si Si 0.0817 0.0704 'Waasmaier & Kirfel, 1995'
+loop_
+_diffrn_radiation_wavelength
+0.71073
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+C4 Si1 C4 109.0(3) . 3_555
+C4 Si1 C4 109.7(3) . 6_556
+C4 Si1 C4 109.7(3) . 8_656
+C4 Si1 C4 109.7(3) 3_555 6_556
+C4 Si1 C4 109.7(3) 3_555 8_656
+C4 Si1 C4 109.0(3) 6_556 8_656
+C4 C2 C5 123.2(5) . .
+C4 C3 C6 120.9(5) . .
+Si1 C4 C2 118.5(4) . .
+Si1 C4 C3 121.9(4) . .
+Si1 C4 C2 118.5(4) 3_555 .
+Si1 C4 C3 121.9(4) 3_555 .
+Si1 C4 C2 118.5(4) 6_556 .
+Si1 C4 C3 121.9(4) 6_556 .
+Si1 C4 C2 118.5(4) 8_656 .
+Si1 C4 C3 121.9(4) 8_656 .
+C2 C4 C3 119.6(5) . .
+C2 C5 C7 109.5(5) . .
+C3 C6 C7 115.7(6) . .
+C5 C7 C6 130.5(6) . .
+N10 C8 C13 139.(2) . .
+C8 N10 O12 135.(2) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Si1 C4 1.839(5) .
+Si1 C4 1.839(5) 3_555
+Si1 C4 1.839(5) 6_556
+Si1 C4 1.839(5) 8_656
+C2 C4 1.440(7) .
+C2 C5 1.480(7) .
+C3 C4 1.406(7) .
+C3 C6 1.436(8) .
+C5 C7 1.446(9) .
+C6 C7 1.372(9) .
+C8 N10 1.28(2) .
+C8 C13 1.37(2) .
+N10 O12 1.31(2) .
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+Si1 C2 2.824(5) 1_555 3_555
+Si1 C2 2.824(5) 1_555 6_566
+Si1 C2 2.824(5) 1_555 8_656
+Si1 C3 2.844(5) 1_555 3_555
+Si1 C3 2.844(5) 1_555 6_566
+Si1 C3 2.844(5) 1_555 8_656
+C2 C2 3.712(6) 1_555 3_555
+C2 C2 3.839(7) 1_555 6_567
+C2 C2 3.839(7) 1_555 8_657
+C2 C3 3.467(7) 1_555 6_566
+C2 C4 3.398(7) 1_555 3_555
+C2 C4 3.606(7) 1_555 6_566
+C2 C5 3.816(7) 1_555 6_567
+C3 C4 3.253(7) 1_555 8_656
+C3 C5 3.939(7) 1_555 8_657
+C3 C9 3.48(1) 1_555 1_554
+C3 C9 3.907(9) 1_555 8_657
+C4 C4 2.993(7) 1_555 3_555
+C4 C4 3.007(7) 1_555 6_566
+C4 C4 3.007(7) 1_555 8_656
+C4 C9 3.93(1) 1_555 1_554
+C5 C6 3.956(8) 1_555 6_567
+C5 C11 3.67(1) 1_555 5_644
+C6 C9 3.65(1) 1_555 1_554
+C6 O12 3.29(2) 1_555 2_666
+C11 C13 3.53(2) 1_555 7_565
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+C4 Si1 C4 C2 50.0(4)
+C4 Si1 C4 C3 -128.2(5)
+C4 Si1 C4 C2 -70.2(5)
+C4 Si1 C4 C3 111.7(5)
+C4 Si1 C4 C2 170.1(5)
+C4 Si1 C4 C3 -8.1(4)
+C5 C2 C4 Si1 174.4(7)
+C5 C2 C4 C3 -7.4(5)
+C4 C2 C5 C7 3.7(5)
+C6 C3 C4 Si1 -178.9(7)
+C6 C3 C4 C2 2.9(5)
+C4 C3 C6 C7 4.6(6)
+Si1 C4 C2 C5 174.4(7)
+Si1 C4 C3 C6 -178.9(7)
+Si1 C4 C2 C5 174.4(7)
+Si1 C4 C3 C6 -178.9(7)
+Si1 C4 C2 C5 174.4(7)
+Si1 C4 C3 C6 -178.9(7)
+C2 C5 C7 C6 4.9(7)
+C3 C6 C7 C5 -9.1(6)
+C13 C8 N10 O12 -157.(4)

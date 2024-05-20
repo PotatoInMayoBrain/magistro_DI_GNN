@@ -1,0 +1,577 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/33/4333319.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_4333319
+loop_
+_publ_author_name
+'Salvador, James R.'
+'Hoang, Khang'
+'Mahanti, S. D.'
+'Kanatzidis, Mercouri G.'
+_publ_section_title
+;
+ REAu2In4(RE = La, Ce, Pr, Nd):&#x00A0; Polyindides from Liquid Indium
+;
+_journal_issue                   17
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6933
+_journal_page_last               6941
+_journal_paper_doi               10.1021/ic700633b
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_sum            'Au2 In4 Nd'
+_chemical_formula_weight         997.46
+_chemical_name_systematic        NdAu2In4
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   18.4059(18)
+_cell_length_b                   4.6114(5)
+_cell_length_c                   7.4073(7)
+_cell_measurement_temperature    293(2)
+_cell_volume                     628.71(11)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.971
+_diffrn_measured_fraction_theta_max 0.971
+_diffrn_measurement_device_type  ccd
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0454
+_diffrn_reflns_av_sigmaI/netI    0.0337
+_diffrn_reflns_limit_h_max       26
+_diffrn_reflns_limit_h_min       -26
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            8100
+_diffrn_reflns_theta_full        31.38
+_diffrn_reflns_theta_max         31.38
+_diffrn_reflns_theta_min         4.94
+_exptl_absorpt_coefficient_mu    68.852
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    10.538
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       rod
+_exptl_crystal_F_000             1656
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         7.337
+_refine_diff_density_min         -3.438
+_refine_diff_density_rms         0.795
+_refine_ls_extinction_coef       0.00269(17)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\\l^3^/sin(2\\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.140
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_number_reflns         1118
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.140
+_refine_ls_R_factor_all          0.0375
+_refine_ls_R_factor_gt           0.0363
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\\s^2^(Fo^2^)+(0.0494P)^2^+13.1050P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0891
+_refine_ls_wR_factor_ref         0.0898
+_reflns_number_gt                1075
+_reflns_number_total             1118
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic700633bsup1.cif
+_cod_data_source_block           NdAuIn
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_H-M      Pnma
+_cod_original_formula_sum        'Au2 In4 Nd1'
+_cod_database_code               4333319
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Au1 Au 0.28193(3) 0.2500 0.03506(6) 0.00909(16) Uani 1 2 d S
+Au2 Au 0.03832(3) -0.7500 0.24426(6) 0.00930(16) Uani 1 2 d S
+Nd Nd 0.14195(4) -0.2500 0.02510(9) 0.00879(18) Uani 1 2 d S
+In1 In 0.43294(5) 0.2500 -0.01356(12) 0.0103(2) Uani 1 2 d S
+In2 In 0.03497(5) -0.7500 -0.14131(12) 0.0087(2) Uani 1 2 d S
+In4 In 0.18838(5) 0.2500 -0.26365(11) 0.00688(19) Uani 1 2 d S
+In3 In 0.18475(5) 0.2500 0.32678(11) 0.0080(2) Uani 1 2 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Au1 0.0074(3) 0.0126(3) 0.0073(3) 0.000 -0.00030(14) 0.000
+Au2 0.0059(3) 0.0147(3) 0.0072(3) 0.000 0.00063(14) 0.000
+Nd 0.0063(3) 0.0113(3) 0.0088(3) 0.000 0.0017(2) 0.000
+In1 0.0055(4) 0.0183(5) 0.0071(4) 0.000 -0.0019(3) 0.000
+In2 0.0039(4) 0.0143(4) 0.0079(4) 0.000 -0.0018(3) 0.000
+In4 0.0055(4) 0.0127(4) 0.0024(4) 0.000 0.0019(3) 0.000
+In3 0.0062(4) 0.0139(4) 0.0041(4) 0.000 -0.0015(3) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+In In -0.7276 1.3100 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nd Nd -0.1943 3.0179 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Au Au -2.0133 8.8022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+In4 Au1 In4 110.89(3) 2_565 2
+In4 Au1 In1 82.81(2) 2_565 .
+In4 Au1 In1 82.81(2) 2 .
+In4 Au1 In4 122.696(14) 2_565 .
+In4 Au1 In4 122.696(14) 2 .
+In1 Au1 In4 120.51(3) . .
+In4 Au1 In3 73.39(2) 2_565 .
+In4 Au1 In3 73.39(2) 2 .
+In1 Au1 In3 137.00(3) . .
+In4 Au1 In3 102.49(3) . .
+In4 Au1 In3 156.26(3) 2_565 2_554
+In4 Au1 In3 65.09(2) 2 2_554
+In1 Au1 In3 73.51(2) . 2_554
+In4 Au1 In3 72.78(2) . 2_554
+In3 Au1 In3 123.775(14) . 2_554
+In4 Au1 In3 65.09(2) 2_565 2_564
+In4 Au1 In3 156.26(3) 2 2_564
+In1 Au1 In3 73.51(2) . 2_564
+In4 Au1 In3 72.79(2) . 2_564
+In3 Au1 In3 123.775(14) . 2_564
+In3 Au1 In3 108.49(3) 2_554 2_564
+In4 Au1 Nd 134.90(3) 2_565 .
+In4 Au1 Nd 66.90(2) 2 .
+In1 Au1 Nd 137.399(11) . .
+In4 Au1 Nd 61.681(18) . .
+In3 Au1 Nd 62.701(17) . .
+In3 Au1 Nd 66.932(19) 2_554 .
+In3 Au1 Nd 133.65(3) 2_564 .
+In4 Au1 Nd 66.90(2) 2_565 1_565
+In4 Au1 Nd 134.90(3) 2 1_565
+In1 Au1 Nd 137.399(11) . 1_565
+In4 Au1 Nd 61.681(18) . 1_565
+In3 Au1 Nd 62.701(17) . 1_565
+In3 Au1 Nd 133.65(3) 2_554 1_565
+In3 Au1 Nd 66.932(19) 2_564 1_565
+Nd Au1 Nd 83.63(2) . 1_565
+In3 Au2 In2 122.293(18) 1_545 5_535
+In3 Au2 In2 122.293(18) 1_545 5_545
+In2 Au2 In2 112.19(3) 5_535 5_545
+In3 Au2 In1 121.42(3) 1_545 6_546
+In2 Au2 In1 81.85(2) 5_535 6_546
+In2 Au2 In1 81.85(2) 5_545 6_546
+In3 Au2 In2 104.02(3) 1_545 .
+In2 Au2 In2 73.45(2) 5_535 .
+In2 Au2 In2 73.45(2) 5_545 .
+In1 Au2 In2 134.57(3) 6_546 .
+In3 Au2 In1 72.09(2) 1_545 2
+In2 Au2 In1 153.76(3) 5_535 2
+In2 Au2 In1 66.91(2) 5_545 2
+In1 Au2 In1 72.00(2) 6_546 2
+In2 Au2 In1 127.442(17) . 2
+In3 Au2 In1 72.09(2) 1_545 2_545
+In2 Au2 In1 66.91(2) 5_535 2_545
+In2 Au2 In1 153.76(3) 5_545 2_545
+In1 Au2 In1 72.00(2) 6_546 2_545
+In2 Au2 In1 127.442(17) . 2_545
+In1 Au2 In1 101.90(3) 2 2_545
+In3 Au2 Nd 63.836(18) 1_545 1_545
+In2 Au2 Nd 65.11(2) 5_535 1_545
+In2 Au2 Nd 134.69(3) 5_545 1_545
+In1 Au2 Nd 137.094(10) 6_546 1_545
+In2 Au2 Nd 62.314(17) . 1_545
+In1 Au2 Nd 135.58(3) 2 1_545
+In1 Au2 Nd 70.263(19) 2_545 1_545
+In3 Au2 Nd 63.835(18) 1_545 .
+In2 Au2 Nd 134.69(3) 5_535 .
+In2 Au2 Nd 65.11(2) 5_545 .
+In1 Au2 Nd 137.094(10) 6_546 .
+In2 Au2 Nd 62.314(17) . .
+In1 Au2 Nd 70.263(19) 2 .
+In1 Au2 Nd 135.58(3) 2_545 .
+Nd Au2 Nd 85.26(2) 1_545 .
+In4 Nd In4 90.06(3) 1_545 .
+In4 Nd In2 54.00(2) 1_545 .
+In4 Nd In2 114.14(3) . .
+In4 Nd In2 114.14(3) 1_545 1_565
+In4 Nd In2 54.00(2) . 1_565
+In2 Nd In2 89.57(3) . 1_565
+In4 Nd In3 150.99(3) 1_545 .
+In4 Nd In3 83.553(19) . .
+In2 Nd In3 152.77(3) . .
+In2 Nd In3 84.641(18) 1_565 .
+In4 Nd In3 83.553(19) 1_545 1_545
+In4 Nd In3 150.99(3) . 1_545
+In2 Nd In3 84.641(18) . 1_545
+In2 Nd In3 152.77(3) 1_565 1_545
+In3 Nd In3 88.44(3) . 1_545
+In4 Nd In2 114.91(2) 1_545 5_545
+In4 Nd In2 114.91(2) . 5_545
+In2 Nd In2 60.96(2) . 5_545
+In2 Nd In2 60.96(2) 1_565 5_545
+In3 Nd In2 93.30(2) . 5_545
+In3 Nd In2 93.30(2) 1_545 5_545
+In4 Nd Au2 88.894(15) 1_545 .
+In4 Nd Au2 159.89(3) . .
+In2 Nd Au2 50.610(18) . .
+In2 Nd Au2 108.64(2) 1_565 .
+In3 Nd Au2 106.47(2) . .
+In3 Nd Au2 48.613(18) 1_545 .
+In2 Nd Au2 48.428(13) 5_545 .
+In4 Nd Au2 159.89(3) 1_545 1_565
+In4 Nd Au2 88.894(15) . 1_565
+In2 Nd Au2 108.64(2) . 1_565
+In2 Nd Au2 50.610(18) 1_565 1_565
+In3 Nd Au2 48.613(18) . 1_565
+In3 Nd Au2 106.47(2) 1_545 1_565
+In2 Nd Au2 48.428(13) 5_545 1_565
+Au2 Nd Au2 85.26(2) . 1_565
+In4 Nd Au1 106.88(2) 1_545 .
+In4 Nd Au1 49.228(17) . .
+In2 Nd Au1 157.80(3) . .
+In2 Nd Au1 89.231(15) 1_565 .
+In3 Nd Au1 48.937(17) . .
+In3 Nd Au1 105.85(2) 1_545 .
+In2 Nd Au1 135.628(13) 5_545 .
+Au2 Nd Au1 149.18(2) . .
+Au2 Nd Au1 87.461(12) 1_565 .
+In4 Nd Au1 49.228(17) 1_545 1_545
+In4 Nd Au1 106.88(2) . 1_545
+In2 Nd Au1 89.231(15) . 1_545
+In2 Nd Au1 157.80(3) 1_565 1_545
+In3 Nd Au1 105.85(2) . 1_545
+In3 Nd Au1 48.937(17) 1_545 1_545
+In2 Nd Au1 135.628(13) 5_545 1_545
+Au2 Nd Au1 87.461(12) . 1_545
+Au2 Nd Au1 149.18(2) 1_565 1_545
+Au1 Nd Au1 83.63(2) . 1_545
+In4 Nd In4 93.416(18) 1_545 2
+In4 Nd In4 93.416(18) . 2
+In2 Nd In4 134.957(14) . 2
+In2 Nd In4 134.957(14) 1_565 2
+In3 Nd In4 58.949(19) . 2
+In3 Nd In4 58.949(19) 1_545 2
+In2 Nd In4 138.58(3) 5_545 2
+Au2 Nd In4 106.70(2) . 2
+Au2 Nd In4 106.70(2) 1_565 2
+Au1 Nd In4 47.498(13) . 2
+Au1 Nd In4 47.498(13) 1_545 2
+Au2 In1 Au1 126.81(4) 6_666 .
+Au2 In1 Au2 108.00(2) 6_666 2_544
+Au1 In1 Au2 104.74(2) . 2_544
+Au2 In1 Au2 108.00(2) 6_666 2_554
+Au1 In1 Au2 104.74(2) . 2_554
+Au2 In1 Au2 101.90(3) 2_544 2_554
+Au2 In1 In2 99.50(3) 6_666 6_665
+Au1 In1 In2 133.68(4) . 6_665
+Au2 In1 In2 53.667(17) 2_544 6_665
+Au2 In1 In2 53.667(17) 2_554 6_665
+Au2 In1 In3 134.279(18) 6_666 2_554
+Au1 In1 In3 53.770(19) . 2_554
+Au2 In1 In3 51.135(19) 2_544 2_554
+Au2 In1 In3 115.65(3) 2_554 2_554
+In2 In1 In3 95.59(3) 6_665 2_554
+Au2 In1 In3 134.279(18) 6_666 2_564
+Au1 In1 In3 53.770(19) . 2_564
+Au2 In1 In3 115.65(3) 2_544 2_564
+Au2 In1 In3 51.135(19) 2_554 2_564
+In2 In1 In3 95.59(3) 6_665 2_564
+In3 In1 In3 86.11(3) 2_554 2_564
+Au2 In1 Nd 157.77(4) 6_666 2_554
+Au1 In1 Nd 75.42(3) . 2_554
+Au2 In1 Nd 60.415(18) 2_544 2_554
+Au2 In1 Nd 60.415(18) 2_554 2_554
+In2 In1 Nd 58.27(2) 6_665 2_554
+In3 In1 Nd 55.621(19) 2_554 2_554
+In3 In1 Nd 55.621(19) 2_564 2_554
+Au2 In2 Au2 112.19(3) 5_535 5_545
+Au2 In2 Au2 106.55(2) 5_535 .
+Au2 In2 Au2 106.55(2) 5_545 .
+Au2 In2 In4 112.24(2) 5_535 1_545
+Au2 In2 In4 112.24(2) 5_545 1_545
+Au2 In2 In4 106.56(3) . 1_545
+Au2 In2 In1 59.424(18) 5_535 6_545
+Au2 In2 In1 59.424(18) 5_545 6_545
+Au2 In2 In1 144.94(4) . 6_545
+In4 In2 In1 108.51(4) 1_545 6_545
+Au2 In2 Nd 168.57(3) 5_535 .
+Au2 In2 Nd 79.095(15) 5_545 .
+Au2 In2 Nd 67.08(2) . .
+In4 In2 Nd 62.76(2) 1_545 .
+In1 In2 Nd 131.276(18) 6_545 .
+Au2 In2 Nd 79.095(15) 5_535 1_545
+Au2 In2 Nd 168.57(3) 5_545 1_545
+Au2 In2 Nd 67.08(2) . 1_545
+In4 In2 Nd 62.76(2) 1_545 1_545
+In1 In2 Nd 131.276(18) 6_545 1_545
+Nd In2 Nd 89.57(3) . 1_545
+Au2 In2 Nd 66.47(2) 5_535 5_545
+Au2 In2 Nd 66.47(2) 5_545 5_545
+Au2 In2 Nd 76.43(3) . 5_545
+In4 In2 Nd 177.02(4) 1_545 5_545
+In1 In2 Nd 68.51(3) 6_545 5_545
+Nd In2 Nd 119.04(2) . 5_545
+Nd In2 Nd 119.04(2) 1_545 5_545
+Au2 In2 In2 123.57(4) 5_535 5_545
+Au2 In2 In2 54.349(17) 5_545 5_545
+Au2 In2 In2 52.20(2) . 5_545
+In4 In2 In2 123.61(3) 1_545 5_545
+In1 In2 In2 105.93(3) 6_545 5_545
+Nd In2 In2 60.91(2) . 5_545
+Nd In2 In2 118.54(4) 1_545 5_545
+Nd In2 In2 58.12(3) 5_545 5_545
+Au2 In2 In2 54.349(17) 5_535 5_535
+Au2 In2 In2 123.57(4) 5_545 5_535
+Au2 In2 In2 52.20(2) . 5_535
+In4 In2 In2 123.61(3) 1_545 5_535
+In1 In2 In2 105.93(3) 6_545 5_535
+Nd In2 In2 118.54(4) . 5_535
+Nd In2 In2 60.91(2) 1_545 5_535
+Nd In2 In2 58.12(3) 5_545 5_535
+In2 In2 In2 86.35(4) 5_545 5_535
+Au1 In4 Au1 110.89(3) 2_554 2_564
+Au1 In4 Au1 107.48(2) 2_554 .
+Au1 In4 Au1 107.48(2) 2_564 .
+Au1 In4 In2 110.40(2) 2_554 1_565
+Au1 In4 In2 110.40(2) 2_564 1_565
+Au1 In4 In2 110.10(3) . 1_565
+Au1 In4 In3 58.119(17) 2_554 1_554
+Au1 In4 In3 58.119(17) 2_564 1_554
+Au1 In4 In3 143.37(4) . 1_554
+In2 In4 In3 106.53(3) 1_565 1_554
+Au1 In4 Nd 169.53(3) 2_554 1_565
+Au1 In4 Nd 79.516(14) 2_564 1_565
+Au1 In4 Nd 69.09(2) . 1_565
+In2 In4 Nd 63.24(2) 1_565 1_565
+In3 In4 Nd 130.568(18) 1_554 1_565
+Au1 In4 Nd 79.516(14) 2_554 .
+Au1 In4 Nd 169.53(3) 2_564 .
+Au1 In4 Nd 69.09(2) . .
+In2 In4 Nd 63.24(2) 1_565 .
+In3 In4 Nd 130.568(18) 1_554 .
+Nd In4 Nd 90.06(3) 1_565 .
+Au1 In4 In3 122.51(3) 2_554 2_564
+Au1 In4 In3 53.379(18) 2_564 2_564
+Au1 In4 In3 54.125(19) . 2_564
+In2 In4 In3 127.07(2) 1_565 2_564
+In3 In4 In3 102.43(3) 1_554 2_564
+Nd In4 In3 64.185(19) 1_565 2_564
+Nd In4 In3 122.59(3) . 2_564
+Au1 In4 In3 53.379(18) 2_554 2_554
+Au1 In4 In3 122.51(3) 2_564 2_554
+Au1 In4 In3 54.125(19) . 2_554
+In2 In4 In3 127.07(2) 1_565 2_554
+In3 In4 In3 102.43(3) 1_554 2_554
+Nd In4 In3 122.59(3) 1_565 2_554
+Nd In4 In3 64.185(19) . 2_554
+In3 In4 In3 87.01(3) 2_564 2_554
+Au1 In4 Nd 65.601(19) 2_554 2_554
+Au1 In4 Nd 65.601(19) 2_564 2_554
+Au1 In4 Nd 78.72(3) . 2_554
+In2 In4 Nd 171.18(4) 1_565 2_554
+In3 In4 Nd 64.65(2) 1_554 2_554
+Nd In4 Nd 121.90(2) 1_565 2_554
+Nd In4 Nd 121.90(2) . 2_554
+In3 In4 Nd 57.74(2) 2_564 2_554
+In3 In4 Nd 57.74(2) 2_554 2_554
+Au2 In3 Au1 116.84(3) 1_565 .
+Au2 In3 Au1 109.31(2) 1_565 2_565
+Au1 In3 Au1 106.30(2) . 2_565
+Au2 In3 Au1 109.31(2) 1_565 2
+Au1 In3 Au1 106.30(2) . 2
+Au1 In3 Au1 108.49(3) 2_565 2
+Au2 In3 In4 104.04(3) 1_565 1_556
+Au1 In3 In4 139.12(4) . 1_556
+Au1 In3 In4 56.795(17) 2_565 1_556
+Au1 In3 In4 56.795(17) 2 1_556
+Au2 In3 Nd 67.55(2) 1_565 .
+Au1 In3 Nd 68.36(2) . .
+Au1 In3 Nd 169.87(3) 2_565 .
+Au1 In3 Nd 81.518(14) 2 .
+In4 In3 Nd 132.922(17) 1_556 .
+Au2 In3 Nd 67.55(2) 1_565 1_565
+Au1 In3 Nd 68.36(2) . 1_565
+Au1 In3 Nd 81.518(14) 2_565 1_565
+Au1 In3 Nd 169.87(3) 2 1_565
+In4 In3 Nd 132.922(17) 1_556 1_565
+Nd In3 Nd 88.44(3) . 1_565
+Au2 In3 In4 129.47(2) 1_565 2_565
+Au1 In3 In4 53.228(19) . 2_565
+Au1 In3 In4 53.090(18) 2_565 2_565
+Au1 In3 In4 121.11(3) 2 2_565
+In4 In3 In4 100.64(3) 1_556 2_565
+Nd In3 In4 120.73(3) . 2_565
+Nd In3 In4 63.31(2) 1_565 2_565
+Au2 In3 In4 129.47(2) 1_565 2
+Au1 In3 In4 53.228(19) . 2
+Au1 In3 In4 121.11(3) 2_565 2
+Au1 In3 In4 53.090(18) 2 2
+In4 In3 In4 100.64(3) 1_556 2
+Nd In3 In4 63.31(2) . 2
+Nd In3 In4 120.73(3) 1_565 2
+In4 In3 In4 87.01(3) 2_565 2
+Au2 In3 In1 56.77(2) 1_565 2
+Au1 In3 In1 132.743(19) . 2
+Au1 In3 In1 120.15(3) 2_565 2
+Au1 In3 In1 52.720(19) 2 2
+In4 In3 In1 70.37(2) 1_556 2
+Nd In3 In1 66.91(2) . 2
+Nd In3 In1 124.06(3) 1_565 2
+In4 In3 In1 170.80(4) 2_565 2
+In4 In3 In1 92.706(16) 2 2
+Au2 In3 In1 56.77(2) 1_565 2_565
+Au1 In3 In1 132.743(19) . 2_565
+Au1 In3 In1 52.720(19) 2_565 2_565
+Au1 In3 In1 120.15(3) 2 2_565
+In4 In3 In1 70.37(2) 1_556 2_565
+Nd In3 In1 124.06(3) . 2_565
+Nd In3 In1 66.91(2) 1_565 2_565
+In4 In3 In1 92.706(16) 2_565 2_565
+In4 In3 In1 170.80(4) 2 2_565
+In1 In3 In1 86.11(3) 2 2_565
+Au2 In3 Nd 168.05(3) 1_565 2
+Au1 In3 Nd 75.11(2) . 2
+Au1 In3 Nd 64.962(19) 2_565 2
+Au1 In3 Nd 64.962(19) 2 2
+In4 In3 Nd 64.01(2) 1_556 2
+Nd In3 Nd 119.94(2) . 2
+Nd In3 Nd 119.94(2) 1_565 2
+In4 In3 Nd 56.66(2) 2_565 2
+In4 In3 Nd 56.66(2) 2 2
+In1 In3 Nd 115.85(3) 2 2
+In1 In3 Nd 115.85(3) 2_565 2
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Au1 In4 2.7997(6) 2_565
+Au1 In4 2.7997(6) 2
+Au1 In1 2.8026(11) .
+Au1 In4 2.8037(10) .
+Au1 In3 2.8052(10) .
+Au1 In3 2.8412(6) 2_554
+Au1 In3 2.8412(6) 2_564
+Au1 Nd 3.4583(7) .
+Au1 Nd 3.4583(7) 1_565
+Au2 In3 2.7636(10) 1_545
+Au2 In2 2.7780(6) 5_535
+Au2 In2 2.7780(6) 5_545
+Au2 In1 2.7823(10) 6_546
+Au2 In2 2.8567(10) .
+Au2 In1 2.9689(7) 2
+Au2 In1 2.9689(7) 2_545
+Au2 Nd 3.4044(6) 1_545
+Au2 Nd 3.4044(6) .
+Nd In4 3.2590(8) 1_545
+Nd In4 3.2590(8) .
+Nd In2 3.2731(8) .
+Nd In2 3.2731(8) 1_565
+Nd In3 3.3061(8) .
+Nd In3 3.3061(8) 1_545
+Nd In2 3.3683(11) 5_545
+Nd Au2 3.4044(6) 1_565
+Nd Au1 3.4583(7) 1_545
+Nd In4 3.4930(11) 2
+In1 Au2 2.7823(10) 6_666
+In1 Au2 2.9689(7) 2_544
+In1 Au2 2.9689(7) 2_554
+In1 In2 3.1721(13) 6_665
+In1 In3 3.3774(9) 2_554
+In1 In3 3.3774(9) 2_564
+In1 Nd 3.6848(12) 2_554
+In2 Au2 2.7780(6) 5_535
+In2 Au2 2.7780(6) 5_545
+In2 In4 2.9655(13) 1_545
+In2 In1 3.1721(13) 6_545
+In2 Nd 3.2731(8) 1_545
+In2 Nd 3.3682(11) 5_545
+In2 In2 3.3699(13) 5_545
+In2 In2 3.3699(13) 5_535
+In4 Au1 2.7997(6) 2_554
+In4 Au1 2.7997(6) 2_564
+In4 In2 2.9655(13) 1_565
+In4 In3 3.0346(13) 1_554
+In4 Nd 3.2590(8) 1_565
+In4 In3 3.3493(9) 2_564
+In4 In3 3.3493(9) 2_554
+In4 Nd 3.4930(11) 2_554
+In3 Au2 2.7636(10) 1_565
+In3 Au1 2.8412(6) 2_565
+In3 Au1 2.8412(6) 2
+In3 In4 3.0346(13) 1_556
+In3 Nd 3.3061(8) 1_565
+In3 In4 3.3493(9) 2_565
+In3 In4 3.3493(9) 2
+In3 In1 3.3774(9) 2
+In3 In1 3.3774(9) 2_565
+In3 Nd 3.5118(11) 2

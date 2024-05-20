@@ -1,0 +1,317 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/74/2007415.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007415
+loop_
+_publ_author_name
+'Ulutagay, Mutlu'
+'Schimek, George L.'
+'Hwu, Shiou-Jyh'
+_publ_section_title
+;
+ A Niobium(V) Arsenate: Nb~9~AsO~25~
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              898
+_journal_page_last               900
+_journal_paper_doi               10.1107/S0108270198000134
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_sum            'As Nb9 O25'
+_chemical_formula_weight         1311.1
+_chemical_name_systematic        'Nonaniobium arsenic pentacosaoxide,'
+_space_group_IT_number           87
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4'
+_symmetry_space_group_name_H-M   'I 4/m'
+_atom_type_scat_source
+'International Tables for X-ray Crystallography (Vol. IV)'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   15.6684(8)
+_cell_length_b                   15.6684(8)
+_cell_length_c                   3.8290(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      16.4
+_cell_measurement_theta_min      12.2
+_cell_volume                     940.0(3)
+_computing_cell_refinement       'Siemens P3 diffractometer system'
+_computing_data_collection       'Siemens P3 diffractometer system'
+_computing_data_reduction        'SHELXTL-Plus (Sheldrick, 1990)'
+_computing_molecular_graphics    SHELXTL-Plus
+_computing_structure_refinement  SHELXTL-Plus
+_computing_structure_solution    SHELXTL-Plus
+_diffrn_ambient_temperature      298
+_diffrn_measurement_device       'Rigaku AFC-7 diffractometer'
+_diffrn_measurement_method       \w--2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         '18 kW rotating anode'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0271
+_diffrn_reflns_limit_h_max       20
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -4
+_diffrn_reflns_number            1152
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         1.78
+_diffrn_standards_decay_%        -0.2
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.149
+_exptl_absorpt_correction_T_max  0.84
+_exptl_absorpt_correction_T_min  0.42
+_exptl_absorpt_correction_type   'empirical via \y scans (Sheldrick, 1990)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    4.632
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             1204
+_exptl_crystal_size_max          0.120
+_exptl_crystal_size_mid          0.072
+_exptl_crystal_size_min          0.024
+_refine_diff_density_max         0.93
+_refine_diff_density_min         -1.06
+_refine_ls_extinction_coef       0.00028(5)
+_refine_ls_extinction_method     'Larson (1970)'
+_refine_ls_goodness_of_fit_obs   1.69
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     57
+_refine_ls_number_reflns         559
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0295
+_refine_ls_R_factor_obs          .0259
+_refine_ls_shift/esd_max         0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F)+0.0005F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0528
+_refine_ls_wR_factor_obs         .0522
+_reflns_number_observed          559
+_reflns_number_total             620
+_reflns_observed_criterion       F>4\s(F)
+_cod_data_source_file            br1199.cif
+_cod_data_source_block           structure
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s^2^(F)+0.0005F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s^2^(F)+0.0005F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        940.1(3)
+_cod_original_sg_symbol_H-M      'I 4/m '
+_cod_original_formula_sum        'Nb9 As1 O25 '
+_cod_database_code               2007415
+loop_
+_symmetry_equiv_pos_as_xyz
+'  +x,  +y,  +z'
+'  1/2+x,  1/2+y,  1/2+z'
+'  -x,  -y,  -z'
+'  1/2-x,  1/2-y,  1/2-z'
+'  -x,  -y,  +z'
+'  1/2-x,  1/2-y,  1/2+z'
+'  +x,  +y,  -z'
+'  1/2+x,  1/2+y,  1/2-z'
+'  -y,  +x,  +z'
+'  1/2-y,  1/2+x,  1/2+z'
+'  +y,  -x,  -z'
+'  1/2+y,  1/2-x,  1/2-z'
+'  +y,  -x,  +z'
+'  1/2+y,  1/2-x,  1/2+z'
+'  -y,  +x,  -z'
+'  1/2-y,  1/2+x,  1/2-z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Nb(1) .0070(10) .0070(10) .004(3) 0 0 0 Nb
+Nb(2) .0060(10) .0050(10) .0060(10) .0000(10) 0 0 Nb
+Nb(3) .0050(10) .0060(10) .0070(10) .0010(10) 0 0 Nb
+As .0060(10) .0060(10) .0080(10) 0 0 0 As
+O(1) .028(4) .028(4) .004(6) 0 0 0 O
+O(2) .016(3) .008(3) .017(3) -.002(2) 0 0 O
+O(3) .011(3) .010(2) .018(3) .002(2) 0 0 O
+O(4) .014(3) .005(2) .009(3) -.005(2) 0 0 O
+O(5) .009(2) .005(2) .007(3) -.004(2) 0 0 O
+O(6) .005(2) .011(3) .024(3) .004(2) 0 0 O
+O(7) .008(2) .009(2) .015(3) -.002(2) 0 0 O
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+Nb(1) 0 0 .0525(2) .0060(10) Uani d . .5
+Nb(2) .10780(10) .21810(10) 0 .0060(10) Uani d . 1.0
+Nb(3) -.11560(10) .32790(10) 0 .0060(10) Uani d . 1.0
+As 0 .5 -.25 .0070(10) Uani d . .5
+O(1) 0 0 .5 .020(3) Uani d . 1.0
+O(2) .0506(3) .1174(3) 0 .014(2) Uani d . 1.0
+O(3) .2175(3) .1756(3) 0 .013(2) Uani d . 1.0
+O(4) .1575(3) .3531(3) 0 .0090(10) Uani d . 1.0
+O(5) .1114(3) .2518(3) -.5 .0070(10) Uani d . 1.0
+O(6) -.0122(3) .2823(3) 0 .013(2) Uani d . 1.0
+O(7) -.0748(3) .4499(3) 0 .0100(10) Uani d . 1.0
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+4 -2 0
+3 2 -2
+1 0 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O(1) Nb(1) O(1) . 1_554 180.00(10) yes
+O(1) Nb(1) O(2) . . 95.70(10) yes
+O(1) Nb(1) O(2) . 3_555 95.70(10) no
+O(1) Nb(1) O(2) . 9_555 95.70(10) no
+O(1) Nb(1) O(2) . 11_555 95.70(10) no
+O(2) Nb(1) O(1) . 1_554 84.30(10) yes
+O(2) Nb(1) O(1) 3_555 1_554 84.30(10) no
+O(2) Nb(1) O(1) 9_555 1_554 84.30(10) no
+O(2) Nb(1) O(1) 11_555 1_554 84.30(10) no
+O(2) Nb(1) O(2) . 9_555 89.40(10) yes
+O(2) Nb(1) O(2) . 11_555 89.40(10) no
+O(2) Nb(1) O(2) 3_555 9_555 89.40(10) yes
+O(2) Nb(1) O(2) 3_555 11_555 89.40(10) no
+O(2) Nb(1) O(2) . 3_555 168.5(3) yes
+O(2) Nb(1) O(2) 9_555 11_555 168.5(3) no
+O(2) Nb(2) O(3) . . 98.4(2) yes
+O(2) Nb(2) O(4) . . 170.6(2) yes
+O(2) Nb(2) O(5) . . 104.20(10) yes
+O(2) Nb(2) O(5) . 1_556 104.20(10) no
+O(2) Nb(2) O(6) . . 88.6(2) yes
+O(3) Nb(2) O(4) . . 91.0(2) yes
+O(3) Nb(2) O(5) . . 94.00(10) yes
+O(3) Nb(2) O(5) . 1_556 94.00(10) no
+O(3) Nb(2) O(6) . . 173.0(2) yes
+O(4) Nb(2) O(5) . . 75.00(10) yes
+O(4) Nb(2) O(5) . 1_556 75.00(10) no
+O(4) Nb(2) O(6) . . 82.1(2) yes
+O(5) Nb(2) O(5) . 1_556 149.0(3) yes
+O(6) Nb(2) O(5) . . 84.20(10) yes
+O(6) Nb(2) O(5) . 1_556 84.20(10) no
+O(3) Nb(3) O(4) 9_555 12_455 89.0(2) yes
+O(3) Nb(3) O(4) 9_555 12_454 89.0(2) no
+O(3) Nb(3) O(5) 9_555 12_454 86.0(2) yes
+O(4) Nb(3) O(4) 12_454 12_455 148.3(3) yes
+O(5) Nb(3) O(4) 12_454 12_454 74.20(10) yes
+O(5) Nb(3) O(4) 12_454 12_455 74.20(10) no
+O(6) Nb(3) O(3) . 9_555 94.8(2) yes
+O(6) Nb(3) O(4) . 12_455 105.80(10) yes
+O(6) Nb(3) O(4) . 12_454 105.80(10) no
+O(6) Nb(3) O(5) . 12_454 179.20(10) yes
+O(6) Nb(3) O(7) . . 95.3(2) yes
+O(7) Nb(3) O(3) . 9_555 169.9(2) yes
+O(7) Nb(3) O(4) . 12_455 88.2(2) yes
+O(7) Nb(3) O(4) . 12_454 88.2(2) no
+O(7) Nb(3) O(5) . 12_454 83.9(2) yes
+Nb(1) O(1) Nb(1) . 1_556 180.00(10) no
+Nb(1) O(2) Nb(2) . . 171.5(2) no
+Nb(2) O(3) Nb(3) . 11_555 172.6(3) no
+Nb(2) O(4) Nb(3) . 10_555 105.80(10) no
+Nb(2) O(5) Nb(3) . 10_554 104.70(10) no
+Nb(2) O(5) Nb(2) . 1_554 149.0(3) no
+Nb(2) O(6) Nb(3) . . 175.7(3) no
+Nb(3) O(4) Nb(3) 10_555 10_554 148.3(3) no
+Nb(3) O(7) As . . 130.9(2) no
+O(7) As O(7) . 10_554 108.40(10) yes
+O(7) As O(7) . 12_454 108.40(10) no
+O(7) As O(7) 3_565 10_554 108.40(10) no
+O(7) As O(7) 3_565 12_454 108.40(10) no
+O(7) As O(7) . 3_565 111.7(2) yes
+O(7) As O(7) . 12_454 111.7(2) no
+O(7) As As . 3_565 55.80(10) no
+As As O(7) 3_564 3_565 55.80(10) no
+As As O(7) 3_564 10_554 55.80(10) no
+As As O(7) 3_564 12_454 55.80(10) no
+O(7) As As . 3_564 124.20(10) no
+As As O(7) 3_564 3_564 124.20(10) no
+As As O(7) 3_564 10_554 124.20(10) no
+As As O(7) 3_564 12_454 124.20(10) no
+As O(7) As . 3_565 68.3(2) no
+As As As 3_564 3_565 180.00(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb(1) O(1) . . 1.714(5) yes
+Nb(1) O(1) . 1_554 2.115(5) yes
+Nb(1) O(2) . . 2.012(5) yes
+Nb(1) O(2) . 3_555 2.012(5) no
+Nb(1) O(2) . 9_555 2.012(5) no
+Nb(1) O(2) . 11_555 2.012(5) no
+Nb(2) O(2) . . 1.816(5) yes
+Nb(2) O(3) . . 1.843(5) yes
+Nb(2) O(4) . . 2.253(5) yes
+Nb(2) O(5) . . 1.9870(10) yes
+Nb(2) O(5) . 1_556 1.9870(10) no
+Nb(2) O(6) . . 2.132(5) yes
+Nb(3) O(3) . 9_555 1.970(5) yes
+Nb(3) O(4) . 12_455 1.990(2) yes
+Nb(3) O(4) . 12_454 1.990(2) no
+Nb(3) O(5) . 12_454 2.286(5) yes
+Nb(3) O(6) . . 1.770(5) yes
+Nb(3) O(7) . . 2.015(5) yes
+Nb(1) Nb(2) . . 3.818(5) yes
+Nb(2) Nb(3) . 10 3.387(5) yes
+Nb(2) Nb(3) . 11_555 3.804(5) yes
+As O(7) . . 1.705(4) yes
+As O(7) . 3_565 1.705(4) no
+As O(7) . 10_554 1.705(4) no
+As O(7) . 12_454 1.705(4) no
+Nb(1) Nb(1) . 3_555 .402(10) no
+As As . 3_565 1.9140(10) no
+As As . 3_564 1.9150(10) no

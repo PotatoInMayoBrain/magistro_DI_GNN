@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/26/9012684.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012684
+loop_
+_publ_author_name
+'Rastsvetaeva, R. K.'
+'Sidorenko, G. A.'
+'Ivanova, A. G.'
+'Chukanov, N. V.'
+_publ_section_title
+;
+ Structural model of uramarsite
+;
+_journal_name_full               'Crystallography Reports'
+_journal_page_first              771
+_journal_page_last               774
+_journal_paper_doi               10.1134/S1063774508050076
+_journal_volume                  53
+_journal_year                    2008
+_chemical_compound_source        'South Kazakhstan'
+_chemical_formula_sum            'As1.22 H12.72 N1.15 Na0.09 O18 P0.78 U2'
+_chemical_name_mineral           Uramarsite
+_space_group_IT_number           1
+_symmetry_space_group_name_Hall  'P 1'
+_symmetry_space_group_name_H-M   'P 1'
+_cell_angle_alpha                90.13
+_cell_angle_beta                 90.09
+_cell_angle_gamma                89.96
+_cell_formula_units_Z            1
+_cell_length_a                   7.173
+_cell_length_b                   7.167
+_cell_length_c                   9.30
+_cell_volume                     478.101
+_database_code_amcsd             0012412
+_exptl_crystal_density_diffrn    3.163
+_cod_original_formula_sum        'N1.15 H12.72 Na.09 U2 As1.22 P.78 O18'
+_cod_database_code               9012684
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NH4 0.65400 0.33900 0.73800 1.00000 N 0
+H3O 0.67000 0.74700 0.69200 0.72000 H 0
+NH4 0.67000 0.74700 0.69200 0.15000 N 0
+Na 0.67000 0.74700 0.69200 0.09000 Na 0
+U1 0.03400 0.06100 0.00200 1.00000 U 0
+U2 0.53500 0.55700 0.19900 1.00000 U 0
+As 0.53200 0.06000 0.10100 1.00000 As 0
+PP 0.03200 0.55800 0.10300 0.78000 P 0
+AsP 0.03200 0.55800 0.10300 0.22000 As 0
+O1 0.53700 0.55400 0.00500 1.00000 O 0
+O2 0.03900 0.74900 -0.00300 1.00000 O 0
+O3 0.71800 0.06100 0.00000 1.00000 O 0
+O4 0.02100 0.37500 0.00300 1.00000 O 0
+O5 0.54100 0.24900 0.20900 1.00000 O 0
+O6 0.03800 0.00000 0.80900 1.00000 O 0
+O7 0.35700 0.06500 -0.00500 1.00000 O 0
+O8 0.49800 0.87400 0.20700 1.00000 O 0
+O9 0.00000 0.00000 0.20000 1.00000 O 0
+O10 0.85400 0.54800 0.21000 1.00000 O 0
+O11 0.18000 0.55000 0.22000 1.00000 O 0
+O12 0.51300 0.50900 0.39100 1.00000 O 0
+Wat1 0.73900 0.10900 0.49800 1.00000 O 2
+Wat2 0.27900 0.22200 0.44900 1.00000 O 2
+Wat3 0.27900 0.39600 0.74200 1.00000 O 2
+Wat4 0.15400 0.75800 0.56900 1.00000 O 2
+Wat5 0.30600 0.71200 0.79400 1.00000 O 2
+Wat6 0.46400 0.02300 0.55200 1.00000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:13+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012412

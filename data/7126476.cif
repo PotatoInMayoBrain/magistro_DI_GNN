@@ -1,0 +1,218 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-12-12 12:54:25 +0200 (Tue, 12 Dec 2023) $
+#$Revision: 288246 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/12/64/7126476.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7126476
+loop_
+_publ_author_name
+'Funnell, Nicholas P.'
+'Bull, Craig L.'
+'Ridley, Christopher J.'
+'Parsons, Simon'
+'Tellam, James P.'
+_publ_section_title
+;
+ Alloxan under pressure-squeezing an extremely dense molecular crystal
+ structure.
+;
+_journal_issue                   47
+_journal_name_full               'Chemical communications (Cambridge, England)'
+_journal_page_first              6428
+_journal_page_last               6431
+_journal_paper_doi               10.1039/d0cc02418j
+_journal_volume                  56
+_journal_year                    2020
+_chemical_compound_source        Sigma-Aldrich
+_chemical_formula_moiety         'C4 O4 N2 H1.50 D0.50'
+_chemical_formula_structural     'C4 O4 N2 H1.50 D0.50'
+_chemical_formula_sum            'C4 H1.5 D0.5 N2 O4'
+_chemical_formula_weight         142.58
+_chemical_name_common            alloxan
+_chemical_name_systematic        pyrimidine-2,4,5,6-tetraone
+_space_group_crystal_system      tetragonal
+_space_group_IT_number           92
+_space_group_name_Hall           'P 4abw 2nw'
+_space_group_name_H-M_alt        'P 41 21 2'
+_symmetry_Int_Tables_number      92
+_symmetry_space_group_name_Hall  'P 4abw 2nw'
+_symmetry_space_group_name_H-M   'P 41 21 2'
+_audit_update_record
+;
+2020-04-03 deposited with the CCDC.	2020-05-01 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.7051(6)
+_cell_length_b                   5.7051(6)
+_cell_length_c                   13.6603(17)
+_cell_measurement_pressure       1.92173
+_cell_measurement_temperature    293.00000
+_cell_volume                     444.62(9)
+_diffrn_ambient_temperature      293.00000
+_diffrn_detector                 'ZnS scintillator'
+_diffrn_detector_type            custom
+_diffrn_measurement_device_type  'PEARL diffractometer'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_type           Neutron
+_diffrn_source                   'Pulsed neutron source'
+_diffrn_source_target            W
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using MANTID routines.
+;
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    2.130
+_pd_char_colour                  yellow
+_pd_instr_dist_spec/detc         800
+_pd_instr_dist_src/spec          12800
+_pd_instr_location
+'ISIS Neutron Facility. Rutherford Appleton Laboratory'
+_pd_meas_2theta_fixed            90
+_pd_meas_scan_method             Time-of-flight
+_pd_proc_info_data_reduction
+;
+Data reduction performed using Mantid
+;
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr
+;
+No requirement for preferred orientation correction
+;
+_pd_proc_ls_prof_R_factor        2.54328
+_pd_proc_ls_prof_wR_expected     2.76704
+_pd_proc_ls_prof_wR_factor       2.53937
+_pd_spec_mounting                'TiZr Capsule'
+_pd_spec_mount_mode              transmission
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   0.91772
+_refine_ls_matrix_type           sparse
+_refine_ls_number_parameters     42
+_refine_ls_R_I_factor            2.16516
+_refine_ls_shift/su_max          <0.01
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            d0cc02418j3.cif
+_cod_data_source_block           Alloxan_1p92GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_space_group_crystal_system' value 'Tetragonal' was
+changed to 'tetragonal' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+
+ Adding full bibliography for 7126474--7126482.cif.
+;
+_cod_original_cell_volume        444.62(10)
+_cod_original_sg_symbol_H-M      P41212
+_cod_original_formula_sum        'C4 O4 N2 H1.50 D0.50'
+_cod_database_code               7126476
+_pr_proc_ls_profile_function
+;
+Voigt function convoluted with a back-to-back double exponential.
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x+1/2, y+1/2, -z+1/4 '
+'-y, -x, -z+1/2 '
+'-y+1/2, x+1/2, z+1/4 '
+'y, x, -z '
+'y+1/2, -x+1/2, z-1/4 '
+'-x, -y, z+1/2 '
+'x+1/2, -y+1/2, -z-1/4 '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_adp_type
+_atom_site_B_iso_or_equiv
+H1 H 0.1615(10) -0.2422(10) -0.1019(4) 0.748(6) 8 Biso 0.45(19)
+D1 D 0.1601(10) -0.2277(10) -0.0979(4) 0.252(6) 8 Biso 0.45(19)
+N1 N 0.1454(9) -0.0774(9) -0.0563(2) 1 8 Biso 0.30(12)
+C1 C -0.0548(8) -0.0548(8) 0.000 1 4 Biso 0.17(7)
+C2 C 0.3254(9) 0.0794(9) -0.0621(3) 1 8 Biso 0.17(7)
+C3 C 0.2990(8) 0.2990(8) 0.000 1 4 Biso 0.17(7)
+O1 O -0.2067(8) -0.2067(8) 0.000 1 4 Biso 0.25(11)
+O2 O 0.4959(10) 0.0458(10) -0.1137(5) 1 8 Biso 0.25(11)
+O3 O 0.4470(8) 0.4470(8) 0.000 1 4 Biso 0.25(11)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C(1) N(1) C(2) 126.4(4) . . . no
+O(1) C(1) N(1) 121.2(4) . . . no
+O(1) C(1) N(1) 121.2(4) . . . no
+N(1) C(1) N(1) 117.6(4) . . . no
+O(2) C(2) N(1) 122.2(5) . . . no
+O(2) C(2) C(3) 122.2(5) . . . no
+N(1) C(2) C(3) 115.7(4) . . . no
+O(3) C(3) C(2) 120.8(4) . . . no
+O(3) C(3) C(2) 120.8(4) . . . no
+C(2) C(3) C(2) 118.3(4) . . . no
+C(1) N(1) H(1) 116.8(5) . . . no
+C(1) N(1) D(1) 116.8(6) . . . no
+C(2) N(1) H(1) 116.9(5) . . . no
+C(2) N(1) D(1) 116.9(5) . . . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O(1) C(1) 1.226(6) . . no
+O(2) C(2) 1.217(8) . . no
+O(3) C(3) 1.194(6) . . no
+N(1) C(1) 1.383(6) . . no
+N(1) C(2) 1.364(7) . . no
+C(2) C(3) 1.521(6) . . no
+N(1) H(1) 1.132(7) . . no
+N(1) D(1) 1.032(7) . . no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+C(2) N(1) C(1) O(1) 180.0(4) . . . . no
+C(2) N(1) C(1) N(1) 0.0(6) . . . . no
+C(1) N(1) C(2) O(2) 180.0(5) . . . . no
+C(1) N(1) C(2) C(3) 0.1(6) . . . . no
+O(2) C(2) C(3) O(3) 0.0(7) . . . . no
+O(2) C(2) C(3) C(2) 180.0(5) . . . . no
+N(1) C(2) C(3) O(3) 180.0(4) . . . . no
+N(1) C(2) C(3) C(2) 0.0(5) . . . . no
+H(1) N(1) C(1) O(1) 0.1(6) . . . . no
+H(1) N(1) C(1) N(1) 179.9(5) . . . . no
+H(1) N(1) C(2) O(2) 0.1(8) . . . . no
+H(1) N(1) C(2) C(3) 180.0(4) . . . . no

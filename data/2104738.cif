@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/47/2104738.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104738
+loop_
+_publ_author_name
+'Elliot, Alexander Dean'
+_publ_section_title
+;
+ Structure of pyrrhotite 5<i>C</i> (Fe~9~S~10~)
+;
+_journal_coeditor_code           KD5037
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              271
+_journal_page_last               279
+_journal_paper_doi               10.1107/S0108768110011845
+_journal_volume                  66
+_journal_year                    2010
+_chemical_formula_structural     'Fe9 S10'
+_chemical_formula_sum            'Fe9 S10'
+_chemical_formula_weight         823.255
+_chemical_name_common            'Pyrrhotite 5C'
+_chemical_name_mineral           'Pyrrhotite 5C'
+_chemical_name_structure_type    Pyrrhotite
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 120.0068(42)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.89967(21)
+_cell_length_b                   28.66865(55)
+_cell_length_c                   6.88177(27)
+_cell_volume                     1178.79(8)
+_exptl_absorpt_coefficient_mu    18.9152(13)
+_exptl_crystal_density_diffrn    4.63896(32)
+_pd_block_id                     2010-05-12T22:18|5Ca2-Strained|A.Elliot|5Ca2
+_pd_proc_ls_profile_function
+;
+Crystallite size and strain modelled with Lorentzian and 
+Gaussian component convolutions
+5Ca2 Strained Phase
+    CS_L(cspyrrhotite5, 402.54198`_23.88845 min =100; max =1000;)
+    Strain_L(spyrrhotite5, 0.26014`_0.00288 min 0.0001 max 1)
+    CS_G(cspyrrhotite5, 402.54198`_23.88845_LIMIT_MIN_100 
+    min =100; max =1000;)
+    Strain_G(spyrrhotite5, 0.26014`_0.00288 min 0.0001 max 1)
+;
+_refine_ls_R_I_factor            0.01171
+_cod_data_source_file            kd5037.cif
+_cod_data_source_block           Pyrrhotite_5C_a2_Strained
+_cod_original_cell_volume        1178.791(81)
+_cod_database_code               2104738
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Fe1 Fe+2 4 0.25 0 0 1 1.866(10)
+Fe2 Fe+2 4 0.25 0.1 0 0.5 1.866(10)
+Fe3 Fe+2 4 0.25 0.2 0 0.5 1.866(10)
+Fe4 Fe+2 4 0.25 0.3 0 1 1.866(10)
+Fe5 Fe+2 4 0.25 0.4 0 1 1.866(10)
+Fe6 Fe+2 4 0.25 0.5 0 1 1.866(10)
+Fe7 Fe+2 4 0.25 0.6 0 1 1.866(10)
+Fe8 Fe+2 4 0.25 0.7 0 1 1.866(10)
+Fe9 Fe+2 4 0.25 0.8 0 1 1.866(10)
+Fe10 Fe+2 4 0.25 0.9 0 1 1.866(10)
+S1 S 4 0.9166667 0.05 0.3333333 1 0.699(10)
+S2 S 4 0.5833333 0.15 0.6666667 1 0.699(10)
+S3 S 4 0.9166667 0.25 0.3333333 1 0.699(10)
+S4 S 4 0.5833333 0.35 0.6666667 1 0.699(10)
+S5 S 4 0.9166667 0.45 0.3333333 1 0.699(10)
+S6 S 4 0.5833333 0.55 0.6666667 1 0.699(10)
+S7 S 4 0.9166667 0.65 0.3333333 1 0.699(10)
+S8 S 4 0.5833333 0.75 0.6666667 1 0.699(10)
+S9 S 4 0.9166667 0.85 0.3333333 1 0.699(10)
+S10 S 4 0.5833333 0.95 0.6666667 1 0.699(10)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Fe2+ Fe2+ 26.368 1.116 'Default dataset used by TOPAS R3'
+S S 16.156 0.167 'Default dataset used by TOPAS R3'

@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/64/9016411.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016411
+loop_
+_publ_author_name
+'Liebscher, A.'
+'Dorsam, G.'
+'Franz, G.'
+'Wunder, B.'
+'Gottschalk, M.'
+_publ_section_title
+;
+ Crystal chemistry of synthetic lawsonite solid-solution series CaAl2
+ [(OH)2/(Si2O7)](H2O)-SrAl2[(OH)2/(Si2O7)](H2O) and the Cmcm-P2_1/m phase transition
+ Note: Run #AU78
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              724
+_journal_page_last               735
+_journal_paper_doi               10.2138/am.2010.3220
+_journal_volume                  95
+_journal_year                    2010
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Al2 Ca0.965 H4 O10 Si2 Sr0.035'
+_chemical_name_mineral           Lawsonite
+_space_group_IT_number           63
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.8415
+_cell_length_b                   8.7916
+_cell_length_c                   13.1360
+_cell_volume                     674.614
+_database_code_amcsd             0018948
+_exptl_crystal_density_diffrn    3.110
+_cod_original_formula_sum        '(Ca.965 Sr.035) Al2 Si2 O10 H4'
+_cod_database_code               9016411
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,y,z
+1/2-x,1/2+y,z
+x,-y,-z
+1/2+x,1/2-y,-z
+x,y,1/2-z
+1/2+x,1/2+y,1/2-z
+-x,-y,1/2+z
+1/2-x,1/2-y,1/2+z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.33280 0.25000 0.96500 Ca 0
+Sr 0.00000 0.33280 0.25000 0.03500 Sr 0
+Al 0.25000 0.25000 0.00000 1.00000 Al 0
+Si 0.00000 0.98090 0.13300 1.00000 Si 0
+O1 0.00000 0.04800 0.25000 1.00000 O 0
+O2 0.27260 0.37960 0.11750 1.00000 O 0
+O3 0.00000 0.13840 0.06520 1.00000 O 0
+O-H4 0.00000 0.63950 0.04890 1.00000 O 1
+Wat5 0.00000 0.60800 0.25000 1.00000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:57:02+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0018948

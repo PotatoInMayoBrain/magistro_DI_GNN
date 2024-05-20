@@ -1,0 +1,160 @@
+#------------------------------------------------------------------------------
+#$Date: 2020-03-17 13:34:05 +0200 (Tue, 17 Mar 2020) $
+#$Revision: 249446 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/32/2103295.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103295
+loop_
+_publ_author_name
+'Jones, G. O.'
+'Thomas, P. A.'
+_publ_section_title
+;
+ Investigation of the structure and phase transitions in the novel
+ A-site substituted distorted perovskite compound Na~0.5~Bi~0.5~TiO~3~
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              168
+_journal_page_last               178
+_journal_paper_doi               10.1107/S0108768101020845
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_sum            'Bi0.5 Na0.5 O3 Ti'
+_chemical_formula_weight         211.88
+_chemical_name_systematic        'sodium bismuth titanate'
+_space_group_IT_number           161
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  'R 3 -2"c'
+_symmetry_space_group_name_H-M   'R 3 c :H'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            6
+_cell_length_a                   5.4887(2)
+_cell_length_b                   5.4887(2)
+_cell_length_c                   13.5048(8)
+_cell_volume                     352.34(3)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      273
+_diffrn_measurement_method       step
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.594
+_exptl_crystal_colour            yellow
+_exptl_crystal_description       powder
+_refine_ls_goodness_of_fit_all   0.323
+_refine_ls_number_parameters     42
+_cod_data_source_file            os0082.cif
+_cod_data_source_block           293K
+_cod_depositor_comments
+;
+ There is a discrepancy between the number (apparently the measurement
+ temparature) given in the title of the original datablock (293K), and
+ the value provided for the '_diffrn_ambient_temperature' tag
+ (273). Apparently, one of these values is mistyped. In the COD
+ deposition, the tag value is retained, and the entry is flagged with
+ a warning for this reason. The other two datablocks in this entry
+ have matching values in the '_diffrn_ambient_temperature' tag and in
+ the respective datablock headers. The problem is detected in the
+ suplementary data file os0082.cif for the Acta Cryst B paper os0082
+ as of 2008-06-06.
+
+ Saulius Gra\<zulis
+;
+loop_
+_cod_entry_issue_id
+_cod_entry_issue_origin
+_cod_entry_issue_severity
+1 original warning
+_cod_original_cell_volume        352.33(3)
+_cod_original_sg_symbol_H-M      'R 3 c'
+_cod_original_formula_sum        'Na0.5 Bi0.5 Ti O3'
+_cod_database_code               2103295
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-y,x-y,+z
+y-x,-x,+z
+y-x,+y,+z+1/2
+-y,-x,+z+1/2
++x,x-y,+z+1/2
++x+1/3,+y+2/3,+z+2/3
+-y+1/3,x-y+2/3,+z+2/3
+y-x+1/3,-x+2/3,+z+2/3
+y-x+1/3,+y+2/3,+z+1/6
+-y+1/3,-x+2/3,+z+1/6
++x+1/3,x-y+2/3,+z+1/6
++x+2/3,+y+1/3,+z+1/3
+-y+2/3,x-y+1/3,+z+1/3
+y-x+2/3,-x+1/3,+z+1/3
+y-x+2/3,+y+1/3,+z+5/6
+-y+2/3,-x+1/3,+z+5/6
++x+2/3,x-y+1/3,+z+5/6
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na1 .022(3) .011(2) .0 .022(3) .036(9) .0
+Bi2 .036(2) .0180(10) .0 .036(2) .091(6) .0
+Ti3 .011(2) .0060(10) .0 .011(2) .009(3) .0
+O4 .031(3) .014(3) -.0110(10) .0060(10) .0480(10) -.004(3)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Na1 .0 .0 .2627(6) .02672 Uani .5
+Bi2 .0 .0 .2627(6) .05411 Uani .5
+Ti3 .0 .0 .0063(6) .01032 Uani 1.0
+O4 .1260(10) .3360(10) .0833000 .0266 Uani 1.0
+loop_
+_atom_type_symbol
+Na
+Bi
+Ti
+O
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+Ti Na1 Ti 71.8430(10)
+Ti Na1 Ti 110.7530(10)
+Ti Na1 O 71.843000
+Ti Na1 O 93.911(5)
+Ti Na1 O 37.3960(10)
+Ti Na1 O 91.476000
+Ti Na1 O 36.6810(10)
+Ti Na1 O 147.138000
+Ti Na1 O 35.0570(10)
+Ti Na1 O 88.031(2)
+Ti Na1 O 96.329(2)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Na1 O 2.91047(12)
+Na1 O 2.52032(7)
+Na1 O 2.97923(8)
+Na1 O 2.61675(10)
+Na1 Ti 3.4624(2)
+Na1 Ti 3.29003(19)
+Na1 Ti 3.39260(8)
+Na1 Ti 3.33494(8)

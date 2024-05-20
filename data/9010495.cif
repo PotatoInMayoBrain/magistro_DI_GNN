@@ -1,0 +1,111 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/04/9010495.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010495
+loop_
+_publ_author_name
+'Fischer, R. X.'
+'Kahlenberg, V.'
+'Lengauer, C. L.'
+'Tillmanns, E.'
+_publ_section_title
+;
+ Thermal behavior and structural transformation in the chabazite-type zeolite
+ willhendersonite, KCaAl3Si3O12*5H2O
+ Note: T = 373K
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1317
+_journal_page_last               1325
+_journal_paper_doi               10.2138/am.2008.2745
+_journal_volume                  93
+_journal_year                    2008
+_chemical_compound_source        'Mayen, Eifel district, Germany'
+_chemical_formula_sum            'Al3 Ca0.987 H4.68 K1.537 O15.82 Si3'
+_chemical_name_mineral           Willhendersonite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                92.550
+_cell_angle_beta                 93.086
+_cell_angle_gamma                90.519
+_cell_formula_units_Z            2
+_cell_length_a                   9.205
+_cell_length_b                   9.231
+_cell_length_c                   9.442
+_cell_volume                     800.290
+_database_code_amcsd             0004628
+_diffrn_ambient_temperature      373
+_exptl_crystal_density_diffrn    2.169
+_cod_original_formula_sum        'K1.537 Ca.987 Al3 Si3 O15.82 H4.68'
+_cod_database_code               9010495
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K1 0.47810 0.97400 0.48320 0.42700 0.06400 K 0
+K2 0.49280 0.55760 0.14000 1.00000 0.09600 K 0
+K3 0.49100 0.54600 0.04700 0.11000 0.11000 K 0
+Ca 0.20480 0.20780 0.21200 0.98700 0.02010 Ca 0
+Al12a 0.34630 0.09650 0.85250 1.00000 0.01520 Al 0
+Al12b 0.89240 0.31090 0.09210 1.00000 0.01560 Al 0
+Al12c 0.08950 0.84700 0.34300 1.00000 0.01530 Al 0
+Si11a 0.31170 0.89990 0.11100 1.00000 0.01540 Si 0
+Si11b 0.11140 0.34840 0.85650 1.00000 0.01490 Si 0
+Si11c 0.85090 0.10250 0.33980 1.00000 0.01470 Si 0
+O11 0.75170 0.23620 0.98420 1.00000 0.02340 O 0
+O12 0.69240 0.05550 0.26490 1.00000 0.02030 O 0
+O13 0.97380 0.31510 0.74420 1.00000 0.01930 O 0
+O21 0.15780 0.51690 0.85020 1.00000 0.02280 O 0
+O22 0.47250 0.86160 0.17230 1.00000 0.02390 O 0
+O23 0.82450 0.18660 0.49190 1.00000 0.02110 O 0
+O31 0.25260 0.25430 0.81960 1.00000 0.01930 O 0
+O32 0.94170 0.20560 0.23860 1.00000 0.02030 O 0
+O33 0.78840 0.05590 0.75620 1.00000 0.02170 O 0
+O41 0.06330 0.31100 0.01620 1.00000 0.02140 O 0
+O42 0.31220 0.05090 0.02670 1.00000 0.02270 O 0
+O43 0.06140 0.04500 0.63400 1.00000 0.02010 O 0
+Wat1 0.22810 0.46600 0.27730 1.00000 0.05400 O 2
+Wat2 0.46750 0.25780 0.25070 1.00000 0.05500 O 2
+Wat3 0.23980 0.20940 0.47270 1.00000 0.04800 O 2
+Wat4 0.29570 0.53820 0.58740 0.82000 0.09100 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:41:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004628

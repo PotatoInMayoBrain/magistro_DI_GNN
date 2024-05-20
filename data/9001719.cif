@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/17/9001719.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001719
+loop_
+_publ_author_name
+'Groat, L. A.'
+_publ_section_title
+;
+ The crystal structure of namuwite, a mineral with Zn in tetrahedral and
+ octahedral coordination, and its relationship to the synthetic basic zinc
+ sulfates
+ Note: U(1,2) for S has been changed to match symmetry constraints.
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              238
+_journal_page_last               243
+_journal_volume                  81
+_journal_year                    1996
+_chemical_formula_sum            'H6 O14 S Zn4'
+_chemical_name_mineral           Namuwite
+_space_group_IT_number           147
+_symmetry_space_group_name_Hall  '-P 3'
+_symmetry_space_group_name_H-M   'P -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   8.330
+_cell_length_b                   8.330
+_cell_length_c                   10.540
+_cell_volume                     633.375
+_exptl_crystal_density_diffrn    2.746
+_cod_depositor_comments
+;
+
+2017-09-06
+Z value inserted to be consistent with given formula 
+Water oxygen renamed so they are recognized as oxygens.
+                 miguel
+;
+_cod_original_formula_sum        'Zn4 S O14 H6'
+_cod_database_code               9001719
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+y,-x+y,-z
+-x+y,-x,z
+-x,-y,-z
+-y,x-y,z
+x-y,x,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Zn1 0.01380 0.01380 0.06210 0.00690 0.00000 0.00000
+Zn2 0.00880 0.00780 0.06690 0.00280 -0.00090 -0.00090
+S 0.02710 0.02710 0.05570 0.01355 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn1 0.00000 0.00000 0.16720 ? Zn 0
+Zn2 0.13180 0.71340 0.00060 ? Zn 0
+S 0.66667 0.33333 0.27680 ? S 0
+O1 0.66667 0.33333 0.14290 0.02420 O 0
+O2 0.82820 0.50070 0.32390 0.06260 O 0
+O-H1 -0.37300 0.10830 -0.08610 0.02160 O 1
+O-H2 -0.18910 0.06090 0.11690 0.02940 O 1
+O1W 0.00000 0.00000 0.35190 0.06450 O 0
+O2W 0.71730 0.10770 0.60310 0.17900 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:38+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;

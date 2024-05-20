@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009476.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009476
+loop_
+_publ_author_name
+'Szymanski, J. T.'
+'Roberts, A. C.'
+_publ_section_title
+;
+ The crystal structure of voggite, a new hydrated
+ Na-Zr hydroxide-phosphate-carbonate mineral
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              495
+_journal_page_last               500
+_journal_paper_doi               10.1180/minmag.1990.054.376.14
+_journal_volume                  54
+_journal_year                    1990
+_chemical_compound_source        'Francon quarry, Montreal, Quebec, Canada'
+_chemical_formula_sum            'C H5 Na2 O10 P Zr'
+_chemical_name_mineral           Voggite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-I 2y'
+_symmetry_space_group_name_H-M   'I 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 116.19
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   12.261
+_cell_length_b                   6.561
+_cell_length_c                   11.757
+_cell_volume                     848.686
+_database_code_amcsd             0014492
+_exptl_crystal_density_diffrn    2.702
+_cod_original_formula_sum        'Na2 Zr P C O10 H5'
+_cod_database_code               9009476
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+x,-y,z
+1/2+x,1/2-y,1/2+z
+-x,y,-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.52260 0.24340 0.16950 0.03610 Na 0
+Zr 0.15686 0.00000 0.04209 0.00621 Zr 0
+P 0.24436 0.50000 0.12768 0.00760 P 0
+C 0.29100 0.00000 -0.08550 0.01254 C 0
+O1 0.17490 0.31350 0.05010 0.01305 O 0
+O2 0.26240 0.00000 0.24390 0.01229 O 0
+O3 0.37560 0.50000 0.14450 0.01431 O 0
+O4 0.65210 0.00000 0.15160 0.02191 O 0
+O5 0.34120 0.00000 0.03780 0.01558 O 0
+O6 0.17210 0.00000 -0.13700 0.01887 O 0
+O-H 0.01810 0.00000 0.10620 0.01077 O 1
+Wat1 0.50850 0.00000 0.30370 0.02406 O 2
+Wat2 0.63040 0.50000 0.10300 0.02419 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:48+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014492

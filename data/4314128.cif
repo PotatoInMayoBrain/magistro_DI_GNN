@@ -1,0 +1,976 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 02:51:16 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179211 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/41/4314128.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4314128
+loop_
+_publ_author_name
+'Thomas F. F\"assler'
+'Stefan Hoffmann'
+_publ_contact_author_address
+;  Eduard Zintl Institute of Inorganic and Physical Chemistry
+  Technical University Darmstadt
+  Petersenstrasse 18
+  64287 Darmstadt, Germany
+;
+_publ_contact_author_email       faessler@ac.chemie.tu-darmstadt.de
+_publ_contact_author_fax         '+49-(0) 6151 166029'
+_publ_contact_author_name        'T. F. Faessler'
+_publ_contact_author_phone       '+49-(0) 6151 162292'
+_publ_section_title
+;
+ Na7Sn12: A Binary Zintl Phase with a Two-Dimensional Covalently Bonded
+ Tin Framework
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              5474
+_journal_page_last               5476
+_journal_paper_doi               10.1021/ic030148u
+_journal_volume                  42
+_journal_year                    2003
+_chemical_formula_sum            'Na1.17 Sn2'
+_chemical_formula_weight         264.20
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           13
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yac'
+_symmetry_space_group_name_H-M   'P 1 2/n 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.15(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            24
+_cell_length_a                   13.375(3)
+_cell_length_b                   9.3294(19)
+_cell_length_c                   17.976(4)
+_cell_measurement_reflns_used    28042
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.9
+_cell_measurement_theta_min      1.9
+_cell_volume                     2243.1(8)
+_computing_cell_refinement       'Stoe X-Area'
+_computing_data_collection       'Stoe X-Area'
+_computing_data_reduction        'Stoe X-Area'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device_type  'Stoe IPDS II two-circle diffractometer'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0844
+_diffrn_reflns_av_sigmaI/netI    0.0424
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       23
+_diffrn_reflns_limit_l_min       -23
+_diffrn_reflns_number            28042
+_diffrn_reflns_theta_max         27.90
+_diffrn_reflns_theta_min         1.90
+_diffrn_standards_decay_%        0
+_diffrn_standards_number         'none (area detector data)'
+_exptl_absorpt_coefficient_mu    13.220
+_exptl_absorpt_correction_T_max  0.6879
+_exptl_absorpt_correction_T_min  0.0509
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   'X-Shape (Stoe)'
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    4.694
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       rod
+_exptl_crystal_F_000             2708
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.02
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.144
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     178
+_refine_ls_number_reflns         4819
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.144
+_refine_ls_R_factor_all          0.0608
+_refine_ls_R_factor_gt           0.0468
+_refine_ls_shift/su_max          0.038
+_refine_ls_shift/su_mean         0.001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+151.1115P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1009
+_refine_ls_wR_factor_ref         0.1127
+_reflns_number_gt                4019
+_reflns_number_total             4819
+_reflns_threshold_expression     2sigma(I)
+_cod_data_source_file            ic030148u.cif
+_cod_data_source_block           na7sn12
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        2243.0(8)
+_cod_database_code               4314128
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Sn1 Sn 0.41750(8) 0.87695(12) 0.12623(5) 0.0185(2) Uani 1 1 d . . .
+Sn2 Sn 0.08454(7) 0.71858(11) 0.23973(5) 0.0155(2) Uani 1 1 d . . .
+Sn3 Sn 0.74258(7) 0.89427(11) 0.12243(5) 0.0162(2) Uani 1 1 d . . .
+Sn4 Sn 0.92053(7) 0.52403(10) 0.23700(5) 0.0157(2) Uani 1 1 d . . .
+Sn5 Sn 0.91587(7) 0.05785(11) 0.15948(5) 0.0158(2) Uani 1 1 d . . .
+Sn6 Sn 0.25928(7) 0.06268(11) 0.16814(6) 0.0169(2) Uani 1 1 d . . .
+Sn7 Sn 0.08984(8) 0.90068(11) 0.11219(5) 0.0177(2) Uani 1 1 d . . .
+Sn8 Sn 0.57486(7) 0.05996(11) 0.17663(5) 0.0175(2) Uani 1 1 d . . .
+Sn9 Sn 0.53558(8) 0.35496(12) 0.12854(6) 0.0204(2) Uani 1 1 d . . .
+Sn10 Sn 0.30509(8) 0.35877(12) 0.11852(6) 0.0191(2) Uani 1 1 d . . .
+Sn11 Sn 0.91329(8) 0.35104(11) 0.10117(5) 0.0185(2) Uani 1 1 d . . .
+Sn12 Sn 0.7500 0.71230(15) 0.2500 0.0155(3) Uani 1 2 d S . .
+Sn13 Sn 0.2500 0.52678(15) 0.2500 0.0157(3) Uani 1 2 d S . .
+Na1 Na 0.0884(5) 0.2678(7) 0.2197(4) 0.0234(13) Uani 1 1 d . . .
+Na2 Na 0.1029(5) 0.5560(8) 0.0744(4) 0.0300(15) Uani 1 1 d . . .
+Na3 Na 0.7216(6) 0.5553(8) 0.0789(5) 0.0391(18) Uani 1 1 d . . .
+Na4 Na 0.0954(6) 0.1845(8) 0.0119(4) 0.0398(18) Uani 1 1 d . . .
+Na5 Na 0.4196(7) 0.1466(10) 0.0086(4) 0.047(2) Uani 1 1 d . . .
+Na6 Na 0.7316(6) 0.1836(9) 0.0201(5) 0.0434(19) Uani 1 1 d . . .
+Na7 Na 0.7500 0.2670(9) 0.2500 0.0157(16) Uani 1 2 d S . .
+Na8 Na 0.4451(13) 0.5890(18) 0.0452(10) 0.048(4) Uani 0.50 1 d P . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Sn1 0.0176(5) 0.0227(5) 0.0151(4) -0.0002(4) 0.0005(4) 0.0026(4)
+Sn2 0.0134(4) 0.0149(5) 0.0183(5) -0.0006(4) 0.0004(4) -0.0003(4)
+Sn3 0.0143(5) 0.0184(5) 0.0160(4) -0.0005(4) 0.0007(3) -0.0004(4)
+Sn4 0.0120(4) 0.0152(5) 0.0200(5) -0.0008(4) 0.0005(4) 0.0009(4)
+Sn5 0.0128(4) 0.0149(5) 0.0199(5) -0.0005(4) 0.0004(4) -0.0015(4)
+Sn6 0.0123(4) 0.0162(5) 0.0221(5) -0.0012(4) 0.0010(4) 0.0003(4)
+Sn7 0.0170(5) 0.0176(5) 0.0184(5) 0.0002(4) 0.0010(4) -0.0005(4)
+Sn8 0.0158(5) 0.0171(5) 0.0196(5) -0.0021(4) 0.0018(4) 0.0010(4)
+Sn9 0.0169(5) 0.0228(5) 0.0217(5) -0.0022(4) 0.0042(4) -0.0035(4)
+Sn10 0.0173(5) 0.0204(5) 0.0195(5) -0.0018(4) -0.0007(4) 0.0020(4)
+Sn11 0.0187(5) 0.0186(5) 0.0181(5) 0.0022(4) -0.0019(4) 0.0002(4)
+Sn12 0.0136(6) 0.0153(7) 0.0176(6) 0.000 0.0011(5) 0.000
+Sn13 0.0121(6) 0.0142(7) 0.0207(7) 0.000 0.0026(5) 0.000
+Na1 0.017(3) 0.024(3) 0.029(3) -0.004(3) -0.002(2) 0.001(3)
+Na2 0.033(4) 0.029(4) 0.028(3) 0.001(3) 0.002(3) -0.003(3)
+Na3 0.032(4) 0.032(4) 0.054(5) -0.002(4) 0.004(3) -0.001(3)
+Na4 0.046(5) 0.032(4) 0.042(4) 0.004(3) 0.006(4) 0.005(3)
+Na5 0.046(5) 0.062(6) 0.033(4) -0.017(4) -0.005(3) 0.013(4)
+Na6 0.040(5) 0.042(5) 0.048(5) 0.005(4) -0.006(4) -0.018(4)
+Na7 0.004(3) 0.018(4) 0.024(4) 0.000 0.002(3) 0.000
+Na8 0.042(9) 0.034(9) 0.068(12) 0.007(8) -0.002(8) -0.002(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sn Sn -0.6537 1.4246 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Sn2 Sn1 Sn6 94.82(5) 2 1_565 ?
+Sn2 Sn1 Sn8 92.91(5) 2 1_565 ?
+Sn6 Sn1 Sn8 95.75(4) 1_565 1_565 ?
+Sn2 Sn1 Na8 87.0(3) 2 . ?
+Sn6 Sn1 Na8 138.5(3) 1_565 . ?
+Sn8 Sn1 Na8 125.6(3) 1_565 . ?
+Sn2 Sn1 Na5 127.19(16) 2 3_665 ?
+Sn6 Sn1 Na5 137.41(17) 1_565 3_665 ?
+Sn8 Sn1 Na5 77.50(16) 1_565 3_665 ?
+Na8 Sn1 Na5 60.7(4) . 3_665 ?
+Sn2 Sn1 Na5 161.56(14) 2 1_565 ?
+Sn6 Sn1 Na5 73.21(15) 1_565 1_565 ?
+Sn8 Sn1 Na5 74.86(16) 1_565 1_565 ?
+Na8 Sn1 Na5 111.3(4) . 1_565 ?
+Na5 Sn1 Na5 64.4(3) 3_665 1_565 ?
+Sn2 Sn1 Na6 125.11(14) 2 3_665 ?
+Sn6 Sn1 Na6 82.45(17) 1_565 3_665 ?
+Sn8 Sn1 Na6 141.98(14) 1_565 3_665 ?
+Na8 Sn1 Na6 63.4(4) . 3_665 ?
+Na5 Sn1 Na6 78.6(2) 3_665 3_665 ?
+Na5 Sn1 Na6 68.2(2) 1_565 3_665 ?
+Sn2 Sn1 Sn3 92.56(4) 2 . ?
+Sn6 Sn1 Sn3 136.65(4) 1_565 . ?
+Sn8 Sn1 Sn3 41.17(3) 1_565 . ?
+Na8 Sn1 Sn3 84.5(3) . . ?
+Na5 Sn1 Sn3 47.42(14) 3_665 . ?
+Na5 Sn1 Sn3 87.20(16) 1_565 . ?
+Na6 Sn1 Sn3 125.98(16) 3_665 . ?
+Sn2 Sn1 Sn7 93.64(4) 2 . ?
+Sn6 Sn1 Sn7 40.57(3) 1_565 . ?
+Sn8 Sn1 Sn7 136.23(4) 1_565 . ?
+Na8 Sn1 Sn7 97.9(3) . . ?
+Na5 Sn1 Sn7 128.82(15) 3_665 . ?
+Na5 Sn1 Sn7 86.26(16) 1_565 . ?
+Na6 Sn1 Sn7 51.03(16) 3_665 . ?
+Sn3 Sn1 Sn7 173.46(3) . . ?
+Sn2 Sn1 Sn13 37.00(3) 2 . ?
+Sn6 Sn1 Sn13 86.57(4) 1_565 . ?
+Sn8 Sn1 Sn13 129.65(4) 1_565 . ?
+Na8 Sn1 Sn13 70.4(3) . . ?
+Na5 Sn1 Sn13 130.13(18) 3_665 . ?
+Na5 Sn1 Sn13 150.46(16) 1_565 . ?
+Na6 Sn1 Sn13 88.28(14) 3_665 . ?
+Sn3 Sn1 Sn13 121.87(3) . . ?
+Sn7 Sn1 Sn13 64.64(3) . . ?
+Sn2 Sn1 Na1 84.29(8) 2 2_565 ?
+Sn6 Sn1 Na1 48.66(8) 1_565 2_565 ?
+Sn8 Sn1 Na1 49.15(8) 1_565 2_565 ?
+Na8 Sn1 Na1 169.5(3) . 2_565 ?
+Na5 Sn1 Na1 120.94(19) 3_665 2_565 ?
+Na5 Sn1 Na1 77.28(16) 1_565 2_565 ?
+Na6 Sn1 Na1 126.80(18) 3_665 2_565 ?
+Sn3 Sn1 Na1 89.92(8) . 2_565 ?
+Sn7 Sn1 Na1 88.62(8) . 2_565 ?
+Sn13 Sn1 Na1 105.48(8) . 2_565 ?
+Sn2 Sn1 Sn4 35.25(3) 2 2_655 ?
+Sn6 Sn1 Sn4 129.77(4) 1_565 2_655 ?
+Sn8 Sn1 Sn4 85.03(4) 1_565 2_655 ?
+Na8 Sn1 Sn4 64.8(3) . 2_655 ?
+Na5 Sn1 Sn4 91.95(16) 3_665 2_655 ?
+Na5 Sn1 Sn4 151.50(16) 1_565 2_655 ?
+Na6 Sn1 Sn4 124.97(15) 3_665 2_655 ?
+Sn3 Sn1 Sn4 64.51(3) . 2_655 ?
+Sn7 Sn1 Sn4 122.01(3) . 2_655 ?
+Sn13 Sn1 Sn4 57.39(2) . 2_655 ?
+Na1 Sn1 Sn4 104.66(8) 2_565 2_655 ?
+Sn2 Sn1 Sn7 34.21(3) 2 2 ?
+Sn6 Sn1 Sn7 71.87(4) 1_565 2 ?
+Sn8 Sn1 Sn7 70.87(4) 1_565 2 ?
+Na8 Sn1 Sn7 121.1(3) . 2 ?
+Na5 Sn1 Sn7 139.36(15) 3_665 2 ?
+Na5 Sn1 Sn7 127.35(14) 1_565 2 ?
+Na6 Sn1 Sn7 141.21(15) 3_665 2 ?
+Sn3 Sn1 Sn7 92.14(4) . 2 ?
+Sn7 Sn1 Sn7 91.82(4) . 2 ?
+Sn13 Sn1 Sn7 62.19(2) . 2 ?
+Na1 Sn1 Sn7 50.07(8) 2_565 2 ?
+Sn4 Sn1 Sn7 61.01(3) 2_655 2 ?
+Sn2 Sn1 Sn6 61.23(3) 2 2_565 ?
+Sn6 Sn1 Sn6 36.21(3) 1_565 2_565 ?
+Sn8 Sn1 Sn6 84.40(4) 1_565 2_565 ?
+Na8 Sn1 Sn6 138.7(3) . 2_565 ?
+Na5 Sn1 Sn6 160.14(17) 3_665 2_565 ?
+Na5 Sn1 Sn6 103.17(14) 1_565 2_565 ?
+Na6 Sn1 Sn6 112.27(16) 3_665 2_565 ?
+Sn3 Sn1 Sn6 120.06(4) . 2_565 ?
+Sn7 Sn1 Sn6 61.66(3) . 2_565 ?
+Sn13 Sn1 Sn6 68.42(3) . 2_565 ?
+Na1 Sn1 Sn6 39.20(8) 2_565 2_565 ?
+Sn4 Sn1 Sn6 94.57(3) 2_655 2_565 ?
+Sn7 Sn1 Sn6 35.84(2) 2 2_565 ?
+Sn2 Sn1 Sn9 119.29(4) 2 1_565 ?
+Sn6 Sn1 Sn9 70.81(3) 1_565 1_565 ?
+Sn8 Sn1 Sn9 35.70(3) 1_565 1_565 ?
+Na8 Sn1 Sn9 141.8(3) . 1_565 ?
+Na5 Sn1 Sn9 81.19(17) 3_665 1_565 ?
+Na5 Sn1 Sn9 44.00(15) 1_565 1_565 ?
+Na6 Sn1 Sn9 111.37(14) 3_665 1_565 ?
+Sn3 Sn1 Sn9 68.38(2) . 1_565 ?
+Sn7 Sn1 Sn9 106.61(3) . 1_565 ?
+Sn13 Sn1 Sn9 146.93(3) . 1_565 ?
+Na1 Sn1 Sn9 41.45(8) 2_565 1_565 ?
+Sn4 Sn1 Sn9 120.57(3) 2_655 1_565 ?
+Sn7 Sn1 Sn9 87.40(3) 2 1_565 ?
+Sn6 Sn1 Sn9 79.34(3) 2_565 1_565 ?
+Sn2 Sn1 Sn10 121.11(4) 2 1_565 ?
+Sn6 Sn1 Sn10 36.15(3) 1_565 1_565 ?
+Sn8 Sn1 Sn10 71.09(4) 1_565 1_565 ?
+Na8 Sn1 Sn10 148.4(3) . 1_565 ?
+Na5 Sn1 Sn10 104.70(17) 3_665 1_565 ?
+Na5 Sn1 Sn10 42.17(14) 1_565 1_565 ?
+Na6 Sn1 Sn10 87.07(16) 3_665 1_565 ?
+Sn3 Sn1 Sn10 106.32(3) . 1_565 ?
+Sn7 Sn1 Sn10 68.56(2) . 1_565 ?
+Sn13 Sn1 Sn10 122.61(3) . 1_565 ?
+Na1 Sn1 Sn10 42.01(8) 2_565 1_565 ?
+Sn4 Sn1 Sn10 146.65(3) 2_655 1_565 ?
+Sn7 Sn1 Sn10 88.69(3) 2 1_565 ?
+Sn6 Sn1 Sn10 61.03(2) 2_565 1_565 ?
+Sn9 Sn1 Sn10 38.05(2) 1_565 1_565 ?
+Sn2 Sn1 Sn5 60.03(3) 2 2_665 ?
+Sn6 Sn1 Sn5 85.21(4) 1_565 2_665 ?
+Sn8 Sn1 Sn5 35.64(3) 1_565 2_665 ?
+Na8 Sn1 Sn5 129.5(3) . 2_665 ?
+Na5 Sn1 Sn5 108.21(15) 3_665 2_665 ?
+Na5 Sn1 Sn5 104.16(15) 1_565 2_665 ?
+Na6 Sn1 Sn5 166.98(16) 3_665 2_665 ?
+Sn3 Sn1 Sn5 62.18(3) . 2_665 ?
+Sn7 Sn1 Sn5 119.60(4) . 2_665 ?
+Sn13 Sn1 Sn5 95.11(3) . 2_665 ?
+Na1 Sn1 Sn5 40.20(8) 2_565 2_665 ?
+Sn4 Sn1 Sn5 66.77(3) 2_655 2_665 ?
+Sn7 Sn1 Sn5 35.44(2) 2 2_665 ?
+Sn6 Sn1 Sn5 58.01(2) 2_565 2_665 ?
+Sn9 Sn1 Sn5 60.17(2) 1_565 2_665 ?
+Sn10 Sn1 Sn5 80.51(3) 1_565 2_665 ?
+Sn2 Sn1 Sn10 61.37(3) 2 . ?
+Sn6 Sn1 Sn10 111.62(4) 1_565 . ?
+Sn8 Sn1 Sn10 142.92(4) 1_565 . ?
+Na8 Sn1 Sn10 35.9(3) . . ?
+Na5 Sn1 Sn10 96.54(17) 3_665 . ?
+Na5 Sn1 Sn10 135.74(15) 1_565 . ?
+Na6 Sn1 Sn10 68.96(14) 3_665 . ?
+Sn3 Sn1 Sn10 109.36(3) . . ?
+Sn7 Sn1 Sn10 75.56(2) . . ?
+Sn13 Sn1 Sn10 34.996(19) . . ?
+Na1 Sn1 Sn10 140.44(8) 2_565 . ?
+Sn4 Sn1 Sn10 58.37(3) 2_655 . ?
+Sn7 Sn1 Sn10 93.74(3) 2 . ?
+Sn6 Sn1 Sn10 102.85(3) 2_565 . ?
+Sn9 Sn1 Sn10 177.53(3) 1_565 . ?
+Sn10 Sn1 Sn10 144.10(3) 1_565 . ?
+Sn5 Sn1 Sn10 119.96(3) 2_665 . ?
+Sn2 Sn1 Sn9 123.00(4) 2 3_665 ?
+Sn6 Sn1 Sn9 126.17(4) 1_565 3_665 ?
+Sn8 Sn1 Sn9 116.47(4) 1_565 3_665 ?
+Na8 Sn1 Sn9 36.0(3) . 3_665 ?
+Na5 Sn1 Sn9 39.02(16) 3_665 3_665 ?
+Na5 Sn1 Sn9 75.29(14) 1_565 3_665 ?
+Na6 Sn1 Sn9 45.35(16) 3_665 3_665 ?
+Sn3 Sn1 Sn9 82.91(4) . 3_665 ?
+Sn7 Sn1 Sn9 95.43(4) . 3_665 ?
+Sn13 Sn1 Sn9 101.32(3) . 3_665 ?
+Na1 Sn1 Sn9 151.92(8) 2_565 3_665 ?
+Sn4 Sn1 Sn9 96.67(3) 2_655 3_665 ?
+Sn7 Sn1 Sn9 156.73(3) 2 3_665 ?
+Sn6 Sn1 Sn9 157.01(3) 2_565 3_665 ?
+Sn9 Sn1 Sn9 111.44(3) 1_565 3_665 ?
+Sn10 Sn1 Sn9 114.53(3) 1_565 3_665 ?
+Sn5 Sn1 Sn9 144.95(3) 2_665 3_665 ?
+Sn10 Sn1 Sn9 66.93(2) . 3_665 ?
+Sn2 Sn1 Sn9 59.97(3) 2 . ?
+Sn6 Sn1 Sn9 143.97(4) 1_565 . ?
+Sn8 Sn1 Sn9 109.82(4) 1_565 . ?
+Na8 Sn1 Sn9 30.3(3) . . ?
+Na5 Sn1 Sn9 74.69(17) 3_665 . ?
+Na5 Sn1 Sn9 136.90(14) 1_565 . ?
+Na6 Sn1 Sn9 91.66(16) 3_665 . ?
+Sn3 Sn1 Sn9 74.17(2) . . ?
+Sn7 Sn1 Sn9 110.85(3) . . ?
+Sn13 Sn1 Sn9 57.65(3) . . ?
+Na1 Sn1 Sn9 139.30(8) 2_565 . ?
+Sn4 Sn1 Sn9 34.669(19) 2_655 . ?
+Sn7 Sn1 Sn9 92.51(3) 2 . ?
+Sn6 Sn1 Sn9 119.85(3) 2_565 . ?
+Sn9 Sn1 Sn9 142.52(3) 1_565 . ?
+Sn10 Sn1 Sn9 178.68(3) 1_565 . ?
+Sn5 Sn1 Sn9 100.78(3) 2_665 . ?
+Sn10 Sn1 Sn9 35.30(2) . . ?
+Sn9 Sn1 Sn9 64.25(3) 3_665 . ?
+Sn2 Sn1 Sn2 59.95(4) 2 . ?
+Sn6 Sn1 Sn2 54.60(3) 1_565 . ?
+Sn8 Sn1 Sn2 133.39(4) 1_565 . ?
+Na8 Sn1 Sn2 92.4(3) . . ?
+Na5 Sn1 Sn2 149.04(16) 3_665 . ?
+Na5 Sn1 Sn2 119.09(16) 1_565 . ?
+Na6 Sn1 Sn2 75.37(15) 3_665 . ?
+Sn3 Sn1 Sn2 152.49(3) . . ?
+Sn7 Sn1 Sn2 33.83(2) . . ?
+Sn13 Sn1 Sn2 33.648(18) . . ?
+Na1 Sn1 Sn2 88.42(8) 2_565 . ?
+Sn4 Sn1 Sn2 89.40(3) 2_655 . ?
+Sn7 Sn1 Sn2 66.13(3) 2 . ?
+Sn6 Sn1 Sn2 49.93(3) 2_565 . ?
+Sn9 Sn1 Sn2 123.99(3) 1_565 . ?
+Sn10 Sn1 Sn2 90.52(3) 1_565 . ?
+Sn5 Sn1 Sn2 100.71(3) 2_665 . ?
+Sn10 Sn1 Sn2 58.47(2) . . ?
+Sn9 Sn1 Sn2 110.13(3) 3_665 . ?
+Sn9 Sn1 Sn2 89.48(3) . . ?
+Sn2 Sn1 Na3 81.08(10) 2 . ?
+Sn6 Sn1 Na3 173.52(10) 1_565 . ?
+Sn8 Sn1 Na3 79.53(10) 1_565 . ?
+Na8 Sn1 Na3 46.7(3) . . ?
+Na5 Sn1 Na3 46.17(19) 3_665 . ?
+Na5 Sn1 Na3 109.45(18) 1_565 . ?
+Na6 Sn1 Na3 104.01(19) 3_665 . ?
+Sn3 Sn1 Na3 39.29(9) . . ?
+Sn7 Sn1 Na3 144.22(9) . . ?
+Sn13 Sn1 Na3 93.03(9) . . ?
+Na1 Sn1 Na3 125.54(12) 2_565 . ?
+Sn4 Sn1 Na3 45.86(9) 2_655 . ?
+Sn7 Sn1 Na3 102.23(10) 2 . ?
+Sn6 Sn1 Na3 138.05(10) 2_565 . ?
+Sn9 Sn1 Na3 106.75(9) 1_565 . ?
+Sn10 Sn1 Na3 143.28(9) 1_565 . ?
+Sn5 Sn1 Na3 88.39(10) 2_665 . ?
+Sn10 Sn1 Na3 70.88(9) . . ?
+Sn9 Sn1 Na3 60.24(10) 3_665 . ?
+Sn9 Sn1 Na3 36.85(9) . . ?
+Sn2 Sn1 Na3 126.04(9) . . ?
+Sn2 Sn1 Sn12 59.40(3) 2 . ?
+Sn6 Sn1 Sn12 134.77(4) 1_565 . ?
+Sn8 Sn1 Sn12 53.99(3) 1_565 . ?
+Na8 Sn1 Sn12 80.8(3) . . ?
+Na5 Sn1 Sn12 74.13(15) 3_665 . ?
+Na5 Sn1 Sn12 119.51(16) 1_565 . ?
+Na6 Sn1 Sn12 142.57(16) 3_665 . ?
+Sn3 Sn1 Sn12 33.299(19) . . ?
+Sn7 Sn1 Sn12 153.02(3) . . ?
+Sn13 Sn1 Sn12 90.02(3) . . ?
+Na1 Sn1 Sn12 89.56(8) 2_565 . ?
+Sn4 Sn1 Sn12 33.53(2) 2_655 . ?
+Sn7 Sn1 Sn12 66.83(3) 2 . ?
+Sn6 Sn1 Sn12 101.71(3) 2_565 . ?
+Sn9 Sn1 Sn12 89.40(3) 1_565 . ?
+Sn10 Sn1 Sn12 124.29(3) 1_565 . ?
+Sn5 Sn1 Sn12 50.18(3) 2_665 . ?
+Sn10 Sn1 Sn12 89.04(3) . . ?
+Sn9 Sn1 Sn12 98.72(3) 3_665 . ?
+Sn9 Sn1 Sn12 56.77(2) . . ?
+Sn2 Sn1 Sn12 119.21(3) . . ?
+Na3 Sn1 Sn12 38.76(9) . . ?
+Sn2 Sn1 Na2 80.99(8) 2 . ?
+Sn6 Sn1 Na2 78.30(9) 1_565 . ?
+Sn8 Sn1 Na2 171.01(8) 1_565 . ?
+Na8 Sn1 Na2 61.0(3) . . ?
+Na5 Sn1 Na2 111.45(18) 3_665 . ?
+Na5 Sn1 Na2 109.33(17) 1_565 . ?
+Na6 Sn1 Na2 44.58(16) 3_665 . ?
+Sn3 Sn1 Na2 145.03(8) . . ?
+Sn7 Sn1 Na2 38.67(8) . . ?
+Sn13 Sn1 Na2 44.00(8) . . ?
+Na1 Sn1 Na2 123.14(11) 2_565 . ?
+Sn4 Sn1 Na2 93.57(8) 2_655 . ?
+Sn7 Sn1 Na2 100.68(8) 2 . ?
+Sn6 Sn1 Na2 86.86(8) 2_565 . ?
+Sn9 Sn1 Na2 143.82(8) 1_565 . ?
+Sn10 Sn1 Na2 106.36(8) 1_565 . ?
+Sn5 Sn1 Na2 136.09(8) 2_665 . ?
+Sn10 Sn1 Na2 38.04(8) . . ?
+Sn9 Sn1 Na2 72.50(8) 3_665 . ?
+Sn9 Sn1 Na2 72.89(8) . . ?
+Sn2 Sn1 Na2 37.63(8) . . ?
+Na3 Sn1 Na2 105.83(12) . . ?
+Sn12 Sn1 Na2 126.31(8) . . ?
+Sn2 Sn1 Sn3 155.36(4) 2 3_675 ?
+Sn6 Sn1 Sn3 71.55(4) 1_565 3_675 ?
+Sn8 Sn1 Sn3 108.49(4) 1_565 3_675 ?
+Na8 Sn1 Sn3 90.1(3) . 3_675 ?
+Na5 Sn1 Sn3 71.10(15) 3_665 3_675 ?
+Na5 Sn1 Sn3 33.66(15) 1_565 3_675 ?
+Na6 Sn1 Sn3 34.94(14) 3_665 3_675 ?
+Sn3 Sn1 Sn3 111.53(3) . 3_675 ?
+Sn7 Sn1 Sn3 62.52(3) . 3_675 ?
+Sn13 Sn1 Sn3 119.67(3) . 3_675 ?
+Na1 Sn1 Sn3 100.30(8) 2_565 3_675 ?
+Sn4 Sn1 Sn3 154.64(3) 2_655 3_675 ?
+Sn7 Sn1 Sn3 143.13(3) 2 3_675 ?
+Sn6 Sn1 Sn3 107.76(3) 2_565 3_675 ?
+Sn9 Sn1 Sn3 76.47(3) 1_565 3_675 ?
+Sn10 Sn1 Sn3 58.35(2) 1_565 3_675 ?
+Sn5 Sn1 Sn3 135.68(3) 2_665 3_675 ?
+Sn10 Sn1 Sn3 103.77(3) . 3_675 ?
+Sn9 Sn1 Sn3 58.23(2) 3_665 3_675 ?
+Sn9 Sn1 Sn3 120.34(3) . 3_675 ?
+Sn2 Sn1 Sn3 95.77(3) . 3_675 ?
+Na3 Sn1 Sn3 114.05(10) . 3_675 ?
+Sn12 Sn1 Sn3 144.01(3) . 3_675 ?
+Na2 Sn1 Sn3 76.24(8) . 3_675 ?
+Sn1 Sn2 Sn4 109.80(5) 2 1_455 ?
+Sn1 Sn2 Sn13 106.38(5) 2 . ?
+Sn4 Sn2 Sn13 101.47(4) 1_455 . ?
+Sn1 Sn2 Sn7 111.95(5) 2 . ?
+Sn4 Sn2 Sn7 112.72(5) 1_455 . ?
+Sn13 Sn2 Sn7 113.86(5) . . ?
+Sn1 Sn2 Na2 174.22(13) 2 . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sn1 Sn2 2.8265(15) 2 ?
+Sn1 Sn6 2.8384(15) 1_565 ?
+Sn1 Sn8 2.8560(16) 1_565 ?
+Sn1 Na8 3.079(18) . ?
+Sn1 Na5 3.270(9) 3_665 ?
+Sn1 Na5 3.286(10) 1_565 ?
+Sn1 Na6 3.345(8) 3_665 ?
+Sn1 Sn3 4.3518(17) . ?
+Sn1 Sn7 4.3947(17) . ?
+Sn1 Sn13 4.5461(17) . ?
+Sn1 Na1 4.580(7) 2_565 ?
+Sn1 Sn4 4.6423(17) 2_655 ?
+Sn1 Sn7 4.7086(17) 2 ?
+Sn1 Sn6 4.7224(18) 2_565 ?
+Sn1 Sn9 4.7312(18) 1_565 ?
+Sn1 Sn10 4.7418(18) 1_565 ?
+Sn1 Sn5 4.7550(18) 2_665 ?
+Sn1 Sn10 5.0645(18) . ?
+Sn1 Sn9 5.1051(17) 3_665 ?
+Sn1 Sn9 5.1197(18) . ?
+Sn1 Sn2 5.1210(19) . ?
+Sn1 Na3 5.128(8) . ?
+Sn1 Sn12 5.1998(17) . ?
+Sn1 Na2 5.246(7) . ?
+Sn1 Sn3 5.3917(18) 3_675 ?
+Sn2 Sn1 2.8265(15) 2 ?
+Sn2 Sn4 2.8475(15) 1_455 ?
+Sn2 Sn13 2.8516(14) . ?
+Sn2 Sn7 2.8546(15) . ?
+Sn2 Na2 3.345(7) . ?
+Sn2 Na8 4.070(19) 2 ?
+Sn2 Sn8 4.1189(16) 2_565 ?
+Sn2 Sn5 4.1440(16) 1_465 ?
+Sn2 Sn6 4.1706(16) 2_565 ?
+Sn2 Sn6 4.1761(16) 1_565 ?
+Sn2 Na1 4.221(7) . ?
+Sn2 Sn9 4.4402(16) 2 ?
+Sn2 Sn2 4.441(2) 2 ?
+Sn2 Sn10 4.4632(16) 2 ?
+Sn2 Sn12 4.4792(13) 1_455 ?
+Sn2 Sn11 4.8144(17) 1_455 ?
+Sn2 Sn10 4.9750(17) . ?
+Sn2 Na1 5.137(7) 1_565 ?
+Sn2 Na4 5.198(8) 3_565 ?
+Sn2 Sn3 5.2918(19) 1_455 ?
+Sn2 Sn3 5.2938(19) 2 ?
+Sn2 Na6 5.363(9) 3_665 ?
+Sn2 Sn7 5.374(2) 2 ?
+Sn2 Na3 5.458(8) 2 ?
+Sn3 Sn5 2.8524(15) 1_565 ?
+Sn3 Sn12 2.8547(14) . ?
+Sn3 Sn8 2.8952(15) 1_565 ?
+Sn3 Na5 3.221(8) 3_665 ?
+Sn3 Na6 3.270(8) 1_565 ?
+Sn3 Na3 3.270(8) . ?
+Sn3 Na4 3.331(8) 3_665 ?
+Sn3 Na7 4.167(7) 1_565 ?
+Sn3 Sn3 4.590(2) 2_655 ?
+Sn3 Sn8 4.6208(18) 2_665 ?
+Sn3 Sn7 4.6490(17) 1_655 ?
+Sn3 Sn4 4.6704(16) . ?
+Sn3 Sn5 4.7151(18) 2_665 ?
+Sn3 Sn4 4.8066(16) 2_655 ?
+Sn3 Sn11 4.8501(17) 1_565 ?
+Sn3 Sn10 4.9724(16) 3_665 ?
+Sn3 Na8 5.083(18) . ?
+Sn3 Sn9 5.1140(17) 1_565 ?
+Sn3 Sn7 5.1496(18) 3_675 ?
+Sn3 Sn6 5.2386(17) 3_665 ?
+Sn3 Sn2 5.2917(19) 1_655 ?
+Sn3 Sn2 5.2938(19) 2 ?
+Sn3 Na5 5.324(9) 1_565 ?
+Sn3 Sn1 5.3918(18) 3_675 ?
+Sn4 Sn2 2.8475(15) 1_655 ?
+Sn4 Sn12 2.8888(14) . ?
+Sn4 Sn11 2.9282(15) . ?
+Sn4 Sn9 2.9439(15) 2_655 ?
+Sn4 Na1 3.294(6) 1_655 ?
+Sn4 Na7 3.318(6) . ?
+Sn4 Na2 3.823(7) 1_655 ?
+Sn4 Na3 3.832(8) 2_655 ?
+Sn4 Na3 3.900(8) . ?
+Sn4 Na8 4.345(19) 2_655 ?
+Sn4 Sn13 4.4123(13) 1_655 ?
+Sn4 Sn5 4.5673(16) . ?
+Sn4 Sn4 4.587(2) 2_655 ?
+Sn4 Sn8 4.5997(16) 2_655 ?
+Sn4 Sn1 4.6423(17) 2_655 ?
+Sn4 Sn7 4.7471(16) 1_655 ?
+Sn4 Sn10 4.7477(19) 2_655 ?
+Sn4 Sn3 4.8067(16) 2_655 ?
+Sn4 Sn5 5.1719(17) 1_565 ?
+Sn4 Sn8 5.2357(17) 2_665 ?
+Sn4 Na4 5.240(8) 3_665 ?
+Sn4 Sn11 5.574(2) 2_655 ?
+Sn4 Na6 5.623(8) . ?
+Sn4 Na8 5.649(19) 4_666 ?
+Sn5 Sn3 2.8525(15) 1_545 ?
+Sn5 Sn7 2.8804(15) 1_645 ?
+Sn5 Sn11 2.9294(15) . ?
+Sn5 Sn8 2.9482(15) 2_655 ?
+Sn5 Na1 3.212(6) 1_655 ?
+Sn5 Na7 3.376(5) . ?
+Sn5 Na6 3.701(9) . ?
+Sn5 Na4 3.772(8) 1_655 ?
+Sn5 Na4 3.824(8) 3_655 ?
+Sn5 Sn2 4.1439(16) 1_645 ?
+Sn5 Sn12 4.2403(16) 1_545 ?
+Sn5 Sn8 4.5723(17) . ?
+Sn5 Sn6 4.5956(17) 1_655 ?
+Sn5 Sn3 4.7150(18) 2_645 ?
+Sn5 Sn1 4.7549(18) 2_645 ?
+Sn5 Sn9 4.7552(16) 2_655 ?
+Sn5 Sn7 4.8992(17) 3_665 ?
+Sn5 Sn4 5.1718(17) 1_545 ?
+Sn5 Sn6 5.330(2) 2_655 ?
+Sn5 Na2 5.497(7) 1_655 ?
+Sn5 Sn5 5.509(3) 2_655 ?
+Sn5 Na3 5.511(8) . ?
+Sn5 Na2 5.525(7) 1_645 ?
+Sn5 Na2 5.542(7) 3_665 ?
+Sn6 Sn1 2.8383(15) 1_545 ?
+Sn6 Sn7 2.9019(15) 1_545 ?
+Sn6 Sn6 2.954(2) 2 ?
+Sn6 Sn10 2.9671(16) . ?
+Sn6 Na1 3.124(6) . ?
+Sn6 Na1 3.444(6) 2 ?
+Sn6 Na5 3.670(9) . ?
+Sn6 Na4 3.735(8) . ?
+Sn6 Na6 4.093(9) 3_655 ?
+Sn6 Sn2 4.1705(16) 2_545 ?
+Sn6 Sn2 4.1761(16) 1_545 ?
+Sn6 Sn8 4.2234(16) . ?
+Sn6 Sn13 4.5748(19) . ?
+Sn6 Sn5 4.5957(17) 1_455 ?
+Sn6 Sn9 4.6490(16) . ?
+Sn6 Sn7 4.6806(18) 2_545 ?
+Sn6 Sn1 4.7223(18) 2_545 ?
+Sn6 Sn10 4.8057(17) 2 ?
+Sn6 Sn13 5.2132(19) 1_545 ?
+Sn6 Sn3 5.2386(17) 3_665 ?
+Sn6 Sn8 5.275(2) 2 ?
+Sn6 Na2 5.327(7) . ?
+Sn6 Sn5 5.330(2) 2_655 ?
+Sn6 Na2 5.435(7) 1_545 ?
+Sn6 Sn11 5.4840(17) 1_455 ?
+Sn7 Sn5 2.8804(15) 1_465 ?
+Sn7 Sn6 2.9018(15) 1_565 ?
+Sn7 Na4 3.204(8) 1_565 ?
+Sn7 Na2 3.291(7) . ?
+Sn7 Na4 3.423(9) 3_565 ?
+Sn7 Na6 3.466(9) 3_665 ?
+Sn7 Na1 3.933(6) 1_565 ?
+Sn7 Sn11 4.4973(16) 3_665 ?
+Sn7 Sn8 4.6383(18) 2_565 ?
+Sn7 Sn3 4.6491(17) 1_455 ?
+Sn7 Sn6 4.6807(18) 2_565 ?
+Sn7 Sn1 4.7086(17) 2 ?
+Sn7 Sn4 4.7471(16) 1_455 ?
+Sn7 Sn13 4.7820(17) . ?
+Sn7 Sn11 4.8235(17) 1_465 ?
+Sn7 Sn5 4.8991(17) 3_665 ?
+Sn7 Sn7 5.043(2) 3_575 ?
+Sn7 Sn3 5.1495(18) 3_675 ?
+Sn7 Sn10 5.1541(17) 1_565 ?
+Sn7 Na5 5.313(10) 1_565 ?
+Sn7 Sn2 5.374(2) 2 ?
+Sn7 Sn12 5.4721(17) 1_455 ?
+Sn7 Sn11 5.6487(18) 1_455 ?
+Sn8 Sn1 2.8560(16) 1_545 ?
+Sn8 Sn3 2.8952(15) 1_545 ?
+Sn8 Sn9 2.9318(16) . ?
+Sn8 Sn5 2.9483(15) 2_655 ?
+Sn8 Na7 3.308(5) . ?
+Sn8 Na1 3.468(7) 2 ?
+Sn8 Na6 3.697(8) . ?
+Sn8 Na5 3.749(8) . ?
+Sn8 Na5 3.848(8) 3_655 ?
+Sn8 Sn2 4.1189(16) 2_545 ?
+Sn8 Sn12 4.2107(17) 1_545 ?
+Sn8 Sn4 4.5998(16) 2_655 ?
+Sn8 Sn3 4.6209(18) 2_645 ?
+Sn8 Sn7 4.6383(18) 2_545 ?
+Sn8 Sn10 4.6758(17) . ?
+Sn8 Sn11 4.8320(16) 2_655 ?
+Sn8 Na8 5.167(18) 3_665 ?
+Sn8 Sn4 5.2357(17) 2_645 ?
+Sn8 Sn6 5.275(2) 2 ?
+Sn8 Na8 5.280(18) 1_545 ?
+Sn8 Na3 5.321(8) . ?
+Sn8 Sn8 5.370(3) 2_655 ?
+Sn8 Na3 5.397(8) 1_545 ?
+Sn9 Na8 2.909(17) . ?
+Sn9 Sn4 2.9440(15) 2_655 ?
+Sn9 Sn10 3.0879(16) . ?
+Sn9 Na8 3.178(19) 3_665 ?
+Sn9 Na3 3.239(8) . ?
+Sn9 Na5 3.289(8) . ?
+Sn9 Na1 3.298(6) 2 ?
+Sn9 Na6 3.640(9) . ?
+Sn9 Na7 3.692(2) . ?
+Sn9 Sn2 4.4402(16) 2 ?
+Sn9 Sn13 4.6872(16) . ?
+Sn9 Sn1 4.7312(18) 1_545 ?
+Sn9 Sn5 4.7553(16) 2_655 ?
+Sn9 Sn11 4.9049(18) 2_655 ?
+Sn9 Sn12 4.9065(17) . ?
+Sn9 Sn11 5.0772(18) . ?
+Sn9 Sn1 5.1051(17) 3_665 ?
+Sn9 Sn3 5.1138(17) 1_545 ?
+Sn9 Na3 5.135(9) 3_665 ?
+Sn9 Na5 5.298(10) 3_665 ?
+Sn9 Na5 5.323(9) 3_655 ?
+Sn9 Sn9 5.437(2) 3_665 ?
+Sn10 Sn13 2.9316(14) . ?
+Sn10 Na8 3.141(17) . ?
+Sn10 Na5 3.191(8) . ?
+Sn10 Na1 3.345(6) 2 ?
+Sn10 Na2 3.364(7) . ?
+Sn10 Na1 3.529(7) . ?
+Sn10 Na3 3.654(8) 3_665 ?
+Sn10 Na4 3.762(9) . ?
+Sn10 Sn2 4.4632(16) 2 ?
+Sn10 Na8 4.485(18) 3_665 ?
+Sn10 Sn1 4.7417(17) 1_545 ?
+Sn10 Sn4 4.7477(19) 2_655 ?
+Sn10 Sn6 4.8057(16) 2 ?
+Sn10 Sn10 4.955(2) 2 ?
+Sn10 Na6 4.967(9) 3_665 ?
+Sn10 Sn3 4.9724(16) 3_665 ?
+Sn10 Sn7 5.1541(17) 1_545 ?
+Sn10 Sn11 5.2494(18) 1_455 ?
+Sn10 Sn11 5.6035(19) 3_665 ?
+Sn10 Sn9 5.6077(19) 3_665 ?
+Sn11 Na2 3.213(7) 1_655 ?
+Sn11 Na3 3.219(8) . ?
+Sn11 Na6 3.233(8) . ?
+Sn11 Na1 3.255(6) 1_655 ?
+Sn11 Na2 3.280(7) 3_665 ?
+Sn11 Na4 3.307(8) 1_655 ?
+Sn11 Na7 3.546(2) . ?
+Sn11 Sn7 4.4973(16) 3_665 ?
+Sn11 Na4 4.787(8) 3_665 ?
+Sn11 Sn2 4.8144(17) 1_655 ?
+Sn11 Sn7 4.8234(17) 1_645 ?
+Sn11 Sn12 4.8287(17) . ?
+Sn11 Sn8 4.8320(16) 2_655 ?
+Sn11 Sn3 4.8500(17) 1_545 ?
+Sn11 Sn9 4.9049(18) 2_655 ?
+Sn11 Sn11 5.136(2) 3_765 ?
+Sn11 Sn10 5.2493(18) 1_655 ?
+Sn11 Na4 5.395(8) 3_655 ?
+Sn11 Sn13 5.4832(18) 1_655 ?
+Sn11 Sn6 5.4839(17) 1_655 ?
+Sn11 Na8 5.492(18) 3_665 ?
+Sn12 Sn3 2.8547(14) 2_655 ?
+Sn12 Sn4 2.8888(14) 2_655 ?
+Sn12 Na3 3.427(8) 2_655 ?
+Sn12 Na3 3.428(8) . ?
+Sn12 Na7 4.154(8) . ?
+Sn12 Sn8 4.2107(17) 2_665 ?
+Sn12 Sn8 4.2108(17) 1_565 ?
+Sn12 Sn5 4.2404(16) 1_565 ?
+Sn12 Sn5 4.2404(16) 2_665 ?
+Sn12 Sn2 4.4792(13) 1_655 ?
+Sn12 Sn2 4.4793(13) 2 ?
+Sn12 Sn11 4.8287(17) 2_655 ?
+Sn12 Sn9 4.9064(17) 2_655 ?
+Sn12 Na7 5.175(8) 1_565 ?
+Sn12 Sn1 5.1997(17) 2_655 ?
+Sn12 Na4 5.236(8) 4_666 ?
+Sn12 Na4 5.236(8) 3_665 ?
+Sn12 Na5 5.332(8) 4_666 ?
+Sn12 Na5 5.333(8) 3_665 ?
+Sn12 Sn7 5.4720(17) 1_655 ?
+Sn13 Sn2 2.8515(14) 2 ?
+Sn13 Sn10 2.9316(14) 2 ?
+Sn13 Na1 3.286(6) 2 ?
+Sn13 Na1 3.286(6) . ?
+Sn13 Na2 3.725(7) 2 ?
+Sn13 Na2 3.725(7) . ?
+Sn13 Sn4 4.4123(13) 2_655 ?
+Sn13 Sn4 4.4124(13) 1_455 ?
+Sn13 Sn1 4.5461(17) 2 ?
+Sn13 Na8 4.555(18) 2 ?
+Sn13 Na8 4.555(18) . ?
+Sn13 Sn6 4.5748(19) 2 ?
+Sn13 Sn9 4.6871(16) 2 ?
+Sn13 Sn7 4.7819(17) 2 ?
+Sn13 Sn6 5.2132(19) 2_565 ?
+Sn13 Sn6 5.2133(19) 1_565 ?
+Sn13 Sn11 5.4831(18) 2_655 ?
+Sn13 Sn11 5.4833(18) 1_455 ?
+Sn13 Na6 5.563(8) 4_566 ?
+Na1 Sn5 3.212(6) 1_455 ?
+Na1 Sn11 3.255(6) 1_455 ?
+Na1 Sn4 3.294(6) 1_455 ?
+Na1 Sn9 3.298(6) 2 ?
+Na1 Sn10 3.345(6) 2 ?
+Na1 Sn6 3.444(6) 2 ?
+Na1 Sn8 3.468(7) 2 ?
+Na1 Na2 3.753(9) . ?
+Na1 Na4 3.816(10) . ?
+Na1 Sn7 3.933(6) 1_545 ?
+Na1 Na1 4.456(12) 2 ?
+Na1 Na7 4.560(6) 1_455 ?
+Na1 Sn1 4.580(7) 2_545 ?
+Na1 Na5 5.015(10) 2 ?
+Na1 Sn2 5.137(7) 1_545 ?
+Na1 Na8 5.200(19) 2 ?
+Na1 Na5 5.949(10) . ?
+Na1 Sn1 5.961(6) 1_545 ?
+Na1 Na6 6.014(10) 1_455 ?
+Na1 Sn3 6.046(6) 1_445 ?
+Na1 Na2 6.093(10) 3_565 ?
+Na2 Sn11 3.213(7) 1_455 ?
+Na2 Sn11 3.280(7) 3_665 ?
+Na2 Na4 3.645(11) . ?
+Na2 Na6 3.703(10) 3_665 ?
+Na2 Na3 3.770(10) 3_665 ?
+Na2 Sn4 3.823(7) 1_455 ?
+Na2 Na4 3.909(11) 3_565 ?
+Na2 Na2 3.974(14) 3_565 ?
+Na2 Na8 4.619(19) . ?
+Na2 Na3 5.101(11) 1_455 ?
+Na2 Sn6 5.435(7) 1_565 ?
+Na2 Sn5 5.497(7) 1_455 ?
+Na2 Sn5 5.525(7) 1_465 ?
+Na2 Sn5 5.542(7) 3_665 ?
+Na2 Sn2 5.555(7) 2 ?
+Na2 Sn4 5.656(7) 3_665 ?
+Na2 Sn3 5.827(7) 1_455 ?
+Na2 Na5 5.828(11) . ?
+Na3 Na8 3.43(2) 3_665 ?
+Na3 Na6 3.627(12) . ?
+Na3 Sn10 3.654(8) 3_665 ?
+Na3 Na5 3.709(12) 3_665 ?
+Na3 Na8 3.76(2) . ?
+Na3 Na2 3.770(10) 3_665 ?
+Na3 Na4 3.817(11) 3_665 ?
+Na3 Sn4 3.832(8) 2_655 ?
+Na3 Na7 4.103(10) . ?
+Na3 Na2 5.101(11) 1_655 ?
+Na3 Sn9 5.135(9) 3_665 ?
+Na3 Sn8 5.397(8) 1_565 ?
+Na3 Sn2 5.458(8) 2 ?
+Na3 Sn5 5.551(8) 1_565 ?
+Na3 Na5 5.694(12) . ?
+Na3 Sn6 5.700(8) 3_665 ?
+Na3 Sn1 5.769(8) 3_665 ?
+Na4 Sn7 3.204(8) 1_545 ?
+Na4 Sn11 3.307(8) 1_455 ?
+Na4 Sn3 3.331(8) 3_665 ?
+Na4 Sn7 3.423(9) 3_565 ?
+Na4 Sn5 3.772(8) 1_455 ?
+Na4 Na3 3.817(11) 3_665 ?
+Na4 Sn5 3.824(8) 3_655 ?
+Na4 Na2 3.909(11) 3_565 ?
+Na4 Na6 4.182(12) 3_655 ?
+Na4 Na4 4.306(17) 3 ?
+Na4 Na5 4.352(12) . ?
+Na4 Sn11 4.787(8) 3_665 ?
+Na4 Na6 4.869(12) 1_455 ?
+Na4 Sn2 5.198(8) 3_565 ?
+Na4 Sn12 5.237(8) 3_665 ?
+Na4 Sn4 5.240(8) 3_665 ?
+Na4 Sn11 5.395(8) 3_655 ?
+Na4 Sn1 5.565(8) 1_545 ?
+Na4 Sn4 5.650(8) 1_455 ?
+Na4 Sn3 5.796(8) 1_445 ?
+Na5 Na8 3.21(2) 3_665 ?
+Na5 Sn3 3.221(8) 3_665 ?
+Na5 Sn1 3.270(8) 3_665 ?
+Na5 Sn1 3.286(10) 1_545 ?
+Na5 Na5 3.494(17) 3_655 ?
+Na5 Na3 3.709(12) 3_665 ?
+Na5 Na6 3.720(12) 3_655 ?
+Na5 Sn8 3.848(8) 3_655 ?
+Na5 Na6 4.191(12) . ?
+Na5 Na8 4.19(2) . ?
+Na5 Na1 5.015(10) 2 ?
+Na5 Na8 5.25(2) 1_545 ?
+Na5 Sn9 5.298(10) 3_665 ?
+Na5 Sn7 5.313(10) 1_545 ?
+Na5 Sn3 5.324(9) 1_545 ?
+Na5 Sn9 5.323(9) 3_655 ?
+Na5 Sn12 5.332(8) 3_665 ?
+Na5 Sn2 5.464(9) 4_665 ?
+Na5 Sn6 5.694(8) 3_655 ?
+Na6 Sn3 3.269(8) 1_545 ?
+Na6 Sn1 3.345(8) 3_665 ?
+Na6 Na8 3.38(2) 3_665 ?
+Na6 Sn7 3.466(9) 3_665 ?
+Na6 Na2 3.703(10) 3_665 ?
+Na6 Na5 3.720(12) 3_655 ?
+Na6 Sn6 4.092(9) 3_655 ?
+Na6 Na4 4.182(12) 3_655 ?
+Na6 Na7 4.211(9) . ?
+Na6 Na4 4.869(12) 1_655 ?
+Na6 Sn10 4.967(9) 3_665 ?
+Na6 Sn2 5.363(9) 3_665 ?
+Na6 Na8 5.40(2) . ?
+Na6 Sn1 5.432(8) 1_545 ?
+Na6 Sn2 5.482(8) 4_665 ?
+Na6 Sn13 5.563(8) 3_665 ?
+Na6 Sn10 5.661(9) 3_655 ?
+Na6 Sn7 5.712(9) 1_645 ?
+Na7 Sn8 3.308(5) 2_655 ?
+Na7 Sn4 3.318(6) 2_655 ?
+Na7 Sn5 3.376(5) 2_655 ?
+Na7 Sn11 3.546(2) 2_655 ?
+Na7 Sn9 3.692(2) 2_655 ?
+Na7 Na3 4.103(10) 2_655 ?
+Na7 Sn3 4.167(7) 2_645 ?
+Na7 Sn3 4.167(7) 1_545 ?
+Na7 Na6 4.211(9) 2_655 ?
+Na7 Na1 4.560(6) 1_655 ?
+Na7 Na1 4.560(6) 2 ?
+Na7 Sn12 5.175(8) 1_545 ?
+Na7 Na8 6.059(19) 4_666 ?
+Na7 Na8 6.059(19) 3_665 ?
+Na7 Sn2 6.149(6) 1_655 ?
+Na7 Sn2 6.149(6) 2 ?
+Na7 Sn1 6.158(5) 2_645 ?
+Na8 Na8 2.75(4) 3_665 ?
+Na8 Sn9 3.178(19) 3_665 ?
+Na8 Na5 3.21(2) 3_665 ?
+Na8 Na6 3.38(2) 3_665 ?
+Na8 Na3 3.43(2) 3_665 ?
+Na8 Sn2 4.070(19) 2 ?
+Na8 Sn4 4.345(19) 2_655 ?
+Na8 Sn10 4.485(18) 3_665 ?
+Na8 Sn8 5.167(18) 3_665 ?
+Na8 Na1 5.200(19) 2 ?
+Na8 Na5 5.26(2) 1_565 ?
+Na8 Sn8 5.280(18) 1_565 ?
+Na8 Sn11 5.492(18) 3_665 ?
+Na8 Sn6 5.534(18) 1_565 ?
+Na8 Sn1 5.639(18) 3_665 ?

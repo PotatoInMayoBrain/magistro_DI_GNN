@@ -1,0 +1,184 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/99/2009946.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009946
+loop_
+_publ_author_name
+'Vinatier, P.'
+'Gravereau, P.'
+'M\'en\'etrier, M.'
+'Trut, L.'
+'Levasseur, A.'
+_publ_section_title
+;
+ Li~3~BS~3~
+;
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1180
+_journal_page_last               1183
+_journal_paper_doi               10.1107/S0108270193013630
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'B Li3 S3'
+_chemical_formula_weight         127.83
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.150(3)
+_cell_length_b                   10.070(3)
+_cell_length_c                   6.159(2)
+_cell_measurement_reflns_used    '14 (from powder Co K\a~1~, \l = 1.7890 \%A)'
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      46
+_cell_measurement_theta_min      18.5
+_cell_volume                     505.5(3)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7107
+_diffrn_reflns_av_R_equivalents  '0.050 (after absorption correction)'
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -9
+_diffrn_reflns_number            4593
+_diffrn_reflns_theta_max         35
+_diffrn_standards_decay_%        -2.5
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    1.23
+_exptl_absorpt_correction_T_max  1.409
+_exptl_absorpt_correction_T_min  0.675
+_exptl_absorpt_correction_type   'empirical (ABSORB; Ugozzoli, 1987)'
+_exptl_crystal_colour            'Yellowish white'
+_exptl_crystal_density_diffrn    1.680
+_exptl_crystal_density_meas      1.69
+_exptl_crystal_description       'Irregular fragment'
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.25
+_exptl_crystal_size_min          0.20
+_refine_diff_density_max         1.19
+_refine_diff_density_min         -1.22
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   3.795
+_refine_ls_number_parameters     37
+_refine_ls_number_reflns         670
+_refine_ls_R_factor_obs          0.069
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(F~o~)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.058
+_reflns_number_observed          2079
+_reflns_number_total             670
+_reflns_observed_criterion       I>=3.0\s(I)
+_cod_data_source_file            du1068.cif
+_cod_data_source_block           du1068_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F~o~)]' was changed
+to 'calc'. New tag '_refine_ls_weighting_details' was created. The
+value of the new tag was set to 'w = 1/[\s^2^(F~o~)]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'B1 Li3 S3'
+_cod_database_code               2009946
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+X,Y,1/2-Z
+X,1/2-Y,Z
+1/2-X,1/2+Y,1/2+Z
+-x,-y,-z
+1/2-X,-Y,1/2+Z
+-X,1/2+Y,-Z
+1/2+X,1/2-Y,1/2-Z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+S(1) .2993(2) .2500 .6577(4)
+S(2) .4232(2) .09340(10) .2396(4)
+B .3812(9) .2500 .383(2)
+Li(1) .006(3) .2500 .553(3)
+Li(2) .327(2) .007(2) .602(3)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+S(1) B S(2) . . 120.9(3) yes
+S(2) B S(2) . 3 118.2(6) yes
+Li(1) B Li(2) 2 . 120.1(3) yes
+Li(2) B Li(2) . 3 119.8(8) yes
+S(1) Li(1) S(1) 2_456 . 118.4(4) yes
+S(2) Li(1) S(1) 2_455 . 116.8(5) yes
+S(2) Li(1) S(1) 8_455 . 116.8(5) yes
+S(2) Li(1) S(1) 2_455 2_456 109.8(5) yes
+S(2) Li(1) S(1) 8_455 2_456 109.8(5) yes
+S(2) Li(1) S(2) 8_455 2_455 78.6(5) yes
+S(2) Li(2) S(1) . . 78.9(3) yes
+S(2) Si(2) S(1) 5_656 . 115.0(4) yes
+S(2) Li(2) S(1) 6_555 . 106.6(4) yes
+S(2) Li(2) S(2) 5_656 . 103.5(5) yes
+S(2) Li(2) S(2) 6_555 . 135.6(5) yes
+S(2) Li(2) S(2) 6_555 5_656 112.7(5) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+B S(1) . . 1.822(2) yes
+B S(2) . . 1.838(5) yes
+B Li(1) . 2 2.87(3) yes
+B Li(2) . . 2.84(2) yes
+Li(1) S(1) . . 2.47(2) yes
+Li(1) S(1) . 2_456 2.45(2) yes
+Li(1) S(2) . 2_455 2.49(2) yes
+Li(1) S(2) . 8_455 2.49(2) yes
+S(1) S(1) . 2_456 4.2300(10) yes
+S(1) S(2) . 2_455 4.228(3) yes
+S(1) S(2) . 8_455 4.228(3) yes
+S(1) S(2) 2_456 2_455 4.043(3) yes
+S(1) S(2) 2_456 8_455 4.043(3) yes
+S(2) S(2) 2_455 8_455 3.154(3) yes
+Li(2) S(1) . . 2.49(2) yes
+Li(2) S(2) . . 2.52(2) yes
+Li(2) S(2) . 5_656 2.47(2) yes
+Li(2) S(2) . 6_555 2.43(2) yes
+S(1) S(2) . . 3.184(3) yes
+S(1) S(2) . 5_656 4.180(2) yes
+S(1) S(2) . 6_555 3.937(2) yes
+S(2) S(2) . 5_656 3.717(4) yes
+S(2) S(2) . 6_555 4.581(2) yes
+S(2) S(2) 5_656 6_555 4.0770(10) yes

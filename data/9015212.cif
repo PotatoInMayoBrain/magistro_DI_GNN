@@ -1,0 +1,104 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/52/9015212.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015212
+loop_
+_publ_author_name
+'Smith, J. V.'
+'Rinaldi, F.'
+'Dent Glasser, L. S.'
+_publ_section_title
+;
+ Crystal structures with a chabazite framework.
+ II. Hydrated Ca-chabazite at room temperature
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              45
+_journal_page_last               53
+_journal_paper_doi               10.1107/S0365110X63000074
+_journal_volume                  16
+_journal_year                    1963
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Al3.9 Ca1.95 H26 O37 Si8.1'
+_chemical_name_mineral           Chabazite-Ca
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                94.28
+_cell_angle_beta                 94.28
+_cell_angle_gamma                94.28
+_cell_formula_units_Z            1
+_cell_length_a                   9.42
+_cell_length_b                   9.42
+_cell_length_c                   9.42
+_cell_volume                     828.533
+_database_code_amcsd             0017691
+_exptl_crystal_density_diffrn    2.062
+_cod_original_cell_volume        828.534
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'Ca1.95 (Al3.9 Si8.1) O37 H26'
+_cod_database_code               9015212
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-z,-y
+-z,-x,-y
+y,x,z
+y,z,x
+-z,-y,-x
+-x,-y,-z
+x,z,y
+z,x,y
+-y,-x,-z
+-y,-z,-x
+z,y,x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.35500 0.47800 0.58600 0.16250 Ca 0
+Al1 0.10450 0.33400 0.87550 0.32500 Al 0
+Si1 0.10450 0.33400 0.87550 0.67500 Si 0
+O1 0.26200 -0.26200 0.00000 1.00000 O 0
+O2 0.15800 -0.15800 0.50000 1.00000 O 0
+O3 0.25200 0.25200 0.89700 1.00000 O 0
+O4 0.02500 0.02500 0.32400 1.00000 O 0
+Wat1 0.24400 0.24400 0.57100 1.00000 O 2
+Wat2 0.20000 0.20000 0.20000 1.00000 O 2
+Wat3 0.50000 0.50000 0.00000 1.00000 O 2
+Wat4 0.41500 0.41500 0.41500 1.00000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:51+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0017691

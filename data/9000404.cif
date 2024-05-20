@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/04/9000404.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000404
+loop_
+_publ_author_name
+'Moore, P. B.'
+'Araki, T.'
+_publ_section_title
+;
+ Jahnsite, CaMnMg2(H2O)8Fe2(OH)2[PO4]4: A novel stereoisomerism of
+ ligands about octahedral corner-chains
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              964
+_journal_page_last               973
+_journal_volume                  59
+_journal_year                    1974
+_chemical_compound_source
+'Tip Top mine, Custer Country, South Dakota, USA'
+_chemical_formula_sum            'Ca Fe2 H18 Mg2 Mn O26 P4'
+_chemical_name_mineral           Jahnsite-(CaMnMg)
+_space_group_IT_number           13
+_symmetry_space_group_name_Hall  '-P 2ya'
+_symmetry_space_group_name_H-M   'P 1 2/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 110.16
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   14.94
+_cell_length_b                   7.14
+_cell_length_c                   9.93
+_cell_volume                     994.353
+_database_code_amcsd             0000414
+_exptl_crystal_density_diffrn    2.717
+_cod_original_formula_sum        'Ca Mn Mg2 Fe2 P4 O26 H18'
+_cod_database_code               9000404
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,y,-z
+1/2+x,-y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.25000 -0.02490 0.00000 0.02140 Ca 0
+Mn 0.25000 0.47750 0.00000 0.01418 Mn 0
+Mg1 0.50000 0.00000 0.50000 0.01532 Mg 0
+Mg2 0.25000 0.49630 0.50000 0.01216 Mg 0
+Fe1 0.00000 0.00000 0.00000 0.02001 Fe 0
+Fe2 0.00000 0.50000 0.00000 0.02153 Fe 0
+P1 0.18300 0.26150 0.18810 0.01165 P 0
+P2 0.08130 0.74760 0.79780 0.01102 P 0
+O1 0.27580 0.23450 0.15120 0.02318 O 0
+O2 0.20410 0.29560 0.34620 0.02090 O 0
+O3 0.12290 0.08270 0.13990 0.01988 O 0
+O4 0.13690 0.43520 0.09410 0.01456 O 0
+O5 0.18900 0.69840 0.85530 0.01925 O 0
+O6 0.04970 0.78020 0.63810 0.01862 O 0
+O7 0.07470 0.92930 0.87910 0.01634 O 0
+O8 0.02450 0.58810 0.83140 0.01634 O 0
+O-H 0.02560 0.75090 0.09350 0.01343 O 1
+Wat1 0.22310 0.71850 0.34450 0.02647 O 2
+Wat2 0.44970 0.21300 0.34520 0.03002 O 2
+Wat3 0.63070 -0.00660 0.46290 0.02761 O 2
+Wat4 0.39170 0.51310 0.51150 0.02178 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:17+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000414

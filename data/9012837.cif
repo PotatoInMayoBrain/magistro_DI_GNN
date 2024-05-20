@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/28/9012837.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012837
+loop_
+_publ_author_name
+'Ozol, Y.'
+'Vimba, S.'
+'Ievins, A.'
+_publ_section_title
+;
+ The crystal structure of calcium monoborate Ca[B(OH)4]2*2H2O
+;
+_journal_name_full               'Soviet Physics'
+_journal_page_first              22
+_journal_page_last               25
+_journal_volume                  9
+_journal_year                    1964
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'B2 Ca H12 O10'
+_chemical_name_mineral           Hexahydroborite
+_space_group_IT_number           13
+_symmetry_space_group_name_Hall  '-P 2yc'
+_symmetry_space_group_name_H-M   'P 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 103.80
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.9997
+_cell_length_b                   6.7260
+_cell_length_c                   7.9693
+_cell_volume                     416.419
+_database_code_amcsd             0015534
+_exptl_crystal_density_diffrn    1.865
+_cod_original_cell_volume        416.418
+_cod_original_formula_sum        'Ca B2 (O10 H12)'
+_cod_database_code               9012837
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,-y,1/2+z
+-x,y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 -0.02500 0.25000 Ca 0
+B 0.18300 0.27500 0.06700 B 0
+O-H1 0.00000 0.21700 0.02100 O 1
+O-H2 0.26700 0.11700 0.18800 O 1
+O-H3 0.23300 0.26700 -0.10400 O 1
+O-H4 0.21700 0.47900 0.13300 O 1
+Wat5 0.42500 0.19200 0.55800 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:18+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015534

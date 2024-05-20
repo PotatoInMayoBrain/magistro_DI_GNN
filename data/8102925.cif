@@ -1,0 +1,214 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/29/8102925.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8102925
+loop_
+_publ_author_name
+'K\"ohler, J.'
+'Okudera, H.'
+'Reuter, D.'
+'Simon, A.'
+_publ_section_title
+;
+Crystal structure of germanium tetrabromide, \a-GeBr~4~, room 
+temperature modification
+;
+_journal_issue                   4
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              523
+_journal_page_last               523
+_journal_volume                  220
+_journal_year                    2005
+_chemical_formula_sum            'Br4 Ge'
+_chemical_formula_weight         392.23
+_chemical_melting_point          299.15
+_chemical_name_common            Germaniumtetrabromid
+_chemical_name_systematic
+;
+ germanium tetrabromide
+;
+_space_group_IT_number           205
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P a -3'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   11.1723(13)
+_cell_length_b                   11.1723(13)
+_cell_length_c                   11.1723(13)
+_cell_measurement_temperature    213(2)
+_cell_volume                     1394.5(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      213(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'Stoe IPDS I'
+_diffrn_measurement_method       phi
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1700
+_diffrn_reflns_av_sigmaI/netI    0.0584
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            4326
+_diffrn_reflns_theta_full        19.94
+_diffrn_reflns_theta_max         19.94
+_diffrn_reflns_theta_min         3.16
+_exptl_absorpt_coefficient_mu    27.180
+_exptl_crystal_colour            'transparent colorless'
+_exptl_crystal_density_diffrn    3.736
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       cube
+_exptl_crystal_F_000             1376
+_exptl_crystal_size_max          0.3
+_exptl_crystal_size_mid          0.3
+_exptl_crystal_size_min          0.3
+_refine_diff_density_max         0.472
+_refine_diff_density_min         -0.397
+_refine_diff_density_rms         0.110
+_refine_ls_extinction_coef       0.0013(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.486
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         220
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.486
+_refine_ls_R_factor_all          0.0300
+_refine_ls_R_factor_gt           0.0269
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+2.5042P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0754
+_refine_ls_wR_factor_ref         0.0765
+_reflns_number_gt                206
+_reflns_number_total             220
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            409856.cff
+_cod_data_source_block           gebr-60
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '26 C' was changed to '299.15' - it
+was converted from degrees Celsius(C) to Kelvins(K).
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      Pa-3
+_cod_database_code               8102925
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'z, x, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z, x'
+'-y, z+1/2, -x+1/2'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z, x+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+'-z, -x, -y'
+'-z-1/2, x-1/2, y'
+'z-1/2, x, -y-1/2'
+'z, -x-1/2, y-1/2'
+'-y, -z, -x'
+'y, -z-1/2, x-1/2'
+'-y-1/2, z-1/2, x'
+'y-1/2, z, -x-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ge Ge 0.13098(7) 0.13098(7) 0.13098(7) 0.0237(7) Uani 1 8 c d S . .
+Br1 Br 0.24787(7) 0.24787(7) 0.24787(7) 0.0430(8) Uani 1 8 c d S . .
+Br2 Br 0.02029(14) 0.00838(8) 0.24865(7) 0.0381(6) Uani 1 24 d d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ge 0.0237(7) 0.0237(7) 0.0237(7) 0.0003(4) 0.0003(4) 0.0003(4)
+Br1 0.0430(8) 0.0430(8) 0.0430(8) -0.0086(4) -0.0086(4) -0.0086(4)
+Br2 0.0379(7) 0.0368(8) 0.0397(8) 0.0098(4) 0.0082(4) -0.0039(5)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Br1 Ge Br2 109.22(5) . 9 ?
+Br1 Ge Br2 109.22(5) . . ?
+Br2 Ge Br2 109.72(4) 9 . ?
+Br1 Ge Br2 109.22(5) . 5 ?
+Br2 Ge Br2 109.72(4) 9 5 ?
+Br2 Ge Br2 109.72(4) . 5 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ge Br1 2.262(2) . ?
+Ge Br2 2.2657(14) 9 ?
+Ge Br2 2.2657(14) . ?
+Ge Br2 2.2657(14) 5 ?

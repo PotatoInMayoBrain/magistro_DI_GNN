@@ -1,0 +1,521 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/72/2007270.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2007270
+loop_
+_publ_author_name
+'Monconduit, Laure'
+'Belin, Claude'
+'Tillard, Monique'
+_publ_section_title
+;
+ The New Mixed Lithium Tantalum Phosphide
+ Li~8{-~<i>x</i>}Ta~<i>x~</i>P~4~ (<i>x</i> = 0.5)
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              IUC9800014
+_journal_paper_doi               10.1107/S0108270198099740
+_journal_volume                  54
+_journal_year                    1998
+_chemical_formula_moiety         'Li7.50 Ta0.50 P4 '
+_chemical_formula_sum            'Li7.5 P4 Ta0.5'
+_chemical_formula_weight         266.40
+_chemical_name_common            'lithium tantalum phosphide'
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           225
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   5.9990(10)
+_cell_length_b                   5.9990(10)
+_cell_length_c                   5.9990(10)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      30.17
+_cell_measurement_theta_min      13.70
+_cell_volume                     215.89(6)
+_computing_cell_refinement       'CAD4 software (Enraf Nonius, 1989)'
+_computing_data_collection       'CAD4 software (Enraf Nonius, 1989)'
+_computing_data_reduction        'own program'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.313
+_diffrn_measured_fraction_theta_max 0.313
+_diffrn_measurement_device_type  'Nonius CAD4'
+_diffrn_measurement_method       \w-\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1007
+_diffrn_reflns_av_sigmaI/netI    0.0513
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -1
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -1
+_diffrn_reflns_limit_l_max       9
+_diffrn_reflns_limit_l_min       -1
+_diffrn_reflns_number            225
+_diffrn_reflns_theta_full        34.41
+_diffrn_reflns_theta_max         34.41
+_diffrn_reflns_theta_min         5.89
+_diffrn_standards_decay_%        <3
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    6.976
+_exptl_absorpt_correction_T_max  0.635
+_exptl_absorpt_correction_T_min  0.564
+_exptl_absorpt_correction_type
+'Psi-scan, own version (Rigoult et al., 1979)'
+_exptl_crystal_colour            'metallic grey'
+_exptl_crystal_density_diffrn    2.049
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'nearly spherical'
+_exptl_crystal_F_000             119
+_exptl_crystal_size_max          0.075
+_exptl_crystal_size_mid          0.069
+_exptl_crystal_size_min          0.065
+_refine_diff_density_max         0.357
+_refine_diff_density_min         -0.347
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.104
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     4
+_refine_ls_number_reflns         40
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.104
+_refine_ls_R_factor_all          0.0304
+_refine_ls_R_factor_gt           0.0304
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.5997P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0707
+_reflns_number_gt                40
+_reflns_number_total             40
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            qb0037.cif
+_cod_data_source_block           LiTaP
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.5997P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.5997P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Li7.50 Ta0.50 P4 '
+_cod_database_code               2007270
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'x, y+1/2, z+1/2'
+'-x, -y+1/2, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'z, x+1/2, y+1/2'
+'z, -x+1/2, -y+1/2'
+'-z, -x+1/2, y+1/2'
+'-z, x+1/2, -y+1/2'
+'y, z+1/2, x+1/2'
+'-y, z+1/2, -x+1/2'
+'y, -z+1/2, -x+1/2'
+'-y, -z+1/2, x+1/2'
+'y, x+1/2, -z+1/2'
+'-y, -x+1/2, -z+1/2'
+'y, -x+1/2, z+1/2'
+'-y, x+1/2, z+1/2'
+'x, z+1/2, -y+1/2'
+'-x, z+1/2, y+1/2'
+'-x, -z+1/2, -y+1/2'
+'x, -z+1/2, y+1/2'
+'z, y+1/2, -x+1/2'
+'z, -y+1/2, x+1/2'
+'-z, y+1/2, x+1/2'
+'-z, -y+1/2, -x+1/2'
+'x+1/2, y, z+1/2'
+'-x+1/2, -y, z+1/2'
+'-x+1/2, y, -z+1/2'
+'x+1/2, -y, -z+1/2'
+'z+1/2, x, y+1/2'
+'z+1/2, -x, -y+1/2'
+'-z+1/2, -x, y+1/2'
+'-z+1/2, x, -y+1/2'
+'y+1/2, z, x+1/2'
+'-y+1/2, z, -x+1/2'
+'y+1/2, -z, -x+1/2'
+'-y+1/2, -z, x+1/2'
+'y+1/2, x, -z+1/2'
+'-y+1/2, -x, -z+1/2'
+'y+1/2, -x, z+1/2'
+'-y+1/2, x, z+1/2'
+'x+1/2, z, -y+1/2'
+'-x+1/2, z, y+1/2'
+'-x+1/2, -z, -y+1/2'
+'x+1/2, -z, y+1/2'
+'z+1/2, y, -x+1/2'
+'z+1/2, -y, x+1/2'
+'-z+1/2, y, x+1/2'
+'-z+1/2, -y, -x+1/2'
+'x+1/2, y+1/2, z'
+'-x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, -z'
+'z+1/2, x+1/2, y'
+'z+1/2, -x+1/2, -y'
+'-z+1/2, -x+1/2, y'
+'-z+1/2, x+1/2, -y'
+'y+1/2, z+1/2, x'
+'-y+1/2, z+1/2, -x'
+'y+1/2, -z+1/2, -x'
+'-y+1/2, -z+1/2, x'
+'y+1/2, x+1/2, -z'
+'-y+1/2, -x+1/2, -z'
+'y+1/2, -x+1/2, z'
+'-y+1/2, x+1/2, z'
+'x+1/2, z+1/2, -y'
+'-x+1/2, z+1/2, y'
+'-x+1/2, -z+1/2, -y'
+'x+1/2, -z+1/2, y'
+'z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, x'
+'-z+1/2, -y+1/2, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+'-x, -y+1/2, -z+1/2'
+'x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'-x, y+1/2, z+1/2'
+'-z, -x+1/2, -y+1/2'
+'-z, x+1/2, y+1/2'
+'z, x+1/2, -y+1/2'
+'z, -x+1/2, y+1/2'
+'-y, -z+1/2, -x+1/2'
+'y, -z+1/2, x+1/2'
+'-y, z+1/2, x+1/2'
+'y, z+1/2, -x+1/2'
+'-y, -x+1/2, z+1/2'
+'y, x+1/2, z+1/2'
+'-y, x+1/2, -z+1/2'
+'y, -x+1/2, -z+1/2'
+'-x, -z+1/2, y+1/2'
+'x, -z+1/2, -y+1/2'
+'x, z+1/2, y+1/2'
+'-x, z+1/2, -y+1/2'
+'-z, -y+1/2, x+1/2'
+'-z, y+1/2, -x+1/2'
+'z, -y+1/2, -x+1/2'
+'z, y+1/2, x+1/2'
+'-x+1/2, -y, -z+1/2'
+'x+1/2, y, -z+1/2'
+'x+1/2, -y, z+1/2'
+'-x+1/2, y, z+1/2'
+'-z+1/2, -x, -y+1/2'
+'-z+1/2, x, y+1/2'
+'z+1/2, x, -y+1/2'
+'z+1/2, -x, y+1/2'
+'-y+1/2, -z, -x+1/2'
+'y+1/2, -z, x+1/2'
+'-y+1/2, z, x+1/2'
+'y+1/2, z, -x+1/2'
+'-y+1/2, -x, z+1/2'
+'y+1/2, x, z+1/2'
+'-y+1/2, x, -z+1/2'
+'y+1/2, -x, -z+1/2'
+'-x+1/2, -z, y+1/2'
+'x+1/2, -z, -y+1/2'
+'x+1/2, z, y+1/2'
+'-x+1/2, z, -y+1/2'
+'-z+1/2, -y, x+1/2'
+'-z+1/2, y, -x+1/2'
+'z+1/2, -y, -x+1/2'
+'z+1/2, y, x+1/2'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, y+1/2, -z'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-z+1/2, -x+1/2, -y'
+'-z+1/2, x+1/2, y'
+'z+1/2, x+1/2, -y'
+'z+1/2, -x+1/2, y'
+'-y+1/2, -z+1/2, -x'
+'y+1/2, -z+1/2, x'
+'-y+1/2, z+1/2, x'
+'y+1/2, z+1/2, -x'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+'-y+1/2, x+1/2, -z'
+'y+1/2, -x+1/2, -z'
+'-x+1/2, -z+1/2, y'
+'x+1/2, -z+1/2, -y'
+'x+1/2, z+1/2, y'
+'-x+1/2, z+1/2, -y'
+'-z+1/2, -y+1/2, x'
+'-z+1/2, y+1/2, -x'
+'z+1/2, -y+1/2, -x'
+'z+1/2, y+1/2, x'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+_atom_site_type_symbol
+P .0000 .0000 .0000 .0197(6) Uiso d S 1 . . P
+Li .2500 .2500 .2500 .0100(7) Uiso d SP .9384(14) . . Li
+Ta .2500 .2500 .2500 .0100(7) Uiso d SP .0612(14) . . Ta
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Li Li -0.0003 0.0001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -0.7052 6.5227 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Ta P Li 97 . 180.0 no
+Ta P Li 97 97 0.0 no
+Li P Li . 97 180.0 no
+Ta P Ta 97 169 109.5 yes
+Li P Ta . 169 70.5 no
+Li P Ta 97 169 109.5 no
+Ta P Li 97 73_445 70.5 no
+Li P Li . 73_445 109.5 yes
+Li P Li 97 73_445 70.5 no
+Ta P Li 169 73_445 180.0 no
+Ta P Li 97 49_454 70.5 no
+Li P Li . 49_454 109.5 no
+Li P Li 97 49_454 70.5 no
+Ta P Li 169 49_454 70.5 no
+Li P Li 73_445 49_454 109.5 no
+Ta P Li 97 121 109.5 no
+Li P Li . 121 70.5 no
+Li P Li 97 121 109.5 no
+Ta P Li 169 121 109.5 no
+Li P Li 73_445 121 70.5 no
+Li P Li 49_454 121 70.5 no
+Ta P Li 97 145 109.5 no
+Li P Li . 145 70.5 no
+Li P Li 97 145 109.5 no
+Ta P Li 169 145 109.5 no
+Li P Li 73_445 145 70.5 no
+Li P Li 49_454 145 180.0 no
+Li P Li 121 145 109.5 no
+Ta P Li 97 169 109.5 no
+Li P Li . 169 70.5 yes
+Li P Li 97 169 109.5 no
+Ta P Li 169 169 0.0 no
+Li P Li 73_445 169 180.0 no
+Li P Li 49_454 169 70.5 no
+Li P Li 121 169 109.5 no
+Li P Li 145 169 109.5 no
+Ta P Ta 97 25_544 70.5 yes
+Li P Ta . 25_544 109.5 no
+Li P Ta 97 25_544 70.5 no
+Ta P Ta 169 25_544 70.5 no
+Li P Ta 73_445 25_544 109.5 no
+Li P Ta 49_454 25_544 109.5 no
+Li P Ta 121 25_544 180.0 no
+Li P Ta 145 25_544 70.5 no
+Li P Ta 169 25_544 70.5 no
+Ta P Ta 97 49_454 70.5 no
+Li P Ta . 49_454 109.5 no
+Li P Ta 97 49_454 70.5 no
+Ta P Ta 169 49_454 70.5 no
+Li P Ta 73_445 49_454 109.5 no
+Li P Ta 49_454 49_454 0.0 no
+Li P Ta 121 49_454 70.5 no
+Li P Ta 145 49_454 180.0 no
+Li P Ta 169 49_454 70.5 no
+Ta P Ta 25_544 49_454 109.5 no
+P Li P . 73 109.5 no
+P Li P . 25 109.5 no
+P Li P 73 25 109.5 no
+P Li P . 49 109.5 no
+P Li P 73 49 109.5 no
+P Li P 25 49 109.5 no
+P Li Ta . 169_556 125.3 no
+P Li Ta 73 169_556 125.3 no
+P Li Ta 25 169_556 54.7 no
+P Li Ta 49 169_556 54.7 no
+P Li Li . 121 54.7 no
+P Li Li 73 121 125.3 no
+P Li Li 25 121 54.7 no
+P Li Li 49 121 125.3 no
+Ta Li Li 169_556 121 90.0 no
+P Li Li . 121_655 125.3 no
+P Li Li 73 121_655 54.7 no
+P Li Li 25 121_655 125.3 no
+P Li Li 49 121_655 54.7 no
+Ta Li Li 169_556 121_655 90.0 no
+Li Li Li 121 121_655 180.0 no
+P Li Li . 145 54.7 no
+P Li Li 73 145 125.3 no
+P Li Li 25 145 125.3 no
+P Li Li 49 145 54.7 no
+Ta Li Li 169_556 145 90.0 no
+Li Li Li 121 145 90.0 no
+Li Li Li 121_655 145 90.0 no
+P Li Li . 145_565 125.3 no
+P Li Li 73 145_565 54.7 no
+P Li Li 25 145_565 54.7 no
+P Li Li 49 145_565 125.3 no
+Ta Li Li 169_556 145_565 90.0 no
+Li Li Li 121 145_565 90.0 no
+Li Li Li 121_655 145_565 90.0 no
+Li Li Li 145 145_565 180.0 no
+P Li Li . 169 54.7 no
+P Li Li 73 169 54.7 no
+P Li Li 25 169 125.3 no
+P Li Li 49 169 125.3 no
+Ta Li Li 169_556 169 180.0 no
+Li Li Li 121 169 90.0 no
+Li Li Li 121_655 169 90.0 no
+Li Li Li 145 169 90.0 no
+Li Li Li 145_565 169 90.0 no
+P Li Li . 169_556 125.3 no
+P Li Li 73 169_556 125.3 no
+P Li Li 25 169_556 54.7 no
+P Li Li 49 169_556 54.7 no
+Ta Li Li 169_556 169_556 0.0 no
+Li Li Li 121 169_556 90.0 no
+Li Li Li 121_655 169_556 90.0 no
+Li Li Li 145 169_556 90.0 no
+Li Li Li 145_565 169_556 90.0 no
+Li Li Li 169 169_556 180.0 no
+P Li Ta . 121 54.7 no
+P Li Ta 73 121 125.3 no
+P Li Ta 25 121 54.7 no
+P Li Ta 49 121 125.3 no
+Ta Li Ta 169_556 121 90.0 no
+Li Li Ta 121 121 0.0 no
+Li Li Ta 121_655 121 180.0 no
+Li Li Ta 145 121 90.0 no
+Li Li Ta 145_565 121 90.0 no
+Li Li Ta 169 121 90.0 no
+Li Li Ta 169_556 121 90.0 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P Ta 97 2.5976(4) yes
+P Li . 2.5976(4) yes
+P Li 97 2.5976(4) no
+P Ta 169 2.5976(4) no
+P Li 73_445 2.5976(4) no
+P Li 49_454 2.5976(4) no
+P Li 121 2.5976(4) no
+P Li 145 2.5976(4) no
+P Li 169 2.5976(4) no
+P Ta 25_544 2.5976(4) no
+P Ta 49_454 2.5976(4) no
+Li P 73 2.5976(4) no
+Li P 25 2.5976(4) no
+Li P 49 2.5976(4) no
+Li Ta 169_556 2.9995(5) yes
+Li Li 121 2.9995(5) yes
+Li Li 121_655 2.9995(5) no
+Li Li 145 2.9995(5) no
+Li Li 145_565 2.9995(5) no
+Li Li 169 2.9995(5) no
+Li Li 169_556 2.9995(5) no
+Li Ta 121 2.9995(5) no

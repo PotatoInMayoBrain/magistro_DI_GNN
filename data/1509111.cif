@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-02-05 19:58:47 +0200 (Sun, 05 Feb 2017) $
+#$Revision: 191775 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/50/91/1509111.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1509111
+loop_
+_publ_author_name
+'Massalski, T. B.'
+'King, H. W.'
+_publ_section_title
+;
+ The lattice spacing relationships in H.C.P. epsilon and eta phases in the
+ systems Cu - Zn, Ag - Zn; Au - Zn and Ag - Cd
+;
+_journal_name_full               'Acta Metallurgica'
+_journal_page_first              1171
+_journal_page_last               1181
+_journal_paper_doi               10.1016/0001-6160(62)90170-0
+_journal_volume                  10
+_journal_year                    1962
+_chemical_formula_sum            'Ag0.4 Cd1.6'
+_chemical_name_systematic        'Silver cadmium (0.4/1.6)'
+_space_group_IT_number           194
+_symmetry_space_group_name_Hall  '-P 6c 2c'
+_symmetry_space_group_name_H-M   'P 63/m m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   3.0863
+_cell_length_b                   3.0863
+_cell_length_c                   4.8177
+_cell_measurement_temperature    303.15
+_cell_volume                     39.742
+_citation_journal_id_ASTM        AMETAR
+_diffrn_ambient_temperature      303.15
+_exptl_crystal_thermal_history
+;
+ Sample alloy was heat-treated at 305 degrees Celsius for 31 days.
+;
+_cod_data_source_file            silver0-1_77.cif
+_cod_data_source_block           Ag0.4Cd1.6
+_cod_depositor_comments
+;
+ Adding the _exptl_crystal_thermal_history data item.
+
+ Antanas Vaitkus,
+ 2017-02-05
+;
+_cod_original_cell_volume        39.74172
+_cod_database_code               1509111
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-y,-x,-z+1/2
+x-y,-y,-z
+x,x-y,-z+1/2
+y,x,-z
+-x+y,y,-z+1/2
+-x,-x+y,-z
+-x,-y,-z
+-x+y,-x,-z-1/2
+y,-x+y,-z
+x,y,-z-1/2
+x-y,x,-z
+-y,x-y,-z-1/2
+y,x,z-1/2
+-x+y,y,z
+-x,-x+y,z-1/2
+-y,-x,z
+x-y,-y,z-1/2
+x,x-y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Cd1 Cd 0.3333 0.6667 0.25 0.79
+Ag1 Ag 0.3333 0.6667 0.25 0.21

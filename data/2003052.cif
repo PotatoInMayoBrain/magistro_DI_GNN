@@ -1,0 +1,162 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/30/2003052.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2003052
+loop_
+_publ_author_name
+'Yoshihisa Miwa'
+'Takashi Mizuno'
+'Kazunori Tsuchida'
+'Tooru Taga'
+'Yutaka Iwata'
+_publ_section_title
+;
+Experimental Charge Density and Electrostatic Potential in Nicotinamide
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              78
+_journal_page_last               84
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_sum            'C6 H6 N2 O'
+_chemical_formula_weight         122.13
+_chemical_name_common            nicotinamide
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.03(7)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   3.975(5)
+_cell_length_b                   15.632(8)
+_cell_length_c                   9.422(4)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      13.46
+_cell_measurement_theta_min      8.14
+_cell_volume                     578.2
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device       'Rigaku AFC5-RU200'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         rotarix
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0094
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       33
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -21
+_diffrn_reflns_number            5771
+_diffrn_reflns_reduction_process 'MSC/AFC (MSC, 1988)'
+_diffrn_reflns_theta_max         52.5
+_diffrn_reflns_theta_min         1
+_diffrn_standards_decay_%        5
+_diffrn_standards_interval_count 150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.100
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.4028
+_exptl_crystal_density_meas      1.398
+_exptl_crystal_density_method    flotation
+_exptl_crystal_description       ?
+_exptl_crystal_F_000             256
+_exptl_crystal_size_max          0.80
+_exptl_crystal_size_mid          0.70
+_exptl_crystal_size_min          0.60
+_refine_diff_density_max         0.490
+_refine_diff_density_min         -0.182
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   0.40
+_refine_ls_hydrogen_treatment    'refxyz all from D-map'
+_refine_ls_matrix_type           'Full-matrix least-squares'
+_refine_ls_number_parameters     106
+_refine_ls_number_reflns         3471
+_refine_ls_R_factor_obs          0.057
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/[\s^2^(F)+0.08F^2^]
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.066
+_reflns_number_observed          3471
+_reflns_number_total             5246
+_reflns_observed_criterion       F>3\s(F)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/[\s^2^(F)+0.08F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(F)+0.08F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      P21/c
+_cod_original_formula_sum        'C6 H6 N2 O1'
+_cod_database_code               2003052
+loop_
+_symmetry_equiv_pos_as_xyz
++X,+Y,+Z
+-X,1/2+Y,1/2-Z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+C2 .0458(4) .0390(4) .0251(2) -.0012(3) -.0032(2) -.0018(2)
+C3 .0364(3) .0381(2) .0232(2) -.0058(2) .0003(2) .0001(2)
+C4 .0545(4) .0416(4) .0356(3) -.0074(3) -.0048(3) -.0059(3)
+C5 .0683(6) .0370(4) .0478(4) -.0018(4) -.0007(4) -.0030(3)
+C6 .0547(5) .0432(4) .0399(4) .0044(3) .0020(3) .0064(3)
+C7 .0436(4) .0418(4) .0228(2) -.0065(3) -.0021(2) .0023(2)
+N1 .0509(4) .0459(4) .0282(2) .0034(3) -.0042(2) .0018(2)
+N2 .0642(5) .0418(4) .0280(3) .0038(3) -.0046(3) .0030(2)
+O1 .0754(4) .0574(4) .0220(2) .0004(3) -.0058(2) .0003(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+C2 -0.0311(2) 0.33966(5) 0.19385(7) .0373(2) Ueq
+C3 0.1575(2) 0.35848(5) 0.32724(6) .03320(10) Ueq
+C4 0.1764(2) 0.44290(5) 0.37032(8) .0453(2) Ueq
+C5 0.0192(3) 0.50513(6) 0.28010(10) .0521(2) Ueq
+C6 -0.1597(2) 0.48025(6) 0.14974(9) .0465(2) Ueq
+C7 0.3328(2) 0.29227(5) 0.42755(6) .0369(2) Ueq
+N1 -0.1914(2) 0.39915(5) 0.10621(6) .0427(2) Ueq
+N2 0.4104(2) 0.21807(5) 0.37194(7) .0461(2) Ueq
+O1 0.4007(2) 0.30880(4) 0.55698(5) .0528(2) Ueq
+H2 -0.067(3) 0.2827(8) 0.1680(10) .054(3) Uiso
+H4 0.311(3) 0.4568(8) 0.4690(10) .072(4) Uiso
+H5 0.033(3) 0.5624(9) 0.3050(10) .068(4) Uiso
+H6 -0.267(3) 0.5207(9) 0.0740(10) .071(4) Uiso
+H2A 0.400(3) 0.2127(7) 0.2770(10) .060(3) Uiso
+H2B 0.521(3) 0.1763(7) 0.4250(10) .061(4) Uiso
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 0.002 0.002 International_Tables_Vol_IV_Table_2.2B
+H 0.000 0.000 International_Tables_Vol_IV_Table_2.2B
+O 0.008 0.006 International_Tables_Vol_IV_Table_2.2B
+N 0.004 0.003 International_Tables_Vol_IV_Table_2.2B

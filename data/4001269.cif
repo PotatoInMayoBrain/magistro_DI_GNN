@@ -1,0 +1,561 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/12/4001269.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001269
+loop_
+_publ_author_name
+'Wagemaker, Marnix'
+'Ellis, Brian L.'
+'L\"utzenkirchen-Hecht, Dirk'
+'Mulder, Fokko M.'
+'Nazar, Linda F.'
+_publ_section_title
+;
+ Proof of Supervalent Doping in Olivine LiFePO4
+;
+_journal_issue                   20
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              6313
+_journal_paper_doi               10.1021/cm801781k
+_journal_volume                  20
+_journal_year                    2008
+_chemical_formula_sum            'Fe0.99 Li0.97 O4 P Zr0.01'
+_chemical_formula_weight         157.87
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_date             2008-08-22T13:46
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2008-08-22T13:46  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   10.31181(16)
+_cell_length_b                   5.99753(10)
+_cell_length_c                   4.69673(7)
+_cell_volume                     290.471(8)
+_pd_block_id                     2008-08-22T13:46|GEM25952SAVEANI|marnix|Overall
+_pd_phase_name
+'from C:/Marnix/MarnixDATA/ElasticND/LiFePO4-GEM2005/Li0_96Zr0_04/G'
+_cod_data_source_file            cm801781k_si_004.cif
+_cod_data_source_block           GEM25952SAVEANI_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (125
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (299 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        290.447(11)
+_cod_database_code               4001269
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z+1/2
+3 +x,-y+1/2,+z
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z+1/2
+-3 -x,+y+1/2,-z
+-4 +x+1/2,+y,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Li1 0.01949 -0.005 -0.00005 0.01074 0.00036 0.0192
+Fe1 0.00614(32 0.0 -0.00014(28 0.00499(30 0.0 0.00746(31
+P1 0.0079(6) 0.0 0.0012(5) 0.0061(5) 0.0 0.0017(5)
+O1 0.0110(5) 0.0 -0.0011(5) 0.0112(6) 0.0 0.0031(5)
+O2 0.0035(5) 0.0 0.0009(4) 0.0122(5) 0.0 0.0066(6)
+O3 0.0094(4) 0.00367(31 0.00188(30 0.00461(31 0.00157(26 0.0073(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Li Li1 0.0 0.0 0.0 0.9661(8) Uani 0.01647 4
+Fe Fe1 0.28192(6) 0.25 0.97513(6) 0.9930(8) Uani 0.0062 4
+P P1 0.09554(12) 0.25 0.41765(23) 1.0 Uani 0.00525 4
+O O1 0.09713(13) 0.25 0.74158(25) 1.0 Uani 0.00842 4
+O O2 0.45647(10) 0.25 0.20305(28) 1.0 Uani 0.00745 4
+O O3 0.16581(9) 0.04734(12) 0.28502(17) 1.0 Uani 0.0071 8
+Zr ZrFe 0.28192(6) 0.25 0.97513(6) -0.0004(12) Uiso 0.005 4
+Zr ZrLi 0.0 0.0 0.0 0.0089(8) Uiso 0.005 4
+Li LiFe 0.28192(6) 0.25 0.97513(6) 0.0069(11) Uiso 0.016 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Li 3.9
+Fe 3.964
+P 4.0
+O 16.0
+Zr 0.035
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Li1 Li1 Li1 180.0 3_545 3_555 n
+Li1 Li1 P1 124.345(14) 3_545 1_555 n
+Li1 Li1 P1 55.655(14) 3_545 -1_555 n
+Li1 Li1 O1 133.625(24) 3_545 1_554 n
+Li1 Li1 O1 46.375(24) 3_545 -1_556 n
+Li1 Li1 O2 44.327(25) 3_545 2_544 n
+Li1 Li1 O2 135.673(25) 3_545 -2_566 n
+Li1 Li1 O3 97.452(19) 3_545 1_555 n
+Li1 Li1 O3 82.548(19) 3_545 -1_555 n
+Li1 Li1 ZrLi 0.0 3_545 3_545 n
+Li1 Li1 ZrLi 180.0 3_545 3_555 n
+Li1 Li1 P1 55.655(14) 3_555 1_555 n
+Li1 Li1 P1 124.345(14) 3_555 -1_555 n
+Li1 Li1 O1 46.375(24) 3_555 1_554 n
+Li1 Li1 O1 133.625(24) 3_555 -1_556 n
+Li1 Li1 O2 135.673(25) 3_555 2_544 n
+Li1 Li1 O2 44.327(25) 3_555 -2_566 n
+Li1 Li1 O3 82.548(19) 3_555 1_555 n
+Li1 Li1 O3 97.452(19) 3_555 -1_555 n
+Li1 Li1 ZrLi 180.0 3_555 3_545 n
+Li1 Li1 ZrLi 0.0 3_555 3_555 n
+P1 Li1 P1 179.972 1_555 -1_555 n
+P1 Li1 O1 81.482(31) 1_555 1_554 n
+P1 Li1 O1 98.518(31) 1_555 -1_556 n
+P1 Li1 O2 144.59(4) 1_555 2_544 n
+P1 Li1 O2 35.41(4) 1_555 -2_566 n
+P1 Li1 O3 35.564(31) 1_555 1_555 n
+P1 Li1 O3 144.436(31) 1_555 -1_555 n
+P1 Li1 ZrLi 124.345(14) 1_555 3_545 n
+P1 Li1 ZrLi 55.655(14) 1_555 3_555 n
+P1 Li1 O1 98.518(31) -1_555 1_554 n
+P1 Li1 O1 81.482(31) -1_555 -1_556 n
+P1 Li1 O2 35.41(4) -1_555 2_544 n
+P1 Li1 O2 144.59(4) -1_555 -2_566 n
+P1 Li1 O3 144.436(31) -1_555 1_555 n
+P1 Li1 O3 35.564(31) -1_555 -1_555 n
+P1 Li1 ZrLi 55.655(14) -1_555 3_545 n
+P1 Li1 ZrLi 124.345(14) -1_555 3_555 n
+O1 Li1 O1 180.0 1_554 -1_556 n
+O1 Li1 O2 91.35(4) 1_554 2_544 n
+O1 Li1 O2 88.65(4) 1_554 -2_566 n
+O1 Li1 O3 83.797(35) 1_554 1_555 n
+O1 Li1 O3 96.203(35) 1_554 -1_555 n
+O1 Li1 ZrLi 133.625(24) 1_554 3_545 n
+O1 Li1 ZrLi 46.375(24) 1_554 3_555 n
+O1 Li1 O2 88.65(4) -1_556 2_544 n
+O1 Li1 O2 91.35(4) -1_556 -2_566 n
+O1 Li1 O3 96.203(35) -1_556 1_555 n
+O1 Li1 O3 83.797(35) -1_556 -1_555 n
+O1 Li1 ZrLi 46.375(24) -1_556 3_545 n
+O1 Li1 ZrLi 133.625(24) -1_556 3_555 n
+O2 Li1 O2 180.0 2_544 -2_566 n
+O2 Li1 O3 109.399(30) 2_544 1_555 n
+O2 Li1 O3 70.601(30) 2_544 -1_555 n
+O2 Li1 ZrLi 44.327(25) 2_544 3_545 n
+O2 Li1 ZrLi 135.673(25) 2_544 3_555 n
+O2 Li1 O3 70.601(30) -2_566 1_555 n
+O2 Li1 O3 109.399(30) -2_566 -1_555 n
+O2 Li1 ZrLi 135.673(25) -2_566 3_545 n
+O2 Li1 ZrLi 44.327(25) -2_566 3_555 n
+O3 Li1 O3 180.0 1_555 -1_555 n
+O3 Li1 ZrLi 97.452(19) 1_555 3_545 n
+O3 Li1 ZrLi 82.548(19) 1_555 3_555 n
+O3 Li1 ZrLi 82.548(19) -1_555 3_545 n
+O3 Li1 ZrLi 97.452(19) -1_555 3_555 n
+ZrLi Li1 ZrLi 180.0 3_545 3_555 n
+O2 Fe1 O3 89.807(34) 1_556 2_555 n
+O2 Fe1 O3 89.807(34) 1_556 4_555 n
+O3 Fe1 O3 119.38(5) 2_555 4_555 n
+Li1 P1 Li1 68.690(27) 1_555 3_555 n
+Li1 P1 O1 137.88(5) 1_555 1_555 n
+Li1 P1 O2 51.98(4) 1_555 -2_566 n
+Li1 P1 O3 55.45(4) 1_555 1_555 n
+Li1 P1 O3 108.67(6) 1_555 3_555 n
+Li1 P1 ZrFe 73.141(26) 1_555 1_554 n
+Li1 P1 ZrLi 0.0 1_555 1_555 n
+Li1 P1 ZrLi 68.690(27) 1_555 3_555 n
+Li1 P1 LiFe 73.141(26) 1_555 1_554 n
+Li1 P1 O1 137.88(5) 3_555 1_555 n
+Li1 P1 O2 51.98(4) 3_555 -2_566 n
+Li1 P1 O3 108.67(6) 3_555 1_555 n
+Li1 P1 O3 55.45(4) 3_555 3_555 n
+Li1 P1 ZrFe 73.141(26) 3_555 1_554 n
+Li1 P1 ZrLi 68.690(27) 3_555 1_555 n
+Li1 P1 ZrLi 0.0 3_555 3_555 n
+Li1 P1 LiFe 73.141(26) 3_555 1_554 n
+O1 P1 O2 112.19(11) 1_555 -2_566 n
+O1 P1 O3 113.43(7) 1_555 1_555 n
+O1 P1 O3 113.43(7) 1_555 3_555 n
+O1 P1 ZrFe 136.61(10) 1_555 1_554 n
+O1 P1 ZrLi 137.88(5) 1_555 1_555 n
+O1 P1 ZrLi 137.88(5) 1_555 3_555 n
+O1 P1 LiFe 136.61(10) 1_555 1_554 n
+O2 P1 O3 106.72(7) -2_566 1_555 n
+O2 P1 O3 106.72(7) -2_566 3_555 n
+O2 P1 ZrFe 111.20(7) -2_566 1_554 n
+O2 P1 ZrLi 51.98(4) -2_566 1_555 n
+O2 P1 ZrLi 51.98(4) -2_566 3_555 n
+O2 P1 LiFe 111.20(7) -2_566 1_554 n
+O3 P1 O3 103.66(9) 1_555 3_555 n
+O3 P1 ZrFe 52.13(5) 1_555 1_554 n
+O3 P1 ZrLi 55.45(4) 1_555 1_555 n
+O3 P1 ZrLi 108.67(6) 1_555 3_555 n
+O3 P1 LiFe 52.13(5) 1_555 1_554 n
+O3 P1 ZrFe 52.13(5) 3_555 1_554 n
+O3 P1 ZrLi 108.67(6) 3_555 1_555 n
+O3 P1 ZrLi 55.45(4) 3_555 3_555 n
+O3 P1 LiFe 52.13(5) 3_555 1_554 n
+ZrFe P1 ZrLi 73.141(26) 1_554 1_555 n
+ZrFe P1 ZrLi 73.141(26) 1_554 3_555 n
+ZrFe P1 LiFe 0.0 1_554 1_554 n
+ZrLi P1 ZrLi 68.690(27) 1_555 3_555 n
+ZrLi P1 LiFe 73.141(26) 1_555 1_554 n
+ZrLi P1 LiFe 73.141(26) 3_555 1_554 n
+Li1 O1 Li1 87.25(5) 1_556 3_556 n
+Li1 O1 P1 123.59(6) 1_556 1_555 n
+Li1 O1 ZrFe 96.94(4) 1_556 1_555 n
+Li1 O1 ZrLi 0.0 1_556 1_556 n
+Li1 O1 ZrLi 87.25(5) 1_556 3_556 n
+Li1 O1 LiFe 96.94(4) 1_556 1_555 n
+Li1 O1 P1 123.59(6) 3_556 1_555 n
+Li1 O1 ZrFe 96.94(4) 3_556 1_555 n
+Li1 O1 ZrLi 87.25(5) 3_556 1_556 n
+Li1 O1 ZrLi 0.0 3_556 3_556 n
+Li1 O1 LiFe 96.94(4) 3_556 1_555 n
+P1 O1 ZrFe 120.54(10) 1_555 1_555 n
+P1 O1 ZrLi 123.59(6) 1_555 1_556 n
+P1 O1 ZrLi 123.59(6) 1_555 3_556 n
+P1 O1 LiFe 120.54(10) 1_555 1_555 n
+ZrFe O1 ZrLi 96.94(4) 1_555 1_556 n
+ZrFe O1 ZrLi 96.94(4) 1_555 3_556 n
+ZrFe O1 LiFe 0.0 1_555 1_555 n
+ZrLi O1 ZrLi 87.25(5) 1_556 3_556 n
+ZrLi O1 LiFe 96.94(4) 1_556 1_555 n
+ZrLi O1 LiFe 96.94(4) 3_556 1_555 n
+Li1 O2 Li1 91.35(5) 2_555 4_555 n
+Li1 O2 Fe1 121.60(4) 2_555 1_554 n
+Li1 O2 P1 92.60(5) 2_555 -2_565 n
+Li1 O2 ZrFe 121.60(4) 2_555 1_554 n
+Li1 O2 ZrLi 0.0 2_555 2_555 n
+Li1 O2 ZrLi 91.35(5) 2_555 4_555 n
+Li1 O2 LiFe 121.60(4) 2_555 1_554 n
+Li1 O2 Fe1 121.60(4) 4_555 1_554 n
+Li1 O2 P1 92.60(5) 4_555 -2_565 n
+Li1 O2 ZrFe 121.60(4) 4_555 1_554 n
+Li1 O2 ZrLi 91.35(5) 4_555 2_555 n
+Li1 O2 ZrLi 0.0 4_555 4_555 n
+Li1 O2 LiFe 121.60(4) 4_555 1_554 n
+Fe1 O2 P1 127.69(9) 1_554 -2_565 n
+Fe1 O2 ZrFe 0.0 1_554 1_554 n
+Fe1 O2 ZrLi 121.60(4) 1_554 2_555 n
+Fe1 O2 ZrLi 121.60(4) 1_554 4_555 n
+Fe1 O2 LiFe 0.0 1_554 1_554 n
+P1 O2 ZrFe 127.69(9) -2_666 1_554 n
+P1 O2 ZrLi 92.60(5) -2_666 2_555 n
+P1 O2 ZrLi 92.60(5) -2_666 4_555 n
+P1 O2 LiFe 127.69(9) -2_666 1_554 n
+ZrFe O2 ZrLi 121.60(4) 1_554 2_555 n
+ZrFe O2 ZrLi 121.60(4) 1_554 4_555 n
+ZrFe O2 LiFe 0.0 1_554 1_554 n
+ZrLi O2 ZrLi 91.35(5) 2_555 4_555 n
+ZrLi O2 LiFe 121.60(4) 2_555 1_554 n
+ZrLi O2 LiFe 121.60(4) 4_555 1_554 n
+Li1 O3 Fe1 110.84(4) 1_555 2_544 n
+Li1 O3 P1 88.98(6) 1_555 1_555 n
+Li1 O3 ZrFe 95.196(31) 1_555 1_554 n
+Li1 O3 ZrFe 110.84(4) 1_555 2_544 n
+Li1 O3 ZrLi 0.0 1_555 1_555 n
+Li1 O3 LiFe 95.196(31) 1_555 1_554 n
+Li1 O3 LiFe 110.84(4) 1_555 2_544 n
+Fe1 O3 P1 128.82(6) 2_544 1_555 n
+Fe1 O3 ZrFe 127.53(4) 2_544 1_554 n
+Fe1 O3 ZrFe 0.0 2_544 2_544 n
+Fe1 O3 ZrLi 110.84(4) 2_544 1_555 n
+Fe1 O3 LiFe 127.53(4) 2_544 1_554 n
+Fe1 O3 LiFe 0.0 2_544 2_544 n
+P1 O3 ZrFe 94.90(5) 1_555 1_554 n
+P1 O3 ZrFe 128.82(6) 1_555 2_544 n
+P1 O3 ZrLi 88.98(6) 1_555 1_555 n
+P1 O3 LiFe 94.90(5) 1_555 1_554 n
+P1 O3 LiFe 128.82(6) 1_555 2_544 n
+ZrFe O3 ZrFe 127.53(4) 1_554 2_544 n
+ZrFe O3 ZrLi 95.196(31) 1_554 1_555 n
+ZrFe O3 LiFe 0.0 1_554 1_554 n
+ZrFe O3 LiFe 127.53(4) 1_554 2_544 n
+ZrFe O3 ZrLi 110.84(4) 2_544 1_555 n
+ZrFe O3 LiFe 127.53(4) 2_544 1_554 n
+ZrFe O3 LiFe 0.0 2_544 2_544 n
+ZrLi O3 LiFe 95.196(31) 1_555 1_554 n
+ZrLi O3 LiFe 110.84(4) 1_555 2_544 n
+LiFe O3 LiFe 127.53(4) 1_554 2_544 n
+P1 ZrFe O1 77.16(4) 1_556 1_555 n
+P1 ZrFe O2 102.03(4) 1_556 1_556 n
+P1 ZrFe O3 32.976(20) 1_556 1_556 n
+P1 ZrFe O3 119.625(27) 1_556 2_555 n
+P1 ZrFe O3 32.976(20) 1_556 3_556 n
+P1 ZrFe O3 119.625(27) 1_556 4_555 n
+O1 ZrFe O2 179.19(5) 1_555 1_556 n
+O1 ZrFe O3 82.01(4) 1_555 1_556 n
+O1 ZrFe O3 90.60(4) 1_555 2_555 n
+O1 ZrFe O3 82.01(4) 1_555 3_556 n
+O1 ZrFe O3 90.60(4) 1_555 4_555 n
+O2 ZrFe O3 97.31(4) 1_556 1_556 n
+O2 ZrFe O3 89.807(34) 1_556 2_555 n
+O2 ZrFe O3 97.31(4) 1_556 3_556 n
+O2 ZrFe O3 89.807(34) 1_556 4_555 n
+O3 ZrFe O3 152.58(4) 1_556 2_555 n
+O3 ZrFe O3 65.66(4) 1_556 3_556 n
+O3 ZrFe O3 87.228(23) 1_556 4_555 n
+O3 ZrFe O3 87.228(23) 2_555 3_556 n
+O3 ZrFe O3 119.38(5) 2_555 4_555 n
+O3 ZrFe O3 152.58(4) 3_556 4_555 n
+Li1 ZrLi Li1 180.0 3_545 3_555 n
+Li1 ZrLi P1 124.345(14) 3_545 1_555 n
+Li1 ZrLi P1 55.655(14) 3_545 -1_555 n
+Li1 ZrLi O1 133.625(24) 3_545 1_554 n
+Li1 ZrLi O1 46.375(24) 3_545 -1_556 n
+Li1 ZrLi O2 44.327(25) 3_545 2_544 n
+Li1 ZrLi O2 135.673(25) 3_545 -2_566 n
+Li1 ZrLi O3 97.452(19) 3_545 1_555 n
+Li1 ZrLi O3 82.548(19) 3_545 -1_555 n
+Li1 ZrLi ZrLi 0.0 3_545 3_545 n
+Li1 ZrLi ZrLi 180.0 3_545 3_555 n
+Li1 ZrLi P1 55.655(14) 3_555 1_555 n
+Li1 ZrLi P1 124.345(14) 3_555 -1_555 n
+Li1 ZrLi O1 46.375(24) 3_555 1_554 n
+Li1 ZrLi O1 133.625(24) 3_555 -1_556 n
+Li1 ZrLi O2 135.673(25) 3_555 2_544 n
+Li1 ZrLi O2 44.327(25) 3_555 -2_566 n
+Li1 ZrLi O3 82.548(19) 3_555 1_555 n
+Li1 ZrLi O3 97.452(19) 3_555 -1_555 n
+Li1 ZrLi ZrLi 180.0 3_555 3_545 n
+Li1 ZrLi ZrLi 0.0 3_555 3_555 n
+P1 ZrLi P1 179.972 1_555 -1_555 n
+P1 ZrLi O1 81.482(31) 1_555 1_554 n
+P1 ZrLi O1 98.518(31) 1_555 -1_556 n
+P1 ZrLi O2 144.59(4) 1_555 2_544 n
+P1 ZrLi O2 35.41(4) 1_555 -2_566 n
+P1 ZrLi O3 35.564(31) 1_555 1_555 n
+P1 ZrLi O3 144.436(31) 1_555 -1_555 n
+P1 ZrLi ZrLi 124.345(14) 1_555 3_545 n
+P1 ZrLi ZrLi 55.655(14) 1_555 3_555 n
+P1 ZrLi O1 98.518(31) -1_555 1_554 n
+P1 ZrLi O1 81.482(31) -1_555 -1_556 n
+P1 ZrLi O2 35.41(4) -1_555 2_544 n
+P1 ZrLi O2 144.59(4) -1_555 -2_566 n
+P1 ZrLi O3 144.436(31) -1_555 1_555 n
+P1 ZrLi O3 35.564(31) -1_555 -1_555 n
+P1 ZrLi ZrLi 55.655(14) -1_555 3_545 n
+P1 ZrLi ZrLi 124.345(14) -1_555 3_555 n
+O1 ZrLi O1 180.0 1_554 -1_556 n
+O1 ZrLi O2 91.35(4) 1_554 2_544 n
+O1 ZrLi O2 88.65(4) 1_554 -2_566 n
+O1 ZrLi O3 83.797(35) 1_554 1_555 n
+O1 ZrLi O3 96.203(35) 1_554 -1_555 n
+O1 ZrLi ZrLi 133.625(24) 1_554 3_545 n
+O1 ZrLi ZrLi 46.375(24) 1_554 3_555 n
+O1 ZrLi O2 88.65(4) -1_556 2_544 n
+O1 ZrLi O2 91.35(4) -1_556 -2_566 n
+O1 ZrLi O3 96.203(35) -1_556 1_555 n
+O1 ZrLi O3 83.797(35) -1_556 -1_555 n
+O1 ZrLi ZrLi 46.375(24) -1_556 3_545 n
+O1 ZrLi ZrLi 133.625(24) -1_556 3_555 n
+O2 ZrLi O2 180.0 2_544 -2_566 n
+O2 ZrLi O3 109.399(30) 2_544 1_555 n
+O2 ZrLi O3 70.601(30) 2_544 -1_555 n
+O2 ZrLi ZrLi 44.327(25) 2_544 3_545 n
+O2 ZrLi ZrLi 135.673(25) 2_544 3_555 n
+O2 ZrLi O3 70.601(30) -2_566 1_555 n
+O2 ZrLi O3 109.399(30) -2_566 -1_555 n
+O2 ZrLi ZrLi 135.673(25) -2_566 3_545 n
+O2 ZrLi ZrLi 44.327(25) -2_566 3_555 n
+O3 ZrLi O3 180.0 1_555 -1_555 n
+O3 ZrLi ZrLi 97.452(19) 1_555 3_545 n
+O3 ZrLi ZrLi 82.548(19) 1_555 3_555 n
+O3 ZrLi ZrLi 82.548(19) -1_555 3_545 n
+O3 ZrLi ZrLi 97.452(19) -1_555 3_555 n
+ZrLi ZrLi ZrLi 180.0 3_545 3_555 n
+P1 LiFe O1 77.16(4) 1_556 1_555 n
+P1 LiFe O2 102.03(4) 1_556 1_556 n
+P1 LiFe O3 32.976(20) 1_556 1_556 n
+P1 LiFe O3 119.625(27) 1_556 2_555 n
+P1 LiFe O3 32.976(20) 1_556 3_556 n
+P1 LiFe O3 119.625(27) 1_556 4_555 n
+O1 LiFe O2 179.19(5) 1_555 1_556 n
+O1 LiFe O3 82.01(4) 1_555 1_556 n
+O1 LiFe O3 90.60(4) 1_555 2_555 n
+O1 LiFe O3 82.01(4) 1_555 3_556 n
+O1 LiFe O3 90.60(4) 1_555 4_555 n
+O2 LiFe O3 97.31(4) 1_556 1_556 n
+O2 LiFe O3 89.807(34) 1_556 2_555 n
+O2 LiFe O3 97.31(4) 1_556 3_556 n
+O2 LiFe O3 89.807(34) 1_556 4_555 n
+O3 LiFe O3 152.58(4) 1_556 2_555 n
+O3 LiFe O3 65.66(4) 1_556 3_556 n
+O3 LiFe O3 87.228(23) 1_556 4_555 n
+O3 LiFe O3 87.228(23) 2_555 3_556 n
+O3 LiFe O3 119.38(5) 2_555 4_555 n
+O3 LiFe O3 152.58(4) 3_556 4_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Li1 Li1 2.99928(6) 3_545 n
+Li1 Li1 2.99928(6) 3_555 n
+Li1 P1 2.6581(9) 1_555 n
+Li1 P1 2.6581(9) -1_555 n
+Li1 O1 2.1736(10) 1_554 n
+Li1 O1 2.1736(10) -1_556 n
+Li1 O2 2.0963(9) 2_544 n
+Li1 O2 2.0963(9) -2_455 n
+Li1 O3 2.1898(9) 1_555 n
+Li1 O3 2.1898(9) -1_555 n
+Li1 ZrFe 3.2731(5) 1_554 n
+Li1 ZrFe 3.50474(21) 2_544 n
+Li1 ZrFe 3.2731(5) -1_556 n
+Li1 ZrFe 3.50474(21) -2_455 n
+Li1 ZrLi 2.99928(6) 3_545 n
+Li1 ZrLi 2.99928(6) 3_555 n
+Li1 LiFe 3.2731(5) 1_554 n
+Li1 LiFe 3.50474(21) 2_544 n
+Li1 LiFe 3.2731(5) -1_556 n
+Li1 LiFe 3.50474(21) -2_455 n
+Fe1 P1 2.8304(12) 1_556 n
+Fe1 O1 2.1985(14) 1_555 n
+Fe1 O2 2.0940(13) 1_556 n
+Fe1 O3 2.2424(9) 1_556 n
+Fe1 O3 2.0661(7) 2_555 n
+Fe1 O3 2.2424(9) 3_556 n
+Fe1 O3 2.0661(7) 4_555 n
+P1 Li1 2.6581(9) 1_555 n
+P1 Li1 2.6581(9) 3_555 n
+P1 Fe1 2.8304(12) 1_554 n
+P1 O1 1.5212(15) 1_555 n
+P1 O2 1.5419(18) -2_455 n
+P1 O3 1.5462(10) 1_555 n
+P1 O3 1.5462(10) 3_555 n
+P1 ZrFe 2.8304(12) 1_554 n
+P1 ZrFe 3.2475(13) 1_555 n
+P1 ZrFe 3.2658(5) 2_544 n
+P1 ZrFe 3.2658(5) 2_554 n
+P1 ZrFe 3.2727(15) -2_456 n
+P1 ZrLi 2.6581(9) 1_555 n
+P1 ZrLi 3.2706(10) 1_556 n
+P1 ZrLi 2.6581(9) 3_555 n
+P1 ZrLi 3.2706(10) 3_556 n
+P1 LiFe 2.8304(12) 1_554 n
+O1 Li1 2.1736(10) 1_556 n
+O1 Li1 2.1736(10) 3_556 n
+O1 Fe1 2.1985(14) 1_555 n
+O1 P1 1.5212(15) 1_555 n
+O1 ZrFe 2.1985(14) 1_555 n
+O1 ZrLi 2.1736(10) 1_556 n
+O1 ZrLi 2.1736(10) 3_556 n
+O1 LiFe 2.1985(14) 1_555 n
+O2 Li1 2.0963(9) 2_555 n
+O2 Li1 2.0963(9) 4_555 n
+O2 Fe1 2.0940(13) 1_554 n
+O2 P1 1.5419(18) -2_555 n
+O2 ZrFe 2.0940(13) 1_554 n
+O2 ZrLi 2.0963(9) 2_555 n
+O2 ZrLi 2.0963(9) 4_555 n
+O2 LiFe 2.0940(13) 1_554 n
+O3 Li1 2.1898(9) 1_555 n
+O3 Fe1 2.2424(9) 1_554 n
+O3 Fe1 2.0661(7) 2_544 n
+O3 P1 1.5462(10) 1_555 n
+O3 ZrFe 2.2424(9) 1_554 n
+O3 ZrFe 2.0661(7) 2_544 n
+O3 ZrLi 2.1898(9) 1_555 n
+O3 LiFe 2.2424(9) 1_554 n
+O3 LiFe 2.0661(7) 2_544 n
+ZrFe Li1 3.2731(5) 1_556 n
+ZrFe Li1 3.50474(21) 2_555 n
+ZrFe Li1 3.2731(5) 3_556 n
+ZrFe Li1 3.50474(21) 4_555 n
+ZrFe P1 3.2475(13) 1_555 n
+ZrFe P1 2.8304(12) 1_556 n
+ZrFe P1 3.2658(5) 2_545 n
+ZrFe P1 3.2658(5) 2_555 n
+ZrFe P1 3.2727(15) -2_556 n
+ZrFe O1 2.1985(14) 1_555 n
+ZrFe O2 2.0940(13) 1_556 n
+ZrFe O3 2.2424(9) 1_556 n
+ZrFe O3 2.0661(7) 2_555 n
+ZrFe O3 2.2424(9) 3_556 n
+ZrFe O3 2.0661(7) 4_555 n
+ZrFe ZrLi 3.2731(5) 1_556 n
+ZrFe ZrLi 3.50474(21) 2_555 n
+ZrFe ZrLi 3.2731(5) 3_556 n
+ZrFe ZrLi 3.50474(21) 4_555 n
+ZrLi Li1 2.99928(6) 3_545 n
+ZrLi Li1 2.99928(6) 3_555 n
+ZrLi P1 3.2706(10) 1_554 n
+ZrLi P1 2.6581(9) 1_555 n
+ZrLi P1 2.6581(9) -1_555 n
+ZrLi P1 3.2706(10) -1_556 n
+ZrLi O1 2.1736(10) 1_554 n
+ZrLi O1 2.1736(10) -1_556 n
+ZrLi O2 2.0963(9) 2_544 n
+ZrLi O2 2.0963(9) -2_455 n
+ZrLi O3 2.1898(9) 1_555 n
+ZrLi O3 2.1898(9) -1_555 n
+ZrLi ZrFe 3.2731(5) 1_554 n
+ZrLi ZrFe 3.50474(21) 2_544 n
+ZrLi ZrFe 3.2731(5) -1_556 n
+ZrLi ZrFe 3.50474(21) -2_455 n
+ZrLi ZrLi 2.99928(6) 3_545 n
+ZrLi ZrLi 2.99928(6) 3_555 n
+ZrLi LiFe 3.2731(5) 1_554 n
+ZrLi LiFe 3.50474(21) 2_544 n
+ZrLi LiFe 3.2731(5) -1_556 n
+ZrLi LiFe 3.50474(21) -2_455 n
+LiFe Li1 3.2731(5) 1_556 n
+LiFe Li1 3.50474(21) 2_555 n
+LiFe Li1 3.2731(5) 3_556 n
+LiFe Li1 3.50474(21) 4_555 n
+LiFe P1 2.8304(12) 1_556 n
+LiFe O1 2.1985(14) 1_555 n
+LiFe O2 2.0940(13) 1_556 n
+LiFe O3 2.2424(9) 1_556 n
+LiFe O3 2.0661(7) 2_555 n
+LiFe O3 2.2424(9) 3_556 n
+LiFe O3 2.0661(7) 4_555 n
+LiFe ZrLi 3.2731(5) 1_556 n
+LiFe ZrLi 3.50474(21) 2_555 n
+LiFe ZrLi 3.2731(5) 3_556 n
+LiFe ZrLi 3.50474(21) 4_555 n

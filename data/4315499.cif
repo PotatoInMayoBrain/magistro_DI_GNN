@@ -1,0 +1,544 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:10:54 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179234 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/54/4315499.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4315499
+loop_
+_publ_author_name
+'Hui Wang'
+'Sumohan Misra'
+'Fei Wang'
+'Gordon J. Miller'
+_publ_section_title
+;
+ Structural and Magnetic Characteristics of Gd5GaxSi4-x
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              4586
+_journal_page_last               4593
+_journal_paper_doi               10.1021/ic100142u
+_journal_volume                  49
+_journal_year                    2010
+_chemical_formula_sum            'Ga0.63 Gd5 Si3.38'
+_chemical_formula_weight         924.63
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.4845(10)
+_cell_length_b                   14.833(2)
+_cell_length_c                   7.8087(11)
+_cell_measurement_reflns_used    6985
+_cell_measurement_temperature    273(2)
+_cell_measurement_theta_max      28.26
+_cell_measurement_theta_min      2.75
+_cell_volume                     866.9(2)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      273(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 0.974
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0428
+_diffrn_reflns_av_sigmaI/netI    0.0294
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       -18
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_number            6985
+_diffrn_reflns_theta_full        25.00
+_diffrn_reflns_theta_max         28.26
+_diffrn_reflns_theta_min         2.75
+_exptl_absorpt_coefficient_mu    39.990
+_exptl_absorpt_correction_T_max  0.2781
+_exptl_absorpt_correction_T_min  0.134
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   'SADABS; Sheldrick 2003'
+_exptl_crystal_colour            metallic
+_exptl_crystal_density_diffrn    7.084
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1547
+_exptl_crystal_size_max          0.05026
+_exptl_crystal_size_mid          0.041
+_exptl_crystal_size_min          0.032
+_refine_diff_density_max         2.258
+_refine_diff_density_min         -1.272
+_refine_diff_density_rms         0.335
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.078
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     49
+_refine_ls_number_reflns         1083
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.078
+_refine_ls_R_factor_all          0.0283
+_refine_ls_R_factor_gt           0.0233
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0222P)^2^+0.7225P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0491
+_refine_ls_wR_factor_ref         0.0507
+_reflns_number_gt                964
+_reflns_number_total             1083
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic100142u_si_001_1.cif
+_cod_data_source_block           Gd5Ga0.63Si3.37
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_database_code               4315499
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Gd1 Gd 0.02528(4) 0.59619(2) 0.18205(4) 0.01246(11) Uani 1 1 d . . .
+Gd2 Gd 0.31834(4) 0.12245(2) 0.17896(4) 0.01059(11) Uani 1 1 d . . .
+Gd3 Gd 0.14843(6) 0.2500 0.51354(6) 0.01160(12) Uani 1 2 d S . .
+Ga1 Ga 0.14906(19) 0.04002(10) 0.47126(18) 0.0125(5) Uani 0.181(5) 1 d P . .
+Si1 Si 0.14906(19) 0.04002(10) 0.47126(18) 0.0125(5) Uani 0.819(5) 1 d P . .
+Ga2 Ga 0.0231(3) 0.2500 0.1005(3) 0.0116(7) Uani 0.113(7) 2 d SP . .
+Si2 Si 0.0231(3) 0.2500 0.1005(3) 0.0116(7) Uani 0.887(7) 2 d SP . .
+Ga3 Ga 0.2619(3) 0.2500 0.8760(3) 0.0117(7) Uani 0.149(7) 2 d SP . .
+Si3 Si 0.2619(3) 0.2500 0.8760(3) 0.0117(7) Uani 0.851(7) 2 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Gd1 0.01157(19) 0.0130(2) 0.01278(18) 0.00137(12) 0.00161(12) 0.00165(13)
+Gd2 0.01082(18) 0.00920(19) 0.01177(18) -0.00019(12) 0.00106(11) 0.00047(12)
+Gd3 0.0112(2) 0.0110(3) 0.0126(2) 0.000 0.00036(17) 0.000
+Ga1 0.0135(8) 0.0113(9) 0.0126(8) 0.0025(6) -0.0004(6) -0.0028(6)
+Si1 0.0135(8) 0.0113(9) 0.0126(8) 0.0025(6) -0.0004(6) -0.0028(6)
+Ga2 0.0098(12) 0.0090(13) 0.0160(13) 0.000 -0.0003(8) 0.000
+Si2 0.0098(12) 0.0090(13) 0.0160(13) 0.000 -0.0003(8) 0.000
+Ga3 0.0113(12) 0.0125(12) 0.0113(11) 0.000 -0.0005(8) 0.000
+Si3 0.0113(12) 0.0125(12) 0.0113(11) 0.000 -0.0005(8) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.2307 1.6083 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Gd Gd -0.1653 3.9035 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Si1 Gd1 Ga1 0.00(7) 8_665 8_665 ?
+Si1 Gd1 Si1 136.74(5) 8_665 3_556 ?
+Ga1 Gd1 Si1 136.74(5) 8_665 3_556 ?
+Si1 Gd1 Ga1 136.74(5) 8_665 3_556 ?
+Ga1 Gd1 Ga1 136.74(5) 8_665 3_556 ?
+Si1 Gd1 Ga1 0.00(7) 3_556 3_556 ?
+Si1 Gd1 Si3 131.33(5) 8_665 5_566 ?
+Ga1 Gd1 Si3 131.33(5) 8_665 5_566 ?
+Si1 Gd1 Si3 91.88(5) 3_556 5_566 ?
+Ga1 Gd1 Si3 91.88(5) 3_556 5_566 ?
+Si1 Gd1 Ga3 131.33(5) 8_665 5_566 ?
+Ga1 Gd1 Ga3 131.33(5) 8_665 5_566 ?
+Si1 Gd1 Ga3 91.88(5) 3_556 5_566 ?
+Ga1 Gd1 Ga3 91.88(5) 3_556 5_566 ?
+Si3 Gd1 Ga3 0.00(5) 5_566 5_566 ?
+Si1 Gd1 Si3 93.03(5) 8_665 2_564 ?
+Ga1 Gd1 Si3 93.03(5) 8_665 2_564 ?
+Si1 Gd1 Si3 89.29(5) 3_556 2_564 ?
+Ga1 Gd1 Si3 89.29(5) 3_556 2_564 ?
+Si3 Gd1 Si3 83.74(3) 5_566 2_564 ?
+Ga3 Gd1 Si3 83.74(3) 5_566 2_564 ?
+Si1 Gd1 Ga3 93.03(5) 8_665 2_564 ?
+Ga1 Gd1 Ga3 93.03(5) 8_665 2_564 ?
+Si1 Gd1 Ga3 89.29(5) 3_556 2_564 ?
+Ga1 Gd1 Ga3 89.29(5) 3_556 2_564 ?
+Si3 Gd1 Ga3 83.74(3) 5_566 2_564 ?
+Ga3 Gd1 Ga3 83.74(3) 5_566 2_564 ?
+Si3 Gd1 Ga3 0.00(7) 2_564 2_564 ?
+Si1 Gd1 Si1 88.67(2) 8_665 7_565 ?
+Ga1 Gd1 Si1 88.67(2) 8_665 7_565 ?
+Si1 Gd1 Si1 48.19(5) 3_556 7_565 ?
+Ga1 Gd1 Si1 48.19(5) 3_556 7_565 ?
+Si3 Gd1 Si1 139.45(5) 5_566 7_565 ?
+Ga3 Gd1 Si1 139.45(5) 5_566 7_565 ?
+Si3 Gd1 Si1 88.36(4) 2_564 7_565 ?
+Ga3 Gd1 Si1 88.36(4) 2_564 7_565 ?
+Si1 Gd1 Ga1 88.67(2) 8_665 7_565 ?
+Ga1 Gd1 Ga1 88.67(2) 8_665 7_565 ?
+Si1 Gd1 Ga1 48.19(5) 3_556 7_565 ?
+Ga1 Gd1 Ga1 48.19(5) 3_556 7_565 ?
+Si3 Gd1 Ga1 139.45(5) 5_566 7_565 ?
+Ga3 Gd1 Ga1 139.45(5) 5_566 7_565 ?
+Si3 Gd1 Ga1 88.36(4) 2_564 7_565 ?
+Ga3 Gd1 Ga1 88.36(4) 2_564 7_565 ?
+Si1 Gd1 Ga1 0.00(6) 7_565 7_565 ?
+Si1 Gd1 Si2 85.01(5) 8_665 5_565 ?
+Ga1 Gd1 Si2 85.01(5) 8_665 5_565 ?
+Si1 Gd1 Si2 137.99(5) 3_556 5_565 ?
+Ga1 Gd1 Si2 137.99(5) 3_556 5_565 ?
+Si3 Gd1 Si2 46.35(5) 5_566 5_565 ?
+Ga3 Gd1 Si2 46.35(5) 5_566 5_565 ?
+Si3 Gd1 Si2 82.70(4) 2_564 5_565 ?
+Ga3 Gd1 Si2 82.70(4) 2_564 5_565 ?
+Si1 Gd1 Si2 168.75(5) 7_565 5_565 ?
+Ga1 Gd1 Si2 168.75(5) 7_565 5_565 ?
+Si1 Gd1 Ga2 85.01(5) 8_665 5_565 ?
+Ga1 Gd1 Ga2 85.01(5) 8_665 5_565 ?
+Si1 Gd1 Ga2 137.99(5) 3_556 5_565 ?
+Ga1 Gd1 Ga2 137.99(5) 3_556 5_565 ?
+Si3 Gd1 Ga2 46.35(5) 5_566 5_565 ?
+Ga3 Gd1 Ga2 46.35(5) 5_566 5_565 ?
+Si3 Gd1 Ga2 82.70(4) 2_564 5_565 ?
+Ga3 Gd1 Ga2 82.70(4) 2_564 5_565 ?
+Si1 Gd1 Ga2 168.75(5) 7_565 5_565 ?
+Ga1 Gd1 Ga2 168.75(5) 7_565 5_565 ?
+Si2 Gd1 Ga2 0.00(8) 5_565 5_565 ?
+Ga1 Gd2 Si1 97.27(2) . 2_554 ?
+Ga1 Gd2 Ga1 97.27(2) . 2_554 ?
+Si1 Gd2 Ga1 0.00(8) 2_554 2_554 ?
+Ga1 Gd2 Ga2 96.11(5) . . ?
+Si1 Gd2 Ga2 118.27(5) 2_554 . ?
+Ga1 Gd2 Ga2 118.27(5) 2_554 . ?
+Ga1 Gd2 Si2 92.16(5) . 6_656 ?
+Si1 Gd2 Si2 143.40(5) 2_554 6_656 ?
+Ga1 Gd2 Si2 143.40(5) 2_554 6_656 ?
+Ga2 Gd2 Si2 95.58(3) . 6_656 ?
+Ga1 Gd2 Ga2 92.16(5) . 6_656 ?
+Si1 Gd2 Ga2 143.40(5) 2_554 6_656 ?
+Ga1 Gd2 Ga2 143.40(5) 2_554 6_656 ?
+Ga2 Gd2 Ga2 95.58(3) . 6_656 ?
+Si2 Gd2 Ga2 0.00(7) 6_656 6_656 ?
+Ga1 Gd2 Si1 119.96(5) . 6_656 ?
+Si1 Gd2 Si1 51.42(5) 2_554 6_656 ?
+Ga1 Gd2 Si1 51.42(5) 2_554 6_656 ?
+Ga2 Gd2 Si1 142.39(5) . 6_656 ?
+Si2 Gd2 Si1 93.46(5) 6_656 6_656 ?
+Ga2 Gd2 Si1 93.46(5) 6_656 6_656 ?
+Ga1 Gd2 Ga1 119.96(5) . 6_656 ?
+Si1 Gd2 Ga1 51.42(5) 2_554 6_656 ?
+Ga1 Gd2 Ga1 51.42(5) 2_554 6_656 ?
+Ga2 Gd2 Ga1 142.39(5) . 6_656 ?
+Si2 Gd2 Ga1 93.46(5) 6_656 6_656 ?
+Ga2 Gd2 Ga1 93.46(5) 6_656 6_656 ?
+Si1 Gd2 Ga1 0.00(7) 6_656 6_656 ?
+Ga1 Gd2 Si3 144.50(5) . 1_554 ?
+Si1 Gd2 Si3 95.32(4) 2_554 1_554 ?
+Ga1 Gd2 Si3 95.32(4) 2_554 1_554 ?
+Ga2 Gd2 Si3 49.02(6) . 1_554 ?
+Si2 Gd2 Si3 97.19(4) 6_656 1_554 ?
+Ga2 Gd2 Si3 97.19(4) 6_656 1_554 ?
+Si1 Gd2 Si3 93.65(5) 6_656 1_554 ?
+Ga1 Gd2 Si3 93.65(5) 6_656 1_554 ?
+Ga1 Gd2 Ga3 144.50(5) . 1_554 ?
+Si1 Gd2 Ga3 95.32(4) 2_554 1_554 ?
+Ga1 Gd2 Ga3 95.32(4) 2_554 1_554 ?
+Ga2 Gd2 Ga3 49.02(6) . 1_554 ?
+Si2 Gd2 Ga3 97.19(4) 6_656 1_554 ?
+Ga2 Gd2 Ga3 97.19(4) 6_656 1_554 ?
+Si1 Gd2 Ga3 93.65(5) 6_656 1_554 ?
+Ga1 Gd2 Ga3 93.65(5) 6_656 1_554 ?
+Si3 Gd2 Ga3 0.00(8) 1_554 1_554 ?
+Si2 Gd3 Ga2 0.00(8) 6_656 6_656 ?
+Si2 Gd3 Ga3 90.92(6) 6_656 . ?
+Ga2 Gd3 Ga3 90.92(6) 6_656 . ?
+Si2 Gd3 Si3 178.98(6) 6_656 6_557 ?
+Ga2 Gd3 Si3 178.98(6) 6_656 6_557 ?
+Ga3 Gd3 Si3 90.10(4) . 6_557 ?
+Si2 Gd3 Ga3 178.98(6) 6_656 6_557 ?
+Ga2 Gd3 Ga3 178.98(6) 6_656 6_557 ?
+Ga3 Gd3 Ga3 90.10(4) . 6_557 ?
+Si3 Gd3 Ga3 0.00(2) 6_557 6_557 ?
+Si2 Gd3 Ga1 88.09(3) 6_656 . ?
+Ga2 Gd3 Ga1 88.09(3) 6_656 . ?
+Ga3 Gd3 Ga1 95.77(3) . . ?
+Si3 Gd3 Ga1 91.81(3) 6_557 . ?
+Ga3 Gd3 Ga1 91.81(3) 6_557 . ?
+Si2 Gd3 Si1 88.09(3) 6_656 7_565 ?
+Ga2 Gd3 Si1 88.09(3) 6_656 7_565 ?
+Ga3 Gd3 Si1 95.77(3) . 7_565 ?
+Si3 Gd3 Si1 91.81(3) 6_557 7_565 ?
+Ga3 Gd3 Si1 91.81(3) 6_557 7_565 ?
+Ga1 Gd3 Si1 167.90(5) . 7_565 ?
+Si2 Gd3 Ga1 88.09(3) 6_656 7_565 ?
+Ga2 Gd3 Ga1 88.09(3) 6_656 7_565 ?
+Ga3 Gd3 Ga1 95.77(3) . 7_565 ?
+Si3 Gd3 Ga1 91.81(3) 6_557 7_565 ?
+Ga3 Gd3 Ga1 91.81(3) 6_557 7_565 ?
+Ga1 Gd3 Ga1 167.90(5) . 7_565 ?
+Si1 Gd3 Ga1 0.00(7) 7_565 7_565 ?
+Si2 Gd3 Ga2 88.60(4) 6_656 . ?
+Ga2 Gd3 Ga2 88.60(4) 6_656 . ?
+Ga3 Gd3 Ga2 179.52(5) . . ?
+Si3 Gd3 Ga2 90.38(5) 6_557 . ?
+Ga3 Gd3 Ga2 90.38(5) 6_557 . ?
+Ga1 Gd3 Ga2 84.22(3) . . ?
+Si1 Gd3 Ga2 84.22(3) 7_565 . ?
+Ga1 Gd3 Ga2 84.22(3) 7_565 . ?
+Si1 Ga1 Ga1 0.00(6) 5_556 5_556 ?
+Si1 Ga1 Gd2 135.78(8) 5_556 . ?
+Ga1 Ga1 Gd2 135.78(8) 5_556 . ?
+Si1 Ga1 Gd2 65.99(6) 5_556 2 ?
+Ga1 Ga1 Gd2 65.99(6) 5_556 2 ?
+Gd2 Ga1 Gd2 138.97(6) . 2 ?
+Si1 Ga1 Gd2 62.59(6) 5_556 6_556 ?
+Ga1 Ga1 Gd2 62.59(6) 5_556 6_556 ?
+Gd2 Ga1 Gd2 83.12(4) . 6_556 ?
+Gd2 Ga1 Gd2 128.58(5) 2 6_556 ?
+Si1 Ga1 Gd1 136.47(8) 5_556 8_656 ?
+Ga1 Ga1 Gd1 136.47(8) 5_556 8_656 ?
+Gd2 Ga1 Gd1 87.72(4) . 8_656 ?
+Gd2 Ga1 Gd1 81.90(4) 2 8_656 ?
+Gd2 Ga1 Gd1 139.24(6) 6_556 8_656 ?
+Si1 Ga1 Gd1 66.93(6) 5_556 3_546 ?
+Ga1 Ga1 Gd1 66.93(6) 5_556 3_546 ?
+Gd2 Ga1 Gd1 139.28(6) . 3_546 ?
+Gd2 Ga1 Gd1 76.88(3) 2 3_546 ?
+Gd2 Ga1 Gd1 83.41(4) 6_556 3_546 ?
+Gd1 Ga1 Gd1 78.08(3) 8_656 3_546 ?
+Si1 Ga1 Gd3 116.12(8) 5_556 . ?
+Ga1 Ga1 Gd3 116.12(8) 5_556 . ?
+Gd2 Ga1 Gd3 70.26(4) . . ?
+Gd2 Ga1 Gd3 139.79(5) 2 . ?
+Gd2 Ga1 Gd3 68.57(3) 6_556 . ?
+Gd1 Ga1 Gd3 70.94(3) 8_656 . ?
+Gd1 Ga1 Gd3 69.04(3) 3_546 . ?
+Si1 Ga1 Gd1 64.88(6) 5_556 7_565 ?
+Ga1 Ga1 Gd1 64.88(6) 5_556 7_565 ?
+Gd2 Ga1 Gd1 80.48(4) . 7_565 ?
+Gd2 Ga1 Gd1 83.90(4) 2 7_565 ?
+Gd2 Ga1 Gd1 74.93(3) 6_556 7_565 ?
+Gd1 Ga1 Gd1 142.25(5) 8_656 7_565 ?
+Gd1 Ga1 Gd1 131.81(5) 3_546 7_565 ?
+Gd3 Ga1 Gd1 135.13(5) . 7_565 ?
+Si3 Ga2 Ga3 0.00(7) 1_554 1_554 ?
+Si3 Ga2 Gd3 117.95(9) 1_554 6_556 ?
+Ga3 Ga2 Gd3 117.95(9) 1_554 6_556 ?
+Si3 Ga2 Gd2 67.26(6) 1_554 7_565 ?
+Ga3 Ga2 Gd2 67.26(6) 1_554 7_565 ?
+Gd3 Ga2 Gd2 140.43(3) 6_556 7_565 ?
+Si3 Ga2 Gd2 67.26(6) 1_554 . ?
+Ga3 Ga2 Gd2 67.26(6) 1_554 . ?
+Gd3 Ga2 Gd2 140.43(3) 6_556 . ?
+Gd2 Ga2 Gd2 79.04(5) 7_565 . ?
+Si3 Ga2 Gd2 140.46(3) 1_554 6_556 ?
+Ga3 Ga2 Gd2 140.46(3) 1_554 6_556 ?
+Gd3 Ga2 Gd2 71.64(5) 6_556 6_556 ?
+Gd2 Ga2 Gd2 131.81(8) 7_565 6_556 ?
+Gd2 Ga2 Gd2 81.91(3) . 6_556 ?
+Si3 Ga2 Gd2 140.46(3) 1_554 4_455 ?
+Ga3 Ga2 Gd2 140.46(3) 1_554 4_455 ?
+Gd3 Ga2 Gd2 71.64(5) 6_556 4_455 ?
+Gd2 Ga2 Gd2 81.91(3) 7_565 4_455 ?
+Gd2 Ga2 Gd2 131.81(8) . 4_455 ?
+Gd2 Ga2 Gd2 78.75(5) 6_556 4_455 ?
+Si3 Ga2 Gd1 66.26(5) 1_554 3_545 ?
+Ga3 Ga2 Gd1 66.26(5) 1_554 3_545 ?
+Gd3 Ga2 Gd1 71.52(4) 6_556 3_545 ?
+Gd2 Ga2 Gd1 132.93(7) 7_565 3_545 ?
+Gd2 Ga2 Gd1 76.82(3) . 3_545 ?
+Gd2 Ga2 Gd1 83.54(3) 6_556 3_545 ?
+Gd2 Ga2 Gd1 142.54(7) 4_455 3_545 ?
+Si3 Ga2 Gd1 66.26(5) 1_554 5_565 ?
+Ga3 Ga2 Gd1 66.26(5) 1_554 5_565 ?
+Gd3 Ga2 Gd1 71.52(4) 6_556 5_565 ?
+Gd2 Ga2 Gd1 76.82(3) 7_565 5_565 ?
+Gd2 Ga2 Gd1 132.93(7) . 5_565 ?
+Gd2 Ga2 Gd1 142.54(7) 6_556 5_565 ?
+Gd2 Ga2 Gd1 83.54(3) 4_455 5_565 ?
+Gd1 Ga2 Gd1 91.16(6) 3_545 5_565 ?
+Si3 Ga2 Gd3 118.22(9) 1_554 . ?
+Ga3 Ga2 Gd3 118.22(9) 1_554 . ?
+Gd3 Ga2 Gd3 123.84(7) 6_556 . ?
+Gd2 Ga2 Gd3 66.08(4) 7_565 . ?
+Gd2 Ga2 Gd3 66.08(4) . . ?
+Gd2 Ga2 Gd3 65.73(4) 6_556 . ?
+Gd2 Ga2 Gd3 65.73(4) 4_455 . ?
+Gd1 Ga2 Gd3 134.01(3) 3_545 . ?
+Gd1 Ga2 Gd3 134.01(3) 5_565 . ?
+Si2 Ga3 Ga2 0.00(7) 1_556 1_556 ?
+Si2 Ga3 Gd3 117.73(9) 1_556 . ?
+Ga2 Ga3 Gd3 117.73(9) 1_556 . ?
+Si2 Ga3 Gd3 118.97(9) 1_556 6_657 ?
+Ga2 Ga3 Gd3 118.97(9) 1_556 6_657 ?
+Gd3 Ga3 Gd3 123.30(7) . 6_657 ?
+Si2 Ga3 Gd2 63.71(6) 1_556 7_566 ?
+Ga2 Ga3 Gd2 63.71(6) 1_556 7_566 ?
+Gd3 Ga3 Gd2 141.31(3) . 7_566 ?
+Gd3 Ga3 Gd2 69.31(4) 6_657 7_566 ?
+Si2 Ga3 Gd2 63.71(6) 1_556 1_556 ?
+Ga2 Ga3 Gd2 63.71(6) 1_556 1_556 ?
+Gd3 Ga3 Gd2 141.31(3) . 1_556 ?
+Gd3 Ga3 Gd2 69.31(4) 6_657 1_556 ?
+Gd2 Ga3 Gd2 76.43(5) 7_566 1_556 ?
+Si2 Ga3 Gd1 67.40(5) 1_556 3_546 ?
+Ga2 Ga3 Gd1 67.40(5) 1_556 3_546 ?
+Gd3 Ga3 Gd1 70.60(4) . 3_546 ?
+Gd3 Ga3 Gd1 133.73(3) 6_657 3_546 ?
+Gd2 Ga3 Gd1 130.55(7) 7_566 3_546 ?
+Gd2 Ga3 Gd1 76.05(3) 1_556 3_546 ?
+Si2 Ga3 Gd1 67.40(5) 1_556 5_566 ?
+Ga2 Ga3 Gd1 67.40(5) 1_556 5_566 ?
+Gd3 Ga3 Gd1 70.60(4) . 5_566 ?
+Gd3 Ga3 Gd1 133.73(3) 6_657 5_566 ?
+Gd2 Ga3 Gd1 76.05(3) 7_566 5_566 ?
+Gd2 Ga3 Gd1 130.55(7) 1_556 5_566 ?
+Gd1 Ga3 Gd1 92.17(6) 3_546 5_566 ?
+Si2 Ga3 Gd1 133.93(3) 1_556 8_656 ?
+Ga2 Ga3 Gd1 133.93(3) 1_556 8_656 ?
+Gd3 Ga3 Gd1 71.73(4) . 8_656 ?
+Gd3 Ga3 Gd1 69.80(4) 6_657 8_656 ?
+Gd2 Ga3 Gd1 138.24(7) 7_566 8_656 ?
+Gd2 Ga3 Gd1 81.66(3) 1_556 8_656 ?
+Gd1 Ga3 Gd1 75.76(2) 3_546 8_656 ?
+Gd1 Ga3 Gd1 142.32(7) 5_566 8_656 ?
+Si2 Ga3 Gd1 133.93(3) 1_556 2_565 ?
+Ga2 Ga3 Gd1 133.93(3) 1_556 2_565 ?
+Gd3 Ga3 Gd1 71.73(4) . 2_565 ?
+Gd3 Ga3 Gd1 69.80(4) 6_657 2_565 ?
+Gd2 Ga3 Gd1 81.66(3) 7_566 2_565 ?
+Gd2 Ga3 Gd1 138.24(7) 1_556 2_565 ?
+Gd1 Ga3 Gd1 142.32(7) 3_546 2_565 ?
+Gd1 Ga3 Gd1 75.76(2) 5_566 2_565 ?
+Gd1 Ga3 Gd1 92.13(6) 8_656 2_565 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Gd1 Si1 3.0568(15) 8_665 ?
+Gd1 Ga1 3.0568(15) 8_665 ?
+Gd1 Si1 3.1186(15) 3_556 ?
+Gd1 Ga1 3.1186(15) 3_556 ?
+Gd1 Si3 3.1672(15) 5_566 ?
+Gd1 Ga3 3.1672(15) 5_566 ?
+Gd1 Si3 3.1681(15) 2_564 ?
+Gd1 Ga3 3.1681(15) 2_564 ?
+Gd1 Si1 3.1688(15) 7_565 ?
+Gd1 Ga1 3.1688(15) 7_565 ?
+Gd1 Si2 3.1944(16) 5_565 ?
+Gd1 Ga2 3.1944(16) 5_565 ?
+Gd2 Ga1 2.8828(15) . ?
+Gd2 Si1 2.9152(15) 2_554 ?
+Gd2 Ga1 2.9152(15) 2_554 ?
+Gd2 Ga2 2.9730(17) . ?
+Gd2 Si2 2.9822(17) 6_656 ?
+Gd2 Ga2 2.9822(17) 6_656 ?
+Gd2 Si1 2.9997(15) 6_656 ?
+Gd2 Ga1 2.9997(15) 6_656 ?
+Gd2 Si3 3.0582(17) 1_554 ?
+Gd2 Ga3 3.0582(17) 1_554 ?
+Gd3 Si2 2.942(2) 6_656 ?
+Gd3 Ga2 2.942(2) 6_656 ?
+Gd3 Ga3 2.955(2) . ?
+Gd3 Si3 3.019(2) 6_557 ?
+Gd3 Ga3 3.019(2) 6_557 ?
+Gd3 Ga1 3.1321(16) . ?
+Gd3 Si1 3.1321(16) 7_565 ?
+Gd3 Ga1 3.1321(16) 7_565 ?
+Gd3 Ga2 3.359(2) . ?
+Ga1 Si1 2.567(3) 5_556 ?
+Ga1 Ga1 2.567(3) 5_556 ?
+Ga1 Gd2 2.9152(15) 2 ?
+Ga1 Gd2 2.9997(15) 6_556 ?
+Ga1 Gd1 3.0569(15) 8_656 ?
+Ga1 Gd1 3.1186(15) 3_546 ?
+Ga1 Gd1 3.1688(15) 7_565 ?
+Ga2 Si3 2.503(3) 1_554 ?
+Ga2 Ga3 2.503(3) 1_554 ?
+Ga2 Gd3 2.942(2) 6_556 ?
+Ga2 Gd2 2.9730(17) 7_565 ?
+Ga2 Gd2 2.9822(17) 6_556 ?
+Ga2 Gd2 2.9822(17) 4_455 ?
+Ga2 Gd1 3.1944(16) 3_545 ?
+Ga2 Gd1 3.1944(16) 5_565 ?
+Ga3 Si2 2.503(3) 1_556 ?
+Ga3 Ga2 2.503(3) 1_556 ?
+Ga3 Gd3 3.019(2) 6_657 ?
+Ga3 Gd2 3.0582(17) 7_566 ?
+Ga3 Gd2 3.0582(17) 1_556 ?
+Ga3 Gd1 3.1672(15) 3_546 ?
+Ga3 Gd1 3.1672(15) 5_566 ?
+Ga3 Gd1 3.1681(15) 8_656 ?
+Ga3 Gd1 3.1681(15) 2_565 ?

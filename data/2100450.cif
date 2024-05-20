@@ -1,0 +1,194 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/04/2100450.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100450
+loop_
+_publ_author_name
+'Barnett, Sarah A.'
+'Broder, Charlotte K.'
+'Shankland, Kenneth'
+'David, Bill I. F.'
+'Ibberson, Richard'
+'Tocher, Derek A.'
+_publ_section_title
+;
+ Single-crystal X-ray and neutron powder diffraction investigation of
+ the phase transition in tetrachlorobenzene
+;
+_journal_coeditor_code           SO5001
+_journal_date_accepted           2005-12-15
+_journal_date_recd_electronic    2005-10-19
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              287
+_journal_page_last               295
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S0108768105042102
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_moiety         'C6 Cl4 D2'
+_chemical_formula_structural     'C6 D2 Cl4'
+_chemical_formula_sum            'C6 Cl4 D2'
+_chemical_formula_weight         217.88
+_chemical_name_common            '1,2,4,5-tetrachlorobenzene - beta polymorph'
+_chemical_name_systematic
+;
+1,2,4,5-tetrachlorobenzene
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 99.7184(6)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.78988(4)
+_cell_length_b                   10.50328(5)
+_cell_length_c                   9.56244(3)
+_cell_measurement_reflns_used    1003
+_cell_measurement_temperature    150(2)
+_cell_volume                     375.182(5)
+_computing_data_collection       'custom ISIS software'
+_computing_data_reduction        'custom ISIS software'
+_computing_structure_refinement  'Topas v3.1 (Coehlo, 2003)'
+_diffrn_ambient_temperature      150(2)
+_diffrn_measurement_device_type  'HRPD, ISIS'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           Neutron
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            1003
+_exptl_absorpt_coefficient_mu    0.51
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Mu = 0.51cm^-1^ at 1.8\A
+calculated using custom ISIS software program Arial Mucalc
+;
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.324
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           sparse
+_refine_ls_number_constraints    2
+_refine_ls_number_parameters     37
+_refine_ls_number_restraints     11
+_refine_ls_shift/su_max          0.001
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            so5001.cif
+_cod_data_source_block           tcb_beta_150K_neutron
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      P21/n
+_cod_database_code               2100450
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,1/2-z
+3 -x,-y,-z
+4 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+C C1b 0.0694(4) 0.46706(9) 0.36565(8) 1.73(2) Biso d 1
+C C2b -0.0187(5) 0.37303(12) 0.45853(8) 1.73(2) Biso d 1
+C C3b 0.0952(5) 0.59312(13) 0.40974(8) 1.73(2) Biso d 1
+Cl Cl1b 0.1517(5) 0.42866(10) 0.19978(10) 2.33(2) Biso d 1
+Cl Cl2b -0.0446(5) 0.21599(11) 0.40673(10) 2.33(2) Biso d 1
+D H1b 0.1536(6) 0.66714(12) 0.33803(13) 2.83(5) Biso d 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+Cl1b C1b C2b . 121.24(8)
+Cl1b C1b C3b . 119.38(9)
+C2b C1b C3b . 119.37(9)
+Cl2b C2b C1b . 119.99(8)
+Cl2b C2b C3b 3_566 119.82(11)
+C1b C2b C3b 3_566 120.17(11)
+C1b C3b C2b 3_566 120.40(11)
+C1b C3b H1b . 120.23(11)
+H1b C3b C2b 3_566 119.17(14)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Cl1b C1b . 1.7154(14)
+Cl2b C2b . 1.7202(17)
+C1b C2b . 1.4056(15)
+C1b C3b . 1.3880(16)
+C2b C3b 3_566 1.3858(14)
+C3b H1b . 1.0839(19)
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+Cl1b C1b C2b Cl2b . . 0.2(2)
+Cl1b C1b C2b C3b . 3_566 -177.94(15)
+C3b C1b C2b Cl2b . . -178.93(15)
+C3b C1b C2b C3b . 3_566 3.0(2)
+Cl1b C1b C3b C2b . 3_566 177.91(15)
+C2b C1b C3b C2b . 3_566 -3.0(2)
+Cl2b C2b C3b C1b 3_566 3_566 178.90(14)
+C1b C2b C3b C1b 3_566 3_566 -3.0(3)
+Cl1b C1b C3b H1b . . 3.1(3)
+C2b C1b C3b H1b . . -177.8(2)
+Cl2b C2b C3b H1b 3_566 3_566 4.0(3)
+C1b C2b C3b H1b 3_566 3_566 -177.9(2)

@@ -1,0 +1,271 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-06-09 04:52:29 +0300 (Thu, 09 Jun 2022) $
+#$Revision: 275936 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/89/2108998.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2108998
+loop_
+_publ_author_name
+'Davidson, Max L.'
+'Grabowsky, Simon'
+'Jayatilaka, Dylan'
+_publ_section_title
+;
+ X-ray constrained wavefunctions based on Hirshfeld atoms. II.
+ Reproducibility of electron densities in crystals of \a-oxalic acid
+ dihydrate
+;
+_journal_coeditor_code           SO5075SUP1
+_journal_issue                   '3 Part 1'
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              397
+_journal_page_last               415
+_journal_paper_doi               10.1107/S2052520622004103
+_journal_volume                  78
+_journal_year                    2022
+_chemical_absolute_configuration unk
+_chemical_compound_source        'see text'
+_chemical_formula_moiety         'C2 H2 O4, 2(H2 O)'
+_chemical_formula_sum            'C2 H6 O6'
+_chemical_formula_weight         126.07
+_chemical_name_common            oxalic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc'
+_space_group_name_H-M_alt        'P 1 21/c 1'
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   HAR
+_audit_creation_date             2021-11-11
+_audit_creation_method           'Tonto 21.08.04 github v. 80723374'
+_cell_angle_alpha                90.000000(0)
+_cell_angle_beta                 103.842(2)
+_cell_angle_gamma                90.000000(0)
+_cell_formula_units_Z            2
+_cell_length_a                   6.0931(4)
+_cell_length_b                   3.4921(2)
+_cell_length_c                   11.8409(7)
+_cell_measurement_temperature    100
+_cell_volume                     244.63(3)
+_diffrn_ambient_temperature      100
+_diffrn_radiation_wavelength     0.317295
+_exptl_absorpt_correction_type   none
+_refine_diff_density_max         0.099100
+_refine_diff_density_min         -0.159377
+_refine_diff_density_rms         0.027
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.3431
+_refine_ls_goodness_of_fit_gt    1.3431
+_refine_ls_goodness_of_fit_ref   1.3431
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     75
+_refine_ls_number_reflns         29251
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0180
+_refine_ls_R_factor_gt           0.0180
+_refine_ls_R_Fsqd_factor         0.0306
+_refine_ls_shift/su_max          0.0075
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s(F)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0226
+_refine_ls_wR_factor_gt          0.0226
+_refine_ls_wR_factor_ref         0.0226
+_reflns_d_resolution_high        5.916151
+_reflns_d_resolution_low         0.416343
+_reflns_limit_h_max              13
+_reflns_limit_h_min              -14
+_reflns_limit_k_max              8
+_reflns_limit_k_min              0
+_reflns_limit_l_max              27
+_reflns_limit_l_min              0
+_reflns_number_gt                29251
+_reflns_number_total             29251
+_reflns_threshold_expression     'F>0 and F/u(F)>4.0 and |F_calc|>10^-3^'
+_cod_data_source_file            so5075sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Monoclinic' was changed to
+'monoclinic' in accordance with the
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 last updated on
+2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 7556 2019-12-06 15:28:31Z antanas 
+;
+_cod_original_sg_symbol_Hall     '-p 2ybc'
+_cod_original_sg_symbol_H-M      'p 1 21/c 1'
+_cod_database_code               2108998
+_qcr_software                    Tonto
+_qcr_software_version            '21.08.04 v. 80723374'
+_qcr_software_platform           Linux-5.11.0-25-generic
+_qcr_software_build_date         '2021-08-04 14:07'
+_qcr_software_website            https://github.com/dylan-jayatilaka/tonto
+_qcr_calc_method                 Hartree-Fock
+_qcr_calc_spinorbital_kind       restricted
+_qcr_calc_gaussian_basis_set     def2-SVP
+_qcr_calc_gaussian_basis_set_kind cartesian
+_qcr_calc_basis_max_l            2
+_qcr_calc_unit                   'See _atom_site_* in tonto.cif2'
+_qcr_calc_unit_spin_multiplicity 1
+_qcr_calc_unit_n_electrons       106
+_qcr_calc_unit_n_alpha_electrons 53
+_qcr_calc_unit_n_beta_electrons  53
+_refine_ls_kind                  'Hirshfeld atom refinement (HAR)'
+_refine_ls_method_description
+;
+   S.C. Capelli, H.-B. Burgi, B. Dittrich, S.Grabowsky
+   and Dylan Jayatilaka, IUCrJ (2014). 1, 361-379
+;
+_refine_qcr_psi_constraint       none
+_refine_ls_svd_threshold         0.1E-02
+_refine_ls_coordinate_system     cartesian
+_refine_ls_r_factor_ref          0.0180
+_refine_ls_chi2                  1.8040
+_refine_ls_shift/su_conv_tol     0.0100
+_refine_ls_shift/su_max_mean     0.0011
+_refine_ls_shift/su_max_par      'O2 Uxy'
+_shelx_f_calc_maximum            60.410054
+loop_
+_symmetry_equiv_pos_as_xyz
+'+x, +y, +z'
+'-x, -y, -z'
+'-x, +y+1/2, -z+1/2'
+'+x, -y+1/2, +z+1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_disorder_group
+O1 0.434843(6) 0.444113(11) 0.349875(3) 0.013296(12) Uani 1.000000 0
+O2 0.242444(6) 0.742551(11) 0.463699(3) 0.013083(12) Uani 1.000000 0
+C1 0.403061(6) 0.558829(11) 0.448007(3) 0.009745(12) Uani 1.000000 0
+H1 0.3003(4) 0.5213(6) 0.27715(18) 0.0221(10) Uani 1.000000 0
+O5 0.130058(6) 0.631165(11) 0.178524(3) 0.012943(12) Uani 1.000000 0
+H3 0.1903(3) 0.6987(6) 0.11297(17) 0.0303(10) Uani 1.000000 0
+H4 0.0062(3) 0.4561(6) 0.14983(16) 0.0280(10) Uani 1.000000 0
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.012827(11) 0.018637(14) 0.008030(11) 0.004463(9) 0.001718(8) -0.000636(9)
+O2 0.011235(11) 0.018065(13) 0.009269(12) 0.005241(9) 0.001111(8) -0.000655(9)
+C1 0.009367(11) 0.011626(13) 0.007895(12) 0.001769(8) 0.001381(9) -0.000076(9)
+H1 0.0233(9) 0.0277(11) 0.0181(12) -0.0011(9) 0.0105(8) -0.0038(10)
+O5 0.010789(11) 0.017895(14) 0.009309(11) -0.001605(9) 0.000757(8) 0.000995(9)
+H3 0.0253(9) 0.0318(10) 0.0324(11) 0.0000(8) 0.0039(7) 0.0058(9)
+H4 0.0258(8) 0.0304(10) 0.0272(10) 0.0009(8) 0.0052(7) 0.0008(8)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_site_symmetry_1
+_geom_angle_atom_site_label_2
+_geom_angle_site_symmetry_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 . C1 . O2 . 126.887(4) yes
+C1 . O1 . H1 . 113.32(10) yes
+H3 . O5 . H4 . 106.70(15) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_site_symmetry_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 . C1 . 1.28679(5) yes
+O2 . C1 . 1.22103(5) yes
+O1 . H1 . 1.072(2) yes
+O5 . H3 . 0.964(2) yes
+O5 . H4 . 0.9676(18) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_site_symmetry_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_site_symmetry_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_site_symmetry_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_4
+_geom_torsion
+O2 . C1 . O1 . H1 . -1.02(13)
+loop_
+_atom_site_cryst_label
+_atom_site_cryst_x
+_atom_site_cryst_y
+_atom_site_cryst_z
+_atom_site_cryst_u_iso_or_equiv
+_atom_site_cryst_adp_type
+_atom_site_cryst_occupancy
+_atom_site_cryst_disorder_group
+_atom_site_cryst_x_esu
+_atom_site_cryst_y_esu
+_atom_site_cryst_z_esu
+_atom_site_cryst_u_iso_or_equiv_esu
+O1 0.434843 0.444113 0.349875 0.013296 Uani 1.000000 0 0.000006 0.000011
+0.000003 0.000012
+O2 0.242444 0.742551 0.463699 0.013083 Uani 1.000000 0 0.000006 0.000011
+0.000003 0.000012
+C1 0.403061 0.558829 0.448007 0.009745 Uani 1.000000 0 0.000006 0.000011
+0.000003 0.000012
+H1 0.300305 0.521284 0.277153 0.022084 Uani 1.000000 0 0.000358 0.000646
+0.000184 0.001044
+O5 0.130058 0.631165 0.178524 0.012943 Uani 1.000000 0 0.000006 0.000011
+0.000003 0.000012
+H3 0.190347 0.698691 0.112972 0.030310 Uani 1.000000 0 0.000322 0.000591
+0.000175 0.000990
+H4 0.006162 0.456136 0.149828 0.027998 Uani 1.000000 0 0.000317 0.000575
+0.000160 0.000958
+loop_
+_atom_site_cryst_adp2_u_label
+_atom_site_cryst_adp2_u_11
+_atom_site_cryst_adp2_u_22
+_atom_site_cryst_adp2_u_33
+_atom_site_cryst_adp2_u_12
+_atom_site_cryst_adp2_u_13
+_atom_site_cryst_adp2_u_23
+_atom_site_cryst_adp2_u_11_esu
+_atom_site_cryst_adp2_u_22_esu
+_atom_site_cryst_adp2_u_33_esu
+_atom_site_cryst_adp2_u_12_esu
+_atom_site_cryst_adp2_u_13_esu
+_atom_site_cryst_adp2_u_23_esu
+O1 0.012827 0.018637 0.008030 0.004463 0.001718 -0.000636 0.000011 0.000014
+0.000011 0.000009 0.000008 0.000009
+O2 0.011235 0.018065 0.009269 0.005241 0.001111 -0.000655 0.000011 0.000013
+0.000012 0.000009 0.000008 0.000009
+C1 0.009367 0.011626 0.007895 0.001769 0.001381 -0.000076 0.000011 0.000013
+0.000012 0.000008 0.000009 0.000009
+H1 0.023308 0.027704 0.018076 -0.001077 0.010536 -0.003795 0.000930 0.001094
+0.001174 0.000884 0.000839 0.000973
+O5 0.010789 0.017895 0.009309 -0.001605 0.000757 0.000995 0.000011 0.000014
+0.000011 0.000009 0.000008 0.000009
+H3 0.025276 0.031780 0.032364 -0.000023 0.003918 0.005762 0.000878 0.001024
+0.001053 0.000793 0.000724 0.000878
+H4 0.025831 0.030367 0.027190 0.000944 0.005152 0.000754 0.000824 0.000994
+0.001028 0.000758 0.000721 0.000808

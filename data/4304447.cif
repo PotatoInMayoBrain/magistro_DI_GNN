@@ -1,0 +1,460 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 23:53:12 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179082 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/44/4304447.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4304447
+loop_
+_publ_author_name
+'Sung-Jin Kim'
+'Simeon Ponou'
+'Thomas F. F\"assler'
+_publ_contact_author_email       Thomas.Faessler@lrz.tu-muenchen.de
+_publ_contact_author_fax         '+49-(0)89 28913186'
+_publ_contact_author_name        'Thomas F. Faessler'
+_publ_contact_author_phone       '+49-(0)89 28913131'
+_publ_section_title
+;
+Cation Substitution Effects in the System Sr2-xBaxBi3 (0 <= x <= 1.3):
+Structural Distortions Induced by Chemical Pressure
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3594
+_journal_page_last               3602
+_journal_paper_doi               10.1021/ic7019439
+_journal_volume                  47
+_journal_year                    2008
+_chemical_formula_sum            'Ba1.08 Bi3 Sr0.92'
+_chemical_formula_weight         856.00
+_chemical_name_common            'Strontium Barium Bismuthide'
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           52
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2a 2bc'
+_symmetry_space_group_name_H-M   'P n n a'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   15.887(3)
+_cell_length_b                   6.8930(14)
+_cell_length_c                   6.7170(13)
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      25.35
+_cell_measurement_theta_min      1
+_cell_volume                     735.6(2)
+_computing_cell_refinement       'DENZO (Nonius, 2001b)'
+_computing_data_collection       'Kappa-CCD Control Software (Nonius, 2001a)'
+_computing_data_reduction        'DENZO (Nonius, 2001b)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_detector                 'image plate'
+_diffrn_detector_area_resol_mean 67
+_diffrn_measured_fraction_theta_full 0.999
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_measurement_device       'one-circle diffractometer'
+_diffrn_measurement_device_type  'DIP2020 (Nonius)'
+_diffrn_measurement_method       'phi-rotation '
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0271
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            681
+_diffrn_reflns_theta_full        25.35
+_diffrn_reflns_theta_max         25.35
+_diffrn_reflns_theta_min         2.56
+_exptl_absorpt_coefficient_mu    83.721
+_exptl_crystal_density_diffrn    7.730
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             1378
+_exptl_crystal_size_max          0.06
+_exptl_crystal_size_mid          0.05
+_exptl_crystal_size_min          0.04
+_refine_diff_density_max         4.550
+_refine_diff_density_min         -3.750
+_refine_diff_density_rms         0.901
+_refine_ls_extinction_coef       0.0009(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.311
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     28
+_refine_ls_number_reflns         681
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.311
+_refine_ls_R_factor_all          0.0633
+_refine_ls_R_factor_gt           0.0595
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0663P)^2^+149.2885P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1602
+_refine_ls_wR_factor_ref         0.1626
+_reflns_number_gt                638
+_reflns_number_total             681
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic7019439-file005.cif
+_cod_data_source_block           Sr2-xBaxBi3
+_cod_original_cell_volume        735.6(3)
+_cod_database_code               4304447
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'x, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z'
+'x-1/2, -y-1/2, z-1/2'
+'-x, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Bi1 Bi 0.65433(8) 0.44141(19) 0.0747(2) 0.0210(6) Uani 1 1 d . . .
+Bi2 Bi 0.56862(11) 0.7500 -0.2500 0.0179(6) Uani 1 2 d S . .
+Ba3 Ba 0.7500 0.0000 -0.0517(5) 0.0145(12) Uani 0.69(4) 2 d SP . .
+Sr3 Sr 0.7500 0.0000 -0.0517(5) 0.0145(12) Uani 0.31(4) 2 d SP . .
+Sr4 Sr 0.4996(2) 0.7500 0.2500 0.0152(13) Uani 0.61(4) 2 d SP . .
+Ba4 Ba 0.4996(2) 0.7500 0.2500 0.0152(13) Uani 0.39(4) 2 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Bi1 0.0185(8) 0.0197(8) 0.0246(8) -0.0095(5) -0.0061(5) 0.0076(5)
+Bi2 0.0230(10) 0.0121(9) 0.0187(10) -0.0016(6) 0.000 0.000
+Ba3 0.0140(17) 0.0090(16) 0.0205(18) 0.000 0.000 0.0011(11)
+Sr3 0.0140(17) 0.0090(16) 0.0205(18) 0.000 0.000 0.0011(11)
+Sr4 0.0114(19) 0.0145(19) 0.020(2) -0.0034(13) 0.000 0.000
+Ba4 0.0114(19) 0.0145(19) 0.020(2) -0.0034(13) 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sr Sr -1.5307 3.2498 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Bi Bi -4.1077 10.2566 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Bi1 Bi1 Bi2 103.34(5) 2_665 . ?
+Bi1 Bi1 Sr4 121.95(7) 2_665 . ?
+Bi2 Bi1 Sr4 62.63(3) . . ?
+Bi1 Bi1 Ba3 78.69(4) 2_665 . ?
+Bi2 Bi1 Ba3 124.88(6) . . ?
+Sr4 Bi1 Ba3 157.63(6) . . ?
+Bi1 Bi1 Ba4 139.90(4) 2_665 5_665 ?
+Bi2 Bi1 Ba4 63.39(3) . 5_665 ?
+Sr4 Bi1 Ba4 87.01(3) . 5_665 ?
+Ba3 Bi1 Ba4 80.00(5) . 5_665 ?
+Bi1 Bi1 Sr4 139.90(4) 2_665 5_665 ?
+Bi2 Bi1 Sr4 63.39(3) . 5_665 ?
+Sr4 Bi1 Sr4 87.01(3) . 5_665 ?
+Ba3 Bi1 Sr4 80.00(5) . 5_665 ?
+Ba4 Bi1 Sr4 0.00(8) 5_665 5_665 ?
+Bi1 Bi1 Bi1 101.05(3) 2_665 4 ?
+Bi2 Bi1 Bi1 155.61(4) . 4 ?
+Sr4 Bi1 Bi1 103.43(4) . 4 ?
+Ba3 Bi1 Bi1 60.90(6) . 4 ?
+Ba4 Bi1 Bi1 97.61(4) 5_665 4 ?
+Sr4 Bi1 Bi1 97.61(4) 5_665 4 ?
+Bi1 Bi1 Sr3 63.86(3) 2_665 3_655 ?
+Bi2 Bi1 Sr3 133.50(4) . 3_655 ?
+Sr4 Bi1 Sr3 85.84(4) . 3_655 ?
+Ba3 Bi1 Sr3 97.53(6) . 3_655 ?
+Ba4 Bi1 Sr3 153.04(5) 5_665 3_655 ?
+Sr4 Bi1 Sr3 153.04(5) 5_665 3_655 ?
+Bi1 Bi1 Sr3 59.11(4) 4 3_655 ?
+Bi1 Bi1 Ba3 63.86(3) 2_665 3_655 ?
+Bi2 Bi1 Ba3 133.50(4) . 3_655 ?
+Sr4 Bi1 Ba3 85.84(4) . 3_655 ?
+Ba3 Bi1 Ba3 97.53(6) . 3_655 ?
+Ba4 Bi1 Ba3 153.04(5) 5_665 3_655 ?
+Sr4 Bi1 Ba3 153.04(5) 5_665 3_655 ?
+Bi1 Bi1 Ba3 59.11(4) 4 3_655 ?
+Sr3 Bi1 Ba3 0.0 3_655 3_655 ?
+Bi1 Bi1 Ba3 65.88(3) 2_665 3_654 ?
+Bi2 Bi1 Ba3 59.85(3) . 3_654 ?
+Sr4 Bi1 Ba3 121.81(4) . 3_654 ?
+Ba3 Bi1 Ba3 72.47(5) . 3_654 ?
+Ba4 Bi1 Ba3 75.46(5) 5_665 3_654 ?
+Sr4 Bi1 Ba3 75.46(5) 5_665 3_654 ?
+Bi1 Bi1 Ba3 133.32(5) 4 3_654 ?
+Sr3 Bi1 Ba3 129.74(4) 3_655 3_654 ?
+Ba3 Bi1 Ba3 129.74(4) 3_655 3_654 ?
+Bi1 Bi2 Bi1 131.83(7) 4_564 . ?
+Bi1 Bi2 Ba4 60.36(4) 4_564 1_554 ?
+Bi1 Bi2 Ba4 138.42(3) . 1_554 ?
+Bi1 Bi2 Sr4 60.36(4) 4_564 1_554 ?
+Bi1 Bi2 Sr4 138.42(3) . 1_554 ?
+Ba4 Bi2 Sr4 0.00(10) 1_554 1_554 ?
+Bi1 Bi2 Sr4 138.41(3) 4_564 . ?
+Bi1 Bi2 Sr4 60.36(4) . . ?
+Ba4 Bi2 Sr4 143.82(11) 1_554 . ?
+Sr4 Bi2 Sr4 143.82(11) 1_554 . ?
+Bi1 Bi2 Ba3 67.13(6) 4_564 1_565 ?
+Bi1 Bi2 Ba3 74.79(5) . 1_565 ?
+Ba4 Bi2 Ba3 126.74(7) 1_554 1_565 ?
+Sr4 Bi2 Ba3 126.74(7) 1_554 1_565 ?
+Sr4 Bi2 Ba3 84.10(6) . 1_565 ?
+Bi1 Bi2 Sr3 67.13(6) 4_564 1_565 ?
+Bi1 Bi2 Sr3 74.79(5) . 1_565 ?
+Ba4 Bi2 Sr3 126.74(7) 1_554 1_565 ?
+Sr4 Bi2 Sr3 126.74(7) 1_554 1_565 ?
+Sr4 Bi2 Sr3 84.10(6) . 1_565 ?
+Ba3 Bi2 Sr3 0.0 1_565 1_565 ?
+Bi1 Bi2 Sr3 74.79(5) 4_564 3_654 ?
+Bi1 Bi2 Sr3 67.13(6) . 3_654 ?
+Ba4 Bi2 Sr3 84.10(6) 1_554 3_654 ?
+Sr4 Bi2 Sr3 84.10(6) 1_554 3_654 ?
+Sr4 Bi2 Sr3 126.74(7) . 3_654 ?
+Ba3 Bi2 Sr3 74.17(6) 1_565 3_654 ?
+Sr3 Bi2 Sr3 74.17(6) 1_565 3_654 ?
+Bi1 Bi2 Ba3 74.79(5) 4_564 3_654 ?
+Bi1 Bi2 Ba3 67.13(6) . 3_654 ?
+Ba4 Bi2 Ba3 84.10(6) 1_554 3_654 ?
+Sr4 Bi2 Ba3 84.10(6) 1_554 3_654 ?
+Sr4 Bi2 Ba3 126.74(7) . 3_654 ?
+Ba3 Bi2 Ba3 74.17(6) 1_565 3_654 ?
+Sr3 Bi2 Ba3 74.17(6) 1_565 3_654 ?
+Sr3 Bi2 Ba3 0.00(9) 3_654 3_654 ?
+Bi1 Bi2 Ba4 136.93(3) 4_564 5_665 ?
+Bi1 Bi2 Ba4 60.94(4) . 5_665 ?
+Ba4 Bi2 Ba4 84.658(16) 1_554 5_665 ?
+Sr4 Bi2 Ba4 84.658(16) 1_554 5_665 ?
+Sr4 Bi2 Ba4 84.658(16) . 5_665 ?
+Ba3 Bi2 Ba4 133.97(6) 1_565 5_665 ?
+Sr3 Bi2 Ba4 133.97(6) 1_565 5_665 ?
+Sr3 Bi2 Ba4 77.53(5) 3_654 5_665 ?
+Ba3 Bi2 Ba4 77.53(5) 3_654 5_665 ?
+Bi1 Bi2 Sr4 136.93(3) 4_564 5_665 ?
+Bi1 Bi2 Sr4 60.94(4) . 5_665 ?
+Ba4 Bi2 Sr4 84.658(16) 1_554 5_665 ?
+Sr4 Bi2 Sr4 84.658(16) 1_554 5_665 ?
+Sr4 Bi2 Sr4 84.658(16) . 5_665 ?
+Ba3 Bi2 Sr4 133.97(6) 1_565 5_665 ?
+Sr3 Bi2 Sr4 133.97(6) 1_565 5_665 ?
+Sr3 Bi2 Sr4 77.53(5) 3_654 5_665 ?
+Ba3 Bi2 Sr4 77.53(5) 3_654 5_665 ?
+Ba4 Bi2 Sr4 0.00(10) 5_665 5_665 ?
+Bi1 Ba3 Bi1 151.97(11) 2_655 . ?
+Bi1 Ba3 Bi1 59.98(5) 2_655 3_645 ?
+Bi1 Ba3 Bi1 93.75(7) . 3_645 ?
+Bi1 Ba3 Bi1 93.75(7) 2_655 4 ?
+Bi1 Ba3 Bi1 59.98(5) . 4 ?
+Bi1 Ba3 Bi1 52.29(6) 3_645 4 ?
+Bi1 Ba3 Bi2 91.21(3) 2_655 1_545 ?
+Bi1 Ba3 Bi2 99.06(3) . 1_545 ?
+Bi1 Ba3 Bi2 128.08(6) 3_645 1_545 ?
+Bi1 Ba3 Bi2 92.60(4) 4 1_545 ?
+Bi1 Ba3 Bi2 99.06(3) 2_655 2_665 ?
+Bi1 Ba3 Bi2 91.21(3) . 2_665 ?
+Bi1 Ba3 Bi2 92.60(4) 3_645 2_665 ?
+Bi1 Ba3 Bi2 128.08(6) 4 2_665 ?
+Bi2 Ba3 Bi2 136.72(9) 1_545 2_665 ?
+Bi1 Ba3 Bi1 118.90(6) 2_655 4_554 ?
+Bi1 Ba3 Bi1 87.64(5) . 4_554 ?
+Bi1 Ba3 Bi1 177.97(4) 3_645 4_554 ?
+Bi1 Ba3 Bi1 129.74(4) 4 4_554 ?
+Bi2 Ba3 Bi1 53.02(4) 1_545 4_554 ?
+Bi2 Ba3 Bi1 85.90(6) 2_665 4_554 ?
+Bi1 Ba3 Bi1 87.64(5) 2_655 3_644 ?
+Bi1 Ba3 Bi1 118.90(6) . 3_644 ?
+Bi1 Ba3 Bi1 129.74(4) 3_645 3_644 ?
+Bi1 Ba3 Bi1 177.97(4) 4 3_644 ?
+Bi2 Ba3 Bi1 85.90(6) 1_545 3_644 ?
+Bi2 Ba3 Bi1 53.02(4) 2_665 3_644 ?
+Bi1 Ba3 Bi1 48.24(5) 4_554 3_644 ?
+Bi1 Ba3 Bi1 125.89(5) 2_655 2_665 ?
+Bi1 Ba3 Bi1 46.88(4) . 2_665 ?
+Bi1 Ba3 Bi1 76.68(5) 3_645 2_665 ?
+Bi1 Ba3 Bi1 82.51(5) 4 2_665 ?
+Bi2 Ba3 Bi1 142.73(3) 1_545 2_665 ?
+Bi2 Ba3 Bi1 49.642(18) 2_665 2_665 ?
+Bi1 Ba3 Bi1 103.29(5) 4_554 2_665 ?
+Bi1 Ba3 Bi1 97.87(4) 3_644 2_665 ?
+Bi1 Ba3 Bi1 46.88(4) 2_655 1_545 ?
+Bi1 Ba3 Bi1 125.89(5) . 1_545 ?
+Bi1 Ba3 Bi1 82.51(5) 3_645 1_545 ?
+Bi1 Ba3 Bi1 76.68(5) 4 1_545 ?
+Bi2 Ba3 Bi1 49.642(18) 1_545 1_545 ?
+Bi2 Ba3 Bi1 142.73(3) 2_665 1_545 ?
+Bi1 Ba3 Bi1 97.87(4) 4_554 1_545 ?
+Bi1 Ba3 Bi1 103.29(5) 3_644 1_545 ?
+Bi1 Ba3 Bi1 156.82(9) 2_665 1_545 ?
+Bi1 Ba3 Sr3 57.41(3) 2_655 3_644 ?
+Bi1 Ba3 Sr3 146.60(8) . 3_644 ?
+Bi1 Ba3 Sr3 117.35(5) 3_645 3_644 ?
+Bi1 Ba3 Sr3 129.68(6) 4 3_644 ?
+Bi2 Ba3 Sr3 52.92(3) 1_545 3_644 ?
+Bi2 Ba3 Sr3 98.74(7) 2_665 3_644 ?
+Bi1 Ba3 Sr3 61.63(7) 4_554 3_644 ?
+Bi1 Ba3 Sr3 50.12(6) 3_644 3_644 ?
+Bi1 Ba3 Sr3 147.54(8) 2_665 3_644 ?
+Bi1 Ba3 Sr3 53.27(3) 1_545 3_644 ?
+Bi1 Ba3 Ba3 57.41(3) 2_655 3_644 ?
+Bi1 Ba3 Ba3 146.60(8) . 3_644 ?
+Bi1 Ba3 Ba3 117.35(5) 3_645 3_644 ?
+Bi1 Ba3 Ba3 129.68(6) 4 3_644 ?
+Bi2 Ba3 Ba3 52.92(3) 1_545 3_644 ?
+Bi2 Ba3 Ba3 98.74(7) 2_665 3_644 ?
+Bi1 Ba3 Ba3 61.63(7) 4_554 3_644 ?
+Bi1 Ba3 Ba3 50.12(6) 3_644 3_644 ?
+Bi1 Ba3 Ba3 147.54(8) 2_665 3_644 ?
+Bi1 Ba3 Ba3 53.27(3) 1_545 3_644 ?
+Sr3 Ba3 Ba3 0.00(6) 3_644 3_644 ?
+Bi1 Sr4 Bi1 89.36(9) . 4_565 ?
+Bi1 Sr4 Bi1 92.99(3) . 5_665 ?
+Bi1 Sr4 Bi1 158.79(5) 4_565 5_665 ?
+Bi1 Sr4 Bi1 158.79(5) . 8_666 ?
+Bi1 Sr4 Bi1 92.99(3) 4_565 8_666 ?
+Bi1 Sr4 Bi1 92.39(9) 5_665 8_666 ?
+Bi1 Sr4 Bi2 57.01(4) . . ?
+Bi1 Sr4 Bi2 95.91(7) 4_565 . ?
+Bi1 Sr4 Bi2 68.16(4) 5_665 . ?
+Bi1 Sr4 Bi2 143.31(7) 8_666 . ?
+Bi1 Sr4 Bi2 95.91(7) . 1_556 ?
+Bi1 Sr4 Bi2 57.01(4) 4_565 1_556 ?
+Bi1 Sr4 Bi2 143.31(7) 5_665 1_556 ?
+Bi1 Sr4 Bi2 68.16(4) 8_666 1_556 ?
+Bi2 Sr4 Bi2 143.82(11) . 1_556 ?
+Bi1 Sr4 Bi2 68.06(4) . 5_665 ?
+Bi1 Sr4 Bi2 143.14(7) 4_565 5_665 ?
+Bi1 Sr4 Bi2 55.67(4) 5_665 5_665 ?
+Bi1 Sr4 Bi2 98.56(7) 8_666 5_665 ?
+Bi2 Sr4 Bi2 95.342(16) . 5_665 ?
+Bi2 Sr4 Bi2 95.342(16) 1_556 5_665 ?
+Bi1 Sr4 Bi2 143.14(7) . 5_675 ?
+Bi1 Sr4 Bi2 68.06(4) 4_565 5_675 ?
+Bi1 Sr4 Bi2 98.56(7) 5_665 5_675 ?
+Bi1 Sr4 Bi2 55.67(4) 8_666 5_675 ?
+Bi2 Sr4 Bi2 95.342(16) . 5_675 ?
+Bi2 Sr4 Bi2 95.342(16) 1_556 5_675 ?
+Bi2 Sr4 Bi2 145.10(11) 5_665 5_675 ?
+Bi1 Sr4 Sr3 119.28(3) . 7_566 ?
+Bi1 Sr4 Sr3 139.23(5) 4_565 7_566 ?
+Bi1 Sr4 Sr3 55.45(6) 5_665 7_566 ?
+Bi1 Sr4 Sr3 49.74(5) 8_666 7_566 ?
+Bi2 Sr4 Sr3 123.51(7) . 7_566 ?
+Bi2 Sr4 Sr3 89.56(6) 1_556 7_566 ?
+Bi2 Sr4 Sr3 51.23(4) 5_665 7_566 ?
+Bi2 Sr4 Sr3 95.77(7) 5_675 7_566 ?
+Bi1 Sr4 Ba3 119.28(3) . 7_566 ?
+Bi1 Sr4 Ba3 139.23(5) 4_565 7_566 ?
+Bi1 Sr4 Ba3 55.45(6) 5_665 7_566 ?
+Bi1 Sr4 Ba3 49.74(5) 8_666 7_566 ?
+Bi2 Sr4 Ba3 123.51(7) . 7_566 ?
+Bi2 Sr4 Ba3 89.56(6) 1_556 7_566 ?
+Bi2 Sr4 Ba3 51.23(4) 5_665 7_566 ?
+Bi2 Sr4 Ba3 95.77(7) 5_675 7_566 ?
+Sr3 Sr4 Ba3 0.00(7) 7_566 7_566 ?
+Bi1 Sr4 Sr3 139.23(5) . 5_665 ?
+Bi1 Sr4 Sr3 119.28(3) 4_565 5_665 ?
+Bi1 Sr4 Sr3 49.74(5) 5_665 5_665 ?
+Bi1 Sr4 Sr3 55.45(6) 8_666 5_665 ?
+Bi2 Sr4 Sr3 89.56(6) . 5_665 ?
+Bi2 Sr4 Sr3 123.51(7) 1_556 5_665 ?
+Bi2 Sr4 Sr3 95.77(7) 5_665 5_665 ?
+Bi2 Sr4 Sr3 51.23(4) 5_675 5_665 ?
+Sr3 Sr4 Sr3 57.56(6) 7_566 5_665 ?
+Ba3 Sr4 Sr3 57.56(6) 7_566 5_665 ?
+Bi1 Sr4 Ba3 139.23(5) . 5_665 ?
+Bi1 Sr4 Ba3 119.28(3) 4_565 5_665 ?
+Bi1 Sr4 Ba3 49.74(5) 5_665 5_665 ?
+Bi1 Sr4 Ba3 55.45(6) 8_666 5_665 ?
+Bi2 Sr4 Ba3 89.56(6) . 5_665 ?
+Bi2 Sr4 Ba3 123.51(7) 1_556 5_665 ?
+Bi2 Sr4 Ba3 95.77(7) 5_665 5_665 ?
+Bi2 Sr4 Ba3 51.23(4) 5_675 5_665 ?
+Sr3 Sr4 Ba3 57.56(6) 7_566 5_665 ?
+Ba3 Sr4 Ba3 57.56(6) 7_566 5_665 ?
+Sr3 Sr4 Ba3 0.0 5_665 5_665 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Bi1 Bi1 3.145(3) 2_665 ?
+Bi1 Bi2 3.3370(16) . ?
+Bi1 Sr4 3.458(3) . ?
+Bi1 Ba3 3.5055(15) . ?
+Bi1 Ba4 3.532(3) 5_665 ?
+Bi1 Sr4 3.532(3) 5_665 ?
+Bi1 Bi1 3.537(3) 4 ?
+Bi1 Sr3 3.569(3) 3_655 ?
+Bi1 Ba3 3.569(3) 3_655 ?
+Bi1 Ba3 3.849(3) 3_654 ?
+Bi2 Bi1 3.3370(16) 4_564 ?
+Bi2 Ba4 3.5331(13) 1_554 ?
+Bi2 Sr4 3.5331(13) 1_554 ?
+Bi2 Sr4 3.5331(13) . ?
+Bi2 Ba3 3.6121(19) 1_565 ?
+Bi2 Sr3 3.6121(19) 1_565 ?
+Bi2 Sr3 3.6121(19) 3_654 ?
+Bi2 Ba3 3.6121(19) 3_654 ?
+Bi2 Ba4 3.6127(13) 5_665 ?
+Bi2 Sr4 3.6127(13) 5_665 ?
+Ba3 Bi1 3.5055(15) 2_655 ?
+Ba3 Bi1 3.569(3) 3_645 ?
+Ba3 Bi1 3.569(3) 4 ?
+Ba3 Bi2 3.6121(19) 1_545 ?
+Ba3 Bi2 3.6121(19) 2_665 ?
+Ba3 Bi1 3.849(3) 4_554 ?
+Ba3 Bi1 3.849(3) 3_644 ?
+Ba3 Bi1 4.2257(16) 2_665 ?
+Ba3 Bi1 4.2257(16) 1_545 ?
+Ba3 Sr3 4.356(4) 3_644 ?
+Ba3 Ba3 4.356(4) 3_644 ?
+Sr4 Bi1 3.458(3) 4_565 ?
+Sr4 Bi1 3.532(3) 5_665 ?
+Sr4 Bi1 3.532(3) 8_666 ?
+Sr4 Bi2 3.5331(13) 1_556 ?
+Sr4 Bi2 3.6127(13) 5_665 ?
+Sr4 Bi2 3.6127(13) 5_675 ?
+Sr4 Sr3 4.524(3) 7_566 ?
+Sr4 Ba3 4.524(3) 7_566 ?
+Sr4 Sr3 4.524(3) 5_665 ?
+Sr4 Ba3 4.524(3) 5_665 ?

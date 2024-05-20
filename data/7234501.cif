@@ -1,0 +1,357 @@
+#------------------------------------------------------------------------------
+#$Date: 2019-10-09 11:29:15 +0300 (Wed, 09 Oct 2019) $
+#$Revision: 219199 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/23/45/7234501.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7234501
+loop_
+_publ_author_name
+'Yuntao Wu'
+'Hongliang Shi'
+'Bryan C. Chakoumakos'
+'Mariya Zhuravleva'
+'Mao-Hua Du'
+'Charles L. Melcher'
+_publ_section_title
+;
+ Crystal structure, electronic structure, temperature-dependent optical
+ and scintillation properties of CsCe2Br7
+;
+_journal_name_full               'Journal of Materials Chemistry C'
+_journal_page_first              11366
+_journal_page_last               11376
+_journal_paper_doi               10.1039/C5TC02721G
+_journal_volume                  3
+_journal_year                    2015
+_chemical_formula_sum            'Br14 Ce4 Cs2'
+_chemical_formula_weight         1945.04
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2bc 2a'
+_space_group_name_H-M_alt        'P m n b'
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_H-M   'P m n b'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.571(3)
+_cell_length_b                   13.666(5)
+_cell_length_c                   13.860(5)
+_cell_measurement_temperature    200(2)
+_cell_volume                     1434.0(9)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_measured_fraction_theta_full 0.994
+_diffrn_measured_fraction_theta_max 0.994
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1020
+_diffrn_reflns_av_sigmaI/netI    0.0520
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       16
+_diffrn_reflns_limit_k_min       -16
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            13971
+_diffrn_reflns_theta_full        25.35
+_diffrn_reflns_theta_max         25.35
+_diffrn_reflns_theta_min         2.09
+_exptl_absorpt_coefficient_mu    28.223
+_exptl_absorpt_correction_T_max  0.652
+_exptl_absorpt_correction_T_min  0.094
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    4.505
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Platelet
+_exptl_crystal_F_000             1664
+_exptl_crystal_size_max          0.10
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         5.646
+_refine_diff_density_min         -3.020
+_refine_diff_density_rms         0.612
+_refine_ls_extinction_coef       0.00000(17)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.167
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     53
+_refine_ls_number_reflns         1410
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.167
+_refine_ls_R_factor_all          0.0866
+_refine_ls_R_factor_gt           0.0724
+_refine_ls_shift/su_max          1.140
+_refine_ls_shift/su_mean         0.022
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1175P)^2^+51.6893P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.2000
+_refine_ls_wR_factor_ref         0.2209
+_reflns_number_gt                1101
+_reflns_number_total             1410
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            J-Mater-Chem-C-2015-3-11366.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_exptl_absorpt_correction_type' value 'Numerical' was
+changed to 'numerical' in accordance with the built-in table derived
+from the CIF Core dictionary named 'cif_core.dic' version 2.4.5 last
+updated on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 6909 2019-04-08 15:41:33Z antanas 
+;
+_cod_original_sg_symbol_H-M      Pmnb
+_cod_database_code               7234501
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y+1/2, z+1/2'
+'x+1/2, -y, -z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y-1/2, -z-1/2'
+'-x-1/2, y, z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ce1 Ce 0.7500 0.75070(11) 0.16134(10) 0.0231(5) Uani 1 2 d S . .
+Ce2 Ce 0.7500 0.76666(11) 0.46317(9) 0.0230(5) Uani 1 2 d S . .
+Cs1 Cs 0.2500 0.05235(16) 0.19081(12) 0.0378(6) Uani 1 2 d S . .
+Br1 Br 0.7500 0.5984(2) 0.31659(16) 0.0285(7) Uani 1 2 d S . .
+Br2 Br 0.9985(2) 0.82854(17) 0.30985(12) 0.0337(6) Uani 1 1 d . . .
+Br3 Br 0.9911(2) 0.87370(14) 0.04251(13) 0.0275(6) Uani 1 1 d . . .
+Br4 Br 0.0084(2) 0.61060(14) 0.08189(13) 0.0286(6) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ce1 0.0205(8) 0.0346(10) 0.0141(7) 0.0001(5) 0.000 0.000
+Ce2 0.0225(8) 0.0330(9) 0.0135(7) -0.0017(5) 0.000 0.000
+Cs1 0.0352(10) 0.0517(13) 0.0265(10) -0.0061(7) 0.000 0.000
+Br1 0.0323(14) 0.0387(16) 0.0144(12) 0.0009(9) 0.000 0.000
+Br2 0.0303(11) 0.0547(15) 0.0159(10) 0.0017(8) 0.0001(6) -0.0137(9)
+Br3 0.0285(10) 0.0311(11) 0.0229(10) 0.0022(7) 0.0061(6) 0.0015(7)
+Br4 0.0300(10) 0.0320(12) 0.0237(10) 0.0023(7) 0.0057(7) 0.0011(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cs Cs -0.3680 2.1192 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ce Ce -0.2486 2.6331 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Br4 Ce1 Br4 83.07(9) 7_655 1_655
+Br4 Ce1 Br3 124.49(7) 7_655 .
+Br4 Ce1 Br3 75.73(6) 1_655 .
+Br4 Ce1 Br3 75.73(6) 7_655 7_755
+Br4 Ce1 Br3 124.49(7) 1_655 7_755
+Br3 Ce1 Br3 75.59(8) . 7_755
+Br4 Ce1 Br2 155.04(7) 7_655 .
+Br4 Ce1 Br2 94.05(6) 1_655 .
+Br3 Ce1 Br2 78.11(6) . .
+Br3 Ce1 Br2 124.51(8) 7_755 .
+Br4 Ce1 Br2 94.05(6) 7_655 7_755
+Br4 Ce1 Br2 155.04(7) 1_655 7_755
+Br3 Ce1 Br2 124.51(8) . 7_755
+Br3 Ce1 Br2 78.11(6) 7_755 7_755
+Br2 Ce1 Br2 78.15(8) . 7_755
+Br4 Ce1 Br1 79.46(6) 7_655 .
+Br4 Ce1 Br1 79.46(6) 1_655 .
+Br3 Ce1 Br1 142.18(4) . .
+Br3 Ce1 Br1 142.18(4) 7_755 .
+Br2 Ce1 Br1 75.65(7) . .
+Br2 Ce1 Br1 75.65(7) 7_755 .
+Br3 Ce2 Br3 83.12(9) 2_765 8_576
+Br3 Ce2 Br2 91.77(6) 2_765 .
+Br3 Ce2 Br2 150.91(8) 8_576 .
+Br3 Ce2 Br2 150.91(8) 2_765 7_755
+Br3 Ce2 Br2 91.77(6) 8_576 7_755
+Br2 Ce2 Br2 78.88(8) . 7_755
+Br3 Ce2 Br4 75.67(6) 2_765 2_665
+Br3 Ce2 Br4 124.58(7) 8_576 2_665
+Br2 Ce2 Br4 81.11(6) . 2_665
+Br2 Ce2 Br4 128.75(8) 7_755 2_665
+Br3 Ce2 Br4 124.58(7) 2_765 8_676
+Br3 Ce2 Br4 75.67(6) 8_576 8_676
+Br2 Ce2 Br4 128.75(8) . 8_676
+Br2 Ce2 Br4 81.11(6) 7_755 8_676
+Br4 Ce2 Br4 75.80(8) 2_665 8_676
+Br3 Ce2 Br1 76.11(6) 2_765 .
+Br3 Ce2 Br1 76.11(6) 8_576 .
+Br2 Ce2 Br1 74.86(7) . .
+Br2 Ce2 Br1 74.86(7) 7_755 .
+Br4 Ce2 Br1 142.00(4) 2_665 .
+Br4 Ce2 Br1 142.00(4) 8_676 .
+Br4 Cs1 Br4 58.75(6) 4_545 6_556
+Br4 Cs1 Br3 149.27(7) 4_545 1_445
+Br4 Cs1 Br3 110.25(5) 6_556 1_445
+Br4 Cs1 Br3 110.25(5) 4_545 7_745
+Br4 Cs1 Br3 149.27(7) 6_556 7_745
+Br3 Cs1 Br3 63.12(6) 1_445 7_745
+Br4 Cs1 Br1 60.26(5) 4_545 6_556
+Br4 Cs1 Br1 118.12(6) 6_556 6_556
+Br3 Cs1 Br1 127.47(6) 1_445 6_556
+Br3 Cs1 Br1 64.91(5) 7_745 6_556
+Br4 Cs1 Br1 118.12(6) 4_545 6_456
+Br4 Cs1 Br1 60.26(5) 6_556 6_456
+Br3 Cs1 Br1 64.91(5) 1_445 6_456
+Br3 Cs1 Br1 127.47(6) 7_745 6_456
+Br1 Cs1 Br1 160.88(11) 6_556 6_456
+Br4 Cs1 Br3 152.44(8) 4_545 5_665
+Br4 Cs1 Br3 114.91(5) 6_556 5_665
+Br3 Cs1 Br3 57.44(6) 1_445 5_665
+Br3 Cs1 Br3 87.61(5) 7_745 5_665
+Br1 Cs1 Br3 113.72(6) 6_556 5_665
+Br1 Cs1 Br3 57.78(5) 6_456 5_665
+Br4 Cs1 Br3 114.91(5) 4_545 3_465
+Br4 Cs1 Br3 152.44(8) 6_556 3_465
+Br3 Cs1 Br3 87.61(5) 1_445 3_465
+Br3 Cs1 Br3 57.44(6) 7_745 3_465
+Br1 Cs1 Br3 57.78(5) 6_556 3_465
+Br1 Cs1 Br3 113.71(6) 6_456 3_465
+Br3 Cs1 Br3 56.62(6) 5_665 3_465
+Br4 Cs1 Br2 92.79(6) 4_545 1_445
+Br4 Cs1 Br2 65.00(5) 6_556 1_445
+Br3 Cs1 Br2 58.26(5) 1_445 1_445
+Br3 Cs1 Br2 88.68(6) 7_745 1_445
+Br1 Cs1 Br2 127.70(7) 6_556 1_445
+Br1 Cs1 Br2 70.35(6) 6_456 1_445
+Br3 Cs1 Br2 108.95(5) 5_665 1_445
+Br3 Cs1 Br2 141.30(7) 3_465 1_445
+Br4 Cs1 Br2 65.00(5) 4_545 7_745
+Br4 Cs1 Br2 92.79(6) 6_556 7_745
+Br3 Cs1 Br2 88.68(6) 1_445 7_745
+Br3 Cs1 Br2 58.26(5) 7_745 7_745
+Br1 Cs1 Br2 70.35(6) 6_556 7_745
+Br1 Cs1 Br2 127.70(7) 6_456 7_745
+Br3 Cs1 Br2 141.30(7) 5_665 7_745
+Br3 Cs1 Br2 108.95(5) 3_465 7_745
+Br2 Cs1 Br2 57.44(7) 1_445 7_745
+Br4 Cs1 Br2 65.81(5) 4_545 4_645
+Br4 Cs1 Br2 91.84(6) 6_556 4_645
+Br3 Cs1 Br2 144.74(6) 1_445 4_645
+Br3 Cs1 Br2 110.18(5) 7_745 4_645
+Br1 Cs1 Br2 53.80(5) 6_556 4_645
+Br1 Cs1 Br2 107.33(7) 6_456 4_645
+Br3 Cs1 Br2 88.70(6) 5_665 4_645
+Br3 Cs1 Br2 63.26(5) 3_465 4_645
+Br2 Cs1 Br2 155.02(5) 1_445 4_645
+Br2 Cs1 Br2 118.27(5) 7_745 4_645
+Br4 Cs1 Br2 91.84(6) 4_545 6_456
+Br4 Cs1 Br2 65.81(5) 6_556 6_456
+Br3 Cs1 Br2 110.18(5) 1_445 6_456
+Br3 Cs1 Br2 144.74(6) 7_745 6_456
+Br1 Cs1 Br2 107.33(7) 6_556 6_456
+Br1 Cs1 Br2 53.80(5) 6_456 6_456
+Br3 Cs1 Br2 63.26(5) 5_665 6_456
+Br3 Cs1 Br2 88.70(6) 3_465 6_456
+Br2 Cs1 Br2 118.27(5) 1_445 6_456
+Br2 Cs1 Br2 155.02(5) 7_745 6_456
+Br2 Cs1 Br2 53.54(6) 4_645 6_456
+Ce1 Br1 Ce2 87.41(9) . .
+Ce1 Br1 Cs1 95.44(5) . 6_566
+Ce2 Br1 Cs1 98.08(5) . 6_566
+Ce1 Br1 Cs1 95.44(5) . 6_666
+Ce2 Br1 Cs1 98.08(5) . 6_666
+Cs1 Br1 Cs1 160.88(11) 6_566 6_666
+Ce2 Br2 Ce1 89.58(6) . .
+Ce2 Br2 Cs1 145.53(8) . 1_665
+Ce1 Br2 Cs1 106.91(6) . 1_665
+Ce2 Br2 Cs1 91.88(6) . 6_666
+Ce1 Br2 Cs1 87.95(6) . 6_666
+Cs1 Br2 Cs1 118.15(5) 1_665 6_666
+Ce2 Br3 Ce1 104.24(7) 2_764 .
+Ce2 Br3 Cs1 106.27(6) 2_764 1_665
+Ce1 Br3 Cs1 112.65(7) . 1_665
+Ce2 Br3 Cs1 99.93(6) 2_764 5_665
+Ce1 Br3 Cs1 108.80(6) . 5_665
+Cs1 Br3 Cs1 122.56(6) 1_665 5_665
+Ce1 Br4 Ce2 104.36(7) 1_455 2_664
+Ce1 Br4 Cs1 98.54(6) 1_455 6_566
+Ce2 Br4 Cs1 106.61(6) 2_664 6_566
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ce1 Br4 2.951(2) 7_655
+Ce1 Br4 2.951(2) 1_655
+Ce1 Br3 2.978(2) .
+Ce1 Br3 2.978(2) 7_755
+Ce1 Br2 2.985(2) .
+Ce1 Br2 2.985(2) 7_755
+Ce1 Br1 2.994(3) .
+Ce2 Br3 2.955(2) 2_765
+Ce2 Br3 2.955(2) 8_576
+Ce2 Br2 2.961(2) .
+Ce2 Br2 2.961(2) 7_755
+Ce2 Br4 2.978(2) 2_665
+Ce2 Br4 2.978(2) 8_676
+Ce2 Br1 3.069(3) .
+Cs1 Br4 3.729(3) 4_545
+Cs1 Br4 3.729(3) 6_556
+Cs1 Br3 3.746(3) 1_445
+Cs1 Br3 3.746(3) 7_745
+Cs1 Br1 3.8388(16) 6_556
+Cs1 Br1 3.8388(16) 6_456
+Cs1 Br3 3.848(3) 5_665
+Cs1 Br3 3.848(3) 3_465
+Cs1 Br2 3.963(3) 1_445
+Cs1 Br2 3.963(3) 7_745
+Cs1 Br2 4.228(3) 4_645
+Cs1 Br2 4.228(3) 6_456
+Br1 Cs1 3.8388(16) 6_566
+Br1 Cs1 3.8388(16) 6_666
+Br2 Cs1 3.963(3) 1_665
+Br2 Cs1 4.228(3) 6_666
+Br3 Ce2 2.955(2) 2_764
+Br3 Cs1 3.746(3) 1_665
+Br3 Cs1 3.848(3) 5_665
+Br4 Ce1 2.951(2) 1_455
+Br4 Ce2 2.978(2) 2_664
+Br4 Cs1 3.729(3) 6_566

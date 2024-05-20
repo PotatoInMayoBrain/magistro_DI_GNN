@@ -1,0 +1,368 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 12:59:59 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180218 $
+#$URL: svn://www.crystallography.net/cod/cif/7/11/04/7110441.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_7110441
+loop_
+_publ_author_name
+'Goga, M.'
+'Seshadri, R.'
+'Ksenofontov, V.'
+'G\"utlich, P.'
+'Tremel, W.'
+_publ_section_title
+;
+ Ln2Ti2S2O5 (Ln = Nd, Pr, Sm): a novel series of defective
+ Ruddlesden--Popper phases
+;
+_journal_issue                   11
+_journal_name_full               'Chemical Communications'
+_journal_page_first              979
+_journal_paper_doi               10.1039/a809737b
+_journal_year                    1999
+_chemical_formula_sum            'Nd2 O5 S2 Ti2'
+_chemical_formula_weight         528.40
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           139
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   3.8490(10)
+_cell_length_b                   3.8490(10)
+_cell_length_c                   23.064(5)
+_cell_measurement_temperature    293(2)
+_cell_volume                     341.69(15)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0369
+_diffrn_reflns_av_sigmaI/netI    0.0146
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       -4
+_diffrn_reflns_limit_k_max       4
+_diffrn_reflns_limit_k_min       -4
+_diffrn_reflns_limit_l_max       26
+_diffrn_reflns_limit_l_min       -26
+_diffrn_reflns_number            1728
+_diffrn_reflns_theta_max         24.68
+_diffrn_reflns_theta_min         1.77
+_exptl_absorpt_coefficient_mu    17.763
+_exptl_crystal_density_diffrn    5.136
+_exptl_crystal_F_000             472
+_refine_diff_density_max         1.020
+_refine_diff_density_min         -1.125
+_refine_diff_density_rms         0.195
+_refine_ls_extinction_coef       0.0180(15)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.235
+_refine_ls_goodness_of_fit_obs   1.235
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         124
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.235
+_refine_ls_restrained_S_obs      1.235
+_refine_ls_R_factor_all          0.0168
+_refine_ls_R_factor_obs          0.0168
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0281P)^2^+0.8271P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0415
+_refine_ls_wR_factor_obs         0.0415
+_reflns_number_observed          124
+_reflns_number_total             124
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            809737bsup1.cif
+_cod_data_source_block           okay2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0281P)^2^+0.8271P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0281P)^2^+0.8271P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               7110441
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'y+1/2, x+1/2, -z+1/2'
+'-y+1/2, -x+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'-y+1/2, -x+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Nd 0.0049(4) 0.0049(4) 0.0050(5) 0.000 0.000 0.000
+Ti 0.0069(6) 0.0069(6) 0.0039(9) 0.000 0.000 0.000
+S 0.0076(8) 0.0076(8) 0.0072(12) 0.000 0.000 0.000
+O1 0.010(2) 0.005(2) 0.007(2) 0.000 0.000 0.000
+O2 0.027(5) 0.027(5) 0.015(6) 0.000 0.000 0.000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Nd Nd 0.0000 0.0000 0.33419(2) 0.0049(4) Uani 1 d S
+Ti Ti 0.0000 0.0000 0.07759(8) 0.0059(5) Uani 1 d S
+S S 0.0000 0.0000 0.20314(10) 0.0074(6) Uani 1 d S
+O1 O 0.0000 0.5000 0.0969(2) 0.0074(10) Uani 1 d S
+O2 O 0.0000 0.0000 0.0000 0.023(3) Uani 1 d S
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti Ti 0.2776 0.4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Nd Nd -0.1943 3.0179 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Nd O1 66.09(10) 27_455 25
+O1 Nd O1 100.9(2) 27_455 27_445
+O1 Nd O1 66.09(10) 25 27_445
+O1 Nd O1 66.09(10) 27_455 25_455
+O1 Nd O1 100.9(2) 25 25_455
+O1 Nd O1 66.09(10) 27_445 25_455
+O1 Nd S 135.39(4) 27_455 25_445
+O1 Nd S 135.39(4) 25 25_445
+O1 Nd S 70.86(7) 27_445 25_445
+O1 Nd S 70.86(7) 25_455 25_445
+O1 Nd S 70.86(7) 27_455 25
+O1 Nd S 70.86(7) 25 25
+O1 Nd S 135.39(4) 27_445 25
+O1 Nd S 135.39(4) 25_455 25
+S Nd S 144.88(9) 25_445 25
+O1 Nd S 70.86(7) 27_455 25_455
+O1 Nd S 135.39(4) 25 25_455
+O1 Nd S 135.39(4) 27_445 25_455
+O1 Nd S 70.86(7) 25_455 25_455
+S Nd S 84.78(3) 25_445 25_455
+S Nd S 84.78(3) 25 25_455
+O1 Nd S 135.39(4) 27_455 25_545
+O1 Nd S 70.86(7) 25 25_545
+O1 Nd S 70.86(7) 27_445 25_545
+O1 Nd S 135.39(4) 25_455 25_545
+S Nd S 84.78(3) 25_445 25_545
+S Nd S 84.78(3) 25 25_545
+S Nd S 144.88(9) 25_455 25_545
+O1 Nd S 129.54(9) 27_455 .
+O1 Nd S 129.54(9) 25 .
+O1 Nd S 129.54(9) 27_445 .
+O1 Nd S 129.54(9) 25_455 .
+S Nd S 72.44(4) 25_445 .
+S Nd S 72.44(4) 25 .
+S Nd S 72.44(4) 25_455 .
+S Nd S 72.44(4) 25_545 .
+O1 Nd Ti 35.12(2) 27_455 25
+O1 Nd Ti 35.12(2) 25 25
+O1 Nd Ti 93.18(8) 27_445 25
+O1 Nd Ti 93.18(8) 25_455 25
+S Nd Ti 160.78(5) 25_445 25
+S Nd Ti 54.34(5) 25 25
+S Nd Ti 100.41(3) 25_455 25
+S Nd Ti 100.41(3) 25_545 25
+S Nd Ti 126.78(2) . 25
+O1 Nd Ti 93.18(8) 27_455 25_545
+O1 Nd Ti 35.12(2) 25 25_545
+O1 Nd Ti 35.12(2) 27_445 25_545
+O1 Nd Ti 93.18(8) 25_455 25_545
+S Nd Ti 100.41(3) 25_445 25_545
+S Nd Ti 100.41(3) 25 25_545
+S Nd Ti 160.78(5) 25_455 25_545
+S Nd Ti 54.34(5) 25_545 25_545
+S Nd Ti 126.78(2) . 25_545
+Ti Nd Ti 68.99(3) 25 25_545
+O1 Nd Ti 35.12(2) 27_455 25_455
+O1 Nd Ti 93.18(8) 25 25_455
+O1 Nd Ti 93.18(8) 27_445 25_455
+O1 Nd Ti 35.12(2) 25_455 25_455
+S Nd Ti 100.41(3) 25_445 25_455
+S Nd Ti 100.41(3) 25 25_455
+S Nd Ti 54.34(5) 25_455 25_455
+S Nd Ti 160.78(5) 25_545 25_455
+S Nd Ti 126.78(2) . 25_455
+Ti Nd Ti 68.99(3) 25 25_455
+Ti Nd Ti 106.44(5) 25_545 25_455
+O2 Ti O1 103.04(15) . .
+O2 Ti O1 103.04(15) . 3_655
+O1 Ti O1 87.08(7) . 3_655
+O2 Ti O1 103.04(15) . 3
+O1 Ti O1 87.08(7) . 3
+O1 Ti O1 153.9(3) 3_655 3
+O2 Ti O1 103.04(15) . 1_545
+O1 Ti O1 153.9(3) . 1_545
+O1 Ti O1 87.08(7) 3_655 1_545
+O1 Ti O1 87.08(7) 3 1_545
+O2 Ti S 180.0 . .
+O1 Ti S 76.96(15) . .
+O1 Ti S 76.96(15) 3_655 .
+O1 Ti S 76.96(15) 3 .
+O1 Ti S 76.96(15) 1_545 .
+O2 Ti Nd 126.78(2) . 25
+O1 Ti Nd 46.62(9) . 25
+O1 Ti Nd 46.62(9) 3_655 25
+O1 Ti Nd 114.62(12) 3 25
+O1 Ti Nd 114.62(12) 1_545 25
+S Ti Nd 53.22(2) . 25
+O2 Ti Nd 126.78(2) . 25_455
+O1 Ti Nd 46.62(9) . 25_455
+O1 Ti Nd 114.62(12) 3_655 25_455
+O1 Ti Nd 46.62(9) 3 25_455
+O1 Ti Nd 114.62(12) 1_545 25_455
+S Ti Nd 53.22(2) . 25_455
+Nd Ti Nd 68.99(3) 25 25_455
+O2 Ti Nd 126.78(2) . 25_545
+O1 Ti Nd 114.62(12) . 25_545
+O1 Ti Nd 46.62(9) 3_655 25_545
+O1 Ti Nd 114.62(12) 3 25_545
+O1 Ti Nd 46.62(9) 1_545 25_545
+S Ti Nd 53.22(2) . 25_545
+Nd Ti Nd 68.99(3) 25 25_545
+Nd Ti Nd 106.44(5) 25_455 25_545
+O2 Ti Nd 126.78(2) . 25_445
+O1 Ti Nd 114.62(12) . 25_445
+O1 Ti Nd 114.62(12) 3_655 25_445
+O1 Ti Nd 46.62(9) 3 25_445
+O1 Ti Nd 46.62(9) 1_545 25_445
+S Ti Nd 53.22(2) . 25_445
+Nd Ti Nd 106.44(5) 25 25_445
+Nd Ti Nd 68.99(3) 25_455 25_445
+Nd Ti Nd 68.99(3) 25_545 25_445
+Nd S Nd 144.88(9) 25_445 25
+Nd S Nd 84.78(3) 25_445 25_455
+Nd S Nd 84.78(3) 25 25_455
+Nd S Nd 84.78(3) 25_445 25_545
+Nd S Nd 84.78(3) 25 25_545
+Nd S Nd 144.88(9) 25_455 25_545
+Nd S Ti 72.44(4) 25_445 .
+Nd S Ti 72.44(4) 25 .
+Nd S Ti 72.44(4) 25_455 .
+Nd S Ti 72.44(4) 25_545 .
+Nd S Nd 107.56(4) 25_445 .
+Nd S Nd 107.56(4) 25 .
+Nd S Nd 107.56(4) 25_455 .
+Nd S Nd 107.56(4) 25_545 .
+Ti S Nd 180.0 . .
+Ti O1 Ti 153.9(3) . 1_565
+Ti O1 Nd 98.26(8) . 25
+Ti O1 Nd 98.26(8) 1_565 25
+Ti O1 Nd 98.26(8) . 25_455
+Ti O1 Nd 98.26(8) 1_565 25_455
+Nd O1 Nd 100.9(2) 25 25_455
+Ti O2 Ti 180.0 17 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Nd O1 2.496(3) 27_455
+Nd O1 2.496(3) 25
+Nd O1 2.496(3) 27_445
+Nd O1 2.496(3) 25_455
+Nd S 2.8546(10) 25_445
+Nd S 2.8546(10) 25
+Nd S 2.8546(10) 25_455
+Nd S 2.8546(10) 25_545
+Nd S 3.022(2) .
+Nd Ti 3.3981(12) 25
+Nd Ti 3.3981(12) 25_545
+Nd Ti 3.3981(12) 25_455
+Ti O2 1.790(2) .
+Ti O1 1.9755(13) .
+Ti O1 1.9755(13) 3_655
+Ti O1 1.9755(13) 3
+Ti O1 1.9755(13) 1_545
+Ti S 2.896(3) .
+Ti Nd 3.3981(12) 25
+Ti Nd 3.3981(12) 25_455
+Ti Nd 3.3981(12) 25_545
+Ti Nd 3.3981(12) 25_445
+S Nd 2.8546(10) 25_445
+S Nd 2.8546(10) 25
+S Nd 2.8546(10) 25_455
+S Nd 2.8546(10) 25_545
+O1 Ti 1.9755(13) 1_565
+O1 Nd 2.496(3) 25
+O1 Nd 2.496(3) 25_455
+O2 Ti 1.790(2) 17

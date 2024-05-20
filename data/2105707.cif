@@ -1,0 +1,185 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/57/2105707.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105707
+loop_
+_publ_author_name
+'Wolf, Alexandra K.'
+'Glinnemann, J\"urgen'
+'Schmidt, Martin U.'
+'Tong, Jianwei'
+'Dinnebier, Robert E.'
+'Simon, Arndt'
+'K\"ohler, J\"urgen'
+_publ_section_title
+;
+ SiBr4-- prediction and determination of crystal structures
+;
+_journal_coeditor_code           BK5083
+_journal_issue                   3
+_journal_name_full
+'Acta Crystallographica Section B Structural Science'
+_journal_page_first              342
+_journal_page_last               349
+_journal_paper_doi               10.1107/S0108768109012051
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_moiety         'Br4 Si'
+_chemical_formula_sum            'Br4 Si'
+_chemical_formula_weight         347.69
+_chemical_melting_point          245
+_chemical_name_common            'Silicon bromide'
+_chemical_name_systematic
+;
+Silicontetrabromide
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           TOPAS
+_cell_angle_alpha                90
+_cell_angle_beta                 102.665(2)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.1319(4)
+_cell_length_b                   6.7002(2)
+_cell_length_c                   10.2389(3)
+_cell_measurement_temperature    147
+_cell_volume                     678.16(4)
+_diffrn_ambient_temperature      293
+_diffrn_detector
+;
+   image plate
+;
+_diffrn_detector_type            'MAR 345'
+_diffrn_radiation_monochromator  'silicon double monochromator'
+_diffrn_radiation_polarisn_ratio 100
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.92103
+_diffrn_source_type              Synchrotron
+_exptl_absorpt_process_details
+;   
+ ?
+;
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    3.406
+_exptl_crystal_description
+;
+microcrystalline powder
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location
+;
+'beamline X7B, NSLS,Brookhaven National Laboratory,Brookhaven, USA'
+;
+_pd_meas_2theta_range_inc        0.02
+_pd_meas_2theta_range_max        38.0
+_pd_meas_2theta_range_min        0.0
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.02
+_pd_proc_2theta_range_max        36.0
+_pd_proc_2theta_range_min        4.0
+_pd_proc_info_excluded_regions
+;
+ 0 to 4 and 36 to 38 degrees unreliable due to beam dump
+;
+_pd_proc_ls_background_function
+;   
+'Chebyshev polynomial'
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ Fundamental parameters
+;
+_pd_proc_ls_prof_R_factor        0.01294
+_pd_proc_ls_prof_wR_expected     0.01939
+_pd_proc_ls_prof_wR_factor       0.02293
+_pd_spec_mounting
+;
+'0.3 mm glass capillary'
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_number_parameters     49
+_refine_ls_R_Fsqd_factor         0.02541
+_cod_data_source_file            bk5083sup1.cif
+_cod_data_source_block           beta-SiBr4
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2105707
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+'x, -y+1/2, z+1/2'
+'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Si1 Si+4 4 0.2458(4) 0.5798(10) 0.6408(3) 1 3.17(14)
+Br1 Br-1 4 0.1915873 0.8863839 0.5830286 1 3.17(14)
+Br2 Br-1 4 0.2944996 0.4211929 0.4722092 1 3.17(14)
+Br3 Br-1 4 0.0764490 0.4339426 0.7003620 1 3.17(14)
+Br4 Br-1 4 0.4205041 0.5777609 0.8077202 1 3.17(14)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Si Si 0.0817 0.0704 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Br1 Si1 Br2 109.47 yes
+Br1 Si1 Br3 109.47 yes
+Br1 Si1 Br4 109.47 yes
+Br2 Si1 Br3 109.47 yes
+Br2 Si1 Br4 109.47 yes
+Br3 Si1 Br4 109.47 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Si1 Br1 2.175(3) yes
+Si1 Br2 2.175(3) yes
+Si1 Br3 2.175(3) yes
+Si1 Br4 2.175(3) yes

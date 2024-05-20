@@ -1,0 +1,451 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-04-29 10:24:49 +0300 (Thu, 29 Apr 2021) $
+#$Revision: 264682 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/56/22/1562238.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1562238
+loop_
+_publ_author_name
+'Pan, Ming-Yan'
+'Xia, Sheng-Qing'
+'Liu, Xiao-Cun'
+'Tao, Xu-Tang'
+_publ_section_title
+;
+ Ba3GeS5 and Ba3InS4Cl: Interesting size effects originated from the
+ tetrahedral anions
+;
+_journal_name_full               'Journal of Solid State Chemistry'
+_journal_page_first              74
+_journal_page_last               79
+_journal_paper_doi               10.1016/j.jssc.2014.07.009
+_journal_volume                  219
+_journal_year                    2014
+_chemical_formula_sum            'Ba3 Cl In S4'
+_chemical_formula_weight         690.53
+_space_group_IT_number           140
+_space_group_name_Hall           '-I 4 2c'
+_space_group_name_H-M_alt        'I 4/m c m'
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_H-M   'I 4/m c m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   8.3613(6)
+_cell_length_b                   8.3613(6)
+_cell_length_c                   14.3806(18)
+_cell_measurement_reflns_used    895
+_cell_measurement_temperature    296(2)
+_cell_measurement_theta_max      24.28
+_cell_measurement_theta_min      3.45
+_cell_volume                     1005.37(16)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      296(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0636
+_diffrn_reflns_av_sigmaI/netI    0.0220
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            5616
+_diffrn_reflns_theta_full        27.53
+_diffrn_reflns_theta_max         27.53
+_diffrn_reflns_theta_min         2.83
+_exptl_absorpt_coefficient_mu    14.875
+_exptl_absorpt_correction_T_max  0.7552
+_exptl_absorpt_correction_T_min  0.6639
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   shelxtl
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    4.562
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1192
+_exptl_crystal_size_max          0.03
+_exptl_crystal_size_mid          0.02
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         0.927
+_refine_diff_density_min         -0.814
+_refine_diff_density_rms         0.197
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.077
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     17
+_refine_ls_number_reflns         338
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.077
+_refine_ls_R_factor_all          0.0272
+_refine_ls_R_factor_gt           0.0205
+_refine_ls_shift/su_max          0.051
+_refine_ls_shift/su_mean         0.010
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0200P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0403
+_refine_ls_wR_factor_ref         0.0421
+_reflns_number_gt                292
+_reflns_number_total             338
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            JSSC-2014-219-74.cif
+_cod_data_source_block           x2
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+data item '_symmetry_cell_setting' value 'Tetragonal' was changed to
+'tetragonal' in accordance with the built-in table derived from the
+CIF Core dictionary named 'cif_core.dic' version 2.4.5 last updated
+on 2014-11-21.
+
+Automatic conversion script
+Id: cif_fix_values 8369 2020-08-20 11:38:08Z andrius 
+;
+_cod_original_sg_symbol_H-M      I4/mcm
+_cod_database_code               1562238
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z+1/2'
+'x, -y, -z+1/2'
+'y, x, -z+1/2'
+'-y, -x, -z+1/2'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1'
+'x+1/2, -y+1/2, -z+1'
+'y+1/2, x+1/2, -z+1'
+'-y+1/2, -x+1/2, -z+1'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z-1/2'
+'-x, y, z-1/2'
+'-y, -x, z-1/2'
+'y, x, z-1/2'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Ba1 Ba 0.65435(4) 0.15435(4) 0.0000 0.01169(15) Uani 1 4 d S . .
+Ba2 Ba 0.0000 0.0000 0.2500 0.0205(2) Uani 1 8 d S . .
+In1 In 0.0000 0.5000 0.2500 0.0110(2) Uani 1 8 d S . .
+S1 S 0.15788(13) 0.65788(13) 0.14221(11) 0.0165(3) Uani 1 2 d S . .
+Cl1 Cl 0.0000 0.0000 0.0000 0.0218(8) Uani 1 8 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba1 0.01139(19) 0.01139(19) 0.0123(3) 0.000 0.000 -0.0012(2)
+Ba2 0.0203(3) 0.0203(3) 0.0209(5) 0.000 0.000 0.000
+In1 0.0126(3) 0.0126(3) 0.0077(4) 0.000 0.000 0.000
+S1 0.0182(5) 0.0182(5) 0.0130(8) 0.0030(4) 0.0030(4) -0.0045(8)
+Cl1 0.0123(10) 0.0123(10) 0.041(2) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+In In -0.7276 1.3100 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+S1 Ba1 S1 85.29(6) 2_665 17_665
+S1 Ba1 Cl1 74.762(11) 2_665 13_554
+S1 Ba1 Cl1 74.762(11) 17_665 13_554
+S1 Ba1 Cl1 74.762(11) 2_665 1_655
+S1 Ba1 Cl1 74.762(11) 17_665 1_655
+Cl1 Ba1 Cl1 138.127(17) 13_554 1_655
+S1 Ba1 S1 145.34(2) 2_665 19
+S1 Ba1 S1 89.26(4) 17_665 19
+Cl1 Ba1 S1 136.25(3) 13_554 19
+Cl1 Ba1 S1 70.79(2) 1_655 19
+S1 Ba1 S1 145.34(2) 2_665 20_655
+S1 Ba1 S1 89.26(4) 17_665 20_655
+Cl1 Ba1 S1 70.79(2) 13_554 20_655
+Cl1 Ba1 S1 136.25(3) 1_655 20_655
+S1 Ba1 S1 68.52(5) 19 20_655
+S1 Ba1 S1 89.26(4) 2_665 4
+S1 Ba1 S1 145.34(2) 17_665 4
+Cl1 Ba1 S1 136.25(3) 13_554 4
+Cl1 Ba1 S1 70.79(2) 1_655 4
+S1 Ba1 S1 76.14(5) 19 4
+S1 Ba1 S1 113.22(3) 20_655 4
+S1 Ba1 S1 89.26(4) 2_665 3_655
+S1 Ba1 S1 145.34(2) 17_665 3_655
+Cl1 Ba1 S1 70.79(2) 13_554 3_655
+Cl1 Ba1 S1 136.25(3) 1_655 3_655
+S1 Ba1 S1 113.22(3) 19 3_655
+S1 Ba1 S1 76.14(5) 20_655 3_655
+S1 Ba1 S1 68.52(5) 4 3_655
+S1 Ba1 Ba1 137.35(3) 2_665 17_655
+S1 Ba1 Ba1 137.35(3) 17_665 17_655
+Cl1 Ba1 Ba1 110.936(8) 13_554 17_655
+Cl1 Ba1 Ba1 110.936(8) 1_655 17_655
+S1 Ba1 Ba1 56.610(17) 19 17_655
+S1 Ba1 Ba1 56.610(17) 20_655 17_655
+S1 Ba1 Ba1 56.610(17) 4 17_655
+S1 Ba1 Ba1 56.610(17) 3_655 17_655
+S1 Ba1 In1 159.56(3) 2_665 9_544
+S1 Ba1 In1 74.27(3) 17_665 9_544
+Cl1 Ba1 In1 99.309(2) 13_554 9_544
+Cl1 Ba1 In1 99.309(2) 1_655 9_544
+S1 Ba1 In1 36.97(3) 19 9_544
+S1 Ba1 In1 36.97(3) 20_655 9_544
+S1 Ba1 In1 107.50(2) 4 9_544
+S1 Ba1 In1 107.50(2) 3_655 9_544
+Ba1 Ba1 In1 63.084(7) 17_655 9_544
+S1 Ba1 In1 74.27(3) 2_665 25
+S1 Ba1 In1 159.56(3) 17_665 25
+Cl1 Ba1 In1 99.309(2) 13_554 25
+Cl1 Ba1 In1 99.309(2) 1_655 25
+S1 Ba1 In1 107.50(2) 19 25
+S1 Ba1 In1 107.50(2) 20_655 25
+S1 Ba1 In1 36.97(3) 4 25
+S1 Ba1 In1 36.97(3) 3_655 25
+Ba1 Ba1 In1 63.084(7) 17_655 25
+In1 Ba1 In1 126.169(14) 9_544 25
+S1 Ba1 Ba1 47.81(3) 2_665 3_655
+S1 Ba1 Ba1 47.81(3) 17_665 3_655
+Cl1 Ba1 Ba1 45.0 13_554 3_655
+Cl1 Ba1 Ba1 93.127(17) 1_655 3_655
+S1 Ba1 Ba1 137.06(2) 19 3_655
+S1 Ba1 Ba1 105.842(17) 20_655 3_655
+S1 Ba1 Ba1 137.06(2) 4 3_655
+S1 Ba1 Ba1 105.842(17) 3_655 3_655
+Ba1 Ba1 Ba1 155.936(8) 17_655 3_655
+In1 Ba1 Ba1 114.415(5) 9_544 3_655
+In1 Ba1 Ba1 114.415(5) 25 3_655
+S1 Ba2 S1 143.85(5) 4_455 27_455
+S1 Ba2 S1 135.83(5) 4_455 25
+S1 Ba2 S1 78.761(19) 27_455 25
+S1 Ba2 S1 127.60(5) 4_455 3_655
+S1 Ba2 S1 65.31(4) 27_455 3_655
+S1 Ba2 S1 70.88(5) 25 3_655
+S1 Ba2 S1 78.761(19) 4_455 1_545
+S1 Ba2 S1 135.83(5) 27_455 1_545
+S1 Ba2 S1 65.31(4) 25 1_545
+S1 Ba2 S1 78.761(19) 3_655 1_545
+S1 Ba2 S1 65.31(4) 4_455 28_545
+S1 Ba2 S1 127.60(5) 27_455 28_545
+S1 Ba2 S1 78.761(19) 25 28_545
+S1 Ba2 S1 143.85(5) 3_655 28_545
+S1 Ba2 S1 70.88(5) 1_545 28_545
+S1 Ba2 S1 70.88(5) 4_455 26_445
+S1 Ba2 S1 78.761(19) 27_455 26_445
+S1 Ba2 S1 127.60(5) 25 26_445
+S1 Ba2 S1 135.83(5) 3_655 26_445
+S1 Ba2 S1 143.85(5) 1_545 26_445
+S1 Ba2 S1 78.761(19) 28_545 26_445
+S1 Ba2 S1 78.761(19) 4_455 2_565
+S1 Ba2 S1 70.88(5) 27_455 2_565
+S1 Ba2 S1 143.85(5) 25 2_565
+S1 Ba2 S1 78.761(19) 3_655 2_565
+S1 Ba2 S1 127.60(5) 1_545 2_565
+S1 Ba2 S1 135.83(5) 28_545 2_565
+S1 Ba2 S1 65.31(4) 26_445 2_565
+S1 Ba2 Cl1 116.20(2) 4_455 5
+S1 Ba2 Cl1 63.80(2) 27_455 5
+S1 Ba2 Cl1 63.80(2) 25 5
+S1 Ba2 Cl1 116.20(2) 3_655 5
+S1 Ba2 Cl1 116.20(2) 1_545 5
+S1 Ba2 Cl1 63.80(2) 28_545 5
+S1 Ba2 Cl1 63.80(2) 26_445 5
+S1 Ba2 Cl1 116.20(2) 2_565 5
+S1 Ba2 Cl1 63.80(2) 4_455 .
+S1 Ba2 Cl1 116.20(2) 27_455 .
+S1 Ba2 Cl1 116.20(2) 25 .
+S1 Ba2 Cl1 63.80(2) 3_655 .
+S1 Ba2 Cl1 63.80(2) 1_545 .
+S1 Ba2 Cl1 116.20(2) 28_545 .
+S1 Ba2 Cl1 116.20(2) 26_445 .
+S1 Ba2 Cl1 63.80(2) 2_565 .
+Cl1 Ba2 Cl1 180.0 5 .
+S1 Ba2 Ba1 157.55(2) 4_455 11_545
+S1 Ba2 Ba1 38.95(2) 27_455 11_545
+S1 Ba2 Ba1 43.81(2) 25 11_545
+S1 Ba2 Ba1 74.84(2) 3_655 11_545
+S1 Ba2 Ba1 108.91(2) 1_545 11_545
+S1 Ba2 Ba1 96.60(2) 28_545 11_545
+S1 Ba2 Ba1 93.38(3) 26_445 11_545
+S1 Ba2 Ba1 109.80(3) 2_565 11_545
+Cl1 Ba2 Ba1 41.360(4) 5 11_545
+Cl1 Ba2 Ba1 138.640(4) . 11_545
+S1 Ba2 Ba1 38.95(2) 4_455 3_545
+S1 Ba2 Ba1 157.55(2) 27_455 3_545
+S1 Ba2 Ba1 108.91(2) 25 3_545
+S1 Ba2 Ba1 96.60(2) 3_655 3_545
+S1 Ba2 Ba1 43.81(2) 1_545 3_545
+S1 Ba2 Ba1 74.84(2) 28_545 3_545
+S1 Ba2 Ba1 109.80(3) 26_445 3_545
+S1 Ba2 Ba1 93.38(3) 2_565 3_545
+Cl1 Ba2 Ba1 138.640(4) 5 3_545
+Cl1 Ba2 Ba1 41.360(4) . 3_545
+Ba1 Ba2 Ba1 152.684(12) 11_545 3_545
+S1 In1 S1 100.59(8) 2_565 .
+S1 In1 S1 114.08(4) 2_565 28
+S1 In1 S1 114.08(4) . 28
+S1 In1 S1 114.08(4) 2_565 27_455
+S1 In1 S1 114.08(4) . 27_455
+S1 In1 S1 100.59(8) 28 27_455
+S1 In1 Ba1 156.62(4) 2_565 9_455
+S1 In1 Ba1 102.79(4) . 9_455
+S1 In1 Ba1 55.28(3) 28 9_455
+S1 In1 Ba1 55.28(3) 27_455 9_455
+S1 In1 Ba1 55.28(3) 2_565 3
+S1 In1 Ba1 55.28(3) . 3
+S1 In1 Ba1 102.79(4) 28 3
+S1 In1 Ba1 156.62(4) 27_455 3
+Ba1 In1 Ba1 142.663(9) 9_455 3
+S1 In1 Ba1 55.28(3) 2_565 19_565
+S1 In1 Ba1 55.28(3) . 19_565
+S1 In1 Ba1 156.62(4) 28 19_565
+S1 In1 Ba1 102.79(4) 27_455 19_565
+Ba1 In1 Ba1 142.663(9) 9_455 19_565
+Ba1 In1 Ba1 53.831(14) 3 19_565
+S1 In1 Ba1 102.79(4) 2_565 25
+S1 In1 Ba1 156.62(4) . 25
+S1 In1 Ba1 55.28(3) 28 25
+S1 In1 Ba1 55.28(3) 27_455 25
+Ba1 In1 Ba1 53.831(14) 9_455 25
+Ba1 In1 Ba1 142.663(9) 3 25
+Ba1 In1 Ba1 142.663(9) 19_565 25
+In1 S1 Ba1 177.06(7) . 17_665
+In1 S1 Ba1 87.76(4) . 19_565
+Ba1 S1 Ba1 89.79(4) 17_665 19_565
+In1 S1 Ba1 87.76(4) . 3
+Ba1 S1 Ba1 89.79(4) 17_665 3
+Ba1 S1 Ba1 66.78(3) 19_565 3
+In1 S1 Ba2 87.52(3) . 25
+Ba1 S1 Ba2 94.07(3) 17_665 25
+Ba1 S1 Ba2 89.056(11) 19_565 25
+Ba1 S1 Ba2 155.54(4) 3 25
+In1 S1 Ba2 87.52(3) . 1_565
+Ba1 S1 Ba2 94.07(3) 17_665 1_565
+Ba1 S1 Ba2 155.54(4) 19_565 1_565
+Ba1 S1 Ba2 89.056(11) 3 1_565
+Ba2 S1 Ba2 114.69(4) 25 1_565
+Ba1 Cl1 Ba1 180.000(5) 19_565 3_545
+Ba1 Cl1 Ba1 90.0 19_565 1_455
+Ba1 Cl1 Ba1 90.0 3_545 1_455
+Ba1 Cl1 Ba1 90.0 19_565 17_655
+Ba1 Cl1 Ba1 90.0 3_545 17_655
+Ba1 Cl1 Ba1 180.000(5) 1_455 17_655
+Ba1 Cl1 Ba2 90.0 19_565 17
+Ba1 Cl1 Ba2 90.0 3_545 17
+Ba1 Cl1 Ba2 90.0 1_455 17
+Ba1 Cl1 Ba2 90.0 17_655 17
+Ba1 Cl1 Ba2 90.0 19_565 .
+Ba1 Cl1 Ba2 90.0 3_545 .
+Ba1 Cl1 Ba2 90.0 1_455 .
+Ba1 Cl1 Ba2 90.0 17_655 .
+Ba2 Cl1 Ba2 180.0 17 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba1 S1 3.0186(16) 2_665
+Ba1 S1 3.0186(16) 17_665
+Ba1 Cl1 3.1651(3) 13_554
+Ba1 Cl1 3.1651(3) 1_655
+Ba1 S1 3.3164(14) 19
+Ba1 S1 3.3164(14) 20_655
+Ba1 S1 3.3164(14) 4
+Ba1 S1 3.3164(14) 3_655
+Ba1 Ba1 3.6503(10) 17_655
+Ba1 In1 4.0319(5) 9_544
+Ba1 In1 4.0319(5) 25
+Ba1 Ba1 4.4762(4) 3_655
+Ba2 S1 3.5112(9) 4_455
+Ba2 S1 3.5112(9) 27_455
+Ba2 S1 3.5112(9) 25
+Ba2 S1 3.5112(9) 3_655
+Ba2 S1 3.5112(9) 1_545
+Ba2 S1 3.5112(9) 28_545
+Ba2 S1 3.5112(9) 26_445
+Ba2 S1 3.5112(9) 2_565
+Ba2 Cl1 3.5951(5) 5
+Ba2 Cl1 3.5951(5) .
+Ba2 Ba1 4.7899(4) 11_545
+Ba2 Ba1 4.7899(4) 3_545
+In1 S1 2.4265(15) 2_565
+In1 S1 2.4265(15) .
+In1 S1 2.4265(15) 28
+In1 S1 2.4265(15) 27_455
+In1 Ba1 4.0319(5) 9_455
+In1 Ba1 4.0319(5) 3
+In1 Ba1 4.0319(5) 19_565
+In1 Ba1 4.0319(5) 25
+S1 Ba1 3.0186(16) 17_665
+S1 Ba1 3.3164(14) 19_565
+S1 Ba1 3.3164(14) 3
+S1 Ba2 3.5112(9) 25
+S1 Ba2 3.5112(9) 1_565
+Cl1 Ba1 3.1651(3) 19_565
+Cl1 Ba1 3.1651(3) 3_545
+Cl1 Ba1 3.1651(3) 1_455
+Cl1 Ba1 3.1651(3) 17_655
+Cl1 Ba2 3.5951(5) 17

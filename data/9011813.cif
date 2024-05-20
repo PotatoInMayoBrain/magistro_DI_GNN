@@ -1,0 +1,116 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/18/9011813.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011813
+loop_
+_publ_author_name
+'Krivovichev, S. V.'
+'Burns, P. C.'
+_publ_section_title
+;
+ Crystal chemistry of basic lead carbonates. III. Crystal structures of
+ Pb3O2(CO3) and NaPb2(OH)(CO3)2
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              1077
+_journal_page_last               1087
+_journal_paper_doi               10.1180/002646100549896
+_journal_volume                  64
+_journal_year                    2000
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     NaPb2(OH)(CO3)2
+_chemical_formula_sum            'C2 H Na O7 Pb2'
+_space_group_IT_number           186
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   5.276
+_cell_length_b                   5.276
+_cell_length_c                   13.474
+_cell_volume                     324.816
+_database_code_amcsd             0014553
+_exptl_crystal_density_diffrn    5.873
+_cod_original_cell_volume        324.815
+_cod_original_formula_sum        'Na Pb2 (O7 C2) H'
+_cod_database_code               9011813
+_amcsd_formula_title             NaPb2(OH)(CO3)2
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-x+y,1/2+z
+x-y,x,1/2+z
+-y,-x,z
+-y,x-y,z
+x-y,-y,1/2+z
+-x,-y,1/2+z
+x,x-y,z
+-x+y,-x,z
+y,x,1/2+z
+y,-x+y,1/2+z
+-x+y,y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.03100 0.03100 0.00000 0.01600 0.00000 0.00000
+Pb1 0.01900 0.01900 0.01800 0.01000 0.00000 0.00000
+Pb2 0.02300 0.02300 0.01100 0.01200 0.00000 0.00000
+OH3 0.06500 0.06500 0.01000 0.03200 0.00000 0.00000
+C1 0.02000 0.02000 0.00600 0.01000 0.00000 0.00000
+C2 0.01900 0.01900 0.01100 0.01000 0.00000 0.00000
+O1 0.00700 0.01800 0.03300 0.00400 0.00200 0.00100
+O2 0.01800 0.02300 0.03100 0.00900 -0.00500 -0.00200
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.33333 -0.33333 0.65030 0.02100 Na 0
+Pb1 0.66667 0.33333 0.81950 0.01800 Pb 0
+Pb2 0.33333 0.66667 0.98830 0.01900 Pb 0
+O-H3 0.66667 0.33333 0.65400 0.04600 O 1
+C1 0.00000 0.00000 0.78500 0.01500 C 0
+C2 0.00000 0.00000 0.02800 0.01600 C 0
+O1 0.71800 -0.14100 0.78560 0.02000 O 0
+O2 0.27700 0.13850 0.02640 0.02500 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:28+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014553

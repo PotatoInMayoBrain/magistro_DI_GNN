@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/92/9009252.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009252
+loop_
+_publ_author_name
+'Keller, P.'
+'Hess, H.'
+_publ_section_title
+;
+ Die kristallstruktur von arthurit, CuFe2[(H2O)4|(OH)2|(AsO4)2]
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Abhandlungen'
+_journal_page_first              291
+_journal_page_last               302
+_journal_volume                  133
+_journal_year                    1978
+_chemical_formula_sum            'As2 Cu Fe2 H10 O14'
+_chemical_name_mineral           Arthurite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.16
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   10.189
+_cell_length_b                   9.649
+_cell_length_c                   5.598
+_cell_volume                     549.969
+_database_code_amcsd             0014708
+_exptl_crystal_density_diffrn    3.377
+_cod_original_formula_sum        'Cu Fe2 As2 O14 H10'
+_cod_database_code               9009252
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu 0.00659 0.00963 0.01241 -0.00304 0.00317 -0.00266
+Fe 0.00570 0.00545 0.00532 0.00038 0.00038 0.00000
+As 0.00468 0.00633 0.00633 0.00038 0.00076 0.00013
+O1 0.00709 0.00963 0.00722 -0.00228 0.00228 -0.00101
+O2 0.01241 0.00697 0.00798 -0.00038 -0.00228 -0.00101
+O3 0.00696 0.01723 0.01305 0.00431 0.00190 0.00329
+O4 0.00823 0.00646 0.01153 0.00102 0.00013 -0.00063
+OH 0.01089 0.00861 0.00963 0.00177 0.00127 0.00342
+Wat1 0.01912 0.03141 0.02090 -0.00747 0.00063 -0.00342
+Wat2 0.01393 0.01710 0.03939 -0.00456 0.00291 -0.01229
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu 0.00000 0.00000 0.00000 0.00937 Cu 0
+Fe 0.45483 0.13574 0.34185 0.00545 Fe 0
+As 0.29597 0.42823 0.34200 0.00583 As 0
+O1 0.39760 0.48590 0.12430 0.00798 O 0
+O2 0.35540 0.48980 0.60820 0.00874 O 0
+O3 0.14640 0.49280 0.28070 0.01229 O 0
+O4 0.29460 0.25350 0.33220 0.00874 O 0
+O-H 0.54110 0.23300 0.07510 0.01026 O 1
+Wat1 0.13150 -0.11950 0.32680 0.02330 O 2
+Wat2 0.04860 0.17610 0.15490 0.02280 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:31+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014708

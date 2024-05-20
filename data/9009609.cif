@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/96/9009609.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009609
+loop_
+_publ_author_name
+'Mereiter, K.'
+_publ_section_title
+;
+ The crystal structure of walpurgite,(UO2)Bi4O4(AsO4)2*2H2O
+;
+_journal_name_full
+'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_page_first              129
+_journal_page_last               139
+_journal_volume                  30
+_journal_year                    1982
+_chemical_compound_source        'Schneeberg, Germany'
+_chemical_formula_sum            'As2 Bi4 H4 O16 U'
+_chemical_name_mineral           Walpurgite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                101.47
+_cell_angle_beta                 110.82
+_cell_angle_gamma                88.20
+_cell_formula_units_Z            1
+_cell_length_a                   7.135
+_cell_length_b                   10.426
+_cell_length_c                   5.494
+_cell_volume                     374.036
+_database_code_amcsd             0015687
+_exptl_crystal_density_diffrn    6.587
+_cod_original_formula_sum        'U Bi4 As2 O16 H4'
+_cod_database_code               9009609
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+U 0.01480 0.00760 0.01250 0.00130 0.00590 0.00110
+Bi1 0.01480 0.01310 0.01270 0.00140 0.00630 0.00390
+Bi2 0.01210 0.00880 0.01300 0.00150 0.00410 0.00140
+As 0.01770 0.01100 0.01780 0.00300 0.00830 0.00310
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+U 0.00000 0.00000 0.00000 ? U 0
+Bi1 0.21000 0.55881 0.94457 ? Bi 0
+Bi2 0.38368 0.34368 0.39357 ? Bi 0
+As -0.03590 0.24000 0.57450 ? As 0
+O1 0.25020 0.02500 0.23570 0.02786 O 0
+O2 0.12860 0.42140 0.12840 0.01140 O 0
+O3 0.49070 0.50020 0.73830 0.01267 O 0
+O4 0.12550 0.36270 0.60430 0.02026 O 0
+O5 -0.23590 0.29800 0.64660 0.01773 O 0
+O6 -0.10940 0.16480 0.25170 0.02153 O 0
+O7 0.08650 0.13660 0.77650 0.02153 O 0
+Wat8 0.51340 0.78470 0.06500 0.04433 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:01+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015687

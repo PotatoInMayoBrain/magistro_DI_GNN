@@ -1,0 +1,207 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-13 09:35:08 +0200 (Mon, 13 Mar 2023) $
+#$Revision: 281832 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/04/2000404.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2000404
+loop_
+_publ_author_name
+'\<Z\'ak, Z.'
+'R\%u\<zi\<cka, A.'
+_publ_section_title
+;
+ Structure of potassium amidoselenate K^+^.SeO~3~NH~2~^{-^}
+;
+_journal_issue                   12
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2254
+_journal_page_last               2255
+_journal_paper_doi               10.1107/S0108270192007844
+_journal_volume                  48
+_journal_year                    1992
+_chemical_formula_moiety         'K1 Se1 O3 N1 H2'
+_chemical_formula_sum            'H2 K N O3 Se'
+_chemical_formula_weight         182.1
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           'XTL (Syntex, 1971)'
+_cell_angle_alpha                90.
+_cell_angle_beta                 96.65(2)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   8.075(2)
+_cell_length_b                   7.3060(10)
+_cell_length_c                   7.533(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    298
+_cell_measurement_theta_max      14.6
+_cell_measurement_theta_min      8.25
+_cell_volume                     441.43(17)
+_diffrn_measurement_device       'KUMA KM-4'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.025
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -14
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            3042
+_diffrn_reflns_theta_max         40
+_diffrn_standards_decay_%        '5, 3'
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    9.23
+_exptl_absorpt_correction_T_max  0.117
+_exptl_absorpt_correction_T_min  0.071
+_exptl_absorpt_correction_type   sphere
+_exptl_crystal_colour            Colourless
+_exptl_crystal_density_diffrn    2.740
+_exptl_crystal_density_meas      2.706
+_exptl_crystal_description       'Regular prisms'
+_exptl_crystal_size_rad          0.22
+_refine_diff_density_max         2.1
+_refine_diff_density_min         -0.8
+_refine_ls_goodness_of_fit_obs   1.30
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     55
+_refine_ls_number_reflns         1960
+_refine_ls_R_factor_all          0.065
+_refine_ls_R_factor_obs          0.035
+_refine_ls_shift/esd_max         0.02
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = [\s^2^ + (0.04|F~o~|)^2^]^-1^'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.064
+_refine_ls_wR_factor_obs         0.059
+_reflns_number_observed          1960
+_reflns_number_total             2719
+_reflns_observed_criterion       |F~o~|>3.92\s(F~o~)
+_cod_data_source_file            ka1009.cif
+_cod_data_source_block           ka1009_structure_1_of_1
+
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+
+1 'cif_fix_values 3143 2015-03-26 13:38:13Z robertas' 2015-04-02T14:22:18+03:00
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '[\s^2^ + (0.04|F~o~|)^2^]^-1^'
+was changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = [\s^2^ +
+(0.04|F~o~|)^2^]^-1^'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+
+2 'Steef Boerrigter' 2023-02-22T10:07:00+02:00
+;Added missing inversion operator to space group operators
+;
+
+3 'Saulius Gra\<zulis' 2023-02-23T11:26:00+02:00
+;Converting _cod_depositor_comments to the _cod_changelog_entry_... loop.
+Adding the _cod_entry_issue_... loop.
+;
+
+4 'Saulius Gra\<zulis' 2023-02-23T17:44:34+02:00
+;\
+Correcting diacritics in the author name, after consulting the CrossRef:
+
+saulius@tasmanijos-velnias cifs/ $ \
+curl \
+--location \
+--silent \
+--header "Accept: text/bibliography; style=bibtex" \
+--user-agent "curl; ${USER}@$(hostname -f)" \
+"https://doi.org/10.1107/S0108270192007844" \
+| utf8-to-cif | tr ',' '\n' | grep -E "author| and "
+ author={\<Z\'ak
+ Z. and R\%u\<zi\<cka
+;
+
+5 'Saulius Gra\<zulis' 2023-02-23T19:36:09+02:00
+;Changing the '..._site_symmetry_...' data item values to
+question marks, indicating that they are not know. This is
+necessary since the symmetry operators have been updated
+and we do not know what operators were meant by the original
+CIF
+;
+
+6 'Saulius Gra\<zulis' 2023-02-23T19:30:31+02:00
+;Changing atom names "O(3^i^)" and "O(3^ii^)" to the "O(3)" name
+which is required by CIF category key constraints. The exact
+symmetry operators that were used to produce these atoms
+will need to be reestablished using the new symmetry operator
+list and entered as '_geom_bond_site_symmetry_2' values.
+
+Correcting also the "O)1)" site label (-> "O(1)") for
+'_geom_angle_atom_site_label_1'.
+;
+
+7 'Saulius Gra\<zulis' 2023-02-23T20:22:54+02:00
+;Distributing values of R-factors to the corresponding data items:
+_refine_ls_R_factor_all, _refine_ls_R_factor_obs, _refine_ls_wR_factor_all
+and _refine_ls_wR_factor_obs.
+;
+
+_cod_original_cell_volume        441.40(10)
+_cod_original_formula_sum        'H2 K1 N1 O3 Se1'
+_cod_database_code               2000404
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+K .35300(10) -.37510(10) .11450(10)
+Se .25081(3) .10687(3) .09533(3)
+O(1) .2736(4) -.0396(3) .2593(3)
+O(2) .4106(3) .2415(3) .0967(3)
+O(3) .2050(3) -.0020(3) -.0935(3)
+N .0762(3) .2566(3) .1060(4)
+H(1) -.0203 .1887 .1251
+H(2) .0938 .3125 .2188
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+O(1) Se O(2) 112.00(10)
+O(1) Se O(3) 109.60(10)
+O(1) Se N 112.80(10)
+O(2) Se O(3) 113.60(10)
+O(2) Se N 105.00(10)
+O(3) Se N 103.70(10)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+Se O(1) ? 1.628(2)
+Se O(2) ? 1.620(2)
+Se O(3) ? 1.634(2)
+Se N ? 1.793(3)
+H(1) O(3) ? 2.014(2)
+H(2) O(3) ? 2.105(2)

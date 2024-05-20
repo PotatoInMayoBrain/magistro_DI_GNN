@@ -1,0 +1,496 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 17:03:29 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178766 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/20/4102047.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4102047
+loop_
+_publ_author_name
+'Tarun K. Bera'
+'Joon I. Jang'
+'Jung-Hwan Song'
+'Christos D. Malliakas'
+'Arthur J. Freeman'
+'John B. Ketterson'
+'Mercouri G. Kanatzidis'
+_publ_section_title
+;
+ Soluble Semiconductors AAsSe2 (A = Li, Na) with a Direct-Band-Gap and
+ Strong Second Harmonic Generation: A Combined Experimental and
+ Theoretical Study
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              3484
+_journal_page_last               3495
+_journal_paper_doi               10.1021/ja9094846
+_journal_volume                  132
+_journal_year                    2010
+_chemical_formula_sum            'As Na Se2'
+_chemical_formula_weight         255.83
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           7
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P -2yc'
+_symmetry_space_group_name_H-M   'P 1 c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.446(13)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   11.682(2)
+_cell_length_b                   5.9021(7)
+_cell_length_c                   11.8231(19)
+_cell_measurement_reflns_used    5842
+_cell_measurement_temperature    100
+_cell_measurement_theta_max      29.18
+_cell_measurement_theta_min      3.45
+_cell_volume                     815.2(2)
+_computing_cell_refinement       X-area
+_computing_data_collection       X-area
+_computing_data_reduction        X-area
+_computing_molecular_graphics    Diamond
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      100
+_diffrn_measured_fraction_theta_full 0.951
+_diffrn_measured_fraction_theta_max 0.951
+_diffrn_measurement_device_type  IPDS2
+_diffrn_measurement_method       'profile data from \w scan'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0633
+_diffrn_reflns_av_sigmaI/netI    0.0578
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       8
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            5842
+_diffrn_reflns_theta_full        29.18
+_diffrn_reflns_theta_max         29.18
+_diffrn_reflns_theta_min         3.45
+_exptl_absorpt_coefficient_mu    26.062
+_exptl_absorpt_correction_T_max  0.7028
+_exptl_absorpt_correction_T_min  0.0435
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   XRED32
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    4.169
+_exptl_crystal_density_meas      4.169
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             896
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.06
+_refine_diff_density_max         2.099
+_refine_diff_density_min         -1.874
+_refine_diff_density_rms         0.400
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   -0.04(6)
+_refine_ls_extinction_coef       0.0010(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.130
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     148
+_refine_ls_number_reflns         3339
+_refine_ls_number_restraints     2
+_refine_ls_restrained_S_all      1.130
+_refine_ls_R_factor_all          0.0653
+_refine_ls_R_factor_gt           0.0501
+_refine_ls_shift/su_max          2.980
+_refine_ls_shift/su_mean         0.020
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0611P)^2^+22.8782P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1169
+_refine_ls_wR_factor_ref         0.1363
+_reflns_number_gt                2898
+_reflns_number_total             3339
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja9094846_si_002_3.cif
+_cod_data_source_block           gamma-NaAsSe2
+_cod_database_code               4102047
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'x, -y, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+As1 As 0.75061(17) 0.9318(3) 0.77532(16) 0.0079(4) Uani 1 1 d . . .
+As2 As 0.00096(18) 0.9061(4) 0.00075(16) 0.0084(4) Uani 1 1 d . . .
+As3 As 0.25091(19) 0.5456(4) 0.96370(16) 0.0087(4) Uani 1 1 d . . .
+As4 As 0.49911(17) 0.9925(3) 0.94717(16) 0.0083(4) Uani 1 1 d . . .
+Se1 Se 0.96345(16) 0.9751(3) 0.80035(16) 0.0094(4) Uani 1 1 d . . .
+Se2 Se 0.22920(18) 0.5188(4) 0.76736(16) 0.0088(4) Uani 1 1 d . . .
+Se3 Se 0.46390(18) 0.5926(3) 0.98581(16) 0.0088(4) Uani 1 1 d . . .
+Se4 Se 0.49110(18) 0.9908(4) 0.25109(17) 0.0101(4) Uani 1 1 d . . .
+Se5 Se 0.70888(18) 0.9771(3) 0.97706(15) 0.0092(4) Uani 1 1 d . . .
+Se6 Se 0.21154(17) 0.9498(4) 0.99515(16) 0.0085(4) Uani 1 1 d . . .
+Se7 Se 0.99053(19) 0.4861(4) 0.51628(16) 0.0099(4) Uani 1 1 d . . .
+Se8 Se 0.73120(18) 0.5389(3) 0.75419(16) 0.0083(4) Uani 1 1 d . . .
+Na1 Na 0.9823(8) 0.4747(15) 0.7651(7) 0.0114(16) Uani 1 1 d . . .
+Na2 Na 0.2378(8) 0.9811(17) 0.2442(8) 0.018(3) Uani 1.00(4) 1 d . . .
+Na3 Na 0.4791(7) 0.5091(14) 0.7350(7) 0.0102(17) Uani 1 1 d . . .
+Na4 Na 0.7419(7) 0.5276(15) 0.5051(7) 0.0100(17) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+As1 0.0075(9) 0.0093(8) 0.0068(8) 0.0005(7) 0.0008(7) 0.0011(8)
+As2 0.0081(8) 0.0098(9) 0.0074(8) -0.0008(8) 0.0018(7) 0.0014(8)
+As3 0.0119(9) 0.0070(9) 0.0073(8) -0.0005(6) 0.0013(7) -0.0012(7)
+As4 0.0092(9) 0.0075(9) 0.0083(8) -0.0002(7) 0.0021(7) -0.0006(7)
+Se1 0.0100(9) 0.0091(9) 0.0090(8) 0.0005(7) 0.0004(7) -0.0010(8)
+Se2 0.0097(8) 0.0089(9) 0.0077(8) -0.0015(8) 0.0012(6) 0.0015(8)
+Se3 0.0106(9) 0.0086(9) 0.0074(7) 0.0000(7) 0.0002(6) -0.0002(8)
+Se4 0.0109(9) 0.0100(9) 0.0095(8) -0.0003(8) 0.0007(7) -0.0010(8)
+Se5 0.0109(9) 0.0100(9) 0.0068(8) -0.0005(7) 0.0007(7) -0.0007(8)
+Se6 0.0102(9) 0.0084(10) 0.0067(8) -0.0002(6) 0.0009(7) -0.0001(7)
+Se7 0.0117(9) 0.0110(9) 0.0071(8) 0.0006(7) 0.0032(7) 0.0029(9)
+Se8 0.0096(9) 0.0075(9) 0.0079(9) -0.0014(6) 0.0008(7) -0.0013(8)
+Na1 0.015(4) 0.014(4) 0.005(3) 0.001(3) -0.004(3) -0.003(4)
+Na2 0.017(5) 0.016(5) 0.021(5) -0.009(4) -0.005(4) -0.004(4)
+Na3 0.014(4) 0.008(3) 0.009(4) 0.001(3) 0.000(3) 0.005(3)
+Na4 0.009(4) 0.008(4) 0.012(4) 0.003(3) 0.003(3) 0.005(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Na Na 0.0362 0.0249 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+As As 0.0499 2.0058 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se8 As1 Se5 101.05(10) . . ?
+Se8 As1 Se1 102.00(10) . . ?
+Se5 As1 Se1 94.49(9) . . ?
+Se7 As2 Se1 103.51(11) 2_464 1_454 ?
+Se7 As2 Se6 99.12(11) 2_464 1_554 ?
+Se1 As2 Se6 97.33(9) 1_454 1_554 ?
+Se2 As3 Se6 101.36(10) . . ?
+Se2 As3 Se3 102.13(10) . . ?
+Se6 As3 Se3 93.64(10) . . ?
+Se4 As4 Se3 102.87(10) 2_575 . ?
+Se4 As4 Se5 100.16(9) 2_575 . ?
+Se3 As4 Se5 96.08(10) . . ?
+As2 Se1 As1 105.50(10) 1_656 . ?
+As2 Se1 Na1 106.69(18) 1_656 1_565 ?
+As1 Se1 Na1 99.08(19) . 1_565 ?
+As2 Se1 Na1 87.57(17) 1_656 . ?
+As1 Se1 Na1 87.55(19) . . ?
+Na1 Se1 Na1 161.8(3) 1_565 . ?
+As2 Se1 Na2 92.37(18) 1_656 2_675 ?
+As1 Se1 Na2 161.54(19) . 2_675 ?
+Na1 Se1 Na2 79.7(2) 1_565 2_675 ?
+Na1 Se1 Na2 88.7(3) . 2_675 ?
+As3 Se2 Na1 96.63(18) . 1_455 ?
+As3 Se2 Na3 91.73(17) . . ?
+Na1 Se2 Na3 169.9(2) 1_455 . ?
+As3 Se2 Na2 99.0(2) . 2_565 ?
+Na1 Se2 Na2 86.8(3) 1_455 2_565 ?
+Na3 Se2 Na2 86.2(2) . 2_565 ?
+As3 Se2 Na2 91.2(2) . 2_575 ?
+Na1 Se2 Na2 97.1(3) 1_455 2_575 ?
+Na3 Se2 Na2 88.5(2) . 2_575 ?
+Na2 Se2 Na2 168.7(4) 2_565 2_575 ?
+As4 Se3 As3 104.79(10) . . ?
+As4 Se3 Na3 111.55(17) . 2_565 ?
+As3 Se3 Na3 97.51(18) . 2_565 ?
+As4 Se3 Na3 87.85(17) . . ?
+As3 Se3 Na3 86.89(18) . . ?
+Na3 Se3 Na3 158.00(12) 2_565 . ?
+As4 Se3 Na4 93.04(18) . 2_565 ?
+As3 Se3 Na4 161.28(19) . 2_565 ?
+Na3 Se3 Na4 80.8(2) 2_565 2_565 ?
+Na3 Se3 Na4 88.1(2) . 2_565 ?
+As4 Se4 Na3 96.21(19) 2_574 2_564 ?
+As4 Se4 Na2 93.5(2) 2_574 . ?
+Na3 Se4 Na2 86.1(3) 2_564 . ?
+As4 Se4 Na3 91.32(17) 2_574 2_574 ?
+Na3 Se4 Na3 170.9(3) 2_564 2_574 ?
+Na2 Se4 Na3 88.3(3) . 2_574 ?
+As1 Se5 As4 93.97(9) . . ?
+As1 Se5 Na4 100.91(18) . 2_575 ?
+As4 Se5 Na4 96.16(18) . 2_575 ?
+As1 Se5 Na4 88.46(17) . 2_565 ?
+As4 Se5 Na4 100.20(18) . 2_565 ?
+Na4 Se5 Na4 160.5(3) 2_575 2_565 ?
+As3 Se6 As2 95.17(10) . 1_556 ?
+As3 Se6 Na2 101.1(2) . 1_556 ?
+As2 Se6 Na2 94.3(2) 1_556 1_556 ?
+As3 Se6 Na2 87.81(19) . 2_575 ?
+As2 Se6 Na2 98.6(2) 1_556 2_575 ?
+Na2 Se6 Na2 163.6(3) 1_556 2_575 ?
+As2 Se7 Na4 97.6(2) 2_665 . ?
+As2 Se7 Na1 93.34(18) 2_665 . ?
+Na4 Se7 Na1 90.4(2) . . ?
+As2 Se7 Na1 89.99(19) 2_665 2_564 ?
+Na4 Se7 Na1 85.6(2) . 2_564 ?
+Na1 Se7 Na1 175.1(3) . 2_564 ?
+As1 Se8 Na4 97.1(2) . . ?
+As1 Se8 Na3 99.36(18) . . ?
+Na4 Se8 Na3 88.4(2) . . ?
+As1 Se8 Na1 91.54(19) . . ?
+Na4 Se8 Na1 89.5(2) . . ?
+Na3 Se8 Na1 169.1(2) . . ?
+As1 Se8 Na4 91.20(18) . 2_565 ?
+Na4 Se8 Na4 169.95(16) . 2_565 ?
+Na3 Se8 Na4 95.8(2) . 2_565 ?
+Na1 Se8 Na4 84.6(2) . 2_565 ?
+Se2 Na1 Se7 88.1(2) 1_655 . ?
+Se2 Na1 Se8 167.3(3) 1_655 . ?
+Se7 Na1 Se8 89.6(2) . . ?
+Se2 Na1 Se7 87.7(2) 1_655 2_565 ?
+Se7 Na1 Se7 173.1(3) . 2_565 ?
+Se8 Na1 Se7 93.3(3) . 2_565 ?
+Se2 Na1 Se1 99.3(3) 1_655 1_545 ?
+Se7 Na1 Se1 99.5(3) . 1_545 ?
+Se8 Na1 Se1 93.3(2) . 1_545 ?
+Se7 Na1 Se1 86.5(2) 2_565 1_545 ?
+Se2 Na1 Se1 89.1(2) 1_655 . ?
+Se7 Na1 Se1 96.9(2) . . ?
+Se8 Na1 Se1 78.8(2) . . ?
+Se7 Na1 Se1 77.7(2) 2_565 . ?
+Se1 Na1 Se1 161.8(3) 1_545 . ?
+Se2 Na1 Na4 134.2(3) 1_655 2_565 ?
+Se7 Na1 Na4 137.4(3) . 2_565 ?
+Se8 Na1 Na4 48.05(18) . 2_565 ?
+Se7 Na1 Na4 46.53(18) 2_565 2_565 ?
+Se1 Na1 Na4 81.1(2) 1_545 2_565 ?
+Se1 Na1 Na4 81.5(3) . 2_565 ?
+Se2 Na1 Na2 47.3(2) 1_655 2_665 ?
+Se7 Na1 Na2 85.6(2) . 2_665 ?
+Se8 Na1 Na2 144.8(3) . 2_665 ?
+Se7 Na1 Na2 95.5(3) 2_565 2_665 ?
+Se1 Na1 Na2 53.5(2) 1_545 2_665 ?
+Se1 Na1 Na2 136.4(3) . 2_665 ?
+Na4 Na1 Na2 124.4(3) 2_565 2_665 ?
+Se2 Na1 Na4 131.8(2) 1_655 . ?
+Se7 Na1 Na4 44.53(17) . . ?
+Se8 Na1 Na4 45.15(16) . . ?
+Se7 Na1 Na4 138.3(3) 2_565 . ?
+Se1 Na1 Na4 97.3(2) 1_545 . ?
+Se1 Na1 Na4 88.8(2) . . ?
+Na4 Na1 Na4 92.9(2) 2_565 . ?
+Na2 Na1 Na4 120.1(2) 2_665 . ?
+Se4 Na2 Se6 97.2(3) . 1_554 ?
+Se4 Na2 Se2 92.9(3) . 2_564 ?
+Se6 Na2 Se2 91.5(3) 1_554 2_564 ?
+Se4 Na2 Se2 90.7(3) . 2_574 ?
+Se6 Na2 Se2 98.7(3) 1_554 2_574 ?
+Se2 Na2 Se2 168.7(4) 2_564 2_574 ?
+Se4 Na2 Se6 94.6(3) . 2_574 ?
+Se6 Na2 Se6 167.5(4) 1_554 2_574 ?
+Se2 Na2 Se6 92.3(3) 2_564 2_574 ?
+Se2 Na2 Se6 76.7(2) 2_574 2_574 ?
+Se4 Na2 Se1 165.6(3) . 2_474 ?
+Se6 Na2 Se1 96.4(3) 1_554 2_474 ?
+Se2 Na2 Se1 91.5(3) 2_564 2_474 ?
+Se2 Na2 Se1 82.5(2) 2_574 2_474 ?
+Se6 Na2 Se1 71.6(2) 2_574 2_474 ?
+Se4 Na2 Na1 138.8(3) . 2_464 ?
+Se6 Na2 Na1 87.1(2) 1_554 2_464 ?
+Se2 Na2 Na1 45.88(19) 2_564 2_464 ?
+Se2 Na2 Na1 129.3(3) 2_574 2_464 ?
+Se6 Na2 Na1 87.1(2) 2_574 2_464 ?
+Se1 Na2 Na1 46.86(16) 2_474 2_464 ?
+Se4 Na2 Na3 46.94(17) . 2_564 ?
+Se6 Na2 Na3 89.8(2) 1_554 2_564 ?
+Se2 Na2 Na3 46.71(19) 2_564 2_564 ?
+Se2 Na2 Na3 137.6(3) 2_574 2_564 ?
+Se6 Na2 Na3 101.5(3) 2_574 2_564 ?
+Se1 Na2 Na3 138.0(3) 2_474 2_564 ?
+Na1 Na2 Na3 92.3(3) 2_464 2_564 ?
+Se4 Na2 Na3 45.85(17) . 2_574 ?
+Se6 Na2 Na3 94.9(3) 1_554 2_574 ?
+Se2 Na2 Na3 138.8(3) 2_564 2_574 ?
+Se2 Na2 Na3 45.59(19) 2_574 2_574 ?
+Se6 Na2 Na3 90.1(2) 2_574 2_574 ?
+Se1 Na2 Na3 128.0(3) 2_474 2_574 ?
+Na1 Na2 Na3 174.8(3) 2_464 2_574 ?
+Na3 Na2 Na3 92.5(2) 2_564 2_574 ?
+Se2 Na3 Se8 167.3(3) . . ?
+Se2 Na3 Se4 93.3(2) . 2_565 ?
+Se8 Na3 Se4 90.5(2) . 2_565 ?
+Se2 Na3 Se4 91.1(2) . 2_575 ?
+Se8 Na3 Se4 83.6(2) . 2_575 ?
+Se4 Na3 Se4 170.9(3) 2_565 2_575 ?
+Se2 Na3 Se3 94.6(2) . 2_564 ?
+Se8 Na3 Se3 97.9(2) . 2_564 ?
+Se4 Na3 Se3 82.3(2) 2_565 2_564 ?
+Se4 Na3 Se3 105.3(2) 2_575 2_564 ?
+Se2 Na3 Se3 78.6(2) . . ?
+Se8 Na3 Se3 88.9(2) . . ?
+Se4 Na3 Se3 95.9(2) 2_565 . ?
+Se4 Na3 Se3 77.1(2) 2_575 . ?
+Se3 Na3 Se3 172.9(3) 2_564 . ?
+Se2 Na3 Na2 47.05(18) . 2_565 ?
+Se8 Na3 Na2 137.3(3) . 2_565 ?
+Se4 Na3 Na2 46.9(2) 2_565 2_565 ?
+Se4 Na3 Na2 138.1(3) 2_575 2_565 ?
+Se3 Na3 Na2 81.2(2) 2_564 2_565 ?
+Se3 Na3 Na2 92.5(2) . 2_565 ?
+Se2 Na3 Na4 146.0(3) . . ?
+Se8 Na3 Na4 45.73(17) . . ?
+Se4 Na3 Na4 91.9(2) 2_565 . ?
+Se4 Na3 Na4 88.9(2) 2_575 . ?
+Se3 Na3 Na4 52.97(18) 2_564 . ?
+Se3 Na3 Na4 134.1(3) . . ?
+Na2 Na3 Na4 124.1(3) 2_565 . ?
+Se2 Na3 Na2 45.96(17) . 2_575 ?
+Se8 Na3 Na2 129.4(3) . 2_575 ?
+Se4 Na3 Na2 139.2(3) 2_565 2_575 ?
+Se4 Na3 Na2 45.8(2) 2_575 2_575 ?
+Se3 Na3 Na2 97.8(2) 2_564 2_575 ?
+Se3 Na3 Na2 79.0(2) . 2_575 ?
+Na2 Na3 Na2 92.5(2) 2_565 2_575 ?
+Na4 Na3 Na2 120.7(2) . 2_575 ?
+Se7 Na4 Se8 90.4(2) . . ?
+Se7 Na4 Se5 102.5(3) . 2_574 ?
+Se8 Na4 Se5 94.7(3) . 2_574 ?
+Se7 Na4 Se8 93.9(2) . 2_564 ?
+Se8 Na4 Se8 172.1(3) . 2_564 ?
+Se5 Na4 Se8 90.8(2) 2_574 2_564 ?
+Se7 Na4 Se5 92.8(2) . 2_564 ?
+Se8 Na4 Se5 97.2(2) . 2_564 ?
+Se5 Na4 Se5 160.5(3) 2_574 2_564 ?
+Se8 Na4 Se5 76.0(2) 2_564 2_564 ?
+Se7 Na4 Se3 162.8(3) . 2_564 ?
+Se8 Na4 Se3 91.4(2) . 2_564 ?
+Se5 Na4 Se3 94.4(2) 2_574 2_564 ?
+Se8 Na4 Se3 82.6(2) 2_564 2_564 ?
+Se5 Na4 Se3 70.1(2) 2_564 2_564 ?
+Se7 Na4 Na1 47.83(17) . 2_564 ?
+Se8 Na4 Na1 137.9(3) . 2_564 ?
+Se5 Na4 Na1 90.9(2) 2_574 2_564 ?
+Se8 Na4 Na1 47.33(16) 2_564 2_564 ?
+Se5 Na4 Na1 90.5(3) 2_564 2_564 ?
+Se3 Na4 Na1 129.7(3) 2_564 2_564 ?
+Se7 Na4 Na3 135.6(3) . . ?
+Se8 Na4 Na3 45.88(16) . . ?
+Se5 Na4 Na3 90.2(2) 2_574 . ?
+Se8 Na4 Na3 128.7(3) 2_564 . ?
+Se5 Na4 Na3 87.2(2) 2_564 . ?
+Se3 Na4 Na3 46.21(16) 2_564 . ?
+Na1 Na4 Na3 175.9(3) 2_564 . ?
+Se7 Na4 Na1 45.07(17) . . ?
+Se8 Na4 Na1 45.35(17) . . ?
+Se5 Na4 Na1 104.0(3) 2_574 . ?
+Se8 Na4 Na1 138.2(3) 2_564 . ?
+Se5 Na4 Na1 95.3(2) 2_564 . ?
+Se3 Na4 Na1 133.4(2) 2_564 . ?
+Na1 Na4 Na1 92.9(2) 2_564 . ?
+Na3 Na4 Na1 90.7(2) . . ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+As1 Se8 2.343(3) . ?
+As1 Se5 2.453(2) . ?
+As1 Se1 2.515(3) . ?
+As2 Se7 2.326(3) 2_464 ?
+As2 Se1 2.440(3) 1_454 ?
+As2 Se6 2.475(3) 1_554 ?
+As3 Se2 2.339(3) . ?
+As3 Se6 2.458(3) . ?
+As3 Se3 2.515(3) . ?
+As4 Se4 2.321(3) 2_575 ?
+As4 Se3 2.440(3) . ?
+As4 Se5 2.475(3) . ?
+Se1 As2 2.440(3) 1_656 ?
+Se1 Na1 2.987(9) 1_565 ?
+Se1 Na1 2.991(9) . ?
+Se1 Na2 3.288(10) 2_675 ?
+Se2 Na1 2.896(9) 1_455 ?
+Se2 Na3 2.948(9) . ?
+Se2 Na2 2.965(10) 2_565 ?
+Se2 Na2 2.967(10) 2_575 ?
+Se3 Na3 3.011(8) 2_565 ?
+Se3 Na3 3.012(8) . ?
+Se3 Na4 3.330(9) 2_565 ?
+Se4 As4 2.321(3) 2_574 ?
+Se4 Na3 2.960(8) 2_564 ?
+Se4 Na2 2.960(10) . ?
+Se4 Na3 2.961(8) 2_574 ?
+Se5 Na4 2.967(9) 2_575 ?
+Se5 Na4 3.021(10) 2_565 ?
+Se6 As2 2.475(3) 1_556 ?
+Se6 Na2 2.963(9) 1_556 ?
+Se6 Na2 3.013(9) 2_575 ?
+Se7 As2 2.326(3) 2_665 ?
+Se7 Na4 2.917(9) . ?
+Se7 Na1 2.945(8) . ?
+Se7 Na1 2.979(8) 2_564 ?
+Se8 Na4 2.950(8) . ?
+Se8 Na3 2.957(9) . ?
+Se8 Na1 2.960(9) . ?
+Se8 Na4 2.994(8) 2_565 ?
+Na1 Se2 2.896(9) 1_655 ?
+Na1 Se7 2.979(8) 2_565 ?
+Na1 Se1 2.987(9) 1_545 ?
+Na1 Na4 4.008(10) 2_565 ?
+Na1 Na2 4.027(13) 2_665 ?
+Na1 Na4 4.160(11) . ?
+Na2 Se6 2.963(9) 1_554 ?
+Na2 Se2 2.965(10) 2_564 ?
+Na2 Se2 2.967(10) 2_574 ?
+Na2 Se6 3.013(9) 2_574 ?
+Na2 Se1 3.288(10) 2_474 ?
+Na2 Na1 4.027(13) 2_464 ?
+Na2 Na3 4.042(13) 2_564 ?
+Na2 Na3 4.125(12) 2_574 ?
+Na3 Se4 2.960(8) 2_565 ?
+Na3 Se4 2.961(8) 2_575 ?
+Na3 Se3 3.011(8) 2_564 ?
+Na3 Na2 4.042(13) 2_565 ?
+Na3 Na4 4.117(11) . ?
+Na3 Na2 4.125(12) 2_575 ?
+Na4 Se5 2.967(9) 2_574 ?
+Na4 Se8 2.994(8) 2_564 ?
+Na4 Se5 3.021(9) 2_564 ?
+Na4 Se3 3.330(9) 2_564 ?
+Na4 Na1 4.008(10) 2_564 ?

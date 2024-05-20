@@ -1,0 +1,118 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/35/9013504.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9013504
+loop_
+_publ_author_name
+'Bosi, F.'
+'Belardi, G.'
+'Ballirano, P.'
+_publ_section_title
+;
+ Structural features in Tutton's salts K2[M2+(H2O)6](SO4)2,
+ with M2+= Mg, Fe, Co, Ni, Cu, and Zn
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              74
+_journal_page_last               82
+_journal_paper_doi               10.2138/am.2009.2898
+_journal_volume                  94
+_journal_year                    2009
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     K2Ni(SO4)2(H2O)6
+_chemical_formula_sum            'H12 K2 Ni O14 S2'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.047
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.0049
+_cell_length_b                   12.1904
+_cell_length_c                   6.1368
+_cell_volume                     650.559
+_database_code_amcsd             0004779
+_exptl_crystal_density_diffrn    2.231
+_cod_original_formula_sum        'K2 Ni S2 O14 H12'
+_cod_database_code               9013504
+_amcsd_formula_title             K2Ni(SO4)2(H2O)6
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K 0.03046 0.02950 0.02847 -0.00189 0.01221 -0.00026
+NiM 0.01271 0.01479 0.01434 -0.00095 0.00391 0.00014
+S 0.01451 0.01763 0.01711 -0.00207 0.00410 -0.00185
+O1 0.04660 0.02210 0.02360 -0.01010 0.01030 0.00210
+O2 0.01720 0.04860 0.04290 0.00900 0.00170 -0.00960
+O3 0.01920 0.02380 0.02480 -0.00800 0.00730 -0.00490
+O4 0.03550 0.02570 0.01770 -0.00350 0.01000 -0.00350
+OW1 0.02000 0.02450 0.01910 -0.00610 0.00430 -0.00130
+OW2 0.01770 0.01910 0.02460 0.00070 0.00610 -0.00050
+OW3 0.02520 0.01970 0.01950 0.00130 0.01000 0.00280
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K 0.13415 0.34561 0.34287 0.02864 K 0
+NiM 0.00000 0.00000 0.00000 0.01387 Ni 0
+S 0.41182 0.13508 0.72625 0.01642 S 0
+O1 0.40933 0.22977 0.57470 0.03050 O 0
+O2 0.55685 0.07498 0.75630 0.03740 O 0
+O3 0.28357 0.06140 0.61860 0.02230 O 0
+O4 0.39398 0.17389 0.94720 0.02570 O 0
+OW1 0.16694 0.11095 0.16300 0.02140 O 0
+OW2 -0.16659 0.11244 0.03560 0.02040 O 0
+OW3 0.00028 -0.06662 0.30160 0.02070 O 0
+H11 0.20400 0.08700 0.29200 0.03200 H 0
+H12 0.22300 0.12200 0.09500 0.04400 H 0
+H21 -0.24900 0.10200 -0.05100 0.04800 H 0
+H22 -0.14900 0.17400 -0.00500 0.04200 H 0
+H31 -0.06500 -0.06400 0.32800 0.07500 H 0
+H32 0.02800 -0.13500 0.32800 0.06400 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:27+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0004779

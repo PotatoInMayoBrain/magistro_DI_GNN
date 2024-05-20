@@ -1,0 +1,447 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:57:49 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179497 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/94/4339491.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4339491
+loop_
+_publ_author_name
+'Li, Bin'
+'Corbett, John D.'
+_publ_section_title
+;
+ Syntheses and structures of new phases AeMxIn(4-x) (Ae = Sr, Ba; M = Mg,
+ Zn): size effects and site preferences in BaAl4-type structures.
+;
+_journal_issue                   21
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              8812
+_journal_page_last               8818
+_journal_paper_doi               10.1021/ic701127f
+_journal_volume                  46
+_journal_year                    2007
+_chemical_formula_sum            'Ba In2.21 Mg1.79'
+_chemical_formula_weight         434.61
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           139
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2'
+_symmetry_space_group_name_H-M   'I 4/m m m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   4.8625(7)
+_cell_length_b                   4.8625(7)
+_cell_length_c                   12.515(3)
+_cell_measurement_reflns_used    1081
+_cell_measurement_temperature    296(2)
+_cell_measurement_theta_max      27.15
+_cell_measurement_theta_min      3.17
+_cell_volume                     295.90(9)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0336
+_diffrn_reflns_av_sigmaI/netI    0.0191
+_diffrn_reflns_limit_h_max       6
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            1427
+_diffrn_reflns_theta_full        27.82
+_diffrn_reflns_theta_max         27.82
+_diffrn_reflns_theta_min         3.26
+_exptl_absorpt_coefficient_mu    15.132
+_exptl_absorpt_correction_T_max  0.3681
+_exptl_absorpt_correction_T_min  0.1694
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    4.878
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             372
+_exptl_crystal_size_max          0.21
+_exptl_crystal_size_mid          0.16
+_exptl_crystal_size_min          0.13
+_refine_diff_density_max         0.603
+_refine_diff_density_min         -0.586
+_refine_diff_density_rms         0.132
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.191
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     9
+_refine_ls_number_reflns         132
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.191
+_refine_ls_R_factor_all          0.0137
+_refine_ls_R_factor_gt           0.0128
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0086P)^2^+0.4050P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0285
+_refine_ls_wR_factor_ref         0.0287
+_reflns_number_gt                126
+_reflns_number_total             132
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic701127f.cif
+_cod_data_source_block           BaMg1.788In2.212
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        295.90(8)
+_cod_original_sg_symbol_H-M      I4/mmm
+_cod_database_code               4339491
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z'
+'x, -y, -z'
+'y, x, -z'
+'-y, -x, -z'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z+1/2'
+'y+1/2, x+1/2, -z+1/2'
+'-y+1/2, -x+1/2, -z+1/2'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z'
+'-x, y, z'
+'-y, -x, z'
+'y, x, z'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z+1/2'
+'-x+1/2, y+1/2, z+1/2'
+'-y+1/2, -x+1/2, z+1/2'
+'y+1/2, x+1/2, z+1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba Ba 0.0000 0.0000 0.0000 0.01608(17) Uani 1 16 d S
+In1 In 0.0000 0.0000 0.61434(3) 0.01725(16) Uani 1 8 d S
+In2 In 0.0000 0.5000 0.2500 0.0181(5) Uani 0.106(3) 8 d SP
+Mg2 Mg 0.0000 0.5000 0.2500 0.0181(5) Uani 0.894(3) 8 d SP
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba 0.0137(2) 0.0137(2) 0.0209(3) 0.000 0.000 0.000
+In1 0.01687(19) 0.01687(19) 0.0180(2) 0.000 0.000 0.000
+In2 0.0180(6) 0.0180(6) 0.0182(9) 0.000 0.000 0.000
+Mg2 0.0180(6) 0.0180(6) 0.0182(9) 0.000 0.000 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mg Mg 0.0486 0.0363 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+In In -0.7276 1.3100 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+In1 Ba In1 180.000(10) 25_445 9_554
+In1 Ba In1 134.808(14) 25_445 25
+In1 Ba In1 45.192(15) 9_554 25
+In1 Ba In1 45.192(15) 25_445 9_444
+In1 Ba In1 134.808(14) 9_554 9_444
+In1 Ba In1 180.000(10) 25 9_444
+In1 Ba In1 98.490(5) 25_445 9_544
+In1 Ba In1 81.510(5) 9_554 9_544
+In1 Ba In1 98.490(5) 25 9_544
+In1 Ba In1 81.510(5) 9_444 9_544
+In1 Ba In1 98.490(5) 25_445 9_454
+In1 Ba In1 81.510(5) 9_554 9_454
+In1 Ba In1 98.490(5) 25 9_454
+In1 Ba In1 81.510(5) 9_444 9_454
+In1 Ba In1 134.808(15) 9_544 9_454
+In1 Ba In1 81.510(5) 25_445 25_455
+In1 Ba In1 98.490(5) 9_554 25_455
+In1 Ba In1 81.510(5) 25 25_455
+In1 Ba In1 98.490(5) 9_444 25_455
+In1 Ba In1 180.000(10) 9_544 25_455
+In1 Ba In1 45.192(15) 9_454 25_455
+In1 Ba In1 81.510(5) 25_445 25_545
+In1 Ba In1 98.490(5) 9_554 25_545
+In1 Ba In1 81.510(5) 25 25_545
+In1 Ba In1 98.490(5) 9_444 25_545
+In1 Ba In1 45.192(15) 9_544 25_545
+In1 Ba In1 180.000(10) 9_454 25_545
+In1 Ba In1 134.808(15) 25_455 25_545
+In1 Ba Mg2 134.746(4) 25_445 25
+In1 Ba Mg2 45.254(4) 9_554 25
+In1 Ba Mg2 84.424(11) 25 25
+In1 Ba Mg2 95.576(11) 9_444 25
+In1 Ba Mg2 45.254(4) 9_544 25
+In1 Ba Mg2 95.576(11) 9_454 25
+In1 Ba Mg2 134.746(4) 25_455 25
+In1 Ba Mg2 84.424(11) 25_545 25
+In1 Ba In2 134.746(4) 25_445 .
+In1 Ba In2 45.254(4) 9_554 .
+In1 Ba In2 84.424(11) 25 .
+In1 Ba In2 95.576(11) 9_444 .
+In1 Ba In2 95.576(11) 9_544 .
+In1 Ba In2 45.254(4) 9_454 .
+In1 Ba In2 84.424(11) 25_455 .
+In1 Ba In2 134.746(4) 25_545 .
+Mg2 Ba In2 51.427(8) 25 .
+In1 Ba Mg2 45.254(4) 25_445 17
+In1 Ba Mg2 134.746(4) 9_554 17
+In1 Ba Mg2 95.576(11) 25 17
+In1 Ba Mg2 84.424(11) 9_444 17
+In1 Ba Mg2 84.424(11) 9_544 17
+In1 Ba Mg2 134.746(4) 9_454 17
+In1 Ba Mg2 95.576(11) 25_455 17
+In1 Ba Mg2 45.254(4) 25_545 17
+Mg2 Ba Mg2 128.573(9) 25 17
+In2 Ba Mg2 180.0 . 17
+In1 In1 Mg2 124.928(9) 17_556 17_566
+In1 In1 Mg2 124.928(9) 17_556 9_545
+Mg2 In1 Mg2 70.864(9) 17_566 9_545
+In1 In1 In2 124.928(9) 17_556 17_566
+Mg2 In1 In2 0.0 17_566 17_566
+Mg2 In1 In2 70.864(9) 9_545 17_566
+In1 In1 In2 124.928(9) 17_556 9_545
+Mg2 In1 In2 70.864(9) 17_566 9_545
+Mg2 In1 In2 0.0 9_545 9_545
+In2 In1 In2 70.864(9) 17_566 9_545
+In1 In1 Mg2 124.928(9) 17_556 17_556
+Mg2 In1 Mg2 110.145(18) 17_566 17_556
+Mg2 In1 Mg2 70.864(9) 9_545 17_556
+In2 In1 Mg2 110.145(18) 17_566 17_556
+In2 In1 Mg2 70.864(9) 9_545 17_556
+In1 In1 In2 124.928(9) 17_556 9_445
+Mg2 In1 In2 70.864(9) 17_566 9_445
+Mg2 In1 In2 110.145(18) 9_545 9_445
+In2 In1 In2 70.864(9) 17_566 9_445
+In2 In1 In2 110.145(18) 9_545 9_445
+Mg2 In1 In2 70.864(9) 17_556 9_445
+In1 In1 Mg2 124.928(9) 17_556 9_445
+Mg2 In1 Mg2 70.864(9) 17_566 9_445
+Mg2 In1 Mg2 110.145(18) 9_545 9_445
+In2 In1 Mg2 70.864(9) 17_566 9_445
+In2 In1 Mg2 110.145(18) 9_545 9_445
+Mg2 In1 Mg2 70.864(9) 17_556 9_445
+In2 In1 Mg2 0.0 9_445 9_445
+In1 In1 In2 124.928(9) 17_556 17_556
+Mg2 In1 In2 110.145(18) 17_566 17_556
+Mg2 In1 In2 70.864(9) 9_545 17_556
+In2 In1 In2 110.145(18) 17_566 17_556
+In2 In1 In2 70.864(9) 9_545 17_556
+Mg2 In1 In2 0.0 17_556 17_556
+In2 In1 In2 70.864(9) 9_445 17_556
+Mg2 In1 In2 70.864(9) 9_445 17_556
+In1 In1 Ba 67.404(7) 17_556 9_445
+Mg2 In1 Ba 139.045(3) 17_566 9_445
+Mg2 In1 Ba 139.045(3) 9_545 9_445
+In2 In1 Ba 139.045(3) 17_566 9_445
+In2 In1 Ba 139.045(3) 9_545 9_445
+Mg2 In1 Ba 71.624(9) 17_556 9_445
+In2 In1 Ba 71.624(9) 9_445 9_445
+Mg2 In1 Ba 71.624(9) 9_445 9_445
+In2 In1 Ba 71.624(9) 17_556 9_445
+In1 In1 Ba 67.404(7) 17_556 9
+Mg2 In1 Ba 71.624(9) 17_566 9
+Mg2 In1 Ba 71.624(9) 9_545 9
+In2 In1 Ba 71.624(9) 17_566 9
+In2 In1 Ba 71.624(9) 9_545 9
+Mg2 In1 Ba 139.045(4) 17_556 9
+In2 In1 Ba 139.045(4) 9_445 9
+Mg2 In1 Ba 139.045(4) 9_445 9
+In2 In1 Ba 139.045(4) 17_556 9
+Ba In1 Ba 134.808(15) 9_445 9
+In1 In1 Ba 67.404(7) 17_556 9_545
+Mg2 In1 Ba 139.045(4) 17_566 9_545
+Mg2 In1 Ba 71.624(9) 9_545 9_545
+In2 In1 Ba 139.045(4) 17_566 9_545
+In2 In1 Ba 71.624(9) 9_545 9_545
+Mg2 In1 Ba 71.624(9) 17_556 9_545
+In2 In1 Ba 139.045(4) 9_445 9_545
+Mg2 In1 Ba 139.045(4) 9_445 9_545
+In2 In1 Ba 71.624(9) 17_556 9_545
+Ba In1 Ba 81.510(5) 9_445 9_545
+Ba In1 Ba 81.510(5) 9 9_545
+In1 In2 In1 109.136(9) 17_566 9_454
+In1 In2 In1 110.145(18) 17_566 17_556
+In1 In2 In1 109.136(9) 9_454 17_556
+In1 In2 In1 109.136(9) 17_566 9_554
+In1 In2 In1 110.145(18) 9_454 9_554
+In1 In2 In1 109.136(9) 17_556 9_554
+In1 In2 Mg2 54.568(4) 17_566 25_565
+In1 In2 Mg2 125.432(4) 9_454 25_565
+In1 In2 Mg2 125.432(4) 17_556 25_565
+In1 In2 Mg2 54.568(4) 9_554 25_565
+In1 In2 Mg2 125.432(4) 17_566 25_455
+In1 In2 Mg2 54.568(4) 9_454 25_455
+In1 In2 Mg2 54.568(4) 17_556 25_455
+In1 In2 Mg2 125.432(4) 9_554 25_455
+Mg2 In2 Mg2 180.0 25_565 25_455
+In1 In2 Mg2 54.568(4) 17_566 25_465
+In1 In2 Mg2 54.568(4) 9_454 25_465
+In1 In2 Mg2 125.432(4) 17_556 25_465
+In1 In2 Mg2 125.432(4) 9_554 25_465
+Mg2 In2 Mg2 90.0 25_565 25_465
+Mg2 In2 Mg2 90.0 25_455 25_465
+In1 In2 Mg2 125.432(4) 17_566 25
+In1 In2 Mg2 125.432(4) 9_454 25
+In1 In2 Mg2 54.568(4) 17_556 25
+In1 In2 Mg2 54.568(4) 9_554 25
+Mg2 In2 Mg2 90.0 25_565 25
+Mg2 In2 Mg2 90.0 25_455 25
+Mg2 In2 Mg2 180.0 25_465 25
+In1 In2 Ba 162.777(6) 17_566 .
+In1 In2 Ba 63.122(9) 9_454 .
+In1 In2 Ba 87.078(15) 17_556 .
+In1 In2 Ba 63.122(9) 9_554 .
+Mg2 In2 Ba 115.714(4) 25_565 .
+Mg2 In2 Ba 64.286(4) 25_455 .
+Mg2 In2 Ba 115.714(4) 25_465 .
+Mg2 In2 Ba 64.286(4) 25 .
+In1 In2 Ba 63.122(9) 17_566 9
+In1 In2 Ba 162.777(6) 9_454 9
+In1 In2 Ba 63.122(9) 17_556 9
+In1 In2 Ba 87.078(15) 9_554 9
+Mg2 In2 Ba 64.286(4) 25_565 9
+Mg2 In2 Ba 115.714(4) 25_455 9
+Mg2 In2 Ba 115.714(4) 25_465 9
+Mg2 In2 Ba 64.286(4) 25 9
+Ba In2 Ba 128.573(9) . 9
+In1 In2 Ba 87.078(15) 17_566 1_565
+In1 In2 Ba 63.122(9) 9_454 1_565
+In1 In2 Ba 162.777(6) 17_556 1_565
+In1 In2 Ba 63.122(9) 9_554 1_565
+Mg2 In2 Ba 64.286(4) 25_565 1_565
+Mg2 In2 Ba 115.714(4) 25_455 1_565
+Mg2 In2 Ba 64.286(4) 25_465 1_565
+Mg2 In2 Ba 115.714(4) 25 1_565
+Ba In2 Ba 75.699(14) . 1_565
+Ba In2 Ba 128.573(9) 9 1_565
+In1 In2 Ba 63.122(9) 17_566 9_455
+In1 In2 Ba 87.078(15) 9_454 9_455
+In1 In2 Ba 63.122(9) 17_556 9_455
+In1 In2 Ba 162.777(6) 9_554 9_455
+Mg2 In2 Ba 115.714(4) 25_565 9_455
+Mg2 In2 Ba 64.286(4) 25_455 9_455
+Mg2 In2 Ba 64.286(4) 25_465 9_455
+Mg2 In2 Ba 115.714(4) 25 9_455
+Ba In2 Ba 128.573(9) . 9_455
+Ba In2 Ba 75.699(14) 9 9_455
+Ba In2 Ba 128.573(9) 1_565 9_455
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba In1 3.7242(5) 25_445
+Ba In1 3.7242(5) 9_554
+Ba In1 3.7242(5) 25
+Ba In1 3.7242(5) 9_444
+Ba In1 3.7242(5) 9_544
+Ba In1 3.7242(5) 9_454
+Ba In1 3.7242(5) 25_455
+Ba In1 3.7242(5) 25_545
+Ba Mg2 3.9623(5) 25
+Ba In2 3.9623(5) .
+Ba Mg2 3.9623(5) 17
+In1 In1 2.8619(9) 17_556
+In1 Mg2 2.9654(4) 17_566
+In1 Mg2 2.9654(4) 9_545
+In1 In2 2.9654(4) 17_566
+In1 In2 2.9654(4) 9_545
+In1 Mg2 2.9654(4) 17_556
+In1 In2 2.9654(4) 9_445
+In1 Mg2 2.9654(4) 9_445
+In1 In2 2.9654(4) 17_556
+In1 Ba 3.7242(5) 9_445
+In1 Ba 3.7242(5) 9
+In1 Ba 3.7242(5) 9_545
+In2 In1 2.9654(4) 17_566
+In2 In1 2.9654(4) 9_454
+In2 In1 2.9654(4) 17_556
+In2 In1 2.9654(4) 9_554
+In2 Mg2 3.4383(5) 25_565
+In2 Mg2 3.4383(5) 25_455
+In2 Mg2 3.4383(5) 25_465
+In2 Mg2 3.4383(5) 25
+In2 Ba 3.9623(5) 9
+In2 Ba 3.9623(5) 1_565
+In2 Ba 3.9623(5) 9_455

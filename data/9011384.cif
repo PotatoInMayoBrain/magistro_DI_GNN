@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/13/9011384.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011384
+loop_
+_publ_author_name
+'Abrahams, I.'
+'Grimes, S. M.'
+'Johnston, S. R.'
+'Knowles, J. C.'
+_publ_section_title
+;
+ Tin(II) oxyhydroxide by X-ray powder diffraction
+ Locality: synthetic
+;
+_journal_name_full               'Acta Crystallographica, Section C'
+_journal_page_first              286
+_journal_page_last               288
+_journal_paper_doi               10.1107/S0108270195012625
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_sum            'H2 O4 Sn3'
+_chemical_name_mineral           Hydroromarchite
+_space_group_IT_number           114
+_symmetry_space_group_name_Hall  'P -4 2n'
+_symmetry_space_group_name_H-M   'P -4 21 c'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.9268
+_cell_length_b                   7.9268
+_cell_length_c                   9.1025
+_cell_volume                     571.948
+_exptl_crystal_density_diffrn    4.902
+_cod_original_formula_sum        'Sn3 O4 H2'
+_cod_database_code               9011384
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-y,1/2-x,1/2+z
+y,-x,-z
+1/2-x,1/2+y,1/2-z
+-x,-y,z
+1/2+y,1/2+x,1/2+z
+-y,x,-z
+1/2+x,1/2-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Sn1 0.12180 0.29170 -0.00380 0.02700 Sn 0
+Sn2 0.00000 0.00000 0.27570 0.03200 Sn 0
+O2 -0.09740 0.19450 0.12770 0.01900 O 0
+O-H1 0.26060 0.09000 0.17300 0.01900 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:09+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;

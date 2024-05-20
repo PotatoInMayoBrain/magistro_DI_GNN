@@ -1,0 +1,228 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/47/2004723.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004723
+loop_
+_publ_author_name
+'Haendler, H. M.'
+_publ_section_title
+;A Manganese Quinaldinate Complex:
+ <i>trans</i>-[Diaquabis(2-quinolinecarboxylato)manganese(II)]--Water--Ethanol
+ (1/2/2)
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              801
+_journal_page_last               803
+_journal_paper_doi               10.1107/S0108270195013904
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_moiety         'C20 H16 Mn N2 O6 , 2H2 O , 2C2 H5 O H'
+_chemical_formula_sum            'C24 H32 Mn N2 O10'
+_chemical_formula_weight         563.3
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                77.52(3)
+_cell_angle_beta                 73.47(2)
+_cell_angle_gamma                71.27(3)
+_cell_formula_units_Z            1
+_cell_length_a                   7.365(2)
+_cell_length_b                   9.102(3)
+_cell_length_c                   11.165(3)
+_cell_measurement_reflns_used    15
+_cell_measurement_temperature    293(1)
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      10
+_cell_volume                     673.1(4)
+_computing_data_collection
+'Crystalytica Co., Lincoln, NE, using Nicolet E-XTL or SHELXTL software'
+_computing_data_reduction        'NRCVAX (Gabe, Lee & LePage, 1985)'
+_computing_molecular_graphics    NRCVAX
+_computing_publication_material  NRCVAX
+_computing_structure_refinement  NRCVAX
+_computing_structure_solution    'DIRDIF (Beurskens et al., 1985); NRCVAX'
+_diffrn_measurement_device       'Nicolet four-circle'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.012
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -13
+_diffrn_reflns_number            3260
+_diffrn_reflns_theta_max         27.45
+_diffrn_standards_decay_%        insignificant
+_diffrn_standards_interval_count 300
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    0.52
+_exptl_absorpt_correction_T_max  1.000
+_exptl_absorpt_correction_T_min  0.786
+_exptl_absorpt_correction_type   '\y scan (North, Phillips & Matthews, 1968)'
+_exptl_crystal_colour            'pale yellow'
+_exptl_crystal_density_diffrn    1.389
+_exptl_crystal_density_method    none
+_exptl_crystal_description       'rectangular parallelepiped'
+_exptl_crystal_size_max          0.70
+_exptl_crystal_size_mid          0.55
+_exptl_crystal_size_min          0.18
+_refine_diff_density_max         0.47
+_refine_diff_density_min         -0.42
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.54
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_number_parameters     217
+_refine_ls_number_reflns         2737
+_refine_ls_R_factor_obs          0.045
+_refine_ls_shift/esd_max         '0.01 for non-H atoms, 0.03 for H atoms'
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.065
+_reflns_number_observed          2737
+_reflns_number_total             3098
+_reflns_observed_criterion       I>2.5\s(I)
+_cod_data_source_file            fg1078.cif
+_cod_data_source_block           fg1078a
+_cod_depositor_comments
+;
+
+  Adding the _atom_site_type_symbol data item to prevent confusion
+  between hydrogen and holmium.
+
+  Andrius Merkys
+  2013-10-16
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               2004723
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+Mn Mn 0.00000 0.00000 0.00000 2.11(3)
+O O1 -0.2058(4) 0.0293(3) -0.1095(2) 2.81(11)
+O O2 -0.4057(4) -0.0704(3) -0.1614(3) 3.40(13)
+O O10 -0.2371(4) 0.1086(4) 0.1534(3) 3.07(13)
+O O20 -0.1212(6) -0.0125(5) 0.3724(3) 5.2(2)
+N N -0.1072(4) -0.2247(3) 0.0593(3) 2.19(11)
+C C1 -0.2903(5) -0.0747(4) -0.0975(3) 2.35(15)
+C C2 -0.2426(5) -0.2177(4) 0.0007(3) 2.27(14)
+C C3 -0.3374(6) -0.3364(5) 0.0219(4) 3.13(18)
+C C4 -0.2849(6) -0.4663(5) 0.1063(4) 3.42(18)
+C C5 -0.1407(6) -0.4798(4) 0.1706(3) 2.78(15)
+C C6 -0.0529(5) -0.3545(4) 0.1452(3) 2.48(14)
+C C7 0.0925(7) -0.3648(5) 0.2076(4) 3.50(19)
+C C8 0.1494(8) -0.4943(5) 0.2929(5) 4.6(2)
+C C9 0.0621(8) -0.6184(5) 0.3180(5) 4.5(2)
+C C10 -0.0769(7) -0.6118(5) 0.2594(4) 3.7(2)
+O O3 -0.2840(6) 0.0860(5) -0.3916(3) 5.16(19)
+C C11 -0.3978(11) 0.2442(8) -0.4000(6) 6.1(4)
+C C12 -0.5628(14) 0.2728(10) -0.4601(9) 7.9(5)
+H HO1A -0.312(7) 0.088(6) 0.146(5) 3.75
+H HO1B -0.192(7) 0.061(6) 0.213(5) 4.36
+H HO2A 0.003(8) -0.050(6) 0.373(5) 5.23
+H HO2B -0.179(8) 0.010(6) 0.439(5) 4.83
+H HO3 -0.307(9) 0.030(7) -0.352(5) 4.56
+H H3 -0.433(7) -0.322(5) -0.010(4) 4.13
+H H4 -0.361(7) -0.537(5) 0.129(4) 4.39
+H H7 0.143(7) -0.291(6) 0.193(4) 4.46
+H H8 0.258(8) -0.505(6) 0.334(5) 5.54
+H H9 0.111(7) -0.705(6) 0.369(5) 5.18
+H H10 -0.143(7) -0.690(6) 0.283(4) 4.48
+H H11A -0.455(9) 0.277(7) -0.314(6) 7.11
+H H11B -0.297(10) 0.315(8) -0.467(7) 9.69
+H H12A -0.660(9) 0.386(8) -0.451(6) 7.65
+H H12B -0.643(13) 0.209(9) -0.410(8) 8.40
+H H12C -0.501(9) 0.237(7) -0.554(6) 8.25
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Mn N 74.30(10) yes
+O1 Mn O10 91.30(10) yes
+N Mn O10 89.40(10) yes
+Mn O1 C1 120.4(2) yes
+Mn N C2 111.4(2) yes
+O1 C1 C2 117.0(3) yes
+N C2 C1 116.7(3) yes
+O2 C1 C2 118.3(3) yes
+Mn N C6 129.5(2) yes
+C2 N C6 119.0(3) yes
+C1 C2 C3 119.9(3) yes
+N C2 C3 123.4(3) yes
+O1 C1 O2 124.7(3) yes
+O3 C11 C12 112.6(6) yes
+HO1A O10 HO1B 115(5) no
+O3 C11 H11A 111(3) no
+C11 O3 HO3 126(5) no
+HO2A O20 HO2B 108(5) no
+O3 C11 H11B 106(5) no
+C11 C12 H12B 106(5) no
+Mn O10 HO1A 100(4) no
+C11 C12 H12A 111(3) no
+C11 C12 H12C 107(3) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mn O1 2.125(2) yes
+Mn O10 2.209(3) yes
+Mn N 2.324(3) yes
+O1 C1 1.256(4) yes
+O2 C1 1.243(4) yes
+O3 C11 1.413(8) yes
+N C2 1.319(4) yes
+N C6 1.379(4) yes
+C1 C2 1.526(5) yes
+C2 C3 1.411(5) yes
+C11 C12 1.477(11) yes
+O10 HO1A 0.67(5) no
+O10 HO1B 0.81(5) no
+C3 H3 0.84(5) no
+C4 H4 0.93(5) no
+C7 H7 0.83(5) no
+O3 HO3 0.63(5) no
+C11 H11B 1.14(7) no
+C12 H12B 0.94(9) no
+O20 HO2A 0.87(6) no
+O20 HO2B 0.78(5) no
+C8 H8 1.00(5) no
+C9 H9 0.90(5) no
+C10 H10 0.94(5) no
+C11 H11A 1.00(6) no
+C12 H12A 1.06(7) no
+C12 H12C 1.09(7) no

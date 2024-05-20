@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/95/9009551.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009551
+loop_
+_publ_author_name
+'Baturin, S. V.'
+'Malinovskii, Y. A.'
+'Belov, N. V.'
+_publ_section_title
+;
+ The crystal structure of nabaphite NaBa[PO4]*9H2O
+;
+_journal_name_full               'Doklady Akademii Nauk SSSR'
+_journal_page_first              624
+_journal_page_last               627
+_journal_volume                  266
+_journal_year                    1982
+_chemical_formula_sum            'Ba H18 Na O13 P'
+_chemical_name_mineral           Nabaphite
+_space_group_IT_number           198
+_symmetry_space_group_name_Hall  'P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P 21 3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.7116
+_cell_length_b                   10.7116
+_cell_length_c                   10.7116
+_cell_volume                     1229.032
+_database_code_amcsd             0012473
+_exptl_crystal_density_diffrn    2.256
+_cod_original_formula_sum        'Na Ba P O13 H18'
+_cod_database_code               9009551
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-z,-x,1/2+y
+-z,1/2+x,1/2-y
+1/2+z,1/2-x,-y
+z,x,y
+1/2+y,1/2-z,-x
+1/2-y,-z,1/2+x
+-y,1/2+z,1/2-x
+y,z,x
+-x,1/2+y,1/2-z
+1/2+x,1/2-y,-z
+1/2-x,-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.02790 0.02790 0.02790 -0.00523 -0.00523 -0.00523
+Ba 0.01976 0.01976 0.01976 -0.00058 -0.00058 -0.00058
+P 0.01744 0.01744 0.01744 0.00058 0.00058 0.00058
+Wat1 0.05057 0.02499 0.02848 0.00000 -0.00814 -0.00639
+Wat2 0.02209 0.05115 0.03081 -0.00988 -0.00174 -0.01163
+Wat3 0.01802 0.03255 0.03430 0.00872 0.00581 0.00058
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.68080 0.68080 0.68080 1.00000 0.02837 Na 0
+Ba 0.05200 0.05200 0.05200 1.00000 0.01950 Ba 0
+P 0.42800 0.42800 0.42800 1.00000 0.01786 P 0
+O4 0.34500 0.34500 0.34500 0.86000 ? O 0
+O5 0.51100 0.51100 0.51100 0.14000 ? O 0
+O6 0.56050 0.43790 0.36630 0.28000 ? O 0
+O7 0.38800 0.50100 0.30700 0.39000 ? O 0
+O8 0.55500 0.36300 0.45500 0.33000 ? O 0
+Wat1 0.40170 0.08850 0.33830 1.00000 0.03686 O 2
+Wat2 0.29890 0.14340 0.04100 1.00000 0.03420 O 2
+Wat3 0.59610 0.28790 0.15900 1.00000 0.02938 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:55+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012473

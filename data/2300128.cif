@@ -1,0 +1,211 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/01/2300128.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300128
+loop_
+_publ_author_name
+'Fortes, A. D.'
+'Wood, I. G.'
+'Vo\<cadlo, L.'
+'Brand, H. E. A.'
+'Knight, K. S.'
+_publ_section_title
+;
+ Crystal structures and thermal expansion of \a-MgSO~4~ and \b-MgSO~4~
+ from 4.2 to 300K by neutron powder diffraction
+;
+_journal_coeditor_code           DB5013
+_journal_issue                   4
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              761
+_journal_page_last               770
+_journal_paper_doi               10.1107/S0021889807029937
+_journal_volume                  40
+_journal_year                    2007
+_chemical_compound_source
+;Formed by reacting MgO with H2SO4 in excess then drying for 24 hr at 
+400 deg C.
+;
+_chemical_formula_moiety         'SO4 2-, MgO6 2+'
+_chemical_formula_structural     MgSO4
+_chemical_formula_sum            'Mg O4 S'
+_chemical_formula_weight         120.37
+_chemical_melting_point          1200
+_chemical_name_common            'magnesium sulfate'
+_chemical_name_systematic        'alpha-magnesium sulfate'
+_space_group_IT_number           63
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-C 2c 2'
+_symmetry_space_group_name_H-M   'C m c m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.174713(29)
+_cell_length_b                   7.87563(5)
+_cell_length_c                   6.49517(5)
+_cell_measurement_temperature    300
+_cell_volume                     264.705(3)
+_pd_block_id
+2006-08-30T22:41|ALPHAMGSO4_300KNEW_phase1|A_D_Fortes||
+_pd_phase_name                   'alpha-MgSO4 300K'
+_cod_data_source_file            db5013.cif
+_cod_data_source_block           ALPHAMGSO4_300KNEW_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (21
+time).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (25 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (21
+time).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (25 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        264.7050(20)
+_cod_database_code               2300128
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,+z
+3 +x,-y,+z+1/2
+4 -x,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x,-y,-z
+-3 -x,+y,-z+1/2
+-4 +x,+y,-z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,+z
+103 +x+1/2,-y+1/2,+z+1/2
+104 -x+1/2,-y+1/2,+z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,-z
+-103 -x+1/2,+y+1/2,-z+1/2
+-104 +x+1/2,+y+1/2,-z+1/2
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Mg1 0.0144(6) 0.0 0.0 0.0135(7) -0.0002(4) 0.0097(7)
+O1 0.0125(4) 0.0 0.0 0.0129(4) -0.00367(29) 0.01288(33)
+O2 0.0093(4) -0.00340(31) 0.0 0.0148(4) 0.0 0.0116(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Mg Mg1 0.0 0.0 0.0 1.0 Uani 0.01254 4
+S S 0.0 0.35078(21) 0.25 1.0 Uiso 0.0105(4) 4
+O O1 0.0 0.24939(8) 0.06357(8) 1.0 Uani 0.01275 8
+O O2 0.23321(13) 0.46184(7) 0.25 1.0 Uani 0.01188 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Mg 4.0
+S 4.0
+O 16.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mg1 O1 179.972 1_555 . -1_555 n
+O1 Mg1 O2 88.936(19) 1_555 . 101_445 n
+O1 Mg1 O2 88.936(19) 1_555 . 102_545 n
+O1 Mg1 O2 91.064(19) 1_555 . 103_454 n
+O1 Mg1 O2 91.064(19) 1_555 . 104_554 n
+O1 Mg1 O2 91.064(19) -1_555 . 101_445 n
+O1 Mg1 O2 91.064(19) -1_555 . 102_545 n
+O1 Mg1 O2 88.936(19) -1_555 . 103_454 n
+O1 Mg1 O2 88.936(19) -1_555 . 104_554 n
+O2 Mg1 O2 79.792(29) 101_445 . 102_545 n
+O2 Mg1 O2 100.208(29) 101_445 . 103_454 n
+O2 Mg1 O2 179.9657 101_445 . 104_554 n
+O2 Mg1 O2 179.972 102_545 . 103_454 n
+O2 Mg1 O2 100.208(29) 102_545 . 104_554 n
+O2 Mg1 O2 79.792(29) 103_454 . 104_554 n
+O1 S O1 113.20(12) 1_555 . -3_446 n
+O1 S O2 108.849(16) 1_555 . 1_555 n
+O1 S O2 108.849(16) 1_555 . 2_555 n
+O1 S O2 108.849(16) -3_446 . 1_555 n
+O1 S O2 108.849(16) -3_446 . 2_555 n
+O2 S O2 108.13(12) 1_555 . 2_555 n
+Mg1 O1 S 135.27(6) 1_555 . 1_555 n
+Mg1 O2 Mg1 97.946(27) 101_555 . 103_555 n
+Mg1 O2 S 126.961(22) 101_555 . 1_555 n
+Mg1 O2 S 126.961(22) 103_555 . 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mg1 Mg1 3.247580(20) . 3_554 n
+Mg1 Mg1 3.247580(20) . 3_555 n
+Mg1 S 3.2045(14) . 1_555 n
+Mg1 S 3.2045(14) . 3_554 n
+Mg1 O1 2.0071(6) . 1_555 n
+Mg1 O1 2.0071(6) . -1_555 n
+Mg1 O2 2.1524(4) . 101_445 n
+Mg1 O2 2.1524(4) . 102_545 n
+Mg1 O2 2.1524(4) . 103_454 n
+Mg1 O2 2.1524(4) . 104_554 n
+S Mg1 3.2045(14) . 1_555 n
+S Mg1 3.2045(14) . 3_555 n
+S O1 1.4505(10) . 1_555 n
+S O1 1.4505(10) . -3_555 n
+S O2 1.4904(10) . 1_555 n
+S O2 1.4904(10) . 2_555 n
+O1 Mg1 2.0071(6) . 1_555 n
+O1 S 1.4505(10) . 1_555 n
+O2 Mg1 2.1524(4) . 101_555 n
+O2 Mg1 2.1524(4) . 103_555 n
+O2 S 1.4904(10) . 1_555 n
+loop_
+_pd_block_diffractogram_id
+2006-08-30T22:41|ALPHAMGSO4_300KNEW_H_01|A_D_Fortes|HRPD
+2006-08-30T22:41|ALPHAMGSO4_300KNEW_H_02|A_D_Fortes|HRPD

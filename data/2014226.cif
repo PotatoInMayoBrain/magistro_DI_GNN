@@ -1,0 +1,206 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 00:18:51 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176760 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/42/2014226.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2014226
+loop_
+_publ_author_name
+'Ebbinghaus, Stefan G.'
+'Weidenkaff, Anke'
+'Rachel, Anita'
+'Reller, Armin'
+_publ_section_title
+;
+ Powder neutron diffraction of SrNbO~2~N at room temperature and 1.5K
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              i91
+_journal_page_last               i93
+_journal_paper_doi               10.1107/S0108270104016105
+_journal_volume                  60
+_journal_year                    2004
+_chemical_formula_iupac          'Sr Nb O2 N'
+_chemical_formula_structural     'Sr Nb O2 N'
+_chemical_formula_sum            'N3.84 Nb4 O8.16 Sr4'
+_chemical_formula_weight         906.48
+_chemical_name_systematic
+;
+strontium niobium dioxygen nitride
+;
+_space_group_IT_number           140
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-I 4 2c'
+_symmetry_space_group_name_H-M   'I 4/m c m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   5.6938(4)
+_cell_length_b                   5.6938(4)
+_cell_length_c                   8.0974(8)
+_cell_measurement_temperature    1.5
+_cell_volume                     262.51(4)
+_computing_cell_refinement       'FULLPROF2000 (Rodr\'iguez-Carvajal, 1990)'
+_computing_data_collection       'SINQ Instrument Control System (SICS)'
+_computing_data_reduction        'SINQ Instrument Control System (SICS)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1995)'
+_computing_publication_material  'Please provide missing details'
+_computing_structure_refinement  FULLPROF2000
+_diffrn_ambient_temperature      1.5
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measurement_device_type  'SINQ HRPT'
+_diffrn_radiation_monochromator  'Ge (533)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.49328
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            98
+_diffrn_reflns_theta_full        74.93
+_diffrn_reflns_theta_max         74.93
+_diffrn_reflns_theta_min         11.10
+_exptl_absorpt_coefficient_mu    0.0098
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    5.734
+_exptl_crystal_density_method    'not measured'
+_refine_ls_goodness_of_fit_all   1.57
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     20
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.57
+_refine_ls_shift/su_max          0.0001
+_refine_ls_shift/su_mean         0.0000
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_scheme      sigma
+_reflns_number_gt                98
+_reflns_number_total             98
+_cod_data_source_file            sk1729.cif
+_cod_data_source_block           LT
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Tetragonal' changed to 'tetragonal'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2014226
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-y, x, z'
+'y, -x, z'
+'-x, y, -z+1/2'
+'x, -y, -z+1/2'
+'y, x, -z+1/2'
+'-y, -x, -z+1/2'
+'x+1/2, y+1/2, z+1/2'
+'-x+1/2, -y+1/2, z+1/2'
+'-y+1/2, x+1/2, z+1/2'
+'y+1/2, -x+1/2, z+1/2'
+'-x+1/2, y+1/2, -z+1'
+'x+1/2, -y+1/2, -z+1'
+'y+1/2, x+1/2, -z+1'
+'-y+1/2, -x+1/2, -z+1'
+'-x, -y, -z'
+'x, y, -z'
+'y, -x, -z'
+'-y, x, -z'
+'x, -y, z-1/2'
+'-x, y, z-1/2'
+'-y, -x, z-1/2'
+'y, x, z-1/2'
+'-x+1/2, -y+1/2, -z+1/2'
+'x+1/2, y+1/2, -z+1/2'
+'y+1/2, -x+1/2, -z+1/2'
+'-y+1/2, x+1/2, -z+1/2'
+'x+1/2, -y+1/2, z'
+'-x+1/2, y+1/2, z'
+'-y+1/2, -x+1/2, z'
+'y+1/2, x+1/2, z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.0120(6) 0.0120(6) 0.0053(8) 0.000 0.000 0.000
+N1 0.0120(6) 0.0120(6) 0.0053(8) 0.000 0.000 0.000
+O2 0.0070(3) 0.0070(3) 0.0223(5) 0.0029(3) 0.000 0.000
+N2 0.0070(3) 0.0070(3) 0.0223(5) 0.0029(3) 0.000 0.000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Sr 0.00000 0.50000 0.25000 0.0036(2) Uiso . . 1.000 Sr
+Nb 0.00000 0.00000 0.00000 0.0058(2) Uiso . . 1.000 Nb
+O1 0.00000 0.00000 0.25000 0.0098(4) Uani . . 0.82(2) O
+N1 0.00000 0.00000 0.25000 0.0098(4) Uani . . 0.18(2) N
+O2 0.77880(10) 0.27880(10) 0.00000 0.0121(2) Uani . . 0.610(10) O
+N2 0.77880(10) 0.27880(10) 0.00000 0.0121(2) Uani . . 0.390(10) N
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+Sr Sr 'International Tables for Crystallography (Vol. IV)'
+Nb Nb 'International Tables for Crystallography (Vol. IV)'
+O O 'International Tables for Crystallography (Vol. IV)'
+N N 'International Tables for Crystallography (Vol. IV)'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Nb O2/N2 Nb 13_554 1_655 166.90(10) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Nb O1/N1 . 2.0243(2) yes
+Nb O2/N2 1_455 2.0263(6) yes
+Sr O2/N2 1_455 2.6965(4) yes
+Sr O1/N1 . 2.8469(2) yes
+Sr O2/N2 3 3.0227(5) yes

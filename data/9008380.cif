@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/83/9008380.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9008380
+loop_
+_publ_author_name
+'Giester, G.'
+'Zemann, J.'
+_publ_section_title
+;The crystal structure of the natrochalcite-type compounds
+ (Me+)Cu2(OH)(zO4)2*H2O [Me+ = Na,K,Rb; z = S,Se], with special reference to
+ the hydrogen bonds Locality: synthetic
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              431
+_journal_page_last               442
+_journal_volume                  179
+_journal_year                    1987
+_chemical_compound_source        Synthetic
+_chemical_formula_structural     RbCu2(OH)(SeO4)2(H2O)
+_chemical_formula_sum            'Cu2 H5 O10 Rb Se2'
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 116.11
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.246
+_cell_length_b                   6.483
+_cell_length_c                   7.940
+_cell_volume                     427.369
+_database_code_amcsd             0010969
+_exptl_crystal_density_diffrn    4.161
+_cod_original_formula_sum        'Rb Cu2 Se2 O10 H5'
+_cod_database_code               9008380
+_amcsd_formula_title             RbCu2(OH)(SeO4)2(H2O)
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Rb 0.01470 0.02080 0.01170 0.00000 0.00280 0.00000
+Cu 0.00990 0.01110 0.01390 0.00000 0.00310 -0.00090
+Se 0.00930 0.01050 0.00970 0.00000 0.00250 0.00000
+O1 0.01800 0.01730 0.01940 0.00000 0.01270 0.00000
+O2 0.01730 0.03140 0.00870 0.00000 0.00030 0.00000
+O3 0.01340 0.01170 0.01850 0.00170 0.00270 -0.00190
+OH4 0.01560 0.01320 0.01760 0.00000 0.00750 0.00000
+Wat4 0.01560 0.01320 0.01760 0.00000 0.00750 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Rb 0.00000 0.50000 0.50000 1.00000 Rb 0
+Cu 0.25000 0.25000 0.00000 1.00000 Cu 0
+Se 0.07206 0.00000 0.27885 1.00000 Se 0
+O1 0.18800 0.00000 0.16970 1.00000 O 0
+O2 0.17970 0.00000 0.50310 1.00000 O 0
+O3 -0.04150 0.20940 0.21560 1.00000 O 0
+O-H4 0.15570 0.50000 0.07190 0.50000 O 1
+Wat4 0.15570 0.50000 0.07190 0.50000 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:40:02+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010969

@@ -1,0 +1,551 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-11-16 15:31:04 +0200 (Fri, 16 Nov 2018) $
+#$Revision: 212008 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/35/2103509.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2103509
+loop_
+_publ_author_name
+'Pavlovska, A.'
+'Werner, S.'
+'Maximov, B.'
+'Mill, B.'
+_publ_section_title
+;
+ Pressure-induced phase transitions of piezoelectric single crystals
+ from the langasite family: La~3~Nb~0.5~Ga~5.5~O~14~ and
+ La~3~Ta~0.5~Ga~5.5~O~14~
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              939
+_journal_page_last               947
+_journal_paper_doi               10.1107/S0108768102010273
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_sum            'Ga5.54 La3 O14 Ta0.46'
+_chemical_formula_weight         1110.22
+_space_group_IT_number           150
+_symmetry_space_group_name_Hall  'P 3 2"'
+_symmetry_space_group_name_H-M   'P 3 2 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            1
+_cell_length_a                   7.972
+_cell_length_b                   7.972
+_cell_length_c                   5.021
+_cell_measurement_temperature    293(2)
+_cell_volume                     276.3
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_pressure         12.8E+6
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.896
+_diffrn_measured_fraction_theta_max 0.896
+_diffrn_radiation_source         synchrotron
+_diffrn_radiation_wavelength     0.56000
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0636
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            483
+_diffrn_reflns_theta_full        23.01
+_diffrn_reflns_theta_max         23.01
+_diffrn_reflns_theta_min         3.20
+_exptl_absorpt_coefficient_mu    15.419
+_exptl_crystal_density_diffrn    6.671
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             488
+_refine_diff_density_max         2.022
+_refine_diff_density_min         -2.222
+_refine_diff_density_rms         0.439
+_refine_ls_abs_structure_details 'Flack H D (1983), Acta Cryst. A39, 876-881'
+_refine_ls_abs_structure_Flack   0.11(11)
+_refine_ls_extinction_coef       0.040(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.074
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     33
+_refine_ls_number_reflns         483
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.074
+_refine_ls_R_factor_all          0.0450
+_refine_ls_R_factor_gt           0.0450
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.1000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1298
+_refine_ls_wR_factor_ref         0.1298
+_reflns_number_gt                483
+_reflns_number_total             483
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            sn0021-12.8d3split.cif
+_cod_data_source_block           12.8d3split
+_cod_depositor_comments
+;
+The _diffrn_ambient_pressure was taken from the original data block
+header, after comparison with the paper text and supplementary
+material.
+
+When more than one structure was present in the sn0021.cif file for a
+given pressure, the structure with the minimal _refine_ls_R_factor_all
+value was taken as the best one, and all others marked with the
+'_cod_suboptimal_structure yes' tag.
+
+Changing (with the help of Perl) all _diffrn_radiation_source values in
+the files that were reportedly colected on the HASYLAB D3 beamline
+(Hamburg) from 'fine-focus sealed tube' to synchrotron.
+
+The command was:
+
+perl -i -ne \
+    "s/'fine-focus sealed tube'/synchrotron/; \
+    print unless /_diffrn_radiation_type|_diffrn_radiation_monochromator/" \
+    *d3*.cif \
+    11.57split.cif \
+    21.85split.cif \
+    22.85split.cif
+
+Saulius Gra\<zulis
+;
+_cod_database_code               2103509
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'y, x, -z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -x+y, -z'
+'x-y, -y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+La La -0.43537(16) 0.0000 0.0000 0.0190(4) Uani 1 2 d S
+Ga1 Ga 0.0000 0.0000 0.0000 0.0231(6) Uani 0.50 6 d SP
+Ta Ta 0.0000 0.0000 0.0000 0.0231(6) Uani 0.50 6 d SP
+Ga2 Ga -0.6667 -0.3333 0.4801(4) 0.0170(6) Uani 1 3 d S
+Ga3 Ga 0.0000 0.2341(3) 0.5000 0.0176(5) Uani 1 2 d S
+O1 O -0.3333 0.3333 0.163(3) 0.019(3) Uiso 1 3 d S
+O2 O -0.720(2) -0.168(2) 0.293(3) 0.025(4) Uiso 0.76(4) 1 d P
+O22 O -0.518(5) 0.098(5) -0.375(6) 0.006(9) Uiso 0.24(4) 1 d P
+O3 O -0.148(2) 0.079(2) 0.237(2) 0.041(3) Uiso 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+La 0.0257(6) 0.0130(5) 0.0141(6) -0.0024(4) -0.0012(2) 0.0065(3)
+Ga1 0.0304(8) 0.0304(8) 0.0084(8) 0.000 0.000 0.0152(4)
+Ta 0.0304(8) 0.0304(8) 0.0084(8) 0.000 0.000 0.0152(4)
+Ga2 0.0178(7) 0.0178(7) 0.0155(11) 0.000 0.000 0.0089(4)
+Ga3 0.0227(11) 0.0179(7) 0.0137(8) -0.0039(4) -0.0078(7) 0.0113(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La La -0.9400 1.6200 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ta Ta -0.9400 4.4000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ga Ga 0.2490 1.0600 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0028 0.0036 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O22 La O22 124.4(16) . 6
+O22 La O3 92.2(9) . 6
+O22 La O3 137.6(9) 6 6
+O22 La O3 137.6(9) . .
+O22 La O3 92.2(9) 6 .
+O3 La O3 67.2(6) 6 .
+O22 La O2 109.6(9) . .
+O22 La O2 19.8(8) 6 .
+O3 La O2 137.2(5) 6 .
+O3 La O2 110.5(4) . .
+O22 La O2 19.8(8) . 6
+O22 La O2 109.5(9) 6 6
+O3 La O2 110.5(4) 6 6
+O3 La O2 137.2(5) . 6
+O2 La O2 98.9(7) . 6
+O22 La O1 84.6(9) . 2_455
+O22 La O1 84.3(9) 6 2_455
+O3 La O1 78.1(4) 6 2_455
+O3 La O1 123.3(4) . 2_455
+O2 La O1 68.2(4) . 2_455
+O2 La O1 95.9(4) 6 2_455
+O22 La O1 84.3(9) . .
+O22 La O1 84.6(9) 6 .
+O3 La O1 123.3(4) 6 .
+O3 La O1 78.1(4) . .
+O2 La O1 95.9(4) . .
+O2 La O1 68.2(4) 6 .
+O1 La O1 156.18(8) 2_455 .
+O22 La O2 59.7(9) . 2_565
+O22 La O2 149.9(9) 6 2_565
+O3 La O2 64.3(5) 6 2_565
+O3 La O2 77.9(4) . 2_565
+O2 La O2 158.4(2) . 2_565
+O2 La O2 64.7(6) 6 2_565
+O1 La O2 124.9(4) 2_455 2_565
+O1 La O2 65.6(4) . 2_565
+O22 La O2 149.9(9) . 4_445
+O22 La O2 59.7(9) 6 4_445
+O3 La O2 77.9(4) 6 4_445
+O3 La O2 64.3(5) . 4_445
+O2 La O2 64.7(6) . 4_445
+O2 La O2 158.4(2) 6 4_445
+O1 La O2 65.6(4) 2_455 4_445
+O1 La O2 124.9(4) . 4_445
+O2 La O2 134.5(6) 2_565 4_445
+O22 La Ga2 136.7(8) . .
+O22 La Ga2 29.5(8) 6 .
+O3 La Ga2 109.3(3) 6 .
+O3 La Ga2 85.7(3) . .
+O2 La Ga2 32.1(3) . .
+O2 La Ga2 130.4(3) 6 .
+O1 La Ga2 64.8(3) 2_455 .
+O1 La Ga2 111.3(3) . .
+O2 La Ga2 163.6(3) 2_565 .
+O2 La Ga2 32.8(3) 4_445 .
+O22 La Ga2 29.5(8) . 2_565
+O22 La Ga2 136.7(8) 6 2_565
+O3 La Ga2 85.7(3) 6 2_565
+O3 La Ga2 109.3(3) . 2_565
+O2 La Ga2 130.4(3) . 2_565
+O2 La Ga2 32.1(3) 6 2_565
+O1 La Ga2 111.3(3) 2_455 2_565
+O1 La Ga2 64.8(3) . 2_565
+O2 La Ga2 32.8(3) 2_565 2_565
+O2 La Ga2 163.6(3) 4_445 2_565
+Ga2 La Ga2 162.42(4) . 2_565
+O3 Ga1 O3 164.0(9) 2 .
+O3 Ga1 O3 82.4(8) 2 3
+O3 Ga1 O3 87.8(5) . 3
+O3 Ga1 O3 104.3(8) 2 4
+O3 Ga1 O3 87.8(5) . 4
+O3 Ga1 O3 87.8(5) 3 4
+O3 Ga1 O3 87.8(5) 2 5
+O3 Ga1 O3 104.3(8) . 5
+O3 Ga1 O3 164.0(9) 3 5
+O3 Ga1 O3 82.4(8) 4 5
+O3 Ga1 O3 87.8(5) 2 6
+O3 Ga1 O3 82.4(8) . 6
+O3 Ga1 O3 104.3(8) 3 6
+O3 Ga1 O3 164.0(9) 4 6
+O3 Ga1 O3 87.8(5) 5 6
+O3 Ga1 La 41.2(4) 2 2
+O3 Ga1 La 127.8(4) . 2
+O3 Ga1 La 41.2(4) 3 2
+O3 Ga1 La 98.0(5) 4 2
+O3 Ga1 La 127.9(4) 5 2
+O3 Ga1 La 98.0(5) 6 2
+O3 Ga1 La 127.8(4) 2 .
+O3 Ga1 La 41.2(4) . .
+O3 Ga1 La 98.0(5) 3 .
+O3 Ga1 La 127.8(4) 4 .
+O3 Ga1 La 98.0(5) 5 .
+O3 Ga1 La 41.2(4) 6 .
+La Ga1 La 120.0 2 .
+O3 Ga1 La 98.0(5) 2 4
+O3 Ga1 La 98.0(5) . 4
+O3 Ga1 La 127.9(4) 3 4
+O3 Ga1 La 41.2(4) 4 4
+O3 Ga1 La 41.2(4) 5 4
+O3 Ga1 La 127.8(4) 6 4
+La Ga1 La 120.0 2 4
+La Ga1 La 120.0 . 4
+O3 Ta O3 164.0(9) 2 .
+O3 Ta O3 82.4(8) 2 3
+O3 Ta O3 87.8(5) . 3
+O3 Ta O3 104.3(8) 2 4
+O3 Ta O3 87.8(5) . 4
+O3 Ta O3 87.8(5) 3 4
+O3 Ta O3 87.8(5) 2 5
+O3 Ta O3 104.3(8) . 5
+O3 Ta O3 164.0(9) 3 5
+O3 Ta O3 82.4(8) 4 5
+O3 Ta O3 87.8(5) 2 6
+O3 Ta O3 82.4(8) . 6
+O3 Ta O3 104.3(8) 3 6
+O3 Ta O3 164.0(9) 4 6
+O3 Ta O3 87.8(5) 5 6
+O3 Ta Ga3 32.1(4) 2 2
+O3 Ta Ga3 158.4(4) . 2
+O3 Ta Ga3 113.4(4) 3 2
+O3 Ta Ga3 96.6(4) 4 2
+O3 Ta Ga3 55.7(4) 5 2
+O3 Ta Ga3 88.2(4) 6 2
+O3 Ta Ga3 55.7(4) 2 3_554
+O3 Ta Ga3 113.4(4) . 3_554
+O3 Ta Ga3 96.6(4) 3 3_554
+O3 Ta Ga3 158.4(4) 4 3_554
+O3 Ta Ga3 88.2(4) 5 3_554
+O3 Ta Ga3 32.1(4) 6 3_554
+Ga3 Ta Ga3 62.23(5) 2 3_554
+O3 Ta Ga3 96.6(4) 2 2_556
+O3 Ta Ga3 88.2(4) . 2_556
+O3 Ta Ga3 55.7(4) 3 2_556
+O3 Ta Ga3 32.1(4) 4 2_556
+O3 Ta Ga3 113.4(4) 5 2_556
+O3 Ta Ga3 158.4(4) 6 2_556
+Ga3 Ta Ga3 106.74(7) 2 2_556
+Ga3 Ta Ga3 145.29(3) 3_554 2_556
+O3 Ta Ga3 158.4(4) 2 .
+O3 Ta Ga3 32.1(4) . .
+O3 Ta Ga3 88.2(4) 3 .
+O3 Ta Ga3 55.7(4) 4 .
+O3 Ta Ga3 96.6(4) 5 .
+O3 Ta Ga3 113.4(4) 6 .
+Ga3 Ta Ga3 145.28(3) 2 .
+Ga3 Ta Ga3 145.28(3) 3_554 .
+Ga3 Ta Ga3 62.23(5) 2_556 .
+O3 Ta Ga3 88.2(4) 2 1_554
+O3 Ta Ga3 96.6(4) . 1_554
+O3 Ta Ga3 158.4(4) 3 1_554
+O3 Ta Ga3 113.4(4) 4 1_554
+O3 Ta Ga3 32.1(4) 5 1_554
+O3 Ta Ga3 55.7(4) 6 1_554
+Ga3 Ta Ga3 62.23(5) 2 1_554
+Ga3 Ta Ga3 62.23(5) 3_554 1_554
+Ga3 Ta Ga3 145.29(3) 2_556 1_554
+Ga3 Ta Ga3 106.74(7) . 1_554
+O3 Ta Ga3 113.4(4) 2 3
+O3 Ta Ga3 55.7(4) . 3
+O3 Ta Ga3 32.1(4) 3 3
+O3 Ta Ga3 88.2(4) 4 3
+O3 Ta Ga3 158.4(4) 5 3
+O3 Ta Ga3 96.6(4) 6 3
+Ga3 Ta Ga3 145.29(3) 2 3
+Ga3 Ta Ga3 106.74(7) 3_554 3
+Ga3 Ta Ga3 62.23(5) 2_556 3
+Ga3 Ta Ga3 62.23(5) . 3
+Ga3 Ta Ga3 145.28(3) 1_554 3
+O1 Ga2 O22 107.2(10) 2_456 5_445
+O1 Ga2 O22 107.2(10) 2_456 2_455
+O22 Ga2 O22 111.6(9) 5_445 2_455
+O1 Ga2 O22 107.2(10) 2_456 6
+O22 Ga2 O22 111.6(9) 5_445 6
+O22 Ga2 O22 111.6(9) 2_455 6
+O1 Ga2 O2 120.8(4) 2_456 4_445
+O22 Ga2 O2 26.7(11) 5_445 4_445
+O22 Ga2 O2 121.5(12) 2_455 4_445
+O22 Ga2 O2 85.2(11) 6 4_445
+O1 Ga2 O2 120.8(4) 2_456 3_455
+O22 Ga2 O2 85.2(11) 5_445 3_455
+O22 Ga2 O2 26.7(11) 2_455 3_455
+O22 Ga2 O2 121.5(12) 6 3_455
+O2 Ga2 O2 96.2(6) 4_445 3_455
+O1 Ga2 O2 120.8(4) 2_456 .
+O22 Ga2 O2 121.5(12) 5_445 .
+O22 Ga2 O2 85.2(11) 2_455 .
+O22 Ga2 O2 26.7(11) 6 .
+O2 Ga2 O2 96.2(6) 4_445 .
+O2 Ga2 O2 96.2(6) 3_455 .
+O1 Ga2 La 135.63(3) 2_456 4_445
+O22 Ga2 La 38.3(10) 5_445 4_445
+O22 Ga2 La 77.2(11) 2_455 4_445
+O22 Ga2 La 111.9(10) 6 4_445
+O2 Ga2 La 45.6(5) 4_445 4_445
+O2 Ga2 La 50.9(5) 3_455 4_445
+O2 Ga2 La 103.5(4) . 4_445
+O1 Ga2 La 135.63(3) 2_456 .
+O22 Ga2 La 77.2(10) 5_445 .
+O22 Ga2 La 111.9(10) 2_455 .
+O22 Ga2 La 38.3(10) 6 .
+O2 Ga2 La 50.9(5) 4_445 .
+O2 Ga2 La 103.5(4) 3_455 .
+O2 Ga2 La 45.6(5) . .
+La Ga2 La 74.55(4) 4_445 .
+O1 Ga2 La 135.63(3) 2_456 2_455
+O22 Ga2 La 111.9(10) 5_445 2_455
+O22 Ga2 La 38.3(10) 2_455 2_455
+O22 Ga2 La 77.2(10) 6 2_455
+O2 Ga2 La 103.5(4) 4_445 2_455
+O2 Ga2 La 45.6(5) 3_455 2_455
+O2 Ga2 La 50.9(5) . 2_455
+La Ga2 La 74.55(4) 4_445 2_455
+La Ga2 La 74.55(4) . 2_455
+O1 Ga2 La 42.09(2) 2_456 4_446
+O22 Ga2 La 70.7(10) 5_445 4_446
+O22 Ga2 La 102.1(10) 2_455 4_446
+O22 Ga2 La 141.2(10) 6 4_446
+O2 Ga2 La 93.4(5) 4_445 4_446
+O2 Ga2 La 97.2(5) 3_455 4_446
+O2 Ga2 La 162.6(4) . 4_446
+La Ga2 La 93.534(7) 4_445 4_446
+La Ga2 La 139.891(4) . 4_446
+La Ga2 La 139.891(4) 2_455 4_446
+O1 Ga2 La 42.09(2) 2_456 1_556
+O22 Ga2 La 102.1(10) 5_445 1_556
+O22 Ga2 La 141.2(10) 2_455 1_556
+O22 Ga2 La 70.7(10) 6 1_556
+O2 Ga2 La 97.2(5) 4_445 1_556
+O2 Ga2 La 162.6(4) 3_455 1_556
+O2 Ga2 La 93.4(5) . 1_556
+La Ga2 La 139.891(4) 4_445 1_556
+La Ga2 La 93.533(7) . 1_556
+La Ga2 La 139.889(4) 2_455 1_556
+La Ga2 La 70.98(4) 4_446 1_556
+O3 Ga3 O3 137.7(9) 5_556 .
+O3 Ga3 O22 110.7(12) 5_556 2_565
+O3 Ga3 O22 105.6(11) . 2_565
+O3 Ga3 O22 105.6(11) 5_556 3_566
+O3 Ga3 O22 110.7(12) . 3_566
+O22 Ga3 O22 61(2) 2_565 3_566
+O3 Ga3 O2 104.7(7) 5_556 3_565
+O3 Ga3 O2 98.3(6) . 3_565
+O22 Ga3 O2 26.1(11) 2_565 3_565
+O22 Ga3 O2 86.7(12) 3_566 3_565
+O3 Ga3 O2 98.3(6) 5_556 2_566
+O3 Ga3 O2 104.7(7) . 2_566
+O22 Ga3 O2 86.7(12) 2_565 2_566
+O22 Ga3 O2 26.1(11) 3_566 2_566
+O2 Ga3 O2 112.9(10) 3_565 2_566
+O3 Ga3 Ta 36.3(4) 5_556 1_556
+O3 Ga3 Ta 112.1(4) . 1_556
+O22 Ga3 Ta 142.3(10) 2_565 1_556
+O22 Ga3 Ta 103.8(10) 3_566 1_556
+O2 Ga3 Ta 141.0(4) 3_565 1_556
+O2 Ga3 Ta 83.3(5) 2_566 1_556
+O3 Ga3 Ta 112.1(4) 5_556 .
+O3 Ga3 Ta 36.3(4) . .
+O22 Ga3 Ta 103.8(10) 2_565 .
+O22 Ga3 Ta 142.3(10) 3_566 .
+O2 Ga3 Ta 83.3(5) 3_565 .
+O2 Ga3 Ta 141.0(5) 2_566 .
+Ta Ga3 Ta 106.74(7) 1_556 .
+Ga2 O1 La 109.2(3) 2_566 2_565
+Ga2 O1 La 109.2(3) 2_566 .
+La O1 La 109.8(3) 2_565 .
+Ga2 O1 La 109.2(3) 2_566 4_455
+La O1 La 109.8(3) 2_565 4_455
+La O1 La 109.8(3) . 4_455
+O22 O2 Ga2 74(2) 6 .
+O22 O2 Ga3 75(2) 6 2_456
+Ga2 O2 Ga3 115.4(7) . 2_456
+O22 O2 La 66(2) 6 .
+Ga2 O2 La 102.3(7) . .
+Ga3 O2 La 113.6(7) 2_456 .
+O22 O2 La 165(2) 6 2_455
+Ga2 O2 La 96.3(6) . 2_455
+Ga3 O2 La 120.1(8) 2_456 2_455
+La O2 La 106.5(5) . 2_455
+O2 O22 Ga2 80(3) 6 2_565
+O2 O22 Ga3 79(2) 6 2_455
+Ga2 O22 Ga3 119.5(18) 2_565 2_455
+O2 O22 La 94(2) 6 .
+Ga2 O22 La 112.2(15) 2_565 .
+Ga3 O22 La 125.3(17) 2_455 .
+Ga3 O3 Ta 111.6(8) . .
+Ga3 O3 Ga1 111.6(8) . .
+Ta O3 Ga1 0.0 . .
+Ga3 O3 La 140.5(7) . .
+Ta O3 La 105.2(5) . .
+Ga1 O3 La 105.2(5) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+La O22 2.26(3) .
+La O22 2.26(3) 6
+La O3 2.369(14) 6
+La O3 2.369(14) .
+La O2 2.464(15) .
+La O2 2.464(15) 6
+La O1 2.497(5) 2_455
+La O1 2.497(5) .
+La O2 2.633(16) 2_565
+La O2 2.633(16) 4_445
+La Ga2 3.3723(16) .
+La Ga2 3.3723(16) 2_565
+Ga1 O3 1.991(13) 2
+Ga1 O3 1.991(13) .
+Ga1 O3 1.991(13) 3
+Ga1 O3 1.991(13) 4
+Ga1 O3 1.991(13) 5
+Ga1 O3 1.991(13) 6
+Ga1 La 3.4708(13) 2
+Ga1 La 3.4708(13) 4
+Ta O3 1.991(13) 2
+Ta O3 1.991(13) .
+Ta O3 1.991(13) 3
+Ta O3 1.991(13) 4
+Ta O3 1.991(13) 5
+Ta O3 1.991(13) 6
+Ta Ga3 3.1284(14) 2
+Ta Ga3 3.1284(14) 3_554
+Ta Ga3 3.1284(14) 2_556
+Ta Ga3 3.1284(14) .
+Ta Ga3 3.1284(14) 1_554
+Ta Ga3 3.1284(14) 3
+Ga2 O1 1.791(16) 2_456
+Ga2 O22 1.79(3) 5_445
+Ga2 O22 1.79(3) 2_455
+Ga2 O22 1.79(3) 6
+Ga2 O2 1.836(14) 4_445
+Ga2 O2 1.836(14) 3_455
+Ga2 O2 1.836(14) .
+Ga2 La 3.3722(16) 4_445
+Ga2 La 3.3723(16) 2_455
+Ga2 La 3.5180(16) 4_446
+Ga2 La 3.5180(16) 1_556
+Ga3 O3 1.790(13) 5_556
+Ga3 O3 1.790(13) .
+Ga3 O22 1.83(3) 2_565
+Ga3 O22 1.83(3) 3_566
+Ga3 O2 1.867(14) 3_565
+Ga3 O2 1.867(14) 2_566
+Ga3 Ta 3.1284(14) 1_556
+O1 Ga2 1.791(16) 2_566
+O1 La 2.497(5) 2_565
+O1 La 2.497(5) 4_455
+O2 O22 0.84(3) 6
+O2 Ga3 1.867(14) 2_456
+O2 La 2.633(16) 2_455
+O22 O2 0.84(3) 6
+O22 Ga2 1.79(3) 2_565
+O22 Ga3 1.83(3) 2_455
+loop_
+_cod_related_suboptimal_struct
+2103507
+2103508

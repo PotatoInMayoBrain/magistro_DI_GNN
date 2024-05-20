@@ -1,0 +1,127 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-07-08 10:42:25 +0300 (Sat, 08 Jul 2023) $
+#$Revision: 285095 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/48/9014807.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014807
+loop_
+_publ_author_name
+'Calligaris, M.'
+'Nardin, G.'
+'Randaccio, L.'
+_publ_section_title
+;
+ Cation-site location in a natural chabazite
+;
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              602
+_journal_page_last               605
+_journal_paper_doi               10.1107/S0567740882003483
+_journal_volume                  38
+_journal_year                    1982
+_chemical_compound_source        'Northeast Azerbaijan'
+_chemical_formula_sum            'Al3.804 Ca1.359 H15.36 O31.68 Si8.304 Sr0.291'
+_chemical_name_mineral           Chabazite-Ca
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                94.20
+_cell_angle_beta                 94.20
+_cell_angle_gamma                94.20
+_cell_formula_units_Z            1
+_cell_length_a                   9.421
+_cell_length_b                   9.421
+_cell_length_c                   9.421
+_cell_volume                     829.077
+_database_code_amcsd             0017693
+_exptl_crystal_density_diffrn    1.879
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_original_formula_sum        'Ca1.359 Sr.291 Al3.804 Si8.304 O31.68 H15.36'
+_cod_database_code               9014807
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-z,-y
+-z,-x,-y
+y,x,z
+y,z,x
+-z,-y,-x
+-x,-y,-z
+x,z,y
+z,x,y
+-y,-x,-z
+-y,-z,-x
+z,y,x
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.08755 0.08755 0.05467 0.05467 0.05467 0.05467
+Sr1 0.08755 0.08755 0.05467 0.05467 0.05467 0.05467
+Ca2 0.05378 0.05378 0.05378 -0.00844 -0.00844 -0.00844
+Sr2 0.05378 0.05378 0.05378 -0.00844 -0.00844 -0.00844
+Ca3 0.07511 0.07155 0.07155 0.02622 0.02622 0.02622
+Sr3 0.07511 0.07155 0.07155 0.02622 0.02622 0.02622
+Al1 0.01244 0.01022 0.01644 0.00089 0.00089 0.00000
+Si1 0.01244 0.01022 0.01644 0.00089 0.00089 0.00000
+O1 0.02889 0.02889 0.04933 -0.00044 -0.01467 -0.01467
+O2 0.03378 0.03378 0.01200 0.00622 0.00222 0.00222
+O3 0.02356 0.02356 0.05600 0.00978 0.00311 0.00311
+O4 0.02800 0.02800 0.04311 0.01067 0.00667 0.00667
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.20380 0.20380 0.20380 0.43650 ? Ca 0
+Sr1 0.20380 0.20380 0.20380 0.09350 ? Sr 0
+Ca2 0.40650 0.40650 0.40650 0.19760 ? Ca 0
+Sr2 0.40650 0.40650 0.40650 0.04240 ? Sr 0
+Ca3 0.00000 0.00000 0.00000 0.09060 ? Ca 0
+Sr3 0.00000 0.00000 0.00000 0.01940 ? Sr 0
+Al1 0.10440 0.33380 0.87490 0.31700 ? Al 0
+Si1 0.10440 0.33380 0.87490 0.69200 ? Si 0
+O1 0.26380 -0.26380 0.00000 1.00000 ? O 0
+O2 0.15480 -0.15480 0.50000 1.00000 ? O 0
+O3 0.25150 0.25150 0.89460 1.00000 ? O 0
+O4 0.02480 0.02480 0.32770 1.00000 ? O 0
+Wat5 0.41800 0.41800 0.75990 0.57000 0.06839 O 2
+Wat6 0.50000 0.50000 0.00000 0.50000 0.07346 O 2
+Wat7 0.20240 0.31010 0.49130 0.23000 0.12538 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:22:22+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0017693

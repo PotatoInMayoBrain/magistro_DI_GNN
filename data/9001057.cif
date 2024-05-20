@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/10/9001057.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001057
+loop_
+_publ_author_name
+'Guggenheim, S.'
+'Chang, Y. H.'
+'Koster van Groos, A. F.'
+_publ_section_title
+;
+ Muscovite dehydroxylation: High-temperature studies
+ Sample: T = 525 deg C, from Panasqueira, Portugal
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              537
+_journal_page_last               550
+_journal_volume                  72
+_journal_year                    1987
+_chemical_formula_sum            'Al2.908 F0.12 H1.88 K O11.88 Si3.092'
+_chemical_name_mineral           Muscovite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.75
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.182
+_cell_length_b                   8.993
+_cell_length_c                   20.232
+_cell_volume                     938.102
+_database_code_amcsd             0001079
+_diffrn_ambient_temperature      798.15
+_exptl_crystal_density_diffrn    2.823
+_cod_original_formula_sum        'K Al2.908 Si3.092 O11.88 (F.12 H1.88)'
+_cod_database_code               9001057
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K 0.04687 0.05203 0.04393 0.00000 0.00473 0.00000
+Al 0.01199 0.01393 0.01745 -0.00117 0.00074 0.00101
+AlT1 0.01266 0.01352 0.01622 -0.00070 0.00142 0.00128
+SiT1 0.01266 0.01352 0.01622 -0.00070 0.00142 0.00128
+AlT2 0.01387 0.01516 0.01642 -0.00070 0.00000 0.00055
+SiT2 0.01387 0.01516 0.01642 -0.00070 0.00000 0.00055
+O1 0.03771 0.02008 0.02484 0.00023 0.00736 -0.00092
+O2 0.02424 0.03974 0.03079 -0.01010 -0.00210 0.00734
+O3 0.02289 0.03319 0.02525 0.00987 -0.00315 -0.00459
+O4 0.01347 0.02294 0.01991 0.00282 0.00158 0.00367
+O5 0.02020 0.01598 0.01704 0.00211 -0.00105 0.00275
+OH 0.01481 0.02253 0.02299 -0.00399 0.00368 -0.00367
+F 0.01481 0.02253 0.02299 -0.00399 0.00368 -0.00367
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K 0.00000 0.09830 0.25000 1.00000 K 0
+Al 0.25120 0.08330 0.00013 1.00000 Al 0
+AlT1 0.46440 0.93000 0.13402 0.22700 Al 0
+SiT1 0.46440 0.93000 0.13402 0.77300 Si 0
+AlT2 0.45100 0.25890 0.13416 0.22700 Al 0
+SiT2 0.45100 0.25890 0.13416 0.77300 Si 0
+O1 0.42260 0.09330 0.16660 1.00000 O 0
+O2 0.24510 0.81560 0.15630 1.00000 O 0
+O3 0.24560 0.36640 0.16690 1.00000 O 0
+O4 0.46170 0.94390 0.05310 1.00000 O 0
+O5 0.38300 0.25220 0.05300 1.00000 O 0
+O-H 0.45680 0.56220 0.04970 0.94000 O 1
+F 0.45680 0.56220 0.04970 0.06000 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001079

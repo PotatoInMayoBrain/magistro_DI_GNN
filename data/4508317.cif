@@ -1,0 +1,239 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 06:40:26 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176432 $
+#$URL: svn://www.crystallography.net/cod/cif/4/50/83/4508317.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4508317
+loop_
+_publ_author_name
+'Kusamoto, Tetsuro'
+'Yamamoto, Hiroshi M.'
+'Kato, Reizo'
+_publ_section_title
+;
+ Utilization of \s-Holes on Sulfur and Halogen Atoms for Supramolecular
+ Cation&#x00B7;&#x00B7;&#x00B7;Anion Interactions in Bilayer
+ Ni(dmit)2Anion Radical Salts
+;
+_journal_issue                   10
+_journal_name_full               'Crystal Growth &amp; Design'
+_journal_page_first              4533
+_journal_paper_doi               10.1021/cg401028u
+_journal_volume                  13
+_journal_year                    2013
+_chemical_formula_sum            'C5 H7 Br2 N S'
+_chemical_formula_weight         273
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2n 2a'
+_symmetry_space_group_name_H-M   'P m c n'
+_audit_creation_date             2010-12-14T11:39:18-00:00
+_audit_creation_method           'WinGX routine CIF_UPDATE'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.932(5)
+_cell_length_b                   10.526(7)
+_cell_length_c                   11.729(8)
+_cell_measurement_reflns_used    1727
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      27.4758
+_cell_measurement_theta_min      3.4137
+_cell_volume                     855.8(10)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      293.1500
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device
+;
+Mercury CCD (2x2 bin mode)
+;
+_diffrn_measurement_method       dtprofit.ref
+_diffrn_radiation_detector       CCD
+_diffrn_radiation_monochromator  'Graphite Monochromator'
+_diffrn_radiation_source         'Rotating Anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.043
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            8036
+_diffrn_reflns_theta_full        27.49
+_diffrn_reflns_theta_max         27.49
+_diffrn_reflns_theta_min         3.47
+_exptl_absorpt_coefficient_mu    9.634
+_exptl_absorpt_correction_T_max  0.9534
+_exptl_absorpt_correction_T_min  0.2489
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'Jacobson, R. (1998) Private communication'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.119
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Block
+_exptl_crystal_F_000             520
+_exptl_crystal_size_max          0.2
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.01
+_refine_diff_density_max         1.036
+_refine_diff_density_min         -0.482
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.815
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     56
+_refine_ls_number_reflns         1062
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.815
+_refine_ls_R_factor_gt           0.0315
+_refine_ls_shift/su_max          0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0171P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0535
+_reflns_number_gt                670
+_reflns_number_total             1062
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            cg401028u_si_002.cif
+_cod_data_source_block           Et-4BrT-Br
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Multi-scan' changed to
+'multi-scan' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_sg_symbol_Hall     '-P 2n 2a '
+_cod_original_sg_symbol_H-M      ' P m c n '
+_cod_database_code               4508317
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y+1/2, z+1/2'
+'x+1/2, -y, -z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y-1/2, -z-1/2'
+'-x-1/2, y, z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Br2 Br -0.25 0.07260(5) 0.73411(5) 0.04107(19) Uani 1 d S
+Br1 Br 0.25 0.27619(5) 0.68460(6) 0.0497(2) Uani 1 d S
+S1 S 0.25 -0.11097(14) 0.55516(14) 0.0526(5) Uani 1 d S
+N1 N 0.25 0.0142(4) 0.7384(4) 0.0318(11) Uani 1 d S
+C4 C 0.25 0.0495(5) 0.8595(5) 0.0438(15) Uani 1 d S
+H4 H 0.1369 0.1008 0.8754 0.053 Uiso 0.5 calc PR
+H3 H 0.3631 0.1008 0.8754 0.053 Uiso 0.5 calc PR
+C1 C 0.25 0.1034(5) 0.6502(5) 0.0359(13) Uani 1 d S
+C3 C 0.25 -0.1039(5) 0.6983(5) 0.0447(15) Uani 1 d S
+H2 H 0.25 -0.1754 0.7448 0.054 Uiso 1 calc SR
+C2 C 0.25 0.0507(5) 0.5462(6) 0.0437(15) Uani 1 d S
+H1 H 0.25 0.0962 0.4782 0.052 Uiso 1 calc SR
+C5 C 0.25 -0.0651(6) 0.9380(5) 0.0565(17) Uani 1 d S
+H6 H 0.2165 -0.0388 1.0138 0.085 Uiso 0.5 calc PR
+H5 H 0.3761 -0.1028 0.9386 0.085 Uiso 0.5 calc PR
+H7 H 0.1575 -0.1261 0.9113 0.085 Uiso 0.5 calc PR
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Br2 0.0460(3) 0.0345(3) 0.0428(4) 0.0003(3) 0 0
+Br1 0.0530(3) 0.0317(3) 0.0644(6) 0.0031(3) 0 0
+S1 0.0670(10) 0.0462(10) 0.0447(12) -0.0133(8) 0 0
+N1 0.030(2) 0.031(3) 0.035(3) -0.007(2) 0 0
+C4 0.042(3) 0.044(4) 0.046(5) -0.006(3) 0 0
+C1 0.036(3) 0.033(3) 0.039(4) 0.004(3) 0 0
+C3 0.040(3) 0.037(4) 0.057(5) 0.000(3) 0 0
+C2 0.048(3) 0.039(4) 0.044(4) 0.006(3) 0 0
+C5 0.062(4) 0.067(5) 0.041(5) 0.003(4) 0 0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0 0 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Br Br -0.2901 2.4595 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C3 S1 C2 91.0(3)
+C3 N1 C1 111.5(5)
+C3 N1 C4 125.4(5)
+C1 N1 C4 123.1(4)
+N1 C4 C5 112.7(5)
+N1 C4 H4 109
+C5 C4 H4 109
+N1 C4 H3 109
+C5 C4 H3 109
+H4 C4 H3 107.8
+C2 C1 N1 113.3(5)
+C2 C1 Br1 127.0(5)
+N1 C1 Br1 119.7(4)
+N1 C3 S1 113.3(4)
+N1 C3 H2 123.3
+S1 C3 H2 123.3
+C1 C2 S1 110.9(5)
+C1 C2 H1 124.5
+S1 C2 H1 124.5
+C4 C5 H6 109.5
+C4 C5 H5 109.5
+H6 C5 H5 109.5
+C4 C5 H7 109.5
+H6 C5 H7 109.5
+H5 C5 H7 109.5
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+Br1 C1 1.863(5)
+S1 C3 1.680(6)
+S1 C2 1.705(6)
+N1 C3 1.329(6)
+N1 C1 1.397(6)
+N1 C4 1.468(7)
+C4 C5 1.517(7)
+C4 H4 0.97
+C4 H3 0.97
+C1 C2 1.341(7)
+C3 H2 0.93
+C2 H1 0.93
+C5 H6 0.96
+C5 H5 0.96
+C5 H7 0.96

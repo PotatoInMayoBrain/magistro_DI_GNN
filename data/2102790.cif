@@ -1,0 +1,174 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-26 11:09:57 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282068 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/27/2102790.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102790
+loop_
+_publ_author_name
+'Sugimoto, Kunihisa'
+'E. Dinnebier, Robert'
+'Jonathan C. Hanson'
+_publ_contact_author_address
+;
+Max-Planck-Institute for Solid State Research,
+Heisenbergstrasse 1, D-70569 Stuttgart, Germany
+;
+_publ_contact_author_email       'r.dinnebier@fkf.mpg.de '
+_publ_contact_author_fax         '+49 (0)711 689 1502'
+_publ_contact_author_name        'Robert E. Dinnebier'
+_publ_contact_author_phone       '+49 (0)711 689 1503'
+_publ_section_title
+;
+Crystal structures of dehydration products of Bischofite,
+MgCl2 nH2O (n = 1, 2, 4) from in situ synchrotron powder diffraction data
+;
+_journal_coeditor_code           KD5011
+_journal_date_accepted           2007-01-17
+_journal_date_recd_electronic    2006-11-02
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica, Section B'
+_journal_page_first              235
+_journal_page_last               242
+_journal_paper_category          FA
+_journal_paper_doi               10.1107/S0108768107002558
+_journal_volume                  63
+_journal_year                    2007
+_chemical_formula_structural     '(Mg Cl2) (H2 O)2'
+_chemical_formula_sum            'Cl2 H4 Mg O2'
+_chemical_formula_weight         131.24
+_chemical_name_common            'Magnesium chloride hydrate'
+_chemical_name_systematic        'Magnesium chloride dihydrate'
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 98.580(2)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   7.4279(4)
+_cell_length_b                   8.5736(4)
+_cell_length_c                   3.65065(16)
+_cell_volume                     229.89(2)
+_database_code_amcsd             0009950
+_diffrn_ambient_temperature      396.0
+_diffrn_measurement_device_type  'NSLS X7B diffractometer system'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.92187
+_exptl_crystal_density_diffrn    1.896
+_refine_ls_hydrogen_treatment    refall
+_refine_ls_number_parameters     10
+_cod_data_source_file            kd5011.cif
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (21
+time).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (20 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_original_formula_sum        'Cl2 H4 Mg1 O2 '
+_cod_database_code               2102790
+_amcsd_formula_title             MgCl2*2H2O
+loop_
+_symmetry_equiv_pos_site_id
+_space_group_symop_operation_xyz
+1 +x,+y,+z
+2 -x,+y,-z
+-1 -x,-y,-z
+-2 +x,-y,+z
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Mg MG1 0.0 0.0 0.0 0.0329(13) Uiso 1.0
+Cl CL1 0.23723(18) 0.0 0.5588(4) 0.0393(9) Uiso 1.0
+O O1 0.0 0.2342(4) 0.0 0.0310(11) Uiso 1.0
+H H1 0.10575(5) 0.3038(4) 0.023(6) 0.0312(14) Uiso 1.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+CL1 MG1 CL1 1_554 1_555 92.64(4) n
+CL1 MG1 CL1 1_554 2_555 87.36(4) n
+CL1 MG1 CL1 1_554 2_556 180.0 n
+CL1 MG1 O1 1_554 1_555 90.0 n
+CL1 MG1 O1 1_554 -1_555 90.0 n
+CL1 MG1 CL1 1_555 2_555 179.9802 n
+CL1 MG1 CL1 1_555 2_556 87.36(4) n
+CL1 MG1 O1 1_555 1_555 90.0 n
+CL1 MG1 O1 1_555 -1_555 90.0 n
+CL1 MG1 CL1 2_555 2_556 92.64(4) n
+CL1 MG1 O1 2_555 1_555 90.0 n
+CL1 MG1 O1 2_555 -1_555 90.0 n
+CL1 MG1 O1 2_556 1_555 90.0 n
+CL1 MG1 O1 2_556 -1_555 90.0 n
+O1 MG1 O1 1_555 -1_555 180.0 n
+MG1 CL1 MG1 1_555 1_556 92.64(4) n
+MG1 O1 H1 1_555 1_555 127.50(12) n
+MG1 O1 H1 1_555 2_555 127.50(12) n
+H1 O1 H1 1_555 2_555 105.0(2) n
+O1 H1 H1 1_555 2_555 37.50(12) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+MG1 CL1 1_554 2.5586(16) n
+MG1 CL1 1_555 2.4887(14) n
+MG1 CL1 2_555 2.4887(14) n
+MG1 CL1 2_556 2.5586(16) n
+MG1 O1 1_555 2.008(3) n
+MG1 O1 -1_555 2.008(3) n
+MG1 H1 1_555 2.718(3) n
+MG1 H1 2_555 2.718(3) n
+MG1 H1 -1_555 2.718(3) n
+MG1 H1 -2_555 2.718(3) n
+CL1 MG1 1_555 2.4887(14) n
+CL1 MG1 1_556 2.5586(16) n
+CL1 H1 102_546 2.448(12) n
+CL1 H1 -101_446 2.448(12) n
+O1 MG1 1_555 2.008(3) n
+O1 H1 1_555 0.980(4) n
+O1 H1 2_555 0.980(4) n
+H1 MG1 1_555 2.718(3) n
+H1 CL1 102_556 2.448(12) n
+H1 O1 1_555 0.980(4) n
+H1 H1 2_555 1.555(3) n
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009950

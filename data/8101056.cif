@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-18 14:25:00 +0200 (Thu, 18 Feb 2016) $
+#$Revision: 176728 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/10/8101056.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8101056
+loop_
+_publ_author_name
+'Jones, Camille Y.'
+'Bryan, Jeffrey C.'
+'Kirschbaum, Kristin'
+'Edwards, Jimmie G.'
+_publ_section_title
+;
+Refinement of the crystal structure of digallium trisulfide, Ga~2~S~3~
+;
+_journal_issue                   3
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              327
+_journal_page_last               328
+_journal_volume                  216
+_journal_year                    2001
+_chemical_formula_moiety         'Ga2 S3'
+_chemical_formula_structural     'Ga2 S3'
+_chemical_formula_sum            'Ga2 S3'
+_chemical_formula_weight         235.6
+_space_group_IT_number           9
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 121.17(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   11.107(2)
+_cell_length_b                   6.395(1)
+_cell_length_c                   7.021(1)
+_cell_measurement_temperature    294
+_cell_volume                     426.70(18)
+_diffrn_ambient_temperature      294
+_exptl_crystal_density_diffrn    3.67
+_refine_diff_density_rms         0.33
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'C c'
+_cod_database_code               8101056
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,-y,1/2+z
+1/2+x,1/2+y,z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ga1 0.0068(7) 0.0130(6) 0.0096(7) 0.0005(4) 0.0042(5) 0.0007(4)
+Ga2 0.0065(7) 0.0133(6) 0.0102(7) -0.0012(4) 0.0045(5) -0.0003(4)
+S1 0.0065(12) 0.0160(13) 0.0182(13) -0.0048(9) 0.0043(10) -0.0001(8)
+S2 0.0041(12) 0.0153(12) 0.0098(15) -0.0019(8) 0.0036(11) -0.0009(8)
+S3 0.0084(13) 0.0121(12) 0.0095(12) -0.0010(8) 0.0056(10) -0.0017(8)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ga1 Ga Uani 0.04213(8) 0.40234(19) 0.12512(11) 1.000 0.0098(4) . .
+Ga2 Ga Uani 0.20026(9) 0.93206(18) 0.11559(13) 1.000 0.0099(4) . .
+S1 S Uani -0.0050(3) 1.0861(4) -0.0162(6) 1.000 0.0146(7) . .
+S2 S Uani 0.3378(3) 0.9075(3) 0.4999(4) 1.000 0.0097(8) . .
+S3 S Uani 0.1741(3) 0.5840(3) 0.0084(4) 1.000 0.0095(7) . .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Ga1 S3 2.327(3) . . yes
+Ga1 S1 2.193(3) . 1_545 yes
+Ga1 S3 2.305(3) . 2_565 yes
+Ga1 S2 2.310(3) . 4_464 yes
+Ga2 S1 2.200(4) . . yes
+Ga2 S2 2.318(3) . . yes
+Ga2 S3 2.319(2) . . yes
+Ga2 S2 2.309(3) . 2_574 yes

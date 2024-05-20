@@ -1,0 +1,199 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/05/2300556.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300556
+loop_
+_publ_author_name
+'Bette, Sebastian'
+'Dinnebier, Robert E.'
+'Freyer, Daniela'
+_publ_section_title
+;
+ Structure solution and refinement of stacking-faulted NiCl(OH)
+;
+_journal_coeditor_code           PO5043SUP1
+_journal_issue                   6
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first
+;
+;
+_journal_paper_doi               10.1107/S1600576715017719
+_journal_volume                  48
+_journal_year                    2015
+_chemical_formula_moiety         'Cl H Ni O'
+_chemical_formula_sum            'Cl H Ni O'
+_chemical_formula_weight         111.15
+_chemical_name_common            'NiCl(OH); 1 Ni(OH)2 1 NiCl2'
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_Int_Tables_number      166
+_symmetry_space_group_name_Hall  '-R 3 2"'
+_symmetry_space_group_name_H-M   'R -3 m :H'
+_audit_creation_method           TOPAS
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   3.26061(8)
+_cell_length_b                   3.26061(8)
+_cell_length_c                   17.00619(89)
+_cell_measurement_temperature    295
+_cell_volume                     156.580(10)
+_diffrn_ambient_temperature      295
+_diffrn_detector
+; 
+ Lynx Eye 1mm  
+;
+_diffrn_radiation_monochromator
+'Johannson Ge(220) primary beam monochromator'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.70930
+_diffrn_source_type              Mo-tube
+_exptl_absorpt_process_details
+;   
+ ?
+;
+_exptl_crystal_colour            yellow-green
+_exptl_crystal_density_diffrn    3.66
+_exptl_crystal_description       'microcrystalline powder'
+_pd_calc_method                  'Rietveld Refinement'
+_pd_instr_location
+; 
+'Bruker D8-Advance, Debye-Scherrer mode, MPI-FKF, Stuttgart, Germany'
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        60.0
+_pd_meas_2theta_range_min        2.0
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        60.0
+_pd_proc_2theta_range_min        2.0
+_pd_proc_info_data_reduction     binning
+_pd_proc_info_excluded_regions
+;
+ ?
+;
+_pd_proc_ls_background_function
+;   
+'Chebyshev polynomial'
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ Fundamental parameters
+;
+_pd_proc_ls_prof_R_factor        0.0503
+_pd_proc_ls_prof_wR_expected     0.0355
+_pd_proc_ls_prof_wR_factor       0.0670
+_pd_spec_mounting
+; 
+'0.5 mm glass capillary'
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   1.889
+_refine_ls_number_parameters     42
+_refine_ls_R_Fsqd_factor         0.0200
+_cod_data_source_file            po5043sup1.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_diffrn_radiation_probe' value 'X-ray' changed to 'x-ray' according
+to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 3271 2015-04-21 07:52:19Z andrius 
+;
+_cod_original_cell_volume        156.5796
+_cod_original_sg_symbol_H-M      R-3m
+_cod_database_code               2300556
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 '-x, -x+y, -z'
+2 '-x, -y, -z'
+3 '-x+1/3, -x+y-1/3, -z-1/3'
+4 '-x+1/3, -y-1/3, -z-1/3'
+5 '-x-1/3, -x+y+1/3, -z+1/3'
+6 '-x-1/3, -y+1/3, -z+1/3'
+7 '-x+y, -x, z'
+8 '-x+y, y, z'
+9 '-x+y+1/3, -x-1/3, z-1/3'
+10 '-x+y+1/3, y-1/3, z-1/3'
+11 '-x+y-1/3, -x+1/3, z+1/3'
+12 '-x+y-1/3, y+1/3, z+1/3'
+13 '-y, -x, z'
+14 '-y, x-y, z'
+15 '-y+1/3, -x-1/3, z-1/3'
+16 '-y+1/3, x-y-1/3, z-1/3'
+17 '-y-1/3, -x+1/3, z+1/3'
+18 '-y-1/3, x-y+1/3, z+1/3'
+19 'y, -x+y, -z'
+20 'y, x, -z'
+21 'y+1/3, -x+y-1/3, -z-1/3'
+22 'y+1/3, x-1/3, -z-1/3'
+23 'y-1/3, -x+y+1/3, -z+1/3'
+24 'y-1/3, x+1/3, -z+1/3'
+25 'x-y, -y, -z'
+26 'x-y, x, -z'
+27 'x-y+1/3, -y-1/3, -z-1/3'
+28 'x-y+1/3, x-1/3, -z-1/3'
+29 'x-y-1/3, -y+1/3, -z+1/3'
+30 'x-y-1/3, x+1/3, -z+1/3'
+31 'x, y, z'
+32 'x, x-y, z'
+33 'x+1/3, y-1/3, z-1/3'
+34 'x+1/3, x-y-1/3, z-1/3'
+35 'x-1/3, y+1/3, z+1/3'
+36 'x-1/3, x-y+1/3, z+1/3'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ni1 Ni 3 a 0 0 0 1 1.207(23)
+O1 O 6 c 0.33333 0.66667 0.03500(22) 0.5 0.442(33)
+Cl1 Cl 6 c 0.33333 0.66667 0.08790(8) 0.5 0.442(33)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ni 2
+Cl -1
+O -2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+O1 Ni1 Cl1 20.9(1) 1_555 1_555 1_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_multiplicity
+Ni1 O1 1.9744(11) 6
+Ni1 Cl1 2.4038(9) 6

@@ -1,0 +1,253 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 15:51:18 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179350 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/47/4324730.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4324730
+loop_
+_publ_author_name
+'Derk Wandner'
+'Pascal Link'
+'Oliver Heyer'
+'John Mydosh'
+'Mahmoud A. Ahmida'
+'Mohsen M. Abd-Elmeguid'
+'Manfred Speldrich'
+'Heiko Lueken'
+'Uwe Ruschewitz'
+_publ_section_title
+;
+ Correction to Structural Phase Transitions in EuC2
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2703
+_journal_page_last               2703
+_journal_paper_doi               10.1021/ic200013z
+_journal_volume                  50
+_journal_year                    2011
+_chemical_formula_sum            'C2 Eu'
+_chemical_formula_weight         175.98
+_space_group_IT_number           15
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_audit_author_name               EuC2_298
+_audit_creation_date             2010-11-19T14:31
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2010-11-19T14:31  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 106.9183(16)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.00746(20)
+_cell_length_b                   4.40984(13)
+_cell_length_c                   7.59103(22)
+_cell_measurement_temperature    298
+_cell_volume                     224.424(11)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      298
+_diffrn_radiation_polarisn_ratio 0.95
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.499604
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_block_id                     2010-11-19T14:31|EUC2_298|EuC2_298|B2_(Hasylab)
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   EuC2
+_pd_proc_info_datetime           2010-11-19T14:31:14
+_pd_proc_ls_background_function
+;   GSAS Background function number 7 with 20 terms.
+ Linear interpolation
+      1:    10285.3     2:    12534.8     3:    8883.55     4:    5980.21    
+      5:    7515.49     6:    6503.58     7:    8289.59     8:    5454.85    
+      9:    4696.41    10:    5911.57    11:    5528.51    12:    4981.03    
+     13:    4133.32    14:    4068.63    15:    4134.37    16:    3904.88    
+     17:    3823.51    18:    3356.02    19:    3181.04    20:    3237.14    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   1.0   0.0
+;
+_pd_proc_ls_prof_R_factor        0.0513
+_pd_proc_ls_prof_wR_expected     0.0110
+_pd_proc_ls_prof_wR_factor       0.0644
+_refine_ls_goodness_of_fit_all   5.86
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     32
+_refine_ls_number_restraints     1
+_refine_ls_R_Fsqd_factor         0.09389
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.01
+_reflns_d_resolution_high        0.830
+_reflns_d_resolution_low         3.684
+_reflns_limit_h_max              8
+_reflns_limit_h_min              0
+_reflns_limit_k_max              5
+_reflns_limit_k_min              0
+_reflns_limit_l_max              8
+_reflns_limit_l_min              -9
+_reflns_number_total             204
+_cod_data_source_file            ic200013z_si_001.cif
+_cod_data_source_block           EUC2_298_publ
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (26 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (38
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        224.424(15)
+_cod_original_sg_symbol_H-M      'C 2/c'
+_cod_database_code               4324730
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y,+z+1/2
+101 +x+1/2,+y+1/2,+z
+102 -x+1/2,+y+1/2,-z+1/2
+-101 -x+1/2,-y+1/2,-z
+-102 +x+1/2,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Eu Eu 0.0 0.18282(19) 0.25 1.0 Uiso 0.01097 4
+C C 0.2826(13) 0.1507(14) 0.0541(9) 1.0 Uiso 0.01097 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Eu 4.0 -7.718 11.276 24.6274 2.38790 19.0886 0.19420 13.7603 13.7546 2.92270
+123.174 2.57450 International_Tables_Vol_C
+C 8.0 0.017 0.009 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C Eu C 174.21(26) 1_555 2_555 n
+C Eu C 88.67(26) 1_555 -1_555 n
+C Eu C 88.45(21) 1_555 -2_446 n
+C Eu C 91.91(26) 1_555 101_445 n
+C Eu C 96.74(16) 1_555 101_455 n
+C Eu C 83.48(15) 1_555 102_545 n
+C Eu C 87.64(25) 1_555 102_555 n
+C Eu C 88.45(21) 2_555 -1_555 n
+C Eu C 88.67(26) 2_555 -2_446 n
+C Eu C 83.48(15) 2_555 101_445 n
+C Eu C 87.64(25) 2_555 101_455 n
+C Eu C 91.91(26) 2_555 102_545 n
+C Eu C 96.74(16) 2_555 102_555 n
+C Eu C 120.38(11) -1_555 -2_446 n
+C Eu C 23.36(4) -1_555 101_445 n
+C Eu C 79.06(24) -1_555 101_455 n
+C Eu C 97.35(8) -1_555 102_545 n
+C Eu C 160.10(16) -1_555 102_555 n
+C Eu C 97.35(8) -2_446 101_445 n
+C Eu C 160.10(16) -2_446 101_455 n
+C Eu C 23.36(4) -2_446 102_545 n
+C Eu C 79.06(24) -2_446 102_555 n
+C Eu C 101.64(24) 101_445 101_455 n
+C Eu C 74.75(12) 101_445 102_545 n
+C Eu C 176.39(17) 101_445 102_555 n
+C Eu C 176.39(17) 101_455 102_545 n
+C Eu C 82.0(4) 101_455 102_555 n
+C Eu C 101.64(24) 102_545 102_555 n
+Eu C Eu 91.33(26) 1_555 -1_555 n
+Eu C Eu 96.74(16) 1_555 101_545 n
+Eu C Eu 91.91(26) 1_555 101_555 n
+Eu C C 98.0(9) 1_555 -101_445 n
+Eu C Eu 100.94(24) -1_555 101_545 n
+Eu C Eu 156.64(4) -1_555 101_555 n
+Eu C C 78.0(9) -1_555 -101_445 n
+Eu C Eu 101.64(24) 101_545 101_555 n
+Eu C C 165.2(10) 101_545 -101_445 n
+Eu C C 78.6(9) 101_555 -101_445 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Eu Eu 4.40984(13) 1_545 n
+Eu Eu 4.40984(13) 1_565 n
+Eu Eu 4.1238(7) -1_555 n
+Eu Eu 4.1238(7) -1_556 n
+Eu Eu 4.13978(9) 101_445 n
+Eu Eu 4.13978(9) 101_455 n
+Eu Eu 4.13978(9) 101_545 n
+Eu Eu 4.13978(9) 101_555 n
+Eu Eu 4.39241(26) -101_345 n
+Eu Eu 4.39241(26) -101_446 n
+Eu C 2.805(9) 1_555 n
+Eu C 2.805(9) 2_555 n
+Eu C 2.959(9) -1_555 n
+Eu C 2.959(9) -2_555 n
+Eu C 2.953(9) 101_445 n
+Eu C 2.7332(25) 101_455 n
+Eu C 2.953(9) 102_545 n
+Eu C 2.7332(25) 102_555 n
+Eu C 3.199(8) -101_445 n
+Eu C 3.199(8) -102_345 n
+C Eu 2.805(9) 1_555 n
+C Eu 2.959(9) -1_555 n
+C Eu 2.7332(25) 101_545 n
+C Eu 2.953(9) 101_555 n
+C Eu 3.199(8) -101_445 n
+C C 1.1968(18) -101_445 n

@@ -1,0 +1,233 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/21/2102159.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102159
+loop_
+_publ_author_name
+'Streltsov, Victor A.'
+'Nordborg, Jenni'
+'Albertsson, J\"orgen'
+_publ_section_title
+;
+ Synchrotron X-ray analysis of RbTiOAsO~4~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              785
+_journal_page_last               792
+_journal_paper_doi               10.1107/S0108768100006285
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_structural     'Rb Ti O As O4'
+_chemical_formula_sum            'As O5 Rb Ti'
+_chemical_formula_weight         288.27
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_audit_creation_method           from_xtal_archive_file_using_CIFIO
+_cell_angle_alpha                90.000(8)
+_cell_angle_beta                 90.000(8)
+_cell_angle_gamma                90.000(8)
+_cell_formula_units_Z            8
+_cell_length_a                   13.2352(11)
+_cell_length_b                   6.6666(7)
+_cell_length_c                   10.7483(9)
+_cell_measurement_reflns_used    12
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      50.782
+_cell_measurement_theta_min      42.458
+_cell_volume                     948.36(15)
+_computing_cell_refinement       bl14a
+_computing_data_collection       bl14a
+_computing_data_reduction        'xtal DIFDAT ADDREF SORTRF ABSORB'
+_computing_molecular_graphics    xtal
+_computing_publication_material  'xtal BONDLA CIFIO xd'
+_computing_structure_refinement  'xtal CRYLSQ xd'
+_computing_structure_solution    xtal
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device_type  bl14a_4-circle
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_monochromator  si(111)
+_diffrn_radiation_source         photon_factory_bl14a
+_diffrn_radiation_type           synchrotron_xray_vertical_wiggler
+_diffrn_radiation_wavelength     .75
+_diffrn_reflns_av_R_equivalents  .0541
+_diffrn_reflns_av_sigmaI/netI    .0395
+_diffrn_reflns_limit_h_max       30
+_diffrn_reflns_limit_h_min       -30
+_diffrn_reflns_limit_k_max       15
+_diffrn_reflns_limit_k_min       -15
+_diffrn_reflns_limit_l_max       24
+_diffrn_reflns_limit_l_min       -24
+_diffrn_reflns_number            46432
+_diffrn_reflns_theta_max         60
+_diffrn_reflns_theta_min         3.25
+_diffrn_standards_decay_%        8.8
+_diffrn_standards_interval_count 94
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    21.09
+_exptl_absorpt_correction_T_max  .4943
+_exptl_absorpt_correction_T_min  .3437
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   'Alcock (1974)'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.038
+_exptl_crystal_description       Rectangular
+_exptl_crystal_F_000             1056
+_exptl_crystal_size_max          .064
+_exptl_crystal_size_mid          .058
+_exptl_crystal_size_min          .040
+_refine_ls_abs_structure_details 'Flack xabs refined'
+_refine_ls_abs_structure_Flack   .424(3)
+_refine_ls_extinction_coef       289E2(12)
+_refine_ls_extinction_method     'Becker-Coppens Gaussian'
+_refine_ls_goodness_of_fit_all   1.22
+_refine_ls_goodness_of_fit_ref   1.22
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     533
+_refine_ls_number_reflns         5982
+_refine_ls_R_factor_all          .0179
+_refine_ls_R_factor_gt           .0179
+_refine_ls_shift/su_max          .01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     w=1/\s^2^(F)
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .0152
+_refine_ls_wR_factor_ref         .0152
+_reflns_number_gt                5982
+_reflns_number_total             6310
+_reflns_threshold_expression     'F^2^ > 0'
+_cod_data_source_file            os0048.cif
+_cod_data_source_block           RoomT
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w=1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w=1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Rb Ti O As O4'
+_cod_database_code               2102159
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,-y,1/2+z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Rb1 .02131(9) .00722(6) .02104(12) .00289(5) -.00609(11) -.00211(9)
+Rb2 .01048(8) .01382(10) .01740(17) .00368(6) -.00058(12) -.00088(10)
+Rb3 .0159(5) .0073(5) .0181(8) .0028(3) -.0055(7) -.0020(6)
+Rb4 .0107(5) .0065(4) .0147(9) .0019(3) .0010(7) -.0006(6)
+Ti1 .00519(5) .00489(5) .00490(5) -.00005(5) .00018(4) -.00091(5)
+Ti2 .00502(4) .00500(5) .00473(5) -.00028(5) -.00064(5) .00014(5)
+As1 .00378(3) .00446(3) .00510(3) -.00004(3) .00065(2) -.00029(3)
+As2 .00624(3) .00344(3) .00513(3) -.00027(3) -.00029(3) .00061(2)
+O1 .0100(3) .0117(3) .0105(3) -.0033(2) .0038(2) -.0062(2)
+O2 .0087(3) .0117(3) .0091(2) .0020(2) .0031(2) .0047(2)
+O3 .0058(2) .0073(2) .0127(3) -.0015(2) .0005(2) -.0019(2)
+O4 .0048(2) .0088(2) .0138(3) .0011(2) -.0005(2) .0024(2)
+O11 .0082(2) .0090(2) .0078(2) .0005(2) -.0027(2) -.0031(2)
+O12 .0092(3) .0092(3) .0085(2) .0005(2) -.0031(2) -.0022(2)
+O5 .0116(3) .0048(2) .0119(3) -.0018(2) -.0039(2) .0007(2)
+O6 .0123(3) .0053(2) .0139(3) .0009(2) .0038(2) -.0003(2)
+O7 .0106(3) .0103(3) .0090(2) .0032(2) .0031(2) .0045(2)
+O8 .0117(3) .0110(3) .0081(2) -.0039(2) -.0043(2) .0044(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Rb1 .38246(4) .78159(6) .70236(3) .017
+Rb2 .10885(6) .69335(10) .95521(4) .014
+Rb3 .3871(2) .7878(4) .6741(2) .014
+Rb4 .1110(4) .6983(5) .9340(3) .011
+Ti1 .373747(13) .50505(3) 1.027988(17) .005
+Ti2 .248776(15) .26999(3) .777903(18) .005
+As1 .499652(9) .328210(14) .770681(13) .004
+As2 .179890(7) .505071(17) .516443(11) .005
+O1 .48731(8) .48947(16) .88714(9) .011
+O2 .51039(7) .46126(15) .63784(8) .010
+O3 .39509(6) .18744(14) .74880(9) .009
+O4 .60025(6) .17655(14) .79062(9) .009
+O11 .28160(7) .45211(14) .88764(8) .008
+O12 .21791(7) .05542(14) .63748(8) .009
+O5 .10983(8) .30341(13) .48072(9) .009
+O6 .10713(8) .70414(13) .54832(10) .010
+O7 .25824(8) .54470(15) .39454(9) .010
+O8 .25779(8) .45857(15) .63651(8) .010
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Rb Rb -1.623 3.2461 'Clementi & Roetti (1974)'
+Ti Ti .26471 .495117 'Clementi & Roetti (1974)'
+As As -.147217 2.204 'Clementi & Roetti (1974)'
+O O .009277 .006775 'Clementi & Roetti (1974)'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 20
+0 0 -20
+0 12 0
+0 -12 0
+24 0 0
+-24 0 0
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Rb1 Rb3 1_555 1_555 .312(3) yes
+Rb2 Rb3 1_555 3_545 3.585(3) yes
+Rb2 Rb4 1_555 1_555 .233(4) yes
+Rb3 Rb4 1_555 3_554 3.762(4) yes
+Ti1 O1 1_555 1_555 2.1358(9) yes
+Ti1 O2 1_555 2_665 1.9484(9) yes
+Ti1 O11 1_555 1_555 1.9716(8) yes
+Ti1 O12 1_555 3_555 1.7232(8) yes
+Ti1 O5 1_555 3_555 2.0644(9) yes
+Ti1 O6 1_555 3_545 2.0337(8) yes
+Ti2 O3 1_555 1_555 2.0374(9) yes
+Ti2 O4 1_555 4_455 2.0025(8) yes
+Ti2 O11 1_555 1_555 1.7476(8) yes
+Ti2 O12 1_555 1_555 2.1192(9) yes
+Ti2 O7 1_555 3_545 1.9586(9) yes
+Ti2 O8 1_555 1_555 1.9760(9) yes
+As1 O1 1_555 1_555 1.6581(8) yes
+As1 O2 1_555 1_555 1.6869(8) yes
+As1 O3 1_555 1_555 1.6885(9) yes
+As1 O4 1_555 1_555 1.6855(8) yes
+As2 O5 1_555 1_555 1.6777(9) yes
+As2 O6 1_555 1_555 1.6751(9) yes
+As2 O7 1_555 1_555 1.6917(9) yes
+As2 O8 1_555 1_555 1.6806(9) yes

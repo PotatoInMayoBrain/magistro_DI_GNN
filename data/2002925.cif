@@ -1,0 +1,245 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/29/2002925.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2002925
+loop_
+_publ_author_name
+'Srivastava, R. C.'
+'Klooster, W. T.'
+'Koetzle, T. F.'
+_publ_section_title
+;
+ Neutron structures of ammonium tetrafluoroberyllate
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              17
+_journal_page_last               23
+_journal_paper_doi               10.1107/S010876819800737X
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_iupac          '(N H4)2 Be F4'
+_chemical_formula_sum            'Be F4 H8 N2'
+_chemical_formula_weight         121.093
+_chemical_name_systematic
+;
+ammonium tetrafluoroberyllate
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   7.531(3)
+_cell_length_b                   5.874(2)
+_cell_length_c                   10.399(4)
+_cell_measurement_reflns_used    32
+_cell_measurement_temperature    200
+_cell_measurement_theta_max      27
+_cell_measurement_theta_min      20
+_cell_volume                     460.0(3)
+_computing_cell_refinement       local
+_computing_data_collection       local
+_computing_data_reduction        local
+_computing_structure_refinement  'UPALS (Lundgren, 1982)'
+_diffrn_ambient_temperature      200
+_diffrn_measurement_device       'beamline H6M, HFBR'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  'Be (002)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         reactor
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.0462
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1018
+_diffrn_reflns_theta_max         55
+_diffrn_reflns_theta_min         2
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    0.291
+_exptl_absorpt_correction_T_max  0.428
+_exptl_absorpt_correction_T_min  0.356
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.748
+_exptl_crystal_description       box
+_exptl_crystal_size_max          4.0
+_exptl_crystal_size_mid          3.9
+_exptl_crystal_size_min          3.9
+_refine_diff_density_max         '2 % of maximum'
+_refine_diff_density_min         '2 % of maximum'
+_refine_ls_abs_structure_details ' ?'
+_refine_ls_extinction_coef       36E2(2)
+_refine_ls_extinction_method     'type I, isotropic'
+_refine_ls_goodness_of_fit_all   1.0428
+_refine_ls_goodness_of_fit_obs   1.0428
+_refine_ls_hydrogen_treatment    ref
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         996
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0679
+_refine_ls_R_factor_obs          0.0679
+_refine_ls_shift/esd_max         .01
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w= 1/[\s^2^(F)+0.0004F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0733
+_refine_ls_wR_factor_obs         0.0733
+_reflns_number_observed          790
+_reflns_number_total             996
+_reflns_observed_criterion       I>3\s
+_cod_data_source_file            bk0051.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_atom_site_thermal_displace_type' tag value 'Uij' was replaced with
+'Uani' value 12 times.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w= 1/[\s^2^(F)+0.0004F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w=
+1/[\s^2^(F)+0.0004F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        460.0(5)
+_cod_database_code               2002925
+_cod_database_fobs_code          2002925
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2-y,1/2-z
+-x,1/2+y,-z
+1/2-x,-y,1/2+z
+-x,-y,-z
+1/2-x,1/2+y,1/2+z
+x,1/2-y,z
+1/2+x,y,1/2-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N1 0.0158(4) 0.0186(4) 0.0231(5) 0.0000 0.0005(4) 0.0000
+N2 0.0200(4) 0.0185(4) 0.0186(4) 0.0000 0.0014(4) 0.0000
+Be 0.0134(4) 0.0144(5) 0.0149(5) 0.0000 0.0003(4) 0.0000
+F1 0.0156(8) 0.0447(12) 0.0524(16) 0.0000 -0.0087(9) 0.0000
+F2 0.0352(12) 0.0569(15) 0.0163(8) 0.0000 -0.0020(8) 0.0000
+F3 0.0300(7) 0.0200(5) 0.0515(10) 0.0002(5) 0.0118(7) -0.0159(6)
+H1 0.030(2) 0.066(3) 0.063(3) 0.000 -0.014(2) 0.000
+H2 0.054(3) 0.084(4) 0.063(4) 0.000 0.035(3) 0.000
+H3 0.045(2) 0.074(3) 0.142(5) -0.015(2) 0.017(2) -0.072(3)
+H4 0.077(4) 0.084(4) 0.027(2) 0.000 0.015(2) 0.000
+H5 0.040(2) 0.081(4) 0.065(3) 0.000 -0.021(2) 0.000
+H6 0.106(4) 0.066(2) 0.057(2) -0.053(3) -0.004(2) 0.001(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_calc_attached_atom
+_atom_site_type_symbol
+N1 0.1850(2) 0.2500 0.09900(10) ? Uani ? ? N
+N2 0.4610(2) 0.2500 0.80440(10) ? Uani ? ? N
+Be 0.2505(2) 0.2500 0.41840(10) ? Uani ? ? Be
+F1 0.0531(3) 0.2500 0.3817(3) ? Uani ? ? F
+F2 0.2747(3) 0.2500 0.5639(2) ? Uani ? ? F
+F3 0.3354(2) 0.0348(3) 0.3638(2) ? Uani ? ? F
+H1 0.3137(7) 0.2500 0.1244(6) ? Uani ? ? H
+H2 0.0996(9) 0.2500 0.1711(7) ? Uani ? ? H
+H3 0.1639(6) 0.1137(9) 0.0497(7) ? Uani ? ? H
+H4 0.4897(10) 0.2500 0.7106(5) ? Uani ? ? H
+H5 0.5686(7) 0.2500 0.8596(7) ? Uani ? ? H
+H6 0.3854(8) 0.1174(8) 0.8238(4) ? Uani ? ? H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+H -3.7406 International_Tables_Vol_C
+Be 7.79 International_Tables_Vol_C
+N 9.36 International_Tables_Vol_C
+F 5.654 International_Tables_Vol_C
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 -4 0
+0 -2 6
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+H1 N1 H2 115.4(6) no
+H1 N1 H3 107.4(3) no
+H2 N1 H3 107.3(4) no
+H4 N2 H5 112.8(6) no
+H4 N2 H6 108.9(4) no
+H5 N2 H6 110.7(4) no
+F1 Be F2 111.3(2) no
+F1 Be F3 108.20(10) no
+F2 Be F3 108.60(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N1 H1 1.004(5) no
+N1 H2 .988(7) no
+N1 H3 .964(6) no
+N2 H4 1.000(5) no
+N2 H5 .993(6) no
+N2 H6 .985(6) no
+Be F1 1.535(3) no
+Be F2 1.524(3) no
+Be F3 1.526(2) no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+N1 H1 F1 2_555 1.004(5) 1.804(6) 2.779(2) 162.7(6) yes
+N2 H5 F2 8_556 .993(6) 1.744(6) 2.731(3) 171.9(6) yes
+N2 H6 F3 4_555 .986(5) 1.933(6) 2.857(2) 155.0(5) yes

@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/21/2102113.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102113
+loop_
+_publ_author_name
+'Zhao, Yusheng'
+'Chu, Fuming'
+'Von Dreele, Robert B.'
+'Zhu, Qing'
+_publ_section_title
+;
+ Structural phase transitions of HfV~2~ at low temperatures
+;
+_journal_issue                   4
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              601
+_journal_page_last               606
+_journal_paper_doi               10.1107/S0108768100003633
+_journal_volume                  56
+_journal_year                    2000
+_space_group_IT_number           74
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-I 2b 2'
+_symmetry_space_group_name_H-M   'I m m a'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_length_a                   5.19096(8)
+_cell_length_b                   5.21235(9)
+_cell_length_c                   7.41751(10)
+_cell_volume                     200.696(5)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_wavelength     .7508
+_refine_ls_goodness_of_fit_all   4.24
+_refine_ls_number_parameters     14
+_refine_ls_shift/esd_max         2.32
+_refine_ls_shift/esd_mean        .24
+_reflns_number_observed          0
+_cod_data_source_file            os0043.cif
+_cod_data_source_block           IMMA_90K_publ
+_cod_database_code               2102113
+loop_
+_symmetry_equiv_pos_as_xyz
++x,+y,+z
+-x,+y,+z
++x,-y+1/2,+z
+-x,-y+1/2,+z
+-x,-y,-z
++x,-y,-z
+-x,+y+1/2,-z
++x,+y+1/2,-z
++x+1/2,+y+1/2,+z+1/2
+-x+1/2,+y+1/2,+z+1/2
++x+1/2,-y,+z+1/2
+-x+1/2,-y,+z+1/2
+-x+1/2,-y+1/2,-z+1/2
++x+1/2,-y+1/2,-z+1/2
+-x+1/2,+y,-z+1/2
++x+1/2,+y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+V1 .0 .0 .0 .0114(18) Uiso 1.0
+V2 .25 .75 .25 .021(2) Uiso 1.0
+Hf .0 .25 .3753(4) .005 Uiso 1.0
+loop_
+_atom_type_symbol
+HF
+V
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+V1 V1 3_555 2.6062(5) yes
+V1 V2 1_545 2.6117(2) yes
+V1 V2 3_555 2.6117(2) yes
+V1 V2 2_555 2.5955(4) yes
+V1 Hf 1_555 3.073(3) yes
+V1 Hf 13_555 3.0481(9) yes
+V1 Hf 1_555 3.0560(9) yes
+V1 Hf 5_566 3.068(3) yes
+Hf Hf 5_566 3.196(4) yes
+Hf Hf 13_555 3.192(4) yes

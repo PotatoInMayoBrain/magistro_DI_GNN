@@ -1,0 +1,287 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-24 02:46:15 +0200 (Thu, 24 Mar 2016) $
+#$Revision: 179595 $
+#$URL: svn://www.crystallography.net/cod/cif/4/50/59/4505946.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4505946
+loop_
+_publ_author_name
+'Taddei, Marco'
+'Costantino, Ferdinando'
+'Vivani, Riccardo'
+'Sangregorio, Claudio'
+'Sorace, Lorenzo'
+'Castelli, Lisa'
+_publ_section_title
+;
+ Influence of \p--\p Stacking Interactions on the Assembly of Layered
+ Copper Phosphonate Coordination Polymers: Combined Powder Diffraction and
+ Electron Paramagnetic Resonance Study
+;
+_journal_issue                   5
+_journal_name_full               'Crystal Growth &amp; Design'
+_journal_page_first              2327
+_journal_paper_doi               10.1021/cg201706p
+_journal_volume                  12
+_journal_year                    2012
+_chemical_formula_moiety         Cu[(HO3PCH2)2C6H4]3H2O
+_chemical_formula_sum            'C8 Cu O9 P2'
+_chemical_formula_weight         365.57
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 106.716(3)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   9.9436(3)
+_cell_length_b                   21.1136(5)
+_cell_length_c                   7.2741(3)
+_cell_measurement_temperature    298
+_cell_volume                     1462.63(9)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    FOX
+_diffrn_ambient_temperature      298
+_diffrn_radiation_polarisn_ratio 0.5
+_diffrn_radiation_probe          x-ray
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   3
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with 18 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    4033.53     2:   -2541.45     3:    1056.29     4:   -82.8051    
+      5:   -45.2032     6:    8.43301     7:    77.1765     8:   -124.842    
+      9:    109.630    10:   -6.02066    11:   -80.5890    12:    92.3580    
+     13:   -38.2890    14:   -13.0984    15:    47.5437    16:   -68.9736    
+     17:    56.8785    18:   -30.3288    
+;
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=   0.95117  h= 0.000  k= 1.000  l= 0.000
+ Prefered orientation correction range: Min=   0.92772, Max=   1.16188
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0390
+_pd_proc_ls_prof_wR_expected     0.0142
+_pd_proc_ls_prof_wR_factor       0.0549
+_refine_ls_goodness_of_fit_all   4.04
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     88
+_refine_ls_number_restraints     64
+_refine_ls_R_Fsqd_factor         0.09453
+_refine_ls_shift/su_max          0.10
+_refine_ls_shift/su_mean         0.03
+_cod_data_source_file            cg201706p_si_002.cif
+_cod_data_source_block           compound_3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (52
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (33 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1462.64(8)
+_cod_database_code               4505946
+#BEGIN Tags that were not found in dictionaries:
+_gsas_exptl_extinct_corr_t_min   1.00000
+_gsas_exptl_extinct_corr_t_max   1.00000
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Cu Cu 0.7535(4) 0.24804(24) 0.4252(6) 1.0 Uiso 0.0081(10) 4
+P P1 0.7121(7) 1.12695(33) 0.6693(11) 1.0 Uiso 0.0081(10) 4
+P P2 0.5228(8) 0.8169(4) 0.8704(12) 1.0 Uiso 0.0081(10) 4
+O O1 0.7644(15) 1.1617(6) 0.4929(20) 1.0 Uiso 0.0081(10) 4
+O O2 0.5514(13) 1.1207(7) 0.6181(21) 1.0 Uiso 0.0081(10) 4
+O O3 0.7572(15) 1.1617(6) 0.8510(21) 1.0 Uiso 0.0081(10) 4
+O O4 0.5953(14) 0.8133(6) 0.7142(22) 1.0 Uiso 0.0081(10) 4
+O O5 0.3914(12) 0.7808(6) 0.8061(18) 1.0 Uiso 0.0081(10) 4
+O O6 0.6276(15) 0.7955(7) 1.0333(22) 1.0 Uiso 0.0081(10) 4
+C C1 0.7945(18) 1.0437(7) 0.6880(26) 1.0 Uiso 0.0081(10) 4
+C C2 0.7613(15) 1.0047(7) 0.8397(19) 1.0 Uiso 0.0081(10) 4
+C C3 0.8181(20) 1.0254(8) 1.0221(27) 1.0 Uiso 0.0081(10) 4
+C C4 0.8038(20) 0.9854(9) 1.1629(23) 1.0 Uiso 0.0081(10) 4
+C C5 0.6924(20) 0.9481(11) 1.1320(22) 1.0 Uiso 0.0081(10) 4
+C C6 0.6107(18) 0.9388(9) 0.9474(20) 1.0 Uiso 0.0081(10) 4
+C C7 0.6374(19) 0.9696(10) 0.7970(21) 1.0 Uiso 0.0081(10) 4
+C C8 0.4829(15) 0.8969(7) 0.9155(28) 1.0 Uiso 0.0081(10) 4
+O Ow1 1.0224(17) 0.0990(7) 0.4262(25) 1.0 Uiso 0.0081(10) 4
+O Ow2 0.9175(13) 0.2681(6) 0.6687(18) 1.0 Uiso 0.0081(10) 4
+O Ow3 0.1001(16) 0.3403(7) 0.2646(23) 1.0 Uiso 0.0081(10) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+P 8.0 0.000 0.000 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+O 36.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+C 32.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+Cu 4.0 0.000 0.000 13.3380 3.58280 7.16760 0.24700 5.61580 11.3966 1.67350
+64.8126 1.19100 International_Tables_Vol_C
+loop_
+_diffrn_radiation_wavelength
+_diffrn_radiation_wavelength_wt
+_diffrn_radiation_type
+_diffrn_radiation_wavelength_id
+1.540600 1.000 K\a~1~ 1
+1.544400 0.500 K\a~2~ 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Cu O3 175.4(6) 1_545 -2_564 n
+O1 Cu O5 84.1(6) 1_545 -1_666 n
+O1 Cu Ow2 90.2(6) 1_545 1_555 n
+O3 Cu O5 97.5(7) -2_564 -1_666 n
+O3 Cu Ow2 88.0(6) -2_564 1_555 n
+O5 Cu Ow2 173.2(7) -1_666 1_555 n
+O1 P1 O2 112.3(8) 1_555 1_555 n
+O1 P1 O3 112.8(7) 1_555 1_555 n
+O1 P1 C1 103.5(6) 1_555 1_555 n
+O2 P1 O3 106.7(8) 1_555 1_555 n
+O2 P1 C1 109.3(7) 1_555 1_555 n
+O3 P1 C1 112.3(7) 1_555 1_555 n
+P1 O1 Cu 127.8(7) 1_555 1_565 n
+P1 O3 Cu 134.6(9) 1_555 -2_565 n
+P1 C1 C2 112.2(9) 1_555 1_555 n
+C1 C2 C3 115.3(10) 1_555 1_555 n
+C1 C2 C7 119.9(10) 1_555 1_555 n
+C3 C2 C7 118.8(9) 1_555 1_555 n
+C2 C3 C4 115.5(9) 1_555 1_555 n
+C3 C4 C5 120.2(11) 1_555 1_555 n
+C4 C5 C6 118.9(9) 1_555 1_555 n
+C5 C6 C7 121.5(18) 1_555 1_555 n
+C5 C6 C8 118.0(9) 1_555 1_555 n
+C7 C6 C8 120.4(9) 1_555 1_555 n
+C2 C7 C6 116.0(9) 1_555 1_555 n
+C6 C8 P2 111.1(10) 1_555 1_555 n
+C8 P2 O4 111.4(8) 1_555 1_555 n
+C8 P2 O5 109.0(7) 1_555 1_555 n
+C8 P2 O6 107.4(8) 1_555 1_555 n
+O4 P2 O5 107.9(8) 1_555 1_555 n
+O4 P2 O6 102.6(9) 1_555 1_555 n
+O5 P2 O6 118.5(10) 1_555 1_555 n
+P2 O5 Cu 142.9(8) 1_555 -1_666 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu O1 1.883(10) 1_545 n
+Cu O3 1.985(11) -2_564 n
+Cu O5 2.827(11) 2_646 n
+Cu O5 1.971(11) -1_666 n
+Cu Ow2 2.077(13) 1_555 n
+Cu Ow2 2.830(12) -2_554 n
+P1 O1 1.685(12) 1_555 n
+P1 O2 1.538(13) 1_555 n
+P1 O3 1.464(13) 1_555 n
+P1 C1 1.927(14) 1_555 n
+P2 O4 1.513(14) 1_555 n
+P2 O5 1.468(11) 1_555 n
+P2 O6 1.409(13) 1_555 n
+P2 C8 1.787(13) 1_555 n
+O1 P1 1.685(12) 1_555 n
+O1 Cu 1.883(10) 1_565 n
+O2 P1 1.538(13) 1_555 n
+O2 O4 2.807(19) -1_676 n
+O3 P1 1.464(13) 1_555 n
+O3 Cu 1.985(11) -2_565 n
+C1 P1 1.927(14) 1_555 n
+C1 C2 1.489(15) 1_555 n
+C2 C1 1.489(15) 1_555 n
+C2 C3 1.356(15) 1_555 n
+C2 C7 1.394(15) 1_555 n
+C3 C2 1.356(15) 1_555 n
+C3 C4 1.366(15) 1_555 n
+C4 C3 1.366(15) 1_555 n
+C4 C5 1.324(15) 1_555 n
+C5 C4 1.324(15) 1_555 n
+C5 C6 1.369(15) 1_555 n
+C6 C5 1.369(15) 1_555 n
+C6 C7 1.363(15) 1_555 n
+C6 C8 1.510(14) 1_555 n
+C7 C2 1.394(15) 1_555 n
+C8 C6 1.510(14) 1_555 n
+C8 P2 1.787(13) 1_555 n
+O4 P2 1.513(14) 1_555 n
+O4 O6 2.712(16) -2_564 n
+O5 P2 1.468(11) 1_555 n
+O5 Cu 2.827(11) 2_656 n
+O5 Cu 1.971(11) -1_666 n
+O6 P2 1.409(13) 1_555 n
+O6 O4 2.712(16) -2_565 n
+O6 Ow3 2.846(18) 2_656 n
+Ow1 Ow3 2.684(17) -2_655 n
+Ow2 Cu 2.077(13) 1_555 n
+Ow2 Cu 2.830(12) -2_555 n
+Ow2 Ow3 2.881(17) -2_655 n
+Ow3 O6 2.846(18) 2_646 n
+Ow3 Ow1 2.684(17) -2_454 n
+Ow3 Ow2 2.881(17) -2_454 n

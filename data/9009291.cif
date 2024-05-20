@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/92/9009291.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009291
+loop_
+_publ_author_name
+'Radoslovich, E. W.'
+'Slade, P. G.'
+_publ_section_title
+;
+ Pseudo-trigonal symmetry and the structure of gorceixite
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              157
+_journal_page_last               170
+_journal_volume                  1980
+_journal_year                    1980
+_chemical_compound_source        'Glen Alice area, New South Wales, Australia'
+_chemical_formula_sum            'Al3 Ba0.95 H6 O14 P2 Sr0.01'
+_chemical_name_mineral           Gorceixite
+_space_group_IT_number           160
+_symmetry_space_group_name_Hall  'R 3 -2"'
+_symmetry_space_group_name_H-M   'R 3 m :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   7.0363
+_cell_length_b                   7.0363
+_cell_length_c                   17.28188
+_cell_volume                     740.987
+_database_code_amcsd             0014763
+_exptl_crystal_density_diffrn    3.390
+_cod_original_sg_symbol_H-M      'R 3 m'
+_cod_original_formula_sum        'Ba.95 Sr.01 Al3 P2 O14 H6'
+_cod_database_code               9009291
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+2/3+x,1/3+y,1/3+z
+1/3+x,2/3+y,2/3+z
+x,x-y,z
+2/3+x,1/3+x-y,1/3+z
+1/3+x,2/3+x-y,2/3+z
+-y,-x,z
+2/3-y,1/3-x,1/3+z
+1/3-y,2/3-x,2/3+z
+-x+y,y,z
+2/3-x+y,1/3+y,1/3+z
+1/3-x+y,2/3+y,2/3+z
+-y,x-y,z
+2/3-y,1/3+x-y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+-x+y,-x,z
+2/3-x+y,1/3-x,1/3+z
+1/3-x+y,2/3-x,2/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba 0.00000 0.00000 0.00000 0.95000 0.00633 Ba 0
+Sr 0.00000 0.00000 0.00000 0.01000 0.00633 Sr 0
+Al 0.49690 -0.49690 0.49830 1.00000 0.00633 Al 0
+P1 0.00000 0.00000 0.29960 1.00000 0.00760 P 0
+P2 0.00000 0.00000 -0.30160 1.00000 0.00633 P 0
+O1 0.00000 0.00000 0.39260 1.00000 0.00887 O 0
+O2 0.00000 0.00000 -0.38800 1.00000 0.00633 O 0
+O21 0.21590 -0.21590 -0.06100 1.00000 0.01140 O 0
+O22 -0.21490 0.21490 0.06300 1.00000 0.00760 O 0
+O-H1 0.13210 -0.13210 0.14030 1.00000 0.00507 O 1
+O-H2 -0.12070 0.12070 -0.13890 1.00000 0.00760 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:34+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014763

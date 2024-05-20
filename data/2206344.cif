@@ -1,0 +1,640 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 05:06:23 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176774 $
+#$URL: svn://www.crystallography.net/cod/cif/2/20/63/2206344.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2206344
+loop_
+_publ_author_name
+'Belgacem, Besma'
+'Yahyaoui, Samia'
+'Demchenko, P. Yu.'
+'Bodak, O. I.'
+'Dusek, Michal'
+'Petricek, Vaclav'
+'Ben Hassen, Rached'
+_publ_section_title
+;
+ Lanthanum dimagnesium
+;
+_journal_coeditor_code           BR6195
+_journal_issue                   8
+_journal_name_full               'Acta Crystallographica Section E'
+_journal_page_first              i155
+_journal_page_last               i157
+_journal_paper_doi               10.1107/S1600536805021343
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_iupac          'La Mg2'
+_chemical_formula_structural     'La Mg2'
+_chemical_formula_sum            'La Mg2'
+_chemical_formula_weight         187.53
+_chemical_name_systematic
+;
+Lanthanum Dimagnesium
+;
+_space_group_IT_number           227
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-F 4vw 2vw 3'
+_symmetry_space_group_name_H-M   'F d -3 m :2'
+_atom_sites_solution_primary     Patterson
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.810(2)
+_cell_length_b                   8.810(2)
+_cell_length_c                   8.810(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      27
+_cell_measurement_theta_min      2.15
+_cell_volume                     683.8(3)
+_computing_cell_refinement       KM4B8
+_computing_data_collection       'KM4B8 (Galdecki <i>et al.</i>, 1996)'
+_computing_data_reduction        'JANA2000 (Petricek <i>et al.</i>, 2000)'
+_computing_molecular_graphics    'DIAMOND (Brandenburg, 1999)'
+_computing_publication_material  JANA2000
+_computing_structure_refinement  JANA2000
+_computing_structure_solution    JANA2000
+_diffrn_ambient_temperature      295
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measurement_device_type  'Oxford Diffraction point-detector'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0314
+_diffrn_reflns_av_sigmaI/netI    0.0053
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            648
+_diffrn_reflns_theta_full        26.6
+_diffrn_reflns_theta_max         26.6
+_diffrn_reflns_theta_min         4.01
+_diffrn_standards_decay_%        1.1
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    12.55
+_exptl_absorpt_correction_T_max  0.550
+_exptl_absorpt_correction_T_min  0.323
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(JANA2000; Petricek <i>et al.</i>, 2000)'
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    3.6417
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       'elongated tablet'
+_exptl_crystal_F_000             648
+_exptl_crystal_size_max          0.36
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.07
+_refine_diff_density_max         0.11
+_refine_diff_density_min         -0.09
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.14
+_refine_ls_number_parameters     4
+_refine_ls_number_reflns         50
+_refine_ls_R_factor_all          0.0093
+_refine_ls_R_factor_gt           0.0083
+_refine_ls_shift/su_max          0.0015
+_refine_ls_shift/su_mean         0.0005
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0242
+_refine_ls_wR_factor_ref         0.0245
+_reflns_number_gt                46
+_reflns_number_total             50
+_reflns_threshold_expression     I>3\s(I)
+_cod_data_source_file            br6195.cif
+_cod_data_source_block           I
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to 'gaussian'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_sg_symbol_H-M      'F d -3 m'
+_cod_database_code               2206344
+_cod_database_fobs_code          2206344
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -y,1/4+x,1/4+z
+3 x,1/4-y,1/4-z
+4 z,x,y
+5 1/4-x,1/4-y,z
+6 1/4+y,1/4+x,-z
+7 -x,1/4+z,1/4+y
+8 1/4+y,-x,1/4+z
+9 1/4-x,y,1/4-z
+10 1/4-z,1/4-x,y
+11 -y,-x,-z
+12 1/4+x,-z,1/4+y
+13 z,1/4-x,1/4-y
+14 1/4+x,1/4+z,-y
+15 1/4-z,x,1/4-y
+16 -x,-z,-y
+17 1/4+z,-y,1/4+x
+18 y,z,x
+19 -z,1/4+y,1/4+x
+20 1/4-y,1/4-z,x
+21 1/4+z,1/4+y,-x
+22 1/4-y,z,1/4-x
+23 -z,-y,-x
+24 y,1/4-z,1/4-x
+25 -x,-y,-z
+26 y,1/4-x,1/4-z
+27 -x,1/4+y,1/4+z
+28 -z,-x,-y
+29 1/4+x,1/4+y,-z
+30 1/4-y,1/4-x,z
+31 x,1/4-z,1/4-y
+32 1/4-y,x,1/4-z
+33 1/4+x,-y,1/4+z
+34 1/4+z,1/4+x,-y
+35 y,x,z
+36 1/4-x,z,1/4-y
+37 -z,1/4+x,1/4+y
+38 1/4-x,1/4-z,y
+39 1/4+z,-x,1/4+y
+40 x,z,y
+41 1/4-z,y,1/4-x
+42 -y,-z,-x
+43 z,1/4-y,1/4-x
+44 1/4+y,1/4+z,-x
+45 1/4-z,1/4-y,x
+46 1/4+y,-z,1/4+x
+47 z,y,x
+48 -y,1/4+z,1/4+x
+49 x,1/2+y,1/2+z
+50 -y,3/4+x,3/4+z
+51 x,3/4-y,3/4-z
+52 z,1/2+x,1/2+y
+53 1/4-x,3/4-y,1/2+z
+54 1/4+y,3/4+x,1/2-z
+55 -x,3/4+z,3/4+y
+56 1/4+y,1/2-x,3/4+z
+57 1/4-x,1/2+y,3/4-z
+58 1/4-z,3/4-x,1/2+y
+59 -y,1/2-x,1/2-z
+60 1/4+x,1/2-z,3/4+y
+61 z,3/4-x,3/4-y
+62 1/4+x,3/4+z,1/2-y
+63 1/4-z,1/2+x,3/4-y
+64 -x,1/2-z,1/2-y
+65 1/4+z,1/2-y,3/4+x
+66 y,1/2+z,1/2+x
+67 -z,3/4+y,3/4+x
+68 1/4-y,3/4-z,1/2+x
+69 1/4+z,3/4+y,1/2-x
+70 1/4-y,1/2+z,3/4-x
+71 -z,1/2-y,1/2-x
+72 y,3/4-z,3/4-x
+73 -x,1/2-y,1/2-z
+74 y,3/4-x,3/4-z
+75 -x,3/4+y,3/4+z
+76 -z,1/2-x,1/2-y
+77 1/4+x,3/4+y,1/2-z
+78 1/4-y,3/4-x,1/2+z
+79 x,3/4-z,3/4-y
+80 1/4-y,1/2+x,3/4-z
+81 1/4+x,1/2-y,3/4+z
+82 1/4+z,3/4+x,1/2-y
+83 y,1/2+x,1/2+z
+84 1/4-x,1/2+z,3/4-y
+85 -z,3/4+x,3/4+y
+86 1/4-x,3/4-z,1/2+y
+87 1/4+z,1/2-x,3/4+y
+88 x,1/2+z,1/2+y
+89 1/4-z,1/2+y,3/4-x
+90 -y,1/2-z,1/2-x
+91 z,3/4-y,3/4-x
+92 1/4+y,3/4+z,1/2-x
+93 1/4-z,3/4-y,1/2+x
+94 1/4+y,1/2-z,3/4+x
+95 z,1/2+y,1/2+x
+96 -y,3/4+z,3/4+x
+97 1/2+x,y,1/2+z
+98 1/2-y,1/4+x,3/4+z
+99 1/2+x,1/4-y,3/4-z
+100 1/2+z,x,1/2+y
+101 3/4-x,1/4-y,1/2+z
+102 3/4+y,1/4+x,1/2-z
+103 1/2-x,1/4+z,3/4+y
+104 3/4+y,-x,3/4+z
+105 3/4-x,y,3/4-z
+106 3/4-z,1/4-x,1/2+y
+107 1/2-y,-x,1/2-z
+108 3/4+x,-z,3/4+y
+109 1/2+z,1/4-x,3/4-y
+110 3/4+x,1/4+z,1/2-y
+111 3/4-z,x,3/4-y
+112 1/2-x,-z,1/2-y
+113 3/4+z,-y,3/4+x
+114 1/2+y,z,1/2+x
+115 1/2-z,1/4+y,3/4+x
+116 3/4-y,1/4-z,1/2+x
+117 3/4+z,1/4+y,1/2-x
+118 3/4-y,z,3/4-x
+119 1/2-z,-y,1/2-x
+120 1/2+y,1/4-z,3/4-x
+121 1/2-x,-y,1/2-z
+122 1/2+y,1/4-x,3/4-z
+123 1/2-x,1/4+y,3/4+z
+124 1/2-z,-x,1/2-y
+125 3/4+x,1/4+y,1/2-z
+126 3/4-y,1/4-x,1/2+z
+127 1/2+x,1/4-z,3/4-y
+128 3/4-y,x,3/4-z
+129 3/4+x,-y,3/4+z
+130 3/4+z,1/4+x,1/2-y
+131 1/2+y,x,1/2+z
+132 3/4-x,z,3/4-y
+133 1/2-z,1/4+x,3/4+y
+134 3/4-x,1/4-z,1/2+y
+135 3/4+z,-x,3/4+y
+136 1/2+x,z,1/2+y
+137 3/4-z,y,3/4-x
+138 1/2-y,-z,1/2-x
+139 1/2+z,1/4-y,3/4-x
+140 3/4+y,1/4+z,1/2-x
+141 3/4-z,1/4-y,1/2+x
+142 3/4+y,-z,3/4+x
+143 1/2+z,y,1/2+x
+144 1/2-y,1/4+z,3/4+x
+145 1/2+x,1/2+y,z
+146 1/2-y,3/4+x,1/4+z
+147 1/2+x,3/4-y,1/4-z
+148 1/2+z,1/2+x,y
+149 3/4-x,3/4-y,z
+150 3/4+y,3/4+x,-z
+151 1/2-x,3/4+z,1/4+y
+152 3/4+y,1/2-x,1/4+z
+153 3/4-x,1/2+y,1/4-z
+154 3/4-z,3/4-x,y
+155 1/2-y,1/2-x,-z
+156 3/4+x,1/2-z,1/4+y
+157 1/2+z,3/4-x,1/4-y
+158 3/4+x,3/4+z,-y
+159 3/4-z,1/2+x,1/4-y
+160 1/2-x,1/2-z,-y
+161 3/4+z,1/2-y,1/4+x
+162 1/2+y,1/2+z,x
+163 1/2-z,3/4+y,1/4+x
+164 3/4-y,3/4-z,x
+165 3/4+z,3/4+y,-x
+166 3/4-y,1/2+z,1/4-x
+167 1/2-z,1/2-y,-x
+168 1/2+y,3/4-z,1/4-x
+169 1/2-x,1/2-y,-z
+170 1/2+y,3/4-x,1/4-z
+171 1/2-x,3/4+y,1/4+z
+172 1/2-z,1/2-x,-y
+173 3/4+x,3/4+y,-z
+174 3/4-y,3/4-x,z
+175 1/2+x,3/4-z,1/4-y
+176 3/4-y,1/2+x,1/4-z
+177 3/4+x,1/2-y,1/4+z
+178 3/4+z,3/4+x,-y
+179 1/2+y,1/2+x,z
+180 3/4-x,1/2+z,1/4-y
+181 1/2-z,3/4+x,1/4+y
+182 3/4-x,3/4-z,y
+183 3/4+z,1/2-x,1/4+y
+184 1/2+x,1/2+z,y
+185 3/4-z,1/2+y,1/4-x
+186 1/2-y,1/2-z,-x
+187 1/2+z,3/4-y,1/4-x
+188 3/4+y,3/4+z,-x
+189 3/4-z,3/4-y,x
+190 3/4+y,1/2-z,1/4+x
+191 1/2+z,1/2+y,x
+192 1/2-y,3/4+z,1/4+x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_type_symbol
+La1 0.625 0.625 0.125 0.0195(2) Uani d 1 La
+Mg1 0 0.5 0 0.0145(2) Uani d 1 Mg
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+La1 0.0195(2) 0.0195(2) 0.0195(2) 0 0 0 La
+Mg1 0.0145(3) 0.0145(3) 0.0145(3) -0.0012(5) -0.0012(5) -0.0012(5) Mg
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+La -0.287 2.452 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+Mg 0.049 0.036 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.4'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+4 0 0
+0 4 0
+0 0 4
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Mg1 La1 Mg1 1_655 97_555 117.036 yes
+Mg1 La1 Mg1 1_655 145_555 117.036 no
+Mg1 La1 Mg1 1_655 2_655 95.216 yes
+Mg1 La1 Mg1 1_655 50_654 95.216 no
+Mg1 La1 Mg1 1_655 146_655 50.479 yes
+Mg1 La1 Mg1 1_655 5_565 144.903 yes
+Mg1 La1 Mg1 1_655 101_565 95.216 no
+Mg1 La1 Mg1 1_655 149_555 50.479 no
+Mg1 La1 Mg1 1_655 8_565 95.216 no
+Mg1 La1 Mg1 1_655 56_554 50.479 no
+Mg1 La1 Mg1 1_655 152_455 144.903 no
+Mg1 La1 Mg1 97_555 1_655 117.036 no
+Mg1 La1 Mg1 97_555 145_555 117.036 no
+Mg1 La1 Mg1 97_555 2_655 50.479 no
+Mg1 La1 Mg1 97_555 50_654 144.903 no
+Mg1 La1 Mg1 97_555 146_655 95.216 no
+Mg1 La1 Mg1 97_555 5_565 95.216 no
+Mg1 La1 Mg1 97_555 101_565 50.479 no
+Mg1 La1 Mg1 97_555 149_555 95.216 no
+Mg1 La1 Mg1 97_555 8_565 95.216 no
+Mg1 La1 Mg1 97_555 56_554 144.903 no
+Mg1 La1 Mg1 97_555 152_455 50.479 no
+Mg1 La1 Mg1 145_555 1_655 117.036 no
+Mg1 La1 Mg1 145_555 97_555 117.036 no
+Mg1 La1 Mg1 145_555 2_655 144.903 no
+Mg1 La1 Mg1 145_555 50_654 50.479 no
+Mg1 La1 Mg1 145_555 146_655 95.216 no
+Mg1 La1 Mg1 145_555 5_565 50.479 no
+Mg1 La1 Mg1 145_555 101_565 95.216 no
+Mg1 La1 Mg1 145_555 149_555 144.903 no
+Mg1 La1 Mg1 145_555 8_565 50.479 no
+Mg1 La1 Mg1 145_555 56_554 95.216 no
+Mg1 La1 Mg1 145_555 152_455 95.216 no
+Mg1 La1 Mg1 2_655 1_655 95.216 no
+Mg1 La1 Mg1 2_655 97_555 50.479 no
+Mg1 La1 Mg1 2_655 145_555 144.903 no
+Mg1 La1 Mg1 2_655 50_654 117.036 no
+Mg1 La1 Mg1 2_655 146_655 117.036 no
+Mg1 La1 Mg1 2_655 5_565 95.216 no
+Mg1 La1 Mg1 2_655 101_565 95.216 no
+Mg1 La1 Mg1 2_655 149_555 50.479 no
+Mg1 La1 Mg1 2_655 8_565 144.903 no
+Mg1 La1 Mg1 2_655 56_554 95.216 no
+Mg1 La1 Mg1 2_655 152_455 50.479 no
+Mg1 La1 Mg1 50_654 1_655 95.216 no
+Mg1 La1 Mg1 50_654 97_555 144.903 no
+Mg1 La1 Mg1 50_654 145_555 50.479 no
+Mg1 La1 Mg1 50_654 2_655 117.036 no
+Mg1 La1 Mg1 50_654 146_655 117.036 no
+Mg1 La1 Mg1 50_654 5_565 50.479 no
+Mg1 La1 Mg1 50_654 101_565 144.903 no
+Mg1 La1 Mg1 50_654 149_555 95.216 no
+Mg1 La1 Mg1 50_654 8_565 95.216 no
+Mg1 La1 Mg1 50_654 56_554 50.479 no
+Mg1 La1 Mg1 50_654 152_455 95.216 no
+Mg1 La1 Mg1 146_655 1_655 50.479 no
+Mg1 La1 Mg1 146_655 97_555 95.216 no
+Mg1 La1 Mg1 146_655 145_555 95.216 no
+Mg1 La1 Mg1 146_655 2_655 117.036 no
+Mg1 La1 Mg1 146_655 50_654 117.036 no
+Mg1 La1 Mg1 146_655 5_565 144.903 no
+Mg1 La1 Mg1 146_655 101_565 50.479 no
+Mg1 La1 Mg1 146_655 149_555 95.216 no
+Mg1 La1 Mg1 146_655 8_565 50.479 no
+Mg1 La1 Mg1 146_655 56_554 95.216 no
+Mg1 La1 Mg1 146_655 152_455 144.903 no
+Mg1 La1 Mg1 5_565 1_655 144.903 no
+Mg1 La1 Mg1 5_565 97_555 95.216 no
+Mg1 La1 Mg1 5_565 145_555 50.479 no
+Mg1 La1 Mg1 5_565 2_655 95.216 no
+Mg1 La1 Mg1 5_565 50_654 50.479 no
+Mg1 La1 Mg1 5_565 146_655 144.903 no
+Mg1 La1 Mg1 5_565 101_565 117.036 no
+Mg1 La1 Mg1 5_565 149_555 117.036 no
+Mg1 La1 Mg1 5_565 8_565 95.216 no
+Mg1 La1 Mg1 5_565 56_554 95.216 no
+Mg1 La1 Mg1 5_565 152_455 50.479 no
+Mg1 La1 Mg1 101_565 1_655 95.216 no
+Mg1 La1 Mg1 101_565 97_555 50.479 no
+Mg1 La1 Mg1 101_565 145_555 95.216 no
+Mg1 La1 Mg1 101_565 2_655 95.216 no
+Mg1 La1 Mg1 101_565 50_654 144.903 no
+Mg1 La1 Mg1 101_565 146_655 50.479 no
+Mg1 La1 Mg1 101_565 5_565 117.036 no
+Mg1 La1 Mg1 101_565 149_555 117.036 no
+Mg1 La1 Mg1 101_565 8_565 50.479 no
+Mg1 La1 Mg1 101_565 56_554 144.903 no
+Mg1 La1 Mg1 101_565 152_455 95.216 no
+Mg1 La1 Mg1 149_555 1_655 50.479 no
+Mg1 La1 Mg1 149_555 97_555 95.216 no
+Mg1 La1 Mg1 149_555 145_555 144.903 no
+Mg1 La1 Mg1 149_555 2_655 50.479 no
+Mg1 La1 Mg1 149_555 50_654 95.216 no
+Mg1 La1 Mg1 149_555 146_655 95.216 no
+Mg1 La1 Mg1 149_555 5_565 117.036 no
+Mg1 La1 Mg1 149_555 101_565 117.036 no
+Mg1 La1 Mg1 149_555 8_565 144.903 no
+Mg1 La1 Mg1 149_555 56_554 50.479 no
+Mg1 La1 Mg1 149_555 152_455 95.216 no
+Mg1 La1 Mg1 8_565 1_655 95.216 no
+Mg1 La1 Mg1 8_565 97_555 95.216 no
+Mg1 La1 Mg1 8_565 145_555 50.479 no
+Mg1 La1 Mg1 8_565 2_655 144.903 no
+Mg1 La1 Mg1 8_565 50_654 95.216 no
+Mg1 La1 Mg1 8_565 146_655 50.479 no
+Mg1 La1 Mg1 8_565 5_565 95.216 no
+Mg1 La1 Mg1 8_565 101_565 50.479 no
+Mg1 La1 Mg1 8_565 149_555 144.903 no
+Mg1 La1 Mg1 8_565 56_554 117.036 no
+Mg1 La1 Mg1 8_565 152_455 117.036 no
+Mg1 La1 Mg1 56_554 1_655 50.479 no
+Mg1 La1 Mg1 56_554 97_555 144.903 no
+Mg1 La1 Mg1 56_554 145_555 95.216 no
+Mg1 La1 Mg1 56_554 2_655 95.216 no
+Mg1 La1 Mg1 56_554 50_654 50.479 no
+Mg1 La1 Mg1 56_554 146_655 95.216 no
+Mg1 La1 Mg1 56_554 5_565 95.216 no
+Mg1 La1 Mg1 56_554 101_565 144.903 no
+Mg1 La1 Mg1 56_554 149_555 50.479 no
+Mg1 La1 Mg1 56_554 8_565 117.036 no
+Mg1 La1 Mg1 56_554 152_455 117.036 no
+Mg1 La1 Mg1 152_455 1_655 144.903 no
+Mg1 La1 Mg1 152_455 97_555 50.479 no
+Mg1 La1 Mg1 152_455 145_555 95.216 no
+Mg1 La1 Mg1 152_455 2_655 50.479 no
+Mg1 La1 Mg1 152_455 50_654 95.216 no
+Mg1 La1 Mg1 152_455 146_655 144.903 no
+Mg1 La1 Mg1 152_455 5_565 50.479 no
+Mg1 La1 Mg1 152_455 101_565 95.216 no
+Mg1 La1 Mg1 152_455 149_555 95.216 no
+Mg1 La1 Mg1 152_455 8_565 117.036 no
+Mg1 La1 Mg1 152_455 56_554 117.036 no
+La1 Mg1 La1 1_455 97_454 117.036 yes
+La1 Mg1 La1 1_455 145_445 117.036 no
+La1 Mg1 La1 1_455 25_665 180 yes
+La1 Mg1 La1 1_455 121_565 62.964 yes
+La1 Mg1 La1 1_455 169_565 62.964 no
+La1 Mg1 Mg1 1_455 98_554 115.239 yes
+La1 Mg1 Mg1 1_455 146_555 64.761 yes
+La1 Mg1 Mg1 1_455 5_565 115.239 no
+La1 Mg1 Mg1 1_455 149_455 64.761 no
+La1 Mg1 Mg1 1_455 56_454 64.761 no
+La1 Mg1 Mg1 1_455 152_455 115.239 no
+La1 Mg1 La1 97_454 1_455 117.036 no
+La1 Mg1 La1 97_454 145_445 117.036 no
+La1 Mg1 La1 97_454 25_665 62.964 no
+La1 Mg1 La1 97_454 121_565 180 no
+La1 Mg1 La1 97_454 169_565 62.964 no
+La1 Mg1 Mg1 97_454 98_554 64.761 no
+La1 Mg1 Mg1 97_454 146_555 115.239 no
+La1 Mg1 Mg1 97_454 5_565 64.761 no
+La1 Mg1 Mg1 97_454 149_455 115.239 no
+La1 Mg1 Mg1 97_454 56_454 64.761 no
+La1 Mg1 Mg1 97_454 152_455 115.239 no
+La1 Mg1 La1 145_445 1_455 117.036 no
+La1 Mg1 La1 145_445 97_454 117.036 no
+La1 Mg1 La1 145_445 25_665 62.964 no
+La1 Mg1 La1 145_445 121_565 62.964 no
+La1 Mg1 La1 145_445 169_565 180 no
+La1 Mg1 Mg1 145_445 98_554 64.761 no
+La1 Mg1 Mg1 145_445 146_555 115.239 no
+La1 Mg1 Mg1 145_445 5_565 115.239 no
+La1 Mg1 Mg1 145_445 149_455 64.761 no
+La1 Mg1 Mg1 145_445 56_454 115.239 no
+La1 Mg1 Mg1 145_445 152_455 64.761 no
+La1 Mg1 La1 25_665 1_455 180 no
+La1 Mg1 La1 25_665 97_454 62.964 no
+La1 Mg1 La1 25_665 145_445 62.964 no
+La1 Mg1 La1 25_665 121_565 117.036 no
+La1 Mg1 La1 25_665 169_565 117.036 no
+La1 Mg1 Mg1 25_665 98_554 64.761 no
+La1 Mg1 Mg1 25_665 146_555 115.239 no
+La1 Mg1 Mg1 25_665 5_565 64.761 no
+La1 Mg1 Mg1 25_665 149_455 115.239 no
+La1 Mg1 Mg1 25_665 56_454 115.239 no
+La1 Mg1 Mg1 25_665 152_455 64.761 no
+La1 Mg1 La1 121_565 1_455 62.964 no
+La1 Mg1 La1 121_565 97_454 180 no
+La1 Mg1 La1 121_565 145_445 62.964 no
+La1 Mg1 La1 121_565 25_665 117.036 no
+La1 Mg1 La1 121_565 169_565 117.036 no
+La1 Mg1 Mg1 121_565 98_554 115.239 no
+La1 Mg1 Mg1 121_565 146_555 64.761 no
+La1 Mg1 Mg1 121_565 5_565 115.239 no
+La1 Mg1 Mg1 121_565 149_455 64.761 no
+La1 Mg1 Mg1 121_565 56_454 115.239 no
+La1 Mg1 Mg1 121_565 152_455 64.761 no
+La1 Mg1 La1 169_565 1_455 62.964 no
+La1 Mg1 La1 169_565 97_454 62.964 no
+La1 Mg1 La1 169_565 145_445 180 no
+La1 Mg1 La1 169_565 25_665 117.036 no
+La1 Mg1 La1 169_565 121_565 117.036 no
+La1 Mg1 Mg1 169_565 98_554 115.239 no
+La1 Mg1 Mg1 169_565 146_555 64.761 no
+La1 Mg1 Mg1 169_565 5_565 64.761 no
+La1 Mg1 Mg1 169_565 149_455 115.239 no
+La1 Mg1 Mg1 169_565 56_454 64.761 no
+La1 Mg1 Mg1 169_565 152_455 115.239 no
+Mg1 Mg1 Mg1 98_554 146_555 180 yes
+Mg1 Mg1 Mg1 98_554 5_565 120 yes
+Mg1 Mg1 Mg1 98_554 149_455 60 yes
+Mg1 Mg1 Mg1 98_554 56_454 60 no
+Mg1 Mg1 Mg1 98_554 152_455 120 no
+Mg1 Mg1 Mg1 146_555 98_554 180 no
+Mg1 Mg1 Mg1 146_555 5_565 60 no
+Mg1 Mg1 Mg1 146_555 149_455 120 no
+Mg1 Mg1 Mg1 146_555 56_454 120 no
+Mg1 Mg1 Mg1 146_555 152_455 60 no
+Mg1 Mg1 Mg1 5_565 98_554 120 no
+Mg1 Mg1 Mg1 5_565 146_555 60 no
+Mg1 Mg1 Mg1 5_565 149_455 180 no
+Mg1 Mg1 Mg1 5_565 56_454 120 no
+Mg1 Mg1 Mg1 5_565 152_455 60 no
+Mg1 Mg1 Mg1 149_455 98_554 60 no
+Mg1 Mg1 Mg1 149_455 146_555 120 no
+Mg1 Mg1 Mg1 149_455 5_565 180 no
+Mg1 Mg1 Mg1 149_455 56_454 60 no
+Mg1 Mg1 Mg1 149_455 152_455 120 no
+Mg1 Mg1 Mg1 56_454 98_554 60 no
+Mg1 Mg1 Mg1 56_454 146_555 120 no
+Mg1 Mg1 Mg1 56_454 5_565 120 no
+Mg1 Mg1 Mg1 56_454 149_455 60 no
+Mg1 Mg1 Mg1 56_454 152_455 180 no
+Mg1 Mg1 Mg1 152_455 98_554 120 no
+Mg1 Mg1 Mg1 152_455 146_555 60 no
+Mg1 Mg1 Mg1 152_455 5_565 60 no
+Mg1 Mg1 Mg1 152_455 149_455 120 no
+Mg1 Mg1 Mg1 152_455 56_454 180 no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+La1 Mg1 1_655 3.6524(8) yes
+La1 Mg1 97_555 3.6524(8) no
+La1 Mg1 145_555 3.6524(8) no
+La1 Mg1 2_655 3.6524(8) no
+La1 Mg1 50_654 3.6524(8) no
+La1 Mg1 146_655 3.6524(8) no
+La1 Mg1 5_565 3.6524(8) no
+La1 Mg1 101_565 3.6524(8) no
+La1 Mg1 149_555 3.6524(8) no
+La1 Mg1 8_565 3.6524(8) no
+La1 Mg1 56_554 3.6524(8) no
+La1 Mg1 152_455 3.6524(8) no
+Mg1 Mg1 98_554 3.1148(7) yes
+Mg1 Mg1 146_555 3.1148(7) no
+Mg1 Mg1 5_565 3.1148(7) no
+Mg1 Mg1 149_455 3.1148(7) no
+Mg1 Mg1 56_454 3.1148(7) no
+Mg1 Mg1 152_455 3.1148(7) no

@@ -1,0 +1,269 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-29 14:26:36 +0200 (Sun, 29 Jan 2017) $
+#$Revision: 191061 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/01/01/2010102.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010102
+loop_
+_publ_author_name
+'Skrzypczak-Jankun, Ewa'
+'Smith, Douglas A.'
+_publ_section_title
+;
+ Complexes of HgCl~2~ and HgBr~2~ with nitrilotriacetamide
+;
+_journal_issue                   10
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1585
+_journal_page_last               1588
+_journal_paper_doi               10.1107/S0108270193014520
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_structural     N(CH~2~CONH~2~)~3~,HgCl~2~
+_chemical_formula_sum            'C6 H12 Cl2 Hg N4 O3'
+_chemical_formula_weight         459.68
+_chemical_name_systematic
+;
+nitrilotriacetamide : mercury (II) chloride
+;
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                78.030(10)
+_cell_angle_beta                 78.74(2)
+_cell_angle_gamma                64.05(2)
+_cell_formula_units_Z            2.00
+_cell_length_a                   8.124(2)
+_cell_length_b                   8.393(2)
+_cell_length_c                   10.122(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      18
+_cell_measurement_theta_min      9
+_cell_volume                     602.8(3)
+_computing_cell_refinement       'CAD-4 software (Enraf-Nonius, 1977)'
+_computing_data_collection       'CAD-4 software (Enraf-Nonius, 1977)'
+_computing_data_reduction        'MolEN PROCESS (Fair, 1990)'
+_computing_molecular_graphics    'ORTEP (Johnson, 1976)'
+_computing_publication_material  'MolEN CIF(Fair, 1990)'
+_computing_structure_refinement  'MolEN LSFM (Fair, 1990)'
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.020
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -8
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            2495
+_diffrn_reflns_theta_max         25.98
+_diffrn_standards_decay_%        -0.80
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    13.21
+_exptl_absorpt_correction_T_max  0.999
+_exptl_absorpt_correction_T_min  0.608
+_exptl_absorpt_correction_type   empirical
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    2.53
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             428
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         1.3(3)
+_refine_diff_density_min         -0.5(3)
+_refine_ls_extinction_method     'not applied'
+_refine_ls_goodness_of_fit_obs   1.5
+_refine_ls_hydrogen_treatment    riding
+_refine_ls_number_parameters     145
+_refine_ls_number_reflns         2184
+_refine_ls_R_factor_obs          0.034
+_refine_ls_shift/esd_max         0.01
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 4F~o~^2^/[\s^2^(F~o~^2^)]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.042
+_reflns_number_observed          2184
+_reflns_number_total             2355
+_reflns_observed_criterion       >3.0\s(I)
+_cod_data_source_file            ha1073.cif
+_cod_data_source_block           HgCl2
+_cod_depositor_comments
+;
+ Moving the _geom_angle_site_symmetry_1, _geom_angle_site_symmetry_3,
+ _geom_angle and _geom_angle_publ_flag data items into the main
+ _geom_angle loop. The _geom_angle_site_symmetry_1, _geom_angle_site_symmetry_3
+ data items had some extra values that were removed.
+
+ Antanas Vaitkus,
+ 2017-01-29
+
+ Adding the _atom_site_type_symbol data item.
+
+ Antanas Vaitkus,
+ 2017-01-29
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value ' 4F~o~^2^/[\s^2^(F~o~^2^)]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+4F~o~^2^/[\s^2^(F~o~^2^)]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        603.0(10)
+_cod_database_code               2010102
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hg 0.02937(9) 0.01903(9) 0.02520(10) -0.00479(7) -0.00334(8) -0.00257(8)
+Cl1 0.07300(10) 0.0182(6) 0.0376(7) -0.0053(6) -0.0171(6) 0.0007(5)
+Cl2 0.0300(6) 0.0435(9) 0.0334(7) 0.0018(6) -0.0064(5) 0.0040(6)
+O1 0.033(2) 0.027(2) 0.044(2) -0.0160(10) 0.0030(10) -0.0120(10)
+O2 0.051(2) 0.039(2) 0.035(2) -0.0320(10) -0.0010(10) -0.0060(10)
+O3 0.034(2) 0.028(2) 0.039(2) -0.0130(10) 0.009(2) -0.0130(10)
+N 0.021(2) 0.016(2) 0.020(2) -0.0070(10) 0.0030(10) -0.0020(10)
+N1 0.029(2) 0.033(2) 0.047(3) -0.0170(10) 0.011(2) -0.015(2)
+N2 0.052(2) 0.032(2) 0.026(2) -0.024(2) 0.004(2) -0.006(2)
+N3 0.024(2) 0.044(2) 0.042(2) -0.0160(10) 0.004(2) -0.014(2)
+C1 0.019(2) 0.020(2) 0.031(2) -0.0070(10) 0.000(2) -0.004(2)
+C2 0.021(2) 0.017(2) 0.026(2) -0.0060(10) -0.002(2) -0.002(2)
+C3 0.024(2) 0.019(2) 0.026(2) -0.0090(10) 0.002(2) -0.002(2)
+C4 0.023(2) 0.026(2) 0.021(2) -0.0100(10) -0.003(2) -0.002(2)
+C5 0.021(2) 0.019(2) 0.027(2) -0.0080(10) -0.004(2) -0.004(2)
+C6 0.021(2) 0.026(2) 0.022(2) -0.0090(10) -0.002(2) -0.001(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_calc_flag
+Hg Hg 0.23477(3) 0.01614(2) 0.11971(2) ?
+Cl1 Cl 0.4045(3) -0.2652(2) 0.2342(2) ?
+Cl2 Cl 0.0373(2) 0.2357(3) -0.0315(2) ?
+O1 O -0.0697(5) 0.0994(5) 0.3240(4) ?
+O2 O 0.3453(6) 0.3299(5) 0.4858(4) ?
+O3 O 0.5214(5) 0.0960(5) 0.1078(4) ?
+N N 0.1920(5) 0.2415(6) 0.2762(4) ?
+N1 N -0.2834(7) 0.3389(7) 0.4183(5) ?
+N2 N 0.2184(7) 0.1625(7) 0.6318(5) ?
+N3 N 0.5951(6) 0.3195(7) 0.1222(5) ?
+C1 C -0.0024(7) 0.3546(7) 0.3101(6) ?
+C2 C 0.2764(7) 0.1223(7) 0.3992(5) ?
+C3 C 0.2848(7) 0.3551(7) 0.2004(5) ?
+C4 C -0.1209(7) 0.2502(7) 0.3533(5) ?
+C5 C 0.2804(6) 0.2170(7) 0.5097(5) ?
+C6 C 0.4808(7) 0.2421(7) 0.1409(5) ?
+HC11 H -0.046 0.440 0.233 calc
+HC12 H -0.013 0.415 0.383 calc
+HC21 H 0.400 0.046 0.371 calc
+HC22 H 0.209 0.052 0.437 calc
+HC31 H 0.289 0.426 0.260 calc
+HC32 H 0.216 0.431 0.128 calc
+HN11 H -0.311 0.455 0.436 calc
+HN12 H -0.372 0.289 0.448 calc
+HN21 H 0.169 0.076 0.644 calc
+HN22 H 0.223 0.209 0.708 calc
+HN31 H 0.556 0.433 0.151 calc
+HN32 H 0.717 0.262 0.080 calc
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C1 N C2 . . 111.3(4) yes
+C1 N C3 . . 108.8(5) yes
+C2 N C3 . . 115.6(4) yes
+N C1 C4 . . 113.1(5) yes
+N C2 C5 . . 115.5(5) yes
+N C3 C6 . . 111.2(5) yes
+C1 C4 N1 . . 114.0(6) yes
+C2 C5 N2 . . 114.3(5) yes
+C3 C6 N3 . . 114.5(6) yes
+C1 C4 O1 . . 121.8(5) yes
+C2 C5 O2 . . 121.9(5) yes
+C3 C6 O3 . . 121.3(5) yes
+N1 C4 O1 . . 124.2(6) yes
+N2 C5 O2 . . 123.7(5) yes
+N3 C6 O3 . . 124.1(6) yes
+Hg N C1 . . 111.4(3) yes
+Hg N C2 . . 102.7(3) yes
+Hg N C3 . . 106.9(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N C1 1.461(6) yes
+N C2 1.495(7) yes
+N C3 1.473(8) yes
+C1 C4 1.517(8) yes
+C2 C5 1.513(8) yes
+C3 C6 1.529(8) yes
+O1 C4 1.229(8) yes
+O2 C5 1.226(9) yes
+O3 C6 1.230(8) yes
+N1 C4 1.316(8) yes
+N2 C5 1.309(8) yes
+N3 C6 1.315(8) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Hg Cl1 2.3370(10) . yes
+Hg Cl2 2.3480(10) . yes
+Hg N 2.580(5) . yes
+Hg O1 2.823(4) . yes
+Hg O3 2.666(5) . yes
+Hg O3 2.757(4) 2_655 yes
+Hg N3 3.738(4) 2_655 yes
+Hg Cl2 3.974(2) 2_555 yes
+N2 O1 2.863(8) 2_556 yes
+N1 O2 2.937(8) 2_566 yes
+N1 O2 2.991(7) 1_455 yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+Cl1 Hg N C1 -123.7(3) no
+Cl1 Hg N C2 -4.4(3) no
+Cl1 Hg N C3 117.7(3) no
+Cl2 Hg N C1 48.9(3) no
+Cl2 Hg N C2 168.2(3) no
+Cl2 Hg N C3 -69.7(3) no

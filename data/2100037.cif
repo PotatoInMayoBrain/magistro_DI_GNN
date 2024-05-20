@@ -1,0 +1,95 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-14 04:32:00 +0300 (Thu, 14 Jun 2018) $
+#$Revision: 208360 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/00/2100037.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100037
+loop_
+_publ_author_name
+'Richard E. Marsh'
+_publ_section_title
+;
+ Space group <i>P</i>1: an update
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              359
+_journal_page_last               359
+_journal_paper_doi               10.1107/S0108768105009651
+_journal_volume                  61
+_journal_year                    2005
+_chemical_formula_moiety         'C12 H14 N2, Sb2 Cl8'
+_chemical_formula_sum            'C12 H14 Cl8 N2 Sb2'
+_space_group_crystal_system      triclinic
+_space_group_IT_number           2
+_space_group_name_Hall           '-P 1'
+_space_group_name_H-M_alt        'P -1'
+_audit_creation_method           CRYM
+_cell_angle_alpha                66.77
+_cell_angle_beta                 89.30
+_cell_angle_gamma                78.68
+_cell_formula_units_Z            1
+_cell_length_a                   5.7068
+_cell_length_b                   9.3857
+_cell_length_c                   11.7427
+_cell_volume                     565.246
+_cod_data_source_file            bk0148.cif
+_cod_data_source_block           GIXWAL
+_cod_depositor_comments
+;
+ Updating space group information and adding the symmetry operation list.
+
+ Antanas Vaitkus,
+ 2018-06-14
+
+  Added moiety chemical formula and Z value from Marsh (2005) paper.
+  The summary chemical formula is calculated from moiety formula using
+  AdHocParser
+  (svn://www.crystallography.net/cod-tools/trunk/Formulae/AdHocParser.yp,
+  revision 1441.)
+
+  Andrius Merkys
+  2013-11-11
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_original_formula_sum        'not given'
+_cod_database_code               2100037
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+Sb1 0.48241 0.40732 0.19071 Sb
+Cl1 0.55015 0.13585 0.35270 Cl
+Cl2 0.43750 0.52080 0.34860 Cl
+Cl3 0.90155 0.40075 0.19470 Cl
+Cl4 0.55665 0.28555 0.00490 Cl
+N1 -0.00945 -0.16530 0.32515 N
+C1 0.11285 -0.05480 0.27000 C
+H1 0.19620 -0.02085 0.31770 H
+C2 0.11985 0.01135 0.14330 C
+H2 0.20790 0.08905 0.10780 H
+C3 -0.00280 -0.03530 0.06870 C
+C4 -0.12835 -0.15165 0.12860 C
+H3 -0.21320 -0.18925 0.08370 H
+C5 -0.12635 -0.21265 0.25605 C
+H4 -0.21230 -0.29095 0.29500 H
+C6 -0.01630 -0.23670 0.46155 C
+H5 -0.03300 -0.33000 0.48695 H
+H6 -0.12960 -0.18705 0.48520 H
+H7 0.10880 -0.23895 0.50095 H

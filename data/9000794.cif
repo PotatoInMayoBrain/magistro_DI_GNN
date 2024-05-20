@@ -1,0 +1,108 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/07/9000794.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000794
+loop_
+_publ_author_name
+'Shoemaker, G. L.'
+'Anderson, J. B.'
+'Kostiner, E.'
+_publ_section_title
+;
+ The crystal structure of a third polymorph of Cu5(PO4)2(OH)4
+ Note: related to pseudomalachite and ludjibaite
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              169
+_journal_page_last               175
+_journal_volume                  66
+_journal_year                    1981
+_chemical_formula_sum            'Cu5 H4 O12 P2'
+_chemical_name_mineral           Ludjibaite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                103.62
+_cell_angle_beta                 90.35
+_cell_angle_gamma                93.02
+_cell_formula_units_Z            1
+_cell_length_a                   4.445
+_cell_length_b                   5.873
+_cell_length_c                   8.668
+_cell_volume                     219.574
+_database_code_amcsd             0000808
+_exptl_crystal_density_diffrn    4.354
+_cod_original_formula_sum        'Cu5 P2 O12 H4'
+_cod_database_code               9000794
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu1 0.01026 0.00646 0.01254 -0.00063 -0.00545 0.00038
+Cu2 0.00937 0.00671 0.00633 -0.00241 -0.00127 0.00253
+Cu3 0.01115 0.00545 0.01419 -0.00076 0.00697 0.00177
+Cu4 0.01165 0.01013 0.00544 -0.00469 0.00038 0.00190
+P 0.00545 0.00671 0.00671 -0.00089 0.00051 0.00127
+O1 0.01279 0.01077 0.00899 -0.00317 0.00431 0.00291
+O2 0.01013 0.01115 0.01051 -0.00317 -0.00494 0.00317
+O3 0.00988 0.01216 0.00760 -0.00595 0.00013 0.00190
+O4 0.01267 0.01064 0.02090 0.00481 0.00165 0.00127
+OH5 0.00773 0.00887 0.00760 -0.00127 -0.00101 0.00291
+OH6 0.00697 0.00760 0.00697 -0.00076 0.00127 0.00190
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu1 0.00000 0.50000 0.50000 Cu 0
+Cu2 0.00000 0.00000 0.00000 Cu 0
+Cu3 0.00000 0.50000 0.00000 Cu 0
+Cu4 0.03434 -0.03012 0.32894 Cu 0
+P 0.50870 0.32650 0.22657 P 0
+O1 0.69800 0.30870 0.07670 O 0
+O2 0.70540 0.29460 0.36570 O 0
+O3 0.28440 0.10290 0.18730 O 0
+O4 0.66320 0.45240 0.73300 O 0
+O-H5 0.16950 0.19550 0.52720 O 1
+O-H6 0.15510 0.20780 0.87210 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:44+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000808

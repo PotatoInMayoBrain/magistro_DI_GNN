@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/06/9000616.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000616
+loop_
+_publ_author_name
+'Hazen, R. M.'
+'Finger, L. W.'
+_publ_section_title
+;
+ The crystal structures and compressibilities of layer minerals at high
+ pressure. II. Phlogopite and chlorite
+ P = 35 kbar, sample is from Franklin, New Jersey, USA
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              293
+_journal_page_last               296
+_journal_volume                  63
+_journal_year                    1978
+_chemical_formula_sum
+'Al1.048 Ba0.05 F1.3 H0.7 K0.76 Mg3 Na0.16 O10.7 Si2.952'
+_chemical_name_mineral           Fluorophlogopite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.68
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.260
+_cell_length_b                   9.100
+_cell_length_c                   9.791
+_cell_volume                     460.538
+_database_code_amcsd             0000628
+_diffrn_ambient_pressure         3.5e+06
+_exptl_crystal_density_diffrn    3.036
+_cod_original_formula_sum
+'(Si2.952 Al1.048) Mg3 K.76 Na.16 Ba.05 O10.7 (F1.3 H.7)'
+_cod_database_code               9000616
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Si 0.57300 0.16630 0.21200 0.73800 0.01267 Si 0
+Al 0.57300 0.16630 0.21200 0.26200 0.01267 Al 0
+Mg1 0.00000 0.50000 0.50000 1.00000 0.00253 Mg 0
+Mg2 0.00000 0.83160 0.50000 1.00000 0.00380 Mg 0
+K 0.00000 0.00000 0.00000 0.76000 0.01520 K 0
+Na 0.00000 0.00000 0.00000 0.16000 0.01520 Na 0
+Ba 0.00000 0.00000 0.00000 0.05000 0.01520 Ba 0
+O1 0.82100 0.22500 0.15600 1.00000 0.01646 O 0
+O2 0.49800 0.00000 0.15600 1.00000 0.01646 O 0
+O3 0.64900 0.16600 0.39300 1.00000 0.00760 O 0
+F 0.12400 0.00000 0.39300 0.65000 0.01013 F 0
+O-H 0.12400 0.00000 0.39300 0.35000 0.01013 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:32+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000628

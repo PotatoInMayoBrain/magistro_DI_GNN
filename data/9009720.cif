@@ -1,0 +1,110 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/97/9009720.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009720
+loop_
+_publ_author_name
+'King, G. S. D.'
+'Sengier-Roberts L'
+_publ_section_title
+;
+ Drugmanite, Pb2(Fe0.78Al0.22)H(PO4)2(OH)2:
+ Its crystal structure and place in the datolite group
+ Note: anisoU's taken from ICSD
+;
+_journal_name_full               'Bulletin de Mineralogie'
+_journal_page_first              431
+_journal_page_last               437
+_journal_volume                  111
+_journal_year                    1988
+_chemical_compound_source        'Richelle, Belgium'
+_chemical_formula_sum            'Al0.22 Fe0.78 H O10 P2 Pb2'
+_chemical_name_mineral           Drugmanite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.41
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   11.111
+_cell_length_b                   7.986
+_cell_length_c                   4.643
+_cell_volume                     411.974
+_database_code_amcsd             0012089
+_exptl_crystal_density_diffrn    5.537
+_cod_original_formula_sum        'Pb2 (Fe.78 Al.22) P2 O10 H'
+_cod_database_code               9009720
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb 0.00855 0.01789 0.01336 0.00298 0.00006 0.00000
+Fe 0.00120 0.00600 0.00840 -0.00100 -0.00090 0.00110
+Al 0.00120 0.00600 0.00840 -0.00100 -0.00090 0.00110
+P 0.00700 0.01010 0.01030 -0.00130 -0.00070 -0.00010
+O2 0.01150 0.01700 0.01130 -0.00280 0.00080 0.00440
+O3 0.01280 0.02620 0.01510 0.00530 0.00110 0.00680
+O4 0.00440 0.01600 0.02580 0.00280 -0.00460 -0.00540
+O5 0.00630 0.01940 0.00970 -0.00630 -0.00750 0.00470
+Oh1 0.01910 0.01160 0.01930 -0.00780 -0.00960 0.00720
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb 0.31395 0.09643 -0.00835 1.00000 0.13300 Pb 0
+Fe 0.50000 0.50000 0.00000 0.78000 0.05300 Fe 0
+Al 0.50000 0.50000 0.00000 0.22000 0.05300 Al 0
+P 0.60440 0.25670 0.48390 1.00000 0.09200 P 0
+O2 0.50490 0.30090 0.27060 1.00000 0.13300 O 0
+O3 0.72940 0.24330 0.34100 1.00000 0.18100 O 0
+O4 0.61540 0.38510 0.73640 1.00000 0.15400 O 0
+O5 0.35260 0.40660 0.83270 1.00000 0.11900 O 0
+O-h1 0.57290 0.08410 0.62410 1.00000 0.16700 O 0
+H 0.50000 0.00000 0.50000 1.00000 ? H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012089

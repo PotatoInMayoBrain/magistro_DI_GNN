@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/20/9012086.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012086
+loop_
+_publ_author_name
+'Piret, P.'
+'Declercq, J. P.'
+'Wauters-Stoop D'
+_publ_section_title
+;
+ Structure cristalline de la sengierite
+;
+_journal_name_full               'Bulletin de Mineralogie'
+_journal_page_first              176
+_journal_page_last               178
+_journal_volume                  103
+_journal_year                    1980
+_chemical_compound_source        'Shinkolobwe, Zaire'
+_chemical_formula_sum            'Cu H7 O10 U V'
+_chemical_name_mineral           Sengierite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 103.42
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.599
+_cell_length_b                   8.093
+_cell_length_c                   10.085
+_cell_volume                     841.447
+_database_code_amcsd             0012070
+_exptl_crystal_density_diffrn    4.101
+_cod_original_formula_sum        'Cu U V O10 H7'
+_cod_database_code               9012086
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Cu 0.40320 -0.09240 0.54980 0.01660 Cu 0
+U 0.18330 -0.01820 -0.00090 0.00740 U 0
+V 0.44250 0.14160 -0.08950 0.01040 V 0
+O1 0.27560 0.21080 -0.07720 0.00980 O 0
+O2 0.27240 0.55430 -0.16700 0.02500 O 0
+O3 0.13550 0.90780 -0.17010 0.02040 O 0
+O4 0.10470 0.44000 0.00400 0.01020 O 0
+O5 0.00050 0.84790 0.04120 0.01440 O 0
+O6 0.06200 0.61130 0.24570 0.02440 O 0
+O-H7 0.40980 0.09860 0.43550 0.01670 O 1
+Wat8 0.21060 -0.09630 0.52090 0.02540 O 2
+Wat9 0.41630 -0.27190 0.67940 0.03250 O 2
+Wat10 0.37540 -0.29610 0.37030 0.03220 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012070

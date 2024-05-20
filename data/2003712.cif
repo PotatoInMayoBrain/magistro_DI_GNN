@@ -1,0 +1,192 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/37/2003712.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003712
+loop_
+_publ_author_name
+'Valle, G.'
+'Ettorre, R.'
+'Peruzzo, V.'
+_publ_section_title
+;
+ Bis(4-bromopyrazole)dichlorocopper(II)
+;
+_journal_issue                   7
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1293
+_journal_page_last               1295
+_journal_paper_doi               10.1107/S0108270195000163
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        'see text'
+_chemical_formula_moiety         'C6 H6 Br2 Cl2 Cu1 N4'
+_chemical_formula_sum            'C6 H6 Br2 Cl2 Cu N4'
+_chemical_formula_weight         428.4
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           'IntTabIV and SHELX76 (Sheldrick, 1976)'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.2(1)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   3.851(1)
+_cell_length_b                   15.077(2)
+_cell_length_c                   9.990(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    295(2)
+_cell_measurement_theta_max      12
+_cell_measurement_theta_min      7
+_cell_volume                     577.6(2)
+_diffrn_measurement_device       'Philips PW 1100'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.057
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       -5
+_diffrn_reflns_limit_k_max       19
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1462
+_diffrn_reflns_theta_max         28
+_diffrn_standards_decay_%        10
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    9.19
+_exptl_absorpt_correction_T_max  0.45
+_exptl_absorpt_correction_T_min  0.35
+_exptl_absorpt_correction_type   '\y scans'
+_exptl_crystal_colour            green
+_exptl_crystal_density_diffrn    2.46
+_exptl_crystal_description       needle
+_exptl_crystal_size_max          0.5
+_exptl_crystal_size_mid          0.1
+_exptl_crystal_size_min          0.1
+_refine_diff_density_max         1.34
+_refine_diff_density_min         -1.30
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   0.71
+_refine_ls_hydrogen_treatment    refiso
+_refine_ls_number_parameters     82
+_refine_ls_number_reflns         833
+_refine_ls_R_factor_obs          0.048
+_refine_ls_shift/esd_max         0.361
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/|\s^2^(F)+0.00436F^2^|'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.048
+_reflns_number_observed          833
+_reflns_number_total             1385
+_reflns_observed_criterion       >3\s(F)
+_cod_data_source_file            na1136.cif
+_cod_data_source_block           na1136a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'room temperature' was changed
+to '295(2)' - the room/ambient temperature average [293;298] in
+Kelvins(K) was taken.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value 'room temperature' was changed
+to '295(2)' - the room/ambient temperature average [293;298] in
+Kelvins(K) was taken.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/|\s^2^(F)+0.00436F^2^|' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/|\s^2^(F)+0.00436F^2^|'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_original_formula_sum        'C6 H6 Br2 Cl2 Cu1 N4'
+_cod_database_code               2003712
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu .0 .0 .0 .0285(4)
+Br .3083(2) .14381(7) .55374(9) .0423(3)
+Cl -.4151(5) .0988(1) -.1002(2) .0303(6)
+N(1) -.091(2) .1574(5) .1694(7) .036(2)
+N(2) .037(2) .0734(4) .1664(6) .027(2)
+C(3) .181(2) .0585(5) .2914(8) .033(3)
+C(4) .152(2) .1314(6) .3722(8) .031(3)
+C(5) -.027(2) .1949(5) .2907(8) .035(3)
+H(1)N1 -.14(3) .170(7) .10(1) ?
+H(1)C3 .27(3) .012(7) .329(9) ?
+H(1)C5 -.08(3) .259(7) .316(9) ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Cl Cu N(2) . 89.8(2) yes
+N(2) Cu Cl 1_655 89.8(2) yes
+Cu N(2) C(3) . 132.6(5) yes
+N(1) N(2) C(3) . 104.9(6) yes
+C(3) C(4) C(5) . 105.5(7) yes
+C(3) C(4) Br . 127.9(6) yes
+Cl Cu Cl 1_655 87.30(10) yes
+Cu N(2) N(1) . 122.5(5) yes
+N(2) N(1) C(5) . 112.1(7) yes
+N(2) C(3) C(4) . 111.3(7) yes
+N(1) C(5) C(4) . 106.1(7) yes
+C(5) C(4) Br . 126.5(6) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cu Cl 2.342(2) yes
+N(1) N(2) 1.359(10) yes
+C(3) C(4) 1.375(11) yes
+C(4) C(5) 1.399(11) yes
+Cu N(2) 1.991(6) yes
+N(2) C(3) 1.339(10) yes
+N(1) C(5) 1.339(11) yes
+C(4) Br 1.867(8) yes
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Cu Cl 2.950(3) 1_655 yes
+N(1) Cl 2.998(7) . yes

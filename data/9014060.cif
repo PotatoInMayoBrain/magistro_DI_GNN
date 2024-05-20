@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-14 13:05:40 +0300 (Sun, 14 May 2023) $
+#$Revision: 283755 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/40/9014060.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014060
+loop_
+_publ_author_name
+'Ross, M.'
+'Evans, H. T.'
+_publ_section_title
+;
+ Studies of the torbernite minerals (I): The crystal structure of abernathyite
+ and the structurally related compounds NH4(UO2AsO4).3H2O and K(H3O)(UO2AsO4)2.6H2O
+ Sample: Abernathyite - K(H3O)
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              1578
+_journal_page_last               1602
+_journal_volume                  49
+_journal_year                    1964
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'As H7.5 K0.5 O9.5 U'
+_chemical_name_mineral           Abernathyite
+_space_group_IT_number           130
+_symmetry_space_group_name_Hall  '-P 4a 2ac'
+_symmetry_space_group_name_H-M   'P 4/n c c :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.171
+_cell_length_b                   7.171
+_cell_length_c                   18.048
+_cell_volume                     928.087
+_database_code_amcsd             0000132
+_exptl_crystal_density_diffrn    3.522
+_cod_depositor_comments
+;
+ Removing the 'Hd' atom since it does not describe the real coordinates of
+ the hydrogen atom and is only used to indicate that the 'Od' atom has 3
+ attached hydrogen atoms. Adding the _atom_site_type_symbol and 
+ the _atom_site_attached_hydrogens data items.
+
+ Antanas Vaitkus,
+ 2017-02-17
+;
+_cod_original_sg_symbol_H-M      'P 4/n c c'
+_cod_original_formula_sum        'K.5 O9.5 H7.5 U As'
+_cod_database_code               9014060
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2+x,1/2-z
+1/2+y,-x,-z
+1/2-y,x,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+1/2+x,1/2+y,-z
+1/2-x,1/2-y,z
+y,x,1/2+z
+-y,-x,1/2-z
+-y,1/2+x,-z
+y,1/2-x,z
+1/2-x,y,1/2+z
+1/2+x,-y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+K K 0.15000 0.99300 0.31500 0.12500 0.05193 0
+Od O 0.15000 0.99300 0.31500 0.12500 0.05193 3
+U U 0.25000 0.25000 0.05200 1.00000 0.02875 0
+As As 0.75000 0.25000 0.00000 1.00000 0.02014 0
+Oa O 0.25000 0.25000 0.15000 1.00000 0.04559 0
+Ob O 0.25000 0.25000 0.95800 1.00000 0.03673 0
+Oc O 0.69600 0.07100 0.44800 1.00000 ? 0
+Watd O 0.15000 0.99300 0.31500 0.75000 0.05193 2
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000132
+2 Wikidata Q319661
+3 Wikipedia Abernathyite

@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/19/9011921.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011921
+loop_
+_publ_author_name
+'Egorov-Tismenko Y K'
+'Gushchina, A. E.'
+'Shashkin, D. N.'
+'Simonov, M. A.'
+'Belov, N. V.'
+_publ_section_title
+;
+ The crystal structure of frolovite CaB2O4(H2O)4 = Ca(B(OH)4)2
+;
+_journal_name_full               'Doklady Akademii Nauk SSSR'
+_journal_page_first              78
+_journal_page_last               80
+_journal_volume                  202
+_journal_year                    1972
+_chemical_formula_sum            'B2 Ca H8 O8'
+_chemical_name_mineral           Frolovite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                108.5
+_cell_angle_beta                 101.5
+_cell_angle_gamma                108.5
+_cell_formula_units_Z            2
+_cell_length_a                   7.80
+_cell_length_b                   5.70
+_cell_length_c                   7.95
+_cell_volume                     299.656
+_database_code_amcsd             0012451
+_exptl_crystal_density_diffrn    2.192
+_cod_original_formula_sum        'Ca B2 (O8 H8)'
+_cod_database_code               9011921
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+Ca 0.23800 0.01600 0.18900 0.00760 0 Ca
+B1 0.02800 0.40700 0.23400 0.01064 0 B
+B2 0.44800 0.32600 0.71200 0.00393 0 B
+O-H1 0.06500 0.70300 0.29900 0.00899 1 O
+O-H2 0.08500 0.29700 0.06700 0.00785 1 O
+O-H3 0.14100 0.36700 0.38500 0.01026 1 O
+O-H4 0.18600 0.78300 0.83200 0.01051 1 O
+O-H5 0.24200 0.14300 0.68200 0.01153 1 O
+O-H6 0.42600 0.73800 0.16200 0.01102 1 O
+O-H7 0.47000 0.23100 0.52800 0.00646 1 O
+O-H8 0.48800 0.61800 0.81000 0.00963 1 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:39+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012451

@@ -1,0 +1,90 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/80/9008079.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9008079
+loop_
+_publ_author_name
+'Mrose, M. E.'
+'Appleman, D. E.'
+_publ_section_title
+;
+ The crystal structures and crystal chemistry of vayrynenite,
+ (Mn,Fe)Be(PO4)(OH), and euclase, AlBe(SiO4)(OH)
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              16
+_journal_page_last               36
+_journal_paper_doi               10.1524/zkri.1962.117.1.16
+_journal_volume                  117
+_journal_year                    1962
+_chemical_compound_source        'Villa Rica, Minas Gerais, Brazil'
+_chemical_formula_sum            'Al Be H O5 Si'
+_chemical_name_mineral           Euclase
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.25
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   4.763
+_cell_length_b                   14.29
+_cell_length_c                   4.618
+_cell_volume                     309.300
+_database_code_amcsd             0010591
+_exptl_crystal_density_diffrn    3.116
+_cod_original_formula_sum        'Al Be Si O5 H'
+_cod_database_code               9008079
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Al 0.24900 0.44470 0.95700 0.00127 Al 0
+Be 0.17600 0.30000 0.47000 0.00583 Be 0
+Si 0.17700 0.10020 0.53900 0.00076 Si 0
+O1 0.38000 0.03210 0.76100 0.00228 O 0
+O2 0.38000 0.37670 0.65000 0.00266 O 0
+O3 0.34600 0.20000 0.52000 0.00253 O 0
+O4 0.10000 0.05290 0.21500 0.00342 O 0
+O-H 0.15800 0.33240 0.11800 0.00532 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:09+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010591

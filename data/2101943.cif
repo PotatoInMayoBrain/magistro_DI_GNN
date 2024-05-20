@@ -1,0 +1,219 @@
+#------------------------------------------------------------------------------
+#$Date: 2022-09-28 16:56:03 +0300 (Wed, 28 Sep 2022) $
+#$Revision: 278244 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/19/2101943.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101943
+loop_
+_publ_author_name
+'Beck, J.'
+'Wolf, F.'
+_publ_section_title
+;
+ Three New Polymorphic Forms of Molybdenum Pentachloride
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              895
+_journal_page_last               903
+_journal_paper_doi               10.1107/S0108768197008331
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'Cl5 Mo'
+_chemical_formula_weight         273.19
+_chemical_melting_point          194
+_chemical_name_common            'Molybdenum Pentachloride'
+_chemical_name_systematic
+;
+\g-Molybdenum Pentachloride
+;
+_space_group_IT_number           62
+_space_group_name_Hall           '-P 2ac 2n'
+_space_group_name_H-M_alt        'P n m a'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            8
+_cell_length_a                   11.700(9)
+_cell_length_b                   17.874(10)
+_cell_length_c                   6.085(3)
+_cell_measurement_reflns_used    200
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.5
+_cell_measurement_theta_min      4.5
+_cell_volume                     1272.5(14)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measurement_device       'STOE IPDS'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0252
+_diffrn_reflns_av_sigmaI/netI    0.0129
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       21
+_diffrn_reflns_limit_k_min       -23
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       -7
+_diffrn_reflns_number            8667
+_diffrn_reflns_theta_max         28.20
+_diffrn_reflns_theta_min         5.74
+_diffrn_standards_decay_%        <2
+_exptl_absorpt_coefficient_mu    4.017
+_exptl_absorpt_correction_T_max  0.7711
+_exptl_absorpt_correction_T_min  0.4009
+_exptl_absorpt_correction_type   numerical
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    2.852
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             1016
+_exptl_crystal_size_max          0.23
+_exptl_crystal_size_mid          0.23
+_exptl_crystal_size_min          0.11
+_refine_diff_density_max         0.798
+_refine_diff_density_min         -0.613
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.147
+_refine_ls_goodness_of_fit_obs   1.203
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     58
+_refine_ls_number_reflns         1511
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.147
+_refine_ls_restrained_S_obs      1.203
+_refine_ls_R_factor_all          0.0466
+_refine_ls_R_factor_obs          0.0400
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0590P)^2^+5.9315P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1259
+_refine_ls_wR_factor_obs         0.1211
+_reflns_number_observed          1280
+_reflns_number_total             1511
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            jz0002.cif
+_cod_data_source_block           cmocl5
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0590P)^2^+5.9315P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0590P)^2^+5.9315P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      ' P n m a'
+_cod_original_formula_sum        'Mo Cl5'
+_cod_database_code               2101943
+_cod_database_fobs_code          2101943
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x+1/2,-y,z+1/2
+3 x+1/2,-y+1/2,-z+1/2
+4 -x,y+1/2,-z
+5 -x,-y,-z
+6 x+1/2,y,-z+1/2
+7 -x+1/2,y+1/2,z+1/2
+8 x,-y+1/2,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mo 0.0309(3) 0.0264(3) 0.0270(3) -0.0001(2) -0.00068(14) -0.00005(14)
+Cl1 0.0378(10) 0.0401(10) 0.0395(11) 0.000 0.0086(7) 0.000
+Cl2 0.0483(9) 0.0514(9) 0.0446(9) -0.0024(7) -0.0088(6) -0.0011(6)
+Cl3 0.0525(9) 0.0506(9) 0.0431(9) 0.0015(7) -0.0086(6) 0.0010(6)
+Cl4 0.0629(11) 0.0456(9) 0.0587(11) -0.0138(8) 0.0075(7) 0.0093(7)
+Cl5 0.0616(10) 0.0459(9) 0.0589(10) 0.0134(8) 0.0037(7) -0.0109(7)
+Cl6 0.0363(9) 0.0368(9) 0.0391(10) 0.000 0.0067(7) 0.000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Mo 0.12469(4) 0.35843(2) 0.09031(7) 0.0281(2) Uani d . 1 Mo
+Cl1 0.2348(2) 0.2500 -0.0801(3) 0.0391(4) Uani d S 1 Cl
+Cl2 0.24509(15) 0.34571(10) 0.3813(3) 0.0481(4) Uani d . 1 Cl
+Cl3 0.00228(14) 0.34617(9) -0.1982(3) 0.0487(4) Uani d . 1 Cl
+Cl4 0.2395(2) 0.44145(10) -0.0857(3) 0.0557(5) Uani d . 1 Cl
+Cl5 0.0123(2) 0.44280(9) 0.2660(3) 0.0554(4) Uani d . 1 Cl
+Cl6 0.0148(2) 0.2500 0.2601(3) 0.0374(4) Uani d S 1 Cl
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Mo Mo -1.6832 0.6857 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Cl5 Mo Cl4 . . 97.52(8) yes
+Cl5 Mo Cl2 . . 93.37(8) no
+Cl4 Mo Cl2 . . 93.79(8) no
+Cl5 Mo Cl3 . . 93.59(8) no
+Cl4 Mo Cl3 . . 94.09(8) no
+Cl2 Mo Cl3 . . 168.71(7) yes
+Cl5 Mo Cl6 . . 91.27(7) yes
+Cl4 Mo Cl6 . . 171.21(6) no
+Cl2 Mo Cl6 . . 85.45(7) no
+Cl3 Mo Cl6 . . 85.52(7) no
+Cl5 Mo Cl1 . . 172.14(6) no
+Cl4 Mo Cl1 . . 90.34(8) yes
+Cl2 Mo Cl1 . . 85.84(8) no
+Cl3 Mo Cl1 . . 86.05(7) no
+Cl6 Mo Cl1 . . 80.87(6) yes
+Mo Cl1 Mo 1_565 . 99.04(8) yes
+Mo Cl6 Mo . 1_565 99.21(8) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Mo Cl5 . 2.269(2) yes
+Mo Cl4 . 2.270(2) yes
+Mo Cl2 . 2.274(2) yes
+Mo Cl3 . 2.276(2) yes
+Mo Cl6 . 2.545(2) yes
+Mo Cl1 . 2.548(2) yes
+Mo Mo 1_565 3.876(2) yes

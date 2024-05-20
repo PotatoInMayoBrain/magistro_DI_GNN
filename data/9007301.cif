@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-11-12 12:37:04 +0200 (Sun, 12 Nov 2023) $
+#$Revision: 287555 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/73/9007301.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007301
+loop_
+_publ_author_name
+'Schofield, P. F.'
+'Knight, K. S.'
+'van der Houwen, J. A. M.'
+'Valsami-Jones E'
+_publ_section_title
+;
+ The role of hydrogen bonding in the thermal expansion and dehydration
+ of brushite, di-calcium phosphate dihydrate
+ Sample: T = 200 K
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              606
+_journal_page_last               624
+_journal_paper_doi               10.1007/s00269-004-0419-6
+_journal_volume                  31
+_journal_year                    2004
+_chemical_formula_sum            'Ca D5 O6 P'
+_chemical_name_mineral           'Brushite (deuterated)'
+_space_group_IT_number           9
+_symmetry_space_group_name_Hall  'I -2ya'
+_symmetry_space_group_name_H-M   'I 1 a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 116.413
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.8053
+_cell_length_b                   15.1420
+_cell_length_c                   6.2060
+_cell_volume                     488.584
+_diffrn_ambient_temperature      200
+_exptl_crystal_density_diffrn    2.408
+_cod_original_formula_sum        'Ca P O6 D5'
+_cod_database_code               9007301
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2+x,1/2+y,1/2+z
+1/2+x,-y,z
++x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.50000 0.32740 0.25000 0.00680 Ca 0
+P -0.01040 0.32230 0.72680 0.00110 P 0
+OD1 -0.01020 0.36750 -0.03800 0.00710 O 0
+O2 0.25460 0.28180 0.82100 0.00630 O 0
+O3 -0.06210 0.39330 0.54070 0.00760 O 0
+O4 0.77850 0.25290 0.63380 0.00410 O 0
+OD2O1 0.36560 0.42560 0.48270 0.01050 O 0
+OD2O2 0.52690 0.44560 0.01530 0.01810 O 0
+D1 -0.09850 0.33000 0.03220 0.02010 D 0
+D2 0.38370 0.48910 0.49020 0.01830 D 0
+D3 0.20670 0.41170 0.48320 0.02270 D 0
+D4 0.51540 0.51030 0.01710 0.03290 D 0
+D5 0.50320 0.43290 0.85760 0.03930 D 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:19:48+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+_database_code_amcsd 0008894

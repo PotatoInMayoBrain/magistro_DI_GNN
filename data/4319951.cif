@@ -1,0 +1,309 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 04:11:18 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179279 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/99/4319951.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319951
+loop_
+_publ_author_name
+'Sergio Fern\'andez'
+'Jos\'e L. Pizarro'
+'Jos\'e L. Mesa'
+'Luis Lezama'
+'Mar\'ia I. Arriortua'
+'Roger Olazcuaga'
+'Te\'ofilo Rojo'
+_publ_contact_author
+;
+    Dr. Jose Luis Pizarro Sanz
+    Facultad de Ciencias
+    Dpto. de Mineralog\'ia y Petrolog\'ia
+    Universidad del Pa\'is Vasco
+    Apartado 644
+    48080 Bilbao
+    Spain
+;
+_publ_contact_author_email       npppisaj@lg.ehu.es
+_publ_contact_author_fax         '34 4 4648500'
+_publ_contact_author_phone       '34 4 6015372'
+_publ_section_title
+;
+ Hydrothermal Synthesis and Structural Characterization of the
+ (CnH2n+6N2)[Mn3(HPO3)4] (n= 3-8) New Layered Inorganic-Organic Hybrid
+ Manganese(II) Phosphites. Crystal Structure and Spectroscopic and
+ Magnetic Properties of (C3H12N2)[Mn3(HPO3)4]
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3476
+_journal_page_last               3483
+_journal_paper_doi               10.1021/ic010166g
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'C6 H16 Mn3 N2 O12 P4'
+_chemical_formula_weight         596.91
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00(3)
+_cell_angle_beta                 95.01(3)
+_cell_angle_gamma                90.00(2)
+_cell_formula_units_Z            2
+_cell_length_a                   9.5015(10)
+_cell_length_b                   5.4720(10)
+_cell_length_c                   14.523(4)
+_cell_measurement_temperature    293(2)
+_cell_volume                     752.2(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.960
+_diffrn_measured_fraction_theta_max 0.960
+_diffrn_measurement_device_type  'Stoe IPDS'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71070
+_diffrn_reflns_av_R_equivalents  0.0433
+_diffrn_reflns_av_sigmaI/netI    0.0628
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            2687
+_diffrn_reflns_theta_full        25.94
+_diffrn_reflns_theta_max         25.94
+_diffrn_reflns_theta_min         4.23
+_exptl_absorpt_coefficient_mu    2.980
+_exptl_crystal_density_diffrn    2.635
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             594
+_refine_diff_density_max         0.422
+_refine_diff_density_min         -0.576
+_refine_diff_density_rms         0.111
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.858
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     78
+_refine_ls_number_reflns         783
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.858
+_refine_ls_R_factor_all          0.0519
+_refine_ls_R_factor_gt           0.0259
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0282P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0517
+_refine_ls_wR_factor_ref         0.0560
+_reflns_number_gt                547
+_reflns_number_total             783
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic010166g.cif
+_cod_data_source_block           compound_mn
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to the built-in table from CIF Core dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               4319951
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Mn1 Mn 0.0000 0.0000 0.0000 0.0085(3) Uani 1 4 d S . .
+Mn2 Mn 0.02794(8) 0.0000 0.20740(5) 0.0087(2) Uani 1 2 d S . .
+P1 P -0.15731(14) -0.5000 0.07210(9) 0.0075(3) Uani 1 2 d S . .
+P2 P -0.30025(13) 0.0000 0.25912(8) 0.0082(3) Uani 1 2 d S . .
+O1 O -0.0759(3) -0.2673(4) 0.09970(16) 0.0104(5) Uani 1 1 d . . .
+O2 O 0.1915(3) 0.0000 0.1003(2) 0.0105(7) Uani 1 2 d S . .
+O3 O -0.1438(4) 0.0000 0.2892(2) 0.0233(9) Uani 1 2 d S . .
+O4 O 0.1298(3) -0.2719(4) 0.29277(17) 0.0230(7) Uani 1 1 d . . .
+H1 H -0.332(5) 0.0000 0.024(3) 0.010(9) Uiso 1 2 d S . .
+H2 H -0.182(6) -0.5000 -0.170(3) 0.010(9) Uiso 1 2 d S . .
+N1 N 0.3801(5) 0.0000 0.3674(3) 0.0155(9) Uani 1 2 d S . .
+C1 C 0.3736(8) 0.0732(12) 0.4663(5) 0.022(2) Uani 0.50 1 d P . .
+C2 C 0.5000 0.2321(19) 0.5000 0.027(3) Uani 0.50 2 d SP . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Mn1 0.0068(6) 0.0077(5) 0.0108(6) 0.000 0.0005(4) 0.000
+Mn2 0.0067(4) 0.0087(4) 0.0106(4) 0.000 0.0003(3) 0.000
+P1 0.0047(7) 0.0054(5) 0.0123(6) 0.000 0.0003(5) 0.000
+P2 0.0073(7) 0.0065(6) 0.0107(7) 0.000 0.0002(5) 0.000
+O1 0.0094(14) 0.0082(11) 0.0135(11) 0.0008(9) 0.0007(9) -0.0021(9)
+O2 0.0063(19) 0.0124(16) 0.0130(17) 0.000 0.0020(13) 0.000
+O3 0.006(2) 0.043(2) 0.021(2) 0.000 0.0032(15) 0.000
+O4 0.0344(19) 0.0149(13) 0.0188(14) -0.0014(10) -0.0028(12) 0.0172(11)
+N1 0.015(3) 0.012(2) 0.019(2) 0.000 0.0006(18) 0.000
+C1 0.018(5) 0.030(5) 0.019(4) 0.001(3) 0.002(3) 0.000(3)
+C2 0.036(8) 0.020(6) 0.026(6) 0.000 -0.005(5) 0.000
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Mn1 O1 82.31(11) 6 . ?
+O1 Mn1 O1 180.0 6 2 ?
+O1 Mn1 O1 97.69(11) . 2 ?
+O1 Mn1 O1 97.69(11) 6 5 ?
+O1 Mn1 O1 180.0 . 5 ?
+O1 Mn1 O1 82.31(11) 2 5 ?
+O1 Mn1 O2 97.65(9) 6 5 ?
+O1 Mn1 O2 97.65(9) . 5 ?
+O1 Mn1 O2 82.36(9) 2 5 ?
+O1 Mn1 O2 82.36(9) 5 5 ?
+O1 Mn1 O2 82.35(9) 6 . ?
+O1 Mn1 O2 82.36(9) . . ?
+O1 Mn1 O2 97.64(9) 2 . ?
+O1 Mn1 O2 97.64(9) 5 . ?
+O2 Mn1 O2 180.0 5 . ?
+O1 Mn1 Mn2 130.45(6) 6 5 ?
+O1 Mn1 Mn2 130.45(6) . 5 ?
+O1 Mn1 Mn2 49.55(6) 2 5 ?
+O1 Mn1 Mn2 49.55(6) 5 5 ?
+O2 Mn1 Mn2 49.33(8) 5 5 ?
+O2 Mn1 Mn2 130.66(8) . 5 ?
+O1 Mn1 Mn2 49.55(6) 6 . ?
+O1 Mn1 Mn2 49.55(6) . . ?
+O1 Mn1 Mn2 130.45(6) 2 . ?
+O1 Mn1 Mn2 130.45(6) 5 . ?
+O2 Mn1 Mn2 130.67(8) 5 . ?
+O2 Mn1 Mn2 49.34(8) . . ?
+Mn2 Mn1 Mn2 180.0 5 . ?
+O3 Mn2 O4 90.39(11) . 6 ?
+O3 Mn2 O4 90.39(11) . . ?
+O4 Mn2 O4 89.35(15) 6 . ?
+O3 Mn2 O2 171.77(14) . . ?
+O4 Mn2 O2 95.45(10) 6 . ?
+O4 Mn2 O2 95.45(10) . . ?
+O3 Mn2 O1 94.37(10) . 6 ?
+O4 Mn2 O1 95.65(9) 6 6 ?
+O4 Mn2 O1 173.06(9) . 6 ?
+O2 Mn2 O1 79.32(9) . 6 ?
+O3 Mn2 O1 94.37(10) . . ?
+O4 Mn2 O1 173.06(9) 6 . ?
+O4 Mn2 O1 95.65(9) . . ?
+O2 Mn2 O1 79.32(9) . . ?
+O1 Mn2 O1 78.97(11) 6 . ?
+O3 Mn2 Mn1 124.23(11) . . ?
+O4 Mn2 Mn1 125.73(7) 6 . ?
+O4 Mn2 Mn1 125.73(7) . . ?
+O2 Mn2 Mn1 47.54(9) . . ?
+O1 Mn2 Mn1 47.33(6) 6 . ?
+O1 Mn2 Mn1 47.33(6) . . ?
+O1 P1 O1 113.22(19) . 6_545 ?
+O1 P1 O2 113.36(11) . 3_445 ?
+O1 P1 O2 113.36(11) 6_545 3_445 ?
+O3 P2 O4 110.79(14) . 8_445 ?
+O3 P2 O4 110.79(14) . 3_455 ?
+O4 P2 O4 110.9(2) 8_445 3_455 ?
+P1 O1 Mn1 124.35(14) . . ?
+P1 O1 Mn2 152.52(14) . . ?
+Mn1 O1 Mn2 83.12(7) . . ?
+P1 O2 Mn1 123.87(18) 3 . ?
+P1 O2 Mn2 153.0(2) 3 . ?
+Mn1 O2 Mn2 83.13(11) . . ?
+P2 O3 Mn2 129.0(2) . . ?
+P2 O4 Mn2 125.55(15) 3_545 . ?
+C1 N1 C1 31.0(5) . 6 ?
+C1 C1 N1 74.5(3) 6 . ?
+C1 C1 C2 124.7(4) 6 . ?
+N1 C1 C2 111.2(5) . . ?
+C1 C2 C1 110.7(8) . 2_656 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 O1 2.222(2) 6 ?
+Mn1 O1 2.222(2) . ?
+Mn1 O1 2.222(2) 2 ?
+Mn1 O1 2.222(2) 5 ?
+Mn1 O2 2.230(3) 5 ?
+Mn1 O2 2.230(3) . ?
+Mn1 Mn2 3.0005(11) 5 ?
+Mn1 Mn2 3.0006(11) . ?
+Mn2 O3 2.100(4) . ?
+Mn2 O4 2.116(2) 6 ?
+Mn2 O4 2.116(2) . ?
+Mn2 O2 2.292(3) . ?
+Mn2 O1 2.300(2) 6 ?
+Mn2 O1 2.300(2) . ?
+P1 O1 1.525(2) . ?
+P1 O1 1.525(2) 6_545 ?
+P1 O2 1.528(3) 3_445 ?
+P2 O3 1.512(4) . ?
+P2 O4 1.515(2) 8_445 ?
+P2 O4 1.515(2) 3_455 ?
+O2 P1 1.528(3) 3 ?
+O4 P2 1.515(2) 3_545 ?
+N1 C1 1.498(8) . ?
+N1 C1 1.498(8) 6 ?
+C1 C1 0.801(13) 6 ?
+C1 C2 1.528(10) . ?
+C2 C1 1.529(10) 2_656 ?

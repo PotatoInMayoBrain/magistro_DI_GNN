@@ -1,0 +1,92 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/53/9005327.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005327
+loop_
+_publ_author_name
+'Krause, W.'
+'Belendorff, K.'
+'Bernhardt, H. J.'
+'McCammon, C. A.'
+'Effenberger, H.'
+'Mikenda, W.'
+_publ_section_title
+;Crystal chemistry of the tsumcorite-group minerals. New data on
+ ferrilotharmeyerite, tsumcorite, thometzekite, mounanaite, helmutwinklerite,
+ and a redefinition of gartrellite
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              179
+_journal_page_last               206
+_journal_volume                  10
+_journal_year                    1998
+_chemical_compound_source        'Tsumeb mine, Namibia'
+_chemical_formula_sum            'As2 H2 O10 Pb Zn2'
+_chemical_name_mineral           Helmutwinklerite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                70.19
+_cell_angle_beta                 69.91
+_cell_angle_gamma                69.18
+_cell_formula_units_Z            1
+_cell_length_a                   5.606
+_cell_length_b                   5.610
+_cell_length_c                   7.617
+_cell_volume                     203.771
+_database_code_amcsd             0006712
+_exptl_crystal_density_diffrn    5.296
+_cod_original_formula_sum        'Pb Zn2 As2 (O10 H2)'
+_cod_database_code               9005327
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+PbMe1 0.00000 0.00000 0.00000 0.03445 Pb 0
+Zn1 0.00000 0.50000 0.50000 0.02305 Zn 0
+Zn2 0.50000 0.00000 0.50000 0.02330 Zn 0
+AsX 0.42101 0.42320 0.77763 0.02204 As 0
+O-H1 0.15540 0.15720 0.40590 0.03926 O 1
+O2 0.31310 0.30930 0.65090 0.02394 O 0
+O3a 0.24950 0.68310 0.25810 0.03242 O 0
+O3b 0.68420 0.24710 0.26100 0.03065 O 0
+O4 0.27860 0.28740 0.00850 0.06371 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:50:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006712

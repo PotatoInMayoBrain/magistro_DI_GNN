@@ -1,0 +1,183 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-13 14:50:18 +0200 (Sat, 13 Feb 2016) $
+#$Revision: 176428 $
+#$URL: svn://www.crystallography.net/cod/cif/7/22/05/7220562.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7220562
+loop_
+_publ_author_name
+'Moggach, Stephen A.'
+'Marshall, William G.'
+'Rogers, David M.'
+'Parsons, Simon'
+_publ_section_title
+;
+ How focussing on hydrogen bonding interactions in amino acids can miss
+ the bigger picture: a high-pressure neutron powder diffraction study of
+ \e-glycine
+;
+_journal_issue                   28
+_journal_name_full               CrystEngComm
+_journal_page_first              5315
+_journal_paper_doi               10.1039/C5CE00327J
+_journal_volume                  17
+_journal_year                    2015
+_chemical_absolute_configuration rm
+_chemical_formula_moiety         'C2 D5 N O2'
+_chemical_formula_sum            'C2 D5 N O2'
+_chemical_formula_weight         80.097
+_chemical_name_systematic
+;
+epsilon glycine-d5
+;
+_space_group_IT_number           7
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P -2yac'
+_symmetry_space_group_name_H-M   'P 1 n 1'
+_audit_update_record
+;
+2015-02-11 deposited with the CCDC.
+2015-05-26 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 115.298(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.0092(6)
+_cell_length_b                   5.9924(6)
+_cell_length_c                   5.4976(5)
+_cell_measurement_pressure       0.547(16)
+_cell_measurement_temperature    298
+_cell_volume                     149.20(3)
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'ZnS scintillator'
+_diffrn_detector_type            custom
+_diffrn_measurement_device_type  'PEARL, ISIS'
+_diffrn_radiation_type           Neutron
+_diffrn_source                   'Pulsed neutron source'
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using custom ISIS software.
+;
+_exptl_crystal_density_diffrn    1.783
+_pd_char_colour                  Colourless
+_pd_char_particle_morphology     Block
+_pd_instr_dist_spec/detc         600
+_pd_instr_dist_src/spec          12600
+_pd_instr_location               'ISIS, Rutherford Appleton Laboratory'
+_pd_meas_2theta_fixed            90
+_pd_meas_scan_method             Time-of-flight
+_pd_proc_info_data_reduction
+;
+Custom ISIS software
+;
+_pd_proc_info_excluded_regions
+;
+excluded short TOF region above
+
+;
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr
+; 
+Modelling of preferred orientation was found to be unnecessary.
+;
+_pd_proc_ls_profile_function
+;
+Voigt function convoluted with a back-to-back double exponential.
+;
+_pd_proc_ls_prof_R_factor        4.850
+_pd_proc_ls_prof_wR_factor       3.832
+_pd_spec_mounting                'TiZr Capsule'
+_pd_spec_mount_mode              transmission
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.106
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           sparse
+_refine_ls_number_parameters     47
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          <0.001
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            c5ce00327j3.cif
+_cod_data_source_block           epsilon_glycine_0.55GPa
+_cod_depositor_comments
+'Adding full bibliography for 7220561--7220562.cif.'
+_cod_original_sg_symbol_H-M      Pn
+_cod_database_code               7220562
+#BEGIN Tags that were not found in dictionaries:
+_pd_proc_ls_prof_r_expected      3.464
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'x+1/2, -y, z+1/2 '
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+O1 O 2 0.306(5) 0.801(7) 1.154(3) 1 1.35(7)
+O2 O 2 0.763(3) 0.673(3) 1.2800(13) 1 1.35(7)
+N1 N 2 0.734 0.6859(17) 0.78 1 1.35(7)
+C1 C 2 0.527(3) 0.756(4) 1.1130(19) 1 1.35(7)
+C2 C 2 0.506(3) 0.806(3) 0.8323(16) 1 1.35(7)
+H1 D 2 0.2891(15) 0.754(5) 0.682(2) 1 1.62(8)
+H2 D 2 0.535(6) 0.984(3) 0.815(3) 1 1.62(8)
+H3 D 2 0.715(2) 0.730(2) 0.5883(12) 1 2.02(11)
+H4 D 2 0.702(4) 0.5134(17) 0.788(3) 1 2.02(11)
+H5 D 2 0.9433(11) 0.731(3) 0.9270(17) 1 2.02(11)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 C1 O2 125.9(14) yes
+O1 C1 C2 117.1(15) yes
+O2 C1 C2 117.0(14) yes
+C2 N1 H5 109.0(10) yes
+C2 N1 H3 109.0(9) yes
+C2 N1 H4 109.1(13) yes
+H4 N1 H5 110.0(15) yes
+H3 N1 H4 109.9(12) yes
+H3 N1 H5 109.9(9) yes
+N1 C2 C1 112.0(11) yes
+N1 C2 H1 108.4(15) yes
+N1 C2 H2 109(2) yes
+C1 C2 H1 108.9(15) yes
+C1 C2 H2 109.1(16) yes
+H1 C2 H2 110(2) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+O1 C1 1.25(3) yes
+O2 C1 1.25(2) yes
+N1 C2 1.478(17) yes
+C1 C2 1.531(15) no
+N1 H3 1.051(8) yes
+N1 H4 1.050(15) yes
+N1 H5 1.049(9) yes
+C2 H1 1.092(18) yes
+C2 H2 1.09(3) yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+O1 C1 C2 N1 -162(2) no
+O2 C1 C2 N1 17(2) no

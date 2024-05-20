@@ -1,0 +1,96 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-28 16:36:49 +0300 (Sun, 28 May 2023) $
+#$Revision: 284046 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/46/9004634.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004634
+loop_
+_publ_author_name
+'DeMartin, F.'
+'Minaglia, A.'
+'Gramaccioli, C. M.'
+_publ_section_title
+;
+ Characterization of gadolinite-group minerals using crystallographic
+ data only: The case of hingganite-(Y) from Cuasso al Monte, Italy
+ Sample 2
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1105
+_journal_page_last               1114
+_journal_paper_doi               10.2113/gscanmin.39.4.1105
+_journal_volume                  39
+_journal_year                    2001
+_chemical_compound_source        'Cuasso al Monte, Italy'
+_chemical_formula_sum            'B0.3 Be1.7 Ca0.3 Fe0.31 H2 O10 Si2 Y1.7'
+_chemical_name_mineral           Hingganite-(Y)
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.45
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   4.739
+_cell_length_b                   7.607
+_cell_length_c                   9.898
+_cell_volume                     356.808
+_database_code_amcsd             0005727
+_exptl_crystal_density_diffrn    3.883
+_cod_original_formula_sum        '(Y1.7 Ca.3) Fe.31 Si2 O10 (Be1.7 B.3) H2'
+_cod_database_code               9004634
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+YA 0.00020 0.10851 0.33239 0.85000 0.01412 Y 0
+CaA 0.00020 0.10851 0.33239 0.15000 0.01412 Ca 0
+FeX 0.00000 0.00000 0.00000 0.31000 0.02191 Fe 0
+Si 0.51820 0.27570 0.07960 1.00000 0.01507 Si 0
+O(1) 0.76000 0.41110 0.03370 1.00000 0.01862 O 0
+O(2) 0.32500 0.28750 0.45260 1.00000 0.01874 O 0
+O(3) 0.30300 0.34600 0.19520 1.00000 0.01874 O 0
+O(4) 0.68400 0.10750 0.14570 1.00000 0.02242 O 0
+O-H(5) 0.78800 0.41180 0.33170 1.00000 0.01925 O 0
+BeZ 0.44900 0.41300 0.33620 0.85000 0.01140 Be 0
+BZ 0.44900 0.41300 0.33620 0.15000 0.01140 B 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:19:00+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005727

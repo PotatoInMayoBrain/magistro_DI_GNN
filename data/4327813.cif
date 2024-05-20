@@ -1,0 +1,319 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 16:30:45 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179381 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/78/4327813.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4327813
+loop_
+_publ_author_name
+'Dayna L. Turner'
+'Kevin H. Stone'
+'Peter W. Stephens'
+'Aron Walsh'
+'Mayank Pratap Singh'
+'Thomas P. Vaid'
+_publ_contact_author_email       tpvaid@ua.edu
+_publ_contact_author_name        'Thomas P. Vaid'
+_publ_section_title
+;
+ Synthesis, Characterization, and Calculated Electronic Structure of the
+ Crystalline Metal-Organic Polymers [Hg(SC6H4S)(en)]n and
+ [Pb(SC6H4S)(dien)]n
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              370
+_journal_page_last               376
+_journal_paper_doi               10.1021/ic201779a
+_journal_volume                  51
+_journal_year                    2012
+_chemical_formula_structural     Pb(SC6H4S)(N3C4H13)
+_chemical_formula_sum            'C10 H17 N3 Pb S2'
+_chemical_formula_weight         450.61
+_chemical_name_systematic        ?
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      2
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_cell_angle_alpha                61.186(3)
+_cell_angle_beta                 86.117(3)
+_cell_angle_gamma                86.053(3)
+_cell_formula_units_Z            2
+_cell_length_a                   7.3106(3)
+_cell_length_b                   10.2825(4)
+_cell_length_c                   10.2809(4)
+_cell_measurement_temperature    298
+_cell_volume                     675.01(5)
+_computing_cell_refinement       'TOPAS Academic'
+_computing_data_collection       EPICS
+_computing_publication_material  enCIFer
+_computing_structure_refinement  'TOPAS Academic'
+_computing_structure_solution    'TOPAS Academic'
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'NaI scintillation counter'
+_diffrn_measurement_device_type  'Huber diffractometer'
+_diffrn_radiation_monochromator  'double Si(111)'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.69702
+_diffrn_source                   synchrotron
+_exptl_crystal_density_diffrn    2.217
+_exptl_crystal_density_method    'Not Measured'
+_pd_block_diffractogram_id       Pb(SC6H4S)(dien)
+_pd_instr_location
+; 
+X16C, National Synchrotron Light Source, Brookhaven National Laboratory
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        40
+_pd_meas_2theta_range_min        1
+_pd_meas_number_of_points        7800
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        40
+_pd_proc_2theta_range_min        3
+_pd_proc_info_excluded_regions
+;
+1 to 3 degrees due to high low angle 
+background and no diffraction peaks in that region
+;
+_pd_proc_ls_background_function
+;
+Chebyshev polynomial with 12 coeffecients
+;
+_pd_proc_ls_pref_orient_corr
+; 
+none 
+;
+_pd_proc_ls_profile_function
+;
+Simple_Axial_Model(9.07(3)) function with Rp=9999,Rs=300 in TOPAS-Academic
+;
+_pd_proc_ls_prof_R_factor        3.667
+_pd_proc_ls_prof_wR_expected     2.680
+_pd_proc_ls_prof_wR_factor       4.678
+_pd_proc_wavelength              0.69702
+_pd_spec_mounting
+;Sample was loaded into a thin walled glass capillary of nominal 0.7mm
+ diameter
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              4
+_pd_spec_size_thick              0.7
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.746
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     64
+_refine_ls_R_I_factor            1.872
+_refine_ls_shift/su_max          0.0001
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ic201779a_si_002_2.cif
+_cod_data_source_block           Pb(SC6H4S)(dien)_x-ray
+_cod_depositor_comments          'Adding Fobs data.'
+_cod_original_cell_volume        675.01(4)
+_cod_database_code               4327813
+_cod_database_fobs_code          4327813
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.0400(10) 0.030(2) 0.054(2) 0.0009(17) -0.012(2) -0.017(1)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Pb1 Pb Uani 0.7503(6) 0.3942(3) 0.1073(3) 1.000 0.0423(10)
+S1 S Uiso 1.102(2) 0.2680(10) 0.0476(13) 1.000 0.038(4)
+S1B S Uiso 0.387(2) 0.392(2) 0.277(2) 1.000 0.038(4)
+N1A N Uiso 0.566(2) 0.1810(10) 0.116(2) 1.000 0.014(8)
+N2A N Uiso 0.7130(10) 0.1860(10) 0.3680(10) 1.000 0.014(8)
+N3A N Uiso 0.927(2) 0.4380(10) 0.2970(10) 1.000 0.014(8)
+C1 C Uiso 1.0450(10) 0.1190(10) 0.0210(10) 1.000 0.038(4)
+C1B C Uiso 0.4500(10) 0.4520(10) 0.4010(10) 1.000 0.038(4)
+C2 C Uiso 0.9640(10) 0.1470(10) -0.110(2) 1.000 0.038(4)
+C2B C Uiso 0.3950(10) 0.374(2) 0.5520(10) 1.000 0.038(4)
+C3 C Uiso 1.0820(10) -0.0280(10) 0.1320(10) 1.000 0.038(4)
+C3B C Uiso 0.5550(10) 0.578(2) 0.3490(10) 1.000 0.038(4)
+C7A C Uiso 0.524(2) 0.0680(10) 0.269(2) 1.000 0.014(8)
+C8A C Uiso 0.678(2) 0.0480(10) 0.3690(10) 1.000 0.014(8)
+C9A C Uiso 0.8640(10) 0.1740(10) 0.4590(10) 1.000 0.014(8)
+C10A C Uiso 0.893(2) 0.3230(10) 0.4500(10) 1.000 0.014(8)
+HN1A H Uiso 0.633(2) 0.1370(10) 0.071(2) 1.000 0.014(8)
+H2 H Uiso 0.9410(10) 0.2410(10) -0.181(3) 1.000 0.038(4)
+HN1B H Uiso 0.4600(10) 0.2190(10) 0.071(2) 1.000 0.014(8)
+H2B H Uiso 0.3270(10) 0.293(3) 0.585(2) 1.000 0.038(4)
+H3 H Uiso 1.1330(10) -0.0460(10) 0.216(3) 1.000 0.038(4)
+HC7A H Uiso 0.5090(10) -0.0200(10) 0.271(2) 1.000 0.014(8)
+H3B H Uiso 0.5910(10) 0.6280(10) 0.2530(10) 1.000 0.038(4)
+HC7B H Uiso 0.420(2) 0.0950(10) 0.303(2) 1.000 0.014(8)
+HC8A H Uiso 0.649(2) -0.0210(10) 0.4630(10) 1.000 0.014(8)
+HC8B H Uiso 0.782(2) 0.0170(10) 0.3380(10) 1.000 0.014(8)
+HN2A H Uiso 0.6110(10) 0.2270(10) 0.3900(10) 1.000 0.014(8)
+HC9A H Uiso 0.9680(10) 0.1450(10) 0.4270(10) 1.000 0.014(8)
+HC9B H Uiso 0.8390(10) 0.107(2) 0.5540(10) 1.000 0.014(8)
+HC10A H Uiso 0.990(2) 0.315(2) 0.5030(10) 1.000 0.014(8)
+HC10B H Uiso 0.792(2) 0.351(2) 0.4880(10) 1.000 0.014(8)
+HN3A H Uiso 1.048(2) 0.438(2) 0.2740(10) 1.000 0.014(8)
+HN3B H Uiso 0.890(2) 0.5270(10) 0.288(2) 1.000 0.014(8)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+S S 0.121 0.120 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pb Pb -2.963 9.841 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+S1 Pb1 S1B 156.0(5) . . yes
+S1 Pb1 N1A 92.1(4) . . yes
+S1 Pb1 N2A 93.8(3) . . yes
+S1 Pb1 N3A 86.8(4) . . yes
+S1 Pb1 S1 93.5(4) . 2_765 yes
+S1B Pb1 N1A 74.3(5) . . yes
+S1B Pb1 N2A 63.0(4) . . yes
+S1B Pb1 N3A 89.7(5) . . yes
+S1 Pb1 S1B 107.4(5) 2_765 . yes
+N1A Pb1 N2A 68.8(5) . . yes
+N1A Pb1 N3A 136.6(5) . . yes
+S1 Pb1 N1A 154.3(5) 2_765 . yes
+N2A Pb1 N3A 68.0(3) . . yes
+S1 Pb1 N2A 135.6(3) 2_765 . yes
+S1 Pb1 N3A 68.8(3) 2_765 . yes
+Pb1 S1 C1 106.1(7) . . yes
+Pb1 S1 Pb1 86.5(3) . 2_765 yes
+Pb1 S1 C1 146.5(6) 2_765 . yes
+Pb1 S1B C1B 102.9(7) . . yes
+Pb1 N1A C7A 111.5(10) . . yes
+Pb1 N2A C8A 111.0(6) . . yes
+Pb1 N2A C9A 112.0(6) . . yes
+C8A N2A C9A 114.0(9) . . yes
+Pb1 N3A C10A 111.9(8) . . yes
+Pb1 N1A HN1B 109.2(14) . . no
+C7A N1A HN1A 108.0(18) . . no
+C7A N1A HN1B 108.2(18) . . no
+HN1A N1A HN1B 111(2) . . no
+Pb1 N1A HN1A 109.3(15) . . no
+C8A N2A HN2A 112.3(11) . . no
+C9A N2A HN2A 111.4(11) . . no
+Pb1 N2A HN2A 94.6(9) . . no
+Pb1 N3A HN3B 108.5(14) . . no
+C10A N3A HN3A 109.2(13) . . no
+C10A N3A HN3B 109.4(15) . . no
+HN3A N3A HN3B 109(2) . . no
+Pb1 N3A HN3A 108.5(12) . . no
+S1 C1 C2 120.0(10) . . yes
+S1 C1 C3 119.6(8) . . yes
+C2 C1 C3 120.4(11) . . no
+S1B C1B C3B 120.0(10) . . yes
+C2B C1B C3B 120.0(11) . . no
+S1B C1B C2B 120.1(11) . . yes
+C1 C2 C3 120.3(13) . 2_755 no
+C1B C2B C3B 120.1(13) . 2_666 no
+C1 C3 C2 119.3(10) . 2_755 no
+C1B C3B C2B 119.9(9) . 2_666 no
+N1A C7A C8A 111.0(12) . . yes
+N2A C8A C7A 111.7(10) . . yes
+N2A C9A C10A 110.6(9) . . yes
+N3A C10A C9A 111.6(8) . . yes
+C1 C2 H2 120.2(19) . . no
+C3 C2 H2 119.5(19) 2_755 . no
+C1B C2B H2B 119.7(19) . . no
+C3B C2B H2B 120.2(16) 2_666 . no
+C1 C3 H3 120.4(16) . . no
+C2 C3 H3 120.2(17) 2_755 . no
+C1B C3B H3B 120.5(17) . . no
+C2B C3B H3B 119.6(18) 2_666 . no
+N1A C7A HC7A 109.1(19) . . no
+N1A C7A HC7B 109.7(18) . . no
+C8A C7A HC7A 108.7(16) . . no
+C8A C7A HC7B 109.1(18) . . no
+HC7A C7A HC7B 109.2(19) . . no
+N2A C8A HC8A 108.8(12) . . no
+N2A C8A HC8B 108.1(14) . . no
+C7A C8A HC8A 109.7(16) . . no
+C7A C8A HC8B 109.7(13) . . no
+HC8A C8A HC8B 108.7(16) . . no
+N2A C9A HC9A 110.1(11) . . no
+N2A C9A HC9B 109.6(10) . . no
+C10A C9A HC9A 108.3(11) . . no
+C10A C9A HC9B 109.1(16) . . no
+HC9A C9A HC9B 109.1(15) . . no
+N3A C10A HC10A 108.5(15) . . no
+N3A C10A HC10B 108.7(14) . . no
+C9A C10A HC10A 109.6(17) . . no
+C9A C10A HC10B 109.6(17) . . no
+HC10A C10A HC10B 109.0(17) . . no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb1 S1 2.961(14) . yes
+Pb1 S1B 3.073(17) . yes
+Pb1 N1A 2.614(15) . yes
+Pb1 N2A 2.508(10) . yes
+Pb1 N3A 2.635(12) . yes
+Pb1 S1 3.274(13) 2_765 yes
+S1 C1 1.762(17) . yes
+S1B C1B 1.76(2) . yes
+N1A C7A 1.46(2) . yes
+N2A C8A 1.454(16) . yes
+N2A C9A 1.456(12) . yes
+N3A C10A 1.459(13) . yes
+N1A HN1A 0.90 . no
+N1A HN1B 0.90 . no
+N2A HN2A 0.90 . no
+N3A HN3A 0.90 . no
+N3A HN3B 0.898(18) . no
+C1 C2 1.399(18) . no
+C1 C3 1.408(14) . no
+C1B C2B 1.405(13) . no
+C1B C3B 1.403(19) . no
+C2 C3 1.413(18) 2_755 no
+C2B C3B 1.41(2) 2_666 no
+C7A C8A 1.51(2) . no
+C9A C10A 1.519(16) . no
+C2 H2 0.90 . no
+C2B H2B 0.90 . no
+C3 H3 0.90 . no
+C3B H3B 0.90 . no
+C7A HC7A 0.90 . no
+C7A HC7B 0.90 . no
+C8A HC8A 0.90 . no
+C8A HC8B 0.90 . no
+C9A HC9A 0.90 . no
+C9A HC9B 0.90 . no
+C10A HC10A 0.90 . no
+C10A HC10B 0.90 . no

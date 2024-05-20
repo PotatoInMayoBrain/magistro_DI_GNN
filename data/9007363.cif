@@ -1,0 +1,101 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/73/9007363.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9007363
+loop_
+_publ_author_name
+'Bindi, L.'
+'Bonazzi, P.'
+_publ_section_title
+;
+ Incommensurate-normal phase transition in natural melilite:
+ an in situ high-temperature X-ray single-crystal study
+ Sample: San Venanzo, Italy; T = 373 K
+ Note: xO1 and yO1 corrected by authors
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              89
+_journal_page_last               96
+_journal_paper_doi               10.1007/s00269-004-0439-2
+_journal_volume                  32
+_journal_year                    2005
+_chemical_formula_sum
+'Al0.09 Ca1.87 K0.02 Mg0.96 Na0.1 O7 Si1.98 Sr0.02'
+_chemical_name_mineral           Melilite
+_space_group_IT_number           113
+_symmetry_space_group_name_Hall  'P -4 2ab'
+_symmetry_space_group_name_H-M   'P -4 21 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   7.833
+_cell_length_b                   7.833
+_cell_length_c                   5.004
+_cell_volume                     307.025
+_database_code_amcsd             0008956
+_diffrn_ambient_temperature      373
+_exptl_crystal_density_diffrn    2.955
+_cod_original_formula_sum        'Ca1.87 Na.1 Sr.02 K.02 Mg.96 Al.09 Si1.98 O7'
+_cod_database_code               9007363
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-y,1/2-x,z
+y,-x,-z
+1/2-x,1/2+y,-z
+-x,-y,z
+1/2+y,1/2+x,z
+-y,x,-z
+1/2+x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaX 0.33200 0.16800 0.50550 0.93500 0.03510 Ca 0
+NaX 0.33200 0.16800 0.50550 0.05000 0.03510 Na 0
+SrX 0.33200 0.16800 0.50550 0.01000 0.03510 Sr 0
+KX 0.33200 0.16800 0.50550 0.01000 0.03510 K 0
+MgT1 0.00000 0.00000 0.00000 0.96000 0.02760 Mg 0
+AlT1 0.00000 0.00000 0.00000 0.07000 0.02760 Al 0
+SiT2 0.14010 0.35990 0.93490 0.99000 0.02650 Si 0
+AlT2 0.14010 0.35990 0.93490 0.01000 0.02650 Al 0
+O1 0.50000 0.00000 0.18290 1.00000 0.03550 O 0
+O2 0.14090 0.35910 0.25460 1.00000 0.03790 O 0
+O3 0.08060 0.18610 0.78550 1.00000 0.03670 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:19:42+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0008956

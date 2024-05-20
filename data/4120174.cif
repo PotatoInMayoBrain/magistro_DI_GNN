@@ -1,0 +1,439 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 13:48:10 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178978 $
+#$URL: svn://www.crystallography.net/cod/cif/4/12/01/4120174.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4120174
+loop_
+_publ_author_name
+'Qisheng Lin'
+'Trinath Mishra'
+'John D. Corbett'
+_publ_section_title
+;
+ Hexagonal-Diamond-like Gold Lattices, Ba and (Au,T)3 Interstitials, and
+ Delocalized Bonding in a Family of Intermetallic Phases Ba2Au6(Au,T)3 (T
+ = Zn, Cd, Ga, In, or Sn)
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              11023
+_journal_page_last               11031
+_journal_paper_doi               10.1021/ja401378q
+_journal_volume                  135
+_journal_year                    2013
+_chemical_formula_sum            'Au7.11 Ba2 Zn1.89'
+_chemical_formula_weight         1799.10
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                120.00
+_cell_formula_units_Z            6
+_cell_length_a                   8.6747(5)
+_cell_length_b                   8.6747(5)
+_cell_length_c                   22.004(5)
+_cell_measurement_reflns_used    4174
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.42
+_cell_measurement_theta_min      3.28
+_cell_volume                     1434.0(3)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.998
+_diffrn_measured_fraction_theta_max 0.998
+_diffrn_measurement_device_type  'Bruker Apex2 CCD'
+_diffrn_measurement_method       w/
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0735
+_diffrn_reflns_av_sigmaI/netI    0.0357
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       29
+_diffrn_reflns_limit_l_min       -29
+_diffrn_reflns_number            4174
+_diffrn_reflns_theta_full        28.42
+_diffrn_reflns_theta_max         28.42
+_diffrn_reflns_theta_min         3.28
+_exptl_absorpt_coefficient_mu    121.338
+_exptl_absorpt_correction_T_max  0.7458
+_exptl_absorpt_correction_T_min  0.4057
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            grey
+_exptl_crystal_density_diffrn    12.500
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             4383
+_exptl_crystal_size_max          0.04
+_exptl_crystal_size_mid          0.03
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         1.793
+_refine_diff_density_min         -1.734
+_refine_diff_density_rms         0.450
+_refine_ls_extinction_coef       0.000121(8)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.070
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     20
+_refine_ls_number_reflns         406
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.070
+_refine_ls_R_factor_all          0.0310
+_refine_ls_R_factor_gt           0.0231
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0075P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0392
+_refine_ls_wR_factor_ref         0.0408
+_reflns_number_gt                341
+_reflns_number_total             406
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ja401378q_si_001_4.cif
+_cod_data_source_block           crystal_1s
+_cod_original_sg_symbol_H-M      'R -3 c'
+_cod_database_code               4120174
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'y, x, -z+1/2'
+'x-y, -y, -z+1/2'
+'-x, -x+y, -z+1/2'
+'x+2/3, y+1/3, z+1/3'
+'-y+2/3, x-y+1/3, z+1/3'
+'-x+y+2/3, -x+1/3, z+1/3'
+'y+2/3, x+1/3, -z+5/6'
+'x-y+2/3, -y+1/3, -z+5/6'
+'-x+2/3, -x+y+1/3, -z+5/6'
+'x+1/3, y+2/3, z+2/3'
+'-y+1/3, x-y+2/3, z+2/3'
+'-x+y+1/3, -x+2/3, z+2/3'
+'y+1/3, x+2/3, -z+7/6'
+'x-y+1/3, -y+2/3, -z+7/6'
+'-x+1/3, -x+y+2/3, -z+7/6'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'-y, -x, z-1/2'
+'-x+y, y, z-1/2'
+'x, x-y, z-1/2'
+'-x+2/3, -y+1/3, -z+1/3'
+'y+2/3, -x+y+1/3, -z+1/3'
+'x-y+2/3, x+1/3, -z+1/3'
+'-y+2/3, -x+1/3, z-1/6'
+'-x+y+2/3, y+1/3, z-1/6'
+'x+2/3, x-y+1/3, z-1/6'
+'-x+1/3, -y+2/3, -z+2/3'
+'y+1/3, -x+y+2/3, -z+2/3'
+'x-y+1/3, x+2/3, -z+2/3'
+'-y+1/3, -x+2/3, z+1/6'
+'-x+y+1/3, y+2/3, z+1/6'
+'x+1/3, x-y+2/3, z+1/6'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ba Ba 0.0000 0.0000 0.09443(5) 0.0114(3) Uani 1 3 d S
+Au1 Au 0.34202(6) 0.03798(6) 0.015101(19) 0.01336(16) Uani 1 1 d .
+Au2 Au 0.18033(12) 0.0000 0.2500 0.0108(3) Uani 0.371(4) 2 d SP
+Zn2 Zn 0.18033(12) 0.0000 0.2500 0.0108(3) Uani 0.629(4) 2 d SP
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ba 0.0103(4) 0.0103(4) 0.0135(5) 0.000 0.000 0.00515(19)
+Au1 0.0141(3) 0.0089(2) 0.0152(2) -0.00063(17) 0.00008(17) 0.00434(19)
+Au2 0.0116(5) 0.0087(6) 0.0110(5) -0.0022(4) -0.00110(19) 0.0043(3)
+Zn2 0.0116(5) 0.0087(6) 0.0110(5) -0.0022(4) -0.00110(19) 0.0043(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Zn Zn 0.2839 1.4301 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Au Au -2.0133 8.8022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Au1 Ba Au1 89.73(2) 34 35_545
+Au1 Ba Au1 89.73(2) 34 36_445
+Au1 Ba Au1 89.73(2) 35_545 36_445
+Au1 Ba Au1 86.996(10) 34 .
+Au1 Ba Au1 88.359(10) 35_545 .
+Au1 Ba Au1 176.21(3) 36_445 .
+Au1 Ba Au1 176.21(3) 34 3
+Au1 Ba Au1 86.996(10) 35_545 3
+Au1 Ba Au1 88.359(10) 36_445 3
+Au1 Ba Au1 94.80(2) . 3
+Au1 Ba Au1 88.359(10) 34 2
+Au1 Ba Au1 176.21(3) 35_545 2
+Au1 Ba Au1 86.996(10) 36_445 2
+Au1 Ba Au1 94.80(2) . 2
+Au1 Ba Au1 94.80(2) 3 2
+Au1 Ba Au1 50.858(14) 34 18_554
+Au1 Ba Au1 122.90(3) 35_545 18_554
+Au1 Ba Au1 56.561(15) 36_445 18_554
+Au1 Ba Au1 122.147(11) . 18_554
+Au1 Ba Au1 130.005(10) 3 18_554
+Au1 Ba Au1 53.520(17) 2 18_554
+Au1 Ba Au1 122.90(3) 34 17_444
+Au1 Ba Au1 56.559(15) 35_545 17_444
+Au1 Ba Au1 50.859(14) 36_445 17_444
+Au1 Ba Au1 130.003(10) . 17_444
+Au1 Ba Au1 53.519(17) 3 17_444
+Au1 Ba Au1 122.148(11) 2 17_444
+Au1 Ba Au1 107.320(19) 18_554 17_444
+Au1 Ba Au1 56.561(16) 34 16_544
+Au1 Ba Au1 50.858(14) 35_545 16_544
+Au1 Ba Au1 122.90(3) 36_445 16_544
+Au1 Ba Au1 53.518(17) . 16_544
+Au1 Ba Au1 122.146(11) 3 16_544
+Au1 Ba Au1 130.005(10) 2 16_544
+Au1 Ba Au1 107.319(19) 18_554 16_544
+Au1 Ba Au1 107.317(19) 17_444 16_544
+Au1 Ba Au1 134.200(9) 34 19
+Au1 Ba Au1 132.525(8) 35_545 19
+Au1 Ba Au1 76.017(17) 36_445 19
+Au1 Ba Au1 107.66(3) . 19
+Au1 Ba Au1 48.287(10) 3 19
+Au1 Ba Au1 48.287(10) 2 19
+Au1 Ba Au1 86.335(11) 18_554 19
+Au1 Ba Au1 80.623(11) 17_444 19
+Au1 Ba Au1 160.59(3) 16_544 19
+Au1 Ba Au1 132.525(8) 34 20
+Au1 Ba Au1 76.017(17) 35_545 20
+Au1 Ba Au1 134.200(9) 36_445 20
+Au1 Ba Au1 48.287(10) . 20
+Au1 Ba Au1 48.287(10) 3 20
+Au1 Ba Au1 107.66(3) 2 20
+Au1 Ba Au1 160.59(3) 18_554 20
+Au1 Ba Au1 86.333(11) 17_444 20
+Au1 Ba Au1 80.621(11) 16_544 20
+Au1 Ba Au1 82.30(2) 19 20
+Au1 Ba Au1 76.017(18) 34 21
+Au1 Ba Au1 134.200(9) 35_545 21
+Au1 Ba Au1 132.525(8) 36_445 21
+Au1 Ba Au1 48.287(10) . 21
+Au1 Ba Au1 107.66(3) 3 21
+Au1 Ba Au1 48.287(10) 2 21
+Au1 Ba Au1 80.622(11) 18_554 21
+Au1 Ba Au1 160.59(3) 17_444 21
+Au1 Ba Au1 86.334(11) 16_544 21
+Au1 Ba Au1 82.30(2) 19 21
+Au1 Ba Au1 82.30(2) 20 21
+Zn2 Au1 Au2 0.0 25 25
+Zn2 Au1 Zn2 153.001(18) 25 14_544
+Au2 Au1 Zn2 153.001(18) 25 14_544
+Zn2 Au1 Au2 153.001(18) 25 14_544
+Au2 Au1 Au2 153.001(18) 25 14_544
+Zn2 Au1 Au2 0.0 14_544 14_544
+Zn2 Au1 Zn2 58.03(4) 25 26
+Au2 Au1 Zn2 58.03(4) 25 26
+Zn2 Au1 Zn2 110.549(17) 14_544 26
+Au2 Au1 Zn2 110.549(17) 14_544 26
+Zn2 Au1 Au2 58.03(4) 25 26
+Au2 Au1 Au2 58.03(4) 25 26
+Zn2 Au1 Au2 110.549(17) 14_544 26
+Au2 Au1 Au2 110.549(17) 14_544 26
+Zn2 Au1 Au2 0.00(4) 26 26
+Zn2 Au1 Au1 149.27(3) 25 20
+Au2 Au1 Au1 149.27(3) 25 20
+Zn2 Au1 Au1 57.059(17) 14_544 20
+Au2 Au1 Au1 57.059(17) 14_544 20
+Zn2 Au1 Au1 134.73(3) 26 20
+Au2 Au1 Au1 134.73(3) 26 20
+Zn2 Au1 Au1 57.92(2) 25 21
+Au2 Au1 Au1 57.92(2) 25 21
+Zn2 Au1 Au1 113.16(3) 14_544 21
+Au2 Au1 Au1 113.16(3) 14_544 21
+Zn2 Au1 Au1 109.85(3) 26 21
+Au2 Au1 Au1 109.85(3) 26 21
+Au1 Au1 Au1 114.893(12) 20 21
+Zn2 Au1 Au1 60.459(13) 25 16_544
+Au2 Au1 Au1 60.459(13) 25 16_544
+Zn2 Au1 Au1 135.96(3) 14_544 16_544
+Au2 Au1 Au1 135.96(3) 14_544 16_544
+Zn2 Au1 Au1 53.673(12) 26 16_544
+Au2 Au1 Au1 53.673(12) 26 16_544
+Au1 Au1 Au1 102.292(16) 20 16_544
+Au1 Au1 Au1 110.85(2) 21 16_544
+Zn2 Au1 Au1 105.97(3) 25 19_655
+Au2 Au1 Au1 105.97(3) 25 19_655
+Zn2 Au1 Au1 58.052(15) 14_544 19_655
+Au2 Au1 Au1 58.052(15) 14_544 19_655
+Zn2 Au1 Au1 52.497(19) 26 19_655
+Au2 Au1 Au1 52.497(19) 26 19_655
+Au1 Au1 Au1 100.19(2) 20 19_655
+Au1 Au1 Au1 129.86(3) 21 19_655
+Au1 Au1 Au1 94.14(2) 16_544 19_655
+Zn2 Au1 Ba 77.02(2) 25 28
+Au2 Au1 Ba 77.02(2) 25 28
+Zn2 Au1 Ba 76.22(2) 14_544 28
+Au2 Au1 Ba 76.22(2) 14_544 28
+Zn2 Au1 Ba 74.33(2) 26 28
+Au2 Au1 Ba 74.33(2) 26 28
+Au1 Au1 Ba 130.26(3) 20 28
+Au1 Au1 Ba 66.549(16) 21 28
+Au1 Au1 Ba 124.359(17) 16_544 28
+Au1 Au1 Ba 63.470(14) 19_655 28
+Zn2 Au1 Ba 76.52(2) 25 .
+Au2 Au1 Ba 76.52(2) 25 .
+Zn2 Au1 Ba 127.701(19) 14_544 .
+Au2 Au1 Ba 127.701(19) 14_544 .
+Zn2 Au1 Ba 115.44(2) 26 .
+Au2 Au1 Ba 115.44(2) 26 .
+Au1 Au1 Ba 72.981(12) 20 .
+Au1 Au1 Ba 72.981(12) 21 .
+Au1 Au1 Ba 65.09(2) 16_544 .
+Au1 Au1 Ba 155.15(3) 19_655 .
+Ba Au1 Ba 139.039(15) 28 .
+Au1 Au2 Au1 178.75(5) 35_545 25
+Au1 Au2 Au1 115.80(2) 35_545 9
+Au1 Au2 Au1 65.023(17) 25 9
+Au1 Au2 Au1 65.023(17) 35_545 16_544
+Au1 Au2 Au1 115.80(2) 25 16_544
+Au1 Au2 Au1 106.47(4) 9 16_544
+Au1 Au2 Zn2 64.94(2) 35_545 3
+Au1 Au2 Zn2 113.87(2) 25 3
+Au1 Au2 Zn2 120.417(18) 9 3
+Au1 Au2 Zn2 122.034(17) 16_544 3
+Au1 Au2 Au2 64.94(2) 35_545 3
+Au1 Au2 Au2 113.87(2) 25 3
+Au1 Au2 Au2 120.417(18) 9 3
+Au1 Au2 Au2 122.034(17) 16_544 3
+Zn2 Au2 Au2 0.00(4) 3 3
+Au1 Au2 Zn2 113.87(2) 35_545 2
+Au1 Au2 Zn2 64.94(2) 25 2
+Au1 Au2 Zn2 122.032(17) 9 2
+Au1 Au2 Zn2 120.419(18) 16_544 2
+Zn2 Au2 Zn2 60.0 3 2
+Au2 Au2 Zn2 60.0 3 2
+Au1 Au2 Au2 113.87(2) 35_545 2
+Au1 Au2 Au2 64.94(2) 25 2
+Au1 Au2 Au2 122.032(17) 9 2
+Au1 Au2 Au2 120.419(18) 16_544 2
+Zn2 Au2 Au2 60.0 3 2
+Au2 Au2 Au2 60.0 3 2
+Zn2 Au2 Au2 0.0 2 2
+Au1 Au2 Au1 65.87(2) 35_545 27_445
+Au1 Au2 Au1 113.94(2) 25 27_445
+Au1 Au2 Au1 69.451(17) 9 27_445
+Au1 Au2 Au1 121.38(2) 16_544 27_445
+Zn2 Au2 Au1 57.02(2) 3 27_445
+Au2 Au2 Au1 57.02(2) 3 27_445
+Zn2 Au2 Au1 107.38(2) 2 27_445
+Au2 Au2 Au1 107.38(2) 2 27_445
+Au1 Au2 Au1 113.94(2) 35_545 34
+Au1 Au2 Au1 65.87(2) 25 34
+Au1 Au2 Au1 121.38(2) 9 34
+Au1 Au2 Au1 69.452(17) 16_544 34
+Zn2 Au2 Au1 107.38(2) 3 34
+Au2 Au2 Au1 107.38(2) 3 34
+Zn2 Au2 Au1 57.02(2) 2 34
+Au2 Au2 Au1 57.02(2) 2 34
+Au1 Au2 Au1 163.70(4) 27_445 34
+Au1 Au2 Ba 121.69(3) 35_545 25
+Au1 Au2 Ba 59.385(19) 25 25
+Au1 Au2 Ba 67.98(3) 9 25
+Au1 Au2 Ba 59.23(2) 16_544 25
+Zn2 Au2 Ba 167.360(11) 3 25
+Au2 Au2 Ba 167.360(11) 3 25
+Zn2 Au2 Ba 107.877(10) 2 25
+Au2 Au2 Ba 107.877(10) 2 25
+Au1 Au2 Ba 134.64(3) 27_445 25
+Au1 Au2 Ba 60.490(15) 34 25
+Au1 Au2 Ba 59.385(19) 35_545 34_545
+Au1 Au2 Ba 121.69(3) 25 34_545
+Au1 Au2 Ba 59.23(2) 9 34_545
+Au1 Au2 Ba 67.98(3) 16_544 34_545
+Zn2 Au2 Ba 107.878(10) 3 34_545
+Au2 Au2 Ba 107.878(10) 3 34_545
+Zn2 Au2 Ba 167.361(11) 2 34_545
+Au2 Au2 Ba 167.361(11) 2 34_545
+Au1 Au2 Ba 60.490(15) 27_445 34_545
+Au1 Au2 Ba 134.64(3) 34 34_545
+Ba Au2 Ba 84.44(2) 25 34_545
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba Au1 3.3125(8) 34
+Ba Au1 3.3125(8) 35_545
+Ba Au1 3.3125(8) 36_445
+Ba Au1 3.3138(7) .
+Ba Au1 3.3138(7) 3
+Ba Au1 3.3138(7) 2
+Ba Au1 3.4231(6) 18_554
+Ba Au1 3.4232(6) 17_444
+Ba Au1 3.4233(6) 16_544
+Ba Au1 3.7071(9) 19
+Ba Au1 3.7071(9) 20
+Ba Au1 3.7071(9) 21
+Au1 Zn2 2.6793(5) 25
+Au1 Au2 2.6793(5) 25
+Au1 Zn2 2.7050(8) 14_544
+Au1 Au2 2.7050(8) 14_544
+Au1 Zn2 2.8932(5) 26
+Au1 Au2 2.8932(5) 26
+Au1 Au1 2.8940(5) 20
+Au1 Au1 2.8941(5) 21
+Au1 Au1 3.0349(11) 16_544
+Au1 Au1 3.1927(9) 19_655
+Au1 Ba 3.3126(8) 28
+Au2 Au1 2.6793(5) 35_545
+Au2 Au1 2.6793(5) 25
+Au2 Au1 2.7049(8) 9
+Au2 Au1 2.7050(8) 16_544
+Au2 Zn2 2.7094(18) 3
+Au2 Au2 2.7094(18) 3
+Au2 Zn2 2.7094(18) 2
+Au2 Au2 2.7094(18) 2
+Au2 Au1 2.8933(5) 27_445
+Au2 Au1 2.8933(5) 34
+Au2 Ba 3.7444(8) 25
+Au2 Ba 3.7444(8) 34_545

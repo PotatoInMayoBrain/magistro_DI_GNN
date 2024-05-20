@@ -1,0 +1,168 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 10:27:54 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178871 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/00/4110099.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4110099
+loop_
+_publ_author_name
+'Adrien P. C\^ot\'e'
+'Hani M. El-Kaderi'
+'Hiroyasu Furukawa'
+'Joseph R. Hunt'
+'Omar M. Yaghi'
+_publ_section_title
+;
+ Reticular Synthesis of Microporous and Mesoporous 2D Covalent Organic
+ Frameworks
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              12914
+_journal_page_last               12915
+_journal_paper_doi               10.1021/ja0751781
+_journal_volume                  129
+_journal_year                    2007
+_chemical_formula_sum            'C8 H3 B O2'
+_chemical_formula_weight         141.92
+_chemical_name_systematic
+; 
+COF-6
+;
+_space_group_IT_number           187
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P -6 2'
+_symmetry_space_group_name_H-M   'P -6 m 2'
+_audit_author_name               'Adrien Cote'
+_audit_creation_date             2007-06-26T18:05
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2007-06-26T18:05  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            3
+_cell_length_a                   14.9740(32)
+_cell_length_b                   14.974
+_cell_length_c                   3.3986(9)
+_cell_volume                     659.9(2)
+_computing_structure_refinement  GSAS
+_pd_block_id                     2007-06-26T18:05|COF12_phase1|Adrien_Cote||
+_pd_phase_name                   'from /home/apcote/2Dcofs/cof12b/COF12.EXP'
+_refine_ls_goodness_of_fit_all   4.85
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     8
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          4.28
+_refine_ls_shift/su_mean         0.98
+_cod_data_source_file            ja0751781si20070711_105705.cif
+_cod_data_source_block           COF12_publ
+_cod_original_cell_volume        659.94(30)
+_cod_database_code               4110099
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 y-x,-x,-z
+3 -y,x-y,+z
+4 +x,+y,-z
+5 y-x,-x,+z
+6 -y,x-y,-z
+7 y-x,+y,+z
+8 +x,x-y,-z
+9 -y,-x,+z
+10 y-x,+y,-z
+11 +x,x-y,+z
+12 -y,-x,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+C C1 0.38702 0.61298 0.5 1.0 Uiso 0.025 3
+B B1 0.44676 0.55326 0.5 1.0 Uiso 0.025 3
+C C2 0.44044 0.72022 0.5 1.0 Uiso 0.025 3
+H H1 0.23829 0.47658 0.5 1.0 Uiso 0.025 3
+C C3 0.66693 0.23861 0.5 1.0 Uiso 0.025 6
+C C4 0.5712 0.05219 0.5 1.0 Uiso 0.025 6
+H H1 0.73066 0.13415 0.5 1.0 Uiso 0.025 6
+O O1 0.55852 0.95472 0.5 1.0 Uiso 0.025 6
+C C5 0.66411 0.14263 0.5 1.0 Uiso 0.025 6
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+C 24.0
+B 3.0
+H 9.0
+O 6.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+B1 C1 C2 120.1178 1_555 1_555 n
+B1 C1 C2 120.1289 1_555 2_566 n
+C2 C1 C2 119.7532 1_555 2_566 n
+C1 B1 O1 123.146 1_555 2_566 n
+C1 B1 O1 123.1635 1_555 8_566 n
+O1 B1 O1 113.6905 2_566 8_566 n
+C1 C2 C1 120.2468 1_555 3_665 n
+C1 C2 H1 119.8765 1_555 3_665 n
+C1 C2 H1 119.8766 3_665 3_665 n
+C3 C3 C3 120.0 7_655 9_665 n
+C3 C3 C5 118.5207 7_655 1_555 n
+C3 C3 C5 121.4793 9_665 1_555 n
+C4 C4 O1 113.129 7_655 1_545 n
+C4 C4 C5 121.3367 7_655 1_555 n
+O1 C4 C5 125.5344 1_545 1_555 n
+B1 O1 C4 100.0225 3_665 1_565 n
+C3 C5 C4 120.1426 1_555 1_555 n
+C3 C5 H1 124.4435 1_555 1_555 n
+C4 C5 H1 115.4139 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C1 B1 1.54914(33) 1_555 n
+C1 C2 1.39068(30) 1_555 n
+C1 C2 1.39067(30) 2_566 n
+B1 C1 1.54914(33) 1_555 n
+B1 C4 2.1659(5) 2_666 n
+B1 C4 2.1658(5) 8_556 n
+B1 O1 1.45174(31) 2_566 n
+B1 O1 1.45149(31) 8_566 n
+C2 C1 1.39068(30) 1_555 n
+C2 C1 1.39067(30) 3_665 n
+C2 H1 1.07607(23) 3_665 n
+H1 C2 1.07607(23) 2_566 n
+C3 C3 1.42627(31) 7_655 n
+C3 C3 1.41444(31) 9_665 n
+C3 C5 1.41656(31) 1_555 n
+C4 B1 2.1659(5) 3_655 n
+C4 C4 1.35080(29) 7_655 n
+C4 H1 2.0681(4) 1_555 n
+C4 O1 1.37445(30) 1_545 n
+C4 C5 1.37311(30) 1_555 n
+H1 C4 2.0681(4) 1_555 n
+H1 C5 1.06570(23) 1_555 n
+O1 B1 1.45174(31) 3_665 n
+O1 C4 1.37445(30) 1_565 n
+C5 C3 1.41656(31) 1_555 n
+C5 C4 1.37311(30) 1_555 n
+C5 H1 1.06570(23) 1_555 n

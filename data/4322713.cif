@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/32/27/4322713.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4322713
+loop_
+_publ_author_name
+'James D. Martin'
+'Brian R. Leafblad'
+'Roger M. Sullivan'
+'Paul D. Boyle'
+_publ_contact_author
+;
+James D. Martin
+Department of Chemistry
+North Carolina State University
+Raleigh, NC 27695
+;
+_publ_contact_author_email       jdmartin@ncsu.edu
+_publ_contact_author_fax         (919)515-5079
+_publ_contact_author_phone       (919)515-3402
+_publ_section_title
+;
+ \a- and \b-CuAlCl4: Framework Construction Using Corner-Shared
+ Tetrahedral Metal-Halide Building Blocks
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1341
+_journal_page_last               1346
+_journal_paper_doi               10.1021/ic971148v
+_journal_volume                  37
+_journal_year                    1998
+_chemical_formula_moiety         'Cu Al Cl4 '
+_chemical_formula_sum            'Al Cl4 Cu'
+_chemical_formula_weight         232.34
+_chemical_name_systematic        beta-CuAlCl4
+_space_group_IT_number           33
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2c -2n'
+_symmetry_space_group_name_H-M   'P n a 21'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   12.8388(5)
+_cell_length_b                   7.6455(3)
+_cell_length_c                   6.1264(3)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      20.50
+_cell_measurement_theta_min      18.00
+_cell_volume                     601.36(4)
+_computing_data_reduction        'NRCVAX DATRD2'
+_computing_molecular_graphics    NRCVAX
+_computing_publication_material  'NRCVAX TABLES Jan 94 Version'
+_computing_structure_refinement  'NRCVAX LSTSQ'
+_computing_structure_solution    SIR92
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       'Nonius CAD-4    '
+_diffrn_measurement_method       'Theta/2theta scan b/P/b '
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'xray tube'
+_diffrn_radiation_type           'Molybdenum K\a'
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .021
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       7
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            4549
+_diffrn_reflns_theta_max         25.00
+_diffrn_reflns_theta_min         0.00
+_diffrn_standards_decay_%        1.3
+_diffrn_standards_interval_time  80
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    5.44
+_exptl_absorpt_correction_T_max  1.0000
+_exptl_absorpt_correction_T_min  1.0000
+_exptl_absorpt_correction_type   none
+_exptl_crystal_density_diffrn    2.566
+_exptl_crystal_F_000             443.51
+_exptl_crystal_size_max          .30
+_exptl_crystal_size_mid          .12
+_exptl_crystal_size_min          .05
+_refine_diff_density_max         .72
+_refine_diff_density_min         -.40
+_refine_ls_extinction_coef       0.08(2)
+_refine_ls_extinction_method     Larson
+_refine_ls_goodness_of_fit_obs   1.38
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     55
+_refine_ls_number_reflns         943
+_refine_ls_R_factor_all          .029
+_refine_ls_R_factor_obs          .029
+_refine_ls_shift/esd_max         .000
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/(\s^2^(F)+ .0005F^2^)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         .038
+_refine_ls_wR_factor_obs         .038
+_reflns_number_observed          943
+_reflns_number_total             1039
+_reflns_observed_criterion       'Inet >  .5\s(Inet)'
+_cod_data_source_file            ic971148v_2.cif
+_cod_data_source_block           x
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/(\s^2^(F)+ .0005F^2^)' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w = 1/(\s^2^(F)+
+.0005F^2^)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_formula_sum        'Cu Al Cl4 '
+_cod_database_code               4322713
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2+y,1/2+z
+1/2+x,1/2-y,z
+-x,-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+Cu .0460(4) .0491(4) .0463(4) -.0028(3) .0017(4) .0020(4) Cu
+Cl1 .0491(6) .0335(5) .0204(5) -.0082(5) -.0003(5) -.0002(5) Cl
+Cl2 .0249(4) .0378(5) .0440(7) .0023(5) -.0058(5) -.0090(6) Cl
+Cl3 .0455(6) .0397(6) .0287(6) -.0141(5) .0012(6) -.0045(5) Cl
+Cl4 .0296(5) .0393(6) .0409(8) -.0080(5) -.0050(6) .0114(6) Cl
+Al .0240(6) .0275(7) .0213(6) .0002(4) .0003(5) .0010(11) Al
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_type_symbol
+Cu .33761(4) .99387(10) .05994 .0472(4) Uij ? . Cu
+Cl1 .40884(8) 1.25084(17) -.0934(3) .0344(5) Uij ? . Cl
+Cl2 .42943(8) .74431(16) -.0592(3) .0356(6) Uij ? . Cl
+Cl3 .33722(8) 1.01420(17) .44365(24) .0380(6) Uij ? . Cl
+Cl4 .16346(7) .97629(15) -.0661(3) .0366(6) Uij ? . Cl
+Al .41292(8) 1.24748(15) -.4427(3) .0243(6) Uij ? . Al
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu ? .263 1.266 'International Tables Vol. IV Table 2.2B'
+Al ? .056 .052 'International Tables Vol. IV Table 2.2B'
+Cl ? .132 .159 'International Tables Vol. IV Table 2.2B'
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+1 1 3
+4 4 2
+6 2 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Cl1 Cu Cl2 110.88(5) ? ? ? ?
+Cl1 Cu Cl3 110.04(5) ? ? ? ?
+Cl1 Cu Cl4 106.44(5) ? ? ? ?
+Cl2 Cu Cl3 111.29(6) ? ? ? ?
+Cl2 Cu Cl4 108.96(5) ? ? ? ?
+Cl3 Cu Cl4 109.09(5) ? ? ? ?
+Cu Cl1 Al 113.39(6) ? ? ? ?
+Cu Cl2 Ala 110.17(7) ? ? ? ?
+Cu Cl3 Alb 112.17(8) ? ? ? ?
+Cu Cl4 Alc 111.29(7) ? ? ? ?
+Cl1 Al Cl2d 110.79(9) ? ? ? ?
+Cl1 Al Cl3e 108.85(8) ? ? ? ?
+Cl1 Al Cl4f 109.37(8) ? ? ? ?
+Cl2d Al Cl3e 110.07(8) ? ? ? ?
+Cl2d Al Cl4f 106.87(8) ? ? ? ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu Cl1 2.3619(14) ? ? ?
+Cu Cl2 2.3586(14) ? ? ?
+Cu Cl3 2.3559(15) ? ? ?
+Cu Cl4 2.3692(11) ? ? ?
+Cl1 Al 2.141(3) ? ? ?
+Cl2 Ala 2.1470(16) ? ? ?
+Cl3 Alb 2.1471(17) ? ? ?
+Cl4 Alc 2.1432(17) ? ? ?
+Al Cl2d 2.1470(16) ? ? ?
+Al Cl3e 2.1471(17) ? ? ?
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_1
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+? ? ? ? ? ?

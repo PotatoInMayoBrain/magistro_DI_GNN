@@ -1,0 +1,164 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-01-19 15:30:33 +0200 (Thu, 19 Jan 2017) $
+#$Revision: 190723 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/96/2009689.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009689
+loop_
+_publ_author_name
+'Hamzaoui, F.'
+'Baert, F.'
+_publ_section_title
+;
+ X-ray study of static disorder in <i>N</i>-methylacetamide
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              757
+_journal_page_last               759
+_journal_paper_doi               10.1107/S0108270193010832
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'C3 H7 N O'
+_chemical_formula_weight         73.094
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P -2ac -2n'
+_symmetry_space_group_name_H-M   'P n 21 a'
+_atom_type_scat_source
+'IntTabIV and for H atoms from Stewart, Davidson & Simpson (1965)'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   9.65(10)
+_cell_length_b                   6.33(15)
+_cell_length_c                   7.17(14)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    110(3)
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      11
+_cell_volume                     438(14)
+_diffrn_measurement_device       'Nonius CAD-4'
+_diffrn_measurement_method       '\w/2\q step'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.039
+_diffrn_reflns_limit_h_max       19
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       13
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            5690
+_diffrn_reflns_theta_max         65
+_diffrn_standards_decay_%        none
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         5
+_exptl_absorpt_coefficient_mu    0.078
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    1.11
+_exptl_crystal_density_meas      1.02
+_exptl_crystal_description       'Cylinder, 0.5mm (diameter), 0.7mm (length)'
+_exptl_crystal_size_max          0.7
+_exptl_crystal_size_min          0.5
+_refine_diff_density_max         0.49
+_refine_diff_density_min         -0.05
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.12
+_refine_ls_hydrogen_treatment    'H atoms: constrained refinement'
+_refine_ls_number_parameters     51
+_refine_ls_number_reflns         1264
+_refine_ls_R_factor_obs          0.066
+_refine_ls_shift/esd_max         0.7
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_scheme      unit
+_refine_ls_wR_factor_obs         0.066
+_reflns_number_observed          1264
+_reflns_number_total             3578
+_reflns_observed_criterion       I>=3\s(I)
+_cod_data_source_file            du1056.cif
+_cod_data_source_block           du1056_structure_1_of_1
+_cod_depositor_comments
+;
+ Marking atom disorder groups after consulting the original publication.
+ Atoms 'C1', 'C2', 'C3', 'N', 'O', 'HN', 'HC1', 'H'C1', 'H"C1', 'HC3', 'H'C3'
+ 'H"C3' and 'C1'', 'C2'', 'C3'', 'N'', 'O'' were marked as belonging to the
+ disorder groups '1' and '2' with the occupancies of 0.9 and 0.1 accordingly.
+ Since group '2' did not contain any explicit hydrogen atom coordinates
+ the _atom_site_attached_hydrogens data item was used to specify the
+ number of attached hydrogens in this group.
+
+ Antanas Vaitkus,
+ 2017-01-19
+
+ Adding the _atom_site_type_symbol data item.
+
+ Antanas Vaitkus,
+ 2017-01-19
+;
+_cod_original_cell_volume        437.5
+_cod_original_formula_sum        'C3 H7 N1 O1'
+_cod_database_code               2009689
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_disorder_group
+_atom_site_attached_hydrogens
+C1 C .1268(2) .262(2) .0295(3) 0.9 1 0
+C2 C .1642(2) .2577(17) .2347(3) 0.9 1 0
+C3 C .0823(2) .257(2) .5543(3) 0.9 1 0
+N N .0592(2) .2629(15) .3539(2) 0.9 1 0
+O O .28690(10) .26020(10) .2888(3) 0.9 1 0
+C1' C .1245(2) .292(2) .5260(3) 0.1 2 3
+C2' C .1636(2) .2418(17) .3279(3) 0.1 2 0
+C3' C .0874(2) .216(2) .0080(3) 0.1 2 3
+N' N .0623(2) .2602(15) .2022(2) 0.1 2 1
+O' O .28250(10) .18590(10) .2812(3) 0.1 2 0
+HN H -.040 .254 .303 0.9 1 0
+HC1 H .013 .254 .018 0.9 1 0
+H'C1 H .174 .129 -.026 0.9 1 0
+H"C1 H .162 .409 -.035 0.9 1 0
+HC3 H -.018 .254 .624 0.9 1 0
+H'C3 H .138 .400 .595 0.9 1 0
+H"C3 H .142 .119 .592 0.9 1 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+C1 C2 N 116.3(6) yes
+C1 C2 O 121.9(6) yes
+N C2 O 121.7(6) yes
+C2 N C3 121.3(6) yes
+C1' C2' N' 116 yes
+C1' C2' O' 123 yes
+N' C2' O' 121 yes
+C2' N' C3' 121 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+C1 C2 1.515(3) yes
+C2 N 1.325(3) yes
+C2 O 1.246(2) yes
+C3 N 1.454(3) yes
+C1' C2' 1.50 yes
+C2' N' 1.33 yes
+C2' O' 1.24 yes
+C3' N' 1.44 yes

@@ -1,0 +1,215 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-28 16:50:48 +0300 (Tue, 28 Mar 2023) $
+#$Revision: 282086 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/4/11/64/4116439.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4116439
+loop_
+_publ_author_name
+'Wim T. Klooster'
+'Thomas F. Koetzle'
+'Per E. M. Siegbahn'
+'Thomas B. Richardson'
+'Robert H. Crabtree'
+_publ_contact_author
+;     Crabtree, R. H.
+      Chemistry Department
+      Yale University
+      New Haven, CT 06511
+      USA
+;
+_publ_contact_author_email       robert.crabtree@yale.edu
+_publ_contact_author_fax         '203 432 6144'
+_publ_contact_author_phone       '203 432 3925'
+_publ_section_title
+;
+ Study of the N-H...H-B Dihydrogen Bond Including the Crystal Structure of
+ BH3NH3 by Neutron Diffraction
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              6337
+_journal_page_last               6343
+_journal_paper_doi               10.1021/ja9825332
+_journal_volume                  121
+_journal_year                    1999
+_chemical_formula_sum            'B H6 N'
+_chemical_formula_weight         30.876
+_chemical_name_systematic        'borane ammonia'
+_space_group_IT_number           31
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  'P 2ac -2'
+_symmetry_space_group_name_H-M   'P m n 21'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   5.395(2)
+_cell_length_b                   4.887(2)
+_cell_length_c                   4.986(2)
+_cell_measurement_reflns_used    32
+_cell_measurement_temperature    200
+_cell_measurement_theta_max      27
+_cell_measurement_theta_min      20
+_cell_volume                     131.46(9)
+_computing_cell_refinement       local
+_computing_data_collection       local
+_computing_data_reduction        local
+_computing_structure_refinement  UPALS
+_diffrn_ambient_temperature      200
+_diffrn_measurement_device       'beamline H6M, HFBR'
+_diffrn_measurement_method       \q/2\q
+_diffrn_radiation_monochromator  'Be (002)'
+_diffrn_radiation_probe          neutron
+_diffrn_radiation_source         reactor
+_diffrn_radiation_type           neutron
+_diffrn_radiation_wavelength     1.0462
+_diffrn_reflns_av_R_equivalents  0.0641
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            548
+_diffrn_reflns_theta_max         45
+_diffrn_reflns_theta_min         3
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    10.369
+_exptl_absorpt_correction_T_max  0.632
+_exptl_absorpt_correction_T_min  0.473
+_exptl_absorpt_correction_type   analytical
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    0.780
+_exptl_crystal_density_meas      yes
+_exptl_crystal_density_method    calculated
+_exptl_crystal_description       box
+_exptl_crystal_size_max          1.5
+_exptl_crystal_size_mid          0.66
+_exptl_crystal_size_min          0.46
+_refine_diff_density_max         '5 % of maximum'
+_refine_diff_density_min         '5 % of maximum'
+_refine_ls_goodness_of_fit_all   1.0467
+_refine_ls_goodness_of_fit_obs   1.0158
+_refine_ls_hydrogen_treatment    ref
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    0
+_refine_ls_number_parameters     42
+_refine_ls_number_reflns         207
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.2833
+_refine_ls_R_factor_obs          0.1664
+_refine_ls_shift/esd_max         .1
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/(s^2(F))'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1602
+_refine_ls_wR_factor_obs         0.1093
+_reflns_number_observed          206
+_reflns_number_total             548
+_reflns_observed_criterion       >3sigma
+_cod_data_source_file            ja9825332.cif
+_cod_data_source_block           AmmBo
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/(s^2(F))' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/(s^2(F))'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        131.5(16)
+_cod_original_formula_sum        'H6 N B'
+_cod_database_code               4116439
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,-y,1/2+z
+1/2+x,-y,1/2+z
+-x,y,z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+N 0.037(5) 0.036(5) 0.026(4) 0.000 0.000 -0.007(5)
+H1 0.112(22) 0.058(18) 0.129(44) 0.000 0.000 -0.027(30)
+H2 0.089(15) 0.177(31) 0.017(6) 0.082(22) 0.005(10) 0.004(11)
+B 0.038(8) 0.032(9) 0.040(8) 0.000 0.000 -0.012(7)
+H3 0.047(13) 0.094(19) 0.014(11) 0.000 0.000 -0.012(13)
+H4 0.115(15) 0.117(15) 0.025(8) -0.073(15) 0.023(9) -0.012(12)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+N 0.000 0.235(2) 0.314(4) 0.029(5) Uij
+H1 0.000 0.453(7) 0.341(15) 0.08(3) Uij
+H2 0.140(4) 0.148(5) 0.397(6) 0.15(2) Uij
+B 0.000 0.185(3) 0.000 0.029(7) Uij
+H3 0.000 -0.043(6) -0.060(6) 0.04(1) Uij
+H4 0.185(5) 0.264(6) -0.100(5) 0.04(2) Uij
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_source
+H -3.7406 International_Tables_Vol_C
+B 5.30 International_Tables_Vol_C
+N 9.36 International_Tables_Vol_C
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+0 0 -4
+-4 2 0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+B N H1 106.(4) . yes
+B N H2 111.(2) . yes
+H1 N H2 113.(3) . yes
+H2 N H2 104.(3) 4 yes
+N B H3 114.(2) . yes
+N B H4 112.(1) . yes
+H3 B H4 102.(2) . yes
+H4 B H4 116.(3) 4 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+N B 1.58(2) yes
+N H1 1.07(4) yes
+N H2 0.96(3) yes
+B H3 1.15(3) yes
+B H4 1.18(3) yes
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2023-03-28T16:50:00+03:00
+;
+ Changed the '_refine_ls_structure_factor_coef' data item value from
+ 'F2' to 'Fsqd' after consulting the original publication.
+;

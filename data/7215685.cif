@@ -1,0 +1,584 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/21/56/7215685.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7215685
+loop_
+_publ_author_name
+'Terra, Joice'
+'Dourado, Erico Rodrigues'
+'Eon, Jean-Guillaume'
+'Ellis, Donald E.'
+'Gonzalez, Gabriela'
+'Rossi, Alexandre Malta'
+_publ_section_title
+;
+ The structure of strontium-doped hydroxyapatite: an experimental and
+ theoretical study.
+;
+_journal_issue                   3
+_journal_name_full               'Physical chemistry chemical physics : PCCP'
+_journal_page_first              568
+_journal_page_last               577
+_journal_paper_doi               10.1039/b802841a
+_journal_volume                  11
+_journal_year                    2009
+_chemical_formula_moiety         ' Ca9.569 O26 P6 Sr0.431 '
+_chemical_formula_structural     ' Ca9.569 Sr0.431 (P O4)6 (O H)2 '
+_chemical_formula_sum            'Ca9.569 O26 P6 Sr0.431'
+_chemical_formula_weight         1023.0976
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90.00000
+_cell_angle_beta                 90.00000
+_cell_angle_gamma                120.00000
+_cell_formula_units_Z            1
+_cell_length_a                   9.452039(276)
+_cell_length_b                   9.452039(276)
+_cell_length_c                   6.904128(208)
+_cell_measurement_temperature    298
+_cell_volume                     534.18(3)
+_computing_structure_refinement  FULLPROF
+_diffrn_detector                 ' area detector'
+_diffrn_detector_type            ' MAR345 '
+_diffrn_measurement_device_type  'Goniometer in transmission geometry'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.13845
+_diffrn_source                   'Synchrotron, ID15B, ESRF'
+_exptl_crystal_colour            ' white '
+_exptl_crystal_density_diffrn    3.1805
+_pd_instr_location               ' ?'
+_pd_meas_2theta_range_inc        0.011342
+_pd_meas_2theta_range_max        13.03251
+_pd_meas_2theta_range_min        0.01153
+_pd_meas_number_of_points        1150
+_pd_proc_2theta_range_inc        0.011342
+_pd_proc_2theta_range_max        13.0235
+_pd_proc_2theta_range_min        0.0026
+_pd_proc_ls_pref_orient_corr     ' ?'
+_pd_proc_ls_prof_R_factor        1.6208
+_pd_proc_ls_prof_wR_expected     1.8043
+_pd_proc_ls_prof_wR_factor       2.1206
+_pd_proc_wavelength              0.138452
+_pd_spec_mounting                ' ?'
+_refine_ls_number_parameters     65
+_refine_ls_number_reflns         966
+_refine_ls_number_restraints     0
+_refine_ls_R_I_factor            1.9122
+_refine_ls_shift/su_max          0
+_cod_data_source_file            b802841a-sr5b2.cif
+_cod_data_source_block           HASr
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Hexagonal' changed to 'hexagonal'
+according to
+/usr/data/users/saulius/automatic-downloads/retrospective/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+;
+_cod_original_sg_symbol_H-M      'P 63/M'
+_cod_original_formula_sum        ' Ca9.569 O26 P6 Sr0.431 '
+_cod_database_code               7215685
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-x,-y,-z
+-x+y,-x,-z+1/2
+y,-x+y,-z
+x,y,-z+1/2
+x-y,x,-z
+-y,x-y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+_atom_site_adp_type
+_atom_site_type_symbol
+OIII 0.3395(5) 0.2560(5) 0.0727(5) 0.0173(15) 1.00000 Uiso O
+Ca1 0.33333 0.66666 0.0002(4) 0.0099(9) 0.956(5) Uiso CA
+Ca2 0.2448(2) -0.0089(3) 0.25000 0.0101(6) 0.957(4) Uiso CA
+Sr1 0.33333 0.66666 0.0002(4) 0.0099(9) 0.044(5) Uiso SR
+Sr2 0.2448(2) -0.0089(3) 0.25000 0.0101(6) 0.043(4) Uiso SR
+P 0.3991(3) 0.3705(3) 0.25000 0.0133(9) 1.00000 Uiso P
+OI 0.3314(6) 0.4829(6) 0.25000 0.0065(19) 1.00000 Uiso O
+OII 0.5864(7) 0.4640(7) 0.25000 0.0080(16) 1.00000 Uiso O
+OH 0.00000 0.00000 0.1922(14) 0.0080(16) 0.50000 Uiso O
+loop_
+_atom_type_symbol
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+o 3.04850 13.27710 2.28680 5.70110 1.54630 0.32390 0.86700 32.90890 0.25080
+0.00300 0.00400
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ca 8.62660 10.44210 7.38730 0.65990 1.58990 85.74840 1.02110 178.43700 1.37510
+0.13700 0.19300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+sr 17.56630 1.55640 9.81840 14.09880 5.42200 0.16640 2.66940 132.37601 2.50640
+-0.23000 2.20300
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+p 6.43450 1.90670 4.17910 27.15700 1.78000 0.52600 1.49080 68.16450 1.11490
+0.05500 0.05800
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+OIII OIII Ca1 100.2(2) 10_555 7_665
+OIII OIII Ca2 60.88(20) 10_555 .
+OIII OIII Ca2 161.1(2) 10_555 2_554
+OIII OIII Sr1 100.2(2) 10_555 9_555
+OIII OIII Sr2 60.88(20) 10_555 10_555
+OIII OIII Sr2 161.1(2) 10_555 11_555
+OIII OIII P 37.4(2) 10_555 10_555
+OIII OIII OI 60.7(3) 10_555 .
+OIII OIII OII 60.6(2) 10_555 .
+OIII OIII OII 65.8(3) 10_555 3_655
+Ca1 OIII Ca2 98.16(16) 7_665 .
+Ca1 OIII Ca2 98.62(15) 7_665 2_554
+Ca1 OIII Sr2 98.16(16) 7_665 10_555
+Ca1 OIII Sr2 98.62(15) 7_665 11_555
+Ca1 OIII P 89.5(2) 7_665 .
+Ca1 OIII OI 111.2(3) 7_665 .
+Ca1 OIII OII 54.25(20) 7_665 .
+Ca1 OIII OII 49.8(2) 7_665 3_655
+Ca2 OIII Ca2 118.19(17) . .
+Ca2 OIII Sr1 98.16(16) . 9_555
+Ca2 OIII Sr2 118.19(17) . 10_555
+Ca2 OIII P 97.8(3) . .
+Ca2 OIII OI 117.8(3) . .
+Ca2 OIII OII 105.8(3) . .
+Ca2 OIII OII 50.6(2) . 3_655
+Ca2 OIII Sr1 98.62(15) 11_555 9_555
+Ca2 OIII Sr2 118.19(17) 11_555 11_555
+Ca2 OIII P 141.20(18) 11_555 .
+Ca2 OIII OI 110.1(2) 11_555 .
+Ca2 OIII OII 131.7(2) 11_555 .
+Ca2 OIII OII 130.0(3) 11_555 3_655
+Sr1 OIII Sr2 98.16(16) 9_555 10_555
+Sr1 OIII Sr2 98.62(15) 9_555 11_555
+Sr1 OIII P 89.5(2) 9_555 .
+Sr1 OIII OI 111.2(3) 9_555 .
+Sr1 OIII OII 54.25(20) 9_555 .
+Sr1 OIII OII 49.8(2) 9_555 3_655
+Sr2 OIII Sr2 118.19(17) 10_555 11_555
+Sr2 OIII P 97.8(3) 10_555 .
+Sr2 OIII OI 117.8(3) 10_555 .
+Sr2 OIII OII 105.8(3) 10_555 .
+Sr2 OIII OII 50.6(2) 10_555 3_655
+Sr2 OIII P 141.20(18) 2_554 10_555
+Sr2 OIII OI 110.1(2) 2_554 .
+Sr2 OIII OII 131.7(2) 2_554 .
+Sr2 OIII OII 130.0(3) 2_554 3_655
+P OIII OI 33.6(3) . .
+P OIII OII 35.7(2) . .
+P OIII OII 83.4(4) . 3_655
+OI OIII OII 60.1(3) 10_555 .
+OI OIII OII 117.0(5) 10_555 3_655
+OII OIII OII 66.2(3) 10_555 3_655
+OIII Ca1 OIII 116.9(3) 7_665 7_665
+OIII Ca1 OIII 116.9(2) 7_665 9_565
+OIII Ca1 OI 85.9(2) 7_665 .
+OIII Ca1 OI 69.2(2) 7_665 3_665
+OIII Ca1 OI 143.3(3) 7_665 5_565
+OIII Ca1 OII 124.5(3) 7_665 2_554
+OIII Ca1 OII 55.6(2) 7_665 4_664
+OIII Ca1 OII 68.0(3) 7_665 9_565
+OIII Ca1 OIII 116.9(3) 9_565 11_555
+OIII Ca1 OI 143.3(4) 9_565 .
+OIII Ca1 OI 85.9(3) 9_565 3_665
+OIII Ca1 OI 69.2(2) 9_565 5_565
+OIII Ca1 OII 68.0(2) 9_565 2_554
+OIII Ca1 OII 124.5(4) 9_565 4_664
+OIII Ca1 OII 55.6(2) 9_565 6_564
+OIII Ca1 OI 69.19(18) 11_555 .
+OIII Ca1 OI 143.3(2) 11_555 3_665
+OIII Ca1 OI 85.9(2) 11_555 5_565
+OIII Ca1 OII 55.6(2) 11_555 2_554
+OIII Ca1 OII 68.0(2) 11_555 4_664
+OIII Ca1 OII 124.5(3) 11_555 6_564
+OI Ca1 OI 75.6(2) 10_555 3_665
+OI Ca1 OI 75.6(3) 10_555 5_565
+OI Ca1 OII 124.2(3) 10_555 2_554
+OI Ca1 OII 91.91(19) 10_555 4_664
+OI Ca1 OII 153.8(3) 10_555 6_564
+OI Ca1 OI 75.6(2) 12_665 5_565
+OI Ca1 OII 153.8(3) 12_665 2_554
+OI Ca1 OII 124.2(3) 12_665 4_664
+OI Ca1 OII 91.91(15) 12_665 6_564
+OI Ca1 OII 91.92(17) 8_565 2_554
+OI Ca1 OII 153.8(4) 8_565 4_664
+OI Ca1 OII 124.2(2) 8_565 6_564
+OII Ca1 OII 75.9(4) 11_555 4_664
+OII Ca1 OII 75.9(2) 11_555 6_564
+OII Ca1 OII 75.9(3) 7_665 6_564
+OIII Ca2 OIII 135.4(3) . 6_555
+OIII Ca2 OIII 77.9(2) . 9_555
+OIII Ca2 OIII 58.24(19) . 10_555
+OIII Ca2 OI 150.6(3) . 5_555
+OIII Ca2 OII 74.8(3) . 3_655
+OIII Ca2 OH 75.68(18) . .
+OIII Ca2 OH 85.1(2) . 8_555
+OIII Ca2 OIII 142.2(3) 6_555 9_555
+OIII Ca2 OIII 77.9(2) 6_555 10_555
+OIII Ca2 OI 72.7(2) 6_555 5_555
+OIII Ca2 OII 86.7(2) 6_555 3_655
+OIII Ca2 OH 111.0(3) 6_555 .
+OIII Ca2 OH 92.4(3) 6_555 8_555
+OIII Ca2 OIII 135.4(3) 9_555 10_555
+OIII Ca2 OI 72.7(2) 9_555 5_555
+OIII Ca2 OII 86.7(2) 9_555 3_655
+OIII Ca2 OH 92.4(3) 9_555 .
+OIII Ca2 OH 111.0(3) 9_555 8_555
+OIII Ca2 OI 150.6(3) 10_555 5_555
+OIII Ca2 OII 74.8(3) 10_555 3_655
+OIII Ca2 OH 85.1(2) 10_555 .
+OIII Ca2 OH 75.68(18) 10_555 8_555
+OI Ca2 OII 103.1(3) 5_555 3_655
+OI Ca2 OH 105.2(3) 5_555 .
+OI Ca2 OH 105.2(3) 5_555 8_555
+OII Ca2 OH 150.0(4) 12_655 .
+OII Ca2 OH 150.0(4) 12_655 8_555
+OH Ca2 OH 19.22(15) 5_555 8_555
+OIII Sr1 OIII 116.9(3) 7_665 7_665
+OIII Sr1 OIII 116.9(2) 7_665 9_565
+OIII Sr1 OI 85.9(2) 7_665 .
+OIII Sr1 OI 69.2(2) 7_665 3_665
+OIII Sr1 OI 143.3(3) 7_665 5_565
+OIII Sr1 OII 124.5(3) 7_665 2_554
+OIII Sr1 OII 55.6(2) 7_665 4_664
+OIII Sr1 OII 68.0(3) 7_665 6_564
+OIII Sr1 OIII 116.9(3) 9_565 11_555
+OIII Sr1 OI 143.3(4) 9_565 .
+OIII Sr1 OI 85.9(3) 9_565 3_665
+OIII Sr1 OI 69.2(2) 9_565 5_565
+OIII Sr1 OII 68.0(2) 9_565 2_554
+OIII Sr1 OII 124.5(4) 9_565 4_664
+OIII Sr1 OII 55.6(2) 9_565 6_564
+OIII Sr1 OI 69.19(18) 11_555 .
+OIII Sr1 OI 143.3(2) 11_555 3_665
+OIII Sr1 OI 85.9(2) 11_555 5_565
+OIII Sr1 OII 55.6(2) 11_555 2_554
+OIII Sr1 OII 68.0(2) 11_555 4_664
+OIII Sr1 OII 124.5(3) 11_555 6_564
+OI Sr1 OI 75.6(2) . 3_665
+OI Sr1 OI 75.6(3) . 5_565
+OI Sr1 OII 124.2(3) . 2_554
+OI Sr1 OII 91.91(19) . 4_664
+OI Sr1 OII 153.8(3) . 6_564
+OI Sr1 OI 75.6(2) 12_665 5_565
+OI Sr1 OII 153.8(3) 12_665 2_554
+OI Sr1 OII 124.2(3) 12_665 4_664
+OI Sr1 OII 91.91(15) 12_665 6_564
+OI Sr1 OII 91.92(17) 8_565 2_554
+OI Sr1 OII 153.8(4) 8_565 4_664
+OI Sr1 OII 124.2(2) 8_565 6_564
+OII Sr1 OII 75.9(4) 11_555 4_664
+OII Sr1 OII 75.9(2) 11_555 6_564
+OII Sr1 OII 75.9(3) 7_665 6_564
+OIII Sr2 OIII 135.4(3) . 6_555
+OIII Sr2 OIII 77.9(2) . 9_555
+OIII Sr2 OIII 58.24(19) . 10_555
+OIII Sr2 OI 150.6(3) . 5_555
+OIII Sr2 OII 74.8(3) . 3_655
+OIII Sr2 OH 75.68(18) . .
+OIII Sr2 OH 85.1(2) . 8_555
+OIII Sr2 OIII 142.2(3) 6_555 9_555
+OIII Sr2 OIII 77.9(2) 6_555 10_555
+OIII Sr2 OI 72.7(2) 6_555 5_555
+OIII Sr2 OII 86.7(2) 6_555 3_655
+OIII Sr2 OH 111.0(3) 6_555 .
+OIII Sr2 OH 92.4(3) 6_555 8_555
+OIII Sr2 OIII 135.4(3) 9_555 10_555
+OIII Sr2 OI 72.7(2) 9_555 5_555
+OIII Sr2 OII 86.7(2) 9_555 3_655
+OIII Sr2 OH 92.4(3) 9_555 .
+OIII Sr2 OH 111.0(3) 9_555 8_555
+OIII Sr2 OI 150.6(3) 10_555 5_555
+OIII Sr2 OII 74.8(3) 10_555 3_655
+OIII Sr2 OH 85.1(2) 10_555 .
+OIII Sr2 OH 75.68(18) 10_555 8_555
+OI Sr2 OII 103.1(3) 5_555 3_655
+OI Sr2 OH 105.2(3) 5_555 .
+OI Sr2 OH 105.2(3) 5_555 8_555
+OII Sr2 OH 150.0(4) 12_655 .
+OII Sr2 OH 150.0(4) 12_655 8_555
+OH Sr2 OH 19.22(15) 5_555 8_555
+OIII P OIII 105.1(4) . 10_555
+OIII P OI 111.4(6) . .
+OIII P OII 108.4(4) . .
+OIII P OI 111.4(6) 10_555 .
+OIII P OII 108.4(4) 10_555 .
+OI P OII 111.9(7) 10_555 .
+OIII OI OIII 58.5(3) . 10_555
+OIII OI Ca1 105.8(3) . .
+OIII OI Ca1 164.2(3) . 8_565
+OIII OI Ca2 79.6(3) . 3_555
+OIII OI Sr1 105.8(3) . .
+OIII OI Sr1 164.2(3) . 8_565
+OIII OI Sr2 79.6(3) . 3_555
+OIII OI P 35.0(4) . 10_555
+OIII OI OI 137.5(4) . 3_665
+OIII OI OI 140.5(4) . 5_565
+OIII OI OII 59.7(3) . .
+OIII OI Ca1 164.2(3) 10_555 .
+OIII OI Ca1 105.8(3) 10_555 8_565
+OIII OI Ca2 79.6(3) 10_555 3_555
+OIII OI Sr1 164.2(3) 10_555 .
+OIII OI Sr1 105.8(3) 10_555 8_565
+OIII OI Sr2 79.6(3) 10_555 3_555
+OIII OI P 35.0(4) 10_555 .
+OIII OI OI 137.5(4) 10_555 3_665
+OIII OI OI 140.5(4) 10_555 5_565
+OIII OI OII 59.7(3) 10_555 .
+Ca1 OI Ca1 89.9(2) . 8_565
+Ca1 OI Ca2 100.00(17) . 3_555
+Ca1 OI Sr1 89.9(2) . 8_565
+Ca1 OI Sr2 100.00(17) . 3_555
+Ca1 OI P 130.9(4) . .
+Ca1 OI OI 52.20(19) . 3_665
+Ca1 OI OI 52.2(2) . 5_565
+Ca1 OI OII 112.7(4) . .
+Ca1 OI Ca2 100.00(17) 3_665 3_555
+Ca1 OI Sr1 89.9(2) 3_665 8_565
+Ca1 OI Sr2 100.00(17) 3_665 3_555
+Ca1 OI P 130.9(4) 3_665 .
+Ca1 OI OI 52.20(19) 3_665 3_665
+Ca1 OI OI 52.2(2) 3_665 5_565
+Ca1 OI OII 112.7(4) 3_665 .
+Ca2 OI Sr1 100.00(17) 3_555 .
+Ca2 OI Sr1 100.00(17) 3_555 8_565
+Ca2 OI P 98.2(3) 3_555 .
+Ca2 OI OI 134.2(2) 3_555 3_665
+Ca2 OI OI 74.2(3) 3_555 5_565
+Ca2 OI OII 132.8(4) 3_555 .
+Sr1 OI Sr1 89.9(2) 5_565 8_565
+Sr1 OI Sr2 100.00(17) 5_565 3_555
+Sr1 OI P 130.9(4) 5_565 .
+Sr1 OI OI 52.20(19) 5_565 3_665
+Sr1 OI OI 52.2(2) 5_565 5_565
+Sr1 OI OII 112.7(4) 5_565 .
+Sr1 OI Sr2 100.00(17) 10_555 3_555
+Sr1 OI P 130.9(4) 10_555 .
+Sr1 OI OI 52.20(19) 10_555 3_665
+Sr1 OI OI 52.2(2) 10_555 5_565
+Sr1 OI OII 112.7(4) 10_555 .
+Sr2 OI P 98.2(3) 12_555 .
+Sr2 OI OI 134.2(2) 12_555 3_665
+Sr2 OI OI 74.2(3) 12_555 5_565
+Sr2 OI OII 132.8(4) 12_555 .
+P OI OI 127.6(5) 10_555 3_665
+P OI OI 172.4(6) 10_555 5_565
+P OI OII 34.6(4) 10_555 .
+OI OI OI 60.0(3) 3_665 5_565
+OI OI OII 93.0(4) 3_665 .
+OI OI OII 153.0(5) 5_565 .
+OIII OII OIII 124.4(3) . 5_665
+OIII OII OIII 165.4(3) . 8_665
+OIII OII OIII 58.8(2) . 10_555
+OIII OII Ca1 110.6(3) . 2_655
+OIII OII Ca1 70.2(2) . 7_665
+OIII OII Ca2 135.4(3) . 5_665
+OIII OII Sr1 110.6(3) . 2_655
+OIII OII Sr1 70.2(2) . 7_665
+OIII OII Sr2 135.4(3) . 5_665
+OIII OII P 35.9(3) . .
+OIII OII OI 60.1(3) . .
+OIII OII OIII 48.48(19) 5_665 8_665
+OIII OII OIII 165.4(3) 5_665 10_555
+OIII OII Ca1 96.4(2) 5_665 2_655
+OIII OII Ca1 62.2(2) 5_665 7_665
+OIII OII Ca2 54.5(2) 5_665 5_665
+OIII OII Sr1 96.4(2) 5_665 2_655
+OIII OII Sr1 62.2(2) 5_665 7_665
+OIII OII Sr2 54.5(2) 5_665 5_665
+OIII OII P 155.0(4) 5_665 .
+OIII OII OI 134.5(4) 5_665 .
+OIII OII OIII 124.4(3) 8_665 10_555
+OIII OII Ca1 62.2(2) 8_665 2_655
+OIII OII Ca1 96.4(2) 8_665 7_665
+OIII OII Ca2 54.5(2) 8_665 5_665
+OIII OII Sr1 62.2(2) 8_665 2_655
+OIII OII Sr1 96.4(2) 8_665 7_665
+OIII OII Sr2 54.5(2) 8_665 5_665
+OIII OII P 155.0(4) 8_665 .
+OIII OII OI 134.5(4) 8_665 .
+OIII OII Ca1 70.2(2) 10_555 2_655
+OIII OII Ca1 110.6(3) 10_555 7_665
+OIII OII Ca2 135.4(3) 10_555 5_665
+OIII OII Sr1 70.2(2) 10_555 2_655
+OIII OII Sr1 110.6(3) 10_555 7_665
+OIII OII Sr2 135.4(3) 10_555 5_665
+OIII OII P 35.9(3) 10_555 .
+OIII OII OI 60.1(3) 10_555 .
+Ca1 OII Ca1 89.5(2) 6_555 7_665
+Ca1 OII Ca2 113.8(2) 6_555 5_665
+Ca1 OII Sr1 89.5(2) 6_555 7_665
+Ca1 OII Sr2 113.8(2) 6_555 5_665
+Ca1 OII P 105.6(3) 6_555 .
+Ca1 OII OI 125.9(4) 6_555 .
+Ca1 OII Ca2 113.8(2) 4_665 5_665
+Ca1 OII Sr1 89.5(2) 4_665 7_665
+Ca1 OII Sr2 113.8(2) 4_665 5_665
+Ca1 OII P 105.6(3) 4_665 .
+Ca1 OII OI 125.9(4) 4_665 .
+Ca2 OII Sr1 113.8(2) 5_665 2_655
+Ca2 OII Sr1 113.8(2) 5_665 7_665
+Ca2 OII P 123.2(3) 5_665 .
+Ca2 OII OI 89.7(3) 5_665 .
+Sr1 OII Sr1 89.5(2) 2_655 7_665
+Sr1 OII Sr2 113.8(2) 2_655 5_665
+Sr1 OII P 105.6(3) 2_655 .
+Sr1 OII OI 125.9(4) 2_655 .
+Sr1 OII Sr2 113.8(2) 7_665 5_665
+Sr1 OII P 105.6(3) 7_665 .
+Sr1 OII OI 125.9(4) 7_665 .
+Sr2 OII P 123.2(3) 8_665 .
+Sr2 OII OI 89.7(3) 8_665 .
+P OII OI 33.5(4) 10_555 .
+Ca2 OH Ca2 117.3(2) . 5_555
+Ca2 OH Ca2 117.27(13) . 3_555
+Ca2 OH Sr2 117.3(2) . 5_555
+Ca2 OH Sr2 117.27(13) . 3_555
+Ca2 OH OH 99.6(4) . 7_555
+Ca2 OH OH 80.4(10) . 8_556
+Ca2 OH Ca2 117.27(17) 12_555 3_555
+Ca2 OH Sr2 117.3(2) 12_555 3_555
+Ca2 OH Sr2 117.27(17) 12_555 5_555
+Ca2 OH OH 99.6(4) 12_555 7_555
+Ca2 OH OH 80.4(10) 12_555 3_555
+Ca2 OH Sr2 117.27(13) 3_555 5_555
+Ca2 OH Sr2 117.27(17) 3_555 5_555
+Ca2 OH OH 99.6(4) 3_555 7_555
+Ca2 OH OH 80.4(10) 3_555 8_556
+Sr2 OH Sr2 117.3(2) 10_555 3_555
+Sr2 OH Sr2 117.27(13) 10_555 5_555
+Sr2 OH OH 99.6(4) 10_555 7_555
+Sr2 OH OH 80.4(10) 10_555 8_556
+Sr2 OH Sr2 117.27(17) 5_555 5_555
+Sr2 OH OH 99.6(4) 5_555 7_555
+Sr2 OH OH 80.4(10) 5_555 8_556
+Sr2 OH OH 99.6(4) 8_555 7_555
+Sr2 OH OH 80.4(10) 8_555 8_556
+OH OH OH 180.0(16) 7_555 8_556
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+OIII OIII 2.448(5) 10_555
+OIII Ca1 2.844(5) 7_665
+OIII Ca2 2.515(5) .
+OIII Ca2 2.355(4) 2_554
+OIII Sr1 2.844(5) 7_665
+OIII Sr2 2.515(5) .
+OIII Sr2 2.355(4) 2_554
+OIII P 1.542(4) .
+OIII OI 2.504(7) .
+OIII OII 2.494(5) .
+OIII OII 2.981(9) 3_655
+Ca1 OIII 2.844(5) 7_665
+Ca1 OIII 2.844(6) 9_565
+Ca1 OIII 2.844(4) 11_555
+Ca1 OI 2.441(5) .
+Ca1 OI 2.441(3) 3_665
+Ca1 OI 2.441(5) 5_565
+Ca1 OII 2.454(5) 2_554
+Ca1 OII 2.454(6) 4_664
+Ca1 OII 2.454(4) 6_564
+Ca2 OIII 2.515(5) .
+Ca2 OIII 2.355(4) 6_555
+Ca2 OIII 2.355(4) 9_555
+Ca2 OIII 2.515(5) 10_555
+Ca2 OI 2.717(6) 5_555
+Ca2 OII 2.388(6) 3_655
+Ca2 OH 2.391(3) .
+Ca2 OH 2.391(3) 8_555
+Sr1 OIII 2.844(5) 7_665
+Sr1 OIII 2.844(6) 9_565
+Sr1 OIII 2.844(4) 11_555
+Sr1 OI 2.441(5) .
+Sr1 OI 2.441(3) 3_665
+Sr1 OI 2.441(5) 5_565
+Sr1 OII 2.454(5) 2_554
+Sr1 OII 2.454(6) 4_664
+Sr1 OII 2.454(4) 6_564
+Sr2 OIII 2.515(5) .
+Sr2 OIII 2.355(4) 6_555
+Sr2 OIII 2.355(4) 9_555
+Sr2 OIII 2.515(5) 10_555
+Sr2 OI 2.717(6) 5_555
+Sr2 OII 2.388(6) 3_655
+Sr2 OH 2.391(3) .
+Sr2 OH 2.391(3) 8_555
+P OIII 1.542(4) .
+P OIII 1.542(4) 10_555
+P OI 1.489(8) .
+P OII 1.533(6) .
+OI OIII 2.504(7) .
+OI OIII 2.504(7) 10_555
+OI Ca1 2.441(5) .
+OI Ca1 2.441(5) 8_565
+OI Ca2 2.717(5) 3_555
+OI Sr1 2.441(5) .
+OI Sr1 2.441(5) 8_565
+OI Sr2 2.717(5) 3_555
+OI P 1.489(8) .
+OI OI 2.993(7) 3_665
+OI OI 2.993(10) 5_565
+OI OII 2.504(10) .
+OII OIII 2.494(5) .
+OII OIII 2.981(6) 5_665
+OII OIII 2.981(6) 8_665
+OII OIII 2.494(5) 10_555
+OII Ca1 2.454(6) 2_655
+OII Ca1 2.454(6) 7_665
+OII Ca2 2.388(6) 5_665
+OII Sr1 2.454(6) 2_655
+OII Sr1 2.454(6) 7_665
+OII Sr2 2.388(6) 5_665
+OII P 1.533(6) .
+OII OI 2.504(10) .
+OH Ca2 2.391(3) .
+OH Ca2 2.391(3) 3_555
+OH Ca2 2.391(2) 5_555
+OH Sr2 2.391(3) .
+OH Sr2 2.391(3) 3_555
+OH Sr2 2.391(2) 5_555
+OH OH 2.654(14) 7_555
+OH OH 0.798(14) 8_555

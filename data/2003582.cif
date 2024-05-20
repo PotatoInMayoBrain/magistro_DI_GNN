@@ -1,0 +1,170 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/35/2003582.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2003582
+loop_
+_publ_author_name
+'Crossley, J. G.'
+'Orpen, A. G.'
+_publ_section_title
+;
+ [<i>M</i>(CNMe)~4~](PF~6~)~2~ (<i>M</i> = Pt, Pd)
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1102
+_journal_page_last               1105
+_journal_paper_doi               10.1107/S0108270194014587
+_journal_volume                  51
+_journal_year                    1995
+_chemical_compound_source        Et~2~O/MeCN
+_chemical_formula_moiety         'C8 H12 F12 N4 P2 Pt'
+_chemical_formula_sum            'C8 H12 F12 N4 P2 Pt'
+_chemical_formula_weight         649.2
+_space_group_IT_number           127
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  '-P 4 2ab'
+_symmetry_space_group_name_H-M   'P 4/m b m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.494(1)
+_cell_length_b                   9.494(1)
+_cell_length_c                   11.203(2)
+_cell_measurement_reflns_used    36
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      15
+_cell_measurement_theta_min      5
+_cell_volume                     1009.8(2)
+_diffrn_measurement_device       'Siemens P3m'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0432
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            1474
+_diffrn_reflns_theta_max         27.5
+_diffrn_standards_decay_%        +-2
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    7.213
+_exptl_absorpt_correction_T_max  0.276
+_exptl_absorpt_correction_T_min  0.187
+_exptl_absorpt_correction_type   'Empirical (azimuthal scan)'
+_exptl_crystal_colour            clear
+_exptl_crystal_density_diffrn    2.135
+_exptl_crystal_description       'regular block'
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.3
+_exptl_crystal_size_min          0.3
+_refine_diff_density_max         0.53
+_refine_diff_density_min         -1.27
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_obs   1.20
+_refine_ls_hydrogen_treatment
+'H atoms riding with C-H = 0.96 \%A and U(H) ='
+_refine_ls_number_parameters     46
+_refine_ls_number_reflns         454
+_refine_ls_R_factor_obs          0.0287
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s~c~^2^(F)+0.0005F^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0339
+_reflns_number_observed          454
+_reflns_number_total             670
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            mu1154.cif
+_cod_data_source_block           1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/[\s~c~^2^(F)+0.0005F^2^]' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to 'w =
+1/[\s~c~^2^(F)+0.0005F^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1009.8(3)
+_cod_original_formula_sum        ' C8 H12 F12 N4 P2 Pt1 '
+_cod_database_code               2003582
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,y,-z
+y,-x,-z
+-y,x,-z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,z
+1/2-y,1/2-x,z
+1/2+y,1/2+x,z
+-x,-y,-z
+-x,-y,z
+-y,x,z
+y,-x,z
+1/2-x,1/2+y,-z
+1/2+x,1/2-y,-z
+1/2+y,1/2+x,-z
+1/2-y,1/2-x,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pt(1) .0 -.5000 .0 .042(1)
+P(1) .0 .0 .0 .053(1)
+P(2) .5000 .0 .5000 .055(1)
+F(1) .0 .0 .1421(9) .114(3)
+F(2) -.0777(7) -.1481(6) .0 .087(3)
+F(3) .5030(7) -.1648(10) .5000 .162(6)
+F(4) .5000 .0 .3645(10) .226(10)
+N(1) .1678(5) -.3322(5) .1896(6) .055(2)
+C(1) .1072(6) -.3928(6) .1227(7) .047(2)
+C(2) .2508(6) -.2492(6) .2711(10) .088(4)
+H(2A) .2265 -.2735 .3517 .080
+H(2B) .2322 -.1510 .2580 .080
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C(1) Pt(1) C(1) 7_445 92.7(4) yes
+C(1) N(1) C(2) . 176.7(8) yes
+F(3) P(2) F(3) 15_546 92.1(5) yes
+Pt(1) C(1) N(1) . 179.0(7) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pt(1) C(1) 1.990(8) yes
+P(1) F(1) 1.592(11) yes
+P(1) F(2) 1.588(6) yes
+P(2) F(3) 1.565(10) yes
+P(2) F(4) 1.518(11) yes
+N(1) C(1) 1.107(10) yes
+N(1) C(2) 1.440(12) yes

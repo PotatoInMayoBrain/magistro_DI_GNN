@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/54/9015431.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9015431
+loop_
+_publ_author_name
+'Takeuchi, Y.'
+_publ_section_title
+;
+ The structure of fluoborite
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              208
+_journal_page_last               210
+_journal_paper_doi               10.1107/S0365110X50000501
+_journal_volume                  3
+_journal_year                    1950
+_chemical_compound_source        'Tallgruvan, Sweden'
+_chemical_formula_sum            'B F0.87 H2.13 Mg3 O5.13'
+_chemical_name_mineral           Hydroxylborite
+_space_group_IT_number           176
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   9.06
+_cell_length_b                   9.06
+_cell_length_c                   3.06
+_cell_volume                     217.525
+_database_code_amcsd             0009139
+_exptl_crystal_density_diffrn    2.817
+_cod_original_formula_sum        'Mg3 B O5.13 (F.87 H2.13)'
+_cod_database_code               9015431
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x+y,-x,1/2-z
+x-y,x,1/2+z
+y,-x+y,-z
+-y,x-y,z
+x,y,1/2-z
+-x,-y,1/2+z
+x-y,x,-z
+-x+y,-x,z
+-y,x-y,1/2-z
+y,-x+y,1/2+z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg 0.38100 0.03800 0.25000 1.00000 Mg 0
+B 0.66667 0.33333 0.75000 1.00000 B 0
+O 0.53700 0.15600 0.75000 1.00000 O 0
+O-H 0.31000 0.21800 0.25000 0.71000 O 1
+F 0.31000 0.21800 0.25000 0.29000 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009139

@@ -1,0 +1,321 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-05-06 01:04:50 +0300 (Sat, 06 May 2017) $
+#$Revision: 196419 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/7/04/26/7042612.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7042612
+loop_
+_publ_author_name
+'Mel\'anov\'a, Kl\'ara'
+'Bene\<s, Ludv\'ik'
+'Svoboda, Jan'
+'Zima, V\'it\<ezslav'
+'Vl\<cek, Milan'
+'Trchov\'a, Miroslava'
+_publ_section_title
+;
+ Synthesis and characterization of new barium methylphosphonates.
+;
+_journal_issue                   16
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              5363
+_journal_page_last               5372
+_journal_paper_doi               10.1039/c7dt00492c
+_journal_volume                  46
+_journal_year                    2017
+_chemical_formula_sum            'C Ba O3 P'
+_chemical_formula_weight         228.31
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_date             2017-01-25T22:58
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2017-01-25T22:58  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 99.837(8)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   8.4501(6)
+_cell_length_b                   7.2555(7)
+_cell_length_c                   7.4604(8)
+_cell_volume                     450.67(7)
+_computing_structure_refinement  GSAS
+_computing_structure_solution    FOX
+_diffrn_ambient_temperature      483
+_diffrn_measurement_device_type  'Bragg-Brentano Diffractometer'
+_diffrn_radiation_polarisn_ratio 0.526
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a
+_diffrn_radiation_wavelength     1.540500
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  white
+_pd_instr_location               ' ?'
+_pd_phase_name                   beta-BaCH3PO3
+_pd_prep_temperature             483
+_pd_proc_info_datetime           2017-01-25T22:58:16
+_pd_proc_info_excluded_regions   ' ?'
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with  9 terms.
+ Shifted Chebyshev function of 1st kind
+      1:   0.185059     2:  -0.225498     3:  -5.718430E-02 4:  -0.252420    
+      5:  -0.314831     6:  -0.159711     7:   0.288208     8:  -0.432437    
+      9:   3.667350E-02
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_pref_orient_corr
+;   March-Dollase
+ AXIS  1 Ratio=     0.620 Frac     0.913  h= 1.000  k= 0.000  l= 0.000
+ AXIS  2 Ratio=     0.595 Frac     0.081  h= 0.000  k= 1.000  l= 0.000
+ AXIS  3 Ratio=     0.323 Frac     0.006  h= 0.000  k= 0.000  l= 1.000
+ Prefered orientation correction range: Min=   0.50309, Max=   3.86557
+;
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 3 with  19 terms
+ Pseudovoigt profile coefficients as parameterized in
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Asymmetry correction of L.W. Finger, D.E. Cox & A. P. Jephcoat (1994).
+ J. Appl. Cryst.,27,892-900.
+ #1(GU)   =    0.000 #2(GV)   =   37.663 #3(GW)   =  -33.529
+ #4(GP)   =   53.712 #5(LX)   =    2.009 #6(LY)   =   23.015
+ #7(S/L)  =   0.0223 #8(H/L)  =   0.0223
+ #9(trns) =     0.00 #10(shft)=   0.0000
+ #11(stec)=     0.00 #12(ptec)=     0.00 #13(sfec)=     0.00
+ #14(L11) =    0.000 #15(L22) =    0.000 #16(L33) =    0.000
+ #17(L12) =    0.000 #18(L13) =    0.000 #19(L23) =    0.000
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.1437
+_pd_proc_ls_prof_wR_expected     0.1942
+_pd_proc_ls_prof_wR_factor       0.2468
+_pd_spec_mounting                ' ?'
+_refine_ls_goodness_of_fit_all   1.28
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     38
+_refine_ls_number_restraints     17
+_refine_ls_R_Fsqd_factor         0.13952
+_refine_ls_shift/su_max          0.05
+_refine_ls_shift/su_mean         0.00
+_cod_data_source_file            c7dt00492c1.cif
+_cod_data_source_block           beta-BaCH3PO3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (33
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/RSC/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (91
+time).
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+
+ Adding full bibliography for 7042612--7042613.cif.
+;
+_cod_original_cell_volume        450.67(8)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7042612
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z+1/2
+-1 -x,-y,-z
+-2 +x,-y+1/2,+z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+O O1 0.787(4) -0.072(5) 0.514(5) 1.0 Uiso 0.025 4
+O O2 0.8654(31) 0.221(5) 0.374(6) 1.0 Uiso 0.025 4
+P P3 0.7647(16) 0.0673(29) 0.3278(31) 1.0 Uiso 0.025 4
+O O4 0.831(4) -0.037(5) 0.150(5) 1.0 Uiso 0.025 4
+C C5 0.564(4) 0.159(7) 0.264(7) 1.0 Uiso 0.025 4
+Ba Ba 0.1361(5) 0.1312(11) 0.1757(11) 1.0 Uiso 0.025 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+O 12.0 0.000 0.000 3.04850 13.2771 2.28680 5.70110 1.54630 0.32390 0.86700
+32.9089 0.25080 International_Tables_Vol_C
+P 4.0 0.000 0.000 6.43450 1.90670 4.17910 27.1570 1.78000 0.52600 1.49080
+68.1645 1.11490 International_Tables_Vol_C
+C 4.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+Ba 4.0 0.000 0.000 20.3361 3.21600 19.2970 0.27560 10.8880 20.2073 2.69590
+167.202 2.77310 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+P3 O1 Ba 92.8(16) 1_555 2_645 n
+P3 O1 Ba 153.1(22) 1_555 -1_656 n
+Ba O1 Ba 108.7(14) 2_645 -1_656 n
+P3 O2 Ba 100.9(16) 1_555 1_655 n
+P3 O2 Ba 139.9(16) 1_555 2_655 n
+P3 O2 Ba 142.1(18) 1_555 -2_666 n
+Ba O2 Ba 98.1(10) 1_655 2_655 n
+Ba O2 Ba 84.5(6) 1_655 -2_666 n
+Ba O2 Ba 74.6(9) 2_655 -2_666 n
+O1 P3 O2 106.9(11) 1_555 1_555 n
+O1 P3 O4 111.5(11) 1_555 1_555 n
+O1 P3 C5 113.8(11) 1_555 1_555 n
+O1 P3 Ba 55.9(13) 1_555 2_645 n
+O2 P3 O4 106.0(12) 1_555 1_555 n
+O2 P3 C5 105.8(11) 1_555 1_555 n
+O2 P3 Ba 128.4(13) 1_555 2_645 n
+O4 P3 C5 112.1(11) 1_555 1_555 n
+O4 P3 Ba 56.3(13) 1_555 2_645 n
+C5 P3 Ba 125.8(13) 1_555 2_645 n
+P3 O4 Ba 99.8(16) 1_555 1_655 n
+P3 O4 Ba 92.3(15) 1_555 2_645 n
+P3 O4 Ba 162.2(20) 1_555 -1_655 n
+Ba O4 Ba 109.4(11) 1_655 2_645 n
+Ba O4 Ba 86.3(12) 1_655 -1_655 n
+Ba O4 Ba 101.5(13) 2_645 -1_655 n
+O1 Ba O1 127.8(12) 2_655 -1_656 n
+O1 Ba O2 110.8(12) 2_655 1_455 n
+O1 Ba O2 136.0(13) 2_655 2_645 n
+O1 Ba O2 63.9(9) 2_655 -2_465 n
+O1 Ba P3 31.3(8) 2_655 2_655 n
+O1 Ba O4 127.0(11) 2_655 1_455 n
+O1 Ba O4 62.4(11) 2_655 2_655 n
+O1 Ba O4 69.2(12) 2_655 -1_655 n
+O1 Ba Ba 102.3(8) 2_655 -1_555 n
+O1 Ba Ba 32.5(8) 2_655 -2_565 n
+O1 Ba Ba 100.2(9) 2_655 -2_566 n
+O1 Ba O2 69.9(12) -1_656 1_455 n
+O1 Ba O2 86.2(15) -1_656 2_645 n
+O1 Ba O2 145.6(12) -1_656 -2_465 n
+O1 Ba P3 99.1(11) -1_656 2_655 n
+O1 Ba O4 94.8(11) -1_656 1_455 n
+O1 Ba O4 72.5(12) -1_656 2_655 n
+O1 Ba O4 145.9(10) -1_656 -1_655 n
+O1 Ba Ba 129.8(11) -1_656 -1_555 n
+O1 Ba Ba 159.1(10) -1_656 -2_565 n
+O1 Ba Ba 38.8(9) -1_656 -2_566 n
+O2 Ba O2 106.8(8) 1_455 2_645 n
+O2 Ba O2 75.8(5) 1_455 -2_465 n
+O2 Ba P3 90.7(8) 1_455 2_655 n
+O2 Ba O4 50.6(9) 1_455 1_455 n
+O2 Ba O4 66.2(9) 1_455 2_655 n
+O2 Ba O4 137.2(11) 1_455 -1_655 n
+O2 Ba Ba 91.5(7) 1_455 -1_555 n
+O2 Ba Ba 118.4(7) 1_455 -2_565 n
+O2 Ba Ba 48.9(7) 1_455 -2_566 n
+O2 Ba O2 105.4(9) 2_645 -2_465 n
+O2 Ba P3 162.5(8) 2_645 2_655 n
+O2 Ba O4 65.0(9) 2_645 1_455 n
+O2 Ba O4 158.8(14) 2_645 2_655 n
+O2 Ba O4 67.7(14) 2_645 -1_655 n
+O2 Ba Ba 54.1(7) 2_645 -1_555 n
+O2 Ba Ba 107.8(8) 2_645 -2_565 n
+O2 Ba Ba 121.9(8) 2_645 -2_566 n
+O2 Ba P3 79.5(7) -2_465 2_655 n
+O2 Ba O4 63.3(10) -2_465 1_455 n
+O2 Ba O4 92.5(11) -2_465 2_655 n
+O2 Ba O4 66.1(11) -2_465 -1_655 n
+O2 Ba Ba 51.3(7) -2_465 -1_555 n
+O2 Ba Ba 46.6(6) -2_465 -2_565 n
+O2 Ba Ba 113.4(8) -2_465 -2_566 n
+P3 Ba O4 130.4(8) 2_655 1_455 n
+P3 Ba O4 31.4(8) 2_655 2_655 n
+P3 Ba O4 100.3(10) 2_655 -1_655 n
+P3 Ba Ba 128.3(5) 2_655 -1_555 n
+P3 Ba Ba 63.1(5) 2_655 -2_565 n
+P3 Ba Ba 69.0(4) 2_655 -2_566 n
+O4 Ba O4 115.5(7) 1_455 2_655 n
+O4 Ba O4 93.7(12) 1_455 -1_655 n
+O4 Ba Ba 44.0(9) 1_455 -1_555 n
+O4 Ba Ba 105.1(8) 1_455 -2_565 n
+O4 Ba Ba 95.9(9) 1_455 -2_566 n
+O4 Ba O4 131.6(12) 2_655 -1_655 n
+O4 Ba Ba 142.3(8) 2_655 -1_555 n
+O4 Ba Ba 92.8(10) 2_655 -2_565 n
+O4 Ba Ba 38.0(8) 2_655 -2_566 n
+O4 Ba Ba 49.6(7) -1_655 -1_555 n
+O4 Ba Ba 40.6(9) -1_655 -2_565 n
+O4 Ba Ba 168.8(9) -1_655 -2_566 n
+Ba Ba Ba 70.71(18) -1_555 -2_565 n
+Ba Ba Ba 139.61(20) -1_555 -2_566 n
+Ba Ba Ba 130.4(4) -2_565 -2_566 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+O1 P3 1.70(4) 1_555 n
+O1 Ba 2.72(4) 2_645 n
+O1 Ba 2.33(4) -1_656 n
+O2 P3 1.408(29) 1_555 n
+O2 Ba 2.999(33) 1_655 n
+O2 Ba 3.001(33) 2_655 n
+O2 Ba 3.11(4) -2_655 n
+P3 O1 1.70(4) 1_555 n
+P3 O2 1.408(29) 1_555 n
+P3 O4 1.71(4) 1_555 n
+P3 C5 1.81(4) 1_555 n
+P3 Ba 3.545(17) 1_655 n
+P3 Ba 3.275(17) 2_645 n
+O4 P3 1.71(4) 1_555 n
+O4 Ba 2.828(30) 1_655 n
+O4 Ba 2.73(4) 2_645 n
+O4 Ba 2.58(4) -1_655 n
+C5 P3 1.81(4) 1_555 n
+Ba O1 2.72(4) 2_655 n
+Ba O1 2.33(4) -1_656 n
+Ba O2 2.999(33) 1_455 n
+Ba O2 3.001(33) 2_645 n
+Ba O2 3.11(4) -2_454 n
+Ba P3 3.545(17) 1_455 n
+Ba P3 3.275(17) 2_655 n
+Ba O4 2.828(30) 1_455 n
+Ba O4 2.73(4) 2_655 n
+Ba O4 2.58(4) -1_655 n
+Ba Ba 4.533(6) 2_545 n
+Ba Ba 4.533(6) 2_555 n
+Ba Ba 3.704(14) -1_555 n
+Ba Ba 4.109(7) -2_554 n
+Ba Ba 4.109(7) -2_555 n

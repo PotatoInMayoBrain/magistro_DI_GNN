@@ -1,0 +1,887 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-09-13 20:34:58 +0300 (Thu, 13 Sep 2018) $
+#$Revision: 210924 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/05/2100507.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2100507
+loop_
+_publ_author_name
+'Dinnebier, Robert'
+'Sofina, Natalia'
+'Hildebrandt, Lars'
+'Jansen, Martin'
+_publ_section_title
+;
+ Crystal structures of the trifluoromethyl sulfonates M(SO~3~CF~3~)~2~
+ (M = Mg, Ca, Ba, Zn, Cu) from synchrotron X-ray powder diffraction data
+;
+_journal_coden_ASTM              ASBSDK
+_journal_coeditor_code           SN5032
+_journal_issue                   3
+_journal_name_full
+;
+ Acta Crystallographica, Section B: Structural Science
+;
+_journal_page_first              467
+_journal_page_last               473
+_journal_paper_doi               10.1107/s0108768106009517
+_journal_volume                  62
+_journal_year                    2006
+_chemical_formula_sum            'C2 Cu F6 O6 S2'
+_chemical_formula_weight         361.67
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                103.523(3)
+_cell_angle_beta                 118.085(3)
+_cell_angle_gamma                79.459(3)
+_cell_formula_units_Z            1
+_cell_length_a                   4.98965(19)
+_cell_length_b                   10.7668(4)
+_cell_length_c                   4.82189(17)
+_cell_volume                     221.402(14)
+_computing_structure_refinement  GSAS
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.24804
+_exptl_absorpt_correction_T_max  1.00000
+_exptl_absorpt_correction_T_min  1.00000
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_refine_ls_goodness_of_fit_all   1.29
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     28
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.42
+_refine_ls_shift/su_mean         0.08
+_reflns_number_total             659
+_cod_data_source_file            sn5032.cif
+_cod_database_code               2100507
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+-1 -x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu1 0.020(4) 0.049(4) 0.023(4) -0.014(3) 0.022(3) 0.005(3)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+Cu Cu1 0.5 0.0 0.5 0.02414 Uani 1.0
+S S2 0.2422(9) 0.8423(3) 0.7931(9) 0.0056(13) Uiso 1.0
+O O3 0.4861(15) 0.8887(5) 1.1039(16) 0.0056(13) Uiso 1.0
+O O4 0.2674(15) 0.8880(6) 0.5448(17) 0.0056(13) Uiso 1.0
+O O5 -0.0526(15) 0.8903(7) 0.7892(18) 0.0056(13) Uiso 1.0
+C C6 0.2773(8) 0.6707(4) 0.7214(10) 0.015(2) Uiso 1.0
+F F7 0.0444(14) 0.6272(6) 0.4470(15) 0.015(2) Uiso 1.0
+F F8 0.5389(12) 0.6293(7) 0.7041(18) 0.015(2) Uiso 1.0
+F F9 0.2774(14) 0.6277(5) 0.9596(16) 0.015(2) Uiso 1.0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu 0.000 0.000 International_Tables_Vol_C
+S 0.000 0.000 International_Tables_Vol_C
+O 0.000 0.000 International_Tables_Vol_C
+C 0.000 0.000 International_Tables_Vol_C
+F 0.000 0.000 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O3 S2 O4 . . 109.5(5)
+O3 S2 O5 . . 109.5(4)
+O3 S2 C6 . . 109.2(3)
+O4 S2 O5 . . 109.5(4)
+O4 S2 C6 . . 109.2(3)
+O5 S2 C6 . . 110.0(4)
+S2 O3 Cu1 . . 134.6(5)
+S2 O4 Cu1 . 55401 140.1(3)
+S2 O5 Cu1 . 45401 140.8(6)
+S2 C6 F7 . . 109.8(3)
+S2 C6 F8 . . 108.9(4)
+S2 C6 F9 . . 109.8(3)
+F7 C6 F8 . . 109.5(5)
+F7 C6 F9 . . 109.5(5)
+F8 C6 F9 . . 109.5(5)
+O3 Cu1 O3 . 67802 0E2(4)
+O3 Cu1 O4 . 55601 92.0(3)
+O3 Cu1 O4 . 67702 88.0(3)
+O3 Cu1 O5 . 65601 89.5(2)
+O3 Cu1 O5 . 57702 90.5(2)
+O3 Cu1 O4 67802 55601 88.0(3)
+O3 Cu1 O4 67802 67702 92.0(3)
+O3 Cu1 O5 67802 65601 90.5(2)
+O3 Cu1 O5 67802 57702 89.5(2)
+O4 Cu1 O4 55601 67702 180.0(3)
+O4 Cu1 O5 55601 65601 91.6(2)
+O4 Cu1 O5 55601 57702 88.4(2)
+O4 Cu1 O5 67702 65601 88.4(2)
+O4 Cu1 O5 67702 57702 91.6(2)
+O5 Cu1 O5 65601 57702 180.0(4)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+S2 O3 . 1.460(6)
+S2 O4 . 1.460(10)
+S2 O5 . 1.460(9)
+S2 C6 . 1.790(4)
+O3 Cu1 . 1.981(6)
+O4 Cu1 55401 1.928(8)
+O5 Cu1 45401 2.280(6)
+C6 F7 . 1.335(6)
+C6 F8 . 1.335(8)
+C6 F9 . 1.335(10)
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+O3 O5 3.304(13) 65501
+O4 O4 3.189(8) 57602
+O4 O5 3.026(10) 65501
+O4 O5 2.946(10) 57602
+O5 O3 3.304(13) 45501
+O5 O4 3.026(10) 45501
+O5 O4 2.946(10) 57602
+F7 F7 3.045(10) 56602
+F7 F8 3.288(12) 45501
+F7 F8 3.296(9) 66602
+F7 F9 3.176(7) 56602
+F8 F7 3.288(12) 65501
+F8 F7 3.296(9) 66602
+F8 F8 2.982(9) 66602
+F8 F9 3.288(8) 65501
+F8 F9 3.301(10) 66702
+F9 F7 3.176(7) 56602
+F9 F8 3.288(8) 45501
+F9 F8 3.301(10) 66702
+F9 F9 3.178(7) 66702
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+O3 S2 O4 Cu1 . 55401 -6.3
+O4 S2 O3 Cu1 . . 118.8(6)
+O3 S2 O5 Cu1 . 45401 126.4
+O5 S2 O3 Cu1 . . -1.1(8)
+O3 S2 C6 F7 . . 176.1(6)
+O3 S2 C6 F8 . . -64.1(6)
+O3 S2 C6 F9 . . 55.8(6)
+C6 S2 O3 Cu1 . . -121.7(5)
+O4 S2 O5 Cu1 . 45401 6.4
+O5 S2 O4 Cu1 . 55401 113.7
+O4 S2 C6 F7 . . -64.2(6)
+O4 S2 C6 F8 . . 55.6(5)
+O4 S2 C6 F9 . . 175.4(4)
+C6 S2 O4 Cu1 . 55401 -125.8
+O5 S2 C6 F7 . . 55.9(6)
+O5 S2 C6 F8 . . 175.7(5)
+O5 S2 C6 F9 . . -64.4(5)
+C6 S2 O5 Cu1 . 45401 -113.6
+S2 O3 Cu1 O4 . 55601 58.7
+S2 O3 Cu1 O4 . 67702 -121.3
+S2 O3 Cu1 O5 . 65601 150.2
+S2 O3 Cu1 O5 . 57702 -29.8
+S2 O4 Cu1 O3 55401 67702 -34.0
+S2 O4 Cu1 O3 55401 55401 146.0
+S2 O5 Cu1 O3 45401 57702 -132.9
+S2 O5 Cu1 O3 45401 45401 47.1
+loop_
+_refln_index_h
+_refln_index_k
+_refln_index_l
+0 1 0
+0 2 0
+1 0 0
+0 0 1
+1 1 0
+1 1 -1
+0 1 -1
+1 0 -1
+1 -1 0
+0 1 1
+1 2 -1
+0 2 -1
+1 -1 -1
+1 2 0
+0 3 0
+1 -2 0
+1 3 -1
+0 2 1
+0 3 -1
+1 -2 -1
+1 3 0
+1 -3 0
+0 4 0
+1 0 1
+1 4 -1
+2 1 -1
+1 -1 1
+0 3 1
+2 0 -1
+1 1 1
+1 1 -2
+0 4 -1
+2 2 -1
+1 -3 -1
+1 2 -2
+1 0 -2
+1 4 0
+1 -2 1
+2 -1 -1
+1 2 1
+2 3 -1
+1 3 -2
+2 0 0
+2 1 0
+1 -1 -2
+1 -4 0
+0 1 -2
+2 -1 0
+2 1 -2
+0 0 2
+1 -3 1
+0 5 0
+2 2 0
+2 2 -2
+1 5 -1
+0 2 -2
+2 -2 -1
+0 4 1
+2 0 -2
+0 5 -1
+1 4 -2
+0 1 2
+1 3 1
+1 -4 -1
+2 4 -1
+2 3 -2
+1 -2 -2
+2 -2 0
+1 5 0
+0 3 -2
+2 3 0
+2 -1 -2
+1 -4 1
+0 2 2
+2 4 -2
+2 -3 -1
+1 -5 0
+0 4 -2
+2 -3 0
+1 5 -2
+1 4 1
+2 5 -1
+1 6 -1
+1 -3 -2
+2 -2 -2
+2 4 0
+0 5 1
+0 6 0
+0 6 -1
+1 -5 -1
+2 5 -2
+0 3 2
+1 6 0
+2 0 1
+1 -5 1
+3 1 -1
+2 -1 1
+2 1 1
+1 -1 2
+2 -4 -1
+1 0 2
+3 2 -1
+3 0 -1
+0 5 -2
+2 -4 0
+3 1 -2
+3 2 -2
+1 -2 2
+2 -3 -2
+1 6 -2
+1 1 2
+2 -2 1
+2 2 1
+1 1 -3
+2 5 0
+1 2 -3
+2 2 -3
+3 0 -2
+3 3 -1
+1 -6 0
+3 3 -2
+2 1 -3
+1 -4 -2
+3 -1 -1
+2 6 -1
+1 5 1
+1 0 -3
+2 3 -3
+1 3 -3
+1 -3 2
+2 0 -3
+1 7 -1
+2 6 -2
+0 6 1
+0 4 2
+1 2 2
+3 -1 -2
+1 4 -3
+3 4 -2
+2 -3 1
+1 -6 -1
+2 3 1
+1 -6 1
+3 4 -1
+0 7 0
+0 6 -2
+3 1 0
+2 4 -3
+0 7 -1
+3 -2 -1
+3 0 0
+2 -1 -3
+1 -1 -3
+2 -5 -1
+2 -5 0
+1 7 0
+1 -4 2
+2 -4 -2
+3 2 0
+3 -1 0
+3 -2 -2
+2 6 0
+1 3 2
+1 7 -2
+0 1 -3
+3 5 -2
+0 2 -3
+2 5 -3
+2 -4 1
+1 -5 -2
+1 -2 -3
+3 2 -3
+2 4 1
+2 7 -1
+0 0 3
+1 5 -3
+1 6 1
+3 5 -1
+3 1 -3
+3 3 0
+3 -3 -1
+3 3 -3
+0 3 -3
+2 -2 -3
+3 -2 0
+1 -7 0
+2 7 -2
+0 5 2
+3 0 -3
+0 1 3
+1 -5 2
+3 4 -3
+1 8 -1
+0 7 1
+0 4 -3
+3 -3 -2
+0 7 -2
+3 4 0
+1 4 2
+3 6 -2
+2 6 -3
+1 -7 1
+1 -3 -3
+0 8 -1
+2 -6 0
+3 -3 0
+3 -1 -3
+2 -5 -2
+1 6 -3
+0 8 0
+2 -6 -1
+2 -5 1
+1 -7 -1
+2 5 1
+0 2 3
+3 6 -1
+3 5 -3
+3 -4 -1
+2 -3 -3
+2 7 0
+1 8 0
+1 8 -2
+0 5 -3
+1 -6 -2
+2 0 2
+2 -1 2
+2 8 -1
+1 7 1
+1 -6 2
+3 5 0
+2 8 -2
+4 2 -2
+3 -2 -3
+2 1 2
+4 1 -2
+2 -2 2
+0 6 2
+3 -4 -2
+3 -4 0
+4 3 -2
+2 7 -3
+0 3 3
+3 6 -3
+1 5 2
+3 7 -2
+4 0 -2
+1 -8 0
+3 0 1
+1 -4 -3
+3 1 1
+1 7 -3
+4 1 -1
+3 -1 1
+2 2 2
+4 2 -1
+2 2 -4
+2 -3 2
+2 -6 1
+0 8 -2
+4 0 -1
+4 4 -2
+2 6 1
+2 3 -4
+3 7 -1
+2 -4 -3
+2 1 -4
+1 -1 3
+3 2 1
+1 9 -1
+0 6 -3
+3 -5 -1
+0 8 1
+1 -2 3
+4 3 -1
+4 -1 -2
+2 -6 -2
+1 0 3
+2 -7 0
+1 -8 1
+3 -2 1
+4 2 -3
+2 4 -4
+2 -7 -1
+4 -1 -1
+4 3 -3
+3 -3 -3
+2 0 -4
+4 1 -3
+0 9 -1
+3 6 0
+1 -3 3
+1 2 -4
+2 8 0
+2 3 2
+1 1 3
+1 -8 -1
+1 1 -4
+3 3 1
+1 -7 2
+0 9 0
+2 -4 2
+1 3 -4
+3 2 -4
+4 5 -2
+3 3 -4
+4 4 -1
+3 7 -3
+0 4 3
+1 9 -2
+3 -5 0
+4 4 -3
+4 0 -3
+3 1 -4
+1 9 0
+3 -3 1
+2 5 -4
+3 -5 -2
+4 -2 -2
+1 -7 -2
+1 0 -4
+2 8 -3
+3 4 -4
+2 9 -1
+1 4 -4
+4 -2 -1
+2 -1 -4
+3 8 -2
+2 9 -2
+1 8 1
+1 -4 3
+1 6 2
+1 -5 -3
+1 2 3
+0 7 2
+1 8 -3
+3 0 -4
+4 5 -3
+0 7 -3
+3 4 1
+4 -1 -3
+2 4 2
+2 -7 1
+4 5 -1
+2 -5 -3
+1 -1 -4
+3 5 -4
+2 7 1
+3 8 -1
+4 6 -2
+2 -5 2
+3 -6 -1
+1 5 -4
+4 1 0
+3 -4 -3
+2 6 -4
+1 -9 0
+3 -4 1
+4 0 0
+0 9 -2
+4 2 0
+3 7 0
+1 -5 3
+2 -2 -4
+4 -3 -2
+4 -3 -1
+3 -1 -4
+1 3 3
+2 -7 -2
+3 8 -3
+2 -8 0
+4 -1 0
+0 5 3
+4 6 -3
+1 10 -1
+1 -9 1
+3 -6 0
+4 3 0
+1 -8 2
+3 6 -4
+0 9 1
+4 -2 -3
+1 -2 -4
+2 -8 -1
+4 7 -2
+3 5 1
+3 9 -2
+4 3 -4
+4 2 -4
+0 2 -4
+1 -9 -1
+1 10 -2
+2 9 0
+2 7 -4
+1 7 2
+0 0 4
+1 -6 -3
+0 1 -4
+4 6 -1
+2 -6 2
+1 6 -4
+0 8 -3
+3 -2 -4
+3 -5 1
+3 -6 -2
+2 9 -3
+1 9 -3
+0 10 0
+4 4 0
+4 -2 0
+0 10 -1
+0 3 -4
+1 -6 3
+2 5 2
+1 -8 -2
+4 4 -4
+4 1 -4
+2 -3 -4
+2 10 -2
+4 -4 -1
+0 4 -4
+1 10 0
+2 10 -1
+1 4 3
+4 -4 -2
+1 9 1
+0 8 2
+4 7 -3
+2 -6 -3
+3 -5 -3
+2 -8 1
+3 7 -4
+0 1 4
+3 9 -1
+2 8 1
+1 -3 -4
+4 -3 -3
+4 -3 0
+3 -7 -1
+4 5 -4
+4 0 -4
+3 8 0
+1 7 -4
+3 9 -3
+3 6 1
+0 6 3
+0 5 -4
+4 7 -1
+4 5 0
+3 0 2
+0 10 -2
+3 -1 2
+3 -7 0
+3 1 2
+3 -3 -4
+2 -1 3
+1 -10 0
+2 8 -4
+5 2 -2
+0 2 4
+2 6 2
+2 0 3
+2 -8 -2
+4 8 -2
+1 -9 2
+5 1 -2
+3 -2 2
+2 -2 3
+4 6 -4
+4 -1 -4
+2 -9 0
+5 3 -2
+3 -6 1
+1 -7 3
+2 -7 2
+2 -4 -4
+3 2 2
+5 2 -3
+1 -10 1
+4 -5 -1
+2 1 3
+5 3 -3
+4 -4 0
+1 5 3
+2 10 -3
+5 0 -2
+3 -7 -2
+4 8 -3
+3 8 -4
+1 11 -1
+0 9 -3
+2 -3 3
+5 1 -3
+2 -9 -1
+5 4 -2
+4 -5 -2
+2 10 0
+0 10 1
+1 -4 -4
+0 6 -4
+3 10 -2
+3 -3 2
+1 -7 -3
+4 -4 -3
+1 8 2
+5 4 -3
+1 10 -3
+4 6 0
+1 8 -4
+3 -6 -3
+2 2 3
+5 0 -3
+1 11 -2
+5 -1 -2
+4 0 1
+0 11 -1
+3 3 2
+4 1 1
+0 3 4
+2 3 -5
+2 2 -5
+4 7 -4
+4 -2 -4
+3 3 -5
+2 -7 -3
+1 -10 -1
+2 -4 3
+5 1 -1
+3 2 -5
+5 2 -1
+3 7 1
+5 5 -2
+4 -1 1
+2 11 -2
+1 -9 -2
+4 8 -1
+5 5 -3
+2 -9 1
+2 4 -5
+4 2 1
+2 1 -5
+3 4 -5
+3 10 -1
+2 9 1
+3 -4 -4
+3 9 0
+0 11 0
+2 11 -1
+0 9 2
+5 0 -1
+3 10 -3
+5 3 -1
+3 -4 2
+1 10 1
+3 -8 -1
+3 1 -5
+1 11 0
+2 9 -4
+0 7 3
+5 -1 -3
+4 -2 1
+4 -5 0
+2 7 2
+1 -1 4
+1 -2 4
+3 5 -5
+4 9 -2
+1 -8 3
+2 5 -5
+0 7 -4
+2 3 3
+2 0 -5
+3 -7 1
+4 3 1
+5 -2 -2
+3 -8 0
+5 -1 -1
+2 -5 -4
+3 4 2
+2 -8 2
+5 4 -1
+1 0 4
+3 9 -4
+1 -3 4
+1 6 3
+4 9 -3
+3 0 -5
+5 6 -3
+4 -6 -1
+2 -5 3
+5 6 -2
+0 11 -2
+5 3 -4
+1 -5 -4
+5 2 -4
+1 -10 2
+4 7 0
+4 -5 -3
+0 4 4
+1 2 -5
+4 8 -4
+4 -6 -2
+4 -3 -4
+5 4 -4
+1 3 -5
+4 -3 1
+3 6 -5
+2 -9 -2
+1 1 4
+1 -4 4
+3 -5 2
+5 1 -4
+2 6 -5
+0 10 -3
+1 1 -5
+1 9 -4
+2 -1 -5
+2 11 -3
+2 -10 0
+4 3 -5
+5 -2 -3
+4 4 1
+5 -2 -1
+1 -11 0
+3 -8 -2
+1 4 -5
+4 2 -5
+5 5 -1
+4 4 -5
+5 5 -4
+3 -1 -5
+3 11 -2
+1 -8 -3
+2 4 3
+1 -11 1
+5 -3 -2
+1 9 2
+1 0 -5
+3 8 1
+1 11 -3
+3 -7 -3
+4 9 -1
+3 -5 -4
+4 1 -5
+5 0 -4
+5 7 -3
+2 11 0
+2 -10 -1
+3 5 2
+4 5 -5
+1 12 -1
+2 -6 3
+1 5 -5
+1 2 4
+0 8 -4
+1 -5 4
+5 7 -2
+4 -6 0
+0 11 1
+4 -4 1

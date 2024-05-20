@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/98/9009847.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009847
+loop_
+_publ_author_name
+'Krause, W.'
+'Bernhardt, H. J.'
+'McCammon, C.'
+'Effenberger, H.'
+_publ_section_title
+;
+ Brendelite, (Bi,Pb)2Fe3+,2+O2(OH)(PO4), a new mineral from
+ Schneeberg, Germany: description and crystal structure
+;
+_journal_name_full               'Mineralogy and Petrology'
+_journal_page_first              263
+_journal_page_last               277
+_journal_paper_doi               10.1007/BF01164154
+_journal_volume                  63
+_journal_year                    1998
+_chemical_compound_source        'Schneeberg, Germany'
+_chemical_formula_sum            'Bi Fe H O7 P Pb'
+_chemical_name_mineral           Brendelite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 111.14
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   12.278
+_cell_length_b                   3.815
+_cell_length_c                   6.899
+_cell_volume                     301.406
+_database_code_amcsd             0014642
+_exptl_crystal_density_diffrn    6.788
+_cod_original_formula_sum        '(Bi Pb) Fe P O7 H'
+_cod_database_code               9009847
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi 0.02310 0.02160 0.03260 0.00000 0.01110 0.00000
+Pb 0.02310 0.02160 0.03260 0.00000 0.01110 0.00000
+Fe 0.01520 0.01430 0.02210 0.00000 0.00720 0.00000
+P 0.01700 0.02500 0.01400 0.00000 0.00200 0.00000
+Oo 0.02500 0.01800 0.03300 0.00000 0.01700 0.00000
+OH 0.02600 0.01400 0.00900 0.00000 0.00300 0.00000
+Op1 0.01100 0.03200 0.02300 0.00000 0.00300 0.00000
+Op2 0.02800 0.02700 0.02800 0.00300 0.01600 0.00700
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Bi 0.76119 0.00000 0.22804 0.50000 0.02550 Bi 0
+Pb 0.76119 0.00000 0.22804 0.50000 0.02550 Pb 0
+Fe 0.00000 0.00000 0.00000 1.00000 0.01710 Fe 0
+P 0.52850 0.00000 0.39420 0.50000 0.02000 P 0
+Oo 0.16990 0.00000 0.01970 1.00000 0.02400 O 0
+O-H 0.52550 0.00000 0.10440 0.50000 0.01700 O 1
+Op1 0.39930 0.00000 0.35670 1.00000 0.02300 O 0
+Op2 0.56380 0.33200 0.30200 0.50000 0.02600 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:10+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014642

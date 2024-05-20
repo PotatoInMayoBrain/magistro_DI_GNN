@@ -1,0 +1,109 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/49/9014961.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014961
+loop_
+_publ_author_name
+'Siidra, O. I.'
+'Chukanov, N. V.'
+'Pekov, I. V.'
+'Krivovichev, S. V.'
+'Magganas, A.'
+'Katerinopoulos, A.'
+'Voudouris, P.'
+_publ_section_title
+;
+ Pb2(AsO2OH)Cl2, a new phase from the Lavrion ancient slags, Greece:
+ occurrence and characterization
+;
+_journal_name_full               'Mineralogical Magazine'
+_journal_page_first              597
+_journal_page_last               602
+_journal_paper_doi               10.1180/minmag.2012.076.3.10
+_journal_volume                  76
+_journal_year                    2012
+_chemical_compound_source        'Lavrion, Greece'
+_chemical_formula_sum            'As Cl2 H O3 Pb2'
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.767
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.4235
+_cell_length_b                   5.5399
+_cell_length_c                   9.321
+_cell_volume                     331.663
+_database_code_amcsd             0019001
+_exptl_crystal_density_diffrn    6.100
+_cod_original_formula_sum        'Pb2 As O3 Cl2 H'
+_cod_database_code               9014961
+_amcsd_formula_title             Pb2(AsO2OH)Cl2
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.00760 0.01230 0.01980 0.00000 0.00110 0.00000
+Pb2 0.01540 0.01800 0.01580 0.00000 0.00330 0.00000
+As1 0.00570 0.01090 0.01440 0.00000 0.00130 0.00000
+O2 0.00800 0.00900 0.03000 0.00000 0.00000 -0.00100
+O-H1 0.01600 0.03800 0.01600 0.00000 0.00300 0.00000
+Cl1 0.01200 0.02600 0.02200 0.00000 0.00400 0.00000
+Cl2 0.01400 0.01300 0.02600 0.00000 0.00400 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb1 0.28891 0.25000 0.44158 0.01320 Pb 0
+Pb2 0.53034 0.25000 0.83922 0.01630 Pb 0
+As1 0.77360 0.25000 0.31270 0.01030 As 0
+O2 0.59520 0.01340 0.35070 0.01500 O 0
+O-H1 0.74200 0.25000 0.11800 0.02300 O 1
+Cl1 0.23990 0.25000 0.09830 0.02030 Cl 0
+Cl2 0.88710 0.25000 0.66020 0.01830 Cl 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:55:39+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0019001

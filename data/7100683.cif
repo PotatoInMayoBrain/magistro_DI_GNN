@@ -1,0 +1,138 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-26 01:33:24 +0200 (Sat, 26 Mar 2016) $
+#$Revision: 180108 $
+#$URL: svn://www.crystallography.net/cod/cif/7/10/06/7100683.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7100683
+loop_
+_publ_author_name
+'Spencer Williams'
+'Emma Denehy'
+'Jonathan M. White'
+_publ_section_title
+;
+Ground state structures of sulfate monoesters and
+sulfamates reveal similar reaction coordinates for sulfuryl and sulfamyl
+transfer
+;
+_journal_name_full               'Chemical Communications'
+_journal_paper_doi               10.1039/b513712h
+_journal_year                    2006
+_chemical_formula_sum            'C H3 K O4 S'
+_chemical_formula_weight         150.19
+_chemical_name_common            'potassium methyl sulfate'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 93.147(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   9.1599(13)
+_cell_length_b                   6.9471(10)
+_cell_length_c                   7.3311(10)
+_cell_measurement_temperature    130(2)
+_cell_volume                     465.81(11)
+_diffrn_ambient_temperature      130(2)
+_exptl_crystal_density_diffrn    2.142
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               7100683
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+C1 C 0.9487(2) 0.1571(3) 0.2906(3) 0.0249(4) Uani 1 1 d . . .
+H1A H 0.9242 0.0545 0.3753 0.037 Uiso 1 1 calc R . .
+H1B H 1.0001 0.2607 0.3583 0.037 Uiso 1 1 calc R . .
+H1C H 1.0117 0.1053 0.1986 0.037 Uiso 1 1 calc R . .
+O1 O 0.76707(15) -0.04964(19) 0.00729(17) 0.0197(3) Uani 1 1 d . . .
+O2 O 0.81685(14) 0.23168(18) 0.20182(18) 0.0193(3) Uani 1 1 d . . .
+O3 O 0.65969(14) -0.03035(19) 0.29748(17) 0.0197(3) Uani 1 1 d . . .
+O4 O 0.58232(14) 0.19449(19) 0.05923(18) 0.0211(3) Uani 1 1 d . . .
+S1 S 0.69829(5) 0.07460(6) 0.13576(6) 0.01413(18) Uani 1 1 d . . .
+K2 K 0.36678(4) 0.09104(5) 0.33345(5) 0.01694(17) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+C1 0.0233(9) 0.0234(11) 0.0271(10) -0.0011(8) -0.0066(7) -0.0019(8)
+O1 0.0251(7) 0.0174(7) 0.0166(6) -0.0035(5) 0.0012(5) 0.0014(5)
+O2 0.0225(6) 0.0117(6) 0.0234(6) -0.0011(5) -0.0026(5) -0.0026(5)
+O3 0.0299(7) 0.0131(6) 0.0163(6) 0.0017(5) 0.0037(5) -0.0017(5)
+O4 0.0227(7) 0.0133(6) 0.0271(7) 0.0032(5) -0.0018(5) 0.0018(5)
+S1 0.0190(3) 0.0088(3) 0.0145(3) 0.00040(13) 0.00026(17) -0.00021(13)
+K2 0.0226(3) 0.0121(3) 0.0160(2) 0.00111(12) -0.00089(15) 0.00030(12)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+C1 O2 1.437(2) . ?
+C1 H1A 0.9800 . ?
+C1 H1B 0.9800 . ?
+C1 H1C 0.9800 . ?
+O1 S1 1.4471(13) . ?
+O1 K2 2.7368(14) 3_655 ?
+O1 K2 3.0422(14) 2_645 ?
+O2 S1 1.5959(13) . ?
+O2 K2 3.0135(14) 2_655 ?
+O3 S1 1.4520(13) . ?
+O3 K2 2.7621(13) 3_656 ?
+O3 K2 2.8059(14) 2_645 ?
+O3 K2 2.8384(14) . ?
+O4 S1 1.4392(13) . ?
+O4 K2 2.8958(14) 2_655 ?
+O4 K2 2.9152(13) 4_565 ?
+O4 K2 2.9819(14) . ?
+S1 K2 3.4214(7) 2_645 ?
+S1 K2 3.4376(7) . ?
+S1 K2 3.6451(7) 3_655 ?
+S1 K2 3.6459(7) 2_655 ?
+K2 O1 2.7368(14) 3_655 ?
+K2 O3 2.7621(13) 3_656 ?
+K2 O3 2.8059(14) 2_655 ?
+K2 O4 2.8958(14) 2_645 ?
+K2 O4 2.9152(13) 4_566 ?
+K2 O2 3.0135(14) 2_645 ?
+K2 O1 3.0422(14) 2_655 ?
+K2 S1 3.4214(7) 2_655 ?
+K2 K2 3.5868(8) 3_656 ?

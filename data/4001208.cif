@@ -1,0 +1,196 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/12/4001208.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001208
+loop_
+_publ_author_name
+'Zhou, Yongkai'
+'Adams, Stefan'
+'Rao, R. Prasada'
+'Edwards, Doreen D.'
+'Neiman, Arkady'
+'Pestereva, N.'
+_publ_section_title
+;
+ Charge Transport by Polyatomic Anion Diffusion in Sc2(WO4)3
+;
+_journal_issue                   20
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              6335
+_journal_paper_doi               10.1021/cm800466y
+_journal_volume                  20
+_journal_year                    2008
+_chemical_formula_moiety         ' Sc2(WO4)3 '
+_chemical_formula_sum            'O12 Sc2 W3'
+_chemical_formula_weight         833.45
+_chemical_melting_point          1913
+_chemical_name_common            ' Scandium Tungstate '
+_chemical_name_systematic        ' Scandium Tungstate '
+_space_group_IT_number           60
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2a 2n'
+_symmetry_space_group_name_H-M   'P n c a'
+_audit_creation_date             2008-01-25T12:03
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_audit_update_record
+' 2008-01-25T12:03  Initial CIF as created by GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   9.61588(6)
+_cell_length_b                   13.35786(9)
+_cell_length_c                   9.54392(6)
+_cell_measurement_temperature    1300
+_cell_volume                     1225.893(14)
+_computing_structure_refinement  GSAS
+_pd_block_id
+2008-01-25T12:03|T11K|Zhou_Yongkai|Philips_Xpert
+_refine_ls_goodness_of_fit_all   1.85
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     51
+_refine_ls_number_restraints     0
+_refine_ls_shift/su_max          0.03
+_refine_ls_shift/su_mean         0.01
+_cod_data_source_file            cm800466y_si_027.cif
+_cod_data_source_block           T1300K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value ' 1913K ' was changed to '1913' - the
+value should be numeric and without a unit
+designator.
+
+'_geom_bond_publ_flag' value 'N' changed to 'n'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (26
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (33 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        1225.894(17)
+_cod_database_code               4001208
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z+1/2
+3 +x,-y+1/2,+z+1/2
+4 -x+1/2,-y,+z
+-1 -x,-y,-z
+-2 +x+1/2,-y+1/2,-z+1/2
+-3 -x,+y+1/2,-z+1/2
+-4 +x+1/2,+y,-z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Sc Sc1 0.4722(5) 0.38263(29) 0.2475(6) 1.0 Uiso 0.0272(14) 8
+W W1 0.25 0.0 0.47083(19) 1.0 Uiso 0.0345(4) 4
+W W2 0.11202(14) 0.35630(10) 0.39020(14) 1.0 Uiso 0.0345(4) 8
+O O1 0.0981(16) 0.1274(11) 0.0673(16) 1.0 Uiso 0.0831(24) 8
+O O2 0.1540(15) 0.0776(10) 0.3750(18) 1.0 Uiso 0.0831(24) 8
+O O3 0.0035(15) 0.2666(12) 0.3100(15) 1.0 Uiso 0.0831(24) 8
+O O4 0.3367(16) 0.4050(10) 0.0733(16) 1.0 Uiso 0.0831(24) 8
+O O5 0.0511(14) 0.4717(11) 0.3159(16) 1.0 Uiso 0.0831(24) 8
+O O6 0.2944(17) 0.3456(11) 0.3424(16) 1.0 Uiso 0.0831(24) 8
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Sc 8.0
+W 12.0
+O 48.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+O1 Sc1 O2 90.3(6) -2_666 -2_666 n
+O1 Sc1 O3 94.3(6) -2_666 -2_666 n
+O1 Sc1 O4 174.2(6) -2_666 1_555 n
+O1 Sc1 O5 81.9(6) -2_666 4_565 n
+O1 Sc1 O6 95.4(7) -2_666 1_555 n
+O2 Sc1 O3 88.6(6) -2_666 -2_666 n
+O2 Sc1 O4 92.2(6) -2_666 1_555 n
+O2 Sc1 O5 91.6(6) -2_666 4_565 n
+O2 Sc1 O6 174.3(7) -2_666 1_555 n
+O3 Sc1 O4 90.9(6) -2_666 1_555 n
+O3 Sc1 O5 176.3(6) -2_666 4_565 n
+O3 Sc1 O6 90.3(6) -2_666 1_555 n
+O4 Sc1 O5 92.8(5) 1_555 4_565 n
+O4 Sc1 O6 82.2(6) 1_555 1_555 n
+O5 Sc1 O6 89.8(6) 4_565 1_555 n
+O2 W1 O2 113.2(11) 1_555 4_555 n
+O2 W1 O4 118.7(7) 1_555 2_545 n
+O2 W1 O4 96.7(7) 1_555 3_555 n
+O2 W1 O4 96.7(7) 4_555 2_545 n
+O2 W1 O4 118.7(7) 4_555 3_555 n
+O4 W1 O4 114.4(9) 2_545 3_555 n
+O1 W2 O3 118.0(7) 3_555 1_555 n
+O1 W2 O5 104.8(7) 3_555 1_555 n
+O1 W2 O6 109.5(7) 3_555 1_555 n
+O3 W2 O5 102.6(8) 1_555 1_555 n
+O3 W2 O6 114.1(7) 1_555 1_555 n
+O5 W2 O6 106.5(7) 1_555 1_555 n
+Sc1 O1 W2 150.0(9) -2_466 3_554 n
+Sc1 O2 W1 153.7(9) -2_555 1_555 n
+Sc1 O3 W2 147.9(9) -2_466 1_555 n
+Sc1 O4 W1 143.3(8) 1_555 2_554 n
+Sc1 O5 W2 165.9(9) 4_565 1_555 n
+Sc1 O6 W2 157.0(9) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Sc1 O1 2.146(16) -2_555 n
+Sc1 O2 2.169(16) -2_555 n
+Sc1 O3 2.090(15) -2_555 n
+Sc1 O4 2.134(15) 1_555 n
+Sc1 O5 2.065(15) 4_565 n
+Sc1 O6 1.997(16) 1_555 n
+W1 O2 1.662(15) 1_555 n
+W1 O2 1.662(15) 4_555 n
+W1 O4 1.806(14) 2_545 n
+W1 O4 1.806(14) 3_555 n
+W2 O1 1.709(15) 3_555 n
+W2 O3 1.763(15) 1_555 n
+W2 O5 1.795(15) 1_555 n
+W2 O6 1.818(17) 1_555 n
+O1 Sc1 2.146(16) -2_455 n
+O1 W2 1.709(15) 3_554 n
+O2 Sc1 2.169(16) -2_455 n
+O2 W1 1.662(15) 1_555 n
+O3 Sc1 2.090(15) -2_455 n
+O3 W2 1.763(15) 1_555 n
+O4 Sc1 2.134(15) 1_555 n
+O4 W1 1.806(14) 2_554 n
+O5 Sc1 2.065(15) 4_565 n
+O5 W2 1.795(15) 1_555 n
+O6 Sc1 1.997(16) 1_555 n
+O6 W2 1.818(17) 1_555 n

@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-15 00:43:10 +0200 (Mon, 15 Jan 2018) $
+#$Revision: 205206 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/91/00/5910065.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_5910065
+loop_
+_publ_author_name
+'Wyckoff, R. W. G.'
+_publ_section_title
+;
+ Crystal structure of barium nitrate
+;
+_journal_name_full               'Crystals structures, Vol. II'
+_journal_year                    1951
+_chemical_formula_structural     Ba(NO3)2
+_chemical_formula_sum            'Ba N2 O6'
+_chemical_name_systematic        'Barium nitrate'
+_space_group_crystal_system      cubic
+_space_group_IT_number           205
+_space_group_name_Hall           '-P 2ac 2ab 3'
+_space_group_name_H-M_alt        'P a -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.11
+_cell_length_b                   8.11
+_cell_length_c                   8.11
+_cod_depositor_comments
+;
+ Removing symmetrically equivalent atoms and updating the atomic coordinates
+ after consulting the later works of R. W. G. Wyckoff ("Crystal structures"
+ Vol. II, published by Interscience Publishers, Inc., New York, 1951). The
+ lattice parameters were taken from Chapter VII, text page 22 and the atomic
+ coordinates were taken from Chapter VII, table page 25.
+
+ Antanas Vaitkus,
+ 2018-01-15
+;
+_cod_database_code               5910065
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 z,x,y
+3 y,z,x
+4 -y+1/2,-z,x+1/2
+5 z+1/2,-x+1/2,-y
+6 -y,z+1/2,-x+1/2
+7 -z+1/2,-x,y+1/2
+8 -z,x+1/2,-y+1/2
+9 y+1/2,-z+1/2,-x
+10 x+1/2,-y+1/2,-z
+11 -x,y+1/2,-z+1/2
+12 -x+1/2,-y,z+1/2
+13 -x,-y,-z
+14 -z,-x,-y
+15 -y,-z,-x
+16 y+1/2,z,-x+1/2
+17 -z+1/2,x+1/2,y
+18 y,-z+1/2,x+1/2
+19 z+1/2,x,-y+1/2
+20 z,-x+1/2,y+1/2
+21 -y+1/2,z+1/2,x
+22 -x+1/2,y+1/2,z
+23 x,-y+1/2,z+1/2
+24 x+1/2,y,-z+1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba1 Ba2+ 0 0 0
+N1 N5+ 0.350 0.350 0.350
+O1 O2- 0.280 0.296 0.474

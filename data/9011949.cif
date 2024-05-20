@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/19/9011949.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011949
+loop_
+_publ_author_name
+'Pertlik, F.'
+_publ_section_title
+;
+ Die kristallstruktur von poughit, Fe2[TeO3]2[SO4]*3H2O
+;
+_journal_name_full
+'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_page_first              279
+_journal_page_last               290
+_journal_volume                  15
+_journal_year                    1971
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Fe2 H6 O13 S Te2'
+_chemical_name_mineral           Poughite
+_space_group_IT_number           33
+_symmetry_space_group_name_Hall  'P -2bc 2a'
+_symmetry_space_group_name_H-M   'P 21 n b'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.66
+_cell_length_b                   14.20
+_cell_length_c                   7.86
+_cell_volume                     1078.172
+_database_code_amcsd             0015638
+_exptl_crystal_density_diffrn    3.776
+_cod_original_formula_sum        'Fe2 Te2 S O13 H6'
+_cod_database_code               9011949
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+1/2+x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.78892 0.01447 0.06274 0.00431 Fe 0
+Fe2 0.80544 0.46472 0.04587 0.00279 Fe 0
+Te1 0.50000 0.39958 0.21977 0.01051 Te 0
+Te2 0.07922 0.09154 0.21352 0.01077 Te 0
+S 0.71660 0.17320 0.33510 0.00595 S 0
+O3 0.91820 0.01660 0.25060 0.00393 O 0
+Wat1 0.90250 0.33460 0.07830 -0.00532 O 2
+Wat2 0.37390 0.11730 0.01240 0.00735 O 2
+O4 0.68410 0.43830 0.27620 -0.00203 O 0
+O5 0.43680 0.01670 0.34670 0.03470 O 0
+O6 0.15470 0.10770 0.43390 0.00013 O 0
+O7 0.44670 0.42550 0.46040 -0.00418 O 0
+O8 0.16620 0.48400 0.37220 -0.01127 O 0
+O9 0.72700 0.09910 0.46280 0.02102 O 0
+O10 0.68910 0.13080 0.16210 0.01013 O 0
+O11 0.84780 0.22590 0.33980 -0.00861 O 0
+O12 0.60230 0.23600 0.39470 -0.00038 O 0
+Wat13 0.21290 0.28020 0.29210 0.04091 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:53:42+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0015638

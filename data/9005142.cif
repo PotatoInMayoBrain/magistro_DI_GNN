@@ -1,0 +1,119 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 15:51:33 +0300 (Thu, 18 May 2023) $
+#$Revision: 283866 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/51/9005142.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005142
+loop_
+_publ_author_name
+'Comodi, P.'
+'Zanazzi, P. F.'
+_publ_section_title
+;
+ Structural study of ellenbergerite. Part 1: Effects of high temperature
+ Sample: II, T = 668 deg C
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              819
+_journal_page_last               829
+_journal_volume                  5
+_journal_year                    1993
+_chemical_formula_sum            'Al3 H5 Mg3.7 O19 Si4 Ti0.3'
+_chemical_name_mineral           Ellenbergerite
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   12.3184
+_cell_length_b                   12.3184
+_cell_length_c                   4.9674
+_cell_volume                     652.782
+_database_code_amcsd             0006487
+_diffrn_ambient_temperature      941.15
+_exptl_crystal_density_diffrn    3.086
+_cod_original_formula_sum        'Mg3.7 Al3 Ti.3 Si4 O19 H5'
+_cod_database_code               9005142
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+MgM11 0.01490 0.01900 0.01840 0.00800 0.00090 -0.00100
+AlM12 0.01930 0.01330 0.01480 0.00950 0.00260 0.00330
+MgM2 0.02650 0.00000 0.00000 0.00000 0.00000 0.00000
+TiM2 0.02650 0.00000 0.00000 0.00000 0.00000 0.00000
+SiT1 0.01330 0.01330 0.01870 0.00660 0.00000 0.00000
+SiT2 0.01780 0.01100 0.01420 0.00830 -0.00190 -0.00160
+O1 0.01740 0.00000 0.00000 0.00000 0.00000 0.00000
+O2 0.01850 0.00000 0.00000 0.00000 0.00000 0.00000
+O3 0.01720 0.00000 0.00000 0.00000 0.00000 0.00000
+O4 0.02530 0.00000 0.00000 0.00000 0.00000 0.00000
+OH4 0.02530 0.00000 0.00000 0.00000 0.00000 0.00000
+OH5 0.01870 0.00000 0.00000 0.00000 0.00000 0.00000
+O6 0.02010 0.00000 0.00000 0.00000 0.00000 0.00000
+OH7 0.04650 0.00000 0.00000 0.00000 0.00000 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+MgM11 0.42700 0.33940 0.00000 1.00000 Mg 0
+AlM12 0.34740 0.41980 0.49710 1.00000 Al 0
+MgM2 0.00000 0.00000 0.20440 0.70000 Mg 0
+TiM2 0.00000 0.00000 0.20440 0.30000 Ti 0
+SiT1 0.66667 0.33333 0.78670 1.00000 Si 0
+SiT2 0.30650 0.14910 0.48100 1.00000 Si 0
+O1 0.27870 0.34390 0.17260 1.00000 O 0
+O2 0.38290 0.17750 0.19630 1.00000 O 0
+O3 0.35350 0.28270 0.63320 1.00000 O 0
+O4 0.15400 0.07440 0.43610 0.66667 O 0
+O-H4 0.15400 0.07440 0.43610 0.33333 O 1
+O-H5 0.47360 0.52230 0.81860 1.00000 O 1
+O6 0.38870 0.58110 0.39260 1.00000 O 0
+O-H7 0.33333 0.66667 0.95410 1.00000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:39:04+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006487

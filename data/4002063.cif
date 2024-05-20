@@ -1,0 +1,250 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/20/4002063.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4002063
+loop_
+_publ_author_name
+'Fan, Jing'
+'Carrillo-Cabrera, Wilder'
+'Antonyshyn, Iryna'
+'Prots, Yurii'
+'Veremchuk, Igor'
+'Schnelle, Walter'
+'Drathen, Christina'
+'Chen, Lidong'
+'Grin, Yuri'
+_publ_section_title
+;
+ Crystal Structure and Physical Properties of Ternary Phases around the
+ Composition Cu5Sn2Se7with Tetrahedral Coordination of Atoms
+;
+_journal_issue                   18
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              5244
+_journal_paper_doi               10.1021/cm501899q
+_journal_volume                  26
+_journal_year                    2014
+_chemical_compound_source        'synthesis as described'
+_chemical_formula_sum            'Cu5 Se7 Sn2'
+_chemical_formula_weight         1107.89
+_space_group_IT_number           5
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'C 2y'
+_symmetry_space_group_name_H-M   'C 1 2 1'
+_audit_creation_method           'WinCSD program'
+_cell_angle_alpha                90
+_cell_angle_beta                 98.125(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   12.6509(3)
+_cell_length_b                   5.6642(2)
+_cell_length_c                   8.9319(4)
+_cell_measurement_radiation      CuK\a1
+_cell_measurement_reflns_used    70
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      100.3
+_cell_measurement_theta_min      3
+_cell_measurement_wavelength     1.54056
+_cell_volume                     633.61(4)
+_computing_cell_refinement       'WinCSD (Akselrud et al, 1993)'
+_computing_data_reduction        'WinCSD (Akselrud et al, 1993)'
+_computing_publication_material
+;
+WinCSD (Akselrud et al, 1993)
+L.G. Akselrud, P.Yu. Zavalii, Yu.N. Grin, 
+V.K. Pecharsky, B. Baumgartner, E. W\"olfel,
+(1993) Materials Science Forum, 133-136, 335-340
+;
+_computing_structure_refinement  'WinCSD (Akselrud et al, 1993)'
+_computing_structure_solution    'WinCSD (Akselrud et al, 1993)'
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'Nine crystal multi-analyser stage'
+_diffrn_detector_type            'position sensitive detector'
+_diffrn_measurement_device_type  'ID31 beamline at ESRF'
+_diffrn_radiation_monochromator  'Si 111 crystal'
+_diffrn_radiation_wavelength     0.430459
+_diffrn_reflns_limit_h_max       16
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            775
+_diffrn_source                   synchrotron
+_diffrn_source_target
+;
+;
+_diffrn_source_type              'high resolution beamline ID31'
+_exptl_absorpt_coefficient_mu    9.73
+_exptl_crystal_density_diffrn    5.807
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             966
+_pd_char_colour                  metallic-grey
+_pd_char_particle_morphology     isoform
+_pd_instr_location
+; 
+European Synchrotron Radiation Facility (ESRF)
+;
+_pd_meas_2theta_range_inc        0.001
+_pd_meas_2theta_range_max        32
+_pd_meas_2theta_range_min        2.5
+_pd_meas_number_of_points        29501
+_pd_meas_scan_method             step
+_pd_proc_ls_pref_orient_corr
+; Preffered orientation was refined using WinCSD
+formula (V.K. Pecharskii, L.G. Akselrud, P.Yu. Zavalii
+(1987) Soviet Physics Crystallogr., 32, 514-516):
+
+I~corr~=I~obs~/[1+(\t^2^-1)^.^sin^2^\f]^1/2^
+
+'Axis'  1  1  0, \t=0.873(8)
+
+;
+_pd_proc_ls_profile_function     pseudo-Voit
+_pd_proc_ls_prof_R_factor        0.0692
+_pd_proc_ls_prof_wR_factor       0.1239
+_pd_spec_mounting                'glass capillary'
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.04
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     56
+_refine_ls_R_I_factor            0.0589
+_refine_ls_shift/su_max          0.034
+_refine_ls_shift/su_mean         0.019
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     1/[Y~i~+\s(Y~i~)]
+_refine_ls_weighting_scheme      sigma
+_reflns_number_total             775
+_cod_data_source_file            cm501899q_si_002.cif
+_cod_data_source_block           Cu5Sn2Se7
+_cod_depositor_comments
+'Adding full bibliography for 4002063--4002064.cif.'
+_cod_original_sg_symbol_H-M      'C 2'
+_cod_database_code               4002063
+loop_
+_symmetry_equiv_pos_as_xyz
+' x, y, z'
+'-x, y, -z'
+' 1/2+x, 1/2+y, z'
+' 1/2-x, 1/2+y, -z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+Cu1 Cu 0 0.2641(4) 0.5 Uiso 0.015(1) 2 1.0
+Cu2 Cu 0.1438(2) 0.2560(4) 0.9263(2) Uiso 0.015(1) 4 1.0
+Cu3 Cu 0.7120(2) 0.2675(4) 0.6424(2) Uiso 0.014(1) 4 1.0
+Se1 Se 0.8526(1) 0.5038(3) 0.5607(2) Uiso 0.008(1) 4 1.0
+Se2 Se 0 0.5001(3) 0 Uiso 0.007(1) 2 1.0
+Se3 Se 0.0775(2) 0.0291(3) 0.7106(2) Uiso 0.010(1) 4 1.0
+Se4 Se 0.7772(2) 0.0271(3) 0.8602(2) Uiso 0.009(1) 4 1.0
+Sn1 Sn 0.9247(1) 0.7756(3) 0.7763(1) Uiso 0.017(1) 4 1.0
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Cu Cu 10.00 .259 .509 WinCSD
+Se Se 14.00 .295 .932 WinCSD
+Sn Sn 4.00 -3.547 .578 WinCSD
+loop_
+_diffrn_radiation_type
+synchrotron
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se3 Cu1 Se3 112.59(8) . 2_556 yes
+Se3 Cu1 Se1 112.14(7) . 1_455 yes
+Se3 Cu1 Se1 104.09(7) . 2_656 yes
+Se3 Cu1 Se1 104.09(7) 2_556 1_455 yes
+Se3 Cu1 Se1 112.14(7) 2_556 2_656 yes
+Se1 Cu1 Se1 112.05(7) 1_455 2_656 yes
+Se3 Cu2 Se4 114.35(9) . 2_657 yes
+Se3 Cu2 Se4 108.96(9) . 3_455 yes
+Se3 Cu2 Se2 109.50(8) . 1_556 yes
+Se4 Cu2 Se4 108.10(9) 2_657 3_455 yes
+Se4 Cu2 Se2 109.43(8) 2_657 1_556 yes
+Se4 Cu2 Se2 106.16(8) 3_455 1_556 yes
+Se3 Cu3 Se1 113.45(9) 3_555 4_646 yes
+Se3 Cu3 Se1 108.24(9) 3_555 . yes
+Se3 Cu3 Se4 108.46(9) 3_555 . yes
+Se1 Cu3 Se1 107.59(8) 4_646 . yes
+Se1 Cu3 Se4 107.36(9) 4_646 . yes
+Se1 Cu3 Se4 111.80(9) . . yes
+Se1 Sn1 Se3 111.81(7) . 1_665 yes
+Se1 Sn1 Se4 111.33(7) . 1_565 yes
+Se1 Sn1 Se2 105.80(6) . 1_656 yes
+Se3 Sn1 Se4 111.43(7) 1_665 1_565 yes
+Se3 Sn1 Se2 107.93(7) 1_665 1_656 yes
+Se4 Sn1 Se2 108.26(7) 1_565 1_656 yes
+Cu3 Se1 Cu3 112.66(8) 4_656 . yes
+Cu3 Se1 Cu1 111.64(8) 4_656 1_655 yes
+Cu3 Se1 Sn1 104.14(8) 4_656 . yes
+Cu3 Se1 Cu1 112.25(8) . 1_655 yes
+Cu3 Se1 Sn1 107.94(8) . . yes
+Cu1 Se1 Sn1 107.70(7) 1_655 . yes
+Cu2 Se2 Cu2 111.24(7) 1_554 2_556 yes
+Cu2 Se2 Sn1 109.69(6) 1_554 1_454 yes
+Cu2 Se2 Sn1 109.83(6) 1_554 2_656 yes
+Cu2 Se2 Sn1 109.83(6) 2_556 1_454 yes
+Cu2 Se2 Sn1 109.69(6) 2_556 2_656 yes
+Sn1 Se2 Sn1 106.45(6) 1_454 2_656 yes
+Cu2 Se3 Cu3 111.08(9) . 3_445 yes
+Cu2 Se3 Cu1 113.31(9) . . yes
+Cu2 Se3 Sn1 108.16(8) . 1_445 yes
+Cu3 Se3 Cu1 111.70(8) 3_445 . yes
+Cu3 Se3 Sn1 107.43(8) 3_445 1_445 yes
+Cu1 Se3 Sn1 104.73(8) . 1_445 yes
+Cu2 Se4 Cu2 112.02(9) 2_657 3_545 yes
+Cu2 Se4 Cu3 112.98(9) 2_657 . yes
+Cu2 Se4 Sn1 107.21(8) 2_657 1_545 yes
+Cu2 Se4 Cu3 112.52(9) 3_545 . yes
+Cu2 Se4 Sn1 106.45(8) 3_545 1_545 yes
+Cu3 Se4 Sn1 105.04(8) . 1_545 yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Cu1 Se3 2.399(2) . yes
+Cu1 Se3 2.399(2) 2_556 yes
+Cu1 Se1 2.429(2) 1_455 yes
+Cu1 Se1 2.429(2) 2_656 yes
+Cu2 Se3 2.369(2) . yes
+Cu2 Se4 2.403(2) 2_657 yes
+Cu2 Se4 2.416(2) 3_455 yes
+Cu2 Se2 2.449(2) 1_556 yes
+Cu3 Se3 2.399(3) 3_555 yes
+Cu3 Se1 2.403(2) 4_646 yes
+Cu3 Se1 2.420(2) . yes
+Cu3 Se4 2.422(2) . yes
+Sn1 Se1 2.534(2) . yes
+Sn1 Se3 2.543(2) 1_665 yes
+Sn1 Se4 2.543(2) 1_565 yes
+Sn1 Se2 2.607(2) 1_656 yes

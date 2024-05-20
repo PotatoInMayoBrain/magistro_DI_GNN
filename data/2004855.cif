@@ -1,0 +1,215 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/48/2004855.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2004855
+loop_
+_publ_author_name
+'Koskenlinna, M.'
+'Valkonen, J.'
+'Fr\"ohlich, R.'
+_publ_section_title
+;
+ Amminemercury(II) Selenite
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1072
+_journal_page_last               1074
+_journal_paper_doi               10.1107/S0108270195016568
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_structural     'Hg N H3 Se O3'
+_chemical_formula_sum            'H3 Hg N O3 Se'
+_chemical_formula_weight         344.58
+_chemical_name_common            'amminemercury(II) selenite'
+_chemical_name_systematic        'monoamminemercury(II) selenate(IV)'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_type_scat_source
+;
+International Tables for X-ray Crystallography
+(1974, Vol. IV, Tables 2.2B and 2.3.1)
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 101.820(10)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.4560(10)
+_cell_length_b                   4.9690(10)
+_cell_length_c                   14.658(2)
+_cell_measurement_reflns_used    25
+_cell_measurement_temperature    294
+_cell_measurement_theta_max      22
+_cell_measurement_theta_min      16
+_cell_volume                     460.26(13)
+_computing_cell_refinement       CAD4_Software
+_computing_data_collection       CAD4_Software_(Enraf-Nonius,_1989)
+_computing_data_reduction        PROCESS_MolEN_(Fair,_1990)
+_computing_molecular_graphics    ORTEPII_(Johnson,_1976)
+_computing_publication_material  CIF_MolEN
+_computing_structure_refinement  LSFM_MolEN
+_computing_structure_solution    direct_methods_(MULTAN;_Main_et_al.,_1982)
+_diffrn_measurement_device       Enraf_Nonius_CAD4
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         xray_tube
+_diffrn_radiation_type           Mo_K\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.052
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       20
+_diffrn_reflns_limit_l_min       -20
+_diffrn_reflns_number            2951
+_diffrn_reflns_theta_max         29.98
+_diffrn_standards_decay_%        2.1
+_diffrn_standards_interval_time  120
+_diffrn_standards_number         2
+_exptl_absorpt_coefficient_mu    41.145
+_exptl_absorpt_correction_T_max  0.091
+_exptl_absorpt_correction_T_min  0.021
+_exptl_absorpt_correction_type
+'empirical via \y-scan (North, Phillips & Mathews, 1968) and spherical'
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    4.97
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             592
+_exptl_crystal_size_max          0.15
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         3.376
+_refine_diff_density_min         -1.412
+_refine_ls_extinction_coef       0.65E-6
+_refine_ls_extinction_method     isotropic_(Zachariasen,_1963)
+_refine_ls_goodness_of_fit_obs   1.192
+_refine_ls_hydrogen_treatment    H_atoms_not_located
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     56
+_refine_ls_number_reflns         1129
+_refine_ls_R_factor_obs          0.029
+_refine_ls_shift/esd_max         0.001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details
+'w = 1/[\sF^2^+(0.02F)^2^+1.00]  (Killean & Lawrence, 1969)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.036
+_reflns_number_observed          1129
+_reflns_number_total             1480
+_reflns_observed_criterion       >3.0\s(I)
+_cod_data_source_file            br1136.cif
+_cod_data_source_block           HgNH3SeO3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not_measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc w =
+1/[\sF^2^+(0.02F)^2^+1.00] (Killean & Lawrence, 1969)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/[\sF^2^+(0.02F)^2^+1.00] (Killean &
+Lawrence, 1969)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        460.30(10)
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_original_formula_sum        'H3 Hg1 N1 O3 Se1'
+_cod_database_code               2004855
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+-1/2+x,-1/2-y,-1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Hg 0.01840(10) 0.02680(10) 0.02540(10) 0.00010(10) 0.00265(9) 0.00080(10)
+Se 0.0214(3) 0.0258(3) 0.0221(3) -0.0007(2) 0.0040(2) 0.0021(2)
+O1 0.026(2) 0.031(3) 0.021(2) 0.004(2) 0.003(2) -0.002(2)
+O2 0.015(2) 0.033(3) 0.046(3) -0.005(2) 0.007(2) -0.001(2)
+O3 0.041(3) 0.028(3) 0.032(3) -0.009(2) 0.014(2) -0.005(2)
+N 0.020(3) 0.032(3) 0.021(3) -0.002(2) 0.001(2) 0.000(2)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+Hg .95584(4) .46626(6) .29788(2) .02320(10) Uani
+Se .72200(10) 1.00750(10) .41717(5) .0230(3) Uani
+O1 .8099(9) .9399(11) .3150(4) .026(2) Uani
+O2 .4640(9) .9825(12) .3757(5) .029(3) Uani
+O3 .7659(9) 1.3404(12) .4238(4) .033(3) Uani
+N 1.2516(10) .4844(13) .3896(5) .024(3) Uani
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Hg O1 . . 135.1(2) no
+O1 Hg O1 . . 77.3(2) no
+O1 Hg O2 . . 104.1(2) no
+O1 Hg O3 . . 58.4(2) no
+O1 Hg N . . 105.1(2) no
+O1 Hg O1 . . 83.0(2) no
+O1 Hg O2 . . 102.1(2) no
+O1 Hg O3 . . 84.9(2) no
+O1 Hg N . . 101.7(2) no
+O1 Hg O2 . . 63.2(2) no
+O1 Hg O3 . . 96.9(2) no
+O1 Hg N . . 169.2(3) no
+O2 Hg O3 . . 157.3(2) no
+O2 Hg N . . 106.1(2) no
+O3 Hg N . . 93.3(2) no
+O1 Se O2 1_555 1_555 98.6(3) yes
+O1 Se O3 1_555 1_555 99.2(3) yes
+O2 Se O3 1_555 1_555 103.9(3) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Hg O1 1_545 2.809(6) yes
+Hg O1 1_555 2.566(6) yes
+Hg O1 2_645 2.129(5) yes
+Hg O2 2_645 2.700(7) yes
+Hg O3 1_545 2.496(6) yes
+Hg N 1_555 2.099(6) yes
+Se O1 1_555 1.740(6) yes
+Se O2 1_555 1.657(5) yes
+Se O3 1_555 1.678(6) yes

@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/11/9001144.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001144
+loop_
+_publ_author_name
+'Ross, C. R.'
+'Bernstein, L. R.'
+'Waychunas, G. A.'
+_publ_section_title
+;
+ Crystal-structure refinement of stottite, FeGe(OH)6
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              657
+_journal_page_last               661
+_journal_volume                  73
+_journal_year                    1988
+_chemical_formula_sum            'Fe Ge H6 O6'
+_chemical_name_mineral           Stottite
+_space_group_IT_number           86
+_symmetry_space_group_name_Hall  '-P 4bc'
+_symmetry_space_group_name_H-M   'P 42/n :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.594
+_cell_length_b                   7.594
+_cell_length_c                   7.488
+_cell_volume                     431.824
+_database_code_amcsd             0001167
+_exptl_crystal_density_diffrn    3.545
+_cod_original_sg_symbol_H-M      'P 42/n'
+_cod_original_formula_sum        'Fe Ge (O6 H6)'
+_cod_database_code               9001144
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+y,1/2-x,1/2-z
+-y,1/2+x,1/2+z
+1/2+x,1/2+y,-z
+1/2-x,1/2-y,z
+1/2-y,x,1/2-z
+1/2+y,-x,1/2+z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Fe 0.00847 0.00555 0.01079 0.00088 0.00029 0.00058
+Ge 0.00497 0.00643 0.01023 0.00000 -0.00029 0.00000
+OH1 0.01461 0.01870 0.01392 0.00175 0.00086 -0.00374
+OH2 0.01432 0.00964 0.01449 -0.00175 -0.00346 -0.00029
+OH3 0.01256 0.01841 0.01505 -0.00351 -0.00202 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe 0.00000 0.00000 0.00000 Fe 0
+Ge 0.50000 0.00000 0.00000 Ge 0
+O-H1 0.26700 0.44300 0.58300 O 1
+O-H2 0.57300 0.26800 0.56500 O 1
+O-H3 0.43700 0.42100 0.26700 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001167

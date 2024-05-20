@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/12/9001294.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9001294
+loop_
+_publ_author_name
+'Groat, L. A.'
+'Raudsepp, M.'
+'Hawthorne, F. C.'
+'Ercit, T. S.'
+'Sherriff, B. L.'
+'Hartman, J. S.'
+_publ_section_title
+;
+ The amblygonite-montebrasite series: Characterization by single-crystal
+ structure refinement, infrared spectroscopy and multinuclear MAS-NMR
+ spectroscopy
+ sample AF-46
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              992
+_journal_page_last               1008
+_journal_volume                  75
+_journal_year                    1990
+_chemical_formula_sum            'Al F0.5 H0.5 Li O4.5 P'
+_chemical_name_mineral           Montebrasite
+_space_group_IT_number           2
+_symmetry_space_group_name_Hall  '-P 1 (1/2*x+1/2*y,1/2*x-1/2*y,-z)'
+_symmetry_space_group_name_H-M   'C -1'
+_cell_angle_alpha                90.82
+_cell_angle_beta                 117.66
+_cell_angle_gamma                91.22
+_cell_formula_units_Z            4
+_cell_length_a                   6.6782
+_cell_length_b                   7.7159
+_cell_length_c                   6.949
+_cell_volume                     316.959
+_database_code_amcsd             0001324
+_exptl_crystal_density_diffrn    3.078
+_cod_original_formula_sum        'P Al O4.5 (F.5 Li) H.5'
+_cod_database_code               9001294
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+P -0.01457 0.34047 0.26018 1.00000 0.00570 P 0
+Al1 0.00000 0.00000 0.00000 1.00000 0.00600 Al 0
+Al2 0.00000 0.00000 0.50000 1.00000 0.00570 Al 0
+O1 -0.31600 0.01660 -0.15000 1.00000 0.00860 O 0
+O2 0.29840 0.05970 0.58290 1.00000 0.00900 O 0
+O3 0.09980 -0.22220 -0.38600 1.00000 0.00810 O 0
+O4 0.02600 0.23320 0.09640 1.00000 0.01010 O 0
+O-H 0.03040 0.08500 -0.23520 0.50000 0.00920 O 1
+F 0.03040 0.08500 -0.23520 0.50000 0.00920 F 0
+Li1 0.05000 -0.31500 0.26300 0.50000 0.02510 Li 0
+Li2 0.06100 -0.32900 0.31000 0.50000 0.02510 Li 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:47:14+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001324

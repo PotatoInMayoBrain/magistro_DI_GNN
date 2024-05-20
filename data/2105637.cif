@@ -1,0 +1,265 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-02-05 12:38:38 +0200 (Mon, 05 Feb 2018) $
+#$Revision: 206183 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/56/2105637.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2105637
+loop_
+_publ_author_name
+'Ptasiewicz-Bak, H.'
+'Olovsson, I.'
+'McIntyre, G. J.'
+_publ_section_title
+;
+ Charge density in NiCl~2~.4H~2~O at 295 and 30K
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              830
+_journal_page_last               840
+_journal_paper_doi               10.1107/S0108768199005741
+_journal_volume                  55
+_journal_year                    1999
+_chemical_formula_moiety         'Cl2 Ni,4(H2 O)'
+_chemical_formula_sum            'Cl2 H8 Ni O4'
+_chemical_formula_weight         201.7
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_type_scat_source
+'IntTabIV for Ni, Cl, and O, and Stewart, Davidson & Simpson (1965) for H'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 100.02(5)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   5.961(3)
+_cell_length_b                   9.273(5)
+_cell_length_c                   10.891(7)
+_cell_measurement_reflns_used    20
+_cell_measurement_temperature    30.0(10)
+_cell_measurement_theta_max      25
+_cell_measurement_theta_min      15
+_cell_volume                     592.8(6)
+_computing_cell_refinement
+'STOE 4-circle Diffractometer Control Program'
+_computing_data_collection
+'STOE 4-circle Diffractometer Control Program'
+_computing_data_reduction        'DATRED Lundgren (1982)'
+_computing_structure_refinement  'UPALS Lundgren (1982)'
+_diffrn_measurement_device       'Huber-Aracor 400 mm diameter four-circle'
+_diffrn_measurement_method       \w-2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .019
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       -20
+_diffrn_reflns_limit_l_max       24
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            7534
+_diffrn_reflns_theta_max         52.6
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_time  240
+_diffrn_standards_number         6
+_exptl_absorpt_coefficient_mu    4.09
+_exptl_absorpt_correction_T_max  .6348
+_exptl_absorpt_correction_T_min  .4304
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details   '(Coppens, Leiserowitz & Rabinovich, 1965)'
+_exptl_crystal_colour            'light green'
+_exptl_crystal_density_diffrn    2.260
+_exptl_crystal_density_meas      ?
+_exptl_crystal_description       'prism with 9 faces'
+_exptl_crystal_size_max          .21
+_exptl_crystal_size_mid          .20
+_exptl_crystal_size_min          .08
+_refine_diff_density_max         .15
+_refine_diff_density_min         -.15
+_refine_ls_extinction_coef       1110.0000
+_refine_ls_extinction_method
+'Gaussian type I isotropic (Becker & Coppens, 1974, 1975)'
+_refine_ls_goodness_of_fit_ref   1.421
+_refine_ls_hydrogen_treatment
+'H atoms:placed at positions found by neutron diffraction, see text'
+_refine_ls_number_parameters     164
+_refine_ls_number_reflns         6686
+_refine_ls_R_factor_gt           .0215
+_refine_ls_shift/esd_max         .006
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     'w = 1/[\s^2^(F~o~^2^) + k^2^F~o~^4^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         .0327
+_reflns_number_observed          6686
+_reflns_number_total             6686
+_reflns_observed_criterion       F~o~^2^>3\s(F~o~^2^)
+_cod_data_source_file            os0021.cif
+_cod_data_source_block           3
+_cod_depositor_comments
+;
+ Marking attached hydrogen atoms.
+
+ Antanas Vaitkus,
+ 2018-02-05
+
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'not measured' was changed to '?'
+- the value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(F~o~^2^) +
+k^2^F~o~^4^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(F~o~^2^) + k^2^F~o~^4^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        593.0(10)
+_cod_original_formula_sum        'Cl2 H8 Ni1 O4'
+_cod_database_code               2105637
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,-z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ni .00305(2) .00317(2) .00377(2) .00001(2) .00074(2) .00002(2)
+Cl1 .01344(5) .00453(3) .00542(3) -.00101(3) .00170(3) .00047(3)
+Cl2 .00585(4) .00535(3) .00550(3) .00076(2) .00154(3) -.00050(3)
+O1 .00470(10) .00840(10) .00680(10) .00010(10) .00090(10) -.00060(10)
+O2 .00540(10) .00710(10) .00840(10) -.00070(10) .00060(10) -.00140(10)
+O3 .01010(10) .00670(10) .00840(10) .00080(10) .00430(10) -.00050(10)
+O4 .00690(10) .00740(10) .0149(2) -.00030(10) -.00070(10) .00490(10)
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_attached_hydrogens
+Ni .014610(10) .169860(10) .265860(10) .00333(2) Uequi 0
+Cl1 -.02658(2) .363380(10) .120800(10) .00779(4) Uequi 0
+Cl2 -.09570(2) .310120(10) .430760(10) .00556(4) Uequi 0
+O1 .34847(7) .22745(4) .33802(3) .00670(10) Uequi 2
+O2 -.32509(6) .11736(4) .19799(4) .00700(10) Uequi 2
+O3 .12182(7) .03982(4) .13301(4) .00840(10) Uequi 2
+O4 .03855(6) -.01465(5) .37314(4) .00970(10) Uequi 2
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O1 Ni O2 . . 177.86(2) yes
+O1 Ni O3 . . 91.27(4) yes
+O1 Ni O4 . . 91.81(4) yes
+O1 Ni Cl1 . . 92.23(4) yes
+O1 Ni Cl2 . . 86.95(4) yes
+O2 Ni O3 . . 90.86(4) yes
+O2 Ni O4 . . 88.53(4) yes
+O3 Ni O4 . . 85.03(5) yes
+O2 Ni Cl1 . . 87.64(4) yes
+O2 Ni Cl2 . . 90.92(4) yes
+Cl1 Ni O4 . . 172.930(10) yes
+Cl2 Ni O3 . . 176.07(2) yes
+Cl1 Ni O3 . . 89.08(5) yes
+Cl2 Ni O4 . . 91.52(4) yes
+Cl1 Ni Cl2 . . 94.49(4) yes
+H11 O1 H12 . . 103.4(7) no
+H21 O2 H22 . . 102.6(8) no
+H31 O3 H32 . . 108.9(7) no
+Ni Ni Ni 1_455 1_655 180 no
+Ni Ni Ni 1_455 4_555 110.07(5) no
+Ni Ni Ni 1_455 3_445 56.35(2) no
+Ni Ni Ni 1_455 3_545 121.66(2) no
+Ni Ni Ni 1_455 3_455 56.35(2) no
+Ni Ni Ni 1_455 3_555 121.66(2) no
+Ni Ni Ni 1_455 4_454 69.93(5) no
+Ni Ni Ni 3_545 3_455 172.660(10) no
+Ni Ni Ni 3_555 3_445 172.660(10) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ni O1 2.0780(10) yes
+Ni O2 2.0890(10) yes
+Ni O3 2.0680(10) yes
+Ni O4 2.0630(10) yes
+Ni Cl1 2.3750(10) yes
+Ni Cl2 2.4000(10) yes
+O1 H11 .992(7) no
+O1 H12 .985(8) no
+O2 H21 .972(8) no
+O2 H22 .976(8) no
+O3 H31 .981(8) no
+O3 H32 .970(8) no
+loop_
+_geom_contact_atom_site_label_1
+_geom_contact_atom_site_label_2
+_geom_contact_distance
+_geom_contact_site_symmetry_2
+_geom_contact_publ_flag
+Ni Ni 5.961(2) 1_455 no
+Ni Ni 5.961(2) 1_655 no
+Ni Ni 5.924(2) 4_454 no
+Ni Ni 5.924(2) 4_555 no
+Ni Ni 5.585(2) 3_445 no
+Ni Ni 5.585(2) 3_545 no
+Ni Ni 5.461(2) 3_555 no
+Ni Ni 5.461(2) 3_545 no
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+O1 H11 Cl1 4_555 2.166(7) 3.154(2) 174.1(8) no
+O1 H12 O2 1_655 1.881(7) 2.8610(10) 173.6(6) no
+O2 H21 Cl2 3_545 2.220(8) 3.145(2) 158.6(9) no
+O2 H22 Cl2 4_454 2.277(8) 3.1740(10) 152.5(8) no
+O3 H31 Cl2 3_645 2.336(8) 3.304(2) 168.8(7) no
+O3 H32 O1 3_545 1.957(8) 2.916(2) 168.9(9) no
+O4 H41 Cl1 3_545 2.202(13) 3.1110(10) 164.7(8) no
+O4 H421 Cl1 3_445 2.33(3) 3.266(2) 163(2) no
+O4 H422 O4 2_556 2.02(3) 2.893(2) 157(2) no

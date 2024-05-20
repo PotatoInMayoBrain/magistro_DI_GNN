@@ -1,0 +1,93 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/26/9012611.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012611
+loop_
+_publ_author_name
+'Osaki, K.'
+'Nakai, Y.'
+'Watanabe, T.'
+_publ_section_title
+;
+ The crystal structure of magnesium formate dihydrate and manganous formate
+ dihydrate
+;
+_journal_name_full               'Journal of the Physical Society of Japan'
+_journal_page_first              717
+_journal_page_last               723
+_journal_paper_doi               10.1143/JPSJ.19.717
+_journal_volume                  19
+_journal_year                    1964
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'C2 H4 Mg O6'
+_chemical_name_mineral           Dashkovaite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 97.6
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.69
+_cell_length_b                   7.18
+_cell_length_c                   9.39
+_cell_volume                     580.735
+_database_code_amcsd             0014166
+_exptl_crystal_density_diffrn    1.697
+_cod_original_formula_sum        'Mg C2 O6 H4'
+_cod_database_code               9012611
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Mg1 0.00000 0.00000 0.00000 0.01773 Mg 0
+Mg2 0.50000 0.50000 0.00000 0.02090 Mg 0
+C1 0.03500 0.23600 0.27000 0.03230 C 0
+C2 0.32300 0.61300 0.43900 0.02406 C 0
+O1 0.09600 0.11300 0.19600 0.02533 O 0
+O2 0.08400 0.27600 0.39900 0.02660 O 0
+O3 0.43000 0.72800 0.42600 0.03483 O 0
+O4 0.20700 0.65000 0.50000 0.03293 O 0
+Wat5 0.28000 0.47700 0.06200 0.03103 O 2
+Wat6 0.41700 0.10900 0.30100 0.03483 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:07+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014166

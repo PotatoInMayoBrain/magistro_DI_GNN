@@ -1,0 +1,85 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/82/9008204.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9008204
+loop_
+_publ_author_name
+'Rouse, R. C.'
+_publ_section_title
+;
+ The crystal structure of quenselite
+;
+_journal_name_full               'Zeitschrift fur Kristallographie'
+_journal_page_first              321
+_journal_page_last               332
+_journal_volume                  134
+_journal_year                    1971
+_chemical_compound_source        'Langban, Sweden'
+_chemical_formula_sum            'H Mn O3 Pb'
+_chemical_name_mineral           Quenselite
+_space_group_IT_number           13
+_symmetry_space_group_name_Hall  '-P 2ya'
+_symmetry_space_group_name_H-M   'P 1 2/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.0
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.61
+_cell_length_b                   5.70
+_cell_length_c                   9.15
+_cell_volume                     292.189
+_database_code_amcsd             0010724
+_exptl_crystal_density_diffrn    7.073
+_cod_original_formula_sum        'Pb Mn O3 H'
+_cod_database_code               9008204
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2-x,y,-z
+1/2+x,-y,z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Pb -0.00920 0.24640 0.34100 0.01140 Pb 0
+Mn1 0.75000 0.87250 0.00000 0.00507 Mn 0
+Mn2 0.75000 0.38560 0.00000 0.00507 Mn 0
+O1 0.11210 0.37400 0.87880 0.00355 O 0
+O2 0.90390 0.13220 0.11270 0.00874 O 0
+O-H 0.90440 0.15310 0.62890 0.01216 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:15+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010724

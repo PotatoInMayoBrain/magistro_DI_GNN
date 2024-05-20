@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/09/9010959.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010959
+loop_
+_publ_author_name
+'Gournis, D.'
+'Lappas, A.'
+'Karakassides, M. A.'
+'Tobbens, D.'
+'Moukarika, A.'
+_publ_section_title
+;
+ A neutron diffraction study of alkali cation migration in montmorillonites
+ Sample: Cs-mont-300
+;
+_journal_name_full               'Physics and Chemistry of Minerals'
+_journal_page_first              49
+_journal_page_last               58
+_journal_paper_doi               10.1007/s00269-007-0197-z
+_journal_volume                  35
+_journal_year                    2008
+_chemical_formula_sum            'Al0.86 Cs0.08 Fe0.1 H Mg0.14 O10 Si3.9'
+_chemical_name_mineral           Montmorillonite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.56
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.191
+_cell_length_b                   8.976
+_cell_length_c                   11.32
+_cell_volume                     518.516
+_database_code_amcsd             0009129
+_exptl_crystal_density_diffrn    2.007
+_cod_original_formula_sum        'Si3.9 Al.86 Cs.08 Fe.1 Mg.14 O10 H'
+_cod_database_code               9010959
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Si1 0.15300 0.17100 0.30500 0.97500 Si 0
+Al1 0.15300 0.17100 0.30500 0.02500 Al 0
+Cs 0.00000 0.50000 0.00000 0.08000 Cs 0
+Al2 0.00000 0.36900 0.50000 0.38000 Al 0
+Fe2 0.00000 0.36900 0.50000 0.05000 Fe 0
+Mg2 0.00000 0.36900 0.50000 0.07000 Mg 0
+O1 0.27800 0.00000 0.28700 0.50000 O 0
+O2 0.40600 0.24000 0.24700 1.00000 O 0
+O3 0.18800 0.23800 0.44000 1.00000 O 0
+O-H 0.66000 0.00000 0.41500 0.50000 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:47+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009129

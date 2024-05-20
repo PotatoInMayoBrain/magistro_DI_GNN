@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/40/9014061.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9014061
+loop_
+_publ_author_name
+'Takahashi, R.'
+'Kusachi, I.'
+'Miura, H.'
+_publ_section_title
+;
+ Crystal structure of parasibirskite (CaHBO3) and polymorphism in
+ sibirskite and parasibirskite
+;
+_journal_name_full
+'Journal of Mineralogical and Petrological Sciences'
+_journal_page_first              70
+_journal_page_last               73
+_journal_paper_doi               10.2465/jmps.091015b
+_journal_volume                  105
+_journal_year                    2010
+_chemical_compound_source        'Fuka, Okayama Prefecture, Japan'
+_chemical_formula_sum            'B Ca H O3'
+_chemical_name_mineral           Parasibirskite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.00
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.722
+_cell_length_b                   5.437
+_cell_length_c                   3.555
+_cell_volume                     129.748
+_database_code_amcsd             0013138
+_exptl_crystal_density_diffrn    2.557
+_cod_original_formula_sum        'Ca B (O3 H)'
+_cod_database_code               9014061
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+Ca 0.14700 0.25000 0.25200 0.01874 0 Ca
+B 0.71600 0.25000 0.28000 0.01140 0 B
+O-H1 0.52300 0.25000 0.36700 0.01735 1 O
+O2 0.81900 0.03000 0.24000 0.01735 0 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:49+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0013138

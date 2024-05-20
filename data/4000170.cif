@@ -1,0 +1,175 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/01/4000170.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4000170
+loop_
+_publ_author_name
+'Sykora, Richard E.'
+'Ok, Kang Min'
+'Halasyamani, P. Shiv'
+'Wells, Daniel M.'
+'Albrecht-Schmitt, T. E.'
+_journal_name_full               'Chemistry of Materials'
+_journal_year                    2002
+_chemical_formula_structural     RbVO2(IO3)2
+_chemical_formula_sum            'I2 O8 Rb V'
+_chemical_formula_weight         518.21
+_space_group_IT_number           2
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_Hall  '-P 1'
+_symmetry_space_group_name_H-M   'P -1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                72.456(3)
+_cell_angle_beta                 89.686(3)
+_cell_angle_gamma                87.929(3)
+_cell_formula_units_Z            2
+_cell_length_a                   5.2878(9)
+_cell_length_b                   7.9830(10)
+_cell_length_c                   9.669(2)
+_cell_measurement_reflns_used    all
+_cell_measurement_temperature    193(2)
+_cell_measurement_theta_max      28.29
+_cell_measurement_theta_min      2.21
+_cell_volume                     388.91(12)
+_diffrn_ambient_temperature      193(2)
+_diffrn_measurement_device       'Bruker APEX'
+_diffrn_measurement_method       '0.3 wide w/ exposures'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0364
+_diffrn_reflns_av_sigmaI/netI    0.0556
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            3994
+_diffrn_reflns_theta_max         28.29
+_diffrn_reflns_theta_min         2.21
+_diffrn_standards_decay_%        0
+_diffrn_standards_interval_count na
+_diffrn_standards_interval_time  na
+_diffrn_standards_number         na
+_exptl_absorpt_coefficient_mu    15.438
+_exptl_absorpt_correction_T_max  '0.529084 ratio of min/max'
+_exptl_absorpt_correction_T_min  '0.529084 ratio of min/max'
+_exptl_absorpt_correction_type   'multiscan (SADABS)'
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    4.425
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    calcd
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             460
+_exptl_crystal_size_max          0.084
+_exptl_crystal_size_mid          0.064
+_exptl_crystal_size_min          0.040
+_refine_ls_extinction_coef       0.0000(6)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   1.030
+_refine_ls_goodness_of_fit_obs   1.052
+_refine_ls_hydrogen_treatment    na
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     110
+_refine_ls_number_reflns         1909
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.030
+_refine_ls_restrained_S_obs      1.052
+_refine_ls_R_factor_all          0.0413
+_refine_ls_R_factor_obs          0.0350
+_refine_ls_shift/esd_max         -4.888
+_refine_ls_shift/esd_mean        0.045
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0429P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0884
+_refine_ls_wR_factor_obs         0.0841
+_reflns_number_observed          1672
+_reflns_number_total             1909
+_reflns_observed_criterion       >2sigma(I)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'nm' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0429P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0429P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      P-1
+_cod_database_code               4000170
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, -z'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+I1 0.0086(2) 0.0133(2) 0.0121(2) -0.00299(15) -0.00035(14) -0.00064(14)
+I2 0.0105(2) 0.0146(2) 0.0113(2) -0.0026(2) 0.00045(14) -0.00175(15)
+Rb1 0.0156(3) 0.0189(3) 0.0167(3) -0.0029(2) 0.0002(2) -0.0014(2)
+V1 0.0075(5) 0.0142(5) 0.0129(5) -0.0015(4) -0.0001(4) -0.0013(4)
+O6 0.012(2) 0.021(2) 0.018(2) 0.001(2) -0.001(2) 0.002(2)
+O5 0.011(2) 0.019(2) 0.017(2) 0.000(2) 0.003(2) 0.000(2)
+O3 0.007(2) 0.019(2) 0.019(2) -0.009(2) 0.001(2) 0.002(2)
+O2 0.010(2) 0.019(2) 0.014(2) -0.004(2) 0.000(2) -0.002(2)
+O1 0.016(2) 0.013(2) 0.024(3) 0.000(2) -0.004(2) -0.003(2)
+O8 0.007(2) 0.026(2) 0.022(2) -0.006(2) -0.004(2) -0.002(2)
+O4 0.021(3) 0.028(3) 0.021(2) -0.013(2) 0.000(2) 0.000(2)
+O7 0.015(2) 0.019(2) 0.023(3) -0.008(2) 0.005(2) -0.003(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+I1 I 0.24281(7) 0.63456(5) 0.22478(4) 0.01152(14) Uani 1 d . .
+I2 I 0.68318(7) 0.84831(5) 0.43834(4) 0.01243(14) Uani 1 d . .
+Rb1 Rb 0.73314(12) 0.80613(8) -0.08391(7) 0.0176(2) Uani 1 d . .
+V1 V -0.2459(2) 0.37064(14) 0.30327(12) 0.0121(2) Uani 1 d . .
+O6 O 0.3790(8) 0.9588(6) 0.3838(5) 0.0184(10) Uani 1 d . .
+O5 O 0.5794(8) 0.6701(6) 0.5970(5) 0.0170(9) Uani 1 d . .
+O3 O 0.5046(8) 0.5289(6) 0.1560(5) 0.0142(9) Uani 1 d . .
+O2 O -0.0013(8) 0.5110(6) 0.1665(5) 0.0146(9) Uani 1 d . .
+O1 O 0.2159(9) 0.8319(6) 0.0779(5) 0.0190(10) Uani 1 d . .
+O8 O -0.0876(8) 0.3547(6) 0.4517(5) 0.0186(10) Uani 1 d . .
+O4 O 0.7030(9) 0.7314(7) 0.3054(5) 0.0220(10) Uani 1 d . .
+O7 O -0.2001(9) 0.1857(6) 0.2668(5) 0.0187(10) Uani 1 d . .

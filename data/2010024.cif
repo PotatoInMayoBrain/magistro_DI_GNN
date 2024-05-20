@@ -1,0 +1,161 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/01/00/2010024.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2010024
+loop_
+_publ_author_name
+'El Fadli, Z.'
+'Lemoine, P.'
+'Tomas, A.'
+'Guittard, M.'
+_publ_section_title
+;
+ Sulfure d'ytterbium, de calcium et de potassium, CaK~0,5~Yb~1,833~S~4~
+;
+_journal_issue                   9
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              1373
+_journal_page_last               1375
+_journal_paper_doi               10.1107/S010827019400137X
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_moiety         'Ca1 K0.5 Yb1.833 S4'
+_chemical_formula_sum            'Ca K0.5 S4 Yb1.833'
+_chemical_formula_weight         505,05
+_space_group_IT_number           186
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  'P 6c -2c'
+_symmetry_space_group_name_H-M   'P 63 m c'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   3.901(2)
+_cell_length_b                   3.901(2)
+_cell_length_c                   29.35(4)
+_cell_measurement_reflns_used    14
+_cell_measurement_temperature    293
+_cell_measurement_theta_max      10.61
+_cell_measurement_theta_min      2.76
+_cell_volume                     386.8(6)
+_diffrn_measurement_device       'automatique Syntex '
+_diffrn_measurement_method
+'\w/2\q, 2\q variant de 2\q~1~-0.7 \`a 2\q~2~+0.7\%'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_limit_h_max       5
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       2
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       37
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            185
+_diffrn_reflns_theta_max         27.50
+_diffrn_standards_decay_%        0.01
+_diffrn_standards_interval_count 50
+_diffrn_standards_number         '3 (004, 0\=17, 2\=10)'
+_exptl_absorpt_coefficient_mu    23.84
+_exptl_absorpt_correction_T_max  0.711
+_exptl_absorpt_correction_T_min  0.212
+_exptl_absorpt_correction_type
+; programme de Ibers d'apr\`es m\'ethode analytique de
+De Meulenaer & Tompa (1965)
+;
+_exptl_crystal_colour            vert
+_exptl_crystal_density_diffrn    4.33(6)
+_exptl_crystal_density_meas      3.9(4)
+_exptl_crystal_description       'plaquette hexagonale irr\'eguli\`ere'
+_exptl_crystal_size_max          0.001
+_exptl_crystal_size_mid          0.006
+_exptl_crystal_size_min          0.015
+_refine_diff_density_max         1.47
+_refine_diff_density_min         -1.27
+_refine_ls_extinction_coef       0.0501
+_refine_ls_extinction_method
+'Becker & Coppens (1974), Type I, distribution Gaussienne'
+_refine_ls_goodness_of_fit_obs   0.32
+_refine_ls_number_parameters     9
+_refine_ls_number_reflns         163
+_refine_ls_R_factor_obs          0.0427
+_refine_ls_shift/esd_max         0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s^2^(F)'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.059
+_reflns_number_observed          163
+_reflns_number_total             185
+_reflns_observed_criterion       I>=4\s(I)
+_cod_data_source_file            du1053.cif
+_cod_data_source_block           du1053_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s^2^(F)' was changed to
+'calc'. New tag '_refine_ls_weighting_details' was created. The value
+of the new tag was set to 'w = 1/\s^2^(F)'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        386.9(6)
+_cod_original_formula_sum        'Ca1 K0.5 Yb1.833 S4'
+_cod_database_code               2010024
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-x,-y,1/2+z
+y,y-x,1/2+z
+x-y,x,1/2+z
+-y,-x,z
+y-x,y,z
+x,x-y,z
+y,x,1/2+z
+x-y,-y,1/2+z
+-x,y-x,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Yb(1) .333 .666 .7074(2) .0080(10) 1
+Yb(2) .333 .666 .4332(2) .0050(10) 0.833
+Ca .0 .0 .3252(8) .022(6) 1
+K(1) .333 .666 .068(3) .05(5) 0.25
+K(2) .666 .333 .068(4) .06(5) 0.25
+S(1) .333 .666 .8799(8) .016(7) 1
+S(2) .0 .0 .1567(6) .010(7) 1
+S(3) .333 .666 .2630 .013(4) 1
+S(4) .0 .0 .4785(6) .009(6) 1
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Yb(1) S(2) 4_665 2.690(10) yes
+Yb(1) S(3) 4_665 2.780(10) yes
+Yb(2) S(4) 1_565 2.620(10) yes
+Yb(2) S(1) 4_674 2.75(2) yes
+Ca S(1) 4_554 2.76(2) yes
+Ca S(3) 1_545 2.90(2) yes
+K(1) S(2) 1_565 3.45(7) yes
+K(1) S(4) 4_554 3.46(8) yes
+K(2) S(2) 1_665 3.45(7) yes
+K(2) S(4) 4_554 3.5(2) yes

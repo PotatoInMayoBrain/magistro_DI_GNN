@@ -1,0 +1,169 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/18/2101864.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2101864
+loop_
+_publ_author_name
+'Pfitzner, A.'
+'Evain, M.'
+'Petricek, V.'
+_publ_section_title
+;
+ Cu~12~Sb~4~S~13~: A Temperature-Dependent Structure Investigation
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              337
+_journal_page_last               345
+_journal_paper_doi               10.1107/S0108768196014024
+_journal_volume                  53
+_journal_year                    1997
+_chemical_formula_sum            'Cu12 S13 Sb4'
+_chemical_formula_weight         1666.33
+_space_group_IT_number           217
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  'I -4 2 3'
+_symmetry_space_group_name_H-M   'I -4 3 m'
+_atom_type_scat_source           IntTabIV
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   10.3293(6)
+_cell_length_b                   10.3293(6)
+_cell_length_c                   10.3293(6)
+_cell_measurement_reflns_used    26
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      15.4
+_cell_measurement_theta_min      5.4
+_cell_volume                     1102.08(11)
+_diffrn_measurement_device       'Siemens P4'
+_diffrn_measurement_method       'Profile-fitted \w'
+_diffrn_radiation_type           AgK-L~2,3~
+_diffrn_radiation_wavelength     0.56087
+_diffrn_reflns_av_R_equivalents  0.041
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -15
+_diffrn_reflns_limit_k_max       17
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       17
+_diffrn_reflns_limit_l_min       -17
+_diffrn_reflns_number            3000
+_diffrn_reflns_theta_max         27.96
+_diffrn_standards_decay_%        <1
+_diffrn_standards_interval_count 100
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    8.973
+_exptl_absorpt_correction_T_max  0.82
+_exptl_absorpt_correction_T_min  0.61
+_exptl_absorpt_correction_type   '\y-scan (Sheldrick, 1996)'
+_exptl_crystal_colour            'metallic black'
+_exptl_crystal_density_diffrn    5.020
+_exptl_crystal_description       irregular
+_exptl_crystal_size_max          0.25
+_exptl_crystal_size_mid          0.20
+_exptl_crystal_size_min          0.18
+_refine_diff_density_max         0.72
+_refine_diff_density_min         -0.85
+_refine_ls_extinction_coef       0.270(10)
+_refine_ls_extinction_method     'Secondary isotropic'
+_refine_ls_goodness_of_fit_obs   1.11
+_refine_ls_number_parameters     34
+_refine_ls_number_reflns         389
+_refine_ls_R_factor_obs          0.0165
+_refine_ls_shift/esd_max         <0.0001
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/[\s^2^(|F~o~|) + (0.01|F~o~|)^2^]'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.0200
+_reflns_number_observed          389
+_reflns_number_total             538
+_reflns_observed_criterion       I>1\s(I)
+_cod_data_source_file            se0205.cif
+_cod_data_source_block           se0205a
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'w = 1/[\s^2^(|F~o~|) +
+(0.01|F~o~|)^2^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 1/[\s^2^(|F~o~|) + (0.01|F~o~|)^2^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        1102.1(2)
+_cod_database_code               2101864
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,-y,z
+-x,y,-z
+x,-y,-z
+z,x,y
+z,-x,-y
+-z,-x,y
+-z,x,-y
+y,z,x
+-y,z,-x
+y,-z,-x
+-y,-z,x
+y,x,z
+-y,-x,z
+y,-x,-z
+-y,x,-z
+x,z,y
+-x,z,-y
+-x,-z,y
+x,-z,-y
+z,y,x
+z,-y,-x
+-z,y,-x
+-z,-y,x
+1/2+x,1/2+y,1/2+z
+1/2-x,1/2-y,1/2+z
+1/2-x,1/2+y,1/2-z
+1/2+x,1/2-y,1/2-z
+1/2+z,1/2+x,1/2+y
+1/2+z,1/2-x,1/2-y
+1/2-z,1/2-x,1/2+y
+1/2-z,1/2+x,1/2-y
+1/2+y,1/2+z,1/2+x
+1/2-y,1/2+z,1/2-x
+1/2+y,1/2-z,1/2-x
+1/2-y,1/2-z,1/2+x
+1/2+y,1/2+x,1/2+z
+1/2-y,1/2-x,1/2+z
+1/2+y,1/2-x,1/2-z
+1/2-y,1/2+x,1/2-z
+1/2+x,1/2+z,1/2+y
+1/2-x,1/2+z,1/2-y
+1/2-x,1/2-z,1/2+y
+1/2+x,1/2-z,1/2-y
+1/2+z,1/2+y,1/2+x
+1/2+z,1/2-y,1/2-x
+1/2-z,1/2+y,1/2-x
+1/2-z,1/2-y,1/2+x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu(1) .5 .0 .25 .0245(5)
+Cu(2) .0 .0 .2178(2) .0615(6)
+Sb .26870(3) .26870(3) .26870(3) .01728(8)
+S(1) -.11601(7) -.11601(7) .36309(9) .0174(2)
+S(2) .0 .0 .0 .0251(4)

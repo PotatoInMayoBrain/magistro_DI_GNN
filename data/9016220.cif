@@ -1,0 +1,105 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/62/9016220.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9016220
+loop_
+_publ_author_name
+'Zubkova, N. V.'
+'Filinchuk, Y. E.'
+'Pekov, I. V.'
+'Pushcharovsky, D. Y.'
+'Gobechiya, E. R.'
+_publ_section_title
+;
+ Crystal structures of shlykovite and cryptophyllite: comparative crystal
+ chemistry of phyllosilicate minerals of the mountainite family
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              547
+_journal_page_last               555
+_journal_paper_doi               10.1127/0935-1221/2010/0022-2041
+_journal_volume                  22
+_journal_year                    2010
+_chemical_compound_source
+'Mount Rasvumchorr, Khibiny alkaline intrusion, Kola Peninsula, Russia'
+_chemical_formula_sum            'Ca H7 K O13 Si4'
+_chemical_name_mineral           Shlykovite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 94.597
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.4897
+_cell_length_b                   6.9969
+_cell_length_c                   26.714
+_cell_volume                     1209.121
+_database_code_amcsd             0017556
+_exptl_crystal_density_diffrn    2.233
+_cod_original_formula_sum        'K Ca Si4 O13 H7'
+_cod_database_code               9016220
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+K -0.25330 0.86630 0.37057 0.03910 K 0
+Ca 0.01890 0.83920 0.24336 0.02100 Ca 0
+Si1 0.00110 0.84470 0.08283 0.01900 Si 0
+Si2 0.23180 0.06400 0.35444 0.02050 Si 0
+Si3 0.40830 0.84470 0.15613 0.02150 Si 0
+Si4 0.23500 0.62650 0.35640 0.01960 Si 0
+O1 -0.08970 0.04960 0.10050 0.04300 O 0
+O2 0.54820 0.65250 0.15620 0.03170 O 0
+O3 0.14680 0.16890 0.40400 0.02850 O 0
+O-H4 -0.03400 0.15580 -0.02330 0.03320 O 1
+O5 0.28100 0.84910 0.37300 0.02300 O 0
+O6 0.12560 0.60190 0.30120 0.02590 O 0
+O7 0.33150 0.89410 0.21010 0.02770 O 0
+O8 0.06490 0.07530 0.30730 0.02970 O 0
+O9 0.22700 0.80100 0.11360 0.03900 O 0
+O10 0.53900 0.01910 0.13350 0.02730 O 0
+Wat1 -0.32520 0.77240 0.27310 0.04200 O 2
+Wat2 -0.26500 0.60100 -0.02650 0.11600 O 2
+Wat3 0.35280 0.68230 -0.01430 0.03900 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:56:49+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0017556

@@ -1,0 +1,704 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/13/4301379.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4301379
+loop_
+_publ_author_name
+'Susan E. Latturner'
+'Daniel Bilc'
+'S. D. Mahanti'
+'Mercouri G. Kanatzidis'
+_publ_section_title
+;
+R3Au6+xAl26T (R = Ca, Sr, Eu, Yb; T = Early Transition Metal): a Large
+Family of Compounds with a Stuffed BaHg11 Structure Type Grown from Aluminum
+Flux
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1346
+_journal_page_last               1355
+_journal_paper_doi               10.1021/ic801095v
+_journal_volume                  48
+_journal_year                    2009
+_chemical_formula_sum            'Al25.6 Au7.4 Ca3 Zr'
+_chemical_formula_weight         2359.70
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           221
+_symmetry_cell_setting           cubic
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            1
+_cell_length_a                   8.7090(5)
+_cell_length_b                   8.7090(5)
+_cell_length_c                   8.7090(5)
+_cell_measurement_reflns_used    3989
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.07
+_cell_measurement_theta_min      2.34
+_cell_volume                     660.55(7)
+_computing_cell_refinement       'Bruker SAINT software (Bruker, 1999)'
+_computing_data_collection       'Bruker SMART software (Bruker, 1997)'
+_computing_data_reduction        'Bruker SAINT software (Bruker, 1999)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.971
+_diffrn_measured_fraction_theta_max 0.971
+_diffrn_measurement_device_type  'CCD area detector (Bruker AXS)'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0508
+_diffrn_reflns_av_sigmaI/netI    0.0182
+_diffrn_reflns_limit_h_max       11
+_diffrn_reflns_limit_h_min       -11
+_diffrn_reflns_limit_k_max       7
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_l_max       10
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            3989
+_diffrn_reflns_theta_full        28.07
+_diffrn_reflns_theta_max         28.07
+_diffrn_reflns_theta_min         2.34
+_exptl_absorpt_coefficient_mu    42.738
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    5.932
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       block
+_exptl_crystal_F_000             1017
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.07
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         1.654
+_refine_diff_density_min         -1.246
+_refine_diff_density_rms         0.251
+_refine_ls_extinction_coef       0.0072(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.214
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     21
+_refine_ls_number_reflns         200
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.214
+_refine_ls_R_factor_all          0.0235
+_refine_ls_R_factor_gt           0.0206
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0187P)^2^+0.2328P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0381
+_refine_ls_wR_factor_ref         0.0389
+_reflns_number_gt                186
+_reflns_number_total             200
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic801095v_si_001_08.cif
+_cod_data_source_block           3sl276s
+_cod_original_formula_sum        'Al25.60 Au7.40 Ca3 Zr'
+_cod_database_code               4301379
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'-x, y, -z'
+'x, -y, -z'
+'z, x, y'
+'z, -x, -y'
+'-z, -x, y'
+'-z, x, -y'
+'y, z, x'
+'-y, z, -x'
+'y, -z, -x'
+'-y, -z, x'
+'y, x, -z'
+'-y, -x, -z'
+'y, -x, z'
+'-y, x, z'
+'x, z, -y'
+'-x, z, y'
+'-x, -z, -y'
+'x, -z, y'
+'z, y, -x'
+'z, -y, x'
+'-z, y, x'
+'-z, -y, -x'
+'-x, -y, -z'
+'x, y, -z'
+'x, -y, z'
+'-x, y, z'
+'-z, -x, -y'
+'-z, x, y'
+'z, x, -y'
+'z, -x, y'
+'-y, -z, -x'
+'y, -z, x'
+'-y, z, x'
+'y, z, -x'
+'-y, -x, z'
+'y, x, z'
+'-y, x, -z'
+'y, -x, -z'
+'-x, -z, y'
+'x, -z, -y'
+'x, z, y'
+'-x, z, -y'
+'-z, -y, x'
+'-z, y, -x'
+'z, -y, -x'
+'z, y, x'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Au1 Au 0.0000 0.0000 0.0000 0.0167(4) Uani 1.008(7) 48 d SP . .
+Au2 Au 0.0000 0.33578(9) 0.33578(9) 0.0104(2) Uani 0.533(4) 4 d SP . .
+Al2 Al 0.0000 0.3673(6) 0.3673(6) 0.015(3) Uiso 0.467(4) 4 d SP . .
+Ca1 Ca 0.5000 0.0000 0.0000 0.0180(8) Uani 1 16 d S . .
+Al1 Al 0.5000 0.26762(15) 0.26762(15) 0.0097(5) Uani 1 4 d S . .
+Zr1 Zr 0.5000 0.5000 0.5000 0.0031(5) Uani 1 48 d S . .
+Al3 Al 0.17425(16) 0.17425(16) 0.17425(16) 0.0142(7) Uani 1 6 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Au1 0.0167(4) 0.0167(4) 0.0167(4) 0.000 0.000 0.000
+Au2 0.0121(3) 0.0121(3) 0.0069(3) 0.000 0.000 -0.0046(3)
+Ca1 0.0372(19) 0.0083(9) 0.0083(9) 0.000 0.000 0.000
+Al1 0.0121(10) 0.0086(7) 0.0086(7) -0.0011(8) 0.000 0.000
+Zr1 0.0031(5) 0.0031(5) 0.0031(5) 0.000 0.000 0.000
+Al3 0.0142(7) 0.0142(7) 0.0142(7) -0.0004(6) -0.0004(6) -0.0004(6)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ca Ca 0.2262 0.3064 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Zr Zr -2.9673 0.5597 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Au Au -2.0133 8.8022 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Al3 Au1 Al3 180.00(10) . 25 ?
+Al3 Au1 Al3 70.5 . 28 ?
+Al3 Au1 Al3 109.5 25 28 ?
+Al3 Au1 Al3 70.5 . 27 ?
+Al3 Au1 Al3 109.5 25 27 ?
+Al3 Au1 Al3 109.5 28 27 ?
+Al3 Au1 Al3 70.5 . 26 ?
+Al3 Au1 Al3 109.5 25 26 ?
+Al3 Au1 Al3 109.5 28 26 ?
+Al3 Au1 Al3 109.5 27 26 ?
+Al3 Au1 Al3 109.5 . 2 ?
+Al3 Au1 Al3 70.5 25 2 ?
+Al3 Au1 Al3 70.5 28 2 ?
+Al3 Au1 Al3 70.5 27 2 ?
+Al3 Au1 Al3 180.00(10) 26 2 ?
+Al3 Au1 Al3 109.5 . 3 ?
+Al3 Au1 Al3 70.5 25 3 ?
+Al3 Au1 Al3 70.5 28 3 ?
+Al3 Au1 Al3 180.00(15) 27 3 ?
+Al3 Au1 Al3 70.5 26 3 ?
+Al3 Au1 Al3 109.5 2 3 ?
+Al3 Au1 Al3 109.5 . 4 ?
+Al3 Au1 Al3 70.5 25 4 ?
+Al3 Au1 Al3 180.00(10) 28 4 ?
+Al3 Au1 Al3 70.5 27 4 ?
+Al3 Au1 Al3 70.5 26 4 ?
+Al3 Au1 Al3 109.5 2 4 ?
+Al3 Au1 Al3 109.5 3 4 ?
+Al3 Au2 Al3 74.67(11) 26 . ?
+Al3 Au2 Al2 128.21(9) 26 27_565 ?
+Al3 Au2 Al2 128.21(9) . 27_565 ?
+Al3 Au2 Al2 128.21(9) 26 3_655 ?
+Al3 Au2 Al2 128.21(9) . 3_655 ?
+Al2 Au2 Al2 77.9(3) 27_565 3_655 ?
+Al3 Au2 Al1 132.32(5) 26 . ?
+Al3 Au2 Al1 70.30(5) . . ?
+Al2 Au2 Al1 99.03(7) 27_565 . ?
+Al2 Au2 Al1 60.93(5) 3_655 . ?
+Al3 Au2 Al1 132.32(5) 26 5 ?
+Al3 Au2 Al1 70.30(5) . 5 ?
+Al2 Au2 Al1 60.93(5) 27_565 5 ?
+Al2 Au2 Al1 99.03(8) 3_655 5 ?
+Al1 Au2 Al1 61.52(6) . 5 ?
+Al3 Au2 Al1 70.30(5) 26 6_565 ?
+Al3 Au2 Al1 132.32(5) . 6_565 ?
+Al2 Au2 Al1 60.93(4) 27_565 6_565 ?
+Al2 Au2 Al1 99.03(7) 3_655 6_565 ?
+Al1 Au2 Al1 155.59(5) . 6_565 ?
+Al1 Au2 Al1 112.80(5) 5 6_565 ?
+Al3 Au2 Al1 70.30(5) 26 26 ?
+Al3 Au2 Al1 132.32(5) . 26 ?
+Al2 Au2 Al1 99.03(8) 27_565 26 ?
+Al2 Au2 Al1 60.93(5) 3_655 26 ?
+Al1 Au2 Al1 112.80(5) . 26 ?
+Al1 Au2 Al1 155.59(5) 5 26 ?
+Al1 Au2 Al1 61.52(6) 6_565 26 ?
+Al3 Au2 Au2 124.21(3) 26 27_565 ?
+Al3 Au2 Au2 124.21(3) . 27_565 ?
+Al2 Au2 Au2 6.07(13) 27_565 27_565 ?
+Al2 Au2 Au2 83.93(13) 3_655 27_565 ?
+Al1 Au2 Au2 102.25(3) . 27_565 ?
+Al1 Au2 Au2 59.261(18) 5 27_565 ?
+Al1 Au2 Au2 59.261(18) 6_565 27_565 ?
+Al1 Au2 Au2 102.25(3) 26 27_565 ?
+Al3 Au2 Au2 124.21(3) 26 3_655 ?
+Al3 Au2 Au2 124.21(3) . 3_655 ?
+Al2 Au2 Au2 83.93(13) 27_565 3_655 ?
+Al2 Au2 Au2 6.07(13) 3_655 3_655 ?
+Al1 Au2 Au2 59.261(18) . 3_655 ?
+Al1 Au2 Au2 102.25(3) 5 3_655 ?
+Al1 Au2 Au2 102.25(3) 6_565 3_655 ?
+Al1 Au2 Au2 59.261(18) 26 3_655 ?
+Au2 Au2 Au2 90.0 27_565 3_655 ?
+Al3 Au2 Ca1 75.05(2) 26 . ?
+Al3 Au2 Ca1 75.05(2) . . ?
+Al2 Au2 Ca1 147.87(12) 27_565 . ?
+Al2 Au2 Ca1 70.00(13) 3_655 . ?
+Al1 Au2 Ca1 65.47(3) . . ?
+Al1 Au2 Ca1 123.53(3) 5 . ?
+Al1 Au2 Ca1 123.53(3) 6_565 . ?
+Al1 Au2 Ca1 65.47(3) 26 . ?
+Au2 Au2 Ca1 153.937(18) 27_565 . ?
+Au2 Au2 Ca1 63.937(18) 3_655 . ?
+Al3 Au2 Ca1 75.05(2) 26 5 ?
+Al3 Au2 Ca1 75.05(2) . 5 ?
+Al2 Au2 Ca1 70.00(13) 27_565 5 ?
+Al2 Au2 Ca1 147.87(12) 3_655 5 ?
+Al1 Au2 Ca1 123.53(3) . 5 ?
+Al1 Au2 Ca1 65.47(3) 5 5 ?
+Al1 Au2 Ca1 65.47(3) 6_565 5 ?
+Al1 Au2 Ca1 123.53(3) 26 5 ?
+Au2 Au2 Ca1 63.937(18) 27_565 5 ?
+Au2 Au2 Ca1 153.937(18) 3_655 5 ?
+Ca1 Au2 Ca1 142.13(4) . 5 ?
+Al2 Al2 Al2 90.0 27_565 3_655 ?
+Al2 Al2 Au2 6.07(13) 27_565 27_565 ?
+Al2 Al2 Au2 96.07(13) 3_655 27_565 ?
+Al2 Al2 Au2 96.07(13) 27_565 3_655 ?
+Al2 Al2 Au2 6.07(13) 3_655 3_655 ?
+Au2 Al2 Au2 102.1(3) 27_565 3_655 ?
+Al2 Al2 Al1 108.46(12) 27_565 . ?
+Al2 Al2 Al1 65.08(12) 3_655 . ?
+Au2 Al2 Al1 111.06(16) 27_565 . ?
+Au2 Al2 Al1 63.10(7) 3_655 . ?
+Al2 Al2 Al1 65.08(12) 27_565 5 ?
+Al2 Al2 Al1 108.46(12) 3_655 5 ?
+Au2 Al2 Al1 63.10(7) 27_565 5 ?
+Au2 Al2 Al1 111.06(16) 3_655 5 ?
+Al1 Al2 Al1 62.91(6) . 5 ?
+Al2 Al2 Al1 65.08(12) 27_565 6_565 ?
+Al2 Al2 Al1 108.46(12) 3_655 6_565 ?
+Au2 Al2 Al1 63.10(7) 27_565 6_565 ?
+Au2 Al2 Al1 111.06(16) 3_655 6_565 ?
+Al1 Al2 Al1 171.5(3) . 6_565 ?
+Al1 Al2 Al1 116.39(7) 5 6_565 ?
+Al2 Al2 Al1 108.46(12) 27_565 26 ?
+Al2 Al2 Al1 65.08(12) 3_655 26 ?
+Au2 Al2 Al1 111.06(16) 27_565 26 ?
+Au2 Al2 Al1 63.10(7) 3_655 26 ?
+Al1 Al2 Al1 116.39(7) . 26 ?
+Al1 Al2 Al1 171.5(3) 5 26 ?
+Al1 Al2 Al1 62.91(6) 6_565 26 ?
+Al2 Al2 Al3 126.59(5) 27_565 26 ?
+Al2 Al2 Al3 126.59(5) 3_655 26 ?
+Au2 Al2 Al3 121.99(7) 27_565 26 ?
+Au2 Al2 Al3 121.99(7) 3_655 26 ?
+Al1 Al2 Al3 121.3(2) . 26 ?
+Al1 Al2 Al3 121.3(2) 5 26 ?
+Al1 Al2 Al3 66.75(9) 6_565 26 ?
+Al1 Al2 Al3 66.75(9) 26 26 ?
+Al2 Al2 Al3 126.59(5) 27_565 . ?
+Al2 Al2 Al3 126.59(5) 3_655 . ?
+Au2 Al2 Al3 121.99(7) 27_565 . ?
+Au2 Al2 Al3 121.99(7) 3_655 . ?
+Al1 Al2 Al3 66.75(9) . . ?
+Al1 Al2 Al3 66.75(9) 5 . ?
+Al1 Al2 Al3 121.3(2) 6_565 . ?
+Al1 Al2 Al3 121.3(2) 26 . ?
+Al3 Al2 Al3 65.09(19) 26 . ?
+Al2 Al2 Ca1 70.14(11) 27_565 5 ?
+Al2 Al2 Ca1 160.14(11) 3_655 5 ?
+Au2 Al2 Ca1 64.075(17) 27_565 5 ?
+Au2 Al2 Ca1 166.2(2) 3_655 5 ?
+Al1 Al2 Ca1 120.25(9) . 5 ?
+Al1 Al2 Ca1 63.84(5) 5 5 ?
+Al1 Al2 Ca1 63.84(5) 6_565 5 ?
+Al1 Al2 Ca1 120.25(9) 26 5 ?
+Al3 Al2 Ca1 69.01(12) 26 5 ?
+Al3 Al2 Ca1 69.01(12) . 5 ?
+Al2 Al2 Ca1 160.14(11) 27_565 . ?
+Al2 Al2 Ca1 70.14(12) 3_655 . ?
+Au2 Al2 Ca1 166.2(2) 27_565 . ?
+Au2 Al2 Ca1 64.075(17) 3_655 . ?
+Al1 Al2 Ca1 63.84(5) . . ?
+Al1 Al2 Ca1 120.25(9) 5 . ?
+Al1 Al2 Ca1 120.25(9) 6_565 . ?
+Al1 Al2 Ca1 63.84(5) 26 . ?
+Al3 Al2 Ca1 69.01(12) 26 . ?
+Al3 Al2 Ca1 69.01(12) . . ?
+Ca1 Al2 Ca1 129.7(2) 5 . ?
+Au2 Ca1 Au2 78.870(14) 35_655 3_655 ?
+Au2 Ca1 Au2 180.000(12) 35_655 11 ?
+Au2 Ca1 Au2 101.130(14) 3_655 11 ?
+Au2 Ca1 Au2 101.130(14) 35_655 27 ?
+Au2 Ca1 Au2 180.000(12) 3_655 27 ?
+Au2 Ca1 Au2 78.870(14) 11 27 ?
+Au2 Ca1 Au2 52.13(4) 35_655 9 ?
+Au2 Ca1 Au2 101.130(14) 3_655 9 ?
+Au2 Ca1 Au2 127.87(4) 11 9 ?
+Au2 Ca1 Au2 78.870(14) 27 9 ?
+Au2 Ca1 Au2 101.130(14) 35_655 . ?
+Au2 Ca1 Au2 52.13(4) 3_655 . ?
+Au2 Ca1 Au2 78.870(14) 11 . ?
+Au2 Ca1 Au2 127.87(4) 27 . ?
+Au2 Ca1 Au2 78.870(14) 9 . ?
+Au2 Ca1 Au2 127.87(4) 35_655 33_655 ?
+Au2 Ca1 Au2 78.870(14) 3_655 33_655 ?
+Au2 Ca1 Au2 52.13(4) 11 33_655 ?
+Au2 Ca1 Au2 101.130(14) 27 33_655 ?
+Au2 Ca1 Au2 180.00(4) 9 33_655 ?
+Au2 Ca1 Au2 101.130(14) . 33_655 ?
+Au2 Ca1 Au2 78.870(14) 35_655 25_655 ?
+Au2 Ca1 Au2 127.87(4) 3_655 25_655 ?
+Au2 Ca1 Au2 101.130(14) 11 25_655 ?
+Au2 Ca1 Au2 52.13(4) 27 25_655 ?
+Au2 Ca1 Au2 101.130(14) 9 25_655 ?
+Au2 Ca1 Au2 180.00(3) . 25_655 ?
+Au2 Ca1 Au2 78.870(14) 33_655 25_655 ?
+Au2 Ca1 Al1 50.565(7) 35_655 . ?
+Au2 Ca1 Al1 50.565(7) 3_655 . ?
+Au2 Ca1 Al1 129.435(7) 11 . ?
+Au2 Ca1 Al1 129.435(7) 27 . ?
+Au2 Ca1 Al1 50.565(7) 9 . ?
+Au2 Ca1 Al1 50.565(7) . . ?
+Au2 Ca1 Al1 129.435(7) 33_655 . ?
+Au2 Ca1 Al1 129.435(7) 25_655 . ?
+Au2 Ca1 Al1 129.435(7) 35_655 25_655 ?
+Au2 Ca1 Al1 129.435(7) 3_655 25_655 ?
+Au2 Ca1 Al1 50.565(7) 11 25_655 ?
+Au2 Ca1 Al1 50.565(7) 27 25_655 ?
+Au2 Ca1 Al1 129.435(7) 9 25_655 ?
+Au2 Ca1 Al1 129.435(7) . 25_655 ?
+Au2 Ca1 Al1 50.565(7) 33_655 25_655 ?
+Au2 Ca1 Al1 50.565(7) 25_655 25_655 ?
+Al1 Ca1 Al1 180.00(3) . 25_655 ?
+Au2 Ca1 Al1 129.435(7) 35_655 26 ?
+Au2 Ca1 Al1 50.565(7) 3_655 26 ?
+Au2 Ca1 Al1 50.565(7) 11 26 ?
+Au2 Ca1 Al1 129.435(7) 27 26 ?
+Au2 Ca1 Al1 129.435(7) 9 26 ?
+Au2 Ca1 Al1 50.565(7) . 26 ?
+Au2 Ca1 Al1 50.565(7) 33_655 26 ?
+Au2 Ca1 Al1 129.435(7) 25_655 26 ?
+Al1 Ca1 Al1 90.0 . 26 ?
+Al1 Ca1 Al1 90.0 25_655 26 ?
+Au2 Ca1 Al1 50.565(7) 35_655 2_655 ?
+Au2 Ca1 Al1 129.435(7) 3_655 2_655 ?
+Au2 Ca1 Al1 129.435(7) 11 2_655 ?
+Au2 Ca1 Al1 50.565(7) 27 2_655 ?
+Au2 Ca1 Al1 50.565(7) 9 2_655 ?
+Au2 Ca1 Al1 129.435(7) . 2_655 ?
+Au2 Ca1 Al1 129.435(7) 33_655 2_655 ?
+Au2 Ca1 Al1 50.565(7) 25_655 2_655 ?
+Al1 Ca1 Al1 90.0 . 2_655 ?
+Al1 Ca1 Al1 90.0 25_655 2_655 ?
+Al1 Ca1 Al1 180.00(3) 26 2_655 ?
+Al2 Al1 Al2 111.1(3) 9 . ?
+Al2 Al1 Al2 49.8(2) 9 35_655 ?
+Al2 Al1 Al2 135.70(17) . 35_655 ?
+Al2 Al1 Al2 135.70(17) 9 3_655 ?
+Al2 Al1 Al2 49.8(2) . 3_655 ?
+Al2 Al1 Al2 111.1(3) 35_655 3_655 ?
+Al2 Al1 Au2 103.22(16) 9 . ?
+Al2 Al1 Au2 7.96(15) . . ?
+Al2 Al1 Au2 131.25(9) 35_655 . ?
+Al2 Al1 Au2 55.97(11) 3_655 . ?
+Al2 Al1 Au2 7.96(15) 9 9 ?
+Al2 Al1 Au2 103.22(16) . 9 ?
+Al2 Al1 Au2 55.97(11) 35_655 9 ?
+Al2 Al1 Au2 131.25(9) 3_655 9 ?
+Au2 Al1 Au2 95.29(5) . 9 ?
+Al2 Al1 Au2 131.25(9) 9 3_655 ?
+Al2 Al1 Au2 55.97(11) . 3_655 ?
+Al2 Al1 Au2 103.22(16) 35_655 3_655 ?
+Al2 Al1 Au2 7.96(15) 3_655 3_655 ?
+Au2 Al1 Au2 61.48(4) . 3_655 ?
+Au2 Al1 Au2 127.93(7) 9 3_655 ?
+Al2 Al1 Au2 55.97(11) 9 35_655 ?
+Al2 Al1 Au2 131.25(9) . 35_655 ?
+Al2 Al1 Au2 7.96(15) 35_655 35_655 ?
+Al2 Al1 Au2 103.22(16) 3_655 35_655 ?
+Au2 Al1 Au2 127.93(7) . 35_655 ?
+Au2 Al1 Au2 61.48(4) 9 35_655 ?
+Au2 Al1 Au2 95.29(5) 3_655 35_655 ?
+Al2 Al1 Al1 94.24(16) 9 10_656 ?
+Al2 Al1 Al1 154.01(16) . 10_656 ?
+Al2 Al1 Al1 58.55(3) 35_655 10_656 ?
+Al2 Al1 Al1 107.64(9) 3_655 10_656 ?
+Au2 Al1 Al1 161.87(2) . 10_656 ?
+Au2 Al1 Al1 102.21(3) 9 10_656 ?
+Au2 Al1 Al1 103.15(2) 3_655 10_656 ?
+Au2 Al1 Al1 59.24(3) 35_655 10_656 ?
+Al2 Al1 Al1 154.01(16) 9 30_655 ?
+Al2 Al1 Al1 94.24(16) . 30_655 ?
+Al2 Al1 Al1 107.64(9) 35_655 30_655 ?
+Al2 Al1 Al1 58.55(3) 3_655 30_655 ?
+Au2 Al1 Al1 102.21(3) . 30_655 ?
+Au2 Al1 Al1 161.87(2) 9 30_655 ?
+Au2 Al1 Al1 59.24(3) 3_655 30_655 ?
+Au2 Al1 Al1 103.15(2) 35_655 30_655 ?
+Al1 Al1 Al1 60.0 10_656 30_655 ?
+Al2 Al1 Zr1 112.15(8) 9 . ?
+Al2 Al1 Zr1 112.15(8) . . ?
+Al2 Al1 Zr1 112.15(8) 35_655 . ?
+Al2 Al1 Zr1 112.15(8) 3_655 . ?
+Au2 Al1 Zr1 116.04(3) . . ?
+Au2 Al1 Zr1 116.04(3) 9 . ?
+Au2 Al1 Zr1 116.04(3) 3_655 . ?
+Au2 Al1 Zr1 116.04(3) 35_655 . ?
+Al1 Al1 Zr1 60.0 10_656 . ?
+Al1 Al1 Zr1 60.0 30_655 . ?
+Al2 Al1 Al1 107.64(9) 9 5 ?
+Al2 Al1 Al1 58.55(3) . 5 ?
+Al2 Al1 Al1 154.01(16) 35_655 5 ?
+Al2 Al1 Al1 94.24(16) 3_655 5 ?
+Au2 Al1 Al1 59.24(3) . 5 ?
+Au2 Al1 Al1 103.15(2) 9 5 ?
+Au2 Al1 Al1 102.21(3) 3_655 5 ?
+Au2 Al1 Al1 161.87(2) 35_655 5 ?
+Al1 Al1 Al1 120.0 10_656 5 ?
+Al1 Al1 Al1 90.0 30_655 5 ?
+Zr1 Al1 Al1 60.0 . 5 ?
+Al1 Zr1 Al1 180.0 33_666 9 ?
+Al1 Zr1 Al1 60.0 33_666 25_666 ?
+Al1 Zr1 Al1 120.0 9 25_666 ?
+Al1 Zr1 Al1 60.0 33_666 29_666 ?
+Al1 Zr1 Al1 120.0 9 29_666 ?
+Al1 Zr1 Al1 60.0 25_666 29_666 ?
+Al1 Zr1 Al1 120.0 33_666 5 ?
+Al1 Zr1 Al1 60.0 9 5 ?
+Al1 Zr1 Al1 120.0 25_666 5 ?
+Al1 Zr1 Al1 180.0 29_666 5 ?
+Al1 Zr1 Al1 120.0 33_666 . ?
+Al1 Zr1 Al1 60.0 9 . ?
+Al1 Zr1 Al1 180.0 25_666 . ?
+Al1 Zr1 Al1 120.0 29_666 . ?
+Al1 Zr1 Al1 60.0 5 . ?
+Al1 Zr1 Al1 90.0 33_666 34_565 ?
+Al1 Zr1 Al1 90.0 9 34_565 ?
+Al1 Zr1 Al1 60.0 25_666 34_565 ?
+Al1 Zr1 Al1 120.0 29_666 34_565 ?
+Al1 Zr1 Al1 60.0 5 34_565 ?
+Al1 Zr1 Al1 120.0 . 34_565 ?
+Al1 Zr1 Al1 120.0 33_666 6_566 ?
+Al1 Zr1 Al1 60.0 9 6_566 ?
+Al1 Zr1 Al1 60.0 25_666 6_566 ?
+Al1 Zr1 Al1 90.0 29_666 6_566 ?
+Al1 Zr1 Al1 90.0 5 6_566 ?
+Al1 Zr1 Al1 120.0 . 6_566 ?
+Al1 Zr1 Al1 60.0 34_565 6_566 ?
+Al1 Zr1 Al1 60.0 33_666 30_655 ?
+Al1 Zr1 Al1 120.0 9 30_655 ?
+Al1 Zr1 Al1 120.0 25_666 30_655 ?
+Al1 Zr1 Al1 90.0 29_666 30_655 ?
+Al1 Zr1 Al1 90.0 5 30_655 ?
+Al1 Zr1 Al1 60.0 . 30_655 ?
+Al1 Zr1 Al1 120.0 34_565 30_655 ?
+Al1 Zr1 Al1 180.0 6_566 30_655 ?
+Al1 Zr1 Al1 60.0 33_666 2_665 ?
+Al1 Zr1 Al1 120.0 9 2_665 ?
+Al1 Zr1 Al1 90.0 25_666 2_665 ?
+Al1 Zr1 Al1 120.0 29_666 2_665 ?
+Al1 Zr1 Al1 60.0 5 2_665 ?
+Al1 Zr1 Al1 90.0 . 2_665 ?
+Al1 Zr1 Al1 60.0 34_565 2_665 ?
+Al1 Zr1 Al1 120.0 6_566 2_665 ?
+Al1 Zr1 Al1 60.0 30_655 2_665 ?
+Al1 Zr1 Al1 120.0 33_666 26_556 ?
+Al1 Zr1 Al1 60.0 9 26_556 ?
+Al1 Zr1 Al1 90.0 25_666 26_556 ?
+Al1 Zr1 Al1 60.0 29_666 26_556 ?
+Al1 Zr1 Al1 120.0 5 26_556 ?
+Al1 Zr1 Al1 90.0 . 26_556 ?
+Al1 Zr1 Al1 120.0 34_565 26_556 ?
+Al1 Zr1 Al1 60.0 6_566 26_556 ?
+Al1 Zr1 Al1 120.0 30_655 26_556 ?
+Al1 Zr1 Al1 180.0 2_665 26_556 ?
+Al1 Zr1 Al1 90.0 33_666 10_656 ?
+Al1 Zr1 Al1 90.0 9 10_656 ?
+Al1 Zr1 Al1 120.0 25_666 10_656 ?
+Al1 Zr1 Al1 60.0 29_666 10_656 ?
+Al1 Zr1 Al1 120.0 5 10_656 ?
+Al1 Zr1 Al1 60.0 . 10_656 ?
+Al1 Zr1 Al1 180.0 34_565 10_656 ?
+Al1 Zr1 Al1 120.0 6_566 10_656 ?
+Al1 Zr1 Al1 60.0 30_655 10_656 ?
+Al1 Zr1 Al1 120.0 2_665 10_656 ?
+Al1 Zr1 Al1 60.0 26_556 10_656 ?
+Au2 Al3 Au2 111.46(5) 9 5 ?
+Au2 Al3 Au2 111.46(5) 9 . ?
+Au2 Al3 Au2 111.46(5) 5 . ?
+Au2 Al3 Au1 107.40(6) 9 . ?
+Au2 Al3 Au1 107.40(6) 5 . ?
+Au2 Al3 Au1 107.40(6) . . ?
+Au2 Al3 Al2 109.20(7) 9 . ?
+Au2 Al3 Al2 109.20(7) 5 . ?
+Au2 Al3 Al2 4.79(8) . . ?
+Au1 Al3 Al2 112.19(10) . . ?
+Au2 Al3 Al2 4.79(8) 9 9 ?
+Au2 Al3 Al2 109.20(7) 5 9 ?
+Au2 Al3 Al2 109.20(7) . 9 ?
+Au1 Al3 Al2 112.19(10) . 9 ?
+Al2 Al3 Al2 106.62(11) . 9 ?
+Au2 Al3 Al2 109.20(7) 9 5 ?
+Au2 Al3 Al2 4.79(8) 5 5 ?
+Au2 Al3 Al2 109.20(7) . 5 ?
+Au1 Al3 Al2 112.19(10) . 5 ?
+Al2 Al3 Al2 106.62(11) . 5 ?
+Al2 Al3 Al2 106.62(11) 9 5 ?
+Au2 Al3 Ca1 62.143(4) 9 9 ?
+Au2 Al3 Ca1 62.143(4) 5 9 ?
+Au2 Al3 Ca1 164.44(9) . 9 ?
+Au1 Al3 Ca1 88.16(4) . 9 ?
+Al2 Al3 Ca1 159.65(12) . 9 ?
+Al2 Al3 Ca1 63.22(2) 9 9 ?
+Al2 Al3 Ca1 63.22(2) 5 9 ?
+Au2 Al3 Ca1 62.143(4) 9 . ?
+Au2 Al3 Ca1 164.44(9) 5 . ?
+Au2 Al3 Ca1 62.143(4) . . ?
+Au1 Al3 Ca1 88.16(4) . . ?
+Al2 Al3 Ca1 63.22(2) . . ?
+Al2 Al3 Ca1 63.22(2) 9 . ?
+Al2 Al3 Ca1 159.65(12) 5 . ?
+Ca1 Al3 Ca1 119.897(4) 9 . ?
+Au2 Al3 Ca1 164.44(9) 9 5 ?
+Au2 Al3 Ca1 62.143(4) 5 5 ?
+Au2 Al3 Ca1 62.143(4) . 5 ?
+Au1 Al3 Ca1 88.16(4) . 5 ?
+Al2 Al3 Ca1 63.22(2) . 5 ?
+Al2 Al3 Ca1 159.65(12) 9 5 ?
+Al2 Al3 Ca1 63.22(2) 5 5 ?
+Ca1 Al3 Ca1 119.897(4) 9 5 ?
+Ca1 Al3 Ca1 119.897(4) . 5 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Au1 Al3 2.628(2) . ?
+Au1 Al3 2.628(2) 25 ?
+Au1 Al3 2.628(2) 28 ?
+Au1 Al3 2.628(2) 27 ?
+Au1 Al3 2.628(2) 26 ?
+Au1 Al3 2.628(2) 2 ?
+Au1 Al3 2.628(2) 3 ?
+Au1 Al3 2.628(2) 4 ?
+Au2 Al3 2.5021(11) 26 ?
+Au2 Al3 2.5021(11) . ?
+Au2 Al2 2.600(5) 27_565 ?
+Au2 Al2 2.600(5) 3_655 ?
+Au2 Al1 2.7982(8) . ?
+Au2 Al1 2.7982(8) 5 ?
+Au2 Al1 2.7982(8) 6_565 ?
+Au2 Al1 2.7982(8) 26 ?
+Au2 Au2 2.8604(15) 27_565 ?
+Au2 Au2 2.8604(15) 3_655 ?
+Au2 Ca1 3.2553(4) . ?
+Au2 Ca1 3.2553(4) 5 ?
+Al2 Al2 2.311(11) 27_565 ?
+Al2 Al2 2.311(11) 3_655 ?
+Al2 Au2 2.600(5) 27_565 ?
+Al2 Au2 2.600(5) 3_655 ?
+Al2 Al1 2.7425(9) . ?
+Al2 Al1 2.7425(9) 5 ?
+Al2 Al1 2.7425(9) 6_565 ?
+Al2 Al1 2.7425(9) 26 ?
+Al2 Al3 2.821(6) 26 ?
+Al2 Al3 2.821(6) . ?
+Al2 Ca1 3.401(3) 5 ?
+Al2 Ca1 3.401(3) . ?
+Ca1 Au2 3.2553(4) 35_655 ?
+Ca1 Au2 3.2553(4) 3_655 ?
+Ca1 Au2 3.2553(4) 11 ?
+Ca1 Au2 3.2553(4) 27 ?
+Ca1 Au2 3.2553(4) 9 ?
+Ca1 Au2 3.2553(4) 33_655 ?
+Ca1 Au2 3.2553(4) 25_655 ?
+Ca1 Al1 3.2961(18) . ?
+Ca1 Al1 3.2961(18) 25_655 ?
+Ca1 Al1 3.2961(18) 26 ?
+Ca1 Al1 3.2961(18) 2_655 ?
+Al1 Al2 2.7425(9) 9 ?
+Al1 Al2 2.7425(9) 35_655 ?
+Al1 Al2 2.7425(9) 3_655 ?
+Al1 Au2 2.7982(8) 9 ?
+Al1 Au2 2.7982(8) 3_655 ?
+Al1 Au2 2.7982(8) 35_655 ?
+Al1 Al1 2.8621(18) 10_656 ?
+Al1 Al1 2.8621(18) 30_655 ?
+Al1 Zr1 2.8621(18) . ?
+Al1 Al1 2.8621(18) 5 ?
+Zr1 Al1 2.8621(18) 33_666 ?
+Zr1 Al1 2.8621(18) 9 ?
+Zr1 Al1 2.8621(18) 25_666 ?
+Zr1 Al1 2.8621(18) 29_666 ?
+Zr1 Al1 2.8621(18) 5 ?
+Zr1 Al1 2.8621(18) 34_565 ?
+Zr1 Al1 2.8621(18) 6_566 ?
+Zr1 Al1 2.8621(18) 30_655 ?
+Zr1 Al1 2.8621(18) 2_665 ?
+Zr1 Al1 2.8621(18) 26_556 ?
+Zr1 Al1 2.8621(18) 10_656 ?
+Al3 Au2 2.5021(11) 9 ?
+Al3 Au2 2.5021(11) 5 ?
+Al3 Al2 2.821(6) 9 ?
+Al3 Al2 2.821(6) 5 ?
+Al3 Ca1 3.5573(2) 9 ?
+Al3 Ca1 3.5573(2) 5 ?

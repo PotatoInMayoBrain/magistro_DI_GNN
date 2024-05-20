@@ -1,0 +1,128 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 22:30:59 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176467 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/17/4311730.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4311730
+loop_
+_publ_author_name
+'Ryo Kitaura'
+'Fumiyasu Iwahori'
+'Ryotaro Matsuda'
+'Susumu Kitagawa'
+'Yoshiki Kubota'
+'Masaki Takata'
+'Tatsuo C. Kobayashi'
+_publ_contact_author_email       kitagawa@sbchem.kyoto-u.ac.jp
+_publ_contact_author_fax         ' +81-75-753-4979 '
+_publ_contact_author_name        ' Susumu Kitagawa'
+_publ_contact_author_phone       ' +81-75-753-5652 '
+_publ_section_title
+;
+ Rational Design and Crystal Structure Determination of a 3-D
+ Metal-Organic Jungle-Gym-like Open Framework
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              6522
+_journal_page_last               6524
+_journal_paper_doi               10.1021/ic049005d
+_journal_volume                  43
+_journal_year                    2004
+_chemical_formula_sum            'C22 H12 Cu2 F8 N2 O8'
+_space_group_IT_number           123
+_symmetry_cell_setting           tetragonal
+_symmetry_Int_Tables_number      123
+_symmetry_space_group_name_Hall  '-P 4 2'
+_symmetry_space_group_name_H-M   'P 4/m m m'
+_audit_creation_date             2004-03-17
+_audit_creation_method           'Converted from *.lst using lst2cif'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            1
+_cell_length_a                   10.8660(2)
+_cell_length_b                   10.86600
+_cell_length_c                   9.6705(5)
+_cell_volume                     1141.80(6)
+_diffrn_ambient_temperature      298
+_diffrn_detector                 'imaging plate'
+_diffrn_measurement_device_type  debye-scherrer
+_diffrn_radiation_monochromator  'Si crystal'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.90229
+_pd_block_id
+2004-03-17|PHASE_01|..creator_name..|..instr_name..
+_pd_calc_method                  'Rietveld Refinement'
+_pd_meas_2theta_range_inc        0.010
+_pd_meas_2theta_range_max        50.000
+_pd_meas_2theta_range_min        2.400
+_pd_meas_number_of_points        4761
+_pd_meas_scan_method             step
+_pd_phase_name                   2
+_pd_proc_ls_background_function
+;
+at first background curve was provided by 
+cubic spline, and the curve was refined to fit the experimental data.
+;
+_pd_proc_ls_profile_function     Split-Pearson
+_pd_proc_ls_prof_R_factor        0.019
+_pd_proc_ls_prof_wR_expected     0.013
+_pd_proc_ls_prof_wR_factor       0.030
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.41
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_constraints    12
+_refine_ls_structure_factor_coef Inet
+_cod_data_source_file            ic049005drom20040723_121703.cif
+_cod_data_source_block           RIETAN_phase_1
+_cod_original_cell_volume        1141.79(7)
+_cod_original_formula_sum        'C22 H12 Cu2 F8 N2 O8 '
+_cod_database_code               4311730
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 -y,x,z
+4 y,-x,z
+5 -x,y,-z
+6 x,-y,-z
+7 y,x,-z
+8 -y,-x,-z
+9 -x,-y,-z
+10 x,y,-z
+11 y,-x,-z
+12 -y,x,-z
+13 x,-y,z
+14 -x,y,z
+15 -y,-x,z
+16 y,x,z
+loop_
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_thermal_displace_type
+_atom_site_B_iso_or_equiv
+_atom_site_type_symbol
+Cu1 2 1.0 1.0 0.0 0.1443(7) Biso 0.65(8) Cu
+O1 8 1.0 1.0 0.1696(8) 0.120(1) Biso 1.15(8) O
+N1 2 1.0 1.0 0.0 0.369(3) Biso 1.15(8) N
+C1 16 0.5 0.930(2) 0.440(1) 0.109(2) Biso 1.15(8) C
+C2 4 1.0 1.0 0.371(2) 0.0 Biso 1.15(8) C
+C3 16 0.25 0.89119 -0.06282 0.422(2) Biso 1.15(8) C
+C4 8 0.25 1.0 0.12565 0.422(2) Biso 1.15(8) C
+C5 4 1.0 1.0 0.230(2) 0.0 Biso 1.15(8) C
+F1 16 0.5 0.8563(9) 0.378(1) 0.197(1) Biso 1.15(8) F
+H1 16 0.25 1.0768 0.1612 0.373(2) Biso 1.995 H
+H2 16 0.25 0.822 -0.0141 0.373(2) Biso 1.995 H
+H3 16 0.25 0.8891 -0.139 0.373(2) Biso 1.995 H

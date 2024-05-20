@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-18 10:14:51 +0300 (Thu, 18 May 2023) $
+#$Revision: 283850 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/08/9010834.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010834
+loop_
+_publ_author_name
+'Krickl, R.'
+'Wildner, M.'
+_publ_section_title
+;
+ Crystal chemistry of synthetic Co- and Ni-analogues of natrochalcite - the
+ shortest known hydrogen bonds among mineral-type compounds
+ Part I: single-crystal X-ray structures
+ Sample: T = 293 K
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              805
+_journal_page_last               816
+_journal_paper_doi               10.1127/0935-1221/2007/0019-1770
+_journal_volume                  19
+_journal_year                    2007
+_chemical_formula_sum            'H3 Na Ni2 O10 S2'
+_chemical_name_mineral           NaNiS
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 114.78
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   8.605
+_cell_length_b                   6.185
+_cell_length_c                   7.336
+_cell_volume                     354.486
+_database_code_amcsd             0007248
+_diffrn_ambient_temperature      293
+_exptl_crystal_density_diffrn    3.443
+_cod_original_formula_sum        'Na Ni2 S2 O10 H3'
+_cod_database_code               9010834
+_amcsd_formula_title             NaNi2S2O10H3
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.01490 0.03720 0.02240 0.00000 0.00810 0.00000
+Ni 0.00720 0.00670 0.00990 0.00020 0.00370 -0.00020
+S 0.00590 0.00770 0.00710 0.00000 0.00250 0.00000
+O1 0.01260 0.00960 0.01430 0.00000 0.00990 0.00000
+O2 0.01150 0.01770 0.00780 0.00000 -0.00010 0.00000
+O3 0.00830 0.00870 0.01270 0.00190 0.00320 -0.00010
+Oh 0.00760 0.00820 0.01100 0.00000 0.00460 0.00000
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00000 0.50000 0.50000 1.00000 0.02470 Na 0
+Ni 0.25000 0.25000 0.00000 1.00000 0.00790 Ni 0
+S 0.09180 0.00000 0.29111 1.00000 0.00700 S 0
+O1 0.18889 0.00000 0.15953 1.00000 0.01070 O 0
+O2 0.21735 0.00000 0.49802 1.00000 0.01380 O 0
+O3 -0.01593 0.19671 0.24532 1.00000 0.01030 O 0
+O-h 0.15451 0.50000 0.08712 1.00000 0.00870 O 0
+H1 0.06000 0.50000 0.03400 0.50000 0.01700 H 0
+H2 0.18800 0.50000 0.19500 1.00000 0.04800 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T08:43:32+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0007248

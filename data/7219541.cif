@@ -1,0 +1,925 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/21/95/7219541.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7219541
+loop_
+_publ_author_name
+'Goloveshkin, Alexander S.'
+'Lenenko, Natalia D.'
+'Zaikovskii, Vladimir I.'
+'Golub, Alexandre S.'
+'Korlyukov, Alexandr S.'
+'Bushmarinov, Ivan S.'
+_publ_section_title
+;
+ Ridges and Valleys on Charged 1T-MoS&#x2082; Sheets Guiding the Packing
+ of Organic Cations
+;
+_journal_name_full               'RSC Adv.'
+_journal_paper_doi               10.1039/C4RA15662E
+_journal_year                    2015
+_chemical_compound_source        'see text'
+_chemical_formula_moiety         '0.32(C8 H20 N), Mo2 S4'
+_chemical_formula_sum            'C2.56 H6.4 Mo2 N0.32 S4'
+_chemical_formula_weight         361.84
+_chemical_name_systematic        ?
+_space_group_IT_number           1
+_symmetry_cell_setting           triclinic
+_symmetry_Int_Tables_number      1
+_symmetry_space_group_name_Hall  'P 1'
+_symmetry_space_group_name_H-M   'P 1'
+_audit_update_record
+;
+2014-11-26 deposited with the CCDC.
+2015-02-10 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   5.6924(5)
+_cell_length_b                   3.2077(3)
+_cell_length_c                   11.084(3)
+_cell_measurement_temperature    298
+_cell_volume                     202.39(6)
+_computing_cell_refinement       'TOPAS 4.2 (Coelho, 2003; Bruker, 2009)'
+_computing_data_collection       'Bruker XRD Commander 2.6 (Bruker, 2007)'
+_computing_data_reduction        'TOPAS 4.2 (Coelho, 2003; Bruker, 2009)'
+_computing_molecular_graphics    'OLEX2 1.2 (Dolomanov et al., 2009, 2)'
+_computing_publication_material  'PLATON (Spek, 2003)'
+_computing_structure_refinement  'TOPAS 4.2 (Coelho, 2003; Bruker, 2009)'
+_diffrn_ambient_temperature      298
+_diffrn_detector                 '1D linear'
+_diffrn_detector_type
+;
+Bruker LynxEye compound silicon strip 1D linear detector 
+;
+_diffrn_measurement_device_type  'Bruker D8 Advance Vario'
+_diffrn_radiation_monochromator  'Ge 111'
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           CuK\a~1~
+_diffrn_radiation_wavelength     1.54060
+_diffrn_source                   'sealed X-ray tube'
+_diffrn_source_target            Cu
+_exptl_absorpt_coefficient_mu    34.275
+_exptl_absorpt_correction_type   analytical
+_exptl_absorpt_process_details   ' International Tables Vol C Tables 2.3.1.20'
+_exptl_crystal_density_diffrn    2.969
+_exptl_crystal_density_method    'Not Measured'
+_exptl_crystal_F_000             172
+_pd_block_diffractogram_id       NEt4_data
+_pd_char_colour                  black
+_pd_char_particle_morphology     round
+_pd_meas_2theta_range_inc        0.009168
+_pd_meas_2theta_range_max        120.00483
+_pd_meas_2theta_range_min        6.49847
+_pd_meas_number_of_points        10833
+_pd_meas_scan_method             cont
+_pd_proc_2theta_range_inc        0.009168
+_pd_proc_2theta_range_max        120.00483
+_pd_proc_2theta_range_min        6.49847
+_pd_proc_ls_background_function
+;
+13th order Chebyshev polynomial 
+;
+_pd_proc_ls_prof_R_factor        0.03367
+_pd_proc_ls_prof_wR_expected     0.01982
+_pd_proc_ls_prof_wR_factor       0.04468
+_pd_proc_wavelength              1.54056
+_pd_spec_mounting
+;
+deposited between two capton films 
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   flat_sheet
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   2.254
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           fullcycle
+_refine_ls_number_parameters     58
+_refine_ls_number_restraints     12
+_refine_ls_R_I_factor            0.01029
+_refine_ls_structure_factor_coef Inet
+_refine_ls_weighting_details     1/Y~i~
+_refine_ls_weighting_scheme      calc
+_iucr_refine_instructions_details
+;
+r_exp 1.982 r_exp_dash 2.844 r_wp 4.508 r_wp_dash 6.468 r_p 3.442 r_p_dash
+5.602 weighted_Durbin_Watson 0.498 gof 2.274
+
+iters 100000
+
+' continue_after_convergence
+
+do_errors 
+
+xdd "1612_Et4N_v_tr.raw"
+
+r_exp 1.982 r_exp_dash 2.844 r_wp 4.508 r_wp_dash 6.468 r_p 3.442 r_p_dash
+5.602 weighted_Durbin_Watson 0.498 gof 2.274
+
+bkg @ 1563.82476`_6.26033168 -2321.56296`_8.96716212 1632.76111`_6.65239353
+-912.346426`_4.65939159 466.813266`_3.50990023 -169.399411`_3.75591621
+90.4544817`_3.29629709 -64.2327483`_2.9792438 73.7472227`_2.99414511
+-61.3580268`_2.69708536 84.313665`_2.56477369 -53.8383927`_2.31120507
+15.4975627`_1.86547248
+
+start_X 6.5
+
+finish_X 120
+
+LP_Factor( 27.3)
+
+' One_on_X(@, 105502.97095)
+
+' Specimen_Displacement(@,-0.03298)
+
+Zero_Error(@, 0.01127`_0.00037 min =-0.05; max =0.05;)
+
+User_Defined_Dependence_Convolution(circles_conv, 1/Tan(Th) ,
+@,-0.03007`_0.00008 max =0;)
+
+User_Defined_Dependence_Convolution(gauss_fwhm, , , 0.01142617517)
+
+User_Defined_Dependence_Convolution(gauss_fwhm, Tan(Th) , , 0.02388825696)
+
+User_Defined_Dependence_Convolution(circles_conv, 1/Cos(Th) , , 0.01141049867)
+
+User_Defined_Dependence_Convolution(exp_conv_const, Tan(Th) , , 0.0218576869)
+
+User_Defined_Dependence_Convolution(lor_fwhm, Tan(Th) , , 0.009325266259)
+
+prm thick 0.67299`_0.19436 max 1.2 min 0.2
+
+prm abs 6.99775`_2.84627 min 0 max 10000
+
+Foil_ThicknessAbsIgauss(thick, abs)
+
+lam
+
+ymin_on_ymax 0.001
+
+la 1 lo 1.540596 lh 0.401844
+
+penalties_weighting_K1 0.4
+
+prm beqMo 1.00000`_0.14751_LIMIT_MIN_1 min 1 max 10
+
+prm beqS 1.20005`_0.13473_LIMIT_MIN_1.2 min 1.2 max 5
+
+prm beqN 4.32392`_1.60308_LIMIT_MIN_1 min 1 max 10
+
+prm occN 0.29000`_0.00323_LIMIT_MIN_0.29 min 0.29 max 0.33
+
+prm beqC =beqN;
+
+prm beqH =1.5*beqN;
+
+prm =beqMo/(8*Pi^2); : 0.01267`_0.00187
+
+prm !rot1 0
+
+prm !rot2 0
+
+prm rot3 181.29173`_1.47710 min 0 max 360
+
+prm dx 0.72712`_0.01046 min -1 max 1
+
+prm dy 0.74987`_0.05342_LIMIT_MAX_1 min -1 max 1
+
+prm dz 0.50000`_0.00693_LIMIT_MAX_0.5 min 0.3 max 0.5
+
+prm dz1 =dz/layer;
+
+prm !bt 0 min 0 max 1
+
+str 
+
+Out_CIF_STR("NEt4.cif")
+
+Out_Graphs(NEt4.dat)
+
+Create_hklm_d_Th2_IScaled_file(NEt4.hkli)
+
+prm cmin 11.05164`
+
+prm ms00l 0.85075`_0.01938 min 0.001 max 6 'strain of basal reflection
+
+prm cs00l 256.67477`_10.60581 min 8 max 1000 'size of basal reflections 
+
+prm scnon 0.00075`_0.00001 min 0.0000001 max 1 'scale factor
+
+prm mshkl 1.29371`_0.04872 min 0.000 max 10 'strain of non-basal reflection
+
+prm cshkl 1000.00000`_1946.56954_LIMIT_MIN_1e-007 min 0.0000001 max 1000 'size
+of non-basal reflections
+
+prm !layer 15 'layer: supercell factor for elongation in c direction
+
+prm cnon 11.16789`_0.00352 min 10 max 18.8 'subcell c
+
+prm sc00l 10.44770`_0.10479 
+
+lor_fwhm = If(And(H==0,K==0), 0.1 Rad Lam/(Cos(Th) cs00l), 0.1 Rad Lam/(Cos(Th)
+cshkl)); 'thinner in 00l direction 
+
+lor_fwhm = If(And(H==0,K==0), ms00l Tan(Th), Sqrt((mshkl Tan(Th))^2 +
+L^2/(Get(c)^2 L^2 + Get(c)^4 ((H/Get(a))^2+(K/Get(b))^2))) ); 'aniso strain and
+additional l-dependent broadening to avoid "ripples" 
+
+scale_pks = If(And(H==0,K==0),If(Mod(L,layer),0,sc00l), 1); 'scaling of classes
+(00l and hkl) and removal of redundant 00l reflections
+
+scale = scnon; 
+
+prm cbig =layer*cnon; 
+
+prm at 1.81657`_0.03657 min 0 max 2
+
+th2_offset =If(And(H==0,K==0),at*Tan(Th), bt*Tan(Th));
+
+r_bragg 1.38770709
+
+phase_name "organic"
+
+space_group P1
+
+
+a a1 5.69237`_0.00055
+
+b b1 3.20827`_0.00030
+
+c =cbig;
+
+al 90
+
+be 90
+
+ga 90
+
+prm shift 0.08815`_0.00462
+
+prm xMo 0.40612`_0.00035
+
+prm yMo 0.50648`_0.00437
+
+prm x1 0.78024`_0.00104
+
+prm x2 0.27799`_0.00111
+
+prm x3 0.62575`_0.00103
+
+prm x4 0.12814`_0.00111
+
+prm shift1 1.19032`_0.00266
+
+prm shift2 1.71746`_0.00204
+
+prm shift3 =-shift1;
+
+prm shift4 =-shift2;
+
+site Mo1 x =0; y 0 z = -shift/cbig; occ Mo 1 beq=beqMo;
+
+site Mo2 x =xMo; y =yMo; z = shift/cbig; occ Mo 1 beq=beqMo;
+
+site S1 x =x1; y @ 0.49751`_0.01177 z =shift1/cbig; occ S 1 beq=beqS;
+
+site S2 x =x2; y @ 0.00480`_0.01158 z =shift2/cbig; occ S 1 beq=beqS;
+
+site S3 x =x3; y @ 0.00973`_0.01215 z =shift3/cbig; occ S 1 beq=beqS;
+
+site S4 x =x4; y @ 0.50245`_0.01422 z =shift4/cbig; occ S 1 beq=beqS;
+
+site N1 x 0.72712 y 0.74987 z 0.03333 occ N =occN; beq=beqN;
+
+site C1 x 0.94330 y 0.75355 z 0.03878 occ C =occN; beq=beqC;
+
+site C2 x 1.19235 y 0.75779 z 0.03498 occ C =occN; beq=beqC;
+
+site C3 x 0.72920 y 0.36637 z 0.02789 occ C =occN; beq=beqC;
+
+site C4 x 0.73156 y -0.07558 z 0.03168 occ C =occN; beq=beqC;
+
+site C5 x 0.51095 y 0.74618 z 0.03878 occ C =occN; beq=beqC;
+
+site C6 x 0.26191 y 0.74195 z 0.03498 occ C =occN; beq=beqC;
+
+site C7 x 0.72506 y 1.13333 z 0.02789 occ C =occN; beq=beqC;
+
+site C8 x 0.72268 y 1.57535 z 0.03168 occ C =occN; beq=beqC;
+
+site H1 x 0.93134 y 1.00020 z 0.04210 occ H =occN; beq=beqH;
+
+site H2 x 0.93402 y 0.50650 z 0.04210 occ H =occN; beq=beqH;
+
+site H3 x 1.18661 y 0.89955 z 0.02994 occ H =occN; beq=beqH;
+
+site H4 x 1.29934 y 0.89987 z 0.03848 occ H =occN; beq=beqH;
+
+site H5 x 1.24496 y 0.47656 z 0.03418 occ H =occN; beq=beqH;
+
+site H6 x 0.58996 y 0.38287 z 0.02457 occ H =occN; beq=beqH;
+
+site H7 x 0.86821 y 0.38758 z 0.02457 occ H =occN; beq=beqH;
+
+site H8 x 0.61374 y -0.24536 z 0.02919 occ H =occN; beq=beqH;
+
+site H9 x 0.88321 y -0.20029 z 0.03091 occ H =occN; beq=beqH;
+
+site H10 x 0.69926 y -0.05421 z 0.03729 occ H =occN; beq=beqH;
+
+site H11 x 0.52290 y 0.49953 z 0.04210 occ H =occN; beq=beqH;
+
+site H12 x 0.52022 y 0.99322 z 0.04210 occ H =occN; beq=beqH;
+
+site H13 x 0.25284 y 0.95216 z 0.03091 occ H =occN; beq=beqH;
+
+site H14 x 0.23239 y 0.47346 z 0.03266 occ H =occN; beq=beqH;
+
+site H15 x 0.14661 y 0.79765 z 0.03903 occ H =occN; beq=beqH;
+
+site H16 x 0.86429 y 1.11685 z 0.02457 occ H =occN; beq=beqH;
+
+site H17 x 0.58602 y 1.11212 z 0.02457 occ H =occN; beq=beqH;
+
+site H18 x 0.64108 y 1.76443 z 0.02821 occ H =occN; beq=beqH;
+
+site H19 x 0.64429 y 1.56471 z 0.03675 occ H =occN; beq=beqH;
+
+site H20 x 0.88116 y 1.66996 z 0.03243 occ H =occN; beq=beqH;
+
+Distance_Restrain_Breakable( Mo1 S2, 2.4, 2.40095`_0.00574, 4, 1000)
+
+Distance_Restrain_Breakable( Mo1 S4, 2.4, 2.40524`_0.03133, 4, 1000)
+
+Distance_Restrain_Breakable( Mo1 0 1 0 0 S1, 2.4, 2.39729`_0.02592, 4, 1000)
+
+Distance_Restrain_Breakable( Mo1 0 1 0 0 S3, 2.4, 2.39881`_0.00592, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S2, 2.4, 2.40357`_0.02649, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S4, 2.4, 2.40090`_0.00586, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S1, 2.4, 2.39811`_0.00606, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S3, 2.4, 2.39528`_0.02746, 4, 1000)
+
+Distance_Restrain_Breakable( Mo1 S1 0 -1 -1 0, 2.4, 2.40798`_0.02519, 4, 1000)
+
+Distance_Restrain_Breakable( Mo1 S4 0 0 -1 0, 2.4, 2.39475`_0.03013, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S3 0 0 1 0, 2.4, 2.40921`_0.02849, 4, 1000)
+
+Distance_Restrain_Breakable( Mo2 S2 0 0 1 0, 2.4, 2.39637`_0.02718, 4, 1000)
+
+AI_Anti_Bump(C*, S*, 3.41, 1600)
+
+rigid
+
+load point_for_site ux uy uz { 
+
+N1 0.000031142 -0.000016978 -0.000366284
+
+C1 -1.230494098 0.015939761 0.912088315
+
+C2 -2.648119557 0.034289877 0.276193732
+
+C3 0.015910762 1.230307911 -0.911655109
+
+C4 0.034444114 2.648154932 -0.27636763
+
+C5 1.230481478 -0.015920611 0.912106585
+
+C6 2.648064266 -0.034305834 0.27617753
+
+C7 -0.015957113 -1.230195542 -0.911710031
+
+C8 -0.034389881 -2.648254434 -0.276367877
+
+H1 -1.180276915 -0.776718812 1.468884465
+
+H2 -1.159802937 0.807130537 1.468800643
+
+H3 -2.625721913 -0.421129133 -0.568613815
+
+H4 -3.26725676 -0.407696383 0.861697652
+
+H5 -2.92718891 0.94309182 0.142521089
+
+H6 0.80713738 1.159535028 -1.468410045
+
+H7 -0.776721353 1.180123605 -1.468461363
+
+H8 0.717224478 3.17759208 -0.694830925
+
+H9 -0.819530986 3.067632235 -0.405134317
+
+H10 0.21671278 2.575466312 0.663392451
+
+H11 1.180351138 0.776759657 1.468739321
+
+H12 1.15987716 -0.807089692 1.468823143
+
+H13 2.684502783 -0.709707156 -0.405185206
+
+H14 2.835464707 0.823076583 -0.112791986
+
+H15 3.30020325 -0.227740174 0.953638231
+
+H16 -0.807111162 -1.159465851 -1.468539306
+
+H17 0.776806638 -1.180003438 -1.468370042
+
+H18 0.416306309 -3.265214773 -0.857674617
+
+H19 0.412473141 -2.624210158 0.573001143
+
+H20 -0.943166771 -2.931387601 -0.151940053
+
+}
+
+Rotate_about_axies( =rot1; , =rot2; , =rot3; ) 
+
+Translate( =dx; , =dy; , =dz1; )
+
+prm org_I 79.27706`_4.47429
+
+' penalty =org_I^2;
+
+xo_Is 
+
+xo @ 34.5196355`_0.00948048851
+
+peak_type fp
+
+CS_L( @, 12.63634`_0.69095)
+
+I =org_I; 
+
+prm org_I2 67.84705`_4.23400
+
+' penalty =org_I^2;
+
+xo_Is 
+
+xo @ 38.6045832`_0.0150808362
+
+peak_type fp
+
+CS_L( @, 10.67526`_0.71111)
+
+I =org_I2;
+
+prm Icapt 5.75322`_0.34639
+
+xo_Is 
+
+xo @ 22.7625215`_0.00638530071
+
+peak_type fp
+
+CS_L( @, 44.70260`_4.52883_LIMIT_MIN_0.3)
+
+I =Icapt;
+;
+_cod_data_source_file            c4ra15662e2.cif
+_cod_data_source_block           NEt4
+_cod_original_formula_sum        'C2.56 H6.40 Mo2 N0.32 S4 '
+_cod_database_code               7219541
+#BEGIN Tags that were not found in dictionaries:
+_exptl_absorpt_correction_s      1.17
+_exptl_absorpt_correction_t      0.50
+#END Tags that were not found in dictionaries
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_disorder_group
+N1 N Uiso 0.723(8) 0.74(2) 0.522(6) 0.320 0.067(18) -1
+C1 C Uiso 0.885(8) 0.78(2) 0.631(6) 0.320 0.067(18) -1
+C2 C Uiso 1.155(8) 0.80(2) 0.612(6) 0.320 0.067(18) -1
+C3 C Uiso 0.779(8) 0.34(2) 0.451(6) 0.320 0.067(18) -1
+C4 C Uiso 0.761(8) -0.09(2) 0.515(6) 0.320 0.067(18) -1
+C5 C Uiso 0.471(8) 0.73(2) 0.570(6) 0.320 0.067(18) -1
+C6 C Uiso 0.264(8) 0.69(2) 0.479(6) 0.320 0.067(18) -1
+C7 C Uiso 0.757(8) 1.11(2) 0.435(6) 0.320 0.067(18) -1
+C8 C Uiso 0.713(8) 1.56(2) 0.481(6) 0.320 0.067(18) -1
+Mo1 Mo Uiso 0.00000 0.00000 -0.0078(4) 1.000 0.0193(18) .
+Mo2 Mo Uiso 0.4088(4) 0.491(3) 0.0078(4) 1.000 0.0193(18) .
+S1 S Uiso 0.7787(10) 0.508(8) 0.1183(3) 1.000 0.0255(16) .
+S2 S Uiso 0.2793(11) 0.011(7) 0.1548(2) 1.000 0.0255(16) .
+S3 S Uiso 0.6291(11) -0.017(8) -0.1183(3) 1.000 0.0255(16) .
+S4 S Uiso 0.1293(12) 0.481(7) -0.1549(2) 1.000 0.0255(16) .
+H1 H Uiso 0.840 1.04 0.673 0.320 0.10 -1
+H2 H Uiso 0.855 0.54 0.683 0.320 0.10 -1
+H3 H Uiso 1.188 0.93 0.535 0.320 0.10 -1
+H4 H Uiso 1.225 0.96 0.675 0.320 0.10 -1
+H5 H Uiso 1.219 0.52 0.613 0.320 0.10 -1
+H6 H Uiso 0.673 0.34 0.382 0.320 0.10 -1
+H7 H Uiso 0.940 0.37 0.422 0.320 0.10 -1
+H8 H Uiso 0.673 -0.28 0.465 0.320 0.10 -1
+H9 H Uiso 0.915 -0.20 0.528 0.320 0.10 -1
+H10 H Uiso 0.683 -0.05 0.591 0.320 0.10 -1
+H11 H Uiso 0.461 0.49 0.624 0.320 0.10 -1
+H12 H Uiso 0.446 0.99 0.614 0.320 0.10 -1
+H13 H Uiso 0.284 0.89 0.415 0.320 0.10 -1
+H14 H Uiso 0.261 0.41 0.447 0.320 0.10 -1
+H15 H Uiso 0.118 0.74 0.520 0.320 0.10 -1
+H16 H Uiso 0.919 1.10 0.407 0.320 0.10 -1
+H17 H Uiso 0.652 1.06 0.367 0.320 0.10 -1
+H18 H Uiso 0.659 1.73 0.415 0.320 0.10 -1
+H19 H Uiso 0.596 1.55 0.543 0.320 0.10 -1
+H20 H Uiso 0.856 1.67 0.512 0.320 0.10 -1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0181 0.0091 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mo Mo -0.0483 2.7339 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.3331 0.5567 ' International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+C1 N1 C3 111(5) . . yes
+C1 N1 C5 107(5) . . yes
+C1 N1 C7 111(5) . . yes
+C3 N1 C5 111(5) . . yes
+C3 N1 C7 107(5) . . yes
+C5 N1 C7 111(5) . . yes
+N1 C1 C2 120(5) . . yes
+N1 C1 H1 107(6) . . no
+N1 C1 H2 107(6) . . no
+C2 C1 H1 107(6) . . no
+C2 C1 H2 107(5) . . no
+H1 C1 H2 110 . . no
+C1 C2 H3 109(6) . . no
+C1 C2 H4 110(6) . . no
+C1 C2 H5 109(6) . . no
+H3 C2 H4 109 . . no
+H3 C2 H5 110 . . no
+H4 C2 H5 110 . . no
+N1 C3 C4 120(5) . . yes
+N1 C3 H6 106(6) . . no
+N1 C3 H7 106(6) . . no
+C4 C3 H6 109(6) . . no
+C4 C3 H7 107(6) . . no
+H6 C3 H7 109 . . no
+C3 C4 H8 109(7) . . no
+C3 C4 H9 110(6) . . no
+C3 C4 H10 108(7) . . no
+H8 C4 H9 109 . . no
+H8 C4 H10 110 . . no
+N1 C5 C6 119(5) . . yes
+N1 C5 H11 107(5) . . no
+N1 C5 H12 107(6) . . no
+C6 C5 H11 107(6) . . no
+C6 C5 H12 107(6) . . no
+H11 C5 H12 111 . . no
+C5 C6 H13 109(6) . . no
+C5 C6 H14 109(6) . . no
+C5 C6 H15 110(7) . . no
+H13 C6 H14 111 . . no
+H13 C6 H15 110 . . no
+H14 C6 H15 108 . . no
+N1 C7 C8 119(5) . . yes
+N1 C7 H16 107(6) . . no
+N1 C7 H17 106(6) . . no
+C8 C7 H16 107(6) . . no
+C8 C7 H17 108(6) . . no
+H16 C7 H17 109 . . no
+C7 C8 H18 109(7) . . no
+C7 C8 H19 109(7) . . no
+C7 C8 H20 109(6) . . no
+H18 C8 H19 110 . . no
+H18 C8 H20 110 . . no
+H19 C8 H20 110 . . no
+Mo2 Mo1 Mo2 69.0(2) . 1_545 yes
+Mo2 Mo1 S1 138.5(2) . 1_445 yes
+Mo2 Mo1 S1 90.9(4) 1_545 1_445 yes
+Mo2 Mo1 S1 139.0(2) 1_545 1_455 yes
+Mo2 Mo1 S1 91.0(4) . 1_455 yes
+Mo2 Mo1 S2 54.7(4) 1_545 . yes
+Mo2 Mo1 S2 53.1(4) . . yes
+Mo2 Mo1 S3 139.3(5) . 1_455 yes
+Mo2 Mo1 S3 136.4(5) 1_545 1_455 yes
+Mo2 Mo1 S4 99.3(3) 1_545 . yes
+Mo2 Mo1 S4 100.0(3) . 1_545 yes
+Mo2 Mo1 S4 53.4(2) 1_545 1_545 yes
+Mo2 Mo1 S4 54.5(2) . . yes
+S1 Mo1 S1 80.9(7) 1_445 1_455 yes
+S1 Mo1 S2 84.5(4) 1_455 . yes
+S1 Mo1 S2 85.5(4) 1_445 . yes
+S1 Mo1 S3 81.9(4) 1_455 1_455 yes
+S1 Mo1 S3 80.1(4) 1_445 1_455 yes
+S1 Mo1 S4 95.5(6) 1_445 1_545 yes
+S1 Mo1 S4 166.5(2) 1_445 . yes
+S1 Mo1 S4 166.7(2) 1_455 1_545 yes
+S1 Mo1 S4 96.8(6) 1_455 . yes
+S2 Mo1 S3 161.5(2) . 1_455 yes
+S2 Mo1 S4 107.6(4) . . yes
+S2 Mo1 S4 108.1(4) . 1_545 yes
+S3 Mo1 S4 84.9(5) 1_455 1_545 yes
+S3 Mo1 S4 86.4(4) 1_455 . yes
+S4 Mo1 S4 83.7(6) . 1_545 yes
+Mo1 Mo2 Mo1 69.00(5) . 1_565 yes
+Mo1 Mo2 S1 139.3(6) . . yes
+Mo1 Mo2 S1 136.4(6) 1_565 . yes
+Mo1 Mo2 S2 99.3(3) 1_565 . yes
+Mo1 Mo2 S2 54.5(2) . . yes
+Mo1 Mo2 S2 53.4(2) 1_565 1_565 yes
+Mo1 Mo2 S2 100.0(3) . 1_565 yes
+Mo1 Mo2 S3 90.8(5) 1_565 1_565 yes
+Mo1 Mo2 S3 138.9(2) 1_565 . yes
+Mo1 Mo2 S3 138.4(2) . 1_565 yes
+Mo1 Mo2 S3 90.9(4) . . yes
+Mo1 Mo2 S4 53.1(4) . . yes
+Mo1 Mo2 S4 54.7(4) 1_565 . yes
+S1 Mo2 S2 84.9(5) . 1_565 yes
+S1 Mo2 S2 86.4(5) . . yes
+S1 Mo2 S3 80.2(4) . 1_565 yes
+S1 Mo2 S3 82.0(5) . . yes
+S1 Mo2 S4 161.6(2) . . yes
+S2 Mo2 S2 83.7(6) . 1_565 yes
+S2 Mo2 S3 166.8(3) 1_565 . yes
+S2 Mo2 S3 95.5(7) 1_565 1_565 yes
+S2 Mo2 S3 96.8(7) . . yes
+S2 Mo2 S3 166.6(2) . 1_565 yes
+S2 Mo2 S4 107.6(5) . . yes
+S2 Mo2 S4 108.0(5) 1_565 . yes
+S3 Mo2 S3 81.0(7) . 1_565 yes
+S3 Mo2 S4 85.4(4) 1_565 . yes
+S3 Mo2 S4 84.5(4) . . yes
+Mo1 S1 Mo1 80.88(15) 1_655 1_665 yes
+Mo1 S1 Mo2 98.1(5) 1_655 . yes
+Mo1 S1 Mo2 99.9(5) 1_665 . yes
+Mo1 S2 Mo2 72.5(3) . . yes
+Mo1 S2 Mo2 71.9(3) . 1_545 yes
+Mo2 S2 Mo2 83.7(3) . 1_545 yes
+Mo1 S3 Mo2 98.0(5) 1_655 . yes
+Mo1 S3 Mo2 99.8(5) 1_655 1_545 yes
+Mo2 S3 Mo2 81.0(3) . 1_545 yes
+Mo1 S4 Mo1 83.72(14) . 1_565 yes
+Mo1 S4 Mo2 72.4(3) . . yes
+Mo1 S4 Mo2 71.9(3) 1_565 . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+N1 C1 1.53(8) . yes
+N1 C3 1.54(9) . yes
+N1 C5 1.53(7) . yes
+N1 C7 1.54(9) . yes
+C1 C2 1.55(7) . no
+C1 H1 0.99(9) . no
+C1 H2 0.98(9) . no
+C2 H3 0.97(9) . no
+C2 H4 0.95(9) . no
+C2 H5 0.97(9) . no
+C3 C4 1.55(9) . no
+C3 H6 0.97(8) . no
+C3 H7 0.98(7) . no
+C4 H8 0.96(9) . no
+C4 H9 0.96(7) . no
+C4 H10 0.96(9) . no
+C5 C6 1.56(8) . no
+C5 H11 0.98(9) . no
+C5 H12 0.98(9) . no
+C6 H13 0.96(9) . no
+C6 H14 0.97(9) . no
+C6 H15 0.96(7) . no
+C7 C8 1.55(9) . no
+C7 H16 0.97(7) . no
+C7 H17 0.98(8) . no
+C8 H18 0.96(9) . no
+C8 H19 0.96(8) . no
+C8 H20 0.95(7) . no
+Mo1 Mo2 2.848(6) 1_545 yes
+Mo1 Mo2 2.815(6) . yes
+Mo1 S1 2.456(17) 1_445 yes
+Mo1 S1 2.489(17) 1_455 yes
+Mo1 S2 2.404(6) . yes
+Mo1 S3 2.442(6) 1_455 yes
+Mo1 S4 2.444(16) 1_545 yes
+Mo1 S4 2.362(15) . yes
+Mo2 S1 2.437(6) . yes
+Mo2 S2 2.360(16) . yes
+Mo2 S2 2.446(17) 1_565 yes
+Mo2 S3 2.486(18) . yes
+Mo2 S3 2.453(18) 1_565 yes
+Mo2 S4 2.405(6) . yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion_publ_flag
+Mo1 Mo2 S1 Mo1 82.1(4) . . 1_655 no
+Mo1 Mo2 S1 Mo1 164.2(4) . . 1_665 no
+Mo1 Mo2 S1 Mo1 -80.9(4) 1_565 . 1_665 no
+Mo1 Mo2 S1 Mo1 -162.9(4) 1_565 . 1_655 no
+Mo1 Mo2 S2 Mo1 -54.2(4) . 1_565 1_565 no
+Mo1 Mo2 S2 Mo1 55.8(4) 1_565 . . no
+Mo1 Mo2 S2 Mo2 73.0(3) . . 1_545 no
+Mo1 Mo2 S2 Mo2 -127.8(2) . 1_565 1_565 no
+Mo1 Mo2 S2 Mo2 128.8(2) 1_565 . 1_545 no
+Mo1 Mo2 S3 Mo1 -139.8(5) . . 1_655 no
+Mo1 Mo2 S3 Mo1 -164.5(4) . 1_565 1_665 no
+Mo1 Mo2 S3 Mo1 162.1(4) 1_565 . 1_655 no
+Mo1 Mo2 S3 Mo2 -99.2(7) 1_565 . 1_545 no
+Mo1 Mo2 S3 Mo2 98.9(7) . 1_565 1_565 no
+Mo1 Mo2 S3 Mo2 -41.02(19) . . 1_545 no
+Mo1 Mo2 S4 Mo1 -89.02(15) 1_565 . . no
+Mo1 Mo2 S4 Mo1 89.02(15) . . 1_565 no
+Mo2 Mo1 Mo2 Mo1 180.00(19) 1_545 . 1_565 no
+Mo2 Mo1 Mo2 Mo1 180.00(19) . 1_545 1_545 no
+Mo2 Mo1 Mo2 S1 -42.1(7) 1_545 . . no
+Mo2 Mo1 Mo2 S1 39.3(6) . 1_545 1_545 no
+Mo2 Mo1 Mo2 S2 -61.0(5) 1_545 . . no
+Mo2 Mo1 Mo2 S2 58.9(5) . 1_545 . no
+Mo2 Mo1 Mo2 S2 133.9(4) . 1_545 1_545 no
+Mo2 Mo1 Mo2 S2 -135.8(4) 1_545 . 1_565 no
+Mo2 Mo1 Mo2 S3 36.7(3) 1_545 . . no
+Mo2 Mo1 Mo2 S3 -37.3(3) . 1_545 . no
+Mo2 Mo1 Mo2 S3 114.1(8) 1_545 . 1_565 no
+Mo2 Mo1 Mo2 S3 -114.5(8) . 1_545 1_545 no
+Mo2 Mo1 Mo2 S4 119.1(5) 1_545 . . no
+Mo2 Mo1 Mo2 S4 -121.1(5) . 1_545 1_545 no
+Mo2 Mo1 S1 Mo1 40.94(18) . 1_455 1_565 no
+Mo2 Mo1 S1 Mo1 -98.9(6) . 1_445 1_545 no
+Mo2 Mo1 S1 Mo2 164.4(3) . 1_445 1_445 no
+Mo2 Mo1 S1 Mo2 139.7(6) . 1_455 1_455 no
+Mo2 Mo1 S2 Mo2 -89.0(3) . . 1_545 no
+Mo2 Mo1 S2 Mo2 89.0(3) 1_545 . . no
+Mo2 Mo1 S3 Mo2 -164.2(4) . 1_455 1_445 no
+Mo2 Mo1 S3 Mo2 -82.0(4) . 1_455 1_455 no
+Mo2 Mo1 S4 Mo1 -128.7(2) 1_545 . 1_565 no
+Mo2 Mo1 S4 Mo1 127.8(2) . 1_545 1_545 no
+Mo2 Mo1 S4 Mo1 -73.0(3) . . 1_565 no
+Mo2 Mo1 S4 Mo2 -55.7(4) 1_545 . . no
+Mo2 Mo1 S4 Mo2 54.3(4) . 1_545 1_545 no
+S1 Mo1 Mo2 Mo1 -114.0(7) 1_445 . 1_565 no
+S1 Mo1 Mo2 Mo1 -36.7(3) 1_455 . 1_565 no
+S1 Mo1 Mo2 S1 101.2(7) 1_455 . . no
+S1 Mo1 Mo2 S1 23.9(10) 1_445 . . no
+S1 Mo1 Mo2 S2 -83.9(6) 1_445 1_545 . no
+S1 Mo1 Mo2 S2 -6.7(9) 1_455 1_545 . no
+S1 Mo1 Mo2 S2 7.5(5) 1_455 . 1_565 no
+S1 Mo1 Mo2 S2 -69.8(8) 1_445 . 1_565 no
+S1 Mo1 Mo2 S2 5.0(9) 1_445 . . no
+S1 Mo1 Mo2 S2 82.3(6) 1_455 . . no
+S1 Mo1 Mo2 S3 102.7(8) 1_445 . . no
+S1 Mo1 Mo2 S3 -102.6(9) 1_455 . 1_565 no
+S1 Mo1 Mo2 S3 -102.9(8) 1_455 1_545 . no
+S1 Mo1 Mo2 S3 -180.0(5) 1_455 . . no
+S1 Mo1 Mo2 S3 180.0(5) 1_445 1_545 . no
+S1 Mo1 Mo2 S3 -179.9(10) 1_445 . 1_565 no
+S1 Mo1 Mo2 S4 -97.6(6) 1_455 . . no
+S1 Mo1 Mo2 S4 -174.9(9) 1_445 . . no
+S1 Mo1 S2 Mo2 175.6(6) 1_455 . 1_545 no
+S1 Mo1 S2 Mo2 -176.7(6) 1_445 . . no
+S1 Mo1 S2 Mo2 -95.4(6) 1_455 . . no
+S1 Mo1 S2 Mo2 94.3(6) 1_445 . 1_545 no
+S1 Mo1 S4 Mo1 13.4(2) 1_455 . 1_565 no
+S1 Mo1 S4 Mo2 86.4(4) 1_455 . . no
+S1 Mo2 S2 Mo1 -167.8(6) . . . no
+S1 Mo2 S2 Mo1 166.6(6) . 1_565 1_565 no
+S1 Mo2 S2 Mo2 93.1(5) . 1_565 1_565 no
+S1 Mo2 S2 Mo2 -94.8(5) . . 1_545 no
+S1 Mo2 S3 Mo1 0.1(7) . 1_565 1_665 no
+S1 Mo2 S3 Mo1 0.0(7) . . 1_655 no
+S1 Mo2 S3 Mo2 98.7(5) . . 1_545 no
+S1 Mo2 S3 Mo2 -96.6(5) . 1_565 1_565 no
+S2 Mo1 Mo2 Mo1 -119.0(5) . . 1_565 no
+S2 Mo1 Mo2 Mo1 121.1(5) . 1_545 1_545 no
+S2 Mo1 Mo2 S1 18.9(8) . . . no
+S2 Mo1 Mo2 S1 -19.5(7) . 1_545 1_545 no
+S2 Mo1 Mo2 S2 -74.8(6) . . 1_565 no
+S2 Mo1 Mo2 S2 75.0(6) . 1_545 1_545 no
+S2 Mo1 Mo2 S3 -173.4(10) . 1_545 1_545 no
+S2 Mo1 Mo2 S3 97.7(6) . . . no
+S2 Mo1 Mo2 S3 -96.2(6) . 1_545 . no
+S2 Mo1 Mo2 S3 175.1(10) . . 1_565 no
+S2 Mo1 Mo2 S4 -179.9(7) . . . no
+S2 Mo1 Mo2 S4 -179.9(7) . 1_545 1_545 no
+S2 Mo1 S1 Mo1 -94.9(4) . 1_445 1_545 no
+S2 Mo1 S1 Mo1 93.7(4) . 1_455 1_565 no
+S2 Mo1 S1 Mo2 168.5(7) . 1_445 1_445 no
+S2 Mo1 S1 Mo2 -167.6(7) . 1_455 1_455 no
+S2 Mo1 S4 Mo1 73.5(5) . 1_545 1_545 no
+S2 Mo1 S4 Mo1 -72.9(5) . . 1_565 no
+S2 Mo1 S4 Mo2 0.1(6) . 1_545 1_545 no
+S2 Mo1 S4 Mo2 0.1(6) . . . no
+S2 Mo2 S1 Mo1 179.5(7) . . 1_665 no
+S2 Mo2 S1 Mo1 -96.5(7) 1_565 . 1_665 no
+S2 Mo2 S1 Mo1 97.4(7) . . 1_655 no
+S2 Mo2 S1 Mo1 -178.6(7) 1_565 . 1_655 no
+S2 Mo2 S2 Mo1 107.0(3) 1_565 . . no
+S2 Mo2 S2 Mo1 -106.5(3) . 1_565 1_565 no
+S2 Mo2 S2 Mo2 180.0(2) 1_565 . 1_545 no
+S2 Mo2 S2 Mo2 180.0(2) . 1_565 1_565 no
+S2 Mo2 S3 Mo1 -85.4(6) . . 1_655 no
+S2 Mo2 S3 Mo2 13.3(2) . . 1_545 no
+S2 Mo2 S4 Mo1 -0.1(6) . . . no
+S2 Mo2 S4 Mo1 89.0(6) . . 1_565 no
+S2 Mo2 S4 Mo1 -89.1(6) 1_565 . . no
+S2 Mo2 S4 Mo1 -0.1(6) 1_565 . 1_565 no
+S3 Mo1 Mo2 Mo1 42.0(6) 1_455 . 1_565 no
+S3 Mo1 Mo2 S1 179.9(8) 1_455 . . no
+S3 Mo1 Mo2 S2 -160.4(7) 1_455 1_545 . no
+S3 Mo1 Mo2 S2 86.2(7) 1_455 . 1_565 no
+S3 Mo1 Mo2 S2 161.0(8) 1_455 . . no
+S3 Mo1 Mo2 S3 -101.3(7) 1_455 . . no
+S3 Mo1 Mo2 S3 -23.9(11) 1_455 . 1_565 no
+S3 Mo1 Mo2 S3 103.4(6) 1_455 1_545 . no
+S3 Mo1 Mo2 S4 -18.9(8) 1_455 . . no
+S3 Mo1 S4 Mo1 94.8(5) 1_455 . 1_565 no
+S3 Mo1 S4 Mo2 167.8(6) 1_455 . . no
+S3 Mo2 S1 Mo1 0.0(7) 1_565 . 1_665 no
+S3 Mo2 S1 Mo1 -82.1(7) 1_565 . 1_655 no
+S3 Mo2 S1 Mo1 0.0(7) . . 1_655 no
+S3 Mo2 S1 Mo1 82.1(7) . . 1_665 no
+S3 Mo2 S2 Mo1 -86.3(4) . . . no
+S3 Mo2 S2 Mo2 -13.3(2) . . 1_545 no
+S3 Mo2 S3 Mo1 -83.3(6) . 1_565 1_665 no
+S3 Mo2 S3 Mo1 81.3(6) 1_565 . 1_655 no
+S3 Mo2 S3 Mo2 -180.0(2) . 1_565 1_565 no
+S3 Mo2 S3 Mo2 180.0(2) 1_565 . 1_545 no
+S3 Mo2 S4 Mo1 -94.3(6) 1_565 . 1_565 no
+S3 Mo2 S4 Mo1 -175.7(6) . . 1_565 no
+S3 Mo2 S4 Mo1 95.3(6) . . . no
+S3 Mo2 S4 Mo1 176.7(6) 1_565 . . no
+S4 Mo1 Mo2 Mo1 -133.9(4) . 1_545 1_545 no
+S4 Mo1 Mo2 Mo1 60.9(5) . . 1_565 no
+S4 Mo1 Mo2 Mo1 135.7(4) 1_545 . 1_565 no
+S4 Mo1 Mo2 S1 -86.4(7) 1_545 . . no
+S4 Mo1 Mo2 S1 85.5(7) . 1_545 1_545 no
+S4 Mo1 Mo2 S1 -161.2(9) . . . no
+S4 Mo1 Mo2 S2 179.9(7) . . . no
+S4 Mo1 Mo2 S2 105.0(6) . 1_545 . no
+S4 Mo1 Mo2 S2 179.9(5) 1_545 . 1_565 no
+S4 Mo1 Mo2 S2 179.9(7) 1_545 1_545 . no
+S4 Mo1 Mo2 S2 105.1(6) . . 1_565 no
+S4 Mo1 Mo2 S2 180.0(5) . 1_545 1_545 no
+S4 Mo1 Mo2 S2 -105.3(6) 1_545 . . no
+S4 Mo1 Mo2 S3 -5.0(9) . . 1_565 no
+S4 Mo1 Mo2 S3 69.9(9) 1_545 . 1_565 no
+S4 Mo1 Mo2 S3 83.8(6) 1_545 1_545 . no
+S4 Mo1 Mo2 S3 8.8(5) . 1_545 . no
+S4 Mo1 Mo2 S3 -82.4(6) . . . no
+S4 Mo1 Mo2 S3 -68.4(9) . 1_545 1_545 no
+S4 Mo1 Mo2 S3 -7.6(5) 1_545 . . no
+S4 Mo1 Mo2 S4 -74.9(6) . 1_545 1_545 no
+S4 Mo1 Mo2 S4 74.8(6) 1_545 . . no
+S4 Mo1 S1 Mo1 -13.4(2) . 1_455 1_565 no
+S4 Mo1 S1 Mo2 85.4(6) . 1_455 1_455 no
+S4 Mo1 S2 Mo2 -0.1(6) 1_545 . 1_545 no
+S4 Mo1 S2 Mo2 89.0(6) 1_545 . . no
+S4 Mo1 S2 Mo2 -89.1(6) . . 1_545 no
+S4 Mo1 S2 Mo2 -0.1(6) . . . no
+S4 Mo1 S3 Mo2 -97.3(7) . 1_455 1_455 no
+S4 Mo1 S3 Mo2 -179.5(7) . 1_455 1_445 no
+S4 Mo1 S4 Mo1 -180.0(2) . 1_545 1_545 no
+S4 Mo1 S4 Mo1 -180.0(2) 1_545 . 1_565 no
+S4 Mo1 S4 Mo2 106.5(4) . 1_545 1_545 no
+S4 Mo1 S4 Mo2 -107.0(4) 1_545 . . no
+S4 Mo2 S2 Mo1 0.1(6) . 1_565 1_565 no
+S4 Mo2 S2 Mo1 0.1(6) . . . no
+S4 Mo2 S2 Mo2 -73.5(5) . 1_565 1_565 no
+S4 Mo2 S2 Mo2 73.1(5) . . 1_545 no
+S4 Mo2 S3 Mo1 -168.5(7) . 1_565 1_665 no
+S4 Mo2 S3 Mo1 167.4(7) . . 1_655 no
+S4 Mo2 S3 Mo2 94.9(5) . 1_565 1_565 no
+S4 Mo2 S3 Mo2 -93.8(5) . . 1_545 no

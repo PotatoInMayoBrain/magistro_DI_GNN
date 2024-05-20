@@ -1,0 +1,531 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 03:01:37 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179227 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/47/4314775.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4314775
+loop_
+_publ_author_name
+'Jae-Hyuk Her'
+'Peter W. Stephens'
+'Christopher M. Kareis'
+'Joshua G. Moore'
+'Kil Sik Min'
+'Jong-Won Park'
+'Garima Bali'
+'Bretni S. Kennon'
+'Joel S. Miller'
+_publ_contact_author_address
+; 
+Department of Chemistry
+University of Utah
+315 S. 1400 E. RM 2124
+Salt Lake City
+Utah 84112-0850
+USA
+;
+_publ_contact_author_email       jsmiller@chem.utah.edu
+_publ_contact_author_fax         801-581-8433
+_publ_contact_author_name        'Joel S. Miller'
+_publ_contact_author_phone       801-585-5455
+_publ_section_title
+;
+ Anomalous Non-Prussian Blue Structures and Magnetic Ordering of
+ K2MnII[MnII(CN)6] and Rb2MnII[MnII(CN)6]
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              1524
+_journal_page_last               1534
+_journal_paper_doi               10.1021/ic901903f
+_journal_volume                  49
+_journal_year                    2010
+_chemical_formula_moiety         'C6 Cs2 Mn2 N6'
+_chemical_formula_structural     'Cs2 Mn [Mn (CN)6]'
+_chemical_formula_sum            'C6 Cs2 Mn2 N6'
+_chemical_formula_weight         531.79
+_chemical_name_systematic
+;
+Cesium cyanomanganate
+;
+_space_group_crystal_system      cubic
+_space_group_IT_number           225
+_space_group_name_H-M_alt        'F m -3 m'
+_symmetry_space_group_name_Hall  '-F 4 2 3'
+_symmetry_space_group_name_H-M   'F m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.60605(12)
+_cell_length_b                   10.60605(12)
+_cell_length_c                   10.60605(12)
+_cell_measurement_temperature    293
+_cell_volume                     1193.06(2)
+_computing_cell_refinement       TOPAS-Academic
+_computing_data_collection       SPEC
+_computing_data_reduction        TOPAS-Academic
+_computing_structure_refinement  TOPAS-Academic
+_computing_structure_solution    TOPAS-Academic
+_diffrn_ambient_temperature      300
+_diffrn_detector                 'NaI scintillation counter'
+_diffrn_measurement_device_type  'Huber diffractometer'
+_diffrn_radiation_monochromator  'Si(111) channel cut'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.700469
+_diffrn_source                   synchrotron
+_exptl_absorpt_coefficient_mu    86.3708
+_exptl_absorpt_correction_type   none
+_pd_block_diffractogram_id       Cs2Mn2C6N6-profile
+_pd_char_colour                  blue-green
+_pd_instr_location
+;
+X16C, National Synchrotron Light Source, Brookhaven National Laboratory
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        41.750
+_pd_meas_2theta_range_min        2.000
+_pd_meas_number_of_points        7951
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        41.750
+_pd_proc_2theta_range_min        2.0
+_pd_proc_info_excluded_regions   none
+_pd_proc_ls_background_function
+;
+Chebyshev polynomial with 34 coefficients
+;
+_pd_proc_ls_pref_orient_corr
+;
+none
+;
+_pd_proc_ls_profile_function
+;
+Simple_Axial_model function with Rp=9999,Rs=330 in TOPAS-Academic.
+;
+_pd_proc_ls_prof_R_factor        0.060
+_pd_proc_ls_prof_wR_expected     0.071
+_pd_proc_ls_prof_wR_factor       0.079
+_pd_proc_wavelength              0.700469
+_pd_spec_mounting
+;
+capillary
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_all   1.117
+_refine_ls_hydrogen_treatment    undef
+_refine_ls_number_parameters     74
+_refine_ls_R_I_factor            0.011
+_refine_ls_shift/su_max          0.001
+_refine_ls_weighting_details     1/(sigma*sigma)
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ic901903f_si_001_3.cif
+_cod_data_source_block           Cs2Mn2C6N6
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_space_group_crystal_system' value 'Cubic' changed to 'cubic'
+according to the built-in table from CIF Core dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+;
+_cod_original_cell_volume        1193.057(40)
+_cod_database_code               4314775
+_cod_database_fobs_code          4314775
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, z'
+3 '-x, y, -z'
+4 'x, -y, -z'
+5 'z, x, y'
+6 'z, -x, -y'
+7 '-z, -x, y'
+8 '-z, x, -y'
+9 'y, z, x'
+10 '-y, z, -x'
+11 'y, -z, -x'
+12 '-y, -z, x'
+13 'y, x, -z'
+14 '-y, -x, -z'
+15 'y, -x, z'
+16 '-y, x, z'
+17 'x, z, -y'
+18 '-x, z, y'
+19 '-x, -z, -y'
+20 'x, -z, y'
+21 'z, y, -x'
+22 'z, -y, x'
+23 '-z, y, x'
+24 '-z, -y, -x'
+25 '-x, -y, -z'
+26 'x, y, -z'
+27 'x, -y, z'
+28 '-x, y, z'
+29 '-z, -x, -y'
+30 '-z, x, y'
+31 'z, x, -y'
+32 'z, -x, y'
+33 '-y, -z, -x'
+34 'y, -z, x'
+35 '-y, z, x'
+36 'y, z, -x'
+37 '-y, -x, z'
+38 'y, x, z'
+39 '-y, x, -z'
+40 'y, -x, -z'
+41 '-x, -z, y'
+42 'x, -z, -y'
+43 'x, z, y'
+44 '-x, z, -y'
+45 '-z, -y, x'
+46 '-z, y, -x'
+47 'z, -y, -x'
+48 'z, y, x'
+49 'x, y+1/2, z+1/2'
+50 '-x, -y+1/2, z+1/2'
+51 '-x, y+1/2, -z+1/2'
+52 'x, -y+1/2, -z+1/2'
+53 'z, x+1/2, y+1/2'
+54 'z, -x+1/2, -y+1/2'
+55 '-z, -x+1/2, y+1/2'
+56 '-z, x+1/2, -y+1/2'
+57 'y, z+1/2, x+1/2'
+58 '-y, z+1/2, -x+1/2'
+59 'y, -z+1/2, -x+1/2'
+60 '-y, -z+1/2, x+1/2'
+61 'y, x+1/2, -z+1/2'
+62 '-y, -x+1/2, -z+1/2'
+63 'y, -x+1/2, z+1/2'
+64 '-y, x+1/2, z+1/2'
+65 'x, z+1/2, -y+1/2'
+66 '-x, z+1/2, y+1/2'
+67 '-x, -z+1/2, -y+1/2'
+68 'x, -z+1/2, y+1/2'
+69 'z, y+1/2, -x+1/2'
+70 'z, -y+1/2, x+1/2'
+71 '-z, y+1/2, x+1/2'
+72 '-z, -y+1/2, -x+1/2'
+73 '-x, -y+1/2, -z+1/2'
+74 'x, y+1/2, -z+1/2'
+75 'x, -y+1/2, z+1/2'
+76 '-x, y+1/2, z+1/2'
+77 '-z, -x+1/2, -y+1/2'
+78 '-z, x+1/2, y+1/2'
+79 'z, x+1/2, -y+1/2'
+80 'z, -x+1/2, y+1/2'
+81 '-y, -z+1/2, -x+1/2'
+82 'y, -z+1/2, x+1/2'
+83 '-y, z+1/2, x+1/2'
+84 'y, z+1/2, -x+1/2'
+85 '-y, -x+1/2, z+1/2'
+86 'y, x+1/2, z+1/2'
+87 '-y, x+1/2, -z+1/2'
+88 'y, -x+1/2, -z+1/2'
+89 '-x, -z+1/2, y+1/2'
+90 'x, -z+1/2, -y+1/2'
+91 'x, z+1/2, y+1/2'
+92 '-x, z+1/2, -y+1/2'
+93 '-z, -y+1/2, x+1/2'
+94 '-z, y+1/2, -x+1/2'
+95 'z, -y+1/2, -x+1/2'
+96 'z, y+1/2, x+1/2'
+97 'x+1/2, y, z+1/2'
+98 '-x+1/2, -y, z+1/2'
+99 '-x+1/2, y, -z+1/2'
+100 'x+1/2, -y, -z+1/2'
+101 'z+1/2, x, y+1/2'
+102 'z+1/2, -x, -y+1/2'
+103 '-z+1/2, -x, y+1/2'
+104 '-z+1/2, x, -y+1/2'
+105 'y+1/2, z, x+1/2'
+106 '-y+1/2, z, -x+1/2'
+107 'y+1/2, -z, -x+1/2'
+108 '-y+1/2, -z, x+1/2'
+109 'y+1/2, x, -z+1/2'
+110 '-y+1/2, -x, -z+1/2'
+111 'y+1/2, -x, z+1/2'
+112 '-y+1/2, x, z+1/2'
+113 'x+1/2, z, -y+1/2'
+114 '-x+1/2, z, y+1/2'
+115 '-x+1/2, -z, -y+1/2'
+116 'x+1/2, -z, y+1/2'
+117 'z+1/2, y, -x+1/2'
+118 'z+1/2, -y, x+1/2'
+119 '-z+1/2, y, x+1/2'
+120 '-z+1/2, -y, -x+1/2'
+121 '-x+1/2, -y, -z+1/2'
+122 'x+1/2, y, -z+1/2'
+123 'x+1/2, -y, z+1/2'
+124 '-x+1/2, y, z+1/2'
+125 '-z+1/2, -x, -y+1/2'
+126 '-z+1/2, x, y+1/2'
+127 'z+1/2, x, -y+1/2'
+128 'z+1/2, -x, y+1/2'
+129 '-y+1/2, -z, -x+1/2'
+130 'y+1/2, -z, x+1/2'
+131 '-y+1/2, z, x+1/2'
+132 'y+1/2, z, -x+1/2'
+133 '-y+1/2, -x, z+1/2'
+134 'y+1/2, x, z+1/2'
+135 '-y+1/2, x, -z+1/2'
+136 'y+1/2, -x, -z+1/2'
+137 '-x+1/2, -z, y+1/2'
+138 'x+1/2, -z, -y+1/2'
+139 'x+1/2, z, y+1/2'
+140 '-x+1/2, z, -y+1/2'
+141 '-z+1/2, -y, x+1/2'
+142 '-z+1/2, y, -x+1/2'
+143 'z+1/2, -y, -x+1/2'
+144 'z+1/2, y, x+1/2'
+145 'x+1/2, y+1/2, z'
+146 '-x+1/2, -y+1/2, z'
+147 '-x+1/2, y+1/2, -z'
+148 'x+1/2, -y+1/2, -z'
+149 'z+1/2, x+1/2, y'
+150 'z+1/2, -x+1/2, -y'
+151 '-z+1/2, -x+1/2, y'
+152 '-z+1/2, x+1/2, -y'
+153 'y+1/2, z+1/2, x'
+154 '-y+1/2, z+1/2, -x'
+155 'y+1/2, -z+1/2, -x'
+156 '-y+1/2, -z+1/2, x'
+157 'y+1/2, x+1/2, -z'
+158 '-y+1/2, -x+1/2, -z'
+159 'y+1/2, -x+1/2, z'
+160 '-y+1/2, x+1/2, z'
+161 'x+1/2, z+1/2, -y'
+162 '-x+1/2, z+1/2, y'
+163 '-x+1/2, -z+1/2, -y'
+164 'x+1/2, -z+1/2, y'
+165 'z+1/2, y+1/2, -x'
+166 'z+1/2, -y+1/2, x'
+167 '-z+1/2, y+1/2, x'
+168 '-z+1/2, -y+1/2, -x'
+169 '-x+1/2, -y+1/2, -z'
+170 'x+1/2, y+1/2, -z'
+171 'x+1/2, -y+1/2, z'
+172 '-x+1/2, y+1/2, z'
+173 '-z+1/2, -x+1/2, -y'
+174 '-z+1/2, x+1/2, y'
+175 'z+1/2, x+1/2, -y'
+176 'z+1/2, -x+1/2, y'
+177 '-y+1/2, -z+1/2, -x'
+178 'y+1/2, -z+1/2, x'
+179 '-y+1/2, z+1/2, x'
+180 'y+1/2, z+1/2, -x'
+181 '-y+1/2, -x+1/2, z'
+182 'y+1/2, x+1/2, z'
+183 '-y+1/2, x+1/2, -z'
+184 'y+1/2, -x+1/2, -z'
+185 '-x+1/2, -z+1/2, y'
+186 'x+1/2, -z+1/2, -y'
+187 'x+1/2, z+1/2, y'
+188 '-x+1/2, z+1/2, -y'
+189 '-z+1/2, -y+1/2, x'
+190 '-z+1/2, y+1/2, -x'
+191 'z+1/2, -y+1/2, -x'
+192 'z+1/2, y+1/2, x'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+_atom_site_aniso_type_symbol
+? ? ? ? ? ? ? ?
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Mn1 Mn+2 4 0 0 0 1 1.84(32)
+Mn2 Mn+2 4 0.5 0.5 0.5 1 2.10(33)
+Cs Cs+1 8 0.25 0.25 0.25 1 4.786(36)
+C3 C 24 0.31786(91) 0 0 1 2.80(45)
+N4 N 24 0.20641(89) 0 0 1 2.15(36)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+_atom_type_scat_length_neutron
+? ? ? ? ? ?
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+N4 Mn1 N4 90.000 6_555 1_555 2_555
+N4 Mn1 N4 90.000 10_555 1_555 6_555
+N4 Mn1 N4 90.000 10_555 1_555 2_555
+N4 Mn1 N4 90.000 1_555 1_555 10_555
+N4 Mn1 N4 90.000 1_555 1_555 6_555
+N4 Mn1 N4 180.000 1_555 1_555 2_555
+N4 Mn1 N4 90.000 5_555 1_555 1_555
+N4 Mn1 N4 90.000 5_555 1_555 10_555
+N4 Mn1 N4 180.000 5_555 1_555 6_555
+N4 Mn1 N4 90.000 5_555 1_555 2_555
+N4 Mn1 N4 90.000 9_555 1_555 5_555
+N4 Mn1 N4 90.000 9_555 1_555 1_555
+N4 Mn1 N4 180.000 9_555 1_555 10_555
+N4 Mn1 N4 90.000 9_555 1_555 6_555
+N4 Mn1 N4 90.000 9_555 1_555 2_555
+C3 Mn2 C3 90.000 154_556 1_555 102_565
+C3 Mn2 C3 90.000 50_655 1_555 154_556
+C3 Mn2 C3 90.000 50_655 1_555 102_565
+C3 Mn2 C3 90.000 153_555 1_555 50_655
+C3 Mn2 C3 180.000 153_555 1_555 154_556
+C3 Mn2 C3 90.000 153_555 1_555 102_565
+C3 Mn2 C3 90.000 101_555 1_555 153_555
+C3 Mn2 C3 90.000 101_555 1_555 50_655
+C3 Mn2 C3 90.000 101_555 1_555 154_556
+C3 Mn2 C3 180.000 101_555 1_555 102_565
+C3 Mn2 C3 90.000 49_555 1_555 101_555
+C3 Mn2 C3 90.000 49_555 1_555 153_555
+C3 Mn2 C3 180.000 49_555 1_555 50_655
+C3 Mn2 C3 90.000 49_555 1_555 154_556
+C3 Mn2 C3 90.000 49_555 1_555 102_565
+N4 Mn2 C3 90.000 153_555 1_555 49_555
+N4 Mn2 C3 90.000 153_555 1_555 101_555
+N4 Mn2 C3 0.000 153_555 1_555 153_555
+N4 Mn2 C3 90.000 153_555 1_555 50_655
+N4 Mn2 C3 180.000 153_555 1_555 154_556
+N4 Mn2 C3 90.000 153_555 1_555 102_565
+N4 Mn2 N4 90.000 101_555 1_555 153_555
+N4 Mn2 C3 90.000 101_555 1_555 49_555
+N4 Mn2 C3 0.000 101_555 1_555 101_555
+N4 Mn2 C3 90.000 101_555 1_555 153_555
+N4 Mn2 C3 90.000 101_555 1_555 50_655
+N4 Mn2 C3 90.000 101_555 1_555 154_556
+N4 Mn2 C3 180.000 101_555 1_555 102_565
+N4 Mn2 N4 90.000 50_655 1_555 101_555
+N4 Mn2 N4 90.000 50_655 1_555 153_555
+N4 Mn2 C3 180.000 50_655 1_555 49_555
+N4 Mn2 C3 90.000 50_655 1_555 101_555
+N4 Mn2 C3 90.000 50_655 1_555 153_555
+N4 Mn2 C3 0.000 50_655 1_555 50_655
+N4 Mn2 C3 90.000 50_655 1_555 154_556
+N4 Mn2 C3 90.000 50_655 1_555 102_565
+N4 Mn2 N4 90.000 154_556 1_555 50_655
+N4 Mn2 N4 90.000 154_556 1_555 101_555
+N4 Mn2 N4 180.000 154_556 1_555 153_555
+N4 Mn2 C3 90.000 154_556 1_555 49_555
+N4 Mn2 C3 90.000 154_556 1_555 101_555
+N4 Mn2 C3 90.000 154_556 1_555 50_655
+N4 Mn2 C3 0.000 154_556 1_555 154_556
+N4 Mn2 C3 90.000 154_556 1_555 102_565
+N4 Mn2 N4 90.000 102_565 1_555 154_556
+N4 Mn2 N4 90.000 102_565 1_555 50_655
+N4 Mn2 N4 90.000 102_565 1_555 153_555
+N4 Mn2 C3 90.000 102_565 1_555 49_555
+N4 Mn2 C3 180.000 102_565 1_555 101_555
+N4 Mn2 C3 90.000 102_565 1_555 153_555
+N4 Mn2 C3 90.000 102_565 1_555 50_655
+N4 Mn2 C3 90.000 102_565 1_555 154_556
+N4 Mn2 C3 0.000 102_565 1_555 102_565
+N4 Mn2 N4 90.000 49_555 1_555 102_565
+N4 Mn2 N4 90.000 49_555 1_555 154_556
+N4 Mn2 N4 90.000 49_555 1_555 101_555
+N4 Mn2 N4 90.000 49_555 1_555 153_555
+N4 Mn2 C3 0.000 49_555 1_555 49_555
+N4 Mn2 C3 90.000 49_555 1_555 101_555
+N4 Mn2 C3 90.000 49_555 1_555 153_555
+N4 Mn2 C3 180.000 49_555 1_555 50_655
+N4 Mn2 C3 90.000 49_555 1_555 154_556
+N4 Mn2 C3 90.000 49_555 1_555 102_565
+Mn2 C3 N4 180.000 49_544 1_555 1_555
+C3 C3 Mn2 45.000 149_545 1_555 49_544
+C3 C3 N4 135.000 149_545 1_555 1_555
+C3 C3 C3 60.000 105_554 1_555 149_545
+C3 C3 Mn2 45.000 105_554 1_555 49_544
+C3 C3 N4 135.000 105_554 1_555 1_555
+C3 C3 C3 90.000 106_555 1_555 105_554
+C3 C3 C3 60.000 106_555 1_555 149_545
+C3 C3 Mn2 45.000 106_555 1_555 49_544
+C3 C3 N4 135.000 106_555 1_555 1_555
+C3 C3 C3 60.000 150_555 1_555 106_555
+C3 C3 C3 60.000 150_555 1_555 105_554
+C3 C3 C3 90.000 150_555 1_555 149_545
+C3 C3 Mn2 45.000 150_555 1_555 49_544
+C3 C3 N4 135.000 150_555 1_555 1_555
+Mn1 N4 C3 180.000 1_555 1_555 1_555
+N4 N4 Mn1 45.000 9_555 1_555 1_555
+N4 N4 C3 135.000 9_555 1_555 1_555
+N4 N4 N4 60.000 5_555 1_555 9_555
+N4 N4 Mn1 45.000 5_555 1_555 1_555
+N4 N4 C3 135.000 5_555 1_555 1_555
+N4 N4 N4 90.000 6_555 1_555 5_555
+N4 N4 N4 60.000 6_555 1_555 9_555
+N4 N4 Mn1 45.000 6_555 1_555 1_555
+N4 N4 C3 135.000 6_555 1_555 1_555
+N4 N4 N4 60.000 10_555 1_555 6_555
+N4 N4 N4 60.000 10_555 1_555 5_555
+N4 N4 N4 90.000 10_555 1_555 9_555
+N4 N4 Mn1 45.000 10_555 1_555 1_555
+N4 N4 C3 135.000 10_555 1_555 1_555
+Mn2 N4 N4 135.000 49_544 1_555 10_555
+Mn2 N4 N4 135.000 49_544 1_555 6_555
+Mn2 N4 N4 135.000 49_544 1_555 5_555
+Mn2 N4 N4 135.000 49_544 1_555 9_555
+Mn2 N4 Mn1 180.000 49_544 1_555 1_555
+Mn2 N4 C3 0.000 49_544 1_555 1_555
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+Mn1 N4 2.1892(95) 1_555 2_555
+Mn1 N4 2.1892(95) 1_555 6_555
+Mn1 N4 2.1892(95) 1_555 10_555
+Mn1 N4 2.1892(95) 1_555 1_555
+Mn1 N4 2.1892(95) 1_555 5_555
+Mn1 N4 2.1892(95) 1_555 9_555
+Mn2 C3 1.9318(96) 1_555 102_565
+Mn2 C3 1.9318(96) 1_555 154_556
+Mn2 C3 1.9318(96) 1_555 50_655
+Mn2 C3 1.9318(96) 1_555 153_555
+Mn2 C3 1.9318(96) 1_555 101_555
+Mn2 C3 1.9318(96) 1_555 49_555
+Mn2 N4 3.1138(95) 1_555 153_555
+Mn2 N4 3.1138(95) 1_555 101_555
+Mn2 N4 3.1138(95) 1_555 50_655
+Mn2 N4 3.1138(95) 1_555 154_556
+Mn2 N4 3.1138(95) 1_555 102_565
+Mn2 N4 3.1138(95) 1_555 49_555
+C3 N4 1.182(14) 1_555 1_555
+C3 Mn2 1.9318(96) 1_555 49_544
+C3 C3 2.732(14) 1_555 149_545
+C3 C3 2.732(14) 1_555 105_554
+C3 C3 2.732(14) 1_555 106_555
+C3 C3 2.732(14) 1_555 150_555
+N4 C3 1.182(14) 1_555 1_555
+N4 Mn1 2.1892(95) 1_555 1_555
+N4 N4 3.096(13) 1_555 9_555
+N4 N4 3.096(13) 1_555 5_555
+N4 N4 3.096(13) 1_555 6_555
+N4 N4 3.096(13) 1_555 10_555
+N4 Mn2 3.1138(95) 1_555 49_544

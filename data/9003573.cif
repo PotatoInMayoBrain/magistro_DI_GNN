@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/35/9003573.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9003573
+loop_
+_publ_author_name
+'Leinenweber, K.'
+'Johnson, J.'
+'Groy, T.'
+_publ_section_title
+;
+ Ca2SiO3OHF - A high-pressure phase with dense
+ calcium polyhedral packing and tetrahedral silicon
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              115
+_journal_page_last               121
+_journal_paper_doi               10.2138/am.2005.1528
+_journal_volume                  90
+_journal_year                    2005
+_chemical_formula_structural     Ca2SiO3OHF
+_chemical_formula_sum            'Ca2 F H O4 Si'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 102.025
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.8111
+_cell_length_b                   10.6050
+_cell_length_c                   6.6968
+_cell_volume                     403.646
+_database_code_amcsd             0003666
+_exptl_crystal_density_diffrn    3.163
+_cod_original_formula_sum        'Ca2 Si O4 F H'
+_cod_database_code               9003573
+_amcsd_formula_title             Ca2SiO3OHF
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.00660 0.00480 0.00850 -0.00060 0.00120 -0.00110
+Ca2 0.00600 0.00720 0.00810 0.00140 0.00140 0.00030
+Si 0.00680 0.00630 0.00460 -0.00110 0.00080 0.00090
+O1 0.01300 0.00900 0.00400 0.00200 0.00200 0.00100
+O2 0.01200 0.01800 0.00700 0.00100 0.00300 0.00100
+O3 0.01900 0.01100 0.01700 -0.00100 0.00600 -0.00100
+OH 0.01100 0.01400 0.00900 0.00300 0.00000 -0.00400
+F 0.01100 0.00900 0.01400 -0.00200 0.00600 -0.00100
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+Ca1 0.26580 0.09740 0.04540 0.00670 0 Ca
+Ca2 0.18860 0.69760 0.19250 0.00710 0 Ca
+Si 0.31380 0.38550 0.09880 0.00590 0 Si
+O1 0.39020 0.49760 0.25700 0.00900 0 O
+O2 0.51930 0.29320 0.05570 0.01210 0 O
+O3 0.11100 0.30270 0.16210 0.01530 0 O
+O-H 0.17050 0.44810 -0.12580 0.01180 1 O
+F 0.14040 0.89090 0.02810 0.01050 0 F
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:48:29+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0003666

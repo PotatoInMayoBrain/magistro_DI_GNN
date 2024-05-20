@@ -1,0 +1,163 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 13:16:50 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201980 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/30/00/2300000.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2300000
+loop_
+_publ_author_name
+'Nattamai S. P. Bhuvanesh'
+'Joseph H. Reibenspies'
+'Peter L. Lee'
+'Yuegang Zhang'
+_publ_section_title
+;
+ A novel strategy for <i>ab initio</i> structure determination using
+ micro-powder X-ray diffraction: structure solution and refinement of
+ 3-bromophenylboronic acid and tris(4-bromophenyl)boroxine
+;
+_journal_issue                   4
+_journal_name_full               'Journal of Applied Crystallography'
+_journal_page_first              632
+_journal_page_last               638
+_journal_paper_doi               10.1107/S0021889805015827
+_journal_volume                  38
+_journal_year                    2005
+_chemical_formula_iupac          'Br (C6 H4) B (O H)2'
+_chemical_formula_moiety         'H6 O2 B C6 Br'
+_chemical_formula_structural     'Br (C6 H4) B (O H)2'
+_chemical_formula_sum            'C6 H6 B Br O2'
+_chemical_formula_weight         200.83
+_chemical_name_systematic
+;
+3-borophenylboronic acid
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.000
+_cell_angle_beta                 93.357(3)
+_cell_angle_gamma                90.000
+_cell_formula_units_Z            4
+_cell_length_a                   15.7797(4)
+_cell_length_b                   5.3085(2)
+_cell_length_c                   9.3757(3)
+_cell_measurement_temperature    295
+_cell_volume                     784.02(4)
+_computing_cell_refinement       'CRYSFIRE, CHEKCELL'
+_computing_data_collection       MAR
+_computing_data_reduction        FIT-2D
+_computing_molecular_graphics    DIAMOND
+_computing_structure_refinement  TOPAS
+_computing_structure_solution    'DASH & FOX'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  1-BM
+_diffrn_radiation_monochromator  'PSL Si(111)'
+_exptl_absorpt_coefficient_mu    35.0
+_exptl_crystal_density_diffrn    1.70
+_exptl_crystal_density_method    'not measured'
+_refine_ls_extinction_method     none
+_refine_ls_hydrogen_treatment    noref
+_refine_ls_number_parameters     30
+_refine_ls_shift/su_max          .01
+_cod_data_source_file            aj5037.cif
+_cod_data_source_block           3BPBA
+_cod_depositor_comments
+;
+ Marking attached hydrogen atoms.
+
+ Antanas Vaitkus,
+ 2017-03-27
+;
+_cod_original_sg_symbol_Hall     -P_2ybc
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2300000
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, -y+1/2, z+1/2'
+'x, y, z'
+'-x, -y, -z'
+'-x, y+1/2, -z+1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Br1 0.0792 0.3131 0.6898 1.000 Biso 1 Br 0
+C1 0.3173 0.3635 0.5232 1.000 Biso 1 C 0
+C2 0.2487 0.3112 0.6049 1.000 Biso 1 C 1
+C3 0.1740 0.4509 0.5983 1.000 Biso 1 C 0
+C4 0.1693 0.6581 0.5073 1.000 Biso 1 C 1
+C5 0.2337 0.7265 0.4197 1.000 Biso 1 C 1
+C6 0.3049 0.5794 0.4307 1.000 Biso 1 C 1
+B1 0.3991 0.2070 0.5288 1.000 Biso 1 B 0
+O1 0.4279 0.1123 0.6588 1.000 Biso 1 O 1
+O2 0.4464 0.1663 0.4128 1.000 Biso 1 O 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Br Br 0.059 1.959 'Obtained from FPRIME incorporated in WINGX'
+O O 0.008 0.004 'Obtained from FPRIME incorporated in WINGX'
+C C 0.002 0.001 'Obtained from FPRIME incorporated in WINGX'
+B B 0.001 0.000 'Obtained from FPRIME incorporated in WINGX'
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+synchrotron 0.619383
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+C2 C3 C4 117.61
+C2 C3 Br1 117.33
+C4 C3 Br1 124.22
+C3 C2 C1 123.65
+C2 C1 C6 114.02
+C2 C1 B1 123.64
+C6 C1 B1 122.34
+O1 B1 O2 118.66
+O1 B1 C1 117.62
+O2 B1 C1 123.66
+C3 C4 C5 123.61
+C6 C5 C4 115.58
+C5 C6 C1 125.5
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Br1 C3 . 1.913 ?
+C3 C2 . 1.391 ?
+C3 C4 . 1.391 ?
+C2 C1 . 1.390 ?
+C1 C6 . 1.444 ?
+C1 B1 . 1.533 ?
+B1 O1 . 1.371 ?
+B1 O2 . 1.372 ?
+C4 C5 . 1.392 ?
+C5 C6 . 1.367 ?
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 2016070

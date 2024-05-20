@@ -1,0 +1,226 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/42/2104286.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104286
+loop_
+_publ_author_name
+'Britton, Doyle'
+_publ_section_title
+;
+ Planar packing of tetrachlorodicyanobenzenes. II
+;
+_journal_issue                   1
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              54
+_journal_page_last               58
+_journal_paper_doi               10.1107/S0108768108035234
+_journal_volume                  65
+_journal_year                    2009
+_chemical_formula_moiety         'C8 Cl4 N2'
+_chemical_formula_sum            'C8 Cl4 N2'
+_chemical_formula_weight         265.90
+_chemical_name_systematic
+;
+ m-tetrachlorodicyanobenzene/p- tetrachlorodicyanobenzene  1/1  polymorpth II
+;
+_space_group_IT_number           12
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXTL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 93.106(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.9237(9)
+_cell_length_b                   9.4546(11)
+_cell_length_c                   6.5157(7)
+_cell_measurement_reflns_used    2359
+_cell_measurement_temperature    173(2)
+_cell_measurement_theta_max      27.5
+_cell_measurement_theta_min      3.1
+_cell_volume                     487.41(9)
+_computing_cell_refinement       'SAINT (Bruker, 2002)'
+_computing_data_collection       'SMART (Bruker, 2002)'
+_computing_data_reduction        SAINT
+_computing_molecular_graphics    SHELXTL
+_computing_publication_material  SHELXTL
+_computing_structure_refinement  SHELXTL
+_computing_structure_solution    'SHELXTL (Sheldrick, 1997)'
+_diffrn_ambient_temperature      173(2)
+_diffrn_measured_fraction_theta_full 1.000
+_diffrn_measured_fraction_theta_max 1.000
+_diffrn_measurement_device_type
+;
+BRUKER 1K CCD area detector diffractometer
+;
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0159
+_diffrn_reflns_av_sigmaI/netI    0.0114
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2825
+_diffrn_reflns_theta_full        27.50
+_diffrn_reflns_theta_max         27.50
+_diffrn_reflns_theta_min         3.13
+_diffrn_standards_decay_%        'less than 1'
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    1.167
+_exptl_absorpt_correction_T_max  0.70
+_exptl_absorpt_correction_T_min  0.58
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details
+;
+SADABS; Sheldrick, 1996; Blessing, 1995
+;
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    1.812
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    .
+_exptl_crystal_description       prism
+_exptl_crystal_F_000             260
+_exptl_crystal_size_max          0.35
+_exptl_crystal_size_mid          0.35
+_exptl_crystal_size_min          0.30
+_refine_diff_density_max         0.40
+_refine_diff_density_min         -0.46
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   1.077
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     53
+_refine_ls_number_reflns         589
+_refine_ls_number_restraints     9
+_refine_ls_restrained_S_all      1.069
+_refine_ls_R_factor_all          0.0323
+_refine_ls_R_factor_gt           0.0313
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+calc w=1/[\s^2^(Fo^2^)+(0.039P)^2^+0.594P]
+where P=(Fo^2^+2Fc^2^)/3
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0794
+_refine_ls_wR_factor_ref         0.0802
+_reflns_number_gt                562
+_reflns_number_total             589
+_reflns_threshold_expression     '>2\s(I) '
+_cod_data_source_file            bs5066.cif
+_cod_data_source_block           M-P-II
+_cod_original_sg_symbol_H-M      'C 2/m'
+_cod_database_code               2104286
+_cod_database_fobs_code          2104286
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z'
+'x+1/2, y+1/2, z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, -y, z'
+'-x+1/2, -y+1/2, -z'
+'x+1/2, -y+1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Cl Cl2 0.59393(11) 0.21874(6) 0.28866(9) 0.0420(2) Uani d PD 0.7852(19) . .
+Cl Cl1 0.7036(3) 0.5000 0.1082(3) 0.0525(6) Uani d SPD 0.430(4) . .
+C C1 0.58745(19) 0.5000 0.3224(2) 0.0328(5) Uani d SD 1 . .
+C C2 0.54348(19) 0.37247(10) 0.4102(2) 0.0326(4) Uani d D 1 . .
+N N1 0.7474(3) 0.5000 -0.0133(3) 0.0434(10) Uani d SPD 0.570(4) . .
+N N2 0.6256(6) 0.1252(3) 0.2781(11) 0.0491(19) Uani d PD 0.2148(19) . .
+C C11 0.6774(12) 0.5000 0.1353(9) 0.0525(6) Uani d SPD 0.570(4) . .
+C C12 0.589(2) 0.2337(4) 0.3385(14) 0.0420(2) Uani d PD 0.2148(19) . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cl2 0.0470(4) 0.0327(4) 0.0459(4) 0.0042(2) -0.0004(3) -0.0099(2)
+Cl1 0.0405(11) 0.0844(11) 0.0330(9) 0.000 0.0062(5) 0.000
+C1 0.0300(11) 0.0408(13) 0.0274(10) 0.000 -0.0006(8) 0.000
+C2 0.0316(8) 0.0323(8) 0.0332(8) 0.0018(6) -0.0035(6) -0.0040(6)
+N1 0.051(2) 0.044(2) 0.036(2) 0.000 0.0121(18) 0.000
+N2 0.059(5) 0.041(5) 0.048(4) 0.000(4) 0.007(3) -0.002(3)
+C11 0.0405(11) 0.0844(11) 0.0330(9) 0.000 0.0062(5) 0.000
+C12 0.0470(4) 0.0327(4) 0.0459(4) 0.0042(2) -0.0004(3) -0.0099(2)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+C2 C1 C2 6_565 . 120.74(11) ?
+C2 C1 C11 6_565 . 119.63(6) ?
+C2 C1 C11 . . 119.63(6) ?
+C2 C1 Cl1 6_565 . 119.61(6) ?
+C2 C1 Cl1 . . 119.61(6) ?
+C1 C2 C2 . 2_656 119.63(6) ?
+C1 C2 C12 . . 125.7(4) ?
+C2 C2 C12 2_656 . 114.6(3) ?
+C1 C2 Cl2 . . 118.47(10) ?
+C2 C2 Cl2 2_656 . 121.88(6) ?
+N1 C11 C1 . . 179.5(10) ?
+N2 C12 C2 . . 178.6(6) ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Cl2 C2 . 1.71298(18) ?
+Cl1 C1 . 1.71297(18) ?
+C1 C2 6_565 1.3871(15) ?
+C1 C2 . 1.3871(16) ?
+C1 C11 . 1.44501(16) ?
+C2 C2 2_656 1.389(3) ?
+C2 C12 . 1.44506(17) ?
+N1 C11 . 1.14201(14) ?
+N2 C12 . 1.14206(15) ?

@@ -1,0 +1,250 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 18:01:52 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178799 $
+#$URL: svn://www.crystallography.net/cod/cif/4/10/53/4105339.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4105339
+loop_
+_publ_author_name
+'Masaki Mito'
+'Yuki Komorida'
+'Hideki Tsuruda'
+'John S. Tse'
+'Serge Desgreniers'
+'Yauso Ohishi'
+'Alicea A. Leitch'
+'Kristina Cvrkalj'
+'Craig M. Robertson'
+'Richard T. Oakley'
+_publ_contact_author_address
+; Department of Chemistry
+University of Waterloo
+Waterloo, ON N2L 3G1 Canada
+;
+_publ_contact_author_email       oakley@uwaterloo.ca
+_publ_contact_author_fax         519-746-0435
+_publ_contact_author_name        'Richard Oakley'
+_publ_contact_author_phone       519-888-4582
+_publ_section_title
+;
+ Heavy Atom Ferromagnets under Pressure: Structural Changes and the
+ Magnetic Response
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              16012
+_journal_page_last               16013
+_journal_paper_doi               10.1021/ja908238w
+_journal_volume                  131
+_journal_year                    2009
+_chemical_formula_moiety         'C7 H5 Cl N3 Se4'
+_chemical_formula_sum            'C7 H5 Cl N3 Se4'
+_chemical_formula_weight         482.43
+_chemical_name_common            ClBPSSEt
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           113
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'P -4 2ab'
+_symmetry_space_group_name_H-M   'P -4 21 m'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   15.90088(27)
+_cell_length_b                   15.90088
+_cell_length_c                   3.80246(8)
+_cell_measurement_temperature    293(2)
+_cell_volume                     961.41(3)
+_computing_structure_refinement  GSAS
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_polarisn_ratio 0.95
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.51446
+_diffrn_source                   synchrotron
+_diffrn_source_type              'Spring-8 BL10XU'
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ No correction is applied.
+;
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    3.333
+_pd_calc_method                  'Rietveld Refinement'
+_pd_phase_name                   'clbpsset 2.9GPa'
+_pd_proc_info_datetime           2009-09-18T09:53:22
+_pd_proc_ls_background_function
+;   GSAS Background function number 1 with  8 terms.
+ Shifted Chebyshev function of 1st kind
+      1:    42400.9     2:    26195.2     3:   -2258.45     4:   -930.160    
+      5:   -876.736     6:   -105.693     7:   -132.522     8:    153.866    
+;
+_pd_proc_ls_peak_cutoff          0.00100
+_pd_proc_ls_profile_function
+;
+ CW Profile function number 2 with  18 terms
+ Profile coefficients for Simpson's rule integration of pseudovoigt function
+ C.J. Howard (1982). J. Appl. Cryst.,15,615-620.
+ P. Thompson, D.E. Cox & J.B. Hastings (1987). J. Appl. Cryst.,20,79-83.
+ Peak tails are ignored  where the intensity is below 0.0010 times the peak
+   Aniso. broadening axis   0.0   0.0   1.0
+;
+_pd_proc_ls_prof_R_factor        0.0168
+_pd_proc_ls_prof_wR_expected     0.0045
+_pd_proc_ls_prof_wR_factor       0.0269
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     1
+_refine_ls_number_restraints     0
+_refine_ls_R_Fsqd_factor         0.09667
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        1.510
+_reflns_d_resolution_low         7.950
+_reflns_limit_h_max              11
+_reflns_limit_h_min              0
+_reflns_limit_k_max              7
+_reflns_limit_k_min              0
+_reflns_limit_l_max              2
+_reflns_limit_l_min              0
+_reflns_number_total             114
+_cod_data_source_file            ja908238w_si_004.cif
+_cod_data_source_block           ClBPSSEt_2.9GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to the
+built-in table from CIF Core dictionary named 'cif_core.dic' version
+2.4.1 from 2010-06-29 (14 times).
+
+'_geom_angle_publ_flag' value 'N'
+changed to 'n' according to the built-in table from CIF Core
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29 (27
+times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_original_cell_volume        961.41(2)
+_cod_database_code               4105339
+_cod_database_fobs_code          4105339
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 +y,-x,-z
+3 -x,-y,+z
+4 -y,+x,-z
+5 -x+1/2,+y+1/2,-z
+6 +y+1/2,+x+1/2,+z
+7 +x+1/2,-y+1/2,-z
+8 -y+1/2,-x+1/2,+z
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_refinement_flags
+Se Se1 0.05817 0.09779 0.75062 1.0 Uiso 0.04097 8 G
+Se Se2 0.01721 0.22881 0.98894 1.0 Uiso 0.05821 8 G
+Cl Cl1 0.08029 0.41971 1.13558 1.0 Uiso 0.0406 4 G
+C C1 0.17731 0.21288 0.66608 1.0 Uiso 0.0406 8 G
+C C3 0.14876 0.35125 0.92788 1.0 Uiso 0.0406 4 G
+N N1 0.16029 0.1343 0.59757 1.0 Uiso 0.0406 8 G
+C C2 0.12229 0.27028 0.85136 1.0 Uiso 0.0406 8 G
+N N2 0.25548 0.24452 0.55578 1.0 Uiso 0.0406 4 G
+C C5 0.36762 0.13239 0.55037 1.0 Uiso 0.0406 4 G
+H H5A 0.40096 0.09904 0.39285 1.0 Uiso 0.0406 4 G
+H H5B 0.33476 0.09595 0.69713 1.0 Uiso 0.0406 8 G
+C C4 0.30892 0.19108 0.33715 1.0 Uiso 0.0406 4 G
+H H4 0.27385 0.15663 0.18882 1.0 Uiso 0.0406 8 G
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_Cromer_Mann_a1
+_atom_type_scat_Cromer_Mann_a2
+_atom_type_scat_Cromer_Mann_a3
+_atom_type_scat_Cromer_Mann_a4
+_atom_type_scat_Cromer_Mann_b1
+_atom_type_scat_Cromer_Mann_b2
+_atom_type_scat_Cromer_Mann_b3
+_atom_type_scat_Cromer_Mann_b4
+_atom_type_scat_Cromer_Mann_c
+_atom_type_scat_source
+Se 16.0 0.000 0.000 17.0006 2.40980 5.81960 0.27260 3.97310 15.2372 4.35430
+43.8163 2.84090 International_Tables_Vol_C
+Cl 4.0 0.000 0.000 11.4604 0.01040 7.19640 1.16620 6.25560 18.5194 1.64550
+47.7784 -9.5574 International_Tables_Vol_C
+C 28.0 0.000 0.000 2.31000 20.8439 1.02000 10.2075 1.58860 0.56870 0.86500
+51.6512 0.21560 International_Tables_Vol_C
+N 12.0 0.000 0.000 12.2126 0.00570 3.13220 9.89330 2.01250 28.9975 1.16630
+0.58260 -11.529 International_Tables_Vol_C
+H 20.0 0.000 0.000 0.49300 10.5109 0.32291 26.1257 0.14019 3.14236 0.04081
+57.7997 0.00304 International_Tables_Vol_C
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se2 Se1 N1 95.00810 1_555 1_555 n
+Se1 Se2 C2 87.55620 1_555 1_555 n
+N1 C1 C2 125.15020 1_555 1_555 n
+N1 C1 N2 117.82830 1_555 1_555 n
+C2 C1 N2 117.01720 1_555 1_555 n
+Cl1 C3 C2 119.29710 1_555 1_555 n
+Cl1 C3 C2 119.30910 1_555 8_555 n
+C2 C3 C2 121.36350 1_555 8_555 n
+Se1 N1 C1 115.25760 1_555 1_555 n
+Se2 C2 C1 116.98030 1_555 1_555 n
+Se2 C2 C3 122.69230 1_555 1_555 n
+C1 C2 C3 120.30630 1_555 1_555 n
+C1 N2 C1 122.9884 1_555 8_555 n
+C1 N2 C4 118.42840 1_555 1_555 n
+C1 N2 C4 118.42840 8_555 1_555 n
+H5A C5 H5B 109.2811 1_555 1_555 n
+H5A C5 H5B 109.2965 1_555 8_555 n
+H5A C5 C4 109.8215 1_555 1_555 n
+H5B C5 H5B 108.6310 1_555 8_555 n
+H5B C5 C4 109.8884 1_555 1_555 n
+H5B C5 C4 109.8996 8_555 1_555 n
+N2 C4 C5 113.7641 1_555 1_555 n
+N2 C4 H4 109.0833 1_555 1_555 n
+N2 C4 H4 109.0834 1_555 8_555 n
+C5 C4 H4 108.2087 1_555 1_555 n
+C5 C4 H4 108.2016 1_555 8_555 n
+H4 C4 H4 108.3697 1_555 8_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Se1 Se2 2.363400 1_555 n
+Se1 N1 1.820010 1_555 n
+Se2 C2 1.870910 1_555 n
+Cl1 C3 1.730340 1_555 n
+C1 N1 1.304740 1_555 n
+C1 C2 1.447340 1_555 n
+C1 N2 1.404990 1_555 n
+C3 C2 1.385440 1_555 n
+N2 C4 1.461250 1_555 n
+C5 H5A 0.959690 1_555 n
+C5 H5B 0.959250 1_555 n
+C5 H5B 0.959070 8_555 n
+C5 C4 1.549010 1_555 n
+C4 H4 0.963930 1_555 n

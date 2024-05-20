@@ -1,0 +1,320 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 20:43:57 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179421 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/18/4331830.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_4331830
+loop_
+_publ_author_name
+'Hildebrandt, Lars'
+'Dinnebier, Robert'
+'Jansen, Martin'
+_publ_section_title
+;
+ Crystal Structure and Ionic Conductivity of Three Polymorphic Phases of
+ Rubidium Trifluoromethyl Sulfonate, RbSO3CF3
+;
+_journal_issue                   8
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3217
+_journal_page_last               3223
+_journal_paper_doi               10.1021/ic0516313
+_journal_volume                  45
+_journal_year                    2006
+_chemical_formula_moiety         'Rb S O3 C F3'
+_chemical_formula_sum            'C F3 O3 Rb S'
+_chemical_formula_weight         234.53
+_chemical_name_common            'rubidium triflate'
+_chemical_name_systematic
+; 
+ rubidium trifluoromethyl sulfonate
+;
+_space_group_IT_number           4
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  'P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 104.278(6)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            2
+_cell_length_a                   10.3434(5)
+_cell_length_b                   5.82833(27)
+_cell_length_c                   5.19818(28)
+_cell_measurement_temperature    344
+_cell_volume                     303.69(3)
+_pd_block_id                     2005-06-15T17:14|71C_phase1|Hildebrandt,_Lars||
+_pd_phase_name                   'beta-rubidium triflate'
+_cod_data_source_file            ic0516313sup2.cif
+_cod_data_source_block           71C_phase_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_cell_measurement_temperature' value '344 K' was changed to '344' -
+the value should be numeric and without a unit
+designator.
+
+'_geom_bond_publ_flag' value 'N' changed to 'n'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26 (58
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.2 from 2011-04-26 (126 times).
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+;
+_cod_original_cell_volume        303.691(16)
+_cod_database_code               4331830
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x,+y+1/2,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_22
+_atom_site_aniso_U_23
+_atom_site_aniso_U_33
+Rb1 0.174(6) -0.056(7) 0.044(4) 0.0662(31) -0.057(5) 0.080(4)
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+Rb Rb1 0.8556(5) 0.1470(18) 0.9984(9) 1.0 Uani 0.10457 2
+S S1 0.1868(4) 0.1593(8) 0.5727(16) 1.0 Uiso 0.058(4) 2
+C C1 0.3573(6) 0.0666(10) 0.6131(30) 1.0 Uiso 0.178(7) 2
+O- O11 0.1492(10) 0.1363(31) 0.8286(18) 1.0 Uiso 0.058(4) 2
+O- O12 0.1741(10) 0.4033(13) 0.4866(34) 1.0 Uiso 0.058(4) 2
+O- O13 0.0966(8) 0.0145(19) 0.3680(27) 1.0 Uiso 0.058(4) 2
+F- F11 0.3778(11) -0.1251(22) 0.755(5) 1.0 Uiso 0.178(7) 2
+F- F12 0.4403(9) 0.2307(22) 0.739(5) 1.0 Uiso 0.178(7) 2
+F- F13 0.3790(11) 0.0300(28) 0.388(4) 1.0 Uiso 0.178(7) 2
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+Rb 2.0
+S_ 2.0
+C_ 2.0
+O- 6.0
+F- 6.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Rb1 Rb1 Rb1 88.68(21) 2_747 2_757 n
+Rb1 Rb1 S1 69.66(15) 2_747 2_647 n
+Rb1 Rb1 S1 136.89(20) 2_747 2_657 n
+Rb1 Rb1 O11 45.3(4) 2_747 1_655 n
+Rb1 Rb1 O11 52.64(22) 2_747 2_647 n
+Rb1 Rb1 O11 136.83(33) 2_747 2_657 n
+Rb1 Rb1 O12 64.86(23) 2_747 2_646 n
+Rb1 Rb1 O12 84.28(26) 2_747 2_647 n
+Rb1 Rb1 O13 45.75(27) 2_747 1_656 n
+Rb1 Rb1 O13 105.83(30) 2_747 2_656 n
+Rb1 Rb1 F11 151.3(4) 2_747 2_657 n
+Rb1 Rb1 F13 146.55(33) 2_747 2_656 n
+Rb1 Rb1 S1 136.46(20) 2_757 2_647 n
+Rb1 Rb1 S1 68.67(13) 2_757 2_657 n
+Rb1 Rb1 O11 47.3(4) 2_757 1_655 n
+Rb1 Rb1 O11 136.84(32) 2_757 2_647 n
+Rb1 Rb1 O11 52.99(21) 2_757 2_657 n
+Rb1 Rb1 O12 105.9(4) 2_757 2_646 n
+Rb1 Rb1 O12 122.56(23) 2_757 2_647 n
+Rb1 Rb1 O13 71.37(31) 2_757 1_656 n
+Rb1 Rb1 O13 43.16(23) 2_757 2_656 n
+Rb1 Rb1 F11 108.11(29) 2_757 2_657 n
+Rb1 Rb1 F13 87.22(26) 2_757 2_656 n
+S1 Rb1 S1 101.61(24) 2_647 2_657 n
+S1 Rb1 O11 113.1(4) 2_647 1_655 n
+S1 Rb1 O11 23.06(13) 2_647 2_647 n
+S1 Rb1 O11 122.47(30) 2_647 2_657 n
+S1 Rb1 O12 98.48(35) 2_647 2_646 n
+S1 Rb1 O12 23.18(13) 2_647 2_647 n
+S1 Rb1 O13 66.45(30) 2_647 1_656 n
+S1 Rb1 O13 175.3(4) 2_647 2_656 n
+S1 Rb1 F11 82.4(4) 2_647 2_657 n
+S1 Rb1 F13 131.26(29) 2_647 2_656 n
+S1 Rb1 O11 114.1(4) 2_657 1_655 n
+S1 Rb1 O11 124.55(32) 2_657 2_647 n
+S1 Rb1 O11 21.01(14) 2_657 2_657 n
+S1 Rb1 O12 154.9(4) 2_657 2_646 n
+S1 Rb1 O12 78.73(27) 2_657 2_647 n
+S1 Rb1 O13 91.47(24) 2_657 1_656 n
+S1 Rb1 O13 82.66(32) 2_657 2_656 n
+S1 Rb1 F11 41.68(27) 2_657 2_657 n
+S1 Rb1 F13 71.1(4) 2_657 2_656 n
+O11 Rb1 O11 97.9(5) 1_655 2_647 n
+O11 Rb1 O11 100.3(4) 1_655 2_657 n
+O11 Rb1 O12 70.5(5) 1_655 2_646 n
+O11 Rb1 O12 120.3(4) 1_655 2_647 n
+O11 Rb1 O13 58.45(32) 1_655 1_656 n
+O11 Rb1 O13 62.9(4) 1_655 2_656 n
+O11 Rb1 F11 155.3(5) 1_655 2_657 n
+O11 Rb1 F13 113.59(33) 1_655 2_656 n
+O11 Rb1 O11 145.2(4) 2_647 2_657 n
+O11 Rb1 O12 76.86(29) 2_647 2_646 n
+O11 Rb1 O12 45.83(19) 2_647 2_647 n
+O11 Rb1 O13 67.68(32) 2_647 1_656 n
+O11 Rb1 O13 152.4(4) 2_647 2_656 n
+O11 Rb1 F11 102.0(4) 2_647 2_657 n
+O11 Rb1 F13 135.25(31) 2_647 2_656 n
+O11 Rb1 O12 137.4(4) 2_657 2_646 n
+O11 Rb1 O12 99.43(30) 2_657 2_647 n
+O11 Rb1 O13 97.59(31) 2_657 1_656 n
+O11 Rb1 O13 61.71(27) 2_657 2_656 n
+O11 Rb1 F11 55.16(33) 2_657 2_657 n
+O11 Rb1 F13 60.6(5) 2_657 2_656 n
+O12 Rb1 O12 121.5(4) 2_646 2_647 n
+O12 Rb1 O13 110.3(4) 2_646 1_656 n
+O12 Rb1 O13 77.96(27) 2_646 2_656 n
+O12 Rb1 F11 128.3(4) 2_646 2_657 n
+O12 Rb1 F13 84.4(4) 2_646 2_656 n
+O12 Rb1 O13 63.41(35) 2_647 1_656 n
+O12 Rb1 O13 160.5(4) 2_647 2_656 n
+O12 Rb1 F11 67.1(5) 2_647 2_657 n
+O12 Rb1 F13 125.2(4) 2_647 2_656 n
+O13 Rb1 O13 111.7(4) 1_656 2_656 n
+O13 Rb1 F11 116.8(5) 1_656 2_657 n
+O13 Rb1 F13 156.4(5) 1_656 2_656 n
+O13 Rb1 F11 102.2(5) 2_656 2_657 n
+O13 Rb1 F13 51.94(29) 2_656 2_656 n
+F11 Rb1 F13 59.8(4) 2_657 2_656 n
+Rb1 S1 Rb1 101.61(24) 2_647 2_657 n
+Rb1 S1 C1 87.0(4) 2_647 1_555 n
+Rb1 S1 O11 46.5(6) 2_647 1_555 n
+Rb1 S1 O12 155.5(6) 2_647 1_555 n
+Rb1 S1 O13 80.3(6) 2_647 1_555 n
+Rb1 S1 C1 114.62(32) 2_657 1_555 n
+Rb1 S1 O11 55.4(7) 2_657 1_555 n
+Rb1 S1 O12 55.4(7) 2_657 1_555 n
+Rb1 S1 O13 135.8(4) 2_657 1_555 n
+C1 S1 O11 109.50(11) 1_555 1_555 n
+C1 S1 O12 109.39(17) 1_555 1_555 n
+C1 S1 O13 109.53(13) 1_555 1_555 n
+O11 S1 O12 109.49(12) 1_555 1_555 n
+O11 S1 O13 109.46(13) 1_555 1_555 n
+O12 S1 O13 109.45(11) 1_555 1_555 n
+S1 C1 F11 109.51(22) 1_555 1_555 n
+S1 C1 F12 109.41(21) 1_555 1_555 n
+S1 C1 F13 109.49(16) 1_555 1_555 n
+F11 C1 F12 109.52(12) 1_555 1_555 n
+F11 C1 F13 109.45(15) 1_555 1_555 n
+F12 C1 F13 109.45(20) 1_555 1_555 n
+Rb1 O11 Rb1 81.7(4) 1_455 2_647 n
+Rb1 O11 Rb1 80.03(34) 1_455 2_657 n
+Rb1 O11 S1 133.5(4) 1_455 1_555 n
+Rb1 O11 Rb1 145.2(4) 2_647 2_657 n
+Rb1 O11 S1 112.5(7) 2_647 1_555 n
+Rb1 O11 S1 101.5(8) 2_657 1_555 n
+Rb1 O12 Rb1 121.5(4) 2_656 2_657 n
+Rb1 O12 S1 136.6(9) 2_656 1_555 n
+Rb1 O12 S1 101.4(8) 2_657 1_555 n
+Rb1 O13 Rb1 91.1(4) 1_454 2_646 n
+Rb1 O13 S1 128.0(5) 1_454 1_555 n
+Rb1 O13 S1 133.5(5) 2_646 1_555 n
+Rb1 F11 C1 121.7(4) 2_647 1_555 n
+Rb1 F11 F12 130.9(8) 2_647 1_555 n
+Rb1 F11 F13 134.0(7) 2_647 1_555 n
+C1 F11 F12 35.48(34) 1_555 1_555 n
+C1 F11 F13 34.3(4) 1_555 1_555 n
+F12 F11 F13 59.4(5) 1_555 1_555 n
+C1 F12 F11 35.00(28) 1_555 1_555 n
+C1 F12 F13 34.1(4) 1_555 1_555 n
+F11 F12 F13 58.8(5) 1_555 1_555 n
+Rb1 F13 C1 112.3(8) 2_646 1_555 n
+Rb1 F13 F11 95.0(8) 2_646 1_555 n
+Rb1 F13 F12 148.4(8) 2_646 1_555 n
+C1 F13 F11 36.23(29) 1_555 1_555 n
+C1 F13 F12 36.48(24) 1_555 1_555 n
+F11 F13 F12 61.8(4) 1_555 1_555 n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Rb1 Rb1 5.19818(28) 1_554 n
+Rb1 Rb1 5.19818(28) 1_556 n
+Rb1 Rb1 4.170(8) 2_747 n
+Rb1 Rb1 4.170(8) 2_757 n
+Rb1 S1 3.950(6) 1_656 n
+Rb1 S1 4.055(10) 2_646 n
+Rb1 S1 3.704(11) 2_647 n
+Rb1 S1 4.157(10) 2_656 n
+Rb1 S1 3.816(11) 2_657 n
+Rb1 O11 3.365(11) 1_655 n
+Rb1 O11 3.113(21) 2_647 n
+Rb1 O11 2.995(21) 2_657 n
+Rb1 O12 2.843(17) 2_646 n
+Rb1 O12 3.112(20) 2_647 n
+Rb1 O13 2.853(10) 1_656 n
+Rb1 O13 2.987(14) 2_656 n
+Rb1 F11 3.281(20) 2_657 n
+Rb1 F13 3.535(18) 2_656 n
+S1 Rb1 3.950(6) 1_454 n
+S1 Rb1 4.157(10) 2_646 n
+S1 Rb1 3.816(11) 2_647 n
+S1 Rb1 4.055(10) 2_656 n
+S1 Rb1 3.704(11) 2_657 n
+S1 C1 1.807(7) 1_555 n
+S1 O11 1.481(5) 1_555 n
+S1 O12 1.487(5) 1_555 n
+S1 O13 1.492(5) 1_555 n
+S1 F11 2.574(11) 1_555 n
+S1 F12 2.584(10) 1_555 n
+S1 F13 2.528(12) 1_555 n
+C1 S1 1.807(7) 1_555 n
+C1 F11 1.327(14) 1_555 n
+C1 F12 1.343(13) 1_555 n
+C1 F13 1.265(13) 1_555 n
+O11 Rb1 3.365(11) 1_455 n
+O11 Rb1 2.995(21) 2_647 n
+O11 Rb1 3.113(21) 2_657 n
+O11 S1 1.481(5) 1_555 n
+O12 Rb1 2.843(17) 2_656 n
+O12 Rb1 3.112(20) 2_657 n
+O12 S1 1.487(5) 1_555 n
+O13 Rb1 2.853(10) 1_454 n
+O13 Rb1 2.987(14) 2_646 n
+O13 S1 1.492(5) 1_555 n
+F11 Rb1 3.281(20) 2_647 n
+F11 S1 2.574(11) 1_555 n
+F11 C1 1.327(14) 1_555 n
+F11 F12 2.180(15) 1_555 n
+F11 F13 2.116(16) 1_555 n
+F12 S1 2.584(10) 1_555 n
+F12 C1 1.343(13) 1_555 n
+F12 F11 2.180(15) 1_555 n
+F12 F13 2.129(14) 1_555 n
+F13 Rb1 3.535(18) 2_646 n
+F13 S1 2.528(12) 1_555 n
+F13 C1 1.265(13) 1_555 n
+F13 F11 2.116(16) 1_555 n
+F13 F12 2.129(14) 1_555 n

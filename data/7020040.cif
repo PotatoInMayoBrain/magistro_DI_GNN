@@ -1,0 +1,419 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 14:53:10 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179904 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/00/7020040.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7020040
+loop_
+_publ_author_name
+'Williams, Edward R.'
+'Morris, Samuel A.'
+'Weller, Mark T.'
+_publ_section_title
+;
+ Copper(ii) fluorophosphates.
+;
+_journal_issue                   35
+_journal_name_full
+'Dalton transactions (Cambridge, England : 2003)'
+_journal_page_first              10845
+_journal_page_last               10853
+_journal_paper_doi               10.1039/c2dt31131c
+_journal_volume                  41
+_journal_year                    2012
+_chemical_formula_sum            'Cu3 F4 K2 O12 P4'
+_chemical_formula_weight         660.70
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_audit_update_record
+;
+2012-05-09 # Formatted by publCIF
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 105.211(3)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   11.2834(4)
+_cell_length_b                   5.1073(2)
+_cell_length_c                   11.4099(5)
+_cell_measurement_reflns_used    4795
+_cell_measurement_temperature    120(2)
+_cell_measurement_theta_max      27.48
+_cell_measurement_theta_min      2.91
+_cell_volume                     634.49(4)
+_computing_cell_refinement
+'DENZO (Otwinowski & Minor, 1997) & COLLECT (Hooft, R.W.W., 1998)'
+_computing_data_collection       'COLLECT (Hooft, R.W.W., 1998)'
+_computing_data_reduction
+'DENZO (Otwinowski & Minor, 1997) & COLLECT (Hooft, R.W.W., 1998)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_diffrn_ambient_temperature      120(2)
+_diffrn_detector_area_resol_mean '4096x4096pixels / 62x62mm'
+_diffrn_measured_fraction_theta_full 0.977
+_diffrn_measured_fraction_theta_max 0.977
+_diffrn_measurement_device_type
+'Bruker-Nonius APEX II CCD camera on \k-goniostat'
+_diffrn_measurement_method       '\f & \w scans'
+_diffrn_radiation_monochromator  '10cm confocal mirrors'
+_diffrn_radiation_source         'Bruker-Nonius FR591 rotating anode'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0757
+_diffrn_reflns_av_sigmaI/netI    0.0634
+_diffrn_reflns_limit_h_max       14
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       -12
+_diffrn_reflns_number            6861
+_diffrn_reflns_theta_full        27.66
+_diffrn_reflns_theta_max         27.66
+_diffrn_reflns_theta_min         2.96
+_exptl_absorpt_coefficient_mu    6.265
+_exptl_absorpt_correction_T_max  0.7447
+_exptl_absorpt_correction_T_min  0.5731
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'SADABS 2007/2 (Sheldrick, G.M., 2007)'
+_exptl_crystal_colour            blue
+_exptl_crystal_density_diffrn    3.458
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       plate
+_exptl_crystal_F_000             317
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.10
+_exptl_crystal_size_min          0.10
+_refine_diff_density_max         0.950
+_refine_diff_density_min         -1.049
+_refine_diff_density_rms         0.238
+_refine_ls_extinction_method     none
+_refine_ls_goodness_of_fit_ref   0.966
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     115
+_refine_ls_number_reflns         1448
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.966
+_refine_ls_R_factor_all          0.0857
+_refine_ls_R_factor_gt           0.0546
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0082P)^2^+19.1185P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1043
+_refine_ls_wR_factor_ref         0.1183
+_reflns_number_gt                1057
+_reflns_number_total             1448
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            c2dt31131c.txt
+_cod_data_source_block           K2Cu3(PO3F)4_II
+_cod_original_sg_symbol_H-M      P2(1)/n
+_cod_database_code               7020040
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+F1 F 0.2761(4) 0.4436(10) 0.1743(4) 0.0148(10) Uani 1 1 d .
+O2 O 0.0691(4) 0.4491(12) 0.2037(4) 0.0111(11) Uani 1 1 d .
+F3 F 0.4952(4) 0.3598(9) -0.1007(4) 0.0109(9) Uani 1 1 d .
+O4 O 0.2812(5) 0.4464(12) -0.1278(5) 0.0127(12) Uani 1 1 d .
+O5 O 0.3719(5) 0.4045(10) -0.3111(5) 0.0100(11) Uani 1 1 d .
+O6 O 0.4219(4) 0.7969(11) -0.1717(5) 0.0099(11) Uani 1 1 d .
+O7 O 0.1062(5) 0.3155(11) 0.0034(5) 0.0115(11) Uani 1 1 d .
+O8 O 0.1409(5) 0.7848(11) 0.0697(5) 0.0103(11) Uani 1 1 d .
+Cu1 Cu 0.0000 0.0000 0.0000 0.0091(3) Uani 1 2 d S
+Cu2 Cu 0.60817(8) -0.0131(2) 0.32533(8) 0.0103(2) Uani 1 1 d .
+K3 K 0.33875(14) 0.0255(4) 0.02821(14) 0.0119(4) Uani 1 1 d .
+P4 P 0.13827(16) 0.5032(4) 0.11089(16) 0.0073(4) Uani 1 1 d .
+P5 P 0.38430(16) 0.5157(4) -0.18524(16) 0.0082(4) Uani 1 1 d .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+F1 0.010(2) 0.017(3) 0.017(2) 0.0023(19) 0.0030(17) -0.0010(18)
+O2 0.008(2) 0.020(3) 0.007(2) -0.001(2) 0.0034(18) 0.000(2)
+F3 0.008(2) 0.012(2) 0.010(2) -0.0026(17) -0.0009(16) 0.0034(17)
+O4 0.010(2) 0.016(3) 0.011(2) 0.002(2) 0.003(2) 0.001(2)
+O5 0.011(3) 0.006(3) 0.013(3) -0.002(2) 0.003(2) 0.001(2)
+O6 0.009(2) 0.008(3) 0.014(3) -0.005(2) 0.004(2) -0.001(2)
+O7 0.009(2) 0.012(3) 0.013(3) -0.003(2) 0.002(2) 0.001(2)
+O8 0.012(2) 0.004(3) 0.015(3) -0.003(2) 0.004(2) -0.003(2)
+Cu1 0.0070(6) 0.0067(7) 0.0129(6) 0.0012(5) 0.0015(4) 0.0005(5)
+Cu2 0.0072(4) 0.0120(5) 0.0122(4) 0.0012(4) 0.0033(3) -0.0002(4)
+K3 0.0110(7) 0.0112(9) 0.0143(7) 0.0030(7) 0.0048(6) 0.0021(7)
+P4 0.0065(8) 0.0074(10) 0.0081(8) 0.0003(8) 0.0019(6) 0.0002(8)
+P5 0.0074(8) 0.0082(10) 0.0087(8) 0.0024(8) 0.0016(6) 0.0009(7)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+F F 0.0171 0.0103 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cu Cu 0.3201 1.2651 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+P4 F1 K3 103.9(2) . .
+P4 O2 Cu2 124.3(3) . 2
+P4 O2 K3 126.4(3) . 2
+Cu2 O2 K3 103.12(19) 2 2
+P5 F3 K3 158.7(3) . 3_655
+P5 F3 K3 96.26(19) . .
+K3 F3 K3 83.60(13) 3_655 .
+P5 O4 Cu2 132.7(3) . 4_565
+P5 O4 K3 112.5(3) . .
+Cu2 O4 K3 111.7(2) 4_565 .
+P5 O4 K3 87.8(2) . 1_565
+Cu2 O4 K3 91.8(2) 4_565 1_565
+K3 O4 K3 110.94(17) . 1_565
+P5 O5 Cu2 117.5(3) . 3_655
+P5 O5 K3 124.0(3) . 2_554
+Cu2 O5 K3 102.5(2) 3_655 2_554
+P5 O6 Cu2 117.2(3) . 3_665
+P5 O6 K3 123.6(3) . 3_665
+Cu2 O6 K3 103.7(2) 3_665 3_665
+P5 O6 K3 108.9(3) . 1_565
+Cu2 O6 K3 116.2(2) 3_665 1_565
+K3 O6 K3 82.94(14) 3_665 1_565
+P4 O7 Cu1 122.5(3) . .
+P4 O7 Cu2 112.6(3) . 4_565
+Cu1 O7 Cu2 119.1(2) . 4_565
+P4 O7 K3 102.8(2) . .
+Cu1 O7 K3 96.3(2) . .
+Cu2 O7 K3 95.24(18) 4_565 .
+P4 O8 Cu1 126.1(3) . 1_565
+P4 O8 K3 124.9(3) . 1_565
+Cu1 O8 K3 107.4(2) 1_565 1_565
+O8 Cu1 O8 180.0(3) 3_565 1_545
+O8 Cu1 O7 88.5(2) 3_565 .
+O8 Cu1 O7 91.5(2) 1_545 .
+O8 Cu1 O7 91.5(2) 3_565 3
+O8 Cu1 O7 88.5(2) 1_545 3
+O7 Cu1 O7 180.0 . 3
+O8 Cu1 K3 136.71(16) 3_565 .
+O8 Cu1 K3 43.29(16) 1_545 .
+O7 Cu1 K3 51.64(15) . .
+O7 Cu1 K3 128.36(15) 3 .
+O8 Cu1 K3 43.29(16) 3_565 3
+O8 Cu1 K3 136.71(16) 1_545 3
+O7 Cu1 K3 128.36(15) . 3
+O7 Cu1 K3 51.64(15) 3 3
+K3 Cu1 K3 180.00(7) . 3
+O4 Cu2 O2 172.2(2) 4_666 2_545
+O4 Cu2 O5 94.1(2) 4_666 3_655
+O2 Cu2 O5 91.1(2) 2_545 3_655
+O4 Cu2 O6 94.1(2) 4_666 3_665
+O2 Cu2 O6 88.6(2) 2_545 3_665
+O5 Cu2 O6 117.8(2) 3_655 3_665
+O4 Cu2 O7 85.4(2) 4_666 4_666
+O2 Cu2 O7 86.9(2) 2_545 4_666
+O5 Cu2 O7 122.5(2) 3_655 4_666
+O6 Cu2 O7 119.5(2) 3_665 4_666
+O4 Cu2 K3 41.15(17) 4_666 4_666
+O2 Cu2 K3 131.29(17) 2_545 4_666
+O5 Cu2 K3 127.48(15) 3_655 4_666
+O6 Cu2 K3 95.73(15) 3_665 4_666
+O7 Cu2 K3 49.21(13) 4_666 4_666
+O4 Cu2 K3 137.34(16) 4_666 .
+O2 Cu2 K3 47.92(15) 2_545 .
+O5 Cu2 K3 93.30(15) 3_655 .
+O6 Cu2 K3 46.19(14) 3_665 .
+O7 Cu2 K3 124.29(14) 4_666 .
+K3 Cu2 K3 136.67(3) 4_666 .
+O4 Cu2 K3 59.39(18) 4_666 4_656
+O2 Cu2 K3 121.26(17) 2_545 4_656
+O5 Cu2 K3 47.70(15) 3_655 4_656
+O6 Cu2 K3 143.01(15) 3_665 4_656
+O7 Cu2 K3 85.99(14) 4_666 4_656
+K3 Cu2 K3 80.90(3) 4_666 4_656
+K3 Cu2 K3 140.98(3) . 4_656
+F3 K3 O8 98.87(16) 3_655 1_545
+F3 K3 O4 142.65(15) 3_655 .
+O8 K3 O4 113.77(16) 1_545 .
+F3 K3 F1 127.91(14) 3_655 .
+O8 K3 F1 84.09(15) 1_545 .
+O4 K3 F1 75.28(15) . .
+F3 K3 O6 65.61(15) 3_655 3_665
+O8 K3 O6 137.02(16) 1_545 3_665
+O4 K3 O6 98.43(16) . 3_665
+F1 K3 O6 77.16(14) . 3_665
+F3 K3 O6 66.97(14) 3_655 1_545
+O8 K3 O6 113.85(16) 1_545 1_545
+O4 K3 O6 82.96(16) . 1_545
+F1 K3 O6 156.25(16) . 1_545
+O6 K3 O6 97.06(14) 3_665 1_545
+F3 K3 O7 157.27(16) 3_655 .
+O8 K3 O7 59.42(16) 1_545 .
+O4 K3 O7 59.71(15) . .
+F1 K3 O7 49.07(13) . .
+O6 K3 O7 124.45(16) 3_665 .
+O6 K3 O7 125.60(15) 1_545 .
+F3 K3 O2 64.06(14) 3_655 2_545
+O8 K3 O2 80.93(15) 1_545 2_545
+O4 K3 O2 136.26(17) . 2_545
+F1 K3 O2 65.20(14) . 2_545
+O6 K3 O2 56.10(15) 3_665 2_545
+O6 K3 O2 130.49(15) 1_545 2_545
+O7 K3 O2 103.00(15) . 2_545
+F3 K3 O5 115.97(15) 3_655 2_544
+O8 K3 O5 62.64(15) 1_545 2_544
+O4 K3 O5 68.15(15) . 2_544
+F1 K3 O5 111.35(14) . 2_544
+O6 K3 O5 160.29(15) 3_665 2_544
+O6 K3 O5 67.81(14) 1_545 2_544
+O7 K3 O5 62.36(15) . 2_544
+O2 K3 O5 143.42(15) 2_545 2_544
+F3 K3 F3 96.40(13) 3_655 .
+O8 K3 F3 159.65(15) 1_545 .
+O4 K3 F3 47.90(13) . .
+F1 K3 F3 97.03(13) . .
+O6 K3 F3 62.25(13) 3_665 .
+O6 K3 F3 60.64(14) 1_545 .
+O7 K3 F3 106.30(15) . .
+O2 K3 F3 118.07(13) 2_545 .
+O5 K3 F3 98.49(13) 2_544 .
+F3 K3 O4 63.29(13) 3_655 1_545
+O8 K3 O4 69.20(15) 1_545 1_545
+O4 K3 O4 110.94(17) . 1_545
+F1 K3 O4 152.94(13) . 1_545
+O6 K3 O4 125.65(14) 3_665 1_545
+O6 K3 O4 46.09(14) 1_545 1_545
+O7 K3 O4 109.87(14) . 1_545
+O2 K3 O4 112.77(15) 2_545 1_545
+O5 K3 O4 52.74(14) 2_544 1_545
+F3 K3 O4 106.48(13) . 1_545
+F3 K3 P4 147.68(11) 3_655 .
+O8 K3 P4 70.03(12) 1_545 .
+O4 K3 P4 65.47(12) . .
+F1 K3 P4 24.82(9) . .
+O6 K3 P4 101.21(12) 3_665 .
+O6 K3 P4 145.34(12) 1_545 .
+O7 K3 P4 24.26(11) . .
+O2 K3 P4 83.95(11) 2_545 .
+O5 K3 P4 86.59(11) 2_544 .
+F3 K3 P4 103.06(10) . .
+O4 K3 P4 132.21(10) 1_545 .
+O2 P4 O8 116.8(3) . .
+O2 P4 O7 113.3(3) . .
+O8 P4 O7 111.6(3) . .
+O2 P4 F1 106.1(3) . .
+O8 P4 F1 103.3(3) . .
+O7 P4 F1 104.3(3) . .
+O2 P4 K3 122.5(2) . .
+O8 P4 K3 119.7(2) . .
+O7 P4 K3 53.0(2) . .
+F1 P4 K3 51.31(18) . .
+O2 P4 K3 140.0(2) . 1_565
+O8 P4 K3 35.9(2) . 1_565
+O7 P4 K3 106.0(2) . 1_565
+F1 P4 K3 70.41(19) . 1_565
+K3 P4 K3 87.40(5) . 1_565
+O6 P5 O5 114.3(3) . .
+O6 P5 O4 114.1(3) . .
+O5 P5 O4 115.5(3) . .
+O6 P5 F3 105.3(3) . .
+O5 P5 F3 104.5(3) . .
+O4 P5 F3 101.1(3) . .
+O6 P5 K3 133.0(2) . .
+O5 P5 K3 112.6(2) . .
+O4 P5 K3 44.7(2) . .
+F3 P5 K3 58.04(17) . .
+O6 P5 K3 48.6(2) . 1_565
+O5 P5 K3 153.5(2) . 1_565
+O4 P5 K3 68.0(2) . 1_565
+F3 P5 K3 100.25(17) . 1_565
+K3 P5 K3 88.57(5) . 1_565
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+F1 P4 1.564(4) .
+F1 K3 2.908(5) .
+O2 P4 1.497(5) .
+O2 Cu2 1.949(5) 2
+O2 K3 2.987(5) 2
+F3 P5 1.580(4) .
+F3 K3 2.693(5) 3_655
+F3 K3 3.092(5) .
+O4 P5 1.520(5) .
+O4 Cu2 1.915(5) 4_565
+O4 K3 2.758(6) .
+O4 K3 3.425(6) 1_565
+O5 P5 1.516(5) .
+O5 Cu2 2.023(5) 3_655
+O5 K3 3.013(5) 2_554
+O6 P5 1.494(6) .
+O6 Cu2 2.023(5) 3_665
+O6 K3 2.912(5) 3_665
+O6 K3 2.928(5) 1_565
+O7 P4 1.523(6) .
+O7 Cu1 2.002(6) .
+O7 Cu2 2.274(5) 4_565
+O7 K3 2.961(5) .
+O8 P4 1.516(6) .
+O8 Cu1 1.925(5) 1_565
+O8 K3 2.697(5) 1_565
+Cu1 O8 1.925(5) 3_565
+Cu1 O8 1.925(5) 1_545
+Cu1 O7 2.002(6) 3
+Cu1 K3 3.7529(15) .
+Cu1 K3 3.7529(15) 3
+Cu2 O4 1.915(5) 4_666
+Cu2 O2 1.949(5) 2_545
+Cu2 O5 2.023(5) 3_655
+Cu2 O6 2.023(5) 3_665
+Cu2 O7 2.274(5) 4_666
+Cu2 K3 3.8948(19) 4_666
+Cu2 K3 3.9198(18) .
+Cu2 K3 3.977(2) 4_656
+K3 F3 2.693(5) 3_655
+K3 O8 2.697(5) 1_545
+K3 O6 2.912(5) 3_665
+K3 O6 2.928(5) 1_545
+K3 O2 2.987(5) 2_545
+K3 O5 3.013(5) 2_544
+K3 O4 3.425(6) 1_545
+K3 P4 3.617(3) .
+P4 K3 3.774(3) 1_565
+P5 K3 3.692(3) 1_565

@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/05/9010596.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9010596
+loop_
+_publ_author_name
+'Herwig, S.'
+'Hawthorne, F. C.'
+_publ_section_title
+;
+ The topology of hydrogen bonding in brandtite, collinsite and fairfieldite
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              1181
+_journal_page_last               1196
+_journal_paper_doi               10.2113/gscanmin.44.5.1181
+_journal_volume                  44
+_journal_year                    2006
+_chemical_compound_source        'Harstig mine, Harstigen, Sweden'
+_chemical_formula_sum            'As2 Ca1.9 Fe0.01 H4 Mg0.1 Mn0.88 O10 Pb0.1'
+_chemical_name_mineral           Brandtite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 108.00
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.877
+_cell_length_b                   12.957
+_cell_length_c                   5.675
+_cell_volume                     410.991
+_database_code_amcsd             0006117
+_exptl_crystal_density_diffrn    3.734
+_cod_original_formula_sum        '(Ca1.9 Pb.1) Mn.88 Mg.1 Fe.01 As2 O10 H4'
+_cod_database_code               9010596
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+CaX 0.00950 0.00910 0.01010 -0.00110 0.00340 -0.00120
+PbX 0.00950 0.00910 0.01010 -0.00110 0.00340 -0.00120
+MnM 0.00960 0.00890 0.00930 -0.00090 0.00230 -0.00410
+MgM 0.00960 0.00890 0.00930 -0.00090 0.00230 -0.00410
+FeM 0.00960 0.00890 0.00930 -0.00090 0.00230 -0.00410
+AsT 0.00747 0.00533 0.00581 0.00010 0.00123 0.00021
+O1 0.01280 0.01200 0.01110 -0.00190 0.00400 -0.00610
+O2 0.00960 0.00900 0.00770 0.00000 0.00000 0.00340
+O3 0.00840 0.00920 0.01390 0.00340 0.00130 0.00050
+O4 0.00980 0.00840 0.01120 -0.00380 0.00280 -0.00100
+OW 0.01320 0.00890 0.00670 -0.00200 0.00180 0.00050
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+CaX 0.56763 0.11965 0.24347 0.95000 0.00950 Ca 0
+PbX 0.56763 0.11965 0.24347 0.05000 0.00950 Pb 0
+MnM 0.00000 0.00000 0.00000 0.88000 0.00940 Mn 0
+MgM 0.00000 0.00000 0.00000 0.10000 0.00940 Mg 0
+FeM 0.00000 0.00000 0.00000 0.01000 0.00940 Fe 0
+AsT 0.22243 0.12174 0.57383 1.00000 0.00639 As 0
+O1 0.24450 0.03619 0.35580 1.00000 0.01190 O 0
+O2 0.28830 0.05599 0.84510 1.00000 0.00940 O 0
+O3 0.94990 0.17265 0.50220 1.00000 0.01100 O 0
+O4 0.44040 0.20712 0.57950 1.00000 0.00990 O 0
+OW 0.80870 0.14270 0.97190 1.00000 0.00990 O 0
+H1 0.68500 0.15000 0.81100 1.00000 0.03700 H 0
+H2 0.90700 0.20500 0.98700 1.00000 0.02800 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:39+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006117

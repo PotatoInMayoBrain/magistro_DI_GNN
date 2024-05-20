@@ -1,0 +1,237 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-25 16:38:26 +0200 (Fri, 25 Mar 2016) $
+#$Revision: 179981 $
+#$URL: svn://www.crystallography.net/cod/cif/7/02/75/7027574.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the Crystal Eye server at
+# http://wwmm.ch.cam.ac.uk/crystaleye/, created by Nick Day at the
+# Peter Murray-Rust laboratory.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_7027574
+loop_
+_publ_author_name
+'Calderazzo, Fausto'
+'D'Attoma, Michele'
+'Marchetti, Fabio'
+'Pampaloni, Guido'
+'Troyanov, Sergei I.'
+_publ_section_title
+;
+ Labile adducts of TiCl4 with thionyl chloride structurally characterized
+ at low temperature: a comparison with the zirconium and hafnium
+ analogues, [MCl4(SOCl2)]2
+;
+_journal_issue                   14
+_journal_name_full
+'Journal of the Chemical Society, Dalton Transactions'
+_journal_page_first              2275
+_journal_paper_doi               10.1039/a904186i
+_journal_year                    1999
+_chemical_formula_sum            'Cl12 O2 S2 Ti2'
+_chemical_formula_weight         617.32
+_chemical_name_common
+\c-Di-\m-chlorotrichloro-bis-(thionylchloride)dititanium(iv)
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   none
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 103.56(4)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   7.516(3)
+_cell_length_b                   10.077(2)
+_cell_length_c                   12.274(4)
+_cell_measurement_reflns_used    3437
+_cell_measurement_temperature    220(2)
+_cell_measurement_theta_max      27
+_cell_measurement_theta_min      4.5
+_cell_volume                     903.7(5)
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      220(2)
+_diffrn_measurement_device       IPDS
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1595
+_diffrn_reflns_av_sigmaI/netI    0.1012
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -9
+_diffrn_reflns_limit_k_max       13
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            7852
+_diffrn_reflns_theta_max         28.20
+_diffrn_reflns_theta_min         2.65
+_exptl_absorpt_coefficient_mu    2.874
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            yellow
+_exptl_crystal_density_diffrn    2.269
+_exptl_crystal_F_000             592
+_exptl_crystal_size_max          0.60
+_exptl_crystal_size_mid          0.30
+_exptl_crystal_size_min          0.30
+_refine_diff_density_max         0.575
+_refine_diff_density_min         -0.507
+_refine_diff_density_rms         0.102
+_refine_ls_extinction_coef       0.0092(18)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   0.922
+_refine_ls_goodness_of_fit_obs   0.988
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         1501
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.211
+_refine_ls_restrained_S_obs      0.988
+_refine_ls_R_factor_all          0.0704
+_refine_ls_R_factor_obs          0.0444
+_refine_ls_shift/esd_max         0.000
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.1060
+_refine_ls_wR_factor_obs         0.0701
+_reflns_number_observed          1223
+_reflns_number_total             2032
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            904186Isup1.cif
+_cod_data_source_block           TiClSOCl2_3
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to /home/saulius/struct/CIF-dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 1891 2012-01-12 08:04:46Z andrius 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0000P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      P2(1)/c
+_cod_database_code               7027574
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ti 0.0226(4) 0.0217(4) 0.0221(4) 0.0000(3) 0.0057(3) -0.0009(3)
+Cl1 0.0246(4) 0.0320(5) 0.0226(5) 0.0043(4) 0.0096(4) 0.0017(4)
+Cl2 0.0284(5) 0.0398(6) 0.0396(7) 0.0006(5) 0.0135(5) 0.0051(4)
+Cl3 0.0369(5) 0.0287(5) 0.0278(6) 0.0069(4) 0.0092(5) 0.0009(4)
+Cl4 0.0406(5) 0.0362(6) 0.0359(7) -0.0109(5) 0.0106(5) -0.0145(4)
+S 0.0257(5) 0.0208(5) 0.0330(7) -0.0005(4) 0.0012(5) -0.0018(4)
+Cl5 0.0333(5) 0.0355(6) 0.0562(9) 0.0060(5) -0.0091(5) 0.0031(4)
+Cl6 0.0471(7) 0.0708(9) 0.0419(8) -0.0218(7) 0.0169(6) -0.0051(6)
+O 0.0293(14) 0.029(2) 0.026(2) 0.0012(12) 0.0024(13) -0.0054(11)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+Ti Ti 0.34321(9) 0.14471(7) 0.94754(6) 0.0221(2) Uani 1 d
+Cl1 Cl 0.39440(12) -0.02461(10) 1.09530(8) 0.0257(2) Uani 1 d
+Cl2 Cl 0.08107(13) 0.19806(11) 0.98871(9) 0.0350(3) Uani 1 d
+Cl3 Cl 0.31036(13) 0.24701(10) 0.78482(8) 0.0308(3) Uani 1 d
+Cl4 Cl 0.51848(14) 0.29229(11) 1.05322(10) 0.0373(3) Uani 1 d
+S S 0.09943(12) -0.08219(10) 0.74791(9) 0.0275(3) Uani 1 d
+Cl5 Cl -0.09270(14) 0.05135(12) 0.67343(11) 0.0449(3) Uani 1 d
+Cl6 Cl 0.2692(2) -0.06663(15) 0.64218(11) 0.0522(4) Uani 1 d
+O O 0.1937(3) -0.0248(3) 0.8546(2) 0.0288(6) Uani 1 d
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl 0.1484 0.1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ti Ti 0.2776 0.4457 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_3
+Cl4 Ti Cl3 98.18(6) .
+Cl4 Ti O 171.91(9) .
+Cl3 Ti O 87.62(9) .
+Cl4 Ti Cl2 98.25(5) .
+Cl3 Ti Cl2 100.16(6) .
+O Ti Cl2 86.19(7) .
+Cl4 Ti Cl1 93.78(6) .
+Cl3 Ti Cl1 163.23(5) .
+O Ti Cl1 79.43(9) .
+Cl2 Ti Cl1 89.65(5) .
+Cl4 Ti Cl1 93.39(5) 3_657
+Cl3 Ti Cl1 87.81(5) 3_657
+O Ti Cl1 81.14(7) 3_657
+Cl2 Ti Cl1 164.76(5) 3_657
+Cl1 Ti Cl1 79.76(4) 3_657
+Ti Cl1 Ti 100.24(4) 3_657
+O S Cl5 106.69(13) .
+O S Cl6 107.36(11) .
+Cl5 S Cl6 98.54(8) .
+S O Ti 148.6(2) .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ti Cl4 2.1973(14) .
+Ti Cl3 2.2093(13) .
+Ti O 2.209(3) .
+Ti Cl2 2.2119(13) .
+Ti Cl1 2.4538(13) .
+Ti Cl1 2.4733(12) 3_657
+Cl1 Ti 2.4733(12) 3_657
+S O 1.455(3) .
+S Cl5 2.028(2) .
+S Cl6 2.028(2) .

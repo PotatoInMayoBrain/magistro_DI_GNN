@@ -1,0 +1,97 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/44/9004449.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004449
+loop_
+_publ_author_name
+'Grice, J. D.'
+'Gault, R. A.'
+'Van Velthuizen, J.'
+_publ_section_title
+;
+ Sheldrickite, a new sodium-calcium-fluorocarbonate mineral
+ species from Mont Saint-Hilaire, Quebec
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              181
+_journal_page_last               187
+_journal_volume                  35
+_journal_year                    1997
+_chemical_compound_source        'Mont Saint-Hilaire, Quebec, Canada'
+_chemical_formula_sum            'C2 Ca3 F3 Na O7'
+_chemical_name_mineral           Sheldrickite
+_space_group_IT_number           145
+_symmetry_space_group_name_Hall  'P 32'
+_symmetry_space_group_name_H-M   'P 32'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            3
+_cell_length_a                   6.726
+_cell_length_b                   6.726
+_cell_length_c                   15.044
+_cell_volume                     589.397
+_database_code_amcsd             0005522
+_exptl_crystal_density_diffrn    2.842
+_cod_original_formula_sum        'Na Ca3 C2 O7 F3'
+_cod_database_code               9004449
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-y,x-y,2/3+z
+-x+y,-x,1/3+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.00100 0.29700 0.16500 0.02300 Na 0
+Ca1 0.61610 -0.00090 0.00000 0.01100 Ca 0
+Ca2 -0.00110 0.62840 0.00450 0.00800 Ca 0
+Ca3 0.37060 0.37100 -0.00430 0.01600 Ca 0
+C1 -0.43300 0.31700 0.16800 0.01200 C 0
+C2 -0.56800 0.75200 0.16900 0.01300 C 0
+O1 0.66400 0.34800 0.09000 0.01600 O 0
+O2 0.66800 0.33300 0.23800 0.01300 O 0
+O3 0.35300 0.27300 0.16700 0.01700 O 0
+O4 0.32100 0.65400 -0.09200 0.01500 O 0
+O5 0.33600 0.66600 -0.23900 0.01500 O 0
+O6 -0.35400 0.92100 0.16500 0.02500 O 0
+OW 0.20300 0.20200 -0.16900 0.02200 O 0
+F1 0.99700 0.26600 0.01000 0.02300 F 0
+F2 0.27100 0.00200 -0.00500 0.01800 F 0
+F3 0.73000 0.73400 -0.02000 0.01500 F 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:49:07+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005522

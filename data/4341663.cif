@@ -1,0 +1,938 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 23:57:12 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179519 $
+#$URL: svn://www.crystallography.net/cod/cif/4/34/16/4341663.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4341663
+loop_
+_publ_author_name
+'Treadwell, LaRico J'
+'Watkins-Curry, Pilanda'
+'McAlpin, Jacob D.'
+'Rebar, Drew J.'
+'Hebert, Jessica K.'
+'DiTusa, John F.'
+'Chan, Julia Y.'
+_publ_section_title
+;
+ Investigation of Mn, Fe, and Ni Incorporation in CeCo2Al8.
+;
+_journal_issue                   3
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              963
+_journal_page_last               968
+_journal_paper_doi               10.1021/ic502356t
+_journal_volume                  54
+_journal_year                    2015
+_chemical_formula_moiety         'Al8 Ce Co1.78 Mn0.22'
+_chemical_formula_sum            'Al8 Ce Co Mn'
+_chemical_formula_weight         469.83
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           55
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2 2ab'
+_symmetry_space_group_name_H-M   'P b a m'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_audit_update_record
+;
+2014-09-13 # Formatted by publCIF
+;
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   12.4844(10)
+_cell_length_b                   14.392(4)
+_cell_length_c                   4.026(3)
+_cell_measurement_temperature    293(2)
+_cell_volume                     723.4(6)
+_computing_cell_refinement       'Denzo and Scalepack (Otwinski & Minor 1997)'
+_computing_data_collection       'Collect (Nonius 1999)'
+_computing_data_reduction        'Denzo and Scalepack (Otwinski & Minor 1997)'
+_computing_molecular_graphics    'Crystal Maker'
+_computing_publication_material  Publcif
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 2008)'
+_computing_structure_solution    'Direct Methods, SIR 97'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.997
+_diffrn_measured_fraction_theta_max 0.997
+_diffrn_measurement_device_type  'Nonius Kappa CCD'
+_diffrn_measurement_method       '\f and \w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0433
+_diffrn_reflns_av_sigmaI/netI    0.0463
+_diffrn_reflns_limit_h_max       18
+_diffrn_reflns_limit_h_min       -17
+_diffrn_reflns_limit_k_max       20
+_diffrn_reflns_limit_k_min       -20
+_diffrn_reflns_limit_l_max       5
+_diffrn_reflns_limit_l_min       -5
+_diffrn_reflns_number            2197
+_diffrn_reflns_theta_full        30.99
+_diffrn_reflns_theta_max         30.99
+_diffrn_reflns_theta_min         2.16
+_exptl_absorpt_coefficient_mu    11.037
+_exptl_absorpt_correction_T_max  0.794
+_exptl_absorpt_correction_T_min  0.667
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_process_details   'HKL scalepack (Otwinski & Minor, 1997)'
+_exptl_crystal_colour            silver
+_exptl_crystal_density_diffrn    4.314
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Fragment
+_exptl_crystal_F_000             856
+_exptl_crystal_size_max          0.03
+_exptl_crystal_size_mid          0.02
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         1.541
+_refine_diff_density_min         -1.249
+_refine_diff_density_rms         0.303
+_refine_ls_extinction_coef       0.0033(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.046
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         1298
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.046
+_refine_ls_R_factor_all          0.0577
+_refine_ls_R_factor_gt           0.0349
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0370P)^2^+2.7436P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0763
+_refine_ls_wR_factor_ref         0.0865
+_reflns_number_gt                970
+_reflns_number_total             1298
+_reflns_threshold_expression     >2\s(I)
+_cod_data_source_file            ic502356t_si_006.cif
+_cod_data_source_block           shelx
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Orthorhombic' changed to
+'orthorhombic' according to
+/home/saulius/struct/COD-crude-data--automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from
+2011-04-26.
+
+'_exptl_absorpt_correction_type' value 'Multi-scan'
+changed to 'multi-scan' according to
+/home/saulius/struct/COD-crude-data--automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2935 2014-11-11 08:27:57Z andrius 
+
+ Adding full bibliography for 4341656--4341665.cif.
+;
+_cod_original_cell_volume        723.5(6)
+_cod_original_sg_symbol_H-M      Pbam
+_cod_database_code               4341663
+#BEGIN Tags that were not found in dictionaries:
+_exptl_crystal_f_000'            866.81
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, -y, z'
+'x+1/2, -y+1/2, -z'
+'-x+1/2, y+1/2, -z'
+'-x, -y, -z'
+'x, y, -z'
+'-x-1/2, y-1/2, z'
+'x-1/2, -y-1/2, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+Ce1 Ce 0.34062(3) 0.31845(3) 0.0000 0.01167(14) Uani 1 2 d S
+Co1 Co 0.03471(8) 0.40582(6) 0.0000 0.0094(3) Uani 0.80(5) 2 d SP
+Mn1 Mn 0.03471(8) 0.40582(6) 0.0000 0.0094(3) Uani 0.20(5) 2 d SP
+Co2 Co 0.15142(8) 0.09656(6) 0.0000 0.0091(3) Uani 0.98(5) 2 d SP
+Mn2 Mn 0.15142(8) 0.09656(6) 0.0000 0.0091(3) Uani 0.02(5) 2 d SP
+Al1 Al 0.02528(19) 0.13175(15) 0.5000 0.0108(4) Uani 1 2 d S
+Al2 Al 0.15952(19) 0.37937(15) 0.5000 0.0108(4) Uani 1 2 d S
+Al3 Al 0.23608(19) 0.17253(15) 0.5000 0.0113(4) Uani 1 2 d S
+Al4 Al 0.3310(2) 0.49133(14) 0.5000 0.0108(4) Uani 1 2 d S
+Al5 Al 0.45225(18) 0.17956(14) 0.5000 0.0101(4) Uani 1 2 d S
+Al6 Al 0.09589(18) 0.25306(15) 0.0000 0.0110(4) Uani 1 2 d S
+Al7 Al 0.33939(19) 0.04448(15) 0.0000 0.0118(4) Uani 1 2 d S
+Al8 Al 0.0000 0.5000 0.5000 0.0107(6) Uani 1 4 d S
+Al9 Al 0.0000 0.0000 0.0000 0.0125(6) Uani 1 4 d S
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Ce1 0.0115(2) 0.0145(2) 0.0090(2) 0.000 0.000 -0.00067(18)
+Co1 0.0106(5) 0.0089(5) 0.0087(5) 0.000 0.000 0.0003(4)
+Mn1 0.0106(5) 0.0089(5) 0.0087(5) 0.000 0.000 0.0003(4)
+Co2 0.0089(5) 0.0096(5) 0.0088(5) 0.000 0.000 0.0000(4)
+Mn2 0.0089(5) 0.0096(5) 0.0088(5) 0.000 0.000 0.0000(4)
+Al1 0.0110(11) 0.0116(10) 0.0099(10) 0.000 0.000 -0.0001(9)
+Al2 0.0077(10) 0.0133(9) 0.0113(9) 0.000 0.000 0.0000(8)
+Al3 0.0108(11) 0.0132(10) 0.0099(9) 0.000 0.000 -0.0016(8)
+Al4 0.0127(11) 0.0094(9) 0.0103(10) 0.000 0.000 -0.0014(8)
+Al5 0.0096(11) 0.0111(10) 0.0096(9) 0.000 0.000 0.0022(8)
+Al6 0.0118(11) 0.0101(9) 0.0112(9) 0.000 0.000 0.0013(8)
+Al7 0.0107(11) 0.0140(10) 0.0108(10) 0.000 0.000 0.0019(9)
+Al8 0.0132(17) 0.0095(13) 0.0095(14) 0.000 0.000 0.0010(11)
+Al9 0.0107(16) 0.0129(14) 0.0139(15) 0.000 0.000 -0.0020(12)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Ce Ce -0.2486 2.6331 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Co Co 0.3494 0.9721 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Mn Mn 0.3368 0.7283 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Al Al 0.0645 0.0514 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Al1 Ce1 Al1 79.65(7) 3_556 3
+Al1 Ce1 Al2 93.07(6) 3_556 .
+Al1 Ce1 Al2 150.66(6) 3 .
+Al1 Ce1 Al2 150.66(6) 3_556 1_554
+Al1 Ce1 Al2 93.07(6) 3 1_554
+Al2 Ce1 Al2 79.40(7) . 1_554
+Al1 Ce1 Al5 54.05(6) 3_556 .
+Al1 Ce1 Al5 103.22(6) 3 .
+Al2 Ce1 Al5 94.90(6) . .
+Al2 Ce1 Al5 154.04(6) 1_554 .
+Al1 Ce1 Al5 103.22(6) 3_556 1_554
+Al1 Ce1 Al5 54.05(6) 3 1_554
+Al2 Ce1 Al5 154.04(6) . 1_554
+Al2 Ce1 Al5 94.90(6) 1_554 1_554
+Al5 Ce1 Al5 79.12(7) . 1_554
+Al1 Ce1 Al3 148.73(6) 3_556 1_554
+Al1 Ce1 Al3 92.64(6) 3 1_554
+Al2 Ce1 Al3 107.03(6) . 1_554
+Al2 Ce1 Al3 59.09(6) 1_554 1_554
+Al5 Ce1 Al3 99.56(6) . 1_554
+Al5 Ce1 Al3 50.34(6) 1_554 1_554
+Al1 Ce1 Al3 92.64(6) 3_556 .
+Al1 Ce1 Al3 148.73(6) 3 .
+Al2 Ce1 Al3 59.09(6) . .
+Al2 Ce1 Al3 107.03(6) 1_554 .
+Al5 Ce1 Al3 50.34(6) . .
+Al5 Ce1 Al3 99.56(6) 1_554 .
+Al3 Ce1 Al3 78.31(7) 1_554 .
+Al1 Ce1 Al6 140.18(4) 3_556 .
+Al1 Ce1 Al6 140.18(4) 3 .
+Al2 Ce1 Al6 52.87(5) . .
+Al2 Ce1 Al6 52.87(5) 1_554 .
+Al5 Ce1 Al6 103.61(5) . .
+Al5 Ce1 Al6 103.61(5) 1_554 .
+Al3 Ce1 Al6 54.19(5) 1_554 .
+Al3 Ce1 Al6 54.19(5) . .
+Al1 Ce1 Al4 56.48(6) 3_556 .
+Al1 Ce1 Al4 104.65(6) 3 .
+Al2 Ce1 Al4 49.87(6) . .
+Al2 Ce1 Al4 99.12(6) 1_554 .
+Al5 Ce1 Al4 96.17(6) . .
+Al5 Ce1 Al4 155.25(6) 1_554 .
+Al3 Ce1 Al4 153.28(6) 1_554 .
+Al3 Ce1 Al4 95.71(6) . .
+Al6 Ce1 Al4 101.12(5) . .
+Al1 Ce1 Al4 104.65(6) 3_556 1_554
+Al1 Ce1 Al4 56.48(6) 3 1_554
+Al2 Ce1 Al4 99.12(6) . 1_554
+Al2 Ce1 Al4 49.87(6) 1_554 1_554
+Al5 Ce1 Al4 155.25(6) . 1_554
+Al5 Ce1 Al4 96.17(6) 1_554 1_554
+Al3 Ce1 Al4 95.71(6) 1_554 1_554
+Al3 Ce1 Al4 153.28(6) . 1_554
+Al6 Ce1 Al4 101.12(5) . 1_554
+Al4 Ce1 Al4 77.89(7) . 1_554
+Al1 Ce1 Al9 51.26(4) 3_556 3
+Al1 Ce1 Al9 51.26(4) 3 3
+Al2 Ce1 Al9 102.31(4) . 3
+Al2 Ce1 Al9 102.31(4) 1_554 3
+Al5 Ce1 Al9 103.65(4) . 3
+Al5 Ce1 Al9 103.65(4) 1_554 3
+Al3 Ce1 Al9 140.53(3) 1_554 3
+Al3 Ce1 Al9 140.53(3) . 3
+Al6 Ce1 Al9 144.41(4) . 3
+Al4 Ce1 Al9 53.46(4) . 3
+Al4 Ce1 Al9 53.46(4) 1_554 3
+Al6 Co1 Al8 125.24(3) . .
+Al6 Co1 Al8 125.24(3) . 1_554
+Al8 Co1 Al8 109.49(5) . 1_554
+Al6 Co1 Al7 125.50(9) . 3_455
+Al8 Co1 Al7 71.13(4) . 3_455
+Al8 Co1 Al7 71.13(4) 1_554 3_455
+Al6 Co1 Al7 122.62(9) . 7_665
+Al8 Co1 Al7 71.15(4) . 7_665
+Al8 Co1 Al7 71.15(4) 1_554 7_665
+Al7 Co1 Al7 111.88(7) 3_455 7_665
+Al6 Co1 Al5 71.35(6) . 3_455
+Al8 Co1 Al5 146.20(7) . 3_455
+Al8 Co1 Al5 63.47(5) 1_554 3_455
+Al7 Co1 Al5 75.55(6) 3_455 3_455
+Al7 Co1 Al5 128.51(5) 7_665 3_455
+Al6 Co1 Al5 71.35(6) . 3_456
+Al8 Co1 Al5 63.47(5) . 3_456
+Al8 Co1 Al5 146.20(7) 1_554 3_456
+Al7 Co1 Al5 75.55(6) 3_455 3_456
+Al7 Co1 Al5 128.51(5) 7_665 3_456
+Al5 Co1 Al5 102.95(9) 3_455 3_456
+Al6 Co1 Al2 70.23(6) . 1_554
+Al8 Co1 Al2 145.73(7) . 1_554
+Al8 Co1 Al2 63.19(6) 1_554 1_554
+Al7 Co1 Al2 128.50(5) 3_455 1_554
+Al7 Co1 Al2 75.03(6) 7_665 1_554
+Al5 Co1 Al2 63.88(7) 3_455 1_554
+Al5 Co1 Al2 141.57(8) 3_456 1_554
+Al6 Co1 Al2 70.23(6) . .
+Al8 Co1 Al2 63.19(6) . .
+Al8 Co1 Al2 145.73(7) 1_554 .
+Al7 Co1 Al2 128.50(5) 3_455 .
+Al7 Co1 Al2 75.03(6) 7_665 .
+Al5 Co1 Al2 141.57(8) 3_455 .
+Al5 Co1 Al2 63.88(7) 3_456 .
+Al2 Co1 Al2 102.91(10) 1_554 .
+Al6 Co1 Co1 178.57(9) . 5_565
+Al8 Co1 Co1 54.74(3) . 5_565
+Al8 Co1 Co1 54.74(3) 1_554 5_565
+Al7 Co1 Co1 55.92(6) 3_455 5_565
+Al7 Co1 Co1 55.95(6) 7_665 5_565
+Al5 Co1 Co1 109.45(6) 3_455 5_565
+Al5 Co1 Co1 109.45(6) 3_456 5_565
+Al2 Co1 Co1 108.98(6) 1_554 5_565
+Al2 Co1 Co1 108.98(6) . 5_565
+Al6 Co1 Mn1 178.57(9) . 5_565
+Al8 Co1 Mn1 54.74(3) . 5_565
+Al8 Co1 Mn1 54.74(3) 1_554 5_565
+Al7 Co1 Mn1 55.92(6) 3_455 5_565
+Al7 Co1 Mn1 55.95(6) 7_665 5_565
+Al5 Co1 Mn1 109.45(6) 3_455 5_565
+Al5 Co1 Mn1 109.45(6) 3_456 5_565
+Al2 Co1 Mn1 108.98(6) 1_554 5_565
+Al2 Co1 Mn1 108.98(6) . 5_565
+Co1 Co1 Mn1 0.00(4) 5_565 5_565
+Al9 Co2 Al6 109.21(7) . .
+Al9 Co2 Al7 125.97(7) . .
+Al6 Co2 Al7 124.82(9) . .
+Al9 Co2 Al3 126.46(5) . .
+Al6 Co2 Al3 73.08(6) . .
+Al7 Co2 Al3 74.50(7) . .
+Al9 Co2 Al3 126.46(5) . 1_554
+Al6 Co2 Al3 73.08(6) . 1_554
+Al7 Co2 Al3 74.50(7) . 1_554
+Al3 Co2 Al3 105.87(10) . 1_554
+Al9 Co2 Al4 73.45(6) . 7_654
+Al6 Co2 Al4 126.72(5) . 7_654
+Al7 Co2 Al4 74.64(7) . 7_654
+Al3 Co2 Al4 149.14(9) . 7_654
+Al3 Co2 Al4 65.67(7) 1_554 7_654
+Al9 Co2 Al4 73.45(6) . 7_655
+Al6 Co2 Al4 126.72(5) . 7_655
+Al7 Co2 Al4 74.64(7) . 7_655
+Al3 Co2 Al4 65.67(7) . 7_655
+Al3 Co2 Al4 149.14(9) 1_554 7_655
+Al4 Co2 Al4 105.52(9) 7_654 7_655
+Al9 Co2 Al1 68.17(5) . .
+Al6 Co2 Al1 68.68(6) . .
+Al7 Co2 Al1 129.41(5) . .
+Al3 Co2 Al1 63.41(7) . .
+Al3 Co2 Al1 141.76(8) 1_554 .
+Al4 Co2 Al1 141.63(8) 7_654 .
+Al4 Co2 Al1 63.50(7) 7_655 .
+Al9 Co2 Al1 68.17(5) . 1_554
+Al6 Co2 Al1 68.68(6) . 1_554
+Al7 Co2 Al1 129.41(5) . 1_554
+Al3 Co2 Al1 141.76(8) . 1_554
+Al3 Co2 Al1 63.41(7) 1_554 1_554
+Al4 Co2 Al1 63.50(7) 7_654 1_554
+Al4 Co2 Al1 141.63(8) 7_655 1_554
+Al1 Co2 Al1 101.18(10) . 1_554
+Co2 Al1 Mn2 101.18(10) . 1_556
+Co2 Al1 Co2 101.18(10) . 1_556
+Mn2 Al1 Co2 0.00(4) 1_556 1_556
+Co2 Al1 Al3 56.80(5) . .
+Mn2 Al1 Al3 56.80(5) 1_556 .
+Co2 Al1 Al3 56.80(5) 1_556 .
+Co2 Al1 Al4 56.87(5) . 7_655
+Mn2 Al1 Al4 56.87(5) 1_556 7_655
+Co2 Al1 Al4 56.87(5) 1_556 7_655
+Al3 Al1 Al4 60.97(9) . 7_655
+Co2 Al1 Al9 51.49(4) . .
+Mn2 Al1 Al9 119.67(9) 1_556 .
+Co2 Al1 Al9 119.67(9) 1_556 .
+Al3 Al1 Al9 105.01(7) . .
+Al4 Al1 Al9 64.27(5) 7_655 .
+Co2 Al1 Al9 119.67(9) . 1_556
+Mn2 Al1 Al9 51.49(4) 1_556 1_556
+Co2 Al1 Al9 51.49(4) 1_556 1_556
+Al3 Al1 Al9 105.01(7) . 1_556
+Al4 Al1 Al9 64.27(5) 7_655 1_556
+Al9 Al1 Al9 92.65(8) . 1_556
+Co2 Al1 Al6 119.03(10) . 1_556
+Mn2 Al1 Al6 51.46(6) 1_556 1_556
+Co2 Al1 Al6 51.46(6) 1_556 1_556
+Al3 Al1 Al6 63.77(7) . 1_556
+Al4 Al1 Al6 104.87(9) 7_655 1_556
+Al9 Al1 Al6 167.99(11) . 1_556
+Al9 Al1 Al6 86.59(5) 1_556 1_556
+Co2 Al1 Al6 51.46(6) . .
+Mn2 Al1 Al6 119.03(10) 1_556 .
+Co2 Al1 Al6 119.03(10) 1_556 .
+Al3 Al1 Al6 63.77(7) . .
+Al4 Al1 Al6 104.87(9) 7_655 .
+Al9 Al1 Al6 86.59(5) . .
+Al9 Al1 Al6 167.99(11) 1_556 .
+Al6 Al1 Al6 91.66(10) 1_556 .
+Co2 Al1 Al5 112.12(6) . 3_456
+Mn2 Al1 Al5 112.12(6) 1_556 3_456
+Co2 Al1 Al5 112.12(6) 1_556 3_456
+Al3 Al1 Al5 95.98(10) . 3_456
+Al4 Al1 Al5 156.96(11) 7_655 3_456
+Al9 Al1 Al5 127.57(6) . 3_456
+Al9 Al1 Al5 127.57(6) 1_556 3_456
+Al6 Al1 Al5 60.68(6) 1_556 3_456
+Al6 Al1 Al5 60.68(6) . 3_456
+Co2 Al1 Ce1 89.58(5) . 3_455
+Mn2 Al1 Ce1 169.23(7) 1_556 3_455
+Co2 Al1 Ce1 169.23(7) 1_556 3_455
+Al3 Al1 Ce1 131.77(6) . 3_455
+Al4 Al1 Ce1 131.10(6) 7_655 3_455
+Al9 Al1 Ce1 66.98(4) . 3_455
+Al9 Al1 Ce1 122.37(8) 1_556 3_455
+Al6 Al1 Ce1 123.22(9) 1_556 3_455
+Al6 Al1 Ce1 68.23(6) . 3_455
+Al5 Al1 Ce1 63.28(5) 3_456 3_455
+Co1 Al2 Mn1 102.91(10) . 1_556
+Co1 Al2 Co1 102.91(10) . 1_556
+Mn1 Al2 Co1 0.00(4) 1_556 1_556
+Co1 Al2 Al8 56.40(5) . .
+Mn1 Al2 Al8 56.39(5) 1_556 .
+Co1 Al2 Al8 56.39(5) 1_556 .
+Co1 Al2 Al4 113.25(7) . .
+Mn1 Al2 Al4 113.25(7) 1_556 .
+Co1 Al2 Al4 113.25(7) 1_556 .
+Al8 Al2 Al4 101.95(9) . .
+Co1 Al2 Al5 58.05(5) . 3_456
+Mn1 Al2 Al5 58.05(5) 1_556 3_456
+Co1 Al2 Al5 58.05(5) 1_556 3_456
+Al8 Al2 Al5 59.23(7) . 3_456
+Al4 Al2 Al5 161.18(11) . 3_456
+Co1 Al2 Al6 50.79(6) . .
+Mn1 Al2 Al6 118.82(10) 1_556 .
+Co1 Al2 Al6 118.82(10) 1_556 .
+Al8 Al2 Al6 102.17(8) . .
+Al4 Al2 Al6 127.69(7) . .
+Al5 Al2 Al6 62.13(7) 3_456 .
+Co1 Al2 Al6 118.82(10) . 1_556
+Mn1 Al2 Al6 50.80(6) 1_556 1_556
+Co1 Al2 Al6 50.80(6) 1_556 1_556
+Al8 Al2 Al6 102.17(8) . 1_556
+Al4 Al2 Al6 127.69(7) . 1_556
+Al5 Al2 Al6 62.13(7) 3_456 1_556
+Al6 Al2 Al6 90.84(10) . 1_556
+Co1 Al2 Ce1 88.61(5) . .
+Mn1 Al2 Ce1 167.15(7) 1_556 .
+Co1 Al2 Ce1 167.15(7) 1_556 .
+Al8 Al2 Ce1 136.35(4) . .
+Al4 Al2 Ce1 66.06(6) . .
+Al5 Al2 Ce1 126.51(6) 3_456 .
+Al6 Al2 Ce1 64.39(6) . .
+Al6 Al2 Ce1 118.53(9) 1_556 .
+Co1 Al2 Ce1 167.15(7) . 1_556
+Mn1 Al2 Ce1 88.61(5) 1_556 1_556
+Co1 Al2 Ce1 88.61(5) 1_556 1_556
+Al8 Al2 Ce1 136.35(4) . 1_556
+Al4 Al2 Ce1 66.06(6) . 1_556
+Al5 Al2 Ce1 126.51(6) 3_456 1_556
+Al6 Al2 Ce1 118.53(9) . 1_556
+Al6 Al2 Ce1 64.39(6) 1_556 1_556
+Ce1 Al2 Ce1 79.40(7) . 1_556
+Mn2 Al3 Co2 0.00(6) 1_556 1_556
+Mn2 Al3 Co2 105.87(10) 1_556 .
+Co2 Al3 Co2 105.87(10) 1_556 .
+Mn2 Al3 Al1 59.79(6) 1_556 .
+Co2 Al3 Al1 59.79(6) 1_556 .
+Co2 Al3 Al1 59.79(6) . .
+Mn2 Al3 Al5 115.77(7) 1_556 .
+Co2 Al3 Al5 115.77(7) 1_556 .
+Co2 Al3 Al5 115.77(7) . .
+Al1 Al3 Al5 169.57(12) . .
+Mn2 Al3 Al4 57.27(5) 1_556 7_655
+Co2 Al3 Al4 57.27(5) 1_556 7_655
+Co2 Al3 Al4 57.27(5) . 7_655
+Al1 Al3 Al4 59.62(8) . 7_655
+Al5 Al3 Al4 109.95(10) . 7_655
+Mn2 Al3 Al6 50.82(6) 1_556 1_556
+Co2 Al3 Al6 50.82(6) 1_556 1_556
+Co2 Al3 Al6 118.22(10) . 1_556
+Al1 Al3 Al6 59.96(7) . 1_556
+Al5 Al3 Al6 125.90(7) . 1_556
+Al4 Al3 Al6 101.27(8) 7_655 1_556
+Mn2 Al3 Al6 118.23(10) 1_556 .
+Co2 Al3 Al6 118.23(10) 1_556 .
+Co2 Al3 Al6 50.82(6) . .
+Al1 Al3 Al6 59.96(7) . .
+Al5 Al3 Al6 125.90(7) . .
+Al4 Al3 Al6 101.27(8) 7_655 .
+Al6 Al3 Al6 87.61(10) 1_556 .
+Mn2 Al3 Ce1 163.89(7) 1_556 .
+Co2 Al3 Ce1 163.89(7) 1_556 .
+Co2 Al3 Ce1 87.31(5) . .
+Al1 Al3 Ce1 122.88(7) . .
+Al5 Al3 Ce1 64.30(6) . .
+Al4 Al3 Ce1 138.78(4) 7_655 .
+Al6 Al3 Ce1 114.89(8) 1_556 .
+Al6 Al3 Ce1 63.05(6) . .
+Mn2 Al3 Ce1 87.31(5) 1_556 1_556
+Co2 Al3 Ce1 87.31(5) 1_556 1_556
+Co2 Al3 Ce1 163.89(7) . 1_556
+Al1 Al3 Ce1 122.88(7) . 1_556
+Al5 Al3 Ce1 64.30(6) . 1_556
+Al4 Al3 Ce1 138.78(4) 7_655 1_556
+Al6 Al3 Ce1 63.05(6) 1_556 1_556
+Al6 Al3 Ce1 114.89(8) . 1_556
+Ce1 Al3 Ce1 78.31(7) . 1_556
+Mn2 Al4 Co2 0.00(6) 7_666 7_666
+Mn2 Al4 Mn2 105.52(9) 7_666 7_665
+Co2 Al4 Mn2 105.52(9) 7_666 7_665
+Mn2 Al4 Co2 105.52(9) 7_666 7_665
+Co2 Al4 Co2 105.52(9) 7_666 7_665
+Mn2 Al4 Co2 0.00(6) 7_665 7_665
+Mn2 Al4 Al2 115.44(7) 7_666 .
+Co2 Al4 Al2 115.44(7) 7_666 .
+Mn2 Al4 Al2 115.44(7) 7_665 .
+Co2 Al4 Al2 115.44(7) 7_665 .
+Mn2 Al4 Al1 59.64(5) 7_666 7_665
+Co2 Al4 Al1 59.64(5) 7_666 7_665
+Mn2 Al4 Al1 59.64(5) 7_665 7_665
+Co2 Al4 Al1 59.64(5) 7_665 7_665
+Al2 Al4 Al1 168.57(12) . 7_665
+Mn2 Al4 Al3 57.07(5) 7_666 7_665
+Co2 Al4 Al3 57.07(5) 7_666 7_665
+Mn2 Al4 Al3 57.07(5) 7_665 7_665
+Co2 Al4 Al3 57.07(5) 7_665 7_665
+Al2 Al4 Al3 109.17(11) . 7_665
+Al1 Al4 Al3 59.40(8) 7_665 7_665
+Mn2 Al4 Al9 50.40(4) 7_666 3_556
+Co2 Al4 Al9 50.40(4) 7_666 3_556
+Mn2 Al4 Al9 117.43(9) 7_665 3_556
+Co2 Al4 Al9 117.43(9) 7_665 3_556
+Al2 Al4 Al9 127.10(6) . 3_556
+Al1 Al4 Al9 59.21(5) 7_665 3_556
+Al3 Al4 Al9 100.39(6) 7_665 3_556
+Mn2 Al4 Al9 117.43(9) 7_666 3
+Co2 Al4 Al9 117.43(9) 7_666 3
+Mn2 Al4 Al9 50.40(4) 7_665 3
+Co2 Al4 Al9 50.40(4) 7_665 3
+Al2 Al4 Al9 127.10(6) . 3
+Al1 Al4 Al9 59.21(5) 7_665 3
+Al3 Al4 Al9 100.39(6) 7_665 3
+Al9 Al4 Al9 87.21(8) 3_556 3
+Mn2 Al4 Ce1 164.24(8) 7_666 .
+Co2 Al4 Ce1 164.24(8) 7_666 .
+Mn2 Al4 Ce1 87.80(5) 7_665 .
+Co2 Al4 Ce1 87.80(5) 7_665 .
+Al2 Al4 Ce1 64.07(6) . .
+Al1 Al4 Ce1 123.78(7) 7_665 .
+Al3 Al4 Ce1 138.69(5) 7_665 .
+Al9 Al4 Ce1 116.08(8) 3_556 .
+Al9 Al4 Ce1 64.70(4) 3 .
+Mn2 Al4 Ce1 87.80(5) 7_666 1_556
+Co2 Al4 Ce1 87.80(5) 7_666 1_556
+Mn2 Al4 Ce1 164.24(8) 7_665 1_556
+Co2 Al4 Ce1 164.24(8) 7_665 1_556
+Al2 Al4 Ce1 64.07(6) . 1_556
+Al1 Al4 Ce1 123.78(7) 7_665 1_556
+Al3 Al4 Ce1 138.69(5) 7_665 1_556
+Al9 Al4 Ce1 64.70(4) 3_556 1_556
+Al9 Al4 Ce1 116.08(8) 3 1_556
+Ce1 Al4 Ce1 77.89(7) . 1_556
+Mn1 Al5 Co1 0.00(6) 3 3
+Mn1 Al5 Mn1 102.94(9) 3 3_556
+Co1 Al5 Mn1 102.94(9) 3 3_556
+Mn1 Al5 Co1 102.94(9) 3 3_556
+Co1 Al5 Co1 102.94(9) 3 3_556
+Mn1 Al5 Co1 0.00(6) 3_556 3_556
+Mn1 Al5 Al8 56.28(5) 3 3_556
+Co1 Al5 Al8 56.28(5) 3 3_556
+Mn1 Al5 Al8 56.28(5) 3_556 3_556
+Co1 Al5 Al8 56.28(5) 3_556 3_556
+Mn1 Al5 Al3 112.45(7) 3 .
+Co1 Al5 Al3 112.45(7) 3 .
+Mn1 Al5 Al3 112.45(7) 3_556 .
+Co1 Al5 Al3 112.45(7) 3_556 .
+Al8 Al5 Al3 100.84(9) 3_556 .
+Mn1 Al5 Al2 58.07(5) 3 3_556
+Co1 Al5 Al2 58.07(5) 3 3_556
+Mn1 Al5 Al2 58.07(5) 3_556 3_556
+Co1 Al5 Al2 58.07(5) 3_556 3_556
+Al8 Al5 Al2 58.86(6) 3_556 3_556
+Al3 Al5 Al2 159.71(11) . 3_556
+Mn1 Al5 Al1 108.99(7) 3 3_556
+Co1 Al5 Al1 108.99(7) 3 3_556
+Mn1 Al5 Al1 108.99(7) 3_556 3_556
+Co1 Al5 Al1 108.99(7) 3_556 3_556
+Al8 Al5 Al1 148.45(10) 3_556 3_556
+Al3 Al5 Al1 110.70(10) . 3_556
+Al2 Al5 Al1 89.59(9) 3_556 3_556
+Mn1 Al5 Al6 117.45(10) 3 3_556
+Co1 Al5 Al6 117.45(10) 3 3_556
+Mn1 Al5 Al6 50.33(5) 3_556 3_556
+Co1 Al5 Al6 50.33(5) 3_556 3_556
+Al8 Al5 Al6 100.90(7) 3_556 3_556
+Al3 Al5 Al6 129.65(6) . 3_556
+Al2 Al5 Al6 60.71(7) 3_556 3_556
+Al1 Al5 Al6 58.66(6) 3_556 3_556
+Mn1 Al5 Al6 50.33(5) 3 3
+Co1 Al5 Al6 50.33(5) 3 3
+Mn1 Al5 Al6 117.45(10) 3_556 3
+Co1 Al5 Al6 117.45(10) 3_556 3
+Al8 Al5 Al6 100.90(7) 3_556 3
+Al3 Al5 Al6 129.65(6) . 3
+Al2 Al5 Al6 60.71(7) 3_556 3
+Al1 Al5 Al6 58.66(6) 3_556 3
+Al6 Al5 Al6 89.28(10) 3_556 3
+Mn1 Al5 Ce1 167.58(6) 3 1_556
+Co1 Al5 Ce1 167.58(6) 3 1_556
+Mn1 Al5 Ce1 88.86(5) 3_556 1_556
+Co1 Al5 Ce1 88.86(5) 3_556 1_556
+Al8 Al5 Ce1 135.67(5) 3_556 1_556
+Al3 Al5 Ce1 65.36(5) . 1_556
+Al2 Al5 Ce1 128.02(6) 3_556 1_556
+Al1 Al5 Ce1 62.67(5) 3_556 1_556
+Al6 Al5 Ce1 67.32(6) 3_556 1_556
+Al6 Al5 Ce1 120.62(8) 3 1_556
+Mn1 Al5 Ce1 88.86(5) 3 .
+Co1 Al5 Ce1 88.86(5) 3 .
+Mn1 Al5 Ce1 167.58(6) 3_556 .
+Co1 Al5 Ce1 167.58(6) 3_556 .
+Al8 Al5 Ce1 135.67(5) 3_556 .
+Al3 Al5 Ce1 65.36(5) . .
+Al2 Al5 Ce1 128.02(6) 3_556 .
+Al1 Al5 Ce1 62.67(5) 3_556 .
+Al6 Al5 Ce1 120.62(8) 3_556 .
+Al6 Al5 Ce1 67.32(6) 3 .
+Ce1 Al5 Ce1 79.12(7) 1_556 .
+Co1 Al6 Co2 177.95(12) . .
+Co1 Al6 Al1 118.98(8) . 1_554
+Co2 Al6 Al1 59.86(6) . 1_554
+Co1 Al6 Al1 118.98(8) . .
+Co2 Al6 Al1 59.86(6) . .
+Al1 Al6 Al1 91.66(10) 1_554 .
+Co1 Al6 Al2 58.98(6) . 1_554
+Co2 Al6 Al2 122.14(7) . 1_554
+Al1 Al6 Al2 88.71(6) 1_554 1_554
+Al1 Al6 Al2 177.74(11) . 1_554
+Co1 Al6 Al2 58.98(6) . .
+Co2 Al6 Al2 122.14(7) . .
+Al1 Al6 Al2 177.74(11) 1_554 .
+Al1 Al6 Al2 88.71(6) . .
+Al2 Al6 Al2 90.84(10) 1_554 .
+Co1 Al6 Al5 58.32(6) . 3_455
+Co2 Al6 Al5 120.51(7) . 3_455
+Al1 Al6 Al5 60.66(7) 1_554 3_455
+Al1 Al6 Al5 121.20(10) . 3_455
+Al2 Al6 Al5 57.16(7) 1_554 3_455
+Al2 Al6 Al5 117.30(10) . 3_455
+Co1 Al6 Al5 58.32(6) . 3_456
+Co2 Al6 Al5 120.51(7) . 3_456
+Al1 Al6 Al5 121.20(10) 1_554 3_456
+Al1 Al6 Al5 60.66(7) . 3_456
+Al2 Al6 Al5 117.30(10) 1_554 3_456
+Al2 Al6 Al5 57.16(7) . 3_456
+Al5 Al6 Al5 89.28(10) 3_455 3_456
+Co1 Al6 Al3 125.02(7) . .
+Co2 Al6 Al3 56.09(6) . .
+Al1 Al6 Al3 115.95(9) 1_554 .
+Al1 Al6 Al3 56.27(7) . .
+Al2 Al6 Al3 125.46(11) 1_554 .
+Al2 Al6 Al3 66.05(7) . .
+Al5 Al6 Al3 176.25(10) 3_455 .
+Al5 Al6 Al3 91.44(6) 3_456 .
+Co1 Al6 Al3 125.02(7) . 1_554
+Co2 Al6 Al3 56.09(6) . 1_554
+Al1 Al6 Al3 56.27(7) 1_554 1_554
+Al1 Al6 Al3 115.95(9) . 1_554
+Al2 Al6 Al3 66.05(7) 1_554 1_554
+Al2 Al6 Al3 125.46(11) . 1_554
+Al5 Al6 Al3 91.44(6) 3_455 1_554
+Al5 Al6 Al3 176.25(10) 3_456 1_554
+Al3 Al6 Al3 87.61(10) . 1_554
+Co2 Al7 Mn1 145.94(10) . 3
+Co2 Al7 Co1 145.94(10) . 3
+Mn1 Al7 Co1 0.00(4) 3 3
+Co2 Al7 Mn1 145.93(10) . 7_655
+Mn1 Al7 Mn1 68.12(7) 3 7_655
+Co1 Al7 Mn1 68.12(7) 3 7_655
+Co2 Al7 Co1 145.93(10) . 7_655
+Mn1 Al7 Co1 68.12(7) 3 7_655
+Co1 Al7 Co1 68.12(7) 3 7_655
+Mn1 Al7 Co1 0.00(4) 7_655 7_655
+Co2 Al7 Al8 136.27(4) . 3_556
+Mn1 Al7 Al8 53.22(4) 3 3_556
+Co1 Al7 Al8 53.22(4) 3 3_556
+Mn1 Al7 Al8 53.23(4) 7_655 3_556
+Co1 Al7 Al8 53.23(4) 7_655 3_556
+Co2 Al7 Al8 136.27(4) . 3
+Mn1 Al7 Al8 53.22(4) 3 3
+Co1 Al7 Al8 53.22(4) 3 3
+Mn1 Al7 Al8 53.23(4) 7_655 3
+Co1 Al7 Al8 53.23(4) 7_655 3
+Al8 Al7 Al8 87.45(8) 3_556 3
+Mn1 Al8 Co1 0.00(5) 5_566 5_566
+Mn1 Al8 Mn1 109.49(5) 5_566 5_565
+Co1 Al8 Mn1 109.49(5) 5_566 5_565
+Mn1 Al8 Mn1 70.51(5) 5_566 1_556
+Co1 Al8 Mn1 70.51(5) 5_566 1_556
+Mn1 Al8 Mn1 180.00(4) 5_565 1_556
+Mn1 Al8 Co1 70.51(5) 5_566 1_556
+Co1 Al8 Co1 70.51(5) 5_566 1_556
+Mn1 Al8 Co1 180.00(4) 5_565 1_556
+Mn1 Al8 Co1 0.00(4) 1_556 1_556
+Mn1 Al8 Co1 109.49(5) 5_566 5_565
+Co1 Al8 Co1 109.49(5) 5_566 5_565
+Mn1 Al8 Co1 0.00(6) 5_565 5_565
+Mn1 Al8 Co1 180.0 1_556 5_565
+Co1 Al8 Co1 180.0 1_556 5_565
+Mn1 Al8 Co1 180.00(4) 5_566 .
+Co1 Al8 Co1 180.00(4) 5_566 .
+Mn1 Al8 Co1 70.51(5) 5_565 .
+Mn1 Al8 Co1 109.49(5) 1_556 .
+Co1 Al8 Co1 109.49(5) 1_556 .
+Co1 Al8 Co1 70.51(5) 5_565 .
+Mn1 Al8 Al2 60.41(3) 5_566 5_566
+Co1 Al8 Al2 60.41(3) 5_566 5_566
+Mn1 Al8 Al2 60.41(3) 5_565 5_566
+Mn1 Al8 Al2 119.59(3) 1_556 5_566
+Co1 Al8 Al2 119.59(3) 1_556 5_566
+Co1 Al8 Al2 60.41(3) 5_565 5_566
+Co1 Al8 Al2 119.59(3) . 5_566
+Mn1 Al8 Al2 119.59(3) 5_566 .
+Co1 Al8 Al2 119.59(3) 5_566 .
+Mn1 Al8 Al2 119.59(3) 5_565 .
+Mn1 Al8 Al2 60.41(3) 1_556 .
+Co1 Al8 Al2 60.41(3) 1_556 .
+Co1 Al8 Al2 119.59(3) 5_565 .
+Co1 Al8 Al2 60.41(3) . .
+Al2 Al8 Al2 180.0 5_566 .
+Mn1 Al8 Al5 60.25(3) 5_566 7_665
+Co1 Al8 Al5 60.25(3) 5_566 7_665
+Mn1 Al8 Al5 60.25(3) 5_565 7_665
+Mn1 Al8 Al5 119.75(3) 1_556 7_665
+Co1 Al8 Al5 119.75(3) 1_556 7_665
+Co1 Al8 Al5 60.25(3) 5_565 7_665
+Co1 Al8 Al5 119.75(3) . 7_665
+Al2 Al8 Al5 61.91(7) 5_566 7_665
+Al2 Al8 Al5 118.09(7) . 7_665
+Mn1 Al8 Al5 119.75(3) 5_566 3_456
+Co1 Al8 Al5 119.75(3) 5_566 3_456
+Mn1 Al8 Al5 119.75(3) 5_565 3_456
+Mn1 Al8 Al5 60.25(3) 1_556 3_456
+Co1 Al8 Al5 60.25(3) 1_556 3_456
+Co1 Al8 Al5 119.75(3) 5_565 3_456
+Co1 Al8 Al5 60.25(3) . 3_456
+Al2 Al8 Al5 118.09(7) 5_566 3_456
+Al2 Al8 Al5 61.91(7) . 3_456
+Al5 Al8 Al5 180.0 7_665 3_456
+Co2 Al9 Mn2 180.0 . 5
+Co2 Al9 Co2 180.0 . 5
+Mn2 Al9 Co2 0.00(5) 5 5
+Co2 Al9 Al1 60.34(5) . .
+Mn2 Al9 Al1 119.66(5) 5 .
+Co2 Al9 Al1 119.66(5) 5 .
+Co2 Al9 Al1 119.66(5) . 5
+Mn2 Al9 Al1 60.34(5) 5 5
+Co2 Al9 Al1 60.34(5) 5 5
+Al1 Al9 Al1 180.00(10) . 5
+Co2 Al9 Al1 119.66(5) . 5_556
+Mn2 Al9 Al1 60.34(5) 5 5_556
+Co2 Al9 Al1 60.34(5) 5 5_556
+Al1 Al9 Al1 87.35(8) . 5_556
+Al1 Al9 Al1 92.65(8) 5 5_556
+Co2 Al9 Al1 60.34(5) . 1_554
+Mn2 Al9 Al1 119.66(5) 5 1_554
+Co2 Al9 Al1 119.66(5) 5 1_554
+Al1 Al9 Al1 92.65(8) . 1_554
+Al1 Al9 Al1 87.35(8) 5 1_554
+Al1 Al9 Al1 180.00(6) 5_556 1_554
+Co2 Al9 Al4 56.15(4) . 7_655
+Mn2 Al9 Al4 123.85(4) 5 7_655
+Co2 Al9 Al4 123.85(4) 5 7_655
+Al1 Al9 Al4 56.52(6) . 7_655
+Al1 Al9 Al4 123.48(6) 5 7_655
+Al1 Al9 Al4 63.51(6) 5_556 7_655
+Al1 Al9 Al4 116.49(6) 1_554 7_655
+Co2 Al9 Al4 123.85(4) . 3_455
+Mn2 Al9 Al4 56.15(4) 5 3_455
+Co2 Al9 Al4 56.15(4) 5 3_455
+Al1 Al9 Al4 123.48(6) . 3_455
+Al1 Al9 Al4 56.52(6) 5 3_455
+Al1 Al9 Al4 116.49(6) 5_556 3_455
+Al1 Al9 Al4 63.51(6) 1_554 3_455
+Al4 Al9 Al4 180.00(7) 7_655 3_455
+Co2 Al9 Al4 56.15(4) . 7_654
+Mn2 Al9 Al4 123.85(4) 5 7_654
+Co2 Al9 Al4 123.85(4) 5 7_654
+Al1 Al9 Al4 116.49(6) . 7_654
+Al1 Al9 Al4 63.51(6) 5 7_654
+Al1 Al9 Al4 123.48(6) 5_556 7_654
+Al1 Al9 Al4 56.52(6) 1_554 7_654
+Al4 Al9 Al4 87.21(8) 7_655 7_654
+Al4 Al9 Al4 92.79(8) 3_455 7_654
+Co2 Al9 Al4 123.85(4) . 3_456
+Mn2 Al9 Al4 56.15(4) 5 3_456
+Co2 Al9 Al4 56.15(4) 5 3_456
+Al1 Al9 Al4 63.51(6) . 3_456
+Al1 Al9 Al4 116.49(6) 5 3_456
+Al1 Al9 Al4 56.52(6) 5_556 3_456
+Al1 Al9 Al4 123.48(6) 1_554 3_456
+Al4 Al9 Al4 92.79(8) 7_655 3_456
+Al4 Al9 Al4 87.21(8) 3_455 3_456
+Al4 Al9 Al4 180.00(11) 7_654 3_456
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ce1 Al1 3.144(2) 3_556
+Ce1 Al1 3.144(2) 3
+Ce1 Al2 3.152(2) .
+Ce1 Al2 3.152(2) 1_554
+Ce1 Al5 3.1609(19) .
+Ce1 Al5 3.1609(19) 1_554
+Ce1 Al3 3.188(2) 1_554
+Ce1 Al3 3.188(2) .
+Ce1 Al6 3.197(2) .
+Ce1 Al4 3.203(2) .
+Ce1 Al4 3.203(2) 1_554
+Ce1 Al9 3.2843(7) 3
+Co1 Al6 2.327(2) .
+Co1 Al8 2.4654(14) .
+Co1 Al8 2.4654(14) 1_554
+Co1 Al7 2.541(3) 3_455
+Co1 Al7 2.540(2) 7_665
+Co1 Al5 2.5734(19) 3_455
+Co1 Al5 2.5734(19) 3_456
+Co1 Al2 2.574(2) 1_554
+Co1 Al2 2.574(2) .
+Co1 Co1 2.846(2) 5_565
+Co1 Mn1 2.846(2) 5_565
+Co2 Al9 2.3462(10) .
+Co2 Al6 2.357(2) .
+Co2 Al7 2.464(3) .
+Co2 Al3 2.5230(19) .
+Co2 Al3 2.5230(19) 1_554
+Co2 Al4 2.5288(19) 7_654
+Co2 Al4 2.5288(19) 7_655
+Co2 Al1 2.606(2) .
+Co2 Al1 2.606(2) 1_554
+Al1 Mn2 2.606(2) 1_556
+Al1 Co2 2.606(2) 1_556
+Al1 Al3 2.696(3) .
+Al1 Al4 2.702(3) 7_655
+Al1 Al9 2.7835(19) .
+Al1 Al9 2.7835(19) 1_556
+Al1 Al6 2.807(2) 1_556
+Al1 Al6 2.807(2) .
+Al1 Al5 2.865(3) 3_456
+Al1 Ce1 3.144(2) 3_455
+Al2 Mn1 2.574(2) 1_556
+Al2 Co1 2.574(2) 1_556
+Al2 Al8 2.642(2) .
+Al2 Al4 2.679(3) .
+Al2 Al5 2.723(3) 3_456
+Al2 Al6 2.826(2) .
+Al2 Al6 2.826(2) 1_556
+Al2 Ce1 3.152(2) 1_556
+Al3 Mn2 2.5230(19) 1_556
+Al3 Co2 2.5230(19) 1_556
+Al3 Al5 2.701(3) .
+Al3 Al4 2.739(3) 7_655
+Al3 Al6 2.908(3) 1_556
+Al3 Al6 2.908(3) .
+Al3 Ce1 3.188(2) 1_556
+Al4 Mn2 2.5288(19) 7_666
+Al4 Co2 2.5288(19) 7_666
+Al4 Mn2 2.5288(19) 7_665
+Al4 Co2 2.5288(19) 7_665
+Al4 Al1 2.703(3) 7_665
+Al4 Al3 2.739(3) 7_665
+Al4 Al9 2.919(2) 3_556
+Al4 Al9 2.919(2) 3
+Al4 Ce1 3.203(2) 1_556
+Al5 Mn1 2.5734(19) 3
+Al5 Co1 2.5734(19) 3
+Al5 Mn1 2.5734(19) 3_556
+Al5 Co1 2.5734(19) 3_556
+Al5 Al8 2.652(2) 3_556
+Al5 Al2 2.723(3) 3_556
+Al5 Al1 2.865(3) 3_556
+Al5 Al6 2.865(3) 3_556
+Al5 Al6 2.865(3) 3
+Al5 Ce1 3.1609(19) 1_556
+Al6 Al1 2.807(2) 1_554
+Al6 Al2 2.826(2) 1_554
+Al6 Al5 2.865(2) 3_455
+Al6 Al5 2.865(2) 3_456
+Al6 Al3 2.908(3) 1_554
+Al7 Mn1 2.541(3) 3
+Al7 Co1 2.541(3) 3
+Al7 Mn1 2.540(2) 7_655
+Al7 Co1 2.540(2) 7_655
+Al7 Al8 2.913(2) 3_556
+Al7 Al8 2.913(2) 3
+Al8 Mn1 2.4654(13) 5_566
+Al8 Co1 2.4654(13) 5_566
+Al8 Mn1 2.4654(14) 5_565
+Al8 Mn1 2.4654(14) 1_556
+Al8 Co1 2.4654(14) 1_556
+Al8 Co1 2.4654(14) 5_565
+Al8 Al2 2.642(2) 5_566
+Al8 Al5 2.652(2) 7_665
+Al8 Al5 2.652(2) 3_456
+Al9 Mn2 2.3462(10) 5
+Al9 Co2 2.3462(10) 5
+Al9 Al1 2.7836(19) 5
+Al9 Al1 2.7836(19) 5_556
+Al9 Al1 2.7836(19) 1_554
+Al9 Al4 2.919(2) 7_655
+Al9 Al4 2.919(2) 3_455
+Al9 Al4 2.919(2) 7_654
+Al9 Al4 2.919(2) 3_456

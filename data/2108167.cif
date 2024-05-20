@@ -1,0 +1,201 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-26 09:43:25 +0200 (Fri, 26 Jan 2018) $
+#$Revision: 205692 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/81/2108167.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2108167
+loop_
+_publ_author_name
+'Bull, Craig L.'
+'Funnell, Nicholas P.'
+'Pulham, Colin R.'
+'Marshall, William G.'
+'Allan, David R.'
+_publ_section_title
+;
+ A new high-pressure polymorph of phosphoric acid
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              1068
+_journal_page_last               1074
+_journal_paper_doi               10.1107/S205252061701441X
+_journal_volume                  73
+_journal_year                    2017
+_chemical_compound_source        'Sigma Aldrich'
+_chemical_formula_moiety         'D3 O4 P'
+_chemical_formula_sum            'D3 O4 P'
+_chemical_formula_weight         101.01
+_chemical_melting_point          315.5
+_chemical_name_common            'Phosphoric acid'
+_chemical_name_systematic
+;
+Phosphoric acid
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 92.633(13)
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   5.4030(7)
+_cell_length_b                   4.7036(6)
+_cell_length_c                   10.9238(14)
+_cell_measurement_pressure       3.17
+_cell_measurement_temperature    295
+_cell_volume                     277.32(6)
+_diffrn_ambient_temperature      295
+_diffrn_detector                 'ZnS scintillator'
+_diffrn_detector_type            custom
+_diffrn_measurement_device_type  'PEARL diffractometer'
+_diffrn_radiation_monochromator  none
+_diffrn_radiation_type           Neutron
+_diffrn_source                   'Pulsed neutron source'
+_diffrn_source_target            W
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+;
+Calculated using custom ISIS routines.
+;
+_exptl_crystal_density_diffrn    2.419
+_pd_char_colour                  white
+_pd_instr_dist_spec/detc         800
+_pd_instr_dist_src/spec          12800
+_pd_instr_location
+'ISIS Neutron Facility, Rutherford Appleton Laboratory'
+_pd_meas_2theta_fixed            90
+_pd_meas_scan_method             Time-of-flight
+_pd_proc_info_data_reduction
+;
+Custom ISIS software
+;
+_pd_proc_info_excluded_regions
+;
+?
+
+;
+_pd_proc_ls_background_function  'Chebychev polynomial'
+_pd_proc_ls_pref_orient_corr
+;
+No requirement for preferred orientation correction
+;
+_pd_proc_ls_profile_function
+;
+Voigt function convoluted with a back-to-back double exponential.
+;
+_pd_proc_ls_prof_wR_factor       0.0631
+_pd_spec_mounting                'TiZr Capsule'
+_pd_spec_mount_mode              transmission
+_refine_ls_goodness_of_fit_all   1.36
+_refine_ls_hydrogen_treatment    refxyz
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     60
+_refine_ls_number_restraints     13
+_refine_ls_R_Fsqd_factor         0.1145
+_refine_ls_shift/su_max          0.04
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            xk5045sup1.cif
+_cod_data_source_block           Phosphoric_acid_I_3.17_GPa
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_chemical_melting_point' value '315.5 K' was changed to '315.5' -
+the value should be numeric and without a unit designator.
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/home/data/users/saulius/crontab/automatic-downloads/rss-feeds/IUCr/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 4973 2017-02-22 13:04:09Z antanas 
+;
+_cod_original_cell_volume        277.32(4)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2108167
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z '
+'-x, y+1/2, -z+1/2 '
+'-x, -y, -z '
+'x, -y+1/2, z+1/2 '
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_thermal_displace_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+P P 0.1982(16) 0.3010(15) 0.1285(7) 1.0 Uiso -0.0108(13) 4
+O O1 0.3122(22) 0.1631(21) 0.2410(9) 1.0 Uiso 0.0155(18) 4
+O O2 0.2903(26) 0.6099(19) 0.1330(12) 1.0 Uiso 0.0155(18) 4
+O O3 -0.0867(19) 0.2983(25) 0.1270(12) 1.0 Uiso 0.0155(18) 4
+O O4 0.2914(24) 0.1588(25) 0.0101(9) 1.0 Uiso 0.0155(18) 4
+D D2 0.4511(27) 0.6652(25) 0.1742(16) 1.0 Uiso 0.0456(27) 4
+D D3 -0.1674(23) 0.4504(27) 0.1783(13) 1.0 Uiso 0.0456(27) 4
+D D4 0.2687(28) -0.0545(25) 0.0140(14) 1.0 Uiso 0.0456(27) 4
+loop_
+_atom_type_symbol
+_atom_type_number_in_cell
+P 4.0
+D 12.0
+O 16.0
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O1 P O2 105.3(8) no
+O1 P O3 112.2(8) no
+O1 P O4 111.1(7) no
+O2 P O3 109.3(8) no
+O2 P O4 108.4(8) no
+O3 P O4 110.3(8) no
+P O2 D2 122.4(12) no
+P O3 D3 116.1(11) no
+P O4 D4 110.3(12) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P O1 1.497(13) no
+P O2 1.535(12) no
+P O3 1.539(13) no
+P O4 1.559(13) no
+O2 D2 1.00(2) no
+O3 D3 1.018(17) no
+O4 D4 1.015(13) no
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_publ_flag
+O1 P O2 D2 28(2) no
+O3 P O2 D2 149.0(17) no
+O4 P O2 D2 -90.7(18) no
+O1 P O3 D3 80.0(14) no
+O2 P O3 D3 -36.4(16) no
+O4 P O3 D3 -155.6(13) no
+O1 P O4 D4 51.5(15) no
+O2 P O4 D4 166.7(13) no
+O3 P O4 D4 -73.6(14) no

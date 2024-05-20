@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/10/9011018.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011018
+loop_
+_publ_author_name
+'Giglio, M.'
+_publ_section_title
+;
+ Die kristallstruktur von Na2Zn(SO4)2*4H2O (Zn-blodit)
+;
+_journal_name_full               'Acta Crystallographica'
+_journal_page_first              789
+_journal_page_last               794
+_journal_paper_doi               10.1107/S0365110X5800222X
+_journal_volume                  11
+_journal_year                    1958
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'H8 Na2 O12 S2 Zn'
+_chemical_name_mineral           Changoite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.58
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   11.05
+_cell_length_b                   8.23
+_cell_length_c                   5.54
+_cell_volume                     495.251
+_database_code_amcsd             0009212
+_exptl_crystal_density_diffrn    2.518
+_cod_original_formula_sum        'Zn Na2 S2 O12 H8'
+_cod_database_code               9011018
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn 0.00000 0.00000 0.00000 0.00426 Zn 0
+Na 0.36200 0.06500 0.12800 0.00426 Na 0
+S 0.13400 0.29400 0.37400 0.00426 S 0
+O1 0.27200 0.26700 0.34400 0.00426 O 0
+O2 0.07800 0.40700 0.17800 0.00426 O 0
+O3 0.07200 0.12600 0.31500 0.00426 O 0
+O4 0.12600 0.32000 0.64800 0.00426 O 0
+Wat1 0.15800 0.04100 0.87000 0.00426 O 2
+Wat2 0.42600 0.28200 0.78400 0.00426 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:52:50+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009212

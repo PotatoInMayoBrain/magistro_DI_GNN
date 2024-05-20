@@ -1,0 +1,215 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 12:17:29 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 178944 $
+#$URL: svn://www.crystallography.net/cod/cif/4/11/73/4117369.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4117369
+loop_
+_publ_author_name
+'Christopher M. Kareis'
+'Saul H. Lapidus'
+'Jae-Hyuk Her'
+'Peter W. Stephens'
+'Joel S. Miller'
+_publ_section_title
+;
+ Non-Prussian Blue Structures and Magnetic Ordering of Na2MnII[MnII(CN)6]
+ and Na2MnII[MnII(CN)6].2H2O
+;
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              2246
+_journal_page_last               2254
+_journal_paper_doi               10.1021/ja209799y
+_journal_volume                  134
+_journal_year                    2012
+_chemical_formula_moiety         'C3 Mn N3, O, Na'
+_chemical_formula_sum            'C3 Mn N3 Na O'
+_chemical_formula_weight         171.99
+_chemical_name_systematic
+;
+?
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2yn'
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92.4366(28)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.62816(32)
+_cell_length_b                   7.52341(23)
+_cell_length_c                   7.38769(22)
+_cell_measurement_temperature    15
+_cell_volume                     590.19(3)
+_computing_cell_refinement       TOPAS-Academic
+_computing_data_collection       SPEC
+_computing_data_reduction        TOPAS-Academic
+_computing_structure_refinement  TOPAS-Academic
+_computing_structure_solution    TOPAS-Academic
+_diffrn_ambient_temperature      15
+_diffrn_detector                 'NaI scintillation counter'
+_diffrn_measurement_device_type  'Huber diffractometer'
+_diffrn_radiation_monochromator  'Si(111) channel cut'
+_diffrn_radiation_type           synchrotron
+_diffrn_radiation_wavelength     0.700015
+_diffrn_source                   synchrotron
+_pd_block_diffractogram_id       1-H2O_15K
+_pd_instr_location
+;
+X16C, National Synchrotron Light Source, Brookhaven National Laboratory
+;
+_pd_meas_2theta_range_inc        0.005
+_pd_meas_2theta_range_max        56.0
+_pd_meas_2theta_range_min        6.0
+_pd_meas_number_of_points        10001
+_pd_meas_scan_method             step
+_pd_proc_2theta_range_inc        0.005
+_pd_proc_2theta_range_max        56.0
+_pd_proc_2theta_range_min        6.0
+_pd_proc_ls_background_function
+;
+6 Pearson-Voight peaks and Chebyshev polynomial with 9 coefficients
+;
+_pd_proc_ls_pref_orient_corr
+;
+none
+;
+_pd_proc_ls_profile_function
+;
+Simple_Axial_model function with Rp=9999,Rs=330 in TOPAS-Academic
+;
+_pd_proc_ls_prof_R_factor        0.05939
+_pd_proc_ls_prof_wR_expected     0.03875
+_pd_proc_ls_prof_wR_factor       0.07219
+_pd_proc_wavelength              0.700015
+_pd_spec_mounting
+;
+capillary
+;
+_pd_spec_mount_mode              transmission
+_pd_spec_shape                   cylinder
+_refine_ls_goodness_of_fit_all   1.863
+_refine_ls_number_parameters     73
+_refine_ls_weighting_details     1/(sigma*sigma)
+_refine_ls_weighting_scheme      sigma
+_cod_data_source_file            ja209799y_si_001_2.cif
+_cod_data_source_block           1-H2O_15K
+_cod_original_sg_symbol_H-M      'P 21/n'
+_cod_database_code               4117369
+_cod_database_fobs_code          4117369
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,1/2-z
+3 -x,-y,-z
+4 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_thermal_displace_type
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+Mn1 Mn Uiso 0.50000 0.50000 0.50000 1.000 0.0014(1)
+Mn2 Mn Uiso 0.50000 0.00000 1.00000 1.000 0.0014(1)
+N1 N Uiso 0.5118(4) 0.3360(7) 0.7571(4) 1.000 0.0014(1)
+N2 N Uiso 0.2869(2) 0.4913(14) 0.4800(8) 1.000 0.0014(1)
+N3 N Uiso 0.5029(8) 0.2452(5) 0.3371(6) 1.000 0.0014(1)
+C1 C Uiso 0.4999(7) 0.2181(5) 0.8434(9) 1.000 0.0014(1)
+C2 C Uiso 0.1842(3) 0.4865(15) 0.4954(7) 1.000 0.0014(1)
+C3 C Uiso 0.5029(6) 0.1564(5) 0.2184(5) 1.000 0.0014(1)
+O1 O Uiso 0.2530(3) 0.2067(4) 0.2924(4) 1.000 0.0014(1)
+Na1 Na Uiso 0.2437(4) 0.4331(5) 0.0423(5) 1.000 0.0542(15)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+N1 Mn1 N2 93.4(2) . . yes
+N1 Mn1 N3 89.03(16) . . yes
+N1 Mn1 N1 180.00 . 3_666 yes
+N1 Mn1 N2 86.6(2) . 3_666 yes
+N1 Mn1 N3 90.97(16) . 3_666 yes
+N2 Mn1 N3 88.7(3) . . yes
+N1 Mn1 N2 86.6(2) 3_666 . yes
+N2 Mn1 N2 180.00 . 3_666 yes
+N2 Mn1 N3 91.3(3) . 3_666 yes
+N1 Mn1 N3 90.98(16) 3_666 . yes
+N2 Mn1 N3 91.3(3) 3_666 . yes
+N3 Mn1 N3 180.00 . 3_666 yes
+N1 Mn1 N2 93.4(2) 3_666 3_666 yes
+N1 Mn1 N3 89.03(16) 3_666 3_666 yes
+N2 Mn1 N3 88.7(3) 3_666 3_666 yes
+C1 Mn2 C3 89.1(2) . 1_556 yes
+C1 Mn2 C2 94.4(4) . 2_546 yes
+C1 Mn2 C3 90.9(2) . 3_656 yes
+C1 Mn2 C1 180.00 . 3_657 yes
+C1 Mn2 C2 85.6(4) . 4_555 yes
+C2 Mn2 C3 89.9(3) 2_546 1_556 yes
+C3 Mn2 C3 180.00 1_556 3_656 yes
+C1 Mn2 C3 90.9(2) 3_657 1_556 yes
+C2 Mn2 C3 90.1(3) 4_555 1_556 yes
+C2 Mn2 C3 90.1(3) 2_546 3_656 yes
+C1 Mn2 C2 85.6(4) 3_657 2_546 yes
+C2 Mn2 C2 180.00 2_546 4_555 yes
+C1 Mn2 C3 89.1(2) 3_657 3_656 yes
+C2 Mn2 C3 89.9(3) 4_555 3_656 yes
+C1 Mn2 C2 94.4(4) 3_657 4_555 yes
+Mn1 N1 C1 156.9(4) . . yes
+Mn1 N2 C2 170.3(5) . . yes
+Mn1 N3 C3 159.4(4) . . yes
+Mn2 C1 N1 173.4(6) . . yes
+Mn2 C2 N2 173.1(8) 2_556 . yes
+Mn2 C3 N3 178.5(5) 1_554 . yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Mn1 N1 2.264(4) . yes
+Mn1 N2 2.264(2) . yes
+Mn1 N3 2.264(4) . yes
+Mn1 N1 2.264(4) 3_666 yes
+Mn1 N2 2.264(2) 3_666 yes
+Mn1 N3 2.264(4) 3_666 yes
+Mn2 C1 2.008(5) . yes
+Mn2 C3 1.996(4) 1_556 yes
+Mn2 C2 1.962(3) 2_546 yes
+Mn2 C3 1.996(4) 3_656 yes
+Mn2 C1 2.008(5) 3_657 yes
+Mn2 C2 1.962(3) 4_555 yes
+N1 C1 1.103(7) . yes
+N2 C2 1.103(4) . yes
+N3 C3 1.102(6) . yes
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion
+_geom_torsion_site_symmetry_1
+_geom_torsion_publ_flag
+N2 Mn1 N1 C1 62.9(13) . no
+N3 Mn1 N1 C1 -25.7(13) . no
+N2 Mn1 N1 C1 -117.1(13) 3_666 no
+N3 Mn1 N1 C1 154.3(13) 3_666 no
+N1 Mn1 N3 C3 -179(2) . no
+N2 Mn1 N3 C3 88(2) . no
+N1 Mn1 N3 C3 1(2) 3_666 no
+N2 Mn1 N3 C3 -92(2) 3_666 no

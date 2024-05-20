@@ -1,0 +1,150 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-19 16:29:56 +0200 (Fri, 19 Feb 2016) $
+#$Revision: 176759 $
+#$URL: svn://www.crystallography.net/cod/cif/2/00/97/2009739.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2009739
+loop_
+_publ_author_name
+'Blachnik, R.'
+'L\"onnecke, P.'
+_publ_section_title
+;
+ P~2~Se~5~
+;
+_journal_issue                   5
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              659
+_journal_page_last               661
+_journal_paper_doi               10.1107/S0108270193010534
+_journal_volume                  50
+_journal_year                    1994
+_chemical_formula_sum            'P2 Se5'
+_chemical_formula_weight         456.75
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_type_scat_source           'IntTabIV Table 2.2B'
+_cell_angle_alpha                90.
+_cell_angle_beta                 114.150(10)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   6.9440(10)
+_cell_length_b                   20.420(2)
+_cell_length_c                   5.8360(10)
+_cell_measurement_reflns_used    50
+_cell_measurement_temperature    295
+_cell_measurement_theta_max      20
+_cell_measurement_theta_min      15
+_cell_volume                     755.10(19)
+_diffrn_measurement_device       'Enraf-Nonius CAD-4'
+_diffrn_measurement_method       \w/2\q
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.7093
+_diffrn_reflns_av_R_equivalents  0.028
+_diffrn_reflns_limit_h_max       9
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       28
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       -8
+_diffrn_reflns_number            2385
+_diffrn_reflns_theta_max         30
+_diffrn_standards_decay_%        -0.2
+_diffrn_standards_interval_count '(I) 10000'
+_diffrn_standards_interval_time  '(R) 200'
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    24.33
+_exptl_absorpt_correction_T_max  0.997
+_exptl_absorpt_correction_T_min  0.325
+_exptl_absorpt_correction_type
+'empirical via \y scans (North, Phillips & Mathews, 1968)'
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    4.017
+_exptl_crystal_description       plate-like
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.18
+_exptl_crystal_size_min          0.08
+_refine_diff_density_max         1.2(2)
+_refine_diff_density_min         -1.0(2)
+_refine_ls_extinction_coef       2.12E-7(8)
+_refine_ls_extinction_method     'Zachariasen (1963)'
+_refine_ls_goodness_of_fit_obs   2.42
+_refine_ls_number_parameters     65
+_refine_ls_number_reflns         1506
+_refine_ls_R_factor_obs          0.035
+_refine_ls_shift/esd_max         0.00
+_refine_ls_structure_factor_coef F
+_refine_ls_weighting_details     'w = 1/\s~I~'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_obs         0.034
+_reflns_number_observed          1506
+_reflns_number_total             2197
+_reflns_observed_criterion       I>2\s(I)
+_cod_data_source_file            sh1075.cif
+_cod_data_source_block           sh1075_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '1/\s~I~' was changed to 'calc'.
+New tag '_refine_ls_weighting_details' was created. The value of the
+new tag was set to 'w = 1/\s~I~'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_cell_volume        755.10(10)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2009739
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+P1 .2737(3) .33320(10) .3043(3)
+P4 .2835(3) .45380(10) .7034(3)
+Se2 .55840(10) .30816(4) .6571(2)
+Se3 .57050(10) .39515(4) .93590(10)
+Se5 -.00410(10) .39659(5) .66530(10)
+Se6 -.00500(10) .30920(4) .3925(2)
+Se7 .27330(10) .44310(4) .31780(10)
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+Se2 P1 Se6 104.88(9) yes
+Se2 P1 Se7 102.02(7) yes
+Se6 P1 Se7 101.33(9) yes
+Se3 P4 Se5 108.45(9) yes
+Se3 P4 Se7 102.20(9) yes
+Se5 P4 Se7 100.92(7) yes
+P1 Se2 Se3 103.09(6) yes
+P4 Se3 Se2 102.13(5) yes
+P4 Se5 Se6 102.35(6) yes
+P1 Se6 Se5 102.80(6) yes
+P1 Se7 Se4 97.63(8) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+P1 Se2 2.254(2) yes
+P1 Se6 2.250(2) yes
+P1 Se7 2.245(2) yes
+P4 Se3 2.243(2) yes
+P4 Se5 2.245(2) yes
+P4 Se7 2.234(2) yes
+Se2 Se3 2.3870(10) yes
+Se5 Se6 2.3900(10) yes

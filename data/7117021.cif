@@ -1,0 +1,336 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 03:10:39 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176453 $
+#$URL: svn://www.crystallography.net/cod/cif/7/11/70/7117021.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_7117021
+loop_
+_publ_author_name
+'Yan Yang'
+'Qian-Chong Zhang'
+'Yin-Yin Pan'
+'La-Sheng Long'
+'Lan-Sun Zheng'
+_publ_section_title
+;
+ Magnetocaloric effect and thermal conductivity of Gd(OH)3 and
+ Gd2O(OH)4(H2O)2
+;
+_journal_name_full               Chem.Commun.
+_journal_page_first              7317
+_journal_paper_doi               10.1039/C5cc01254F
+_journal_volume                  51
+_journal_year                    2015
+_chemical_formula_sum            'Gd H3 O3'
+_chemical_formula_weight         208.27
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_crystal_system      hexagonal
+_space_group_IT_number           176
+_space_group_name_Hall           '-P 6c'
+_space_group_name_H-M_alt        'P 63/m'
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_atom_sites_solution_hydrogens   difmap
+_audit_creation_method           SHELXL-2013
+_audit_update_record
+;
+2015-01-14 deposited with the CCDC.
+2015-03-23 downloaded from the CCDC.
+;
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   6.2993(8)
+_cell_length_b                   6.2993(8)
+_cell_length_c                   3.6057(6)
+_cell_measurement_temperature    293(2)
+_cell_volume                     123.91(3)
+_computing_structure_refinement  'SHELXL-2013 (Sheldrick, 2013)'
+_diffrn_ambient_temperature      100
+_diffrn_measured_fraction_theta_full 0.910
+_diffrn_measured_fraction_theta_max 0.912
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1226
+_diffrn_reflns_av_unetI/netI     0.0631
+_diffrn_reflns_Laue_measured_fraction_full 0.910
+_diffrn_reflns_Laue_measured_fraction_max 0.912
+_diffrn_reflns_limit_h_max       2
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       6
+_diffrn_reflns_limit_k_min       -6
+_diffrn_reflns_limit_l_max       4
+_diffrn_reflns_limit_l_min       -3
+_diffrn_reflns_number            219
+_diffrn_reflns_point_group_measured_fraction_full 0.910
+_diffrn_reflns_point_group_measured_fraction_max 0.912
+_diffrn_reflns_theta_full        25.242
+_diffrn_reflns_theta_max         26.875
+_diffrn_reflns_theta_min         3.735
+_exptl_absorpt_coefficient_mu    26.470
+_exptl_crystal_colour            colorless
+_exptl_crystal_density_diffrn    5.582
+_exptl_crystal_F_000             182
+_refine_diff_density_max         3.726
+_refine_diff_density_min         -2.947
+_refine_diff_density_rms         0.919
+_refine_ls_extinction_coef       1.9(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.118
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     10
+_refine_ls_number_reflns         93
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.118
+_refine_ls_R_factor_all          0.0687
+_refine_ls_R_factor_gt           0.0681
+_refine_ls_shift/su_max          0.000
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+;
+ w=1/[\s^2^(Fo^2^)+(0.1320P)^2^]
+ where P=(Fo^2^+2Fc^2^)/3
+;
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.1613
+_refine_ls_wR_factor_ref         0.1634
+_reflns_Friedel_coverage         0.000
+_reflns_Friedel_fraction_full    .
+_reflns_Friedel_fraction_max     .
+_reflns_number_gt                87
+_reflns_number_total             93
+_reflns_threshold_expression     'I > 2\s(I)'
+_cod_data_source_file            c5cc01254f2.cif
+_cod_data_source_block           p1
+_cod_original_cell_volume        123.91(4)
+_cod_original_formula_sum        'H3 Gd O3'
+_cod_database_code               7117021
+#BEGIN Tags that were not found in dictionaries:
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_shelxl_version_number           2013-2
+_shelx_res_file
+;
+TITL p in P6(3)/m
+CELL 0.71073 6.2993 6.2993 3.6057 90 90 120
+ZERR 2 0.0008 0.0008 0.0006 0 0 0
+LATT 1
+SYMM -Y,+X-Y,+Z
+SYMM +Y-X,-X,+Z
+SYMM -X,-Y,0.5+Z
+SYMM +Y,-X+Y,0.5+Z
+SYMM -Y+X,+X,0.5+Z
+
+SFAC O H Gd
+UNIT 6 6 2
+
+L.S. 10
+PLAN  5
+BOND
+fmap 2
+acta
+OMIT -3 54
+OMIT 0 0 2
+OMIT -3 7 2
+OMIT 0 3 0
+OMIT -2 6 1
+OMIT 0 4 1
+OMIT 0 2 3
+REM <HKL>E:\[A][Inorganic%20Chemistry]\date\2014041703-2%20GdOH%203D\Re_%20GdO
+REM H%203D   6 0 .%2072
+
+WGHT    0.132000
+EXTI    1.850607
+FVAR       1.47386
+GD1   3    0.666667    0.333333    0.250000    10.16667    0.00435    0.00435 =
+         0.02293    0.00000    0.00000    0.00217
+O1    1    0.603293    0.686587    0.250000    10.50000   -0.00398    0.01369 =
+         0.02337    0.00000    0.00000   -0.00718
+AFIX   3
+H1    2    0.738143    0.821607    0.250000    10.50000   -1.20000
+AFIX   0
+HKLF 4
+
+REM  p in P6(3)/m
+REM R1 =  0.0681 for      87 Fo > 4sig(Fo)  and  0.0687 for all      93 data
+REM     10 parameters refined using      0 restraints
+
+END
+
+WGHT      0.1320      0.0000
+
+REM Highest difference peak  3.726,  deepest hole -2.947,  1-sigma level  0.919
+Q1    1   0.6667  0.3333  0.0592  10.33333  0.05    3.73
+Q2    1   0.5669  0.7820  0.0148  11.00000  0.05    2.45
+Q3    1   0.7785  0.7905 -0.0057  11.00000  0.05    2.20
+Q4    1   0.9032  1.0268  0.2500  10.50000  0.05    2.15
+Q5    1   0.6539  0.5395  0.2500  10.50000  0.05    2.00
+;
+_shelx_res_checksum              54746
+#END Tags that were not found in dictionaries
+loop_
+_space_group_symop_operation_xyz
+'x, y, z'
+'-y, x-y, z'
+'-x+y, -x, z'
+'-x, -y, z+1/2'
+'y, -x+y, z+1/2'
+'x-y, x, z+1/2'
+'-x, -y, -z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, -z-1/2'
+'-y, x-y, -z-1/2'
+'-x+y, -x, -z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_site_symmetry_order
+_atom_site_calc_flag
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+_atom_site_refinement_flags_occupancy
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Gd1 Gd 0.6667 0.3333 0.2500 0.0105(19) Uani 1 6 d S T P . .
+O1 O 0.6033(16) 0.687(2) 0.2500 0.015(3) Uani 1 2 d S T P . .
+H1 H 0.7381 0.8216 0.2500 0.018 Uiso 1 2 d R U P . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Gd1 0.0043(19) 0.0043(19) 0.023(3) 0.000 0.000 0.0022(9)
+O1 -0.004(6) 0.014(5) 0.023(6) 0.000 0.000 -0.007(4)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Gd Gd -0.1653 3.9035 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O1 Gd1 O1 95.4(2) 8 8_556
+O1 Gd1 O1 140.66(9) 8 9_656
+O1 Gd1 O1 71.33(18) 8_556 9_656
+O1 Gd1 O1 71.33(18) 8 9_655
+O1 Gd1 O1 140.66(9) 8_556 9_655
+O1 Gd1 O1 95.4(2) 9_656 9_655
+O1 Gd1 O1 71.33(18) 8 7_665
+O1 Gd1 O1 140.66(9) 8_556 7_665
+O1 Gd1 O1 140.66(9) 9_656 7_665
+O1 Gd1 O1 71.33(18) 9_655 7_665
+O1 Gd1 O1 140.66(9) 8 7_666
+O1 Gd1 O1 71.33(18) 8_556 7_666
+O1 Gd1 O1 71.33(18) 9_656 7_666
+O1 Gd1 O1 140.66(9) 9_655 7_666
+O1 Gd1 O1 95.4(2) 7_665 7_666
+O1 Gd1 O1 73.0(4) 8 3_665
+O1 Gd1 O1 73.0(4) 8_556 3_665
+O1 Gd1 O1 67.7(4) 9_656 3_665
+O1 Gd1 O1 67.7(4) 9_655 3_665
+O1 Gd1 O1 132.17(13) 7_665 3_665
+O1 Gd1 O1 132.17(13) 7_666 3_665
+O1 Gd1 O1 67.7(4) 8 2_655
+O1 Gd1 O1 67.7(4) 8_556 2_655
+O1 Gd1 O1 132.17(13) 9_656 2_655
+O1 Gd1 O1 132.17(13) 9_655 2_655
+O1 Gd1 O1 73.0(4) 7_665 2_655
+O1 Gd1 O1 73.0(4) 7_666 2_655
+O1 Gd1 O1 120.0 3_665 2_655
+O1 Gd1 O1 132.17(13) 8 .
+O1 Gd1 O1 132.17(13) 8_556 .
+O1 Gd1 O1 73.0(4) 9_656 .
+O1 Gd1 O1 73.0(4) 9_655 .
+O1 Gd1 O1 67.7(4) 7_665 .
+O1 Gd1 O1 67.7(4) 7_666 .
+O1 Gd1 O1 120.000(1) 3_665 .
+O1 Gd1 O1 119.999(2) 2_655 .
+O1 Gd1 Gd1 137.68(11) 8 1_556
+O1 Gd1 Gd1 42.32(11) 8_556 1_556
+O1 Gd1 Gd1 42.32(12) 9_656 1_556
+O1 Gd1 Gd1 137.68(11) 9_655 1_556
+O1 Gd1 Gd1 137.68(11) 7_665 1_556
+O1 Gd1 Gd1 42.32(11) 7_666 1_556
+O1 Gd1 Gd1 90.0 3_665 1_556
+O1 Gd1 Gd1 90.000(2) 2_655 1_556
+O1 Gd1 Gd1 90.000(1) . 1_556
+O1 Gd1 Gd1 42.32(11) 8 1_554
+O1 Gd1 Gd1 137.68(11) 8_556 1_554
+O1 Gd1 Gd1 137.68(12) 9_656 1_554
+O1 Gd1 Gd1 42.32(11) 9_655 1_554
+O1 Gd1 Gd1 42.32(11) 7_665 1_554
+O1 Gd1 Gd1 137.68(11) 7_666 1_554
+O1 Gd1 Gd1 90.000(1) 3_665 1_554
+O1 Gd1 Gd1 90.000(1) 2_655 1_554
+O1 Gd1 Gd1 90.000(1) . 1_554
+Gd1 Gd1 Gd1 180.0 1_556 1_554
+O1 Gd1 Gd1 106.8(3) 8 7_766
+O1 Gd1 Gd1 68.4(3) 8_556 7_766
+O1 Gd1 Gd1 33.9(3) 9_656 7_766
+O1 Gd1 Gd1 80.05(18) 9_655 7_766
+O1 Gd1 Gd1 150.4(3) 7_665 7_766
+O1 Gd1 Gd1 102.29(17) 7_666 7_766
+O1 Gd1 Gd1 33.76(13) 3_665 7_766
+O1 Gd1 Gd1 134.82(17) 2_655 7_766
+O1 Gd1 Gd1 97.3(2) . 7_766
+Gd1 Gd1 Gd1 63.632(5) 1_556 7_766
+Gd1 Gd1 Gd1 116.368(4) 1_554 7_766
+Gd1 O1 Gd1 95.4(2) 7_665 7_666
+Gd1 O1 Gd1 112.3(4) 7_665 .
+Gd1 O1 Gd1 112.3(4) 7_666 .
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Gd1 O1 2.438(4) 8
+Gd1 O1 2.438(4) 8_556
+Gd1 O1 2.438(4) 9_656
+Gd1 O1 2.438(4) 9_655
+Gd1 O1 2.438(4) 7_665
+Gd1 O1 2.438(4) 7_666
+Gd1 O1 2.449(11) 3_665
+Gd1 O1 2.449(11) 2_655
+Gd1 O1 2.449(11) .
+Gd1 Gd1 3.6057(6) 1_556
+Gd1 Gd1 3.6057(6) 1_554
+Gd1 Gd1 4.0592(4) 7_766
+O1 Gd1 2.438(4) 7_665
+O1 Gd1 2.438(4) 7_666

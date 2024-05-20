@@ -1,0 +1,107 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-28 16:36:49 +0300 (Sun, 28 May 2023) $
+#$Revision: 284046 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/25/9012563.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012563
+loop_
+_publ_author_name
+'Bjornberg, A.'
+'Hedman, B.'
+_publ_section_title
+;
+ The crystal structure of NaVO3*1.89H2O
+ Note: one of the H atoms could not be found
+;
+_journal_name_full               'Acta Chemica Scandinavica A'
+_journal_page_first              579
+_journal_page_last               584
+_journal_volume                  31
+_journal_year                    1977
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'H3.78 Na O4.89 V'
+_chemical_name_mineral           Munirite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2yab'
+_symmetry_space_group_name_H-M   'P 1 21/a 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 111.18
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   16.756
+_cell_length_b                   3.6391
+_cell_length_c                   8.023
+_cell_volume                     456.170
+_database_code_amcsd             0011948
+_exptl_crystal_density_diffrn    2.271
+_cod_original_formula_sum        'Na V O4.89 H3.78'
+_cod_database_code               9012563
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2-y,z
+1/2-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.02721 0.02536 0.03374 0.00691 0.00533 -0.00110
+V 0.01731 0.01000 0.00992 0.00317 0.00415 0.00041
+O1 0.02721 0.01979 0.01701 -0.00230 0.01184 0.00166
+O2 0.01855 0.03180 0.02750 -0.00346 0.00651 -0.00345
+O3 0.04947 0.01047 0.01219 0.00086 0.00415 0.00814
+Ow4 0.02226 0.04361 0.02552 -0.00288 0.00711 0.00207
+OHw5 0.03834 0.25763 0.03402 0.03370 0.01717 0.02579
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Na 0.09375 0.25200 0.64780 1.00000 ? Na 0
+V 0.03783 0.24550 0.16781 1.00000 ? V 0
+O1 0.00071 0.25100 0.33270 1.00000 ? O 0
+O2 0.14265 0.27800 0.25400 1.00000 ? O 0
+O3 0.98668 0.24790 0.90230 1.00000 ? O 0
+Ow4 0.32282 0.25810 0.41080 1.00000 ? O 0
+O-Hw5 0.18965 0.24230 0.94910 0.89000 ? O 0
+H1 0.27200 0.19800 0.36900 1.00000 0.03546 H 0
+H2 0.33300 0.20100 0.51100 1.00000 0.04813 H 0
+H3 0.16700 0.36100 0.01800 0.89000 0.09879 H 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:23:01+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011948

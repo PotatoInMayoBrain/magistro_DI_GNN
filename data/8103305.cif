@@ -1,0 +1,389 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-16 18:55:33 +0200 (Tue, 16 Feb 2016) $
+#$Revision: 176466 $
+#$URL: svn://www.crystallography.net/cod/cif/8/10/33/8103305.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_8103305
+loop_
+_publ_author_name
+'Stefan J. Sedlmaier'
+'Daniel Weber'
+'Wolfgang Schnick'
+_publ_contact_author
+;
+ Prof. Dr. Wolfgang Schnick
+ Department Chemie
+ Ludwig-Maximilians-Universit\"at M\"unchen
+ Butenandtstr. 5-13 (D)
+ D-81377 Munich, Germany
+;
+_publ_section_title
+;
+ Crystal structure of barium oxonitridophosphate, Ba3P6O6N8
+;
+_journal_issue                   1
+_journal_name_full
+'Zeitschrift f\"ur Kristallographie - New Crystal Structures'
+_journal_page_first              1
+_journal_volume                  227
+_journal_year                    2012
+_chemical_formula_moiety         Ba3P6O6N8
+_chemical_formula_sum            'Ba3 N8 O6 P6'
+_chemical_formula_weight         805.884
+_chemical_name_common            'Barium oxonitridophosphate'
+_chemical_name_systematic
+; 
+Barium oxonitridophosphate 
+;
+_space_group_IT_number           147
+_symmetry_cell_setting           hexagonal
+_symmetry_Int_Tables_number      147
+_symmetry_space_group_name_Hall  '-P 3'
+_symmetry_space_group_name_H-M   'P -3'
+_audit_creation_method           'TOPAS ACADEMIC 4.1'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                120.0
+_cell_formula_units_Z            1
+_cell_length_a                   7.402270(89)
+_cell_length_b                   7.402270(89)
+_cell_length_c                   6.31436(11)
+_cell_volume                     299.633(7)
+_computing_molecular_graphics    'Diamond 3.1b'
+_computing_publication_material  'TOPAS ACADEMIC 4.1'
+_computing_structure_refinement  'TOPAS ACADEMIC 4.1'
+_diffrn_ambient_temperature      297(2)
+_diffrn_detector_type            'linear PSD'
+_diffrn_measurement_device_type  'STOE STADI P'
+_diffrn_radiation_monochromator  Ge-111
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_type           'Mo K\a~1~'
+_diffrn_radiation_wavelength     0.70930
+_exptl_absorpt_coefficient_mu    10.6
+_exptl_absorpt_correction_type   sphere
+_exptl_absorpt_process_details
+;
+capillary absorption correction taking the capillary diameter
+and the linear absorption coefficient into account
+;
+_exptl_crystal_density_diffrn    4.466(1)
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    none
+_exptl_crystal_F_000             362
+_pd_calc_method                  'Rietveld Refinement'
+_pd_char_colour                  colorless
+_pd_char_particle_morphology     powder
+_pd_meas_2theta_range_inc        0.01
+_pd_meas_2theta_range_max        60
+_pd_meas_2theta_range_min        2
+_pd_meas_number_of_points        5800
+_pd_proc_info_excluded_regions
+;
+from 16.22 to 16.51 2 theta
+;
+_pd_proc_ls_prof_R_factor        0.04110
+_pd_proc_ls_prof_wR_factor       0.05382
+_pd_proc_number_of_points        5800
+_refine_ls_goodness_of_fit_all   1.047
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    1
+_refine_ls_number_parameters     68
+_refine_ls_R_Fsqd_factor         0.00825
+_refine_ls_shift/su_max          0.00
+_refine_ls_shift/su_mean         0.00
+_reflns_d_resolution_high        0.70464
+_reflns_d_resolution_low         6.41055
+_reflns_limit_h_max              9
+_reflns_limit_h_min              0
+_reflns_limit_k_max              9
+_reflns_limit_k_min              -10
+_reflns_limit_l_max              8
+_reflns_limit_l_min              -8
+_reflns_number_total             604
+_cod_data_source_file            710077.cff
+_cod_data_source_block           Ba3P6O6N8
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_crystal_density_meas' value 'none' was changed to '?' - the
+value is perceived as not measured.
+
+Automatic conversion script
+Id: cif_fix_values 3008 2015-01-20 13:52:24Z robertas 
+;
+_cod_original_cell_volume        299.633(9)
+_cod_original_formula_sum        Ba3P6O6N8
+_cod_database_code               8103305
+#BEGIN Tags that were not found in dictionaries:
+_publ_section_acknowledgments
+;
+We gratefully acknowledge financial support that was granted by the
+&#x201C;Deutsche Forschungsgemeinschaft&#x201D; (DFG) and 
+&#x201C;Fonds der Chemischen Industrie&#x201D; (FCI) 
+(scholarship for S. J. Sedlmaier).
+;
+_pd_proc_ls_prof_r_expected      0.05143
+#END Tags that were not found in dictionaries
+loop_
+_symmetry_equiv_pos_as_xyz
+'-x, -y, -z'
+'-x+y, -x, z'
+'-y, x-y, z'
+'y, -x+y, -z'
+'x-y, x, -z'
+'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Ba1 Ba 2 2d 0.66667 0.33333 0.38528(23) 0.0101(5) 1
+Ba2 Ba 1 1b 0 0 0.5 0.0129(6) 1
+P P 6 6g 0.77473(54) 0.17468(56) 0.89670(54) 0.0053(8) 1
+N1 N 2 2d 0.66667 0.33333 0.9175(19) 0.0058(13) 1
+N2 N 6 6g 0.6860(17) 0.0193(13) 0.1073(16) 0.0058(13) 1
+O O 6 6g 0.7094(14) 0.0721(11) 0.6840(12) 0.0058(13) 1
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+P P 0.1023 0.0942 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ba Ba -0.3244 2.2819 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O Ba1 O 80.424(1) 2_655 .
+O Ba1 O 80.424(1) 2_655 3_665
+O Ba1 O 80.424(1) . 3_665
+O Ba1 O 76.9 2_655 5_666
+O Ba1 O 71.9 . 5_666
+O Ba1 O 146.6 3_665 5_666
+O Ba1 O 146.621(1) 2_655 4_656
+O Ba1 O 76.9 . 4_656
+O Ba1 O 71.9 3_665 4_656
+O Ba1 O 117.8 5_666 4_656
+O Ba1 O 71.9 2_655 6_556
+O Ba1 O 146.621(1) . 6_556
+O Ba1 O 76.9 3_665 6_556
+O Ba1 O 117.8 5_666 6_556
+O Ba1 O 117.8 4_656 6_556
+O Ba1 N1 131.798(1) 2_655 1_554
+O Ba1 N1 131.798(1) . 1_554
+O Ba1 N1 131.798(1) 3_665 1_554
+O Ba1 N1 81.4 5_666 1_554
+O Ba1 N1 81.4 4_656 1_554
+O Ba1 N1 81.4 6_556 1_554
+O Ba1 N2 137.3 2_655 .
+O Ba1 N2 78.095(1) . .
+O Ba1 N2 130.735(1) 3_665 .
+O Ba1 N2 61.5 5_666 .
+O Ba1 N2 60.2 4_656 .
+O Ba1 N2 135.224(1) 6_556 .
+N1 Ba1 N2 53.812(1) 1_554 .
+O Ba1 N2 78.095(1) 2_655 2_655
+O Ba1 N2 130.7 . 2_655
+O Ba1 N2 137.3 3_665 2_655
+O Ba1 N2 60.2 5_666 2_655
+O Ba1 N2 135.224(1) 4_656 2_655
+O Ba1 N2 61.5 6_556 2_655
+N1 Ba1 N2 53.812(1) 1_554 2_655
+N2 Ba1 N2 88.686(1) . 2_655
+O Ba1 N2 130.735(1) 2_655 3_665
+O Ba1 N2 137.250(1) . 3_665
+O Ba1 N2 78.095(1) 3_665 3_665
+O Ba1 N2 135.224(1) 5_666 3_665
+O Ba1 N2 61.5 4_656 3_665
+O Ba1 N2 60.2 6_556 3_665
+N1 Ba1 N2 53.812(1) 1_554 3_665
+N2 Ba1 N2 88.686(1) . 3_665
+N2 Ba1 N2 88.686(1) 2_655 3_665
+O Ba1 N1 48.202(1) 2_655 .
+O Ba1 N1 48.202(1) . .
+O Ba1 N1 48.202(1) 3_665 .
+O Ba1 N1 98.6 5_666 .
+O Ba1 N1 98.6 4_656 .
+O Ba1 N1 98.6 6_556 .
+N1 Ba1 N1 180.0 1_554 .
+N2 Ba1 N1 126.188(1) . .
+N2 Ba1 N1 126.188(1) 2_655 .
+N2 Ba1 N1 126.188(1) 3_665 .
+O Ba1 P 131.928(1) 2_655 1_554
+O Ba1 P 103.515(1) . 1_554
+O Ba1 P 147.6 3_665 1_554
+O Ba1 P 60.0 5_666 1_554
+O Ba1 P 77.7 4_656 1_554
+O Ba1 P 108.787(1) 6_556 1_554
+N1 Ba1 P 29.141(1) 1_554 1_554
+N2 Ba1 P 28.0 . 1_554
+N2 Ba1 P 63.077(1) 2_655 1_554
+N2 Ba1 P 77.808(1) 3_665 1_554
+N1 Ba1 P 150.859(1) . 1_554
+O Ba2 O 180.0 6_446 3_665
+O Ba2 O 103.106(1) 6_446 5_566
+O Ba2 O 76.894(1) 3_665 5_566
+O Ba2 O 76.894(1) 6_446 2_545
+O Ba2 O 103.106(1) 3_665 2_545
+O Ba2 O 180.0 5_566 2_545
+O Ba2 O 103.106(1) 6_446 4_656
+O Ba2 O 76.894(1) 3_665 4_656
+O Ba2 O 103.106(1) 5_566 4_656
+O Ba2 O 76.894(1) 2_545 4_656
+O Ba2 O 76.894(1) 6_446 1_455
+O Ba2 O 103.106(1) 3_665 1_455
+O Ba2 O 76.894(1) 5_566 1_455
+O Ba2 O 103.106(1) 2_545 1_455
+O Ba2 O 180.0 4_656 1_455
+O Ba2 P 22.6 6_446 6_446
+O Ba2 P 157.4 3_665 6_446
+O Ba2 P 82.517(1) 5_566 6_446
+O Ba2 P 97.483(1) 2_545 6_446
+O Ba2 P 99.215(1) 4_656 6_446
+O Ba2 P 80.785(1) 1_455 6_446
+O Ba2 P 157.4 6_446 3_665
+O Ba2 P 22.6 3_665 3_665
+O Ba2 P 97.483(1) 5_566 3_665
+O Ba2 P 82.517(1) 2_545 3_665
+O Ba2 P 80.785(1) 4_656 3_665
+O Ba2 P 99.215(1) 1_455 3_665
+P Ba2 P 180.0 6_446 3_665
+O Ba2 P 97.483(1) 6_446 1_455
+O Ba2 P 82.517(1) 3_665 1_455
+O Ba2 P 80.785(1) 5_566 1_455
+O Ba2 P 99.215(1) 2_545 1_455
+O Ba2 P 157.4 4_656 1_455
+O Ba2 P 22.6 1_455 1_455
+P Ba2 P 103.329(1) 6_446 1_455
+P Ba2 P 76.671(1) 3_665 1_455
+O Ba2 P 82.517(1) 6_446 4_656
+O Ba2 P 97.483(1) 3_665 4_656
+O Ba2 P 99.215(1) 5_566 4_656
+O Ba2 P 80.785(1) 2_545 4_656
+O Ba2 P 22.6 4_656 4_656
+O Ba2 P 157.4 1_455 4_656
+P Ba2 P 76.671(1) 6_446 4_656
+P Ba2 P 103.329(1) 3_665 4_656
+P Ba2 P 180.0 1_455 4_656
+O Ba2 P 80.785(1) 6_446 2_545
+O Ba2 P 99.215(1) 3_665 2_545
+O Ba2 P 157.4 5_566 2_545
+O Ba2 P 22.6 2_545 2_545
+O Ba2 P 97.483(1) 4_656 2_545
+O Ba2 P 82.517(1) 1_455 2_545
+P Ba2 P 103.329(1) 6_446 2_545
+P Ba2 P 76.671(1) 3_665 2_545
+P Ba2 P 76.671(1) 1_455 2_545
+P Ba2 P 103.329(1) 4_656 2_545
+O Ba2 P 99.215(1) 6_446 5_566
+O Ba2 P 80.785(1) 3_665 5_566
+O Ba2 P 22.6 5_566 5_566
+O Ba2 P 157.4 2_545 5_566
+O Ba2 P 82.517(1) 4_656 5_566
+O Ba2 P 97.483(1) 1_455 5_566
+P Ba2 P 76.671(1) 6_446 5_566
+P Ba2 P 103.329(1) 3_665 5_566
+P Ba2 P 103.329(1) 1_455 5_566
+P Ba2 P 76.671(1) 4_656 5_566
+P Ba2 P 180.0 2_545 5_566
+O P N2 108.631(1) . 5_666
+O P N2 116.754(1) . 1_556
+N2 P N2 115.7 5_666 1_556
+O P N1 105.7 . .
+N2 P N1 104.0 5_666 .
+N2 P N1 104.6 1_556 .
+O P Ba1 151.842(1) . 1_556
+N2 P Ba1 97.6 5_666 1_556
+N2 P Ba1 56.969(1) 1_556 1_556
+N1 P Ba1 56.493(1) . 1_556
+O P Ba2 44.157(1) . 1_655
+N2 P Ba2 72.1 5_666 1_655
+N2 P Ba2 113.750(1) 1_556 1_655
+N1 P Ba2 139.067(1) . 1_655
+Ba1 P Ba2 162.3 1_556 1_655
+O P Ba1 45.963(1) . .
+N2 P Ba1 95.7 5_666 .
+N2 P Ba1 148.582(1) 1_556 .
+N1 P Ba1 66.325(1) . .
+Ba1 P Ba1 122.818(1) 1_556 .
+Ba2 P Ba1 73.452(1) 1_655 .
+P N1 P 119.4 . 2_655
+P N1 P 119.4 . 3_665
+P N1 P 119.4 2_655 3_665
+P N1 Ba1 94.4 . 1_556
+P N1 Ba1 94.4 2_655 1_556
+P N1 Ba1 94.4 3_665 1_556
+P N1 Ba1 85.6 . .
+P N1 Ba1 85.6 2_655 .
+P N1 Ba1 85.6 3_665 .
+Ba1 N1 Ba1 180.0 1_556 .
+P N2 P 124.687(1) 6_546 1_554
+P N2 Ba1 138.673(1) 6_546 .
+P N2 Ba1 95.054(1) 1_554 .
+P O Ba2 113.285(1) . 1_655
+P O Ba1 111.655(1) . .
+Ba2 O Ba1 102.636(1) 1_655 .
+P O Ba1 123.6 . 4_656
+Ba2 O Ba1 100.1 1_655 4_656
+Ba1 O Ba1 103.1 . 4_656
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Ba1 O 2.8300 2_655
+Ba1 O 2.8300 .
+Ba1 O 2.8300 3_665
+Ba1 O 2.9314 5_666
+Ba1 O 2.9314 4_656
+Ba1 O 2.9314 6_556
+Ba1 N1 2.9537 1_554
+Ba1 N2 2.9728 .
+Ba1 N2 2.9728 2_655
+Ba1 N2 2.9728 3_665
+Ba1 N1 3.3606 .
+Ba1 P 3.5322 1_554
+Ba2 O 2.7221 6_446
+Ba2 O 2.7221 3_665
+Ba2 O 2.7221 5_566
+Ba2 O 2.7221 2_545
+Ba2 O 2.7221 4_656
+Ba2 O 2.7221 1_455
+Ba2 P 3.5893 6_446
+Ba2 P 3.5893 3_665
+Ba2 P 3.5893 1_455
+Ba2 P 3.5893 4_656
+Ba2 P 3.5893 2_545
+Ba2 P 3.5893 5_566
+P O 1.4990 .
+P N2 1.5909 5_666
+P N2 1.6635 1_556
+P N1 1.7250 .
+P Ba1 3.5322 1_556
+P Ba2 3.5893 1_655
+N1 P 1.7250 2_655
+N1 P 1.7250 3_665
+N1 Ba1 2.9537 1_556
+N2 P 1.5909 6_546
+N2 P 1.6635 1_554
+O Ba2 2.7221 1_655
+O Ba1 2.9314 4_656

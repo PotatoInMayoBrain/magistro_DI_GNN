@@ -1,0 +1,375 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 22:48:03 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179491 $
+#$URL: svn://www.crystallography.net/cod/cif/4/33/88/4338816.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4338816
+loop_
+_publ_author_name
+'Song, Seung Yoon'
+'Lee, Dong Woo'
+'Ok, Kang Min'
+_publ_section_title
+;
+ Rich Structural Chemistry in Scandium Selenium/Tellurium Oxides:
+ Mixed-Valent Selenite-Selenates, Sc2(SeO3)2(SeO4) and
+ Sc2(TeO3)(SeO3)(SeO4), and Ternary Tellurite, Sc2(TeO3)3.
+;
+_journal_issue                   13
+_journal_name_full               'Inorganic chemistry'
+_journal_page_first              7040
+_journal_page_last               7046
+_journal_paper_doi               10.1021/ic501009c
+_journal_volume                  53
+_journal_year                    2014
+_chemical_formula_sum            'O10 Sc2 Se3'
+_chemical_formula_weight         486.8
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_cell_angle_alpha                90
+_cell_angle_beta                 103.543(3)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.5294(2)
+_cell_length_b                   10.8557(4)
+_cell_length_c                   12.6281(6)
+_cell_measurement_temperature    298.0(2)
+_cell_volume                     870.21(6)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_diffrn_ambient_temperature      298.0(2)
+_diffrn_measured_fraction_theta_full 1
+_diffrn_measured_fraction_theta_max 1
+_diffrn_measurement_device_type  'Bruker SMART BREEZE'
+_diffrn_measurement_method       CCD
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.1622
+_diffrn_reflns_av_unetI/netI     0.2067
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -8
+_diffrn_reflns_limit_k_max       14
+_diffrn_reflns_limit_k_min       -14
+_diffrn_reflns_limit_l_max       16
+_diffrn_reflns_limit_l_min       -16
+_diffrn_reflns_number            7159
+_diffrn_reflns_theta_full        28.3
+_diffrn_reflns_theta_max         28.3
+_diffrn_reflns_theta_min         2.5
+_exptl_absorpt_coefficient_mu    14.146
+_exptl_absorpt_correction_T_max  0.79
+_exptl_absorpt_correction_T_min  0.58
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details
+; 
+ SADABS(Blessing, 1995) 
+;
+_exptl_crystal_colour            Colorless
+_exptl_crystal_density_diffrn    3.716
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Block
+_exptl_crystal_F_000             896
+_exptl_crystal_size_max          0.042
+_exptl_crystal_size_mid          0.038
+_exptl_crystal_size_min          0.025
+_refine_diff_density_max         1.91
+_refine_diff_density_min         -1.231
+_refine_diff_density_rms         0.283
+_refine_ls_extinction_coef       0.00062(11)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   0.806
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     137
+_refine_ls_number_reflns         2167
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.806
+_refine_ls_R_factor_all          0.13
+_refine_ls_R_factor_gt           0.0489
+_refine_ls_shift/su_max          0
+_refine_ls_shift/su_mean         0
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0001P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0628
+_refine_ls_wR_factor_ref         0.0758
+_reflns_number_gt                1037
+_reflns_number_total             2167
+_reflns_threshold_expression     >2s\(I)
+_cod_data_source_file            ic501009c_si_002.cif
+_cod_data_source_block           Sc2(SeO3)2(SeO4)
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from
+2011-04-26.
+
+'_exptl_absorpt_correction_type' value 'EMPIRICAL'
+changed to 'empirical' according to
+/usr/data/users/saulius/crontab/automatic-downloads/rss-feeds/ACS/lib/dictionaries/cif_core.dic
+dictionary named 'cif_core.dic' version 2.4.2 from 2011-04-26.
+
+Automatic conversion script
+Id: cif_fix_values 2281 2013-09-26 08:29:07Z andrius 
+
+ Adding full bibliography for 4338816--4338818.cif.
+;
+_cod_original_sg_symbol_H-M      P2(1)/c
+_cod_database_code               4338816
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+Se1 Se 0.32130(15) 0.47003(8) 0.15108(10) 0.0157(3) Uani 1 1 d
+Se2 Se -0.28898(16) 0.10500(8) -0.04525(10) 0.0178(3) Uani 1 1 d
+Se3 Se 0.13667(17) 0.14843(9) 0.27858(10) 0.0201(3) Uani 1 1 d
+Sc1 Sc -0.1988(3) 0.34259(16) 0.09210(18) 0.0175(5) Uani 1 1 d
+Sc2 Sc 0.2635(3) 0.20668(15) 0.03428(18) 0.0148(5) Uani 1 1 d
+O1 O 0.1303(9) 0.3679(5) 0.0896(6) 0.0192(18) Uani 1 1 d
+O2 O 0.3096(10) 0.5729(5) 0.0539(6) 0.028(2) Uani 1 1 d
+O3 O 0.5135(10) 0.3734(6) 0.1351(6) 0.031(2) Uani 1 1 d
+O4 O -0.4160(9) 0.1838(5) 0.0385(6) 0.0159(17) Uani 1 1 d
+O5 O -0.0728(9) 0.1955(5) -0.0032(6) 0.0148(17) Uani 1 1 d
+O6 O -0.2302(9) -0.0253(5) 0.0254(6) 0.0226(19) Uani 1 1 d
+O7 O 0.2881(9) 0.1334(5) 0.1913(6) 0.0213(18) Uani 1 1 d
+O8 O -0.0831(9) 0.2205(6) 0.2289(6) 0.029(2) Uani 1 1 d
+O9 O 0.2664(10) 0.2296(6) 0.3798(6) 0.033(2) Uani 1 1 d
+O10 O 0.0867(10) 0.0105(5) 0.3185(7) 0.031(2) Uani 1 1 d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Se1 0.0143(5) 0.0141(5) 0.0188(7) -0.0013(5) 0.0040(5) 0.0013(4)
+Se2 0.0165(5) 0.0150(5) 0.0212(7) -0.0008(5) 0.0026(5) -0.0019(4)
+Se3 0.0209(6) 0.0192(5) 0.0203(8) 0.0015(5) 0.0051(5) 0.0008(5)
+Sc1 0.0151(10) 0.0137(10) 0.0229(14) -0.0014(10) 0.0031(9) 0.0007(8)
+Sc2 0.0126(10) 0.0147(10) 0.0189(14) 0.0010(9) 0.0070(9) 0.0010(8)
+O1 0.012(4) 0.018(4) 0.026(5) -0.004(3) 0.003(3) -0.006(3)
+O2 0.024(4) 0.028(4) 0.031(6) 0.016(4) 0.000(4) 0.002(3)
+O3 0.026(4) 0.029(4) 0.046(6) 0.011(4) 0.021(4) 0.016(3)
+O4 0.012(3) 0.015(4) 0.022(5) 0.000(3) 0.008(3) 0.000(3)
+O5 0.016(4) 0.008(3) 0.020(5) 0.000(3) 0.002(3) 0.003(3)
+O6 0.025(4) 0.011(3) 0.030(5) 0.004(4) 0.003(4) -0.001(3)
+O7 0.024(4) 0.024(4) 0.023(5) 0.006(4) 0.019(4) 0.010(3)
+O8 0.019(4) 0.039(4) 0.028(6) 0.003(4) 0.001(4) 0.008(3)
+O9 0.031(4) 0.035(4) 0.037(6) -0.022(4) 0.014(4) 0.000(3)
+O10 0.034(5) 0.017(4) 0.043(6) 0.012(4) 0.009(4) -0.004(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.006 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Sc Sc 0.2519 0.3716 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+O2 Se1 O3 103.8(3) . .
+O2 Se1 O1 101.5(3) . .
+O3 Se1 O1 91.5(3) . .
+O2 Se1 Sc2 106.4(3) . .
+O3 Se1 Sc2 53.0(2) . .
+O1 Se1 Sc2 38.5(2) . .
+O6 Se2 O5 104.6(3) . .
+O6 Se2 O4 100.2(3) . .
+O5 Se2 O4 90.3(3) . .
+O6 Se2 Sc1 114.7(2) . .
+O5 Se2 Sc1 46.1(2) . .
+O4 Se2 Sc1 45.08(19) . .
+O9 Se3 O8 107.1(3) . .
+O9 Se3 O10 111.1(4) . .
+O8 Se3 O10 109.7(3) . .
+O9 Se3 O7 107.2(3) . .
+O8 Se3 O7 113.7(4) . .
+O10 Se3 O7 108.0(3) . .
+O2 Sc1 O3 90.7(3) 3_565 1_455
+O2 Sc1 O8 168.9(3) 3_565 .
+O3 Sc1 O8 93.3(3) 1_455 .
+O2 Sc1 O1 94.2(3) 3_565 .
+O3 Sc1 O1 158.5(3) 1_455 .
+O8 Sc1 O1 85.8(2) . .
+O2 Sc1 O10 95.6(3) 3_565 2
+O3 Sc1 O10 86.9(3) 1_455 2
+O8 Sc1 O10 95.0(3) . 2
+O1 Sc1 O10 71.8(2) . 2
+O2 Sc1 O4 90.5(3) 3_565 .
+O3 Sc1 O4 70.0(2) 1_455 .
+O8 Sc1 O4 81.2(2) . .
+O1 Sc1 O4 130.7(2) . .
+O10 Sc1 O4 156.2(3) 2 .
+O2 Sc1 O5 86.1(3) 3_565 .
+O3 Sc1 O5 135.0(2) 1_455 .
+O8 Sc1 O5 83.7(2) . .
+O1 Sc1 O5 66.3(2) . .
+O10 Sc1 O5 138.1(3) 2 .
+O4 Sc1 O5 65.1(2) . .
+O2 Sc1 Se2 83.5(2) 3_565 .
+O3 Sc1 Se2 102.3(2) 1_455 .
+O8 Sc1 Se2 85.53(19) . .
+O1 Sc1 Se2 99.01(17) . .
+O10 Sc1 Se2 170.8(2) 2 .
+O4 Sc1 Se2 32.98(16) . .
+O5 Sc1 Se2 32.68(15) . .
+O2 Sc1 Sc2 98.0(2) 3_565 .
+O3 Sc1 Sc2 164.72(18) 1_455 .
+O8 Sc1 Sc2 75.98(19) . .
+O1 Sc1 Sc2 33.58(16) . .
+O10 Sc1 Sc2 104.66(19) 2 .
+O4 Sc1 Sc2 97.22(16) . .
+O5 Sc1 Sc2 34.35(15) . .
+Se2 Sc1 Sc2 66.46(5) . .
+O2 Sc1 Sc2 83.23(18) 3_565 1_455
+O3 Sc1 Sc2 41.7(2) 1_455 1_455
+O8 Sc1 Sc2 92.91(18) . 1_455
+O1 Sc1 Sc2 159.74(18) . 1_455
+O10 Sc1 Sc2 128.37(19) 2 1_455
+O4 Sc1 Sc2 29.72(15) . 1_455
+O5 Sc1 Sc2 93.42(16) . 1_455
+Se2 Sc1 Sc2 60.74(5) . 1_455
+Sc2 Sc1 Sc2 126.71(7) . 1_455
+O9 Sc2 O4 80.5(3) 4_565 1_655
+O9 Sc2 O6 89.9(3) 4_565 3
+O4 Sc2 O6 85.2(2) 1_655 3
+O9 Sc2 O7 174.5(3) 4_565 .
+O4 Sc2 O7 94.3(3) 1_655 .
+O6 Sc2 O7 87.9(3) 3 .
+O9 Sc2 O5 92.6(3) 4_565 .
+O4 Sc2 O5 165.1(3) 1_655 .
+O6 Sc2 O5 81.5(2) 3 .
+O7 Sc2 O5 92.0(3) . .
+O9 Sc2 O1 97.4(3) 4_565 .
+O4 Sc2 O1 124.6(2) 1_655 .
+O6 Sc2 O1 150.1(2) 3 .
+O7 Sc2 O1 87.1(3) . .
+O5 Sc2 O1 69.2(2) . .
+O9 Sc2 O3 94.9(3) 4_565 .
+O4 Sc2 O3 63.6(2) 1_655 .
+O6 Sc2 O3 147.0(2) 3 .
+O7 Sc2 O3 84.3(2) . .
+O5 Sc2 O3 130.6(2) . .
+O1 Sc2 O3 61.4(2) . .
+O9 Sc2 Se1 96.3(2) 4_565 .
+O4 Sc2 Se1 94.87(17) 1_655 .
+O6 Sc2 Se1 173.8(2) 3 .
+O7 Sc2 Se1 85.92(18) . .
+O5 Sc2 Se1 99.03(16) . .
+O1 Sc2 Se1 29.86(15) . .
+O3 Sc2 Se1 31.61(14) . .
+O9 Sc2 Sc1 104.36(19) 4_565 .
+O4 Sc2 Sc1 157.97(18) 1_655 .
+O6 Sc2 Sc1 115.94(18) 3 .
+O7 Sc2 Sc1 81.15(17) . .
+O5 Sc2 Sc1 36.73(17) . .
+O1 Sc2 Sc1 34.13(15) . .
+O3 Sc2 Sc1 94.42(15) . .
+Se1 Sc2 Sc1 63.41(5) . .
+O9 Sc2 Sc1 80.56(19) 4_565 1_655
+O4 Sc2 Sc1 31.90(15) 1_655 1_655
+O6 Sc2 Sc1 117.10(18) 3 1_655
+O7 Sc2 Sc1 96.00(18) . 1_655
+O5 Sc2 Sc1 159.88(16) . 1_655
+O1 Sc2 Sc1 92.78(16) . 1_655
+O3 Sc2 Sc1 33.01(15) . 1_655
+Se1 Sc2 Sc1 63.31(5) . 1_655
+Sc1 Sc2 Sc1 126.71(7) . 1_655
+Se1 O1 Sc2 111.6(3) . .
+Se1 O1 Sc1 133.8(3) . .
+Sc2 O1 Sc1 112.3(2) . .
+Se1 O2 Sc1 157.7(4) . 3_565
+Se1 O3 Sc1 150.1(4) . 1_655
+Se1 O3 Sc2 95.4(3) . .
+Sc1 O3 Sc2 105.3(3) 1_655 .
+Se2 O4 Sc2 131.8(4) . 1_455
+Se2 O4 Sc1 101.9(3) . .
+Sc2 O4 Sc1 118.4(3) 1_455 .
+Se2 O5 Sc2 146.8(3) . .
+Se2 O5 Sc1 101.2(3) . .
+Sc2 O5 Sc1 108.9(3) . .
+Se2 O6 Sc2 127.6(4) . 3
+Se3 O7 Sc2 131.7(3) . .
+Se3 O8 Sc1 135.5(4) . .
+Se3 O9 Sc2 143.7(4) . 4_566
+Se3 O10 Sc1 149.1(4) . 2_545
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Se1 O2 1.648(7) .
+Se1 O3 1.684(6) .
+Se1 O1 1.713(6) .
+Se1 Sc2 3.199(2) .
+Se2 O6 1.668(6) .
+Se2 O5 1.699(6) .
+Se2 O4 1.717(6) .
+Se2 Sc1 3.087(2) .
+Se3 O9 1.619(7) .
+Se3 O8 1.626(6) .
+Se3 O10 1.637(6) .
+Se3 O7 1.652(7) .
+Sc1 O2 2.034(7) 3_565
+Sc1 O3 2.100(7) 1_455
+Sc1 O8 2.168(7) .
+Sc1 O1 2.174(6) .
+Sc1 O10 2.178(6) 2
+Sc1 O4 2.234(6) .
+Sc1 O5 2.267(6) .
+Sc1 Sc2 3.585(3) .
+Sc1 Sc2 3.720(3) 1_455
+Sc2 O9 2.074(8) 4_565
+Sc2 O4 2.096(6) 1_655
+Sc2 O6 2.102(6) 3
+Sc2 O7 2.108(7) .
+Sc2 O5 2.139(6) .
+Sc2 O1 2.143(6) .
+Sc2 O3 2.567(7) .
+Sc2 Sc1 3.720(3) 1_655
+O2 Sc1 2.034(7) 3_565
+O3 Sc1 2.100(7) 1_655
+O4 Sc2 2.096(6) 1_455
+O6 Sc2 2.102(6) 3
+O9 Sc2 2.074(8) 4_566
+O10 Sc1 2.178(6) 2_545

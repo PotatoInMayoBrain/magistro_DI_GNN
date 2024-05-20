@@ -1,0 +1,518 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-21 01:21:50 +0200 (Mon, 21 Mar 2016) $
+#$Revision: 178377 $
+#$URL: svn://www.crystallography.net/cod/cif/4/00/11/4001167.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4001167
+loop_
+_publ_author_name
+'Gaudin, Etienne'
+'Tenc\'e, Sophie'
+'Weill, Fran\,cois'
+'Rodriguez Fernandez, Jesus'
+'Chevalier, Bernard'
+_publ_section_title
+;
+ Structural and Magnetocaloric Properties of the New Ternary Silicides
+ Gd6M5/3Si3with M = Co and Ni
+;
+_journal_issue                   9
+_journal_name_full               'Chemistry of Materials'
+_journal_page_first              2972
+_journal_paper_doi               10.1021/cm8000859
+_journal_volume                  20
+_journal_year                    2008
+_chemical_formula_moiety         'Gd6 Ni1.667 Si3'
+_chemical_formula_structural     'Gd6 Ni1.667 Si3'
+_chemical_formula_sum            'Gd6 Ni1.667 Si3'
+_chemical_formula_weight         1125.6
+_chemical_name_systematic        ' ?'
+_space_group_IT_number           176
+_symmetry_cell_setting           hexagonal
+_symmetry_space_group_name_Hall  '-P 6c'
+_symmetry_space_group_name_H-M   'P 63/m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   11.7123(4)
+_cell_length_b                   11.7123(4)
+_cell_length_c                   4.1705(2)
+_cell_measurement_reflns_used    2217
+_cell_measurement_temperature    120
+_cell_measurement_theta_max      35
+_cell_measurement_theta_min      5
+_cell_volume                     495.45(3)
+_computing_publication_material
+'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+_computing_structure_refinement
+'Jana2000 (Petricek, Dusek & Palatinus, 2000)'
+_diffrn_ambient_temperature      120
+_diffrn_measured_fraction_theta_full 1.00
+_diffrn_measurement_device_type  'Nonius CCD'
+_diffrn_measurement_method       '/f scans + /w scans'
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71069
+_diffrn_reflns_av_R_equivalents  0.0581
+_diffrn_reflns_av_sigmaI/netI    0.0320
+_diffrn_reflns_limit_h_max       17
+_diffrn_reflns_limit_h_min       -18
+_diffrn_reflns_limit_k_max       18
+_diffrn_reflns_limit_k_min       -17
+_diffrn_reflns_limit_l_max       6
+_diffrn_reflns_limit_l_min       -6
+_diffrn_reflns_number            7463
+_diffrn_reflns_theta_full        35.00
+_diffrn_reflns_theta_max         35.00
+_diffrn_reflns_theta_min         5.29
+_exptl_absorpt_coefficient_mu    42.93
+_exptl_absorpt_correction_T_max  0.438
+_exptl_absorpt_correction_T_min  0.169
+_exptl_absorpt_correction_type   gaussian
+_exptl_absorpt_process_details
+'(Jana2000; Petricek, Dusek & Palatinus, 2000)'
+_exptl_crystal_colour            metallic_dark_grey
+_exptl_crystal_density_diffrn    7.5425
+_exptl_crystal_description       block
+_exptl_crystal_F_000             945
+_exptl_crystal_size_max          0.04
+_exptl_crystal_size_mid          0.04
+_exptl_crystal_size_min          0.02
+_refine_diff_density_max         2.12
+_refine_diff_density_min         -2.42
+_refine_ls_extinction_coef       0.139(14)
+_refine_ls_extinction_method
+'B-C type 1 Lorentzian isotropic (Becker & Coppens, 1974)'
+_refine_ls_goodness_of_fit_gt    1.04
+_refine_ls_goodness_of_fit_ref   1.02
+_refine_ls_number_parameters     27
+_refine_ls_number_reflns         807
+_refine_ls_R_factor_all          0.0378
+_refine_ls_R_factor_gt           0.0262
+_refine_ls_shift/su_max          0.0097
+_refine_ls_shift/su_mean         0.0008
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0016I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_gt          0.0583
+_refine_ls_wR_factor_ref         0.0617
+_reflns_number_gt                700
+_reflns_number_total             807
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            cm8000859-file006.cif
+_cod_data_source_block           Gd6Ni1.67Si3_120K
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_exptl_absorpt_correction_type' value 'Gaussian' changed to
+'gaussian' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               4001167
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 x-y,x,1/2+z
+3 -y,x-y,z
+4 -x,-y,1/2+z
+5 -x+y,-x,z
+6 y,-x+y,1/2+z
+7 -x,-y,-z
+8 -x+y,-x,1/2-z
+9 y,-x+y,-z
+10 x,y,1/2-z
+11 x-y,x,-z
+12 -y,x-y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+Gd1 Gd 0.24142(3) 0.22878(3) 0.25 Uani 0.00606(13) 6 1 d
+Gd2 Gd 0.51753(3) 0.13923(3) 0.25 Uani 0.00349(12) 6 1 d
+Ni2 Ni 0.333333 0.666667 0.25 Uani 0.0046(3) 2 1 d
+Si Si 0.15773(18) 0.44138(19) 0.25 Uani 0.0051(6) 6 1 d
+Ni1 Ni 0 0 0.063(2) Uiso 0.0025(15) 4 0.165(7) d
+Ni3 Ni 0 0 0.316(2) Uiso 0.0014(15) 4 0.168(7) d
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Gd1 Gd 0.00763(16) 0.00799(17) 0.00555(16) 0.00615(13) 0 0
+Gd2 Gd 0.00356(15) 0.00326(15) 0.00321(15) 0.00137(11) 0 0
+Ni2 Ni 0.0049(4) 0.0049(4) 0.0038(6) 0.00246(19) 0 0
+Si Si 0.0058(8) 0.0048(7) 0.0050(8) 0.0029(6) 0 0
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Gd -0.165 3.904 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Ni 0.339 1.112 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+Si 0.082 0.070 'International Tables Vol C Tables  4.2.6.8 and 6.1.1.1'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+Gd1 Gd1 Gd1 2_554 2_555 74.212(11) no
+Gd1 Gd1 Gd1 2_554 9_555 87.367(9) no
+Gd1 Gd1 Gd1 2_554 9_556 132.999(10) no
+Gd1 Gd1 Gd2 2_554 2_554 66.453(10) no
+Gd1 Gd1 Gd2 2_554 2_555 107.463(15) no
+Gd1 Gd1 Si 2_554 . 53.28(2) no
+Gd1 Gd1 Si 2_554 9_555 96.43(4) no
+Gd1 Gd1 Si 2_554 9_556 164.35(7) no
+Gd1 Gd1 Ni1 2_554 . 56.77(9) no
+Gd1 Gd1 Ni1 2_554 7_555 51.79(7) no
+Gd1 Gd1 Ni1 2_554 2_555 84.13(10) no
+Gd1 Gd1 Ni1 2_554 8_555 77.32(11) no
+Gd1 Gd1 Ni3 2_554 . 70.32(12) no
+Gd1 Gd1 Ni3 2_554 7_555 45.95(3) no
+Gd1 Gd1 Ni3 2_554 7_556 89.87(9) no
+Gd1 Gd1 Ni3 2_554 2_554 48.36(5) no
+Gd1 Gd1 Ni3 2_554 2_555 95.14(7) no
+Gd1 Gd1 Ni3 2_554 8_555 62.82(11) no
+Gd1 Gd1 Gd1 2_555 2_554 74.212(11) no
+Gd1 Gd1 Gd1 2_555 9_555 132.999(10) no
+Gd1 Gd1 Gd1 2_555 9_556 87.367(9) no
+Gd1 Gd1 Gd2 2_555 2_554 107.463(15) no
+Gd1 Gd1 Gd2 2_555 2_555 66.453(10) no
+Gd1 Gd1 Si 2_555 . 53.28(2) no
+Gd1 Gd1 Si 2_555 9_555 164.35(7) no
+Gd1 Gd1 Si 2_555 9_556 96.43(4) no
+Gd1 Gd1 Ni1 2_555 . 77.32(11) no
+Gd1 Gd1 Ni1 2_555 7_555 84.13(10) no
+Gd1 Gd1 Ni1 2_555 2_555 51.79(7) no
+Gd1 Gd1 Ni1 2_555 8_555 56.77(9) no
+Gd1 Gd1 Ni3 2_555 . 62.82(11) no
+Gd1 Gd1 Ni3 2_555 7_555 95.14(7) no
+Gd1 Gd1 Ni3 2_555 7_556 48.36(5) no
+Gd1 Gd1 Ni3 2_555 2_554 89.87(9) no
+Gd1 Gd1 Ni3 2_555 2_555 45.95(3) no
+Gd1 Gd1 Ni3 2_555 8_555 70.32(12) no
+Gd1 Gd1 Gd1 9_555 2_554 87.367(9) no
+Gd1 Gd1 Gd1 9_555 2_555 132.999(10) no
+Gd1 Gd1 Gd1 9_555 9_556 74.212(11) no
+Gd1 Gd1 Gd2 9_555 2_554 103.658(7) no
+Gd1 Gd1 Gd2 9_555 2_555 159.346(15) no
+Gd1 Gd1 Si 9_555 . 139.112(15) no
+Gd1 Gd1 Si 9_555 9_555 57.16(5) no
+Gd1 Gd1 Si 9_555 9_556 107.98(7) no
+Gd1 Gd1 Ni1 9_555 . 56.77(9) no
+Gd1 Gd1 Ni1 9_555 7_555 51.79(7) no
+Gd1 Gd1 Ni1 9_555 2_555 84.13(10) no
+Gd1 Gd1 Ni1 9_555 8_555 77.32(11) no
+Gd1 Gd1 Ni3 9_555 . 70.32(12) no
+Gd1 Gd1 Ni3 9_555 7_555 45.95(3) no
+Gd1 Gd1 Ni3 9_555 7_556 89.87(9) no
+Gd1 Gd1 Ni3 9_555 2_554 48.36(5) no
+Gd1 Gd1 Ni3 9_555 2_555 95.14(7) no
+Gd1 Gd1 Ni3 9_555 8_555 62.82(11) no
+Gd1 Gd1 Gd1 9_556 2_554 132.999(10) no
+Gd1 Gd1 Gd1 9_556 2_555 87.367(9) no
+Gd1 Gd1 Gd1 9_556 9_555 74.212(11) no
+Gd1 Gd1 Gd2 9_556 2_554 159.346(15) no
+Gd1 Gd1 Gd2 9_556 2_555 103.658(7) no
+Gd1 Gd1 Si 9_556 . 139.112(15) no
+Gd1 Gd1 Si 9_556 9_555 107.98(7) no
+Gd1 Gd1 Si 9_556 9_556 57.16(5) no
+Gd1 Gd1 Ni1 9_556 . 77.32(11) no
+Gd1 Gd1 Ni1 9_556 7_555 84.13(10) no
+Gd1 Gd1 Ni1 9_556 2_555 51.79(7) no
+Gd1 Gd1 Ni1 9_556 8_555 56.77(9) no
+Gd1 Gd1 Ni3 9_556 . 62.82(11) no
+Gd1 Gd1 Ni3 9_556 7_555 95.14(7) no
+Gd1 Gd1 Ni3 9_556 7_556 48.36(5) no
+Gd1 Gd1 Ni3 9_556 2_554 89.87(9) no
+Gd1 Gd1 Ni3 9_556 2_555 45.95(3) no
+Gd1 Gd1 Ni3 9_556 8_555 70.32(12) no
+Gd2 Gd1 Gd2 2_554 2_555 70.875(7) no
+Gd2 Gd1 Si 2_554 . 54.25(2) no
+Gd2 Gd1 Si 2_554 9_555 56.93(7) no
+Gd2 Gd1 Si 2_554 9_556 105.80(5) no
+Gd2 Gd1 Ni1 2_554 . 119.28(14) no
+Gd2 Gd1 Ni1 2_554 7_555 111.07(12) no
+Gd2 Gd1 Ni1 2_554 2_555 148.85(7) no
+Gd2 Gd1 Ni1 2_554 8_555 143.59(10) no
+Gd2 Gd1 Ni3 2_554 . 136.61(13) no
+Gd2 Gd1 Ni3 2_554 7_555 97.68(9) no
+Gd2 Gd1 Ni3 2_554 7_556 151.68(3) no
+Gd2 Gd1 Ni3 2_554 2_554 104.11(11) no
+Gd2 Gd1 Ni3 2_554 2_555 152.602(15) no
+Gd2 Gd1 Ni3 2_554 8_555 127.69(14) no
+Gd2 Gd1 Gd2 2_555 2_554 70.875(7) no
+Gd2 Gd1 Si 2_555 . 54.25(2) no
+Gd2 Gd1 Si 2_555 9_555 105.80(5) no
+Gd2 Gd1 Si 2_555 9_556 56.93(7) no
+Gd2 Gd1 Ni1 2_555 . 143.59(10) no
+Gd2 Gd1 Ni1 2_555 7_555 148.85(7) no
+Gd2 Gd1 Ni1 2_555 2_555 111.07(12) no
+Gd2 Gd1 Ni1 2_555 8_555 119.28(14) no
+Gd2 Gd1 Ni3 2_555 . 127.69(14) no
+Gd2 Gd1 Ni3 2_555 7_555 152.602(15) no
+Gd2 Gd1 Ni3 2_555 7_556 104.11(11) no
+Gd2 Gd1 Ni3 2_555 2_554 151.68(3) no
+Gd2 Gd1 Ni3 2_555 2_555 97.68(9) no
+Gd2 Gd1 Ni3 2_555 8_555 136.61(13) no
+Si Gd1 Si . 9_555 111.08(7) no
+Si Gd1 Si . 9_556 111.08(7) no
+Si Gd1 Ni1 . . 100.99(3) no
+Si Gd1 Ni1 . 7_555 100.32(3) no
+Si Gd1 Ni1 . 2_555 100.32(3) no
+Si Gd1 Ni1 . 8_555 100.99(3) no
+Si Gd1 Ni3 . . 101.37(3) no
+Si Gd1 Ni3 . 7_555 98.66(3) no
+Si Gd1 Ni3 . 7_556 99.53(3) no
+Si Gd1 Ni3 . 2_554 99.53(3) no
+Si Gd1 Ni3 . 2_555 98.66(3) no
+Si Gd1 Ni3 . 8_555 101.37(3) no
+Si Gd1 Si 9_555 . 111.08(7) no
+Si Gd1 Si 9_555 9_556 89.71(5) no
+Si Gd1 Ni1 9_555 . 108.39(14) no
+Si Gd1 Ni1 9_555 7_555 100.07(13) no
+Si Gd1 Ni1 9_555 2_555 141.13(11) no
+Si Gd1 Ni1 9_555 8_555 134.39(13) no
+Si Gd1 Ni3 9_555 . 126.51(15) no
+Si Gd1 Ni3 9_555 7_555 86.67(9) no
+Si Gd1 Ni3 9_555 7_556 145.90(9) no
+Si Gd1 Ni3 9_555 2_554 93.09(11) no
+Si Gd1 Ni3 9_555 2_555 149.25(8) no
+Si Gd1 Ni3 9_555 8_555 117.05(15) no
+Si Gd1 Si 9_556 . 111.08(7) no
+Si Gd1 Si 9_556 9_555 89.71(5) no
+Si Gd1 Ni1 9_556 . 134.39(13) no
+Si Gd1 Ni1 9_556 7_555 141.13(11) no
+Si Gd1 Ni1 9_556 2_555 100.07(13) no
+Si Gd1 Ni1 9_556 8_555 108.39(14) no
+Si Gd1 Ni3 9_556 . 117.05(15) no
+Si Gd1 Ni3 9_556 7_555 149.25(8) no
+Si Gd1 Ni3 9_556 7_556 93.09(11) no
+Si Gd1 Ni3 9_556 2_554 145.90(9) no
+Si Gd1 Ni3 9_556 2_555 86.67(9) no
+Si Gd1 Ni3 9_556 8_555 126.51(15) no
+Ni1 Gd1 Ni1 . 7_555 9.5(2) no
+Ni1 Gd1 Ni1 . 2_555 41.1(2) no
+Ni1 Gd1 Ni1 . 8_555 31.6(2) no
+Ni1 Gd1 Ni3 . . 21.5(2) no
+Ni1 Gd1 Ni3 . 7_555 24.78(19) no
+Ni1 Gd1 Ni3 . 7_556 49.1(2) no
+Ni1 Gd1 Ni3 . 2_554 17.5(2) no
+Ni1 Gd1 Ni3 . 2_555 56.37(19) no
+Ni1 Gd1 Ni3 . 8_555 10.1(2) no
+Ni1 Gd1 Ni1 7_555 . 9.5(2) no
+Ni1 Gd1 Ni1 7_555 2_555 50.7(2) no
+Ni1 Gd1 Ni1 7_555 8_555 41.1(2) no
+Ni1 Gd1 Ni3 7_555 . 31.0(2) no
+Ni1 Gd1 Ni3 7_555 7_555 15.23(17) no
+Ni1 Gd1 Ni3 7_555 7_556 58.63(19) no
+Ni1 Gd1 Ni3 7_555 2_554 7.95(19) no
+Ni1 Gd1 Ni3 7_555 2_555 65.91(17) no
+Ni1 Gd1 Ni3 7_555 8_555 19.6(2) no
+Ni1 Gd1 Ni1 2_555 . 41.1(2) no
+Ni1 Gd1 Ni1 2_555 7_555 50.7(2) no
+Ni1 Gd1 Ni1 2_555 8_555 9.5(2) no
+Ni1 Gd1 Ni3 2_555 . 19.6(2) no
+Ni1 Gd1 Ni3 2_555 7_555 65.91(17) no
+Ni1 Gd1 Ni3 2_555 7_556 7.95(19) no
+Ni1 Gd1 Ni3 2_555 2_554 58.63(19) no
+Ni1 Gd1 Ni3 2_555 2_555 15.23(17) no
+Ni1 Gd1 Ni3 2_555 8_555 31.0(2) no
+Ni1 Gd1 Ni1 8_555 . 31.6(2) no
+Ni1 Gd1 Ni1 8_555 7_555 41.1(2) no
+Ni1 Gd1 Ni1 8_555 2_555 9.5(2) no
+Ni1 Gd1 Ni3 8_555 . 10.1(2) no
+Ni1 Gd1 Ni3 8_555 7_555 56.37(19) no
+Ni1 Gd1 Ni3 8_555 7_556 17.5(2) no
+Ni1 Gd1 Ni3 8_555 2_554 49.1(2) no
+Ni1 Gd1 Ni3 8_555 2_555 24.78(19) no
+Ni1 Gd1 Ni3 8_555 8_555 21.5(2) no
+Ni3 Gd1 Ni3 . 7_555 46.3(2) no
+Ni3 Gd1 Ni3 . 7_556 27.6(2) no
+Ni3 Gd1 Ni3 . 2_554 39.0(2) no
+Ni3 Gd1 Ni3 . 2_555 34.9(2) no
+Ni3 Gd1 Ni3 . 8_555 11.4(2) no
+Ni3 Gd1 Ni3 7_555 . 46.3(2) no
+Ni3 Gd1 Ni3 7_555 7_556 73.86(16) no
+Ni3 Gd1 Ni3 7_555 2_554 7.28(16) no
+Ni3 Gd1 Ni3 7_555 2_555 81.15(14) no
+Ni3 Gd1 Ni3 7_555 8_555 34.9(2) no
+Ni3 Gd1 Ni3 7_556 . 27.6(2) no
+Ni3 Gd1 Ni3 7_556 7_555 73.86(16) no
+Ni3 Gd1 Ni3 7_556 2_554 66.58(17) no
+Ni3 Gd1 Ni3 7_556 2_555 7.28(16) no
+Ni3 Gd1 Ni3 7_556 8_555 39.0(2) no
+Ni3 Gd1 Ni3 2_554 . 39.0(2) no
+Ni3 Gd1 Ni3 2_554 7_555 7.28(16) no
+Ni3 Gd1 Ni3 2_554 7_556 66.58(17) no
+Ni3 Gd1 Ni3 2_554 2_555 73.86(16) no
+Ni3 Gd1 Ni3 2_554 8_555 27.6(2) no
+Ni3 Gd1 Ni3 2_555 . 34.9(2) no
+Ni3 Gd1 Ni3 2_555 7_555 81.15(14) no
+Ni3 Gd1 Ni3 2_555 7_556 7.28(16) no
+Ni3 Gd1 Ni3 2_555 2_554 73.86(16) no
+Ni3 Gd1 Ni3 2_555 8_555 46.3(2) no
+Ni3 Gd1 Ni3 8_555 . 11.4(2) no
+Ni3 Gd1 Ni3 8_555 7_555 34.9(2) no
+Ni3 Gd1 Ni3 8_555 7_556 39.0(2) no
+Ni3 Gd1 Ni3 8_555 2_554 27.6(2) no
+Ni3 Gd1 Ni3 8_555 2_555 46.3(2) no
+Gd1 Gd2 Gd1 9_555 9_556 70.875(7) no
+Gd1 Gd2 Gd2 9_555 7_655 64.956(10) no
+Gd1 Gd2 Gd2 9_555 7_656 103.137(10) no
+Gd1 Gd2 Gd2 9_555 8_665 105.330(14) no
+Gd1 Gd2 Gd2 9_555 3_655 143.092(5) no
+Gd1 Gd2 Ni2 9_555 7_665 91.116(6) no
+Gd1 Gd2 Ni2 9_555 7_666 147.587(16) no
+Gd1 Gd2 Si 9_555 2_654 97.72(4) no
+Gd1 Gd2 Si 9_555 2_655 157.93(4) no
+Gd1 Gd2 Si 9_555 8_555 51.33(4) no
+Gd1 Gd2 Si 9_555 9_555 54.63(4) no
+Gd1 Gd2 Si 9_555 9_556 101.83(4) no
+Gd1 Gd2 Gd1 9_556 9_555 70.875(7) no
+Gd1 Gd2 Gd2 9_556 7_655 103.137(10) no
+Gd1 Gd2 Gd2 9_556 7_656 64.956(10) no
+Gd1 Gd2 Gd2 9_556 8_665 105.330(14) no
+Gd1 Gd2 Gd2 9_556 3_655 143.092(5) no
+Gd1 Gd2 Ni2 9_556 7_665 147.587(16) no
+Gd1 Gd2 Ni2 9_556 7_666 91.116(6) no
+Gd1 Gd2 Si 9_556 2_654 157.93(4) no
+Gd1 Gd2 Si 9_556 2_655 97.72(4) no
+Gd1 Gd2 Si 9_556 8_555 51.33(4) no
+Gd1 Gd2 Si 9_556 9_555 101.83(4) no
+Gd1 Gd2 Si 9_556 9_556 54.63(4) no
+Gd2 Gd2 Gd2 7_655 7_656 68.255(8) no
+Gd2 Gd2 Gd2 7_655 8_665 144.461(5) no
+Gd2 Gd2 Gd2 7_655 3_655 105.977(12) no
+Gd2 Gd2 Ni2 7_655 7_665 92.463(5) no
+Gd2 Gd2 Ni2 7_655 7_666 147.245(15) no
+Gd2 Gd2 Si 7_655 2_654 54.86(4) no
+Gd2 Gd2 Si 7_655 2_655 101.03(5) no
+Gd2 Gd2 Si 7_655 8_555 51.84(5) no
+Gd2 Gd2 Si 7_655 9_555 99.59(5) no
+Gd2 Gd2 Si 7_655 9_556 157.70(4) no
+Gd2 Gd2 Gd2 7_656 7_655 68.255(8) no
+Gd2 Gd2 Gd2 7_656 8_665 144.461(5) no
+Gd2 Gd2 Gd2 7_656 3_655 105.977(12) no
+Gd2 Gd2 Ni2 7_656 7_665 147.245(15) no
+Gd2 Gd2 Ni2 7_656 7_666 92.463(5) no
+Gd2 Gd2 Si 7_656 2_654 101.03(5) no
+Gd2 Gd2 Si 7_656 2_655 54.86(4) no
+Gd2 Gd2 Si 7_656 8_555 51.84(5) no
+Gd2 Gd2 Si 7_656 9_555 157.70(4) no
+Gd2 Gd2 Si 7_656 9_556 99.59(5) no
+Gd2 Gd2 Gd2 8_665 7_655 144.461(5) no
+Gd2 Gd2 Gd2 8_665 7_656 144.461(5) no
+Gd2 Gd2 Gd2 8_665 3_655 60.000(13) no
+Gd2 Gd2 Ni2 8_665 7_665 52.497(6) no
+Gd2 Gd2 Ni2 8_665 7_666 52.497(6) no
+Gd2 Gd2 Si 8_665 2_654 95.80(4) no
+Gd2 Gd2 Si 8_665 2_655 95.80(4) no
+Gd2 Gd2 Si 8_665 8_555 148.85(7) no
+Gd2 Gd2 Si 8_665 9_555 53.99(4) no
+Gd2 Gd2 Si 8_665 9_556 53.99(4) no
+Gd2 Gd2 Gd2 3_655 7_655 105.977(12) no
+Gd2 Gd2 Gd2 3_655 7_656 105.977(12) no
+Gd2 Gd2 Gd2 3_655 8_665 60.000(13) no
+Gd2 Gd2 Ni2 3_655 7_665 52.497(6) no
+Gd2 Gd2 Ni2 3_655 7_666 52.497(6) no
+Gd2 Gd2 Si 3_655 2_654 54.86(3) no
+Gd2 Gd2 Si 3_655 2_655 54.86(3) no
+Gd2 Gd2 Si 3_655 8_555 151.15(7) no
+Gd2 Gd2 Si 3_655 9_555 95.21(4) no
+Gd2 Gd2 Si 3_655 9_556 95.21(4) no
+Ni2 Gd2 Ni2 7_665 7_666 90.666(7) no
+Ni2 Gd2 Si 7_665 2_654 47.27(5) no
+Ni2 Gd2 Si 7_665 2_655 107.06(3) no
+Ni2 Gd2 Si 7_665 8_555 134.656(4) no
+Ni2 Gd2 Si 7_665 9_555 46.96(4) no
+Ni2 Gd2 Si 7_665 9_556 106.20(4) no
+Ni2 Gd2 Ni2 7_666 7_665 90.666(7) no
+Ni2 Gd2 Si 7_666 2_654 107.06(3) no
+Ni2 Gd2 Si 7_666 2_655 47.27(5) no
+Ni2 Gd2 Si 7_666 8_555 134.656(4) no
+Ni2 Gd2 Si 7_666 9_555 106.20(4) no
+Ni2 Gd2 Si 7_666 9_556 46.96(4) no
+Si Gd2 Si 2_654 2_655 86.21(6) no
+Si Gd2 Si 2_654 8_555 106.71(6) no
+Si Gd2 Si 2_654 9_555 85.34(6) no
+Si Gd2 Si 2_654 9_556 147.42(5) no
+Si Gd2 Si 2_655 2_654 86.21(6) no
+Si Gd2 Si 2_655 8_555 106.71(6) no
+Si Gd2 Si 2_655 9_555 147.42(5) no
+Si Gd2 Si 2_655 9_556 85.34(6) no
+Si Gd2 Si 8_555 2_654 106.71(6) no
+Si Gd2 Si 8_555 2_655 106.71(6) no
+Si Gd2 Si 8_555 9_555 105.87(6) no
+Si Gd2 Si 8_555 9_556 105.87(6) no
+Si Gd2 Si 9_555 2_654 85.34(6) no
+Si Gd2 Si 9_555 2_655 147.42(5) no
+Si Gd2 Si 9_555 8_555 105.87(6) no
+Si Gd2 Si 9_555 9_556 85.06(6) no
+Si Gd2 Si 9_556 2_654 147.42(5) no
+Si Gd2 Si 9_556 2_655 85.34(6) no
+Si Gd2 Si 9_556 8_555 105.87(6) no
+Si Gd2 Si 9_556 9_555 85.06(6) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Gd1 Gd1 2_554 3.4565(5) yes
+Gd1 Gd1 2_555 3.4565(5) yes
+Gd1 Gd1 9_555 3.4565(5) yes
+Gd1 Gd1 9_556 3.4565(5) yes
+Gd1 Gd2 2_554 3.5964(4) yes
+Gd1 Gd2 2_555 3.5964(4) yes
+Gd1 Si . 3.099(3) yes
+Gd1 Si 9_555 2.9565(17) yes
+Gd1 Si 9_556 2.9565(17) yes
+Gd1 Ni1 . 2.865(2) yes
+Gd1 Ni1 7_555 3.050(4) yes
+Gd1 Ni1 2_555 3.050(4) yes
+Gd1 Ni1 8_555 2.865(2) yes
+Gd1 Ni3 . 2.7703(9) yes
+Gd1 Ni3 7_555 3.629(5) yes
+Gd1 Ni3 7_556 3.298(5) yes
+Gd1 Ni3 2_554 3.298(5) yes
+Gd1 Ni3 2_555 3.629(5) yes
+Gd1 Ni3 8_555 2.7703(9) yes
+Gd2 Gd2 7_655 3.7168(4) yes
+Gd2 Gd2 7_656 3.7168(4) yes
+Gd2 Gd2 8_665 3.5700(5) yes
+Gd2 Gd2 3_655 3.5700(4) yes
+Gd2 Ni2 7_665 2.9320(2) yes
+Gd2 Ni2 7_666 2.9320(2) yes
+Gd2 Si 2_654 3.051(3) yes
+Gd2 Si 2_655 3.051(3) yes
+Gd2 Si 8_555 3.1734(19) yes
+Gd2 Si 9_555 3.085(3) yes
+Gd2 Si 9_556 3.085(3) yes

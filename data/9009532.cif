@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/95/9009532.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009532
+loop_
+_publ_author_name
+'Shashkin, D. P.'
+'Simonov, M. A.'
+'Belov, N. V.'
+_publ_section_title
+;
+ Crystal structure of a new natural borate vimsite Ca[B2O2(OH)4]
+;
+_journal_name_full               'Doklady Akademii Nauk SSSR'
+_journal_page_first              821
+_journal_page_last               824
+_journal_volume                  182
+_journal_year                    1968
+_chemical_formula_sum            'B2 Ca H4 O6'
+_chemical_name_mineral           Vimsite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 92
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   10.02
+_cell_length_b                   9.71
+_cell_length_c                   4.440
+_cell_volume                     431.723
+_database_code_amcsd             0012447
+_exptl_crystal_density_diffrn    2.488
+_cod_original_formula_sum        'Ca B2 O6 H4'
+_cod_database_code               9009532
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.20800 0.25000 0.01165 Ca 0
+B 0.20900 0.07000 0.81300 0.01165 B 0
+O1 0.16500 0.04800 0.11400 0.01165 O 0
+O-H2 0.35900 0.08400 0.79900 0.01165 O 1
+O-H3 0.14200 0.20100 0.70500 0.01165 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:53+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012447

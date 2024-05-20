@@ -1,0 +1,236 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/40/2104021.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2104021
+loop_
+_publ_author_name
+'Zavalij, Peter Y.'
+'Yang, Shoufeng'
+'Whittingham, M. Stanley'
+_publ_section_title
+;
+ Structures of potassium, sodium and lithium bis(oxalato)borate salts
+ from powder diffraction data
+;
+_journal_issue                   6
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              753
+_journal_page_last               759
+_journal_paper_doi               10.1107/S0108768103022602
+_journal_volume                  59
+_journal_year                    2003
+_chemical_formula_moiety         'C4 B Li O8'
+_chemical_formula_structural     'Li B (C2 O4)2'
+_chemical_formula_sum            'C4 B Li O8'
+_chemical_formula_weight         193.79
+_chemical_name_common            'Lithium bis(oxalato)borate'
+_chemical_name_systematic        'Lithium bis(oxalato)borate'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_audit_creation_method           'from EXP file using GSAS2CIF'
+_cell_angle_alpha                90.0
+_cell_angle_beta                 90.0
+_cell_angle_gamma                90.0
+_cell_formula_units_Z            4
+_cell_length_a                   6.3635(4)
+_cell_length_b                   7.5998(3)
+_cell_length_c                   13.1715(9)
+_cell_measurement_temperature    295
+_cell_volume                     636.99(6)
+_computing_data_collection       'DMSNT (1999)'
+_computing_molecular_graphics    'ATOMS (Dowty, 1999)'
+_computing_publication_material  'EXPGUI (Toby, 2001)'
+_computing_structure_refinement  'GSAS (Larson & Von Dreele, 2000)'
+_computing_structure_solution    ' FOX (Favre-Nicolin & Cerny, 2002)'
+_diffrn_ambient_temperature      295
+_diffrn_measurement_device_type  'Scintag XDS2000 powder diffractometer'
+_diffrn_reflns_limit_h_max       4
+_diffrn_reflns_limit_h_min       0
+_diffrn_reflns_limit_k_max       5
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       8
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            104
+_diffrn_reflns_theta_max         30.
+_diffrn_reflns_theta_min         5
+_exptl_absorpt_correction_T_max  0.30280
+_exptl_absorpt_correction_T_min  0.28162
+_exptl_absorpt_process_details
+;   GSAS Absorption/surface roughness correction: function number 0
+ Debye-Scherrer absorption correction
+Term (= MU.r/wave) =     0.50000
+;
+_exptl_crystal_density_diffrn    2.021
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             448
+_refine_ls_goodness_of_fit_all   2.35
+_refine_ls_hydrogen_treatment    none
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    8
+_refine_ls_number_parameters     47
+_refine_ls_number_restraints     11
+_refine_ls_shift/su_max          0.04
+_refine_ls_shift/su_mean         0.01
+_refine_ls_structure_factor_coef Y~obs~
+_refine_ls_weighting_details     w=1/Yobs(i)
+_reflns_number_total             104
+_cod_data_source_file            ta5002.cif
+_cod_data_source_block           LiBOB
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (20
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according to
+'/home/saulius/struct/CIF-dictionaries/cif_core.dic' dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (36 times).
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (20
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (36 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
+;
+_cod_database_code               2104021
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 +x,+y,+z
+2 -x+1/2,+y+1/2,+z+1/2
+3 +x,-y+1/2,+z
+4 -x+1/2,-y,+z+1/2
+-1 -x,-y,-z
+-2 +x-1/2,-y-1/2,-z-1/2
+-3 -x,+y-1/2,-z
+-4 +x-1/2,+y,-z-1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Li 0.534(5) 0.25 0.325(3) 0.0278(17) Uiso 1.0 LI
+B 0.089(2) 0.25 0.5403(11) 0.0278(17) Uiso 1.0 B
+O1 0.2012(11) 0.0991(8) 0.5845(7) 0.0278(17) Uiso 1.0 O
+C1 0.3549(18) 0.1484(3) 0.6462(9) 0.0278(17) Uiso 1.0 C
+O2 0.4795(10) 0.0535(7) 0.6881(6) 0.0278(17) Uiso 1.0 O
+O3 0.117(2) 0.25 0.4292(10) 0.0278(17) Uiso 1.0 O
+C2 -0.080(2) 0.25 0.3910(10) 0.0278(17) Uiso 1.0 C
+O4 -0.1373(16) 0.25 0.3045(9) 0.0278(17) Uiso 1.0 O
+O5 -0.135(2) 0.25 0.5681(8) 0.0278(17) Uiso 1.0 O
+C3 -0.2364(17) 0.25 0.4805(11) 0.0278(17) Uiso 1.0 C
+O6 -0.4247(15) 0.25 0.4705(7) 0.0278(17) Uiso 1.0 O
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+LI 0.001 0.000 International_Tables_Vol_C
+B 0.008 0.004 International_Tables_Vol_C
+O 0.047 0.032 International_Tables_Vol_C
+C 0.017 0.009 International_Tables_Vol_C
+loop_
+_diffrn_radiation_type
+_diffrn_radiation_wavelength
+CuK\a~1~ 1.540562
+CuK\a~2~ 1.544390
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+O2 Li O2 -1_656 -3_666 170.5(16) n
+O2 Li O4 -1_656 1_655 91.6(8) n
+O2 Li O4 -1_656 -2_666 85.3(8) n
+O2 Li O6 -1_656 1_655 94.5(9) n
+O2 Li O4 -3_666 1_655 91.6(8) n
+O2 Li O4 -3_666 -2_666 85.3(8) n
+O2 Li O6 -3_666 1_655 94.5(9) n
+O4 Li O4 1_655 -2_666 115.3(15) n
+O4 Li O6 1_655 1_655 89.5(12) n
+O4 Li O6 -2_666 1_655 155.2(18) n
+O1 B O1 1_555 3_555 102.6(8) n
+O1 B O3 1_555 1_555 110.2(9) n
+O1 B O5 1_555 1_555 111.8(9) n
+O1 B O3 3_555 1_555 110.2(9) n
+O1 B O5 3_555 1_555 111.8(9) n
+O3 B O5 1_555 1_555 110.1(9) n
+B O1 C1 1_555 1_555 112.3(7) n
+O1 C1 C1 1_555 3_555 106.4(3) n
+O1 C1 O2 1_555 1_555 126.6(4) n
+C1 C1 O2 3_555 1_555 126.7(3) n
+Li O2 C1 -1_656 1_555 122.5(8) n
+B O3 C2 1_555 1_555 106.6(12) n
+O3 C2 O4 1_555 1_555 130.2(17) n
+O3 C2 C3 1_555 1_555 107.8(12) n
+O4 C2 C3 1_555 1_555 122.0(16) n
+Li O4 Li 1_455 -2_566 129.9(11) n
+Li O4 C2 1_455 1_555 100.5(13) n
+Li O4 C2 -2_566 1_555 129.6(13) n
+B O5 C3 1_555 1_555 104.8(9) n
+Li C3 C2 1_455 1_555 75.7(12) n
+Li C3 O5 1_455 1_555 173.7(13) n
+Li C3 O6 1_455 1_555 48.3(9) n
+C2 C3 O5 1_555 1_555 110.7(11) n
+C2 C3 O6 1_555 1_555 123.9(14) n
+O5 C3 O6 1_555 1_555 125.4(16) n
+Li O6 C3 1_455 1_555 104.1(13) n
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Li Li -2_566 3.74(4) n
+Li Li -2_666 3.74(4) n
+Li O6 1_655 1.94(3) n
+Li O4 -2_666 2.02(3) n
+Li O4 1_655 2.11(3) n
+Li O2 -1_656 2.315(6) n
+Li O2 -3_666 2.315(6) n
+B O1 1_555 1.470(6) n
+B O1 3_555 1.470(6) n
+B O3 1_555 1.471(6) n
+B O5 1_555 1.474(6) n
+C1 O1 1_555 1.326(4) n
+C1 C1 3_555 1.544(5) n
+C1 O2 1_555 1.206(4) n
+C2 O3 1_555 1.324(5) n
+C2 O4 1_555 1.196(5) n
+C2 C3 1_555 1.543(5) n
+C3 C2 1_555 1.543(5) n
+C3 O5 1_555 1.321(5) n
+C3 O6 1_555 1.205(5) n

@@ -1,0 +1,241 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 23:25:04 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179059 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/21/4302121.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4302121
+loop_
+_publ_author_name
+'Shalabh Gupta'
+'E. Alejandro Le\'on-Escamilla'
+'Fei Wang'
+'Gordon J. Miller'
+'John D. Corbett'
+_publ_section_title
+;
+R5Pn3-type Phases of the Heavier Trivalent Rare-Earth-Metal Pnictides (Pn =
+Sb, Bi): New Phase Transitions for Er5Sb3 and Tm5Sb3
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              4362
+_journal_page_last               4371
+_journal_paper_doi               10.1021/ic802464u
+_journal_volume                  48
+_journal_year                    2009
+_chemical_formula_sum            'Lu5 Sb3'
+_chemical_formula_weight         1240.10
+_chemical_name_common            'Pentalutetium triantimonide'
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   7.8847(4)
+_cell_length_b                   9.0770(5)
+_cell_length_c                   11.5055(6)
+_cell_measurement_reflns_used    9065
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.27
+_cell_measurement_theta_min      2.86
+_cell_volume                     823.44(8)
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full 0.983
+_diffrn_measured_fraction_theta_max 0.983
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0421
+_diffrn_reflns_av_sigmaI/netI    0.0251
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_h_min       -10
+_diffrn_reflns_limit_k_max       11
+_diffrn_reflns_limit_k_min       -12
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_limit_l_min       -15
+_diffrn_reflns_number            8410
+_diffrn_reflns_theta_full        28.27
+_diffrn_reflns_theta_max         28.27
+_diffrn_reflns_theta_min         2.86
+_exptl_absorpt_coefficient_mu    68.911
+_exptl_absorpt_correction_type   empirical
+_exptl_absorpt_process_details   SADABS
+_exptl_crystal_colour            black
+_exptl_crystal_density_diffrn    10.003
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       irregular
+_exptl_crystal_F_000             2032
+_exptl_crystal_size_max          0.08
+_exptl_crystal_size_mid          0.07
+_exptl_crystal_size_min          0.05
+_refine_diff_density_max         2.124
+_refine_diff_density_min         -1.845
+_refine_diff_density_rms         0.404
+_refine_ls_extinction_coef       0.00035(3)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   1.091
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     44
+_refine_ls_number_reflns         1064
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.091
+_refine_ls_R_factor_all          0.0264
+_refine_ls_R_factor_gt           0.0218
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0188P)^2^+2.3239P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_gt          0.0428
+_refine_ls_wR_factor_ref         0.0444
+_reflns_number_gt                966
+_reflns_number_total             1064
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            ic802464u_si_002_1.cif
+_cod_data_source_block           lu5sb3rm
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Orthorhombic' changed to 'orthorhombic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_database_code               4302121
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z'
+'x+1/2, -y+1/2, -z+1/2'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z'
+'-x-1/2, y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Lu1 Lu 0.19411(4) 0.56098(4) 0.43910(3) 0.00953(11) Uani 1 1 d . . .
+Lu2 Lu 0.02803(6) 0.7500 0.99069(4) 0.00879(12) Uani 1 2 d S . .
+Lu3 Lu 0.18579(6) 0.7500 0.71914(4) 0.01004(13) Uani 1 2 d S . .
+Lu4 Lu -0.14496(7) 0.7500 0.28577(4) 0.01126(13) Uani 1 2 d S . .
+Sb1 Sb -0.06631(7) 0.49712(6) 0.82655(5) 0.00982(14) Uani 1 1 d . . .
+Sb2 Sb -0.08918(10) 0.7500 0.54113(7) 0.00936(17) Uani 1 2 d S . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Lu1 0.00952(18) 0.00843(18) 0.01063(19) 0.00011(13) 0.00070(14) -0.00049(13)
+Lu2 0.0087(2) 0.0091(2) 0.0086(2) 0.000 0.00024(19) 0.000
+Lu3 0.0101(3) 0.0113(3) 0.0087(2) 0.000 0.00036(19) 0.000
+Lu4 0.0129(3) 0.0127(3) 0.0081(2) 0.000 -0.0003(2) 0.000
+Sb2 0.0093(4) 0.0093(4) 0.0094(4) 0.000 -0.0004(3) 0.000
+Sb1 0.0114(3) 0.0091(3) 0.0089(3) 0.0001(2) -0.0011(2) -0.0001(2)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+Sb Sb -0.5866 1.5461 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Lu Lu -0.4720 5.8584 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Lu1 Sb2 2.9503(4) 5_566 ?
+Lu1 Sb2 3.0514(7) . ?
+Lu1 Lu2 3.2447(6) 6_657 ?
+Lu1 Sb1 3.2507(6) 2_564 ?
+Lu1 Sb1 3.2612(7) 5_566 ?
+Lu1 Sb1 3.3428(7) 6_657 ?
+Lu1 Lu4 3.3538(6) 6_656 ?
+Lu1 Lu1 3.4315(7) 7_575 ?
+Lu1 Lu1 3.5439(7) 5_566 ?
+Lu1 Lu2 3.6221(5) 2_564 ?
+Lu1 Lu4 3.6336(6) . ?
+Lu1 Lu3 3.6509(6) . ?
+Lu2 Sb2 3.0403(9) 6_657 ?
+Lu2 Sb1 3.0641(6) 7_575 ?
+Lu2 Sb1 3.0641(6) . ?
+Lu2 Sb1 3.0894(7) 3_557 ?
+Lu2 Sb1 3.0894(7) 5_567 ?
+Lu2 Lu1 3.2447(5) 4_466 ?
+Lu2 Lu1 3.2447(6) 6_557 ?
+Lu2 Lu3 3.3628(7) . ?
+Lu2 Lu3 3.6208(7) 6_557 ?
+Lu2 Lu1 3.6221(5) 8_666 ?
+Lu2 Lu1 3.6221(5) 2_565 ?
+Lu2 Lu4 3.6418(7) 6_657 ?
+Lu3 Sb2 2.9824(9) . ?
+Lu3 Sb1 3.0604(6) 4_566 ?
+Lu3 Sb1 3.0604(6) 6_657 ?
+Lu3 Sb1 3.2783(6) 7_575 ?
+Lu3 Sb1 3.2783(6) . ?
+Lu3 Sb2 3.2796(9) 6_657 ?
+Lu3 Lu2 3.6208(7) 6_657 ?
+Lu3 Lu1 3.6510(6) 7_575 ?
+Lu3 Lu1 3.9076(5) 8_666 ?
+Lu3 Lu1 3.9076(5) 2_565 ?
+Lu4 Sb2 2.9708(9) . ?
+Lu4 Sb1 3.0784(6) 3_556 ?
+Lu4 Sb1 3.0784(6) 5_566 ?
+Lu4 Sb1 3.2302(6) 8_565 ?
+Lu4 Sb1 3.2303(6) 2_464 ?
+Lu4 Lu1 3.3537(6) 4_465 ?
+Lu4 Lu1 3.3537(6) 6_556 ?
+Lu4 Lu1 3.6336(6) 7_575 ?
+Lu4 Lu2 3.6418(7) 6_557 ?
+Lu4 Lu2 3.6588(7) 1_554 ?
+Sb2 Lu1 2.9503(4) 3_556 ?
+Sb2 Lu1 2.9503(4) 5_566 ?
+Sb2 Lu2 3.0403(9) 6_557 ?
+Sb2 Lu1 3.0514(7) 7_575 ?
+Sb2 Lu3 3.2796(9) 6_557 ?
+Sb1 Lu3 3.0604(6) 6_557 ?
+Sb1 Lu4 3.0784(6) 5_566 ?
+Sb1 Lu2 3.0893(6) 5_567 ?
+Sb1 Lu4 3.2302(6) 2_465 ?
+Sb1 Lu1 3.2507(6) 2_565 ?
+Sb1 Lu1 3.2612(7) 5_566 ?
+Sb1 Lu1 3.3428(7) 6_557 ?

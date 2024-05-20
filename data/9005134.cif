@@ -1,0 +1,98 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/51/9005134.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9005134
+loop_
+_publ_author_name
+'Barbier, J.'
+'Liu, B.'
+'Weber, J.'
+_publ_section_title
+;
+ Crystal chemistry of the (Na,K)GaSiO4 system
+ Note: kalsilite structure
+;
+_journal_name_full               'European Journal of Mineralogy'
+_journal_page_first              297
+_journal_page_last               305
+_journal_volume                  5
+_journal_year                    1993
+_chemical_formula_structural     Na.7K.3GaSiO4
+_chemical_formula_sum            'Ga3 K0.9 Na2.1 O12 Si3'
+_space_group_IT_number           173
+_symmetry_space_group_name_Hall  'P 6c'
+_symmetry_space_group_name_H-M   'P 63'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            2
+_cell_length_a                   8.8169
+_cell_length_b                   8.8169
+_cell_length_c                   8.3873
+_cell_volume                     564.657
+_database_code_amcsd             0006479
+_exptl_crystal_density_diffrn    3.346
+_cod_original_formula_sum        'Na2.1 K.9 (Ga3 Si3) O12'
+_cod_database_code               9005134
+_amcsd_formula_title             Na.7K.3GaSiO4
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,1/2+z
+-y,x-y,z
+-x,-y,1/2+z
+-x+y,-x,z
+y,-x+y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NaM1 0.00000 0.00000 0.75000 0.30000 0.03420 Na 0
+KM1 0.00000 0.00000 0.75000 0.70000 0.03420 K 0
+NaM2 0.66667 0.33333 0.79100 1.00000 0.05953 Na 0
+NaM3 0.33333 0.66667 0.72800 0.80000 0.03546 Na 0
+KM3 0.33333 0.66667 0.72800 0.20000 0.03546 K 0
+GaT1 0.68300 0.65700 0.54700 0.95000 0.03673 Ga 0
+SiT1 0.68300 0.65700 0.54700 0.05000 0.03673 Si 0
+GaT2 0.65500 -0.02200 0.43400 0.05000 0.03673 Ga 0
+SiT2 0.65500 -0.02200 0.43400 0.95000 0.03673 Si 0
+O1 0.74400 0.87800 0.52500 1.00000 0.04053 O 0
+O2 0.47100 0.91800 0.52400 1.00000 0.04053 O 0
+O3 0.77700 0.19000 0.43300 1.00000 0.04053 O 0
+O4 0.72700 0.63600 0.74400 1.00000 0.06713 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:14:28+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006479

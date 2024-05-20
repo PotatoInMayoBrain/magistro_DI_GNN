@@ -1,0 +1,544 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-23 04:05:21 +0200 (Wed, 23 Mar 2016) $
+#$Revision: 179276 $
+#$URL: svn://www.crystallography.net/cod/cif/4/31/96/4319633.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4319633
+loop_
+_publ_author_name
+Evenson
+'Peter K. Dorhout'
+_publ_section_title
+;
+ Synthesis and Characterization of Four New Europium Group XIV
+ Chalcogenides: K2EuTSe5 and KEuTS4(T = Si, Ge)
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              2409
+_journal_page_last               2414
+_journal_paper_doi               10.1021/ic001248s
+_journal_volume                  40
+_journal_year                    2001
+_chemical_formula_sum            'Eu Ge K2 Se5'
+_chemical_formula_weight         697.55
+_chemical_name_systematic
+; 
+ ? 
+;
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_atom_sites_solution_hydrogens   geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.00
+_cell_angle_beta                 91.1950(10)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   11.8056(3)
+_cell_length_b                   9.96300(10)
+_cell_length_c                   8.94560(10)
+_cell_measurement_temperature    167(2)
+_cell_volume                     1051.95(3)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SAINT'
+_computing_molecular_graphics    'Bruker SHELXTL'
+_computing_publication_material  'Bruker SHELXTL'
+_computing_structure_refinement  'SHELXL-93 (Sheldrick, 1993)'
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      167(2)
+_diffrn_measurement_device       'Bruker CCD'
+_diffrn_measurement_method       '\w scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0841
+_diffrn_reflns_av_sigmaI/netI    0.1060
+_diffrn_reflns_limit_h_max       15
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_k_min       -13
+_diffrn_reflns_limit_l_max       11
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_number            6796
+_diffrn_reflns_theta_max         28.19
+_diffrn_reflns_theta_min         1.73
+_exptl_absorpt_coefficient_mu    26.781
+_exptl_absorpt_correction_type   SADABS
+_exptl_crystal_colour            red
+_exptl_crystal_density_diffrn    4.404
+_exptl_crystal_description       cube
+_exptl_crystal_F_000             1212
+_exptl_crystal_size_max          0.09
+_exptl_crystal_size_mid          0.09
+_exptl_crystal_size_min          0.09
+_refine_diff_density_max         2.169
+_refine_diff_density_min         -2.436
+_refine_diff_density_rms         0.549
+_refine_ls_extinction_coef       0.0039(2)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_all   0.934
+_refine_ls_goodness_of_fit_obs   1.004
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     83
+_refine_ls_number_reflns         2518
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      0.934
+_refine_ls_restrained_S_obs      1.004
+_refine_ls_R_factor_all          0.0689
+_refine_ls_R_factor_obs          0.0436
+_refine_ls_shift/esd_max         -0.001
+_refine_ls_shift/esd_mean        0.000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'w=1/[\s^2^(Fo^2^)+(0.0115P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_all         0.0913
+_refine_ls_wR_factor_obs         0.0831
+_reflns_number_observed          1820
+_reflns_number_total             2518
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            ic001248s_2.cif
+_cod_data_source_block           p21c
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to the built-in table from CIF Core dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_values 1646 2011-03-28 12:23:43Z adriana 
+
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value 'calc
+w=1/[\s^2^(Fo^2^)+(0.0115P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3' was
+changed to 'calc'. New tag '_refine_ls_weighting_details' was
+created. The value of the new tag was set to
+'w=1/[\s^2^(Fo^2^)+(0.0115P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_database_code               4319633
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Eu1 0.0095(3) 0.0106(3) 0.0078(3) -0.0010(2) 0.0004(2) 0.0002(2)
+Se2 0.0069(5) 0.0114(5) 0.0080(5) 0.0014(4) 0.0005(4) -0.0004(4)
+Se3 0.0090(5) 0.0107(5) 0.0125(5) -0.0013(4) 0.0024(4) 0.0006(4)
+Se4 0.0053(5) 0.0217(6) 0.0124(6) -0.0015(4) -0.0006(4) 0.0014(4)
+Se1 0.0101(6) 0.0106(5) 0.0091(5) 0.0012(4) 0.0029(4) 0.0012(4)
+Se5 0.0144(6) 0.0147(5) 0.0086(5) 0.0028(4) -0.0012(4) -0.0045(4)
+Ge1 0.0063(6) 0.0122(5) 0.0072(5) -0.0004(4) 0.0005(4) -0.0003(4)
+K1 0.0093(12) 0.0215(12) 0.0123(12) -0.0012(9) 0.0019(10) -0.0020(9)
+K2 0.028(2) 0.0212(14) 0.031(2) -0.0020(11) 0.0178(13) -0.0032(11)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_group
+Eu1 Eu 0.48373(5) 0.73057(5) 0.10531(6) 0.0093(2) Uani 1 d . .
+Se2 Se 0.40369(9) 1.03813(9) 0.13518(11) 0.0087(2) Uani 1 d . .
+Se3 Se 0.28781(9) 0.74459(10) -0.14276(12) 0.0107(2) Uani 1 d . .
+Se4 Se 0.06967(9) 1.01432(11) 0.19451(12) 0.0131(3) Uani 1 d . .
+Se1 Se 0.40789(9) 0.43397(9) 0.15894(11) 0.0099(2) Uani 1 d . .
+Se5 Se 0.75323(9) 0.63062(10) -0.00039(11) 0.0126(3) Uani 1 d . .
+Ge1 Ge 0.25297(9) 0.97930(10) 0.29082(12) 0.0085(2) Uani 1 d . .
+K1 K 0.8022(2) 0.9441(2) 0.1257(3) 0.0143(5) Uani 1 d . .
+K2 K 0.0559(2) 0.6995(3) 0.0395(3) 0.0267(7) Uani 1 d . .
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+K K 0.2009 0.2494 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Ge Ge 0.1547 1.8001 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Se Se -0.0929 2.2259 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Eu Eu -0.1578 3.6682 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+Se1 Eu1 Se1 75.34(3) . 3_665 ?
+Se1 Eu1 Se3 86.68(3) . . ?
+Se1 Eu1 Se3 78.52(3) 3_665 . ?
+Se1 Eu1 Se1 127.87(2) . 2_655 ?
+Se1 Eu1 Se1 131.49(4) 3_665 2_655 ?
+Se3 Eu1 Se1 135.55(3) . 2_655 ?
+Se1 Eu1 Se2 143.24(3) . . ?
+Se1 Eu1 Se2 132.70(3) 3_665 . ?
+Se3 Eu1 Se2 78.78(3) . . ?
+Se1 Eu1 Se2 56.78(3) 2_655 . ?
+Se1 Eu1 Se2 56.69(3) . 2_645 ?
+Se1 Eu1 Se2 93.54(3) 3_665 2_645 ?
+Se3 Eu1 Se2 143.23(3) . 2_645 ?
+Se1 Eu1 Se2 75.56(3) 2_655 2_645 ?
+Se2 Eu1 Se2 127.91(2) . 2_645 ?
+Se1 Eu1 Se3 75.94(3) . 4_576 ?
+Se1 Eu1 Se3 148.79(3) 3_665 4_576 ?
+Se3 Eu1 Se3 87.88(3) . 4_576 ?
+Se1 Eu1 Se3 77.00(3) 2_655 4_576 ?
+Se2 Eu1 Se3 70.00(3) . 4_576 ?
+Se2 Eu1 Se3 80.69(3) 2_645 4_576 ?
+Se1 Eu1 Se2 147.65(3) . 3_675 ?
+Se1 Eu1 Se2 73.30(3) 3_665 3_675 ?
+Se3 Eu1 Se2 79.55(3) . 3_675 ?
+Se1 Eu1 Se2 80.34(3) 2_655 3_675 ?
+Se2 Eu1 Se2 62.10(3) . 3_675 ?
+Se2 Eu1 Se2 132.85(4) 2_645 3_675 ?
+Se3 Eu1 Se2 131.93(3) 4_576 3_675 ?
+Se1 Eu1 Se5 92.15(3) . . ?
+Se1 Eu1 Se5 42.63(3) 3_665 . ?
+Se3 Eu1 Se5 118.62(3) . . ?
+Se1 Eu1 Se5 90.29(3) 2_655 . ?
+Se2 Eu1 Se5 124.47(3) . . ?
+Se2 Eu1 Se5 70.44(3) 2_645 . ?
+Se3 Eu1 Se5 150.61(3) 4_576 . ?
+Se2 Eu1 Se5 69.79(3) 3_675 . ?
+Se1 Eu1 K1 135.27(4) . . ?
+Se1 Eu1 K1 85.51(4) 3_665 . ?
+Se3 Eu1 K1 128.94(4) . . ?
+Se1 Eu1 K1 47.10(4) 2_655 . ?
+Se2 Eu1 K1 77.55(4) . . ?
+Se2 Eu1 K1 85.31(4) 2_645 . ?
+Se3 Eu1 K1 124.10(4) 4_576 . ?
+Se2 Eu1 K1 49.39(4) 3_675 . ?
+Se5 Eu1 K1 49.71(4) . . ?
+Se1 Eu1 Eu1 103.90(2) . 4_575 ?
+Se1 Eu1 Eu1 45.00(2) 3_665 4_575 ?
+Se3 Eu1 Eu1 46.76(2) . 4_575 ?
+Se1 Eu1 Eu1 126.75(2) 2_655 4_575 ?
+Se2 Eu1 Eu1 90.38(2) . 4_575 ?
+Se2 Eu1 Eu1 138.51(2) 2_645 4_575 ?
+Se3 Eu1 Eu1 133.97(2) 4_576 4_575 ?
+Se2 Eu1 Eu1 46.44(2) 3_675 4_575 ?
+Se5 Eu1 Eu1 74.65(2) . 4_575 ?
+K1 Eu1 Eu1 88.94(3) . 4_575 ?
+Se1 Eu1 Eu1 85.57(2) . 4_576 ?
+Se1 Eu1 Eu1 142.78(2) 3_665 4_576 ?
+Se3 Eu1 Eu1 132.64(2) . 4_576 ?
+Se1 Eu1 Eu1 44.89(2) 2_655 4_576 ?
+Se2 Eu1 Eu1 80.16(2) . 4_576 ?
+Se2 Eu1 Eu1 49.61(2) 2_645 4_576 ?
+Se3 Eu1 Eu1 44.98(2) 4_576 4_576 ?
+Se2 Eu1 Eu1 125.00(2) 3_675 4_576 ?
+Se5 Eu1 Eu1 108.30(2) . 4_576 ?
+K1 Eu1 Eu1 86.19(3) . 4_576 ?
+Eu1 Eu1 Eu1 170.10(3) 4_575 4_576 ?
+Ge1 Se2 Eu1 92.23(4) . . ?
+Ge1 Se2 Eu1 91.55(4) . 2_655 ?
+Eu1 Se2 Eu1 120.07(3) . 2_655 ?
+Ge1 Se2 K1 83.02(5) . 3_675 ?
+Eu1 Se2 K1 101.71(5) . 3_675 ?
+Eu1 Se2 K1 138.08(5) 2_655 3_675 ?
+Ge1 Se2 Eu1 147.45(5) . 3_675 ?
+Eu1 Se2 Eu1 117.90(3) . 3_675 ?
+Eu1 Se2 Eu1 83.95(2) 2_655 3_675 ?
+K1 Se2 Eu1 79.19(4) 3_675 3_675 ?
+Ge1 Se3 Eu1 104.88(4) 4_575 . ?
+Ge1 Se3 K2 81.38(6) 4_575 . ?
+Eu1 Se3 K2 104.63(6) . . ?
+Ge1 Se3 Eu1 91.16(4) 4_575 4_575 ?
+Eu1 Se3 Eu1 88.26(3) . 4_575 ?
+K2 Se3 Eu1 166.37(7) . 4_575 ?
+Ge1 Se3 K1 148.87(6) 4_575 3_675 ?
+Eu1 Se3 K1 103.94(5) . 3_675 ?
+K2 Se3 K1 80.23(6) . 3_675 ?
+Eu1 Se3 K1 101.23(5) 4_575 3_675 ?
+Ge1 Se4 K1 156.51(6) . 1_455 ?
+Ge1 Se4 K1 84.31(6) . 3_675 ?
+K1 Se4 K1 108.75(6) 1_455 3_675 ?
+Ge1 Se4 K2 103.78(7) . 2 ?
+K1 Se4 K2 79.27(7) 1_455 2 ?
+K1 Se4 K2 139.50(7) 3_675 2 ?
+Ge1 Se4 K2 92.77(6) . . ?
+K1 Se4 K2 72.06(7) 1_455 . ?
+K1 Se4 K2 77.42(6) 3_675 . ?
+K2 Se4 K2 139.99(6) 2 . ?
+Ge1 Se4 K2 70.63(6) . 4_576 ?
+K1 Se4 K2 88.58(7) 1_455 4_576 ?
+K1 Se4 K2 144.53(7) 3_675 4_576 ?
+K2 Se4 K2 72.77(7) 2 4_576 ?
+K2 Se4 K2 79.11(3) . 4_576 ?
+Ge1 Se4 K2 131.22(6) . 3_575 ?
+K1 Se4 K2 72.25(6) 1_455 3_575 ?
+K1 Se4 K2 67.01(6) 3_675 3_575 ?
+K2 Se4 K2 78.89(4) 2 3_575 ?
+K2 Se4 K2 116.51(5) . 3_575 ?
+K2 Se4 K2 148.31(4) 4_576 3_575 ?
+Se5 Se1 Eu1 112.51(4) 3_665 . ?
+Se5 Se1 Eu1 75.61(4) 3_665 3_665 ?
+Eu1 Se1 Eu1 104.66(3) . 3_665 ?
+Se5 Se1 K1 75.59(6) 3_665 2_645 ?
+Eu1 Se1 K1 107.02(5) . 2_645 ?
+Eu1 Se1 K1 143.35(6) 3_665 2_645 ?
+Se5 Se1 Eu1 121.15(4) 3_665 2_645 ?
+Eu1 Se1 Eu1 126.32(3) . 2_645 ?
+Eu1 Se1 Eu1 90.11(3) 3_665 2_645 ?
+K1 Se1 Eu1 85.78(5) 2_645 2_645 ?
+Ge1 Se5 Se1 104.59(5) 2_645 3_665 ?
+Ge1 Se5 K1 109.13(6) 2_645 . ?
+Se1 Se5 K1 124.53(6) 3_665 . ?
+Ge1 Se5 Eu1 85.69(4) 2_645 . ?
+Se1 Se5 Eu1 61.77(3) 3_665 . ?
+K1 Se5 Eu1 78.19(5) . . ?
+Ge1 Se5 K1 128.42(6) 2_645 4_575 ?
+Se1 Se5 K1 61.84(5) 3_665 4_575 ?
+K1 Se5 K1 119.27(6) . 4_575 ?
+Eu1 Se5 K1 119.48(5) . 4_575 ?
+Ge1 Se5 K2 95.00(6) 2_645 1_655 ?
+Se1 Se5 K2 149.10(6) 3_665 1_655 ?
+K1 Se5 K2 68.39(6) . 1_655 ?
+Eu1 Se5 K2 144.87(5) . 1_655 ?
+K1 Se5 K2 87.27(6) 4_575 1_655 ?
+Se4 Ge1 Se3 113.06(6) . 4_576 ?
+Se4 Ge1 Se2 116.72(6) . . ?
+Se3 Ge1 Se2 104.83(5) 4_576 . ?
+Se4 Ge1 Se5 98.66(5) . 2_655 ?
+Se3 Ge1 Se5 114.00(5) 4_576 2_655 ?
+Se2 Ge1 Se5 109.87(6) . 2_655 ?
+Se4 Ge1 K2 72.86(6) . 4_576 ?
+Se3 Ge1 K2 59.97(5) 4_576 4_576 ?
+Se2 Ge1 K2 164.80(6) . 4_576 ?
+Se5 Ge1 K2 78.70(6) 2_655 4_576 ?
+Se4 Ge1 K1 58.45(5) . 3_675 ?
+Se3 Ge1 K1 117.38(6) 4_576 3_675 ?
+Se2 Ge1 K1 59.53(5) . 3_675 ?
+Se5 Ge1 K1 128.53(6) 2_655 3_675 ?
+K2 Ge1 K1 125.51(6) 4_576 3_675 ?
+Se1 K1 Se4 130.88(8) 2_655 1_655 ?
+Se1 K1 Se3 75.18(6) 2_655 3_675 ?
+Se4 K1 Se3 95.81(6) 1_655 3_675 ?
+Se1 K1 Se4 155.63(9) 2_655 3_675 ?
+Se4 K1 Se4 71.25(6) 1_655 3_675 ?
+Se3 K1 Se4 94.40(6) 3_675 3_675 ?
+Se1 K1 Se2 81.91(6) 2_655 3_675 ?
+Se4 K1 Se2 143.50(8) 1_655 3_675 ?
+Se3 K1 Se2 75.58(5) 3_675 3_675 ?
+Se4 K1 Se2 74.11(5) 3_675 3_675 ?
+Se1 K1 Se5 92.45(6) 2_655 . ?
+Se4 K1 Se5 114.74(7) 1_655 . ?
+Se3 K1 Se5 146.98(8) 3_675 . ?
+Se4 K1 Se5 84.49(6) 3_675 . ?
+Se2 K1 Se5 72.39(5) 3_675 . ?
+Se1 K1 Se5 42.57(4) 2_655 4_576 ?
+Se4 K1 Se5 92.51(6) 1_655 4_576 ?
+Se3 K1 Se5 95.56(6) 3_675 4_576 ?
+Se4 K1 Se5 161.74(8) 3_675 4_576 ?
+Se2 K1 Se5 123.29(7) 3_675 4_576 ?
+Se5 K1 Se5 95.31(6) . 4_576 ?
+Se1 K1 Ge1 118.40(7) 2_655 3_675 ?
+Se4 K1 Ge1 106.41(6) 1_655 3_675 ?
+Se3 K1 Ge1 79.00(5) 3_675 3_675 ?
+Se4 K1 Ge1 37.24(3) 3_675 3_675 ?
+Se2 K1 Ge1 37.45(3) 3_675 3_675 ?
+Se5 K1 Ge1 80.50(5) . 3_675 ?
+Se5 K1 Ge1 160.68(8) 4_576 3_675 ?
+Se1 K1 K2 134.76(8) 2_655 1_655 ?
+Se4 K1 K2 55.76(6) 1_655 1_655 ?
+Se3 K1 K2 147.09(8) 3_675 1_655 ?
+Se4 K1 K2 62.86(6) 3_675 1_655 ?
+Se2 K1 K2 116.10(8) 3_675 1_655 ?
+Se5 K1 K2 59.18(6) . 1_655 ?
+Se5 K1 K2 101.37(7) 4_576 1_655 ?
+Ge1 K1 K2 92.69(7) 3_675 1_655 ?
+Se1 K1 K2 124.21(7) 2_655 3_675 ?
+Se4 K1 K2 59.81(6) 1_655 3_675 ?
+Se3 K1 K2 49.52(5) 3_675 3_675 ?
+Se4 K1 K2 52.76(5) 3_675 3_675 ?
+Se2 K1 K2 89.96(7) 3_675 3_675 ?
+Se5 K1 K2 137.06(8) . 3_675 ?
+Se5 K1 K2 126.34(7) 4_576 3_675 ?
+Ge1 K1 K2 63.44(5) 3_675 3_675 ?
+K2 K1 K2 98.23(7) 1_655 3_675 ?
+Se1 K1 K2 83.86(6) 2_655 2_655 ?
+Se4 K1 K2 51.39(5) 1_655 2_655 ?
+Se3 K1 K2 61.62(6) 3_675 2_655 ?
+Se4 K1 K2 110.89(7) 3_675 2_655 ?
+Se2 K1 K2 137.05(8) 3_675 2_655 ?
+Se5 K1 K2 148.69(8) . 2_655 ?
+Se5 K1 K2 61.47(5) 4_576 2_655 ?
+Ge1 K1 K2 128.37(7) 3_675 2_655 ?
+K2 K1 K2 102.58(6) 1_655 2_655 ?
+K2 K1 K2 65.68(4) 3_675 2_655 ?
+Se1 K1 Eu1 47.12(4) 2_655 . ?
+Se4 K1 Eu1 161.16(7) 1_655 . ?
+Se3 K1 Eu1 100.66(6) 3_675 . ?
+Se4 K1 Eu1 116.11(6) 3_675 . ?
+Se2 K1 Eu1 51.42(4) 3_675 . ?
+Se5 K1 Eu1 52.10(4) . . ?
+Se5 K1 Eu1 76.92(5) 4_576 . ?
+Ge1 K1 Eu1 85.82(5) 3_675 . ?
+K2 K1 Eu1 110.51(6) 1_655 . ?
+K2 K1 Eu1 138.88(7) 3_675 . ?
+K2 K1 Eu1 130.91(7) 2_655 . ?
+Se3 K2 Se4 144.72(10) . 2_545 ?
+Se3 K2 Se4 92.46(7) . . ?
+Se4 K2 Se4 103.44(7) 2_545 . ?
+Se3 K2 Se5 144.22(9) . 1_455 ?
+Se4 K2 Se5 61.51(5) 2_545 1_455 ?
+Se4 K2 Se5 104.45(7) . 1_455 ?
+Se3 K2 Ge1 38.65(4) . 4_575 ?
+Se4 K2 Ge1 116.76(7) 2_545 4_575 ?
+Se4 K2 Ge1 131.02(8) . 4_575 ?
+Se5 K2 Ge1 118.46(8) 1_455 4_575 ?
+Se3 K2 Se4 67.33(5) . 4_575 ?
+Se4 K2 Se4 107.23(7) 2_545 4_575 ?
+Se4 K2 Se4 147.97(9) . 4_575 ?
+Se5 K2 Se4 82.66(6) 1_455 4_575 ?
+Ge1 K2 Se4 36.51(3) 4_575 4_575 ?
+Se3 K2 Se4 86.74(6) . 3_575 ?
+Se4 K2 Se4 128.54(8) 2_545 3_575 ?
+Se4 K2 Se4 63.49(5) . 3_575 ?
+Se5 K2 Se4 73.66(6) 1_455 3_575 ?
+Ge1 K2 Se4 105.73(7) 4_575 3_575 ?
+Se4 K2 Se4 89.77(6) 4_575 3_575 ?
+Se3 K2 K1 131.56(8) . 1_455 ?
+Se4 K2 K1 81.60(6) 2_545 1_455 ?
+Se4 K2 K1 52.18(5) . 1_455 ?
+Se5 K2 K1 52.43(5) 1_455 1_455 ?
+Ge1 K2 K1 154.34(9) 4_575 1_455 ?
+Se4 K2 K1 123.81(9) 4_575 1_455 ?
+Se4 K2 K1 50.13(5) 3_575 1_455 ?
+Se3 K2 K1 50.26(5) . 3_675 ?
+Se4 K2 K1 153.15(8) 2_545 3_675 ?
+Se4 K2 K1 49.82(5) . 3_675 ?
+Se5 K2 K1 121.38(8) 1_455 3_675 ?
+Ge1 K2 K1 86.28(6) 4_575 3_675 ?
+Se4 K2 K1 99.53(7) 4_575 3_675 ?
+Se4 K2 K1 47.94(5) 3_575 3_675 ?
+K1 K2 K1 81.77(7) 1_455 3_675 ?
+Se3 K2 K2 107.97(9) . 3_565 ?
+Se4 K2 K2 57.74(6) 2_545 3_565 ?
+Se4 K2 K2 159.31(11) . 3_565 ?
+Se5 K2 K2 60.47(7) 1_455 3_565 ?
+Ge1 K2 K2 69.32(7) 4_575 3_565 ?
+Se4 K2 K2 49.50(6) 4_575 3_565 ?
+Se4 K2 K2 119.51(11) 3_575 3_565 ?
+K1 K2 K2 112.11(10) 1_455 3_565 ?
+K1 K2 K2 148.96(11) 3_675 3_565 ?
+Se3 K2 K1 96.46(8) . 2_645 ?
+Se4 K2 K1 49.35(5) 2_545 2_645 ?
+Se4 K2 K1 104.35(8) . 2_645 ?
+Se5 K2 K1 109.11(7) 1_455 2_645 ?
+Ge1 K2 K1 83.80(6) 4_575 2_645 ?
+Se4 K2 K1 102.50(7) 4_575 2_645 ?
+Se4 K2 K1 167.63(8) 3_575 2_645 ?
+K1 K2 K1 121.43(7) 1_455 2_645 ?
+K1 K2 K1 126.80(9) 3_675 2_645 ?
+K2 K2 K1 70.91(8) 3_565 2_645 ?
+Se3 K2 K2 57.49(6) . 4_575 ?
+Se4 K2 K2 144.70(7) 2_545 4_575 ?
+Se4 K2 K2 101.10(9) . 4_575 ?
+Se5 K2 K2 88.04(4) 1_455 4_575 ?
+Ge1 K2 K2 60.49(5) 4_575 4_575 ?
+Se4 K2 K2 47.32(4) 4_575 4_575 ?
+Se4 K2 K2 46.30(5) 3_575 4_575 ?
+K1 K2 K2 94.04(7) 1_455 4_575 ?
+K1 K2 K2 57.58(7) 3_675 4_575 ?
+K2 K2 K2 92.84(9) 3_565 4_575 ?
+K1 K2 K2 144.23(8) 2_645 4_575 ?
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Eu1 Se1 3.1275(11) . ?
+Eu1 Se1 3.1684(11) 3_665 ?
+Eu1 Se3 3.1748(12) . ?
+Eu1 Se1 3.1747(11) 2_655 ?
+Eu1 Se2 3.2194(11) . ?
+Eu1 Se2 3.2715(11) 2_645 ?
+Eu1 Se3 3.2722(12) 4_576 ?
+Eu1 Se2 3.4387(11) 3_675 ?
+Eu1 Se5 3.4833(12) . ?
+Eu1 K1 4.321(2) . ?
+Eu1 Eu1 4.4895(1) 4_575 ?
+Eu1 Eu1 4.4895(1) 4_576 ?
+Se2 Ge1 2.3561(15) . ?
+Se2 Eu1 3.2715(11) 2_655 ?
+Se2 K1 3.339(3) 3_675 ?
+Se2 Eu1 3.4387(11) 3_675 ?
+Se3 Ge1 2.3426(14) 4_575 ?
+Se3 K2 3.247(3) . ?
+Se3 Eu1 3.2722(12) 4_575 ?
+Se3 K1 3.283(2) 3_675 ?
+Se4 Ge1 2.339(2) . ?
+Se4 K1 3.280(3) 1_455 ?
+Se4 K1 3.293(3) 3_675 ?
+Se4 K2 3.378(3) 2 ?
+Se4 K2 3.432(3) . ?
+Se4 K2 3.756(3) 4_576 ?
+Se4 K2 3.818(3) 3_575 ?
+Se1 Se5 2.4354(15) 3_665 ?
+Se1 Eu1 3.1684(11) 3_665 ?
+Se1 K1 3.174(2) 2_645 ?
+Se1 Eu1 3.1747(11) 2_645 ?
+Se5 Ge1 2.4080(14) 2_645 ?
+Se5 Se1 2.4355(15) 3_665 ?
+Se5 K1 3.367(2) . ?
+Se5 K1 3.487(3) 4_575 ?
+Se5 K2 3.648(3) 1_655 ?
+Ge1 Se3 2.3426(14) 4_576 ?
+Ge1 Se5 2.4080(14) 2_655 ?
+Ge1 K2 3.708(3) 4_576 ?
+Ge1 K1 3.846(3) 3_675 ?
+K1 Se1 3.174(2) 2_655 ?
+K1 Se4 3.280(3) 1_655 ?
+K1 Se3 3.283(2) 3_675 ?
+K1 Se4 3.293(3) 3_675 ?
+K1 Se2 3.339(3) 3_675 ?
+K1 Se5 3.487(3) 4_576 ?
+K1 Ge1 3.846(3) 3_675 ?
+K1 K2 3.950(4) 1_655 ?
+K1 K2 4.207(3) 3_675 ?
+K1 K2 4.247(4) 2_655 ?
+K2 Se4 3.378(3) 2_545 ?
+K2 Se5 3.648(3) 1_455 ?
+K2 Ge1 3.708(3) 4_575 ?
+K2 Se4 3.756(3) 4_575 ?
+K2 Se4 3.818(3) 3_575 ?
+K2 K1 3.950(4) 1_455 ?
+K2 K1 4.207(3) 3_675 ?
+K2 K2 4.243(5) 3_565 ?
+K2 K1 4.247(4) 2_645 ?
+K2 K2 4.5847(11) 4_575 ?

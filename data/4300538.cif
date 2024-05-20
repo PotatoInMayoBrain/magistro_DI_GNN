@@ -1,0 +1,112 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-03-22 22:59:28 +0200 (Tue, 22 Mar 2016) $
+#$Revision: 179043 $
+#$URL: svn://www.crystallography.net/cod/cif/4/30/05/4300538.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_4300538
+loop_
+_publ_author_name
+'Halfen, Jason'
+'Phillips, James'
+_publ_section_title
+;
+Gas-Solid Structure Differences in Haloacetonitrile-BF3...
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_paper_doi               10.1021/ic051491x
+_journal_year                    2006
+_chemical_formula_sum            'C2 H2 B F3 I N'
+_chemical_formula_weight         234.76
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90.00
+_cell_angle_beta                 108.96(2)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            4
+_cell_length_a                   9.947(2)
+_cell_length_b                   8.240(1)
+_cell_length_c                   7.671(4)
+_cell_measurement_temperature    173(2)
+_cell_volume                     594.6(3)
+_diffrn_ambient_temperature      173(2)
+_exptl_crystal_density_diffrn    2.622
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               4300538
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+I1 I 0.09320(7) 0.13721(8) 0.78003(9) 0.0281(3) Uani 1 1 d . . .
+C1 C 0.3080(10) 0.0234(12) 0.6107(13) 0.019(2) Uani 1 1 d . . .
+C2 C 0.3045(11) 0.1045(12) 0.7754(14) 0.025(2) Uani 1 1 d . . .
+H2A H 0.3509 0.2118 0.7839 0.029 Uiso 1 1 calc R . .
+H2B H 0.3591 0.0401 0.8843 0.029 Uiso 1 1 calc R . .
+N1 N 0.3119(8) -0.0367(10) 0.4810(11) 0.0199(17) Uani 1 1 d . . .
+B1 B 0.3338(12) -0.1315(14) 0.3037(14) 0.021(2) Uani 1 1 d . . .
+F1 F 0.3708(7) -0.0089(8) 0.2067(8) 0.0335(15) Uani 1 1 d . . .
+F2 F 0.4377(6) -0.2396(7) 0.3761(8) 0.0307(14) Uani 1 1 d . . .
+F3 F 0.2060(7) -0.1980(9) 0.2101(9) 0.0410(17) Uani 1 1 d . . .
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+I1 0.0280(4) 0.0351(4) 0.0265(4) -0.0062(3) 0.0160(3) -0.0002(3)
+C1 0.017(5) 0.022(5) 0.021(5) 0.001(4) 0.010(4) -0.003(4)
+C2 0.026(5) 0.025(6) 0.028(5) -0.009(4) 0.016(4) 0.001(4)
+N1 0.023(4) 0.022(4) 0.018(4) 0.001(3) 0.011(3) 0.004(3)
+B1 0.022(6) 0.033(6) 0.016(5) -0.007(5) 0.013(4) -0.004(5)
+F1 0.041(4) 0.043(4) 0.024(3) 0.001(3) 0.020(3) -0.003(3)
+F2 0.024(3) 0.029(4) 0.038(4) 0.000(3) 0.010(3) 0.011(2)
+F3 0.034(4) 0.052(4) 0.042(4) -0.025(3) 0.018(3) -0.012(3)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+I1 C2 2.130(9) . ?
+C1 N1 1.124(11) . ?
+C1 C2 1.440(13) . ?
+N1 B1 1.643(12) . ?
+B1 F2 1.341(13) . ?
+B1 F3 1.356(13) . ?
+B1 F1 1.374(12) . ?

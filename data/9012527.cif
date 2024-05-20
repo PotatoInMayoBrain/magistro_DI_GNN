@@ -1,0 +1,102 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/25/9012527.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012527
+loop_
+_publ_author_name
+'Roca, M.'
+'Marcos, M. D.'
+'Amoros, P.'
+'Alamo, J.'
+'Beltran-Porter A'
+'Beltran-Porter D'
+_publ_section_title
+;Synthesis and crystal structure of a novel lamellar barium derivative:
+ Ba(VOPO4)2*4H2O. Synthetic pathways for layered oxovanadium phosphate
+ hydrates M(VOPO4)2*nH2O
+;
+_journal_name_full               'Inorganic Chemistry'
+_journal_page_first              3414
+_journal_page_last               3421
+_journal_paper_doi               10.1021/ic970166+
+_journal_volume                  36
+_journal_year                    1997
+_chemical_formula_sum            'Ba H8 O14 P2 V2'
+_chemical_name_mineral           Bariosincosite
+_space_group_IT_number           7
+_symmetry_space_group_name_Hall  'P -2yac'
+_symmetry_space_group_name_H-M   'P 1 n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.172
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   6.3860
+_cell_length_b                   12.7796
+_cell_length_c                   6.3870
+_cell_volume                     521.244
+_database_code_amcsd             0012720
+_exptl_crystal_density_diffrn    3.397
+_cod_original_formula_sum        'Ba V2 P2 O14 H8'
+_cod_database_code               9012527
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba1 -0.00050 0.75050 -0.00070 0.01600 Ba 0
+V1 0.27800 0.04440 -0.10510 0.01100 V 0
+V2 -0.10840 0.45580 -0.27480 0.01100 V 0
+P1 -0.11170 0.49990 0.22490 0.01000 P 0
+P2 -0.21900 0.00330 -0.10800 0.01000 P 0
+O1 0.08180 0.57180 0.23460 0.01400 O 0
+O2 0.36840 0.57020 -0.08170 0.01400 O 0
+O3 -0.22580 0.93110 0.08450 0.01500 O 0
+Wat4 -0.10640 0.26570 -0.30850 0.01600 O 2
+Wat5 -0.40070 0.75220 -0.16860 0.02200 O 2
+O6 -0.03230 0.07990 -0.09460 0.01400 O 0
+O7 -0.29980 0.57470 0.20290 0.01400 O 0
+Wat8 0.30010 0.22840 -0.10700 0.01800 O 2
+Wat9 0.15600 0.74560 -0.39430 0.02100 O 2
+O10 -0.10440 0.58040 -0.26250 0.01900 O 0
+O11 0.26350 0.91990 -0.09910 0.01700 O 0
+O12 -0.41470 0.07270 -0.12490 0.01400 O 0
+O13 -0.19980 0.92900 -0.29640 0.01500 O 0
+O14 -0.09630 0.42380 0.03610 0.01400 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:05+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012720

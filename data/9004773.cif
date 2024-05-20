@@ -1,0 +1,99 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-11-12 12:37:04 +0200 (Sun, 12 Nov 2023) $
+#$Revision: 287555 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/47/9004773.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9004773
+loop_
+_publ_author_name
+'Peterson, R. C.'
+_publ_section_title
+;
+ The relatinship between Cu content and distortion in the atomic structure
+ of melanterite from the Richmond mine, Iron Mountain, California
+ Sample: melant8
+ Locality: Richmond mine, Iron Mountain, California
+;
+_journal_name_full               'The Canadian Mineralogist'
+_journal_page_first              937
+_journal_page_last               949
+_journal_paper_doi               10.2113/gscanmin.41.4.937
+_journal_volume                  41
+_journal_year                    2003
+_chemical_formula_sum            'Fe H14 O11 S'
+_chemical_name_mineral           Melanterite
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 105.81
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   14.04
+_cell_length_b                   6.502
+_cell_length_c                   10.952
+_cell_volume                     961.966
+_exptl_crystal_density_diffrn    1.920
+_cod_depositor_comments
+;
+
+2017-09-06
+Z value inserted to be consistent with given formula
+Water oxygens renamed so they are recognized as oxygens
+                 miguel
+;
+_cod_original_formula_sum        'Fe S O11 H14'
+_cod_database_code               9004773
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,1/2+z
+-x,1/2+y,1/2-z
+-x,-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Fe1 0.00000 0.00000 0.00000 ? Fe 0
+Fe2 0.50000 0.00000 0.50000 ? Fe 0
+S 0.77320 -0.02890 0.32370 0.01930 S 0
+O1 0.79600 -0.02930 0.46380 0.02900 O 0
+O2 0.86340 0.03680 0.28910 0.03035 O 0
+O3 0.69180 0.11600 0.27270 0.03138 O 0
+O4 0.74470 -0.23600 0.27360 0.03329 O 0
+O5 -0.11170 -0.11700 0.06880 0.05241 O 0
+O6 0.10080 -0.04430 0.18300 0.03382 O 0
+O7 -0.03060 0.29640 0.06790 0.03003 O 0
+O8 0.51980 -0.04270 0.31930 0.03190 O 0
+O9 0.43110 0.28620 0.44110 0.03301 O 0
+O10 0.35340 -0.14070 0.44010 0.03317 O 0
+O11 0.36320 0.00560 0.11480 0.03638 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-18T11:38:26+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+_database_code_amcsd 0005866

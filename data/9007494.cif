@@ -1,0 +1,126 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-23 11:35:25 +0300 (Tue, 23 May 2023) $
+#$Revision: 283960 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/74/9007494.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_9007494
+loop_
+_publ_author_name
+'Sirdeshmukh D B'
+'Deshpande V T'
+_publ_section_title
+;
+ X-ray measurement of the thermal expansion of ammonium chloride
+ Sample: T = 54.0 C
+;
+_journal_issue                   2
+_journal_name_full               'Acta Crystallographica, Section A'
+_journal_page_first              295
+_journal_page_last               295
+_journal_paper_doi               10.1107/S0567739470000700
+_journal_volume                  26
+_journal_year                    1970
+_chemical_compound_source        Synthetic
+_chemical_formula_sum            'Cl N'
+_chemical_name_mineral           'Sal ammoniac'
+_space_group_IT_number           221
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.8822
+_cell_length_b                   3.8822
+_cell_length_c                   3.8822
+_cell_volume                     58.510
+_database_code_amcsd             0009320
+_diffrn_ambient_temperature      327.15
+_exptl_crystal_density_diffrn    1.404
+_cod_original_formula_sum        'N Cl'
+_cod_database_code               9007494
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+z,-x,y
+-y,z,-x
+x,-y,z
+-z,x,-y
+y,-z,x
+-x,y,-z
+x,-z,-y
+-z,y,x
+y,-x,-z
+-x,z,y
+z,-y,-x
+-y,x,z
+x,z,y
+-z,-y,-x
+y,x,z
+-x,-z,-y
+z,y,x
+-y,-x,-z
+z,x,-y
+-y,-z,x
+x,y,-z
+-z,-x,y
+y,z,-x
+-x,-y,z
+-z,x,y
+y,-z,-x
+-x,y,z
+z,-x,-y
+-y,z,x
+x,-y,-z
+-x,z,-y
+z,-y,x
+-y,x,-z
+x,-z,y
+-z,y,-x
+y,-x,z
+-x,-z,y
+z,y,-x
+-y,-x,z
+x,z,-y
+-z,-y,x
+y,x,-z
+-z,-x,-y
+y,z,x
+-x,-y,-z
+z,x,y
+-y,-z,-x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+NH4 0.00000 0.00000 0.00000 N 0
+Cl 0.50000 0.50000 0.50000 Cl 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:14:53+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009320

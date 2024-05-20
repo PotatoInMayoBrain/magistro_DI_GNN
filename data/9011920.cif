@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-28 16:36:49 +0300 (Sun, 28 May 2023) $
+#$Revision: 284046 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/19/9011920.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9011920
+loop_
+_publ_author_name
+'Pudovkina, Z. V.'
+'Pyatenko, Y. A.'
+_publ_section_title
+;
+ About the structure of the prosopite, Ca[Al2F4(OH)4], and about
+ some features of the fluoroaluminate crystal chemistry
+;
+_journal_name_full               'Doklady Akademii Nauk SSSR'
+_journal_page_first              665
+_journal_page_last               667
+_journal_volume                  190
+_journal_year                    1970
+_chemical_formula_sum            'Al2 Ca F4 H4 O4'
+_chemical_name_mineral           Prosopite
+_space_group_IT_number           15
+_symmetry_space_group_name_Hall  '-C 2yc'
+_symmetry_space_group_name_H-M   'C 1 2/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 95.00
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   6.76
+_cell_length_b                   11.12
+_cell_length_c                   7.32
+_cell_volume                     548.159
+_database_code_amcsd             0012448
+_exptl_crystal_density_diffrn    2.885
+_cod_original_formula_sum        'Ca Al2 F4 (O4 H4)'
+_cod_database_code               9011920
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,1/2+z
+1/2+x,1/2-y,1/2+z
+-x,y,1/2-z
+1/2-x,1/2+y,1/2-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca 0.00000 0.46100 0.25000 0.00785 Ca 0
+AlI 0.25000 0.25000 0.00000 0.00785 Al 0
+AlII 0.00000 0.14300 0.25000 0.00785 Al 0
+FI 0.07700 0.38200 0.96500 0.00785 F 0
+FII 0.18200 0.02100 0.28500 0.00785 F 0
+O-HI 0.20100 0.26400 0.25700 0.00785 O 0
+O-HII 0.02300 0.15000 0.99700 0.00785 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9581 2023-05-17 12:35:41Z saulius
+;
+2023-05-23T09:24:40+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012448

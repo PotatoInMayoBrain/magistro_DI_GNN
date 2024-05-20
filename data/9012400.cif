@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/24/9012400.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9012400
+loop_
+_publ_author_name
+'Kolitsch, U.'
+'Pring, A.'
+'Tiekink, E. R. T.'
+_publ_section_title
+;Johntomaite, a new member of the bjarebyite group of barium phosphates:
+ description and structure refinement Locality: Spring Creek copper mine,
+ southern Flinders Ranges, South Australia
+;
+_journal_name_full               'Mineralogy and Petrology'
+_journal_page_first              1
+_journal_page_last               14
+_journal_paper_doi               10.1007/s007100070009
+_journal_volume                  70
+_journal_year                    2000
+_chemical_compound_source
+'Spring Creek copper mine, southern Flinders Ranges, South Australia'
+_chemical_formula_sum            'Ba Ca0.3 Fe3.7 H3 O15 P3'
+_chemical_name_mineral           Johntomaite
+_space_group_IT_number           11
+_symmetry_space_group_name_Hall  '-P 2yb'
+_symmetry_space_group_name_H-M   'P 1 21/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 100.21
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   9.200
+_cell_length_b                   12.369
+_cell_length_c                   5.003
+_cell_volume                     560.300
+_database_code_amcsd             0014643
+_exptl_crystal_density_diffrn    4.101
+_cod_original_formula_sum        'Ba Fe3.7 Ca.3 P3 O15 H3'
+_cod_database_code               9012400
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x,1/2-y,z
+-x,1/2+y,-z
+-x,-y,-z
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba 0.00960 0.01630 0.00930 0.00000 0.00210 0.00000
+Fe1 0.00900 0.01230 0.01280 0.00080 0.00220 0.00013
+Ca 0.00900 0.01230 0.01280 0.00080 0.00220 0.00013
+Fe2 0.00810 0.01060 0.00740 0.00000 0.00260 -0.00010
+P1 0.00640 0.01220 0.00460 0.00000 0.00200 0.00000
+P2 0.00730 0.01210 0.00480 0.00040 0.00120 0.00040
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ba 0.54487 0.75000 0.73958 1.00000 0.01170 Ba 0
+Fe1 0.29720 -0.10945 0.20860 0.85000 0.01140 Fe 0
+Ca 0.29720 -0.10945 0.20860 0.15000 0.01140 Ca 0
+Fe2 0.09465 0.39959 0.13620 1.00000 0.00850 Fe 0
+P1 0.16020 0.75000 0.68090 1.00000 0.00760 P 0
+P2 0.33800 0.44172 0.71170 1.00000 0.00800 P 0
+O1 0.27550 0.75000 0.94100 1.00000 0.02200 O 0
+O2 0.24000 0.75000 0.43800 1.00000 0.00950 O 0
+O3 0.06260 0.64900 0.67420 1.00000 0.01310 O 0
+O4 0.37150 0.55290 0.61100 1.00000 0.01480 O 0
+O5 0.26790 0.45510 0.97450 1.00000 0.01370 O 0
+O6 0.23060 0.38160 0.49130 1.00000 0.01480 O 0
+O7 0.47440 0.37020 0.79000 1.00000 0.01190 O 0
+O-H8 0.13340 0.25000 0.00100 1.00000 0.01300 O 1
+O-H9 0.06220 0.56030 0.19300 1.00000 0.00970 O 1
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:54:01+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014643

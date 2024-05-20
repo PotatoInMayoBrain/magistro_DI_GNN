@@ -1,0 +1,124 @@
+#------------------------------------------------------------------------------
+#$Date: 2021-11-08 19:06:56 +0200 (Mon, 08 Nov 2021) $
+#$Revision: 270524 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/79/1557930.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1557930
+loop_
+_publ_author_name
+'Xiao, W.'
+'Tan, D.'
+'Zhou, W.'
+'Liu, J.'
+'Xu, J.'
+_publ_section_title
+;
+ Cubic perovskite polymorph of strontium metasilicate at high pressures
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              2096
+_journal_page_last               2104
+_journal_paper_doi               10.2138/am.2013.4470
+_journal_volume                  98
+_journal_year                    2013
+_chemical_formula_sum            'O3 Si Sr'
+_chemical_name_common            SrSiO3
+_chemical_name_mineral           'SrSiO3 cubic perovskite at 37.8 GPa'
+_space_group_IT_number           221
+_space_group_name_Hall           '-P 4 2 3'
+_space_group_name_H-M_alt        'P m -3 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            1
+_cell_length_a                   3.5034(7)
+_cell_length_b                   3.5034(7)
+_cell_length_c                   3.5034(7)
+_cell_volume                     43.000(15)
+_diffrn_ambient_pressure         37800000
+_diffrn_ambient_temperature      298
+_cod_data_source_file            SrSiO3-37.8GPa.cif
+_cod_data_source_block           SrSiO3-perovskite
+_cod_original_formula_sum        'Sr Si O3'
+_cod_database_code               1557930
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+3 -x,-y,z
+4 x,y,-z
+5 -x,y,-z
+6 x,-y,z
+7 x,-y,-z
+8 -x,y,z
+9 z,x,y
+10 -z,-x,-y
+11 z,-x,-y
+12 -z,x,y
+13 -z,-x,y
+14 z,x,-y
+15 -z,x,-y
+16 z,-x,y
+17 y,z,x
+18 -y,-z,-x
+19 -y,z,-x
+20 y,-z,x
+21 y,-z,-x
+22 -y,z,x
+23 -y,-z,x
+24 y,z,-x
+25 y,x,-z
+26 -y,-x,z
+27 -y,-x,-z
+28 y,x,z
+29 y,-x,z
+30 -y,x,-z
+31 -y,x,z
+32 y,-x,-z
+33 x,z,-y
+34 -x,-z,y
+35 -x,z,y
+36 x,-z,-y
+37 -x,-z,-y
+38 x,z,y
+39 x,-z,y
+40 -x,z,-y
+41 z,y,-x
+42 -z,-y,x
+43 z,-y,x
+44 -z,y,-x
+45 -z,y,x
+46 z,-y,-x
+47 -z,-y,-x
+48 z,y,x
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_B_iso_or_equiv
+_atom_site_type_symbol
+Sr1 1.0 0.000000 0.000000 0.000000 Biso 1.000000 Sr
+Si1 1.0 0.500000 0.500000 0.500000 Biso 1.000000 Si
+O1 1.0 0.500000 0.500000 0.000000 Biso 1.000000 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2021-11-08T19:00:00+03:00
+;
+ Corrected the '_diffrn_ambient_pressure' data item value by changing it
+ from 3780 GPa to 37.8 GPa. Note, that values of this data item are measured
+ in kPa and not Pa.
+;
