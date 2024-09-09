@@ -1,0 +1,8 @@
+conv_layers = [GATConv, GATConv, GATConv]
+num_layers = len(conv_layers)
+hidden_channels = [167,194,775]
+num_classes = 7
+dropout_rate = 0.12
+fc_out_channels = [2642,1501,358]
+lr = 0.00863
+w_dec = 1.775e-06

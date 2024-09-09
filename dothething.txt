@@ -1,0 +1,38 @@
+Step 1: Data Preparation
+Graph Construction: For each crystal, construct a graph where nodes represent atoms and edges represent distances between atoms. The adjacency matrix encodes these distances.
+
+Feature Engineering:
+
+Node Features: Include atomic properties (e.g., atomic number, electronegativity) as node features.
+Graph Features: Include crystal properties (e.g., lattice parameters, volume, charge, lattice angles) as graph-level features.
+Labels: Prepare labels for your tasks. For structure parameter prediction, labels could be the actual parameters. For space group classification, labels are the space group categories.
+
+Step 2: Model Design
+Graph Neural Network (GNN) Architecture:
+
+Use a GNN layer (e.g., Graph Convolutional Network (GCN), Graph Attention Network (GAT)) to process the graph structure and node features.
+Aggregate node features to a graph-level representation using a readout layer (e.g., global average pooling).
+Incorporating Graph Features:
+
+After the GNN layers, concatenate the graph-level representation with the graph features (crystal properties).
+Output Layers:
+
+For structure parameter prediction, add a regression output layer tailored to predict continuous values.
+For space group classification, add a classification output layer with a softmax function to predict the space group category.
+Step 3: Training the Model
+Loss Function:
+
+Use Mean Squared Error (MSE) or Mean Absolute Error (MAE) for the regression task.
+Use Cross-Entropy Loss for the classification task.
+Data Splitting: Split your data into training, validation, and test sets to evaluate the model's performance.
+
+Training Process: Train your model using the training set, and validate its performance on the validation set. Adjust hyperparameters based on validation performance.
+
+Step 4: Evaluation and Iteration
+Evaluation Metrics:
+
+For regression, use metrics like MSE, MAE, or R-squared.
+For classification, use accuracy, precision, recall, and F1-score.
+Analysis: Analyze the model's predictions to identify areas of improvement. This might involve adjusting the model architecture, re-engineering features, or adding more data.
+
+Iteration: Iterate over the model design and training process based on evaluation results until satisfactory performance is achieved.
