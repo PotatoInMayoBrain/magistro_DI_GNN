@@ -1,1 +1,0 @@
-  764  (set -x; directory-metadata; mysql -u cod_reader -h sql.crystallography.net cod -e "select file, sgNumber from data where file in ($(awk -F, "NR > 1 {print \$1}" crystals-with-3486-distances.csv | awk -F_ "{print \$1}" | tr "\\n" "," | sed "s/,\$//"))" -NB | perl -pe 's/\t/,/' > spacegroups.csv ) &> spacegroups.csv.log
